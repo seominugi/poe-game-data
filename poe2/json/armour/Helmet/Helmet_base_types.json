@@ -1,0 +1,7978 @@
+[
+  {
+    "id": "golden-wreath",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Golden Wreath",
+      "kr": "황금 화관",
+      "tw": "金黃花環",
+      "ru": "Золотой венок",
+      "jp": "黄金の花冠"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllAttributesImplicitWreath1",
+        "lines": [
+          {
+            "stat": "additional_all_attributes",
+            "value": "16~24",
+            "text": {
+              "en": "16~24 to all Attributes",
+              "kr": "모든 능력치 16~24",
+              "tw": "16~24點全部能力值",
+              "ru": "16~24 ко всем характеристикам",
+              "jp": "全ての能力値 16~24"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-visage",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Golden Visage",
+      "kr": "황금 얼굴",
+      "tw": "黃金面紗",
+      "ru": "Золотой лик",
+      "jp": "黄金の顔飾り"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplictHelmetDemigods1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8~16",
+            "text": {
+              "en": "8~16% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8~16%",
+              "tw": "8~16%全元素抗性",
+              "ru": "8~16% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8~16%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rusted-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Rusted Greathelm",
+      "kr": "녹슨 대헬름",
+      "tw": "鏽蝕巨盔",
+      "ru": "Ржавый большой шлем",
+      "jp": "錆びたグレートヘルム"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 29,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "soldier-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Soldier Greathelm",
+      "kr": "병사 대헬름",
+      "tw": "士兵巨盔",
+      "ru": "Большой шлем солдата",
+      "jp": "兵士のグレートヘルム"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wrapped-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Wrapped Greathelm",
+      "kr": "싸맨 대헬름",
+      "tw": "纏繞巨盔",
+      "ru": "Обмотанный большой шлем",
+      "jp": "巻き布のグレートヘルム"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 99,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spired-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Spired Greathelm",
+      "kr": "첨탑 대헬름",
+      "tw": "尖頂巨盔",
+      "ru": "Остроконечный большой шлем",
+      "jp": "尖塔のグレートヘルム"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 149,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elite-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Elite Greathelm",
+      "kr": "정예병 대헬름",
+      "tw": "菁英巨盔",
+      "ru": "Большой шлем элиты",
+      "jp": "精鋭のグレートヘルム"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 177,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "warrior-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Warrior Greathelm",
+      "kr": "전사 대헬름",
+      "tw": "戰士巨盔",
+      "ru": "Большой шлем воина",
+      "jp": "戦士のグレートヘルム"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "armour",
+      "armour": 191,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "commander-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Commander Greathelm",
+      "kr": "지휘관 대헬름",
+      "tw": "指揮官巨盔",
+      "ru": "Большой шлем командира",
+      "jp": "指揮官のグレートヘルム"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 233,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fierce-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Fierce Greathelm",
+      "kr": "흉악한 대헬름",
+      "tw": "兇猛巨盔",
+      "ru": "Свирепый большой шлем",
+      "jp": "獰猛なグレートヘルム"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 260,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sentinel-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Sentinel Greathelm",
+      "kr": "파수꾼 대헬름",
+      "tw": "守望巨盔",
+      "ru": "Большой шлем часового",
+      "jp": "歩哨のグレートヘルム"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 265,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "goliath-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Goliath Greathelm",
+      "kr": "골리앗 대헬름",
+      "tw": "巨靈巨盔",
+      "ru": "Большой шлем голиафа",
+      "jp": "ゴライアスのグレートヘルム"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "armour",
+      "armour": 288,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "guardian-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Guardian Greathelm",
+      "kr": "수호병 대헬름",
+      "tw": "守護者巨盔",
+      "ru": "Большой шлем стража",
+      "jp": "守護者のグレートヘルム"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 325,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shabby-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Shabby Hood",
+      "kr": "허름한 두건",
+      "tw": "破舊兜帽",
+      "ru": "Потрёпанный капюшон",
+      "jp": "擦り切れたフード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 19,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "felt-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Felt Cap",
+      "kr": "펠트 모자",
+      "tw": "毛氈便帽",
+      "ru": "Войлочная шляпа",
+      "jp": "フェルトの帽子"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 58,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lace-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Lace Hood",
+      "kr": "레이스 두건",
+      "tw": "綁帶兜帽",
+      "ru": "Вышитый капюшон",
+      "jp": "レースのフード"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 84,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "swathed-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Swathed Cap",
+      "kr": "뒤덮인 모자",
+      "tw": "裹頭便帽",
+      "ru": "Капюшон с куфией",
+      "jp": "巻き布の帽子"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 127,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hunter-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Hunter Hood",
+      "kr": "사냥꾼 두건",
+      "tw": "獵者之兜",
+      "ru": "Капюшон охотника",
+      "jp": "狩人のフード"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 158,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "viper-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Viper Cap",
+      "kr": "독사 모자",
+      "tw": "毒蛇便帽",
+      "ru": "Голова гадюки",
+      "jp": "毒蛇の帽子"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 179,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "corsair-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Corsair Cap",
+      "kr": "해적 모자",
+      "tw": "海盜便帽",
+      "ru": "Треуголка корсара",
+      "jp": "コルセアの帽子"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 210,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "leatherbound-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Leatherbound Hood",
+      "kr": "가죽묶음 두건",
+      "tw": "皮革兜帽",
+      "ru": "Кожаный капюшон",
+      "jp": "皮張りのフード"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 231,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "velvet-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Velvet Cap",
+      "kr": "벨벳 모자",
+      "tw": "天鵝絨便帽",
+      "ru": "Бархатная шляпа",
+      "jp": "ベルベットの帽子"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 240,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "covert-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Covert Hood",
+      "kr": "은밀한 두건",
+      "tw": "隱蔽兜帽",
+      "ru": "Капюшон агента",
+      "jp": "隠密のフード"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 257,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "armoured-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Armoured Cap",
+      "kr": "장갑을 두른 모자",
+      "tw": "裝甲便帽",
+      "ru": "Защитный капюшон",
+      "jp": "装甲帽子"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 296,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "twig-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Twig Circlet",
+      "kr": "잔가지 관",
+      "tw": "嫩枝頭環",
+      "ru": "Венок из ветвей",
+      "jp": "小枝のサークレット"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wicker-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Wicker Tiara",
+      "kr": "고리버들 티아라",
+      "tw": "枝條頭冠",
+      "ru": "Тиара из прутьев",
+      "jp": "枝編みのティアラ"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 29,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "beaded-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Beaded Circlet",
+      "kr": "구슬 관",
+      "tw": "串珠頭環",
+      "ru": "Обруч с чётками",
+      "jp": "ビーズのサークレット"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 35,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "chain-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Chain Tiara",
+      "kr": "사슬 티아라",
+      "tw": "鎖鍊頭冠",
+      "ru": "Цепная тиара",
+      "jp": "鎖のティアラ"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 47,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "feathered-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Feathered Tiara",
+      "kr": "깃털 티아라",
+      "tw": "羽毛頭冠",
+      "ru": "Тиара с перьями",
+      "jp": "羽根付きのティアラ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 54,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gold-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Gold Circlet",
+      "kr": "황금 관",
+      "tw": "黃金頭環",
+      "ru": "Венец из золота",
+      "jp": "金のサークレット"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 62,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vermeil-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Vermeil Circlet",
+      "kr": "버메일 관",
+      "tw": "鍍金頭環",
+      "ru": "Вермелевый обруч",
+      "jp": "ヴァーミルサークレット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 68,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "jade-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Jade Tiara",
+      "kr": "비취 티아라",
+      "tw": "翠玉頭冠",
+      "ru": "Нефритовая тиара",
+      "jp": "翡翠のティアラ"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 73,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "noble-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Noble Circlet",
+      "kr": "귀족 관",
+      "tw": "貴族頭環",
+      "ru": "Венец аристократа",
+      "jp": "貴族のサークレット"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 76,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "twilight-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Twilight Tiara",
+      "kr": "황혼 티아라",
+      "tw": "暮光頭冠",
+      "ru": "Сумеречная тиара",
+      "jp": "黄昏のティアラ"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 82,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "magus-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Magus Tiara",
+      "kr": "신관 티아라",
+      "tw": "瑪格思頭冠",
+      "ru": "Тиара волшебника",
+      "jp": "魔導士のティアラ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 90,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "brimmed-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Brimmed Helm",
+      "kr": "챙 헬름",
+      "tw": "邊緣之盔",
+      "ru": "Шлем с полями",
+      "jp": "つば付き兜"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 26,
+      "evasion": 20,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "guarded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Guarded Helm",
+      "kr": "보호받는 헬름",
+      "tw": "警惕之盔",
+      "ru": "Шлем с забралом",
+      "jp": "防護兜"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 42,
+      "evasion": 34,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "visored-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Visored Helm",
+      "kr": "차양 단 헬름",
+      "tw": "假面之盔",
+      "ru": "Шлем с козырьком",
+      "jp": "バイザー付き兜"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 54,
+      "evasion": 46,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cowled-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Cowled Helm",
+      "kr": "고깔 헬름",
+      "tw": "斗篷之盔",
+      "ru": "Шлем с капюшоном",
+      "jp": "頭巾付き兜"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 70,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shielded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Shielded Helm",
+      "kr": "차폐 헬름",
+      "tw": "庇護之盔",
+      "ru": "Шлем с горжетом",
+      "jp": "盾付き兜"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 97,
+      "evasion": 87,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "closed-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Closed Helm",
+      "kr": "폐쇄형 헬름",
+      "tw": "緊閉之盔",
+      "ru": "Закрытый шлем",
+      "jp": "クローズヘルム"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 128,
+      "evasion": 115,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "decorated-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Decorated Helm",
+      "kr": "장식된 헬름",
+      "tw": "裝飾之盔",
+      "ru": "Украшенный шлем",
+      "jp": "装飾兜"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 146,
+      "evasion": 132,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gallant-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Gallant Helm",
+      "kr": "용맹한 헬름",
+      "tw": "無畏之盔",
+      "ru": "Шлем героя",
+      "jp": "勇士のヘルム"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 163,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancient-visor",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Ancient Visor",
+      "kr": "고대 차양",
+      "tw": "遠古護面盔",
+      "ru": "Древний забранный шлем",
+      "jp": "古代のバイザー"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 163,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "iron-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Iron Crown",
+      "kr": "철 왕관",
+      "tw": "鍛鐵之冠",
+      "ru": "Железная корона",
+      "jp": "鉄の冠"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 26,
+      "evasion": 0,
+      "energyShield": 13,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "horned-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Horned Crown",
+      "kr": "뿔 달린 왕관",
+      "tw": "犄角之冠",
+      "ru": "Корона с рогами",
+      "jp": "角の冠"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 39,
+      "evasion": 0,
+      "energyShield": 16,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cultist-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Cultist Crown",
+      "kr": "광신자 왕관",
+      "tw": "教徒之冠",
+      "ru": "Корона культиста",
+      "jp": "カルト信者の冠"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 54,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "martyr-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Martyr Crown",
+      "kr": "순교자 왕관",
+      "tw": "殉難之冠",
+      "ru": "Корона мученика",
+      "jp": "殉教者の冠"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 85,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "heavy-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Heavy Crown",
+      "kr": "무거운 왕관",
+      "tw": "沉重之冠",
+      "ru": "Тяжёлая корона",
+      "jp": "重装の冠"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 97,
+      "evasion": 0,
+      "energyShield": 30,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spiritbone-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Spiritbone Crown",
+      "kr": "혼백뼈 왕관",
+      "tw": "魂骨之冠",
+      "ru": "Корона из костей духа",
+      "jp": "スピリットボーンの冠"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 128,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lavish-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Lavish Crown",
+      "kr": "아낌없는 왕관",
+      "tw": "奢華之冠",
+      "ru": "Богатая корона",
+      "jp": "豪華な冠"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 146,
+      "evasion": 0,
+      "energyShield": 42,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "archon-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Archon Crown",
+      "kr": "집정관 왕관",
+      "tw": "統治者之冠",
+      "ru": "Корона архонта",
+      "jp": "アルコンの冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 0,
+      "energyShield": 50,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tenebrous-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Tenebrous Crown",
+      "kr": "어둑한 왕관",
+      "tw": "幽暗寶冠",
+      "ru": "Тусклая корона",
+      "jp": "暗影の冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 0,
+      "energyShield": 50,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hewn-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Hewn Mask",
+      "kr": "깎아낸 가면",
+      "tw": "粗製之面",
+      "ru": "Обтёсанная маска",
+      "jp": "粗削りの仮面"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 20,
+      "energyShield": 13,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "face-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Face Mask",
+      "kr": "얼굴 가면",
+      "tw": "護臉之面",
+      "ru": "Лицевая маска",
+      "jp": "フェースマスク"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 32,
+      "energyShield": 16,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hooded-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Hooded Mask",
+      "kr": "두건 가면",
+      "tw": "風帽之面",
+      "ru": "Маска с капюшоном",
+      "jp": "フード付きの仮面"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 46,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "veiled-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Veiled Mask",
+      "kr": "장막 가면",
+      "tw": "隱匿之面",
+      "ru": "Маска с вуалью",
+      "jp": "ベール付きの仮面"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 75,
+      "energyShield": 27,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tribal-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Tribal Mask",
+      "kr": "부족 가면",
+      "tw": "部落之面",
+      "ru": "Племенная маска",
+      "jp": "部族の仮面"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 87,
+      "energyShield": 30,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "solid-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Solid Mask",
+      "kr": "단단한 가면",
+      "tw": "堅固之面",
+      "ru": "Цельная маска",
+      "jp": "頑丈な仮面"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 115,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shaded-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Shaded Mask",
+      "kr": "그늘 가면",
+      "tw": "陰影之面",
+      "ru": "Маска тени",
+      "jp": "遮光の仮面"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 132,
+      "energyShield": 42,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "death-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Death Mask",
+      "kr": "죽음 가면",
+      "tw": "死亡之面",
+      "ru": "Маска смерти",
+      "jp": "デスマスク"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 163,
+      "energyShield": 50,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grand-visage",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Grand Visage",
+      "kr": "우수한 얼굴",
+      "tw": "宏偉面紗",
+      "ru": "Великолепный лик",
+      "jp": "大いなる顔飾り"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 119,
+      "evasion": 109,
+      "energyShield": 33,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "golden-visage",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Golden Visage",
+      "kr": "황금 얼굴",
+      "tw": "黃金面紗",
+      "ru": "Золотой лик",
+      "jp": "黄金の顔飾り"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "corroded-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Corroded Greathelm",
+      "kr": "부식된 대헬름",
+      "tw": "腐蝕巨盔",
+      "ru": "Поржавелый большой шлем",
+      "jp": "腐食したグレートヘルム"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 233,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mercenary-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Mercenary Greathelm",
+      "kr": "용병 대헬름",
+      "tw": "傭兵巨盔",
+      "ru": "Большой шлем наёмника",
+      "jp": "傭兵のグレートヘルム"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 246,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "homeguard-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Homeguard Greathelm",
+      "kr": "의용병 대헬름",
+      "tw": "家園守衛巨盔",
+      "ru": "Большой шлем пустынного стража",
+      "jp": "ホームガードのグレートヘルム"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 260,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Elegant Greathelm",
+      "kr": "우아한 대헬름",
+      "tw": "優雅巨盔",
+      "ru": "Элегантный большой шлем",
+      "jp": "エレガントグレートヘルム"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 274,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "noble-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Noble Greathelm",
+      "kr": "귀족 대헬름",
+      "tw": "高貴巨盔",
+      "ru": "Большой шлем дворянина",
+      "jp": "貴族のグレートヘルム"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 297,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rotted-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Rotted Hood",
+      "kr": "썩은 두건",
+      "tw": "破爛兜帽",
+      "ru": "Истлевший капюшон",
+      "jp": "朽ちたフード"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 210,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wool-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Wool Cap",
+      "kr": "양모 모자",
+      "tw": "羊毛便帽",
+      "ru": "Шерстяная шляпа",
+      "jp": "ウールの帽子"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 222,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "narrow-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Narrow Hood",
+      "kr": "좁은 두건",
+      "tw": "狹窄兜帽",
+      "ru": "Тонкий капюшон",
+      "jp": "細身のフード"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 235,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wrapped-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Wrapped Cap",
+      "kr": "싸맨 모자",
+      "tw": "纏繞便帽",
+      "ru": "Обмотанный капюшон",
+      "jp": "巻き布の帽子"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 248,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "deerstalker-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Deerstalker Hood",
+      "kr": "사슴 추적자 두건",
+      "tw": "獵鹿者之兜",
+      "ru": "Капюшон зверолова",
+      "jp": "鹿猟師のフード"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 270,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "druidic-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Druidic Circlet",
+      "kr": "드루이드 관",
+      "tw": "德魯伊頭環",
+      "ru": "Венок друида",
+      "jp": "ドルイドのサークレット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 68,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "avian-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Avian Tiara",
+      "kr": "새의 티아라",
+      "tw": "飛羽頭冠",
+      "ru": "Тиара из перьев",
+      "jp": "鳥のティアラ"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 71,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "desert-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Desert Circlet",
+      "kr": "사막 관",
+      "tw": "沙漠頭環",
+      "ru": "Обруч пустынника",
+      "jp": "砂漠のサークレット"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 75,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sandsworn-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Sandsworn Tiara",
+      "kr": "모래맹세 티아라",
+      "tw": "沙誓頭冠",
+      "ru": "Тиара хранителя песков",
+      "jp": "砂漠の民のティアラ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 78,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "jungle-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Jungle Tiara",
+      "kr": "밀림 티아라",
+      "tw": "叢林頭冠",
+      "ru": "Тиара джунглей",
+      "jp": "ジャングルティアラ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 84,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "domed-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Domed Helm",
+      "kr": "반구형 헬름",
+      "tw": "圓頂之盔",
+      "ru": "Куполообразный шлем",
+      "jp": "半球の兜"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 128,
+      "evasion": 115,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "engraved-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Engraved Helm",
+      "kr": "아로새긴 헬름",
+      "tw": "紋刻之盔",
+      "ru": "Шлем с резьбой",
+      "jp": "彫刻の兜"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 136,
+      "evasion": 122,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "soldier-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Soldier Helm",
+      "kr": "병사 헬름",
+      "tw": "士兵之盔",
+      "ru": "Солдатский шлем",
+      "jp": "兵士の兜"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 143,
+      "evasion": 129,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cabalist-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Cabalist Helm",
+      "kr": "비법가 헬름",
+      "tw": "秘術師之盔",
+      "ru": "Шлем каббалиста",
+      "jp": "秘教の冠"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 151,
+      "evasion": 137,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cassis-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Cassis Helm",
+      "kr": "카시스 헬름",
+      "tw": "卡賽斯之盔",
+      "ru": "Шлем с бевором",
+      "jp": "カシスヘルム"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 163,
+      "evasion": 149,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mailed-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Mailed Crown",
+      "kr": "사슬 왕관",
+      "tw": "鎖甲之冠",
+      "ru": "Корона с бармицей",
+      "jp": "鎖帷子の冠"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 128,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "forest-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Forest Crown",
+      "kr": "숲 왕관",
+      "tw": "森林之冠",
+      "ru": "Корона леса",
+      "jp": "森の冠"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 136,
+      "evasion": 0,
+      "energyShield": 39,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "zealot-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Zealot Crown",
+      "kr": "맹신자 왕관",
+      "tw": "狂熱之冠",
+      "ru": "Корона подвижника",
+      "jp": "狂信者の冠"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 143,
+      "evasion": 0,
+      "energyShield": 41,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hallowed-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Hallowed Crown",
+      "kr": "거룩한 왕관",
+      "tw": "聖潔之冠",
+      "ru": "Корона посвящённого",
+      "jp": "神聖な冠"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 151,
+      "evasion": 0,
+      "energyShield": 43,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "inquisitor-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Inquisitor Crown",
+      "kr": "이단심문관 왕관",
+      "tw": "判官之冠",
+      "ru": "Корона инквизитора",
+      "jp": "審問官の冠"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 163,
+      "evasion": 0,
+      "energyShield": 46,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "oak-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Oak Mask",
+      "kr": "참나무 가면",
+      "tw": "橡木之面",
+      "ru": "Дубовая маска",
+      "jp": "オークの仮面"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 115,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bandit-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Bandit Mask",
+      "kr": "도적 가면",
+      "tw": "盜賊之面",
+      "ru": "Маска бандита",
+      "jp": "山賊の仮面"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 122,
+      "energyShield": 39,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "skulking-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Skulking Mask",
+      "kr": "숨은 가면",
+      "tw": "潛伏之面",
+      "ru": "Таящаяся маска",
+      "jp": "隠密の仮面"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 129,
+      "energyShield": 41,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pariah-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Pariah Mask",
+      "kr": "부랑자 가면",
+      "tw": "輕蔑之面",
+      "ru": "Маска парии",
+      "jp": "追放者の仮面"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 137,
+      "energyShield": 43,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "avian-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Avian Mask",
+      "kr": "새의 가면",
+      "tw": "飛羽之面",
+      "ru": "Перьевая маска",
+      "jp": "鳥の仮面"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 149,
+      "energyShield": 46,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "warmonger-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Warmonger Greathelm",
+      "kr": "전쟁광 대헬름",
+      "tw": "狂戰者巨盔",
+      "ru": "Большой шлем зачинщика",
+      "jp": "戦争屋のグレートヘルム"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 325,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "masked-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Masked Greathelm",
+      "kr": "가면 쓴 대헬름",
+      "tw": "假面巨盔",
+      "ru": "Большой шлем с маской",
+      "jp": "仮面のグレートヘルム"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 341,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "paragon-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Paragon Greathelm",
+      "kr": "모범 대헬름",
+      "tw": "楷模巨盔",
+      "ru": "Большой шлем эталона",
+      "jp": "パラゴンのグレートヘルム"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 357,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "imperial-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Imperial Greathelm",
+      "kr": "제국의 대헬름",
+      "tw": "帝國巨盔",
+      "ru": "Имперский большой шлем",
+      "jp": "帝国のグレートヘルム"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 374,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "woven-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Woven Cap",
+      "kr": "엮은 모자",
+      "tw": "編織便帽",
+      "ru": "Тканая шляпа",
+      "jp": "織り帽子"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 296,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "desert-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Desert Cap",
+      "kr": "사막 모자",
+      "tw": "沙漠便帽",
+      "ru": "Капюшон пустынника",
+      "jp": "砂漠の帽子"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 311,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "trapper-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Trapper Hood",
+      "kr": "덫사냥꾼 두건",
+      "tw": "捕獵者之兜",
+      "ru": "Капюшон ловчего",
+      "jp": "罠師のフード"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 326,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "freebooter-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Freebooter Cap",
+      "kr": "무뢰한 모자",
+      "tw": "劫掠者便帽",
+      "ru": "Шляпа флибустьера",
+      "jp": "海賊の帽子"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 340,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "skycrown-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Skycrown Tiara",
+      "kr": "하늘왕관 티아라",
+      "tw": "天冠頭冠",
+      "ru": "Тиара небес",
+      "jp": "スカイクラウンティアラ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 90,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sorcerous-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Sorcerous Tiara",
+      "kr": "악령술의 티아라",
+      "tw": "巫術頭冠",
+      "ru": "Чародейская тиара",
+      "jp": "術師のティアラ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 97,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "kamasan-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Kamasan Tiara",
+      "kr": "카마사의 티아라",
+      "tw": "卡瑪薩頭冠",
+      "ru": "Тиара Камасы",
+      "jp": "カマサのティアラ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 103,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancestral-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Ancestral Tiara",
+      "kr": "선대의 티아라",
+      "tw": "先祖頭冠",
+      "ru": "Фамильная тиара",
+      "jp": "先祖のティアラ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 109,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "warded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Warded Helm",
+      "kr": "수호받는 헬름",
+      "tw": "保衛之盔",
+      "ru": "Шлем с решёткой",
+      "jp": "保護兜"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 163,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cryptic-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Cryptic Helm",
+      "kr": "난해한 헬름",
+      "tw": "隱秘之盔",
+      "ru": "Скрытый шлем",
+      "jp": "謎めいた兜"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 188,
+      "evasion": 171,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "champion-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Champion Helm",
+      "kr": "용사 헬름",
+      "tw": "勇士之盔",
+      "ru": "Шлем чемпиона",
+      "jp": "王者の兜"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 197,
+      "evasion": 179,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gladiatorial-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Gladiatorial Helm",
+      "kr": "검투사 헬름",
+      "tw": "衛士之盔",
+      "ru": "Шлем гладиатора",
+      "jp": "剣闘士の兜"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 206,
+      "evasion": 187,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "druidic-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Druidic Crown",
+      "kr": "드루이드 왕관",
+      "tw": "德魯伊之冠",
+      "ru": "Корона друида",
+      "jp": "ドルイドの冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 0,
+      "energyShield": 50,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "saintly-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Saintly Crown",
+      "kr": "성인 왕관",
+      "tw": "聖徒之冠",
+      "ru": "Корона святого",
+      "jp": "聖人の冠"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 188,
+      "evasion": 0,
+      "energyShield": 52,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "divine-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Divine Crown",
+      "kr": "신성한 왕관",
+      "tw": "神聖之冠",
+      "ru": "Корона божества",
+      "jp": "神の冠"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 197,
+      "evasion": 0,
+      "energyShield": 55,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cryptic-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Cryptic Crown",
+      "kr": "난해한 왕관",
+      "tw": "隱祕之冠",
+      "ru": "Скрытая корона",
+      "jp": "謎の冠"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 206,
+      "evasion": 0,
+      "energyShield": 57,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "brigand-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Brigand Mask",
+      "kr": "도둑 가면",
+      "tw": "強盜之面",
+      "ru": "Маска грабителя",
+      "jp": "盗賊の仮面"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 163,
+      "energyShield": 50,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "faridun-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Faridun Mask",
+      "kr": "파리둔 가면",
+      "tw": "法里登之面",
+      "ru": "Фаридунская маска",
+      "jp": "ファリドゥンの仮面"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 171,
+      "energyShield": 52,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "soaring-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Soaring Mask",
+      "kr": "솟구치는 가면",
+      "tw": "翱翔之面",
+      "ru": "Парящая маска",
+      "jp": "飛翔の仮面"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 179,
+      "energyShield": 55,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grinning-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Grinning Mask",
+      "kr": "웃는 가면",
+      "tw": "獰笑之面",
+      "ru": "Ухмыляющаяся маска",
+      "jp": "嘲笑の仮面"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 187,
+      "energyShield": 57,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-rusted-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Rusted Greathelm",
+      "kr": "룬벼림 녹슨 대헬름",
+      "tw": "符鍛鏽蝕巨盔",
+      "ru": "Руннокованый ржавый большой шлем",
+      "jp": "ルーンフォージの錆びたグレートヘルム"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 29,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 19
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-soldier-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Soldier Greathelm",
+      "kr": "룬벼림 병사 대헬름",
+      "tw": "符鍛士兵巨盔",
+      "ru": "Руннокованый большой шлем солдата",
+      "jp": "ルーンフォージの兵士のグレートヘルム"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 29
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-wrapped-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Wrapped Greathelm",
+      "kr": "룬벼림 싸맨 대헬름",
+      "tw": "符鍛纏繞巨盔",
+      "ru": "Руннокованый обмотанный большой шлем",
+      "jp": "ルーンフォージの巻き布のグレートヘルム"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 99,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-spired-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Spired Greathelm",
+      "kr": "룬벼림 첨탑 대헬름",
+      "tw": "符鍛尖頂巨盔",
+      "ru": "Руннокованый остроконечный большой шлем",
+      "jp": "ルーンフォージの尖塔のグレートヘルム"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 149,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-elite-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Elite Greathelm",
+      "kr": "룬벼림 정예병 대헬름",
+      "tw": "符鍛菁英巨盔",
+      "ru": "Руннокованый большой шлем элиты",
+      "jp": "ルーンフォージの精鋭のグレートヘルム"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 177,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-warrior-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Warrior Greathelm",
+      "kr": "룬벼림 전사 대헬름",
+      "tw": "符鍛戰士巨盔",
+      "ru": "Руннокованый большой шлем воина",
+      "jp": "ルーンフォージの戦士のグレートヘルム"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "armour",
+      "armour": 191,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 50
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-commander-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Commander Greathelm",
+      "kr": "룬벼림 지휘관 대헬름",
+      "tw": "符鍛指揮官巨盔",
+      "ru": "Руннокованый большой шлем командира",
+      "jp": "ルーンフォージの指揮官のグレートヘルム"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 233,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-fierce-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Fierce Greathelm",
+      "kr": "룬벼림 흉악한 대헬름",
+      "tw": "符鍛兇猛巨盔",
+      "ru": "Руннокованый свирепый большой шлем",
+      "jp": "ルーンフォージの獰猛なグレートヘルム"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 260,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 57
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sentinel-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Sentinel Greathelm",
+      "kr": "룬벼림 파수꾼 대헬름",
+      "tw": "符鍛守望巨盔",
+      "ru": "Руннокованый большой шлем часового",
+      "jp": "ルーンフォージの歩哨のグレートヘルム"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 233
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-goliath-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Goliath Greathelm",
+      "kr": "룬벼림 골리앗 대헬름",
+      "tw": "符鍛巨靈巨盔",
+      "ru": "Руннокованый большой шлем голиафа",
+      "jp": "ルーンフォージのゴライアスのグレートヘルム"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 252
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-guardian-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Guardian Greathelm",
+      "kr": "룬벼림 수호병 대헬름",
+      "tw": "符鍛守護者巨盔",
+      "ru": "Руннокованый большой шлем стража",
+      "jp": "ルーンフォージの守護者のグレートヘルム"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 282
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-shabby-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Shabby Hood",
+      "kr": "룬벼림 허름한 두건",
+      "tw": "符鍛破舊兜帽",
+      "ru": "Руннокованый потрёпанный капюшон",
+      "jp": "ルーンフォージの擦り切れたフード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 19,
+      "energyShield": 0,
+      "ward": 19
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-felt-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Felt Cap",
+      "kr": "룬벼림 펠트 모자",
+      "tw": "符鍛毛氈便帽",
+      "ru": "Руннокованая войлочная шляпа",
+      "jp": "ルーンフォージのフェルトの帽子"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 58,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-lace-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Lace Hood",
+      "kr": "룬벼림 레이스 두건",
+      "tw": "符鍛綁帶兜帽",
+      "ru": "Руннокованый вышитый капюшон",
+      "jp": "ルーンフォージのレースのフード"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 84,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-swathed-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Swathed Cap",
+      "kr": "룬벼림 뒤덮인 모자",
+      "tw": "符鍛裹頭便帽",
+      "ru": "Руннокованый капюшон с куфией",
+      "jp": "ルーンフォージの巻き布の帽子"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 127,
+      "energyShield": 0,
+      "ward": 48
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-hunter-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Hunter Hood",
+      "kr": "룬벼림 사냥꾼 두건",
+      "tw": "符鍛獵者之兜",
+      "ru": "Руннокованый капюшон охотника",
+      "jp": "ルーンフォージの狩人のフード"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 158,
+      "energyShield": 0,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-viper-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Viper Cap",
+      "kr": "룬벼림 독사 모자",
+      "tw": "符鍛毒蛇便帽",
+      "ru": "Руннокованая голова гадюки",
+      "jp": "ルーンフォージの毒蛇の帽子"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 179,
+      "energyShield": 0,
+      "ward": 52
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-corsair-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Corsair Cap",
+      "kr": "룬벼림 해적 모자",
+      "tw": "符鍛海盜便帽",
+      "ru": "Руннокованая треуголка корсара",
+      "jp": "ルーンフォージのコルセアの帽子"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 210,
+      "energyShield": 0,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-leatherbound-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Leatherbound Hood",
+      "kr": "룬벼림 가죽묶음 두건",
+      "tw": "符鍛皮革兜帽",
+      "ru": "Руннокованый кожаный капюшон",
+      "jp": "ルーンフォージの皮張りのフード"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 231,
+      "energyShield": 0,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-velvet-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Velvet Cap",
+      "kr": "룬벼림 벨벳 모자",
+      "tw": "符鍛天鵝絨便帽",
+      "ru": "Руннокованая бархатная шляпа",
+      "jp": "ルーンフォージのベルベットの帽子"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 233
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-covert-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Covert Hood",
+      "kr": "룬벼림 은밀한 두건",
+      "tw": "符鍛隱蔽兜帽",
+      "ru": "Руннокованый капюшон агента",
+      "jp": "ルーンフォージの隠密のフード"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 248
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-armoured-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Armoured Cap",
+      "kr": "룬벼림 장갑을 두른 모자",
+      "tw": "符鍛裝甲便帽",
+      "ru": "Руннокованый защитный капюшон",
+      "jp": "ルーンフォージの装甲帽子"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 282
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-twig-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Twig Circlet",
+      "kr": "룬벼림 잔가지 관",
+      "tw": "符鍛嫩枝頭環",
+      "ru": "Руннокованый венок из ветвей",
+      "jp": "ルーンフォージの小枝のサークレット"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 19
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-wicker-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Wicker Tiara",
+      "kr": "룬벼림 고리버들 티아라",
+      "tw": "符鍛枝條頭冠",
+      "ru": "Руннокованая тиара из прутьев",
+      "jp": "ルーンフォージの枝編みのティアラ"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 29,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-beaded-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Beaded Circlet",
+      "kr": "룬벼림 구슬 관",
+      "tw": "符鍛串珠頭環",
+      "ru": "Руннокованый обруч с чётками",
+      "jp": "ルーンフォージのビーズのサークレット"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 35,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-chain-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Chain Tiara",
+      "kr": "룬벼림 사슬 티아라",
+      "tw": "符鍛鎖鍊頭冠",
+      "ru": "Руннокованая цепная тиара",
+      "jp": "ルーンフォージの鎖のティアラ"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 47,
+      "ward": 48
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-feathered-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Feathered Tiara",
+      "kr": "룬벼림 깃털 티아라",
+      "tw": "符鍛羽毛頭冠",
+      "ru": "Руннокованая тиара с перьями",
+      "jp": "ルーンフォージの羽根付きのティアラ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 54,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gold-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Gold Circlet",
+      "kr": "룬벼림 황금 관",
+      "tw": "符鍛黃金頭環",
+      "ru": "Руннокованый венец из золота",
+      "jp": "ルーンフォージの金のサークレット"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 62,
+      "ward": 55
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-vermeil-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Vermeil Circlet",
+      "kr": "룬벼림 버메일 관",
+      "tw": "符鍛鍍金頭環",
+      "ru": "Руннокованый вермелевый обруч",
+      "jp": "ルーンフォージのヴァーミルサークレット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 68,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-jade-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Jade Tiara",
+      "kr": "룬벼림 비취 티아라",
+      "tw": "符鍛翠玉頭冠",
+      "ru": "Руннокованая нефритовая тиара",
+      "jp": "ルーンフォージの翡翠のティアラ"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 73,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-noble-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Noble Circlet",
+      "kr": "룬벼림 귀족 관",
+      "tw": "符鍛貴族頭環",
+      "ru": "Руннокованый венец аристократа",
+      "jp": "ルーンフォージの貴族のサークレット"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 233
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-twilight-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Twilight Tiara",
+      "kr": "룬벼림 황혼 티아라",
+      "tw": "符鍛暮光頭冠",
+      "ru": "Руннокованая сумеречная тиара",
+      "jp": "ルーンフォージの黄昏のティアラ"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 256
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-magus-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Magus Tiara",
+      "kr": "룬벼림 신관 티아라",
+      "tw": "符鍛瑪格思頭冠",
+      "ru": "Руннокованая тиара волшебника",
+      "jp": "ルーンフォージの魔導士のティアラ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 282
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-brimmed-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Brimmed Helm",
+      "kr": "룬벼림 챙 헬름",
+      "tw": "符鍛邊緣之盔",
+      "ru": "Руннокованый шлем с полями",
+      "jp": "ルーンフォージのつば付き兜"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 26,
+      "evasion": 20,
+      "energyShield": 0,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-guarded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Guarded Helm",
+      "kr": "룬벼림 보호받는 헬름",
+      "tw": "符鍛警惕之盔",
+      "ru": "Руннокованый шлем с забралом",
+      "jp": "ルーンフォージの防護兜"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 42,
+      "evasion": 34,
+      "energyShield": 0,
+      "ward": 32
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-visored-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Visored Helm",
+      "kr": "룬벼림 차양 단 헬름",
+      "tw": "符鍛假面之盔",
+      "ru": "Руннокованый шлем с козырьком",
+      "jp": "ルーンフォージのバイザー付き兜"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 54,
+      "evasion": 46,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cowled-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Cowled Helm",
+      "kr": "룬벼림 고깔 헬름",
+      "tw": "符鍛斗篷之盔",
+      "ru": "Руннокованый шлем с капюшоном",
+      "jp": "ルーンフォージの頭巾付き兜"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 70,
+      "energyShield": 0,
+      "ward": 41
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-shielded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Shielded Helm",
+      "kr": "룬벼림 차폐 헬름",
+      "tw": "符鍛庇護之盔",
+      "ru": "Руннокованый шлем с горжетом",
+      "jp": "ルーンフォージの盾付き兜"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 97,
+      "evasion": 87,
+      "energyShield": 0,
+      "ward": 44
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-closed-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Closed Helm",
+      "kr": "룬벼림 폐쇄형 헬름",
+      "tw": "符鍛緊閉之盔",
+      "ru": "Руннокованый закрытый шлем",
+      "jp": "ルーンフォージのクローズヘルム"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 128,
+      "evasion": 115,
+      "energyShield": 0,
+      "ward": 52
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-decorated-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Decorated Helm",
+      "kr": "룬벼림 장식된 헬름",
+      "tw": "符鍛裝飾之盔",
+      "ru": "Руннокованый украшенный шлем",
+      "jp": "ルーンフォージの装飾兜"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 233
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gallant-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Gallant Helm",
+      "kr": "룬벼림 용맹한 헬름",
+      "tw": "符鍛無畏之盔",
+      "ru": "Руннокованый шлем героя",
+      "jp": "ルーンフォージの勇士のヘルム"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 282
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-iron-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Iron Crown",
+      "kr": "룬벼림 철 왕관",
+      "tw": "符鍛鍛鐵之冠",
+      "ru": "Руннокованая железная корона",
+      "jp": "ルーンフォージの鉄の冠"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 26,
+      "evasion": 0,
+      "energyShield": 13,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-horned-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Horned Crown",
+      "kr": "룬벼림 뿔 달린 왕관",
+      "tw": "符鍛犄角之冠",
+      "ru": "Руннокованая корона с рогами",
+      "jp": "ルーンフォージの角の冠"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 39,
+      "evasion": 0,
+      "energyShield": 16,
+      "ward": 30
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cultist-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Cultist Crown",
+      "kr": "룬벼림 광신자 왕관",
+      "tw": "符鍛教徒之冠",
+      "ru": "Руннокованая корона культиста",
+      "jp": "ルーンフォージのカルト信者の冠"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 54,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-martyr-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Martyr Crown",
+      "kr": "룬벼림 순교자 왕관",
+      "tw": "符鍛殉難之冠",
+      "ru": "Руннокованая корона мученика",
+      "jp": "ルーンフォージの殉教者の冠"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 85,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 43
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-heavy-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Heavy Crown",
+      "kr": "룬벼림 무거운 왕관",
+      "tw": "符鍛沉重之冠",
+      "ru": "Руннокованая тяжёлая корона",
+      "jp": "ルーンフォージの重装の冠"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 97,
+      "evasion": 0,
+      "energyShield": 30,
+      "ward": 44
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-spiritbone-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Spiritbone Crown",
+      "kr": "룬벼림 혼백뼈 왕관",
+      "tw": "符鍛魂骨之冠",
+      "ru": "Руннокованая корона из костей духа",
+      "jp": "ルーンフォージのスピリットボーンの冠"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 128,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 52
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-lavish-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Lavish Crown",
+      "kr": "룬벼림 아낌없는 왕관",
+      "tw": "符鍛奢華之冠",
+      "ru": "Руннокованая богатая корона",
+      "jp": "ルーンフォージの豪華な冠"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 233
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-archon-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Archon Crown",
+      "kr": "룬벼림 집정관 왕관",
+      "tw": "符鍛統治者之冠",
+      "ru": "Руннокованая корона архонта",
+      "jp": "ルーンフォージのアルコンの冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 282
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-hewn-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Hewn Mask",
+      "kr": "룬벼림 깎아낸 가면",
+      "tw": "符鍛粗製之面",
+      "ru": "Руннокованая обтёсанная маска",
+      "jp": "ルーンフォージの粗削りの仮面"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 20,
+      "energyShield": 13,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-face-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Face Mask",
+      "kr": "룬벼림 얼굴 가면",
+      "tw": "符鍛護臉之面",
+      "ru": "Руннокованая лицевая маска",
+      "jp": "ルーンフォージのフェースマスク"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 32,
+      "energyShield": 16,
+      "ward": 30
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-hooded-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Hooded Mask",
+      "kr": "룬벼림 두건 가면",
+      "tw": "符鍛風帽之面",
+      "ru": "Руннокованая маска с капюшоном",
+      "jp": "ルーンフォージのフード付きの仮面"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 46,
+      "energyShield": 19,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-veiled-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Veiled Mask",
+      "kr": "룬벼림 장막 가면",
+      "tw": "符鍛隱匿之面",
+      "ru": "Руннокованая маска с вуалью",
+      "jp": "ルーンフォージのベール付きの仮面"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 75,
+      "energyShield": 27,
+      "ward": 43
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-tribal-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Tribal Mask",
+      "kr": "룬벼림 부족 가면",
+      "tw": "符鍛部落之面",
+      "ru": "Руннокованая племенная маска",
+      "jp": "ルーンフォージの部族の仮面"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 87,
+      "energyShield": 30,
+      "ward": 44
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-solid-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Solid Mask",
+      "kr": "룬벼림 단단한 가면",
+      "tw": "符鍛堅固之面",
+      "ru": "Руннокованая цельная маска",
+      "jp": "ルーンフォージの頑丈な仮面"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 115,
+      "energyShield": 37,
+      "ward": 52
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-shaded-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Shaded Mask",
+      "kr": "룬벼림 그늘 가면",
+      "tw": "符鍛陰影之面",
+      "ru": "Руннокованая маска тени",
+      "jp": "ルーンフォージの遮光の仮面"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 233
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-death-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Death Mask",
+      "kr": "룬벼림 죽음 가면",
+      "tw": "符鍛死亡之面",
+      "ru": "Руннокованая маска смерти",
+      "jp": "ルーンフォージのデスマスク"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 282
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-elegant-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Elegant Greathelm",
+      "kr": "룬벼림 우아한 대헬름",
+      "tw": "符鍛優雅巨盔",
+      "ru": "Руннокованый элегантный большой шлем",
+      "jp": "ルーンフォージのエレガントグレートヘルム"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 247,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 60
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-noble-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Noble Greathelm",
+      "kr": "룬벼림 귀족 대헬름",
+      "tw": "符鍛高貴巨盔",
+      "ru": "Руннокованый большой шлем дворянина",
+      "jp": "ルーンフォージの貴族のグレートヘルム"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 223,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 104
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-wrapped-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Wrapped Cap",
+      "kr": "룬벼림 싸맨 모자",
+      "tw": "符鍛纏繞便帽",
+      "ru": "Руннокованый обмотанный капюшон",
+      "jp": "ルーンフォージの巻き布の帽子"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 211,
+      "energyShield": 0,
+      "ward": 72
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-deerstalker-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Deerstalker Hood",
+      "kr": "룬벼림 사슴 추적자 두건",
+      "tw": "符鍛獵鹿者之兜",
+      "ru": "Руннокованый капюшон зверолова",
+      "jp": "ルーンフォージの鹿猟師のフード"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 216,
+      "energyShield": 0,
+      "ward": 91
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sandsworn-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Sandsworn Tiara",
+      "kr": "룬벼림 모래맹세 티아라",
+      "tw": "符鍛沙誓頭冠",
+      "ru": "Руннокованая тиара хранителя песков",
+      "jp": "ルーンフォージの砂漠の民のティアラ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 74,
+      "ward": 48
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-jungle-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Jungle Tiara",
+      "kr": "룬벼림 밀림 티아라",
+      "tw": "符鍛叢林頭冠",
+      "ru": "Руннокованая тиара джунглей",
+      "jp": "ルーンフォージのジャングルティアラ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 63,
+      "ward": 104
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cabalist-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Cabalist Helm",
+      "kr": "룬벼림 비법가 헬름",
+      "tw": "符鍛秘術師之盔",
+      "ru": "Руннокованый шлем каббалиста",
+      "jp": "ルーンフォージの秘教の冠"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 113,
+      "evasion": 102,
+      "energyShield": 0,
+      "ward": 96
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gladiatorial-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Gladiatorial Helm",
+      "kr": "룬벼림 검투사 헬름",
+      "tw": "符鍛衛士之盔",
+      "ru": "Руннокованый шлем гладиатора",
+      "jp": "ルーンフォージの剣闘士の兜"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 147,
+      "evasion": 134,
+      "energyShield": 0,
+      "ward": 65
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-hallowed-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Hallowed Crown",
+      "kr": "룬벼림 거룩한 왕관",
+      "tw": "符鍛聖潔之冠",
+      "ru": "Руннокованая корона посвящённого",
+      "jp": "ルーンフォージの神聖な冠"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 121,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 84
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-inquisitor-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Inquisitor Crown",
+      "kr": "룬벼림 이단심문관 왕관",
+      "tw": "符鍛判官之冠",
+      "ru": "Руннокованая корона инквизитора",
+      "jp": "ルーンフォージの審問官の冠"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 155,
+      "evasion": 0,
+      "energyShield": 44,
+      "ward": 52
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-pariah-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Pariah Mask",
+      "kr": "룬벼림 부랑자 가면",
+      "tw": "符鍛輕蔑之面",
+      "ru": "Руннокованая маска парии",
+      "jp": "ルーンフォージの追放者の仮面"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 123,
+      "energyShield": 39,
+      "ward": 60
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-avian-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Avian Mask",
+      "kr": "룬벼림 새의 가면",
+      "tw": "符鍛飛羽之面",
+      "ru": "Руннокованая перьевая маска",
+      "jp": "ルーンフォージの鳥の仮面"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 119,
+      "energyShield": 37,
+      "ward": 91
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grand-visage",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Grand Visage",
+      "kr": "룬벼림 우수한 얼굴",
+      "tw": "符鍛宏偉面紗",
+      "ru": "Руннокованый великолепный лик",
+      "jp": "ルーンフォージの大いなる顔飾り"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 113,
+      "evasion": 103,
+      "energyShield": 31,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-warmonger-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Warmonger Greathelm",
+      "kr": "룬벼림 전쟁광 대헬름",
+      "tw": "符鍛狂戰者巨盔",
+      "ru": "Руннокованый большой шлем зачинщика",
+      "jp": "ルーンフォージの戦争屋のグレートヘルム"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 292,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-masked-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Masked Greathelm",
+      "kr": "룬벼림 가면 쓴 대헬름",
+      "tw": "符鍛假面巨盔",
+      "ru": "Руннокованый большой шлем с маской",
+      "jp": "ルーンフォージの仮面のグレートヘルム"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 260,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 85
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-paragon-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Paragon Greathelm",
+      "kr": "룬벼림 모범 대헬름",
+      "tw": "符鍛楷模巨盔",
+      "ru": "Руннокованый большой шлем эталона",
+      "jp": "ルーンフォージのパラゴンのグレートヘルム"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 341,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-imperial-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Imperial Greathelm",
+      "kr": "룬벼림 제국의 대헬름",
+      "tw": "符鍛帝國巨盔",
+      "ru": "Руннокованый имперский большой шлем",
+      "jp": "ルーンフォージの帝国のグレートヘルム"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 114,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 240
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-woven-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Woven Cap",
+      "kr": "룬벼림 엮은 모자",
+      "tw": "符鍛編織便帽",
+      "ru": "Руннокованая тканая шляпа",
+      "jp": "ルーンフォージの織り帽子"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 281,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-desert-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Desert Cap",
+      "kr": "룬벼림 사막 모자",
+      "tw": "符鍛沙漠便帽",
+      "ru": "Руннокованый капюшон пустынника",
+      "jp": "ルーンフォージの砂漠の帽子"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 222,
+      "energyShield": 0,
+      "ward": 99
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-trapper-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Trapper Hood",
+      "kr": "룬벼림 덫사냥꾼 두건",
+      "tw": "符鍛符鍛捕獵者之兜",
+      "ru": "Руннокованый капюшон ловчего",
+      "jp": "ルーンフォージの罠師のフード"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 311,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-freebooter-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Freebooter Cap",
+      "kr": "룬벼림 무뢰한 모자",
+      "tw": "符鍛符鍛劫掠者便帽",
+      "ru": "Руннокованая шляпа флибустьера",
+      "jp": "ルーンフォージの海賊の帽子"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 104,
+      "energyShield": 0,
+      "ward": 240
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-skycrown-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Skycrown Tiara",
+      "kr": "룬벼림 하늘왕관 티아라",
+      "tw": "符鍛天冠頭冠",
+      "ru": "Руннокованая тиара небес",
+      "jp": "ルーンフォージのスカイクラウンティアラ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 81,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sorcerous-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Sorcerous Tiara",
+      "kr": "룬벼림 악령술의 티아라",
+      "tw": "符鍛巫術頭冠",
+      "ru": "Руннокованая чародейская тиара",
+      "jp": "ルーンフォージの術師のティアラ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 63,
+      "ward": 113
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-kamasan-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Kamasan Tiara",
+      "kr": "룬벼림 카마사의 티아라",
+      "tw": "符鍛卡瑪薩頭冠",
+      "ru": "Руннокованая тиара Камасы",
+      "jp": "ルーンフォージのカマサのティアラ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 95,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ancestral-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Ancestral Tiara",
+      "kr": "룬벼림 선대의 티아라",
+      "tw": "符鍛先祖頭冠",
+      "ru": "Руннокованая фамильная тиара",
+      "jp": "ルーンフォージの先祖のティアラ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 32,
+      "ward": 240
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-warded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Warded Helm",
+      "kr": "룬벼림 수호받는 헬름",
+      "tw": "符鍛保衛之盔",
+      "ru": "Руннокованый шлем с решёткой",
+      "jp": "ルーンフォージの保護兜"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 166,
+      "evasion": 151,
+      "energyShield": 0,
+      "ward": 48
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cryptic-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Cryptic Helm",
+      "kr": "룬벼림 난해한 헬름",
+      "tw": "符鍛隱秘之盔",
+      "ru": "Руннокованый скрытый шлем",
+      "jp": "ルーンフォージの謎めいた兜"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 143,
+      "evasion": 130,
+      "energyShield": 0,
+      "ward": 85
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-champion-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Champion Helm",
+      "kr": "룬벼림 용사 헬름",
+      "tw": "符鍛勇士之盔",
+      "ru": "Руннокованый шлем чемпиона",
+      "jp": "ルーンフォージの王者の兜"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 163,
+      "energyShield": 0,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gladiatorial-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Gladiatorial Helm",
+      "kr": "룬벼림 검투사 헬름",
+      "tw": "符鍛衛士之盔",
+      "ru": "Руннокованый шлем гладиатора",
+      "jp": "ルーンフォージの剣闘士の兜"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 54,
+      "evasion": 49,
+      "energyShield": 0,
+      "ward": 254
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-druidic-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Druidic Crown",
+      "kr": "룬벼림 드루이드 왕관",
+      "tw": "符鍛德魯伊之冠",
+      "ru": "Руннокованая корона друида",
+      "jp": "ルーンフォージのドルイドの冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 161,
+      "evasion": 0,
+      "energyShield": 45,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-saintly-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Saintly Crown",
+      "kr": "룬벼림 성인 왕관",
+      "tw": "符鍛聖徒之冠",
+      "ru": "Руннокованая корона святого",
+      "jp": "ルーンフォージの聖人の冠"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 125,
+      "evasion": 0,
+      "energyShield": 35,
+      "ward": 113
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-divine-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Divine Crown",
+      "kr": "룬벼림 신성한 왕관",
+      "tw": "符鍛神聖之冠",
+      "ru": "Руннокованая корона божества",
+      "jp": "ルーンフォージの神の冠"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 0,
+      "energyShield": 50,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cryptic-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Cryptic Crown",
+      "kr": "룬벼림 난해한 왕관",
+      "tw": "符鍛隱祕之冠",
+      "ru": "Руннокованая скрытая корона",
+      "jp": "ルーンフォージの謎の冠"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 54,
+      "evasion": 0,
+      "energyShield": 15,
+      "ward": 254
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-brigand-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Brigand Mask",
+      "kr": "룬벼림 도둑 가면",
+      "tw": "符鍛強盜之面",
+      "ru": "Руннокованая маска грабителя",
+      "jp": "ルーンフォージの盗賊の仮面"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 155,
+      "energyShield": 47,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-faridun-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Faridun Mask",
+      "kr": "룬벼림 파리둔 가면",
+      "tw": "符鍛法里登之面",
+      "ru": "Руннокованая фаридунская маска",
+      "jp": "ルーンフォージのファリドゥンの仮面"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 122,
+      "energyShield": 37,
+      "ward": 99
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-soaring-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Soaring Mask",
+      "kr": "룬벼림 솟구치는 가면",
+      "tw": "符鍛翱翔之面",
+      "ru": "Руннокованая парящая маска",
+      "jp": "ルーンフォージの飛翔の仮面"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 163,
+      "energyShield": 50,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grinning-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Grinning Mask",
+      "kr": "룬벼림 웃는 가면",
+      "tw": "符鍛獰笑之面",
+      "ru": "Руннокованая ухмыляющаяся маска",
+      "jp": "ルーンフォージの嘲笑の仮面"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 49,
+      "energyShield": 15,
+      "ward": 254
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-lace-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runeforged Lace Hood",
+      "kr": "룬벼림 레이스 두건",
+      "tw": "符鍛綁帶兜帽",
+      "ru": "Руннокованый вышитый капюшон",
+      "jp": "ルーンフォージのレースのフード"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 90,
+      "energyShield": 0,
+      "ward": 72
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "VerisiumHelmetImplicitIgniteMagnitudeUnique1",
+        "lines": [
+          {
+            "stat": "base_ignite_effect_+%",
+            "value": "30~50",
+            "text": {
+              "en": "30~50% increased Ignite Magnitude",
+              "kr": "점화 강도 30~50% 증가",
+              "tw": "增加30~50%點燃幅度",
+              "ru": "30~50% увеличение силы поджога",
+              "jp": "発火の強度が30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-rusted-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Rusted Greathelm",
+      "kr": "룬숙련 녹슨 대헬름",
+      "tw": "符煉鏽蝕巨盔",
+      "ru": "Рунномастерский ржавый большой шлем",
+      "jp": "ルーンマスターの錆びたグレートヘルム"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 360,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-soldier-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Soldier Greathelm",
+      "kr": "룬숙련 병사 대헬름",
+      "tw": "符煉士兵巨盔",
+      "ru": "Рунномастерский большой шлем солдата",
+      "jp": "ルーンマスターの兵士のグレートヘルム"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 140,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-wrapped-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Wrapped Greathelm",
+      "kr": "룬숙련 싸맨 대헬름",
+      "tw": "符煉纏繞巨盔",
+      "ru": "Рунномастерский обмотанный большой шлем",
+      "jp": "ルーンマスターの巻き布のグレートヘルム"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 170,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-spired-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Spired Greathelm",
+      "kr": "룬숙련 첨탑 대헬름",
+      "tw": "符煉尖頂巨盔",
+      "ru": "Рунномастерский остроконечный большой шлем",
+      "jp": "ルーンマスターの尖塔のグレートヘルム"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 115,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 85
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-elite-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Elite Greathelm",
+      "kr": "룬숙련 정예병 대헬름",
+      "tw": "符煉菁英巨盔",
+      "ru": "Рунномастерский большой шлем элиты",
+      "jp": "ルーンマスターの精鋭のグレートヘルム"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 209,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 61
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-warrior-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Warrior Greathelm",
+      "kr": "룬숙련 전사 대헬름",
+      "tw": "符煉戰士巨盔",
+      "ru": "Рунномастерский большой шлем воина",
+      "jp": "ルーンマスターの戦士のグレートヘルム"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 111,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 147
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-fierce-greathelm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Fierce Greathelm",
+      "kr": "룬숙련 흉악한 대헬름",
+      "tw": "符煉兇猛巨盔",
+      "ru": "Рунномастерский свирепый большой шлем",
+      "jp": "ルーンマスターの獰猛なグレートヘルム"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 334,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-shabby-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Shabby Hood",
+      "kr": "룬숙련 허름한 두건",
+      "tw": "符煉破舊兜帽",
+      "ru": "Рунномастерский потрёпанный капюшон",
+      "jp": "ルーンマスターの擦り切れたフード"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 201
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-felt-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Felt Cap",
+      "kr": "룬숙련 펠트 모자",
+      "tw": "符煉毛氈便帽",
+      "ru": "Рунномастерская войлочная шляпа",
+      "jp": "ルーンマスターのフェルトの帽子"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 134,
+      "energyShield": 0,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-hunter-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Hunter Hood",
+      "kr": "룬숙련 사냥꾼 두건",
+      "tw": "符煉獵者之兜",
+      "ru": "Рунномастерский капюшон охотника",
+      "jp": "ルーンマスターの狩人のフード"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 73,
+      "energyShield": 0,
+      "ward": 75
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-viper-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Viper Cap",
+      "kr": "룬숙련 독사 모자",
+      "tw": "符煉毒蛇便帽",
+      "ru": "Рунномастерская голова гадюки",
+      "jp": "ルーンマスターの毒蛇の帽子"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 139,
+      "energyShield": 0,
+      "ward": 110
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-corsair-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Corsair Cap",
+      "kr": "룬숙련 해적 모자",
+      "tw": "符煉海盜便帽",
+      "ru": "Рунномастерская треуголка корсара",
+      "jp": "ルーンマスターのコルセアの帽子"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 202,
+      "energyShield": 0,
+      "ward": 37
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-leatherbound-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Leatherbound Hood",
+      "kr": "룬숙련 가죽묶음 두건",
+      "tw": "符煉皮革兜帽",
+      "ru": "Рунномастерский кожаный капюшон",
+      "jp": "ルーンマスターの皮張りのフード"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 266,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-velvet-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Velvet Cap",
+      "kr": "룬숙련 벨벳 모자",
+      "tw": "符煉天鵝絨便帽",
+      "ru": "Рунномастерская бархатная шляпа",
+      "jp": "ルーンマスターのベルベットの帽子"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 222,
+      "energyShield": 0,
+      "ward": 70
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-covert-hood",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Covert Hood",
+      "kr": "룬숙련 은밀한 두건",
+      "tw": "符煉隱蔽兜帽",
+      "ru": "Рунномастерский капюшон агента",
+      "jp": "ルーンマスターの隠密のフード"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 129,
+      "energyShield": 0,
+      "ward": 124
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-armoured-cap",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Armoured Cap",
+      "kr": "룬숙련 장갑을 두른 모자",
+      "tw": "符煉裝甲便帽",
+      "ru": "Рунномастерский защитный капюшон",
+      "jp": "ルーンマスターの装甲帽子"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 178,
+      "energyShield": 0,
+      "ward": 113
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-twig-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Twig Circlet",
+      "kr": "룬숙련 잔가지 관",
+      "tw": "符煉嫩枝頭環",
+      "ru": "Рунномастерский венок из ветвей",
+      "jp": "ルーンマスターの小枝のサークレット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 48,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-wicker-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Wicker Tiara",
+      "kr": "룬숙련 고리버들 티아라",
+      "tw": "符煉枝條頭冠",
+      "ru": "Рунномастерская тиара из прутьев",
+      "jp": "ルーンマスターの枝編みのティアラ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 45,
+      "ward": 45
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-beaded-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Beaded Circlet",
+      "kr": "룬숙련 구슬 관",
+      "tw": "符煉串珠頭環",
+      "ru": "Рунномастерский обруч с чётками",
+      "jp": "ルーンマスターのビーズのサークレット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 24,
+      "ward": 72
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-chain-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Chain Tiara",
+      "kr": "룬숙련 사슬 티아라",
+      "tw": "符煉鎖鍊頭冠",
+      "ru": "Рунномастерская цепная тиара",
+      "jp": "ルーンマスターの鎖のティアラ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 62,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-feathered-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Feathered Tiara",
+      "kr": "룬숙련 깃털 티아라",
+      "tw": "符煉羽毛頭冠",
+      "ru": "Рунномастерская тиара с перьями",
+      "jp": "ルーンマスターの羽根付きのティアラ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 32,
+      "ward": 98
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-gold-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Gold Circlet",
+      "kr": "룬숙련 황금 관",
+      "tw": "符煉黃金頭環",
+      "ru": "Рунномастерский венец из золота",
+      "jp": "ルーンマスターの金のサークレット"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 16,
+      "ward": 196
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-vermeil-circlet",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Vermeil Circlet",
+      "kr": "룬숙련 버메일 관",
+      "tw": "符煉鍍金頭環",
+      "ru": "Рунномастерский вермелевый обруч",
+      "jp": "ルーンマスターのヴァーミルサークレット"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 67,
+      "ward": 37
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-jade-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Jade Tiara",
+      "kr": "룬숙련 비취 티아라",
+      "tw": "符煉翠玉頭冠",
+      "ru": "Рунномастерская нефритовая тиара",
+      "jp": "ルーンマスターの翡翠のティアラ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 45,
+      "ward": 141
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-twilight-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Twilight Tiara",
+      "kr": "룬숙련 황혼 티아라",
+      "tw": "符煉暮光頭冠",
+      "ru": "Рунномастерская сумеречная тиара",
+      "jp": "ルーンマスターの黄昏のティアラ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 72,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-magus-tiara",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Magus Tiara",
+      "kr": "룬숙련 신관 티아라",
+      "tw": "符煉瑪格思頭冠",
+      "ru": "Рунномастерская тиара волшебника",
+      "jp": "ルーンマスターの魔導士のティアラ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 68,
+      "ward": 70
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-brimmed-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Brimmed Helm",
+      "kr": "룬숙련 챙 헬름",
+      "tw": "符煉邊緣之盔",
+      "ru": "Рунномастерский шлем с полями",
+      "jp": "ルーンマスターのつば付き兜"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 44,
+      "evasion": 39,
+      "energyShield": 0,
+      "ward": 109
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-guarded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Guarded Helm",
+      "kr": "룬숙련 보호받는 헬름",
+      "tw": "符煉警惕之盔",
+      "ru": "Рунномастерский шлем с забралом",
+      "jp": "ルーンマスターの防護兜"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 275,
+      "evasion": 247,
+      "energyShield": 0,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-visored-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Visored Helm",
+      "kr": "룬숙련 차양 단 헬름",
+      "tw": "符煉假面之盔",
+      "ru": "Рунномастерский шлем с козырьком",
+      "jp": "ルーンマスターのバイザー付き兜"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 77,
+      "evasion": 69,
+      "energyShield": 0,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-cowled-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Cowled Helm",
+      "kr": "룬숙련 고깔 헬름",
+      "tw": "符煉斗篷之盔",
+      "ru": "Рунномастерский шлем с капюшоном",
+      "jp": "ルーンマスターの頭巾付き兜"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 104,
+      "evasion": 93,
+      "energyShield": 0,
+      "ward": 19
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-shielded-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Shielded Helm",
+      "kr": "룬숙련 차폐 헬름",
+      "tw": "符煉庇護之盔",
+      "ru": "Рунномастерский шлем с горжетом",
+      "jp": "ルーンマスターの盾付き兜"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 97,
+      "energyShield": 0,
+      "ward": 122
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-decorated-helm",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Decorated Helm",
+      "kr": "룬숙련 장식된 헬름",
+      "tw": "符煉裝飾之盔",
+      "ru": "Рунномастерский украшенный шлем",
+      "jp": "ルーンマスターの装飾兜"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 161,
+      "evasion": 146,
+      "energyShield": 0,
+      "ward": 70
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-ancient-visor",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Ancient Visor",
+      "kr": "룬숙련 고대 차양",
+      "tw": "符煉遠古護面盔",
+      "ru": "Рунномастерский древний забранный шлем",
+      "jp": "ルーンマスターの古代のバイザー"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 168,
+      "evasion": 153,
+      "energyShield": 0,
+      "ward": 59
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-iron-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Iron Crown",
+      "kr": "룬숙련 철 왕관",
+      "tw": "符煉鍛鐵之冠",
+      "ru": "Рунномастерская железная корона",
+      "jp": "ルーンマスターの鉄の冠"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 72,
+      "evasion": 0,
+      "energyShield": 21,
+      "ward": 72
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-horned-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Horned Crown",
+      "kr": "룬숙련 뿔 달린 왕관",
+      "tw": "符煉犄角之冠",
+      "ru": "Рунномастерская корона с рогами",
+      "jp": "ルーンマスターの角の冠"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 83,
+      "evasion": 0,
+      "energyShield": 25,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-cultist-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Cultist Crown",
+      "kr": "룬숙련 광신자 왕관",
+      "tw": "符煉教徒之冠",
+      "ru": "Рунномастерская корона культиста",
+      "jp": "ルーンマスターのカルト信者の冠"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 165,
+      "evasion": 0,
+      "energyShield": 50,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-martyr-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Martyr Crown",
+      "kr": "룬숙련 순교자 왕관",
+      "tw": "符煉殉難之冠",
+      "ru": "Рунномастерская корона мученика",
+      "jp": "ルーンマスターの殉教者の冠"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 66,
+      "evasion": 0,
+      "energyShield": 20,
+      "ward": 81
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-heavy-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Heavy Crown",
+      "kr": "룬숙련 무거운 왕관",
+      "tw": "符煉沉重之冠",
+      "ru": "Рунномастерская тяжёлая корона",
+      "jp": "ルーンマスターの重装の冠"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 77,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 122
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-spiritbone-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Spiritbone Crown",
+      "kr": "룬숙련 혼백뼈 왕관",
+      "tw": "符煉魂骨之冠",
+      "ru": "Рунномастерская корона из костей духа",
+      "jp": "ルーンマスターのスピリットボーンの冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 116,
+      "evasion": 0,
+      "energyShield": 32,
+      "ward": 113
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "KeeperOfTheArcVerisiumImplicit3Sockets1",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "3",
+            "text": {
+              "en": "Has 3 Sockets",
+              "kr": "홈 3개",
+              "tw": "有3個插槽",
+              "ru": "Имеет гнезд: 3",
+              "jp": "ソケットを3個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-spiritbone-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Spiritbone Crown",
+      "kr": "룬숙련 혼백뼈 왕관",
+      "tw": "符煉魂骨之冠",
+      "ru": "Рунномастерская корона из костей духа",
+      "jp": "ルーンマスターのスピリットボーンの冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 116,
+      "evasion": 0,
+      "energyShield": 32,
+      "ward": 113
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "KeeperOfTheArcVerisiumImplicitWardRegen1",
+        "lines": [
+          {
+            "stat": "ward_regeneration_rate_+%",
+            "value": "25~50",
+            "text": {
+              "en": "25~50% increased Runic Ward Regeneration Rate",
+              "kr": "룬 수호 재생 속도 25~50% 증가",
+              "tw": "增加25~50%符文保護回復率",
+              "ru": "25~50% повышение скорости регенерации рунического барьера",
+              "jp": "ルーンワードの自動回復レートが25~50%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "KeeperOfTheArcVerisiumImplicitIntelligenceRequirement1",
+        "lines": [
+          {
+            "stat": "local_intelligence_requirement_+",
+            "value": "250",
+            "text": {
+              "en": "250 Intelligence Requirement",
+              "kr": "지능 요구사항 250",
+              "tw": "250點智慧需求",
+              "ru": "250 к требованиям интеллекта",
+              "jp": "知性の装備条件 250"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "KeeperOfTheArcVerisiumImplicitUnaffectedbyCurses1",
+        "lines": [
+          {
+            "stat": "self_curse_duration_+%",
+            "value": "-100",
+            "text": {
+              "en": "-100% reduced Duration of Curses on you",
+              "kr": "플레이어에게 적용되는 저주 지속시간 -100% 감소",
+              "tw": "減少-100%你身上的詛咒持續時間",
+              "ru": "-100% уменьшение длительности проклятий на вас",
+              "jp": "受ける呪いの持続時間が-100%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-spiritbone-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Spiritbone Crown",
+      "kr": "룬숙련 혼백뼈 왕관",
+      "tw": "符煉魂骨之冠",
+      "ru": "Рунномастерская корона из костей духа",
+      "jp": "ルーンマスターのスピリットボーンの冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 116,
+      "evasion": 0,
+      "energyShield": 32,
+      "ward": 113
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "KeeperOfTheArcVerisiumImplicitVerisiumCharges1",
+        "lines": [
+          {
+            "stat": "gain_1_verisium_infusion_every_X_seconds",
+            "value": "5",
+            "text": {
+              "en": "Every 5 seconds, gain a Verisium Infusion",
+              "kr": "5초마다 베리시움 주입 획득",
+              "tw": "每5秒獲得一個維里西姆灌注",
+              "ru": "Дарует насыщение веризием каждые 5 секунд(-ы)",
+              "jp": "5秒ごとにヴェリシウムインフュージョンを1スタック獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-grand-visage",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Grand Visage",
+      "kr": "룬숙련 우수한 얼굴",
+      "tw": "符煉宏偉面紗",
+      "ru": "Рунномастерский великолепный лик",
+      "jp": "ルーンマスターの大いなる顔飾り"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 77,
+      "evasion": 71,
+      "energyShield": 22,
+      "ward": 99
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-tenebrous-crown",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Tenebrous Crown",
+      "kr": "룬숙련 어둑한 왕관",
+      "tw": "符煉幽暗寶冠",
+      "ru": "Рунномастерская тусклая корона",
+      "jp": "ルーンマスターの暗影の冠"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 143,
+      "evasion": 0,
+      "energyShield": 40,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-hewn-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Hewn Mask",
+      "kr": "룬숙련 깎아낸 가면",
+      "tw": "符煉粗製之面",
+      "ru": "Рунномастерская обтёсанная маска",
+      "jp": "ルーンマスターの粗削りの仮面"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 30,
+      "energyShield": 10,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-face-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Face Mask",
+      "kr": "룬숙련 얼굴 가면",
+      "tw": "符煉護臉之面",
+      "ru": "Рунномастерская лицевая маска",
+      "jp": "ルーンマスターのフェースマスク"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 118,
+      "energyShield": 40,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-hooded-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Hooded Mask",
+      "kr": "룬숙련 두건 가면",
+      "tw": "符煉風帽之面",
+      "ru": "Рунномастерская маска с капюшоном",
+      "jp": "ルーンマスターのフード付きの仮面"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 69,
+      "energyShield": 23,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-veiled-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Veiled Mask",
+      "kr": "룬숙련 장막 가면",
+      "tw": "符煉隱匿之面",
+      "ru": "Рунномастерская маска с вуалью",
+      "jp": "ルーンマスターのベール付きの仮面"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 78,
+      "energyShield": 26,
+      "ward": 57
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-tribal-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Tribal Mask",
+      "kr": "룬숙련 부족 가면",
+      "tw": "符煉部落之面",
+      "ru": "Рунномастерская племенная маска",
+      "jp": "ルーンマスターの部族の仮面"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 105,
+      "energyShield": 33,
+      "ward": 47
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-solid-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Solid Mask",
+      "kr": "룬숙련 단단한 가면",
+      "tw": "符煉堅固之面",
+      "ru": "Рунномастерская цельная маска",
+      "jp": "ルーンマスターの頑丈な仮面"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 125,
+      "energyShield": 39,
+      "ward": 37
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-death-mask",
+    "classId": "Helmet",
+    "className": {
+      "en": "Helmets",
+      "kr": "투구",
+      "tw": "頭部",
+      "ru": "Шлемы",
+      "jp": "兜"
+    },
+    "name": {
+      "en": "Runemastered Death Mask",
+      "kr": "룬숙련 죽음 가면",
+      "tw": "符煉死亡之面",
+      "ru": "Рунномастерская маска смерти",
+      "jp": "ルーンマスターのデスマスク"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 130,
+      "energyShield": 40,
+      "ward": 70
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

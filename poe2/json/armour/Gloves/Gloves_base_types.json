@@ -1,0 +1,6176 @@
+[
+  {
+    "id": "golden-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Golden Bracers",
+      "kr": "황금 팔보호구",
+      "tw": "黃金臂甲",
+      "ru": "Золотые перчатки",
+      "jp": "黄金のブレーサー"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitGlovesDemigods1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stocky-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Stocky Mitts",
+      "kr": "다부진 미트",
+      "tw": "結實長手套",
+      "ru": "Толстые рукавицы",
+      "jp": "がっしりとしたミット"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 15,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "riveted-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Riveted Mitts",
+      "kr": "고정못 미트",
+      "tw": "鉚接長手套",
+      "ru": "Клёпаные рукавицы",
+      "jp": "リベット付きミット"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 38,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tempered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Tempered Mitts",
+      "kr": "단조한 미트",
+      "tw": "淬鍊長手套",
+      "ru": "Закалённые рукавицы",
+      "jp": "焼き入れミット"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 49,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bolstered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Bolstered Mitts",
+      "kr": "발전된 미트",
+      "tw": "加固長手套",
+      "ru": "Укреплённые рукавицы",
+      "jp": "補強ミット"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 75,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "moulded-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Moulded Mitts",
+      "kr": "주조한 미트",
+      "tw": "鑄模長手套",
+      "ru": "Литые рукавицы",
+      "jp": "成形ミット"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "detailed-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Detailed Mitts",
+      "kr": "정교한 미트",
+      "tw": "精細長手套",
+      "ru": "Украшенные рукавицы",
+      "jp": "精巧なミット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 116,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "titan-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Titan Mitts",
+      "kr": "거신 미트",
+      "tw": "泰坦長手套",
+      "ru": "Рукавицы титана",
+      "jp": "タイタンのミット"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 132,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grand-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Grand Mitts",
+      "kr": "우수한 미트",
+      "tw": "宏偉長手套",
+      "ru": "Величественные рукавицы",
+      "jp": "大いなるミット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 162,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "suede-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Suede Bracers",
+      "kr": "스웨드 팔보호구",
+      "tw": "麂皮護腕",
+      "ru": "Замшевые наручи",
+      "jp": "スエードの弓籠手"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 10,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "firm-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Firm Bracers",
+      "kr": "굳건한 팔보호구",
+      "tw": "穩固護腕",
+      "ru": "Плотные наручи",
+      "jp": "頑丈な弓籠手"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 31,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bound-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Bound Bracers",
+      "kr": "속박된 팔보호구",
+      "tw": "緊縛護腕",
+      "ru": "Обмотанные наручи",
+      "jp": "固定式の弓籠手"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 42,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sectioned-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Sectioned Bracers",
+      "kr": "절개된 팔보호구",
+      "tw": "分段護腕",
+      "ru": "Сегментные наручи",
+      "jp": "分割式の弓籠手"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 68,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spined-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Spined Bracers",
+      "kr": "가시 팔보호구",
+      "tw": "棘刺護腕",
+      "ru": "Щетинистые наручи",
+      "jp": "針付きの弓籠手"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 79,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fine-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Fine Bracers",
+      "kr": "섬세한 팔보호구",
+      "tw": "精良護腕",
+      "ru": "Искусные наручи",
+      "jp": "上質な弓籠手"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 105,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hardened-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Hardened Bracers",
+      "kr": "굳어진 팔보호구",
+      "tw": "硬化護腕",
+      "ru": "Жёсткие наручи",
+      "jp": "焼き入れの弓籠手"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 120,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "engraved-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Engraved Bracers",
+      "kr": "아로새긴 팔보호구",
+      "tw": "紋刻護腕",
+      "ru": "Резные наручи",
+      "jp": "彫刻の弓籠手"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 148,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "torn-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Torn Gloves",
+      "kr": "찢긴 장갑",
+      "tw": "撕裂手套",
+      "ru": "Рваные перчатки",
+      "jp": "破れた手袋"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 9,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sombre-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Sombre Gloves",
+      "kr": "암울한 장갑",
+      "tw": "暗淡手套",
+      "ru": "Тёмные перчатки",
+      "jp": "陰鬱な手袋"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 15,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stitched-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Stitched Gloves",
+      "kr": "꿰맨 장갑",
+      "tw": "縫合手套",
+      "ru": "Сшитые перчатки",
+      "jp": "縫い合わせの手袋"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 18,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "jewelled-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Jewelled Gloves",
+      "kr": "보석 박힌 장갑",
+      "tw": "寶石手套",
+      "ru": "Инкрустированные перчатки",
+      "jp": "宝石をあしらった手袋"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 23,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "intricate-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Intricate Gloves",
+      "kr": "복잡한 장갑",
+      "tw": "精妙手套",
+      "ru": "Затейливые перчатки",
+      "jp": "手の込んだ手袋"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pauascale-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Pauascale Gloves",
+      "kr": "파우아비늘 장갑",
+      "tw": "海靈鱗手套",
+      "ru": "Перчатки с перламутром",
+      "jp": "パウアスケール手袋"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "embroidered-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Embroidered Gloves",
+      "kr": "수놓은 장갑",
+      "tw": "刺繡手套",
+      "ru": "Расшитые перчатки",
+      "jp": "刺繍入りの手袋"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 38,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "adorned-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Adorned Gloves",
+      "kr": "치장된 장갑",
+      "tw": "奢華手套",
+      "ru": "Украшенные перчатки",
+      "jp": "装飾の手袋"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 45,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ringmail-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ringmail Gauntlets",
+      "kr": "고리 갑옷 건틀릿",
+      "tw": "環鎖護手",
+      "ru": "Кольчужные перчатки",
+      "jp": "リングメイルガントレット"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "armour",
+      "armour": 14,
+      "evasion": 11,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "layered-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Layered Gauntlets",
+      "kr": "겹겹의 건틀릿",
+      "tw": "層板護手",
+      "ru": "Пластинчатые перчатки",
+      "jp": "層状のガントレット"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 27,
+      "evasion": 23,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "doubled-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Doubled Gauntlets",
+      "kr": "이중 건틀릿",
+      "tw": "雙層護手",
+      "ru": "Двухслойные перчатки",
+      "jp": "二重のガントレット"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 49,
+      "evasion": 43,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "plate-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Plate Gauntlets",
+      "kr": "판금 건틀릿",
+      "tw": "鎧甲護手",
+      "ru": "Латные перчатки",
+      "jp": "プレートガントレット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 64,
+      "evasion": 58,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "burnished-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Burnished Gauntlets",
+      "kr": "윤이 나는 건틀릿",
+      "tw": "拋光護手",
+      "ru": "Полированные перчатки",
+      "jp": "研磨されたガントレット"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 66,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ornate-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ornate Gauntlets",
+      "kr": "화려한 건틀릿",
+      "tw": "華麗護手",
+      "ru": "Изысканные перчатки",
+      "jp": "装飾のガントレット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 81,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancient-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ancient Gauntlets",
+      "kr": "고대 건틀릿",
+      "tw": "遠古護手",
+      "ru": "Древние перчатки",
+      "jp": "古代のガントレット"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 81,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rope-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Rope Cuffs",
+      "kr": "밧줄 수갑",
+      "tw": "繩索腕帶",
+      "ru": "Верёвочные манжеты",
+      "jp": "縄のカフス"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 13,
+      "evasion": 0,
+      "energyShield": 6,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "aged-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Aged Cuffs",
+      "kr": "오래된 수갑",
+      "tw": "陳舊腕帶",
+      "ru": "Старинные манжеты",
+      "jp": "年季の入ったカフス"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 27,
+      "evasion": 0,
+      "energyShield": 10,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "goldcast-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Goldcast Cuffs",
+      "kr": "금주물 수갑",
+      "tw": "金鑄腕帶",
+      "ru": "Золотые манжеты",
+      "jp": "金鋳造のカフス"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 49,
+      "evasion": 0,
+      "energyShield": 15,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "kalguuran-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Kalguuran Cuffs",
+      "kr": "칼구르 수갑",
+      "tw": "卡爾葛腕帶",
+      "ru": "Калгууранские манжеты",
+      "jp": "カルグールのカフス"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 64,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "righteous-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Righteous Cuffs",
+      "kr": "정의로운 수갑",
+      "tw": "正義腕帶",
+      "ru": "Манжеты праведника",
+      "jp": "正義のカフス"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 0,
+      "energyShield": 21,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "signet-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Signet Cuffs",
+      "kr": "인장 수갑",
+      "tw": "徽印腕帶",
+      "ru": "Манжеты с печаткой",
+      "jp": "印章のカフス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 0,
+      "energyShield": 25,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gauze-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Gauze Wraps",
+      "kr": "거즈 싸개",
+      "tw": "紗布裹手",
+      "ru": "Обмотки из муслина",
+      "jp": "薄布のラップ"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 9,
+      "energyShield": 6,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "linen-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Linen Wraps",
+      "kr": "리넨 싸개",
+      "tw": "麻布裹手",
+      "ru": "Льняные обмотки",
+      "jp": "リネンのラップ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 23,
+      "energyShield": 10,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spiral-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Spiral Wraps",
+      "kr": "나선 싸개",
+      "tw": "盤繞裹手",
+      "ru": "Витые обмотки",
+      "jp": "スパイラルラップ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 43,
+      "energyShield": 15,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "buckled-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Buckled Wraps",
+      "kr": "버클 싸개",
+      "tw": "帶扣裹手",
+      "ru": "Обмотки с пряжками",
+      "jp": "バックル付きのラップ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 58,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "furtive-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Furtive Wraps",
+      "kr": "은밀한 싸개",
+      "tw": "隱秘裹手",
+      "ru": "Скрытые обмотки",
+      "jp": "隠密のラップ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 66,
+      "energyShield": 21,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "utility-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Utility Wraps",
+      "kr": "특수 싸개",
+      "tw": "實用裹手",
+      "ru": "Практичные обмотки",
+      "jp": "実用的なラップ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 81,
+      "energyShield": 25,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grand-manchettes",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Grand Manchettes",
+      "kr": "우수한 소맷부리",
+      "tw": "宏偉手鐲",
+      "ru": "Великолепные манжеты",
+      "jp": "大いなるマンシェット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 60,
+      "evasion": 54,
+      "energyShield": 17,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "golden-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Golden Bracers",
+      "kr": "황금 팔보호구",
+      "tw": "黃金臂甲",
+      "ru": "Золотые перчатки",
+      "jp": "黄金のブレーサー"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "plated-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Plated Mitts",
+      "kr": "판금 미트",
+      "tw": "鎧甲長手套",
+      "ru": "Пластинчатые рукавицы",
+      "jp": "プレートミット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 116,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Elegant Mitts",
+      "kr": "우아한 미트",
+      "tw": "優雅長手套",
+      "ru": "Элегантные рукавицы",
+      "jp": "エレガントミット"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 130,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancient-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ancient Mitts",
+      "kr": "고대 미트",
+      "tw": "遠古長手套",
+      "ru": "Старинные рукавицы",
+      "jp": "古代のミット"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 137,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "feathered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Feathered Mitts",
+      "kr": "깃털 미트",
+      "tw": "羽毛長手套",
+      "ru": "Оперённые рукавицы",
+      "jp": "羽根付きのミット"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 149,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hunting-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Hunting Bracers",
+      "kr": "사냥 팔보호구",
+      "tw": "狩獵護腕",
+      "ru": "Охотничьи наручи",
+      "jp": "狩りの弓籠手"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 105,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "swift-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Swift Bracers",
+      "kr": "재빠른 팔보호구",
+      "tw": "迅疾護腕",
+      "ru": "Наручи быстроты",
+      "jp": "俊敏な籠手"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 118,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "refined-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Refined Bracers",
+      "kr": "제련된 팔보호구",
+      "tw": "精製護腕",
+      "ru": "Обрамлённые наручи",
+      "jp": "洗練された弓籠手"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 124,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spiked-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Spiked Bracers",
+      "kr": "가시 팔보호구",
+      "tw": "尖刺護腕",
+      "ru": "Шипастые наручи",
+      "jp": "スパイク付きの弓籠手"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 135,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ominous-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ominous Gloves",
+      "kr": "불길한 장갑",
+      "tw": "惡兆手套",
+      "ru": "Зловещие перчатки",
+      "jp": "不気味な手袋"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "embellished-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Embellished Gloves",
+      "kr": "장식된 장갑",
+      "tw": "點綴手套",
+      "ru": "Разукрашенные перчатки",
+      "jp": "装飾付き手袋"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "baroque-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Baroque Gloves",
+      "kr": "바로크 장갑",
+      "tw": "巴洛克手套",
+      "ru": "Вычурные перчатки",
+      "jp": "バロックの手袋"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 39,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gold-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Gold Gloves",
+      "kr": "금 장갑",
+      "tw": "黃金手套",
+      "ru": "Золотые перчатки",
+      "jp": "金の手袋"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 42,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ironmail-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ironmail Gauntlets",
+      "kr": "철사슬 건틀릿",
+      "tw": "鐵鎖護手",
+      "ru": "Железные кольчужные перчатки",
+      "jp": "アイアンメイルガントレット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 64,
+      "evasion": 58,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "captain-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Captain Gauntlets",
+      "kr": "대장 건틀릿",
+      "tw": "隊長護手",
+      "ru": "Перчатки капитана",
+      "jp": "部隊長のガントレット"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 72,
+      "evasion": 65,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "zealot-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Zealot Gauntlets",
+      "kr": "맹신자 건틀릿",
+      "tw": "狂熱護手",
+      "ru": "Перчатки подвижника",
+      "jp": "狂信者のガントレット"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 82,
+      "evasion": 74,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "braided-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Braided Cuffs",
+      "kr": "땋은 수갑",
+      "tw": "編織腕帶",
+      "ru": "Сутажные манжеты",
+      "jp": "編み込みのカフス"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 64,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "heirloom-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Heirloom Cuffs",
+      "kr": "가보 수갑",
+      "tw": "家傳腕帶",
+      "ru": "Фамильные манжеты",
+      "jp": "家宝のカフス"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 72,
+      "evasion": 0,
+      "energyShield": 21,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ornate-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ornate Cuffs",
+      "kr": "화려한 수갑",
+      "tw": "華麗腕帶",
+      "ru": "Изысканные манжеты",
+      "jp": "華美なカフス"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 82,
+      "evasion": 0,
+      "energyShield": 23,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bandage-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Bandage Wraps",
+      "kr": "붕대 싸개",
+      "tw": "繃帶裹手",
+      "ru": "Обмотки из бинтов",
+      "jp": "バンテージラップ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 58,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cambric-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Cambric Wraps",
+      "kr": "캠브릭 싸개",
+      "tw": "棉布裹手",
+      "ru": "Батистовые обмотки",
+      "jp": "キャンブリックのラップ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 65,
+      "energyShield": 21,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "adorned-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Adorned Wraps",
+      "kr": "치장된 싸개",
+      "tw": "裝飾裹手",
+      "ru": "Украшенные обмотки",
+      "jp": "装飾のあるラップ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 74,
+      "energyShield": 23,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "knightly-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Knightly Mitts",
+      "kr": "기사의 미트",
+      "tw": "騎士長手套",
+      "ru": "Рыцарские рукавицы",
+      "jp": "騎士のミット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 162,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ornate-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ornate Mitts",
+      "kr": "화려한 미트",
+      "tw": "華麗長手套",
+      "ru": "Фактурные рукавицы",
+      "jp": "華美なミット"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 171,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vaal-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Vaal Mitts",
+      "kr": "바알 미트",
+      "tw": "瓦爾長手套",
+      "ru": "Рукавицы ваал",
+      "jp": "ヴァールのミット"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 179,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "massive-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Massive Mitts",
+      "kr": "거대한 미트",
+      "tw": "巨型長手套",
+      "ru": "Массивные рукавицы",
+      "jp": "巨大なミット"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 187,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stalking-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Stalking Bracers",
+      "kr": "뒤를 쫓는 팔보호구",
+      "tw": "潛獵護腕",
+      "ru": "Наручи погони",
+      "jp": "追跡者の弓籠手"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 148,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grand-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Grand Bracers",
+      "kr": "우수한 팔보호구",
+      "tw": "宏偉護腕",
+      "ru": "Великолепные наручи",
+      "jp": "荘厳な弓籠手"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 155,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "barbed-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Barbed Bracers",
+      "kr": "가시 돋친 팔보호구",
+      "tw": "鉤刺護腕",
+      "ru": "Колючие наручи",
+      "jp": "トゲ付きの弓籠手"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 163,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "polished-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Polished Bracers",
+      "kr": "광택 나는 팔보호구",
+      "tw": "亮澤護腕",
+      "ru": "Полированные наручи",
+      "jp": "磨かれた弓籠手"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 170,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grim-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Grim Gloves",
+      "kr": "으스스한 장갑",
+      "tw": "冷酷手套",
+      "ru": "Мрачные перчатки",
+      "jp": "不気味な手袋"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 45,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "opulent-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Opulent Gloves",
+      "kr": "호화로운 장갑",
+      "tw": "奢靡手套",
+      "ru": "Богатые перчатки",
+      "jp": "絢爛な手袋"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 48,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vaal-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Vaal Gloves",
+      "kr": "바알 장갑",
+      "tw": "瓦爾手套",
+      "ru": "Перчатки ваал",
+      "jp": "ヴァールの手袋"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 51,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sirenscale-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Sirenscale Gloves",
+      "kr": "사이렌비늘 장갑",
+      "tw": "海妖鱗手套",
+      "ru": "Перчатки из чешуи сирены",
+      "jp": "サイレーンスケイルの手袋"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 54,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "steelmail-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Steelmail Gauntlets",
+      "kr": "강철사슬 건틀릿",
+      "tw": "鋼鎖護手",
+      "ru": "Стальные кольчужные перчатки",
+      "jp": "スチールメイルガントレット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 81,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "commander-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Commander Gauntlets",
+      "kr": "지휘관 건틀릿",
+      "tw": "指揮官護手",
+      "ru": "Перчатки командира",
+      "jp": "コマンダーガントレット"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 94,
+      "evasion": 85,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cultist-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Cultist Gauntlets",
+      "kr": "광신자 건틀릿",
+      "tw": "教徒護手",
+      "ru": "Перчатки культиста",
+      "jp": "カルト信者のガントレット"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 98,
+      "evasion": 90,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blacksteel-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Blacksteel Gauntlets",
+      "kr": "검은강철 건틀릿",
+      "tw": "烏鐵護手",
+      "ru": "Перчатки из чёрной стали",
+      "jp": "ブラックスティールガントレット"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 103,
+      "evasion": 94,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bound-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Bound Cuffs",
+      "kr": "속박된 수갑",
+      "tw": "綑綁腕帶",
+      "ru": "Обвязанные манжеты",
+      "jp": "縛られたカフス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 0,
+      "energyShield": 25,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancient-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Ancient Cuffs",
+      "kr": "고대의 수갑",
+      "tw": "遠古腕帶",
+      "ru": "Древние манжеты",
+      "jp": "古代のカフス"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 0,
+      "energyShield": 25,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gleaming-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Gleaming Cuffs",
+      "kr": "번뜩이는 수갑",
+      "tw": "輝光腕帶",
+      "ru": "Сверкающие манжеты",
+      "jp": "輝くカフス"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 94,
+      "evasion": 0,
+      "energyShield": 26,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "adherent-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Adherent Cuffs",
+      "kr": "지지자 수갑",
+      "tw": "追隨者腕帶",
+      "ru": "Манжеты приверженца",
+      "jp": "密着のカフス"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 98,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "war-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "War Wraps",
+      "kr": "전쟁 싸개",
+      "tw": "戰爭裹手",
+      "ru": "Военные обмотки",
+      "jp": "ウォーラップ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 94,
+      "energyShield": 29,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Elegant Wraps",
+      "kr": "우아한 싸개",
+      "tw": "優雅裹手",
+      "ru": "Утончённые обмотки",
+      "jp": "エレガントラップ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 85,
+      "energyShield": 26,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vaal-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Vaal Wraps",
+      "kr": "바알 싸개",
+      "tw": "瓦爾裹手",
+      "ru": "Обмотки ваал",
+      "jp": "ヴァールのラップ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 90,
+      "energyShield": 27,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "secured-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Secured Wraps",
+      "kr": "고정된 싸개",
+      "tw": "牢固裹手",
+      "ru": "Крепкие обмотки",
+      "jp": "固定されたラップ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 94,
+      "energyShield": 29,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fists-of-stone",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Fists of Stone",
+      "kr": "돌 주먹",
+      "tw": "磐石之拳",
+      "ru": "Каменные кулаки",
+      "jp": "石の拳"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HandWrapsImplicitLocalCopyPlayerLevelValue",
+        "lines": [
+          {
+            "stat": "local_hand_wraps_player_level_to_use",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "HandWrapsImplicitLocalBaseEvasionAndEnergyShieldPerLevel",
+        "lines": [
+          {
+            "stat": "local_hand_wraps_evasion_rating_per_level",
+            "value": "3",
+            "text": {
+              "en": "Has 3 to Evasion Rating per player level",
+              "kr": "플레이어 레벨 1당 회피 3",
+              "tw": "每一玩家等級3閃避值",
+              "ru": "3 к уклонению за каждый уровень игрока",
+              "jp": "プレイヤーレベルごとに回避力 3を持つ"
+            }
+          },
+          {
+            "stat": "local_hand_wraps_energy_shield_per_level",
+            "value": "1",
+            "text": {
+              "en": "Has 1 to maximum Energy Shield per player level",
+              "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
+              "tw": "每一玩家等級1最大能量護盾",
+              "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
+              "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
+            }
+          },
+          {
+            "stat": "local_level_requirement_override",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-fists-of-stone",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Fists of Stone",
+      "kr": "룬벼림 돌 주먹",
+      "tw": "符鍛磐石之拳",
+      "ru": "Руннокованые каменные кулаки",
+      "jp": "ルーンフォージの石の拳"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HandWrapsImplicitLocalCopyPlayerLevelValue",
+        "lines": [
+          {
+            "stat": "local_hand_wraps_player_level_to_use",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "HandWrapsImplicitLocalBaseEvasionEnergyShieldAndWardPerLevel",
+        "lines": [
+          {
+            "stat": "local_hand_wraps_evasion_rating_per_level",
+            "value": "2",
+            "text": {
+              "en": "Has 2 to Evasion Rating per player level",
+              "kr": "플레이어 레벨 1당 회피 2",
+              "tw": "每一玩家等級2閃避值",
+              "ru": "2 к уклонению за каждый уровень игрока",
+              "jp": "プレイヤーレベルごとに回避力 2を持つ"
+            }
+          },
+          {
+            "stat": "local_hand_wraps_energy_shield_per_level",
+            "value": "1",
+            "text": {
+              "en": "Has 1 to maximum Energy Shield per player level",
+              "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
+              "tw": "每一玩家等級1最大能量護盾",
+              "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
+              "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
+            }
+          },
+          {
+            "stat": "local_hand_wraps_ward_per_level",
+            "value": "1",
+            "text": {
+              "en": "Has 1 to maximum Runic Ward per player level",
+              "kr": "플레이어 레벨 1당 룬 수호 최대치 1",
+              "tw": "每一玩家等級擁有1最大符文保護",
+              "ru": "Получает 1 к максимуму рунического барьера за уровень игрока",
+              "jp": "プレイヤーレベルごとに最大ルーンワード 1を持つ"
+            }
+          },
+          {
+            "stat": "local_level_requirement_override",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-stocky-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Stocky Mitts",
+      "kr": "룬벼림 다부진 미트",
+      "tw": "符鍛結實長手套",
+      "ru": "Руннокованые толстые рукавицы",
+      "jp": "ルーンフォージのがっしりとしたミット"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 15,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-riveted-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Riveted Mitts",
+      "kr": "룬벼림 고정못 미트",
+      "tw": "符鍛鉚接長手套",
+      "ru": "Руннокованые клёпаные рукавицы",
+      "jp": "ルーンフォージのリベット付きミット"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 38,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-tempered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Tempered Mitts",
+      "kr": "룬벼림 단조한 미트",
+      "tw": "符鍛淬鍊長手套",
+      "ru": "Руннокованые закалённые рукавицы",
+      "jp": "ルーンフォージの焼き入れミット"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 49,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bolstered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Bolstered Mitts",
+      "kr": "룬벼림 발전된 미트",
+      "tw": "符鍛加固長手套",
+      "ru": "Руннокованые укреплённые рукавицы",
+      "jp": "ルーンフォージの補強ミット"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 75,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 21
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-moulded-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Moulded Mitts",
+      "kr": "룬벼림 주조한 미트",
+      "tw": "符鍛鑄模長手套",
+      "ru": "Руннокованые литые рукавицы",
+      "jp": "ルーンフォージの成形ミット"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 22
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-detailed-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Detailed Mitts",
+      "kr": "룬벼림 정교한 미트",
+      "tw": "符鍛精細長手套",
+      "ru": "Руннокованые украшенные рукавицы",
+      "jp": "ルーンフォージの精巧なミット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 116,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-titan-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Titan Mitts",
+      "kr": "룬벼림 거신 미트",
+      "tw": "符鍛泰坦長手套",
+      "ru": "Руннокованые рукавицы титана",
+      "jp": "ルーンフォージのタイタンのミット"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 117
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grand-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Grand Mitts",
+      "kr": "룬벼림 우수한 미트",
+      "tw": "符鍛宏偉長手套",
+      "ru": "Руннокованые величественные рукавицы",
+      "jp": "ルーンフォージの大いなるミット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 141
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-suede-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Suede Bracers",
+      "kr": "룬벼림 스웨드 팔보호구",
+      "tw": "符鍛麂皮護腕",
+      "ru": "Руннокованые замшевые наручи",
+      "jp": "ルーンフォージのスエードの弓籠手"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 10,
+      "energyShield": 0,
+      "ward": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-firm-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Firm Bracers",
+      "kr": "룬벼림 굳건한 팔보호구",
+      "tw": "符鍛穩固護腕",
+      "ru": "Руннокованые плотные наручи",
+      "jp": "ルーンフォージの頑丈な弓籠手"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 31,
+      "energyShield": 0,
+      "ward": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bound-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Bound Bracers",
+      "kr": "룬벼림 속박된 팔보호구",
+      "tw": "符鍛緊縛護腕",
+      "ru": "Руннокованые обмотанные наручи",
+      "jp": "ルーンフォージの固定式の弓籠手"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 42,
+      "energyShield": 0,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sectioned-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Sectioned Bracers",
+      "kr": "룬벼림 절개된 팔보호구",
+      "tw": "符鍛分段護腕",
+      "ru": "Руннокованые сегментные наручи",
+      "jp": "ルーンフォージの分割式の弓籠手"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 68,
+      "energyShield": 0,
+      "ward": 22
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-spined-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Spined Bracers",
+      "kr": "룬벼림 가시 팔보호구",
+      "tw": "符鍛棘刺護腕",
+      "ru": "Руннокованые щетинистые наручи",
+      "jp": "ルーンフォージの針付きの弓籠手"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 79,
+      "energyShield": 0,
+      "ward": 22
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-fine-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Fine Bracers",
+      "kr": "룬벼림 섬세한 팔보호구",
+      "tw": "符鍛精良護腕",
+      "ru": "Руннокованые искусные наручи",
+      "jp": "ルーンフォージの上質な弓籠手"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 105,
+      "energyShield": 0,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-hardened-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Hardened Bracers",
+      "kr": "룬벼림 굳어진 팔보호구",
+      "tw": "符鍛硬化護腕",
+      "ru": "Руннокованые жёсткие наручи",
+      "jp": "ルーンフォージの焼き入れの弓籠手"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 117
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-engraved-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Engraved Bracers",
+      "kr": "룬벼림 아로새긴 팔보호구",
+      "tw": "符鍛紋刻護腕",
+      "ru": "Руннокованые резные наручи",
+      "jp": "ルーンフォージの彫刻の弓籠手"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 133,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-torn-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Torn Gloves",
+      "kr": "룬벼림 찢긴 장갑",
+      "tw": "符鍛撕裂手套",
+      "ru": "Руннокованые рваные перчатки",
+      "jp": "ルーンフォージの破れた手袋"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 9,
+      "ward": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sombre-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Sombre Gloves",
+      "kr": "룬벼림 암울한 장갑",
+      "tw": "符鍛暗淡手套",
+      "ru": "Руннокованые тёмные перчатки",
+      "jp": "ルーンフォージの陰鬱な手袋"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 15,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stitched-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Stitched Gloves",
+      "kr": "룬벼림 꿰맨 장갑",
+      "tw": "符鍛縫合手套",
+      "ru": "Руннокованые сшитые перчатки",
+      "jp": "ルーンフォージの縫い合わせの手袋"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 18,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-jewelled-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Jewelled Gloves",
+      "kr": "룬벼림 보석 박힌 장갑",
+      "tw": "符鍛寶石手套",
+      "ru": "Руннокованые инкрустированные перчатки",
+      "jp": "ルーンフォージの宝石をあしらった手袋"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 23,
+      "ward": 20
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-intricate-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Intricate Gloves",
+      "kr": "룬벼림 복잡한 장갑",
+      "tw": "符鍛精妙手套",
+      "ru": "Руннокованые затейливые перчатки",
+      "jp": "ルーンフォージの手の込んだ手袋"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 22
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-pauascale-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Pauascale Gloves",
+      "kr": "룬벼림 파우아비늘 장갑",
+      "tw": "符鍛海靈鱗手套",
+      "ru": "Руннокованые перчатки с перламутром",
+      "jp": "ルーンフォージのパウアスケール手袋"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-embroidered-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Embroidered Gloves",
+      "kr": "룬벼림 수놓은 장갑",
+      "tw": "符鍛刺繡手套",
+      "ru": "Руннокованые расшитые перчатки",
+      "jp": "ルーンフォージの刺繍入りの手袋"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 117
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-adorned-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Adorned Gloves",
+      "kr": "룬벼림 치장된 장갑",
+      "tw": "符鍛奢華手套",
+      "ru": "Руннокованые украшенные перчатки",
+      "jp": "ルーンフォージの装飾の手袋"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 141
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ringmail-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Ringmail Gauntlets",
+      "kr": "룬벼림 고리 갑옷 건틀릿",
+      "tw": "符鍛環鎖護手",
+      "ru": "Руннокованые кольчужные перчатки",
+      "jp": "ルーンフォージのリングメイルガントレット"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "armour",
+      "armour": 14,
+      "evasion": 11,
+      "energyShield": 0,
+      "ward": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-layered-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Layered Gauntlets",
+      "kr": "룬벼림 겹겹의 건틀릿",
+      "tw": "符鍛層板護手",
+      "ru": "Руннокованые пластинчатые перчатки",
+      "jp": "ルーンフォージの層状のガントレット"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 27,
+      "evasion": 23,
+      "energyShield": 0,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-doubled-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Doubled Gauntlets",
+      "kr": "룬벼림 이중 건틀릿",
+      "tw": "符鍛雙層護手",
+      "ru": "Руннокованые двухслойные перчатки",
+      "jp": "ルーンフォージの二重のガントレット"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 49,
+      "evasion": 43,
+      "energyShield": 0,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-plate-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Plate Gauntlets",
+      "kr": "룬벼림 판금 건틀릿",
+      "tw": "符鍛鎧甲護手",
+      "ru": "Руннокованые латные перчатки",
+      "jp": "ルーンフォージのプレートガントレット"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 64,
+      "evasion": 58,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-burnished-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Burnished Gauntlets",
+      "kr": "룬벼림 윤이 나는 건틀릿",
+      "tw": "符鍛拋光護手",
+      "ru": "Руннокованые полированные перчатки",
+      "jp": "ルーンフォージの研磨されたガントレット"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 117
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ornate-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Ornate Gauntlets",
+      "kr": "룬벼림 화려한 건틀릿",
+      "tw": "符鍛華麗護手",
+      "ru": "Руннокованые изысканные перчатки",
+      "jp": "ルーンフォージの装飾のガントレット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 141
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-rope-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Rope Cuffs",
+      "kr": "룬벼림 밧줄 수갑",
+      "tw": "符鍛繩索腕帶",
+      "ru": "Руннокованые верёвочные манжеты",
+      "jp": "ルーンフォージの縄のカフス"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 13,
+      "evasion": 0,
+      "energyShield": 6,
+      "ward": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-aged-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Aged Cuffs",
+      "kr": "룬벼림 오래된 수갑",
+      "tw": "符鍛陳舊腕帶",
+      "ru": "Руннокованые старинные манжеты",
+      "jp": "ルーンフォージの年季の入ったカフス"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 27,
+      "evasion": 0,
+      "energyShield": 10,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-goldcast-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Goldcast Cuffs",
+      "kr": "룬벼림 금주물 수갑",
+      "tw": "符鍛金鑄腕帶",
+      "ru": "Руннокованые золотые манжеты",
+      "jp": "ルーンフォージの金鋳造のカフス"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 49,
+      "evasion": 0,
+      "energyShield": 15,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-kalguuran-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Kalguuran Cuffs",
+      "kr": "룬벼림 칼구르 수갑",
+      "tw": "符鍛卡爾葛腕帶",
+      "ru": "Руннокованые калгууранские манжеты",
+      "jp": "ルーンフォージのカルグールのカフス"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 64,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-righteous-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Righteous Cuffs",
+      "kr": "룬벼림 정의로운 수갑",
+      "tw": "符鍛正義腕帶",
+      "ru": "Руннокованые манжеты праведника",
+      "jp": "ルーンフォージの正義のカフス"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 117
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-signet-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Signet Cuffs",
+      "kr": "룬벼림 인장 수갑",
+      "tw": "符鍛徽印腕帶",
+      "ru": "Руннокованые манжеты с печаткой",
+      "jp": "ルーンフォージの印章のカフス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 141
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gauze-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Gauze Wraps",
+      "kr": "룬벼림 거즈 싸개",
+      "tw": "符鍛紗布裹手",
+      "ru": "Руннокованые обмотки из муслина",
+      "jp": "ルーンフォージの薄布のラップ"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 9,
+      "energyShield": 6,
+      "ward": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-linen-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Linen Wraps",
+      "kr": "룬벼림 리넨 싸개",
+      "tw": "符鍛麻布裹手",
+      "ru": "Руннокованые льняные обмотки",
+      "jp": "ルーンフォージのリネンのラップ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 23,
+      "energyShield": 10,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-spiral-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Spiral Wraps",
+      "kr": "룬벼림 나선 싸개",
+      "tw": "符鍛盤繞裹手",
+      "ru": "Руннокованые витые обмотки",
+      "jp": "ルーンフォージのスパイラルラップ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 43,
+      "energyShield": 15,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-buckled-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Buckled Wraps",
+      "kr": "룬벼림 버클 싸개",
+      "tw": "符鍛帶扣裹手",
+      "ru": "Руннокованые обмотки с пряжками",
+      "jp": "ルーンフォージのバックル付きのラップ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 58,
+      "energyShield": 19,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-furtive-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Furtive Wraps",
+      "kr": "룬벼림 은밀한 싸개",
+      "tw": "符鍛隱秘裹手",
+      "ru": "Руннокованые скрытые обмотки",
+      "jp": "ルーンフォージの隠密のラップ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 117
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-utility-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Utility Wraps",
+      "kr": "룬벼림 특수 싸개",
+      "tw": "符鍛實用裹手",
+      "ru": "Руннокованые практичные обмотки",
+      "jp": "ルーンフォージの実用的なラップ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 141
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ancient-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Ancient Mitts",
+      "kr": "룬벼림 고대 미트",
+      "tw": "符鍛遠古長手套",
+      "ru": "Руннокованые старинные рукавицы",
+      "jp": "ルーンフォージの古代のミット"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 103,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 48
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-feathered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Feathered Mitts",
+      "kr": "룬벼림 깃털 미트",
+      "tw": "符鍛羽毛長手套",
+      "ru": "Руннокованые оперённые рукавицы",
+      "jp": "ルーンフォージの羽根付きのミット"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 32
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-refined-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Refined Bracers",
+      "kr": "룬벼림 제련된 팔보호구",
+      "tw": "符鍛精製護腕",
+      "ru": "Руннокованые обрамлённые наручи",
+      "jp": "ルーンフォージの洗練された弓籠手"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 118,
+      "energyShield": 0,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-spiked-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Spiked Bracers",
+      "kr": "룬벼림 가시 팔보호구",
+      "tw": "符鍛尖刺護腕",
+      "ru": "Руннокованые шипастые наручи",
+      "jp": "ルーンフォージのスパイク付きの弓籠手"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 108,
+      "energyShield": 0,
+      "ward": 45
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-baroque-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Baroque Gloves",
+      "kr": "룬벼림 바로크 장갑",
+      "tw": "符鍛巴洛克手套",
+      "ru": "Руннокованые вычурные перчатки",
+      "jp": "ルーンフォージのバロックの手袋"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 33,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gold-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Gold Gloves",
+      "kr": "룬벼림 금 장갑",
+      "tw": "符鍛黃金手套",
+      "ru": "Руннокованые золотые перчатки",
+      "jp": "ルーンフォージの金の手袋"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 31,
+      "ward": 52
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-zealot-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Zealot Gauntlets",
+      "kr": "룬벼림 맹신자 건틀릿",
+      "tw": "符鍛狂熱護手",
+      "ru": "Руннокованые перчатки подвижника",
+      "jp": "ルーンフォージの狂信者のガントレット"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 78,
+      "evasion": 71,
+      "energyShield": 0,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ornate-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Ornate Cuffs",
+      "kr": "룬벼림 화려한 수갑",
+      "tw": "符鍛華麗腕帶",
+      "ru": "Руннокованые изысканные манжеты",
+      "jp": "ルーンフォージの華美なカフス"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 65,
+      "evasion": 0,
+      "energyShield": 18,
+      "ward": 45
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-adorned-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Adorned Wraps",
+      "kr": "룬벼림 치장된 싸개",
+      "tw": "符鍛裝飾裹手",
+      "ru": "Руннокованые украшенные обмотки",
+      "jp": "ルーンフォージの装飾のあるラップ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 63,
+      "energyShield": 20,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grand-manchettes",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Grand Manchettes",
+      "kr": "룬벼림 우수한 소맷부리",
+      "tw": "符鍛宏偉手鐲",
+      "ru": "Руннокованые великолепные манжеты",
+      "jp": "ルーンフォージの大いなるマンシェット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 15,
+      "evasion": 14,
+      "energyShield": 4,
+      "ward": 123
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-knightly-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Knightly Mitts",
+      "kr": "룬벼림 기사의 미트",
+      "tw": "符鍛騎士長手套",
+      "ru": "Руннокованые рыцарские рукавицы",
+      "jp": "ルーンフォージの騎士のミット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 146,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ornate-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Ornate Mitts",
+      "kr": "룬벼림 화려한 미트",
+      "tw": "符鍛華麗長手套",
+      "ru": "Руннокованые фактурные рукавицы",
+      "jp": "ルーンフォージの華美なミット"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 106,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-vaal-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Vaal Mitts",
+      "kr": "룬벼림 바알 미트",
+      "tw": "符鍛瓦爾長手套",
+      "ru": "Руннокованые рукавицы ваал",
+      "jp": "ルーンフォージのヴァールのミット"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 162,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-massive-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Massive Mitts",
+      "kr": "룬벼림 거대한 미트",
+      "tw": "符鍛巨型長手套",
+      "ru": "Руннокованые массивные рукавицы",
+      "jp": "ルーンフォージの巨大なミット"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 49,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 127
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stalking-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Stalking Bracers",
+      "kr": "룬벼림 뒤를 쫓는 팔보호구",
+      "tw": "符鍛潛獵護腕",
+      "ru": "Руннокованые наручи погони",
+      "jp": "ルーンフォージの追跡者の弓籠手"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 133,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grand-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Grand Bracers",
+      "kr": "룬벼림 우수한 팔보호구",
+      "tw": "符鍛宏偉護腕",
+      "ru": "Руннокованые великолепные наручи",
+      "jp": "ルーンフォージの荘厳な弓籠手"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 96,
+      "energyShield": 0,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-barbed-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Barbed Bracers",
+      "kr": "룬벼림 가시 돋친 팔보호구",
+      "tw": "符鍛鉤刺護腕",
+      "ru": "Руннокованые колючие наручи",
+      "jp": "ルーンフォージのトゲ付きの弓籠手"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 141,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-polished-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Polished Bracers",
+      "kr": "룬벼림 광택 나는 팔보호구",
+      "tw": "符鍛亮澤護腕",
+      "ru": "Руннокованые полированные наручи",
+      "jp": "ルーンフォージの磨かれた弓籠手"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 52,
+      "energyShield": 0,
+      "ward": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grim-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Grim Gloves",
+      "kr": "룬벼림 으스스한 장갑",
+      "tw": "符鍛冷酷手套",
+      "ru": "Руннокованые мрачные перчатки",
+      "jp": "ルーンフォージの不気味な手袋"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 41,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-opulent-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Opulent Gloves",
+      "kr": "룬벼림 호화로운 장갑",
+      "tw": "符鍛奢靡手套",
+      "ru": "Руннокованые богатые перчатки",
+      "jp": "ルーンフォージの絢爛な手袋"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 29,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-vaal-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Vaal Gloves",
+      "kr": "룬벼림 바알 장갑",
+      "tw": "符鍛瓦爾手套",
+      "ru": "Руннокованые перчатки ваал",
+      "jp": "ルーンフォージのヴァールの手袋"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 47,
+      "ward": 21
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sirenscale-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Sirenscale Gloves",
+      "kr": "룬벼림 사이렌비늘 장갑",
+      "tw": "符鍛海妖鱗手套",
+      "ru": "Руннокованые перчатки из чешуи сирены",
+      "jp": "ルーンフォージのサイレーンスケイルの手袋"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 13,
+      "ward": 128
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-steelmail-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Steelmail Gauntlets",
+      "kr": "룬벼림 강철사슬 건틀릿",
+      "tw": "符鍛鋼鎖護手",
+      "ru": "Руннокованые стальные кольчужные перчатки",
+      "jp": "ルーンフォージのスチールメイルガントレット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 73,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-commander-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Commander Gauntlets",
+      "kr": "룬벼림 지휘관 건틀릿",
+      "tw": "符鍛指揮官護手",
+      "ru": "Руннокованые перчатки командира",
+      "jp": "ルーンフォージのコマンダーガントレット"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 58,
+      "evasion": 53,
+      "energyShield": 0,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cultist-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Cultist Gauntlets",
+      "kr": "룬벼림 광신자 건틀릿",
+      "tw": "符鍛教徒護手",
+      "ru": "Руннокованые перчатки культиста",
+      "jp": "ルーンフォージのカルト信者のガントレット"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 85,
+      "evasion": 77,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-blacksteel-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Blacksteel Gauntlets",
+      "kr": "룬벼림 검은강철 건틀릿",
+      "tw": "符鍛烏鐵護手",
+      "ru": "Руннокованые перчатки из чёрной стали",
+      "jp": "ルーンフォージのブラックスティールガントレット"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 18,
+      "evasion": 16,
+      "energyShield": 0,
+      "ward": 141
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bound-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Bound Cuffs",
+      "kr": "룬벼림 속박된 수갑",
+      "tw": "符鍛綑綁腕帶",
+      "ru": "Руннокованые обвязанные манжеты",
+      "jp": "ルーンフォージの縛られたカフス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ancient-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Ancient Cuffs",
+      "kr": "룬벼림 고대의 수갑",
+      "tw": "符鍛遠古腕帶",
+      "ru": "Руннокованые древние манжеты",
+      "jp": "ルーンフォージの古代のカフス"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 58,
+      "evasion": 0,
+      "energyShield": 16,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gleaming-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Gleaming Cuffs",
+      "kr": "룬벼림 번뜩이는 수갑",
+      "tw": "符鍛輝光腕帶",
+      "ru": "Руннокованые сверкающие манжеты",
+      "jp": "ルーンフォージの輝くカフス"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 0,
+      "energyShield": 25,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-adherent-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Adherent Cuffs",
+      "kr": "룬벼림 지지자 수갑",
+      "tw": "符鍛追隨者腕帶",
+      "ru": "Руннокованые манжеты приверженца",
+      "jp": "ルーンフォージの密着のカフス"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 22,
+      "evasion": 0,
+      "energyShield": 6,
+      "ward": 134
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-war-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged War Wraps",
+      "kr": "룬벼림 전쟁 싸개",
+      "tw": "符鍛戰爭裹手",
+      "ru": "Руннокованые военные обмотки",
+      "jp": "ルーンフォージのウォーラップ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 73,
+      "energyShield": 22,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-elegant-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Elegant Wraps",
+      "kr": "룬벼림 우아한 싸개",
+      "tw": "符鍛優雅裹手",
+      "ru": "Руннокованые утончённые обмотки",
+      "jp": "ルーンフォージのエレガントラップ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 53,
+      "energyShield": 16,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-vaal-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Vaal Wraps",
+      "kr": "룬벼림 바알 싸개",
+      "tw": "符鍛瓦爾裹手",
+      "ru": "Руннокованые обмотки ваал",
+      "jp": "ルーンフォージのヴァールのラップ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 81,
+      "energyShield": 25,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-secured-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runeforged Secured Wraps",
+      "kr": "룬벼림 고정된 싸개",
+      "tw": "符鍛牢固裹手",
+      "ru": "Руннокованые крепкие обмотки",
+      "jp": "ルーンフォージの固定されたラップ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 18,
+      "energyShield": 5,
+      "ward": 138
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-stocky-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Stocky Mitts",
+      "kr": "룬숙련 다부진 미트",
+      "tw": "符煉結實長手套",
+      "ru": "Рунномастерские толстые рукавицы",
+      "jp": "ルーンマスターのがっしりとしたミット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 50,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 45
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-riveted-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Riveted Mitts",
+      "kr": "룬숙련 고정못 미트",
+      "tw": "符煉鉚接長手套",
+      "ru": "Рунномастерские клёпаные рукавицы",
+      "jp": "ルーンマスターのリベット付きミット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 23
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-tempered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Tempered Mitts",
+      "kr": "룬숙련 단조한 미트",
+      "tw": "符煉淬鍊長手套",
+      "ru": "Рунномастерские закалённые рукавицы",
+      "jp": "ルーンマスターの焼き入れミット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 95,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 23
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-bolstered-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Bolstered Mitts",
+      "kr": "룬숙련 발전된 미트",
+      "tw": "符煉加固長手套",
+      "ru": "Рунномастерские укреплённые рукавицы",
+      "jp": "ルーンマスターの補強ミット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-moulded-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Moulded Mitts",
+      "kr": "룬숙련 주조한 미트",
+      "tw": "符煉鑄模長手套",
+      "ru": "Рунномастерские литые рукавицы",
+      "jp": "ルーンマスターの成形ミット"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 70,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 61
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-titan-mitts",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Titan Mitts",
+      "kr": "룬숙련 거신 미트",
+      "tw": "符煉泰坦長手套",
+      "ru": "Рунномастерские рукавицы титана",
+      "jp": "ルーンマスターのタイタンのミット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 114,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-suede-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Suede Bracers",
+      "kr": "룬숙련 스웨드 팔보호구",
+      "tw": "符煉麂皮護腕",
+      "ru": "Рунномастерские замшевые наручи",
+      "jp": "ルーンマスターのスエードの弓籠手"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 63,
+      "energyShield": 0,
+      "ward": 20
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-firm-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Firm Bracers",
+      "kr": "룬숙련 굳건한 팔보호구",
+      "tw": "符煉穩固護腕",
+      "ru": "Рунномастерские плотные наручи",
+      "jp": "ルーンマスターの頑丈な弓籠手"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 63,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-sectioned-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Sectioned Bracers",
+      "kr": "룬숙련 절개된 팔보호구",
+      "tw": "符煉分段護腕",
+      "ru": "Рунномастерские сегментные наручи",
+      "jp": "ルーンマスターの分割式の弓籠手"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 76,
+      "energyShield": 0,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-spined-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Spined Bracers",
+      "kr": "룬숙련 가시 팔보호구",
+      "tw": "符煉棘刺護腕",
+      "ru": "Рунномастерские щетинистые наручи",
+      "jp": "ルーンマスターの針付きの弓籠手"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 72,
+      "energyShield": 0,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-fine-bracers",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Fine Bracers",
+      "kr": "룬숙련 섬세한 팔보호구",
+      "tw": "符煉精良護腕",
+      "ru": "Рунномастерские искусные наручи",
+      "jp": "ルーンマスターの針付きの弓籠手"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 52,
+      "energyShield": 0,
+      "ward": 52
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-torn-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Torn Gloves",
+      "kr": "룬숙련 찢긴 장갑",
+      "tw": "符煉撕裂手套",
+      "ru": "Рунномастерские рваные перчатки",
+      "jp": "ルーンマスターの破れた手袋"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 18,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-sombre-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Sombre Gloves",
+      "kr": "룬숙련 암울한 장갑",
+      "tw": "符煉暗淡手套",
+      "ru": "Рунномастерские тёмные перчатки",
+      "jp": "ルーンマスターの陰鬱な手袋"
+    },
+    "dropLevel": 39,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 24,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-stitched-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Stitched Gloves",
+      "kr": "룬숙련 꿰맨 장갑",
+      "tw": "符煉縫合手套",
+      "ru": "Рунномастерские сшитые перчатки",
+      "jp": "ルーンマスターの縫い合わせの手袋"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 30,
+      "ward": 23
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-jewelled-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Jewelled Gloves",
+      "kr": "룬숙련 보석 박힌 장갑",
+      "tw": "符煉寶石手套",
+      "ru": "Рунномастерские инкрустированные перчатки",
+      "jp": "ルーンマスターの宝石をあしらった手袋"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 21,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-intricate-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Intricate Gloves",
+      "kr": "룬숙련 복잡한 장갑",
+      "tw": "符煉精妙手套",
+      "ru": "Рунномастерские затейливые перчатки",
+      "jp": "ルーンマスターの手の込んだ手袋"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 47,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-pauascale-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Pauascale Gloves",
+      "kr": "룬숙련 파우아비늘 장갑",
+      "tw": "符煉海靈鱗手套",
+      "ru": "Рунномастерские перчатки с перламутром",
+      "jp": "ルーンマスターのパウアスケール手袋"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 30,
+      "ward": 31
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-embroidered-gloves",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Embroidered Gloves",
+      "kr": "룬숙련 수놓은 장갑",
+      "tw": "符煉刺繡手套",
+      "ru": "Рунномастерские расшитые перчатки",
+      "jp": "ルーンマスターの刺繍入りの手袋"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 26,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-ringmail-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Ringmail Gauntlets",
+      "kr": "룬숙련 고리 갑옷 건틀릿",
+      "tw": "符煉環鎖護手",
+      "ru": "Рунномастерские кольчужные перчатки",
+      "jp": "ルーンマスターのリングメイルガントレット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 44,
+      "evasion": 39,
+      "energyShield": 0,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-layered-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Layered Gauntlets",
+      "kr": "룬숙련 겹겹의 건틀릿",
+      "tw": "符煉層板護手",
+      "ru": "Рунномастерские пластинчатые перчатки",
+      "jp": "ルーンマスターの層状のガントレット"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 52,
+      "evasion": 47,
+      "energyShield": 0,
+      "ward": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-doubled-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Doubled Gauntlets",
+      "kr": "룬숙련 이중 건틀릿",
+      "tw": "符煉雙層護手",
+      "ru": "Рунномастерские двухслойные перчатки",
+      "jp": "ルーンマスターの二重のガントレット"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 61,
+      "evasion": 56,
+      "energyShield": 0,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-plate-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Plate Gauntlets",
+      "kr": "룬숙련 판금 건틀릿",
+      "tw": "符煉鎧甲護手",
+      "ru": "Рунномастерские латные перчатки",
+      "jp": "ルーンマスターのプレートガントレット"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 69,
+      "evasion": 63,
+      "energyShield": 0,
+      "ward": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-burnished-gauntlets",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Burnished Gauntlets",
+      "kr": "룬숙련 윤이 나는 건틀릿",
+      "tw": "符煉拋光護手",
+      "ru": "Рунномастерские полированные перчатки",
+      "jp": "ルーンマスターの研磨されたガントレット"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 36,
+      "evasion": 33,
+      "energyShield": 0,
+      "ward": 58
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-rope-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Rope Cuffs",
+      "kr": "룬숙련 밧줄 수갑",
+      "tw": "符煉繩索腕帶",
+      "ru": "Рунномастерские верёвочные манжеты",
+      "jp": "ルーンマスターの縄のカフス"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 33,
+      "evasion": 0,
+      "energyShield": 10,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-aged-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Aged Cuffs",
+      "kr": "룬숙련 오래된 수갑",
+      "tw": "符煉陳舊腕帶",
+      "ru": "Рунномастерские старинные манжеты",
+      "jp": "ルーンマスターの年季の入ったカフス"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 44,
+      "evasion": 0,
+      "energyShield": 13,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-goldcast-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Goldcast Cuffs",
+      "kr": "룬숙련 금주물 수갑",
+      "tw": "符煉金鑄腕帶",
+      "ru": "Рунномастерские золотые манжеты",
+      "jp": "ルーンマスターの金鋳造のカフス"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 77,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 37
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-verisium-cuffs",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Verisium Cuffs",
+      "kr": "룬숙련 베리시움 수갑",
+      "tw": "符煉維里西姆腕帶",
+      "ru": "Рунномастерский веризиевые манжеты",
+      "jp": "ルーンマスターのカルグールのカフス"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 0,
+      "energyShield": 21,
+      "ward": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-gauze-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Gauze Wraps",
+      "kr": "룬숙련 거즈 싸개",
+      "tw": "符煉紗布裹手",
+      "ru": "Рунномастерские обмотки из муслина",
+      "jp": "ルーンマスターの薄布のラップ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 90
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-linen-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Linen Wraps",
+      "kr": "룬숙련 리넨 싸개",
+      "tw": "符煉麻布裹手",
+      "ru": "Рунномастерские льняные обмотки",
+      "jp": "ルーンマスターのリネンのラップ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 37,
+      "energyShield": 12,
+      "ward": 23
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-spiral-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Spiral Wraps",
+      "kr": "룬숙련 나선 싸개",
+      "tw": "符煉盤繞裹手",
+      "ru": "Рунномастерские витые обмотки",
+      "jp": "ルーンマスターのスパイラルラップ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 38,
+      "energyShield": 12,
+      "ward": 67
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-furtive-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Furtive Wraps",
+      "kr": "룬숙련 은밀한 싸개",
+      "tw": "符煉隱秘裹手",
+      "ru": "Рунномастерские скрытые обмотки",
+      "jp": "ルーンマスターの隠密のラップ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 56,
+      "energyShield": 17,
+      "ward": 24
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-utility-wraps",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Utility Wraps",
+      "kr": "룬숙련 특수 싸개",
+      "tw": "符煉實用裹手",
+      "ru": "Рунномастерские практичные обмотки",
+      "jp": "ルーンマスターの実用的なラップ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 49,
+      "energyShield": 15,
+      "ward": 56
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-grand-manchettes",
+    "classId": "Gloves",
+    "className": {
+      "en": "Gloves",
+      "kr": "장갑",
+      "tw": "手套",
+      "ru": "Перчатки",
+      "jp": "手袋"
+    },
+    "name": {
+      "en": "Runemastered Grand Manchettes",
+      "kr": "룬숙련 우수한 소맷부리",
+      "tw": "符煉宏偉手鐲",
+      "ru": "Рунномастерские великолепные манжеты",
+      "jp": "ルーンマスターの大いなるマンシェット"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 30,
+      "evasion": 27,
+      "energyShield": 8,
+      "ward": 70
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

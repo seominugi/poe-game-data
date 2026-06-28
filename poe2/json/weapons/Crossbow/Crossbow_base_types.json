@@ -1,0 +1,1338 @@
+[
+  {
+    "id": "makeshift-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Makeshift Crossbow",
+      "kr": "임시 석궁",
+      "tw": "臨時十字弓",
+      "ru": "Самодельный самострел",
+      "jp": "間に合わせのクロスボウ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 12,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tense-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Tense Crossbow",
+      "kr": "팽팽한 석궁",
+      "tw": "緊繃十字弓",
+      "ru": "Тугой самострел",
+      "jp": "張り詰めたクロスボウ"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 15,
+      "critChance": 5,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitBoltSpeed1",
+        "lines": [
+          {
+            "stat": "projectile_speed_+%_with_crossbow_skills",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Bolt Speed",
+              "kr": "볼트 속도 20~30% 증가",
+              "tw": "增加20~30%弩箭速度",
+              "ru": "20~30% повышение скорости болта",
+              "jp": "ボルトのスピードが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sturdy-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Sturdy Crossbow",
+      "kr": "튼튼한 석궁",
+      "tw": "堅固十字弓",
+      "ru": "Прочный самострел",
+      "jp": "頑丈なクロスボウ"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 26,
+      "critChance": 5,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "varnished-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Varnished Crossbow",
+      "kr": "광택 나는 석궁",
+      "tw": "亮漆十字弓",
+      "ru": "Лакированный самострел",
+      "jp": "ニス塗りのクロスボウ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 36,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dyad-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Dyad Crossbow",
+      "kr": "이중 석궁",
+      "tw": "雙生十字弓",
+      "ru": "Парный самострел",
+      "jp": "対のクロスボウ"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 37,
+      "critChance": 5,
+      "reloadTime": 1.1,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitAdditionalAmmo1",
+        "lines": [
+          {
+            "stat": "base_number_of_crossbow_bolts",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "alloy-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Alloy Crossbow",
+      "kr": "합금 석궁",
+      "tw": "合金十字弓",
+      "ru": "Металлический самострел",
+      "jp": "合金のクロスボウ"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 50,
+      "critChance": 5,
+      "reloadTime": 0.7,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bombard-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Bombard Crossbow",
+      "kr": "포격 석궁",
+      "tw": "轟擊十字弓",
+      "ru": "Самострел бомбардира",
+      "jp": "爆撃のクロスボウ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 56,
+      "critChance": 5,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitGrenadeProjectiles1",
+        "lines": [
+          {
+            "stat": "grenade_skill_number_of_additional_projectiles",
+            "value": "1",
+            "text": {
+              "en": "Grenade Skills Fire an additional Projectile",
+              "kr": "유탄 스킬이 투사체 1개 추가 발사",
+              "tw": "擲彈技能發射額外一個投射物",
+              "ru": "Умения гранат выпускают дополнительный снаряд",
+              "jp": "グレネードスキルは投射物を追加で1個放つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "construct-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Construct Crossbow",
+      "kr": "구조물 석궁",
+      "tw": "絕命十字弓",
+      "ru": "Самострел конструкта",
+      "jp": "構造化クロスボウ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 72,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blackfire-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Blackfire Crossbow",
+      "kr": "검은불 석궁",
+      "tw": "黑火十字弓",
+      "ru": "Самострел чёрного пламени",
+      "jp": "黒炎のクロスボウ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 80,
+      "critChance": 7,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "piercing-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Piercing Crossbow",
+      "kr": "관통 석궁",
+      "tw": "穿刺十字弓",
+      "ru": "Пронзающий самострел",
+      "jp": "貫通のクロスボウ"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 84,
+      "critChance": 5,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitChanceToPierce1",
+        "lines": [
+          {
+            "stat": "base_chance_to_pierce_%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% chance to Pierce an Enemy",
+              "kr": "20~30%의 확률로 적 관통",
+              "tw": "有20~30%機率穿透一個敵人",
+              "ru": "20~30% шанс пронзить врага",
+              "jp": "20~30%の確率で敵を貫通する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cumbrous-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Cumbrous Crossbow",
+      "kr": "거추장스러운 석궁",
+      "tw": "笨重十字弓",
+      "ru": "Тяжёлый самострел",
+      "jp": "煩雑なクロスボウ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0.9,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitAdditionalBallistaTotem1",
+        "lines": [
+          {
+            "stat": "additional_ballista_totems_allowed",
+            "value": "1",
+            "text": {
+              "en": "1 to maximum number of Summoned Ballista Totems",
+              "kr": "소환 가능한 쇠뇌 토템 최대 개수 1",
+              "tw": "召喚砲塔圖騰最大數量1",
+              "ru": "1 к максимальному количеству призванных тотемов-баллист",
+              "jp": "バリスタトーテムの最大召喚数 1"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dedalian-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Dedalian Crossbow",
+      "kr": "복잡한 석궁",
+      "tw": "精巧十字弓",
+      "ru": "Хитроумный самострел",
+      "jp": "デダリアンクロスボウ"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 99,
+      "critChance": 7,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "esoteric-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Esoteric Crossbow",
+      "kr": "신비로운 석궁",
+      "tw": "秘傳十字弓",
+      "ru": "Тайный самострел",
+      "jp": "秘伝のクロスボウ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 113,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "taut-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Taut Crossbow",
+      "kr": "팽팽한 석궁",
+      "tw": "緊繃十字弓",
+      "ru": "Упругий самострел",
+      "jp": "強弦のクロスボウ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 79,
+      "critChance": 5,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitBoltSpeed1",
+        "lines": [
+          {
+            "stat": "projectile_speed_+%_with_crossbow_skills",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Bolt Speed",
+              "kr": "볼트 속도 20~30% 증가",
+              "tw": "增加20~30%弩箭速度",
+              "ru": "20~30% повышение скорости болта",
+              "jp": "ボルトのスピードが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "robust-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Robust Crossbow",
+      "kr": "탄탄한 석궁",
+      "tw": "強健十字弓",
+      "ru": "Крепкий самострел",
+      "jp": "剛健のクロスボウ"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 89,
+      "critChance": 5,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "painted-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Painted Crossbow",
+      "kr": "도색된 석궁",
+      "tw": "彩繪十字弓",
+      "ru": "Украшенный самострел",
+      "jp": "彩色のクロスボウ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 92,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "twin-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Twin Crossbow",
+      "kr": "쌍둥이 석궁",
+      "tw": "成雙十字弓",
+      "ru": "Сдвоенный самострел",
+      "jp": "ツインクロスボウ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 82,
+      "critChance": 5,
+      "reloadTime": 1.1,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitAdditionalAmmo1",
+        "lines": [
+          {
+            "stat": "base_number_of_crossbow_bolts",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cannonade-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Cannonade Crossbow",
+      "kr": "연속 포격 석궁",
+      "tw": "砲擊十字弓",
+      "ru": "Самострел канонира",
+      "jp": "砲撃のクロスボウ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 90,
+      "critChance": 5,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitGrenadeProjectiles1",
+        "lines": [
+          {
+            "stat": "grenade_skill_number_of_additional_projectiles",
+            "value": "1",
+            "text": {
+              "en": "Grenade Skills Fire an additional Projectile",
+              "kr": "유탄 스킬이 투사체 1개 추가 발사",
+              "tw": "擲彈技能發射額外一個投射物",
+              "ru": "Умения гранат выпускают дополнительный снаряд",
+              "jp": "グレネードスキルは投射物を追加で1個放つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bleak-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Bleak Crossbow",
+      "kr": "음산한 석궁",
+      "tw": "無情十字弓",
+      "ru": "Мрачный самострел",
+      "jp": "陰鬱のクロスボウ"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 109,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-makeshift-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Runeforged Makeshift Crossbow",
+      "kr": "룬벼림 임시 석궁",
+      "tw": "符鍛臨時十字弓",
+      "ru": "Руннокованый самодельный самострел",
+      "jp": "ルーンフォージの間に合わせのクロスボウ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 75,
+      "damageMax": 140,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitColdDamageUnique1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "45",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-tense-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Runeforged Tense Crossbow",
+      "kr": "룬벼림 팽팽한 석궁",
+      "tw": "符鍛緊繃十字弓",
+      "ru": "Руннокованый тугой самострел",
+      "jp": "ルーンフォージの張り詰めたクロスボウ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 83,
+      "critChance": 5,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-tense-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Runemastered Tense Crossbow",
+      "kr": "룬숙련 팽팽한 석궁",
+      "tw": "符煉緊繃十字弓",
+      "ru": "Рунномастерский тугой самострел",
+      "jp": "ルーンマスターの張り詰めたクロスボウ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 115,
+      "critChance": 5,
+      "reloadTime": 0.6,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sturdy-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Runeforged Sturdy Crossbow",
+      "kr": "룬벼림 튼튼한 석궁",
+      "tw": "符鍛堅固十字弓",
+      "ru": "Руннокованый прочный самострел",
+      "jp": "ルーンフォージの頑丈なクロスボウ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 276,
+      "critChance": 7,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitLightningDamageUnique1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_lightning_damage",
+            "value": "67",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "GatecrasherVerisiumImplicitLocalLightningConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "85",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-dyad-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Runeforged Dyad Crossbow",
+      "kr": "룬벼림 이중 석궁",
+      "tw": "符鍛雙生十字弓",
+      "ru": "Руннокованый парный самострел",
+      "jp": "ルーンフォージの対のクロスボウ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 127,
+      "critChance": 5,
+      "reloadTime": 1.1,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-dyad-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Runemastered Dyad Crossbow",
+      "kr": "룬숙련 이중 석궁",
+      "tw": "符煉雙生十字弓",
+      "ru": "Рунномастерский парный самострел",
+      "jp": "ルーンマスターの対のクロスボウ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 171,
+      "critChance": 7,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bombard-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Runeforged Bombard Crossbow",
+      "kr": "룬벼림 포격 석궁",
+      "tw": "符鍛轟擊十字弓",
+      "ru": "Руннокованый самострел бомбардира",
+      "jp": "ルーンフォージの爆撃のクロスボウ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 85,
+      "critChance": 5,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stout-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Stout Crossbow",
+      "kr": "완강한 석궁",
+      "tw": "牢固十字弓",
+      "ru": "Добротный самострел",
+      "jp": "堅牢なクロスボウ"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 119,
+      "critChance": 5,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "engraved-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Engraved Crossbow",
+      "kr": "아로새긴 석궁",
+      "tw": "紋刻十字弓",
+      "ru": "Резной самострел",
+      "jp": "彫刻のクロスボウ"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 124,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "flexed-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Flexed Crossbow",
+      "kr": "몸 풀린 석궁",
+      "tw": "屈曲十字弓",
+      "ru": "Гибкий самострел",
+      "jp": "フレックスクロスボウ"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 127,
+      "critChance": 5,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitBoltSpeed1",
+        "lines": [
+          {
+            "stat": "projectile_speed_+%_with_crossbow_skills",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Bolt Speed",
+              "kr": "볼트 속도 20~30% 증가",
+              "tw": "增加20~30%弩箭速度",
+              "ru": "20~30% повышение скорости болта",
+              "jp": "ボルトのスピードが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gemini-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Gemini Crossbow",
+      "kr": "쌍둥이자리 석궁",
+      "tw": "雙子十字弓",
+      "ru": "Двойной самострел",
+      "jp": "ジェミニクロスボウ"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 112,
+      "critChance": 5,
+      "reloadTime": 1.1,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitAdditionalAmmo1",
+        "lines": [
+          {
+            "stat": "base_number_of_crossbow_bolts",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "siege-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Siege Crossbow",
+      "kr": "공성 석궁",
+      "tw": "攻城十字弓",
+      "ru": "Осадный самострел",
+      "jp": "シージクロスボウ"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 115,
+      "critChance": 5,
+      "reloadTime": 0.75,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitGrenadeProjectiles1",
+        "lines": [
+          {
+            "stat": "grenade_skill_number_of_additional_projectiles",
+            "value": "1",
+            "text": {
+              "en": "Grenade Skills Fire an additional Projectile",
+              "kr": "유탄 스킬이 투사체 1개 추가 발사",
+              "tw": "擲彈技能發射額外一個投射物",
+              "ru": "Умения гранат выпускают дополнительный снаряд",
+              "jp": "グレネードスキルは投射物を追加で1個放つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "desolate-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Desolate Crossbow",
+      "kr": "황량한 석궁",
+      "tw": "蒼涼十字弓",
+      "ru": "Самострел опустошения",
+      "jp": "隔絶のクロスボウ"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 132,
+      "critChance": 5,
+      "reloadTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-crossbow",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Elegant Crossbow",
+      "kr": "우아한 석궁",
+      "tw": "優雅十字弓",
+      "ru": "Изящный самострел",
+      "jp": "エレガントクロスボウ"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 123,
+      "critChance": 5,
+      "reloadTime": 0.85,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CrossbowImplicitChanceToPierce1",
+        "lines": [
+          {
+            "stat": "base_chance_to_pierce_%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% chance to Pierce an Enemy",
+              "kr": "20~30%의 확률로 적 관통",
+              "tw": "有20~30%機率穿透一個敵人",
+              "ru": "20~30% шанс пронзить врага",
+              "jp": "20~30%の確率で敵を貫通する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "trarthan-cannon",
+    "classId": "Crossbow",
+    "className": {
+      "en": "Crossbows",
+      "kr": "쇠뇌",
+      "tw": "十字弓",
+      "ru": "Самострелы",
+      "jp": "クロスボウ"
+    },
+    "name": {
+      "en": "Trarthan Cannon",
+      "kr": "트라투스 대포",
+      "tw": "特拉特斯巨砲",
+      "ru": "Тератновская пушка",
+      "jp": "トラーサスキャノン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 58,
+      "damageMax": 134,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CannonBowImplicitCannotUseAmmoSkills1",
+        "lines": [
+          {
+            "stat": "local_crossbow_no_ammo_skills_and_give_alternate_grenade_default_attack",
+            "value": "1",
+            "text": {
+              "en": "Cannot load or fire Ammunition",
+              "kr": "탄약 장전 또는 발사 불가",
+              "tw": "無法裝填或發射彈藥",
+              "ru": "Не может загружать или использовать боеприпасы",
+              "jp": "弾薬を装填することも発射することもできない"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

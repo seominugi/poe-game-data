@@ -1,0 +1,1355 @@
+[
+  {
+    "id": "crude-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Crude Bow",
+      "kr": "조잡한 활",
+      "tw": "粗製弓",
+      "ru": "Грубый лук",
+      "jp": "粗雑な弓"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 9,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shortbow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Shortbow",
+      "kr": "단궁",
+      "tw": "短弓",
+      "ru": "Короткий лук",
+      "jp": "ショートボウ"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 14,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "warden-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Warden Bow",
+      "kr": "간수 활",
+      "tw": "守護者之弓",
+      "ru": "Лук часового",
+      "jp": "監視者の弓"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 20,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitLocalChanceToChain1",
+        "lines": [
+          {
+            "stat": "local_additional_attack_chain_chance_%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% chance to Chain an additional time",
+              "kr": "25~35%의 확률로 1회 추가 연쇄",
+              "tw": "有25~35%機率額外連鎖一次",
+              "ru": "25~35% шанс нанести дополнительный удар по цепи",
+              "jp": "25~35%の確率で追加で1回連鎖する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "recurve-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Recurve Bow",
+      "kr": "반곡궁",
+      "tw": "反曲弓",
+      "ru": "Загнутый лук",
+      "jp": "リカーブボウ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 31,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "composite-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Composite Bow",
+      "kr": "합성궁",
+      "tw": "合成弓",
+      "ru": "Составной лук",
+      "jp": "コンポジットボウ"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 31,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dualstring-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Dualstring Bow",
+      "kr": "이중시위 활",
+      "tw": "雙弦弓",
+      "ru": "Спаренный лук",
+      "jp": "デュアルストリングボウ"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 35,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitAdditionalArrows1",
+        "lines": [
+          {
+            "stat": "chance_to_fire_1_additional_projectile_%_with_rollover_with_bow_attacks",
+            "value": "50",
+            "text": {
+              "en": "50% Surpassing chance to fire an additional Arrow",
+              "kr": "추가 화살을 발사할 초과 확률 50%",
+              "tw": "50%滿溢機率發射額外一枚箭矢",
+              "ru": "50% к превосходящему шансу выпустить дополнительную стрелу",
+              "jp": "矢を追加で1個放つ超過可能確率 50%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cultist-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Cultist Bow",
+      "kr": "광신자 활",
+      "tw": "教徒之弓",
+      "ru": "Лук культиста",
+      "jp": "カルト信者の弓"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 36,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitBaseChaosDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_chaos_damage",
+            "value": "7",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_chaos_damage",
+            "value": "19",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "zealot-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Zealot Bow",
+      "kr": "맹신자 활",
+      "tw": "狂熱者之弓",
+      "ru": "Лук подвижника",
+      "jp": "狂信者の弓"
+    },
+    "dropLevel": 39,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 47,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "artillery-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Artillery Bow",
+      "kr": "포대 활",
+      "tw": "砲火弓",
+      "ru": "Артиллерийский лук",
+      "jp": "砲兵の弓"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 72,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitProjectileAttackRange1",
+        "lines": [
+          {
+            "stat": "projectile_attack_range_+%",
+            "value": "-50",
+            "text": {
+              "en": "-50% reduced Projectile Range",
+              "kr": "투사체 사거리 -50% 감소",
+              "tw": "減少-50%投射物範圍",
+              "ru": "-50% уменьшение дальности полета снарядов",
+              "jp": "投射物の範囲が-50%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tribal-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Tribal Bow",
+      "kr": "부족 활",
+      "tw": "部落弓",
+      "ru": "Племенной лук",
+      "jp": "部族の弓"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 57,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "greatbow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Greatbow",
+      "kr": "대궁",
+      "tw": "巨弓",
+      "ru": "Большой лук",
+      "jp": "大弓"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 40,
+      "damageMax": 82,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "double-limb-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Double Limb Bow",
+      "kr": "이중날개 활",
+      "tw": "雙肢弓",
+      "ru": "Лук с двойными плечами",
+      "jp": "ダブルリムボウ"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 42,
+      "damageMax": 63,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "heavy-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Heavy Bow",
+      "kr": "무거운 활",
+      "tw": "重弓",
+      "ru": "Тяжёлый лук",
+      "jp": "ヘビーボウ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 75,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "snakewood-shortbow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Snakewood Shortbow",
+      "kr": "뱀나무 단궁",
+      "tw": "蛇木短弓",
+      "ru": "Короткий лук из змеиного дерева",
+      "jp": "蛇紋木のショートボウ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 54,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "protector-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Protector Bow",
+      "kr": "보호자 활",
+      "tw": "保衛者之弓",
+      "ru": "Лук защитника",
+      "jp": "守護の弓"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 53,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitLocalChanceToChain1",
+        "lines": [
+          {
+            "stat": "local_additional_attack_chain_chance_%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% chance to Chain an additional time",
+              "kr": "25~35%의 확률로 1회 추가 연쇄",
+              "tw": "有25~35%機率額外連鎖一次",
+              "ru": "25~35% шанс нанести дополнительный удар по цепи",
+              "jp": "25~35%の確率で追加で1回連鎖する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rider-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Rider Bow",
+      "kr": "기수 활",
+      "tw": "騎士之弓",
+      "ru": "Лук наездника",
+      "jp": "ライダーボウ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 61,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "twin-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Twin Bow",
+      "kr": "쌍둥이 활",
+      "tw": "雙生之弓",
+      "ru": "Сдвоенный лук",
+      "jp": "ツインボウ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 60,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitAdditionalArrows1",
+        "lines": [
+          {
+            "stat": "chance_to_fire_1_additional_projectile_%_with_rollover_with_bow_attacks",
+            "value": "50",
+            "text": {
+              "en": "50% Surpassing chance to fire an additional Arrow",
+              "kr": "추가 화살을 발사할 초과 확률 50%",
+              "tw": "50%滿溢機率發射額外一枚箭矢",
+              "ru": "50% к превосходящему шансу выпустить дополнительную стрелу",
+              "jp": "矢を追加で1個放つ超過可能確率 50%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "adherent-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Adherent Bow",
+      "kr": "지지자 활",
+      "tw": "信徒之弓",
+      "ru": "Лук приверженца",
+      "jp": "信奉者の弓"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 59,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitBaseChaosDamage2",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_chaos_damage",
+            "value": "14",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_chaos_damage",
+            "value": "32",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "militant-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Militant Bow",
+      "kr": "호전적인 활",
+      "tw": "好戰者之弓",
+      "ru": "Лук ревнителя",
+      "jp": "好戦的な弓"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 69,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-crude-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Crude Bow",
+      "kr": "룬벼림 조잡한 활",
+      "tw": "符鍛粗製弓",
+      "ru": "Руннокованый грубый лук",
+      "jp": "ルーンフォージの粗雑な弓"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 42,
+      "damageMax": 62,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitChaosDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_chaos",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-shortbow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Shortbow",
+      "kr": "룬벼림 단궁",
+      "tw": "符鍛短弓",
+      "ru": "Руннокованый короткий лук",
+      "jp": "ルーンフォージのショートボウ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 56,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-shortbow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Shortbow",
+      "kr": "룬벼림 단궁",
+      "tw": "符鍛短弓",
+      "ru": "Руннокованый короткий лук",
+      "jp": "ルーンフォージのショートボウ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 81,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuillRainVerisiumImplicitForkExtraProjectile",
+        "lines": [
+          {
+            "stat": "chance_to_fork_extra_projectile_%",
+            "value": "50",
+            "text": {
+              "en": "Projectiles have 50% chance for an additional Projectile when Forking",
+              "kr": "투사체가 갈라질 때 50%의 확률로 투사체 1개 추가 생성",
+              "tw": "投射物分岔時有50%機率發射1個額外投射物",
+              "ru": "Снаряды имеют 50% шанс выпустить дополнительный снаряд при разветвлении",
+              "jp": "投射物は分岐する時に50%の確率で追加の投射物を放つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-recurve-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Recurve Bow",
+      "kr": "룬벼림 반곡궁",
+      "tw": "符鍛反曲弓",
+      "ru": "Руннокованый загнутый лук",
+      "jp": "ルーンフォージのリカーブボウ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 84,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-composite-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Composite Bow",
+      "kr": "룬벼림 합성궁",
+      "tw": "符鍛合成弓",
+      "ru": "Руннокованый составной лук",
+      "jp": "ルーンフォージのコンポジットボウ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 88,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-dualstring-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Dualstring Bow",
+      "kr": "룬벼림 이중시위 활",
+      "tw": "符鍛雙弦弓",
+      "ru": "Руннокованый спаренный лук",
+      "jp": "ルーンフォージのデュアルストリングボウ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 83,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitAdditionalArrows1",
+        "lines": [
+          {
+            "stat": "chance_to_fire_1_additional_projectile_%_with_rollover_with_bow_attacks",
+            "value": "50",
+            "text": {
+              "en": "50% Surpassing chance to fire an additional Arrow",
+              "kr": "추가 화살을 발사할 초과 확률 50%",
+              "tw": "50%滿溢機率發射額外一枚箭矢",
+              "ru": "50% к превосходящему шансу выпустить дополнительную стрелу",
+              "jp": "矢を追加で1個放つ超過可能確率 50%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-zealot-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Zealot Bow",
+      "kr": "룬벼림 맹신자 활",
+      "tw": "符鍛狂熱者之弓",
+      "ru": "Руннокованый лук подвижника",
+      "jp": "ルーンフォージの狂信者の弓"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 67,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitBaseChaosDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_chaos_damage",
+            "value": "7",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_chaos_damage",
+            "value": "19",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ironwood-shortbow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Ironwood Shortbow",
+      "kr": "철목 단궁",
+      "tw": "鐵木短弓",
+      "ru": "Короткий лук из железного дерева",
+      "jp": "鉄木のショートボウ"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cavalry-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Cavalry Bow",
+      "kr": "기병대 활",
+      "tw": "騎兵之弓",
+      "ru": "Кавалерийский лук",
+      "jp": "騎兵隊の弓"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 82,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "guardian-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Guardian Bow",
+      "kr": "수호자 활",
+      "tw": "防衛者之弓",
+      "ru": "Лук стража",
+      "jp": "守護者の弓"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 88,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitLocalChanceToChain1",
+        "lines": [
+          {
+            "stat": "local_additional_attack_chain_chance_%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% chance to Chain an additional time",
+              "kr": "25~35%의 확률로 1회 추가 연쇄",
+              "tw": "有25~35%機率額外連鎖一次",
+              "ru": "25~35% шанс нанести дополнительный удар по цепи",
+              "jp": "25~35%の確率で追加で1回連鎖する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gemini-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Gemini Bow",
+      "kr": "쌍둥이자리 활",
+      "tw": "雙子之弓",
+      "ru": "Двойной лук",
+      "jp": "ジェミニボウ"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 72,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitAdditionalArrows1",
+        "lines": [
+          {
+            "stat": "chance_to_fire_1_additional_projectile_%_with_rollover_with_bow_attacks",
+            "value": "50",
+            "text": {
+              "en": "50% Surpassing chance to fire an additional Arrow",
+              "kr": "추가 화살을 발사할 초과 확률 50%",
+              "tw": "50%滿溢機率發射額外一枚箭矢",
+              "ru": "50% к превосходящему шансу выпустить дополнительную стрелу",
+              "jp": "矢を追加で1個放つ超過可能確率 50%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fanatic-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Fanatic Bow",
+      "kr": "광신도 활",
+      "tw": "盲信之弓",
+      "ru": "Лук фанатика",
+      "jp": "熱狂者の弓"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 47,
+      "damageMax": 79,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitBaseChaosDamage3",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_chaos_damage",
+            "value": "28",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_chaos_damage",
+            "value": "64",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "warmonger-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Warmonger Bow",
+      "kr": "전쟁광 활",
+      "tw": "狂戰者之弓",
+      "ru": "Лук зачинщика",
+      "jp": "戦争屋の弓"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 56,
+      "damageMax": 84,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "obliterator-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Obliterator Bow",
+      "kr": "절멸자 활",
+      "tw": "毀滅者之弓",
+      "ru": "Лук изничтожителя",
+      "jp": "殲滅者の弓"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 115,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitProjectileAttackRange1",
+        "lines": [
+          {
+            "stat": "projectile_attack_range_+%",
+            "value": "-50",
+            "text": {
+              "en": "-50% reduced Projectile Range",
+              "kr": "투사체 사거리 -50% 감소",
+              "tw": "減少-50%投射物範圍",
+              "ru": "-50% уменьшение дальности полета снарядов",
+              "jp": "投射物の範囲が-50%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heartwood-shortbow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Heartwood Shortbow",
+      "kr": "심목 단궁",
+      "tw": "赤木之弓",
+      "ru": "Короткий лук из ядровой древесины",
+      "jp": "ハートウッドショートボウ"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

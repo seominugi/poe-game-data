@@ -1,0 +1,791 @@
+[
+  {
+    "id": "golden-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Golden Blade",
+      "kr": "황금 검",
+      "tw": "黃金之刃",
+      "ru": "Золотой клинок",
+      "jp": "ゴールデンブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 3,
+      "damageMax": 28,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllAttributesImplicitDemigodOneHandSword1",
+        "lines": [
+          {
+            "stat": "additional_all_attributes",
+            "value": "16~24",
+            "text": {
+              "en": "16~24 to all Attributes",
+              "kr": "모든 능력치 16~24",
+              "tw": "16~24點全部能力值",
+              "ru": "16~24 ко всем характеристикам",
+              "jp": "全ての能力値 16~24"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "energy-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Energy Blade",
+      "kr": "에너지 칼날",
+      "tw": "能量之刃",
+      "ru": "Клинок энергии",
+      "jp": "エナジーブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 0,
+      "damageMax": 0,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StormBladeImplicitLocalLightningDamage_1",
+        "lines": [
+          {
+            "stat": "local_minimum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "shortsword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Shortsword",
+      "kr": "절단도",
+      "tw": "短劍",
+      "ru": "Короткий меч",
+      "jp": "ショートソード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 9,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "broadsword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Broadsword",
+      "kr": "넓적검",
+      "tw": "闊劍",
+      "ru": "Широкий меч",
+      "jp": "ブロードソード"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 13,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vampiric-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Vampiric Blade",
+      "kr": "흡혈 칼날",
+      "tw": "嗜血之刃",
+      "ru": "Клинок-кровопийца",
+      "jp": "吸血の刃"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 20,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "scimitar",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Scimitar",
+      "kr": "시미터",
+      "tw": "彎刀",
+      "ru": "Скимитар",
+      "jp": "シミター"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 23,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "charred-shortsword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Charred Shortsword",
+      "kr": "까맣게 탄 절단도",
+      "tw": "焦黑短劍",
+      "ru": "Обугленный короткий меч",
+      "jp": "黒焦げのショートソード"
+    },
+    "dropLevel": 21,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 34,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sickle-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Sickle Sword",
+      "kr": "낫 검",
+      "tw": "鐮劍",
+      "ru": "Хопеш",
+      "jp": "シックルソード"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 38,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "falchion",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Falchion",
+      "kr": "언월도",
+      "tw": "彎刃劍",
+      "ru": "Фальшион",
+      "jp": "ファルシオン"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 37,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "treasured-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Treasured Blade",
+      "kr": "간수해둔 칼날",
+      "tw": "貴重刀刃",
+      "ru": "Драгоценный клинок",
+      "jp": "宝剣"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 45,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cutlass",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Cutlass",
+      "kr": "커틀라스",
+      "tw": "軍用長刃",
+      "ru": "Абордажная сабля",
+      "jp": "カットラス"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 49,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runic-shortsword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Runic Shortsword",
+      "kr": "룬 절단도",
+      "tw": "符文短劍",
+      "ru": "Рунический короткий меч",
+      "jp": "ルーンのショートソード"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 26,
+      "damageMax": 55,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "messer",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Messer",
+      "kr": "메서",
+      "tw": "單手刀",
+      "ru": "Мессер",
+      "jp": "メッサー"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 56,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "commander-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Commander Sword",
+      "kr": "지휘관 검",
+      "tw": "指揮官劍",
+      "ru": "Меч командира",
+      "jp": "指揮官の剣"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 60,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dark-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Dark Blade",
+      "kr": "어둠의 칼날",
+      "tw": "黑暗之刃",
+      "ru": "Тёмный клинок",
+      "jp": "闇の刃"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 65,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-halfsword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Halfsword",
+      "kr": "[DNT] Halfsword",
+      "tw": "[DNT] Halfsword",
+      "ru": "[DNT] Halfsword",
+      "jp": "[DNT] Halfsword"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 67,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-flat-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Flat Blade",
+      "kr": "[DNT] Flat Blade",
+      "tw": "[DNT] Flat Blade",
+      "ru": "[DNT] Flat Blade",
+      "jp": "[DNT] Flat Blade"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 48,
+      "damageMax": 71,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-siphoning-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Siphoning Sword",
+      "kr": "[DNT] Siphoning Sword",
+      "tw": "[DNT] Siphoning Sword",
+      "ru": "[DNT] Siphoning Sword",
+      "jp": "[DNT] Siphoning Sword"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-rider-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Rider Blade",
+      "kr": "[DNT] Rider Blade",
+      "tw": "[DNT] Rider Blade",
+      "ru": "[DNT] Rider Blade",
+      "jp": "[DNT] Rider Blade"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-molten-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Molten Blade",
+      "kr": "[DNT] Molten Blade",
+      "tw": "[DNT] Molten Blade",
+      "ru": "[DNT] Molten Blade",
+      "jp": "[DNT] Molten Blade"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-reaper-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Reaper Sword",
+      "kr": "[DNT] Reaper Sword",
+      "tw": "[DNT] Reaper Sword",
+      "ru": "[DNT] Reaper Sword",
+      "jp": "[DNT] Reaper Sword"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-carved-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Carved Blade",
+      "kr": "[DNT] Carved Blade",
+      "tw": "[DNT] Carved Blade",
+      "ru": "[DNT] Carved Blade",
+      "jp": "[DNT] Carved Blade"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 74,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-coveted-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "[DNT] Coveted Blade",
+      "kr": "[DNT] Coveted Blade",
+      "tw": "[DNT] Coveted Blade",
+      "ru": "[DNT] Coveted Blade",
+      "jp": "[DNT] Coveted Blade"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "golden-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Golden Blade",
+      "kr": "황금 검",
+      "tw": "黃金之刃",
+      "ru": "Золотой клинок",
+      "jp": "黄金の刃"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 9,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

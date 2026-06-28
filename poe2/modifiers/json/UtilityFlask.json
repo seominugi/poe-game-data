@@ -1,0 +1,2586 @@
+{
+  "itemClass": "UtilityFlask",
+  "className": {
+    "en": "Charms",
+    "kr": "호신부",
+    "tw": "護符",
+    "ru": "Обереги",
+    "jp": "チャーム"
+  },
+  "domain": 2,
+  "classTags": [
+    "default",
+    "flask",
+    "utility_flask"
+  ],
+  "counts": {
+    "prefix": 27,
+    "suffix": 24,
+    "total": 51
+  },
+  "bucketCounts": {
+    "normal": {
+      "prefix": 27,
+      "suffix": 24,
+      "total": 51
+    }
+  },
+  "buckets": {
+    "normal": {
+      "prefix": [
+        {
+          "id": "CharmGainLifeOnUse1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": "Herbal",
+            "kr": "약초",
+            "tw": "草藥的",
+            "ru": "Травяной",
+            "jp": "薬草の"
+          },
+          "effect": {
+            "en": "Recover (8-12) Life when Used",
+            "kr": "사용 시 생명력 (8-12) 회복",
+            "tw": "使用後恢復(8-12)生命",
+            "ru": "Восстанавливает (8-12) здоровья при использовании",
+            "jp": "使用した時に(8-12)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "Recover (8-12) Life when Used",
+                "kr": "사용 시 생명력 (8-12) 회복",
+                "tw": "使用後恢復(8-12)生命",
+                "ru": "Восстанавливает (8-12) здоровья при использовании",
+                "jp": "使用した時に(8-12)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              16,
+              24
+            ]
+          ],
+          "name": {
+            "en": "Drizzling",
+            "kr": "보슬비의",
+            "tw": "細雨的",
+            "ru": "Капающий",
+            "jp": "霧雨降る"
+          },
+          "effect": {
+            "en": "Recover (16-24) Mana when Used",
+            "kr": "사용 시 마나 (16-24) 회복",
+            "tw": "使用後恢復(16-24)魔力",
+            "ru": "Восстанавливает (16-24) маны при использовании",
+            "jp": "使用した時に(16-24)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    16,
+                    24
+                  ]
+                }
+              ],
+              "value": "16~24",
+              "text": {
+                "en": "Recover (16-24) Mana when Used",
+                "kr": "사용 시 마나 (16-24) 회복",
+                "tw": "使用後恢復(16-24)魔力",
+                "ru": "Восстанавливает (16-24) маны при использовании",
+                "jp": "使用した時に(16-24)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmIncreasedDuration1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Investigator's",
+            "kr": "조사관의",
+            "tw": "調查者的",
+            "ru": "Изыскательный",
+            "jp": "調査者の"
+          },
+          "effect": {
+            "en": "(16-20)% increased Duration",
+            "kr": "지속시간 (16-20)% 증가",
+            "tw": "增加(16-20)%持續時間",
+            "ru": "(16-20)% увеличение длительности",
+            "jp": "持続時間が(16-20)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charm_duration_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Duration",
+                "kr": "지속시간 (16-20)% 증가",
+                "tw": "增加(16-20)%持續時間",
+                "ru": "(16-20)% увеличение длительности",
+                "jp": "持続時間が(16-20)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGuardWhileActive1",
+          "affixType": "prefix",
+          "tier": 10,
+          "valueRanges": [
+            [
+              44,
+              66
+            ]
+          ],
+          "name": {
+            "en": "Sunny",
+            "kr": "쨍쨍한",
+            "tw": "晴天的",
+            "ru": "Солнечный",
+            "jp": "日当たりよい"
+          },
+          "effect": {
+            "en": "Also grants (44-66) Guard",
+            "kr": "가호도 (44-66) 부여",
+            "tw": "同時賦予(44-66)層守護",
+            "ru": "Также дарует (44-66) обороны",
+            "jp": "また(44-66)のガードを付与する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_gain_X_guard_for_duration",
+                  "valueRange": [
+                    44,
+                    66
+                  ]
+                }
+              ],
+              "value": "44~66",
+              "text": {
+                "en": "Also grants (44-66) Guard",
+                "kr": "가호도 (44-66) 부여",
+                "tw": "同時賦予(44-66)層守護",
+                "ru": "Также дарует (44-66) обороны",
+                "jp": "また(44-66)のガードを付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainLifeOnUse2",
+          "affixType": "prefix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              35,
+              52
+            ]
+          ],
+          "name": {
+            "en": "Floral",
+            "kr": "꽃",
+            "tw": "花草的",
+            "ru": "Растительный",
+            "jp": "花のような"
+          },
+          "effect": {
+            "en": "Recover (35-52) Life when Used",
+            "kr": "사용 시 생명력 (35-52) 회복",
+            "tw": "使用後恢復(35-52)生命",
+            "ru": "Восстанавливает (35-52) здоровья при использовании",
+            "jp": "使用した時に(35-52)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    35,
+                    52
+                  ]
+                }
+              ],
+              "value": "35~52",
+              "text": {
+                "en": "Recover (35-52) Life when Used",
+                "kr": "사용 시 생명력 (35-52) 회복",
+                "tw": "使用後恢復(35-52)生命",
+                "ru": "Восстанавливает (35-52) здоровья при использовании",
+                "jp": "使用した時に(35-52)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse2",
+          "affixType": "prefix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              33,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Soaked",
+            "kr": "젖은",
+            "tw": "浸泡的",
+            "ru": "Пропитанный",
+            "jp": "ずぶ濡れの"
+          },
+          "effect": {
+            "en": "Recover (33-50) Mana when Used",
+            "kr": "사용 시 마나 (33-50) 회복",
+            "tw": "使用後恢復(33-50)魔力",
+            "ru": "Восстанавливает (33-50) маны при использовании",
+            "jp": "使用した時に(33-50)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    33,
+                    50
+                  ]
+                }
+              ],
+              "value": "33~50",
+              "text": {
+                "en": "Recover (33-50) Mana when Used",
+                "kr": "사용 시 마나 (33-50) 회복",
+                "tw": "使用後恢復(33-50)魔力",
+                "ru": "Восстанавливает (33-50) маны при использовании",
+                "jp": "使用した時に(33-50)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmIncreasedDuration2",
+          "affixType": "prefix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Analyst's",
+            "kr": "분석가의",
+            "tw": "分析師之",
+            "ru": "Лабораторный",
+            "jp": "分析者の"
+          },
+          "effect": {
+            "en": "(21-25)% increased Duration",
+            "kr": "지속시간 (21-25)% 증가",
+            "tw": "增加(21-25)%持續時間",
+            "ru": "(21-25)% увеличение длительности",
+            "jp": "持続時間が(21-25)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charm_duration_+%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% increased Duration",
+                "kr": "지속시간 (21-25)% 증가",
+                "tw": "增加(21-25)%持續時間",
+                "ru": "(21-25)% увеличение длительности",
+                "jp": "持続時間が(21-25)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGuardWhileActive2",
+          "affixType": "prefix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              85,
+              128
+            ]
+          ],
+          "name": {
+            "en": "Dawnlit",
+            "kr": "새벽빛의",
+            "tw": "晨光的",
+            "ru": "Рассветный",
+            "jp": "夜明けの光の"
+          },
+          "effect": {
+            "en": "Also grants (85-128) Guard",
+            "kr": "가호도 (85-128) 부여",
+            "tw": "同時賦予(85-128)層守護",
+            "ru": "Также дарует (85-128) обороны",
+            "jp": "また(85-128)のガードを付与する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_gain_X_guard_for_duration",
+                  "valueRange": [
+                    85,
+                    128
+                  ]
+                }
+              ],
+              "value": "85~128",
+              "text": {
+                "en": "Also grants (85-128) Guard",
+                "kr": "가호도 (85-128) 부여",
+                "tw": "同時賦予(85-128)層守護",
+                "ru": "Также дарует (85-128) обороны",
+                "jp": "また(85-128)のガードを付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainLifeOnUse3",
+          "affixType": "prefix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              63,
+              92
+            ]
+          ],
+          "name": {
+            "en": "Blooming",
+            "kr": "피어나는",
+            "tw": "綻放的",
+            "ru": "Цветочный",
+            "jp": "咲き誇る"
+          },
+          "effect": {
+            "en": "Recover (63-92) Life when Used",
+            "kr": "사용 시 생명력 (63-92) 회복",
+            "tw": "使用後恢復(63-92)生命",
+            "ru": "Восстанавливает (63-92) здоровья при использовании",
+            "jp": "使用した時に(63-92)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    63,
+                    92
+                  ]
+                }
+              ],
+              "value": "63~92",
+              "text": {
+                "en": "Recover (63-92) Life when Used",
+                "kr": "사용 시 생명력 (63-92) 회복",
+                "tw": "使用後恢復(63-92)生命",
+                "ru": "Восстанавливает (63-92) здоровья при использовании",
+                "jp": "使用した時に(63-92)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse3",
+          "affixType": "prefix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              55,
+              75
+            ]
+          ],
+          "name": {
+            "en": "Mistbound",
+            "kr": "안개결속",
+            "tw": "霧縛的",
+            "ru": "Вымоченный",
+            "jp": "霧縛の"
+          },
+          "effect": {
+            "en": "Recover (55-75) Mana when Used",
+            "kr": "사용 시 마나 (55-75) 회복",
+            "tw": "使用後恢復(55-75)魔力",
+            "ru": "Восстанавливает (55-75) маны при использовании",
+            "jp": "使用した時に(55-75)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    55,
+                    75
+                  ]
+                }
+              ],
+              "value": "55~75",
+              "text": {
+                "en": "Recover (55-75) Mana when Used",
+                "kr": "사용 시 마나 (55-75) 회복",
+                "tw": "使用後恢復(55-75)魔力",
+                "ru": "Восстанавливает (55-75) маны при использовании",
+                "jp": "使用した時に(55-75)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainLifeOnUse4",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              96,
+              130
+            ]
+          ],
+          "name": {
+            "en": "Sprouting",
+            "kr": "싹트는",
+            "tw": "萌發的",
+            "ru": "Ростковый",
+            "jp": "芽吹く"
+          },
+          "effect": {
+            "en": "Recover (96-130) Life when Used",
+            "kr": "사용 시 생명력 (96-130) 회복",
+            "tw": "使用後恢復(96-130)生命",
+            "ru": "Восстанавливает (96-130) здоровья при использовании",
+            "jp": "使用した時に(96-130)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    96,
+                    130
+                  ]
+                }
+              ],
+              "value": "96~130",
+              "text": {
+                "en": "Recover (96-130) Life when Used",
+                "kr": "사용 시 생명력 (96-130) 회복",
+                "tw": "使用後恢復(96-130)生命",
+                "ru": "Восстанавливает (96-130) здоровья при использовании",
+                "jp": "使用した時に(96-130)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse4",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              80,
+              110
+            ]
+          ],
+          "name": {
+            "en": "Tidebound",
+            "kr": "물결결속",
+            "tw": "潮縛的",
+            "ru": "Приливный",
+            "jp": "潮縛の"
+          },
+          "effect": {
+            "en": "Recover (80-110) Mana when Used",
+            "kr": "사용 시 마나 (80-110) 회복",
+            "tw": "使用後恢復(80-110)魔力",
+            "ru": "Восстанавливает (80-110) маны при использовании",
+            "jp": "使用した時に(80-110)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    80,
+                    110
+                  ]
+                }
+              ],
+              "value": "80~110",
+              "text": {
+                "en": "Recover (80-110) Mana when Used",
+                "kr": "사용 시 마나 (80-110) 회복",
+                "tw": "使用後恢復(80-110)魔力",
+                "ru": "Восстанавливает (80-110) маны при использовании",
+                "jp": "使用した時に(80-110)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGuardWhileActive3",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              148,
+              200
+            ]
+          ],
+          "name": {
+            "en": "Bright",
+            "kr": "밝은",
+            "tw": "明亮",
+            "ru": "Светлый",
+            "jp": "晴朗な"
+          },
+          "effect": {
+            "en": "Also grants (148-200) Guard",
+            "kr": "가호도 (148-200) 부여",
+            "tw": "同時賦予(148-200)層守護",
+            "ru": "Также дарует (148-200) обороны",
+            "jp": "また(148-200)のガードを付与する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_gain_X_guard_for_duration",
+                  "valueRange": [
+                    148,
+                    200
+                  ]
+                }
+              ],
+              "value": "148~200",
+              "text": {
+                "en": "Also grants (148-200) Guard",
+                "kr": "가호도 (148-200) 부여",
+                "tw": "同時賦予(148-200)層守護",
+                "ru": "Также дарует (148-200) обороны",
+                "jp": "また(148-200)のガードを付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmIncreasedDuration3",
+          "affixType": "prefix",
+          "tier": 42,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Examiner's",
+            "kr": "조사자의",
+            "tw": "考官的",
+            "ru": "Испытательный",
+            "jp": "検査者の"
+          },
+          "effect": {
+            "en": "(26-30)% increased Duration",
+            "kr": "지속시간 (26-30)% 증가",
+            "tw": "增加(26-30)%持續時間",
+            "ru": "(26-30)% увеличение длительности",
+            "jp": "持続時間が(26-30)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charm_duration_+%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% increased Duration",
+                "kr": "지속시간 (26-30)% 증가",
+                "tw": "增加(26-30)%持續時間",
+                "ru": "(26-30)% увеличение длительности",
+                "jp": "持続時間が(26-30)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainLifeOnUse5",
+          "affixType": "prefix",
+          "tier": 47,
+          "valueRanges": [
+            [
+              134,
+              180
+            ]
+          ],
+          "name": {
+            "en": "Petaled",
+            "kr": "꽃잎의",
+            "tw": "花瓣的",
+            "ru": "Лепестковый",
+            "jp": "花弁のある"
+          },
+          "effect": {
+            "en": "Recover (134-180) Life when Used",
+            "kr": "사용 시 생명력 (134-180) 회복",
+            "tw": "使用後恢復(134-180)生命",
+            "ru": "Восстанавливает (134-180) здоровья при использовании",
+            "jp": "使用した時に(134-180)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    134,
+                    180
+                  ]
+                }
+              ],
+              "value": "134~180",
+              "text": {
+                "en": "Recover (134-180) Life when Used",
+                "kr": "사용 시 생명력 (134-180) 회복",
+                "tw": "使用後恢復(134-180)生命",
+                "ru": "Восстанавливает (134-180) здоровья при использовании",
+                "jp": "使用した時に(134-180)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse5",
+          "affixType": "prefix",
+          "tier": 47,
+          "valueRanges": [
+            [
+              115,
+              145
+            ]
+          ],
+          "name": {
+            "en": "Aqueous",
+            "kr": "수용성",
+            "tw": "流水的",
+            "ru": "Наводнённый",
+            "jp": "水のような"
+          },
+          "effect": {
+            "en": "Recover (115-145) Mana when Used",
+            "kr": "사용 시 마나 (115-145) 회복",
+            "tw": "使用後恢復(115-145)魔力",
+            "ru": "Восстанавливает (115-145) маны при использовании",
+            "jp": "使用した時に(115-145)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    115,
+                    145
+                  ]
+                }
+              ],
+              "value": "115~145",
+              "text": {
+                "en": "Recover (115-145) Mana when Used",
+                "kr": "사용 시 마나 (115-145) 회복",
+                "tw": "使用後恢復(115-145)魔力",
+                "ru": "Восстанавливает (115-145) маны при использовании",
+                "jp": "使用した時に(115-145)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGuardWhileActive4",
+          "affixType": "prefix",
+          "tier": 48,
+          "valueRanges": [
+            [
+              205,
+              260
+            ]
+          ],
+          "name": {
+            "en": "Vibrant",
+            "kr": "생생한",
+            "tw": "生動的",
+            "ru": "Яркий",
+            "jp": "煌めく"
+          },
+          "effect": {
+            "en": "Also grants (205-260) Guard",
+            "kr": "가호도 (205-260) 부여",
+            "tw": "同時賦予(205-260)層守護",
+            "ru": "Также дарует (205-260) обороны",
+            "jp": "また(205-260)のガードを付与する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_gain_X_guard_for_duration",
+                  "valueRange": [
+                    205,
+                    260
+                  ]
+                }
+              ],
+              "value": "205~260",
+              "text": {
+                "en": "Also grants (205-260) Guard",
+                "kr": "가호도 (205-260) 부여",
+                "tw": "同時賦予(205-260)層守護",
+                "ru": "Также дарует (205-260) обороны",
+                "jp": "また(205-260)のガードを付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainLifeOnUse6",
+          "affixType": "prefix",
+          "tier": 58,
+          "valueRanges": [
+            [
+              185,
+              230
+            ]
+          ],
+          "name": {
+            "en": "Botanic",
+            "kr": "식물성",
+            "tw": "植物的",
+            "ru": "Ботанический",
+            "jp": "植物の"
+          },
+          "effect": {
+            "en": "Recover (185-230) Life when Used",
+            "kr": "사용 시 생명력 (185-230) 회복",
+            "tw": "使用後恢復(185-230)生命",
+            "ru": "Восстанавливает (185-230) здоровья при использовании",
+            "jp": "使用した時に(185-230)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    185,
+                    230
+                  ]
+                }
+              ],
+              "value": "185~230",
+              "text": {
+                "en": "Recover (185-230) Life when Used",
+                "kr": "사용 시 생명력 (185-230) 회복",
+                "tw": "使用後恢復(185-230)生命",
+                "ru": "Восстанавливает (185-230) здоровья при использовании",
+                "jp": "使用した時に(185-230)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse6",
+          "affixType": "prefix",
+          "tier": 58,
+          "valueRanges": [
+            [
+              150,
+              180
+            ]
+          ],
+          "name": {
+            "en": "Flooded",
+            "kr": "흘러넘치는",
+            "tw": "淹沒的",
+            "ru": "Затопленный",
+            "jp": "浸水した"
+          },
+          "effect": {
+            "en": "Recover (150-180) Mana when Used",
+            "kr": "사용 시 마나 (150-180) 회복",
+            "tw": "使用後恢復(150-180)魔力",
+            "ru": "Восстанавливает (150-180) маны при использовании",
+            "jp": "使用した時に(150-180)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    150,
+                    180
+                  ]
+                }
+              ],
+              "value": "150~180",
+              "text": {
+                "en": "Recover (150-180) Mana when Used",
+                "kr": "사용 시 마나 (150-180) 회복",
+                "tw": "使用後恢復(150-180)魔力",
+                "ru": "Восстанавливает (150-180) маны при использовании",
+                "jp": "使用した時に(150-180)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGuardWhileActive5",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              265,
+              350
+            ]
+          ],
+          "name": {
+            "en": "Lustrous",
+            "kr": "윤기 나는",
+            "tw": "燦爛的",
+            "ru": "Блестящий",
+            "jp": "光沢ある"
+          },
+          "effect": {
+            "en": "Also grants (265-350) Guard",
+            "kr": "가호도 (265-350) 부여",
+            "tw": "同時賦予(265-350)層守護",
+            "ru": "Также дарует (265-350) обороны",
+            "jp": "また(265-350)のガードを付与する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_gain_X_guard_for_duration",
+                  "valueRange": [
+                    265,
+                    350
+                  ]
+                }
+              ],
+              "value": "265~350",
+              "text": {
+                "en": "Also grants (265-350) Guard",
+                "kr": "가호도 (265-350) 부여",
+                "tw": "同時賦予(265-350)層守護",
+                "ru": "Также дарует (265-350) обороны",
+                "jp": "また(265-350)のガードを付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmIncreasedDuration4",
+          "affixType": "prefix",
+          "tier": 61,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "Clinician's",
+            "kr": "임상의의",
+            "tw": "臨床醫生的",
+            "ru": "Клинический",
+            "jp": "臨床医の"
+          },
+          "effect": {
+            "en": "(31-35)% increased Duration",
+            "kr": "지속시간 (31-35)% 증가",
+            "tw": "增加(31-35)%持續時間",
+            "ru": "(31-35)% увеличение длительности",
+            "jp": "持続時間が(31-35)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charm_duration_+%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% increased Duration",
+                "kr": "지속시간 (31-35)% 증가",
+                "tw": "增加(31-35)%持續時間",
+                "ru": "(31-35)% увеличение длительности",
+                "jp": "持続時間が(31-35)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainLifeOnUse7",
+          "affixType": "prefix",
+          "tier": 67,
+          "valueRanges": [
+            [
+              235,
+              280
+            ]
+          ],
+          "name": {
+            "en": "Natural",
+            "kr": "천연",
+            "tw": "天然的",
+            "ru": "Природный",
+            "jp": "自然な"
+          },
+          "effect": {
+            "en": "Recover (235-280) Life when Used",
+            "kr": "사용 시 생명력 (235-280) 회복",
+            "tw": "使用後恢復(235-280)生命",
+            "ru": "Восстанавливает (235-280) здоровья при использовании",
+            "jp": "使用した時に(235-280)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    235,
+                    280
+                  ]
+                }
+              ],
+              "value": "235~280",
+              "text": {
+                "en": "Recover (235-280) Life when Used",
+                "kr": "사용 시 생명력 (235-280) 회복",
+                "tw": "使用後恢復(235-280)生命",
+                "ru": "Восстанавливает (235-280) здоровья при использовании",
+                "jp": "使用した時に(235-280)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse7",
+          "affixType": "prefix",
+          "tier": 67,
+          "valueRanges": [
+            [
+              185,
+              225
+            ]
+          ],
+          "name": {
+            "en": "Oceanic",
+            "kr": "해양의",
+            "tw": "海洋的",
+            "ru": "Океанический",
+            "jp": "大洋の"
+          },
+          "effect": {
+            "en": "Recover (185-225) Mana when Used",
+            "kr": "사용 시 마나 (185-225) 회복",
+            "tw": "使用後恢復(185-225)魔力",
+            "ru": "Восстанавливает (185-225) маны при использовании",
+            "jp": "使用した時に(185-225)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    185,
+                    225
+                  ]
+                }
+              ],
+              "value": "185~225",
+              "text": {
+                "en": "Recover (185-225) Mana when Used",
+                "kr": "사용 시 마나 (185-225) 회복",
+                "tw": "使用後恢復(185-225)魔力",
+                "ru": "Восстанавливает (185-225) маны при использовании",
+                "jp": "使用した時に(185-225)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGuardWhileActive6",
+          "affixType": "prefix",
+          "tier": 75,
+          "valueRanges": [
+            [
+              355,
+              500
+            ]
+          ],
+          "name": {
+            "en": "Sunburst",
+            "kr": "햇살의",
+            "tw": "散陽的",
+            "ru": "Вспышечный",
+            "jp": "日輪の"
+          },
+          "effect": {
+            "en": "Also grants (355-500) Guard",
+            "kr": "가호도 (355-500) 부여",
+            "tw": "同時賦予(355-500)層守護",
+            "ru": "Также дарует (355-500) обороны",
+            "jp": "また(355-500)のガードを付与する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_gain_X_guard_for_duration",
+                  "valueRange": [
+                    355,
+                    500
+                  ]
+                }
+              ],
+              "value": "355~500",
+              "text": {
+                "en": "Also grants (355-500) Guard",
+                "kr": "가호도 (355-500) 부여",
+                "tw": "同時賦予(355-500)層守護",
+                "ru": "Также дарует (355-500) обороны",
+                "jp": "また(355-500)のガードを付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainLifeOnUse8",
+          "affixType": "prefix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              285,
+              350
+            ]
+          ],
+          "name": {
+            "en": "Evergreen",
+            "kr": "상록의",
+            "tw": "常綠",
+            "ru": "Вечнозелёный",
+            "jp": "常緑の"
+          },
+          "effect": {
+            "en": "Recover (285-350) Life when Used",
+            "kr": "사용 시 생명력 (285-350) 회복",
+            "tw": "使用後恢復(285-350)生命",
+            "ru": "Восстанавливает (285-350) здоровья при использовании",
+            "jp": "使用した時に(285-350)のライフを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_life_when_used",
+                  "valueRange": [
+                    285,
+                    350
+                  ]
+                }
+              ],
+              "value": "285~350",
+              "text": {
+                "en": "Recover (285-350) Life when Used",
+                "kr": "사용 시 생명력 (285-350) 회복",
+                "tw": "使用後恢復(285-350)生命",
+                "ru": "Восстанавливает (285-350) здоровья при использовании",
+                "jp": "使用した時に(285-350)のライフを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmGainManaOnUse8",
+          "affixType": "prefix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              230,
+              300
+            ]
+          ],
+          "name": {
+            "en": "Raindancer's",
+            "kr": "비춤꾼의",
+            "tw": "雨舞者的",
+            "ru": "Ниспосланный",
+            "jp": "雨乞師の"
+          },
+          "effect": {
+            "en": "Recover (230-300) Mana when Used",
+            "kr": "사용 시 마나 (230-300) 회복",
+            "tw": "使用後恢復(230-300)魔力",
+            "ru": "Восстанавливает (230-300) маны при использовании",
+            "jp": "使用した時に(230-300)のマナを回復する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "charm_recover_X_mana_when_used",
+                  "valueRange": [
+                    230,
+                    300
+                  ]
+                }
+              ],
+              "value": "230~300",
+              "text": {
+                "en": "Recover (230-300) Mana when Used",
+                "kr": "사용 시 마나 (230-300) 회복",
+                "tw": "使用後恢復(230-300)魔力",
+                "ru": "Восстанавливает (230-300) маны при использовании",
+                "jp": "使用した時に(230-300)のマナを回復する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CharmIncreasedDuration5",
+          "affixType": "prefix",
+          "tier": 78,
+          "valueRanges": [
+            [
+              36,
+              40
+            ]
+          ],
+          "name": {
+            "en": "Experimenter's",
+            "kr": "실험자의",
+            "tw": "實驗家的",
+            "ru": "Экспериментальный",
+            "jp": "実験者の"
+          },
+          "effect": {
+            "en": "(36-40)% increased Duration",
+            "kr": "지속시간 (36-40)% 증가",
+            "tw": "增加(36-40)%持續時間",
+            "ru": "(36-40)% увеличение длительности",
+            "jp": "持続時間が(36-40)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charm_duration_+%",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% increased Duration",
+                "kr": "지속시간 (36-40)% 증가",
+                "tw": "增加(36-40)%持續時間",
+                "ru": "(36-40)% увеличение длительности",
+                "jp": "持続時間が(36-40)%増加する"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "FlaskChargesAddedIncreasePercent1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              23,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of the Constant",
+            "kr": "- 상수",
+            "tw": "持續之",
+            "ru": "постоянства",
+            "jp": "絶え間なき"
+          },
+          "effect": {
+            "en": "(23-30)% increased Charges gained",
+            "kr": "충전량 (23-30)% 증가",
+            "tw": "增加(23-30)%獲得的充能",
+            "ru": "(23-30)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(23-30)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    23,
+                    30
+                  ]
+                }
+              ],
+              "value": "23~30",
+              "text": {
+                "en": "(23-30)% increased Charges gained",
+                "kr": "충전량 (23-30)% 증가",
+                "tw": "增加(23-30)%獲得的充能",
+                "ru": "(23-30)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(23-30)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -17,
+              -15
+            ]
+          ],
+          "name": {
+            "en": "of the Apprentice",
+            "kr": "- 수습생",
+            "tw": "學徒的",
+            "ru": "подручного",
+            "jp": "弟子の"
+          },
+          "effect": {
+            "en": "(-17--15)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-17--15)% 감소",
+            "tw": "每次使用減少(-17--15)%充能",
+            "ru": "(-17--15)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-17--15)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -17,
+                    -15
+                  ]
+                }
+              ],
+              "value": "-17~-15",
+              "text": {
+                "en": "(-17--15)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-17--15)% 감소",
+                "tw": "每次使用減少(-17--15)%充能",
+                "ru": "(-17--15)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-17--15)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              23,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of the Wide",
+            "kr": "- 넓음",
+            "tw": "寬的",
+            "ru": "объёма",
+            "jp": "広さの"
+          },
+          "effect": {
+            "en": "(23-30)% increased Charges",
+            "kr": "충전 (23-30)% 증가",
+            "tw": "增加(23-30)%充能",
+            "ru": "(23-30)% увеличение зарядов",
+            "jp": "チャージが(23-30)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    23,
+                    30
+                  ]
+                }
+              ],
+              "value": "23~30",
+              "text": {
+                "en": "(23-30)% increased Charges",
+                "kr": "충전 (23-30)% 증가",
+                "tw": "增加(23-30)%充能",
+                "ru": "(23-30)% увеличение зарядов",
+                "jp": "チャージが(23-30)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnKill1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Medic",
+            "kr": "- 위생병",
+            "tw": "醫者之",
+            "ru": "медика",
+            "jp": "医師の"
+          },
+          "effect": {
+            "en": "(21-25)% Chance to gain a Charge when you kill an enemy",
+            "kr": "적 처치 시 (21-25)%의 확률로 충전 획득",
+            "tw": "殺死敵人時有(21-25)%機率獲得一個充能",
+            "ru": "(21-25)% шанс получить заряд, когда вы убиваете врага",
+            "jp": "プレイヤーが敵を倒した時に(21-25)%の確率でチャージを1獲得する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_%_chance_to_gain_flask_charge_on_kill",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% Chance to gain a Charge when you kill an enemy",
+                "kr": "적 처치 시 (21-25)%의 확률로 충전 획득",
+                "tw": "殺死敵人時有(21-25)%機率獲得一個充能",
+                "ru": "(21-25)% шанс получить заряд, когда вы убиваете врага",
+                "jp": "プレイヤーが敵を倒した時に(21-25)%の確率でチャージを1獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFillChargesPerMinute1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              9,
+              9
+            ]
+          ],
+          "name": {
+            "en": "of the Foliage",
+            "kr": "- 나뭇잎",
+            "tw": "枝葉之",
+            "ru": "листвы",
+            "jp": "枝葉の"
+          },
+          "effect": {
+            "en": "Gains 9 Charges per Second",
+            "kr": "1초마다 충전 9 획득",
+            "tw": "每秒獲得9充能",
+            "ru": "Получает зарядов в секунду: 9",
+            "jp": "毎秒チャージを9獲得する"
+          },
+          "group": [
+            749
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_every_minute",
+                  "valueRange": [
+                    9,
+                    9
+                  ]
+                }
+              ],
+              "value": "9",
+              "text": {
+                "en": "Gains 9 Charges per Second",
+                "kr": "1초마다 충전 9 획득",
+                "tw": "每秒獲得9充能",
+                "ru": "Получает зарядов в секунду: 9",
+                "jp": "毎秒チャージを9獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges2__",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              31,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of the Copious",
+            "kr": "- 방대함",
+            "tw": "豐產的",
+            "ru": "обилия",
+            "jp": "大量の"
+          },
+          "effect": {
+            "en": "(31-38)% increased Charges",
+            "kr": "충전 (31-38)% 증가",
+            "tw": "增加(31-38)%充能",
+            "ru": "(31-38)% увеличение зарядов",
+            "jp": "チャージが(31-38)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    31,
+                    38
+                  ]
+                }
+              ],
+              "value": "31~38",
+              "text": {
+                "en": "(31-38)% increased Charges",
+                "kr": "충전 (31-38)% 증가",
+                "tw": "增加(31-38)%充能",
+                "ru": "(31-38)% увеличение зарядов",
+                "jp": "チャージが(31-38)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent2_",
+          "affixType": "suffix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              31,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of the Continuous",
+            "kr": "- 계속",
+            "tw": "連續的",
+            "ru": "непрерывности",
+            "jp": "恒久の"
+          },
+          "effect": {
+            "en": "(31-38)% increased Charges gained",
+            "kr": "충전량 (31-38)% 증가",
+            "tw": "增加(31-38)%獲得的充能",
+            "ru": "(31-38)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(31-38)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    31,
+                    38
+                  ]
+                }
+              ],
+              "value": "31~38",
+              "text": {
+                "en": "(31-38)% increased Charges gained",
+                "kr": "충전량 (31-38)% 증가",
+                "tw": "增加(31-38)%獲得的充能",
+                "ru": "(31-38)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(31-38)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed2",
+          "affixType": "suffix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              -20,
+              -18
+            ]
+          ],
+          "name": {
+            "en": "of the Practitioner",
+            "kr": "- 실무자",
+            "tw": "從業者的",
+            "ru": "практика",
+            "jp": "練習生の"
+          },
+          "effect": {
+            "en": "(-20--18)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-20--18)% 감소",
+            "tw": "每次使用減少(-20--18)%充能",
+            "ru": "(-20--18)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-20--18)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -20,
+                    -18
+                  ]
+                }
+              ],
+              "value": "-20~-18",
+              "text": {
+                "en": "(-20--18)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-20--18)% 감소",
+                "tw": "每次使用減少(-20--18)%充能",
+                "ru": "(-20--18)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-20--18)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnKill2",
+          "affixType": "suffix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of the Doctor",
+            "kr": "- 의사",
+            "tw": "醫師之",
+            "ru": "доктора",
+            "jp": "医者の"
+          },
+          "effect": {
+            "en": "(26-30)% Chance to gain a Charge when you kill an enemy",
+            "kr": "적 처치 시 (26-30)%의 확률로 충전 획득",
+            "tw": "殺死敵人時有(26-30)%機率獲得一個充能",
+            "ru": "(26-30)% шанс получить заряд, когда вы убиваете врага",
+            "jp": "プレイヤーが敵を倒した時に(26-30)%の確率でチャージを1獲得する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_%_chance_to_gain_flask_charge_on_kill",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% Chance to gain a Charge when you kill an enemy",
+                "kr": "적 처치 시 (26-30)%의 확률로 충전 획득",
+                "tw": "殺死敵人時有(26-30)%機率獲得一個充能",
+                "ru": "(26-30)% шанс получить заряд, когда вы убиваете врага",
+                "jp": "プレイヤーが敵を倒した時に(26-30)%の確率でチャージを1獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFillChargesPerMinute2",
+          "affixType": "suffix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              12,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Verdant",
+            "kr": "- 신록",
+            "tw": "自然之",
+            "ru": "зелени",
+            "jp": "新緑の"
+          },
+          "effect": {
+            "en": "Gains 12 Charges per Second",
+            "kr": "1초마다 충전 12 획득",
+            "tw": "每秒獲得12充能",
+            "ru": "Получает зарядов в секунду: 12",
+            "jp": "毎秒チャージを12獲得する"
+          },
+          "group": [
+            749
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_every_minute",
+                  "valueRange": [
+                    12,
+                    12
+                  ]
+                }
+              ],
+              "value": "12",
+              "text": {
+                "en": "Gains 12 Charges per Second",
+                "kr": "1초마다 충전 12 획득",
+                "tw": "每秒獲得12充能",
+                "ru": "Получает зарядов в секунду: 12",
+                "jp": "毎秒チャージを12獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges3_",
+          "affixType": "suffix",
+          "tier": 32,
+          "valueRanges": [
+            [
+              39,
+              46
+            ]
+          ],
+          "name": {
+            "en": "of the Plentiful",
+            "kr": "- 풍요",
+            "tw": "充足的",
+            "ru": "щедрости",
+            "jp": "豊富さの"
+          },
+          "effect": {
+            "en": "(39-46)% increased Charges",
+            "kr": "충전 (39-46)% 증가",
+            "tw": "增加(39-46)%充能",
+            "ru": "(39-46)% увеличение зарядов",
+            "jp": "チャージが(39-46)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    39,
+                    46
+                  ]
+                }
+              ],
+              "value": "39~46",
+              "text": {
+                "en": "(39-46)% increased Charges",
+                "kr": "충전 (39-46)% 증가",
+                "tw": "增加(39-46)%充能",
+                "ru": "(39-46)% увеличение зарядов",
+                "jp": "チャージが(39-46)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent3_",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              39,
+              46
+            ]
+          ],
+          "name": {
+            "en": "of the Endless",
+            "kr": "- 끝없음",
+            "tw": "無盡的",
+            "ru": "неиссякаемости",
+            "jp": "終わりなき"
+          },
+          "effect": {
+            "en": "(39-46)% increased Charges gained",
+            "kr": "충전량 (39-46)% 증가",
+            "tw": "增加(39-46)%獲得的充能",
+            "ru": "(39-46)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(39-46)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    39,
+                    46
+                  ]
+                }
+              ],
+              "value": "39~46",
+              "text": {
+                "en": "(39-46)% increased Charges gained",
+                "kr": "충전량 (39-46)% 증가",
+                "tw": "增加(39-46)%獲得的充能",
+                "ru": "(39-46)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(39-46)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed3__",
+          "affixType": "suffix",
+          "tier": 34,
+          "valueRanges": [
+            [
+              -23,
+              -21
+            ]
+          ],
+          "name": {
+            "en": "of the Mixologist",
+            "kr": "- 혼합자",
+            "tw": "調酒師的",
+            "ru": "винокура",
+            "jp": "混合学者の"
+          },
+          "effect": {
+            "en": "(-23--21)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-23--21)% 감소",
+            "tw": "每次使用減少(-23--21)%充能",
+            "ru": "(-23--21)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-23--21)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -23,
+                    -21
+                  ]
+                }
+              ],
+              "value": "-23~-21",
+              "text": {
+                "en": "(-23--21)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-23--21)% 감소",
+                "tw": "每次使用減少(-23--21)%充能",
+                "ru": "(-23--21)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-23--21)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnKill3",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Surgeon",
+            "kr": "- 외과의사",
+            "tw": "外科醫師之",
+            "ru": "хирурга",
+            "jp": "外科医の"
+          },
+          "effect": {
+            "en": "(31-35)% Chance to gain a Charge when you kill an enemy",
+            "kr": "적 처치 시 (31-35)%의 확률로 충전 획득",
+            "tw": "殺死敵人時有(31-35)%機率獲得一個充能",
+            "ru": "(31-35)% шанс получить заряд, когда вы убиваете врага",
+            "jp": "プレイヤーが敵を倒した時に(31-35)%の確率でチャージを1獲得する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_%_chance_to_gain_flask_charge_on_kill",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% Chance to gain a Charge when you kill an enemy",
+                "kr": "적 처치 시 (31-35)%의 확률로 충전 획득",
+                "tw": "殺死敵人時有(31-35)%機率獲得一個充能",
+                "ru": "(31-35)% шанс получить заряд, когда вы убиваете врага",
+                "jp": "プレイヤーが敵を倒した時に(31-35)%の確率でチャージを1獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFillChargesPerMinute3",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Sylvan",
+            "kr": "- 시골숲",
+            "tw": "森林之",
+            "ru": "дубравы",
+            "jp": "森の"
+          },
+          "effect": {
+            "en": "Gains 15 Charges per Second",
+            "kr": "1초마다 충전 15 획득",
+            "tw": "每秒獲得15充能",
+            "ru": "Получает зарядов в секунду: 15",
+            "jp": "毎秒チャージを15獲得する"
+          },
+          "group": [
+            749
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_every_minute",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Gains 15 Charges per Second",
+                "kr": "1초마다 충전 15 획득",
+                "tw": "每秒獲得15充能",
+                "ru": "Получает зарядов в секунду: 15",
+                "jp": "毎秒チャージを15獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges4__",
+          "affixType": "suffix",
+          "tier": 47,
+          "valueRanges": [
+            [
+              47,
+              54
+            ]
+          ],
+          "name": {
+            "en": "of the Bountiful",
+            "kr": "- 풍성",
+            "tw": "富裕的",
+            "ru": "богатства",
+            "jp": "豊かさの"
+          },
+          "effect": {
+            "en": "(47-54)% increased Charges",
+            "kr": "충전 (47-54)% 증가",
+            "tw": "增加(47-54)%充能",
+            "ru": "(47-54)% увеличение зарядов",
+            "jp": "チャージが(47-54)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    47,
+                    54
+                  ]
+                }
+              ],
+              "value": "47~54",
+              "text": {
+                "en": "(47-54)% increased Charges",
+                "kr": "충전 (47-54)% 증가",
+                "tw": "增加(47-54)%充能",
+                "ru": "(47-54)% увеличение зарядов",
+                "jp": "チャージが(47-54)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent4_",
+          "affixType": "suffix",
+          "tier": 48,
+          "valueRanges": [
+            [
+              47,
+              54
+            ]
+          ],
+          "name": {
+            "en": "of the Bottomless",
+            "kr": "- 끝이 보이지 않음",
+            "tw": "無底的",
+            "ru": "бездонности",
+            "jp": "底なしの"
+          },
+          "effect": {
+            "en": "(47-54)% increased Charges gained",
+            "kr": "충전량 (47-54)% 증가",
+            "tw": "增加(47-54)%獲得的充能",
+            "ru": "(47-54)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(47-54)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    47,
+                    54
+                  ]
+                }
+              ],
+              "value": "47~54",
+              "text": {
+                "en": "(47-54)% increased Charges gained",
+                "kr": "충전량 (47-54)% 증가",
+                "tw": "增加(47-54)%獲得的充能",
+                "ru": "(47-54)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(47-54)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed4__",
+          "affixType": "suffix",
+          "tier": 49,
+          "valueRanges": [
+            [
+              -26,
+              -24
+            ]
+          ],
+          "name": {
+            "en": "of the Distiller",
+            "kr": "- 증류자",
+            "tw": "釀酒師的",
+            "ru": "перегонщика",
+            "jp": "蒸留者の"
+          },
+          "effect": {
+            "en": "(-26--24)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-26--24)% 감소",
+            "tw": "每次使用減少(-26--24)%充能",
+            "ru": "(-26--24)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-26--24)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -26,
+                    -24
+                  ]
+                }
+              ],
+              "value": "-26~-24",
+              "text": {
+                "en": "(-26--24)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-26--24)% 감소",
+                "tw": "每次使用減少(-26--24)%充能",
+                "ru": "(-26--24)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-26--24)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges5",
+          "affixType": "suffix",
+          "tier": 62,
+          "valueRanges": [
+            [
+              55,
+              62
+            ]
+          ],
+          "name": {
+            "en": "of the Abundant",
+            "kr": "- 풍부",
+            "tw": "富裕之",
+            "ru": "изобилия",
+            "jp": "余りある"
+          },
+          "effect": {
+            "en": "(55-62)% increased Charges",
+            "kr": "충전 (55-62)% 증가",
+            "tw": "增加(55-62)%充能",
+            "ru": "(55-62)% увеличение зарядов",
+            "jp": "チャージが(55-62)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    55,
+                    62
+                  ]
+                }
+              ],
+              "value": "55~62",
+              "text": {
+                "en": "(55-62)% increased Charges",
+                "kr": "충전 (55-62)% 증가",
+                "tw": "增加(55-62)%充能",
+                "ru": "(55-62)% увеличение зарядов",
+                "jp": "チャージが(55-62)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent5__",
+          "affixType": "suffix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              55,
+              62
+            ]
+          ],
+          "name": {
+            "en": "of the Perpetual",
+            "kr": "- 영속적",
+            "tw": "永久的",
+            "ru": "нескончаемости",
+            "jp": "不朽の"
+          },
+          "effect": {
+            "en": "(55-62)% increased Charges gained",
+            "kr": "충전량 (55-62)% 증가",
+            "tw": "增加(55-62)%獲得的充能",
+            "ru": "(55-62)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(55-62)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    55,
+                    62
+                  ]
+                }
+              ],
+              "value": "55~62",
+              "text": {
+                "en": "(55-62)% increased Charges gained",
+                "kr": "충전량 (55-62)% 증가",
+                "tw": "增加(55-62)%獲得的充能",
+                "ru": "(55-62)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(55-62)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed5",
+          "affixType": "suffix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              -29,
+              -27
+            ]
+          ],
+          "name": {
+            "en": "of the Brewer",
+            "kr": "- 조제자",
+            "tw": "釀酒師的",
+            "ru": "пивовара",
+            "jp": "醸造者の"
+          },
+          "effect": {
+            "en": "(-29--27)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-29--27)% 감소",
+            "tw": "每次使用減少(-29--27)%充能",
+            "ru": "(-29--27)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-29--27)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -29,
+                    -27
+                  ]
+                }
+              ],
+              "value": "-29~-27",
+              "text": {
+                "en": "(-29--27)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-29--27)% 감소",
+                "tw": "每次使用減少(-29--27)%充能",
+                "ru": "(-29--27)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-29--27)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges6",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              63,
+              70
+            ]
+          ],
+          "name": {
+            "en": "of the Ample",
+            "kr": "- 풍족",
+            "tw": "慷慨之",
+            "ru": "избытка",
+            "jp": "たっぷりの"
+          },
+          "effect": {
+            "en": "(63-70)% increased Charges",
+            "kr": "충전 (63-70)% 증가",
+            "tw": "增加(63-70)%充能",
+            "ru": "(63-70)% увеличение зарядов",
+            "jp": "チャージが(63-70)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    63,
+                    70
+                  ]
+                }
+              ],
+              "value": "63~70",
+              "text": {
+                "en": "(63-70)% increased Charges",
+                "kr": "충전 (63-70)% 증가",
+                "tw": "增加(63-70)%充能",
+                "ru": "(63-70)% увеличение зарядов",
+                "jp": "チャージが(63-70)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent6",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              63,
+              70
+            ]
+          ],
+          "name": {
+            "en": "of the Eternal",
+            "kr": "- 영원",
+            "tw": "永恆之",
+            "ru": "вечности",
+            "jp": "永遠の"
+          },
+          "effect": {
+            "en": "(63-70)% increased Charges gained",
+            "kr": "충전량 (63-70)% 증가",
+            "tw": "增加(63-70)%獲得的充能",
+            "ru": "(63-70)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(63-70)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    63,
+                    70
+                  ]
+                }
+              ],
+              "value": "63~70",
+              "text": {
+                "en": "(63-70)% increased Charges gained",
+                "kr": "충전량 (63-70)% 증가",
+                "tw": "增加(63-70)%獲得的充能",
+                "ru": "(63-70)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(63-70)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed6",
+          "affixType": "suffix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              -32,
+              -30
+            ]
+          ],
+          "name": {
+            "en": "of the Chemist",
+            "kr": "- 화학자",
+            "tw": "化學家之",
+            "ru": "химика",
+            "jp": "化学者の"
+          },
+          "effect": {
+            "en": "(-32--30)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-32--30)% 감소",
+            "tw": "每次使用減少(-32--30)%充能",
+            "ru": "(-32--30)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-32--30)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -32,
+                    -30
+                  ]
+                }
+              ],
+              "value": "-32~-30",
+              "text": {
+                "en": "(-32--30)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-32--30)% 감소",
+                "tw": "每次使用減少(-32--30)%充能",
+                "ru": "(-32--30)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-32--30)%減少する"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

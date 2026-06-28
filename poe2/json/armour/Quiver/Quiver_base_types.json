@@ -1,0 +1,475 @@
+[
+  {
+    "id": "broadhead-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Broadhead Quiver",
+      "kr": "넓은 촉 화살통",
+      "tw": "寬頭箭袋",
+      "ru": "Колчан охотничьих стрел",
+      "jp": "太矢じりの矢筒"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitPhysicalDamage1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage",
+            "value": "3",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fire-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Fire Quiver",
+      "kr": "불 화살통",
+      "tw": "火焰箭袋",
+      "ru": "Колчан огненных стрел",
+      "jp": "火の矢筒"
+    },
+    "dropLevel": 8,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitFireDamage1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_fire_damage",
+            "value": "3",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_fire_damage",
+            "value": "5",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sacral-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Sacral Quiver",
+      "kr": "성례 화살통",
+      "tw": "聖禮箭袋",
+      "ru": "Колчан освящённых стрел",
+      "jp": "神聖な矢筒"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitLifeGainPerTarget1",
+        "lines": [
+          {
+            "stat": "base_life_gain_per_target",
+            "value": "2~3",
+            "text": {
+              "en": "Gain 2~3 Life per Enemy Hit with Attacks",
+              "kr": "플레이어의 공격으로 명중하는 적 하나당 획득하는 생명력 2~3",
+              "tw": "攻擊每擊中一名敵人，獲得2~3生命",
+              "ru": "Дарует 2~3 здоровья за каждого пораженного атаками врага",
+              "jp": "アタックでヒットを与えた敵1体ごとに2~3のライフを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "two-point-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Two-Point Quiver",
+      "kr": "쌍촉 화살통",
+      "tw": "雙尖箭袋",
+      "ru": "Колчан двуглавых стрел",
+      "jp": "二股の矢筒"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitIncreasedAccuracy1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Accuracy Rating",
+              "kr": "일반 정확도 20~30% 증가",
+              "tw": "增加20~30%命中值",
+              "ru": "20~30% повышение глобальной меткости",
+              "jp": "グローバル命中力が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blunt-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Blunt Quiver",
+      "kr": "뭉툭한 화살통",
+      "tw": "鈍箭袋",
+      "ru": "Колчан затупленных стрел",
+      "jp": "鈍頭の矢筒"
+    },
+    "dropLevel": 33,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitStunThresholdReduction1",
+        "lines": [
+          {
+            "stat": "hit_damage_stun_multiplier_+%",
+            "value": "25~40",
+            "text": {
+              "en": "25~40% increased Stun Buildup",
+              "kr": "기절 축적 25~40% 증가",
+              "tw": "增加25~40%暈眩累積",
+              "ru": "25~40% повышение скорости накопления шкалы оглушения",
+              "jp": "スタン蓄積が25~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "toxic-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Toxic Quiver",
+      "kr": "맹독성 화살통",
+      "tw": "劇毒箭袋",
+      "ru": "Колчан отравленных стрел",
+      "jp": "毒の矢筒"
+    },
+    "dropLevel": 39,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitChanceToPoison1",
+        "lines": [
+          {
+            "stat": "chance_to_poison_on_hit_with_attacks_%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% chance to Poison on Hit with Attacks",
+              "kr": "공격 명중 시 20~30%의 확률로 중독 유발",
+              "tw": "攻擊有20~30%機率在擊中時造成中毒",
+              "ru": "20~30% шанс отравить при нанесении удара атаками",
+              "jp": "アタックによるヒット時に20~30%の確率で毒を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "serrated-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Serrated Quiver",
+      "kr": "톱니 화살통",
+      "tw": "鋸齒箭袋",
+      "ru": "Колчан зазубренных стрел",
+      "jp": "鋸歯の矢筒"
+    },
+    "dropLevel": 44,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitChanceToBleed1",
+        "lines": [
+          {
+            "stat": "bleed_on_hit_with_attacks_%",
+            "value": "20~30",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primed-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Primed Quiver",
+      "kr": "준비된 화살통",
+      "tw": "灌注箭袋",
+      "ru": "Колчан боевых стрел",
+      "jp": "臨戦の矢筒"
+    },
+    "dropLevel": 51,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitIncreasedAttackSpeed1",
+        "lines": [
+          {
+            "stat": "attack_speed_+%",
+            "value": "7~10",
+            "text": {
+              "en": "7~10% increased Attack Speed",
+              "kr": "공격 속도 7~10% 증가",
+              "tw": "增加7~10%攻擊速度",
+              "ru": "7~10% повышение скорости атаки",
+              "jp": "アタックスピードが7~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "penetrating-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Penetrating Quiver",
+      "kr": "관통 화살통",
+      "tw": "穿透箭袋",
+      "ru": "Колчан пронзающих стрел",
+      "jp": "貫通の矢筒"
+    },
+    "dropLevel": 55,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitArrowAdditionalPierce1",
+        "lines": [
+          {
+            "stat": "base_chance_to_pierce_%",
+            "value": "100",
+            "text": {
+              "en": "100% chance to Pierce an Enemy",
+              "kr": "100%의 확률로 적 관통",
+              "tw": "有100%機率穿透一個敵人",
+              "ru": "100% шанс пронзить врага",
+              "jp": "100%の確率で敵を貫通する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "volant-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Volant Quiver",
+      "kr": "기민한 화살통",
+      "tw": "速射箭袋",
+      "ru": "Колчан крылатых стрел",
+      "jp": "高速の矢筒"
+    },
+    "dropLevel": 61,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitArrowSpeed1",
+        "lines": [
+          {
+            "stat": "base_arrow_speed_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Arrow Speed",
+              "kr": "화살 속도 20~30% 증가",
+              "tw": "增加20~30%箭矢速度",
+              "ru": "20~30% повышение скорости стрел",
+              "jp": "矢のスピードが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "visceral-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Visceral Quiver",
+      "kr": "본능적인 화살통",
+      "tw": "內臟箭袋",
+      "ru": "Колчан жестоких стрел",
+      "jp": "血生臭い矢筒"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverImplicitCriticalStrikeChance1",
+        "lines": [
+          {
+            "stat": "attack_critical_strike_chance_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Critical Hit Chance for Attacks",
+              "kr": "공격 치명타 명중 확률 20~30% 증가",
+              "tw": "增加20~30%攻擊暴擊率",
+              "ru": "20~30% повышение шанса критического удара атаками",
+              "jp": "アタックのクリティカルヒット率が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

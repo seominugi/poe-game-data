@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "whispering-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Whispering Incubator",
+      "kr": "속삭이는 인큐베이터",
+      "tw": "低語的培育器",
+      "ru": "Шепчущий инкубатор",
+      "jp": "囁きのインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Essence item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 에센스 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之精髓至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемую Сущность на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたエッセンスアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fine-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Fine Incubator",
+      "kr": "양질의 인큐베이터",
+      "tw": "精緻的培育器",
+      "ru": "Прекрасный инкубатор",
+      "jp": "上質なインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Currency item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 화폐 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之通貨至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемую валюту на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたカレンシーアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "singular-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Singular Incubator",
+      "kr": "비범한 인큐베이터",
+      "tw": "卓越的培育器",
+      "ru": "Необычный инкубатор",
+      "jp": "希少なインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Unique item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 고유 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之傳奇道具至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый уникальный предмет на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたユニークアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cartographers-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Cartographer's Incubator",
+      "kr": "지도제작자의 인큐베이터",
+      "tw": "製圖師的培育器",
+      "ru": "Инкубатор картографа",
+      "jp": "地図職人のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Map item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 지도 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之地圖至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет карт на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたマップアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "otherworldly-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Otherworldly Incubator",
+      "kr": "이계의 인큐베이터",
+      "tw": "超凡的培育器",
+      "ru": "Потусторонний инкубатор",
+      "jp": "異世界のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Unique Map item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 고유 지도 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之傳奇地圖至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемую уникальную карту на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたユニークマップアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "abyssal-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Abyssal Incubator",
+      "kr": "심연의 인큐베이터",
+      "tw": "深淵的培育器",
+      "ru": "Инкубатор Бездны",
+      "jp": "アビスのインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Rare Abyss item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 희귀 심연 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之稀有深淵之物至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый редкий предмет Бездны на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたアビスレアアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fragmented-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Fragmented Incubator",
+      "kr": "조각난 인큐베이터",
+      "tw": "碎片培育器",
+      "ru": "Раздробленный инкубатор",
+      "jp": "フラグメント化したインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Fragment item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 조각 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之碎片至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый фрагмент на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたフラグメントアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "skittering-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Skittering Incubator",
+      "kr": "달리는 인큐베이터",
+      "tw": "飛掠的培育器",
+      "ru": "Дергающийся инкубатор",
+      "jp": "這い回るインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Scarab item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 갑충석 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之聖甲蟲至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемого скарабея на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたスカラベアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "infused-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Infused Incubator",
+      "kr": "주입된 인큐베이터",
+      "tw": "注能的培育器",
+      "ru": "Заряженный инкубатор",
+      "jp": "強化されたインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Essence item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 에센스 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之精髓至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемую Сущность на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたエッセンスアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fossilised-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Fossilised Incubator",
+      "kr": "화석화된 인큐베이터",
+      "tw": "化石的培育器",
+      "ru": "Ископаемый инкубатор",
+      "jp": "フォッシルのインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Fossil item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 화석 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之化石至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемое ископаемое на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたフォッシルアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "kalguuran-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Kalguuran Incubator",
+      "kr": "칼구르 인큐베이터",
+      "tw": "卡爾葛的培育器",
+      "ru": "Калгууранский инкубатор",
+      "jp": "カルグールのインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Expedition item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 탐험 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之探險之物至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет Экспедиции на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたエクスペディションアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "diviners-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Diviner's Incubator",
+      "kr": "예언자의 인큐베이터",
+      "tw": "聖者的培育器",
+      "ru": "Инкубатор предсказателя",
+      "jp": "占い師のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds incubated Stacked Decks to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 카드 묶음을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之豐裕牌組至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемые колоды карт на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされた細工されたデッキを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "primal-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Primal Incubator",
+      "kr": "원시 인큐베이터",
+      "tw": "先祖培育器",
+      "ru": "Первобытный инкубатор",
+      "jp": "原始のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Talisman item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 부적 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之魔符之物至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет Талисманов на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたタリスマンアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "enchanted-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Enchanted Incubator",
+      "kr": "인챈트된 인큐베이터",
+      "tw": "附魔的培育器",
+      "ru": "Зачарованный инкубатор",
+      "jp": "魅せられたインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Enchanted Helmet item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 인챈트된 투구 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "將培育的附魔頭盔物品新增至可裝備的物品\r\n物品會在擊殺 {0} 個怪物後掉落",
+        "ru": "Добавляет инкубируемый зачарованный головной убор на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたエンチャントされた兜アイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "geomancers-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Geomancer's Incubator",
+      "kr": "대지술사의 인큐베이터",
+      "tw": "占卜師的培育器",
+      "ru": "Инкубатор геоманта",
+      "jp": "風水師のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated 6-Linked Armour item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 6연결 방어구 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之六連護甲至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый доспех с 6 связанными гнёздами на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされた6リンクアーマーアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ornate-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Ornate Incubator",
+      "kr": "화려한 인큐베이터",
+      "tw": "華麗的孵育器",
+      "ru": "Изысканный инкубатор",
+      "jp": "絢爛たるインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Currency item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 화폐 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之通貨至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемую валюту на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたカレンシーアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "time-lost-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Time-Lost Incubator",
+      "kr": "오래된 인큐베이터",
+      "tw": "時間遺忘的培育器",
+      "ru": "Затерянный во времени инкубатор",
+      "jp": "失われたインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated League-specific Unique item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 리그 고유 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之聯盟限定的傳奇道具至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый уникальный предмет лиги на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたリーグ限定ユニークアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "celestial-armoursmiths-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Celestial Armoursmith's Incubator",
+      "kr": "천공의 갑옷제작자의 인큐베이터",
+      "tw": "眾星．鐵匠的培育器",
+      "ru": "Небесный инкубатор бронника",
+      "jp": "天上の鎧鍛冶のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Shaper or Elder Armour item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 쉐이퍼 혹은 엘더 방어구 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之塑者或尊師護甲至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый доспех Древнего или Создателя на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたシェイパーまたはエルダー防具アイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "celestial-blacksmiths-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Celestial Blacksmith's Incubator",
+      "kr": "천공의 대장장이의 인큐베이터",
+      "tw": "眾星．鑄鐵的培育器",
+      "ru": "Небесный инкубатор кузнеца",
+      "jp": "天上の鍛冶屋のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Shaper or Elder Weapon item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 쉐이퍼 혹은 엘더 무기 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之塑者或尊師武器至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемое оружие Древнего или Создателя на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたシェイパーまたはエルダー武器アイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "celestial-jewellers-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Celestial Jeweller's Incubator",
+      "kr": "천공의 보석상의 인큐베이터",
+      "tw": "眾星．珠寶匠的培育器",
+      "ru": "Небесный инкубатор ювелира",
+      "jp": "天上の宝飾職人のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Shaper or Elder Trinket item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 쉐이퍼 혹은 엘더 장신구 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之塑者或尊師飾品至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемую бижутерию Древнего или Создателя на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたシェイパーまたはエルダー宝飾品アイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "eldritch-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Eldritch Incubator",
+      "kr": "섬뜩한 인큐베이터",
+      "tw": "異界尊師的培育器",
+      "ru": "Мистический инкубатор",
+      "jp": "不気味なインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Elder Map item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 엘더 지도 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之尊師地圖至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемую карту Древнего на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたエルダーマップアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "obscured-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Obscured Incubator",
+      "kr": "가려진 인큐베이터",
+      "tw": "朦朧的培育器",
+      "ru": "Затемнённый инкубатор",
+      "jp": "不明瞭なインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Breach item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 균열 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之裂痕之物至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет Разлома на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたブリーチアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "foreboding-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Foreboding Incubator",
+      "kr": "불길한 인큐베이터",
+      "tw": "預示的培育器",
+      "ru": "Таинственный инкубатор",
+      "jp": "凶兆のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds incubated valuable Currency Shards or a Harbinger item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 귀중한 화폐 파편 혹은 선구자 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之有價值的碎片或神諭之物至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемые ценные осколки валюты или предмет Предвестника на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされた高価値なカレンシーのシャードまたはハービンジャーアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "thaumaturges-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Thaumaturge's Incubator",
+      "kr": "마석학자의 인큐베이터",
+      "tw": "幻術師的培育器",
+      "ru": "Инкубатор волшебника",
+      "jp": "魔術師のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated high level Corrupted Gem or valuable Gem item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 고레벨 타락한 젬 혹은 귀중한 젬 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之高等已汙染寶石或有價值的寶石至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый осквернённый камень умения высокого уровня или ценный камень умения на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされた高レベルのコラプト状態のジェムまたは高価値なジェムアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mysterious-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Mysterious Incubator",
+      "kr": "수수께끼의 인큐베이터",
+      "tw": "神祕的培育器",
+      "ru": "Загадочный инкубатор",
+      "jp": "謎めいたインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之物至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый объект на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gemcutters-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Gemcutter's Incubator",
+      "kr": "세공사의 인큐베이터",
+      "tw": "寶石匠的培育器",
+      "ru": "Инкубатор камнереза",
+      "jp": "宝石職人のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Quality Gem item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 퀄리티 젬 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之品質寶石至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый качественный камень умения на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされた高品質ジェムアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "feral-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Feral Incubator",
+      "kr": "야생의 인큐베이터",
+      "tw": "狂野的培育器",
+      "ru": "Дикий инкубатор",
+      "jp": "野生のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Bestiary item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 야수 도감 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之獸獵道具至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет Бестиария на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたベスティアリーアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blighted-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Blighted Incubator",
+      "kr": "역병 걸린 인큐베이터",
+      "tw": "凋落的培育器",
+      "ru": "Заражённый инкубатор",
+      "jp": "荒廃したインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Blight item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 역병 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之凋落至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет Скверны на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたブライトアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "morphing-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Morphing Incubator",
+      "kr": "변하는 인큐베이터",
+      "tw": "變形的培育器",
+      "ru": "Меняющийся инкубатор",
+      "jp": "変形するインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Metamorph item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 변형 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之鍊魔至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет Метаморфа на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたメタモルフアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "maddening-incubator",
+    "classId": "Incubator",
+    "className": {
+      "en": "Incubators",
+      "kr": "인큐베이터",
+      "tw": "培育器",
+      "ru": "Инкубаторы",
+      "jp": "インキュベーター"
+    },
+    "name": {
+      "en": "Maddening Incubator",
+      "kr": "광기의 인큐베이터",
+      "tw": "瘋狂的培育器",
+      "ru": "Одержимый инкубатор",
+      "jp": "狂気のインキュベーター"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds an incubated Delirium item to an equippable item\r\nItem drops after killing {0} monsters",
+        "kr": "장착 가능한 아이템에 배양된 환영 아이템을 추가합니다.\r\n몬스터를 {0}마리 처치하면 아이템이 떨어집니다.",
+        "tw": "附加一個培育之譫妄至一件可裝備的物品上\r\n物品在擊殺 {0} 隻怪物後掉落",
+        "ru": "Добавляет инкубируемый предмет Делириума на надеваемый предмет\r\nПредмет выпадает после убийства {0} монстров",
+        "jp": "インキュベートされたデリリウムアイテムを装備可能アイテムに追加する。\r\nアイテムは{0}体のモンスターを倒した際に入手できる。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an item to apply it. The Incubated item drops after killing a specific number of monsters.",
+        "kr": "이 아이템을 우클릭한 뒤 적용할 아이템을 좌클릭하십시오. 몬스터를 특정 수만큼 처치하면 배양된 아이템이 등장합니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一件物品來使用。在擊殺指定數量的怪物後會掉落培育之物。",
+        "ru": "Щёлкните правой кнопкой мыши по этому объекту, а затем левой по предмету, чтобы использовать. Инкубируемый предмет выпадет после убийства определённого количества монстров.",
+        "jp": "このアイテムを右クリックした後、アイテムを左クリックして使用する。インキュベートされたアイテムは特定の数の敵を倒すことで入手できる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

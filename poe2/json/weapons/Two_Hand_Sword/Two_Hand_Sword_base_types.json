@@ -1,0 +1,749 @@
+[
+  {
+    "id": "keyblade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Keyblade",
+      "kr": "열쇠검",
+      "tw": "寶鑰之刃",
+      "ru": "Клинок из ключей",
+      "jp": "キーブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 1,
+      "damageMax": 1,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": {
+      "en": "Forged from thousands of unclaimed Beta keys",
+      "kr": "주인 없는 베타 키 수천 개를 녹여 만들다.",
+      "tw": "數千把無人領取的封測金鑰鍛造而成",
+      "ru": "Выкован из тысяч невостребованных ключей к Бете.",
+      "jp": "幾千もの未使用ベータキーから造られた"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "energy-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Energy Blade",
+      "kr": "에너지 칼날",
+      "tw": "能量之刃",
+      "ru": "Клинок энергии",
+      "jp": "エナジーブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 0,
+      "damageMax": 0,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StormBladeImplicitLocalLightningDamage_1",
+        "lines": [
+          {
+            "stat": "local_minimum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "corroded-longsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Corroded Longsword",
+      "kr": "부식된 장검",
+      "tw": "腐蝕長劍",
+      "ru": "Ржавый длинный меч",
+      "jp": "腐食したロングソード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 16,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "iron-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Iron Greatsword",
+      "kr": "철 대검",
+      "tw": "鍛鐵巨劍",
+      "ru": "Железный большой меч",
+      "jp": "鉄のグレートソード"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 23,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blessed-claymore",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Blessed Claymore",
+      "kr": "축복받은 클레이모어",
+      "tw": "祝福大劍",
+      "ru": "Освящённый клеймор",
+      "jp": "祝福されたクレイモア"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 32,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "broad-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Broad Greatsword",
+      "kr": "넓은날 대검",
+      "tw": "闊刃巨劍",
+      "ru": "Широкий большой меч",
+      "jp": "ブロードグレートソード"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 42,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rippled-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Rippled Greatsword",
+      "kr": "파문 대검",
+      "tw": "波紋巨劍",
+      "ru": "Фламберг",
+      "jp": "波打つグレートソード"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 52,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "arced-longsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Arced Longsword",
+      "kr": "원호 장검",
+      "tw": "弧形長劍",
+      "ru": "Изогнутый длинный меч",
+      "jp": "湾曲したロングソード"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 58,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stone-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Stone Greatsword",
+      "kr": "돌 대검",
+      "tw": "岩石巨劍",
+      "ru": "Каменный большой меч",
+      "jp": "石の大剣"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 40,
+      "damageMax": 67,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "obsidian-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Obsidian Greatsword",
+      "kr": "흑요석 대검",
+      "tw": "黑曜石巨劍",
+      "ru": "Большой меч из обсидиана",
+      "jp": "黒曜石の大剣"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 73,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "keen-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Keen Greatsword",
+      "kr": "예리한 대검",
+      "tw": "鋒利巨劍",
+      "ru": "Эспадон",
+      "jp": "鋭利な大剣"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 94,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancient-greatblade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Ancient Greatblade",
+      "kr": "고대 대칼날",
+      "tw": "遠古巨刃",
+      "ru": "Древний тяжёлый меч",
+      "jp": "古代のグレートブレイド"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 55,
+      "damageMax": 103,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "flanged-greatblade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Flanged Greatblade",
+      "kr": "테두리 대칼날",
+      "tw": "凸緣巨刃",
+      "ru": "Тяжёлый меч с навершием",
+      "jp": "つば付きのグレートブレイド"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 106,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "regalia-longsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Regalia Longsword",
+      "kr": "예복 장검",
+      "tw": "王權長劍",
+      "ru": "Царский длинный меч",
+      "jp": "王家のロングソード"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 61,
+      "damageMax": 92,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ultra-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Ultra Greatsword",
+      "kr": "초거대 대검",
+      "tw": "終極巨劍",
+      "ru": "Сверхтяжёлый меч",
+      "jp": "特大剣"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 72,
+      "damageMax": 119,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-ancient-longsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Ancient Longsword",
+      "kr": "[DNT] Ancient Longsword",
+      "tw": "[DNT] Ancient Longsword",
+      "ru": "[DNT] Ancient Longsword",
+      "jp": "[DNT] Ancient Longsword"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 123,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-ferric-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Ferric Greatsword",
+      "kr": "[DNT] Ferric Greatsword",
+      "tw": "[DNT] Ferric Greatsword",
+      "ru": "[DNT] Ferric Greatsword",
+      "jp": "[DNT] Ferric Greatsword"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 78,
+      "damageMax": 131,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-holy-greatblade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Holy Greatblade",
+      "kr": "[DNT] Holy Greatblade",
+      "tw": "[DNT] Holy Greatblade",
+      "ru": "[DNT] Holy Greatblade",
+      "jp": "[DNT] Holy Greatblade"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 83,
+      "damageMax": 139,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-wide-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Wide Greatsword",
+      "kr": "[DNT] Wide Greatsword",
+      "tw": "[DNT] Wide Greatsword",
+      "ru": "[DNT] Wide Greatsword",
+      "jp": "[DNT] Wide Greatsword"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 83,
+      "damageMax": 139,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-crested-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Crested Greatsword",
+      "kr": "[DNT] Crested Greatsword",
+      "tw": "[DNT] Crested Greatsword",
+      "ru": "[DNT] Crested Greatsword",
+      "jp": "[DNT] Crested Greatsword"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 83,
+      "damageMax": 139,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-jagged-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Jagged Greatsword",
+      "kr": "[DNT] Jagged Greatsword",
+      "tw": "[DNT] Jagged Greatsword",
+      "ru": "[DNT] Jagged Greatsword",
+      "jp": "[DNT] Jagged Greatsword"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 83,
+      "damageMax": 139,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-carved-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Carved Greatsword",
+      "kr": "[DNT] Carved Greatsword",
+      "tw": "[DNT] Carved Greatsword",
+      "ru": "[DNT] Carved Greatsword",
+      "jp": "[DNT] Carved Greatsword"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 81,
+      "damageMax": 135,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-midnight-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "[DNT] Midnight Greatsword",
+      "kr": "[DNT] Midnight Greatsword",
+      "tw": "[DNT] Midnight Greatsword",
+      "ru": "[DNT] Midnight Greatsword",
+      "jp": "[DNT] Midnight Greatsword"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 83,
+      "damageMax": 139,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

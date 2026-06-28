@@ -1,0 +1,721 @@
+[
+  {
+    "id": "dull-hatchet",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Dull Hatchet",
+      "kr": "무딘 손도끼",
+      "tw": "鈍斧",
+      "ru": "Тупой топорик",
+      "jp": "なまくらな手斧"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 10,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hook-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Hook Axe",
+      "kr": "갈고리 도끼",
+      "tw": "鉤斧",
+      "ru": "Секач",
+      "jp": "鉤付き斧"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 14,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitRageOnHit1",
+        "lines": [
+          {
+            "stat": "local_gain_X_rage_on_hit",
+            "value": "1",
+            "text": {
+              "en": "Grants 1 Rage on Hit",
+              "kr": "명중 시 격노 1 획득",
+              "tw": "擊中時獲得1層盛怒",
+              "ru": "Дарует 1 заряд(-ов) свирепости при нанесении удара",
+              "jp": "ヒット時に憤怒を1獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bearded-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Bearded Axe",
+      "kr": "수염 도끼",
+      "tw": "鉤刺斧",
+      "ru": "Бородовидный топор",
+      "jp": "ベアードアックス"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 21,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "extended-cleaver",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Extended Cleaver",
+      "kr": "연장 가로날도끼",
+      "tw": "加長砍斧",
+      "ru": "Удлинённый тесак",
+      "jp": "長刃のクリーバー"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 25,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitAccuracyUnaffectedByDistance1",
+        "lines": [
+          {
+            "stat": "local_weapon_accuracy_is_unaffected_by_distance",
+            "value": "1",
+            "text": {
+              "en": "Has no Accuracy Penalty from Range",
+              "kr": "원거리에서 적용되는 정확도 페널티 없음",
+              "tw": "遠程無命中懲罰",
+              "ru": "Не получает штраф к меткости от расстояния",
+              "jp": "遠距離での命中力ペナルティがなくなる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bandit-hatchet",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Bandit Hatchet",
+      "kr": "도적 손도끼",
+      "tw": "強盜斧",
+      "ru": "Бандитский чекан",
+      "jp": "山賊の手斧"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 31,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crescent-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Crescent Axe",
+      "kr": "초승달 도끼",
+      "tw": "新月斧",
+      "ru": "Топор-полумесяц",
+      "jp": "三日月斧"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 37,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "carving-hatchet",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Carving Hatchet",
+      "kr": "조각용 손도끼",
+      "tw": "雕刻斧",
+      "ru": "Древотёс",
+      "jp": "彫刻用の手斧"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 44,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sacrificial-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Sacrificial Axe",
+      "kr": "희생의 도끼",
+      "tw": "獻祭斧",
+      "ru": "Жертвенный топор",
+      "jp": "生贄の斧"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 42,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitManaGainedFromEnemyDeath1",
+        "lines": [
+          {
+            "stat": "base_mana_gained_on_enemy_death",
+            "value": "28~35",
+            "text": {
+              "en": "Gain 28~35 Mana per enemy killed",
+              "kr": "처치한 적 하나당 마나 28~35 획득",
+              "tw": "每個被擊殺的敵人，獲得28~35魔力",
+              "ru": "Дарует 28~35 маны за каждого убитого врага",
+              "jp": "倒した敵1体ごとに28~35のマナを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "boarding-hatchet",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Boarding Hatchet",
+      "kr": "선상 손도끼",
+      "tw": "登船斧",
+      "ru": "Абордажный топор",
+      "jp": "強襲用手斧"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 55,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fury-cleaver",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Fury Cleaver",
+      "kr": "광분 가로날도끼",
+      "tw": "狂怒砍斧",
+      "ru": "Яростный рассекатель",
+      "jp": "怒りのクリーバー"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 62,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitDamageTaken1",
+        "lines": [
+          {
+            "stat": "base_damage_taken_+%",
+            "value": "10",
+            "text": {
+              "en": "10% increased Damage taken",
+              "kr": "받는 피해 10% 증가",
+              "tw": "增加10%承受傷害",
+              "ru": "10% увеличение получаемого урона",
+              "jp": "受けるダメージが10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "battle-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Battle Axe",
+      "kr": "전투용 도끼",
+      "tw": "戰斧",
+      "ru": "Боевой топор",
+      "jp": "戦斧"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 65,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "profane-cleaver",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Profane Cleaver",
+      "kr": "부정한 가로날도끼",
+      "tw": "粗劣砍斧",
+      "ru": "Нечестивый секач",
+      "jp": "冒涜のクリーバー"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 26,
+      "damageMax": 69,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dread-hatchet",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "Dread Hatchet",
+      "kr": "공포 손도끼",
+      "tw": "驚懼符文",
+      "ru": "Ужасный топор",
+      "jp": "恐怖の手斧"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 34,
+      "damageMax": 79,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-callous-hatchet",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Callous Hatchet",
+      "kr": "[DNT] Callous Hatchet",
+      "tw": "[DNT] Callous Hatchet",
+      "ru": "[DNT] Callous Hatchet",
+      "jp": "[DNT] Callous Hatchet"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 81,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-catcher-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Catcher Axe",
+      "kr": "[DNT] Catcher Axe",
+      "tw": "[DNT] Catcher Axe",
+      "ru": "[DNT] Catcher Axe",
+      "jp": "[DNT] Catcher Axe"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 86,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-aged-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Aged Axe",
+      "kr": "[DNT] Aged Axe",
+      "tw": "[DNT] Aged Axe",
+      "ru": "[DNT] Aged Axe",
+      "jp": "[DNT] Aged Axe"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 91,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-towering-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Towering Axe",
+      "kr": "[DNT] Towering Axe",
+      "tw": "[DNT] Towering Axe",
+      "ru": "[DNT] Towering Axe",
+      "jp": "[DNT] Towering Axe"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 91,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-vagabond-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Vagabond Axe",
+      "kr": "[DNT] Vagabond Axe",
+      "tw": "[DNT] Vagabond Axe",
+      "ru": "[DNT] Vagabond Axe",
+      "jp": "[DNT] Vagabond Axe"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 91,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-moonlight-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Moonlight Axe",
+      "kr": "[DNT] Moonlight Axe",
+      "tw": "[DNT] Moonlight Axe",
+      "ru": "[DNT] Moonlight Axe",
+      "jp": "[DNT] Moonlight Axe"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 91,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-hacking-hatchet",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Hacking Hatchet",
+      "kr": "[DNT] Hacking Hatchet",
+      "tw": "[DNT] Hacking Hatchet",
+      "ru": "[DNT] Hacking Hatchet",
+      "jp": "[DNT] Hacking Hatchet"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 89,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-ritualistic-axe",
+    "classId": "One Hand Axe",
+    "className": {
+      "en": "One Hand Axes",
+      "kr": "한손 도끼",
+      "tw": "單手斧",
+      "ru": "Одноручные топоры",
+      "jp": "片手斧"
+    },
+    "name": {
+      "en": "[DNT] Ritualistic Axe",
+      "kr": "[DNT] Ritualistic Axe",
+      "tw": "[DNT] Ritualistic Axe",
+      "ru": "[DNT] Ritualistic Axe",
+      "jp": "[DNT] Ritualistic Axe"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 91,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

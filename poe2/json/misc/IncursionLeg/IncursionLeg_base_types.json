@@ -1,0 +1,380 @@
+[
+  {
+    "id": "evasive-leg",
+    "classId": "IncursionLeg",
+    "className": {
+      "en": "Transcendent Leg",
+      "kr": "초월의 다리",
+      "tw": "超凡之腿",
+      "ru": "Вознесённая нога",
+      "jp": "超越の義足"
+    },
+    "name": {
+      "en": "Evasive Leg",
+      "kr": "회피하는 다리",
+      "tw": "閃避之腿",
+      "ru": "Уклончивая нога",
+      "jp": "回避の脚"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionLeg1",
+        "lines": [
+          {
+            "stat": "evasion_rating_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Evasion Rating",
+              "kr": "회피 20~30% 증가",
+              "tw": "增加20~30%閃避值",
+              "ru": "20~30% увеличение уклонения",
+              "jp": "回避力が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sprinters-leg",
+    "classId": "IncursionLeg",
+    "className": {
+      "en": "Transcendent Leg",
+      "kr": "초월의 다리",
+      "tw": "超凡之腿",
+      "ru": "Вознесённая нога",
+      "jp": "超越の義足"
+    },
+    "name": {
+      "en": "Sprinters Leg",
+      "kr": "주자 다리",
+      "tw": "疾跑之腿",
+      "ru": "Спринтерская нога",
+      "jp": "疾走の脚"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionLeg2",
+        "lines": [
+          {
+            "stat": "sprint_movement_speed_+%",
+            "value": "6~10",
+            "text": {
+              "en": "6~10% increased Movement Speed while Sprinting",
+              "kr": "달리는 동안 이동 속도 6~10% 증가",
+              "tw": "衝刺時增加6~10%移動速度",
+              "ru": "6~10% повышение скорости передвижения во время бега",
+              "jp": "スプリント中に移動スピードが6~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sturdy-leg",
+    "classId": "IncursionLeg",
+    "className": {
+      "en": "Transcendent Leg",
+      "kr": "초월의 다리",
+      "tw": "超凡之腿",
+      "ru": "Вознесённая нога",
+      "jp": "超越の義足"
+    },
+    "name": {
+      "en": "Sturdy Leg",
+      "kr": "튼튼한 다리",
+      "tw": "穩健之腿",
+      "ru": "Прочная нога",
+      "jp": "頑丈な脚"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionLeg3",
+        "lines": [
+          {
+            "stat": "stun_threshold_+%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% increased Stun Threshold",
+              "kr": "기절 한계치 15~25% 증가",
+              "tw": "增加15~25%暈眩門檻",
+              "ru": "15~25% увеличение порога оглушения",
+              "jp": "スタン閾値が15~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "surefooted-leg",
+    "classId": "IncursionLeg",
+    "className": {
+      "en": "Transcendent Leg",
+      "kr": "초월의 다리",
+      "tw": "超凡之腿",
+      "ru": "Вознесённая нога",
+      "jp": "超越の義足"
+    },
+    "name": {
+      "en": "Surefooted Leg",
+      "kr": "굳건한 다리",
+      "tw": "穩步之腿",
+      "ru": "Устойчивая нога",
+      "jp": "堅脚の脚"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionLeg4",
+        "lines": [
+          {
+            "stat": "movement_speed_penalty_+%_while_performing_action",
+            "value": "-10~-5",
+            "text": {
+              "en": "-10~-5% reduced Movement Speed Penalty from using Skills while moving",
+              "kr": "이동 중 스킬 사용 시 적용되는 이동 속도 페널티 -10~-5% 감소",
+              "tw": "減少-10~-5%在移動時使用技能的移動速度懲罰",
+              "ru": "-10~-5% уменьшение штрафа к скорости передвижения при использовании умений во время движения",
+              "jp": "移動中にスキルを使用することによる移動スピードペナルティが-10~-5%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "calm-leg",
+    "classId": "IncursionLeg",
+    "className": {
+      "en": "Transcendent Leg",
+      "kr": "초월의 다리",
+      "tw": "超凡之腿",
+      "ru": "Вознесённая нога",
+      "jp": "超越の義足"
+    },
+    "name": {
+      "en": "Calm Leg",
+      "kr": "차분한 다리",
+      "tw": "沉著之腿",
+      "ru": "Безмятежная нога",
+      "jp": "冷静の脚"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionLeg5",
+        "lines": [
+          {
+            "stat": "mana_regeneration_rate_+%_while_moving",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Mana Regeneration Rate while moving",
+              "kr": "이동 중 마나 재생 속도 20~30% 증가",
+              "tw": "移動時增加20~30%魔力回復率",
+              "ru": "20~30% повышение скорости регенерации маны во время передвижения",
+              "jp": "移動中はマナ自動回復レートが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "restorative-leg",
+    "classId": "IncursionLeg",
+    "className": {
+      "en": "Transcendent Leg",
+      "kr": "초월의 다리",
+      "tw": "超凡之腿",
+      "ru": "Вознесённая нога",
+      "jp": "超越の義足"
+    },
+    "name": {
+      "en": "Restorative Leg",
+      "kr": "회복의 다리",
+      "tw": "恢復之腿",
+      "ru": "Восстанавливающая нога",
+      "jp": "回復の脚"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionLeg6",
+        "lines": [
+          {
+            "stat": "damage_taken_goes_to_life_over_4_seconds_%",
+            "value": "6~10",
+            "text": {
+              "en": "6~10% of Damage taken Recouped as Life",
+              "kr": "받은 피해의 6~10%를 생명력으로 회생",
+              "tw": "承受的6~10%傷害補償為生命",
+              "ru": "6~10% полученного урона восполняется в виде здоровья",
+              "jp": "受けたダメージの6~10%をライフとして回収する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

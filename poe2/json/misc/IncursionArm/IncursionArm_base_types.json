@@ -1,0 +1,380 @@
+[
+  {
+    "id": "guarding-arm",
+    "classId": "IncursionArm",
+    "className": {
+      "en": "Transcendent Arm",
+      "kr": "초월의 팔",
+      "tw": "超凡之臂",
+      "ru": "Вознесённая рука",
+      "jp": "超越の義手"
+    },
+    "name": {
+      "en": "Guarding Arm",
+      "kr": "수호하는 팔",
+      "tw": "守護之臂",
+      "ru": "Защитная рука",
+      "jp": "守護の腕"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionArm1",
+        "lines": [
+          {
+            "stat": "block_chance_+%",
+            "value": "8~12",
+            "text": {
+              "en": "8~12% increased Block chance",
+              "kr": "막기 확률 8~12% 증가",
+              "tw": "增加8~12%格擋機率",
+              "ru": "8~12% увеличение шанса блока",
+              "jp": "ブロック率が8~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "combat-arm",
+    "classId": "IncursionArm",
+    "className": {
+      "en": "Transcendent Arm",
+      "kr": "초월의 팔",
+      "tw": "超凡之臂",
+      "ru": "Вознесённая рука",
+      "jp": "超越の義手"
+    },
+    "name": {
+      "en": "Combat Arm",
+      "kr": "전투 팔",
+      "tw": "戰鬥之臂",
+      "ru": "Боевая рука",
+      "jp": "戦闘の腕"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionArm2",
+        "lines": [
+          {
+            "stat": "attack_speed_+%",
+            "value": "6~10",
+            "text": {
+              "en": "6~10% increased Attack Speed",
+              "kr": "공격 속도 6~10% 증가",
+              "tw": "增加6~10%攻擊速度",
+              "ru": "6~10% повышение скорости атаки",
+              "jp": "アタックスピードが6~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "caster-arm",
+    "classId": "IncursionArm",
+    "className": {
+      "en": "Transcendent Arm",
+      "kr": "초월의 팔",
+      "tw": "超凡之臂",
+      "ru": "Вознесённая рука",
+      "jp": "超越の義手"
+    },
+    "name": {
+      "en": "Caster Arm",
+      "kr": "시전자 팔",
+      "tw": "施法之臂",
+      "ru": "Чародейская рука",
+      "jp": "キャスターの腕"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionArm3",
+        "lines": [
+          {
+            "stat": "base_cast_speed_+%",
+            "value": "6~10",
+            "text": {
+              "en": "6~10% increased Cast Speed",
+              "kr": "시전 속도 6~10% 증가",
+              "tw": "增加6~10%施放速度",
+              "ru": "6~10% повышение скорости сотворения чар",
+              "jp": "キャストスピードが6~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "decrepifying-arm",
+    "classId": "IncursionArm",
+    "className": {
+      "en": "Transcendent Arm",
+      "kr": "초월의 팔",
+      "tw": "超凡之臂",
+      "ru": "Вознесённая рука",
+      "jp": "超越の義手"
+    },
+    "name": {
+      "en": "Decrepifying Arm",
+      "kr": "노쇠의 팔",
+      "tw": "衰老之臂",
+      "ru": "Одряхляющая рука",
+      "jp": "衰弱の腕"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionArm4",
+        "lines": [
+          {
+            "stat": "curse_effect_+%",
+            "value": "12~16",
+            "text": {
+              "en": "12~16% increased Curse Magnitudes",
+              "kr": "저주 강도 12~16% 증가",
+              "tw": "增加12~16%詛咒幅度",
+              "ru": "12~16% увеличение силы проклятий",
+              "jp": "呪いの強度が12~16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "deflective-arm",
+    "classId": "IncursionArm",
+    "className": {
+      "en": "Transcendent Arm",
+      "kr": "초월의 팔",
+      "tw": "超凡之臂",
+      "ru": "Вознесённая рука",
+      "jp": "超越の義手"
+    },
+    "name": {
+      "en": "Deflective Arm",
+      "kr": "튕겨내는 팔",
+      "tw": "偏轉之臂",
+      "ru": "Отклоняющая рука",
+      "jp": "偏向の腕"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionArm5",
+        "lines": [
+          {
+            "stat": "deflection_rating_+%",
+            "value": "6~10",
+            "text": {
+              "en": "6~10% increased Deflection Rating",
+              "kr": "튕겨내기 평점 6~10% 증가",
+              "tw": "增加6~10%偏斜值",
+              "ru": "6~10% увеличение отклонения ударов",
+              "jp": "受け流し力が6~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "commanding-arm",
+    "classId": "IncursionArm",
+    "className": {
+      "en": "Transcendent Arm",
+      "kr": "초월의 팔",
+      "tw": "超凡之臂",
+      "ru": "Вознесённая рука",
+      "jp": "超越の義手"
+    },
+    "name": {
+      "en": "Commanding Arm",
+      "kr": "위엄 있는 팔",
+      "tw": "指揮之臂",
+      "ru": "Повелевающая рука",
+      "jp": "号令の腕"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Behold! A marvel of innovation! Pay no mind the cost of flesh...\"\r\n- Guatelitzi, Architect of Flesh",
+      "kr": "\"보아라! 혁신의 경이를! 육신이 치러야 할 대가는 개의치 마라...\"\r\n- 육신의 건축가 과텔리치",
+      "tw": "\"看哪！創新的奇蹟！\"\r\n\"至於血肉的代價——不必放在心上……\"\r\n——血肉建築師．瓜特利斯",
+      "ru": "«Узрите! Чудо инновации! Не обращайте внимания на потерю плоти...»\r\n- Гвателитзи, Архитектор плоти",
+      "jp": "「刮目せよ！奇跡の発明だ！肉体の代償は気にするな……」\r\nーグアテリッツィ、肉体のアーキテクト"
+    },
+    "implicits": [
+      {
+        "modId": "IncursionLimb",
+        "lines": [
+          {
+            "stat": "has_incursion_limb",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "IncursionArm6",
+        "lines": [
+          {
+            "stat": "presence_area_+%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% increased Presence Area of Effect",
+              "kr": "접근 효과 범위 15~25% 증가",
+              "tw": "增加15~25%存在範圍的範圍效果",
+              "ru": "15~25% увеличение области действия присутствия",
+              "jp": "存在下の効果範囲が15~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

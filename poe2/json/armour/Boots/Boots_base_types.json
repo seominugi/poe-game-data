@@ -1,0 +1,6005 @@
+[
+  {
+    "id": "golden-caligae",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Golden Caligae",
+      "kr": "황금 칼리가",
+      "tw": "黃金纏鞋",
+      "ru": "Золотые калиги",
+      "jp": "黄金のカリガ"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplictBootsDemigods1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8~16",
+            "text": {
+              "en": "8~16% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8~16%",
+              "tw": "8~16%全元素抗性",
+              "ru": "8~16% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8~16%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rough-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Rough Greaves",
+      "kr": "거친 각반",
+      "tw": "粗糙脛甲",
+      "ru": "Грубые поножи",
+      "jp": "粗末なグリーヴ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 22,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "iron-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Iron Greaves",
+      "kr": "철제 각반",
+      "tw": "鐵鍛脛甲",
+      "ru": "Железные поножи",
+      "jp": "鉄のグリーヴ"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 57,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bronze-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bronze Greaves",
+      "kr": "청동 각반",
+      "tw": "青銅脛甲",
+      "ru": "Бронзовые поножи",
+      "jp": "青銅のグリーヴ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 74,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "trimmed-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Trimmed Greaves",
+      "kr": "다듬은 각반",
+      "tw": "鑲邊脛甲",
+      "ru": "Подогнанные поножи",
+      "jp": "縁取りのグリーヴ"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 112,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stone-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Stone Greaves",
+      "kr": "돌 각반",
+      "tw": "岩石脛甲",
+      "ru": "Каменные поножи",
+      "jp": "石のグリーヴ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 133,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "reefsteel-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Reefsteel Greaves",
+      "kr": "암초강철 각반",
+      "tw": "礁鋼脛甲",
+      "ru": "Стальные рифлёные поножи",
+      "jp": "リーフスチールグリーヴ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 174,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "monument-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Monument Greaves",
+      "kr": "기념비 각반",
+      "tw": "豐碑脛甲",
+      "ru": "Монументальные поножи",
+      "jp": "モニュメントグリーヴ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 199,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "totemic-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Totemic Greaves",
+      "kr": "토템의 각반",
+      "tw": "圖騰脛甲",
+      "ru": "Тотемные поножи",
+      "jp": "トーテムのグリーヴ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 244,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rawhide-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Rawhide Boots",
+      "kr": "생가죽 장화",
+      "tw": "生皮長靴",
+      "ru": "Сыромятные сапоги",
+      "jp": "生皮のブーツ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 15,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "laced-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Laced Boots",
+      "kr": "레이스 장화",
+      "tw": "飾帶長靴",
+      "ru": "Сапоги с тесьмой",
+      "jp": "レースのブーツ"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 47,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "embossed-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Embossed Boots",
+      "kr": "양각 무늬 장화",
+      "tw": "浮雕長靴",
+      "ru": "Тиснёные сапоги",
+      "jp": "エンボスのブーツ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 63,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "steeltoe-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Steeltoe Boots",
+      "kr": "강철코 장화",
+      "tw": "鐵趾長靴",
+      "ru": "Сапоги со стальным носком",
+      "jp": "鋼製つま先ブーツ"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 102,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lizardscale-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Lizardscale Boots",
+      "kr": "도마뱀비늘 장화",
+      "tw": "蜥蜴鱗長靴",
+      "ru": "Сапоги из кожи ящера",
+      "jp": "リザードスケールブーツ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 118,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "flared-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Flared Boots",
+      "kr": "번쩍이는 장화",
+      "tw": "閃耀長靴",
+      "ru": "Ботфорты",
+      "jp": "フレアブーツ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 157,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "leatherplate-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Leatherplate Boots",
+      "kr": "가죽판금 장화",
+      "tw": "皮甲長靴",
+      "ru": "Сапоги с кожаными пластинами",
+      "jp": "レザープレートブーツ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 180,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "embroidered-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Embroidered Boots",
+      "kr": "수놓은 장화",
+      "tw": "刺繡長靴",
+      "ru": "Расшитые сапоги",
+      "jp": "刺繍入りブーツ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 222,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "straw-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Straw Sandals",
+      "kr": "짚 샌들",
+      "tw": "乾草便鞋",
+      "ru": "Соломенные сандалии",
+      "jp": "麦わらのサンダル"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 14,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wrapped-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Wrapped Sandals",
+      "kr": "싸맨 샌들",
+      "tw": "裹腳便鞋",
+      "ru": "Плетёные сандалии",
+      "jp": "巻き布のサンダル"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lattice-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Lattice Sandals",
+      "kr": "격자 샌들",
+      "tw": "格子便鞋",
+      "ru": "Сетчатые сандалии",
+      "jp": "格子のサンダル"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "silk-slippers",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Silk Slippers",
+      "kr": "실크 슬리퍼",
+      "tw": "絲綢便鞋",
+      "ru": "Шёлковые тапочки",
+      "jp": "シルクの履物"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 36,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "feathered-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Feathered Sandals",
+      "kr": "깃털 샌들",
+      "tw": "羽毛便鞋",
+      "ru": "Пернатые сандалии",
+      "jp": "羽根付きのサンダル"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 41,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "flax-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Flax Sandals",
+      "kr": "아마 샌들",
+      "tw": "亞麻便鞋",
+      "ru": "Льняные сандалии",
+      "jp": "亜麻のサンダル"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 51,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "studded-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Studded Sandals",
+      "kr": "징 박힌 샌들",
+      "tw": "鑲釘便鞋",
+      "ru": "Клёпаные сандалии",
+      "jp": "鋲付きのサンダル"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 57,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elaborate-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Elaborate Sandals",
+      "kr": "정교한 샌들",
+      "tw": "精美便鞋",
+      "ru": "Искусные сандалии",
+      "jp": "精巧なサバトン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 68,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mail-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Mail Sabatons",
+      "kr": "사슬 발 덮개",
+      "tw": "鎖甲鎧靴",
+      "ru": "Кольчужные сабатоны",
+      "jp": "メイルサバトン"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "armour",
+      "armour": 22,
+      "evasion": 17,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "braced-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Braced Sabatons",
+      "kr": "죔쇠 발 덮개",
+      "tw": "加固鎧靴",
+      "ru": "Сабатоны с ремнями",
+      "jp": "補強されたサバトン"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 41,
+      "evasion": 35,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stacked-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Stacked Sabatons",
+      "kr": "중첩된 발 덮개",
+      "tw": "疊層鎧靴",
+      "ru": "Пластинчатые сабатоны",
+      "jp": "多層サバトン"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 65,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "covered-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Covered Sabatons",
+      "kr": "덮인 발 덮개",
+      "tw": "遮蓋鎧靴",
+      "ru": "Сплошные сабатоны",
+      "jp": "覆い付きのサバトン"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 86,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "flexile-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Flexile Sabatons",
+      "kr": "유연한 발 덮개",
+      "tw": "易曲鎧靴",
+      "ru": "Гибкие сабатоны",
+      "jp": "柔軟なサバトン"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 109,
+      "evasion": 99,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bold-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bold Sabatons",
+      "kr": "대담한 발 덮개",
+      "tw": "醒目鎧靴",
+      "ru": "Тяжёлые сабатоны",
+      "jp": "剛胆なサバトン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 122,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "padded-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Padded Leggings",
+      "kr": "패드 레깅스",
+      "tw": "襯墊護腿",
+      "ru": "Ватные сапоги",
+      "jp": "パッド入りのレギンス"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 20,
+      "evasion": 0,
+      "energyShield": 10,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "secured-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Secured Leggings",
+      "kr": "보안 레깅스",
+      "tw": "牢固護腿",
+      "ru": "Меховые сапоги",
+      "jp": "留め具付きのレギンス"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 41,
+      "evasion": 0,
+      "energyShield": 15,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pelt-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Pelt Leggings",
+      "kr": "털가죽 레깅스",
+      "tw": "堅皮護腿",
+      "ru": "Сапоги из шкур",
+      "jp": "獣皮のレギンス"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "weaver-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Weaver Leggings",
+      "kr": "직공 레깅스",
+      "tw": "編織者護腿",
+      "ru": "Плетёные сапоги",
+      "jp": "織り手のレギンス"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 0,
+      "energyShield": 28,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gilt-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Gilt Leggings",
+      "kr": "금빛 레깅스",
+      "tw": "鍍金護腿",
+      "ru": "Позолоченные сапоги",
+      "jp": "金装のレギンス"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 109,
+      "evasion": 0,
+      "energyShield": 31,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pious-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Pious Leggings",
+      "kr": "경건한 레깅스",
+      "tw": "虔誠護腿",
+      "ru": "Сапоги праведника",
+      "jp": "敬虔なレギンス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancient-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Ancient Leggings",
+      "kr": "고대 레깅스",
+      "tw": "遠古護腿",
+      "ru": "Древние сапоги",
+      "jp": "古代のレギンス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "frayed-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Frayed Shoes",
+      "kr": "흐트러진 신발",
+      "tw": "磨損輕鞋",
+      "ru": "Потёртые ботинки",
+      "jp": "擦り切れた靴"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 15,
+      "energyShield": 10,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "threaded-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Threaded Shoes",
+      "kr": "실타래 신발",
+      "tw": "縫紉輕鞋",
+      "ru": "Прошитые ботинки",
+      "jp": "スレッドシューズ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 35,
+      "energyShield": 15,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hunting-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Hunting Shoes",
+      "kr": "사냥용 신발",
+      "tw": "狩獵輕鞋",
+      "ru": "Охотничьи ботинки",
+      "jp": "ハンティングシューズ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 65,
+      "energyShield": 22,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "steelpoint-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Steelpoint Shoes",
+      "kr": "강철침 신발",
+      "tw": "鋼尖輕鞋",
+      "ru": "Ботинки со стальным носком",
+      "jp": "スチールポイントシューズ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 86,
+      "energyShield": 28,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "velour-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Velour Shoes",
+      "kr": "벨루어 신발",
+      "tw": "絲絨輕鞋",
+      "ru": "Бархатные ботинки",
+      "jp": "ベロアシューズ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 99,
+      "energyShield": 31,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bladed-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bladed Shoes",
+      "kr": "톱날 신발",
+      "tw": "片狀輕鞋",
+      "ru": "Клинковые ботинки",
+      "jp": "刃付きシューズ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 122,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grand-cuisses",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Grand Cuisses",
+      "kr": "우수한 허벅지 방어구",
+      "tw": "宏偉腿甲",
+      "ru": "Великолепные набедренники",
+      "jp": "大いなる脛当て"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 81,
+      "energyShield": 25,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "golden-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Golden Greaves",
+      "kr": "황금 각반",
+      "tw": "黃金脛甲",
+      "ru": "Золотые поножи",
+      "jp": "黄金のグリーヴ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "plated-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Plated Greaves",
+      "kr": "판금 각반",
+      "tw": "鎧甲脛甲",
+      "ru": "Пластинчатые поножи",
+      "jp": "プレートグリーヴ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 174,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lionheart-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Lionheart Greaves",
+      "kr": "사자심장 각반",
+      "tw": "獅心脛甲",
+      "ru": "Поножи львиного сердца",
+      "jp": "ライオンハートグリーヴ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 195,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Elegant Greaves",
+      "kr": "우아한 각반",
+      "tw": "優雅脛甲",
+      "ru": "Элегантные поножи",
+      "jp": "エレガントグリーヴ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 206,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "carved-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Carved Greaves",
+      "kr": "조각된 각반",
+      "tw": "雕刻脛甲",
+      "ru": "Резные поножи",
+      "jp": "彫刻のあるグリーヴ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 223,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bound-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bound Boots",
+      "kr": "속박된 장화",
+      "tw": "綑綁長靴",
+      "ru": "Сапоги с завязками",
+      "jp": "縁取りのブーツ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 157,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sleek-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Sleek Boots",
+      "kr": "매끈한 장화",
+      "tw": "光滑長靴",
+      "ru": "Модные сапоги",
+      "jp": "滑らかなブーツ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 177,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "studded-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Studded Boots",
+      "kr": "징 박힌 장화",
+      "tw": "鑲釘長靴",
+      "ru": "Клёпаные сапоги",
+      "jp": "鋲付きのブーツ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 186,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "serpentscale-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Serpentscale Boots",
+      "kr": "뱀 비늘 장화",
+      "tw": "蛇鱗長靴",
+      "ru": "Сапоги из змеиной кожи",
+      "jp": "サーペントスケールブーツ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 203,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "laced-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Laced Sandals",
+      "kr": "레이스 샌들",
+      "tw": "飾帶便鞋",
+      "ru": "Сандалии на шнуровке",
+      "jp": "レースのサンダル"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 51,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bangled-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bangled Sandals",
+      "kr": "고리 장식 샌들",
+      "tw": "鐲子便鞋",
+      "ru": "Украшенные сандалии",
+      "jp": "バングルサンダル"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 56,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-slippers",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Elegant Slippers",
+      "kr": "우아한 슬리퍼",
+      "tw": "優雅便鞋",
+      "ru": "Нарядные тапочки",
+      "jp": "エレガントスリッパ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 58,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dunerunner-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Dunerunner Sandals",
+      "kr": "사구질주자 샌들",
+      "tw": "沙丘行者便鞋",
+      "ru": "Сандалии гонца дюн",
+      "jp": "デューンランナーサンダル"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 63,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "soldiering-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Soldiering Sabatons",
+      "kr": "군역 발 덮개",
+      "tw": "軍旅鎧靴",
+      "ru": "Солдатские сабатоны",
+      "jp": "軍人のサバトン"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 86,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "goldwork-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Goldwork Sabatons",
+      "kr": "금가공 발 덮개",
+      "tw": "金刺繡鎧靴",
+      "ru": "Золочёные сабатоны",
+      "jp": "金細工のサバトン"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 97,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bastion-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bastion Sabatons",
+      "kr": "보루 발 덮개",
+      "tw": "堅堡鎧靴",
+      "ru": "Сабатоны бастиона",
+      "jp": "要塞のサバトン"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 123,
+      "evasion": 111,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "adherent-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Adherent Leggings",
+      "kr": "지지자 레깅스",
+      "tw": "信徒護腿",
+      "ru": "Сапоги приверженца",
+      "jp": "密着したレギンス"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 0,
+      "energyShield": 28,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bound-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bound Leggings",
+      "kr": "속박된 레깅스",
+      "tw": "綑綁護腿",
+      "ru": "Подбитые сапоги",
+      "jp": "縁取りのレギンス"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 0,
+      "energyShield": 31,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shamanistic-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Shamanistic Leggings",
+      "kr": "주술사의 레깅스",
+      "tw": "薩滿護腿",
+      "ru": "Шаманские сапоги",
+      "jp": "シャーマンのレギンス"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 123,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wayfarer-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Wayfarer Shoes",
+      "kr": "나그네 신발",
+      "tw": "旅行者輕鞋",
+      "ru": "Ботинки путника",
+      "jp": "旅人の靴"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 86,
+      "energyShield": 28,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "silverbuckled-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Silverbuckled Shoes",
+      "kr": "은버클 신발",
+      "tw": "銀扣輕鞋",
+      "ru": "Ботинки с серебряной пряжкой",
+      "jp": "銀のバックルのシューズ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 97,
+      "energyShield": 31,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "treerunner-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Treerunner Shoes",
+      "kr": "나무질주자 신발",
+      "tw": "樹行者輕鞋",
+      "ru": "Ботинки лесного гонца",
+      "jp": "ツリーランナーシューズ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 111,
+      "energyShield": 34,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bulwark-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bulwark Greaves",
+      "kr": "방벽 각반",
+      "tw": "壁壘脛甲",
+      "ru": "Поножи бастиона",
+      "jp": "砦のグリーヴ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 244,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ornate-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Ornate Greaves",
+      "kr": "화려한 각반",
+      "tw": "華麗脛甲",
+      "ru": "Украшенные поножи",
+      "jp": "華美なグリーヴ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 256,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vaal-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Vaal Greaves",
+      "kr": "바알 각반",
+      "tw": "瓦爾脛甲",
+      "ru": "Поножи ваал",
+      "jp": "ヴァールのグリーヴ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 268,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tasalian-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Tasalian Greaves",
+      "kr": "타살리오의 각반",
+      "tw": "塔薩里奧脛甲",
+      "ru": "Поножи Тасалио",
+      "jp": "タサリオのグリーヴ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 280,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cinched-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Cinched Boots",
+      "kr": "단단히 묶은 장화",
+      "tw": "繫帶長靴",
+      "ru": "Сапоги со шнуровкой",
+      "jp": "締め具のブーツ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 222,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cavalry-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Cavalry Boots",
+      "kr": "기병대 장화",
+      "tw": "騎兵長靴",
+      "ru": "Кавалерийские сапоги",
+      "jp": "騎兵隊のブーツ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 233,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dragonscale-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Dragonscale Boots",
+      "kr": "용 비늘 장화",
+      "tw": "龍鱗長靴",
+      "ru": "Сапоги из кожи дракона",
+      "jp": "竜鱗のブーツ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 244,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "drakeskin-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Drakeskin Boots",
+      "kr": "비룡가죽 장화",
+      "tw": "龍膚長靴",
+      "ru": "Сапоги из кожи рептилии",
+      "jp": "ドレイクスキンブーツ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 255,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bound-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Bound Sandals",
+      "kr": "속박된 샌들",
+      "tw": "綑綁便鞋",
+      "ru": "Сандалии с обмотками",
+      "jp": "縛られたサンダル"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 68,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "luxurious-slippers",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Luxurious Slippers",
+      "kr": "호화로운 슬리퍼",
+      "tw": "奢華便鞋",
+      "ru": "Богатые тапочки",
+      "jp": "豪華な履物"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 73,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sandsworn-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Sandsworn Sandals",
+      "kr": "모래맹세 샌들",
+      "tw": "沙誓便鞋",
+      "ru": "Сандалии хранителя песков",
+      "jp": "砂漠の民のサンダル"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 78,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sekhema-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Sekhema Sandals",
+      "kr": "세케마 샌들",
+      "tw": "絲克瑪便鞋",
+      "ru": "Сандалии Сехемы",
+      "jp": "セケマのサンダル"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 83,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "veteran-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Veteran Sabatons",
+      "kr": "역전 용사 발 덮개",
+      "tw": "老兵鎧靴",
+      "ru": "Сабатоны ветерана",
+      "jp": "老兵のサバトン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 122,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "noble-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Noble Sabatons",
+      "kr": "귀족 발 덮개",
+      "tw": "高貴鎧靴",
+      "ru": "Сабатоны дворянина",
+      "jp": "貴族のサバトン"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 141,
+      "evasion": 128,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fortress-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Fortress Sabatons",
+      "kr": "요새 발 덮개",
+      "tw": "要塞鎧靴",
+      "ru": "Сабатоны оплота",
+      "jp": "要塞のサバトン"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 147,
+      "evasion": 134,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blacksteel-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Blacksteel Sabatons",
+      "kr": "검은강철 발 덮개",
+      "tw": "烏鋼鎧靴",
+      "ru": "Сабатоны из чёрной стали",
+      "jp": "ブラックスティールサバトン"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 154,
+      "evasion": 140,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "faithful-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Faithful Leggings",
+      "kr": "충실한 레깅스",
+      "tw": "信仰護腿",
+      "ru": "Сапоги верного",
+      "jp": "忠義者のレギンス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "apostle-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Apostle Leggings",
+      "kr": "사도 레깅스",
+      "tw": "使徒護腿",
+      "ru": "Сапоги поборника",
+      "jp": "使徒のレギンス"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "warlock-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Warlock Leggings",
+      "kr": "마법사 레깅스",
+      "tw": "術士護腿",
+      "ru": "Сапоги ведуна",
+      "jp": "ウォーロックレギンス"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cryptic-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Cryptic Leggings",
+      "kr": "난해한 레깅스",
+      "tw": "隱祕護腿",
+      "ru": "Скрытые сапоги",
+      "jp": "謎のレギンス"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wanderer-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Wanderer Shoes",
+      "kr": "방랑자 신발",
+      "tw": "漫遊者輕鞋",
+      "ru": "Ботинки странника",
+      "jp": "放浪者の靴"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 122,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "charmed-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Charmed Shoes",
+      "kr": "홀린 신발",
+      "tw": "護符輕鞋",
+      "ru": "Зачарованные ботинки",
+      "jp": "チャームドシューズ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 128,
+      "energyShield": 39,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "quickslip-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Quickslip Shoes",
+      "kr": "빠른 미끄러짐 신발",
+      "tw": "速行輕鞋",
+      "ru": "Ботинки быстрого шага",
+      "jp": "クイックスリップシューズ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 134,
+      "energyShield": 41,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "daggerfoot-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Daggerfoot Shoes",
+      "kr": "단검발 신발",
+      "tw": "捷足輕鞋",
+      "ru": "Ботинки с кинжалом",
+      "jp": "ダガーフットシューズ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 140,
+      "energyShield": 43,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-rough-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Rough Greaves",
+      "kr": "룬벼림 거친 각반",
+      "tw": "符鍛粗糙脛甲",
+      "ru": "Руннокованые грубые поножи",
+      "jp": "ルーンフォージの粗末なグリーヴ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 22,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-iron-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Iron Greaves",
+      "kr": "룬벼림 철제 각반",
+      "tw": "符鍛鐵鍛脛甲",
+      "ru": "Руннокованые железные поножи",
+      "jp": "ルーンフォージの鉄のグリーヴ"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 57,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 21
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bronze-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Bronze Greaves",
+      "kr": "룬벼림 청동 각반",
+      "tw": "符鍛青銅脛甲",
+      "ru": "Руннокованые бронзовые поножи",
+      "jp": "ルーンフォージの青銅のグリーヴ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 74,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-trimmed-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Trimmed Greaves",
+      "kr": "룬벼림 다듬은 각반",
+      "tw": "符鍛鑲邊脛甲",
+      "ru": "Руннокованые подогнанные поножи",
+      "jp": "ルーンフォージの縁取りのグリーヴ"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 112,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 31
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stone-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Stone Greaves",
+      "kr": "룬벼림 돌 각반",
+      "tw": "符鍛岩石脛甲",
+      "ru": "Руннокованые каменные поножи",
+      "jp": "ルーンフォージの石のグリーヴ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 133,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-reefsteel-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Reefsteel Greaves",
+      "kr": "룬벼림 암초강철 각반",
+      "tw": "符鍛礁鋼脛甲",
+      "ru": "Руннокованые стальные рифлёные поножи",
+      "jp": "ルーンフォージのリーフスチールグリーヴ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 174,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-monument-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Monument Greaves",
+      "kr": "룬벼림 기념비 각반",
+      "tw": "符鍛豐碑脛甲",
+      "ru": "Руннокованые монументальные поножи",
+      "jp": "ルーンフォージのモニュメントグリーヴ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 175
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-totemic-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Totemic Greaves",
+      "kr": "룬벼림 토템의 각반",
+      "tw": "符鍛圖騰脛甲",
+      "ru": "Руннокованые тотемные поножи",
+      "jp": "ルーンフォージのトーテムのグリーヴ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 211
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-rawhide-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Rawhide Boots",
+      "kr": "룬벼림 생가죽 장화",
+      "tw": "符鍛生皮長靴",
+      "ru": "Руннокованые сыромятные сапоги",
+      "jp": "ルーンフォージの生皮のブーツ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 15,
+      "energyShield": 0,
+      "ward": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-laced-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Laced Boots",
+      "kr": "룬벼림 레이스 장화",
+      "tw": "符鍛飾帶長靴",
+      "ru": "Руннокованые сапоги с тесьмой",
+      "jp": "ルーンフォージのレースのブーツ"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 47,
+      "energyShield": 0,
+      "ward": 21
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-embossed-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Embossed Boots",
+      "kr": "룬벼림 양각 무늬 장화",
+      "tw": "符鍛浮雕長靴",
+      "ru": "Руннокованые тиснёные сапоги",
+      "jp": "ルーンフォージのエンボスのブーツ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 63,
+      "energyShield": 0,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-steeltoe-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Steeltoe Boots",
+      "kr": "룬벼림 강철코 장화",
+      "tw": "符鍛鐵趾長靴",
+      "ru": "Руннокованые сапоги со стальным носком",
+      "jp": "ルーンフォージの鋼製つま先ブーツ"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 102,
+      "energyShield": 0,
+      "ward": 32
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-lizardscale-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Lizardscale Boots",
+      "kr": "룬벼림 도마뱀비늘 장화",
+      "tw": "符鍛蜥蜴鱗長靴",
+      "ru": "Руннокованые сапоги из кожи ящера",
+      "jp": "ルーンフォージのリザードスケールブーツ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 118,
+      "energyShield": 0,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-flared-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Flared Boots",
+      "kr": "룬벼림 번쩍이는 장화",
+      "tw": "符鍛閃耀長靴",
+      "ru": "Руннокованые ботфорты",
+      "jp": "ルーンフォージのフレアブーツ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 157,
+      "energyShield": 0,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-leatherplate-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Leatherplate Boots",
+      "kr": "룬벼림 가죽판금 장화",
+      "tw": "符鍛皮甲長靴",
+      "ru": "Руннокованые сапоги с кожаными пластинами",
+      "jp": "ルーンフォージのレザープレートブーツ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 175
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-embroidered-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Embroidered Boots",
+      "kr": "룬벼림 수놓은 장화",
+      "tw": "符鍛刺繡長靴",
+      "ru": "Руннокованые расшитые сапоги",
+      "jp": "ルーンフォージの刺繍入りブーツ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 211
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-straw-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Straw Sandals",
+      "kr": "룬벼림 짚 샌들",
+      "tw": "符鍛乾草便鞋",
+      "ru": "Руннокованые соломенные сандалии",
+      "jp": "ルーンフォージの麦わらのサンダル"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 14,
+      "ward": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-wrapped-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Wrapped Sandals",
+      "kr": "룬벼림 싸맨 샌들",
+      "tw": "符鍛裹腳便鞋",
+      "ru": "Руннокованые плетёные сандалии",
+      "jp": "ルーンフォージの巻き布のサンダル"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 21
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-lattice-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Lattice Sandals",
+      "kr": "룬벼림 격자 샌들",
+      "tw": "符鍛格子便鞋",
+      "ru": "Руннокованые сетчатые сандалии",
+      "jp": "ルーンフォージの格子のサンダル"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-silk-slippers",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Silk Slippers",
+      "kr": "룬벼림 실크 슬리퍼",
+      "tw": "符鍛絲綢便鞋",
+      "ru": "Руннокованые шёлковые тапочки",
+      "jp": "ルーンフォージのシルクの履物"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 36,
+      "ward": 31
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-feathered-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Feathered Sandals",
+      "kr": "룬벼림 깃털 샌들",
+      "tw": "符鍛羽毛便鞋",
+      "ru": "Руннокованые пернатые сандалии",
+      "jp": "ルーンフォージの羽根付きのサンダル"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 41,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-flax-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Flax Sandals",
+      "kr": "룬벼림 아마 샌들",
+      "tw": "符鍛亞麻便鞋",
+      "ru": "Руннокованые льняные сандалии",
+      "jp": "ルーンフォージの亜麻のサンダル"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 51,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-studded-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Studded Sandals",
+      "kr": "룬벼림 징 박힌 샌들",
+      "tw": "符鍛鑲釘便鞋",
+      "ru": "Руннокованые клёпаные сандалии",
+      "jp": "ルーンフォージの鋲付きのサンダル"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 175
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-elaborate-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Elaborate Sandals",
+      "kr": "룬벼림 정교한 샌들",
+      "tw": "符鍛精美便鞋",
+      "ru": "Руннокованые искусные сандалии",
+      "jp": "ルーンフォージの精巧なサバトン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 211
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-mail-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Mail Sabatons",
+      "kr": "룬벼림 사슬 발 덮개",
+      "tw": "符鍛鎖甲鎧靴",
+      "ru": "Руннокованые кольчужные сабатоны",
+      "jp": "ルーンフォージのメイルサバトン"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "armour",
+      "armour": 22,
+      "evasion": 17,
+      "energyShield": 0,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-braced-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Braced Sabatons",
+      "kr": "룬벼림 죔쇠 발 덮개",
+      "tw": "符鍛加固鎧靴",
+      "ru": "Руннокованые сабатоны с ремнями",
+      "jp": "ルーンフォージの補強されたサバトン"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 41,
+      "evasion": 35,
+      "energyShield": 0,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stacked-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Stacked Sabatons",
+      "kr": "룬벼림 중첩된 발 덮개",
+      "tw": "符鍛疊層鎧靴",
+      "ru": "Руннокованые пластинчатые сабатоны",
+      "jp": "ルーンフォージの多層サバトン"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 65,
+      "energyShield": 0,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-covered-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Covered Sabatons",
+      "kr": "룬벼림 덮인 발 덮개",
+      "tw": "符鍛遮蓋鎧靴",
+      "ru": "Руннокованые сплошные сабатоны",
+      "jp": "ルーンフォージの覆い付きのサバトン"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 86,
+      "energyShield": 0,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-flexile-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Flexile Sabatons",
+      "kr": "룬벼림 유연한 발 덮개",
+      "tw": "符鍛易曲鎧靴",
+      "ru": "Руннокованые гибкие сабатоны",
+      "jp": "ルーンフォージの柔軟なサバトン"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 175
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bold-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Bold Sabatons",
+      "kr": "룬벼림 대담한 발 덮개",
+      "tw": "符鍛醒目鎧靴",
+      "ru": "Руннокованые тяжёлые сабатоны",
+      "jp": "ルーンフォージの剛胆なサバトン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 211
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-padded-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Padded Leggings",
+      "kr": "룬벼림 패드 레깅스",
+      "tw": "符鍛襯墊護腿",
+      "ru": "Руннокованые ватные сапоги",
+      "jp": "ルーンフォージのパッド入りのレギンス"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 20,
+      "evasion": 0,
+      "energyShield": 10,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-secured-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Secured Leggings",
+      "kr": "룬벼림 보안 레깅스",
+      "tw": "符鍛牢固護腿",
+      "ru": "Руннокованые меховые сапоги",
+      "jp": "ルーンフォージの留め具付きのレギンス"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 41,
+      "evasion": 0,
+      "energyShield": 15,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-pelt-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Pelt Leggings",
+      "kr": "룬벼림 털가죽 레깅스",
+      "tw": "符鍛堅皮護腿",
+      "ru": "Руннокованые сапоги из шкур",
+      "jp": "ルーンフォージの獣皮のレギンス"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-weaver-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Weaver Leggings",
+      "kr": "룬벼림 직공 레깅스",
+      "tw": "符鍛編織者護腿",
+      "ru": "Руннокованые плетёные сапоги",
+      "jp": "ルーンフォージの織り手のレギンス"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 0,
+      "energyShield": 28,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-gilt-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Gilt Leggings",
+      "kr": "룬벼림 금빛 레깅스",
+      "tw": "符鍛鍍金護腿",
+      "ru": "Руннокованые позолоченные сапоги",
+      "jp": "ルーンフォージの金装のレギンス"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 175
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-pious-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Pious Leggings",
+      "kr": "룬벼림 경건한 레깅스",
+      "tw": "符鍛虔誠護腿",
+      "ru": "Руннокованые сапоги праведника",
+      "jp": "ルーンフォージの敬虔なレギンス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 211
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-frayed-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Frayed Shoes",
+      "kr": "룬벼림 흐트러진 신발",
+      "tw": "符鍛磨損輕鞋",
+      "ru": "Руннокованые потёртые ботинки",
+      "jp": "ルーンフォージの擦り切れた靴"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 15,
+      "energyShield": 10,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-threaded-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Threaded Shoes",
+      "kr": "룬벼림 실타래 신발",
+      "tw": "符鍛縫紉輕鞋",
+      "ru": "Руннокованые прошитые ботинки",
+      "jp": "ルーンフォージのスレッドシューズ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 35,
+      "energyShield": 15,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-hunting-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Hunting Shoes",
+      "kr": "룬벼림 사냥용 신발",
+      "tw": "符鍛狩獵輕鞋",
+      "ru": "Руннокованые охотничьи ботинки",
+      "jp": "ルーンフォージのハンティングシューズ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 65,
+      "energyShield": 22,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-steelpoint-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Steelpoint Shoes",
+      "kr": "룬벼림 강철침 신발",
+      "tw": "符鍛鋼尖輕鞋",
+      "ru": "Руннокованые ботинки со стальным носком",
+      "jp": "ルーンフォージのスチールポイントシューズ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 86,
+      "energyShield": 28,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-velour-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Velour Shoes",
+      "kr": "룬벼림 벨루어 신발",
+      "tw": "符鍛絲絨輕鞋",
+      "ru": "Руннокованые бархатные ботинки",
+      "jp": "ルーンフォージのベロアシューズ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 175
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bladed-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Bladed Shoes",
+      "kr": "룬벼림 톱날 신발",
+      "tw": "符鍛片狀輕鞋",
+      "ru": "Руннокованые клинковые ботинки",
+      "jp": "ルーンフォージの刃付きシューズ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 211
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-elegant-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Elegant Greaves",
+      "kr": "룬벼림 우아한 각반",
+      "tw": "符鍛優雅脛甲",
+      "ru": "Руннокованые элегантные поножи",
+      "jp": "ルーンフォージのエレガントグリーヴ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 185,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 45
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-carved-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Carved Greaves",
+      "kr": "룬벼림 조각된 각반",
+      "tw": "符鍛雕刻脛甲",
+      "ru": "Руннокованые резные поножи",
+      "jp": "ルーンフォージの彫刻のあるグリーヴ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 167,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 78
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-studded-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Studded Boots",
+      "kr": "룬벼림 징 박힌 장화",
+      "tw": "符鍛鑲釘長靴",
+      "ru": "Руннокованые клёпаные сапоги",
+      "jp": "ルーンフォージの鋲付きのブーツ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 177,
+      "energyShield": 0,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-serpentscale-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Serpentscale Boots",
+      "kr": "룬벼림 뱀 비늘 장화",
+      "tw": "符鍛蛇鱗長靴",
+      "ru": "Руннокованые сапоги из змеиной кожи",
+      "jp": "ルーンフォージのサーペントスケールブーツ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 162,
+      "energyShield": 0,
+      "ward": 68
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-elegant-slippers",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Elegant Slippers",
+      "kr": "룬벼림 우아한 슬리퍼",
+      "tw": "符鍛優雅便鞋",
+      "ru": "Руннокованые нарядные тапочки",
+      "jp": "ルーンフォージのエレガントスリッパ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 50,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-dunerunner-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Dunerunner Sandals",
+      "kr": "룬벼림 사구질주자 샌들",
+      "tw": "符鍛沙丘行者便鞋",
+      "ru": "Руннокованые сандалии гонца дюн",
+      "jp": "ルーンフォージのデューンランナーサンダル"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 56,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bastion-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Bastion Sabatons",
+      "kr": "룬벼림 보루 발 덮개",
+      "tw": "符鍛堅堡鎧靴",
+      "ru": "Руннокованые сабатоны бастиона",
+      "jp": "ルーンフォージの要塞のサバトン"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 116,
+      "evasion": 106,
+      "energyShield": 0,
+      "ward": 39
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-shamanistic-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Shamanistic Leggings",
+      "kr": "룬벼림 주술사의 레깅스",
+      "tw": "符鍛薩滿護腿",
+      "ru": "Руннокованые шаманские сапоги",
+      "jp": "ルーンフォージのシャーマンのレギンス"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 110,
+      "evasion": 0,
+      "energyShield": 31,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-treerunner-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Treerunner Shoes",
+      "kr": "룬벼림 나무질주자 신발",
+      "tw": "符鍛樹行者輕鞋",
+      "ru": "Руннокованые ботинки лесного гонца",
+      "jp": "ルーンフォージのツリーランナーシューズ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 95,
+      "energyShield": 29,
+      "ward": 58
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grand-cuisses",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Grand Cuisses",
+      "kr": "룬벼림 우수한 허벅지 방어구",
+      "tw": "符鍛宏偉腿甲",
+      "ru": "Руннокованые великолепные набедренники",
+      "jp": "ルーンフォージの大いなる脛当て"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 67,
+      "evasion": 61,
+      "energyShield": 19,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bulwark-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Bulwark Greaves",
+      "kr": "룬벼림 방벽 각반",
+      "tw": "符鍛壁壘脛甲",
+      "ru": "Руннокованые поножи бастиона",
+      "jp": "ルーンフォージの砦のグリーヴ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 219,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ornate-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Ornate Greaves",
+      "kr": "룬벼림 화려한 각반",
+      "tw": "符鍛華麗脛甲",
+      "ru": "Руннокованые украшенные поножи",
+      "jp": "ルーンフォージの華美なグリーヴ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 116
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-vaal-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Vaal Greaves",
+      "kr": "룬벼림 바알 각반",
+      "tw": "符鍛瓦爾脛甲",
+      "ru": "Руннокованые поножи ваал",
+      "jp": "ルーンフォージのヴァールのグリーヴ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 244,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-tasalian-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Tasalian Greaves",
+      "kr": "룬벼림 타살리오의 각반",
+      "tw": "符鍛塔薩里奧脛甲",
+      "ru": "Руннокованые поножи Тасалио",
+      "jp": "ルーンフォージのタサリオのグリーヴ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 85,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 180
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cinched-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Cinched Boots",
+      "kr": "룬벼림 단단히 묶은 장화",
+      "tw": "符鍛繫帶長靴",
+      "ru": "Руннокованые сапоги со шнуровкой",
+      "jp": "ルーンフォージの締め具のブーツ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 200,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cavalry-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Cavalry Boots",
+      "kr": "룬벼림 기병대 장화",
+      "tw": "符鍛騎兵長靴",
+      "ru": "Руннокованые кавалерийские сапоги",
+      "jp": "ルーンフォージの騎兵隊のブーツ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 122,
+      "energyShield": 0,
+      "ward": 116
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-dragonscale-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Dragonscale Boots",
+      "kr": "룬벼림 용 비늘 장화",
+      "tw": "符鍛龍鱗長靴",
+      "ru": "Руннокованые сапоги из кожи дракона",
+      "jp": "ルーンフォージの竜鱗のブーツ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 211,
+      "energyShield": 0,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-drakeskin-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Drakeskin Boots",
+      "kr": "룬벼림 비룡가죽 장화",
+      "tw": "符鍛龍膚長靴",
+      "ru": "Руннокованые сапоги из кожи рептилии",
+      "jp": "ルーンフォージのドレイクスキンブーツ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 89,
+      "energyShield": 0,
+      "ward": 169
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bound-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Bound Sandals",
+      "kr": "룬벼림 속박된 샌들",
+      "tw": "符鍛綑綁便鞋",
+      "ru": "Руннокованые сандалии с обмотками",
+      "jp": "ルーンフォージの縛られたサンダル"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 61,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-luxurious-slippers",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Luxurious Slippers",
+      "kr": "룬벼림 호화로운 슬리퍼",
+      "tw": "符鍛奢華便鞋",
+      "ru": "Руннокованые богатые тапочки",
+      "jp": "ルーンフォージの豪華な履物"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 116
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sandsworn-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Sandsworn Sandals",
+      "kr": "룬벼림 모래맹세 샌들",
+      "tw": "符鍛沙誓便鞋",
+      "ru": "Руннокованые сандалии хранителя песков",
+      "jp": "ルーンフォージの砂漠の民のサンダル"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 66,
+      "ward": 49
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sekhema-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Sekhema Sandals",
+      "kr": "룬벼림 세케마 샌들",
+      "tw": "符鍛絲克瑪便鞋",
+      "ru": "Руннокованые сандалии Сехемы",
+      "jp": "ルーンフォージのセケマのサンダル"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 184
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-veteran-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Veteran Sabatons",
+      "kr": "룬벼림 역전 용사 발 덮개",
+      "tw": "符鍛老兵鎧靴",
+      "ru": "Руннокованые сабатоны ветерана",
+      "jp": "ルーンフォージの老兵のサバトン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 127,
+      "evasion": 116,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-noble-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Noble Sabatons",
+      "kr": "룬벼림 귀족 발 덮개",
+      "tw": "符鍛高貴鎧靴",
+      "ru": "Руннокованые сабатоны дворянина",
+      "jp": "ルーンフォージの貴族のサバトン"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 73,
+      "energyShield": 0,
+      "ward": 116
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-fortress-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Fortress Sabatons",
+      "kr": "룬벼림 요새 발 덮개",
+      "tw": "符鍛要塞鎧靴",
+      "ru": "Руннокованые сабатоны оплота",
+      "jp": "ルーンフォージの要塞のサバトン"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 121,
+      "evasion": 110,
+      "energyShield": 0,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-blacksteel-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Blacksteel Sabatons",
+      "kr": "룬벼림 검은강철 발 덮개",
+      "tw": "符鍛烏鋼鎧靴",
+      "ru": "Руннокованые сабатоны из чёрной стали",
+      "jp": "ルーンフォージのブラックスティールサバトン"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 40,
+      "evasion": 37,
+      "energyShield": 0,
+      "ward": 190
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-faithful-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Faithful Leggings",
+      "kr": "룬벼림 충실한 레깅스",
+      "tw": "符鍛信仰護腿",
+      "ru": "Руннокованые сапоги верного",
+      "jp": "ルーンフォージの忠義者のレギンス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 121,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-apostle-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Apostle Leggings",
+      "kr": "룬벼림 사도 레깅스",
+      "tw": "符鍛使徒護腿",
+      "ru": "Руннокованые сапоги поборника",
+      "jp": "ルーンフォージの使徒のレギンス"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 74,
+      "evasion": 0,
+      "energyShield": 20,
+      "ward": 116
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-warlock-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Warlock Leggings",
+      "kr": "룬벼림 마법사 레깅스",
+      "tw": "符鍛術士護腿",
+      "ru": "Руннокованые сапоги ведуна",
+      "jp": "ルーンフォージのウォーロックレギンス"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-cryptic-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Cryptic Leggings",
+      "kr": "룬벼림 난해한 레깅스",
+      "tw": "符鍛隱祕護腿",
+      "ru": "Руннокованые скрытые сапоги",
+      "jp": "ルーンフォージの謎のレギンス"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 34,
+      "evasion": 0,
+      "energyShield": 9,
+      "ward": 201
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-wanderer-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Wanderer Shoes",
+      "kr": "룬벼림 방랑자 신발",
+      "tw": "符鍛漫遊者輕鞋",
+      "ru": "Руннокованые ботинки странника",
+      "jp": "ルーンフォージの放浪者の靴"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 110,
+      "energyShield": 34,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-charmed-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Charmed Shoes",
+      "kr": "룬벼림 홀린 신발",
+      "tw": "符鍛護符輕鞋",
+      "ru": "Руннокованые зачарованные ботинки",
+      "jp": "ルーンフォージのチャームドシューズ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 67,
+      "energyShield": 20,
+      "ward": 116
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-quickslip-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Quickslip Shoes",
+      "kr": "룬벼림 빠른 미끄러짐 신발",
+      "tw": "符鍛速行輕鞋",
+      "ru": "Руннокованые ботинки быстрого шага",
+      "jp": "ルーンフォージのクイックスリップシューズ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 128,
+      "energyShield": 39,
+      "ward": 32
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-daggerfoot-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runeforged Daggerfoot Shoes",
+      "kr": "룬벼림 단검발 신발",
+      "tw": "符鍛捷足輕鞋",
+      "ru": "Руннокованые ботинки с кинжалом",
+      "jp": "ルーンフォージのダガーフットシューズ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 34,
+      "energyShield": 10,
+      "ward": 194
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-rough-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Rough Greaves",
+      "kr": "룬숙련 거친 각반",
+      "tw": "符煉粗糙脛甲",
+      "ru": "Рунномастерские грубые поножи",
+      "jp": "ルーンマスターの粗末なグリーヴ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 150,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "10",
+            "text": {
+              "en": "10% increased Movement Speed",
+              "kr": "이동 속도 10% 증가",
+              "tw": "增加10%移動速度",
+              "ru": "10% повышение скорости передвижения",
+              "jp": "移動スピードが10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-iron-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Iron Greaves",
+      "kr": "룬숙련 철제 각반",
+      "tw": "符煉鐵鍛脛甲",
+      "ru": "Рунномастерские железные поножи",
+      "jp": "ルーンマスターの鉄のグリーヴ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 120,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-bronze-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Bronze Greaves",
+      "kr": "룬숙련 청동 각반",
+      "tw": "符煉青銅脛甲",
+      "ru": "Рунномастерские бронзовые поножи",
+      "jp": "ルーンマスターの青銅のグリーヴ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 135,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 20
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-trimmed-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Trimmed Greaves",
+      "kr": "룬숙련 다듬은 각반",
+      "tw": "符煉鑲邊脛甲",
+      "ru": "Рунномастерские подогнанные поножи",
+      "jp": "ルーンマスターの縁取りのグリーヴ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 79,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 71
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-stone-greaves",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Stone Greaves",
+      "kr": "룬숙련 돌 각반",
+      "tw": "符煉岩石脛甲",
+      "ru": "Рунномастерские каменные поножи",
+      "jp": "ルーンマスターの石のグリーヴ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 157,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 46
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-laced-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Laced Boots",
+      "kr": "룬숙련 레이스 장화",
+      "tw": "符煉飾帶長靴",
+      "ru": "Рунномастерские сапоги с тесьмой",
+      "jp": "ルーンマスターのレースのブーツ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 54,
+      "energyShield": 0,
+      "ward": 81
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-embossed-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Embossed Boots",
+      "kr": "룬숙련 양각 무늬 장화",
+      "tw": "符煉浮雕長靴",
+      "ru": "Рунномастерские тиснёные сапоги",
+      "jp": "ルーンマスターのエンボスのブーツ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 94,
+      "energyShield": 0,
+      "ward": 41
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-steeltoe-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Steeltoe Boots",
+      "kr": "룬숙련 강철코 장화",
+      "tw": "符煉鐵趾長靴",
+      "ru": "Рунномастерские сапоги со стальным носком",
+      "jp": "ルーンマスターの鋼製つま先ブーツ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 113,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-lizardscale-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Lizardscale Boots",
+      "kr": "룬숙련 도마뱀비늘 장화",
+      "tw": "符煉蜥蜴鱗長靴",
+      "ru": "Рунномастерские сапоги из кожи ящера",
+      "jp": "ルーンマスターのリザードスケールブーツ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 99,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-cinched-boots",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Cinched Boots",
+      "kr": "룬숙련 단단히 묶은 장화",
+      "tw": "符煉繫帶長靴",
+      "ru": "Рунномастерские сапоги со шнуровкой",
+      "jp": "ルーンマスターの締め具のブーツ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 178,
+      "energyShield": 0,
+      "ward": 74
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-straw-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Straw Sandals",
+      "kr": "룬숙련 짚 샌들",
+      "tw": "符煉乾草便鞋",
+      "ru": "Рунномастерские соломенные сандалии",
+      "jp": "ルーンマスターの麦わらのサンダル"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 45,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-wrapped-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Wrapped Sandals",
+      "kr": "룬숙련 싸맨 샌들",
+      "tw": "符煉裹腳便鞋",
+      "ru": "Рунномастерские плетёные сандалии",
+      "jp": "ルーンマスターの巻き布のサンダル"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 41,
+      "ward": 41
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-lattice-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Lattice Sandals",
+      "kr": "룬숙련 격자 샌들",
+      "tw": "符煉格子便鞋",
+      "ru": "Рунномастерские сетчатые сандалии",
+      "jp": "ルーンマスターの格子のサンダル"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-silk-slippers",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Silk Slippers",
+      "kr": "룬숙련 실크 슬리퍼",
+      "tw": "符煉絲綢便鞋",
+      "ru": "Рунномастерские шёлковые тапочки",
+      "jp": "ルーンマスターのシルクの履物"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 36,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-feathered-sandals",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Feathered Sandals",
+      "kr": "룬숙련 깃털 샌들",
+      "tw": "符煉羽毛便鞋",
+      "ru": "Рунномастерские пернатые сандалии",
+      "jp": "ルーンマスターの羽根付きのサンダル"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 33,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-mail-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Mail Sabatons",
+      "kr": "룬숙련 사슬 발 덮개",
+      "tw": "符煉鎖甲鎧靴",
+      "ru": "Рунномастерские кольчужные сабатоны",
+      "jp": "ルーンマスターのメイルサバトン"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 50,
+      "evasion": 44,
+      "energyShield": 0,
+      "ward": 54
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-braced-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Braced Sabatons",
+      "kr": "룬숙련 죔쇠 발 덮개",
+      "tw": "符煉加固鎧靴",
+      "ru": "Рунномастерские сабатоны с ремнями",
+      "jp": "ルーンマスターの補強されたサバトン"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 66,
+      "evasion": 59,
+      "energyShield": 0,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-stacked-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Stacked Sabatons",
+      "kr": "룬숙련 중첩된 발 덮개",
+      "tw": "符煉疊層鎧靴",
+      "ru": "Рунномастерские пластинчатые сабатоны",
+      "jp": "ルーンマスターの多層サバトン"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 173,
+      "evasion": 155,
+      "energyShield": 0,
+      "ward": 21
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "10",
+            "text": {
+              "en": "10% increased Movement Speed",
+              "kr": "이동 속도 10% 증가",
+              "tw": "增加10%移動速度",
+              "ru": "10% повышение скорости передвижения",
+              "jp": "移動スピードが10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-covered-sabatons",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Covered Sabatons",
+      "kr": "룬숙련 덮인 발 덮개",
+      "tw": "符煉遮蓋鎧靴",
+      "ru": "Рунномастерские сплошные сабатоны",
+      "jp": "ルーンマスターの覆い付きのサバトン"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": 69,
+      "evasion": 63,
+      "energyShield": 0,
+      "ward": 73
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-secured-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Secured Leggings",
+      "kr": "룬숙련 보안 레깅스",
+      "tw": "符煉牢固護腿",
+      "ru": "Рунномастерские меховые сапоги",
+      "jp": "ルーンマスターの留め具付きのレギンス"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 58,
+      "evasion": 0,
+      "energyShield": 17,
+      "ward": 41
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-ancient-leggings",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Ancient Leggings",
+      "kr": "룬숙련 고대 레깅스",
+      "tw": "符煉遠古護腿",
+      "ru": "Рунномастерские древние сапоги",
+      "jp": "ルーンマスターの古代のレギンス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 0,
+      "energyShield": 30,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-threaded-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Threaded Shoes",
+      "kr": "룬숙련 실타래 신발",
+      "tw": "符煉縫紉輕鞋",
+      "ru": "Рунномастерские прошитые ботинки",
+      "jp": "ルーンマスターのスレッドシューズ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 55,
+      "energyShield": 19,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BootsImplicitMovementSpeedVerisium1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "5",
+            "text": {
+              "en": "5% increased Movement Speed",
+              "kr": "이동 속도 5% 증가",
+              "tw": "增加5%移動速度",
+              "ru": "5% повышение скорости передвижения",
+              "jp": "移動スピードが5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-hunting-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Hunting Shoes",
+      "kr": "룬숙련 사냥용 신발",
+      "tw": "符煉狩獵輕鞋",
+      "ru": "Рунномастерские охотничьи ботинки",
+      "jp": "ルーンマスターのハンティングシューズ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 70,
+      "energyShield": 23,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-velour-shoes",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Velour Shoes",
+      "kr": "룬숙련 벨루어 신발",
+      "tw": "符煉絲絨輕鞋",
+      "ru": "Рунномастерские бархатные ботинки",
+      "jp": "ルーンマスターのベロアシューズ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 85,
+      "energyShield": 26,
+      "ward": 63
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-grand-cuisses",
+    "classId": "Boots",
+    "className": {
+      "en": "Boots",
+      "kr": "장화",
+      "tw": "鞋子",
+      "ru": "Обувь",
+      "jp": "靴"
+    },
+    "name": {
+      "en": "Runemastered Grand Cuisses",
+      "kr": "룬숙련 우수한 허벅지 방어구",
+      "tw": "符煉宏偉腿甲",
+      "ru": "Рунномастерские великолепные набедренники",
+      "jp": "ルーンマスターの大いなる脛当て"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 45,
+      "evasion": 41,
+      "energyShield": 12,
+      "ward": 106
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

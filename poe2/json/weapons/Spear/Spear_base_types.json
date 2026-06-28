@@ -1,0 +1,2050 @@
+[
+  {
+    "id": "hardwood-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Hardwood Spear",
+      "kr": "견목 창",
+      "tw": "硬木長矛",
+      "ru": "Копьё из твёрдой древесины",
+      "jp": "硬材の槍"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 9,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ironhead-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Ironhead Spear",
+      "kr": "철창날 창",
+      "tw": "鐵木長矛",
+      "ru": "Копьё с железным наконечником",
+      "jp": "鉄頭のスピア"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 12,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hunting-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Hunting Spear",
+      "kr": "사냥 창",
+      "tw": "狩獵長矛",
+      "ru": "Охотничье копьё",
+      "jp": "ハンティングスピア"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 17,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalChanceToMaim1",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% chance to Maim on Hit",
+              "kr": "명중 시 15~25%의 확률로 힘줄 절단",
+              "tw": "擊中時有15~25%機率造成癱瘓",
+              "ru": "15~25% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に15~25%の確率で重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "winged-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Winged Spear",
+      "kr": "날개 달린 창",
+      "tw": "羽翅長矛",
+      "ru": "Крылатое копьё",
+      "jp": "翼刃のスピア"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 22,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "war-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "War Spear",
+      "kr": "전쟁 창",
+      "tw": "戰爭長矛",
+      "ru": "Воинское копьё",
+      "jp": "ウォースピア"
+    },
+    "dropLevel": 21,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 27,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalProjectileSpeed1",
+        "lines": [
+          {
+            "stat": "local_projectile_speed_+%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% increased Projectile Speed with this Weapon",
+              "kr": "이 무기의 투사체 속도 25~35% 증가",
+              "tw": "增加25~35%此武器的投射物速度",
+              "ru": "25~35% повышение скорости снарядов от этого оружия",
+              "jp": "この武器による投射物スピードが25~35%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "forked-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Forked Spear",
+      "kr": "갈라진 창",
+      "tw": "叉狀長矛",
+      "ru": "Раздвоенное копьё",
+      "jp": "双頭の槍"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 38,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "barbed-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Barbed Spear",
+      "kr": "가시 돋친 창",
+      "tw": "鉤刺長矛",
+      "ru": "Копьё с зазубринами",
+      "jp": "トゲ付きの槍"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 38,
+      "critChance": 6,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitFasterBleed1",
+        "lines": [
+          {
+            "stat": "faster_bleed_%",
+            "value": "10~20",
+            "text": {
+              "en": "Bleeding you inflict deals Damage 10~20% faster",
+              "kr": "플레이어가 유발한 출혈이 피해 10~20% 가속",
+              "tw": "你造成的流血傷害加速10~20%",
+              "ru": "Наложенное вами кровотечение наносит урон на 10~20% быстрее",
+              "jp": "付与した出血がダメージを与える速度が10~20%速くなる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "broad-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Broad Spear",
+      "kr": "넓은날 창",
+      "tw": "闊刃長矛",
+      "ru": "Широкое копьё",
+      "jp": "ブロードスピア"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 48,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "25",
+            "text": {
+              "en": "25% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 25% 증가",
+              "tw": "此武器增加25%近戰打擊範圍",
+              "ru": "25% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crossblade-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Crossblade Spear",
+      "kr": "십자칼날 창",
+      "tw": "十字刃長矛",
+      "ru": "Крестообразное копьё",
+      "jp": "十文字槍"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 52,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitDeflectDamagePrevented1",
+        "lines": [
+          {
+            "stat": "base_damage_%_deflected",
+            "value": "3~7",
+            "text": {
+              "en": "Prevent 3~7% of Damage from Deflected Hits",
+              "kr": "튕겨낸 명중의 피해 중 방지하는 피해 3~7%",
+              "tw": "抵禦偏斜擊中的3~7%傷害",
+              "ru": "Предотвращает 3~7% урона от отклоненных ударов",
+              "jp": "受け流したヒットのダメージから防ぐ量が3~7%される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "seaglass-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Seaglass Spear",
+      "kr": "바다유리 창",
+      "tw": "海玻璃長矛",
+      "ru": "Копьё из морского стекла",
+      "jp": "シーグラススピア"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 53,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sword-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Sword Spear",
+      "kr": "검 창",
+      "tw": "劍刃長矛",
+      "ru": "Копьё-меч",
+      "jp": "ソードスピア"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 56,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "striking-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Striking Spear",
+      "kr": "타격하는 창",
+      "tw": "突擊長矛",
+      "ru": "Ударное копьё",
+      "jp": "打撃の槍"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 91,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLightningDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "50",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "helix-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Helix Spear",
+      "kr": "나선 창",
+      "tw": "螺旋長矛",
+      "ru": "Спиралевидное копьё",
+      "jp": "ヘリックススピア"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 68,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "steelhead-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Steelhead Spear",
+      "kr": "강철머리 창",
+      "tw": "鋼尖長矛",
+      "ru": "Копьё со стальным наконечником",
+      "jp": "スチールヘッドスピア"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 44,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coursing-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Coursing Spear",
+      "kr": "세차게 흐르는 창",
+      "tw": "追獵長矛",
+      "ru": "Копьё травли зверя",
+      "jp": "疾走の槍"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 52,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalChanceToMaim1",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% chance to Maim on Hit",
+              "kr": "명중 시 15~25%의 확률로 힘줄 절단",
+              "tw": "擊中時有15~25%機率造成癱瘓",
+              "ru": "15~25% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に15~25%の確率で重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "swift-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Swift Spear",
+      "kr": "재빠른 창",
+      "tw": "迅疾長矛",
+      "ru": "Быстрое копьё",
+      "jp": "スイフトスピア"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 53,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalProjectileSpeed1",
+        "lines": [
+          {
+            "stat": "local_projectile_speed_+%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% increased Projectile Speed with this Weapon",
+              "kr": "이 무기의 투사체 속도 25~35% 증가",
+              "tw": "增加25~35%此武器的投射物速度",
+              "ru": "25~35% повышение скорости снарядов от этого оружия",
+              "jp": "この武器による投射物スピードが25~35%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "branched-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Branched Spear",
+      "kr": "가지 뻗은 창",
+      "tw": "分支長矛",
+      "ru": "Разветвлённое копьё",
+      "jp": "枝分かれの槍"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 69,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jagged-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Jagged Spear",
+      "kr": "삐죽삐죽한 창",
+      "tw": "鋸齒長矛",
+      "ru": "Копьё с зубцами",
+      "jp": "ギザギザの槍"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 61,
+      "critChance": 6,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitFasterBleed1",
+        "lines": [
+          {
+            "stat": "faster_bleed_%",
+            "value": "10~20",
+            "text": {
+              "en": "Bleeding you inflict deals Damage 10~20% faster",
+              "kr": "플레이어가 유발한 출혈이 피해 10~20% 가속",
+              "tw": "你造成的流血傷害加速10~20%",
+              "ru": "Наложенное вами кровотечение наносит урон на 10~20% быстрее",
+              "jp": "付与した出血がダメージを与える速度が10~20%速くなる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "massive-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Massive Spear",
+      "kr": "거대한 창",
+      "tw": "巨型長矛",
+      "ru": "Массивное копьё",
+      "jp": "巨大なスピア"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 69,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "25",
+            "text": {
+              "en": "25% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 25% 증가",
+              "tw": "此武器增加25%近戰打擊範圍",
+              "ru": "25% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-hardwood-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runeforged Hardwood Spear",
+      "kr": "룬벼림 견목 창",
+      "tw": "符鍛硬木長矛",
+      "ru": "Руннокованое копьё из твёрдой древесины",
+      "jp": "ルーンフォージの硬材の槍"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 45,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-ironhead-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runeforged Ironhead Spear",
+      "kr": "룬벼림 철창날 창",
+      "tw": "符鍛鐵木長矛",
+      "ru": "Руннокованое копьё с железным наконечником",
+      "jp": "ルーンフォージの鉄頭のスピア"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 40,
+      "damageMax": 54,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-ironhead-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runemastered Ironhead Spear",
+      "kr": "룬숙련 철창날 창",
+      "tw": "符煉鐵木長矛",
+      "ru": "Рунномастерское копьё с железным наконечником",
+      "jp": "ルーンマスターの鉄頭のスピア"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 94,
+      "damageMax": 127,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-hunting-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runeforged Hunting Spear",
+      "kr": "룬벼림 사냥 창",
+      "tw": "符鍛狩獵長矛",
+      "ru": "Руннокованое охотничье копьё",
+      "jp": "ルーンフォージのハンティングスピア"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 65,
+      "damageMax": 108,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalChanceToMaim1",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% chance to Maim on Hit",
+              "kr": "명중 시 15~25%의 확률로 힘줄 절단",
+              "tw": "擊中時有15~25%機率造成癱瘓",
+              "ru": "15~25% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に15~25%の確率で重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-winged-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runeforged Winged Spear",
+      "kr": "룬벼림 날개 달린 창",
+      "tw": "符鍛羽翅長矛",
+      "ru": "Руннокованое крылатое копьё",
+      "jp": "ルーンフォージの翼刃のスピア"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 0,
+      "damageMax": 125,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLightningDamageUnique1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-war-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runeforged War Spear",
+      "kr": "룬벼림 전쟁 창",
+      "tw": "符鍛戰爭長矛",
+      "ru": "Руннокованое воинское копьё",
+      "jp": "ルーンフォージのウォースピア"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 98,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalProjectileSpeed1",
+        "lines": [
+          {
+            "stat": "local_projectile_speed_+%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% increased Projectile Speed with this Weapon",
+              "kr": "이 무기의 투사체 속도 25~35% 증가",
+              "tw": "增加25~35%此武器的投射物速度",
+              "ru": "25~35% повышение скорости снарядов от этого оружия",
+              "jp": "この武器による投射物スピードが25~35%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-forked-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runeforged Forked Spear",
+      "kr": "룬벼림 갈라진 창",
+      "tw": "符鍛叉狀長矛",
+      "ru": "Руннокованое раздвоенное копьё",
+      "jp": "ルーンフォージの双頭の槍"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 57,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-barbed-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Runeforged Barbed Spear",
+      "kr": "룬벼림 가시 돋친 창",
+      "tw": "符鍛鉤刺長矛",
+      "ru": "Руннокованое копьё с зазубринами",
+      "jp": "ルーンフォージのトゲ付きの槍"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 78,
+      "damageMax": 145,
+      "critChance": 6,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitFasterBleed1",
+        "lines": [
+          {
+            "stat": "faster_bleed_%",
+            "value": "10~20",
+            "text": {
+              "en": "Bleeding you inflict deals Damage 10~20% faster",
+              "kr": "플레이어가 유발한 출혈이 피해 10~20% 가속",
+              "tw": "你造成的流血傷害加速10~20%",
+              "ru": "Наложенное вами кровотечение наносит урон на 10~20% быстрее",
+              "jp": "付与した出血がダメージを与える速度が10~20%速くなる"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SaithaVerisiumImplicitLocalFireConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "66",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "orichalcum-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Orichalcum Spear",
+      "kr": "오리칼쿰 창",
+      "tw": "山銅長矛",
+      "ru": "Копьё из орихалка",
+      "jp": "オリハルコンスピア"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 62,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "soaring-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Soaring Spear",
+      "kr": "솟구치는 창",
+      "tw": "展翼長矛",
+      "ru": "Парящее копьё",
+      "jp": "飛翔のスピア"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 65,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pronged-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Pronged Spear",
+      "kr": "갈래진 창",
+      "tw": "尖叉長矛",
+      "ru": "Двузубое копьё",
+      "jp": "二又の槍"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 89,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stalking-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Stalking Spear",
+      "kr": "뒤를 쫓는 창",
+      "tw": "潛獵長矛",
+      "ru": "Копьё погони",
+      "jp": "ストーキングスピア"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 47,
+      "damageMax": 79,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalChanceToMaim1",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% chance to Maim on Hit",
+              "kr": "명중 시 15~25%의 확률로 힘줄 절단",
+              "tw": "擊中時有15~25%機率造成癱瘓",
+              "ru": "15~25% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に15~25%の確率で重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flying-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Flying Spear",
+      "kr": "비행 창",
+      "tw": "翱翔長矛",
+      "ru": "Летящее копьё",
+      "jp": "フレイングスピア"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 77,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitLocalProjectileSpeed1",
+        "lines": [
+          {
+            "stat": "local_projectile_speed_+%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% increased Projectile Speed with this Weapon",
+              "kr": "이 무기의 투사체 속도 25~35% 증가",
+              "tw": "增加25~35%此武器的投射物速度",
+              "ru": "25~35% повышение скорости снарядов от этого оружия",
+              "jp": "この武器による投射物スピードが25~35%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "grand-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Grand Spear",
+      "kr": "우수한 창",
+      "tw": "宏偉長矛",
+      "ru": "Величественное копьё",
+      "jp": "グランドスピア"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 56,
+      "damageMax": 84,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "25",
+            "text": {
+              "en": "25% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 25% 증가",
+              "tw": "此武器增加25%近戰打擊範圍",
+              "ru": "25% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiked-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Spiked Spear",
+      "kr": "가시 창",
+      "tw": "尖刺長矛",
+      "ru": "Копьё с шипами",
+      "jp": "スパイクスピア"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 6,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitFasterBleed1",
+        "lines": [
+          {
+            "stat": "faster_bleed_%",
+            "value": "10~20",
+            "text": {
+              "en": "Bleeding you inflict deals Damage 10~20% faster",
+              "kr": "플레이어가 유발한 출혈이 피해 10~20% 가속",
+              "tw": "你造成的流血傷害加速10~20%",
+              "ru": "Наложенное вами кровотечение наносит урон на 10~20% быстрее",
+              "jp": "付与した出血がダメージを与える速度が10~20%速くなる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "guardian-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Guardian Spear",
+      "kr": "수호자 창",
+      "tw": "衛者長矛",
+      "ru": "Копьё защитника",
+      "jp": "守護者のスピア"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 79,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SpearImplicitDeflectDamagePrevented1",
+        "lines": [
+          {
+            "stat": "base_damage_%_deflected",
+            "value": "3~7",
+            "text": {
+              "en": "Prevent 3~7% of Damage from Deflected Hits",
+              "kr": "튕겨낸 명중의 피해 중 방지하는 피해 3~7%",
+              "tw": "抵禦偏斜擊中的3~7%傷害",
+              "ru": "Предотвращает 3~7% урона от отклоненных ударов",
+              "jp": "受け流したヒットのダメージから防ぐ量が3~7%される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "akoyan-spear",
+    "classId": "Spear",
+    "className": {
+      "en": "Spears",
+      "kr": "창",
+      "tw": "長矛",
+      "ru": "Копья",
+      "jp": "スピア"
+    },
+    "name": {
+      "en": "Akoyan Spear",
+      "kr": "아코야의 창",
+      "tw": "艾古亞長矛",
+      "ru": "Копьё Акойи",
+      "jp": "アコヤのスピア"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 72,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpearImplicitDisplaySpearThrow1",
+        "lines": [
+          {
+            "stat": "local_display_grants_spear_throw_skill",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

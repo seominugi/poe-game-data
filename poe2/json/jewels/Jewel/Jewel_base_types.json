@@ -1,0 +1,286 @@
+[
+  {
+    "id": "timeless-jewel",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Timeless Jewel",
+      "kr": "무궁한 주얼",
+      "tw": "永恆珠寶",
+      "ru": "Вневременной самоцвет",
+      "jp": "タイムレスジュエル"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ruby",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Ruby",
+      "kr": "루비",
+      "tw": "紅寶石",
+      "ru": "Рубин",
+      "jp": "ルビー"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "emerald",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Emerald",
+      "kr": "에메랄드",
+      "tw": "綠寶石",
+      "ru": "Изумруд",
+      "jp": "エメラルド"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sapphire",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Sapphire",
+      "kr": "사파이어",
+      "tw": "藍寶石",
+      "ru": "Сапфир",
+      "jp": "サファイア"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "diamond",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Diamond",
+      "kr": "다이아몬드",
+      "tw": "鑽石",
+      "ru": "Алмаз",
+      "jp": "ダイヤモンド"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "time-lost-ruby",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Time-Lost Ruby",
+      "kr": "오래된 루비",
+      "tw": "時迭紅寶石",
+      "ru": "Утерянный рубин",
+      "jp": "タイムロストルビー"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "JewelRadiusImplicit",
+        "lines": [
+          {
+            "stat": "local_jewel_effect_base_radius",
+            "value": "1000",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "time-lost-emerald",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Time-Lost Emerald",
+      "kr": "오래된 에메랄드",
+      "tw": "時迭綠寶石",
+      "ru": "Утерянный изумруд",
+      "jp": "タイムロストエメラルド"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "JewelRadiusImplicit",
+        "lines": [
+          {
+            "stat": "local_jewel_effect_base_radius",
+            "value": "1000",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "time-lost-sapphire",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Time-Lost Sapphire",
+      "kr": "오래된 사파이어",
+      "tw": "時迭藍寶石",
+      "ru": "Утерянный сапфир",
+      "jp": "タイムロストサファイア"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "JewelRadiusImplicit",
+        "lines": [
+          {
+            "stat": "local_jewel_effect_base_radius",
+            "value": "1000",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "time-lost-diamond",
+    "classId": "Jewel",
+    "className": {
+      "en": "Jewels",
+      "kr": "주얼",
+      "tw": "珠寶",
+      "ru": "Самоцветы",
+      "jp": "ジュエル"
+    },
+    "name": {
+      "en": "Time-Lost Diamond",
+      "kr": "오래된 다이아몬드",
+      "tw": "時迭鑽石",
+      "ru": "Утерянный алмаз",
+      "jp": "タイムロストダイヤモンド"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "JewelRadiusImplicit",
+        "lines": [
+          {
+            "stat": "local_jewel_effect_base_radius",
+            "value": "1000",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

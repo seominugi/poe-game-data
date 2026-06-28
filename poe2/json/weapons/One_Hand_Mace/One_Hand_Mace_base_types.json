@@ -1,0 +1,1856 @@
+[
+  {
+    "id": "wooden-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Wooden Club",
+      "kr": "목재 곤봉",
+      "tw": "木製棍棒",
+      "ru": "Деревянная дубинка",
+      "jp": "棍棒"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 10,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "smithing-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Smithing Hammer",
+      "kr": "대장장이 망치",
+      "tw": "鍛造錘",
+      "ru": "Кузнечный молоток",
+      "jp": "鍛冶ハンマー"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 18,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitFireDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "50",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "slim-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Slim Mace",
+      "kr": "좁은 철퇴",
+      "tw": "纖細之錘",
+      "ru": "Шестопёр",
+      "jp": "細身のメイス"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 17,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spiked-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Spiked Club",
+      "kr": "가시 박힌 곤봉",
+      "tw": "鈍釘木棒",
+      "ru": "Шипастая дубинка",
+      "jp": "トゲ付きの棍棒"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 24,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "warpick",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Warpick",
+      "kr": "전쟁곡괭이",
+      "tw": "戰鎬",
+      "ru": "Клевец",
+      "jp": "ウォーピック"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 24,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitCriticalMultiplier1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_multiplier_+",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% to Critical Damage Bonus",
+              "kr": "치명타 피해 보너스 5~10%",
+              "tw": "5~10%的暴擊傷害加成",
+              "ru": "5~10% к бонусу критического урона",
+              "jp": "クリティカルダメージボーナス 5~10%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "plated-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Plated Mace",
+      "kr": "판금 철퇴",
+      "tw": "華麗之錘",
+      "ru": "Кованая булава",
+      "jp": "プレートメイス"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 38,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "brigand-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Brigand Mace",
+      "kr": "도둑 철퇴",
+      "tw": "強盜之錘",
+      "ru": "Булава грабителя",
+      "jp": "盗賊のメイス"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 38,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "construct-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Construct Hammer",
+      "kr": "구조물 망치",
+      "tw": "建造錘",
+      "ru": "Молот конструкта",
+      "jp": "建築用ハンマー"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 38,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitLocalDazeBuildup1",
+        "lines": [
+          {
+            "stat": "local_weapon_daze_chance_%",
+            "value": "40",
+            "text": {
+              "en": "40% chance to Daze on Hit",
+              "kr": "명중 시 40% 확률로 혼미",
+              "tw": "擊中時有40%機率造成目眩",
+              "ru": "40% шанс наложения оцепенения при нанесении удара",
+              "jp": "ヒット時に40%の確率で眩暈を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "morning-star",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Morning Star",
+      "kr": "모닝스타",
+      "tw": "晨星",
+      "ru": "Моргенштерн",
+      "jp": "モーニングスター"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 49,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "jade-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Jade Club",
+      "kr": "비취 곤봉",
+      "tw": "玉製棍棒",
+      "ru": "Нефритовая дубинка",
+      "jp": "翡翠の棍棒"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 51,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitAlwaysHit1",
+        "lines": [
+          {
+            "stat": "local_always_hit",
+            "value": "1",
+            "text": {
+              "en": "Always Hits",
+              "kr": "항상 명중",
+              "tw": "必定擊中",
+              "ru": "Всегда наносит удар",
+              "jp": "常にヒットする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lumen-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Lumen Mace",
+      "kr": "루멘 철퇴",
+      "tw": "流明之錘",
+      "ru": "Булава света",
+      "jp": "光のメイス"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 60,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "execratus-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Execratus Hammer",
+      "kr": "혐오받는 망치",
+      "tw": "詛咒之錘",
+      "ru": "Проклятый молот",
+      "jp": "呪詛のハンマー"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 40,
+      "damageMax": 60,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "torment-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Torment Club",
+      "kr": "고통 곤봉",
+      "tw": "磨難棍棒",
+      "ru": "Булава мучений",
+      "jp": "トーメントクラブ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 73,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-torment-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runemastered Torment Club",
+      "kr": "룬숙련 고통 곤봉",
+      "tw": "符煉磨難棍棒",
+      "ru": "Рунномастерская булава мучений",
+      "jp": "ルーンマスターのトーメントクラブ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 209,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "OlrovasaraVerisiumImplicitLightningToCold1",
+        "lines": [
+          {
+            "stat": "non_skill_base_lightning_damage_%_to_convert_to_cold",
+            "value": "100",
+            "text": {
+              "en": "100% of Lightning Damage Converted to Cold Damage",
+              "kr": "번개 피해의 100%를 냉기 피해로 전환",
+              "tw": "將100%的閃電傷害轉換為冰冷傷害",
+              "ru": "100% урона от молнии становится уроном от холода",
+              "jp": "雷ダメージの100%を冷気ダメージに変換する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "OlrovasaraVerisiumWeaponImplicitDamageIsCold1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-torment-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runemastered Torment Club",
+      "kr": "룬숙련 고통 곤봉",
+      "tw": "符煉磨難棍棒",
+      "ru": "Рунномастерская булава мучений",
+      "jp": "ルーンマスターのトーメントクラブ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 73,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "OlrovasaraVerisiumImplicitDamageAsExtraLightningPerRunicWard1",
+        "lines": [
+          {
+            "stat": "non_skill_base_all_damage_%_to_gain_as_lightning_per_50_ward_cost",
+            "value": "4~6",
+            "text": {
+              "en": "Skills Gain 4~6% of damage as Extra Lightning damage per 50 Runic Ward Cost",
+              "kr": "스킬이 룬 수호 소모량 50당 피해의 4~6%를 추가 번개 피해로 획득",
+              "tw": "技能每有50符文保護消耗，即獲得等同於4~6%傷害的額外閃電傷害",
+              "ru": "Умения наносят 4~6% урона в виде дополнительного урона от молнии за каждые 50 потраченного рунического барьера",
+              "jp": "スキルはルーンワードコスト50ごとにダメージの4~6%を追加雷ダメージとして獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-torment-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runemastered Torment Club",
+      "kr": "룬숙련 고통 곤봉",
+      "tw": "符煉磨難棍棒",
+      "ru": "Рунномастерская булава мучений",
+      "jp": "ルーンマスターのトーメントクラブ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 73,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "OlrovasaraVerisiumImplicitWeaponRange1",
+        "lines": [
+          {
+            "stat": "melee_range_+",
+            "value": "15~20",
+            "text": {
+              "en": "15~20 metres to Melee Strike Range",
+              "kr": "근접 타격 범위 15~20미터",
+              "tw": "近戰打擊範圍15~20公尺",
+              "ru": "15~20 м к дальности ударов ближнего боя",
+              "jp": "近接ストライク距離 15~20m"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-torment-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runemastered Torment Club",
+      "kr": "룬숙련 고통 곤봉",
+      "tw": "符煉磨難棍棒",
+      "ru": "Рунномастерская булава мучений",
+      "jp": "ルーンマスターのトーメントクラブ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 85,
+      "damageMax": 403,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MjolnerVerisiumImplicitLightningDamage1",
+        "lines": [
+          {
+            "stat": "lightning_damage_+%",
+            "value": "40~60",
+            "text": {
+              "en": "40~60% increased Lightning Damage",
+              "kr": "번개 피해 40~60% 증가",
+              "tw": "增加40~60%閃電傷害",
+              "ru": "40~60% увеличение урона от молнии",
+              "jp": "雷ダメージが40~60%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "MjolnerVerisiumImplicitLocalLightningConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-torment-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runemastered Torment Club",
+      "kr": "룬숙련 고통 곤봉",
+      "tw": "符煉磨難棍棒",
+      "ru": "Рунномастерская булава мучений",
+      "jp": "ルーンマスターのトーメントクラブ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 73,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MjolnerVerisiumImplicitLightningChain1",
+        "lines": [
+          {
+            "stat": "lightning_skill_additional_chain_chance_%",
+            "value": "50~100",
+            "text": {
+              "en": "50~100% chance for Lightning Skills to Chain an additional time",
+              "kr": "번개 스킬이 50~100%의 확률로 1회 추가 연쇄",
+              "tw": "閃電技能有50~100%機率額外連鎖一次",
+              "ru": "Умения молнии с 50~100% шансом могут нанести дополнительный удар по цепи",
+              "jp": "50~100%の確率で雷スキルは追加で1回連鎖する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-torment-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runemastered Torment Club",
+      "kr": "룬숙련 고통 곤봉",
+      "tw": "符煉磨難棍棒",
+      "ru": "Рунномастерская булава мучений",
+      "jp": "ルーンマスターのトーメントクラブ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 54,
+      "damageMax": 91,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "kalguuran-forgehammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Kalguuran Forgehammer",
+      "kr": "칼구르 대장망치",
+      "tw": "卡爾葛鍛造錘",
+      "ru": "Калгууранский кузнечный молот",
+      "jp": "カルグールのフォージハンマー"
+    },
+    "dropLevel": 47,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 55,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitHasXSockets",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "3",
+            "text": {
+              "en": "Has 3 Sockets",
+              "kr": "홈 3개",
+              "tw": "有3個插槽",
+              "ru": "Имеет гнезд: 3",
+              "jp": "ソケットを3個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "calescent-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Calescent Hammer",
+      "kr": "열기 증가 망치",
+      "tw": "升溫之錘",
+      "ru": "Печной молоток",
+      "jp": "灼熱のハンマー"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 74,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitFireDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "50",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flared-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Flared Mace",
+      "kr": "번쩍이는 철퇴",
+      "tw": "閃光之錘",
+      "ru": "Заострённый шестопёр",
+      "jp": "大頭メイス"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 50,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "battle-pick",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Battle Pick",
+      "kr": "전투 곡괭이",
+      "tw": "戰鬥鎬",
+      "ru": "Боевая кирка",
+      "jp": "バトルピック"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 47,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitCriticalMultiplier1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_multiplier_+",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% to Critical Damage Bonus",
+              "kr": "치명타 피해 보너스 5~10%",
+              "tw": "5~10%的暴擊傷害加成",
+              "ru": "5~10% к бонусу критического урона",
+              "jp": "クリティカルダメージボーナス 5~10%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "marching-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Marching Mace",
+      "kr": "행진 철퇴",
+      "tw": "行軍之錘",
+      "ru": "Походная булава",
+      "jp": "行軍のメイス"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 69,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-marching-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Marching Mace",
+      "kr": "룬벼림 행진 철퇴",
+      "tw": "符鍛行軍之錘",
+      "ru": "Руннокованая походная булава",
+      "jp": "ルーンフォージの行軍のメイス"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 96,
+      "critChance": 7.5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bandit-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Bandit Mace",
+      "kr": "도적 철퇴",
+      "tw": "盜賊之錘",
+      "ru": "Булава бандита",
+      "jp": "山賊のメイス"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 61,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "structured-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Structured Hammer",
+      "kr": "구조화된 망치",
+      "tw": "建構之錘",
+      "ru": "Гранёный молот",
+      "jp": "構造化ハンマー"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 60,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitLocalDazeBuildup1",
+        "lines": [
+          {
+            "stat": "local_weapon_daze_chance_%",
+            "value": "40",
+            "text": {
+              "en": "40% chance to Daze on Hit",
+              "kr": "명중 시 40% 확률로 혼미",
+              "tw": "擊中時有40%機率造成目眩",
+              "ru": "40% шанс наложения оцепенения при нанесении удара",
+              "jp": "ヒット時に40%の確率で眩暈を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-wooden-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Wooden Club",
+      "kr": "룬벼림 목재 곤봉",
+      "tw": "符鍛木製棍棒",
+      "ru": "Руннокованая деревянная дубинка",
+      "jp": "ルーンフォージの棍棒"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 83,
+      "damageMax": 138,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BrynhandsMarkVerisiumImplicitAreaOfEffect",
+        "lines": [
+          {
+            "stat": "attack_area_of_effect_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Area of Effect for Attacks",
+              "kr": "공격 효과 범위 20~30% 증가",
+              "tw": "攻擊增加20~30%範圍效果",
+              "ru": "20~30% увеличение области действия атак",
+              "jp": "アタックの効果範囲が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-wooden-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runemastered Wooden Club",
+      "kr": "룬숙련 목재 곤봉",
+      "tw": "符煉木製棍棒",
+      "ru": "Рунномастерская деревянная дубинка",
+      "jp": "ルーンマスターの棍棒"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 132,
+      "damageMax": 220,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BrynhandsMarkVerisiumImplicitAreaOfEffect",
+        "lines": [
+          {
+            "stat": "attack_area_of_effect_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Area of Effect for Attacks",
+              "kr": "공격 효과 범위 20~30% 증가",
+              "tw": "攻擊增加20~30%範圍效果",
+              "ru": "20~30% увеличение области действия атак",
+              "jp": "アタックの効果範囲が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-slim-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Slim Mace",
+      "kr": "룬벼림 좁은 철퇴",
+      "tw": "符鍛纖細之錘",
+      "ru": "Руннокованый шестопёр",
+      "jp": "ルーンフォージの細身のメイス"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 96,
+      "damageMax": 145,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FrostBreathVerisiumImplicitLocalColdConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "50",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-spiked-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Spiked Club",
+      "kr": "룬벼림 가시 박힌 곤봉",
+      "tw": "符鍛鈍釘木棒",
+      "ru": "Руннокованая шипастая дубинка",
+      "jp": "ルーンフォージのトゲ付きの棍棒"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 56,
+      "damageMax": 93,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-warpick",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Warpick",
+      "kr": "룬벼림 전쟁곡괭이",
+      "tw": "符鍛戰鎬",
+      "ru": "Руннокованый клевец",
+      "jp": "ルーンフォージのウォーピック"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 75,
+      "damageMax": 102,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SculptedSufferingVerisiumImplicitArmourBreakEffect1",
+        "lines": [
+          {
+            "stat": "broken_armour_and_sundered_armour_debuff_effect_+%",
+            "value": "30~40",
+            "text": {
+              "en": "30~40% increased effect of Fully Broken Armour",
+              "kr": "완전히 파괴된 방어구의 효과 30~40% 증가",
+              "tw": "增加30~40%完全破甲的效果",
+              "ru": "30~40% усиление эффекта полностью разрушенной брони",
+              "jp": "完全アーマー破壊の効果が30~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-kalguuran-forgehammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Kalguuran Forgehammer",
+      "kr": "룬벼림 칼구르 대장망치",
+      "tw": "符鍛卡爾葛鍛造錘",
+      "ru": "Руннокованый калгууранский кузнечный молот",
+      "jp": "ルーンフォージのカルグールのフォージハンマー"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 99,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitHasXSockets",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "3",
+            "text": {
+              "en": "Has 3 Sockets",
+              "kr": "홈 3개",
+              "tw": "有3個插槽",
+              "ru": "Имеет гнезд: 3",
+              "jp": "ソケットを3個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-kalguuran-forgehammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Kalguuran Forgehammer",
+      "kr": "룬벼림 칼구르 대장망치",
+      "tw": "符鍛卡爾葛鍛造錘",
+      "ru": "Руннокованый калгууранский кузнечный молот",
+      "jp": "ルーンフォージのカルグールのフォージハンマー"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 98,
+      "damageMax": 163,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitHasXSockets",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "3",
+            "text": {
+              "en": "Has 3 Sockets",
+              "kr": "홈 3개",
+              "tw": "有3個插槽",
+              "ru": "Имеет гнезд: 3",
+              "jp": "ソケットを3個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-kalguuran-forgehammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Kalguuran Forgehammer",
+      "kr": "룬벼림 칼구르 대장망치",
+      "tw": "符鍛卡爾葛鍛造錘",
+      "ru": "Руннокованый калгууранский кузнечный молот",
+      "jp": "ルーンフォージのカルグールのフォージハンマー"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 99,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitHasXSockets",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "3",
+            "text": {
+              "en": "Has 3 Sockets",
+              "kr": "홈 3개",
+              "tw": "有3個插槽",
+              "ru": "Имеет гнезд: 3",
+              "jp": "ソケットを3個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-kalguuran-forgehammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Kalguuran Forgehammer",
+      "kr": "룬벼림 칼구르 대장망치",
+      "tw": "符鍛卡爾葛鍛造錘",
+      "ru": "Руннокованый калгууранский кузнечный молот",
+      "jp": "ルーンフォージのカルグールのフォージハンマー"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 99,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitHasXSockets",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "3",
+            "text": {
+              "en": "Has 3 Sockets",
+              "kr": "홈 3개",
+              "tw": "有3個插槽",
+              "ru": "Имеет гнезд: 3",
+              "jp": "ソケットを3個持つ"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "MaceImplicitWardUnique1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "100~150",
+            "text": {
+              "en": "100~150 to maximum Runic Ward",
+              "kr": "최대 룬 수호 100~150",
+              "tw": "100~150最大符文保護",
+              "ru": "100~150 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 100~150"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-morning-star",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Runeforged Morning Star",
+      "kr": "룬벼림 모닝스타",
+      "tw": "符鍛晨星",
+      "ru": "Руннокованый моргенштерн",
+      "jp": "ルーンフォージのモーニングスター"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 90,
+      "damageMax": 134,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BrutusLeadSprinklerVerisiumImplicitLocalFireConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flanged-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Flanged Mace",
+      "kr": "테두리 철퇴",
+      "tw": "輪緣之錘",
+      "ru": "Оребрённый шестопёр",
+      "jp": "フランジメイス"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 67,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crown-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Crown Mace",
+      "kr": "왕관 철퇴",
+      "tw": "皇冠之錘",
+      "ru": "Увенчанная булава",
+      "jp": "クラウンメイス"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 89,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "molten-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Molten Hammer",
+      "kr": "녹아내린 망치",
+      "tw": "熔火之錘",
+      "ru": "Плавильный молоток",
+      "jp": "溶融ハンマー"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 71,
+      "damageMax": 118,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitFireDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "50",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "strife-pick",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Strife Pick",
+      "kr": "투쟁 곡괭이",
+      "tw": "鬥爭鎬",
+      "ru": "Кирка раздора",
+      "jp": "ストライフピック"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 66,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitCriticalMultiplier1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_multiplier_+",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% to Critical Damage Bonus",
+              "kr": "치명타 피해 보너스 5~10%",
+              "tw": "5~10%的暴擊傷害加成",
+              "ru": "5~10% к бонусу критического урона",
+              "jp": "クリティカルダメージボーナス 5~10%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fortified-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Fortified Hammer",
+      "kr": "견고한 망치",
+      "tw": "強化之錘",
+      "ru": "Укреплённый молот",
+      "jp": "頑丈なハンマー"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 60,
+      "damageMax": 73,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitLocalDazeBuildup1",
+        "lines": [
+          {
+            "stat": "local_weapon_daze_chance_%",
+            "value": "40",
+            "text": {
+              "en": "40% chance to Daze on Hit",
+              "kr": "명중 시 40% 확률로 혼미",
+              "tw": "擊中時有40%機率造成目眩",
+              "ru": "40% шанс наложения оцепенения при нанесении удара",
+              "jp": "ヒット時に40%の確率で眩暈を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "marauding-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Marauding Mace",
+      "kr": "약탈하는 철퇴",
+      "tw": "劫掠之錘",
+      "ru": "Булава мародёра",
+      "jp": "略奪のメイス"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 84,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "akoyan-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Akoyan Club",
+      "kr": "아코야의 곤봉",
+      "tw": "艾古亞棍棒",
+      "ru": "Булава Акойи",
+      "jp": "アコヤのクラブ"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 76,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitAlwaysHit1",
+        "lines": [
+          {
+            "stat": "local_always_hit",
+            "value": "1",
+            "text": {
+              "en": "Always Hits",
+              "kr": "항상 명중",
+              "tw": "必定擊中",
+              "ru": "Всегда наносит удар",
+              "jp": "常にヒットする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

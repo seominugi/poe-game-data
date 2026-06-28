@@ -1,0 +1,439 @@
+[
+  {
+    "id": "crude-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Crude Claw",
+      "kr": "조잡한 클로",
+      "tw": "簡陋爪",
+      "ru": "Грубый кастет",
+      "jp": "粗末な鉤爪"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 10,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pict-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Pict Claw",
+      "kr": "픽트 클로",
+      "tw": "皮克特爪",
+      "ru": "Пиктский коготь",
+      "jp": "ピクトクロー"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 16,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wolfbone-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Wolfbone Claw",
+      "kr": "늑대뼈 클로",
+      "tw": "狼骨爪",
+      "ru": "Коготь из костей волка",
+      "jp": "狼骨の鉤爪"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 23,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ClawImplicitLifeGainPerTargetLocal1",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "8",
+            "text": {
+              "en": "Grants 8 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 8 획득",
+              "tw": "每擊中一名敵人，獲得8生命",
+              "ru": "Дарует 8 здоровья за каждый удар по врагу",
+              "jp": "ヒットされた敵1体ごとに8のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "forked-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Forked Claw",
+      "kr": "갈라진 클로",
+      "tw": "叉狀爪",
+      "ru": "Трёхзубый кастет",
+      "jp": "二股の鉤爪"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 26,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "plated-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Plated Claw",
+      "kr": "판금 클로",
+      "tw": "華麗爪",
+      "ru": "Пластинчатый коготь",
+      "jp": "プレートクロー"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 31,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "edged-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Edged Claw",
+      "kr": "칼날 클로",
+      "tw": "鋒利爪",
+      "ru": "Кинжальный кастет",
+      "jp": "刃付きの鉤爪"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 38,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ClawImplicitLocalChanceToBlind1",
+        "lines": [
+          {
+            "stat": "local_chance_to_blind_on_hit_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% chance to Blind Enemies on hit",
+              "kr": "명중 시 15~25%의 확률로 적 실명 유발",
+              "tw": "擊中時15~25%機率致盲敵人",
+              "ru": "15~25% шанс ослепить врагов при нанесении удара",
+              "jp": "ヒット時に15~25%の確率で敵を盲目にする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "arced-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Arced Claw",
+      "kr": "원호 클로",
+      "tw": "弧形爪",
+      "ru": "Гнутый кастет",
+      "jp": "湾曲した鉤爪"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 46,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hooked-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Hooked Claw",
+      "kr": "갈고리에 걸린 클로",
+      "tw": "鉤爪",
+      "ru": "Коготь с крючьями",
+      "jp": "フッククロー"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 49,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "razorglass-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Razorglass Claw",
+      "kr": "면도날유리 클로",
+      "tw": "剃刀玻璃爪",
+      "ru": "Кастет со стеклянным лезвием",
+      "jp": "レイザーグラスクロー"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 54,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sharktooth-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Sharktooth Claw",
+      "kr": "상어이빨 클로",
+      "tw": "鯊顎爪",
+      "ru": "Кастет с зубами акулы",
+      "jp": "鮫歯の鉤爪"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 52,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "armoured-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Armoured Claw",
+      "kr": "장갑을 두른 클로",
+      "tw": "裝甲爪",
+      "ru": "Доспешный коготь",
+      "jp": "アーマードクロー"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 63,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "piercing-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Piercing Claw",
+      "kr": "관통 클로",
+      "tw": "穿刺爪",
+      "ru": "Протыкающий кастет",
+      "jp": "貫通の鉤爪"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 68,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "talon-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Talon Claw",
+      "kr": "발톱 클로",
+      "tw": "猛禽爪",
+      "ru": "Коготь хищника",
+      "jp": "タロンクロー"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 79,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

@@ -1,0 +1,738 @@
+[
+  {
+    "id": "splitting-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Splitting Greataxe",
+      "kr": "분할의 대도끼",
+      "tw": "分裂巨斧",
+      "ru": "Большой топор лесоруба",
+      "jp": "割り大斧"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 20,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "light-halberd",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Light Halberd",
+      "kr": "경량 미늘창",
+      "tw": "輕巧斧槍",
+      "ru": "Лёгкая алебарда",
+      "jp": "軽量ハルバード"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 25,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "executioner-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Executioner Greataxe",
+      "kr": "사형 집행자 대도끼",
+      "tw": "處刑者巨斧",
+      "ru": "Большой топор палача",
+      "jp": "処刑人の大斧"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 41,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitCullingStrike1",
+        "lines": [
+          {
+            "stat": "local_culling_strike",
+            "value": "1",
+            "text": {
+              "en": "Culling Strike",
+              "kr": "마무리 타격",
+              "tw": "撲殺",
+              "ru": "Добивание",
+              "jp": "カリングストライク"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "arched-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Arched Greataxe",
+      "kr": "아치형 대도끼",
+      "tw": "拱形巨斧",
+      "ru": "Загнутый большой топор",
+      "jp": "弓型の大斧"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 17,
+      "damageMax": 59,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-glaive",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Elegant Glaive",
+      "kr": "고상한 글레이브",
+      "tw": "優雅長柄刀",
+      "ru": "Изящная глевия",
+      "jp": "エレガントグレイブ"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 64,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "savage-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Savage Greataxe",
+      "kr": "야만 대도끼",
+      "tw": "野蠻巨斧",
+      "ru": "Большой топор дикаря",
+      "jp": "蛮族の大斧"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 70,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitLifeGainedFromEnemyDeath1",
+        "lines": [
+          {
+            "stat": "base_life_gained_on_enemy_death",
+            "value": "34~43",
+            "text": {
+              "en": "Gain 34~43 Life per enemy killed",
+              "kr": "처치한 적 하나당 생명력 34~43 획득",
+              "tw": "每個被擊殺的敵人，獲得34~43生命",
+              "ru": "Дарует 34~43 здоровья за каждого убитого врага",
+              "jp": "倒した敵1体ごとに34~43のライフを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rending-halberd",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Rending Halberd",
+      "kr": "분리의 미늘창",
+      "tw": "撕扯斧槍",
+      "ru": "Раздирающая алебарда",
+      "jp": "裂傷のハルバード"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 91,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "jagged-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Jagged Greataxe",
+      "kr": "삐죽삐죽한 대도끼",
+      "tw": "鋸齒巨斧",
+      "ru": "Зазубренный тяжёлый топор",
+      "jp": "ギザギザの大斧"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 99,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitLocalChanceToBleed1",
+        "lines": [
+          {
+            "stat": "local_chance_to_bleed_on_hit_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% chance to cause Bleeding on Hit",
+              "kr": "명중 시 15~25%의 확률로 출혈 유발",
+              "tw": "擊中時有15~25%機率造成流血",
+              "ru": "15~25% шанс наложить кровотечение при нанесении удара",
+              "jp": "ヒット時に15~25%の確率で出血を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "reaver-glaive",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Reaver Glaive",
+      "kr": "강탈자 글레이브",
+      "tw": "收割者長柄刀",
+      "ru": "Разбойничий бердыш",
+      "jp": "略奪者のグレイブ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 113,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ember-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Ember Greataxe",
+      "kr": "잉걸불 대도끼",
+      "tw": "餘燼巨斧",
+      "ru": "Угольное рубило",
+      "jp": "残り火の大斧"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 58,
+      "damageMax": 154,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitFireDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ceremonial-halberd",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Ceremonial Halberd",
+      "kr": "의식용 미늘창",
+      "tw": "儀式斧槍",
+      "ru": "Церемониальная алебарда",
+      "jp": "儀式用ハルバード"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 123,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AxeImplicitCannotBeThrown1",
+        "lines": [
+          {
+            "stat": "local_cannot_be_thrown",
+            "value": "1",
+            "text": {
+              "en": "Cannot use Projectile Attacks",
+              "kr": "투사체 공격 사용 불가",
+              "tw": "無法使用投射物攻擊",
+              "ru": "Не может использовать атаки снарядами",
+              "jp": "投射物アタックを使用できなくなる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "monument-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Monument Greataxe",
+      "kr": "기념비 대도끼",
+      "tw": "豐碑巨斧",
+      "ru": "Мемориальная секира",
+      "jp": "巨像の大斧"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 48,
+      "damageMax": 143,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vile-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Vile Greataxe",
+      "kr": "끔찍한 대도끼",
+      "tw": "邪惡巨斧",
+      "ru": "Большой топор грешника",
+      "jp": "邪悪な大斧"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 155,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-dividing-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Dividing Greataxe",
+      "kr": "[DNT] Dividing Greataxe",
+      "tw": "[DNT] Dividing Greataxe",
+      "ru": "[DNT] Dividing Greataxe",
+      "jp": "[DNT] Dividing Greataxe"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 60,
+      "damageMax": 159,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-feathersteel-halberd",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Feathersteel Halberd",
+      "kr": "[DNT] Feathersteel Halberd",
+      "tw": "[DNT] Feathersteel Halberd",
+      "ru": "[DNT] Feathersteel Halberd",
+      "jp": "[DNT] Feathersteel Halberd"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 64,
+      "damageMax": 170,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-grimhold-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Grimhold Axe",
+      "kr": "[DNT] Grimhold Axe",
+      "tw": "[DNT] Grimhold Axe",
+      "ru": "[DNT] Grimhold Axe",
+      "jp": "[DNT] Grimhold Axe"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 180,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-notched-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Notched Greataxe",
+      "kr": "[DNT] Notched Greataxe",
+      "tw": "[DNT] Notched Greataxe",
+      "ru": "[DNT] Notched Greataxe",
+      "jp": "[DNT] Notched Greataxe"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 180,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-intricate-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Intricate Greataxe",
+      "kr": "[DNT] Intricate Greataxe",
+      "tw": "[DNT] Intricate Greataxe",
+      "ru": "[DNT] Intricate Greataxe",
+      "jp": "[DNT] Intricate Greataxe"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 180,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-violent-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Violent Greataxe",
+      "kr": "[DNT] Violent Greataxe",
+      "tw": "[DNT] Violent Greataxe",
+      "ru": "[DNT] Violent Greataxe",
+      "jp": "[DNT] Violent Greataxe"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 180,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-severing-halberd",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Severing Halberd",
+      "kr": "[DNT] Severing Halberd",
+      "tw": "[DNT] Severing Halberd",
+      "ru": "[DNT] Severing Halberd",
+      "jp": "[DNT] Severing Halberd"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 67,
+      "damageMax": 176,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-clawed-greataxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "[DNT] Clawed Greataxe",
+      "kr": "[DNT] Clawed Greataxe",
+      "tw": "[DNT] Clawed Greataxe",
+      "ru": "[DNT] Clawed Greataxe",
+      "jp": "[DNT] Clawed Greataxe"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 180,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

@@ -1,0 +1,1776 @@
+[
+  {
+    "id": "felled-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Felled Greatclub",
+      "kr": "쓰러진 대곤봉",
+      "tw": "墮落巨棍棒",
+      "ru": "Дубина из пня",
+      "jp": "倒木のグレートクラブ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 18,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "oak-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Oak Greathammer",
+      "kr": "참나무 대망치",
+      "tw": "橡木巨錘",
+      "ru": "Дубовая кувалда",
+      "jp": "オークグレートハンマー"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 30,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitStunDamageIncrease1",
+        "lines": [
+          {
+            "stat": "local_hit_damage_stun_multiplier_+%",
+            "value": "20~40",
+            "text": {
+              "en": "Causes 20~40% increased Stun Buildup",
+              "kr": "유발하는 기절 축적 20~40% 증가",
+              "tw": "增加20~40%暈眩累積",
+              "ru": "Вызывает увеличенное на 20~40% накопление оглушения",
+              "jp": "引き起こすスタン蓄積が20~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "forge-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Forge Maul",
+      "kr": "대장간 대형 망치",
+      "tw": "鍛造重錘",
+      "ru": "Кузнечный молот",
+      "jp": "鍜治場の大槌"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 26,
+      "damageMax": 35,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitLocalCrushOnHit1",
+        "lines": [
+          {
+            "stat": "local_crush_on_hit",
+            "value": "1",
+            "text": {
+              "en": "Crushes Enemies on Hit",
+              "kr": "명중 시 적 타쇄",
+              "tw": "擊中時壓碎敵人",
+              "ru": "Сокрушает врагов при нанесении удара",
+              "jp": "ヒット時に敵を破砕する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "studded-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Studded Greatclub",
+      "kr": "징 박힌 대곤봉",
+      "tw": "鑲釘巨棍棒",
+      "ru": "Шипастая палица",
+      "jp": "鋲付きの金棒"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 48,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cultist-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Cultist Greathammer",
+      "kr": "광신자 대망치",
+      "tw": "教徒巨錘",
+      "ru": "Культовый молот",
+      "jp": "カルティストグレートハンマー"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 49,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitSplashDamage1",
+        "lines": [
+          {
+            "stat": "melee_splash",
+            "value": "1",
+            "text": {
+              "en": "Strikes deal Splash Damage",
+              "kr": "타격이 방사 피해를 줌",
+              "tw": "打擊造成擴散傷害",
+              "ru": "Удары наносят урон по площади",
+              "jp": "ストライクはスプラッシュダメージを与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "temple-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Temple Maul",
+      "kr": "사원 대형 망치",
+      "tw": "神殿重錘",
+      "ru": "Храмовая дубина",
+      "jp": "寺院の大槌"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 72,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "leaden-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Leaden Greathammer",
+      "kr": "납빛 대망치",
+      "tw": "麻木巨錘",
+      "ru": "Освинцованный молот",
+      "jp": "鉛のグレートハンマー"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 58,
+      "damageMax": 78,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crumbling-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Crumbling Maul",
+      "kr": "허물어지는 대형 망치",
+      "tw": "崩毀重錘",
+      "ru": "Крошащий молот",
+      "jp": "朽ちた大槌"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 75,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitEnemiesExplodeOnCrit1",
+        "lines": [
+          {
+            "stat": "local_explode_on_kill_with_crit_%_physical_damage_to_deal",
+            "value": "10",
+            "text": {
+              "en": "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+              "kr": "치명타 처치 시 적이 폭발하여 생명력의 10%를 물리 피해로 줌",
+              "tw": "透過暴擊擊殺敵人時使其爆炸，造成等同於其10%生命的物理傷害",
+              "ru": "Заставляет врагов взрываться при критическом ударе, нанося 10% от их здоровья в виде физического урона",
+              "jp": "クリティカルキル時に敵を爆発させ、そのライフの10%を物理ダメージとして与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pointed-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Pointed Maul",
+      "kr": "뾰족한 대형 망치",
+      "tw": "尖銳重錘",
+      "ru": "Остроконечная дубина",
+      "jp": "尖った大槌"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 102,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "totemic-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Totemic Greatclub",
+      "kr": "토템의 대곤봉",
+      "tw": "圖騰巨棍棒",
+      "ru": "Тотемная палица",
+      "jp": "トーテムのグレートクラブ"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 77,
+      "damageMax": 105,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitWarcryExert1",
+        "lines": [
+          {
+            "stat": "warcry_empowers_next_x_melee_attacks",
+            "value": "1",
+            "text": {
+              "en": "Warcries Empower an additional Attack",
+              "kr": "함성이 공격 1회 추가로 강화",
+              "tw": "戰吼強化額外1次攻擊",
+              "ru": "Боевые кличи улучшают дополнительную атаку",
+              "jp": "ウォークライはアタックを追加で1回強化する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "greatmace",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Greatmace",
+      "kr": "대철퇴",
+      "tw": "巨釘錘",
+      "ru": "Большая булава",
+      "jp": "グレートメイス"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 124,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "precise-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Precise Greathammer",
+      "kr": "정확한 대망치",
+      "tw": "精準巨錘",
+      "ru": "Тяжёлый чекан",
+      "jp": "精密なグレートハンマー"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 87,
+      "damageMax": 118,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "giant-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Giant Maul",
+      "kr": "거대 대형 망치",
+      "tw": "巨型重錘",
+      "ru": "Огромный молот",
+      "jp": "巨人の大槌"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 96,
+      "damageMax": 144,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "snakewood-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Snakewood Greathammer",
+      "kr": "뱀나무 대망치",
+      "tw": "蛇木巨錘",
+      "ru": "Кувалда из змеиного дерева",
+      "jp": "蛇紋木のグレートハンマー"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 115,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitStunDamageIncrease1",
+        "lines": [
+          {
+            "stat": "local_hit_damage_stun_multiplier_+%",
+            "value": "20~40",
+            "text": {
+              "en": "Causes 20~40% increased Stun Buildup",
+              "kr": "유발하는 기절 축적 20~40% 증가",
+              "tw": "增加20~40%暈眩累積",
+              "ru": "Вызывает увеличенное на 20~40% накопление оглушения",
+              "jp": "引き起こすスタン蓄積が20~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blacksmith-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Blacksmith Maul",
+      "kr": "대장장이 대형 망치",
+      "tw": "鐵匠重錘",
+      "ru": "Кузнечная булава",
+      "jp": "鍛冶師の大槌"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 75,
+      "damageMax": 102,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitLocalCrushOnHit1",
+        "lines": [
+          {
+            "stat": "local_crush_on_hit",
+            "value": "1",
+            "text": {
+              "en": "Crushes Enemies on Hit",
+              "kr": "명중 시 적 타쇄",
+              "tw": "擊中時壓碎敵人",
+              "ru": "Сокрушает врагов при нанесении удара",
+              "jp": "ヒット時に敵を破砕する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "zealot-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Zealot Greathammer",
+      "kr": "맹신자 대망치",
+      "tw": "狂熱巨錘",
+      "ru": "Молот подвижника",
+      "jp": "狂信者のグレートハンマー"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 70,
+      "damageMax": 95,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitSplashDamage1",
+        "lines": [
+          {
+            "stat": "melee_splash",
+            "value": "1",
+            "text": {
+              "en": "Strikes deal Splash Damage",
+              "kr": "타격이 방사 피해를 줌",
+              "tw": "打擊造成擴散傷害",
+              "ru": "Удары наносят урон по площади",
+              "jp": "ストライクはスプラッシュダメージを与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "solemn-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Solemn Maul",
+      "kr": "엄숙한 대형 망치",
+      "tw": "莊嚴重錘",
+      "ru": "Клятвенная дубина",
+      "jp": "厳粛な大槌"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 123,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "heavy-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Heavy Greathammer",
+      "kr": "무거운 대망치",
+      "tw": "重型巨錘",
+      "ru": "Тяжёлый молот",
+      "jp": "ヘビーグレートハンマー"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 94,
+      "damageMax": 127,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "disintegrating-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Disintegrating Maul",
+      "kr": "분해시키는 대형 망치",
+      "tw": "崩解重錘",
+      "ru": "Сокрушающий молот",
+      "jp": "崩壊の大槌"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 92,
+      "damageMax": 112,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitEnemiesExplodeOnCrit1",
+        "lines": [
+          {
+            "stat": "local_explode_on_kill_with_crit_%_physical_damage_to_deal",
+            "value": "10",
+            "text": {
+              "en": "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+              "kr": "치명타 처치 시 적이 폭발하여 생명력의 10%를 물리 피해로 줌",
+              "tw": "透過暴擊擊殺敵人時使其爆炸，造成等同於其10%生命的物理傷害",
+              "ru": "Заставляет врагов взрываться при критическом ударе, нанося 10% от их здоровья в виде физического урона",
+              "jp": "クリティカルキル時に敵を爆発させ、そのライフの10%を物理ダメージとして与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-felled-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Felled Greatclub",
+      "kr": "룬벼림 쓰러진 대곤봉",
+      "tw": "符鍛墮落巨棍棒",
+      "ru": "Руннокованая дубина из пня",
+      "jp": "ルーンフォージの倒木のグレートクラブ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 146,
+      "damageMax": 197,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-felled-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runemastered Felled Greatclub",
+      "kr": "룬숙련 쓰러진 대곤봉",
+      "tw": "符煉墮落巨棍棒",
+      "ru": "Рунномастерская дубина из пня",
+      "jp": "ルーンマスターの倒木のグレートクラブ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 217,
+      "damageMax": 293,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-oak-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Oak Greathammer",
+      "kr": "룬벼림 참나무 대망치",
+      "tw": "符鍛橡木巨錘",
+      "ru": "Руннокованая дубовая кувалда",
+      "jp": "ルーンフォージのオークグレートハンマー"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 73,
+      "damageMax": 135,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitStunDamageIncrease1",
+        "lines": [
+          {
+            "stat": "local_hit_damage_stun_multiplier_+%",
+            "value": "20~40",
+            "text": {
+              "en": "Causes 20~40% increased Stun Buildup",
+              "kr": "유발하는 기절 축적 20~40% 증가",
+              "tw": "增加20~40%暈眩累積",
+              "ru": "Вызывает увеличенное на 20~40% накопление оглушения",
+              "jp": "引き起こすスタン蓄積が20~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-oak-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runemastered Oak Greathammer",
+      "kr": "룬숙련 참나무 대망치",
+      "tw": "符煉橡木巨錘",
+      "ru": "Рунномастерская дубовая кувалда",
+      "jp": "ルーンマスターのオークグレートハンマー"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 111,
+      "damageMax": 207,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitStunDamageIncrease1",
+        "lines": [
+          {
+            "stat": "local_hit_damage_stun_multiplier_+%",
+            "value": "20~40",
+            "text": {
+              "en": "Causes 20~40% increased Stun Buildup",
+              "kr": "유발하는 기절 축적 20~40% 증가",
+              "tw": "增加20~40%暈眩累積",
+              "ru": "Вызывает увеличенное на 20~40% накопление оглушения",
+              "jp": "引き起こすスタン蓄積が20~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-forge-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Forge Maul",
+      "kr": "룬벼림 대장간 대형 망치",
+      "tw": "符鍛鍛造重錘",
+      "ru": "Руннокованый кузнечный молот",
+      "jp": "ルーンフォージの鍜治場の大槌"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 147,
+      "damageMax": 199,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitLocalCrushOnHit1",
+        "lines": [
+          {
+            "stat": "local_crush_on_hit",
+            "value": "1",
+            "text": {
+              "en": "Crushes Enemies on Hit",
+              "kr": "명중 시 적 타쇄",
+              "tw": "擊中時壓碎敵人",
+              "ru": "Сокрушает врагов при нанесении удара",
+              "jp": "ヒット時に敵を破砕する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-studded-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Studded Greatclub",
+      "kr": "룬벼림 징 박힌 대곤봉",
+      "tw": "符鍛鑲釘巨棍棒",
+      "ru": "Руннокованая шипастая палица",
+      "jp": "ルーンフォージの鋲付きの金棒"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 94,
+      "damageMax": 249,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BrainRattlerVerisiumImplicitLightningConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "75",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-studded-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runemastered Studded Greatclub",
+      "kr": "룬숙련 징 박힌 대곤봉",
+      "tw": "符煉鑲釘巨棍棒",
+      "ru": "Рунномастерская шипастая палица",
+      "jp": "ルーンマスターの鋲付きの金棒"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 561,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BrainRattlerVerisiumImplicitLightningConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "75",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-cultist-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Cultist Greathammer",
+      "kr": "룬벼림 광신자 대망치",
+      "tw": "符鍛教徒巨錘",
+      "ru": "Руннокованый культовый молот",
+      "jp": "ルーンフォージのカルティストグレートハンマー"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 144,
+      "damageMax": 194,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitSplashDamage1",
+        "lines": [
+          {
+            "stat": "melee_splash",
+            "value": "1",
+            "text": {
+              "en": "Strikes deal Splash Damage",
+              "kr": "타격이 방사 피해를 줌",
+              "tw": "打擊造成擴散傷害",
+              "ru": "Удары наносят урон по площади",
+              "jp": "ストライクはスプラッシュダメージを与える"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "EmptyRoarVerisiumBleedDuration1",
+        "lines": [
+          {
+            "stat": "base_bleed_duration_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Bleeding Duration",
+              "kr": "출혈 지속시간 20~30% 증가",
+              "tw": "增加20~30%流血持續時間",
+              "ru": "20~30% увеличение длительности кровотечения",
+              "jp": "出血持続時間が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-temple-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Temple Maul",
+      "kr": "룬벼림 사원 대형 망치",
+      "tw": "符鍛神殿重錘",
+      "ru": "Руннокованая храмовая дубина",
+      "jp": "ルーンフォージの寺院の大槌"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 64,
+      "damageMax": 134,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-leaden-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Leaden Greathammer",
+      "kr": "룬벼림 납빛 대망치",
+      "tw": "符鍛麻木巨錘",
+      "ru": "Руннокованый освинцованный молот",
+      "jp": "ルーンフォージの鉛のグレートハンマー"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 132,
+      "damageMax": 179,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-crumbling-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Crumbling Maul",
+      "kr": "룬벼림 허물어지는 대형 망치",
+      "tw": "符鍛崩毀重錘",
+      "ru": "Руннокованый крошащий молот",
+      "jp": "ルーンフォージの朽ちた大槌"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 105,
+      "damageMax": 128,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitEnemiesExplodeOnCrit1",
+        "lines": [
+          {
+            "stat": "local_explode_on_kill_with_crit_%_physical_damage_to_deal",
+            "value": "10",
+            "text": {
+              "en": "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+              "kr": "치명타 처치 시 적이 폭발하여 생명력의 10%를 물리 피해로 줌",
+              "tw": "透過暴擊擊殺敵人時使其爆炸，造成等同於其10%生命的物理傷害",
+              "ru": "Заставляет врагов взрываться при критическом ударе, нанося 10% от их здоровья в виде физического урона",
+              "jp": "クリティカルキル時に敵を爆発させ、そのライフの10%を物理ダメージとして与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-pointed-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runeforged Pointed Maul",
+      "kr": "룬벼림 뾰족한 대형 망치",
+      "tw": "符鍛尖銳重錘",
+      "ru": "Руннокованая остроконечная дубина",
+      "jp": "ルーンフォージの尖った大槌"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 125,
+      "damageMax": 188,
+      "critChance": 6.5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitSplashDamage1",
+        "lines": [
+          {
+            "stat": "melee_splash",
+            "value": "1",
+            "text": {
+              "en": "Strikes deal Splash Damage",
+              "kr": "타격이 방사 피해를 줌",
+              "tw": "打擊造成擴散傷害",
+              "ru": "Удары наносят урон по площади",
+              "jp": "ストライクはスプラッシュダメージを与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "anvil-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Anvil Maul",
+      "kr": "모루 대형 망치",
+      "tw": "鐵砧重錘",
+      "ru": "Кузнечная кувалда",
+      "jp": "金床の大槌"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 101,
+      "damageMax": 136,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitLocalCrushOnHit1",
+        "lines": [
+          {
+            "stat": "local_crush_on_hit",
+            "value": "1",
+            "text": {
+              "en": "Crushes Enemies on Hit",
+              "kr": "명중 시 적 타쇄",
+              "tw": "擊中時壓碎敵人",
+              "ru": "Сокрушает врагов при нанесении удара",
+              "jp": "ヒット時に敵を破砕する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sacred-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Sacred Maul",
+      "kr": "신성한 대형 망치",
+      "tw": "神聖重錘",
+      "ru": "Освящённая дубина",
+      "jp": "聖なる大槌"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 76,
+      "damageMax": 158,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ironwood-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Ironwood Greathammer",
+      "kr": "철목 대망치",
+      "tw": "鐵木巨錘",
+      "ru": "Кувалда из железного дерева",
+      "jp": "鉄木のグレートハンマー"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 105,
+      "damageMax": 196,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitStunDamageIncrease2",
+        "lines": [
+          {
+            "stat": "local_hit_damage_stun_multiplier_+%",
+            "value": "30~50",
+            "text": {
+              "en": "Causes 30~50% increased Stun Buildup",
+              "kr": "유발하는 기절 축적 30~50% 증가",
+              "tw": "增加30~50%暈眩累積",
+              "ru": "Вызывает увеличенное на 30~50% накопление оглушения",
+              "jp": "引き起こすスタン蓄積が30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fanatic-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Fanatic Greathammer",
+      "kr": "광신도 대망치",
+      "tw": "盲信巨錘",
+      "ru": "Молот фанатика",
+      "jp": "熱狂者のグレートハンマー"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 101,
+      "damageMax": 137,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitSplashDamage1",
+        "lines": [
+          {
+            "stat": "melee_splash",
+            "value": "1",
+            "text": {
+              "en": "Strikes deal Splash Damage",
+              "kr": "타격이 방사 피해를 줌",
+              "tw": "打擊造成擴散傷害",
+              "ru": "Удары наносят урон по площади",
+              "jp": "ストライクはスプラッシュダメージを与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ruination-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Ruination Maul",
+      "kr": "폐허의 대형 망치",
+      "tw": "毀滅重錘",
+      "ru": "Разрушительный молот",
+      "jp": "破滅の大槌"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 104,
+      "damageMax": 127,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitEnemiesExplodeOnCrit1",
+        "lines": [
+          {
+            "stat": "local_explode_on_kill_with_crit_%_physical_damage_to_deal",
+            "value": "10",
+            "text": {
+              "en": "Causes Enemies to Explode on Critical kill, for 10% of their Life as Physical Damage",
+              "kr": "치명타 처치 시 적이 폭발하여 생명력의 10%를 물리 피해로 줌",
+              "tw": "透過暴擊擊殺敵人時使其爆炸，造成等同於其10%生命的物理傷害",
+              "ru": "Заставляет врагов взрываться при критическом ударе, нанося 10% от их здоровья в виде физического урона",
+              "jp": "クリティカルキル時に敵を爆発させ、そのライフの10%を物理ダメージとして与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "massive-greathammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Massive Greathammer",
+      "kr": "거대한 대망치",
+      "tw": "巨型巨錘",
+      "ru": "Массивный молот",
+      "jp": "巨大なグレートハンマー"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 119,
+      "damageMax": 161,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tawhoan-greatclub",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Tawhoan Greatclub",
+      "kr": "타호아의 대곤봉",
+      "tw": "塔赫亞巨棍棒",
+      "ru": "Дубина Тахоа",
+      "jp": "タウホアのグレートクラブ"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 113,
+      "damageMax": 153,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaceImplicitWarcryExert1",
+        "lines": [
+          {
+            "stat": "warcry_empowers_next_x_melee_attacks",
+            "value": "1",
+            "text": {
+              "en": "Warcries Empower an additional Attack",
+              "kr": "함성이 공격 1회 추가로 강화",
+              "tw": "戰吼強化額外1次攻擊",
+              "ru": "Боевые кличи улучшают дополнительную атаку",
+              "jp": "ウォークライはアタックを追加で1回強化する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "aberrant-sledge",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Aberrant Sledge",
+      "kr": "특이한 대형 양손 망치",
+      "tw": "怪異攻城錘",
+      "ru": "Искажённый молот",
+      "jp": "異形のスレッジ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 154,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-aberrant-sledge",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runemastered Aberrant Sledge",
+      "kr": "룬숙련 특이한 대형 양손 망치",
+      "tw": "符煉怪異攻城錘",
+      "ru": "Рунномастерский искажённый молот",
+      "jp": "ルーンマスターの異形のスレッジ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 151,
+      "damageMax": 315,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-aberrant-sledge",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runemastered Aberrant Sledge",
+      "kr": "룬숙련 특이한 대형 양손 망치",
+      "tw": "符煉怪異攻城錘",
+      "ru": "Рунномастерский искажённый молот",
+      "jp": "ルーンマスターの異形のスレッジ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 154,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TwistedEmpyreanVerisiumImplicitAdditionalFissures1",
+        "lines": [
+          {
+            "stat": "skill_additional_fissure_chance_%",
+            "value": "50",
+            "text": {
+              "en": "Skills which create Fissures have a 50% chance to create an additional Fissure",
+              "kr": "균열을 생성하는 스킬이 50%의 확률로 균열 1개 추가 생성",
+              "tw": "創造裂縫的技能有50%機率創造額外一道裂縫",
+              "ru": "Создающие расселины умения с 50% шансом могут создать дополнительную расселину",
+              "jp": "亀裂を生成するスキルは50%の確率で亀裂を追加で1個生成する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-aberrant-sledge",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runemastered Aberrant Sledge",
+      "kr": "룬숙련 특이한 대형 양손 망치",
+      "tw": "符煉怪異攻城錘",
+      "ru": "Рунномастерский искажённый молот",
+      "jp": "ルーンマスターの異形のスレッジ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 154,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TwistedEmpyreanVerisiumImplicitFreezeBuildup1",
+        "lines": [
+          {
+            "stat": "hit_damage_freeze_multiplier_+%",
+            "value": "200~300",
+            "text": {
+              "en": "200~300% increased Freeze Buildup",
+              "kr": "동결 축적 200~300% 증가",
+              "tw": "增加200~300%冰凍累積",
+              "ru": "200~300% повышение скорости накопления шкалы заморозки",
+              "jp": "凍結蓄積が200~300%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-aberrant-sledge",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Runemastered Aberrant Sledge",
+      "kr": "룬숙련 특이한 대형 양손 망치",
+      "tw": "符煉怪異攻城錘",
+      "ru": "Рунномастерский искажённый молот",
+      "jp": "ルーンマスターの異形のスレッジ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 148,
+      "damageMax": 308,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TwistedEmpyreanVerisiumImplicitLocalColdConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "80",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

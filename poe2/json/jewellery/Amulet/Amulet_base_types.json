@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "crimson-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Crimson Amulet",
+      "kr": "진홍색 목걸이",
+      "tw": "赤紅項鍊",
+      "ru": "Алый амулет",
+      "jp": "深紅のアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitLifeRegeneration1",
+        "lines": [
+          {
+            "stat": "base_life_regeneration_rate_per_minute",
+            "value": "120~240",
+            "text": {
+              "en": "120~240 Life Regeneration per second",
+              "kr": "1초마다 생명력 120~240 재생",
+              "tw": "120~240每秒生命回復",
+              "ru": "Регенерация 120~240 здоровья в секунду",
+              "jp": "毎秒120~240のライフを自動回復する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "azure-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Azure Amulet",
+      "kr": "담청색 목걸이",
+      "tw": "蒼藍項鍊",
+      "ru": "Лазурный амулет",
+      "jp": "深青のアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitManaRegeneration1",
+        "lines": [
+          {
+            "stat": "mana_regeneration_rate_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Mana Regeneration Rate",
+              "kr": "마나 재생 속도 20~30% 증가",
+              "tw": "增加20~30%魔力回復率",
+              "ru": "20~30% повышение скорости регенерации маны",
+              "jp": "マナ自動回復レートが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "amber-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Amber Amulet",
+      "kr": "호박 목걸이",
+      "tw": "琥珀護身符",
+      "ru": "Амулет с янтарём",
+      "jp": "琥珀のアミュレット"
+    },
+    "dropLevel": 8,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitStrength1",
+        "lines": [
+          {
+            "stat": "additional_strength",
+            "value": "10~15",
+            "text": {
+              "en": "10~15 to Strength",
+              "kr": "힘 10~15",
+              "tw": "10~15點力量",
+              "ru": "10~15 к силе",
+              "jp": "筋力 10~15"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jade-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Jade Amulet",
+      "kr": "비취 목걸이",
+      "tw": "翠玉護身符",
+      "ru": "Амулет с нефритом",
+      "jp": "翡翠のアミュレット"
+    },
+    "dropLevel": 8,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitDexterity1",
+        "lines": [
+          {
+            "stat": "additional_dexterity",
+            "value": "10~15",
+            "text": {
+              "en": "10~15 to Dexterity",
+              "kr": "민첩 10~15",
+              "tw": "10~15點敏捷",
+              "ru": "10~15 к ловкости",
+              "jp": "器用さ 10~15"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lapis-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Lapis Amulet",
+      "kr": "청금석 목걸이",
+      "tw": "海玉護身符",
+      "ru": "Амулет с лазуритом",
+      "jp": "瑠璃のアミュレット"
+    },
+    "dropLevel": 8,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitIntelligence1",
+        "lines": [
+          {
+            "stat": "additional_intelligence",
+            "value": "10~15",
+            "text": {
+              "en": "10~15 to Intelligence",
+              "kr": "지능 10~15",
+              "tw": "10~15點智慧",
+              "ru": "10~15 к интеллекту",
+              "jp": "知性 10~15"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lunar-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Lunar Amulet",
+      "kr": "달의 목걸이",
+      "tw": "月神項鍊",
+      "ru": "Лунный амулет",
+      "jp": "月のアミュレット"
+    },
+    "dropLevel": 14,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitEnergyShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_energy_shield",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Energy Shield",
+              "kr": "에너지 보호막 최대치 20~30",
+              "tw": "20~30最大能量護盾",
+              "ru": "20~30 к максимуму энергетического щита",
+              "jp": "最大エナジーシールド 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bloodstone-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Bloodstone Amulet",
+      "kr": "혈석 목걸이",
+      "tw": "血石項鍊",
+      "ru": "Амулет с кровавым камнем",
+      "jp": "血石のアミュレット"
+    },
+    "dropLevel": 18,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitIncreasedLife1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to maximum Life",
+              "kr": "생명력 최대치 30~40",
+              "tw": "30~40最大生命",
+              "ru": "30~40 к максимуму здоровья",
+              "jp": "最大ライフ 30~40"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stellar-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Stellar Amulet",
+      "kr": "별의 목걸이",
+      "tw": "恆星項鍊",
+      "ru": "Звёздный амулет",
+      "jp": "星のアミュレット"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitAllAttributes1",
+        "lines": [
+          {
+            "stat": "additional_all_attributes",
+            "value": "5~7",
+            "text": {
+              "en": "5~7 to all Attributes",
+              "kr": "모든 능력치 5~7",
+              "tw": "5~7點全部能力值",
+              "ru": "5~7 ко всем характеристикам",
+              "jp": "全ての能力値 5~7"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "solar-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Solar Amulet",
+      "kr": "태양의 목걸이",
+      "tw": "日耀項鍊",
+      "ru": "Солнечный амулет",
+      "jp": "太陽のアミュレット"
+    },
+    "dropLevel": 30,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitBaseSpirit1",
+        "lines": [
+          {
+            "stat": "base_spirit_from_equipment",
+            "value": "10~15",
+            "text": {
+              "en": "10~15 to Spirit",
+              "kr": "정신력 10~15",
+              "tw": "10~15精魂",
+              "ru": "10~15 к духу",
+              "jp": "スピリット 10~15"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gold-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Gold Amulet",
+      "kr": "황금 목걸이",
+      "tw": "帝金護身符",
+      "ru": "Золотой амулет",
+      "jp": "金のアミュレット"
+    },
+    "dropLevel": 35,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitItemFoundRarityIncrease1",
+        "lines": [
+          {
+            "stat": "base_item_found_rarity_+%",
+            "value": "12~20",
+            "text": {
+              "en": "12~20% increased Rarity of Items found",
+              "kr": "발견하는 아이템 희귀도 12~20% 증가",
+              "tw": "增加12~20%找到的物品稀有度",
+              "ru": "12~20% повышение редкости найденных предметов",
+              "jp": "見つかるアイテムのレアリティが12~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pearlescent-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Pearlescent Amulet",
+      "kr": "진줏빛 목걸이",
+      "tw": "珠光項鍊",
+      "ru": "Амулет с перламутром",
+      "jp": "真珠のアミュレット"
+    },
+    "dropLevel": 8,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitAllElementalResistances",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "7~10",
+            "text": {
+              "en": "7~10% to all Elemental Resistances",
+              "kr": "모든 원소 저항 7~10%",
+              "tw": "7~10%全元素抗性",
+              "ru": "7~10% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 7~10%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "veridical-chain",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Veridical Chain",
+      "kr": "현실 합치 사슬",
+      "tw": "幻象鎖鏈",
+      "ru": "Цепочка истины",
+      "jp": "真実の鎖"
+    },
+    "dropLevel": 52,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitRunicWard1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to maximum Runic Ward",
+              "kr": "최대 룬 수호 30~40",
+              "tw": "30~40最大符文保護",
+              "ru": "30~40 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 30~40"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-veridical-chain",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Runemastered Veridical Chain",
+      "kr": "룬숙련 현실 합치 사슬",
+      "tw": "符煉幻象鎖鏈",
+      "ru": "Рунномастерская цепочка истины",
+      "jp": "ルーンマスターの真実の鎖"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitRunicWard1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to maximum Runic Ward",
+              "kr": "최대 룬 수호 30~40",
+              "tw": "30~40最大符文保護",
+              "ru": "30~40 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 30~40"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "EventidePetalsVerisiumImplicitMaxColdRes1",
+        "lines": [
+          {
+            "stat": "base_maximum_cold_damage_resistance_%",
+            "value": "2~3",
+            "text": {
+              "en": "2~3% to Maximum Cold Resistance",
+              "kr": "냉기 저항 최대치 2~3%",
+              "tw": "2~3%最大冰冷抗性",
+              "ru": "2~3% к максимальному сопротивлению холоду",
+              "jp": "冷気耐性の最大値 2~3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-veridical-chain",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Runemastered Veridical Chain",
+      "kr": "룬숙련 현실 합치 사슬",
+      "tw": "符煉幻象鎖鏈",
+      "ru": "Рунномастерская цепочка истины",
+      "jp": "ルーンマスターの真実の鎖"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitRunicWard1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to maximum Runic Ward",
+              "kr": "최대 룬 수호 30~40",
+              "tw": "30~40最大符文保護",
+              "ru": "30~40 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 30~40"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "EventidePetalsVerisiumImplicitColdSkills1",
+        "lines": [
+          {
+            "stat": "cold_skill_gem_level_+",
+            "value": "1~2",
+            "text": {
+              "en": "1~2 to Level of all Cold Skills",
+              "kr": "모든 냉기 스킬 레벨 1~2",
+              "tw": "全部冰冷技能等級1~2",
+              "ru": "1~2 к уровню всех камней умений холода",
+              "jp": "全ての冷気スキルのレベル 1~2"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-veridical-chain",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Runemastered Veridical Chain",
+      "kr": "룬숙련 현실 합치 사슬",
+      "tw": "符煉幻象鎖鏈",
+      "ru": "Рунномастерская цепочка истины",
+      "jp": "ルーンマスターの真実の鎖"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "EventidePetalsVerisiumImplicitRunicWardPercent1",
+        "lines": [
+          {
+            "stat": "maximum_ward_+%",
+            "value": "15~20",
+            "text": {
+              "en": "15~20% increased maximum Runic Ward",
+              "kr": "최대 룬 수호 15~20% 증가",
+              "tw": "增加15~20%最大符文保護",
+              "ru": "15~20% увеличение максимума рунического барьера",
+              "jp": "最大ルーンワードが15~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lament-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Lament Amulet",
+      "kr": "한탄 목걸이",
+      "tw": "悼亡護身符",
+      "ru": "Амулет горести",
+      "jp": "悲嘆のアミュレット"
+    },
+    "dropLevel": 42,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We search for the memories missing...",
+      "kr": "우리는 사라진 기억을 찾아 헤맨다...",
+      "tw": "我們尋覓那消逝的追憶……",
+      "ru": "Мы ищем утраченные воспоминания...",
+      "jp": "我らは欠けし記憶を探し求める……"
+    },
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed7",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -1개",
+              "tw": "允許前綴-1",
+              "ru": "-1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "0",
+            "text": {
+              "en": "0 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 0개",
+              "tw": "允許後綴0",
+              "ru": "0 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド 0個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "portent-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Portent Amulet",
+      "kr": "전조 목걸이",
+      "tw": "惡兆護身符",
+      "ru": "Амулет предвестия",
+      "jp": "前兆のアミュレット"
+    },
+    "dropLevel": 42,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We reach for the promises lost...",
+      "kr": "우리는 잃어버린 약속을 향해 손을 뻗는다...",
+      "tw": "我們追索那背棄的諾言……",
+      "ru": "Мы тянемся к утраченным обещаниям...",
+      "jp": "我らは失われし約束に手を伸ばす……"
+    },
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed8",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "0",
+            "text": {
+              "en": "0 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 0개",
+              "tw": "允許前綴0",
+              "ru": "0 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド 0個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -1개",
+              "tw": "允許後綴-1",
+              "ru": "-1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -1個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "absent-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Absent Amulet",
+      "kr": "부재 목걸이",
+      "tw": "虛無護身符",
+      "ru": "Амулет отсутствия",
+      "jp": "不在のアミュレット"
+    },
+    "dropLevel": 50,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We grasp the eternal unborn...",
+      "kr": "우리는 아직 태어나지 않은 영원을 움켜쥔다...",
+      "tw": "我們緊握那永恆的未誕……",
+      "ru": "Мы постигаем вечное, что ещё не рождено...",
+      "jp": "我らは永遠に生まれぬ者たちを掴む……"
+    },
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed9",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -1개",
+              "tw": "允許前綴-1",
+              "ru": "-1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -1개",
+              "tw": "允許後綴-1",
+              "ru": "-1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -1個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "corona-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Corona Amulet",
+      "kr": "광환 목걸이",
+      "tw": "日冕護身符",
+      "ru": "Амулет свечения",
+      "jp": "コロナアミュレット"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We yield our mind to save the body...",
+      "kr": "우리는 육신을 구하기 위해 정신을 내준다...",
+      "tw": "我們交出心靈以拯救肉體……",
+      "ru": "Мы отдаём наш разум, чтобы сохранить тело...",
+      "jp": "我らは肉体を救うため精神を捧げる……"
+    },
+    "implicits": [
+      {
+        "modId": "AmuletImplicitHelmetSocket1",
+        "lines": [
+          {
+            "stat": "local_item_benefit_socketable_as_if_helmet",
+            "value": "1",
+            "text": {
+              "en": "This item gains bonuses from Socketed Items as though it was a Helmet",
+              "kr": "이 아이템은 투구인 것처럼 장착된 아이템의 보너스를 받음",
+              "tw": "此物品會被視為頭盔，自插槽中的物品獲得加成",
+              "ru": "Этот предмет получает бонусы от размещаемых предметов как если бы был шлемом",
+              "jp": "このアイテムはソケットされたアイテムからそれが兜にソケットされているかのように仮定してボーナスを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dusk-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Dusk Amulet",
+      "kr": "황혼 목걸이",
+      "tw": "幽暗項鍊",
+      "ru": "Сумеречный амулет",
+      "jp": "黄昏のアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed1",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": "1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 1개",
+              "tw": "允許前綴1",
+              "ru": "1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド 1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -1개",
+              "tw": "允許後綴-1",
+              "ru": "-1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -1個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gloam-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Gloam Amulet",
+      "kr": "석양 목걸이",
+      "tw": "黃昏項鍊",
+      "ru": "Мглистый амулет",
+      "jp": "薄明のアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed2",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -1개",
+              "tw": "允許前綴-1",
+              "ru": "-1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": "1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 1개",
+              "tw": "允許後綴1",
+              "ru": "1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド 1個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "penumbra-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Penumbra Amulet",
+      "kr": "음영 목걸이",
+      "tw": "半影項鍊",
+      "ru": "Амулет полутени",
+      "jp": "半影のアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed3",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "2",
+            "text": {
+              "en": "2 Prefix Modifiers allowed",
+              "kr": "접두어 속성 부여의 최대 개수 2개",
+              "tw": "允許前綴2",
+              "ru": "2 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド 2個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-2",
+            "text": {
+              "en": "-2 Suffix Modifiers allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -2개",
+              "tw": "允許後綴-2",
+              "ru": "-2 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -2個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tenebrous-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Tenebrous Amulet",
+      "kr": "어둑한 목걸이",
+      "tw": "黑暗項鍊",
+      "ru": "Тусклый амулет",
+      "jp": "仄暗いアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed4",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-2",
+            "text": {
+              "en": "-2 Prefix Modifiers allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -2개",
+              "tw": "允許前綴-2",
+              "ru": "-2 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -2個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "2",
+            "text": {
+              "en": "2 Suffix Modifiers allowed",
+              "kr": "접미어 속성 부여의 최대 개수 2개",
+              "tw": "允許後綴2",
+              "ru": "2 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド 2個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "twisted-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Twisted Amulet",
+      "kr": "뒤틀린 목걸이",
+      "tw": "扭曲項鍊",
+      "ru": "Искривлённый амулет",
+      "jp": "捻じれたアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed5",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -1개",
+              "tw": "允許前綴-1",
+              "ru": "-1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "0",
+            "text": {
+              "en": "0 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 0개",
+              "tw": "允許後綴0",
+              "ru": "0 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド 0個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "distorted-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Distorted Amulet",
+      "kr": "왜곡된 목걸이",
+      "tw": "歪曲護身符",
+      "ru": "Искажённый амулет",
+      "jp": "歪んだアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletImplicitPrefixSuffixAllowed6",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "0",
+            "text": {
+              "en": "0 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 0개",
+              "tw": "允許前綴0",
+              "ru": "0 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド 0個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -1개",
+              "tw": "允許後綴-1",
+              "ru": "-1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -1個"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

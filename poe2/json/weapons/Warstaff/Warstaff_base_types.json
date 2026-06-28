@@ -1,0 +1,1618 @@
+[
+  {
+    "id": "wrapped-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Wrapped Quarterstaff",
+      "kr": "싸맨 육척봉",
+      "tw": "纏繞細杖",
+      "ru": "Обмотанный боевой посох",
+      "jp": "巻き布のクォータースタッフ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 12,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "long-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Long Quarterstaff",
+      "kr": "긴 육척봉",
+      "tw": "加長細杖",
+      "ru": "Длинный боевой посох",
+      "jp": "ロングクォータースタッフ"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 18,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "16",
+            "text": {
+              "en": "16% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 16% 증가",
+              "tw": "此武器增加16%近戰打擊範圍",
+              "ru": "16% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gothic-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Gothic Quarterstaff",
+      "kr": "고딕 육척봉",
+      "tw": "歌德細杖",
+      "ru": "Готический боевой посох",
+      "jp": "ゴシッククォータースタッフ"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 26,
+      "critChance": 12,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crackling-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Crackling Quarterstaff",
+      "kr": "치직대는 육척봉",
+      "tw": "裂紋細杖",
+      "ru": "Искрящийся боевой посох",
+      "jp": "放電のクォータースタッフ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 22,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitBaseLightningDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_lightning_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_lightning_damage",
+            "value": "35",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crescent-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Crescent Quarterstaff",
+      "kr": "초승달 육척봉",
+      "tw": "新月細杖",
+      "ru": "Боевой посох с полумесяцем",
+      "jp": "三日月のクォータースタッフ"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 39,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "steelpoint-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Steelpoint Quarterstaff",
+      "kr": "강철침 육척봉",
+      "tw": "鋼尖細杖",
+      "ru": "Боевой посох со стальным наконечником",
+      "jp": "スチールポイントクォータースタッフ"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 51,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "slicing-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Slicing Quarterstaff",
+      "kr": "저미는 육척봉",
+      "tw": "斬割細杖",
+      "ru": "Режущий боевой посох",
+      "jp": "斬撃のクォータースタッフ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 60,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "barrier-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Barrier Quarterstaff",
+      "kr": "방벽 육척봉",
+      "tw": "屏障細杖",
+      "ru": "Барьерный боевой посох",
+      "jp": "防壁のクォータースタッフ"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 58,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitAdditionalBlock1",
+        "lines": [
+          {
+            "stat": "additional_block_%",
+            "value": "12~18",
+            "text": {
+              "en": "12~18% to Block chance",
+              "kr": "막기 확률 12~18%",
+              "tw": "12~18%至格擋率",
+              "ru": "12~18% к шансу блока",
+              "jp": "ブロック率 12~18%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hefty-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Hefty Quarterstaff",
+      "kr": "장대한 육척봉",
+      "tw": "堅固細杖",
+      "ru": "Массивный боевой посох",
+      "jp": "重厚なクォータースタッフ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 81,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitDazeChance1",
+        "lines": [
+          {
+            "stat": "local_weapon_daze_chance_%",
+            "value": "20~50",
+            "text": {
+              "en": "20~50% chance to Daze on Hit",
+              "kr": "명중 시 20~50% 확률로 혼미",
+              "tw": "擊中時有20~50%機率造成目眩",
+              "ru": "20~50% шанс наложения оцепенения при нанесении удара",
+              "jp": "ヒット時に20~50%の確率で眩暈を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "smooth-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Smooth Quarterstaff",
+      "kr": "매끄러운 육척봉",
+      "tw": "平滑細杖",
+      "ru": "Гладкий боевой посох",
+      "jp": "滑らかなクォータースタッフ"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 79,
+      "critChance": 0,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "anima-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Anima Quarterstaff",
+      "kr": "생명 육척봉",
+      "tw": "靈魂細杖",
+      "ru": "Боевой посох духа",
+      "jp": "アニマクォータースタッフ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 47,
+      "damageMax": 79,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "graceful-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Graceful Quarterstaff",
+      "kr": "우아한 육척봉",
+      "tw": "優雅細杖",
+      "ru": "Изящный боевой посох",
+      "jp": "優雅なクォータースタッフ"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 47,
+      "damageMax": 87,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wyrm-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Wyrm Quarterstaff",
+      "kr": "아룡 육척봉",
+      "tw": "蠕蟲細杖",
+      "ru": "Боевой посох змия",
+      "jp": "ワームクォータースタッフ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 57,
+      "damageMax": 94,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "reaching-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Reaching Quarterstaff",
+      "kr": "뻗치는 육척봉",
+      "tw": "延伸細杖",
+      "ru": "Долгий боевой посох",
+      "jp": "長柄のクォータースタッフ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 72,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "16",
+            "text": {
+              "en": "16% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 16% 증가",
+              "tw": "此武器增加16%近戰打擊範圍",
+              "ru": "16% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "barbarous-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Barbarous Quarterstaff",
+      "kr": "상스러운 육척봉",
+      "tw": "野蠻細杖",
+      "ru": "Варварский боевой посох",
+      "jp": "粗野なクォータースタッフ"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 42,
+      "damageMax": 71,
+      "critChance": 12,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "arcing-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Arcing Quarterstaff",
+      "kr": "전호의 육척봉",
+      "tw": "電弧細杖",
+      "ru": "Дуговой боевой посох",
+      "jp": "電弧のクォータースタッフ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 55,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitBaseLightningDamage2",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_lightning_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_lightning_damage",
+            "value": "75",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "waxing-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Waxing Quarterstaff",
+      "kr": "차오르는 육척봉",
+      "tw": "白蠟細杖",
+      "ru": "Боевой посох растущей луны",
+      "jp": "蝋塗りのクォータースタッフ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 82,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bladed-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Bladed Quarterstaff",
+      "kr": "칼날 육척봉",
+      "tw": "帶刃細杖",
+      "ru": "Боевой посох с остриём",
+      "jp": "刃付きのクォータースタッフ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 94,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "guardian-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Guardian Quarterstaff",
+      "kr": "수호자 육척봉",
+      "tw": "守護細杖",
+      "ru": "Боевой посох стража",
+      "jp": "守護者のクォータースタッフ"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 52,
+      "damageMax": 86,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitAdditionalBlock1",
+        "lines": [
+          {
+            "stat": "additional_block_%",
+            "value": "12~18",
+            "text": {
+              "en": "12~18% to Block chance",
+              "kr": "막기 확률 12~18%",
+              "tw": "12~18%至格擋率",
+              "ru": "12~18% к шансу блока",
+              "jp": "ブロック率 12~18%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-wrapped-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runeforged Wrapped Quarterstaff",
+      "kr": "룬벼림 싸맨 육척봉",
+      "tw": "符鍛纏繞細杖",
+      "ru": "Руннокованый обмотанный боевой посох",
+      "jp": "ルーンフォージの巻き布のクォータースタッフ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 93,
+      "damageMax": 155,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BloodThornVerisiumImplicitBleedMagnitude1",
+        "lines": [
+          {
+            "stat": "base_bleeding_effect_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Magnitude of Bleeding you inflict",
+              "kr": "플레이어가 유발하는 출혈의 강도 50% 증가",
+              "tw": "增加50%你所施加之流血的幅度",
+              "ru": "50% увеличение силы накладываемого вами кровотечения",
+              "jp": "プレイヤーが付与した出血の強度が50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-long-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runeforged Long Quarterstaff",
+      "kr": "룬벼림 긴 육척봉",
+      "tw": "符鍛加長細杖",
+      "ru": "Руннокованый длинный боевой посох",
+      "jp": "ルーンフォージのロングクォータースタッフ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 43,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "16",
+            "text": {
+              "en": "16% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 16% 증가",
+              "tw": "此武器增加16%近戰打擊範圍",
+              "ru": "16% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-long-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runemastered Long Quarterstaff",
+      "kr": "룬숙련 긴 육척봉",
+      "tw": "符煉加長細杖",
+      "ru": "Рунномастерский длинный боевой посох",
+      "jp": "ルーンマスターのロングクォータースタッフ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 89,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "16",
+            "text": {
+              "en": "16% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 16% 증가",
+              "tw": "此武器增加16%近戰打擊範圍",
+              "ru": "16% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が16%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "PillarOfCagedGodVerisiumImplicitLocalColdConvert1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-gothic-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runeforged Gothic Quarterstaff",
+      "kr": "룬벼림 고딕 육척봉",
+      "tw": "符鍛歌德細杖",
+      "ru": "Руннокованый готический боевой посох",
+      "jp": "ルーンフォージのゴシッククォータースタッフ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 80,
+      "damageMax": 134,
+      "critChance": 12,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitFireDamageUnique1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-gothic-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runemastered Gothic Quarterstaff",
+      "kr": "룬숙련 고딕 육척봉",
+      "tw": "符煉歌德細杖",
+      "ru": "Рунномастерский готический боевой посох",
+      "jp": "ルーンマスターのゴシッククォータースタッフ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 118,
+      "damageMax": 196,
+      "critChance": 12,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitFireDamageUnique1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SentryFasterVerisiumImplicitFasterIgnite1",
+        "lines": [
+          {
+            "stat": "faster_burn_%",
+            "value": "30~40",
+            "text": {
+              "en": "Ignites you inflict deal Damage 30~40% faster",
+              "kr": "플레이어가 유발한 점화가 피해 30~40% 가속",
+              "tw": "你造成的點燃加快30~40%造成傷害的速度",
+              "ru": "Наложенные вами поджоги наносят урон на 30~40% быстрее",
+              "jp": "プレイヤーが付与した発火がダメージを与える速度が30~40%速くなる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-crescent-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runeforged Crescent Quarterstaff",
+      "kr": "룬벼림 초승달 육척봉",
+      "tw": "符鍛新月細杖",
+      "ru": "Руннокованый боевой посох с полумесяцем",
+      "jp": "ルーンフォージの三日月のクォータースタッフ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 78,
+      "damageMax": 162,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitColdDamageUnique1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "50",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "QuarterstaffImplicitLightningDamageUnique1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "50",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-steelpoint-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runeforged Steelpoint Quarterstaff",
+      "kr": "룬벼림 강철침 육척봉",
+      "tw": "符鍛鋼尖細杖",
+      "ru": "Руннокованый боевой посох со стальным наконечником",
+      "jp": "ルーンフォージのスチールポイントクォータースタッフ"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 90,
+      "damageMax": 167,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sinister-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Sinister Quarterstaff",
+      "kr": "험악한 육척봉",
+      "tw": "邪惡細杖",
+      "ru": "Зловещий боевой посох",
+      "jp": "邪悪なクォータースタッフ"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 55,
+      "damageMax": 91,
+      "critChance": 12,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lunar-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Lunar Quarterstaff",
+      "kr": "달의 육척봉",
+      "tw": "月神細杖",
+      "ru": "Боевой посох полнолуния",
+      "jp": "月のクォータースタッフ"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 50,
+      "damageMax": 103,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "striking-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Striking Quarterstaff",
+      "kr": "타격하는 육척봉",
+      "tw": "打擊細杖",
+      "ru": "Ударный боевой посох",
+      "jp": "ストライキングクォータースタッフ"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 111,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffWeaponRange1",
+        "lines": [
+          {
+            "stat": "local_+%_weapon_range",
+            "value": "16",
+            "text": {
+              "en": "16% increased Melee Strike Range with this weapon",
+              "kr": "이 무기 사용 시 근접 타격 범위 16% 증가",
+              "tw": "此武器增加16%近戰打擊範圍",
+              "ru": "16% увеличение дальности ударов этим оружием в ближнем бою",
+              "jp": "この武器の近接ストライク距離が16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bolting-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Bolting Quarterstaff",
+      "kr": "번갯불의 육척봉",
+      "tw": "雷霆細杖",
+      "ru": "Грозовой боевой посох",
+      "jp": "雷撃のクォータースタッフ"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 97,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitBaseLightningDamage3",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_added_minimum_lightning_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_weapon_implicit_hidden_added_maximum_lightning_damage",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "aegis-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Aegis Quarterstaff",
+      "kr": "비호 육척봉",
+      "tw": "神禦細杖",
+      "ru": "Боевой посох эгиды",
+      "jp": "イージスクォータースタッフ"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 58,
+      "damageMax": 97,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitAdditionalBlock1",
+        "lines": [
+          {
+            "stat": "additional_block_%",
+            "value": "12~18",
+            "text": {
+              "en": "12~18% to Block chance",
+              "kr": "막기 확률 12~18%",
+              "tw": "12~18%至格擋率",
+              "ru": "12~18% к шансу блока",
+              "jp": "ブロック率 12~18%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "razor-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Razor Quarterstaff",
+      "kr": "면도날 육척봉",
+      "tw": "剃刃細杖",
+      "ru": "Боевой посох с лезвием",
+      "jp": "レイザークォータースタッフ"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 65,
+      "damageMax": 108,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "skullcrusher-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Skullcrusher Quarterstaff",
+      "kr": "두개골 타쇄자 육척봉",
+      "tw": "碎顱細杖",
+      "ru": "Боевой посох крушителя черепов",
+      "jp": "頭蓋割りのクォータースタッフ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 122,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitDazeChance1",
+        "lines": [
+          {
+            "stat": "local_weapon_daze_chance_%",
+            "value": "20~50",
+            "text": {
+              "en": "20~50% chance to Daze on Hit",
+              "kr": "명중 시 20~50% 확률로 혼미",
+              "tw": "擊中時有20~50%機率造成目眩",
+              "ru": "20~50% шанс наложения оцепенения при нанесении удара",
+              "jp": "ヒット時に20~50%の確率で眩暈を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dreaming-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Dreaming Quarterstaff",
+      "kr": "몽환의 육척봉",
+      "tw": "夢境細杖",
+      "ru": "Боевой посох спящего",
+      "jp": "夢見るクォータースタッフ"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 99,
+      "damageMax": 133,
+      "critChance": 0,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "warding-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Warding Quarterstaff",
+      "kr": "수호하는 육척봉",
+      "tw": "庇護細杖",
+      "ru": "Барьерный боевой посох",
+      "jp": "護りのクォータースタッフ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 85,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitRunicWard1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "30~50",
+            "text": {
+              "en": "30~50 to maximum Runic Ward",
+              "kr": "최대 룬 수호 30~50",
+              "tw": "30~50最大符文保護",
+              "ru": "30~50 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 30~50"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-warding-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runemastered Warding Quarterstaff",
+      "kr": "룬숙련 수호하는 육척봉",
+      "tw": "符煉庇護細杖",
+      "ru": "Рунномастерский барьерный боевой посох",
+      "jp": "ルーンマスターの護りのクォータースタッフ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 85,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitRunicWard1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "30~50",
+            "text": {
+              "en": "30~50 to maximum Runic Ward",
+              "kr": "최대 룬 수호 30~50",
+              "tw": "30~50最大符文保護",
+              "ru": "30~50 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 30~50"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-warding-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runemastered Warding Quarterstaff",
+      "kr": "룬숙련 수호하는 육척봉",
+      "tw": "符煉庇護細杖",
+      "ru": "Рунномастерский барьерный боевой посох",
+      "jp": "ルーンマスターの護りのクォータースタッフ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 85,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitRunicWard1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "30~50",
+            "text": {
+              "en": "30~50 to maximum Runic Ward",
+              "kr": "최대 룬 수호 30~50",
+              "tw": "30~50最大符文保護",
+              "ru": "30~50 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 30~50"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-warding-quarterstaff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Quarterstaves",
+      "kr": "육척봉",
+      "tw": "細杖",
+      "ru": "Боевые посохи",
+      "jp": "クォータースタッフ"
+    },
+    "name": {
+      "en": "Runemastered Warding Quarterstaff",
+      "kr": "룬숙련 수호하는 육척봉",
+      "tw": "符煉庇護細杖",
+      "ru": "Рунномастерский барьерный боевой посох",
+      "jp": "ルーンマスターの護りのクォータースタッフ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 85,
+      "damageMax": 141,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 14
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuarterstaffImplicitRunicWard1",
+        "lines": [
+          {
+            "stat": "base_maximum_ward",
+            "value": "30~50",
+            "text": {
+              "en": "30~50 to maximum Runic Ward",
+              "kr": "최대 룬 수호 30~50",
+              "tw": "30~50最大符文保護",
+              "ru": "30~50 к максимуму рунического барьера",
+              "jp": "最大ルーンワード 30~50"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

@@ -1,0 +1,704 @@
+[
+  {
+    "id": "splintered-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Splintered Flail",
+      "kr": "쪼개진 도리깨",
+      "tw": "分裂鏈錘",
+      "ru": "Потрескавшийся кистень",
+      "jp": "割れたフレイル"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 9,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "chain-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Chain Flail",
+      "kr": "사슬 도리깨",
+      "tw": "鎖鏈鏈錘",
+      "ru": "Цепное гасило",
+      "jp": "チェインフレイル"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 14,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "holy-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Holy Flail",
+      "kr": "신성한 도리깨",
+      "tw": "神聖鏈錘",
+      "ru": "Священное молотило",
+      "jp": "ホーリーフレイル"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 17,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "iron-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Iron Flail",
+      "kr": "철 도리깨",
+      "tw": "鋼鐵鏈錘",
+      "ru": "Железный кистень",
+      "jp": "鉄のフレイル"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 23,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "twin-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Twin Flail",
+      "kr": "쌍둥이 도리깨",
+      "tw": "雙生鏈錘",
+      "ru": "Двойной кистень",
+      "jp": "ツインフレイル"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 18,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FlailImplicitRollCritTwice1",
+        "lines": [
+          {
+            "stat": "local_weapon_roll_crits_twice",
+            "value": "1",
+            "text": {
+              "en": "Bifurcates Critical Hits",
+              "kr": "치명타 명중이 두 갈래로 나뉨",
+              "tw": "暴擊擊中會二分",
+              "ru": "Разветвление критических ударов",
+              "jp": "二重クリティカルヒット"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "slender-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Slender Flail",
+      "kr": "날씬한 도리깨",
+      "tw": "纖細鏈錘",
+      "ru": "Тонкий кистень",
+      "jp": "細身のフレイル"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 32,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stone-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Stone Flail",
+      "kr": "돌 도리깨",
+      "tw": "岩石鏈錘",
+      "ru": "Кистень из камня",
+      "jp": "石のフレイル"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 38,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FlailImplicitIgnoreBlock1",
+        "lines": [
+          {
+            "stat": "local_attacks_cannot_be_blocked",
+            "value": "1",
+            "text": {
+              "en": "Unblockable",
+              "kr": "막기 불가",
+              "tw": "無法被格擋",
+              "ru": "Неблокируемый",
+              "jp": "ブロックできない"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ring-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Ring Flail",
+      "kr": "고리 도리깨",
+      "tw": "圓環鏈錘",
+      "ru": "Кистень с кольцами",
+      "jp": "リングフレイル"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 44,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "guarded-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Guarded Flail",
+      "kr": "보호받는 도리깨",
+      "tw": "警惕鏈錘",
+      "ru": "Кистень с гардой",
+      "jp": "防護のフレイル"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 57,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "icicle-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Icicle Flail",
+      "kr": "고드름 도리깨",
+      "tw": "冰錐鏈錘",
+      "ru": "Льдистый кистень",
+      "jp": "氷柱のフレイル"
+    },
+    "dropLevel": 47,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 55,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FlailImplicitColdDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tearing-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Tearing Flail",
+      "kr": "찢는 도리깨",
+      "tw": "撕裂鏈錘",
+      "ru": "Разрывающий кистень",
+      "jp": "裂傷のフレイル"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 56,
+      "critChance": 12.5,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "great-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Great Flail",
+      "kr": "거대 도리깨",
+      "tw": "大型鏈錘",
+      "ru": "Большой кистень",
+      "jp": "グレートフレイル"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 58,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "abyssal-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "Abyssal Flail",
+      "kr": "심연의 도리깨",
+      "tw": "深淵鏈錘",
+      "ru": "Кистень кромешной тьмы",
+      "jp": "深淵のフレイル"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 66,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-slivered-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Slivered Flail",
+      "kr": "[DNT] Slivered Flail",
+      "tw": "[DNT] Slivered Flail",
+      "ru": "[DNT] Slivered Flail",
+      "jp": "[DNT] Slivered Flail"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 68,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-shackled-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Shackled Flail",
+      "kr": "[DNT] Shackled Flail",
+      "tw": "[DNT] Shackled Flail",
+      "ru": "[DNT] Shackled Flail",
+      "jp": "[DNT] Shackled Flail"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 72,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-righteous-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Righteous Flail",
+      "kr": "[DNT] Righteous Flail",
+      "tw": "[DNT] Righteous Flail",
+      "ru": "[DNT] Righteous Flail",
+      "jp": "[DNT] Righteous Flail"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-ferric-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Ferric Flail",
+      "kr": "[DNT] Ferric Flail",
+      "tw": "[DNT] Ferric Flail",
+      "ru": "[DNT] Ferric Flail",
+      "jp": "[DNT] Ferric Flail"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-twofold-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Twofold Flail",
+      "kr": "[DNT] Twofold Flail",
+      "tw": "[DNT] Twofold Flail",
+      "ru": "[DNT] Twofold Flail",
+      "jp": "[DNT] Twofold Flail"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-winding-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Winding Flail",
+      "kr": "[DNT] Winding Flail",
+      "tw": "[DNT] Winding Flail",
+      "ru": "[DNT] Winding Flail",
+      "jp": "[DNT] Winding Flail"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-boulder-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Boulder Flail",
+      "kr": "[DNT] Boulder Flail",
+      "tw": "[DNT] Boulder Flail",
+      "ru": "[DNT] Boulder Flail",
+      "jp": "[DNT] Boulder Flail"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 40,
+      "damageMax": 74,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-banded-flail",
+    "classId": "Flail",
+    "className": {
+      "en": "Flails",
+      "kr": "도리깨",
+      "tw": "鏈錘",
+      "ru": "Кистени",
+      "jp": "フレイル"
+    },
+    "name": {
+      "en": "[DNT] Banded Flail",
+      "kr": "[DNT] Banded Flail",
+      "tw": "[DNT] Banded Flail",
+      "ru": "[DNT] Banded Flail",
+      "jp": "[DNT] Banded Flail"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 10,
+      "reloadTime": 0,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

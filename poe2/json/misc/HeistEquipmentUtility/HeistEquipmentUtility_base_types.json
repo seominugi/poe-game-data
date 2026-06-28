@@ -1,0 +1,190 @@
+[
+  {
+    "id": "unused-heist-test-utility-equipment",
+    "classId": "HeistEquipmentUtility",
+    "className": {
+      "en": "Heist Cloaks",
+      "kr": "강탈 망토",
+      "tw": "劫盜披風",
+      "ru": "Разбойничьи накидки",
+      "jp": "ハイストクローク"
+    },
+    "name": {
+      "en": "[UNUSED] Heist Test Utility Equipment",
+      "kr": "[UNUSED] Heist Test Utility Equipment",
+      "tw": "[UNUSED] Heist Test Utility Equipment",
+      "ru": "[UNUSED] Heist Test Utility Equipment",
+      "jp": "[UNUSED] Heist Test Utility Equipment"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "torn-cloak",
+    "classId": "HeistEquipmentUtility",
+    "className": {
+      "en": "Heist Cloaks",
+      "kr": "강탈 망토",
+      "tw": "劫盜披風",
+      "ru": "Разбойничьи накидки",
+      "jp": "ハイストクローク"
+    },
+    "name": {
+      "en": "Torn Cloak",
+      "kr": "찢어진 망토",
+      "tw": "撕裂披風",
+      "ru": "Оторванная накидка",
+      "jp": "傷だらけのマント"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCGenericAlertLevelImplicit1",
+        "lines": [
+          {
+            "stat": "heist_contract_alert_level_+%",
+            "value": "-2",
+            "text": {
+              "en": "-2% reduced raising of Alert Level",
+              "kr": "경보 레벨 상승률 -2% 감소",
+              "tw": "減少-2%提升警戒等級",
+              "ru": "-2% уменьшение поднимаемого уровня тревоги",
+              "jp": "アラートレベルの増え方が-2%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tattered-cloak",
+    "classId": "HeistEquipmentUtility",
+    "className": {
+      "en": "Heist Cloaks",
+      "kr": "강탈 망토",
+      "tw": "劫盜披風",
+      "ru": "Разбойничьи накидки",
+      "jp": "ハイストクローク"
+    },
+    "name": {
+      "en": "Tattered Cloak",
+      "kr": "해진 망토",
+      "tw": "破損披風",
+      "ru": "Истрёпанная накидка",
+      "jp": "ボロボロのマント"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCGenericAlertLevelImplicit2_",
+        "lines": [
+          {
+            "stat": "heist_contract_alert_level_+%",
+            "value": "-3",
+            "text": {
+              "en": "-3% reduced raising of Alert Level",
+              "kr": "경보 레벨 상승률 -3% 감소",
+              "tw": "減少-3%提升警戒等級",
+              "ru": "-3% уменьшение поднимаемого уровня тревоги",
+              "jp": "アラートレベルの増え方が-3%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hooded-cloak",
+    "classId": "HeistEquipmentUtility",
+    "className": {
+      "en": "Heist Cloaks",
+      "kr": "강탈 망토",
+      "tw": "劫盜披風",
+      "ru": "Разбойничьи накидки",
+      "jp": "ハイストクローク"
+    },
+    "name": {
+      "en": "Hooded Cloak",
+      "kr": "두건 망토",
+      "tw": "連帽披風",
+      "ru": "Накидка с капюшоном",
+      "jp": "フード付きのマント"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCGenericAlertLevelImplicit3_",
+        "lines": [
+          {
+            "stat": "heist_contract_alert_level_+%",
+            "value": "-4",
+            "text": {
+              "en": "-4% reduced raising of Alert Level",
+              "kr": "경보 레벨 상승률 -4% 감소",
+              "tw": "減少-4%提升警戒等級",
+              "ru": "-4% уменьшение поднимаемого уровня тревоги",
+              "jp": "アラートレベルの増え方が-4%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "whisper-woven-cloak",
+    "classId": "HeistEquipmentUtility",
+    "className": {
+      "en": "Heist Cloaks",
+      "kr": "강탈 망토",
+      "tw": "劫盜披風",
+      "ru": "Разбойничьи накидки",
+      "jp": "ハイストクローク"
+    },
+    "name": {
+      "en": "Whisper-woven Cloak",
+      "kr": "속삭임 망토",
+      "tw": "細織披風",
+      "ru": "Шелестящая накидка",
+      "jp": "囁きを編み込んだマント"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCGenericAlertLevelImplicit4_",
+        "lines": [
+          {
+            "stat": "heist_contract_alert_level_+%",
+            "value": "-5",
+            "text": {
+              "en": "-5% reduced raising of Alert Level",
+              "kr": "경보 레벨 상승률 -5% 감소",
+              "tw": "減少-5%提升警戒等級",
+              "ru": "-5% уменьшение поднимаемого уровня тревоги",
+              "jp": "アラートレベルの増え方が-5%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

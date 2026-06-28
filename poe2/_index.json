@@ -1,0 +1,1085 @@
+{
+  "gamePatch": "3.28.0.12",
+  "langs": [
+    "en",
+    "kr",
+    "tw",
+    "ru",
+    "jp"
+  ],
+  "imageStrategy": "none",
+  "generated": "2026-06-15T00:45:18.957Z",
+  "groups": {
+    "weapons": {
+      "Bow": {
+        "jsonPath": "json/weapons/Bow/Bow_base_types.json",
+        "count": 34,
+        "sampleName": "Crude Bow"
+      },
+      "Claw": {
+        "jsonPath": "json/weapons/Claw/Claw_base_types.json",
+        "count": 13,
+        "sampleName": "Crude Claw"
+      },
+      "Crossbow": {
+        "jsonPath": "json/weapons/Crossbow/Crossbow_base_types.json",
+        "count": 34,
+        "sampleName": "Makeshift Crossbow"
+      },
+      "Dagger": {
+        "jsonPath": "json/weapons/Dagger/Dagger_base_types.json",
+        "count": 22,
+        "sampleName": "Ethereal Blade"
+      },
+      "Flail": {
+        "jsonPath": "json/weapons/Flail/Flail_base_types.json",
+        "count": 21,
+        "sampleName": "Splintered Flail"
+      },
+      "One_Hand_Axe": {
+        "jsonPath": "json/weapons/One_Hand_Axe/One_Hand_Axe_base_types.json",
+        "count": 21,
+        "sampleName": "Dull Hatchet"
+      },
+      "One_Hand_Mace": {
+        "jsonPath": "json/weapons/One_Hand_Mace/One_Hand_Mace_base_types.json",
+        "count": 44,
+        "sampleName": "Wooden Club"
+      },
+      "One_Hand_Sword": {
+        "jsonPath": "json/weapons/One_Hand_Sword/One_Hand_Sword_base_types.json",
+        "count": 24,
+        "sampleName": "Golden Blade"
+      },
+      "Sceptre": {
+        "jsonPath": "json/weapons/Sceptre/Sceptre_base_types.json",
+        "count": 16,
+        "sampleName": "Rattling Sceptre"
+      },
+      "Spear": {
+        "jsonPath": "json/weapons/Spear/Spear_base_types.json",
+        "count": 36,
+        "sampleName": "Hardwood Spear"
+      },
+      "Staff": {
+        "jsonPath": "json/weapons/Staff/Staff_base_types.json",
+        "count": 18,
+        "sampleName": "Ashen Staff"
+      },
+      "Two_Hand_Axe": {
+        "jsonPath": "json/weapons/Two_Hand_Axe/Two_Hand_Axe_base_types.json",
+        "count": 21,
+        "sampleName": "Splitting Greataxe"
+      },
+      "Two_Hand_Mace": {
+        "jsonPath": "json/weapons/Two_Hand_Mace/Two_Hand_Mace_base_types.json",
+        "count": 43,
+        "sampleName": "Felled Greatclub"
+      },
+      "Two_Hand_Sword": {
+        "jsonPath": "json/weapons/Two_Hand_Sword/Two_Hand_Sword_base_types.json",
+        "count": 23,
+        "sampleName": "Keyblade"
+      },
+      "Wand": {
+        "jsonPath": "json/weapons/Wand/Wand_base_types.json",
+        "count": 18,
+        "sampleName": "Withered Wand"
+      },
+      "Warstaff": {
+        "jsonPath": "json/weapons/Warstaff/Warstaff_base_types.json",
+        "count": 38,
+        "sampleName": "Wrapped Quarterstaff"
+      }
+    },
+    "armour": {
+      "Boots": {
+        "jsonPath": "json/armour/Boots/Boots_base_types.json",
+        "count": 192,
+        "sampleName": "Golden Caligae"
+      },
+      "Buckler": {
+        "jsonPath": "json/armour/Buckler/Buckler_base_types.json",
+        "count": 52,
+        "sampleName": "Leather Buckler"
+      },
+      "Focus": {
+        "jsonPath": "json/armour/Focus/Focus_base_types.json",
+        "count": 51,
+        "sampleName": "Twig Focus"
+      },
+      "Gloves": {
+        "jsonPath": "json/armour/Gloves/Gloves_base_types.json",
+        "count": 202,
+        "sampleName": "Golden Bracers"
+      },
+      "Helmet": {
+        "jsonPath": "json/armour/Helmet/Helmet_base_types.json",
+        "count": 262,
+        "sampleName": "Golden Wreath"
+      },
+      "Quiver": {
+        "jsonPath": "json/armour/Quiver/Quiver_base_types.json",
+        "count": 11,
+        "sampleName": "Broadhead Quiver"
+      },
+      "Shield": {
+        "jsonPath": "json/armour/Shield/Shield_base_types.json",
+        "count": 151,
+        "sampleName": "Golden Flame"
+      }
+    },
+    "jewellery": {
+      "Amulet": {
+        "jsonPath": "json/jewellery/Amulet/Amulet_base_types.json",
+        "count": 25,
+        "sampleName": "Crimson Amulet"
+      },
+      "Belt": {
+        "jsonPath": "json/jewellery/Belt/Belt_base_types.json",
+        "count": 20,
+        "sampleName": "Golden Obi"
+      },
+      "Ring": {
+        "jsonPath": "json/jewellery/Ring/Ring_base_types.json",
+        "count": 29,
+        "sampleName": "Golden Hoop"
+      }
+    },
+    "gems": {
+      "Active_Skill_Gem": {
+        "jsonPath": "json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json",
+        "count": 502,
+        "sampleName": "Ice Nova"
+      },
+      "Meta_Skill_Gem": {
+        "jsonPath": "json/gems/Meta_Skill_Gem/Meta_Skill_Gem_base_types.json",
+        "count": 44,
+        "sampleName": "Blasphemy"
+      },
+      "SkillGemToken": {
+        "jsonPath": "json/gems/SkillGemToken/SkillGemToken_base_types.json",
+        "count": 1,
+        "sampleName": "[DNT-UNUSED] Bind Spectre Token"
+      },
+      "Support_Skill_Gem": {
+        "jsonPath": "json/gems/Support_Skill_Gem/Support_Skill_Gem_base_types.json",
+        "count": 642,
+        "sampleName": "Close Combat I"
+      },
+      "UncutReservationGemStackable": {
+        "jsonPath": "json/gems/UncutReservationGemStackable/UncutReservationGemStackable_base_types.json",
+        "count": 17,
+        "sampleName": "Uncut Spirit Gem (Level 4)"
+      },
+      "UncutSkillGemStackable": {
+        "jsonPath": "json/gems/UncutSkillGemStackable/UncutSkillGemStackable_base_types.json",
+        "count": 21,
+        "sampleName": "Uncut Skill Gem (Level 1)"
+      },
+      "UncutSupportGemStackable": {
+        "jsonPath": "json/gems/UncutSupportGemStackable/UncutSupportGemStackable_base_types.json",
+        "count": 5,
+        "sampleName": "Uncut Support Gem (Level 1)"
+      }
+    },
+    "flasks": {
+      "LifeFlask": {
+        "jsonPath": "json/flasks/LifeFlask/LifeFlask_base_types.json",
+        "count": 9,
+        "sampleName": "Lesser Life Flask"
+      },
+      "ManaFlask": {
+        "jsonPath": "json/flasks/ManaFlask/ManaFlask_base_types.json",
+        "count": 9,
+        "sampleName": "Lesser Mana Flask"
+      },
+      "UtilityFlask": {
+        "jsonPath": "json/flasks/UtilityFlask/UtilityFlask_base_types.json",
+        "count": 13,
+        "sampleName": "Thawing Charm"
+      }
+    },
+    "jewels": {
+      "Jewel": {
+        "jsonPath": "json/jewels/Jewel/Jewel_base_types.json",
+        "count": 9,
+        "sampleName": "Timeless Jewel"
+      }
+    },
+    "currency": {
+      "Breachstone": {
+        "jsonPath": "json/currency/Breachstone/Breachstone_base_types.json",
+        "count": 26,
+        "sampleName": "Breachstone"
+      },
+      "Currency": {
+        "jsonPath": "json/currency/Currency/Currency_base_types.json",
+        "count": 1,
+        "sampleName": "Mystery Leaguestone"
+      },
+      "DelveSocketableCurrency": {
+        "jsonPath": "json/currency/DelveSocketableCurrency/DelveSocketableCurrency_base_types.json",
+        "count": 8,
+        "sampleName": "Primitive Alchemical Resonator"
+      },
+      "DelveStackableSocketableCurrency": {
+        "jsonPath": "json/currency/DelveStackableSocketableCurrency/DelveStackableSocketableCurrency_base_types.json",
+        "count": 8,
+        "sampleName": "Primitive Alchemical Resonator"
+      },
+      "Map": {
+        "jsonPath": "json/currency/Map/Map_base_types.json",
+        "count": 16,
+        "sampleName": "Waystone (Tier 1)"
+      },
+      "MapFragment": {
+        "jsonPath": "json/currency/MapFragment/MapFragment_base_types.json",
+        "count": 149,
+        "sampleName": "Head of the King"
+      },
+      "MiscMapItem": {
+        "jsonPath": "json/currency/MiscMapItem/MiscMapItem_base_types.json",
+        "count": 21,
+        "sampleName": "Maven's Invitation: The Formed"
+      },
+      "Omen": {
+        "jsonPath": "json/currency/Omen/Omen_base_types.json",
+        "count": 50,
+        "sampleName": "Aldur's Saga"
+      },
+      "Relic": {
+        "jsonPath": "json/currency/Relic/Relic_base_types.json",
+        "count": 7,
+        "sampleName": "Urn Relic"
+      },
+      "SanctumSpecialRelic": {
+        "jsonPath": "json/currency/SanctumSpecialRelic/SanctumSpecialRelic_base_types.json",
+        "count": 3,
+        "sampleName": "Sanctified Relic"
+      },
+      "SoulCore": {
+        "jsonPath": "json/currency/SoulCore/SoulCore_base_types.json",
+        "count": 295,
+        "sampleName": "Desert Rune"
+      },
+      "StackableCurrency": {
+        "jsonPath": "json/currency/StackableCurrency/StackableCurrency_base_types.json",
+        "count": 447,
+        "sampleName": "Blacksmith's Whetstone"
+      },
+      "Talisman": {
+        "jsonPath": "json/currency/Talisman/Talisman_base_types.json",
+        "count": 31,
+        "sampleName": "Changeling Talisman"
+      },
+      "UniqueFragment": {
+        "jsonPath": "json/currency/UniqueFragment/UniqueFragment_base_types.json",
+        "count": 22,
+        "sampleName": "Archon Kite Shield Piece"
+      }
+    },
+    "misc": {
+      "ArchnemesisMod": {
+        "jsonPath": "json/misc/ArchnemesisMod/ArchnemesisMod_base_types.json",
+        "count": 1,
+        "sampleName": "Archnemesis Mod"
+      },
+      "AtlasUpgradeItem": {
+        "jsonPath": "json/misc/AtlasUpgradeItem/AtlasUpgradeItem_base_types.json",
+        "count": 61,
+        "sampleName": "Ivory Watchstone"
+      },
+      "Body_Armour": {
+        "jsonPath": "json/misc/Body_Armour/Body_Armour_base_types.json",
+        "count": 369,
+        "sampleName": "Golden Mantle"
+      },
+      "BrequelFruit": {
+        "jsonPath": "json/misc/BrequelFruit/BrequelFruit_base_types.json",
+        "count": 5,
+        "sampleName": "Lavish Wombgift"
+      },
+      "ConventionTreasure": {
+        "jsonPath": "json/misc/ConventionTreasure/ConventionTreasure_base_types.json",
+        "count": 31,
+        "sampleName": "Convention Treasure"
+      },
+      "DivinationCard": {
+        "jsonPath": "json/misc/DivinationCard/DivinationCard_base_types.json",
+        "count": 1,
+        "sampleName": "Brother's Gift"
+      },
+      "Expedition2Logbooks": {
+        "jsonPath": "json/misc/Expedition2Logbooks/Expedition2Logbooks_base_types.json",
+        "count": 1,
+        "sampleName": "Expedition Logbook"
+      },
+      "ExpeditionLogbook": {
+        "jsonPath": "json/misc/ExpeditionLogbook/ExpeditionLogbook_base_types.json",
+        "count": 1,
+        "sampleName": "Expedition Logbook"
+      },
+      "FishingRod": {
+        "jsonPath": "json/misc/FishingRod/FishingRod_base_types.json",
+        "count": 1,
+        "sampleName": "Fishing Rod"
+      },
+      "GiftBox": {
+        "jsonPath": "json/misc/GiftBox/GiftBox_base_types.json",
+        "count": 11,
+        "sampleName": "Wrapped Gift"
+      },
+      "HeistBlueprint": {
+        "jsonPath": "json/misc/HeistBlueprint/HeistBlueprint_base_types.json",
+        "count": 9,
+        "sampleName": "Blueprint: Bunker"
+      },
+      "HeistContract": {
+        "jsonPath": "json/misc/HeistContract/HeistContract_base_types.json",
+        "count": 15,
+        "sampleName": "Contract: Bunker"
+      },
+      "HeistEquipmentReward": {
+        "jsonPath": "json/misc/HeistEquipmentReward/HeistEquipmentReward_base_types.json",
+        "count": 5,
+        "sampleName": "[UNUSED] Heist Test Reward Equipment"
+      },
+      "HeistEquipmentTool": {
+        "jsonPath": "json/misc/HeistEquipmentTool/HeistEquipmentTool_base_types.json",
+        "count": 37,
+        "sampleName": "[UNUSED] Heist Test Tool"
+      },
+      "HeistEquipmentUtility": {
+        "jsonPath": "json/misc/HeistEquipmentUtility/HeistEquipmentUtility_base_types.json",
+        "count": 5,
+        "sampleName": "[UNUSED] Heist Test Utility Equipment"
+      },
+      "HeistEquipmentWeapon": {
+        "jsonPath": "json/misc/HeistEquipmentWeapon/HeistEquipmentWeapon_base_types.json",
+        "count": 13,
+        "sampleName": "[UNUSED] Heist Test Weapon"
+      },
+      "HeistObjective": {
+        "jsonPath": "json/misc/HeistObjective/HeistObjective_base_types.json",
+        "count": 47,
+        "sampleName": "Urn of Farud"
+      },
+      "HiddenItem": {
+        "jsonPath": "json/misc/HiddenItem/HiddenItem_base_types.json",
+        "count": 74,
+        "sampleName": "Hidden Item"
+      },
+      "Incubator": {
+        "jsonPath": "json/misc/Incubator/Incubator_base_types.json",
+        "count": 30,
+        "sampleName": "Whispering Incubator"
+      },
+      "IncubatorStackable": {
+        "jsonPath": "json/misc/IncubatorStackable/IncubatorStackable_base_types.json",
+        "count": 31,
+        "sampleName": "Vaal Siphoner"
+      },
+      "IncursionArm": {
+        "jsonPath": "json/misc/IncursionArm/IncursionArm_base_types.json",
+        "count": 6,
+        "sampleName": "Guarding Arm"
+      },
+      "IncursionItem": {
+        "jsonPath": "json/misc/IncursionItem/IncursionItem_base_types.json",
+        "count": 2,
+        "sampleName": "Stone of Passage"
+      },
+      "IncursionLeg": {
+        "jsonPath": "json/misc/IncursionLeg/IncursionLeg_base_types.json",
+        "count": 6,
+        "sampleName": "Evasive Leg"
+      },
+      "InstanceLocalItem": {
+        "jsonPath": "json/misc/InstanceLocalItem/InstanceLocalItem_base_types.json",
+        "count": 20,
+        "sampleName": "Small Soul Core"
+      },
+      "ItemisedSanctum": {
+        "jsonPath": "json/misc/ItemisedSanctum/ItemisedSanctum_base_types.json",
+        "count": 5,
+        "sampleName": "Djinn Barya"
+      },
+      "MemoryLine": {
+        "jsonPath": "json/misc/MemoryLine/MemoryLine_base_types.json",
+        "count": 4,
+        "sampleName": "Kirac's Memory"
+      },
+      "Microtransaction": {
+        "jsonPath": "json/misc/Microtransaction/Microtransaction_base_types.json",
+        "count": 13,
+        "sampleName": "MTX Wrapper"
+      },
+      "PantheonSoul": {
+        "jsonPath": "json/misc/PantheonSoul/PantheonSoul_base_types.json",
+        "count": 20,
+        "sampleName": "Captured Soul of Puruna, the Challenger"
+      },
+      "PinnacleKeyStackable": {
+        "jsonPath": "json/misc/PinnacleKeyStackable/PinnacleKeyStackable_base_types.json",
+        "count": 10,
+        "sampleName": "Ancient Crisis Fragment"
+      },
+      "QuestItem": {
+        "jsonPath": "json/misc/QuestItem/QuestItem_base_types.json",
+        "count": 375,
+        "sampleName": "Shaper's Orb (Tier 1)"
+      },
+      "SentinelDrone": {
+        "jsonPath": "json/misc/SentinelDrone/SentinelDrone_base_types.json",
+        "count": 1,
+        "sampleName": "[DNT] Kalguur Drone"
+      },
+      "TowerAugmentation": {
+        "jsonPath": "json/misc/TowerAugmentation/TowerAugmentation_base_types.json",
+        "count": 8,
+        "sampleName": "Breach Tablet"
+      },
+      "TrapTool": {
+        "jsonPath": "json/misc/TrapTool/TrapTool_base_types.json",
+        "count": 13,
+        "sampleName": "Clay Trap"
+      },
+      "UltimatumKey": {
+        "jsonPath": "json/misc/UltimatumKey/UltimatumKey_base_types.json",
+        "count": 4,
+        "sampleName": "Inscribed Ultimatum"
+      },
+      "VaultKey": {
+        "jsonPath": "json/misc/VaultKey/VaultKey_base_types.json",
+        "count": 26,
+        "sampleName": "Ancient Reliquary Key"
+      }
+    }
+  },
+  "skills": {
+    "jsonPath": "skills/json/ActiveSkills.json",
+    "count": 920
+  },
+  "uniques": {
+    "jsonPath": "uniques/json/uniques.json",
+    "count": 449
+  },
+  "modifiers": {
+    "AbyssJewel": {
+      "jsonPath": "modifiers/json/AbyssJewel.json",
+      "className": {
+        "en": "Abyss Jewels",
+        "kr": "심연 주얼",
+        "tw": "深淵珠寶",
+        "ru": "Самоцветы Бездны",
+        "jp": "アビスジュエル"
+      },
+      "prefixCount": 126,
+      "suffixCount": 0,
+      "totalCount": 126,
+      "buckets": [
+        "corrupted",
+        "unique"
+      ]
+    },
+    "Amulet": {
+      "jsonPath": "modifiers/json/Amulet.json",
+      "className": {
+        "en": "Amulets",
+        "kr": "목걸이",
+        "tw": "項鍊",
+        "ru": "Амулеты",
+        "jp": "アミュレット"
+      },
+      "prefixCount": 122,
+      "suffixCount": 128,
+      "totalCount": 250,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Belt": {
+      "jsonPath": "modifiers/json/Belt.json",
+      "className": {
+        "en": "Belts",
+        "kr": "허리띠",
+        "tw": "腰帶",
+        "ru": "Пояса",
+        "jp": "ベルト"
+      },
+      "prefixCount": 94,
+      "suffixCount": 82,
+      "totalCount": 176,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Body_Armour": {
+      "jsonPath": "modifiers/json/Body_Armour.json",
+      "className": {
+        "en": "Body Armours",
+        "kr": "갑옷",
+        "tw": "胸甲",
+        "ru": "Нательные доспехи",
+        "jp": "鎧"
+      },
+      "prefixCount": 252,
+      "suffixCount": 110,
+      "totalCount": 362,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Boots": {
+      "jsonPath": "modifiers/json/Boots.json",
+      "className": {
+        "en": "Boots",
+        "kr": "장화",
+        "tw": "鞋子",
+        "ru": "Обувь",
+        "jp": "靴"
+      },
+      "prefixCount": 190,
+      "suffixCount": 107,
+      "totalCount": 297,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Bow": {
+      "jsonPath": "modifiers/json/Bow.json",
+      "className": {
+        "en": "Bows",
+        "kr": "활",
+        "tw": "弓",
+        "ru": "Луки",
+        "jp": "弓"
+      },
+      "prefixCount": 111,
+      "suffixCount": 88,
+      "totalCount": 199,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Buckler": {
+      "jsonPath": "modifiers/json/Buckler.json",
+      "className": {
+        "en": "Bucklers",
+        "kr": "버클러",
+        "tw": "輕盾",
+        "ru": "Баклеры",
+        "jp": "バックラー"
+      },
+      "prefixCount": 97,
+      "suffixCount": 92,
+      "totalCount": 189,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Claw": {
+      "jsonPath": "modifiers/json/Claw.json",
+      "className": {
+        "en": "Claws",
+        "kr": "클로",
+        "tw": "爪",
+        "ru": "Когти",
+        "jp": "鉤爪"
+      },
+      "prefixCount": 105,
+      "suffixCount": 80,
+      "totalCount": 185,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Crossbow": {
+      "jsonPath": "modifiers/json/Crossbow.json",
+      "className": {
+        "en": "Crossbows",
+        "kr": "쇠뇌",
+        "tw": "十字弓",
+        "ru": "Самострелы",
+        "jp": "クロスボウ"
+      },
+      "prefixCount": 111,
+      "suffixCount": 102,
+      "totalCount": 213,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Dagger": {
+      "jsonPath": "modifiers/json/Dagger.json",
+      "className": {
+        "en": "Daggers",
+        "kr": "단검",
+        "tw": "匕首",
+        "ru": "Кинжалы",
+        "jp": "短剣"
+      },
+      "prefixCount": 113,
+      "suffixCount": 88,
+      "totalCount": 201,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Flail": {
+      "jsonPath": "modifiers/json/Flail.json",
+      "className": {
+        "en": "Flails",
+        "kr": "도리깨",
+        "tw": "鏈錘",
+        "ru": "Кистени",
+        "jp": "フレイル"
+      },
+      "prefixCount": 113,
+      "suffixCount": 88,
+      "totalCount": 201,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Focus": {
+      "jsonPath": "modifiers/json/Focus.json",
+      "className": {
+        "en": "Foci",
+        "kr": "집중구",
+        "tw": "法器",
+        "ru": "Фокусы",
+        "jp": "フォーカス"
+      },
+      "prefixCount": 95,
+      "suffixCount": 70,
+      "totalCount": 165,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Gloves": {
+      "jsonPath": "modifiers/json/Gloves.json",
+      "className": {
+        "en": "Gloves",
+        "kr": "장갑",
+        "tw": "手套",
+        "ru": "Перчатки",
+        "jp": "手袋"
+      },
+      "prefixCount": 227,
+      "suffixCount": 113,
+      "totalCount": 340,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Helmet": {
+      "jsonPath": "modifiers/json/Helmet.json",
+      "className": {
+        "en": "Helmets",
+        "kr": "투구",
+        "tw": "頭部",
+        "ru": "Шлемы",
+        "jp": "兜"
+      },
+      "prefixCount": 238,
+      "suffixCount": 92,
+      "totalCount": 330,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Jewel": {
+      "jsonPath": "modifiers/json/Jewel.json",
+      "className": {
+        "en": "Jewels",
+        "kr": "주얼",
+        "tw": "珠寶",
+        "ru": "Самоцветы",
+        "jp": "ジュエル"
+      },
+      "prefixCount": 268,
+      "suffixCount": 178,
+      "totalCount": 446,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "unique"
+      ]
+    },
+    "LifeFlask": {
+      "jsonPath": "modifiers/json/LifeFlask.json",
+      "className": {
+        "en": "Life Flasks",
+        "kr": "생명력 플라스크",
+        "tw": "生命藥劑",
+        "ru": "Флаконы жизни",
+        "jp": "ライフフラスコ"
+      },
+      "prefixCount": 33,
+      "suffixCount": 24,
+      "totalCount": 57,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "ManaFlask": {
+      "jsonPath": "modifiers/json/ManaFlask.json",
+      "className": {
+        "en": "Mana Flasks",
+        "kr": "마나 플라스크",
+        "tw": "魔力藥劑",
+        "ru": "Флаконы маны",
+        "jp": "マナフラスコ"
+      },
+      "prefixCount": 28,
+      "suffixCount": 24,
+      "totalCount": 52,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "One_Hand_Axe": {
+      "jsonPath": "modifiers/json/One_Hand_Axe.json",
+      "className": {
+        "en": "One Hand Axes",
+        "kr": "한손 도끼",
+        "tw": "單手斧",
+        "ru": "Одноручные топоры",
+        "jp": "片手斧"
+      },
+      "prefixCount": 113,
+      "suffixCount": 80,
+      "totalCount": 193,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "One_Hand_Mace": {
+      "jsonPath": "modifiers/json/One_Hand_Mace.json",
+      "className": {
+        "en": "One Hand Maces",
+        "kr": "한손 철퇴",
+        "tw": "單手錘",
+        "ru": "Одноручные булавы",
+        "jp": "片手メイス"
+      },
+      "prefixCount": 113,
+      "suffixCount": 80,
+      "totalCount": 193,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "One_Hand_Sword": {
+      "jsonPath": "modifiers/json/One_Hand_Sword.json",
+      "className": {
+        "en": "One Hand Swords",
+        "kr": "한손 검",
+        "tw": "單手劍",
+        "ru": "Одноручные мечи",
+        "jp": "片手剣"
+      },
+      "prefixCount": 115,
+      "suffixCount": 88,
+      "totalCount": 203,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Quiver": {
+      "jsonPath": "modifiers/json/Quiver.json",
+      "className": {
+        "en": "Quivers",
+        "kr": "화살통",
+        "tw": "箭袋",
+        "ru": "Колчаны",
+        "jp": "矢筒"
+      },
+      "prefixCount": 91,
+      "suffixCount": 44,
+      "totalCount": 135,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Ring": {
+      "jsonPath": "modifiers/json/Ring.json",
+      "className": {
+        "en": "Rings",
+        "kr": "반지",
+        "tw": "戒指",
+        "ru": "Кольца",
+        "jp": "指輪"
+      },
+      "prefixCount": 141,
+      "suffixCount": 103,
+      "totalCount": 244,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Sceptre": {
+      "jsonPath": "modifiers/json/Sceptre.json",
+      "className": {
+        "en": "Sceptres",
+        "kr": "셉터",
+        "tw": "權杖",
+        "ru": "Скипетры",
+        "jp": "セプター"
+      },
+      "prefixCount": 155,
+      "suffixCount": 147,
+      "totalCount": 302,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Shield": {
+      "jsonPath": "modifiers/json/Shield.json",
+      "className": {
+        "en": "Shields",
+        "kr": "방패",
+        "tw": "盾",
+        "ru": "Щиты",
+        "jp": "盾"
+      },
+      "prefixCount": 119,
+      "suffixCount": 114,
+      "totalCount": 233,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Spear": {
+      "jsonPath": "modifiers/json/Spear.json",
+      "className": {
+        "en": "Spears",
+        "kr": "창",
+        "tw": "長矛",
+        "ru": "Копья",
+        "jp": "スピア"
+      },
+      "prefixCount": 113,
+      "suffixCount": 92,
+      "totalCount": 205,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Staff": {
+      "jsonPath": "modifiers/json/Staff.json",
+      "className": {
+        "en": "Staves",
+        "kr": "지팡이",
+        "tw": "長杖",
+        "ru": "Посохи",
+        "jp": "スタッフ"
+      },
+      "prefixCount": 185,
+      "suffixCount": 152,
+      "totalCount": 337,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Talisman": {
+      "jsonPath": "modifiers/json/Talisman.json",
+      "className": {
+        "en": "Talismans",
+        "kr": "부적",
+        "tw": "魔符",
+        "ru": "Талисманы",
+        "jp": "タリスマン"
+      },
+      "prefixCount": 152,
+      "suffixCount": 128,
+      "totalCount": 280,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Two_Hand_Axe": {
+      "jsonPath": "modifiers/json/Two_Hand_Axe.json",
+      "className": {
+        "en": "Two Hand Axes",
+        "kr": "양손 도끼",
+        "tw": "雙手斧",
+        "ru": "Двуручные топоры",
+        "jp": "両手斧"
+      },
+      "prefixCount": 113,
+      "suffixCount": 80,
+      "totalCount": 193,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Two_Hand_Mace": {
+      "jsonPath": "modifiers/json/Two_Hand_Mace.json",
+      "className": {
+        "en": "Two Hand Maces",
+        "kr": "양손 철퇴",
+        "tw": "雙手錘",
+        "ru": "Двуручные булавы",
+        "jp": "両手メイス"
+      },
+      "prefixCount": 113,
+      "suffixCount": 80,
+      "totalCount": 193,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Two_Hand_Sword": {
+      "jsonPath": "modifiers/json/Two_Hand_Sword.json",
+      "className": {
+        "en": "Two Hand Swords",
+        "kr": "양손 검",
+        "tw": "雙手劍",
+        "ru": "Двуручные мечи",
+        "jp": "両手剣"
+      },
+      "prefixCount": 115,
+      "suffixCount": 88,
+      "totalCount": 203,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "UtilityFlask": {
+      "jsonPath": "modifiers/json/UtilityFlask.json",
+      "className": {
+        "en": "Charms",
+        "kr": "호신부",
+        "tw": "護符",
+        "ru": "Обереги",
+        "jp": "チャーム"
+      },
+      "prefixCount": 27,
+      "suffixCount": 24,
+      "totalCount": 51,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "Wand": {
+      "jsonPath": "modifiers/json/Wand.json",
+      "className": {
+        "en": "Wands",
+        "kr": "마법봉",
+        "tw": "法杖",
+        "ru": "Жезлы",
+        "jp": "ワンド"
+      },
+      "prefixCount": 185,
+      "suffixCount": 152,
+      "totalCount": 337,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    },
+    "Warstaff": {
+      "jsonPath": "modifiers/json/Warstaff.json",
+      "className": {
+        "en": "Quarterstaves",
+        "kr": "육척봉",
+        "tw": "細杖",
+        "ru": "Боевые посохи",
+        "jp": "クォータースタッフ"
+      },
+      "prefixCount": 113,
+      "suffixCount": 88,
+      "totalCount": 201,
+      "buckets": [
+        "normal",
+        "corrupted",
+        "essence",
+        "unique"
+      ]
+    }
+  }
+}

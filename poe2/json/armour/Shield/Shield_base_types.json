@@ -1,0 +1,4571 @@
+[
+  {
+    "id": "golden-flame",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Golden Flame",
+      "kr": "황금 불꽃",
+      "tw": "黃金聖炎",
+      "ru": "Золотое пламя",
+      "jp": "黄金の炎"
+    },
+    "dropLevel": 15,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChaosResistDemigodsTorchImplicit",
+        "lines": [
+          {
+            "stat": "base_chaos_damage_resistance_%",
+            "value": "11~19",
+            "text": {
+              "en": "11~19% to Chaos Resistance",
+              "kr": "카오스 저항 11~19%",
+              "tw": "11~19%混沌抗性",
+              "ru": "11~19% к сопротивлению хаосу",
+              "jp": "混沌耐性 11~19%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "splintered-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Splintered Tower Shield",
+      "kr": "쪼개진 거대 방패",
+      "tw": "朽木塔盾",
+      "ru": "Обшарпанный ростовой щит",
+      "jp": "割れたタワーシールド"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 18,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "painted-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Painted Tower Shield",
+      "kr": "도색된 거대 방패",
+      "tw": "彩繪塔盾",
+      "ru": "Расписной ростовой щит",
+      "jp": "彩色のタワーシールド"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "armour",
+      "armour": 33,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "braced-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Braced Tower Shield",
+      "kr": "죔쇠 거대 방패",
+      "tw": "加固塔盾",
+      "ru": "Окованный ростовой щит",
+      "jp": "補強のタワーシールド"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": 50,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "barricade-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Barricade Tower Shield",
+      "kr": "방벽 거대 방패",
+      "tw": "障壁塔盾",
+      "ru": "Баррикадный ростовой щит",
+      "jp": "防壁のタワーシールド"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 62,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "effigial-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Effigial Tower Shield",
+      "kr": "제웅 거대 방패",
+      "tw": "靈像塔盾",
+      "ru": "Тотемный ростовой щит",
+      "jp": "立像のタワーシールド"
+    },
+    "dropLevel": 21,
+    "spec": {
+      "type": "armour",
+      "armour": 76,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rampart-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Rampart Tower Shield",
+      "kr": "성벽 거대 방패",
+      "tw": "壁壘塔盾",
+      "ru": "Бастионный ростовой щит",
+      "jp": "城壁のタワーシールド"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "heraldric-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Heraldric Tower Shield",
+      "kr": "전령 거대 방패",
+      "tw": "紋章塔盾",
+      "ru": "Геральдический ростовой щит",
+      "jp": "紋章のタワーシールド"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 111,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stone-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Stone Tower Shield",
+      "kr": "돌 거대 방패",
+      "tw": "岩石塔盾",
+      "ru": "Каменный ростовой щит",
+      "jp": "石のタワーシールド"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "armour",
+      "armour": 119,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crucible-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Crucible Tower Shield",
+      "kr": "도가니 거대 방패",
+      "tw": "磨煉塔盾",
+      "ru": "Закалённый ростовой щит",
+      "jp": "試練のタワーシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 145,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ancestor-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ancestor Tower Shield",
+      "kr": "선조 거대 방패",
+      "tw": "先祖塔盾",
+      "ru": "Ростовой щит предков",
+      "jp": "先祖のタワーシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 160,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "phalanx-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Phalanx Tower Shield",
+      "kr": "밀집 거대 방패",
+      "tw": "方陣塔盾",
+      "ru": "Ростовой щит фаланги",
+      "jp": "ファランクスのタワーシールド"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 166,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "defiant-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Defiant Tower Shield",
+      "kr": "저항 거대 방패",
+      "tw": "忤逆塔盾",
+      "ru": "Непокорный ростовой щит",
+      "jp": "反抗のタワーシールド"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "armour",
+      "armour": 183,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blacksteel-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Blacksteel Tower Shield",
+      "kr": "검은강철 거대 방패",
+      "tw": "黑鋼塔盾",
+      "ru": "Ростовой щит из чёрной стали",
+      "jp": "黒鉄のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 203,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hardwood-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Hardwood Targe",
+      "kr": "견목 타지",
+      "tw": "硬木圓盾",
+      "ru": "Тарджет из твёрдой древесины",
+      "jp": "堅木のタージ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 10,
+      "evasion": 7,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pelage-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Pelage Targe",
+      "kr": "털가죽 타지",
+      "tw": "毛皮圓盾",
+      "ru": "Отделанный мехом тарджет",
+      "jp": "毛皮のタージ"
+    },
+    "dropLevel": 8,
+    "spec": {
+      "type": "armour",
+      "armour": 21,
+      "evasion": 17,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "studded-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Studded Targe",
+      "kr": "징 박힌 타지",
+      "tw": "鑲釘圓盾",
+      "ru": "Тарджет с заклёпками",
+      "jp": "鋲付きのタージ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 34,
+      "evasion": 29,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crescent-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Crescent Targe",
+      "kr": "초승달 타지",
+      "tw": "新月圓盾",
+      "ru": "Тарджет с полумесяцем",
+      "jp": "三日月のタージ"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 50,
+      "evasion": 44,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "chiseled-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Chiseled Targe",
+      "kr": "깎아놓은 타지",
+      "tw": "鑿刻圓盾",
+      "ru": "Рельефный тарджет",
+      "jp": "彫り込みのあるタージ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 61,
+      "evasion": 54,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "feathered-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Feathered Targe",
+      "kr": "깃털 타지",
+      "tw": "羽毛圓盾",
+      "ru": "Украшенный перьями тарджет",
+      "jp": "羽根付きのタージ"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "armour",
+      "armour": 67,
+      "evasion": 60,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stratified-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Stratified Targe",
+      "kr": "계층화된 타지",
+      "tw": "分層圓盾",
+      "ru": "Многослойный тарджет",
+      "jp": "重層タージ"
+    },
+    "dropLevel": 46,
+    "spec": {
+      "type": "armour",
+      "armour": 82,
+      "evasion": 74,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "carved-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Carved Targe",
+      "kr": "조각된 타지",
+      "tw": "雕刻圓盾",
+      "ru": "Резной тарджет",
+      "jp": "彫刻のタージ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 81,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mosaic-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Mosaic Targe",
+      "kr": "모자이크 타지",
+      "tw": "鑲嵌圓盾",
+      "ru": "Мозаичный тарджет",
+      "jp": "モザイクタージ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 91,
+      "evasion": 82,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "aureate-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Aureate Targe",
+      "kr": "금빛 타지",
+      "tw": "鍍金圓盾",
+      "ru": "Золочёный тарджет",
+      "jp": "金色のタージ"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "armour",
+      "armour": 99,
+      "evasion": 90,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "grand-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Grand Targe",
+      "kr": "우수한 타지",
+      "tw": "宏偉圓盾",
+      "ru": "Великолепный тарджет",
+      "jp": "大いなるタージ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 112,
+      "evasion": 102,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blazon-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Blazon Crest Shield",
+      "kr": "문장 문양 방패",
+      "tw": "家徽紋章盾",
+      "ru": "Гербовый щит",
+      "jp": "家紋のクレストシールド"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 10,
+      "evasion": 0,
+      "energyShield": 6,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sigil-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Sigil Crest Shield",
+      "kr": "부적 문양 방패",
+      "tw": "符印紋章盾",
+      "ru": "Гербовый щит с символикой",
+      "jp": "刻印のクレストシールド"
+    },
+    "dropLevel": 7,
+    "spec": {
+      "type": "armour",
+      "armour": 20,
+      "evasion": 0,
+      "energyShield": 9,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "emblem-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Emblem Crest Shield",
+      "kr": "상징 문양 방패",
+      "tw": "徽印紋章盾",
+      "ru": "Гербовый щит с эмблемой",
+      "jp": "紋章のクレストシールド"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 34,
+      "evasion": 0,
+      "energyShield": 12,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "jingling-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Jingling Crest Shield",
+      "kr": "방울 문양 방패",
+      "tw": "響聲紋章盾",
+      "ru": "Звенящий гербовый щит",
+      "jp": "鈴音のクレストシールド"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 53,
+      "evasion": 0,
+      "energyShield": 17,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sectarian-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Sectarian Crest Shield",
+      "kr": "종파 문양 방패",
+      "tw": "宗派紋章盾",
+      "ru": "Гербовый щит сектанта",
+      "jp": "教団のクレストシールド"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 61,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "omen-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Omen Crest Shield",
+      "kr": "징조 문양 방패",
+      "tw": "預兆紋章盾",
+      "ru": "Гербовый щит знамения",
+      "jp": "お告げのクレストシールド"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "armour",
+      "armour": 66,
+      "evasion": 0,
+      "energyShield": 20,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wayward-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Wayward Crest Shield",
+      "kr": "버릇없는 문양 방패",
+      "tw": "剛愎紋章盾",
+      "ru": "Неуступчивый гербовый щит",
+      "jp": "気まぐれなクレストシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 23,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "seer-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Seer Crest Shield",
+      "kr": "예견자 문양 방패",
+      "tw": "先知紋章盾",
+      "ru": "Гербовый щит провидца",
+      "jp": "先見のクレストシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 88,
+      "evasion": 0,
+      "energyShield": 25,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stoic-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Stoic Crest Shield",
+      "kr": "엄숙한 문양 방패",
+      "tw": "堅忍紋章盾",
+      "ru": "Гербовый щит стоика",
+      "jp": "不動のクレストシールド"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 91,
+      "evasion": 0,
+      "energyShield": 26,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "empyreal-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Empyreal Crest Shield",
+      "kr": "최고천 문양 방패",
+      "tw": "蒼天紋章盾",
+      "ru": "Небесный гербовый щит",
+      "jp": "天上のクレストシールド"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "armour",
+      "armour": 99,
+      "evasion": 0,
+      "energyShield": 28,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "deified-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Deified Crest Shield",
+      "kr": "신격화된 문양 방패",
+      "tw": "神化紋章盾",
+      "ru": "Гербовый щит божества",
+      "jp": "神聖なクレストシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 112,
+      "evasion": 0,
+      "energyShield": 31,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "golden-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Golden Shield",
+      "kr": "황금 방패",
+      "tw": "黃金盾牌",
+      "ru": "Золотой щит",
+      "jp": "黄金の盾"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "aged-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Aged Tower Shield",
+      "kr": "오래된 거대 방패",
+      "tw": "陳舊塔盾",
+      "ru": "Старый ростовой щит",
+      "jp": "使い古されたタワーシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 145,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "metalworked-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Metalworked Tower Shield",
+      "kr": "금속가공 거대 방패",
+      "tw": "金屬塔盾",
+      "ru": "Обитый металлом ростовой щит",
+      "jp": "金属細工のタワーシールド"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 154,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cultist-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Cultist Tower Shield",
+      "kr": "광신자 거대 방패",
+      "tw": "教徒塔盾",
+      "ru": "Культовый ростовой щит",
+      "jp": "邪教徒のタワーシールド"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 163,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bulwark-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Bulwark Tower Shield",
+      "kr": "방벽 거대 방패",
+      "tw": "守護塔盾",
+      "ru": "Фортовый ростовой щит",
+      "jp": "砦のタワーシールド"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 171,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "noble-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Noble Tower Shield",
+      "kr": "귀족 거대 방패",
+      "tw": "高貴塔盾",
+      "ru": "Ростовой щит дворянина",
+      "jp": "貴族のタワーシールド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 186,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "goldworked-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Goldworked Tower Shield",
+      "kr": "금가공 거대 방패",
+      "tw": "黃金塔盾",
+      "ru": "Покрытый золотом ростовой щит",
+      "jp": "金細工のタワーシールド"
+    },
+    "dropLevel": 61,
+    "spec": {
+      "type": "armour",
+      "armour": 192,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ironwood-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ironwood Targe",
+      "kr": "철목 타지",
+      "tw": "鐵木圓盾",
+      "ru": "Тарджет из железного дерева",
+      "jp": "鉄木のタージ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 72,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fur-lined-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Fur-lined Targe",
+      "kr": "모피 안감 타지",
+      "tw": "皮襯圓盾",
+      "ru": "Подбитый мехом тарджет",
+      "jp": "毛皮張りのタージ"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 85,
+      "evasion": 76,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mercenary-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Mercenary Targe",
+      "kr": "용병 타지",
+      "tw": "傭兵圓盾",
+      "ru": "Тарджет наёмника",
+      "jp": "傭兵のタージ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 81,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "polished-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Polished Targe",
+      "kr": "광택 나는 타지",
+      "tw": "拋光圓盾",
+      "ru": "Полированный тарджет",
+      "jp": "磨かれたタージ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 94,
+      "evasion": 85,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "stone-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Stone Targe",
+      "kr": "돌 타지",
+      "tw": "岩石圓盾",
+      "ru": "Каменный тарджет",
+      "jp": "石のタージ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 102,
+      "evasion": 93,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "avian-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Avian Targe",
+      "kr": "새의 타지",
+      "tw": "飛羽圓盾",
+      "ru": "Оперённый тарджет",
+      "jp": "鳥のタージ"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 97,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "painted-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Painted Crest Shield",
+      "kr": "도색된 문양 방패",
+      "tw": "彩繪紋章盾",
+      "ru": "Крашеный гербовый щит",
+      "jp": "彩色されたクレストシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 23,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "engraved-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Engraved Crest Shield",
+      "kr": "아로새긴 문양 방패",
+      "tw": "紋刻紋章盾",
+      "ru": "Гербовый щит с гравировкой",
+      "jp": "彫刻のクレストシールド"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 85,
+      "evasion": 0,
+      "energyShield": 24,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "descry-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Descry Crest Shield",
+      "kr": "성표 문양 방패",
+      "tw": "遠見紋章盾",
+      "ru": "Гербовый щит со знаком различия",
+      "jp": "デスクライ・クレストシールド"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 0,
+      "energyShield": 26,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dekharan-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Dekharan Crest Shield",
+      "kr": "데카란 문양 방패",
+      "tw": "部下紋章盾",
+      "ru": "Гербовый щит дехара",
+      "jp": "デカーラ・クレストシールド"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 94,
+      "evasion": 0,
+      "energyShield": 27,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "quartered-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Quartered Crest Shield",
+      "kr": "쪼개진 문양 방패",
+      "tw": "四分紋章盾",
+      "ru": "Расчетверённый гербовый щит",
+      "jp": "四分割のクレストシールド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 102,
+      "evasion": 0,
+      "energyShield": 29,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "glowering-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Glowering Crest Shield",
+      "kr": "험한 눈빛의 문양 방패",
+      "tw": "怒視紋章盾",
+      "ru": "Угрожающий гербовый щит",
+      "jp": "威圧的なクレストシールド"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 0,
+      "energyShield": 30,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "royal-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Royal Tower Shield",
+      "kr": "왕실 거대 방패",
+      "tw": "皇族塔盾",
+      "ru": "Царский ростовой щит",
+      "jp": "王家のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 203,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fortress-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Fortress Tower Shield",
+      "kr": "요새 거대 방패",
+      "tw": "要塞塔盾",
+      "ru": "Крепостной ростовой щит",
+      "jp": "要塞のタワーシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 223,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vaal-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Vaal Tower Shield",
+      "kr": "바알 거대 방패",
+      "tw": "瓦爾塔盾",
+      "ru": "Ростовой щит ваал",
+      "jp": "ヴァールのタワーシールド"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 244,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tawhoan-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Tawhoan Tower Shield",
+      "kr": "타호아의 거대 방패",
+      "tw": "塔赫亞塔盾",
+      "ru": "Ростовой щит Тахоа",
+      "jp": "タウホアのタワーシールド"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 264,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "glacial-fortress",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Glacial Fortress",
+      "kr": "빙하 요새",
+      "tw": "冰川堡壘",
+      "ru": "Ледяная крепость",
+      "jp": "氷河の要塞"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 223,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mammoth-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Mammoth Targe",
+      "kr": "매머드 타지",
+      "tw": "猛獁圓盾",
+      "ru": "Тарджет на меху мамонта",
+      "jp": "マンモスのタージ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 112,
+      "evasion": 102,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "baroque-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Baroque Targe",
+      "kr": "바로크 타지",
+      "tw": "巴洛克圓盾",
+      "ru": "Барочный тарджет",
+      "jp": "バロックのタージ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 123,
+      "evasion": 112,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "soaring-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Soaring Targe",
+      "kr": "솟구치는 타지",
+      "tw": "翱翔圓盾",
+      "ru": "Парящий тарджет",
+      "jp": "飛翔のタージ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 122,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "golden-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Golden Targe",
+      "kr": "금색 타지",
+      "tw": "耀金圓盾",
+      "ru": "Золотой тарджет",
+      "jp": "黄金のタージ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 145,
+      "evasion": 132,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "venerable-defender",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Venerable Defender",
+      "kr": "덕망 있는 방어자",
+      "tw": "古老護衛盾",
+      "ru": "Почётный защитник",
+      "jp": "尊き守護者"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 97,
+      "energyShield": 0,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "intricate-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Intricate Crest Shield",
+      "kr": "복잡한 문양 방패",
+      "tw": "錯綜紋章盾",
+      "ru": "Затейливый гербовый щит",
+      "jp": "精緻なクレストシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 112,
+      "evasion": 0,
+      "energyShield": 31,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sekheman-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Sekheman Crest Shield",
+      "kr": "세케마의 문양 방패",
+      "tw": "絲克瑪紋章盾",
+      "ru": "Гербовый щит Сехемы",
+      "jp": "セケマのクレストシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 123,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vaal-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Vaal Crest Shield",
+      "kr": "바알 문양 방패",
+      "tw": "瓦爾紋章盾",
+      "ru": "Гербовый щит ваал",
+      "jp": "ヴァールのクレストシールド"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 134,
+      "evasion": 0,
+      "energyShield": 37,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blacksteel-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Blacksteel Crest Shield",
+      "kr": "검은강철 문양 방패",
+      "tw": "烏鋼紋章盾",
+      "ru": "Гербовый щит из чёрной стали",
+      "jp": "ブラックスティールクレストシールド"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 145,
+      "evasion": 0,
+      "energyShield": 40,
+      "ward": 0
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-splintered-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Splintered Tower Shield",
+      "kr": "룬벼림 쪼개진 거대 방패",
+      "tw": "符鍛朽木塔盾",
+      "ru": "Руннокованый обшарпанный ростовой щит",
+      "jp": "ルーンフォージの割れたタワーシールド"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 18,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-painted-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Painted Tower Shield",
+      "kr": "룬벼림 도색된 거대 방패",
+      "tw": "符鍛彩繪塔盾",
+      "ru": "Руннокованый расписной ростовой щит",
+      "jp": "ルーンフォージの彩色のタワーシールド"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "armour",
+      "armour": 33,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 15
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-braced-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Braced Tower Shield",
+      "kr": "룬벼림 죔쇠 거대 방패",
+      "tw": "符鍛加固塔盾",
+      "ru": "Руннокованый окованный ростовой щит",
+      "jp": "ルーンフォージの補強のタワーシールド"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": 50,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 18
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-barricade-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Barricade Tower Shield",
+      "kr": "룬벼림 방벽 거대 방패",
+      "tw": "符鍛障壁塔盾",
+      "ru": "Руннокованый баррикадный ростовой щит",
+      "jp": "ルーンフォージの防壁のタワーシールド"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 62,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 22
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-effigial-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Effigial Tower Shield",
+      "kr": "룬벼림 제웅 거대 방패",
+      "tw": "符鍛靈像塔盾",
+      "ru": "Руннокованый тотемный ростовой щит",
+      "jp": "ルーンフォージの立像のタワーシールド"
+    },
+    "dropLevel": 21,
+    "spec": {
+      "type": "armour",
+      "armour": 76,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 25
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-rampart-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Rampart Tower Shield",
+      "kr": "룬벼림 성벽 거대 방패",
+      "tw": "符鍛壁壘塔盾",
+      "ru": "Руннокованый бастионный ростовой щит",
+      "jp": "ルーンフォージの城壁のタワーシールド"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 27
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-heraldric-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Heraldric Tower Shield",
+      "kr": "룬벼림 전령 거대 방패",
+      "tw": "符鍛紋章塔盾",
+      "ru": "Руннокованый геральдический ростовой щит",
+      "jp": "ルーンフォージの紋章のタワーシールド"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 111,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 30
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stone-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Stone Tower Shield",
+      "kr": "룬벼림 돌 거대 방패",
+      "tw": "符鍛岩石塔盾",
+      "ru": "Руннокованый каменный ростовой щит",
+      "jp": "ルーンフォージの石のタワーシールド"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "armour",
+      "armour": 119,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 33
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-crucible-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Crucible Tower Shield",
+      "kr": "룬벼림 도가니 거대 방패",
+      "tw": "符鍛磨煉塔盾",
+      "ru": "Руннокованый закалённый ростовой щит",
+      "jp": "ルーンフォージの試練のタワーシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 145,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 36
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-ancestor-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Ancestor Tower Shield",
+      "kr": "룬벼림 선조 거대 방패",
+      "tw": "符鍛先祖塔盾",
+      "ru": "Руннокованый ростовой щит предков",
+      "jp": "ルーンフォージの先祖のタワーシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 148
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-phalanx-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Phalanx Tower Shield",
+      "kr": "룬벼림 밀집 거대 방패",
+      "tw": "符鍛方陣塔盾",
+      "ru": "Руннокованый ростовой щит фаланги",
+      "jp": "ルーンフォージのファランクスのタワーシールド"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 146
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-defiant-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Defiant Tower Shield",
+      "kr": "룬벼림 저항 거대 방패",
+      "tw": "符鍛忤逆塔盾",
+      "ru": "Руннокованый непокорный ростовой щит",
+      "jp": "ルーンフォージの反抗のタワーシールド"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 160
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-blacksteel-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Blacksteel Tower Shield",
+      "kr": "룬벼림 검은강철 거대 방패",
+      "tw": "符鍛黑鋼塔盾",
+      "ru": "Руннокованый ростовой щит из чёрной стали",
+      "jp": "ルーンフォージの黒鉄のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 176
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-hardwood-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Hardwood Targe",
+      "kr": "룬벼림 견목 타지",
+      "tw": "符鍛硬木圓盾",
+      "ru": "Руннокованый тарджет из твёрдой древесины",
+      "jp": "ルーンフォージの堅木のタージ"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 10,
+      "evasion": 7,
+      "energyShield": 0,
+      "ward": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-pelage-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Pelage Targe",
+      "kr": "룬벼림 털가죽 타지",
+      "tw": "符鍛毛皮圓盾",
+      "ru": "Руннокованый отделанный мехом тарджет",
+      "jp": "ルーンフォージの毛皮のタージ"
+    },
+    "dropLevel": 8,
+    "spec": {
+      "type": "armour",
+      "armour": 21,
+      "evasion": 17,
+      "energyShield": 0,
+      "ward": 17
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-studded-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Studded Targe",
+      "kr": "룬벼림 징 박힌 타지",
+      "tw": "符鍛鑲釘圓盾",
+      "ru": "Руннокованый тарджет с заклёпками",
+      "jp": "ルーンフォージの鋲付きのタージ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 34,
+      "evasion": 29,
+      "energyShield": 0,
+      "ward": 22
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-crescent-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Crescent Targe",
+      "kr": "룬벼림 초승달 타지",
+      "tw": "符鍛新月圓盾",
+      "ru": "Руннокованый тарджет с полумесяцем",
+      "jp": "ルーンフォージの三日月のタージ"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "armour",
+      "armour": 50,
+      "evasion": 44,
+      "energyShield": 0,
+      "ward": 30
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-chiseled-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Chiseled Targe",
+      "kr": "룬벼림 깎아놓은 타지",
+      "tw": "符鍛鑿刻圓盾",
+      "ru": "Руннокованый рельефный тарджет",
+      "jp": "ルーンフォージの彫り込みのあるタージ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 61,
+      "evasion": 54,
+      "energyShield": 0,
+      "ward": 33
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-feathered-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Feathered Targe",
+      "kr": "룬벼림 깃털 타지",
+      "tw": "符鍛羽毛圓盾",
+      "ru": "Руннокованый украшенный перьями тарджет",
+      "jp": "ルーンフォージの羽根付きのタージ"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "armour",
+      "armour": 67,
+      "evasion": 60,
+      "energyShield": 0,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stratified-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Stratified Targe",
+      "kr": "룬벼림 계층화된 타지",
+      "tw": "符鍛分層圓盾",
+      "ru": "Руннокованый многослойный тарджет",
+      "jp": "ルーンフォージの重層タージ"
+    },
+    "dropLevel": 46,
+    "spec": {
+      "type": "armour",
+      "armour": 82,
+      "evasion": 74,
+      "energyShield": 0,
+      "ward": 38
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-carved-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Carved Targe",
+      "kr": "룬벼림 조각된 타지",
+      "tw": "符鍛雕刻圓盾",
+      "ru": "Руннокованый резной тарджет",
+      "jp": "ルーンフォージの彫刻のタージ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": 89,
+      "evasion": 81,
+      "energyShield": 0,
+      "ward": 40
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-mosaic-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Mosaic Targe",
+      "kr": "룬벼림 모자이크 타지",
+      "tw": "符鍛鑲嵌圓盾",
+      "ru": "Руннокованый мозаичный тарджет",
+      "jp": "ルーンフォージのモザイクタージ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 146
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-aureate-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Aureate Targe",
+      "kr": "룬벼림 금빛 타지",
+      "tw": "符鍛鍍金圓盾",
+      "ru": "Руннокованый золочёный тарджет",
+      "jp": "ルーンフォージの金色のタージ"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 157
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-grand-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Grand Targe",
+      "kr": "룬벼림 우수한 타지",
+      "tw": "符鍛宏偉圓盾",
+      "ru": "Руннокованый великолепный тарджет",
+      "jp": "ルーンフォージの大いなるタージ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 176
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-venerable-defender",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "[DNT] Venerable Defender",
+      "kr": "[DNT] Venerable Defender",
+      "tw": "古老護衛盾",
+      "ru": "[DNT-UNUSED] Venerable Defender",
+      "jp": "[DNT-UNUSED] Venerable Defender"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": 107,
+      "evasion": 97,
+      "energyShield": 0,
+      "ward": 51
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-blazon-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Blazon Crest Shield",
+      "kr": "룬벼림 문장 문양 방패",
+      "tw": "符鍛家徽紋章盾",
+      "ru": "Руннокованый гербовый щит",
+      "jp": "ルーンフォージの家紋のクレストシールド"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": 10,
+      "evasion": 0,
+      "energyShield": 6,
+      "ward": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sigil-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Sigil Crest Shield",
+      "kr": "룬벼림 부적 문양 방패",
+      "tw": "符鍛符印紋章盾",
+      "ru": "Руннокованый гербовый щит с символикой",
+      "jp": "ルーンフォージの刻印のクレストシールド"
+    },
+    "dropLevel": 7,
+    "spec": {
+      "type": "armour",
+      "armour": 20,
+      "evasion": 0,
+      "energyShield": 9,
+      "ward": 16
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-emblem-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Emblem Crest Shield",
+      "kr": "룬벼림 상징 문양 방패",
+      "tw": "符鍛徽印紋章盾",
+      "ru": "Руннокованый гербовый щит с эмблемой",
+      "jp": "ルーンフォージの紋章のクレストシールド"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": 34,
+      "evasion": 0,
+      "energyShield": 12,
+      "ward": 22
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-jingling-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Jingling Crest Shield",
+      "kr": "룬벼림 방울 문양 방패",
+      "tw": "符鍛響聲紋章盾",
+      "ru": "Руннокованый звенящий гербовый щит",
+      "jp": "ルーンフォージの鈴音のクレストシールド"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": 53,
+      "evasion": 0,
+      "energyShield": 17,
+      "ward": 31
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sectarian-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Sectarian Crest Shield",
+      "kr": "룬벼림 종파 문양 방패",
+      "tw": "符鍛宗派紋章盾",
+      "ru": "Руннокованый гербовый щит сектанта",
+      "jp": "ルーンフォージの教団のクレストシールド"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": 61,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 33
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-omen-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Omen Crest Shield",
+      "kr": "룬벼림 징조 문양 방패",
+      "tw": "符鍛預兆紋章盾",
+      "ru": "Руннокованый гербовый щит знамения",
+      "jp": "ルーンフォージのお告げのクレストシールド"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "armour",
+      "armour": 66,
+      "evasion": 0,
+      "energyShield": 20,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-wayward-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Wayward Crest Shield",
+      "kr": "룬벼림 버릇없는 문양 방패",
+      "tw": "符鍛剛愎紋章盾",
+      "ru": "Руннокованый неуступчивый гербовый щит",
+      "jp": "ルーンフォージの気まぐれなクレストシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 23,
+      "ward": 38
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-seer-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Seer Crest Shield",
+      "kr": "룬벼림 예견자 문양 방패",
+      "tw": "符鍛先知紋章盾",
+      "ru": "Руннокованый гербовый щит провидца",
+      "jp": "ルーンフォージの先見のクレストシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 88,
+      "evasion": 0,
+      "energyShield": 25,
+      "ward": 40
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stoic-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Stoic Crest Shield",
+      "kr": "룬벼림 엄숙한 문양 방패",
+      "tw": "符鍛堅忍紋章盾",
+      "ru": "Руннокованый гербовый щит стоика",
+      "jp": "ルーンフォージの不動のクレストシールド"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 146
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-empyreal-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Empyreal Crest Shield",
+      "kr": "룬벼림 최고천 문양 방패",
+      "tw": "符鍛蒼天紋章盾",
+      "ru": "Руннокованый небесный гербовый щит",
+      "jp": "ルーンフォージの天上のクレストシールド"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 157
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-deified-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Deified Crest Shield",
+      "kr": "룬벼림 신격화된 문양 방패",
+      "tw": "符鍛神化紋章盾",
+      "ru": "Руннокованый гербовый щит божества",
+      "jp": "ルーンフォージの神聖なクレストシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 176
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-bulwark-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Bulwark Tower Shield",
+      "kr": "룬벼림 방벽 거대 방패",
+      "tw": "符鍛守護塔盾",
+      "ru": "Руннокованый фортовый ростовой щит",
+      "jp": "ルーンフォージの砦のタワーシールド"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 137,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-noble-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Noble Tower Shield",
+      "kr": "룬벼림 귀족 거대 방패",
+      "tw": "符鍛高貴塔盾",
+      "ru": "Руннокованый ростовой щит дворянина",
+      "jp": "ルーンフォージの貴族のタワーシールド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 167,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 41
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-goldworked-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Goldworked Tower Shield",
+      "kr": "룬벼림 금가공 거대 방패",
+      "tw": "符鍛黃金塔盾",
+      "ru": "Руннокованый покрытый золотом ростовой щит",
+      "jp": "ルーンフォージの金細工のタワーシールド"
+    },
+    "dropLevel": 61,
+    "spec": {
+      "type": "armour",
+      "armour": 144,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 58
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-polished-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Polished Targe",
+      "kr": "룬벼림 광택 나는 타지",
+      "tw": "符鍛拋光圓盾",
+      "ru": "Руннокованый полированный тарджет",
+      "jp": "ルーンフォージの磨かれたタージ"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 75,
+      "evasion": 68,
+      "energyShield": 0,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-stone-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Stone Targe",
+      "kr": "룬벼림 돌 타지",
+      "tw": "符鍛岩石圓盾",
+      "ru": "Руннокованый каменный тарджет",
+      "jp": "ルーンフォージの石のタージ"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 92,
+      "evasion": 84,
+      "energyShield": 0,
+      "ward": 41
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-avian-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Avian Targe",
+      "kr": "룬벼림 새의 타지",
+      "tw": "符鍛飛羽圓盾",
+      "ru": "Руннокованый оперённый тарджет",
+      "jp": "ルーンフォージの鳥のタージ"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 73,
+      "energyShield": 0,
+      "ward": 59
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-dekharan-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Dekharan Crest Shield",
+      "kr": "룬벼림 데카란 문양 방패",
+      "tw": "符鍛部下紋章盾",
+      "ru": "Руннокованый гербовый щит дехара",
+      "jp": "ルーンフォージのデカーラ・クレストシールド"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": 75,
+      "evasion": 0,
+      "energyShield": 21,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-quartered-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Quartered Crest Shield",
+      "kr": "룬벼림 쪼개진 문양 방패",
+      "tw": "符鍛四分紋章盾",
+      "ru": "Руннокованый расчетверённый гербовый щит",
+      "jp": "ルーンフォージの四分割のクレストシールド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": 92,
+      "evasion": 0,
+      "energyShield": 26,
+      "ward": 41
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-glowering-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Glowering Crest Shield",
+      "kr": "룬벼림 험한 눈빛의 문양 방패",
+      "tw": "符鍛怒視紋章盾",
+      "ru": "Руннокованый угрожающий гербовый щит",
+      "jp": "ルーンフォージの威圧的なクレストシールド"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": 80,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 59
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-royal-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Royal Tower Shield",
+      "kr": "룬벼림 왕실 거대 방패",
+      "tw": "符鍛皇族塔盾",
+      "ru": "Руннокованый царский ростовой щит",
+      "jp": "ルーンフォージの王家のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 183,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 44
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-fortress-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Fortress Tower Shield",
+      "kr": "룬벼림 요새 거대 방패",
+      "tw": "符鍛要塞塔盾",
+      "ru": "Руннокованый крепостной ростовой щит",
+      "jp": "ルーンフォージの要塞のタワーシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 132,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 106
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-vaal-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Vaal Tower Shield",
+      "kr": "룬벼림 바알 거대 방패",
+      "tw": "符鍛瓦爾塔盾",
+      "ru": "Руннокованый ростовой щит ваал",
+      "jp": "ルーンフォージのヴァールのタワーシールド"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 213,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-tawhoan-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Tawhoan Tower Shield",
+      "kr": "룬벼림 타호아의 거대 방패",
+      "tw": "符鍛塔赫亞塔盾",
+      "ru": "Руннокованый ростовой щит Тахоа",
+      "jp": "ルーンフォージのタウホアのタワーシールド"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 71,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 176
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-mammoth-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Mammoth Targe",
+      "kr": "룬벼림 매머드 타지",
+      "tw": "符鍛猛獁圓盾",
+      "ru": "Руннокованый тарджет на меху мамонта",
+      "jp": "ルーンフォージのマンモスのタージ"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 101,
+      "evasion": 92,
+      "energyShield": 0,
+      "ward": 44
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-baroque-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Baroque Targe",
+      "kr": "룬벼림 바로크 타지",
+      "tw": "符鍛巴洛克圓盾",
+      "ru": "Руннокованый барочный тарджет",
+      "jp": "ルーンフォージのバロックのタージ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 66,
+      "energyShield": 0,
+      "ward": 106
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-soaring-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Soaring Targe",
+      "kr": "룬벼림 솟구치는 타지",
+      "tw": "符鍛翱翔圓盾",
+      "ru": "Руннокованый парящий тарджет",
+      "jp": "ルーンフォージの飛翔のタージ"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 106,
+      "evasion": 97,
+      "energyShield": 0,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-golden-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Golden Targe",
+      "kr": "룬벼림 금색 타지",
+      "tw": "符鍛耀金圓盾",
+      "ru": "Руннокованый золотой тарджет",
+      "jp": "ルーンフォージの黄金のタージ"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 34,
+      "evasion": 31,
+      "energyShield": 0,
+      "ward": 185
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-intricate-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Intricate Crest Shield",
+      "kr": "룬벼림 복잡한 문양 방패",
+      "tw": "符鍛錯綜紋章盾",
+      "ru": "Руннокованый затейливый гербовый щит",
+      "jp": "ルーンフォージの精緻なクレストシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 101,
+      "evasion": 0,
+      "energyShield": 28,
+      "ward": 44
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-sekheman-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Sekheman Crest Shield",
+      "kr": "룬벼림 세케마의 문양 방패",
+      "tw": "符鍛絲克瑪紋章盾",
+      "ru": "Руннокованый гербовый щит Сехемы",
+      "jp": "ルーンフォージのセケマのクレストシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 73,
+      "evasion": 0,
+      "energyShield": 20,
+      "ward": 106
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-vaal-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Vaal Crest Shield",
+      "kr": "룬벼림 바알 문양 방패",
+      "tw": "符鍛瓦爾紋章盾",
+      "ru": "Руннокованый гербовый щит ваал",
+      "jp": "ルーンフォージのヴァールのクレストシールド"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 123,
+      "evasion": 0,
+      "energyShield": 34,
+      "ward": 26
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-blacksteel-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runeforged Blacksteel Crest Shield",
+      "kr": "룬벼림 검은강철 문양 방패",
+      "tw": "符鍛烏鋼紋章盾",
+      "ru": "Руннокованый гербовый щит из чёрной стали",
+      "jp": "ルーンフォージのブラックスティールクレストシールド"
+    },
+    "dropLevel": 80,
+    "spec": {
+      "type": "armour",
+      "armour": 28,
+      "evasion": 0,
+      "energyShield": 8,
+      "ward": 194
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-splintered-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Splintered Tower Shield",
+      "kr": "룬숙련 쪼개진 거대 방패",
+      "tw": "符煉朽木塔盾",
+      "ru": "Рунномастерский обшарпанный ростовой щит",
+      "jp": "ルーンマスターの割れたタワーシールド"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 100,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 23
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-painted-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Painted Tower Shield",
+      "kr": "룬숙련 도색된 거대 방패",
+      "tw": "符煉彩繪塔盾",
+      "ru": "Рунномастерский расписной ростовой щит",
+      "jp": "ルーンマスターの彩色のタワーシールド"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 63,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 57
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-braced-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Braced Tower Shield",
+      "kr": "룬숙련 죔쇠 거대 방패",
+      "tw": "符煉加固塔盾",
+      "ru": "Рунномастерский окованный ростовой щит",
+      "jp": "ルーンマスターの補強のタワーシールド"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 88,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-barricade-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Barricade Tower Shield",
+      "kr": "룬숙련 방벽 거대 방패",
+      "tw": "符煉障壁塔盾",
+      "ru": "Рунномастерский баррикадный ростовой щит",
+      "jp": "ルーンマスターの防壁のタワーシールド"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 94,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-effigial-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Effigial Tower Shield",
+      "kr": "룬숙련 제웅 거대 방패",
+      "tw": "符煉靈像塔盾",
+      "ru": "Рунномастерский тотемный ростовой щит",
+      "jp": "ルーンマスターの立像のタワーシールド"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 113
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-rampart-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Rampart Tower Shield",
+      "kr": "룬숙련 성벽 거대 방패",
+      "tw": "符煉壁壘塔盾",
+      "ru": "Рунномастерский бастионный ростовой щит",
+      "jp": "ルーンマスターの城壁のタワーシールド"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 98,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 29
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-heraldric-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Heraldric Tower Shield",
+      "kr": "룬숙련 전령 거대 방패",
+      "tw": "符煉紋章塔盾",
+      "ru": "Рунномастерский геральдический ростовой щит",
+      "jp": "ルーンマスターの紋章のタワーシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": 96,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 42
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-crucible-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Crucible Tower Shield",
+      "kr": "룬숙련 도가니 거대 방패",
+      "tw": "符煉磨煉塔盾",
+      "ru": "Рунномастерский закалённый ростовой щит",
+      "jp": "ルーンマスターの試練のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 250
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-crucible-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Crucible Tower Shield",
+      "kr": "룬숙련 도가니 거대 방패",
+      "tw": "符煉磨煉塔盾",
+      "ru": "Рунномастерский закалённый ростовой щит",
+      "jp": "ルーンマスターの試練のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 100,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 100
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SvalinnVerisiumImplicitRunicWardOnBlock1",
+        "lines": [
+          {
+            "stat": "recover_X_ward_on_block",
+            "value": "15~25",
+            "text": {
+              "en": "Recover 15~25 Runic Ward when you Block",
+              "kr": "막아낼 시 룬 수호 15~25 회복",
+              "tw": "你格擋時回復15~25點符文保護",
+              "ru": "Восстанавливает 15~25 рунического барьера когда вы блокируете удар",
+              "jp": "ブロック時に15~25のルーンワードを回復する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-crucible-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Crucible Tower Shield",
+      "kr": "룬숙련 도가니 거대 방패",
+      "tw": "符煉磨煉塔盾",
+      "ru": "Рунномастерский закалённый ростовой щит",
+      "jp": "ルーンマスターの試練のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 148,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-crucible-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Crucible Tower Shield",
+      "kr": "룬숙련 도가니 거대 방패",
+      "tw": "符煉磨煉塔盾",
+      "ru": "Рунномастерский закалённый ростовой щит",
+      "jp": "ルーンマスターの試練のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 162,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 35
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SvalinnVerisiumImplicitManaBeforeLife1",
+        "lines": [
+          {
+            "stat": "base_damage_removed_from_mana_before_life_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% of Damage is taken from Mana before Life",
+              "kr": "받는 피해의 15~25%를 생명력 대신 마나로 소모",
+              "tw": "生命值所受的15~25%傷害由魔力扣除",
+              "ru": "15~25% от получаемого урона берется сначала из маны вместо здоровья",
+              "jp": "ダメージの15~25%をライフより先にマナで受ける"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-blacksteel-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Blacksteel Tower Shield",
+      "kr": "룬숙련 검은강철 거대 방패",
+      "tw": "符煉黑鋼塔盾",
+      "ru": "Рунномастерский ростовой щит из чёрной стали",
+      "jp": "ルーンマスターの黒鉄のタワーシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 102,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 88
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-vaal-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Vaal Tower Shield",
+      "kr": "룬숙련 바알 거대 방패",
+      "tw": "符煉瓦爾塔盾",
+      "ru": "Рунномастерский ростовой щит ваал",
+      "jp": "ルーンマスターのヴァールのタワーシールド"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "armour",
+      "armour": 203,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 70
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-glacial-fortress",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Glacial Fortress",
+      "kr": "룬숙련 빙하 요새",
+      "tw": "符煉冰川堡壘",
+      "ru": "Рунномастерская ледяная крепость",
+      "jp": "ルーンマスターの氷河の要塞"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": 203,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-hardwood-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Hardwood Targe",
+      "kr": "룬숙련 견목 타지",
+      "tw": "符煉硬木圓盾",
+      "ru": "Рунномастерский тарджет из твёрдой древесины",
+      "jp": "ルーンマスターの堅木のタージ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 55,
+      "evasion": 49,
+      "energyShield": 0,
+      "ward": 23
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-crescent-targe",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Crescent Targe",
+      "kr": "룬숙련 초승달 타지",
+      "tw": "符煉新月圓盾",
+      "ru": "Рунномастерский тарджет с полумесяцем",
+      "jp": "ルーンマスターの三日月のタージ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 52,
+      "evasion": 46,
+      "energyShield": 0,
+      "ward": 28
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-blazon-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Blazon Crest Shield",
+      "kr": "룬숙련 문장 문양 방패",
+      "tw": "符煉家徽紋章盾",
+      "ru": "Рунномастерский гербовый щит",
+      "jp": "ルーンマスターの家紋のクレストシールド"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 43,
+      "evasion": 0,
+      "energyShield": 13,
+      "ward": 47
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-sigil-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Sigil Crest Shield",
+      "kr": "룬숙련 부적 문양 방패",
+      "tw": "符煉符印紋章盾",
+      "ru": "Рунномастерский гербовый щит с символикой",
+      "jp": "ルーンマスターの刻印のクレストシールド"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": 65,
+      "evasion": 0,
+      "energyShield": 19,
+      "ward": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-emblem-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Emblem Crest Shield",
+      "kr": "룬숙련 상징 문양 방패",
+      "tw": "符煉徽印紋章盾",
+      "ru": "Рунномастерский гербовый щит с эмблемой",
+      "jp": "ルーンマスターの紋章のクレストシールド"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 48,
+      "evasion": 0,
+      "energyShield": 14,
+      "ward": 34
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-jingling-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Jingling Crest Shield",
+      "kr": "룬숙련 방울 문양 방패",
+      "tw": "符煉響聲紋章盾",
+      "ru": "Рунномастерский звенящий гербовый щит",
+      "jp": "ルーンマスターの鈴音のクレストシールド"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": 41,
+      "evasion": 0,
+      "energyShield": 12,
+      "ward": 45
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-omen-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Omen Crest Shield",
+      "kr": "룬숙련 징조 문양 방패",
+      "tw": "符煉預兆紋章盾",
+      "ru": "Рунномастерский гербовый щит знамения",
+      "jp": "ルーンマスターのお告げのクレストシールド"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "armour",
+      "armour": 42,
+      "evasion": 0,
+      "energyShield": 12,
+      "ward": 82
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-venerable-defender",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Venerable Defender",
+      "kr": "룬숙련 덕망 있는 방어자",
+      "tw": "符煉古老護衛盾",
+      "ru": "Рунномастерский почётный защитник",
+      "jp": "ルーンマスターの尊き守護者"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 203,
+      "evasion": 0,
+      "energyShield": 0,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-venerable-defender",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Venerable Defender",
+      "kr": "룬숙련 덕망 있는 방어자",
+      "tw": "符煉古老護衛盾",
+      "ru": "Рунномастерский почётный защитник",
+      "jp": "ルーンマスターの尊き守護者"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 0,
+      "evasion": 0,
+      "energyShield": 135,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-venerable-defender",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Venerable Defender",
+      "kr": "룬숙련 덕망 있는 방어자",
+      "tw": "符煉古老護衛盾",
+      "ru": "Рунномастерский почётный защитник",
+      "jp": "ルーンマスターの尊き守護者"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 112,
+      "evasion": 102,
+      "energyShield": 0,
+      "ward": 53
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-intricate-crest-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Runemastered Intricate Crest Shield",
+      "kr": "룬숙련 복잡한 문양 방패",
+      "tw": "符煉錯綜紋章盾",
+      "ru": "Рунномастерский затейливый гербовый щит",
+      "jp": "ルーンマスターの精緻なクレストシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": 78,
+      "evasion": 0,
+      "energyShield": 22,
+      "ward": 62
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

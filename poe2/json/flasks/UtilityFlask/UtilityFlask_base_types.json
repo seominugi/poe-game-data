@@ -1,0 +1,535 @@
+[
+  {
+    "id": "thawing-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Thawing Charm",
+      "kr": "해동 호신부",
+      "tw": "解凍護符",
+      "ru": "Тающий оберег",
+      "jp": "解凍のチャーム"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnFreeze1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_affected_by_freeze",
+            "value": "1",
+            "text": {
+              "en": "Used when you become Frozen",
+              "kr": "플레이어 동결 시 사용",
+              "tw": "當你被冰凍時使用",
+              "ru": "Используется, когда вы получаете заморозку",
+              "jp": "凍結すると使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "staunching-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Staunching Charm",
+      "kr": "지혈 호신부",
+      "tw": "止血護符",
+      "ru": "Рубцующий оберег",
+      "jp": "止血のチャーム"
+    },
+    "dropLevel": 18,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnBleed1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_affected_by_bleed",
+            "value": "1",
+            "text": {
+              "en": "Used when you start Bleeding",
+              "kr": "출혈 시작 시 사용",
+              "tw": "當你開始流血時使用",
+              "ru": "Используется при наложении на вас кровотечения",
+              "jp": "出血すると使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "antidote-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Antidote Charm",
+      "kr": "해독 호신부",
+      "tw": "解毒護符",
+      "ru": "Оберег противоядия",
+      "jp": "解毒のチャーム"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnPoison1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_affected_by_poison",
+            "value": "1",
+            "text": {
+              "en": "Used when you become Poisoned",
+              "kr": "플레이어 중독 시 사용",
+              "tw": "當你被中毒時使用",
+              "ru": "Используется, когда вы получаете отравление",
+              "jp": "毒を受けると使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dousing-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Dousing Charm",
+      "kr": "소화 호신부",
+      "tw": "滅火護符",
+      "ru": "Охлаждающий оберег",
+      "jp": "消火のチャーム"
+    },
+    "dropLevel": 32,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnIgnite1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_affected_by_ignite",
+            "value": "1",
+            "text": {
+              "en": "Used when you become Ignited",
+              "kr": "플레이어 점화 시 사용",
+              "tw": "當你被點燃時使用",
+              "ru": "Используется, когда вы получаете поджог",
+              "jp": "発火すると使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "grounding-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Grounding Charm",
+      "kr": "접지 호신부",
+      "tw": "接地護符",
+      "ru": "Заземляющий оберег",
+      "jp": "接地のチャーム"
+    },
+    "dropLevel": 32,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnShock1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_affected_by_shock",
+            "value": "1",
+            "text": {
+              "en": "Used when you become Shocked",
+              "kr": "플레이어 감전 시 사용",
+              "tw": "當你被感電時使用",
+              "ru": "Используется, когда вы получаете шок",
+              "jp": "感電をすると使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stone-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Stone Charm",
+      "kr": "돌 호신부",
+      "tw": "岩石護符",
+      "ru": "Каменный оберег",
+      "jp": "石のチャーム"
+    },
+    "dropLevel": 8,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnStun1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_stunned",
+            "value": "1",
+            "text": {
+              "en": "Used when you become Stunned",
+              "kr": "기절 시 사용됨",
+              "tw": "當你被暈眩時使用",
+              "ru": "Используется, когда вас оглушают",
+              "jp": "スタンを受けた時に使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "silver-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Silver Charm",
+      "kr": "은 호신부",
+      "tw": "白銀護符",
+      "ru": "Серебряный оберег",
+      "jp": "銀のチャーム"
+    },
+    "dropLevel": 10,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnSlow1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_affected_by_slow",
+            "value": "1",
+            "text": {
+              "en": "Used when you are affected by a Slow",
+              "kr": "감속의 영향을 받을 때 사용됨",
+              "tw": "當你受到緩速效果影響時使用",
+              "ru": "Используется, когда вы попадаете под действие замедления",
+              "jp": "減速の影響を受けた時に使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ruby-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Ruby Charm",
+      "kr": "루비 호신부",
+      "tw": "紅玉護符",
+      "ru": "Оберег с рубином",
+      "jp": "ルビーチャーム"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnFireDamage1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_fire_damage_taken",
+            "value": "1",
+            "text": {
+              "en": "Used when you take Fire damage from a Hit",
+              "kr": "명중으로 화염 피해를 받을 때 사용됨",
+              "tw": "當你被火焰傷害擊中時使用",
+              "ru": "Используется, когда вы получаете урон от огня от удара",
+              "jp": "ヒットによる火ダメージを受けた時に使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sapphire-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Sapphire Charm",
+      "kr": "사파이어 호신부",
+      "tw": "藍玉護符",
+      "ru": "Оберег с сапфиром",
+      "jp": "サファイアチャーム"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnColdDamage1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_cold_damage_taken",
+            "value": "1",
+            "text": {
+              "en": "Used when you take Cold damage from a Hit",
+              "kr": "명중으로 냉기 피해를 받을 때 사용됨",
+              "tw": "當你被冰冷傷害擊中時使用",
+              "ru": "Используется, когда вы получаете урон от холода от удара",
+              "jp": "ヒットによる冷気ダメージを受けた時に使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "topaz-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Topaz Charm",
+      "kr": "토파즈 호신부",
+      "tw": "黃玉護符",
+      "ru": "Оберег с топазом",
+      "jp": "トパーズチャーム"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnLightningDamage1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_lightning_damage_taken",
+            "value": "1",
+            "text": {
+              "en": "Used when you take Lightning damage from a Hit",
+              "kr": "명중으로 번개 피해를 받을 때 사용됨",
+              "tw": "當你被閃電傷害擊中時使用",
+              "ru": "Используется, когда вы получаете урон от молнии от удара",
+              "jp": "ヒットによる雷ダメージを受けた時に使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "amethyst-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Amethyst Charm",
+      "kr": "자수정 호신부",
+      "tw": "紫晶護符",
+      "ru": "Оберег с аметистом",
+      "jp": "アメジストチャーム"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnChaosDamage1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_chaos_damage_taken",
+            "value": "1",
+            "text": {
+              "en": "Used when you take Chaos damage from a Hit",
+              "kr": "명중으로 카오스 피해를 받을 때 사용됨",
+              "tw": "當你被混沌傷害擊中時使用",
+              "ru": "Используется, когда вы получаете урон хаосом от удара",
+              "jp": "ヒットによる混沌ダメージを受けた時に使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Golden Charm",
+      "kr": "황금 호신부",
+      "tw": "黃金護符",
+      "ru": "Золотой оберег",
+      "jp": "黄金のチャーム"
+    },
+    "dropLevel": 50,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnRareUniqueKill1",
+        "lines": [
+          {
+            "stat": "local_flask_use_on_killing_rare_or_unique_enemy",
+            "value": "1",
+            "text": {
+              "en": "Used when you kill a Rare or Unique enemy",
+              "kr": "희귀 또는 고유 적 처치 시 사용됨",
+              "tw": "當你擊殺稀有或傳奇敵人時使用",
+              "ru": "Используется, когда вы убиваете редкого или уникального врага",
+              "jp": "レアまたはユニークの敵を倒した時に使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cleansing-charm",
+    "classId": "UtilityFlask",
+    "className": {
+      "en": "Charms",
+      "kr": "호신부",
+      "tw": "護符",
+      "ru": "Обереги",
+      "jp": "チャーム"
+    },
+    "name": {
+      "en": "Cleansing Charm",
+      "kr": "정화의 호신부",
+      "tw": "淨化護符",
+      "ru": "Очищающий оберег",
+      "jp": "解呪のチャーム"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CharmImplicitUseOnCurse1",
+        "lines": [
+          {
+            "stat": "local_charm_trigger_when_cursed",
+            "value": "1",
+            "text": {
+              "en": "Used when you become Cursed",
+              "kr": "저주받을 시 사용됨",
+              "tw": "當你被詛咒時使用",
+              "ru": "Используется при получении вами проклятия",
+              "jp": "呪いを受けると使用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

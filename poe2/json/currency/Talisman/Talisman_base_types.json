@@ -1,0 +1,1279 @@
+[
+  {
+    "id": "changeling-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Changeling Talisman",
+      "kr": "체인질링 부적",
+      "tw": "變形魔符",
+      "ru": "Талисман-перевёртыш",
+      "jp": "変身のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 15,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "nettle-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Nettle Talisman",
+      "kr": "쐐기풀 부적",
+      "tw": "蕁麻魔符",
+      "ru": "Талисман из крапивы",
+      "jp": "イラクサのタリスマン"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 20,
+      "critChance": 11,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cinderbark-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Cinderbark Talisman",
+      "kr": "재껍질 부적",
+      "tw": "灰樹皮魔符",
+      "ru": "Талисман из угольной коры",
+      "jp": "灰皮のタリスマン"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 36,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitFireDamageAndFlammability1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "30",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "ignite_chance_+%",
+            "value": "50~80",
+            "text": {
+              "en": "50~80% increased Flammability Magnitude",
+              "kr": "인화성 강도 50~80% 증가",
+              "tw": "增加50~80%易燃幅度",
+              "ru": "50~80% увеличение силы Горючести",
+              "jp": "可燃性の強度が50~80%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "familial-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Familial Talisman",
+      "kr": "가문의 부적",
+      "tw": "家族魔符",
+      "ru": "Наследственный талисман",
+      "jp": "眷属のタリスマン"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 34,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMinionDamage1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "30~50",
+            "text": {
+              "en": "Minions deal 30~50% increased Damage",
+              "kr": "소환수가 주는 피해 30~50% 증가",
+              "tw": "增加30~50%召喚物造成的傷害",
+              "ru": "Приспешники имеют 30~50% увеличение урона",
+              "jp": "ミニオンのダメージが30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "frenzied-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Frenzied Talisman",
+      "kr": "격분의 부적",
+      "tw": "狂亂魔符",
+      "ru": "Буйный талисман",
+      "jp": "狂乱のタリスマン"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 38,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "primal-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Primal Talisman",
+      "kr": "원시 부적",
+      "tw": "原始魔符",
+      "ru": "Первобытный талисман",
+      "jp": "原始のタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 46,
+      "critChance": 9,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitAdditionalBlock1",
+        "lines": [
+          {
+            "stat": "additional_block_%",
+            "value": "14~18",
+            "text": {
+              "en": "14~18% to Block chance",
+              "kr": "막기 확률 14~18%",
+              "tw": "14~18%至格擋率",
+              "ru": "14~18% к шансу блока",
+              "jp": "ブロック率 14~18%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rabid-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Rabid Talisman",
+      "kr": "광포한 부적",
+      "tw": "狂暴魔符",
+      "ru": "Бешеный талисман",
+      "jp": "狂犬病のタリスマン"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 58,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMaximumRage1",
+        "lines": [
+          {
+            "stat": "maximum_rage",
+            "value": "7~10",
+            "text": {
+              "en": "7~10 to Maximum Rage",
+              "kr": "격노 최대치 7~10",
+              "tw": "7~10層最大盛怒",
+              "ru": "7~10 к максимуму свирепости",
+              "jp": "憤怒の最大数 7~10"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vicious-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Vicious Talisman",
+      "kr": "포악한 부적",
+      "tw": "惡毒魔符",
+      "ru": "Злобный талисман ",
+      "jp": "獰猛のタリスマン"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 71,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "voltfang-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Voltfang Talisman",
+      "kr": "전기송곳니 부적",
+      "tw": "伏特之牙魔符",
+      "ru": "Талисман грозового когтя",
+      "jp": "電牙のタリスマン"
+    },
+    "dropLevel": 46,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 130,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitLightningDamageAndShockMagnitude1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "30",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "shock_effect_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Magnitude of Shock you inflict",
+              "kr": "플레이어가 유발하는 감전의 강도 20~30% 증가",
+              "tw": "增加20~30%你所施加之感電的幅度",
+              "ru": "20~30% увеличение силы накладываемого вами шока",
+              "jp": "プレイヤーが付与した感電の強度が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lumbering-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Lumbering Talisman",
+      "kr": "굼뜬 부적",
+      "tw": "笨重魔符",
+      "ru": "Талисман увальня",
+      "jp": "鈍重のタリスマン"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 71,
+      "damageMax": 107,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "roaring-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Roaring Talisman",
+      "kr": "포효하는 부적",
+      "tw": "咆哮魔符",
+      "ru": "Ревущий талисман",
+      "jp": "咆哮のタリスマン"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 57,
+      "damageMax": 96,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMaximumRage1",
+        "lines": [
+          {
+            "stat": "maximum_rage",
+            "value": "7~10",
+            "text": {
+              "en": "7~10 to Maximum Rage",
+              "kr": "격노 최대치 7~10",
+              "tw": "7~10層最大盛怒",
+              "ru": "7~10 к максимуму свирепости",
+              "jp": "憤怒の最大数 7~10"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "wingbeat-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Wingbeat Talisman",
+      "kr": "날갯짓 부적",
+      "tw": "振翼魔符",
+      "ru": "Крылатый талисман",
+      "jp": "翼撃のタリスマン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 83,
+      "critChance": 7,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "condemned-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Condemned Talisman",
+      "kr": "사형수의 부적",
+      "tw": "譴責魔符",
+      "ru": "Талисман осуждённого",
+      "jp": "断罪のタリスマン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 113,
+      "critChance": 9,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMarkEffect1",
+        "lines": [
+          {
+            "stat": "mark_effect_+%",
+            "value": "10~20",
+            "text": {
+              "en": "10~20% increased Effect of your Mark Skills",
+              "kr": "플레이어의 징표 스킬의 효과 10~20% 증가",
+              "tw": "增加10~20%你的印記技能效果",
+              "ru": "10~20% усиление эффекта ваших умений меток",
+              "jp": "プレイヤーの呪印スキルの効果が10~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "howling-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Howling Talisman",
+      "kr": "울부짖는 부적",
+      "tw": "狂嚎魔符",
+      "ru": "Воющий талисман",
+      "jp": "遠吠えのタリスマン"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 52,
+      "damageMax": 78,
+      "critChance": 9,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitAdditionalBlock1",
+        "lines": [
+          {
+            "stat": "additional_block_%",
+            "value": "14~18",
+            "text": {
+              "en": "14~18% to Block chance",
+              "kr": "막기 확률 14~18%",
+              "tw": "14~18%至格擋率",
+              "ru": "14~18% к шансу блока",
+              "jp": "ブロック率 14~18%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fury-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Fury Talisman",
+      "kr": "광분 부적",
+      "tw": "怒火魔符",
+      "ru": "Неистовый талисман",
+      "jp": "怒りのタリスマン"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 91,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMaximumRage1",
+        "lines": [
+          {
+            "stat": "maximum_rage",
+            "value": "7~10",
+            "text": {
+              "en": "7~10 to Maximum Rage",
+              "kr": "격노 최대치 7~10",
+              "tw": "7~10層最大盛怒",
+              "ru": "7~10 к максимуму свирепости",
+              "jp": "憤怒の最大数 7~10"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cruel-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Cruel Talisman",
+      "kr": "잔혹한 부적",
+      "tw": "殘酷魔符",
+      "ru": "Жестокий талисман",
+      "jp": "残虐のタリスマン"
+    },
+    "dropLevel": 63,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 103,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-changeling-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Runeforged Changeling Talisman",
+      "kr": "룬벼림 체인질링 부적",
+      "tw": "符鍛變形魔符",
+      "ru": "Руннокованый талисман-перевёртыш",
+      "jp": "ルーンフォージの変身のタリスマン"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 91,
+      "damageMax": 151,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-nettle-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Runeforged Nettle Talisman",
+      "kr": "룬벼림 쐐기풀 부적",
+      "tw": "符鍛蕁麻魔符",
+      "ru": "Руннокованый талисман из крапивы",
+      "jp": "ルーンフォージのイラクサのタリスマン"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 86,
+      "critChance": 11,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runemastered-nettle-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Runemastered Nettle Talisman",
+      "kr": "룬숙련 쐐기풀 부적",
+      "tw": "符煉蕁麻魔符",
+      "ru": "Рунномастерский талисман из крапивы",
+      "jp": "ルーンマスターのイラクサのタリスマン"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 114,
+      "critChance": 11,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "runeforged-familial-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Runeforged Familial Talisman",
+      "kr": "룬벼림 가문의 부적",
+      "tw": "符鍛家族魔符",
+      "ru": "Руннокованый наследственный талисман",
+      "jp": "ルーンフォージの眷属のタリスマン"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 54,
+      "damageMax": 91,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMinionDamage1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "30~50",
+            "text": {
+              "en": "Minions deal 30~50% increased Damage",
+              "kr": "소환수가 주는 피해 30~50% 증가",
+              "tw": "增加30~50%召喚物造成的傷害",
+              "ru": "Приспешники имеют 30~50% увеличение урона",
+              "jp": "ミニオンのダメージが30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-familial-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Runemastered Familial Talisman",
+      "kr": "룬숙련 가문의 부적",
+      "tw": "符煉家族魔符",
+      "ru": "Рунномастерский наследственный талисман",
+      "jp": "ルーンマスターの眷属のタリスマン"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 73,
+      "damageMax": 122,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HyssegsClawVerisiumImplicitMinionDamageUpgraded1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "51~100",
+            "text": {
+              "en": "Minions deal 51~100% increased Damage",
+              "kr": "소환수가 주는 피해 51~100% 증가",
+              "tw": "增加51~100%召喚物造成的傷害",
+              "ru": "Приспешники имеют 51~100% увеличение урона",
+              "jp": "ミニオンのダメージが51~100%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runeforged-vicious-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Runeforged Vicious Talisman",
+      "kr": "룬벼림 포악한 부적",
+      "tw": "符鍛惡毒魔符",
+      "ru": "Руннокованый злобный талисман ",
+      "jp": "ルーンフォージの獰猛のタリスマン"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 123,
+      "damageMax": 205,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spiny-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Spiny Talisman",
+      "kr": "가시투성이 부적",
+      "tw": "尖錐魔符",
+      "ru": "Колючий талисман",
+      "jp": "棘のタリスマン"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 60,
+      "damageMax": 99,
+      "critChance": 11,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ashbark-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Ashbark Talisman",
+      "kr": "재껍질 부적",
+      "tw": "燼木魔符",
+      "ru": "Талисман из пепельной коры",
+      "jp": "灰樹皮のタリスマン"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 72,
+      "damageMax": 150,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitFireDamageAndFlammability1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_fire",
+            "value": "30",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "ignite_chance_+%",
+            "value": "50~80",
+            "text": {
+              "en": "50~80% increased Flammability Magnitude",
+              "kr": "인화성 강도 50~80% 증가",
+              "tw": "增加50~80%易燃幅度",
+              "ru": "50~80% увеличение силы Горючести",
+              "jp": "可燃性の強度が50~80%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fang-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Fang Talisman",
+      "kr": "송곳니 부적",
+      "tw": "銳爪魔符",
+      "ru": "Талисман из клыка",
+      "jp": "牙のタリスマン"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 70,
+      "damageMax": 116,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMinionDamage1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "30~50",
+            "text": {
+              "en": "Minions deal 30~50% increased Damage",
+              "kr": "소환수가 주는 피해 30~50% 증가",
+              "tw": "增加30~50%召喚物造成的傷害",
+              "ru": "Приспешники имеют 30~50% увеличение урона",
+              "jp": "ミニオンのダメージが30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fungal-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Fungal Talisman",
+      "kr": "버섯 부적",
+      "tw": "真菌魔符",
+      "ru": "Грибной талисман",
+      "jp": "キノコのタリスマン"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 59,
+      "damageMax": 98,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "alpha-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Alpha Talisman",
+      "kr": "우두머리 부적",
+      "tw": "統領魔符",
+      "ru": "Талисман вожака",
+      "jp": "アルファのタリスマン"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 63,
+      "damageMax": 94,
+      "critChance": 9,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitAdditionalBlock1",
+        "lines": [
+          {
+            "stat": "additional_block_%",
+            "value": "14~18",
+            "text": {
+              "en": "14~18% to Block chance",
+              "kr": "막기 확률 14~18%",
+              "tw": "14~18%至格擋率",
+              "ru": "14~18% к шансу блока",
+              "jp": "ブロック率 14~18%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "maji-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Maji Talisman",
+      "kr": "마지 부적",
+      "tw": "聖賢魔符",
+      "ru": "Талисман Маджи",
+      "jp": "マジのタリスマン"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 61,
+      "damageMax": 114,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitMaximumRage1",
+        "lines": [
+          {
+            "stat": "maximum_rage",
+            "value": "7~10",
+            "text": {
+              "en": "7~10 to Maximum Rage",
+              "kr": "격노 최대치 7~10",
+              "tw": "7~10層最大盛怒",
+              "ru": "7~10 к максимуму свирепости",
+              "jp": "憤怒の最大数 7~10"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "wildwood-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Wildwood Talisman",
+      "kr": "야생림 부적",
+      "tw": "荒林魔符",
+      "ru": "Талисман Диколесья",
+      "jp": "原生林のタリスマン"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 67,
+      "damageMax": 112,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "thunder-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Thunder Talisman",
+      "kr": "천둥 부적",
+      "tw": "天雷魔符",
+      "ru": "Талисман грома",
+      "jp": "雷のタリスマン"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 187,
+      "critChance": 8,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TalismanImplicitLightningDamageAndShockMagnitude1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_lightning",
+            "value": "30",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "shock_effect_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Magnitude of Shock you inflict",
+              "kr": "플레이어가 유발하는 감전의 강도 20~30% 증가",
+              "tw": "增加20~30%你所施加之感電的幅度",
+              "ru": "20~30% увеличение силы накладываемого вами шока",
+              "jp": "プレイヤーが付与した感電の強度が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jade-talisman",
+    "classId": "Talisman",
+    "className": {
+      "en": "Talismans",
+      "kr": "부적",
+      "tw": "魔符",
+      "ru": "Талисманы",
+      "jp": "タリスマン"
+    },
+    "name": {
+      "en": "Jade Talisman",
+      "kr": "비취 부적",
+      "tw": "翠玉魔符",
+      "ru": "Нефритовый талисман",
+      "jp": "ヒスイのタリスマン"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 101,
+      "damageMax": 151,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 12
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

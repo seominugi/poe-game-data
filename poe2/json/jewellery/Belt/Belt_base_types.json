@@ -1,0 +1,985 @@
+[
+  {
+    "id": "golden-obi",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Golden Obi",
+      "kr": "황금 오비",
+      "tw": "金羽腰帶",
+      "ru": "Шитый золотом пояс",
+      "jp": "金の帯"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ItemFoundRarityIncreaseImplicitDemigodsBelt1",
+        "lines": [
+          {
+            "stat": "base_item_found_rarity_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Rarity of Items found",
+              "kr": "발견하는 아이템 희귀도 20~30% 증가",
+              "tw": "增加20~30%找到的物品稀有度",
+              "ru": "20~30% повышение редкости найденных предметов",
+              "jp": "見つかるアイテムのレアリティが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rawhide-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Rawhide Belt",
+      "kr": "생가죽 허리띠",
+      "tw": "生皮腰帶",
+      "ru": "Ремень из сыромятной кожи",
+      "jp": "生皮のベルト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitFlaskLifeRecovery1",
+        "lines": [
+          {
+            "stat": "flask_life_to_recover_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Life Recovery from Flasks",
+              "kr": "플라스크로 회복하는 생명력 20~30% 증가",
+              "tw": "增加20~30%藥劑的生命恢復",
+              "ru": "20~30% увеличение восстановления здоровья от флаконов",
+              "jp": "フラスコによるライフ回復量が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "linen-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Linen Belt",
+      "kr": "리넨 허리띠",
+      "tw": "麻布腰帶",
+      "ru": "Матерчатый пояс",
+      "jp": "リネンのベルト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitFlaskManaRecovery1",
+        "lines": [
+          {
+            "stat": "flask_mana_to_recover_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Mana Recovery from Flasks",
+              "kr": "플라스크로 얻는 마나 회복 20~30% 증가",
+              "tw": "增加20~30%藥劑的魔力恢復",
+              "ru": "20~30% увеличение восстановления маны от флаконов",
+              "jp": "フラスコによるマナ回復量が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "wide-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Wide Belt",
+      "kr": "넓은 허리띠",
+      "tw": "寬大腰帶",
+      "ru": "Широкий ремень",
+      "jp": "幅広のベルト"
+    },
+    "dropLevel": 14,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedFlaskChargesGained1",
+        "lines": [
+          {
+            "stat": "flask_charges_gained_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Flask Charges gained",
+              "kr": "플라스크 충전량 20~30% 증가",
+              "tw": "增加20~30%藥劑充能獲取",
+              "ru": "20~30% увеличение количества получаемых зарядов флакона",
+              "jp": "獲得フラスコチャージが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "long-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Long Belt",
+      "kr": "긴 허리띠",
+      "tw": "長腰帶",
+      "ru": "Длинный ремень",
+      "jp": "長いベルト"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedCharmDuration1",
+        "lines": [
+          {
+            "stat": "charm_duration_+%",
+            "value": "15~20",
+            "text": {
+              "en": "15~20% increased Charm Effect Duration",
+              "kr": "호신부 효과 지속시간 15~20% 증가",
+              "tw": "增加15~20%護符效果持續時間",
+              "ru": "15~20% увеличение длительности эффекта оберега",
+              "jp": "チャームの効果持続時間が15~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "plate-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Plate Belt",
+      "kr": "판금 허리띠",
+      "tw": "板甲腰帶",
+      "ru": "Ремень из пластин",
+      "jp": "プレートベルト"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitPhysicalDamageReductionRating1",
+        "lines": [
+          {
+            "stat": "base_physical_damage_reduction_rating",
+            "value": "140~180",
+            "text": {
+              "en": "140~180 to Armour",
+              "kr": "방어도 140~180",
+              "tw": "140~180護甲值",
+              "ru": "140~180 к броне",
+              "jp": "アーマー 140~180"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ornate-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Ornate Belt",
+      "kr": "화려한 허리띠",
+      "tw": "華麗腰帶",
+      "ru": "Декорированный ремень",
+      "jp": "華美なベルト"
+    },
+    "dropLevel": 31,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitReducedCharmChargesUsed1",
+        "lines": [
+          {
+            "stat": "charm_charges_used_+%",
+            "value": "-15~-10",
+            "text": {
+              "en": "-15~-10% reduced Charm Charges used",
+              "kr": "호신부 충전 소모량 -15~-10% 감소",
+              "tw": "減少-15~-10%護符充能使用",
+              "ru": "-15~-10% уменьшение количества используемых зарядов оберегов",
+              "jp": "チャームの使用チャージが-15~-10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mail-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Mail Belt",
+      "kr": "사슬 허리띠",
+      "tw": "鎖甲腰帶",
+      "ru": "Кольчужный ремень",
+      "jp": "メイルベルト"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitReducedFlaskChargesUsed1",
+        "lines": [
+          {
+            "stat": "flask_charges_used_+%",
+            "value": "-15~-10",
+            "text": {
+              "en": "-15~-10% reduced Flask Charges used",
+              "kr": "플라스크 충전 소모량 -15~-10% 감소",
+              "tw": "減少-15~-10%藥劑充能使用",
+              "ru": "-15~-10% уменьшение используемого количества зарядов флакона",
+              "jp": "消費フラスコチャージが-15~-10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "double-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Double Belt",
+      "kr": "이중 허리띠",
+      "tw": "雙層腰帶",
+      "ru": "Двойной ремень",
+      "jp": "ダブルベルト"
+    },
+    "dropLevel": 44,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedCharmChargesGained1",
+        "lines": [
+          {
+            "stat": "charm_charges_gained_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Charm Charges gained",
+              "kr": "호신부 충전량 20~30% 증가",
+              "tw": "增加20~30%護符充能獲取",
+              "ru": "20~30% увеличение количества получаемых зарядов оберегов",
+              "jp": "チャームの獲得チャージが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heavy-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Heavy Belt",
+      "kr": "무거운 허리띠",
+      "tw": "重革腰帶",
+      "ru": "Тяжёлый ремень",
+      "jp": "ヘビーベルト"
+    },
+    "dropLevel": 50,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedStunThreshold1",
+        "lines": [
+          {
+            "stat": "stun_threshold_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Stun Threshold",
+              "kr": "기절 한계치 20~30% 증가",
+              "tw": "增加20~30%暈眩門檻",
+              "ru": "20~30% увеличение порога оглушения",
+              "jp": "スタン閾値が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-heavy-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Runemastered Heavy Belt",
+      "kr": "룬숙련 무거운 허리띠",
+      "tw": "符煉重革腰帶",
+      "ru": "Рунномастерский тяжёлый ремень",
+      "jp": "ルーンマスターのヘビーベルト"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedStunThreshold1",
+        "lines": [
+          {
+            "stat": "stun_threshold_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Stun Threshold",
+              "kr": "기절 한계치 20~30% 증가",
+              "tw": "增加20~30%暈眩門檻",
+              "ru": "20~30% увеличение порога оглушения",
+              "jp": "スタン閾値が20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "WaistgateVerisiumImplicitLifeFlaskToRunicWard1",
+        "lines": [
+          {
+            "stat": "life_recovery_from_flasks_also_recovers_ward_%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% Life Recovery from Flasks also applies to Runic Ward",
+              "kr": "플라스크로 얻는 생명력 회복의 15~25%가 룬 수호에도 적용",
+              "tw": "來自藥劑的15~25%生命回復會套用至符文保護",
+              "ru": "15~25% восстановления здоровья от флаконов также применяется к руническому барьеру",
+              "jp": "フラスコによるライフ回復の15~25%はルーンワードにも適用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-heavy-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Runemastered Heavy Belt",
+      "kr": "룬숙련 무거운 허리띠",
+      "tw": "符煉重革腰帶",
+      "ru": "Рунномастерский тяжёлый ремень",
+      "jp": "ルーンマスターのヘビーベルト"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedStunThreshold1",
+        "lines": [
+          {
+            "stat": "stun_threshold_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Stun Threshold",
+              "kr": "기절 한계치 20~30% 증가",
+              "tw": "增加20~30%暈眩門檻",
+              "ru": "20~30% увеличение порога оглушения",
+              "jp": "スタン閾値が20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "WaistgateVerisiumImplicitRunicWardRegeneration1",
+        "lines": [
+          {
+            "stat": "ward_regeneration_rate_+%",
+            "value": "20~40",
+            "text": {
+              "en": "20~40% increased Runic Ward Regeneration Rate",
+              "kr": "룬 수호 재생 속도 20~40% 증가",
+              "tw": "增加20~40%符文保護回復率",
+              "ru": "20~40% повышение скорости регенерации рунического барьера",
+              "jp": "ルーンワードの自動回復レートが20~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-heavy-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Runemastered Heavy Belt",
+      "kr": "룬숙련 무거운 허리띠",
+      "tw": "符煉重革腰帶",
+      "ru": "Рунномастерский тяжёлый ремень",
+      "jp": "ルーンマスターのヘビーベルト"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedStunThreshold1",
+        "lines": [
+          {
+            "stat": "stun_threshold_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Stun Threshold",
+              "kr": "기절 한계치 20~30% 증가",
+              "tw": "增加20~30%暈眩門檻",
+              "ru": "20~30% увеличение порога оглушения",
+              "jp": "スタン閾値が20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "WaistgateVerisiumImplicitRunicWardCanOverflow1",
+        "lines": [
+          {
+            "stat": "ward_can_overcap",
+            "value": "1",
+            "text": {
+              "en": "Runic Ward recovery can can Overflow maximum Runic Ward",
+              "kr": "룬 수호 회복이 룬 수호 최대치를 초과하여 넘칠 수 있음",
+              "tw": "符文保護回復可以溢出最大符文保護",
+              "ru": "Восстановление рунического барьера может переполнять максимум рунического барьера",
+              "jp": "ルーンワード回復は最大ルーンワードをオーバーフローできる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runemastered-heavy-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Runemastered Heavy Belt",
+      "kr": "룬숙련 무거운 허리띠",
+      "tw": "符煉重革腰帶",
+      "ru": "Рунномастерский тяжёлый ремень",
+      "jp": "ルーンマスターのヘビーベルト"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitIncreasedStunThreshold1",
+        "lines": [
+          {
+            "stat": "stun_threshold_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Stun Threshold",
+              "kr": "기절 한계치 20~30% 증가",
+              "tw": "增加20~30%暈眩門檻",
+              "ru": "20~30% увеличение порога оглушения",
+              "jp": "スタン閾値が20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "WaistgateVerisiumImplicitFlaskChargeGeneration1",
+        "lines": [
+          {
+            "stat": "generate_x_charges_for_any_flask_per_minute",
+            "value": "30~60",
+            "text": {
+              "en": "Flasks gain 30~60 charges per Second",
+              "kr": "플라스크가 1초마다 충전 30~60 획득",
+              "tw": "藥劑每秒獲得30~60充能",
+              "ru": "Флаконы получают зарядов в секунду: 30~60",
+              "jp": "フラスコは毎秒30~60のチャージを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "utility-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Utility Belt",
+      "kr": "특수 허리띠",
+      "tw": "實用腰帶",
+      "ru": "Практичный ремень",
+      "jp": "実用的なベルト"
+    },
+    "dropLevel": 55,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitInstantFlaskRecoveryPercent1",
+        "lines": [
+          {
+            "stat": "flask_recovery_amount_%_to_recover_instantly",
+            "value": "20",
+            "text": {
+              "en": "20% of Flask Recovery applied Instantly",
+              "kr": "플라스크 회복량의 20%를 즉시 회복",
+              "tw": "20%的藥劑回復立即生效",
+              "ru": "20% восстановления от флакона применяется мгновенно",
+              "jp": "フラスコによる回復の20%が即時に適用される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fine-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Fine Belt",
+      "kr": "섬세한 허리띠",
+      "tw": "精良腰帶",
+      "ru": "Тонкий ремень",
+      "jp": "精巧なベルト"
+    },
+    "dropLevel": 62,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltImplicitFlaskPassiveChargeGain1",
+        "lines": [
+          {
+            "stat": "generate_x_charges_for_any_flask_per_minute",
+            "value": "10",
+            "text": {
+              "en": "Flasks gain 10 charges per Second",
+              "kr": "플라스크가 1초마다 충전 10 획득",
+              "tw": "藥劑每秒獲得10充能",
+              "ru": "Флаконы получают зарядов в секунду: 10",
+              "jp": "フラスコは毎秒10のチャージを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stalking-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Stalking Belt",
+      "kr": "뒤를 쫓는 허리띠",
+      "tw": "獵跡腰帶",
+      "ru": "Охотничий ремень",
+      "jp": "忍び寄るベルト"
+    },
+    "dropLevel": 50,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "It is our steps that stir.",
+      "kr": "휘젓는 것은 우리의 발걸음이다.",
+      "tw": "是我們的腳步在擾動。",
+      "ru": "It is our steps that stir.",
+      "jp": "目覚めるは我らの歩み。"
+    },
+    "implicits": [
+      {
+        "modId": "BeltImplicitCharmSlots1",
+        "lines": [
+          {
+            "stat": "local_charm_slots",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Charm Slot",
+              "kr": "호신부 슬롯 1개 보유",
+              "tw": "有1個護符欄位",
+              "ru": "Имеет 1 ячейку для оберегов",
+              "jp": "1個のチャームスロットを持つ"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "BeltImplicitBootsSocket1",
+        "lines": [
+          {
+            "stat": "local_item_benefit_socketable_as_if_boots",
+            "value": "1",
+            "text": {
+              "en": "This item gains bonuses from Socketed Items as though it was Boots",
+              "kr": "이 아이템은 장화인 것처럼 장착된 아이템의 보너스를 받음",
+              "tw": "此物品會被視為長靴，自插槽中的物品獲得加成",
+              "ru": "Этот предмет получает бонусы от размещаемых предметов как если бы был обувью",
+              "jp": "このアイテムはソケットされたアイテムからそれが靴にソケットされているかのように仮定してボーナスを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "invoking-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Invoking Belt",
+      "kr": "기원 허리띠",
+      "tw": "祈喚腰帶",
+      "ru": "Ремень призывателя",
+      "jp": "招来のベルト"
+    },
+    "dropLevel": 32,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "It is our hands that join.",
+      "kr": "맞잡는 것은 우리의 손이다.",
+      "tw": "是我們的手在連結。",
+      "ru": "It is our hands that join.",
+      "jp": "繋がるは我らの手。"
+    },
+    "implicits": [
+      {
+        "modId": "BeltImplicitCharmSlots1",
+        "lines": [
+          {
+            "stat": "local_charm_slots",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Charm Slot",
+              "kr": "호신부 슬롯 1개 보유",
+              "tw": "有1個護符欄位",
+              "ru": "Имеет 1 ячейку для оберегов",
+              "jp": "1個のチャームスロットを持つ"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "BeltImplicitCastSpeed1",
+        "lines": [
+          {
+            "stat": "base_cast_speed_+%",
+            "value": "8~12",
+            "text": {
+              "en": "8~12% increased Cast Speed",
+              "kr": "시전 속도 8~12% 증가",
+              "tw": "增加8~12%施放速度",
+              "ru": "8~12% повышение скорости сотворения чар",
+              "jp": "キャストスピードが8~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sinew-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Sinew Belt",
+      "kr": "힘줄 허리띠",
+      "tw": "韌筋腰帶",
+      "ru": "Ремень из сухожилий",
+      "jp": "腱のベルト"
+    },
+    "dropLevel": 32,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "It is our flesh that binds.",
+      "kr": "속박하는 것은 우리의 살이다.",
+      "tw": "是我們的血肉在連結。",
+      "ru": "It is our flesh that binds.",
+      "jp": "縛るは我らの肉体。"
+    },
+    "implicits": [
+      {
+        "modId": "BeltImplicitCharmSlots1",
+        "lines": [
+          {
+            "stat": "local_charm_slots",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Charm Slot",
+              "kr": "호신부 슬롯 1개 보유",
+              "tw": "有1個護符欄位",
+              "ru": "Имеет 1 ячейку для оберегов",
+              "jp": "1個のチャームスロットを持つ"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "BeltImplicitStrength1",
+        "lines": [
+          {
+            "stat": "additional_strength",
+            "value": "15~20",
+            "text": {
+              "en": "15~20 to Strength",
+              "kr": "힘 15~20",
+              "tw": "15~20點力量",
+              "ru": "15~20 к силе",
+              "jp": "筋力 15~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "forking-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Forking Belt",
+      "kr": "갈라지는 허리띠",
+      "tw": "歧路腰帶",
+      "ru": "Разветвляющий ремень",
+      "jp": "分岐のベルト"
+    },
+    "dropLevel": 32,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "It is our mind that splits.",
+      "kr": "갈라지는 것은 우리의 정신이다.",
+      "tw": "是我們的心靈在分裂。",
+      "ru": "It is our mind that splits.",
+      "jp": "分かれるは我らの精神。"
+    },
+    "implicits": [
+      {
+        "modId": "BeltImplicitCharmSlots1",
+        "lines": [
+          {
+            "stat": "local_charm_slots",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Charm Slot",
+              "kr": "호신부 슬롯 1개 보유",
+              "tw": "有1個護符欄位",
+              "ru": "Имеет 1 ячейку для оберегов",
+              "jp": "1個のチャームスロットを持つ"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "BeltImplicitLightningDamage1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_lightning_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_lightning_damage",
+            "value": "20~30",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

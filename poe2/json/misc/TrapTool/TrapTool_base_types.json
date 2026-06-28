@@ -1,0 +1,331 @@
+[
+  {
+    "id": "clay-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Clay Trap",
+      "kr": "점토 덫",
+      "tw": "黏土陷阱",
+      "ru": "Глиняная ловушка",
+      "jp": "粘土のトラップ"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "clamping-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Clamping Trap",
+      "kr": "죔쇠 덫",
+      "tw": "猛夾陷阱",
+      "ru": "Ловушка-капкан",
+      "jp": "締め付けトラップ"
+    },
+    "dropLevel": 6,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shrapnel-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Shrapnel Trap",
+      "kr": "파편 덫",
+      "tw": "彈片陷阱",
+      "ru": "Ловушка со шрапнелью",
+      "jp": "榴散弾のトラップ"
+    },
+    "dropLevel": 10,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "urn-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Urn Trap",
+      "kr": "단지 덫",
+      "tw": "甕陷阱",
+      "ru": "Ловушка в кувшине",
+      "jp": "壺のトラップ"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "incense-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Incense Trap",
+      "kr": "향 덫",
+      "tw": "香爐陷阱",
+      "ru": "Ловушка в курительнице",
+      "jp": "香炉のトラップ"
+    },
+    "dropLevel": 22,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TrapImplicitCooldownRecovery1",
+        "lines": [
+          {
+            "stat": "placing_traps_cooldown_recovery_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Cooldown Recovery Rate for throwing Traps",
+              "kr": "덫 투척 재사용 대기시간 회복 속도 20~30% 증가",
+              "tw": "增加20~30%投擲陷阱的冷卻時間恢復率",
+              "ru": "20~30% повышение скорости перезарядки броска ловушек",
+              "jp": "トラップ投擲のクールダウン解消レートが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bladed-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Bladed Trap",
+      "kr": "칼날 덫",
+      "tw": "刀刃陷阱",
+      "ru": "Ловушка с лезвиями",
+      "jp": "刃のトラップ"
+    },
+    "dropLevel": 27,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dart-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Dart Trap",
+      "kr": "화살침 덫",
+      "tw": "飛鏢陷阱",
+      "ru": "Ловушка с дротиками",
+      "jp": "投げ矢のトラップ"
+    },
+    "dropLevel": 33,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spike-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Spike Trap",
+      "kr": "가시 덫",
+      "tw": "尖刺陷阱",
+      "ru": "Ловушка с клиньями",
+      "jp": "スパイクのトラップ"
+    },
+    "dropLevel": 38,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "coiled-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Coiled Trap",
+      "kr": "코일형 덫",
+      "tw": "纏繞陷阱",
+      "ru": "Ловушка с катушкой",
+      "jp": "ばね仕掛けのトラップ"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lead-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Lead Trap",
+      "kr": "납 덫",
+      "tw": "誘導陷阱",
+      "ru": "Свинцовая ловушка",
+      "jp": "鉛のトラップ"
+    },
+    "dropLevel": 49,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "medallion-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Medallion Trap",
+      "kr": "메달리온 덫",
+      "tw": "獎章陷阱",
+      "ru": "Розеточная ловушка",
+      "jp": "メダリオントラップ"
+    },
+    "dropLevel": 52,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "intricate-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Intricate Trap",
+      "kr": "정교한 덫",
+      "tw": "複雜陷阱",
+      "ru": "Затейливая ловушка",
+      "jp": "複雑なトラップ"
+    },
+    "dropLevel": 56,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "refined-trap",
+    "classId": "TrapTool",
+    "className": {
+      "en": "Traps",
+      "kr": "덫",
+      "tw": "陷阱",
+      "ru": "Ловушки",
+      "jp": "トラップ"
+    },
+    "name": {
+      "en": "Refined Trap",
+      "kr": "제련된 덫",
+      "tw": "精製陷阱",
+      "ru": "Утончённая ловушка",
+      "jp": "洗練されたトラップ"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

@@ -1,0 +1,3024 @@
+{
+  "itemClass": "LifeFlask",
+  "className": {
+    "en": "Life Flasks",
+    "kr": "생명력 플라스크",
+    "tw": "生命藥劑",
+    "ru": "Флаконы жизни",
+    "jp": "ライフフラスコ"
+  },
+  "domain": 2,
+  "classTags": [
+    "default",
+    "flask",
+    "life_flask"
+  ],
+  "counts": {
+    "prefix": 33,
+    "suffix": 24,
+    "total": 57
+  },
+  "bucketCounts": {
+    "normal": {
+      "prefix": 33,
+      "suffix": 24,
+      "total": 57
+    }
+  },
+  "buckets": {
+    "normal": {
+      "prefix": [
+        {
+          "id": "FlaskIncreasedRecoveryAmount1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              41,
+              45
+            ]
+          ],
+          "name": {
+            "en": "Opaque",
+            "kr": "불투명한",
+            "tw": "不透明的",
+            "ru": "Непрозрачный",
+            "jp": "不透明な"
+          },
+          "effect": {
+            "en": "(41-45)% increased Amount Recovered",
+            "kr": "회복량 (41-45)% 증가",
+            "tw": "增加(41-45)%恢復量",
+            "ru": "(41-45)% увеличение объёма восстановления",
+            "jp": "回復量が(41-45)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% increased Amount Recovered",
+                "kr": "회복량 (41-45)% 증가",
+                "tw": "增加(41-45)%恢復量",
+                "ru": "(41-45)% увеличение объёма восстановления",
+                "jp": "回復量が(41-45)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              41,
+              45
+            ]
+          ],
+          "name": {
+            "en": "Dense",
+            "kr": "조밀한",
+            "tw": "稠密",
+            "ru": "Густой",
+            "jp": "濃い"
+          },
+          "effect": {
+            "en": "(41-45)% increased Recovery rate",
+            "kr": "회복 속도 (41-45)% 증가",
+            "tw": "增加(41-45)%恢復率",
+            "ru": "(41-45)% повышение скорости восстановления",
+            "jp": "回復レートが(41-45)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% increased Recovery rate",
+                "kr": "회복 속도 (41-45)% 증가",
+                "tw": "增加(41-45)%恢復率",
+                "ru": "(41-45)% повышение скорости восстановления",
+                "jp": "回復レートが(41-45)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryOnLowLife1",
+          "affixType": "prefix",
+          "tier": 2,
+          "valueRanges": [
+            [
+              51,
+              60
+            ]
+          ],
+          "name": {
+            "en": "Prudent",
+            "kr": "신중한",
+            "tw": "謹慎的",
+            "ru": "Дальновидный",
+            "jp": "慎重な"
+          },
+          "effect": {
+            "en": "(51-60)% more Recovery if used while on Low Life",
+            "kr": "낮은 생명력 상태일 때 사용 시 회복 (51-60)% 증폭",
+            "tw": "貧血狀態時使用有(51-60)%更多回復量",
+            "ru": "На (51-60)% больше восстановления, если используется при малом количестве здоровья",
+            "jp": "低ライフ時に使用すると回復量が(51-60)%上昇する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%_when_on_low_life",
+                  "valueRange": [
+                    51,
+                    60
+                  ]
+                }
+              ],
+              "value": "51~60",
+              "text": {
+                "en": "(51-60)% more Recovery if used while on Low Life",
+                "kr": "낮은 생명력 상태일 때 사용 시 회복 (51-60)% 증폭",
+                "tw": "貧血狀態時使用有(51-60)%更多回復量",
+                "ru": "На (51-60)% больше восстановления, если используется при малом количестве здоровья",
+                "jp": "低ライフ時に使用すると回復量が(51-60)%上昇する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery1",
+          "affixType": "prefix",
+          "tier": 3,
+          "valueRanges": [
+            [
+              20,
+              23
+            ]
+          ],
+          "name": {
+            "en": "Simmering",
+            "kr": "보글거리는",
+            "tw": "煨煨的",
+            "ru": "Томящийся",
+            "jp": "煮え立つ"
+          },
+          "effect": {
+            "en": "(20-23)% of Recovery applied Instantly",
+            "kr": "회복량의 (20-23)%를 즉시 회복",
+            "tw": "(20-23)%恢復量立即恢復",
+            "ru": "(20-23)% от восстановления применяется мгновенно",
+            "jp": "回復量の(20-23)%が即時適用される"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    20,
+                    23
+                  ]
+                }
+              ],
+              "value": "20~23",
+              "text": {
+                "en": "(20-23)% of Recovery applied Instantly",
+                "kr": "회복량의 (20-23)%를 즉시 회복",
+                "tw": "(20-23)%恢復量立即恢復",
+                "ru": "(20-23)% от восстановления применяется мгновенно",
+                "jp": "回復量の(20-23)%が即時適用される"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskHealsMinions1",
+          "affixType": "prefix",
+          "tier": 10,
+          "valueRanges": [
+            [
+              51,
+              56
+            ]
+          ],
+          "name": {
+            "en": "Novice's",
+            "kr": "초보자의",
+            "tw": "新手的",
+            "ru": "Послушнический",
+            "jp": "初心者の"
+          },
+          "effect": {
+            "en": "Grants (51-56)% of Life Recovery to Minions",
+            "kr": "소환수의 생명력 회복 (51-56)%",
+            "tw": "得到(51-56)%召喚物生命恢復",
+            "ru": "Дарует приспешникам (51-56)% от восстанавливаемого здоровья",
+            "jp": "ライフ回復の(51-56)%をミニオンに付与する"
+          },
+          "group": [
+            122
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_minion_heal_%",
+                  "valueRange": [
+                    51,
+                    56
+                  ]
+                }
+              ],
+              "value": "51~56",
+              "text": {
+                "en": "Grants (51-56)% of Life Recovery to Minions",
+                "kr": "소환수의 생명력 회복 (51-56)%",
+                "tw": "得到(51-56)%召喚物生命恢復",
+                "ru": "Дарует приспешникам (51-56)% от восстанавливаемого здоровья",
+                "jp": "ライフ回復の(51-56)%をミニオンに付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount2_",
+          "affixType": "prefix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Compact",
+            "kr": "압축된",
+            "tw": "緊湊",
+            "ru": "Сгущённый",
+            "jp": "圧縮された"
+          },
+          "effect": {
+            "en": "(46-50)% increased Amount Recovered",
+            "kr": "회복량 (46-50)% 증가",
+            "tw": "增加(46-50)%恢復量",
+            "ru": "(46-50)% увеличение объёма восстановления",
+            "jp": "回復量が(46-50)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% increased Amount Recovered",
+                "kr": "회복량 (46-50)% 증가",
+                "tw": "增加(46-50)%恢復量",
+                "ru": "(46-50)% увеличение объёма восстановления",
+                "jp": "回復量が(46-50)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraLifeCostsMana1",
+          "affixType": "prefix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              61,
+              68
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Impairing",
+            "kr": "손상시키는",
+            "tw": "損害的",
+            "ru": "Ослабляющий",
+            "jp": "阻害する"
+          },
+          "effect": {
+            "en": "(61-68)% increased Life Recovered\nRemoves 15% of Life Recovered from Mana when used",
+            "kr": "생명력 회복 (61-68)% 증가\n사용 시 마나에서 회복한 생명력의 15% 제거",
+            "tw": "增加(61-68)%生命恢復\n使用時，會扣除生命恢復值15%的魔力",
+            "ru": "(61-68)% увеличение восстанавливаемого здоровья\nПри использовании забирает 15% восстанавливаемого здоровья из маны",
+            "jp": "ライフ回復量が(61-68)%増加する\n使用した時に回復したライフの15%をマナから取り除く"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_to_recover_+%",
+                  "valueRange": [
+                    61,
+                    68
+                  ]
+                }
+              ],
+              "value": "61~68",
+              "text": {
+                "en": "(61-68)% increased Life Recovered",
+                "kr": "생명력 회복 (61-68)% 증가",
+                "tw": "增加(61-68)%生命恢復",
+                "ru": "(61-68)% увеличение восстанавливаемого здоровья",
+                "jp": "ライフ回復量が(61-68)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_life_recovery_from_mana_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Life Recovered from Mana when used",
+                "kr": "사용 시 마나에서 회복한 생명력의 15% 제거",
+                "tw": "使用時，會扣除生命恢復值15%的魔力",
+                "ru": "При использовании забирает 15% восстанавливаемого здоровья из маны",
+                "jp": "使用した時に回復したライフの15%をマナから取り除く"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed2",
+          "affixType": "prefix",
+          "tier": 15,
+          "valueRanges": [
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Undiluted",
+            "kr": "희석되지 않은",
+            "tw": "未稀釋的",
+            "ru": "Неразбавленный",
+            "jp": "無希釈の"
+          },
+          "effect": {
+            "en": "(46-50)% increased Recovery rate",
+            "kr": "회복 속도 (46-50)% 증가",
+            "tw": "增加(46-50)%恢復率",
+            "ru": "(46-50)% повышение скорости восстановления",
+            "jp": "回復レートが(46-50)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% increased Recovery rate",
+                "kr": "회복 속도 (46-50)% 증가",
+                "tw": "增加(46-50)%恢復率",
+                "ru": "(46-50)% повышение скорости восстановления",
+                "jp": "回復レートが(46-50)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount3",
+          "affixType": "prefix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              51,
+              55
+            ]
+          ],
+          "name": {
+            "en": "Full-bodied",
+            "kr": "진한",
+            "tw": "濃郁的",
+            "ru": "Полнотелый",
+            "jp": "濃厚な"
+          },
+          "effect": {
+            "en": "(51-55)% increased Amount Recovered",
+            "kr": "회복량 (51-55)% 증가",
+            "tw": "增加(51-55)%恢復量",
+            "ru": "(51-55)% увеличение объёма восстановления",
+            "jp": "回復量が(51-55)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55)% increased Amount Recovered",
+                "kr": "회복량 (51-55)% 증가",
+                "tw": "增加(51-55)%恢復量",
+                "ru": "(51-55)% увеличение объёма восстановления",
+                "jp": "回復量が(51-55)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryOnLowLife2_",
+          "affixType": "prefix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              61,
+              70
+            ]
+          ],
+          "name": {
+            "en": "Prepared",
+            "kr": "준비된",
+            "tw": "準備的",
+            "ru": "Подготовленный",
+            "jp": "準備のいい"
+          },
+          "effect": {
+            "en": "(61-70)% more Recovery if used while on Low Life",
+            "kr": "낮은 생명력 상태일 때 사용 시 회복 (61-70)% 증폭",
+            "tw": "貧血狀態時使用有(61-70)%更多回復量",
+            "ru": "На (61-70)% больше восстановления, если используется при малом количестве здоровья",
+            "jp": "低ライフ時に使用すると回復量が(61-70)%上昇する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%_when_on_low_life",
+                  "valueRange": [
+                    61,
+                    70
+                  ]
+                }
+              ],
+              "value": "61~70",
+              "text": {
+                "en": "(61-70)% more Recovery if used while on Low Life",
+                "kr": "낮은 생명력 상태일 때 사용 시 회복 (61-70)% 증폭",
+                "tw": "貧血狀態時使用有(61-70)%更多回復量",
+                "ru": "На (61-70)% больше восстановления, если используется при малом количестве здоровья",
+                "jp": "低ライフ時に使用すると回復量が(61-70)%上昇する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery2",
+          "affixType": "prefix",
+          "tier": 27,
+          "valueRanges": [
+            [
+              24,
+              27
+            ]
+          ],
+          "name": {
+            "en": "Effervescent",
+            "kr": "거품",
+            "tw": "泡騰的",
+            "ru": "Шипучий",
+            "jp": "沸騰した"
+          },
+          "effect": {
+            "en": "(24-27)% of Recovery applied Instantly",
+            "kr": "회복량의 (24-27)%를 즉시 회복",
+            "tw": "(24-27)%恢復量立即恢復",
+            "ru": "(24-27)% от восстановления применяется мгновенно",
+            "jp": "回復量の(24-27)%が即時適用される"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    24,
+                    27
+                  ]
+                }
+              ],
+              "value": "24~27",
+              "text": {
+                "en": "(24-27)% of Recovery applied Instantly",
+                "kr": "회복량의 (24-27)%를 즉시 회복",
+                "tw": "(24-27)%恢復量立即恢復",
+                "ru": "(24-27)% от восстановления применяется мгновенно",
+                "jp": "回復量の(24-27)%が即時適用される"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskHealsMinions2",
+          "affixType": "prefix",
+          "tier": 28,
+          "valueRanges": [
+            [
+              57,
+              62
+            ]
+          ],
+          "name": {
+            "en": "Acolyte's",
+            "kr": "조수의",
+            "tw": "侍僧之",
+            "ru": "Служительский",
+            "jp": "侍祭の"
+          },
+          "effect": {
+            "en": "Grants (57-62)% of Life Recovery to Minions",
+            "kr": "소환수의 생명력 회복 (57-62)%",
+            "tw": "得到(57-62)%召喚物生命恢復",
+            "ru": "Дарует приспешникам (57-62)% от восстанавливаемого здоровья",
+            "jp": "ライフ回復の(57-62)%をミニオンに付与する"
+          },
+          "group": [
+            122
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_minion_heal_%",
+                  "valueRange": [
+                    57,
+                    62
+                  ]
+                }
+              ],
+              "value": "57~62",
+              "text": {
+                "en": "Grants (57-62)% of Life Recovery to Minions",
+                "kr": "소환수의 생명력 회복 (57-62)%",
+                "tw": "得到(57-62)%召喚物生命恢復",
+                "ru": "Дарует приспешникам (57-62)% от восстанавливаемого здоровья",
+                "jp": "ライフ回復の(57-62)%をミニオンに付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraLifeCostsMana2",
+          "affixType": "prefix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              69,
+              76
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Dizzying",
+            "kr": "아찔한",
+            "tw": "眼花繚亂的",
+            "ru": "Дурманящий",
+            "jp": "目眩のする"
+          },
+          "effect": {
+            "en": "(69-76)% increased Life Recovered\nRemoves 15% of Life Recovered from Mana when used",
+            "kr": "생명력 회복 (69-76)% 증가\n사용 시 마나에서 회복한 생명력의 15% 제거",
+            "tw": "增加(69-76)%生命恢復\n使用時，會扣除生命恢復值15%的魔力",
+            "ru": "(69-76)% увеличение восстанавливаемого здоровья\nПри использовании забирает 15% восстанавливаемого здоровья из маны",
+            "jp": "ライフ回復量が(69-76)%増加する\n使用した時に回復したライフの15%をマナから取り除く"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_to_recover_+%",
+                  "valueRange": [
+                    69,
+                    76
+                  ]
+                }
+              ],
+              "value": "69~76",
+              "text": {
+                "en": "(69-76)% increased Life Recovered",
+                "kr": "생명력 회복 (69-76)% 증가",
+                "tw": "增加(69-76)%生命恢復",
+                "ru": "(69-76)% увеличение восстанавливаемого здоровья",
+                "jp": "ライフ回復量が(69-76)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_life_recovery_from_mana_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Life Recovered from Mana when used",
+                "kr": "사용 시 마나에서 회복한 생명력의 15% 제거",
+                "tw": "使用時，會扣除生命恢復值15%的魔力",
+                "ru": "При использовании забирает 15% восстанавливаемого здоровья из маны",
+                "jp": "使用した時に回復したライフの15%をマナから取り除く"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed3_",
+          "affixType": "prefix",
+          "tier": 31,
+          "valueRanges": [
+            [
+              51,
+              55
+            ]
+          ],
+          "name": {
+            "en": "Hearty",
+            "kr": "원기 왕성",
+            "tw": "爽朗",
+            "ru": "Крепкий",
+            "jp": "しっかりした"
+          },
+          "effect": {
+            "en": "(51-55)% increased Recovery rate",
+            "kr": "회복 속도 (51-55)% 증가",
+            "tw": "增加(51-55)%恢復率",
+            "ru": "(51-55)% повышение скорости восстановления",
+            "jp": "回復レートが(51-55)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55)% increased Recovery rate",
+                "kr": "회복 속도 (51-55)% 증가",
+                "tw": "增加(51-55)%恢復率",
+                "ru": "(51-55)% повышение скорости восстановления",
+                "jp": "回復レートが(51-55)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount4",
+          "affixType": "prefix",
+          "tier": 34,
+          "valueRanges": [
+            [
+              56,
+              60
+            ]
+          ],
+          "name": {
+            "en": "Abundant",
+            "kr": "풍부한",
+            "tw": "富裕的",
+            "ru": "Изобилующий",
+            "jp": "余りある"
+          },
+          "effect": {
+            "en": "(56-60)% increased Amount Recovered",
+            "kr": "회복량 (56-60)% 증가",
+            "tw": "增加(56-60)%恢復量",
+            "ru": "(56-60)% увеличение объёма восстановления",
+            "jp": "回復量が(56-60)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    56,
+                    60
+                  ]
+                }
+              ],
+              "value": "56~60",
+              "text": {
+                "en": "(56-60)% increased Amount Recovered",
+                "kr": "회복량 (56-60)% 증가",
+                "tw": "增加(56-60)%恢復量",
+                "ru": "(56-60)% увеличение объёма восстановления",
+                "jp": "回復量が(56-60)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullInstantRecovery1",
+          "affixType": "prefix",
+          "tier": 42,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -50,
+              -50
+            ]
+          ],
+          "name": {
+            "en": "Seething",
+            "kr": "끓어오르는",
+            "tw": "沸騰的",
+            "ru": "Бурлящий",
+            "jp": "沸き立つ"
+          },
+          "effect": {
+            "en": "Instant Recovery\n-50% reduced Amount Recovered",
+            "kr": "즉시 회복\n회복량 -50% 감소",
+            "tw": "立即恢復\n減少-50%恢復量",
+            "ru": "Мгновенное восстановление\n-50% уменьшение объёма восстановления",
+            "jp": "即時回復\n回復量が-50%減少する"
+          },
+          "group": [
+            117
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovers_instantly",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Instant Recovery",
+                "kr": "즉시 회복",
+                "tw": "立即恢復",
+                "ru": "Мгновенное восстановление",
+                "jp": "即時回復"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -50,
+                    -50
+                  ]
+                }
+              ],
+              "value": "-50",
+              "text": {
+                "en": "-50% reduced Amount Recovered",
+                "kr": "회복량 -50% 감소",
+                "tw": "減少-50%恢復量",
+                "ru": "-50% уменьшение объёма восстановления",
+                "jp": "回復量が-50%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryOnLowLife3",
+          "affixType": "prefix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              71,
+              80
+            ]
+          ],
+          "name": {
+            "en": "Wary",
+            "kr": "경계하는",
+            "tw": "警惕的",
+            "ru": "Осмотрительный",
+            "jp": "入念な"
+          },
+          "effect": {
+            "en": "(71-80)% more Recovery if used while on Low Life",
+            "kr": "낮은 생명력 상태일 때 사용 시 회복 (71-80)% 증폭",
+            "tw": "貧血狀態時使用有(71-80)%更多回復量",
+            "ru": "На (71-80)% больше восстановления, если используется при малом количестве здоровья",
+            "jp": "低ライフ時に使用すると回復量が(71-80)%上昇する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%_when_on_low_life",
+                  "valueRange": [
+                    71,
+                    80
+                  ]
+                }
+              ],
+              "value": "71~80",
+              "text": {
+                "en": "(71-80)% more Recovery if used while on Low Life",
+                "kr": "낮은 생명력 상태일 때 사용 시 회복 (71-80)% 증폭",
+                "tw": "貧血狀態時使用有(71-80)%更多回復量",
+                "ru": "На (71-80)% больше восстановления, если используется при малом количестве здоровья",
+                "jp": "低ライフ時に使用すると回復量が(71-80)%上昇する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskHealsMinions3",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              63,
+              68
+            ]
+          ],
+          "name": {
+            "en": "Summoner's",
+            "kr": "소환사의",
+            "tw": "召喚者的",
+            "ru": "Призывающий",
+            "jp": "召喚師の"
+          },
+          "effect": {
+            "en": "Grants (63-68)% of Life Recovery to Minions",
+            "kr": "소환수의 생명력 회복 (63-68)%",
+            "tw": "得到(63-68)%召喚物生命恢復",
+            "ru": "Дарует приспешникам (63-68)% от восстанавливаемого здоровья",
+            "jp": "ライフ回復の(63-68)%をミニオンに付与する"
+          },
+          "group": [
+            122
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_minion_heal_%",
+                  "valueRange": [
+                    63,
+                    68
+                  ]
+                }
+              ],
+              "value": "63~68",
+              "text": {
+                "en": "Grants (63-68)% of Life Recovery to Minions",
+                "kr": "소환수의 생명력 회복 (63-68)%",
+                "tw": "得到(63-68)%召喚物生命恢復",
+                "ru": "Дарует приспешникам (63-68)% от восстанавливаемого здоровья",
+                "jp": "ライフ回復の(63-68)%をミニオンに付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount5",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              61,
+              65
+            ]
+          ],
+          "name": {
+            "en": "Substantial",
+            "kr": "묵직한",
+            "tw": "重大的",
+            "ru": "Питательный",
+            "jp": "多量の"
+          },
+          "effect": {
+            "en": "(61-65)% increased Amount Recovered",
+            "kr": "회복량 (61-65)% 증가",
+            "tw": "增加(61-65)%恢復量",
+            "ru": "(61-65)% увеличение объёма восстановления",
+            "jp": "回復量が(61-65)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    61,
+                    65
+                  ]
+                }
+              ],
+              "value": "61~65",
+              "text": {
+                "en": "(61-65)% increased Amount Recovered",
+                "kr": "회복량 (61-65)% 증가",
+                "tw": "增加(61-65)%恢復量",
+                "ru": "(61-65)% увеличение объёма восстановления",
+                "jp": "回復量が(61-65)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed4",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              56,
+              60
+            ]
+          ],
+          "name": {
+            "en": "Viscous",
+            "kr": "점성 있는",
+            "tw": "粘性的",
+            "ru": "Вязкий",
+            "jp": "ねっとりした"
+          },
+          "effect": {
+            "en": "(56-60)% increased Recovery rate",
+            "kr": "회복 속도 (56-60)% 증가",
+            "tw": "增加(56-60)%恢復率",
+            "ru": "(56-60)% повышение скорости восстановления",
+            "jp": "回復レートが(56-60)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    56,
+                    60
+                  ]
+                }
+              ],
+              "value": "56~60",
+              "text": {
+                "en": "(56-60)% increased Recovery rate",
+                "kr": "회복 속도 (56-60)% 증가",
+                "tw": "增加(56-60)%恢復率",
+                "ru": "(56-60)% повышение скорости восстановления",
+                "jp": "回復レートが(56-60)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery3",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              28,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Bubbling",
+            "kr": "부글대는",
+            "tw": "起泡的",
+            "ru": "Пенящийся",
+            "jp": "泡立つ"
+          },
+          "effect": {
+            "en": "(28-30)% of Recovery applied Instantly",
+            "kr": "회복량의 (28-30)%를 즉시 회복",
+            "tw": "(28-30)%恢復量立即恢復",
+            "ru": "(28-30)% от восстановления применяется мгновенно",
+            "jp": "回復量の(28-30)%が即時適用される"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    28,
+                    30
+                  ]
+                }
+              ],
+              "value": "28~30",
+              "text": {
+                "en": "(28-30)% of Recovery applied Instantly",
+                "kr": "회복량의 (28-30)%를 즉시 회복",
+                "tw": "(28-30)%恢復量立即恢復",
+                "ru": "(28-30)% от восстановления применяется мгновенно",
+                "jp": "回復量の(28-30)%が即時適用される"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraLifeCostsMana3",
+          "affixType": "prefix",
+          "tier": 47,
+          "valueRanges": [
+            [
+              77,
+              84
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Depleting",
+            "kr": "동내는",
+            "tw": "消耗的",
+            "ru": "Опорожняющий",
+            "jp": "消耗する"
+          },
+          "effect": {
+            "en": "(77-84)% increased Life Recovered\nRemoves 15% of Life Recovered from Mana when used",
+            "kr": "생명력 회복 (77-84)% 증가\n사용 시 마나에서 회복한 생명력의 15% 제거",
+            "tw": "增加(77-84)%生命恢復\n使用時，會扣除生命恢復值15%的魔力",
+            "ru": "(77-84)% увеличение восстанавливаемого здоровья\nПри использовании забирает 15% восстанавливаемого здоровья из маны",
+            "jp": "ライフ回復量が(77-84)%増加する\n使用した時に回復したライフの15%をマナから取り除く"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_to_recover_+%",
+                  "valueRange": [
+                    77,
+                    84
+                  ]
+                }
+              ],
+              "value": "77~84",
+              "text": {
+                "en": "(77-84)% increased Life Recovered",
+                "kr": "생명력 회복 (77-84)% 증가",
+                "tw": "增加(77-84)%生命恢復",
+                "ru": "(77-84)% увеличение восстанавливаемого здоровья",
+                "jp": "ライフ回復量が(77-84)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_life_recovery_from_mana_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Life Recovered from Mana when used",
+                "kr": "사용 시 마나에서 회복한 생명력의 15% 제거",
+                "tw": "使用時，會扣除生命恢復值15%的魔力",
+                "ru": "При использовании забирает 15% восстанавливаемого здоровья из маны",
+                "jp": "使用した時に回復したライフの15%をマナから取り除く"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount6",
+          "affixType": "prefix",
+          "tier": 56,
+          "valueRanges": [
+            [
+              66,
+              70
+            ]
+          ],
+          "name": {
+            "en": "Concentrated",
+            "kr": "밀집된",
+            "tw": "集中的",
+            "ru": "Концентрированный",
+            "jp": "濃縮された"
+          },
+          "effect": {
+            "en": "(66-70)% increased Amount Recovered",
+            "kr": "회복량 (66-70)% 증가",
+            "tw": "增加(66-70)%恢復量",
+            "ru": "(66-70)% увеличение объёма восстановления",
+            "jp": "回復量が(66-70)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    66,
+                    70
+                  ]
+                }
+              ],
+              "value": "66~70",
+              "text": {
+                "en": "(66-70)% increased Amount Recovered",
+                "kr": "회복량 (66-70)% 증가",
+                "tw": "增加(66-70)%恢復量",
+                "ru": "(66-70)% увеличение объёма восстановления",
+                "jp": "回復量が(66-70)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed5",
+          "affixType": "prefix",
+          "tier": 61,
+          "valueRanges": [
+            [
+              61,
+              65
+            ]
+          ],
+          "name": {
+            "en": "Condensed",
+            "kr": "농축된",
+            "tw": "濃縮的",
+            "ru": "Конденсированный",
+            "jp": "凝縮した"
+          },
+          "effect": {
+            "en": "(61-65)% increased Recovery rate",
+            "kr": "회복 속도 (61-65)% 증가",
+            "tw": "增加(61-65)%恢復率",
+            "ru": "(61-65)% повышение скорости восстановления",
+            "jp": "回復レートが(61-65)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    61,
+                    65
+                  ]
+                }
+              ],
+              "value": "61~65",
+              "text": {
+                "en": "(61-65)% increased Recovery rate",
+                "kr": "회복 속도 (61-65)% 증가",
+                "tw": "增加(61-65)%恢復率",
+                "ru": "(61-65)% повышение скорости восстановления",
+                "jp": "回復レートが(61-65)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryOnLowLife4",
+          "affixType": "prefix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              81,
+              90
+            ]
+          ],
+          "name": {
+            "en": "Careful",
+            "kr": "조심하는",
+            "tw": "小心的",
+            "ru": "Осторожный",
+            "jp": "注意深い"
+          },
+          "effect": {
+            "en": "(81-90)% more Recovery if used while on Low Life",
+            "kr": "낮은 생명력 상태일 때 사용 시 회복 (81-90)% 증폭",
+            "tw": "貧血狀態時使用有(81-90)%更多回復量",
+            "ru": "На (81-90)% больше восстановления, если используется при малом количестве здоровья",
+            "jp": "低ライフ時に使用すると回復量が(81-90)%上昇する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%_when_on_low_life",
+                  "valueRange": [
+                    81,
+                    90
+                  ]
+                }
+              ],
+              "value": "81~90",
+              "text": {
+                "en": "(81-90)% more Recovery if used while on Low Life",
+                "kr": "낮은 생명력 상태일 때 사용 시 회복 (81-90)% 증폭",
+                "tw": "貧血狀態時使用有(81-90)%更多回復量",
+                "ru": "На (81-90)% больше восстановления, если используется при малом количестве здоровья",
+                "jp": "低ライフ時に使用すると回復量が(81-90)%上昇する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraLifeCostsMana4",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              85,
+              92
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Vitiating",
+            "kr": "저하시키는",
+            "tw": "維他命的",
+            "ru": "Разлагающий",
+            "jp": "弱化する"
+          },
+          "effect": {
+            "en": "(85-92)% increased Life Recovered\nRemoves 15% of Life Recovered from Mana when used",
+            "kr": "생명력 회복 (85-92)% 증가\n사용 시 마나에서 회복한 생명력의 15% 제거",
+            "tw": "增加(85-92)%生命恢復\n使用時，會扣除生命恢復值15%的魔力",
+            "ru": "(85-92)% увеличение восстанавливаемого здоровья\nПри использовании забирает 15% восстанавливаемого здоровья из маны",
+            "jp": "ライフ回復量が(85-92)%増加する\n使用した時に回復したライフの15%をマナから取り除く"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_to_recover_+%",
+                  "valueRange": [
+                    85,
+                    92
+                  ]
+                }
+              ],
+              "value": "85~92",
+              "text": {
+                "en": "(85-92)% increased Life Recovered",
+                "kr": "생명력 회복 (85-92)% 증가",
+                "tw": "增加(85-92)%生命恢復",
+                "ru": "(85-92)% увеличение восстанавливаемого здоровья",
+                "jp": "ライフ回復量が(85-92)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_life_recovery_from_mana_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Life Recovered from Mana when used",
+                "kr": "사용 시 마나에서 회복한 생명력의 15% 제거",
+                "tw": "使用時，會扣除生命恢復值15%的魔力",
+                "ru": "При использовании забирает 15% восстанавливаемого здоровья из маны",
+                "jp": "使用した時に回復したライフの15%をマナから取り除く"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskHealsMinions4____",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              69,
+              74
+            ]
+          ],
+          "name": {
+            "en": "Conjurer's",
+            "kr": "요술사의",
+            "tw": "魔法師的",
+            "ru": "Заклинающий",
+            "jp": "祈祷師の"
+          },
+          "effect": {
+            "en": "Grants (69-74)% of Life Recovery to Minions",
+            "kr": "소환수의 생명력 회복 (69-74)%",
+            "tw": "得到(69-74)%召喚物生命恢復",
+            "ru": "Дарует приспешникам (69-74)% от восстанавливаемого здоровья",
+            "jp": "ライフ回復の(69-74)%をミニオンに付与する"
+          },
+          "group": [
+            122
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_minion_heal_%",
+                  "valueRange": [
+                    69,
+                    74
+                  ]
+                }
+              ],
+              "value": "69~74",
+              "text": {
+                "en": "Grants (69-74)% of Life Recovery to Minions",
+                "kr": "소환수의 생명력 회복 (69-74)%",
+                "tw": "得到(69-74)%召喚物生命恢復",
+                "ru": "Дарует приспешникам (69-74)% от восстанавливаемого здоровья",
+                "jp": "ライフ回復の(69-74)%をミニオンに付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount7",
+          "affixType": "prefix",
+          "tier": 67,
+          "valueRanges": [
+            [
+              71,
+              75
+            ]
+          ],
+          "name": {
+            "en": "Potent",
+            "kr": "강화형",
+            "tw": "功效的",
+            "ru": "Сильный",
+            "jp": "強力な"
+          },
+          "effect": {
+            "en": "(71-75)% increased Amount Recovered",
+            "kr": "회복량 (71-75)% 증가",
+            "tw": "增加(71-75)%恢復量",
+            "ru": "(71-75)% увеличение объёма восстановления",
+            "jp": "回復量が(71-75)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    71,
+                    75
+                  ]
+                }
+              ],
+              "value": "71~75",
+              "text": {
+                "en": "(71-75)% increased Amount Recovered",
+                "kr": "회복량 (71-75)% 증가",
+                "tw": "增加(71-75)%恢復量",
+                "ru": "(71-75)% увеличение объёма восстановления",
+                "jp": "回復量が(71-75)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraLifeCostsMana5_",
+          "affixType": "prefix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              93,
+              100
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Sapping",
+            "kr": "활력 감소의",
+            "tw": "削弱的",
+            "ru": "Иссушающий",
+            "jp": "搾り取る"
+          },
+          "effect": {
+            "en": "(93-100)% increased Life Recovered\nRemoves 15% of Life Recovered from Mana when used",
+            "kr": "생명력 회복 (93-100)% 증가\n사용 시 마나에서 회복한 생명력의 15% 제거",
+            "tw": "增加(93-100)%生命恢復\n使用時，會扣除生命恢復值15%的魔力",
+            "ru": "(93-100)% увеличение восстанавливаемого здоровья\nПри использовании забирает 15% восстанавливаемого здоровья из маны",
+            "jp": "ライフ回復量が(93-100)%増加する\n使用した時に回復したライフの15%をマナから取り除く"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_to_recover_+%",
+                  "valueRange": [
+                    93,
+                    100
+                  ]
+                }
+              ],
+              "value": "93~100",
+              "text": {
+                "en": "(93-100)% increased Life Recovered",
+                "kr": "생명력 회복 (93-100)% 증가",
+                "tw": "增加(93-100)%生命恢復",
+                "ru": "(93-100)% увеличение восстанавливаемого здоровья",
+                "jp": "ライフ回復量が(93-100)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_life_recovery_from_mana_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Life Recovered from Mana when used",
+                "kr": "사용 시 마나에서 회복한 생명력의 15% 제거",
+                "tw": "使用時，會扣除生命恢復值15%的魔力",
+                "ru": "При использовании забирает 15% восстанавливаемого здоровья из маны",
+                "jp": "使用した時に回復したライフの15%をマナから取り除く"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed6",
+          "affixType": "prefix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              66,
+              70
+            ]
+          ],
+          "name": {
+            "en": "Catalysed",
+            "kr": "촉진된",
+            "tw": "催化的",
+            "ru": "Катализированный",
+            "jp": "促進された"
+          },
+          "effect": {
+            "en": "(66-70)% increased Recovery rate",
+            "kr": "회복 속도 (66-70)% 증가",
+            "tw": "增加(66-70)%恢復率",
+            "ru": "(66-70)% повышение скорости восстановления",
+            "jp": "回復レートが(66-70)%増加する"
+          },
+          "group": [
+            111
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    66,
+                    70
+                  ]
+                }
+              ],
+              "value": "66~70",
+              "text": {
+                "en": "(66-70)% increased Recovery rate",
+                "kr": "회복 속도 (66-70)% 증가",
+                "tw": "增加(66-70)%恢復率",
+                "ru": "(66-70)% повышение скорости восстановления",
+                "jp": "回復レートが(66-70)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskHealsMinions5",
+          "affixType": "prefix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              75,
+              80
+            ]
+          ],
+          "name": {
+            "en": "Necromancer's",
+            "kr": "강령술사의",
+            "tw": "死靈師的",
+            "ru": "Воскрешающий",
+            "jp": "死霊術師の"
+          },
+          "effect": {
+            "en": "Grants (75-80)% of Life Recovery to Minions",
+            "kr": "소환수의 생명력 회복 (75-80)%",
+            "tw": "得到(75-80)%召喚物生命恢復",
+            "ru": "Дарует приспешникам (75-80)% от восстанавливаемого здоровья",
+            "jp": "ライフ回復の(75-80)%をミニオンに付与する"
+          },
+          "group": [
+            122
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_minion_heal_%",
+                  "valueRange": [
+                    75,
+                    80
+                  ]
+                }
+              ],
+              "value": "75~80",
+              "text": {
+                "en": "Grants (75-80)% of Life Recovery to Minions",
+                "kr": "소환수의 생명력 회복 (75-80)%",
+                "tw": "得到(75-80)%召喚物生命恢復",
+                "ru": "Дарует приспешникам (75-80)% от восстанавливаемого здоровья",
+                "jp": "ライフ回復の(75-80)%をミニオンに付与する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryOnLowLife5",
+          "affixType": "prefix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              91,
+              100
+            ]
+          ],
+          "name": {
+            "en": "Cautious",
+            "kr": "조심스러운",
+            "tw": "謹慎的",
+            "ru": "Опасливый",
+            "jp": "用心深い"
+          },
+          "effect": {
+            "en": "(91-100)% more Recovery if used while on Low Life",
+            "kr": "낮은 생명력 상태일 때 사용 시 회복 (91-100)% 증폭",
+            "tw": "貧血狀態時使用有(91-100)%更多回復量",
+            "ru": "На (91-100)% больше восстановления, если используется при малом количестве здоровья",
+            "jp": "低ライフ時に使用すると回復量が(91-100)%上昇する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%_when_on_low_life",
+                  "valueRange": [
+                    91,
+                    100
+                  ]
+                }
+              ],
+              "value": "91~100",
+              "text": {
+                "en": "(91-100)% more Recovery if used while on Low Life",
+                "kr": "낮은 생명력 상태일 때 사용 시 회복 (91-100)% 증폭",
+                "tw": "貧血狀態時使用有(91-100)%更多回復量",
+                "ru": "На (91-100)% больше восстановления, если используется при малом количестве здоровья",
+                "jp": "低ライフ時に使用すると回復量が(91-100)%上昇する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount8",
+          "affixType": "prefix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              76,
+              80
+            ]
+          ],
+          "name": {
+            "en": "Saturated",
+            "kr": "포화된",
+            "tw": "飽和的",
+            "ru": "Насыщенный",
+            "jp": "飽和した"
+          },
+          "effect": {
+            "en": "(76-80)% increased Amount Recovered",
+            "kr": "회복량 (76-80)% 증가",
+            "tw": "增加(76-80)%恢復量",
+            "ru": "(76-80)% увеличение объёма восстановления",
+            "jp": "回復量が(76-80)%増加する"
+          },
+          "group": [
+            110
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    76,
+                    80
+                  ]
+                }
+              ],
+              "value": "76~80",
+              "text": {
+                "en": "(76-80)% increased Amount Recovered",
+                "kr": "회복량 (76-80)% 증가",
+                "tw": "增加(76-80)%恢復量",
+                "ru": "(76-80)% увеличение объёма восстановления",
+                "jp": "回復量が(76-80)%増加する"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "FlaskChargesAddedIncreasePercent1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              23,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of the Constant",
+            "kr": "- 상수",
+            "tw": "持續之",
+            "ru": "постоянства",
+            "jp": "絶え間なき"
+          },
+          "effect": {
+            "en": "(23-30)% increased Charges gained",
+            "kr": "충전량 (23-30)% 증가",
+            "tw": "增加(23-30)%獲得的充能",
+            "ru": "(23-30)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(23-30)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    23,
+                    30
+                  ]
+                }
+              ],
+              "value": "23~30",
+              "text": {
+                "en": "(23-30)% increased Charges gained",
+                "kr": "충전량 (23-30)% 증가",
+                "tw": "增加(23-30)%獲得的充能",
+                "ru": "(23-30)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(23-30)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -17,
+              -15
+            ]
+          ],
+          "name": {
+            "en": "of the Apprentice",
+            "kr": "- 수습생",
+            "tw": "學徒的",
+            "ru": "подручного",
+            "jp": "弟子の"
+          },
+          "effect": {
+            "en": "(-17--15)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-17--15)% 감소",
+            "tw": "每次使用減少(-17--15)%充能",
+            "ru": "(-17--15)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-17--15)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -17,
+                    -15
+                  ]
+                }
+              ],
+              "value": "-17~-15",
+              "text": {
+                "en": "(-17--15)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-17--15)% 감소",
+                "tw": "每次使用減少(-17--15)%充能",
+                "ru": "(-17--15)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-17--15)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              23,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of the Wide",
+            "kr": "- 넓음",
+            "tw": "寬的",
+            "ru": "объёма",
+            "jp": "広さの"
+          },
+          "effect": {
+            "en": "(23-30)% increased Charges",
+            "kr": "충전 (23-30)% 증가",
+            "tw": "增加(23-30)%充能",
+            "ru": "(23-30)% увеличение зарядов",
+            "jp": "チャージが(23-30)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    23,
+                    30
+                  ]
+                }
+              ],
+              "value": "23~30",
+              "text": {
+                "en": "(23-30)% increased Charges",
+                "kr": "충전 (23-30)% 증가",
+                "tw": "增加(23-30)%充能",
+                "ru": "(23-30)% увеличение зарядов",
+                "jp": "チャージが(23-30)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnKill1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Medic",
+            "kr": "- 위생병",
+            "tw": "醫者之",
+            "ru": "медика",
+            "jp": "医師の"
+          },
+          "effect": {
+            "en": "(21-25)% Chance to gain a Charge when you kill an enemy",
+            "kr": "적 처치 시 (21-25)%의 확률로 충전 획득",
+            "tw": "殺死敵人時有(21-25)%機率獲得一個充能",
+            "ru": "(21-25)% шанс получить заряд, когда вы убиваете врага",
+            "jp": "プレイヤーが敵を倒した時に(21-25)%の確率でチャージを1獲得する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_%_chance_to_gain_flask_charge_on_kill",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% Chance to gain a Charge when you kill an enemy",
+                "kr": "적 처치 시 (21-25)%의 확률로 충전 획득",
+                "tw": "殺死敵人時有(21-25)%機率獲得一個充能",
+                "ru": "(21-25)% шанс получить заряд, когда вы убиваете врага",
+                "jp": "プレイヤーが敵を倒した時に(21-25)%の確率でチャージを1獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFillChargesPerMinute1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              9,
+              9
+            ]
+          ],
+          "name": {
+            "en": "of the Foliage",
+            "kr": "- 나뭇잎",
+            "tw": "枝葉之",
+            "ru": "листвы",
+            "jp": "枝葉の"
+          },
+          "effect": {
+            "en": "Gains 9 Charges per Second",
+            "kr": "1초마다 충전 9 획득",
+            "tw": "每秒獲得9充能",
+            "ru": "Получает зарядов в секунду: 9",
+            "jp": "毎秒チャージを9獲得する"
+          },
+          "group": [
+            749
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_every_minute",
+                  "valueRange": [
+                    9,
+                    9
+                  ]
+                }
+              ],
+              "value": "9",
+              "text": {
+                "en": "Gains 9 Charges per Second",
+                "kr": "1초마다 충전 9 획득",
+                "tw": "每秒獲得9充能",
+                "ru": "Получает зарядов в секунду: 9",
+                "jp": "毎秒チャージを9獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges2__",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              31,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of the Copious",
+            "kr": "- 방대함",
+            "tw": "豐產的",
+            "ru": "обилия",
+            "jp": "大量の"
+          },
+          "effect": {
+            "en": "(31-38)% increased Charges",
+            "kr": "충전 (31-38)% 증가",
+            "tw": "增加(31-38)%充能",
+            "ru": "(31-38)% увеличение зарядов",
+            "jp": "チャージが(31-38)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    31,
+                    38
+                  ]
+                }
+              ],
+              "value": "31~38",
+              "text": {
+                "en": "(31-38)% increased Charges",
+                "kr": "충전 (31-38)% 증가",
+                "tw": "增加(31-38)%充能",
+                "ru": "(31-38)% увеличение зарядов",
+                "jp": "チャージが(31-38)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent2_",
+          "affixType": "suffix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              31,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of the Continuous",
+            "kr": "- 계속",
+            "tw": "連續的",
+            "ru": "непрерывности",
+            "jp": "恒久の"
+          },
+          "effect": {
+            "en": "(31-38)% increased Charges gained",
+            "kr": "충전량 (31-38)% 증가",
+            "tw": "增加(31-38)%獲得的充能",
+            "ru": "(31-38)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(31-38)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    31,
+                    38
+                  ]
+                }
+              ],
+              "value": "31~38",
+              "text": {
+                "en": "(31-38)% increased Charges gained",
+                "kr": "충전량 (31-38)% 증가",
+                "tw": "增加(31-38)%獲得的充能",
+                "ru": "(31-38)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(31-38)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed2",
+          "affixType": "suffix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              -20,
+              -18
+            ]
+          ],
+          "name": {
+            "en": "of the Practitioner",
+            "kr": "- 실무자",
+            "tw": "從業者的",
+            "ru": "практика",
+            "jp": "練習生の"
+          },
+          "effect": {
+            "en": "(-20--18)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-20--18)% 감소",
+            "tw": "每次使用減少(-20--18)%充能",
+            "ru": "(-20--18)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-20--18)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -20,
+                    -18
+                  ]
+                }
+              ],
+              "value": "-20~-18",
+              "text": {
+                "en": "(-20--18)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-20--18)% 감소",
+                "tw": "每次使用減少(-20--18)%充能",
+                "ru": "(-20--18)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-20--18)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnKill2",
+          "affixType": "suffix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of the Doctor",
+            "kr": "- 의사",
+            "tw": "醫師之",
+            "ru": "доктора",
+            "jp": "医者の"
+          },
+          "effect": {
+            "en": "(26-30)% Chance to gain a Charge when you kill an enemy",
+            "kr": "적 처치 시 (26-30)%의 확률로 충전 획득",
+            "tw": "殺死敵人時有(26-30)%機率獲得一個充能",
+            "ru": "(26-30)% шанс получить заряд, когда вы убиваете врага",
+            "jp": "プレイヤーが敵を倒した時に(26-30)%の確率でチャージを1獲得する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_%_chance_to_gain_flask_charge_on_kill",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% Chance to gain a Charge when you kill an enemy",
+                "kr": "적 처치 시 (26-30)%의 확률로 충전 획득",
+                "tw": "殺死敵人時有(26-30)%機率獲得一個充能",
+                "ru": "(26-30)% шанс получить заряд, когда вы убиваете врага",
+                "jp": "プレイヤーが敵を倒した時に(26-30)%の確率でチャージを1獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFillChargesPerMinute2",
+          "affixType": "suffix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              12,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Verdant",
+            "kr": "- 신록",
+            "tw": "自然之",
+            "ru": "зелени",
+            "jp": "新緑の"
+          },
+          "effect": {
+            "en": "Gains 12 Charges per Second",
+            "kr": "1초마다 충전 12 획득",
+            "tw": "每秒獲得12充能",
+            "ru": "Получает зарядов в секунду: 12",
+            "jp": "毎秒チャージを12獲得する"
+          },
+          "group": [
+            749
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_every_minute",
+                  "valueRange": [
+                    12,
+                    12
+                  ]
+                }
+              ],
+              "value": "12",
+              "text": {
+                "en": "Gains 12 Charges per Second",
+                "kr": "1초마다 충전 12 획득",
+                "tw": "每秒獲得12充能",
+                "ru": "Получает зарядов в секунду: 12",
+                "jp": "毎秒チャージを12獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges3_",
+          "affixType": "suffix",
+          "tier": 32,
+          "valueRanges": [
+            [
+              39,
+              46
+            ]
+          ],
+          "name": {
+            "en": "of the Plentiful",
+            "kr": "- 풍요",
+            "tw": "充足的",
+            "ru": "щедрости",
+            "jp": "豊富さの"
+          },
+          "effect": {
+            "en": "(39-46)% increased Charges",
+            "kr": "충전 (39-46)% 증가",
+            "tw": "增加(39-46)%充能",
+            "ru": "(39-46)% увеличение зарядов",
+            "jp": "チャージが(39-46)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    39,
+                    46
+                  ]
+                }
+              ],
+              "value": "39~46",
+              "text": {
+                "en": "(39-46)% increased Charges",
+                "kr": "충전 (39-46)% 증가",
+                "tw": "增加(39-46)%充能",
+                "ru": "(39-46)% увеличение зарядов",
+                "jp": "チャージが(39-46)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent3_",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              39,
+              46
+            ]
+          ],
+          "name": {
+            "en": "of the Endless",
+            "kr": "- 끝없음",
+            "tw": "無盡的",
+            "ru": "неиссякаемости",
+            "jp": "終わりなき"
+          },
+          "effect": {
+            "en": "(39-46)% increased Charges gained",
+            "kr": "충전량 (39-46)% 증가",
+            "tw": "增加(39-46)%獲得的充能",
+            "ru": "(39-46)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(39-46)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    39,
+                    46
+                  ]
+                }
+              ],
+              "value": "39~46",
+              "text": {
+                "en": "(39-46)% increased Charges gained",
+                "kr": "충전량 (39-46)% 증가",
+                "tw": "增加(39-46)%獲得的充能",
+                "ru": "(39-46)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(39-46)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed3__",
+          "affixType": "suffix",
+          "tier": 34,
+          "valueRanges": [
+            [
+              -23,
+              -21
+            ]
+          ],
+          "name": {
+            "en": "of the Mixologist",
+            "kr": "- 혼합자",
+            "tw": "調酒師的",
+            "ru": "винокура",
+            "jp": "混合学者の"
+          },
+          "effect": {
+            "en": "(-23--21)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-23--21)% 감소",
+            "tw": "每次使用減少(-23--21)%充能",
+            "ru": "(-23--21)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-23--21)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -23,
+                    -21
+                  ]
+                }
+              ],
+              "value": "-23~-21",
+              "text": {
+                "en": "(-23--21)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-23--21)% 감소",
+                "tw": "每次使用減少(-23--21)%充能",
+                "ru": "(-23--21)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-23--21)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnKill3",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Surgeon",
+            "kr": "- 외과의사",
+            "tw": "外科醫師之",
+            "ru": "хирурга",
+            "jp": "外科医の"
+          },
+          "effect": {
+            "en": "(31-35)% Chance to gain a Charge when you kill an enemy",
+            "kr": "적 처치 시 (31-35)%의 확률로 충전 획득",
+            "tw": "殺死敵人時有(31-35)%機率獲得一個充能",
+            "ru": "(31-35)% шанс получить заряд, когда вы убиваете врага",
+            "jp": "プレイヤーが敵を倒した時に(31-35)%の確率でチャージを1獲得する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_%_chance_to_gain_flask_charge_on_kill",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% Chance to gain a Charge when you kill an enemy",
+                "kr": "적 처치 시 (31-35)%의 확률로 충전 획득",
+                "tw": "殺死敵人時有(31-35)%機率獲得一個充能",
+                "ru": "(31-35)% шанс получить заряд, когда вы убиваете врага",
+                "jp": "プレイヤーが敵を倒した時に(31-35)%の確率でチャージを1獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFillChargesPerMinute3",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Sylvan",
+            "kr": "- 시골숲",
+            "tw": "森林之",
+            "ru": "дубравы",
+            "jp": "森の"
+          },
+          "effect": {
+            "en": "Gains 15 Charges per Second",
+            "kr": "1초마다 충전 15 획득",
+            "tw": "每秒獲得15充能",
+            "ru": "Получает зарядов в секунду: 15",
+            "jp": "毎秒チャージを15獲得する"
+          },
+          "group": [
+            749
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_every_minute",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Gains 15 Charges per Second",
+                "kr": "1초마다 충전 15 획득",
+                "tw": "每秒獲得15充能",
+                "ru": "Получает зарядов в секунду: 15",
+                "jp": "毎秒チャージを15獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges4__",
+          "affixType": "suffix",
+          "tier": 47,
+          "valueRanges": [
+            [
+              47,
+              54
+            ]
+          ],
+          "name": {
+            "en": "of the Bountiful",
+            "kr": "- 풍성",
+            "tw": "富裕的",
+            "ru": "богатства",
+            "jp": "豊かさの"
+          },
+          "effect": {
+            "en": "(47-54)% increased Charges",
+            "kr": "충전 (47-54)% 증가",
+            "tw": "增加(47-54)%充能",
+            "ru": "(47-54)% увеличение зарядов",
+            "jp": "チャージが(47-54)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    47,
+                    54
+                  ]
+                }
+              ],
+              "value": "47~54",
+              "text": {
+                "en": "(47-54)% increased Charges",
+                "kr": "충전 (47-54)% 증가",
+                "tw": "增加(47-54)%充能",
+                "ru": "(47-54)% увеличение зарядов",
+                "jp": "チャージが(47-54)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent4_",
+          "affixType": "suffix",
+          "tier": 48,
+          "valueRanges": [
+            [
+              47,
+              54
+            ]
+          ],
+          "name": {
+            "en": "of the Bottomless",
+            "kr": "- 끝이 보이지 않음",
+            "tw": "無底的",
+            "ru": "бездонности",
+            "jp": "底なしの"
+          },
+          "effect": {
+            "en": "(47-54)% increased Charges gained",
+            "kr": "충전량 (47-54)% 증가",
+            "tw": "增加(47-54)%獲得的充能",
+            "ru": "(47-54)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(47-54)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    47,
+                    54
+                  ]
+                }
+              ],
+              "value": "47~54",
+              "text": {
+                "en": "(47-54)% increased Charges gained",
+                "kr": "충전량 (47-54)% 증가",
+                "tw": "增加(47-54)%獲得的充能",
+                "ru": "(47-54)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(47-54)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed4__",
+          "affixType": "suffix",
+          "tier": 49,
+          "valueRanges": [
+            [
+              -26,
+              -24
+            ]
+          ],
+          "name": {
+            "en": "of the Distiller",
+            "kr": "- 증류자",
+            "tw": "釀酒師的",
+            "ru": "перегонщика",
+            "jp": "蒸留者の"
+          },
+          "effect": {
+            "en": "(-26--24)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-26--24)% 감소",
+            "tw": "每次使用減少(-26--24)%充能",
+            "ru": "(-26--24)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-26--24)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -26,
+                    -24
+                  ]
+                }
+              ],
+              "value": "-26~-24",
+              "text": {
+                "en": "(-26--24)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-26--24)% 감소",
+                "tw": "每次使用減少(-26--24)%充能",
+                "ru": "(-26--24)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-26--24)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges5",
+          "affixType": "suffix",
+          "tier": 62,
+          "valueRanges": [
+            [
+              55,
+              62
+            ]
+          ],
+          "name": {
+            "en": "of the Abundant",
+            "kr": "- 풍부",
+            "tw": "富裕之",
+            "ru": "изобилия",
+            "jp": "余りある"
+          },
+          "effect": {
+            "en": "(55-62)% increased Charges",
+            "kr": "충전 (55-62)% 증가",
+            "tw": "增加(55-62)%充能",
+            "ru": "(55-62)% увеличение зарядов",
+            "jp": "チャージが(55-62)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    55,
+                    62
+                  ]
+                }
+              ],
+              "value": "55~62",
+              "text": {
+                "en": "(55-62)% increased Charges",
+                "kr": "충전 (55-62)% 증가",
+                "tw": "增加(55-62)%充能",
+                "ru": "(55-62)% увеличение зарядов",
+                "jp": "チャージが(55-62)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent5__",
+          "affixType": "suffix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              55,
+              62
+            ]
+          ],
+          "name": {
+            "en": "of the Perpetual",
+            "kr": "- 영속적",
+            "tw": "永久的",
+            "ru": "нескончаемости",
+            "jp": "不朽の"
+          },
+          "effect": {
+            "en": "(55-62)% increased Charges gained",
+            "kr": "충전량 (55-62)% 증가",
+            "tw": "增加(55-62)%獲得的充能",
+            "ru": "(55-62)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(55-62)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    55,
+                    62
+                  ]
+                }
+              ],
+              "value": "55~62",
+              "text": {
+                "en": "(55-62)% increased Charges gained",
+                "kr": "충전량 (55-62)% 증가",
+                "tw": "增加(55-62)%獲得的充能",
+                "ru": "(55-62)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(55-62)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed5",
+          "affixType": "suffix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              -29,
+              -27
+            ]
+          ],
+          "name": {
+            "en": "of the Brewer",
+            "kr": "- 조제자",
+            "tw": "釀酒師的",
+            "ru": "пивовара",
+            "jp": "醸造者の"
+          },
+          "effect": {
+            "en": "(-29--27)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-29--27)% 감소",
+            "tw": "每次使用減少(-29--27)%充能",
+            "ru": "(-29--27)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-29--27)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -29,
+                    -27
+                  ]
+                }
+              ],
+              "value": "-29~-27",
+              "text": {
+                "en": "(-29--27)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-29--27)% 감소",
+                "tw": "每次使用減少(-29--27)%充能",
+                "ru": "(-29--27)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-29--27)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges6",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              63,
+              70
+            ]
+          ],
+          "name": {
+            "en": "of the Ample",
+            "kr": "- 풍족",
+            "tw": "慷慨之",
+            "ru": "избытка",
+            "jp": "たっぷりの"
+          },
+          "effect": {
+            "en": "(63-70)% increased Charges",
+            "kr": "충전 (63-70)% 증가",
+            "tw": "增加(63-70)%充能",
+            "ru": "(63-70)% увеличение зарядов",
+            "jp": "チャージが(63-70)%増加する"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_max_charges_+%",
+                  "valueRange": [
+                    63,
+                    70
+                  ]
+                }
+              ],
+              "value": "63~70",
+              "text": {
+                "en": "(63-70)% increased Charges",
+                "kr": "충전 (63-70)% 증가",
+                "tw": "增加(63-70)%充能",
+                "ru": "(63-70)% увеличение зарядов",
+                "jp": "チャージが(63-70)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent6",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              63,
+              70
+            ]
+          ],
+          "name": {
+            "en": "of the Eternal",
+            "kr": "- 영원",
+            "tw": "永恆之",
+            "ru": "вечности",
+            "jp": "永遠の"
+          },
+          "effect": {
+            "en": "(63-70)% increased Charges gained",
+            "kr": "충전량 (63-70)% 증가",
+            "tw": "增加(63-70)%獲得的充能",
+            "ru": "(63-70)% увеличение количества получаемых зарядов",
+            "jp": "獲得チャージが(63-70)%増加する"
+          },
+          "group": [
+            121
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    63,
+                    70
+                  ]
+                }
+              ],
+              "value": "63~70",
+              "text": {
+                "en": "(63-70)% increased Charges gained",
+                "kr": "충전량 (63-70)% 증가",
+                "tw": "增加(63-70)%獲得的充能",
+                "ru": "(63-70)% увеличение количества получаемых зарядов",
+                "jp": "獲得チャージが(63-70)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed6",
+          "affixType": "suffix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              -32,
+              -30
+            ]
+          ],
+          "name": {
+            "en": "of the Chemist",
+            "kr": "- 화학자",
+            "tw": "化學家之",
+            "ru": "химика",
+            "jp": "化学者の"
+          },
+          "effect": {
+            "en": "(-32--30)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-32--30)% 감소",
+            "tw": "每次使用減少(-32--30)%充能",
+            "ru": "(-32--30)% уменьшение количества используемых зарядов",
+            "jp": "使用に必要なチャージ量が(-32--30)%減少する"
+          },
+          "group": [
+            124
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -32,
+                    -30
+                  ]
+                }
+              ],
+              "value": "-32~-30",
+              "text": {
+                "en": "(-32--30)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-32--30)% 감소",
+                "tw": "每次使用減少(-32--30)%充能",
+                "ru": "(-32--30)% уменьшение количества используемых зарядов",
+                "jp": "使用に必要なチャージ量が(-32--30)%減少する"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

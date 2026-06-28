@@ -1,0 +1,330 @@
+[
+  {
+    "id": "breach-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Breach Tablet",
+      "kr": "균열 서판",
+      "tw": "裂痕碑牌",
+      "ru": "Плитка Разлома",
+      "jp": "ブリーチの石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddBreachToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_breach_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Adds an Otherworldy Breach to a Map \\n10 uses remaining",
+              "kr": "지도에 저세상 균열 1개 추가\\n잔여 사용 횟수 10회",
+              "tw": "在地圖中加入一個裂痕\\n剩餘10次使用次數",
+              "ru": "Добавляет Потусторонний Разлом на карту\\nОсталось зарядов - 10",
+              "jp": "マップに異世界からのブリーチを追加する\\n残り使用可能回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "expedition-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Expedition Tablet",
+      "kr": "탐험 서판",
+      "tw": "探險碑牌",
+      "ru": "Плитка Экспедиции",
+      "jp": "エクスペディションの石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddExpeditionToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_expedition_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Adds a Kalguuran Expedition to a Map \\n10 uses remaining",
+              "kr": "지도에 칼구르 탐험 1개 추가\\n잔여 사용 횟수 10회",
+              "tw": "在地圖中加入一個卡爾葛墓地\\n剩餘10次使用次數",
+              "ru": "Добавляет калгууранскую экспедицию на карту\\nОсталось зарядов - 10",
+              "jp": "マップにカルグールのエクスペディションを追加する\\n残り使用可能回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "delirium-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Delirium Tablet",
+      "kr": "환영 서판",
+      "tw": "譫妄碑牌",
+      "ru": "Плитка Делириума",
+      "jp": "デリリウムの石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddDeliriumToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_delirium_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Adds a Mirror of Delirium to a Map \\n10 uses remaining",
+              "kr": "지도에 환영의 거울 1개 추가\\n잔여 사용 횟수 10회",
+              "tw": "在地圖中加入一個譫妄之鏡\\n剩餘10次使用次數",
+              "ru": "Добавляет Зеркало Делириума на карту\\nОсталось зарядов - 10",
+              "jp": "マップにデリリウムの鏡を追加する\\n残り使用可能回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ritual-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Ritual Tablet",
+      "kr": "의식 서판",
+      "tw": "祭祀碑牌",
+      "ru": "Плитка Ритуала",
+      "jp": "リチュアルの石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddRitualToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_ritual_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Adds Ritual Altars to a Map \\n10 uses remaining",
+              "kr": "지도에 의식 제단 추가\\n잔여 사용 횟수 10회",
+              "tw": "在地圖中加入祭祀神壇\\n剩餘10次使用",
+              "ru": "Добавляет алтари Ритуала на карту\\nОсталось зарядов - 10",
+              "jp": "マップにリチュアルの祭壇を追加する\\n残り使用回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "irradiated-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Irradiated Tablet",
+      "kr": "방사능 노출 서판",
+      "tw": "輻照碑牌",
+      "ru": "Заражённая плитка",
+      "jp": "照射の石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddIrradiatedToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_irradiated_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Adds Irradiated to a Map \\n10 uses remaining",
+              "kr": "지도에 방사능 노출 추가, 잔여 사용 횟수 10회",
+              "tw": "在地圖中加入照耀區域\\n剩餘10次使用",
+              "ru": "Добавляет Заражение на карту\\nОсталось зарядов - 10",
+              "jp": "マップに照射状態を追加する\\n残り使用回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "overseer-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Overseer Tablet",
+      "kr": "감독관 서판",
+      "tw": "總督碑牌",
+      "ru": "Плитка Смотрителя",
+      "jp": "監督者の石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddMapBossesToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_map_bosses_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Empowers the Map Boss of a Map \\n10 uses remaining",
+              "kr": "지도의 지도 보스 강화\\n잔여 사용 횟수 10회",
+              "tw": "強化地圖的頭目\\n剩餘10次使用次數",
+              "ru": "Усиливает босса карты на карте\\nОсталось зарядов - 10",
+              "jp": "マップのマップボスを強化する\\n残り使用回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "abyss-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Abyss Tablet",
+      "kr": "심연 서판",
+      "tw": "深淵碑牌",
+      "ru": "Плитка Бездны",
+      "jp": "アビスの石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddAbyssToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_abyss_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Adds Abysses to a Map \\n10 uses remaining",
+              "kr": "지도에 심연 추가\\n잔여 사용 횟수 10회",
+              "tw": "在地圖中加入一個深淵\\n剩餘10次使用次數",
+              "ru": "Добавляет Бездны на карту\\nОсталось зарядов - 10",
+              "jp": "マップにアビスを追加する\\n残り使用可能回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "temple-tablet",
+    "classId": "TowerAugmentation",
+    "className": {
+      "en": "Tablet",
+      "kr": "서판",
+      "tw": "碑牌",
+      "ru": "Плитки",
+      "jp": "石板"
+    },
+    "name": {
+      "en": "Temple Tablet",
+      "kr": "사원 서판",
+      "tw": "神廟碑牌",
+      "ru": "Плитка Храма",
+      "jp": "神殿の石板"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TowerAddIncursionToMapsImplicit",
+        "lines": [
+          {
+            "stat": "tower_add_incursion_to_X_maps",
+            "value": "10",
+            "text": {
+              "en": "Adds Vaal Beacons to a Map \\n10 uses remaining",
+              "kr": "지도에 바알 등대 추가\\n잔여 사용 횟수 10회",
+              "tw": "在地圖中加入瓦爾烽塔\\n剩餘10次使用次數",
+              "ru": "Добавляет маяки ваал на карту\\nОсталось зарядов - 10",
+              "jp": "マップにヴァールビーコンを追加する\\n残り使用可能回数 10回"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

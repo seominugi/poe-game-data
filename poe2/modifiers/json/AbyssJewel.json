@@ -1,0 +1,6483 @@
+{
+  "itemClass": "AbyssJewel",
+  "className": {
+    "en": "Abyss Jewels",
+    "kr": "심연 주얼",
+    "tw": "深淵珠寶",
+    "ru": "Самоцветы Бездны",
+    "jp": "アビスジュエル"
+  },
+  "domain": 11,
+  "classTags": [
+    "abyss_jewel",
+    "default",
+    "jewel"
+  ],
+  "counts": {
+    "prefix": 0,
+    "suffix": 0,
+    "total": 0
+  },
+  "bucketCounts": {
+    "corrupted": {
+      "prefix": 11,
+      "suffix": 0,
+      "total": 11
+    },
+    "unique": {
+      "prefix": 115,
+      "suffix": 0,
+      "total": 115
+    }
+  },
+  "buckets": {
+    "corrupted": {
+      "prefix": [
+        {
+          "id": "CorruptionJewelBlindImmunity1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "Cannot be Blinded",
+            "kr": "실명될 수 없음",
+            "tw": "不會被致盲",
+            "ru": "Не может быть ослеплён",
+            "jp": "盲目になることがない"
+          },
+          "group": [
+            1206
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cannot_be_blinded",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Cannot be Blinded",
+                "kr": "실명될 수 없음",
+                "tw": "不會被致盲",
+                "ru": "Не может быть ослеплён",
+                "jp": "盲目になることがない"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelChaosResist1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              7
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "(3-7)% to Chaos Resistance",
+            "kr": "카오스 저항 (3-7)%",
+            "tw": "(3-7)%混沌抗性",
+            "ru": "(3-7)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (3-7)%"
+          },
+          "group": [
+            94
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    3,
+                    7
+                  ]
+                }
+              ],
+              "value": "3~7",
+              "text": {
+                "en": "(3-7)% to Chaos Resistance",
+                "kr": "카오스 저항 (3-7)%",
+                "tw": "(3-7)%混沌抗性",
+                "ru": "(3-7)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (3-7)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelColdResist1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "(5-10)% to Cold Resistance",
+            "kr": "냉기 저항 (5-10)%",
+            "tw": "(5-10)%冰冷抗性",
+            "ru": "(5-10)% к сопротивлению холоду",
+            "jp": "冷気耐性 (5-10)%"
+          },
+          "group": [
+            50
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Cold Resistance",
+                "kr": "냉기 저항 (5-10)%",
+                "tw": "(5-10)%冰冷抗性",
+                "ru": "(5-10)% к сопротивлению холоду",
+                "jp": "冷気耐性 (5-10)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelCorruptedBloodImmunity1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "Corrupted Blood cannot be inflicted on you",
+            "kr": "타락한 피가 플레이어에게 유발될 수 없음",
+            "tw": "無法對你造成腐化之血",
+            "ru": "На вас нельзя наложить эффект Оскверненной крови",
+            "jp": "穢れた血を付与されることがなくなる"
+          },
+          "group": [
+            3156
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cannot_be_inflicted_by_corrupted_blood",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Corrupted Blood cannot be inflicted on you",
+                "kr": "타락한 피가 플레이어에게 유발될 수 없음",
+                "tw": "無法對你造成腐化之血",
+                "ru": "На вас нельзя наложить эффект Оскверненной крови",
+                "jp": "穢れた血を付与されることがなくなる"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelDexterity1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "(4-6) to Dexterity",
+            "kr": "민첩 (4-6)",
+            "tw": "(4-6)點敏捷",
+            "ru": "(4-6) к ловкости",
+            "jp": "器用さ (4-6)"
+          },
+          "group": [
+            148
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6) to Dexterity",
+                "kr": "민첩 (4-6)",
+                "tw": "(4-6)點敏捷",
+                "ru": "(4-6) к ловкости",
+                "jp": "器用さ (4-6)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelFireResist1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "(5-10)% to Fire Resistance",
+            "kr": "화염 저항 (5-10)%",
+            "tw": "(5-10)%火焰抗性",
+            "ru": "(5-10)% к сопротивлению огню",
+            "jp": "火耐性 (5-10)%"
+          },
+          "group": [
+            49
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Fire Resistance",
+                "kr": "화염 저항 (5-10)%",
+                "tw": "(5-10)%火焰抗性",
+                "ru": "(5-10)% к сопротивлению огню",
+                "jp": "火耐性 (5-10)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelHinderImmunity1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "You cannot be Hindered",
+            "kr": "이동 방해 면역",
+            "tw": "你不能被阻礙",
+            "ru": "Вы не можете получить эффект Скованности",
+            "jp": "プレイヤーは阻害を受けることがない"
+          },
+          "group": [
+            2685
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "you_cannot_be_hindered",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "You cannot be Hindered",
+                "kr": "이동 방해 면역",
+                "tw": "你不能被阻礙",
+                "ru": "Вы не можете получить эффект Скованности",
+                "jp": "プレイヤーは阻害を受けることがない"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelIntelligence1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "(4-6) to Intelligence",
+            "kr": "지능 (4-6)",
+            "tw": "(4-6)點智慧",
+            "ru": "(4-6) к интеллекту",
+            "jp": "知性 (4-6)"
+          },
+          "group": [
+            149
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6) to Intelligence",
+                "kr": "지능 (4-6)",
+                "tw": "(4-6)點智慧",
+                "ru": "(4-6) к интеллекту",
+                "jp": "知性 (4-6)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelLightningResist1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "(5-10)% to Lightning Resistance",
+            "kr": "번개 저항 (5-10)%",
+            "tw": "(5-10)%閃電抗性",
+            "ru": "(5-10)% к сопротивлению молнии",
+            "jp": "雷耐性 (5-10)%"
+          },
+          "group": [
+            51
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Lightning Resistance",
+                "kr": "번개 저항 (5-10)%",
+                "tw": "(5-10)%閃電抗性",
+                "ru": "(5-10)% к сопротивлению молнии",
+                "jp": "雷耐性 (5-10)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelMaimImmunity1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "Immune to Maim",
+            "kr": "힘줄 절단 면역",
+            "tw": "免疫癱瘓",
+            "ru": "Иммунитет к увечьям",
+            "jp": "重傷に対する完全耐性を獲得する"
+          },
+          "group": [
+            2686
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "immune_to_maim",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immune to Maim",
+                "kr": "힘줄 절단 면역",
+                "tw": "免疫癱瘓",
+                "ru": "Иммунитет к увечьям",
+                "jp": "重傷に対する完全耐性を獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CorruptionJewelStrength1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": "(4-6) to Strength",
+            "kr": "힘 (4-6)",
+            "tw": "(4-6)點力量",
+            "ru": "(4-6) к силе",
+            "jp": "筋力 (4-6)"
+          },
+          "group": [
+            147
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6) to Strength",
+                "kr": "힘 (4-6)",
+                "tw": "(4-6)點力量",
+                "ru": "(4-6) к силе",
+                "jp": "筋力 (4-6)"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": []
+    },
+    "unique": {
+      "prefix": [
+        {
+          "id": "AccuracyAndCritsJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              10
+            ],
+            [
+              6,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Deadliness",
+            "kr": "- 치명성",
+            "tw": "死亡之",
+            "ru": "смертельности",
+            "jp": "危険の"
+          },
+          "effect": {
+            "en": "(6-10)% increased Accuracy Rating\n(6-10)% increased Critical Hit Chance",
+            "kr": "일반 정확도 (6-10)% 증가\n치명타 확률 (6-10)% 증가",
+            "tw": "增加(6-10)%命中值\n增加(6-10)%暴擊率",
+            "ru": "(6-10)% повышение глобальной меткости\n(6-10)% повышение шанса критического удара",
+            "jp": "グローバル命中力が(6-10)%増加する\nクリティカルヒット率が(6-10)%増加する"
+          },
+          "group": [
+            106
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating_+%",
+                  "valueRange": [
+                    6,
+                    10
+                  ]
+                }
+              ],
+              "value": "6~10",
+              "text": {
+                "en": "(6-10)% increased Accuracy Rating",
+                "kr": "일반 정확도 (6-10)% 증가",
+                "tw": "增加(6-10)%命中值",
+                "ru": "(6-10)% повышение глобальной меткости",
+                "jp": "グローバル命中力が(6-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "critical_strike_chance_+%",
+                  "valueRange": [
+                    6,
+                    10
+                  ]
+                }
+              ],
+              "value": "6~10",
+              "text": {
+                "en": "(6-10)% increased Critical Hit Chance",
+                "kr": "치명타 확률 (6-10)% 증가",
+                "tw": "增加(6-10)%暴擊率",
+                "ru": "(6-10)% повышение шанса критического удара",
+                "jp": "クリティカルヒット率が(6-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AllAttributesJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Adaption",
+            "kr": "- 적용",
+            "tw": "適應之",
+            "ru": "развития",
+            "jp": "馴致の"
+          },
+          "effect": {
+            "en": "(6-8) to all Attributes",
+            "kr": "모든 능력치 (6-8)",
+            "tw": "(6-8)點全部能力值",
+            "ru": "(6-8) ко всем характеристикам",
+            "jp": "全ての能力値 (6-8)"
+          },
+          "group": [
+            150
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_all_attributes",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8) to all Attributes",
+                "kr": "모든 능력치 (6-8)",
+                "tw": "(6-8)點全部能力值",
+                "ru": "(6-8) ко всем характеристикам",
+                "jp": "全ての能力値 (6-8)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AllResistancesJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Resistance",
+            "kr": "- 저항",
+            "tw": "抗性之",
+            "ru": "сопротивления",
+            "jp": "抵抗力の"
+          },
+          "effect": {
+            "en": "(8-10)% to all Elemental Resistances",
+            "kr": "모든 원소 저항 (8-10)%",
+            "tw": "(8-10)%全元素抗性",
+            "ru": "(8-10)% к сопротивлению всем стихиям",
+            "jp": "全ての元素耐性 (8-10)%"
+          },
+          "group": [
+            61
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_resist_all_elements_%",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10)% to all Elemental Resistances",
+                "kr": "모든 원소 저항 (8-10)%",
+                "tw": "(8-10)%全元素抗性",
+                "ru": "(8-10)% к сопротивлению всем стихиям",
+                "jp": "全ての元素耐性 (8-10)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AreaDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Blasting",
+            "kr": "- 폭발",
+            "tw": "爆烈之",
+            "ru": "взрыва",
+            "jp": "爆破の"
+          },
+          "effect": {
+            "en": "(10-12)% increased Area Damage",
+            "kr": "범위 피해 (10-12)% 증가",
+            "tw": "增加(10-12)%範圍傷害",
+            "ru": "(10-12)% увеличение урона по области",
+            "jp": "範囲ダメージが(10-12)%増加する"
+          },
+          "group": [
+            541
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "area_damage_+%",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "10~12",
+              "text": {
+                "en": "(10-12)% increased Area Damage",
+                "kr": "범위 피해 (10-12)% 증가",
+                "tw": "增加(10-12)%範圍傷害",
+                "ru": "(10-12)% увеличение урона по области",
+                "jp": "範囲ダメージが(10-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AttackAndCastSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              4
+            ]
+          ],
+          "name": {
+            "en": "of Zeal",
+            "kr": "- 열의",
+            "tw": "狂熱之",
+            "ru": "усердия",
+            "jp": "熱狂の"
+          },
+          "effect": {
+            "en": "(2-4)% increased Attack and Cast Speed",
+            "kr": "공격 및 시전 속도 (2-4)% 증가",
+            "tw": "增加(2-4)%攻擊和施放速度",
+            "ru": "(2-4)% повышение скорости атаки и сотворения чар",
+            "jp": "アタックスピードおよびキャストスピードが(2-4)%増加する"
+          },
+          "group": [
+            1429
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_and_cast_speed_+%",
+                  "valueRange": [
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "value": "2~4",
+              "text": {
+                "en": "(2-4)% increased Attack and Cast Speed",
+                "kr": "공격 및 시전 속도 (2-4)% 증가",
+                "tw": "增加(2-4)%攻擊和施放速度",
+                "ru": "(2-4)% повышение скорости атаки и сотворения чар",
+                "jp": "アタックスピードおよびキャストスピードが(2-4)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "of Berserking",
+            "kr": "- 광폭화",
+            "tw": "狂戰士之",
+            "ru": "неистовства",
+            "jp": "狂戦士化の"
+          },
+          "effect": {
+            "en": "(3-5)% increased Attack Speed",
+            "kr": "공격 속도 (3-5)% 증가",
+            "tw": "增加(3-5)%攻擊速度",
+            "ru": "(3-5)% повышение скорости атаки",
+            "jp": "アタックスピードが(3-5)%増加する"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_+%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% increased Attack Speed",
+                "kr": "공격 속도 (3-5)% 증가",
+                "tw": "增加(3-5)%攻擊速度",
+                "ru": "(3-5)% повышение скорости атаки",
+                "jp": "アタックスピードが(3-5)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BleedChanceAndDurationForJewel__",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ],
+            [
+              12,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Bleeding",
+            "kr": "- 출혈",
+            "tw": "流血之",
+            "ru": "кровотечения",
+            "jp": "出血の"
+          },
+          "effect": {
+            "en": "Attacks have (3-5)% chance to cause Bleeding\n(12-16)% increased Bleeding Duration",
+            "kr": "공격 시 (3-5)%의 확률로 출혈 유발\n출혈 지속시간 (12-16)% 증가",
+            "tw": "攻擊有(3-5)%機率造成流血\n增加(12-16)%流血持續時間",
+            "ru": "Атаки имеют (3-5)% шанс вызвать кровотечение\n(12-16)% увеличение длительности кровотечения",
+            "jp": "アタックは(3-5)%の確率で出血を付与する\n出血持続時間が(12-16)%増加する"
+          },
+          "group": [
+            471
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bleed_on_hit_with_attacks_%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "Attacks have (3-5)% chance to cause Bleeding",
+                "kr": "공격 시 (3-5)%의 확률로 출혈 유발",
+                "tw": "攻擊有(3-5)%機率造成流血",
+                "ru": "Атаки имеют (3-5)% шанс вызвать кровотечение",
+                "jp": "アタックは(3-5)%の確率で出血を付与する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "base_bleed_duration_+%",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                }
+              ],
+              "value": "12~16",
+              "text": {
+                "en": "(12-16)% increased Bleeding Duration",
+                "kr": "출혈 지속시간 (12-16)% 증가",
+                "tw": "增加(12-16)%流血持續時間",
+                "ru": "(12-16)% увеличение длительности кровотечения",
+                "jp": "出血持続時間が(12-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BleedDamageForJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Haemophilia",
+            "kr": "- 혈우병",
+            "tw": "血病之",
+            "ru": "кровопотери",
+            "jp": "血友病の"
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            2625
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_stat_display_nothing",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "BleedDurationOnYouJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -35,
+              -30
+            ]
+          ],
+          "name": {
+            "en": "of Stemming",
+            "kr": "- 지혈",
+            "tw": "抽取之",
+            "ru": "закупоривания",
+            "jp": "食い止めの"
+          },
+          "effect": {
+            "en": "(-35--30)% reduced Bleeding Duration on you",
+            "kr": "플레이어에게 적용되는 출혈 지속시간 (-35--30)% 감소",
+            "tw": "減少(-35--30)%你身上的流血持續時間",
+            "ru": "(-35--30)% уменьшение длительности кровотечения на вас",
+            "jp": "プレイヤー自身に対する出血の持続時間が(-35--30)%減少する"
+          },
+          "group": [
+            27
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "self_bleed_duration_+%",
+                  "valueRange": [
+                    -35,
+                    -30
+                  ]
+                }
+              ],
+              "value": "-35~-30",
+              "text": {
+                "en": "(-35--30)% reduced Bleeding Duration on you",
+                "kr": "플레이어에게 적용되는 출혈 지속시간 (-35--30)% 감소",
+                "tw": "減少(-35--30)%你身上的流血持續時間",
+                "ru": "(-35--30)% уменьшение длительности кровотечения на вас",
+                "jp": "プレイヤー自身に対する出血の持続時間が(-35--30)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BlockDualWieldingJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Parrying",
+            "kr": "흘려보내는",
+            "tw": "格擋的",
+            "ru": "Парирующий",
+            "jp": "受け流す"
+          },
+          "effect": {
+            "en": "1% Chance to Block Attack Damage while Dual Wielding",
+            "kr": "쌍수 장착 시 공격 피해 막기 확률 1%",
+            "tw": "雙持時1%攻擊傷害格擋率",
+            "ru": "1% шанс блокировать урон от атак с парным оружием в руках",
+            "jp": "二刀流中のアタックブロック率 1%"
+          },
+          "group": [
+            1449
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "block_while_dual_wielding_%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% Chance to Block Attack Damage while Dual Wielding",
+                "kr": "쌍수 장착 시 공격 피해 막기 확률 1%",
+                "tw": "雙持時1%攻擊傷害格擋率",
+                "ru": "1% шанс блокировать урон от атак с парным оружием в руках",
+                "jp": "二刀流中のアタックブロック率 1%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BlockShieldJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Shielding",
+            "kr": "방어하는",
+            "tw": "防護的",
+            "ru": "Прикрывающий",
+            "jp": "庇護する"
+          },
+          "effect": {
+            "en": "1% Chance to Block Attack Damage while holding a Shield",
+            "kr": "방패를 들고 있는 동안 공격 피해 막기 확률 1%",
+            "tw": "持盾時1%攻擊傷害格擋率",
+            "ru": "1% шанс блокировать урон от атак со щитом в руках",
+            "jp": "盾装備中のアタックブロック率 1%"
+          },
+          "group": [
+            1449
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "shield_block_%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% Chance to Block Attack Damage while holding a Shield",
+                "kr": "방패를 들고 있는 동안 공격 피해 막기 확률 1%",
+                "tw": "持盾時1%攻擊傷害格擋率",
+                "ru": "1% шанс блокировать урон от атак со щитом в руках",
+                "jp": "盾装備中のアタックブロック率 1%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BowAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Volleying",
+            "kr": "연발 사격의",
+            "tw": "齊射的",
+            "ru": "Залповый",
+            "jp": "斉射する"
+          },
+          "effect": {
+            "en": "(6-8)% increased Attack Speed with Bows",
+            "kr": "활 사용 시 공격 속도 (6-8)% 증가",
+            "tw": "弓增加(6-8)%攻擊速度",
+            "ru": "(6-8)% повышение скорости атаки луками",
+            "jp": "弓のアタックスピードが(6-8)%増加する"
+          },
+          "group": [
+            1420
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_attack_speed_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Attack Speed with Bows",
+                "kr": "활 사용 시 공격 속도 (6-8)% 증가",
+                "tw": "弓增加(6-8)%攻擊速度",
+                "ru": "(6-8)% повышение скорости атаки луками",
+                "jp": "弓のアタックスピードが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BowDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Fierce",
+            "kr": "흉악한",
+            "tw": "猛烈的",
+            "ru": "Грозный",
+            "jp": "激しい"
+          },
+          "effect": {
+            "en": "(14-16)% increased Damage with Bows",
+            "kr": "활 사용 시 피해 (14-16)% 증가",
+            "tw": "持弓類武器時增加(14-16)%傷害",
+            "ru": "(14-16)% увеличение урона луками",
+            "jp": "弓によるダメージが(14-16)%増加する"
+          },
+          "group": [
+            1416
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Damage with Bows",
+                "kr": "활 사용 시 피해 (14-16)% 증가",
+                "tw": "持弓類武器時增加(14-16)%傷害",
+                "ru": "(14-16)% увеличение урона луками",
+                "jp": "弓によるダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "BurningDamageForJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Combusting",
+            "kr": "- 발화",
+            "tw": "焚燒之",
+            "ru": "возгорания",
+            "jp": "着火の"
+          },
+          "effect": {
+            "en": "(16-20)% increased Burning Damage",
+            "kr": "화상 피해 (16-20)% 증가",
+            "tw": "增加(16-20)%燃燒傷害",
+            "ru": "(16-20)% увеличение урона от горения",
+            "jp": "燃焼ダメージが(16-20)%増加する"
+          },
+          "group": [
+            178
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "burn_damage_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Burning Damage",
+                "kr": "화상 피해 (16-20)% 증가",
+                "tw": "增加(16-20)%燃燒傷害",
+                "ru": "(16-20)% увеличение урона от горения",
+                "jp": "燃焼ダメージが(16-20)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CastSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              4
+            ]
+          ],
+          "name": {
+            "en": "of Enchanting",
+            "kr": "- 인챈트",
+            "tw": "咒術之",
+            "ru": "зачарования",
+            "jp": "魔法の"
+          },
+          "effect": {
+            "en": "(2-4)% increased Cast Speed",
+            "kr": "시전 속도 (2-4)% 증가",
+            "tw": "增加(2-4)%施放速度",
+            "ru": "(2-4)% повышение скорости сотворения чар",
+            "jp": "キャストスピードが(2-4)%増加する"
+          },
+          "group": [
+            36
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "value": "2~4",
+              "text": {
+                "en": "(2-4)% increased Cast Speed",
+                "kr": "시전 속도 (2-4)% 증가",
+                "tw": "增加(2-4)%施放速度",
+                "ru": "(2-4)% повышение скорости сотворения чар",
+                "jp": "キャストスピードが(2-4)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              9,
+              13
+            ]
+          ],
+          "name": {
+            "en": "Chaotic",
+            "kr": "혼돈의",
+            "tw": "混沌的",
+            "ru": "Ядовитый",
+            "jp": "混沌とした"
+          },
+          "effect": {
+            "en": "(9-13)% increased Chaos Damage",
+            "kr": "카오스 피해 (9-13)% 증가",
+            "tw": "增加(9-13)%混沌傷害",
+            "ru": "(9-13)% увеличение урона хаосом",
+            "jp": "混沌ダメージが(9-13)%増加する"
+          },
+          "group": [
+            170
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "chaos_damage_+%",
+                  "valueRange": [
+                    9,
+                    13
+                  ]
+                }
+              ],
+              "value": "9~13",
+              "text": {
+                "en": "(9-13)% increased Chaos Damage",
+                "kr": "카오스 피해 (9-13)% 증가",
+                "tw": "增加(9-13)%混沌傷害",
+                "ru": "(9-13)% увеличение урона хаосом",
+                "jp": "混沌ダメージが(9-13)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResistanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              7,
+              13
+            ]
+          ],
+          "name": {
+            "en": "of Order",
+            "kr": "- 질서",
+            "tw": "秩序之",
+            "ru": "порядка",
+            "jp": "秩序の"
+          },
+          "effect": {
+            "en": "(7-13)% to Chaos Resistance",
+            "kr": "카오스 저항 (7-13)%",
+            "tw": "(7-13)%混沌抗性",
+            "ru": "(7-13)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (7-13)%"
+          },
+          "group": [
+            94
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    7,
+                    13
+                  ]
+                }
+              ],
+              "value": "7~13",
+              "text": {
+                "en": "(7-13)% to Chaos Resistance",
+                "kr": "카오스 저항 (7-13)%",
+                "tw": "(7-13)%混沌抗性",
+                "ru": "(7-13)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (7-13)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChillEffectOnYouJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -35,
+              -30
+            ]
+          ],
+          "name": {
+            "en": "of the Snowbreather",
+            "kr": "- 눈의 숨결",
+            "tw": "吹雪者之",
+            "ru": "дышущего льдом",
+            "jp": "雪の息を吐く者の"
+          },
+          "effect": {
+            "en": "(-35--30)% reduced Effect of Chill on you",
+            "kr": "플레이어에게 적용되는 냉각 효과 (-35--30)% 감소",
+            "tw": "減少(-35--30)%你所承受的冰緩效果",
+            "ru": "(-35--30)% ослабление эффекта охлаждения на вас",
+            "jp": "プレイヤーに対する冷却の効果が(-35--30)%減少する"
+          },
+          "group": [
+            1311
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "chill_effectiveness_on_self_+%",
+                  "valueRange": [
+                    -35,
+                    -30
+                  ]
+                }
+              ],
+              "value": "-35~-30",
+              "text": {
+                "en": "(-35--30)% reduced Effect of Chill on you",
+                "kr": "플레이어에게 적용되는 냉각 효과 (-35--30)% 감소",
+                "tw": "減少(-35--30)%你所承受的冰緩效果",
+                "ru": "(-35--30)% ослабление эффекта охлаждения на вас",
+                "jp": "プレイヤーに対する冷却の効果が(-35--30)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ClawAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Ripping",
+            "kr": "잡아찢는",
+            "tw": "撕裂的",
+            "ru": "Разрывающий",
+            "jp": "引き裂く"
+          },
+          "effect": {
+            "en": "(6-8)% increased Attack Speed with Claws",
+            "kr": "클로 사용 시 공격 속도 (6-8)% 증가",
+            "tw": "爪增加(6-8)%攻擊速度",
+            "ru": "(6-8)% повышение скорости атаки когтями",
+            "jp": "鉤爪のアタックスピードが(6-8)%増加する"
+          },
+          "group": [
+            1420
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "claw_attack_speed_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Attack Speed with Claws",
+                "kr": "클로 사용 시 공격 속도 (6-8)% 증가",
+                "tw": "爪增加(6-8)%攻擊速度",
+                "ru": "(6-8)% повышение скорости атаки когтями",
+                "jp": "鉤爪のアタックスピードが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ClawDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Savage",
+            "kr": "야만적인",
+            "tw": "殘暴的",
+            "ru": "Свирепый",
+            "jp": "獰猛な"
+          },
+          "effect": {
+            "en": "(14-16)% increased Damage with Claws",
+            "kr": "클로 사용 시 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%爪的傷害",
+            "ru": "(14-16)% увеличение урона когтями",
+            "jp": "鉤爪によるダメージが(14-16)%増加する"
+          },
+          "group": [
+            1416
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "claw_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Damage with Claws",
+                "kr": "클로 사용 시 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%爪的傷害",
+                "ru": "(14-16)% увеличение урона когтями",
+                "jp": "鉤爪によるダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdCritChanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Avalanching",
+            "kr": "산사태의",
+            "tw": "雪崩的",
+            "ru": "Леденящий",
+            "jp": "雪崩れる"
+          },
+          "effect": {
+            "en": "(14-18)% increased Critical Hit Chance with Cold Skills",
+            "kr": "냉기 스킬 치명타 명중 확률 (14-18)% 증가",
+            "tw": "增加(14-18)%冰冷技能的暴擊率",
+            "ru": "(14-18)% повышение шанса критического удара умениями холода",
+            "jp": "冷気スキルのクリティカルヒット率が(14-18)%増加する"
+          },
+          "group": [
+            1479
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_critical_strike_chance_+%",
+                  "valueRange": [
+                    14,
+                    18
+                  ]
+                }
+              ],
+              "value": "14~18",
+              "text": {
+                "en": "(14-18)% increased Critical Hit Chance with Cold Skills",
+                "kr": "냉기 스킬 치명타 명중 확률 (14-18)% 증가",
+                "tw": "增加(14-18)%冰冷技能的暴擊率",
+                "ru": "(14-18)% повышение шанса критического удара умениями холода",
+                "jp": "冷気スキルのクリティカルヒット率が(14-18)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdCritMultiplier",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              15,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Arctic",
+            "kr": "한기의",
+            "tw": "冰原的",
+            "ru": "Холодный",
+            "jp": "極寒の"
+          },
+          "effect": {
+            "en": "(15-18)% to Critical Damage Bonus with Cold Skills",
+            "kr": "냉기 스킬 치명타 피해 보너스 (15-18)%",
+            "tw": "(15-18)%冰冷技能暴擊傷害加成",
+            "ru": "(15-18)% к бонусу критического урона умениями холода",
+            "jp": "冷気スキルのクリティカルダメージボーナス (15-18)%"
+          },
+          "group": [
+            1484
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_critical_strike_multiplier_+",
+                  "valueRange": [
+                    15,
+                    18
+                  ]
+                }
+              ],
+              "value": "15~18",
+              "text": {
+                "en": "(15-18)% to Critical Damage Bonus with Cold Skills",
+                "kr": "냉기 스킬 치명타 피해 보너스 (15-18)%",
+                "tw": "(15-18)%冰冷技能暴擊傷害加成",
+                "ru": "(15-18)% к бонусу критического урона умениями холода",
+                "jp": "冷気スキルのクリティカルダメージボーナス (15-18)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Chilling",
+            "kr": "냉각시키는",
+            "tw": "冰冷的",
+            "ru": "Застывающий",
+            "jp": "冷却する"
+          },
+          "effect": {
+            "en": "(14-16)% increased Cold Damage",
+            "kr": "냉기 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%冰冷傷害",
+            "ru": "(14-16)% увеличение урона от холода",
+            "jp": "冷気ダメージが(14-16)%増加する"
+          },
+          "group": [
+            70
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Cold Damage",
+                "kr": "냉기 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%冰冷傷害",
+                "ru": "(14-16)% увеличение урона от холода",
+                "jp": "冷気ダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdGemCastSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "Cryomantic",
+            "kr": "동결술의",
+            "tw": "冰祭的",
+            "ru": "Охлаждающий",
+            "jp": "操氷術の"
+          },
+          "effect": {
+            "en": "(3-5)% increased Cast Speed with Cold Skills",
+            "kr": "냉기 스킬 시전 속도 (3-5)% 증가",
+            "tw": "冰冷技能增加(3-5)%施放速度",
+            "ru": "(3-5)% повышение скорости сотворения чар для умений холода",
+            "jp": "冷気スキルのキャストスピードが(3-5)%増加する"
+          },
+          "group": [
+            1423
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cast_speed_for_cold_skills_+%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% increased Cast Speed with Cold Skills",
+                "kr": "냉기 스킬 시전 속도 (3-5)% 증가",
+                "tw": "冰冷技能增加(3-5)%施放速度",
+                "ru": "(3-5)% повышение скорости сотворения чар для умений холода",
+                "jp": "冷気スキルのキャストスピードが(3-5)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdLightningResistanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Shelter",
+            "kr": "- 대피소",
+            "tw": "庇護之",
+            "ru": "укрытия",
+            "jp": "避難所の"
+          },
+          "effect": {
+            "en": "(10-12)% to Cold and Lightning Resistances",
+            "kr": "냉기 및 번개 저항 (10-12)%",
+            "tw": "(10-12)%冰冷與閃電抗性",
+            "ru": "(10-12)% к сопротивлению холоду и молнии",
+            "jp": "冷気および雷耐性 (10-12)%"
+          },
+          "group": [
+            808
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_and_lightning_damage_resistance_%",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "10~12",
+              "text": {
+                "en": "(10-12)% to Cold and Lightning Resistances",
+                "kr": "냉기 및 번개 저항 (10-12)%",
+                "tw": "(10-12)%冰冷與閃電抗性",
+                "ru": "(10-12)% к сопротивлению холоду и молнии",
+                "jp": "冷気および雷耐性 (10-12)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResistanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Beast",
+            "kr": "- 야수",
+            "tw": "野獸之",
+            "ru": "чудовища",
+            "jp": "獣の"
+          },
+          "effect": {
+            "en": "(12-15)% to Cold Resistance",
+            "kr": "냉기 저항 (12-15)%",
+            "tw": "(12-15)%冰冷抗性",
+            "ru": "(12-15)% к сопротивлению холоду",
+            "jp": "冷気耐性 (12-15)%"
+          },
+          "group": [
+            50
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% to Cold Resistance",
+                "kr": "냉기 저항 (12-15)%",
+                "tw": "(12-15)%冰冷抗性",
+                "ru": "(12-15)% к сопротивлению холоду",
+                "jp": "冷気耐性 (12-15)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Menace",
+            "kr": "- 위험",
+            "tw": "威脅之",
+            "ru": "угрозы",
+            "jp": "脅威の"
+          },
+          "effect": {
+            "en": "(8-12)% increased Critical Hit Chance",
+            "kr": "치명타 확률 (8-12)% 증가",
+            "tw": "增加(8-12)%暴擊率",
+            "ru": "(8-12)% повышение шанса критического удара",
+            "jp": "クリティカルヒット率が(8-12)%増加する"
+          },
+          "group": [
+            93
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "critical_strike_chance_+%",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "(8-12)% increased Critical Hit Chance",
+                "kr": "치명타 확률 (8-12)% 증가",
+                "tw": "增加(8-12)%暴擊率",
+                "ru": "(8-12)% повышение шанса критического удара",
+                "jp": "クリティカルヒット率が(8-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeMultiplierJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Potency",
+            "kr": "- 잠재력",
+            "tw": "強力之",
+            "ru": "мощи",
+            "jp": "有効性の"
+          },
+          "effect": {
+            "en": "(9-12)% increased Critical Damage Bonus",
+            "kr": "치명타 피해 보너스 (9-12)% 증가",
+            "tw": "增加(9-12)%暴擊傷害加成",
+            "ru": "(9-12)% увеличение бонуса к критическому урону",
+            "jp": "クリティカルダメージボーナスが(9-12)%増加する"
+          },
+          "group": [
+            96
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_critical_strike_multiplier_+",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12)% increased Critical Damage Bonus",
+                "kr": "치명타 피해 보너스 (9-12)% 증가",
+                "tw": "增加(9-12)%暴擊傷害加成",
+                "ru": "(9-12)% увеличение бонуса к критическому урону",
+                "jp": "クリティカルダメージボーナスが(9-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CurseEffectOnYouJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -30,
+              -25
+            ]
+          ],
+          "name": {
+            "en": "of Hexwarding",
+            "kr": "- 사술 결계",
+            "tw": "魔抗之",
+            "ru": "ограждения",
+            "jp": "防呪の"
+          },
+          "effect": {
+            "en": "(-30--25)% reduced effect of Curses on you",
+            "kr": "플레이어에게 적용되는 저주 효과 (-30--25)% 감소",
+            "tw": "減少(-30--25)%你身上的詛咒效果",
+            "ru": "(-30--25)% ослабление эффекта проклятий на вас",
+            "jp": "プレイヤーに対する呪いの効果が(-30--25)%減少する"
+          },
+          "group": [
+            619
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "curse_effect_on_self_+%",
+                  "valueRange": [
+                    -30,
+                    -25
+                  ]
+                }
+              ],
+              "value": "-30~-25",
+              "text": {
+                "en": "(-30--25)% reduced effect of Curses on you",
+                "kr": "플레이어에게 적용되는 저주 효과 (-30--25)% 감소",
+                "tw": "減少(-30--25)%你身上的詛咒效果",
+                "ru": "(-30--25)% ослабление эффекта проклятий на вас",
+                "jp": "プレイヤーに対する呪いの効果が(-30--25)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DaggerAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Slicing",
+            "kr": "저미는",
+            "tw": "斬割的",
+            "ru": "Разрезающий",
+            "jp": "斬りつける"
+          },
+          "effect": {
+            "en": "(6-8)% increased Attack Speed with Daggers",
+            "kr": "단검 사용 시 공격 속도 (6-8)% 증가",
+            "tw": "匕首增加(6-8)%攻擊速度",
+            "ru": "(6-8)% повышение скорости атаки кинжалами",
+            "jp": "短剣のアタックスピードが(6-8)%増加する"
+          },
+          "group": [
+            1420
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dagger_attack_speed_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Attack Speed with Daggers",
+                "kr": "단검 사용 시 공격 속도 (6-8)% 증가",
+                "tw": "匕首增加(6-8)%攻擊速度",
+                "ru": "(6-8)% повышение скорости атаки кинжалами",
+                "jp": "短剣のアタックスピードが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DaggerDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Lethal",
+            "kr": "치명적인",
+            "tw": "致命的",
+            "ru": "Беспощадный",
+            "jp": "致死の"
+          },
+          "effect": {
+            "en": "(14-16)% increased Damage with Daggers",
+            "kr": "단검 사용 시 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%匕首傷害",
+            "ru": "(14-16)% увеличение урона кинжалами",
+            "jp": "短剣によるダメージが(14-16)%増加する"
+          },
+          "group": [
+            1416
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dagger_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Damage with Daggers",
+                "kr": "단검 사용 시 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%匕首傷害",
+                "ru": "(14-16)% увеличение урона кинжалами",
+                "jp": "短剣によるダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Wounding",
+            "kr": "- 상처",
+            "tw": "裂傷之",
+            "ru": "ранения",
+            "jp": "負傷の"
+          },
+          "effect": {
+            "en": "(8-10)% increased Damage",
+            "kr": "피해 (8-10)% 증가",
+            "tw": "增加(8-10)%傷害",
+            "ru": "(8-10)% увеличение урона",
+            "jp": "ダメージが(8-10)%増加する"
+          },
+          "group": [
+            1418
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_+%",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10)% increased Damage",
+                "kr": "피해 (8-10)% 증가",
+                "tw": "增加(8-10)%傷害",
+                "ru": "(8-10)% увеличение урона",
+                "jp": "ダメージが(8-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageOverTimeJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Entropy",
+            "kr": "- 엔트로피",
+            "tw": "亂世之",
+            "ru": "энтропии",
+            "jp": "エントロピーの"
+          },
+          "effect": {
+            "en": "(10-12)% increased Damage over Time",
+            "kr": "지속 피해 (10-12)% 증가",
+            "tw": "增加(10-12)%持續傷害",
+            "ru": "(10-12)% увеличение постепенного урона",
+            "jp": "継続ダメージが(10-12)%増加する"
+          },
+          "group": [
+            984
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_over_time_+%",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "10~12",
+              "text": {
+                "en": "(10-12)% increased Damage over Time",
+                "kr": "지속 피해 (10-12)% 증가",
+                "tw": "增加(10-12)%持續傷害",
+                "ru": "(10-12)% увеличение постепенного урона",
+                "jp": "継続ダメージが(10-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DexterityIntelligenceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Cunning",
+            "kr": "- 교활함",
+            "tw": "捷思之",
+            "ru": "хитрости",
+            "jp": "狡猾さの"
+          },
+          "effect": {
+            "en": "(8-10) to Dexterity and Intelligence",
+            "kr": "민첩 및 지능 (8-10)",
+            "tw": "(8-10)點敏捷與智慧",
+            "ru": "(8-10) к ловкости и интеллекту",
+            "jp": "器用さおよび知性 (8-10)"
+          },
+          "group": [
+            1433
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity_and_intelligence",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10) to Dexterity and Intelligence",
+                "kr": "민첩 및 지능 (8-10)",
+                "tw": "(8-10)點敏捷與智慧",
+                "ru": "(8-10) к ловкости и интеллекту",
+                "jp": "器用さおよび知性 (8-10)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DexterityJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Dexterity",
+            "kr": "- 민첩",
+            "tw": "敏捷之",
+            "ru": "ловкости",
+            "jp": "器用さの"
+          },
+          "effect": {
+            "en": "(12-16) to Dexterity",
+            "kr": "민첩 (12-16)",
+            "tw": "(12-16)點敏捷",
+            "ru": "(12-16) к ловкости",
+            "jp": "器用さ (12-16)"
+          },
+          "group": [
+            148
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                }
+              ],
+              "value": "12~16",
+              "text": {
+                "en": "(12-16) to Dexterity",
+                "kr": "민첩 (12-16)",
+                "tw": "(12-16)點敏捷",
+                "ru": "(12-16) к ловкости",
+                "jp": "器用さ (12-16)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DualWieldingAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Harmonic",
+            "kr": "화음의",
+            "tw": "和諧的",
+            "ru": "Гармоничный",
+            "jp": "調和する"
+          },
+          "effect": {
+            "en": "(4-6)% increased Attack Speed while Dual Wielding",
+            "kr": "쌍수 장착 시 공격 속도 (4-6)% 증가",
+            "tw": "增加(4-6)%雙持時，攻擊速度",
+            "ru": "(4-6)% повышение скорости атаки с парным оружием в руках",
+            "jp": "二刀流中はアタックスピードが(4-6)%増加する"
+          },
+          "group": [
+            1421
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_while_dual_wielding_+%",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6)% increased Attack Speed while Dual Wielding",
+                "kr": "쌍수 장착 시 공격 속도 (4-6)% 증가",
+                "tw": "增加(4-6)%雙持時，攻擊速度",
+                "ru": "(4-6)% повышение скорости атаки с парным оружием в руках",
+                "jp": "二刀流中はアタックスピードが(4-6)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DualWieldingCastSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "Resonant",
+            "kr": "공명하는",
+            "tw": "共鳴的",
+            "ru": "Усиливающий",
+            "jp": "鳴り響く"
+          },
+          "effect": {
+            "en": "(3-5)% increased Cast Speed while Dual Wielding",
+            "kr": "쌍수 장착 시 시전 속도 (3-5)% 증가",
+            "tw": "雙持武器時增加(3-5)%施放速度",
+            "ru": "(3-5)% повышение скорости сотворения чар с парным оружием в руках",
+            "jp": "二刀流中はキャストスピードが(3-5)%増加する"
+          },
+          "group": [
+            1421
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cast_speed_while_dual_wielding_+%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% increased Cast Speed while Dual Wielding",
+                "kr": "쌍수 장착 시 시전 속도 (3-5)% 증가",
+                "tw": "雙持武器時增加(3-5)%施放速度",
+                "ru": "(3-5)% повышение скорости сотворения чар с парным оружием в руках",
+                "jp": "二刀流中はキャストスピードが(3-5)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DualWieldingSpellBlockForJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Dissipating",
+            "kr": "소멸시키는",
+            "tw": "散熱的",
+            "ru": "Рассеивающий",
+            "jp": "霧散させる"
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            1454
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_stat_display_nothing",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "DualWieldingSpellDamageJewel_",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Sorcerer's",
+            "kr": "악령술사의",
+            "tw": "術者的",
+            "ru": "Колдовской",
+            "jp": "妖術師の"
+          },
+          "effect": {
+            "en": "(14-16)% increased Spell Damage while Dual Wielding",
+            "kr": "쌍수 장착 시 주문 피해 (14-16)% 증가",
+            "tw": "雙持時增加(14-16)%法術傷害",
+            "ru": "(14-16)% увеличение урона чар с парным оружием в руках",
+            "jp": "二刀流中はスペルダメージが(14-16)%増加する"
+          },
+          "group": [
+            1419
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%_while_dual_wielding",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Spell Damage while Dual Wielding",
+                "kr": "쌍수 장착 시 주문 피해 (14-16)% 증가",
+                "tw": "雙持時增加(14-16)%法術傷害",
+                "ru": "(14-16)% увеличение урона чар с парным оружием в руках",
+                "jp": "二刀流中はスペルダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ElementalCritChanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of the Apocalypse",
+            "kr": "- 종말",
+            "tw": "啟示之",
+            "ru": "пророчества",
+            "jp": "黙示録の"
+          },
+          "effect": {
+            "en": "(10-14)% increased Critical Hit Chance with Elemental Skills",
+            "kr": "원소 스킬 치명타 명중 확률 (10-14)% 증가",
+            "tw": "增加(10-14)%元素技能的暴擊率",
+            "ru": "(10-14)% повышение шанса критического удара умениями стихий",
+            "jp": "元素スキルのクリティカルヒット率が(10-14)%増加する"
+          },
+          "group": [
+            1481
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_critical_strike_chance_+%",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% increased Critical Hit Chance with Elemental Skills",
+                "kr": "원소 스킬 치명타 명중 확률 (10-14)% 증가",
+                "tw": "增加(10-14)%元素技能的暴擊率",
+                "ru": "(10-14)% повышение шанса критического удара умениями стихий",
+                "jp": "元素スキルのクリティカルヒット率が(10-14)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ElementalCritMultiplier",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Elements",
+            "kr": "- 원소",
+            "tw": "元素之",
+            "ru": "стихий",
+            "jp": "元素の"
+          },
+          "effect": {
+            "en": "(12-15)% to Critical Damage Bonus with Elemental Skills",
+            "kr": "원소 스킬 치명타 피해 보너스 (12-15)%",
+            "tw": "(12-15)%元素技能暴擊傷害加成",
+            "ru": "(12-15)% к бонусу критического урона умениями стихий",
+            "jp": "元素スキルのクリティカルダメージボーナス (12-15)%"
+          },
+          "group": [
+            1486
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_critical_strike_multiplier_+",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% to Critical Damage Bonus with Elemental Skills",
+                "kr": "원소 스킬 치명타 피해 보너스 (12-15)%",
+                "tw": "(12-15)%元素技能暴擊傷害加成",
+                "ru": "(12-15)% к бонусу критического урона умениями стихий",
+                "jp": "元素スキルのクリティカルダメージボーナス (12-15)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "EnergyShieldDelayJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Serene",
+            "kr": "고요한",
+            "tw": "寧靜的",
+            "ru": "Безмятежный",
+            "jp": "穏やかな"
+          },
+          "effect": {
+            "en": "(4-6)% faster start of Energy Shield Recharge",
+            "kr": "에너지 보호막 재충전 시작 속도 (4-6)% 가속",
+            "tw": "能量護盾開始充能速度加快(4-6)%",
+            "ru": "(4-6)% ускорение начала перезарядки энергетического щита",
+            "jp": "エナジーシールドのリチャージが(4-6)%速く始まる"
+          },
+          "group": [
+            67
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "energy_shield_delay_-%",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6)% faster start of Energy Shield Recharge",
+                "kr": "에너지 보호막 재충전 시작 속도 (4-6)% 가속",
+                "tw": "能量護盾開始充能速度加快(4-6)%",
+                "ru": "(4-6)% ускорение начала перезарядки энергетического щита",
+                "jp": "エナジーシールドのリチャージが(4-6)%速く始まる"
+              }
+            }
+          ]
+        },
+        {
+          "id": "EnergyShieldJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Shimmering",
+            "kr": "일렁이는",
+            "tw": "閃閃發光的",
+            "ru": "Мерцающий",
+            "jp": "揺らめく"
+          },
+          "effect": {
+            "en": "(6-8)% increased maximum Energy Shield",
+            "kr": "에너지 보호막 최대치 (6-8)% 증가",
+            "tw": "增加(6-8)%最大能量護盾",
+            "ru": "(6-8)% увеличение максимума энергетического щита",
+            "jp": "最大エナジーシールドが(6-8)%増加する"
+          },
+          "group": [
+            85
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_energy_shield_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased maximum Energy Shield",
+                "kr": "에너지 보호막 최대치 (6-8)% 증가",
+                "tw": "增加(6-8)%最大能量護盾",
+                "ru": "(6-8)% увеличение максимума энергетического щита",
+                "jp": "最大エナジーシールドが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "EnergyShieldOnHitJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              3
+            ]
+          ],
+          "name": {
+            "en": "of Focus",
+            "kr": "- 집중",
+            "tw": "專注之",
+            "ru": "средоточия",
+            "jp": "集中力の"
+          },
+          "effect": {
+            "en": "Gain (2-3) Energy Shield per Enemy Hit with Attacks",
+            "kr": "공격으로 명중한 적 하나당 에너지 보호막 (2-3) 획득",
+            "tw": "攻擊每擊中一名敵人，獲得(2-3)能量護盾",
+            "ru": "Дарует (2-3) энергетического щита за каждого поражённого атаками врага",
+            "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のエナジーシールドを獲得する"
+          },
+          "group": [
+            1434
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "energy_shield_gain_per_target",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "value": "2~3",
+              "text": {
+                "en": "Gain (2-3) Energy Shield per Enemy Hit with Attacks",
+                "kr": "공격으로 명중한 적 하나당 에너지 보호막 (2-3) 획득",
+                "tw": "攻擊每擊中一名敵人，獲得(2-3)能量護盾",
+                "ru": "Дарует (2-3) энергетического щита за каждого поражённого атаками врага",
+                "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のエナジーシールドを獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FasterAilmentDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Decrepifying",
+            "kr": "노쇠시키는",
+            "tw": "衰老的",
+            "ru": "обветшания",
+            "jp": "老衰させる"
+          },
+          "effect": {
+            "en": "Damaging Ailments deal damage (4-6)% faster",
+            "kr": "피해를 주는 상태 이상의 피해 (4-6)%만큼 가속",
+            "tw": "傷害型異常狀態造成傷害加速(4-6)%",
+            "ru": "Наносящие урон состояния наносят урон на (4-6)% быстрее",
+            "jp": "ダメージ性状態異常がダメージを与える速度が(4-6)%速くなる"
+          },
+          "group": [
+            4569
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damaging_ailments_deal_damage_+%_faster",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "Damaging Ailments deal damage (4-6)% faster",
+                "kr": "피해를 주는 상태 이상의 피해 (4-6)%만큼 가속",
+                "tw": "傷害型異常狀態造成傷害加速(4-6)%",
+                "ru": "Наносящие урон состояния наносят урон на (4-6)% быстрее",
+                "jp": "ダメージ性状態異常がダメージを与える速度が(4-6)%速くなる"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireColdResistanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Hearth",
+            "kr": "- 난로",
+            "tw": "真誠之",
+            "ru": "очага",
+            "jp": "路床の"
+          },
+          "effect": {
+            "en": "(10-12)% to Fire and Cold Resistances",
+            "kr": "화염 및 냉기 저항 (10-12)%",
+            "tw": "(10-12)%火焰與冰冷抗性",
+            "ru": "(10-12)% к сопротивлению огню и холоду",
+            "jp": "火および冷気耐性 (10-12)%"
+          },
+          "group": [
+            806
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_and_cold_damage_resistance_%",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "10~12",
+              "text": {
+                "en": "(10-12)% to Fire and Cold Resistances",
+                "kr": "화염 및 냉기 저항 (10-12)%",
+                "tw": "(10-12)%火焰與冰冷抗性",
+                "ru": "(10-12)% к сопротивлению огню и холоду",
+                "jp": "火および冷気耐性 (10-12)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireCritChanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Incinerating",
+            "kr": "소각하는",
+            "tw": "焚燒的",
+            "ru": "Испепеляющий",
+            "jp": "焼却する"
+          },
+          "effect": {
+            "en": "(14-18)% increased Critical Hit Chance with Fire Skills",
+            "kr": "화염 스킬 치명타 명중 확률 (14-18)% 증가",
+            "tw": "增加(14-18)%火焰技能的暴擊率",
+            "ru": "(14-18)% повышение шанса критического удара умениями огня",
+            "jp": "火スキルのクリティカルヒット率が(14-18)%増加する"
+          },
+          "group": [
+            1478
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_critical_strike_chance_+%",
+                  "valueRange": [
+                    14,
+                    18
+                  ]
+                }
+              ],
+              "value": "14~18",
+              "text": {
+                "en": "(14-18)% increased Critical Hit Chance with Fire Skills",
+                "kr": "화염 스킬 치명타 명중 확률 (14-18)% 증가",
+                "tw": "增加(14-18)%火焰技能的暴擊率",
+                "ru": "(14-18)% повышение шанса критического удара умениями огня",
+                "jp": "火スキルのクリティカルヒット率が(14-18)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireCritMultiplier",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              15,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Infernal",
+            "kr": "지옥불의",
+            "tw": "獄炎的",
+            "ru": "Адский",
+            "jp": "業炎の"
+          },
+          "effect": {
+            "en": "(15-18)% to Critical Damage Bonus with Fire Skills",
+            "kr": "화염 스킬 치명타 피해 보너스 (15-18)%",
+            "tw": "(15-18)%火焰技能暴擊傷害加成",
+            "ru": "(15-18)% к бонусу критического урона умениями огня",
+            "jp": "火スキルのクリティカルダメージボーナス (15-18)%"
+          },
+          "group": [
+            1483
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_critical_strike_multiplier_+",
+                  "valueRange": [
+                    15,
+                    18
+                  ]
+                }
+              ],
+              "value": "15~18",
+              "text": {
+                "en": "(15-18)% to Critical Damage Bonus with Fire Skills",
+                "kr": "화염 스킬 치명타 피해 보너스 (15-18)%",
+                "tw": "(15-18)%火焰技能暴擊傷害加成",
+                "ru": "(15-18)% к бонусу критического урона умениями огня",
+                "jp": "火スキルのクリティカルダメージボーナス (15-18)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Flaming",
+            "kr": "불을 뿜는",
+            "tw": "烈火的",
+            "ru": "Обжигающий",
+            "jp": "燃え立つ"
+          },
+          "effect": {
+            "en": "(14-16)% increased Fire Damage",
+            "kr": "화염 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%火焰傷害",
+            "ru": "(14-16)% увеличение урона от огня",
+            "jp": "火ダメージが(14-16)%増加する"
+          },
+          "group": [
+            68
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Fire Damage",
+                "kr": "화염 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%火焰傷害",
+                "ru": "(14-16)% увеличение урона от огня",
+                "jp": "火ダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireGemCastSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "Pyromantic",
+            "kr": "화염술의",
+            "tw": "火祭的",
+            "ru": "Воспламеняющий",
+            "jp": "操炎術の"
+          },
+          "effect": {
+            "en": "(3-5)% increased Cast Speed with Fire Skills",
+            "kr": "화염 스킬 사용 시 시전 속도 (3-5)% 증가",
+            "tw": "增加(3-5)%火焰技能施放速度",
+            "ru": "(3-5)% повышение скорости сотворения чар для умений огня",
+            "jp": "火スキルのキャストスピードが(3-5)%増加する"
+          },
+          "group": [
+            1422
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cast_speed_for_fire_skills_+%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% increased Cast Speed with Fire Skills",
+                "kr": "화염 스킬 사용 시 시전 속도 (3-5)% 증가",
+                "tw": "增加(3-5)%火焰技能施放速度",
+                "ru": "(3-5)% повышение скорости сотворения чар для умений огня",
+                "jp": "火スキルのキャストスピードが(3-5)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireLightningResistanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Insulation",
+            "kr": "- 절연",
+            "tw": "絕緣之",
+            "ru": "утепления",
+            "jp": "絶縁体の"
+          },
+          "effect": {
+            "en": "(10-12)% to Fire and Lightning Resistances",
+            "kr": "화염 및 번개 저항 (10-12)%",
+            "tw": "(10-12)%火焰與閃電抗性",
+            "ru": "(10-12)% к сопротивлению огню и молнии",
+            "jp": "火および雷耐性 (10-12)%"
+          },
+          "group": [
+            807
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_and_lightning_damage_resistance_%",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "10~12",
+              "text": {
+                "en": "(10-12)% to Fire and Lightning Resistances",
+                "kr": "화염 및 번개 저항 (10-12)%",
+                "tw": "(10-12)%火焰與閃電抗性",
+                "ru": "(10-12)% к сопротивлению огню и молнии",
+                "jp": "火および雷耐性 (10-12)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResistanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Dragon",
+            "kr": "- 용",
+            "tw": "龍之",
+            "ru": "дракона",
+            "jp": "ドラゴンの"
+          },
+          "effect": {
+            "en": "(12-15)% to Fire Resistance",
+            "kr": "화염 저항 (12-15)%",
+            "tw": "(12-15)%火焰抗性",
+            "ru": "(12-15)% к сопротивлению огню",
+            "jp": "火耐性 (12-15)%"
+          },
+          "group": [
+            49
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% to Fire Resistance",
+                "kr": "화염 저항 (12-15)%",
+                "tw": "(12-15)%火焰抗性",
+                "ru": "(12-15)% к сопротивлению огню",
+                "jp": "火耐性 (12-15)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskDurationJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Prolonging",
+            "kr": "연장하는",
+            "tw": "延長的",
+            "ru": "Продлевающий",
+            "jp": "延命する"
+          },
+          "effect": {
+            "en": "(6-10)% increased Flask Effect Duration",
+            "kr": "플라스크 효과 지속시간 (6-10)% 증가",
+            "tw": "增加(6-10)%藥劑效果持續時間",
+            "ru": "(6-10)% увеличение длительности эффекта флакона",
+            "jp": "フラスコ効果持続時間が(6-10)%増加する"
+          },
+          "group": [
+            211
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "flask_duration_+%",
+                  "valueRange": [
+                    6,
+                    10
+                  ]
+                }
+              ],
+              "value": "6~10",
+              "text": {
+                "en": "(6-10)% increased Flask Effect Duration",
+                "kr": "플라스크 효과 지속시간 (6-10)% 증가",
+                "tw": "增加(6-10)%藥劑效果持續時間",
+                "ru": "(6-10)% увеличение длительности эффекта флакона",
+                "jp": "フラスコ効果持続時間が(6-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FreezeChanceAndDurationJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ],
+            [
+              12,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Freezing",
+            "kr": "- 동결",
+            "tw": "冰凍之",
+            "ru": "обморожения",
+            "jp": "凍結の"
+          },
+          "effect": {
+            "en": "(3-5)% chance to Freeze\n(12-16)% increased Freeze Duration on Enemies",
+            "kr": "(3-5)%의 확률로 동결 유발\n적에게 적용되는 동결 지속시간 (12-16)% 증가",
+            "tw": "(3-5)%機率使用冰冷傷害擊中敵人造成冰凍效果\n增加(12-16)%敵人身上的冰凍持續時間",
+            "ru": "(3-5)% шанс заморозить\n(12-16)% увеличение длительности заморозки на врагах",
+            "jp": "(3-5)%の確率で敵を凍結させる\n敵に対する凍結の持続時間が(12-16)%増加する"
+          },
+          "group": [
+            471
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chance_to_freeze_%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% chance to Freeze",
+                "kr": "(3-5)%의 확률로 동결 유발",
+                "tw": "(3-5)%機率使用冰冷傷害擊中敵人造成冰凍效果",
+                "ru": "(3-5)% шанс заморозить",
+                "jp": "(3-5)%の確率で敵を凍結させる"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "freeze_duration_+%",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                }
+              ],
+              "value": "12~16",
+              "text": {
+                "en": "(12-16)% increased Freeze Duration on Enemies",
+                "kr": "적에게 적용되는 동결 지속시간 (12-16)% 증가",
+                "tw": "增加(12-16)%敵人身上的冰凍持續時間",
+                "ru": "(12-16)% увеличение длительности заморозки на врагах",
+                "jp": "敵に対する凍結の持続時間が(12-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IgniteChanceAndDurationJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Burning",
+            "kr": "- 화상",
+            "tw": "燃燒之",
+            "ru": "сожжения",
+            "jp": "燃焼の"
+          },
+          "effect": {
+            "en": "(6-8)% increased Ignite Duration on Enemies",
+            "kr": "적에게 적용되는 점화 지속시간 (6-8)% 증가",
+            "tw": "增加(6-8)%敵人點燃持續時間",
+            "ru": "(6-8)% увеличение длительности поджога на врагах",
+            "jp": "敵に対する発火の持続時間が(6-8)%増加する"
+          },
+          "group": [
+            471
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chance_to_ignite_%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "ignite_duration_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Ignite Duration on Enemies",
+                "kr": "적에게 적용되는 점화 지속시간 (6-8)% 증가",
+                "tw": "增加(6-8)%敵人點燃持續時間",
+                "ru": "(6-8)% увеличение длительности поджога на врагах",
+                "jp": "敵に対する発火の持続時間が(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IgniteDurationOnYouJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              30,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Flameruler",
+            "kr": "- 불의 지배자",
+            "tw": "火焰統治者之",
+            "ru": "повелителя пламени",
+            "jp": "炎の支配者の"
+          },
+          "effect": {
+            "en": "(30-35)% reduced Ignite Duration on you",
+            "kr": "플레이어에게 적용되는 점화 지속시간 (30-35)% 감소",
+            "tw": "減少(30-35)%你身上的點燃持續時間",
+            "ru": "(30-35)% уменьшение длительности поджога на вас",
+            "jp": "受ける発火の持続時間が(30-35)%減少する"
+          },
+          "group": [
+            4575
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_self_ignite_duration_-%",
+                  "valueRange": [
+                    30,
+                    35
+                  ]
+                }
+              ],
+              "value": "30~35",
+              "text": {
+                "en": "(30-35)% reduced Ignite Duration on you",
+                "kr": "플레이어에게 적용되는 점화 지속시간 (30-35)% 감소",
+                "tw": "減少(30-35)%你身上的點燃持續時間",
+                "ru": "(30-35)% уменьшение длительности поджога на вас",
+                "jp": "受ける発火の持続時間が(30-35)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ImpaleChanceForJewel_",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              7
+            ]
+          ],
+          "name": {
+            "en": "of Impaling",
+            "kr": "- 꿰뚫기",
+            "tw": "穿刺之",
+            "ru": "прокола",
+            "jp": "串刺しの"
+          },
+          "effect": {
+            "en": "(5-7)% chance to Impale Enemies on Hit with Attacks",
+            "kr": "공격 명중 시 (5-7)%의 확률로 적 꿰뚫음",
+            "tw": "攻擊擊中時有(5-7)%機率穿刺敵人",
+            "ru": "(5-7)% шанс наложить на врагов Прокол при нанесении удара атаками",
+            "jp": "アタックによるヒット時に(5-7)%の確率で敵を串刺しにする"
+          },
+          "group": [
+            3454
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attacks_impale_on_hit_%_chance",
+                  "valueRange": [
+                    5,
+                    7
+                  ]
+                }
+              ],
+              "value": "5~7",
+              "text": {
+                "en": "(5-7)% chance to Impale Enemies on Hit with Attacks",
+                "kr": "공격 명중 시 (5-7)%의 확률로 적 꿰뚫음",
+                "tw": "攻擊擊中時有(5-7)%機率穿刺敵人",
+                "ru": "(5-7)% шанс наложить на врагов Прокол при нанесении удара атаками",
+                "jp": "アタックによるヒット時に(5-7)%の確率で敵を串刺しにする"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedArmourJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Armoured",
+            "kr": "장갑을 두른",
+            "tw": "裝甲的",
+            "ru": "Прочный",
+            "jp": "装甲付き"
+          },
+          "effect": {
+            "en": "(14-18)% increased Armour",
+            "kr": "방어도 (14-18)% 증가",
+            "tw": "增加(14-18)%護甲值",
+            "ru": "(14-18)% повышение брони",
+            "jp": "アーマーが(14-18)%増加する"
+          },
+          "group": [
+            84
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    14,
+                    18
+                  ]
+                }
+              ],
+              "value": "14~18",
+              "text": {
+                "en": "(14-18)% increased Armour",
+                "kr": "방어도 (14-18)% 증가",
+                "tw": "增加(14-18)%護甲值",
+                "ru": "(14-18)% повышение брони",
+                "jp": "アーマーが(14-18)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedEvasionJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Evasive",
+            "kr": "회피하는",
+            "tw": "閃避的",
+            "ru": "Неуловимый",
+            "jp": "回避する"
+          },
+          "effect": {
+            "en": "(14-18)% increased Evasion Rating",
+            "kr": "회피 (14-18)% 증가",
+            "tw": "增加(14-18)%閃避值",
+            "ru": "(14-18)% увеличение уклонения",
+            "jp": "回避力が(14-18)%増加する"
+          },
+          "group": [
+            86
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "evasion_rating_+%",
+                  "valueRange": [
+                    14,
+                    18
+                  ]
+                }
+              ],
+              "value": "14~18",
+              "text": {
+                "en": "(14-18)% increased Evasion Rating",
+                "kr": "회피 (14-18)% 증가",
+                "tw": "增加(14-18)%閃避值",
+                "ru": "(14-18)% увеличение уклонения",
+                "jp": "回避力が(14-18)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedManaRegenJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Energetic",
+            "kr": "원기왕성한",
+            "tw": "活力的",
+            "ru": "Энергетический",
+            "jp": "精力的な"
+          },
+          "effect": {
+            "en": "(12-15)% increased Mana Regeneration Rate",
+            "kr": "마나 재생 속도 (12-15)% 증가",
+            "tw": "增加(12-15)%魔力回復率",
+            "ru": "(12-15)% повышение скорости регенерации маны",
+            "jp": "マナ自動回復レートが(12-15)%増加する"
+          },
+          "group": [
+            42
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "mana_regeneration_rate_+%",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% increased Mana Regeneration Rate",
+                "kr": "마나 재생 속도 (12-15)% 증가",
+                "tw": "增加(12-15)%魔力回復率",
+                "ru": "(12-15)% повышение скорости регенерации маны",
+                "jp": "マナ自動回復レートが(12-15)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IntelligenceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Intelligence",
+            "kr": "- 지능",
+            "tw": "智慧之",
+            "ru": "интеллекта",
+            "jp": "知性の"
+          },
+          "effect": {
+            "en": "(12-16) to Intelligence",
+            "kr": "지능 (12-16)",
+            "tw": "(12-16)點智慧",
+            "ru": "(12-16) к интеллекту",
+            "jp": "知性 (12-16)"
+          },
+          "group": [
+            149
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                }
+              ],
+              "value": "12~16",
+              "text": {
+                "en": "(12-16) to Intelligence",
+                "kr": "지능 (12-16)",
+                "tw": "(12-16)點智慧",
+                "ru": "(12-16) к интеллекту",
+                "jp": "知性 (12-16)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ItemRarityJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "of Raiding",
+            "kr": "- 습격",
+            "tw": "掃蕩的",
+            "ru": "захвата",
+            "jp": "強奪の"
+          },
+          "effect": {
+            "en": "(4-6)% increased Rarity of Items found",
+            "kr": "발견하는 아이템 희귀도 (4-6)% 증가",
+            "tw": "增加(4-6)%找到的物品稀有度",
+            "ru": "(4-6)% повышение редкости найденных предметов",
+            "jp": "見つかるアイテムのレアリティが(4-6)%増加する"
+          },
+          "group": [
+            66
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_item_found_rarity_+%",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6)% increased Rarity of Items found",
+                "kr": "발견하는 아이템 희귀도 (4-6)% 증가",
+                "tw": "增加(4-6)%找到的物品稀有度",
+                "ru": "(4-6)% повышение редкости найденных предметов",
+                "jp": "見つかるアイテムのレアリティが(4-6)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "KnockbackChanceJewel_",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "of Fending",
+            "kr": "- 밀치기",
+            "tw": "自衛之",
+            "ru": "отпора",
+            "jp": "受け流しの"
+          },
+          "effect": {
+            "en": "(4-6)% chance to Knock Enemies Back on hit",
+            "kr": "명중 시 (4-6)%의 확률로 적을 밀어냄",
+            "tw": "擊中時有(4-6)%機率擊退敵人",
+            "ru": "(4-6)% шанс отбросить врагов при нанесении удара",
+            "jp": "ヒット時に(4-6)%の確率で敵をノックバックする"
+          },
+          "group": [
+            13
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_global_chance_to_knockback_%",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6)% chance to Knock Enemies Back on hit",
+                "kr": "명중 시 (4-6)%의 확률로 적을 밀어냄",
+                "tw": "擊中時有(4-6)%機率擊退敵人",
+                "ru": "(4-6)% шанс отбросить врагов при нанесении удара",
+                "jp": "ヒット時に(4-6)%の確率で敵をノックバックする"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeLeechJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "Hungering",
+            "kr": "허기진",
+            "tw": "飢餓的",
+            "ru": "Голодный",
+            "jp": "飢えた"
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            7
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_stat_display_nothing",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeLeechPermyriadJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              20,
+              40
+            ]
+          ],
+          "name": {
+            "en": "Hungering",
+            "kr": "허기진",
+            "tw": "飢餓的",
+            "ru": "Голодный",
+            "jp": "飢えた"
+          },
+          "effect": {
+            "en": "Leech (20-40)% of Physical Attack Damage as Life",
+            "kr": "물리 공격 피해의 (20-40)%를 생명력으로 흡수",
+            "tw": "以(20-40)%物理攻擊傷害偷取生命",
+            "ru": "(20-40)% физического урона от атак похищается в виде здоровья",
+            "jp": "物理アタックダメージの(20-40)%をライフとしてリーチする"
+          },
+          "group": [
+            7
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_leech_from_physical_attack_damage_permyriad",
+                  "valueRange": [
+                    20,
+                    40
+                  ]
+                }
+              ],
+              "value": "20~40",
+              "text": {
+                "en": "Leech (20-40)% of Physical Attack Damage as Life",
+                "kr": "물리 공격 피해의 (20-40)%를 생명력으로 흡수",
+                "tw": "以(20-40)%物理攻擊傷害偷取生命",
+                "ru": "(20-40)% физического урона от атак похищается в виде здоровья",
+                "jp": "物理アタックダメージの(20-40)%をライフとしてリーチする"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeOnHitJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              3
+            ]
+          ],
+          "name": {
+            "en": "of Rejuvenation",
+            "kr": "- 회춘",
+            "tw": "回春之",
+            "ru": "омоложения",
+            "jp": "活性化の"
+          },
+          "effect": {
+            "en": "Gain (2-3) Life per Enemy Hit with Attacks",
+            "kr": "플레이어의 공격으로 명중하는 적 하나당 획득하는 생명력 (2-3)",
+            "tw": "攻擊每擊中一名敵人，獲得(2-3)生命",
+            "ru": "Дарует (2-3) здоровья за каждого пораженного атаками врага",
+            "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のライフを獲得する"
+          },
+          "group": [
+            108
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gain_per_target",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "value": "2~3",
+              "text": {
+                "en": "Gain (2-3) Life per Enemy Hit with Attacks",
+                "kr": "플레이어의 공격으로 명중하는 적 하나당 획득하는 생명력 (2-3)",
+                "tw": "攻擊每擊中一名敵人，獲得(2-3)生命",
+                "ru": "Дарует (2-3) здоровья за каждого пораженного атаками врага",
+                "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のライフを獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeRecoupJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "of Infusion",
+            "kr": "- 주입",
+            "tw": "注入之",
+            "ru": "со знаком настоек",
+            "jp": "注入の"
+          },
+          "effect": {
+            "en": "(4-6)% of Damage taken Recouped as Life",
+            "kr": "받은 피해의 (4-6)%를 생명력으로 회생",
+            "tw": "承受的(4-6)%傷害補償為生命",
+            "ru": "(4-6)% полученного урона восполняется в виде здоровья",
+            "jp": "受けたダメージの(4-6)%をライフとして回収する"
+          },
+          "group": [
+            3530
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_taken_goes_to_life_over_4_seconds_%",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6)% of Damage taken Recouped as Life",
+                "kr": "받은 피해의 (4-6)%를 생명력으로 회생",
+                "tw": "承受的(4-6)%傷害補償為生命",
+                "ru": "(4-6)% полученного урона восполняется в виде здоровья",
+                "jp": "受けたダメージの(4-6)%をライフとして回収する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningCritChanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Thundering",
+            "kr": "천둥의",
+            "tw": "雷鳴的",
+            "ru": "Громовой",
+            "jp": "轟く"
+          },
+          "effect": {
+            "en": "(14-18)% increased Critical Hit Chance with Lightning Skills",
+            "kr": "번개 스킬 치명타 명중 확률 (14-18)% 증가",
+            "tw": "增加(14-18)%閃電技能的暴擊率",
+            "ru": "(14-18)% повышение шанса критического удара умениями молнии",
+            "jp": "雷スキルのクリティカルヒット率が(14-18)%増加する"
+          },
+          "group": [
+            1480
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "lightning_critical_strike_chance_+%",
+                  "valueRange": [
+                    14,
+                    18
+                  ]
+                }
+              ],
+              "value": "14~18",
+              "text": {
+                "en": "(14-18)% increased Critical Hit Chance with Lightning Skills",
+                "kr": "번개 스킬 치명타 명중 확률 (14-18)% 증가",
+                "tw": "增加(14-18)%閃電技能的暴擊率",
+                "ru": "(14-18)% повышение шанса критического удара умениями молнии",
+                "jp": "雷スキルのクリティカルヒット率が(14-18)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningCritMultiplier",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              15,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Surging",
+            "kr": "쇄도하는",
+            "tw": "暴風的",
+            "ru": "Бушующий",
+            "jp": "電流の"
+          },
+          "effect": {
+            "en": "(15-18)% to Critical Damage Bonus with Lightning Skills",
+            "kr": "번개 스킬 치명타 피해 보너스 (15-18)%",
+            "tw": "(15-18)%閃電技能暴擊傷害加成",
+            "ru": "(15-18)% к бонусу критического урона умениями молнии",
+            "jp": "雷スキルのクリティカルダメージボーナス (15-18)%"
+          },
+          "group": [
+            1485
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "lightning_critical_strike_multiplier_+",
+                  "valueRange": [
+                    15,
+                    18
+                  ]
+                }
+              ],
+              "value": "15~18",
+              "text": {
+                "en": "(15-18)% to Critical Damage Bonus with Lightning Skills",
+                "kr": "번개 스킬 치명타 피해 보너스 (15-18)%",
+                "tw": "(15-18)%閃電技能暴擊傷害加成",
+                "ru": "(15-18)% к бонусу критического урона умениями молнии",
+                "jp": "雷スキルのクリティカルダメージボーナス (15-18)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Humming",
+            "kr": "윙윙대는",
+            "tw": "雷電的",
+            "ru": "Покалывающий",
+            "jp": "電音の"
+          },
+          "effect": {
+            "en": "(14-16)% increased Lightning Damage",
+            "kr": "번개 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%閃電傷害",
+            "ru": "(14-16)% увеличение урона от молнии",
+            "jp": "雷ダメージが(14-16)%増加する"
+          },
+          "group": [
+            72
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "lightning_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Lightning Damage",
+                "kr": "번개 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%閃電傷害",
+                "ru": "(14-16)% увеличение урона от молнии",
+                "jp": "雷ダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningGemCastSpeedJewel_",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "Electromantic",
+            "kr": "전기술의",
+            "tw": "雷祭的",
+            "ru": "Шоковый",
+            "jp": "操電術の"
+          },
+          "effect": {
+            "en": "(3-5)% increased Cast Speed with Lightning Skills",
+            "kr": "번개 스킬 시전 속도 (3-5)% 증가",
+            "tw": "增加(3-5)%閃電技能施放速度",
+            "ru": "(3-5)% повышение скорости сотворения чар для умений молнии",
+            "jp": "雷スキルのキャストスピードが(3-5)%増加する"
+          },
+          "group": [
+            1424
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cast_speed_for_lightning_skills_+%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% increased Cast Speed with Lightning Skills",
+                "kr": "번개 스킬 시전 속도 (3-5)% 증가",
+                "tw": "增加(3-5)%閃電技能施放速度",
+                "ru": "(3-5)% повышение скорости сотворения чар для умений молнии",
+                "jp": "雷スキルのキャストスピードが(3-5)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResistanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Grounding",
+            "kr": "- 접지",
+            "tw": "接地之",
+            "ru": "заземления",
+            "jp": "接地の"
+          },
+          "effect": {
+            "en": "(12-15)% to Lightning Resistance",
+            "kr": "번개 저항 (12-15)%",
+            "tw": "(12-15)%閃電抗性",
+            "ru": "(12-15)% к сопротивлению молнии",
+            "jp": "雷耐性 (12-15)%"
+          },
+          "group": [
+            51
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% to Lightning Resistance",
+                "kr": "번개 저항 (12-15)%",
+                "tw": "(12-15)%閃電抗性",
+                "ru": "(12-15)% к сопротивлению молнии",
+                "jp": "雷耐性 (12-15)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "MaceAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Beating",
+            "kr": "두들기는",
+            "tw": "搏動的",
+            "ru": "Калечащий",
+            "jp": "連打の"
+          },
+          "effect": {
+            "en": "(6-8)% increased Attack Speed with Maces or Sceptres",
+            "kr": "철퇴나 셉터 사용 시 공격 속도 (6-8)% 증가",
+            "tw": "錘或權杖增加(6-8)%攻擊速度",
+            "ru": "(6-8)% повышение скорости атаки булавами и скипетрами",
+            "jp": "メイスまたはセプターのアタックスピードが(6-8)%増加する"
+          },
+          "group": [
+            1420
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "mace_attack_speed_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Attack Speed with Maces or Sceptres",
+                "kr": "철퇴나 셉터 사용 시 공격 속도 (6-8)% 증가",
+                "tw": "錘或權杖增加(6-8)%攻擊速度",
+                "ru": "(6-8)% повышение скорости атаки булавами и скипетрами",
+                "jp": "メイスまたはセプターのアタックスピードが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "MaceDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Brutal",
+            "kr": "잔인한",
+            "tw": "魯莽的",
+            "ru": "Жестокий",
+            "jp": "残忍な"
+          },
+          "effect": {
+            "en": "(14-16)% increased Damage with Maces",
+            "kr": "철퇴 사용 시 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%錘傷害",
+            "ru": "(14-16)% увеличение урона булавами",
+            "jp": "メイスのダメージが(14-16)%増加する"
+          },
+          "group": [
+            1416
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "mace_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Damage with Maces",
+                "kr": "철퇴 사용 시 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%錘傷害",
+                "ru": "(14-16)% увеличение урона булавами",
+                "jp": "メイスのダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaCostReductionJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "of Efficiency",
+            "kr": "- 효율",
+            "tw": "動能之",
+            "ru": "эффективности",
+            "jp": "効率の"
+          },
+          "effect": {
+            "en": "(3-5)% reduced Mana Cost of Skills",
+            "kr": "스킬의 마나 소모 (3-5)% 감소",
+            "tw": "減少(3-5)%技能魔力消耗",
+            "ru": "(3-5)% снижение затрат маны умениями",
+            "jp": "スキルのマナコストが(3-5)%減少する"
+          },
+          "group": [
+            180
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_cost_-%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% reduced Mana Cost of Skills",
+                "kr": "스킬의 마나 소모 (3-5)% 감소",
+                "tw": "減少(3-5)%技能魔力消耗",
+                "ru": "(3-5)% снижение затрат маны умениями",
+                "jp": "スキルのマナコストが(3-5)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaLeechJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "Thirsting",
+            "kr": "갈증 난",
+            "tw": "渴望的",
+            "ru": "Иссушенный",
+            "jp": "渇く"
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            9
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_stat_display_nothing",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaLeechPermyriadJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              20,
+              40
+            ]
+          ],
+          "name": {
+            "en": "Thirsting",
+            "kr": "갈증 난",
+            "tw": "渴望的",
+            "ru": "Иссушенный",
+            "jp": "渇く"
+          },
+          "effect": {
+            "en": "Leech (20-40)% of Physical Attack Damage as Mana",
+            "kr": "물리 공격 피해의 (20-40)%를 마나로 흡수",
+            "tw": "以(20-40)%物理攻擊傷害偷取魔力",
+            "ru": "(20-40)% физического урона от атак похищается в виде маны",
+            "jp": "物理アタックダメージの(20-40)%をマナとしてリーチする"
+          },
+          "group": [
+            9
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_leech_from_physical_attack_damage_permyriad",
+                  "valueRange": [
+                    20,
+                    40
+                  ]
+                }
+              ],
+              "value": "20~40",
+              "text": {
+                "en": "Leech (20-40)% of Physical Attack Damage as Mana",
+                "kr": "물리 공격 피해의 (20-40)%를 마나로 흡수",
+                "tw": "以(20-40)%物理攻擊傷害偷取魔力",
+                "ru": "(20-40)% физического урона от атак похищается в виде маны",
+                "jp": "物理アタックダメージの(20-40)%をマナとしてリーチする"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaOnHitJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "of Absorption",
+            "kr": "- 흡수",
+            "tw": "吸收之",
+            "ru": "поглощения",
+            "jp": "吸収の"
+          },
+          "effect": {
+            "en": "Gain (1-2) Mana per Enemy Hit with Attacks",
+            "kr": "공격으로 명중한 적 하나당 마나 (1-2) 획득",
+            "tw": "攻擊每擊中一名敵人，獲得(1-2)魔力",
+            "ru": "Дарует (1-2) маны за каждого пораженного атаками врага",
+            "jp": "アタックでヒットを与えた敵1体ごとに(1-2)のマナを獲得する"
+          },
+          "group": [
+            620
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "mana_gain_per_target",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": "Gain (1-2) Mana per Enemy Hit with Attacks",
+                "kr": "공격으로 명중한 적 하나당 마나 (1-2) 획득",
+                "tw": "攻擊每擊中一名敵人，獲得(1-2)魔力",
+                "ru": "Дарует (1-2) маны за каждого пораженного атаками врага",
+                "jp": "アタックでヒットを与えた敵1体ごとに(1-2)のマナを獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaReservationEfficiencyJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Cerebral",
+            "kr": "지적인",
+            "tw": "大腦的",
+            "ru": "Церебральный",
+            "jp": "脳の"
+          },
+          "effect": {
+            "en": "(2-3)% increased Mana Reservation Efficiency of Skills",
+            "kr": "스킬의 마나 점유 효율 (2-3)% 증가",
+            "tw": "增加(2-3)%技能的魔力保留效用",
+            "ru": "(2-3)% увеличение эффективности удержания маны умениями",
+            "jp": "スキルのマナリザーブ効率が(2-3)%増加する"
+          },
+          "group": [
+            568
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_reservation_efficiency_+%",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "value": "2~3",
+              "text": {
+                "en": "(2-3)% increased Mana Reservation Efficiency of Skills",
+                "kr": "스킬의 마나 점유 효율 (2-3)% 증가",
+                "tw": "增加(2-3)%技能的魔力保留效用",
+                "ru": "(2-3)% увеличение эффективности удержания маны умениями",
+                "jp": "スキルのマナリザーブ効率が(2-3)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "MinionAccuracyRatingJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              22,
+              26
+            ]
+          ],
+          "name": {
+            "en": "of Training",
+            "kr": "- 훈련",
+            "tw": "訓練之",
+            "ru": "тренировки",
+            "jp": "訓練の"
+          },
+          "effect": {
+            "en": "(22-26)% increased Minion Accuracy Rating",
+            "kr": "소환수 정확도 (22-26)% 증가",
+            "tw": "增加(22-26)%召喚物命中值",
+            "ru": "(22-26)% повышение меткости приспешников",
+            "jp": "ミニオンの命中力が(22-26)%増加する"
+          },
+          "group": [
+            2222
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "minion_accuracy_rating_+%",
+                  "valueRange": [
+                    22,
+                    26
+                  ]
+                }
+              ],
+              "value": "22~26",
+              "text": {
+                "en": "(22-26)% increased Minion Accuracy Rating",
+                "kr": "소환수 정확도 (22-26)% 증가",
+                "tw": "增加(22-26)%召喚物命中值",
+                "ru": "(22-26)% повышение меткости приспешников",
+                "jp": "ミニオンの命中力が(22-26)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "MinionDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Leadership",
+            "kr": "통솔력",
+            "tw": "領導的",
+            "ru": "Возглавляющий",
+            "jp": "リーダーシップ"
+          },
+          "effect": {
+            "en": "Minions deal (14-16)% increased Damage",
+            "kr": "소환수가 주는 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%召喚物造成的傷害",
+            "ru": "Приспешники имеют (14-16)% увеличение урона",
+            "jp": "ミニオンのダメージが(14-16)%増加する"
+          },
+          "group": [
+            1418
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "minion_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "Minions deal (14-16)% increased Damage",
+                "kr": "소환수가 주는 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%召喚物造成的傷害",
+                "ru": "Приспешники имеют (14-16)% увеличение урона",
+                "jp": "ミニオンのダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "MinionElementalResistancesJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Resilience",
+            "kr": "- 탄력성",
+            "tw": "紀律之",
+            "ru": "устойчивости",
+            "jp": "復元力の"
+          },
+          "effect": {
+            "en": "Minions have (11-15)% to all Elemental Resistances",
+            "kr": "소환수 모든 원소 저항 (11-15)%",
+            "tw": "召喚物(11-15)%全部元素抗性",
+            "ru": "Приспешники имеют (11-15)% к сопротивлению всем стихиям",
+            "jp": "ミニオンの全ての元素耐性 (11-15)%"
+          },
+          "group": [
+            1451
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "minion_elemental_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "Minions have (11-15)% to all Elemental Resistances",
+                "kr": "소환수 모든 원소 저항 (11-15)%",
+                "tw": "召喚物(11-15)%全部元素抗性",
+                "ru": "Приспешники имеют (11-15)% к сопротивлению всем стихиям",
+                "jp": "ミニオンの全ての元素耐性 (11-15)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "MinionLifeJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": "Master's",
+            "kr": "대가의",
+            "tw": "訓練的",
+            "ru": "Мастерский",
+            "jp": "主君の"
+          },
+          "effect": {
+            "en": "Minions have (8-12)% increased maximum Life",
+            "kr": "소환수 최대 생명력 (8-12)% 증가",
+            "tw": "召喚物增加(8-12)%最大生命",
+            "ru": "Приспешники имеют (8-12)% увеличение максимума здоровья",
+            "jp": "ミニオンの最大ライフが(8-12)%増加する"
+          },
+          "group": [
+            188
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "minion_maximum_life_+%",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "Minions have (8-12)% increased maximum Life",
+                "kr": "소환수 최대 생명력 (8-12)% 증가",
+                "tw": "召喚物增加(8-12)%最大生命",
+                "ru": "Приспешники имеют (8-12)% увеличение максимума здоровья",
+                "jp": "ミニオンの最大ライフが(8-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PercentIncreasedAccuracyJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Precision",
+            "kr": "- 정밀함",
+            "tw": "精確之",
+            "ru": "точности",
+            "jp": "精密さの"
+          },
+          "effect": {
+            "en": "(10-14)% increased Accuracy Rating",
+            "kr": "일반 정확도 (10-14)% 증가",
+            "tw": "增加(10-14)%命中值",
+            "ru": "(10-14)% повышение глобальной меткости",
+            "jp": "グローバル命中力が(10-14)%増加する"
+          },
+          "group": [
+            105
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating_+%",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% increased Accuracy Rating",
+                "kr": "일반 정확도 (10-14)% 증가",
+                "tw": "增加(10-14)%命中值",
+                "ru": "(10-14)% повышение глобальной меткости",
+                "jp": "グローバル命中力が(10-14)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PercentIncreasedLifeJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              7
+            ]
+          ],
+          "name": {
+            "en": "Vivid",
+            "kr": "선명한",
+            "tw": "生機的",
+            "ru": "Оживляющий",
+            "jp": "色鮮やかな"
+          },
+          "effect": {
+            "en": "(5-7)% increased maximum Life",
+            "kr": "최대 생명력 (5-7)% 증가",
+            "tw": "增加(5-7)%最大生命",
+            "ru": "(5-7)% увеличение максимума здоровья",
+            "jp": "最大ライフが(5-7)%増加する"
+          },
+          "group": [
+            81
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_life_+%",
+                  "valueRange": [
+                    5,
+                    7
+                  ]
+                }
+              ],
+              "value": "5~7",
+              "text": {
+                "en": "(5-7)% increased maximum Life",
+                "kr": "최대 생명력 (5-7)% 증가",
+                "tw": "增加(5-7)%最大生命",
+                "ru": "(5-7)% увеличение максимума здоровья",
+                "jp": "最大ライフが(5-7)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PercentIncreasedManaJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Enlightened",
+            "kr": "계몽의",
+            "tw": "啟蒙的",
+            "ru": "Просвещённый",
+            "jp": "啓発された"
+          },
+          "effect": {
+            "en": "(8-10)% increased maximum Mana",
+            "kr": "최대 마나 (8-10)% 증가",
+            "tw": "增加(8-10)%最大魔力",
+            "ru": "(8-10)% увеличение максимума маны",
+            "jp": "最大マナが(8-10)%増加する"
+          },
+          "group": [
+            174
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_mana_+%",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10)% increased maximum Mana",
+                "kr": "최대 마나 (8-10)% 증가",
+                "tw": "增加(8-10)%最大魔力",
+                "ru": "(8-10)% увеличение максимума маны",
+                "jp": "最大マナが(8-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PhysicalDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Sharpened",
+            "kr": "날카로운",
+            "tw": "銳利的",
+            "ru": "Заострённый",
+            "jp": "研いだ"
+          },
+          "effect": {
+            "en": "(14-16)% increased Global Physical Damage",
+            "kr": "일반 물리 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%全域物理傷害",
+            "ru": "(14-16)% увеличение глобального физического урона",
+            "jp": "グローバル物理ダメージが(14-16)%増加する"
+          },
+          "group": [
+            90
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Global Physical Damage",
+                "kr": "일반 물리 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%全域物理傷害",
+                "ru": "(14-16)% увеличение глобального физического урона",
+                "jp": "グローバル物理ダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PoisonChanceAndDurationForJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Poisoning",
+            "kr": "- 중독",
+            "tw": "中毒之",
+            "ru": "отравления",
+            "jp": "毒殺の"
+          },
+          "effect": {
+            "en": "(3-5)% chance to Poison on Hit\n(6-8)% increased Poison Duration",
+            "kr": "명중 시 (3-5)%의 확률로 중독 유발\n중독 지속시간 (6-8)% 증가",
+            "tw": "擊中時有(3-5)%機率造成中毒\n增加(6-8)%中毒持續時間",
+            "ru": "(3-5)% шанс отравить при нанесении удара\n(6-8)% увеличение длительности яда",
+            "jp": "ヒット時に(3-5)%の確率で毒を付与する\n毒持続時間が(6-8)%増加する"
+          },
+          "group": [
+            471
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chance_to_poison_on_hit_%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% chance to Poison on Hit",
+                "kr": "명중 시 (3-5)%의 확률로 중독 유발",
+                "tw": "擊中時有(3-5)%機率造成中毒",
+                "ru": "(3-5)% шанс отравить при нанесении удара",
+                "jp": "ヒット時に(3-5)%の確率で毒を付与する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "base_poison_duration_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Poison Duration",
+                "kr": "중독 지속시간 (6-8)% 증가",
+                "tw": "增加(6-8)%中毒持續時間",
+                "ru": "(6-8)% увеличение длительности яда",
+                "jp": "毒持続時間が(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "PoisonDamageForJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Venom",
+            "kr": "- 독액",
+            "tw": "猛毒之",
+            "ru": "отравы",
+            "jp": "毒液の"
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            2093
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_stat_display_nothing",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "PoisonDurationOnYouJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -35,
+              -30
+            ]
+          ],
+          "name": {
+            "en": "of Neutralisation",
+            "kr": "- 중화",
+            "tw": "中和之",
+            "ru": "нейтрализации",
+            "jp": "中和の"
+          },
+          "effect": {
+            "en": "(-35--30)% reduced Poison Duration on you",
+            "kr": "플레이어에게 적용되는 중독 지속시간 (-35--30)% 감소",
+            "tw": "減少(-35--30)%你身上的中毒持續時間",
+            "ru": "(-35--30)% уменьшение длительности отравления на вас",
+            "jp": "プレイヤー自身に対する毒の持続時間が(-35--30)%減少する"
+          },
+          "group": [
+            27
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "self_poison_duration_+%",
+                  "valueRange": [
+                    -35,
+                    -30
+                  ]
+                }
+              ],
+              "value": "-35~-30",
+              "text": {
+                "en": "(-35--30)% reduced Poison Duration on you",
+                "kr": "플레이어에게 적용되는 중독 지속시간 (-35--30)% 감소",
+                "tw": "減少(-35--30)%你身上的中毒持續時間",
+                "ru": "(-35--30)% уменьшение длительности отравления на вас",
+                "jp": "プレイヤー自身に対する毒の持続時間が(-35--30)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ProjectileDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Archery",
+            "kr": "- 궁술",
+            "tw": "箭術之",
+            "ru": "лучника",
+            "jp": "弓術の"
+          },
+          "effect": {
+            "en": "(10-12)% increased Projectile Damage",
+            "kr": "투사체 피해 (10-12)% 증가",
+            "tw": "增加(10-12)%投射物傷害",
+            "ru": "(10-12)% увеличение урона снарядов",
+            "jp": "投射物ダメージが(10-12)%増加する"
+          },
+          "group": [
+            1418
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "projectile_damage_+%",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "10~12",
+              "text": {
+                "en": "(10-12)% increased Projectile Damage",
+                "kr": "투사체 피해 (10-12)% 증가",
+                "tw": "增加(10-12)%投射物傷害",
+                "ru": "(10-12)% увеличение урона снарядов",
+                "jp": "投射物ダメージが(10-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ProjectileSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Soaring",
+            "kr": "- 급상승",
+            "tw": "高山之",
+            "ru": "полёта",
+            "jp": "飛翔の"
+          },
+          "effect": {
+            "en": "(6-8)% increased Projectile Speed",
+            "kr": "투사체 속도 (6-8)% 증가",
+            "tw": "增加(6-8)%投射物速度",
+            "ru": "(6-8)% повышение скорости снарядов",
+            "jp": "投射物スピードが(6-8)%増加する"
+          },
+          "group": [
+            104
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_projectile_speed_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Projectile Speed",
+                "kr": "투사체 속도 (6-8)% 증가",
+                "tw": "增加(6-8)%投射物速度",
+                "ru": "(6-8)% повышение скорости снарядов",
+                "jp": "投射物スピードが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ShieldAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Charging",
+            "kr": "돌진하는",
+            "tw": "衝鋒的",
+            "ru": "Укреплённый",
+            "jp": "突撃する"
+          },
+          "effect": {
+            "en": "(4-6)% increased Attack Speed while holding a Shield",
+            "kr": "방패를 들고 있는 동안 공격 속도 (4-6)% 증가",
+            "tw": "持盾時，增加(4-6)%攻擊速度",
+            "ru": "(4-6)% повышение скорости атаки со щитом в руках",
+            "jp": "盾装備中はアタックスピードが(4-6)%増加する"
+          },
+          "group": [
+            1421
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_+%_while_holding_shield",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "(4-6)% increased Attack Speed while holding a Shield",
+                "kr": "방패를 들고 있는 동안 공격 속도 (4-6)% 증가",
+                "tw": "持盾時，增加(4-6)%攻擊速度",
+                "ru": "(4-6)% повышение скорости атаки со щитом в руках",
+                "jp": "盾装備中はアタックスピードが(4-6)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ShieldCastSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "Warding",
+            "kr": "수호하는",
+            "tw": "守護的",
+            "ru": "Защищающий",
+            "jp": "守衛する"
+          },
+          "effect": {
+            "en": "(3-5)% increased Cast Speed while holding a Shield",
+            "kr": "방패를 들고 있는 동안 시전 속도 (3-5)% 증가",
+            "tw": "持盾時增加(3-5)%施放速度",
+            "ru": "(3-5)% повышение скорости сотворения чар со щитом в руках",
+            "jp": "盾装備中はキャストスピードが(3-5)%増加する"
+          },
+          "group": [
+            1421
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cast_speed_+%_while_holding_shield",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% increased Cast Speed while holding a Shield",
+                "kr": "방패를 들고 있는 동안 시전 속도 (3-5)% 증가",
+                "tw": "持盾時增加(3-5)%施放速度",
+                "ru": "(3-5)% повышение скорости сотворения чар со щитом в руках",
+                "jp": "盾装備中はキャストスピードが(3-5)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ShieldSpellBlockJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Thwarting",
+            "kr": "좌절시키는",
+            "tw": "阻止的",
+            "ru": "Преграждающий",
+            "jp": "阻止する"
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            1454
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_stat_display_nothing",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "ShieldSpellDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Battlemage's",
+            "kr": "전투마법사의",
+            "tw": "鬥法者的",
+            "ru": "Магический",
+            "jp": "戦魔道師の"
+          },
+          "effect": {
+            "en": "(14-16)% increased Spell Damage while holding a Shield",
+            "kr": "방패를 들고 있는 동안 주문 피해 (14-16)% 증가",
+            "tw": "持盾時增加(14-16)%法術傷害",
+            "ru": "(14-16)% увеличение урона от чар со щитом в руках",
+            "jp": "盾装備中はスペルダメージが(14-16)%増加する"
+          },
+          "group": [
+            1419
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%_while_holding_shield",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Spell Damage while holding a Shield",
+                "kr": "방패를 들고 있는 동안 주문 피해 (14-16)% 증가",
+                "tw": "持盾時增加(14-16)%法術傷害",
+                "ru": "(14-16)% увеличение урона от чар со щитом в руках",
+                "jp": "盾装備中はスペルダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ShockChanceAndDurationJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ],
+            [
+              12,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Shocking",
+            "kr": "- 감전",
+            "tw": "導電之",
+            "ru": "шока",
+            "jp": "感電の"
+          },
+          "effect": {
+            "en": "(3-5)% chance to Shock\n(12-16)% increased Shock Duration",
+            "kr": "(3-5)%의 확률로 감전 유발\n감전 지속시간 (12-16)% 증가",
+            "tw": "(3-5)%機率使用閃電傷害擊中敵人造成感電效果\n增加(12-16)%感電持續時間",
+            "ru": "(3-5)% шанс наложить шок\n(12-16)% увеличение длительности шока",
+            "jp": "(3-5)%の確率で敵を感電させる\n感電持続時間が(12-16)%増加する"
+          },
+          "group": [
+            471
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chance_to_shock_%",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% chance to Shock",
+                "kr": "(3-5)%의 확률로 감전 유발",
+                "tw": "(3-5)%機率使用閃電傷害擊中敵人造成感電效果",
+                "ru": "(3-5)% шанс наложить шок",
+                "jp": "(3-5)%の確率で敵を感電させる"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "shock_duration_+%",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                }
+              ],
+              "value": "12~16",
+              "text": {
+                "en": "(12-16)% increased Shock Duration",
+                "kr": "감전 지속시간 (12-16)% 증가",
+                "tw": "增加(12-16)%感電持續時間",
+                "ru": "(12-16)% увеличение длительности шока",
+                "jp": "感電持続時間が(12-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ShockEffectOnYouJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -35,
+              -30
+            ]
+          ],
+          "name": {
+            "en": "of the Stormdweller",
+            "kr": "- 태풍의 주인",
+            "tw": "風暴居民之",
+            "ru": "обитателя бури",
+            "jp": "嵐に住む者の"
+          },
+          "effect": {
+            "en": "(-35--30)% reduced effect of Shock on you",
+            "kr": "플레이어에게 적용되는 감전 효과 (-35--30)% 감소",
+            "tw": "減少(-35--30)%你身上的感電效果",
+            "ru": "(-35--30)% ослабление эффекта шока на вас",
+            "jp": "プレイヤーに対する感電の効果が(-35--30)%減少する"
+          },
+          "group": [
+            2693
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "shocked_effect_on_self_+%",
+                  "valueRange": [
+                    -35,
+                    -30
+                  ]
+                }
+              ],
+              "value": "-35~-30",
+              "text": {
+                "en": "(-35--30)% reduced effect of Shock on you",
+                "kr": "플레이어에게 적용되는 감전 효과 (-35--30)% 감소",
+                "tw": "減少(-35--30)%你身上的感電效果",
+                "ru": "(-35--30)% ослабление эффекта шока на вас",
+                "jp": "プレイヤーに対する感電の効果が(-35--30)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellCritChanceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Annihilation",
+            "kr": "- 전멸",
+            "tw": "殲滅之",
+            "ru": "истребления",
+            "jp": "撃滅の"
+          },
+          "effect": {
+            "en": "(10-14)% increased Critical Hit Chance for Spells",
+            "kr": "주문 치명타 명중 확률 (10-14)% 증가",
+            "tw": "增加(10-14)%法術暴擊率",
+            "ru": "(10-14)% повышение шанса критического удара для чар",
+            "jp": "スペルのクリティカルヒット率が(10-14)%増加する"
+          },
+          "group": [
+            1447
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_critical_strike_chance_+%",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% increased Critical Hit Chance for Spells",
+                "kr": "주문 치명타 명중 확률 (10-14)% 증가",
+                "tw": "增加(10-14)%法術暴擊率",
+                "ru": "(10-14)% повышение шанса критического удара для чар",
+                "jp": "スペルのクリティカルヒット率が(10-14)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellCritMultiplier",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Unmaking",
+            "kr": "- 멸망",
+            "tw": "奪位之",
+            "ru": "краха",
+            "jp": "帰無の"
+          },
+          "effect": {
+            "en": "(12-15)% increased Critical Spell Damage Bonus",
+            "kr": "주문 치명타 피해 보너스 (12-15)% 증가",
+            "tw": "增加(12-15)%法術暴擊傷害加成",
+            "ru": "(12-15)% увеличение бонуса к критическому урону от чар",
+            "jp": "スペルクリティカルダメージボーナスが(12-15)%増加する"
+          },
+          "group": [
+            1448
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_spell_critical_strike_multiplier_+",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% increased Critical Spell Damage Bonus",
+                "kr": "주문 치명타 피해 보너스 (12-15)% 증가",
+                "tw": "增加(12-15)%法術暴擊傷害加成",
+                "ru": "(12-15)% увеличение бонуса к критическому урону от чар",
+                "jp": "スペルクリティカルダメージボーナスが(12-15)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Mysticism",
+            "kr": "- 신비주의",
+            "tw": "秘術之",
+            "ru": "мистики",
+            "jp": "神秘主義の"
+          },
+          "effect": {
+            "en": "(10-12)% increased Spell Damage",
+            "kr": "주문 피해 (10-12)% 증가",
+            "tw": "增加(10-12)%法術傷害",
+            "ru": "(10-12)% увеличение урона от чар",
+            "jp": "スペルダメージが(10-12)%増加する"
+          },
+          "group": [
+            1418
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "10~12",
+              "text": {
+                "en": "(10-12)% increased Spell Damage",
+                "kr": "주문 피해 (10-12)% 증가",
+                "tw": "增加(10-12)%法術傷害",
+                "ru": "(10-12)% увеличение урона от чар",
+                "jp": "スペルダメージが(10-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StaffAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Blunt",
+            "kr": "뭉툭한",
+            "tw": "重擊的",
+            "ru": "Резкий",
+            "jp": "打ち付ける"
+          },
+          "effect": {
+            "en": "(6-8)% increased Attack Speed with Quarterstaves",
+            "kr": "육척봉 사용 시 공격 속도 (6-8)% 증가",
+            "tw": "增加(6-8)%細杖攻擊速度",
+            "ru": "(6-8)% повышение скорости атаки боевыми посохами",
+            "jp": "クォータースタッフのアタックスピードが(6-8)%増加する"
+          },
+          "group": [
+            1420
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "quarterstaff_attack_speed_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Attack Speed with Quarterstaves",
+                "kr": "육척봉 사용 시 공격 속도 (6-8)% 증가",
+                "tw": "增加(6-8)%細杖攻擊速度",
+                "ru": "(6-8)% повышение скорости атаки боевыми посохами",
+                "jp": "クォータースタッフのアタックスピードが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StaffCastSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              5
+            ]
+          ],
+          "name": {
+            "en": "Wright's",
+            "kr": "장인의",
+            "tw": "木匠的",
+            "ru": "Мастерский",
+            "jp": "製造職人の"
+          },
+          "effect": {
+            "en": "(3-5)% increased Cast Speed while wielding a Staff",
+            "kr": "지팡이 장착 시 시전 속도 (3-5)% 증가",
+            "tw": "持長杖時增加(3-5)%施放速度",
+            "ru": "(3-5)% повышение скорости сотворения чар с посохом в руках",
+            "jp": "スタッフ装備中はキャストスピードが(3-5)%増加する"
+          },
+          "group": [
+            1421
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cast_speed_+%_while_holding_staff",
+                  "valueRange": [
+                    3,
+                    5
+                  ]
+                }
+              ],
+              "value": "3~5",
+              "text": {
+                "en": "(3-5)% increased Cast Speed while wielding a Staff",
+                "kr": "지팡이 장착 시 시전 속도 (3-5)% 증가",
+                "tw": "持長杖時增加(3-5)%施放速度",
+                "ru": "(3-5)% повышение скорости сотворения чар с посохом в руках",
+                "jp": "スタッフ装備中はキャストスピードが(3-5)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StaffDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Judging",
+            "kr": "판단하는",
+            "tw": "獨斷的",
+            "ru": "Осуждающий",
+            "jp": "裁く"
+          },
+          "effect": {
+            "en": "(14-16)% increased Damage with Quarterstaves",
+            "kr": "육척봉 사용 시 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%細杖傷害",
+            "ru": "(14-16)% увеличение урона боевыми посохами",
+            "jp": "クォータースタッフによるダメージが(14-16)%増加する"
+          },
+          "group": [
+            1416
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "quarterstaff_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Damage with Quarterstaves",
+                "kr": "육척봉 사용 시 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%細杖傷害",
+                "ru": "(14-16)% увеличение урона боевыми посохами",
+                "jp": "クォータースタッフによるダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StaffSpellDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Wizard's",
+            "kr": "마술사의",
+            "tw": "巫師的",
+            "ru": "Волшебный",
+            "jp": "魔法使いの"
+          },
+          "effect": {
+            "en": "(14-16)% increased Spell Damage while wielding a Staff",
+            "kr": "지팡이 장착 시 주문 피해 (14-16)% 증가",
+            "tw": "持長杖時增加(14-16)%法術傷害",
+            "ru": "(14-16)% увеличение урона чар с посохом в руках",
+            "jp": "スタッフ装備中はスペルダメージが(14-16)%増加する"
+          },
+          "group": [
+            1419
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_staff_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Spell Damage while wielding a Staff",
+                "kr": "지팡이 장착 시 주문 피해 (14-16)% 증가",
+                "tw": "持長杖時增加(14-16)%法術傷害",
+                "ru": "(14-16)% увеличение урона чар с посохом в руках",
+                "jp": "スタッフ装備中はスペルダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StrengthDexterityJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Athletics",
+            "kr": "- 운동 경기",
+            "tw": "運動家之",
+            "ru": "быстроты",
+            "jp": "運動の"
+          },
+          "effect": {
+            "en": "(8-10) to Strength and Dexterity",
+            "kr": "힘 및 민첩 (8-10)",
+            "tw": "(8-10)點力量與敏捷",
+            "ru": "(8-10) к силе и ловкости",
+            "jp": "筋力および器用さ (8-10)"
+          },
+          "group": [
+            1431
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength_and_dexterity",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10) to Strength and Dexterity",
+                "kr": "힘 및 민첩 (8-10)",
+                "tw": "(8-10)點力量與敏捷",
+                "ru": "(8-10) к силе и ловкости",
+                "jp": "筋力および器用さ (8-10)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StrengthIntelligenceJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Spirit",
+            "kr": "- 혼백",
+            "tw": "靈魂之",
+            "ru": "духа",
+            "jp": "魂の"
+          },
+          "effect": {
+            "en": "(8-10) to Strength and Intelligence",
+            "kr": "힘 및 지능 (8-10)",
+            "tw": "(8-10)點力量與智慧",
+            "ru": "(8-10) к силе и интеллекту",
+            "jp": "筋力および知性 (8-10)"
+          },
+          "group": [
+            1432
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength_and_intelligence",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10) to Strength and Intelligence",
+                "kr": "힘 및 지능 (8-10)",
+                "tw": "(8-10)點力量與智慧",
+                "ru": "(8-10) к силе и интеллекту",
+                "jp": "筋力および知性 (8-10)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StrengthJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Strength",
+            "kr": "- 힘",
+            "tw": "力量之",
+            "ru": "силы",
+            "jp": "筋力の"
+          },
+          "effect": {
+            "en": "(12-16) to Strength",
+            "kr": "힘 (12-16)",
+            "tw": "(12-16)點力量",
+            "ru": "(12-16) к силе",
+            "jp": "筋力 (12-16)"
+          },
+          "group": [
+            147
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                }
+              ],
+              "value": "12~16",
+              "text": {
+                "en": "(12-16) to Strength",
+                "kr": "힘 (12-16)",
+                "tw": "(12-16)點力量",
+                "ru": "(12-16) к силе",
+                "jp": "筋力 (12-16)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDurationJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Stunning",
+            "kr": "- 기절",
+            "tw": "擊暈之",
+            "ru": "оглушения",
+            "jp": "気絶の"
+          },
+          "effect": {
+            "en": "(10-14)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (10-14)% 증가",
+            "tw": "增加(10-14)%敵人暈眩時間",
+            "ru": "(10-14)% увеличение длительности оглушения врагов",
+            "jp": "敵に対するスタンの持続時間が(10-14)%増加する"
+          },
+          "group": [
+            46
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (10-14)% 증가",
+                "tw": "增加(10-14)%敵人暈眩時間",
+                "ru": "(10-14)% увеличение длительности оглушения врагов",
+                "jp": "敵に対するスタンの持続時間が(10-14)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunRecoveryJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              25,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Recovery",
+            "kr": "- 회복",
+            "tw": "恢復之",
+            "ru": "восстановления",
+            "jp": "回復の"
+          },
+          "effect": {
+            "en": "(25-35)% increased Stun Recovery",
+            "kr": "기절 회복 (25-35)% 증가",
+            "tw": "增加(25-35)%暈眩恢復",
+            "ru": "(25-35)% повышение скорости восстановления после оглушения",
+            "jp": "スタン復帰が(25-35)%増加する"
+          },
+          "group": [
+            48
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_recovery_+%",
+                  "valueRange": [
+                    25,
+                    35
+                  ]
+                }
+              ],
+              "value": "25~35",
+              "text": {
+                "en": "(25-35)% increased Stun Recovery",
+                "kr": "기절 회복 (25-35)% 증가",
+                "tw": "增加(25-35)%暈眩恢復",
+                "ru": "(25-35)% повышение скорости восстановления после оглушения",
+                "jp": "スタン復帰が(25-35)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "TotemDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Shaman's",
+            "kr": "주술사의",
+            "tw": "巫者的",
+            "ru": "Шаманский",
+            "jp": "シャーマンの"
+          },
+          "effect": {
+            "en": "(12-16)% increased Totem Damage",
+            "kr": "토템 피해 (12-16)% 증가",
+            "tw": "增加(12-16)%圖騰傷害",
+            "ru": "(12-16)% увеличение урона тотемов",
+            "jp": "トーテムダメージが(12-16)%増加する"
+          },
+          "group": [
+            1452
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "totem_damage_+%",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                }
+              ],
+              "value": "12~16",
+              "text": {
+                "en": "(12-16)% increased Totem Damage",
+                "kr": "토템 피해 (12-16)% 증가",
+                "tw": "增加(12-16)%圖騰傷害",
+                "ru": "(12-16)% увеличение урона тотемов",
+                "jp": "トーテムダメージが(12-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "TotemElementalResistancesJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Runes",
+            "kr": "- 룬",
+            "tw": "符文之",
+            "ru": "рун",
+            "jp": "ルーンの"
+          },
+          "effect": {
+            "en": "Totems gain (6-10)% to all Elemental Resistances",
+            "kr": "토템의 모든 원소 저항 (6-10)%",
+            "tw": "圖騰獲得(6-10)%全部元素抗性",
+            "ru": "Тотемы получают (6-10)% к сопротивлению всем стихиям",
+            "jp": "トーテムは全ての元素耐性が(6-10)%される"
+          },
+          "group": [
+            1453
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "totem_elemental_resistance_%",
+                  "valueRange": [
+                    6,
+                    10
+                  ]
+                }
+              ],
+              "value": "6~10",
+              "text": {
+                "en": "Totems gain (6-10)% to all Elemental Resistances",
+                "kr": "토템의 모든 원소 저항 (6-10)%",
+                "tw": "圖騰獲得(6-10)%全部元素抗性",
+                "ru": "Тотемы получают (6-10)% к сопротивлению всем стихиям",
+                "jp": "トーテムは全ての元素耐性が(6-10)%される"
+              }
+            }
+          ]
+        },
+        {
+          "id": "TotemLifeJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": "Carved",
+            "kr": "조각된",
+            "tw": "遺產的",
+            "ru": "Резной",
+            "jp": "刻まれた"
+          },
+          "effect": {
+            "en": "(8-12)% increased Totem Life",
+            "kr": "토템 생명력 (8-12)% 증가",
+            "tw": "增加(8-12)%圖騰生命",
+            "ru": "(8-12)% увеличение здоровья тотема",
+            "jp": "トーテムのライフが(8-12)%増加する"
+          },
+          "group": [
+            592
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "totem_life_+%",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "(8-12)% increased Totem Life",
+                "kr": "토템 생명력 (8-12)% 증가",
+                "tw": "增加(8-12)%圖騰生命",
+                "ru": "(8-12)% увеличение здоровья тотема",
+                "jp": "トーテムのライフが(8-12)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WandAttackSpeedJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Jinxing",
+            "kr": "불운한",
+            "tw": "降咒的",
+            "ru": "Проклинающий",
+            "jp": "まじないの"
+          },
+          "effect": {
+            "en": "(6-8)% increased Attack Speed with Wands",
+            "kr": "마법봉 사용 시 공격 속도 (6-8)% 증가",
+            "tw": "法杖增加(6-8)%攻擊速度",
+            "ru": "(6-8)% повышение скорости атаки жезлами",
+            "jp": "ワンドのアタックスピードが(6-8)%増加する"
+          },
+          "group": [
+            1420
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "wand_attack_speed_+%",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Attack Speed with Wands",
+                "kr": "마법봉 사용 시 공격 속도 (6-8)% 증가",
+                "tw": "法杖增加(6-8)%攻擊速度",
+                "ru": "(6-8)% повышение скорости атаки жезлами",
+                "jp": "ワンドのアタックスピードが(6-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WandDamageJewel",
+          "affixType": "unique",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Cruel",
+            "kr": "잔혹한",
+            "tw": "殘酷的",
+            "ru": "Безжалостный",
+            "jp": "残酷な"
+          },
+          "effect": {
+            "en": "(14-16)% increased Damage with Wands",
+            "kr": "마법봉 피해 (14-16)% 증가",
+            "tw": "增加(14-16)%法杖傷害",
+            "ru": "(14-16)% увеличение урона жезлами",
+            "jp": "ワンドによるダメージが(14-16)%増加する"
+          },
+          "group": [
+            1416
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "wand_damage_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Damage with Wands",
+                "kr": "마법봉 피해 (14-16)% 증가",
+                "tw": "增加(14-16)%法杖傷害",
+                "ru": "(14-16)% увеличение урона жезлами",
+                "jp": "ワンドによるダメージが(14-16)%増加する"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": []
+    }
+  }
+}

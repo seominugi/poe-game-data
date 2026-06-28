@@ -1,0 +1,752 @@
+[
+  {
+    "id": "ethereal-blade",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Ethereal Blade",
+      "kr": "천상의 칼날",
+      "tw": "虛空刀刃",
+      "ru": "Бесплотный клинок",
+      "jp": "イシリアルブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 10,
+      "critChance": 6,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "glass-shank",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Glass Shank",
+      "kr": "유리 단도",
+      "tw": "玻璃利片",
+      "ru": "Осколок стекла",
+      "jp": "ガラスの短剣"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 3,
+      "damageMax": 10,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crone-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Crone Knife",
+      "kr": "노파 단도",
+      "tw": "巫婆小刀",
+      "ru": "Старый нож",
+      "jp": "老婆のナイフ"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 15,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DaggerImplicitManaLeechLocal1",
+        "lines": [
+          {
+            "stat": "local_mana_leech_from_physical_damage_permyriad",
+            "value": "400",
+            "text": {
+              "en": "Leeches 400% of Physical Damage as Mana",
+              "kr": "물리 공격 피해의 400%를 마나로 흡수",
+              "tw": "以400%物理傷害偷取魔力",
+              "ru": "400% физического урона от атак похищается в виде маны",
+              "jp": "物理ダメージの400%をマナとしてリーチする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "simple-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Simple Dagger",
+      "kr": "단순한 단검",
+      "tw": "簡易匕首",
+      "ru": "Простой кинжал",
+      "jp": "簡素な短剣"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 19,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "skinning-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Skinning Knife",
+      "kr": "무두질용 단도",
+      "tw": "剝皮刀",
+      "ru": "Нож скорняка",
+      "jp": "剥ぎ取りナイフ"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 22,
+      "critChance": 13.5,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "moon-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Moon Dagger",
+      "kr": "달의 단검",
+      "tw": "月之匕首",
+      "ru": "Лунный кинжал",
+      "jp": "月の短剣"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 26,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DaggerImplicitColdDamage1",
+        "lines": [
+          {
+            "stat": "local_weapon_implicit_hidden_%_base_damage_is_cold",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "engraved-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Engraved Knife",
+      "kr": "아로새긴 단도",
+      "tw": "紋刻小刀",
+      "ru": "Нож с гравировкой",
+      "jp": "彫刻のナイフ"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 34,
+      "critChance": 13.5,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "obsidian-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Obsidian Dagger",
+      "kr": "흑요석 단검",
+      "tw": "黑曜石匕首",
+      "ru": "Обсидиановый кинжал",
+      "jp": "黒曜石の短剣"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 39,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bloodletting-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Bloodletting Dagger",
+      "kr": "출혈 과다 단검",
+      "tw": "出血匕首",
+      "ru": "Кинжал кровопускателя",
+      "jp": "瀉血の短剣"
+    },
+    "dropLevel": 39,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 42,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DaggerImplicitSpellLifeCostPercent1",
+        "lines": [
+          {
+            "stat": "spells_cost_life_instead_of_mana_%",
+            "value": "25",
+            "text": {
+              "en": "25% of Spell Mana Cost Converted to Life Cost",
+              "kr": "주문의 마나 소모의 25%가 생명력 소모로 전환",
+              "tw": "25%法術魔力消耗轉換為生命消耗",
+              "ru": "25% стоимости чар в мане берется из здоровья",
+              "jp": "スペルのマナコストの25%がライフコストに変換される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mail-breaker",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Mail Breaker",
+      "kr": "사슬옷 분쇄기",
+      "tw": "鎖甲破壞者",
+      "ru": "Пробиватель доспеха",
+      "jp": "メイルブレイカー"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 44,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DaggerImplicitBreakArmour1",
+        "lines": [
+          {
+            "stat": "local_apply_X_armour_break_on_crit",
+            "value": "400~500",
+            "text": {
+              "en": "Breaks 400~500 Armour on Critical Hit",
+              "kr": "치명타 명중 시 방어구 400~500 파괴",
+              "tw": "暴擊時破壞400~500點護甲值",
+              "ru": "Разрушает 400~500 брони при критическом ударе",
+              "jp": "クリティカルヒット時に400~500のアーマーを破壊する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "kris-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Kris Knife",
+      "kr": "크리스 단도",
+      "tw": "波刃刀",
+      "ru": "Нож крис",
+      "jp": "クリスナイフ"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 48,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "parrying-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Parrying Dagger",
+      "kr": "흘려보내는 단검",
+      "tw": "格擋匕首",
+      "ru": "Дага",
+      "jp": "受け流しの短剣"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 55,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "arcane-dirk",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Arcane Dirk",
+      "kr": "비전 날붙이",
+      "tw": "奧術短刀",
+      "ru": "Колдовской кортик",
+      "jp": "アーケインディルク"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 52,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cinquedea",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Cinquedea",
+      "kr": "친퀘디아",
+      "tw": "五指短劍",
+      "ru": "Чинкуэда",
+      "jp": "チンクエディア"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 62,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-crystalline-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Crystalline Dagger",
+      "kr": "[DNT] Crystalline Dagger",
+      "tw": "[DNT] Crystalline Dagger",
+      "ru": "[DNT] Crystalline Dagger",
+      "jp": "[DNT] Crystalline Dagger"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 63,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-hag-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Hag Knife",
+      "kr": "[DNT] Hag Knife",
+      "tw": "[DNT] Hag Knife",
+      "ru": "[DNT] Hag Knife",
+      "jp": "[DNT] Hag Knife"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 66,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-prominent-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Prominent Dagger",
+      "kr": "[DNT] Prominent Dagger",
+      "tw": "[DNT] Prominent Dagger",
+      "ru": "[DNT] Prominent Dagger",
+      "jp": "[DNT] Prominent Dagger"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 69,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-carving-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Carving Knife",
+      "kr": "[DNT] Carving Knife",
+      "tw": "[DNT] Carving Knife",
+      "ru": "[DNT] Carving Knife",
+      "jp": "[DNT] Carving Knife"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 69,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-crescent-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Crescent Dagger",
+      "kr": "[DNT] Crescent Dagger",
+      "tw": "[DNT] Crescent Dagger",
+      "ru": "[DNT] Crescent Dagger",
+      "jp": "[DNT] Crescent Dagger"
+    },
+    "dropLevel": 79,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 69,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-intricade-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Intricade Knife",
+      "kr": "[DNT] Intricade Knife",
+      "tw": "[DNT] Intricade Knife",
+      "ru": "[DNT] Intricade Knife",
+      "jp": "[DNT] Intricade Knife"
+    },
+    "dropLevel": 77,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 69,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-midnight-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Midnight Dagger",
+      "kr": "[DNT] Midnight Dagger",
+      "tw": "[DNT] Midnight Dagger",
+      "ru": "[DNT] Midnight Dagger",
+      "jp": "[DNT] Midnight Dagger"
+    },
+    "dropLevel": 75,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 68,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dnt-ritualistic-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "[DNT] Ritualistic Dagger",
+      "kr": "[DNT] Ritualistic Dagger",
+      "tw": "[DNT] Ritualistic Dagger",
+      "ru": "[DNT] Ritualistic Dagger",
+      "jp": "[DNT] Ritualistic Dagger"
+    },
+    "dropLevel": 78,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 69,
+      "critChance": 15,
+      "reloadTime": 0,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]
