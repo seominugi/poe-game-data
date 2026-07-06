@@ -23,9 +23,10 @@ export interface GameIndex {
   imageStrategy: 'none' | 'cdn' | 'bundled';
   generated: string;
   groups: Record<string, Record<string, ClassEntry>>;
-  skills: FlatEntry;
-  uniques: FlatEntry;
-  modifiers: Record<string, ModifierEntry>;
+  // Optional — a game may ship base items only for now (e.g. poe1 currently omits these).
+  skills?: FlatEntry;
+  uniques?: FlatEntry;
+  modifiers?: Record<string, ModifierEntry>;
 }
 
 export interface BaseItem {
