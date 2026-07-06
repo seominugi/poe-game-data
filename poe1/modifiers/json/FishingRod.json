@@ -1,0 +1,5439 @@
+{
+  "itemClass": "FishingRod",
+  "className": {
+    "en": "Fishing Rods",
+    "kr": "낚싯대"
+  },
+  "domain": 1,
+  "classTags": [
+    "default",
+    "fishing_rod",
+    "two_hand_weapon",
+    "weapon"
+  ],
+  "counts": {
+    "prefix": 37,
+    "suffix": 70,
+    "total": 107
+  },
+  "bucketCounts": {
+    "normal": {
+      "prefix": 37,
+      "suffix": 70,
+      "total": 107
+    },
+    "corrupted": {
+      "prefix": 16,
+      "suffix": 0,
+      "total": 16
+    }
+  },
+  "buckets": {
+    "normal": {
+      "prefix": [
+        {
+          "id": "FishingLineStrength",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              20,
+              40
+            ]
+          ],
+          "name": {
+            "en": "Filigree",
+            "kr": "선조 세공"
+          },
+          "effect": {
+            "en": "(20-40)% increased Fishing Line Strength",
+            "kr": "낚싯줄 강도 (20-40)% 증가"
+          },
+          "group": [
+            697
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fishing_line_strength_+%",
+                  "valueRange": [
+                    20,
+                    40
+                  ]
+                }
+              ],
+              "value": "20~40",
+              "text": {
+                "en": "(20-40)% increased Fishing Line Strength",
+                "kr": "낚싯줄 강도 (20-40)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FishingLureType",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Alluring",
+            "kr": "유혹하는"
+          },
+          "effect": {
+            "en": "Rhoa Feather Lure",
+            "kr": "로아 깃털 루어"
+          },
+          "group": [
+            701
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fishing_lure_type",
+                  "valueRange": [
+                    1,
+                    3
+                  ]
+                }
+              ],
+              "value": "1~3",
+              "text": {
+                "en": "Rhoa Feather Lure",
+                "kr": "로아 깃털 루어"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FishingPoolConsumption",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -30,
+              -15
+            ]
+          ],
+          "name": {
+            "en": "Calming",
+            "kr": "진정시키는"
+          },
+          "effect": {
+            "en": "(-30--15)% reduced Fishing Pool Consumption",
+            "kr": "어장 소비 (-30--15)% 감소"
+          },
+          "group": [
+            700
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fishing_pool_consumption_+%",
+                  "valueRange": [
+                    -30,
+                    -15
+                  ]
+                }
+              ],
+              "value": "-30~-15",
+              "text": {
+                "en": "(-30--15)% reduced Fishing Pool Consumption",
+                "kr": "어장 소비 (-30--15)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              40,
+              49
+            ]
+          ],
+          "name": {
+            "en": "Heavy",
+            "kr": "무거운"
+          },
+          "effect": {
+            "en": "(40-49)% increased Physical Damage",
+            "kr": "물리 피해 (40-49)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    40,
+                    49
+                  ]
+                }
+              ],
+              "value": "40~49",
+              "text": {
+                "en": "(40-49)% increased Physical Damage",
+                "kr": "물리 피해 (40-49)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              15,
+              19
+            ],
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Squire's",
+            "kr": "종자의"
+          },
+          "effect": {
+            "en": "(15-19)% increased Physical Damage\n(16-20) to Accuracy Rating",
+            "kr": "물리 피해 (15-19)% 증가\n정확도 (16-20)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    15,
+                    19
+                  ]
+                }
+              ],
+              "value": "15~19",
+              "text": {
+                "en": "(15-19)% increased Physical Damage",
+                "kr": "물리 피해 (15-19)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20) to Accuracy Rating",
+                "kr": "정확도 (16-20)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand1",
+          "affixType": "prefix",
+          "tier": 2,
+          "valueRanges": [
+            [
+              2,
+              2
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "name": {
+            "en": "Glinting",
+            "kr": "미광의"
+          },
+          "effect": {
+            "en": "Adds 2 to (4-5) Physical Damage",
+            "kr": "물리 피해 2~(4-5) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    4,
+                    5
+                  ]
+                }
+              ],
+              "value": "2, 4~5",
+              "text": {
+                "en": "Adds 2 to (4-5) Physical Damage",
+                "kr": "물리 피해 2~(4-5) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WeaponElementalDamageOnTwohandWeapon1",
+          "affixType": "prefix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              19,
+              34
+            ]
+          ],
+          "name": {
+            "en": "Catalysing",
+            "kr": "촉진시키는"
+          },
+          "effect": {
+            "en": "(19-34)% increased Elemental Damage with Attack Skills",
+            "kr": "공격 스킬의 원소 피해 (19-34)% 증가"
+          },
+          "group": [
+            85
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_damage_with_attack_skills_+%",
+                  "valueRange": [
+                    19,
+                    34
+                  ]
+                }
+              ],
+              "value": "19~34",
+              "text": {
+                "en": "(19-34)% increased Elemental Damage with Attack Skills",
+                "kr": "공격 스킬의 원소 피해 (19-34)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreaseSocketedMeleeGemLevel1",
+          "affixType": "prefix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Combatant's",
+            "kr": "전투원의"
+          },
+          "effect": {
+            "en": "1 to Level of Socketed Melee Gems",
+            "kr": "장착된 근접 젬 레벨 1"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_melee_gem_level_+",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1 to Level of Socketed Melee Gems",
+                "kr": "장착된 근접 젬 레벨 1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent2",
+          "affixType": "prefix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              50,
+              64
+            ]
+          ],
+          "name": {
+            "en": "Serrated",
+            "kr": "톱니의"
+          },
+          "effect": {
+            "en": "(50-64)% increased Physical Damage",
+            "kr": "물리 피해 (50-64)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    50,
+                    64
+                  ]
+                }
+              ],
+              "value": "50~64",
+              "text": {
+                "en": "(50-64)% increased Physical Damage",
+                "kr": "물리 피해 (50-64)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating2",
+          "affixType": "prefix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              20,
+              24
+            ],
+            [
+              21,
+              46
+            ]
+          ],
+          "name": {
+            "en": "Journeyman's",
+            "kr": "숙련공의"
+          },
+          "effect": {
+            "en": "(20-24)% increased Physical Damage\n(21-46) to Accuracy Rating",
+            "kr": "물리 피해 (20-24)% 증가\n정확도 (21-46)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    20,
+                    24
+                  ]
+                }
+              ],
+              "value": "20~24",
+              "text": {
+                "en": "(20-24)% increased Physical Damage",
+                "kr": "물리 피해 (20-24)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    21,
+                    46
+                  ]
+                }
+              ],
+              "value": "21~46",
+              "text": {
+                "en": "(21-46) to Accuracy Rating",
+                "kr": "정확도 (21-46)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand2",
+          "affixType": "prefix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              6,
+              8
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Burnished",
+            "kr": "윤이 나는"
+          },
+          "effect": {
+            "en": "Adds (6-8) to (12-15) Physical Damage",
+            "kr": "물리 피해 (6-8)~(12-15) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "6~8, 12~15",
+              "text": {
+                "en": "Adds (6-8) to (12-15) Physical Damage",
+                "kr": "물리 피해 (6-8)~(12-15) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WeaponElementalDamageOnTwohandWeapon2____",
+          "affixType": "prefix",
+          "tier": 15,
+          "valueRanges": [
+            [
+              36,
+              51
+            ]
+          ],
+          "name": {
+            "en": "Infusing",
+            "kr": "주입하는"
+          },
+          "effect": {
+            "en": "(36-51)% increased Elemental Damage with Attack Skills",
+            "kr": "공격 스킬의 원소 피해 (36-51)% 증가"
+          },
+          "group": [
+            85
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_damage_with_attack_skills_+%",
+                  "valueRange": [
+                    36,
+                    51
+                  ]
+                }
+              ],
+              "value": "36~51",
+              "text": {
+                "en": "(36-51)% increased Elemental Damage with Attack Skills",
+                "kr": "공격 스킬의 원소 피해 (36-51)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand3",
+          "affixType": "prefix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              10,
+              13
+            ],
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Polished",
+            "kr": "광택 나는"
+          },
+          "effect": {
+            "en": "Adds (10-13) to (21-25) Physical Damage",
+            "kr": "물리 피해 (10-13)~(21-25) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    10,
+                    13
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "10~13, 21~25",
+              "text": {
+                "en": "Adds (10-13) to (21-25) Physical Damage",
+                "kr": "물리 피해 (10-13)~(21-25) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent3",
+          "affixType": "prefix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              65,
+              84
+            ]
+          ],
+          "name": {
+            "en": "Wicked",
+            "kr": "사악한"
+          },
+          "effect": {
+            "en": "(65-84)% increased Physical Damage",
+            "kr": "물리 피해 (65-84)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    65,
+                    84
+                  ]
+                }
+              ],
+              "value": "65~84",
+              "text": {
+                "en": "(65-84)% increased Physical Damage",
+                "kr": "물리 피해 (65-84)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating3",
+          "affixType": "prefix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              25,
+              34
+            ],
+            [
+              47,
+              72
+            ]
+          ],
+          "name": {
+            "en": "Reaver's",
+            "kr": "강탈자의"
+          },
+          "effect": {
+            "en": "(25-34)% increased Physical Damage\n(47-72) to Accuracy Rating",
+            "kr": "물리 피해 (25-34)% 증가\n정확도 (47-72)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    25,
+                    34
+                  ]
+                }
+              ],
+              "value": "25~34",
+              "text": {
+                "en": "(25-34)% increased Physical Damage",
+                "kr": "물리 피해 (25-34)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    47,
+                    72
+                  ]
+                }
+              ],
+              "value": "47~72",
+              "text": {
+                "en": "(47-72) to Accuracy Rating",
+                "kr": "정확도 (47-72)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand4",
+          "affixType": "prefix",
+          "tier": 29,
+          "valueRanges": [
+            [
+              13,
+              17
+            ],
+            [
+              28,
+              32
+            ]
+          ],
+          "name": {
+            "en": "Honed",
+            "kr": "연마한"
+          },
+          "effect": {
+            "en": "Adds (13-17) to (28-32) Physical Damage",
+            "kr": "물리 피해 (13-17)~(28-32) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    28,
+                    32
+                  ]
+                }
+              ],
+              "value": "13~17, 28~32",
+              "text": {
+                "en": "Adds (13-17) to (28-32) Physical Damage",
+                "kr": "물리 피해 (13-17)~(28-32) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WeaponElementalDamageOnTwohandWeapon3",
+          "affixType": "prefix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              53,
+              61
+            ]
+          ],
+          "name": {
+            "en": "Empowering",
+            "kr": "강화하는"
+          },
+          "effect": {
+            "en": "(53-61)% increased Elemental Damage with Attack Skills",
+            "kr": "공격 스킬의 원소 피해 (53-61)% 증가"
+          },
+          "group": [
+            85
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_damage_with_attack_skills_+%",
+                  "valueRange": [
+                    53,
+                    61
+                  ]
+                }
+              ],
+              "value": "53~61",
+              "text": {
+                "en": "(53-61)% increased Elemental Damage with Attack Skills",
+                "kr": "공격 스킬의 원소 피해 (53-61)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent4",
+          "affixType": "prefix",
+          "tier": 35,
+          "valueRanges": [
+            [
+              85,
+              109
+            ]
+          ],
+          "name": {
+            "en": "Vicious",
+            "kr": "포악한"
+          },
+          "effect": {
+            "en": "(85-109)% increased Physical Damage",
+            "kr": "물리 피해 (85-109)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 400,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    85,
+                    109
+                  ]
+                }
+              ],
+              "value": "85~109",
+              "text": {
+                "en": "(85-109)% increased Physical Damage",
+                "kr": "물리 피해 (85-109)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating4",
+          "affixType": "prefix",
+          "tier": 35,
+          "valueRanges": [
+            [
+              35,
+              44
+            ],
+            [
+              73,
+              97
+            ]
+          ],
+          "name": {
+            "en": "Mercenary's",
+            "kr": "용병의"
+          },
+          "effect": {
+            "en": "(35-44)% increased Physical Damage\n(73-97) to Accuracy Rating",
+            "kr": "물리 피해 (35-44)% 증가\n정확도 (73-97)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 400,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    35,
+                    44
+                  ]
+                }
+              ],
+              "value": "35~44",
+              "text": {
+                "en": "(35-44)% increased Physical Damage",
+                "kr": "물리 피해 (35-44)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    73,
+                    97
+                  ]
+                }
+              ],
+              "value": "73~97",
+              "text": {
+                "en": "(73-97) to Accuracy Rating",
+                "kr": "정확도 (73-97)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand5",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              16,
+              22
+            ],
+            [
+              35,
+              40
+            ]
+          ],
+          "name": {
+            "en": "Gleaming",
+            "kr": "번뜩이는"
+          },
+          "effect": {
+            "en": "Adds (16-22) to (35-40) Physical Damage",
+            "kr": "물리 피해 (16-22)~(35-40) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    16,
+                    22
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    35,
+                    40
+                  ]
+                }
+              ],
+              "value": "16~22, 35~40",
+              "text": {
+                "en": "Adds (16-22) to (35-40) Physical Damage",
+                "kr": "물리 피해 (16-22)~(35-40) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand6",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              20,
+              28
+            ],
+            [
+              43,
+              51
+            ]
+          ],
+          "name": {
+            "en": "Annealed",
+            "kr": "담금질한"
+          },
+          "effect": {
+            "en": "Adds (20-28) to (43-51) Physical Damage",
+            "kr": "물리 피해 (20-28)~(43-51) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 800,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    20,
+                    28
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    43,
+                    51
+                  ]
+                }
+              ],
+              "value": "20~28, 43~51",
+              "text": {
+                "en": "Adds (20-28) to (43-51) Physical Damage",
+                "kr": "물리 피해 (20-28)~(43-51) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent5",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              110,
+              134
+            ]
+          ],
+          "name": {
+            "en": "Bloodthirsty",
+            "kr": "피에 목마른"
+          },
+          "effect": {
+            "en": "(110-134)% increased Physical Damage",
+            "kr": "물리 피해 (110-134)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 200,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    110,
+                    134
+                  ]
+                }
+              ],
+              "value": "110~134",
+              "text": {
+                "en": "(110-134)% increased Physical Damage",
+                "kr": "물리 피해 (110-134)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating5",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              45,
+              54
+            ],
+            [
+              98,
+              123
+            ]
+          ],
+          "name": {
+            "en": "Champion's",
+            "kr": "용사의"
+          },
+          "effect": {
+            "en": "(45-54)% increased Physical Damage\n(98-123) to Accuracy Rating",
+            "kr": "물리 피해 (45-54)% 증가\n정확도 (98-123)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 200,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    45,
+                    54
+                  ]
+                }
+              ],
+              "value": "45~54",
+              "text": {
+                "en": "(45-54)% increased Physical Damage",
+                "kr": "물리 피해 (45-54)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    98,
+                    123
+                  ]
+                }
+              ],
+              "value": "98~123",
+              "text": {
+                "en": "(98-123) to Accuracy Rating",
+                "kr": "정확도 (98-123)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreaseSocketedGemLevel1",
+          "affixType": "prefix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Paragon's",
+            "kr": "모범의"
+          },
+          "effect": {
+            "en": "1 to Level of Socketed Gems",
+            "kr": "장착된 젬 레벨 1"
+          },
+          "group": [
+            115
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_gem_level_+",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1 to Level of Socketed Gems",
+                "kr": "장착된 젬 레벨 1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand7",
+          "affixType": "prefix",
+          "tier": 54,
+          "valueRanges": [
+            [
+              25,
+              33
+            ],
+            [
+              52,
+              61
+            ]
+          ],
+          "name": {
+            "en": "Razor-sharp",
+            "kr": "날이 선"
+          },
+          "effect": {
+            "en": "Adds (25-33) to (52-61) Physical Damage",
+            "kr": "물리 피해 (25-33)~(52-61) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    25,
+                    33
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    52,
+                    61
+                  ]
+                }
+              ],
+              "value": "25~33, 52~61",
+              "text": {
+                "en": "Adds (25-33) to (52-61) Physical Damage",
+                "kr": "물리 피해 (25-33)~(52-61) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent6",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              135,
+              154
+            ]
+          ],
+          "name": {
+            "en": "Cruel",
+            "kr": "잔혹한"
+          },
+          "effect": {
+            "en": "(135-154)% increased Physical Damage",
+            "kr": "물리 피해 (135-154)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 100,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    135,
+                    154
+                  ]
+                }
+              ],
+              "value": "135~154",
+              "text": {
+                "en": "(135-154)% increased Physical Damage",
+                "kr": "물리 피해 (135-154)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating6",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              55,
+              64
+            ],
+            [
+              124,
+              149
+            ]
+          ],
+          "name": {
+            "en": "Conqueror's",
+            "kr": "정복자의"
+          },
+          "effect": {
+            "en": "(55-64)% increased Physical Damage\n(124-149) to Accuracy Rating",
+            "kr": "물리 피해 (55-64)% 증가\n정확도 (124-149)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 100,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    55,
+                    64
+                  ]
+                }
+              ],
+              "value": "55~64",
+              "text": {
+                "en": "(55-64)% increased Physical Damage",
+                "kr": "물리 피해 (55-64)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    124,
+                    149
+                  ]
+                }
+              ],
+              "value": "124~149",
+              "text": {
+                "en": "(124-149) to Accuracy Rating",
+                "kr": "정확도 (124-149)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WeaponElementalDamageOnTwohandWeapon4",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              63,
+              71
+            ]
+          ],
+          "name": {
+            "en": "Unleashed",
+            "kr": "방출된"
+          },
+          "effect": {
+            "en": "(63-71)% increased Elemental Damage with Attack Skills",
+            "kr": "공격 스킬의 원소 피해 (63-71)% 증가"
+          },
+          "group": [
+            85
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_damage_with_attack_skills_+%",
+                  "valueRange": [
+                    63,
+                    71
+                  ]
+                }
+              ],
+              "value": "63~71",
+              "text": {
+                "en": "(63-71)% increased Elemental Damage with Attack Skills",
+                "kr": "공격 스킬의 원소 피해 (63-71)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreaseSocketedMeleeGemLevel",
+          "affixType": "prefix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              2,
+              2
+            ]
+          ],
+          "name": {
+            "en": "Weaponmaster's",
+            "kr": "무기의 대가의"
+          },
+          "effect": {
+            "en": "2 to Level of Socketed Melee Gems",
+            "kr": "장착된 근접 젬 레벨 2"
+          },
+          "group": [
+            116
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_melee_gem_level_+",
+                  "valueRange": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "value": "2",
+              "text": {
+                "en": "2 to Level of Socketed Melee Gems",
+                "kr": "장착된 근접 젬 레벨 2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand8",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              30,
+              40
+            ],
+            [
+              63,
+              73
+            ]
+          ],
+          "name": {
+            "en": "Tempered",
+            "kr": "단조한"
+          },
+          "effect": {
+            "en": "Adds (30-40) to (63-73) Physical Damage",
+            "kr": "물리 피해 (30-40)~(63-73) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 400,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    30,
+                    40
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    63,
+                    73
+                  ]
+                }
+              ],
+              "value": "30~40, 63~73",
+              "text": {
+                "en": "Adds (30-40) to (63-73) Physical Damage",
+                "kr": "물리 피해 (30-40)~(63-73) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent7",
+          "affixType": "prefix",
+          "tier": 73,
+          "valueRanges": [
+            [
+              155,
+              169
+            ]
+          ],
+          "name": {
+            "en": "Tyrannical",
+            "kr": "압제적인"
+          },
+          "effect": {
+            "en": "(155-169)% increased Physical Damage",
+            "kr": "물리 피해 (155-169)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 50,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    155,
+                    169
+                  ]
+                }
+              ],
+              "value": "155~169",
+              "text": {
+                "en": "(155-169)% increased Physical Damage",
+                "kr": "물리 피해 (155-169)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating7",
+          "affixType": "prefix",
+          "tier": 73,
+          "valueRanges": [
+            [
+              65,
+              74
+            ],
+            [
+              150,
+              174
+            ]
+          ],
+          "name": {
+            "en": "Emperor's",
+            "kr": "황제의"
+          },
+          "effect": {
+            "en": "(65-74)% increased Physical Damage\n(150-174) to Accuracy Rating",
+            "kr": "물리 피해 (65-74)% 증가\n정확도 (150-174)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 50,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    65,
+                    74
+                  ]
+                }
+              ],
+              "value": "65~74",
+              "text": {
+                "en": "(65-74)% increased Physical Damage",
+                "kr": "물리 피해 (65-74)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    150,
+                    174
+                  ]
+                }
+              ],
+              "value": "150~174",
+              "text": {
+                "en": "(150-174) to Accuracy Rating",
+                "kr": "정확도 (150-174)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHand9",
+          "affixType": "prefix",
+          "tier": 77,
+          "valueRanges": [
+            [
+              34,
+              47
+            ],
+            [
+              72,
+              84
+            ]
+          ],
+          "name": {
+            "en": "Flaring",
+            "kr": "빛을 뿜는"
+          },
+          "effect": {
+            "en": "Adds (34-47) to (72-84) Physical Damage",
+            "kr": "물리 피해 (34-47)~(72-84) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 200,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    34,
+                    47
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    72,
+                    84
+                  ]
+                }
+              ],
+              "value": "34~47, 72~84",
+              "text": {
+                "en": "Adds (34-47) to (72-84) Physical Damage",
+                "kr": "물리 피해 (34-47)~(72-84) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WeaponElementalDamageOnTwohandWeapon5",
+          "affixType": "prefix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              73,
+              85
+            ]
+          ],
+          "name": {
+            "en": "Overpowering",
+            "kr": "압도하는"
+          },
+          "effect": {
+            "en": "(73-85)% increased Elemental Damage with Attack Skills",
+            "kr": "공격 스킬의 원소 피해 (73-85)% 증가"
+          },
+          "group": [
+            85
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_damage_with_attack_skills_+%",
+                  "valueRange": [
+                    73,
+                    85
+                  ]
+                }
+              ],
+              "value": "73~85",
+              "text": {
+                "en": "(73-85)% increased Elemental Damage with Attack Skills",
+                "kr": "공격 스킬의 원소 피해 (73-85)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercent8",
+          "affixType": "prefix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              170,
+              179
+            ]
+          ],
+          "name": {
+            "en": "Merciless",
+            "kr": "무자비한"
+          },
+          "effect": {
+            "en": "(170-179)% increased Physical Damage",
+            "kr": "물리 피해 (170-179)% 증가"
+          },
+          "group": [
+            69
+          ],
+          "weight": 25,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    170,
+                    179
+                  ]
+                }
+              ],
+              "value": "170~179",
+              "text": {
+                "en": "(170-179)% increased Physical Damage",
+                "kr": "물리 피해 (170-179)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating8",
+          "affixType": "prefix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              75,
+              79
+            ],
+            [
+              175,
+              200
+            ]
+          ],
+          "name": {
+            "en": "Dictator's",
+            "kr": "독재자의"
+          },
+          "effect": {
+            "en": "(75-79)% increased Physical Damage\n(175-200) to Accuracy Rating",
+            "kr": "물리 피해 (75-79)% 증가\n정확도 (175-200)"
+          },
+          "group": [
+            9
+          ],
+          "weight": 25,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_+%",
+                  "valueRange": [
+                    75,
+                    79
+                  ]
+                }
+              ],
+              "value": "75~79",
+              "text": {
+                "en": "(75-79)% increased Physical Damage",
+                "kr": "물리 피해 (75-79)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    175,
+                    200
+                  ]
+                }
+              ],
+              "value": "175~200",
+              "text": {
+                "en": "(175-200) to Accuracy Rating",
+                "kr": "정확도 (175-200)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "WeaponElementalDamageOnTwohandWeapon6",
+          "affixType": "prefix",
+          "tier": 86,
+          "valueRanges": [
+            [
+              87,
+              100
+            ]
+          ],
+          "name": {
+            "en": "Devastating",
+            "kr": "파괴적인"
+          },
+          "effect": {
+            "en": "(87-100)% increased Elemental Damage with Attack Skills",
+            "kr": "공격 스킬의 원소 피해 (87-100)% 증가"
+          },
+          "group": [
+            85
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_damage_with_attack_skills_+%",
+                  "valueRange": [
+                    87,
+                    100
+                  ]
+                }
+              ],
+              "value": "87~100",
+              "text": {
+                "en": "(87-100)% increased Elemental Damage with Attack Skills",
+                "kr": "공격 스킬의 원소 피해 (87-100)% 증가"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "FishingCastDistance",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              30,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Flight",
+            "kr": "- 비행"
+          },
+          "effect": {
+            "en": "(30-50)% increased Fishing Range",
+            "kr": "낚시 거리 (30-50)% 증가"
+          },
+          "group": [
+            696
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fishing_range_+%",
+                  "valueRange": [
+                    30,
+                    50
+                  ]
+                }
+              ],
+              "value": "30~50",
+              "text": {
+                "en": "(30-50)% increased Fishing Range",
+                "kr": "낚시 거리 (30-50)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FishingHookType",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              4
+            ]
+          ],
+          "name": {
+            "en": "of Snaring",
+            "kr": "- 올가미"
+          },
+          "effect": {
+            "en": "Karui Stone Hook",
+            "kr": "카루이 돌 낚싯바늘"
+          },
+          "group": [
+            702
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fishing_hook_type",
+                  "valueRange": [
+                    1,
+                    4
+                  ]
+                }
+              ],
+              "value": "1~4",
+              "text": {
+                "en": "Karui Stone Hook",
+                "kr": "카루이 돌 낚싯바늘"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FishingQuantity",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              15,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Fascination",
+            "kr": "- 매혹"
+          },
+          "effect": {
+            "en": "(15-20)% increased Quantity of Fish Caught",
+            "kr": "포획하는 물고기 수 (15-20)% 증가"
+          },
+          "group": [
+            698
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fish_quantity_+%",
+                  "valueRange": [
+                    15,
+                    20
+                  ]
+                }
+              ],
+              "value": "15~20",
+              "text": {
+                "en": "(15-20)% increased Quantity of Fish Caught",
+                "kr": "포획하는 물고기 수 (15-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FishingRarity",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              25,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Bounty",
+            "kr": "- 하사품"
+          },
+          "effect": {
+            "en": "(25-40)% increased Rarity of Fish Caught",
+            "kr": "포획하는 물고기 희귀도 (25-40)% 증가"
+          },
+          "group": [
+            699
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fish_rarity_+%",
+                  "valueRange": [
+                    25,
+                    40
+                  ]
+                }
+              ],
+              "value": "25~40",
+              "text": {
+                "en": "(25-40)% increased Rarity of Fish Caught",
+                "kr": "포획하는 물고기 희귀도 (25-40)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              7,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Success",
+            "kr": "- 성공"
+          },
+          "effect": {
+            "en": "Gain (7-10) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (7-10) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    7,
+                    10
+                  ]
+                }
+              ],
+              "value": "7~10",
+              "text": {
+                "en": "Gain (7-10) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (7-10) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalStrikeChance1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Needling",
+            "kr": "- 바느질"
+          },
+          "effect": {
+            "en": "(10-14)% increased Critical Strike Chance",
+            "kr": "치명타 확률 (10-14)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_critical_strike_chance_+%",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% increased Critical Strike Chance",
+                "kr": "치명타 확률 (10-14)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAccuracyNew1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              80,
+              130
+            ]
+          ],
+          "name": {
+            "en": "of Steadiness",
+            "kr": "- 안정감"
+          },
+          "effect": {
+            "en": "(80-130) to Accuracy Rating",
+            "kr": "정확도 (80-130)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    80,
+                    130
+                  ]
+                }
+              ],
+              "value": "80~130",
+              "text": {
+                "en": "(80-130) to Accuracy Rating",
+                "kr": "정확도 (80-130)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              7
+            ]
+          ],
+          "name": {
+            "en": "of Skill",
+            "kr": "- 스킬"
+          },
+          "effect": {
+            "en": "(5-7)% increased Attack Speed",
+            "kr": "공격 속도 (5-7)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    5,
+                    7
+                  ]
+                }
+              ],
+              "value": "5~7",
+              "text": {
+                "en": "(5-7)% increased Attack Speed",
+                "kr": "공격 속도 (5-7)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "of Absorption",
+            "kr": "- 흡수"
+          },
+          "effect": {
+            "en": "Gain (4-6) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (4-6) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "Gain (4-6) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (4-6) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed2Royale____",
+          "affixType": "suffix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              15,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Ease",
+            "kr": "- 쉬움"
+          },
+          "effect": {
+            "en": "(15-25)% increased Attack Speed",
+            "kr": "공격 속도 (15-25)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    15,
+                    25
+                  ]
+                }
+              ],
+              "value": "15~25",
+              "text": {
+                "en": "(15-25)% increased Attack Speed",
+                "kr": "공격 속도 (15-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration1",
+          "affixType": "suffix",
+          "tier": 5,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Impact",
+            "kr": "- 충격"
+          },
+          "effect": {
+            "en": "(11-15)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              2,
+              3
+            ]
+          ],
+          "name": {
+            "en": "of Rejuvenation",
+            "kr": "- 회춘"
+          },
+          "effect": {
+            "en": "Grants (2-3) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (2-3) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "value": "2~3",
+              "text": {
+                "en": "Grants (2-3) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (2-3) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalMultiplier1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Ire",
+            "kr": "- 노여움"
+          },
+          "effect": {
+            "en": "(10-14)% to Global Critical Strike Multiplier",
+            "kr": "일반 치명타 피해 배율 (10-14)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_critical_strike_multiplier_+",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% to Global Critical Strike Multiplier",
+                "kr": "일반 치명타 피해 배율 (10-14)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalLightRadiusAndAccuracyNew1_",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              5,
+              5
+            ],
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Shining",
+            "kr": "- 반짝임"
+          },
+          "effect": {
+            "en": "5% increased Light Radius\n(9-11)% increased Global Accuracy Rating",
+            "kr": "시야 반경 5% 증가\n일반 정확도 (9-11)% 증가"
+          },
+          "group": [
+            545
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "light_radius_+%",
+                  "valueRange": [
+                    5,
+                    5
+                  ]
+                }
+              ],
+              "value": "5",
+              "text": {
+                "en": "5% increased Light Radius",
+                "kr": "시야 반경 5% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating_+%",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "(9-11)% increased Global Accuracy Rating",
+                "kr": "일반 정확도 (9-11)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedCastSpeedFishing",
+          "affixType": "suffix",
+          "tier": 10,
+          "valueRanges": [
+            [
+              24,
+              28
+            ]
+          ],
+          "name": {
+            "en": "of Casting",
+            "kr": "- 시전"
+          },
+          "effect": {
+            "en": "(24-28)% increased Cast Speed",
+            "kr": "시전 속도 (24-28)% 증가"
+          },
+          "group": [
+            28
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    24,
+                    28
+                  ]
+                }
+              ],
+              "value": "24~28",
+              "text": {
+                "en": "(24-28)% increased Cast Speed",
+                "kr": "시전 속도 (24-28)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Ease",
+            "kr": "- 쉬움"
+          },
+          "effect": {
+            "en": "(8-10)% increased Attack Speed",
+            "kr": "공격 속도 (8-10)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10)% increased Attack Speed",
+                "kr": "공격 속도 (8-10)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalLightRadiusAndAccuracyNew2",
+          "affixType": "suffix",
+          "tier": 15,
+          "valueRanges": [
+            [
+              10,
+              10
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Light",
+            "kr": "- 빛"
+          },
+          "effect": {
+            "en": "10% increased Light Radius\n(12-15)% increased Global Accuracy Rating",
+            "kr": "시야 반경 10% 증가\n일반 정확도 (12-15)% 증가"
+          },
+          "group": [
+            545
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "light_radius_+%",
+                  "valueRange": [
+                    10,
+                    10
+                  ]
+                }
+              ],
+              "value": "10",
+              "text": {
+                "en": "10% increased Light Radius",
+                "kr": "시야 반경 10% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating_+%",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% increased Global Accuracy Rating",
+                "kr": "일반 정확도 (12-15)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration2",
+          "affixType": "suffix",
+          "tier": 18,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Dazing",
+            "kr": "- 혼미"
+          },
+          "effect": {
+            "en": "(16-20)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal2",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "of Restoration",
+            "kr": "- 재생"
+          },
+          "effect": {
+            "en": "Grants (4-6) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (4-6) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "Grants (4-6) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (4-6) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeLeechPermyriadLocalSuffix1",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              200,
+              240
+            ]
+          ],
+          "name": {
+            "en": "of the Remora",
+            "kr": "- 빨판상어"
+          },
+          "effect": {
+            "en": "(200-240)% of Physical Attack Damage Leeched as Life",
+            "kr": "물리 공격 피해의 (200-240)%를 생명력으로 흡수"
+          },
+          "group": [
+            7
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_leech_from_physical_damage_permyriad",
+                  "valueRange": [
+                    200,
+                    240
+                  ]
+                }
+              ],
+              "value": "200~240",
+              "text": {
+                "en": "(200-240)% of Physical Attack Damage Leeched as Life",
+                "kr": "물리 공격 피해의 (200-240)%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalStrikeChance2",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              15,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Stinging",
+            "kr": "- 찌르기"
+          },
+          "effect": {
+            "en": "(15-19)% increased Critical Strike Chance",
+            "kr": "치명타 확률 (15-19)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_critical_strike_chance_+%",
+                  "valueRange": [
+                    15,
+                    19
+                  ]
+                }
+              ],
+              "value": "15~19",
+              "text": {
+                "en": "(15-19)% increased Critical Strike Chance",
+                "kr": "치명타 확률 (15-19)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAccuracyNew2",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              131,
+              215
+            ]
+          ],
+          "name": {
+            "en": "of Precision",
+            "kr": "- 정밀함"
+          },
+          "effect": {
+            "en": "(131-215) to Accuracy Rating",
+            "kr": "정확도 (131-215)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    131,
+                    215
+                  ]
+                }
+              ],
+              "value": "131~215",
+              "text": {
+                "en": "(131-215) to Accuracy Rating",
+                "kr": "정확도 (131-215)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalMultiplier2",
+          "affixType": "suffix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              15,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Anger",
+            "kr": "- 분노"
+          },
+          "effect": {
+            "en": "(15-19)% to Global Critical Strike Multiplier",
+            "kr": "일반 치명타 피해 배율 (15-19)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_critical_strike_multiplier_+",
+                  "valueRange": [
+                    15,
+                    19
+                  ]
+                }
+              ],
+              "value": "15~19",
+              "text": {
+                "en": "(15-19)% to Global Critical Strike Multiplier",
+                "kr": "일반 치명타 피해 배율 (15-19)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed3",
+          "affixType": "suffix",
+          "tier": 22,
+          "valueRanges": [
+            [
+              11,
+              13
+            ]
+          ],
+          "name": {
+            "en": "of Mastery",
+            "kr": "- 숙련"
+          },
+          "effect": {
+            "en": "(11-13)% increased Attack Speed",
+            "kr": "공격 속도 (11-13)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    11,
+                    13
+                  ]
+                }
+              ],
+              "value": "11~13",
+              "text": {
+                "en": "(11-13)% increased Attack Speed",
+                "kr": "공격 속도 (11-13)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath2",
+          "affixType": "suffix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              12,
+              18
+            ]
+          ],
+          "name": {
+            "en": "of Victory",
+            "kr": "- 승리"
+          },
+          "effect": {
+            "en": "Gain (12-18) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (12-18) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    12,
+                    18
+                  ]
+                }
+              ],
+              "value": "12~18",
+              "text": {
+                "en": "Gain (12-18) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (12-18) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath2",
+          "affixType": "suffix",
+          "tier": 24,
+          "valueRanges": [
+            [
+              7,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Osmosis",
+            "kr": "- 삼투"
+          },
+          "effect": {
+            "en": "Gain (7-10) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (7-10) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    7,
+                    10
+                  ]
+                }
+              ],
+              "value": "7~10",
+              "text": {
+                "en": "Gain (7-10) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (7-10) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              7,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Regrowth",
+            "kr": "- 재성장"
+          },
+          "effect": {
+            "en": "Grants (7-10) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (7-10) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    7,
+                    10
+                  ]
+                }
+              ],
+              "value": "7~10",
+              "text": {
+                "en": "Grants (7-10) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (7-10) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalMultiplier3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              20,
+              24
+            ]
+          ],
+          "name": {
+            "en": "of Rage",
+            "kr": "- 격노"
+          },
+          "effect": {
+            "en": "(20-24)% to Global Critical Strike Multiplier",
+            "kr": "일반 치명타 피해 배율 (20-24)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_critical_strike_multiplier_+",
+                  "valueRange": [
+                    20,
+                    24
+                  ]
+                }
+              ],
+              "value": "20~24",
+              "text": {
+                "en": "(20-24)% to Global Critical Strike Multiplier",
+                "kr": "일반 치명타 피해 배율 (20-24)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalStrikeChance3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              20,
+              24
+            ]
+          ],
+          "name": {
+            "en": "of Piercing",
+            "kr": "- 관통"
+          },
+          "effect": {
+            "en": "(20-24)% increased Critical Strike Chance",
+            "kr": "치명타 확률 (20-24)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_critical_strike_chance_+%",
+                  "valueRange": [
+                    20,
+                    24
+                  ]
+                }
+              ],
+              "value": "20~24",
+              "text": {
+                "en": "(20-24)% increased Critical Strike Chance",
+                "kr": "치명타 확률 (20-24)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed4",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Renown",
+            "kr": "- 명성"
+          },
+          "effect": {
+            "en": "(14-16)% increased Attack Speed",
+            "kr": "공격 속도 (14-16)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Attack Speed",
+                "kr": "공격 속도 (14-16)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalLightRadiusAndAccuracy3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              15,
+              15
+            ],
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Radiance",
+            "kr": "- 광휘"
+          },
+          "effect": {
+            "en": "15% increased Light Radius\n(16-20)% increased Global Accuracy Rating",
+            "kr": "시야 반경 15% 증가\n일반 정확도 (16-20)% 증가"
+          },
+          "group": [
+            545
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "light_radius_+%",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "15% increased Light Radius",
+                "kr": "시야 반경 15% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Global Accuracy Rating",
+                "kr": "일반 정확도 (16-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Stunning",
+            "kr": "- 기절"
+          },
+          "effect": {
+            "en": "(21-25)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ReducedLocalAttributeRequirements1",
+          "affixType": "suffix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              -18,
+              -18
+            ]
+          ],
+          "name": {
+            "en": "of the Worthy",
+            "kr": "- 자격자"
+          },
+          "effect": {
+            "en": "-18% reduced Attribute Requirements",
+            "kr": "능력치 요구사항 -18% 감소"
+          },
+          "group": [
+            544
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attribute_requirements_+%",
+                  "valueRange": [
+                    -18,
+                    -18
+                  ]
+                }
+              ],
+              "value": "-18",
+              "text": {
+                "en": "-18% reduced Attribute Requirements",
+                "kr": "능력치 요구사항 -18% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed5",
+          "affixType": "suffix",
+          "tier": 37,
+          "valueRanges": [
+            [
+              17,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Acclaim",
+            "kr": "- 갈채"
+          },
+          "effect": {
+            "en": "(17-19)% increased Attack Speed",
+            "kr": "공격 속도 (17-19)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    17,
+                    19
+                  ]
+                }
+              ],
+              "value": "17~19",
+              "text": {
+                "en": "(17-19)% increased Attack Speed",
+                "kr": "공격 속도 (17-19)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath3",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              24,
+              32
+            ]
+          ],
+          "name": {
+            "en": "of Triumph",
+            "kr": "- 대성공"
+          },
+          "effect": {
+            "en": "Gain (24-32) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (24-32) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    24,
+                    32
+                  ]
+                }
+              ],
+              "value": "24~32",
+              "text": {
+                "en": "Gain (24-32) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (24-32) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal4",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              11,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Nourishment",
+            "kr": "- 자양분"
+          },
+          "effect": {
+            "en": "Grants (11-14) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (11-14) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    11,
+                    14
+                  ]
+                }
+              ],
+              "value": "11~14",
+              "text": {
+                "en": "Grants (11-14) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (11-14) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAccuracyNew3",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              216,
+              325
+            ]
+          ],
+          "name": {
+            "en": "of the Sniper",
+            "kr": "- 저격수"
+          },
+          "effect": {
+            "en": "(216-325) to Accuracy Rating",
+            "kr": "정확도 (216-325)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    216,
+                    325
+                  ]
+                }
+              ],
+              "value": "216~325",
+              "text": {
+                "en": "(216-325) to Accuracy Rating",
+                "kr": "정확도 (216-325)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath3",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Consumption",
+            "kr": "- 소모"
+          },
+          "effect": {
+            "en": "Gain (11-15) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (11-15) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "Gain (11-15) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (11-15) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplier2h1__",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              16,
+              21
+            ]
+          ],
+          "name": {
+            "en": "of Acrimony",
+            "kr": "- 신랄"
+          },
+          "effect": {
+            "en": "(16-21)% to Damage over Time Multiplier",
+            "kr": "지속 피해 배율 (16-21)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dot_multiplier_+",
+                  "valueRange": [
+                    16,
+                    21
+                  ]
+                }
+              ],
+              "value": "16~21",
+              "text": {
+                "en": "(16-21)% to Damage over Time Multiplier",
+                "kr": "지속 피해 배율 (16-21)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalMultiplier4",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              25,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of Fury",
+            "kr": "- 광분"
+          },
+          "effect": {
+            "en": "(25-29)% to Global Critical Strike Multiplier",
+            "kr": "일반 치명타 피해 배율 (25-29)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_critical_strike_multiplier_+",
+                  "valueRange": [
+                    25,
+                    29
+                  ]
+                }
+              ],
+              "value": "25~29",
+              "text": {
+                "en": "(25-29)% to Global Critical Strike Multiplier",
+                "kr": "일반 치명타 피해 배율 (25-29)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalStrikeChance4",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              25,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of Puncturing",
+            "kr": "- 구멍"
+          },
+          "effect": {
+            "en": "(25-29)% increased Critical Strike Chance",
+            "kr": "치명타 확률 (25-29)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_critical_strike_chance_+%",
+                  "valueRange": [
+                    25,
+                    29
+                  ]
+                }
+              ],
+              "value": "25~29",
+              "text": {
+                "en": "(25-29)% increased Critical Strike Chance",
+                "kr": "치명타 확률 (25-29)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration4",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of Slamming",
+            "kr": "- 강타"
+          },
+          "effect": {
+            "en": "(26-30)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeLeechPermyriadLocalSuffix2",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              260,
+              320
+            ]
+          ],
+          "name": {
+            "en": "of the Lamprey",
+            "kr": "- 칠성장어"
+          },
+          "effect": {
+            "en": "(260-320)% of Physical Attack Damage Leeched as Life",
+            "kr": "물리 공격 피해의 (260-320)%를 생명력으로 흡수"
+          },
+          "group": [
+            7
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_leech_from_physical_damage_permyriad",
+                  "valueRange": [
+                    260,
+                    320
+                  ]
+                }
+              ],
+              "value": "260~320",
+              "text": {
+                "en": "(260-320)% of Physical Attack Damage Leeched as Life",
+                "kr": "물리 공격 피해의 (260-320)%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed6",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              20,
+              22
+            ]
+          ],
+          "name": {
+            "en": "of Fame",
+            "kr": "- 명망"
+          },
+          "effect": {
+            "en": "(20-22)% increased Attack Speed",
+            "kr": "공격 속도 (20-22)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    20,
+                    22
+                  ]
+                }
+              ],
+              "value": "20~22",
+              "text": {
+                "en": "(20-22)% increased Attack Speed",
+                "kr": "공격 속도 (20-22)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal5",
+          "affixType": "suffix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              15,
+              18
+            ]
+          ],
+          "name": {
+            "en": "of Regenesis",
+            "kr": "- 신생"
+          },
+          "effect": {
+            "en": "Grants (15-18) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (15-18) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    15,
+                    18
+                  ]
+                }
+              ],
+              "value": "15~18",
+              "text": {
+                "en": "Grants (15-18) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (15-18) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaLeechPermyriadLocalSuffix1",
+          "affixType": "suffix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              260,
+              320
+            ]
+          ],
+          "name": {
+            "en": "of Thirst",
+            "kr": "- 목마름"
+          },
+          "effect": {
+            "en": "(260-320)% of Physical Attack Damage Leeched as Mana",
+            "kr": "물리 공격 피해의 (260-320)%를 마나로 흡수"
+          },
+          "group": [
+            8
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_mana_leech_from_physical_damage_permyriad",
+                  "valueRange": [
+                    260,
+                    320
+                  ]
+                }
+              ],
+              "value": "260~320",
+              "text": {
+                "en": "(260-320)% of Physical Attack Damage Leeched as Mana",
+                "kr": "물리 공격 피해의 (260-320)%를 마나로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath4",
+          "affixType": "suffix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              35,
+              44
+            ]
+          ],
+          "name": {
+            "en": "of Conquest",
+            "kr": "- 정복"
+          },
+          "effect": {
+            "en": "Gain (35-44) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (35-44) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    35,
+                    44
+                  ]
+                }
+              ],
+              "value": "35~44",
+              "text": {
+                "en": "Gain (35-44) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (35-44) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath4",
+          "affixType": "suffix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              16,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Diffusion",
+            "kr": "- 유포"
+          },
+          "effect": {
+            "en": "Gain (16-25) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (16-25) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    16,
+                    25
+                  ]
+                }
+              ],
+              "value": "16~25",
+              "text": {
+                "en": "Gain (16-25) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (16-25) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplier2h2",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              24,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of Dispersion",
+            "kr": "- 분산"
+          },
+          "effect": {
+            "en": "(24-29)% to Damage over Time Multiplier",
+            "kr": "지속 피해 배율 (24-29)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dot_multiplier_+",
+                  "valueRange": [
+                    24,
+                    29
+                  ]
+                }
+              ],
+              "value": "24~29",
+              "text": {
+                "en": "(24-29)% to Damage over Time Multiplier",
+                "kr": "지속 피해 배율 (24-29)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration5",
+          "affixType": "suffix",
+          "tier": 58,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Staggering",
+            "kr": "- 비틀거림"
+          },
+          "effect": {
+            "en": "(31-35)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalMultiplier5",
+          "affixType": "suffix",
+          "tier": 59,
+          "valueRanges": [
+            [
+              30,
+              34
+            ]
+          ],
+          "name": {
+            "en": "of Ferocity",
+            "kr": "- 흉포함"
+          },
+          "effect": {
+            "en": "(30-34)% to Global Critical Strike Multiplier",
+            "kr": "일반 치명타 피해 배율 (30-34)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_critical_strike_multiplier_+",
+                  "valueRange": [
+                    30,
+                    34
+                  ]
+                }
+              ],
+              "value": "30~34",
+              "text": {
+                "en": "(30-34)% to Global Critical Strike Multiplier",
+                "kr": "일반 치명타 피해 배율 (30-34)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalStrikeChance5",
+          "affixType": "suffix",
+          "tier": 59,
+          "valueRanges": [
+            [
+              30,
+              34
+            ]
+          ],
+          "name": {
+            "en": "of Penetrating",
+            "kr": "- 침투"
+          },
+          "effect": {
+            "en": "(30-34)% increased Critical Strike Chance",
+            "kr": "치명타 확률 (30-34)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_critical_strike_chance_+%",
+                  "valueRange": [
+                    30,
+                    34
+                  ]
+                }
+              ],
+              "value": "30~34",
+              "text": {
+                "en": "(30-34)% increased Critical Strike Chance",
+                "kr": "치명타 확률 (30-34)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              19,
+              22
+            ]
+          ],
+          "name": {
+            "en": "of Renewal",
+            "kr": "- 갱신"
+          },
+          "effect": {
+            "en": "Grants (19-22) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (19-22) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    19,
+                    22
+                  ]
+                }
+              ],
+              "value": "19~22",
+              "text": {
+                "en": "Grants (19-22) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (19-22) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAccuracyNew4",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              326,
+              455
+            ]
+          ],
+          "name": {
+            "en": "of the Marksman",
+            "kr": "- 지정사수"
+          },
+          "effect": {
+            "en": "(326-455) to Accuracy Rating",
+            "kr": "정확도 (326-455)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    326,
+                    455
+                  ]
+                }
+              ],
+              "value": "326~455",
+              "text": {
+                "en": "(326-455) to Accuracy Rating",
+                "kr": "정확도 (326-455)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed7",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              23,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Infamy",
+            "kr": "- 악명"
+          },
+          "effect": {
+            "en": "(23-25)% increased Attack Speed",
+            "kr": "공격 속도 (23-25)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    23,
+                    25
+                  ]
+                }
+              ],
+              "value": "23~25",
+              "text": {
+                "en": "(23-25)% increased Attack Speed",
+                "kr": "공격 속도 (23-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ReducedLocalAttributeRequirements2",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              -32,
+              -32
+            ]
+          ],
+          "name": {
+            "en": "of the Apt",
+            "kr": "- 적격자"
+          },
+          "effect": {
+            "en": "-32% reduced Attribute Requirements",
+            "kr": "능력치 요구사항 -32% 감소"
+          },
+          "group": [
+            544
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attribute_requirements_+%",
+                  "valueRange": [
+                    -32,
+                    -32
+                  ]
+                }
+              ],
+              "value": "-32",
+              "text": {
+                "en": "-32% reduced Attribute Requirements",
+                "kr": "능력치 요구사항 -32% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath5",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              56,
+              72
+            ]
+          ],
+          "name": {
+            "en": "of Feat",
+            "kr": "- 개가"
+          },
+          "effect": {
+            "en": "Gain (56-72) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (56-72) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    56,
+                    72
+                  ]
+                }
+              ],
+              "value": "56~72",
+              "text": {
+                "en": "Gain (56-72) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (56-72) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath5",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              26,
+              37
+            ]
+          ],
+          "name": {
+            "en": "of Permeation",
+            "kr": "- 스며듦"
+          },
+          "effect": {
+            "en": "Gain (26-37) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (26-37) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    26,
+                    37
+                  ]
+                }
+              ],
+              "value": "26~37",
+              "text": {
+                "en": "Gain (26-37) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (26-37) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplier2h3___",
+          "affixType": "suffix",
+          "tier": 68,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Liquefaction",
+            "kr": "- 액화"
+          },
+          "effect": {
+            "en": "(31-35)% to Damage over Time Multiplier",
+            "kr": "지속 피해 배율 (31-35)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dot_multiplier_+",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Damage over Time Multiplier",
+                "kr": "지속 피해 배율 (31-35)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal7",
+          "affixType": "suffix",
+          "tier": 70,
+          "valueRanges": [
+            [
+              23,
+              26
+            ]
+          ],
+          "name": {
+            "en": "of Recuperation",
+            "kr": "- 회생"
+          },
+          "effect": {
+            "en": "Grants (23-26) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (23-26) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    23,
+                    26
+                  ]
+                }
+              ],
+              "value": "23~26",
+              "text": {
+                "en": "Grants (23-26) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (23-26) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeLeechPermyriadLocalSuffix3",
+          "affixType": "suffix",
+          "tier": 70,
+          "valueRanges": [
+            [
+              350,
+              450
+            ]
+          ],
+          "name": {
+            "en": "of the Vampire",
+            "kr": "- 뱀파이어"
+          },
+          "effect": {
+            "en": "(350-450)% of Physical Attack Damage Leeched as Life",
+            "kr": "물리 공격 피해의 (350-450)%를 생명력으로 흡수"
+          },
+          "group": [
+            7
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_leech_from_physical_damage_permyriad",
+                  "valueRange": [
+                    350,
+                    450
+                  ]
+                }
+              ],
+              "value": "350~450",
+              "text": {
+                "en": "(350-450)% of Physical Attack Damage Leeched as Life",
+                "kr": "물리 공격 피해의 (350-450)%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalMultiplier6",
+          "affixType": "suffix",
+          "tier": 73,
+          "valueRanges": [
+            [
+              35,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of Destruction",
+            "kr": "- 파괴"
+          },
+          "effect": {
+            "en": "(35-38)% to Global Critical Strike Multiplier",
+            "kr": "일반 치명타 피해 배율 (35-38)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_critical_strike_multiplier_+",
+                  "valueRange": [
+                    35,
+                    38
+                  ]
+                }
+              ],
+              "value": "35~38",
+              "text": {
+                "en": "(35-38)% to Global Critical Strike Multiplier",
+                "kr": "일반 치명타 피해 배율 (35-38)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalCriticalStrikeChance6",
+          "affixType": "suffix",
+          "tier": 73,
+          "valueRanges": [
+            [
+              35,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of Incision",
+            "kr": "- 절개"
+          },
+          "effect": {
+            "en": "(35-38)% increased Critical Strike Chance",
+            "kr": "치명타 확률 (35-38)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_critical_strike_chance_+%",
+                  "valueRange": [
+                    35,
+                    38
+                  ]
+                }
+              ],
+              "value": "35~38",
+              "text": {
+                "en": "(35-38)% increased Critical Strike Chance",
+                "kr": "치명타 확률 (35-38)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAccuracyNew5",
+          "affixType": "suffix",
+          "tier": 75,
+          "valueRanges": [
+            [
+              456,
+              624
+            ]
+          ],
+          "name": {
+            "en": "of the Ranger",
+            "kr": "- 레인저"
+          },
+          "effect": {
+            "en": "(456-624) to Accuracy Rating",
+            "kr": "정확도 (456-624)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_accuracy_rating",
+                  "valueRange": [
+                    456,
+                    624
+                  ]
+                }
+              ],
+              "value": "456~624",
+              "text": {
+                "en": "(456-624) to Accuracy Rating",
+                "kr": "정확도 (456-624)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplier2h4_",
+          "affixType": "suffix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              36,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Melting",
+            "kr": "- 융해"
+          },
+          "effect": {
+            "en": "(36-40)% to Damage over Time Multiplier",
+            "kr": "지속 피해 배율 (36-40)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dot_multiplier_+",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% to Damage over Time Multiplier",
+                "kr": "지속 피해 배율 (36-40)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeed8",
+          "affixType": "suffix",
+          "tier": 77,
+          "valueRanges": [
+            [
+              26,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of Celebration",
+            "kr": "- 축제"
+          },
+          "effect": {
+            "en": "(26-27)% increased Attack Speed",
+            "kr": "공격 속도 (26-27)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    26,
+                    27
+                  ]
+                }
+              ],
+              "value": "26~27",
+              "text": {
+                "en": "(26-27)% increased Attack Speed",
+                "kr": "공격 속도 (26-27)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainPerTargetLocal8",
+          "affixType": "suffix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              27,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of Revitalization",
+            "kr": "- 부흥"
+          },
+          "effect": {
+            "en": "Grants (27-30) Life per Enemy Hit",
+            "kr": "명중한 적 하나당 생명력 (27-30) 획득"
+          },
+          "group": [
+            84
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_life_gain_per_target",
+                  "valueRange": [
+                    27,
+                    30
+                  ]
+                }
+              ],
+              "value": "27~30",
+              "text": {
+                "en": "Grants (27-30) Life per Enemy Hit",
+                "kr": "명중한 적 하나당 생명력 (27-30) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath6",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              84,
+              110
+            ]
+          ],
+          "name": {
+            "en": "of Masterstroke",
+            "kr": "- 묘수"
+          },
+          "effect": {
+            "en": "Gain (84-110) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (84-110) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    84,
+                    110
+                  ]
+                }
+              ],
+              "value": "84~110",
+              "text": {
+                "en": "Gain (84-110) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (84-110) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath6",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              38,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Retention",
+            "kr": "- 잔류"
+          },
+          "effect": {
+            "en": "Gain (38-50) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (38-50) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    38,
+                    50
+                  ]
+                }
+              ],
+              "value": "38~50",
+              "text": {
+                "en": "Gain (38-50) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (38-50) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplier2h5____",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              41,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of Dissolution",
+            "kr": "- 파경"
+          },
+          "effect": {
+            "en": "(41-45)% to Damage over Time Multiplier",
+            "kr": "지속 피해 배율 (41-45)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dot_multiplier_+",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% to Damage over Time Multiplier",
+                "kr": "지속 피해 배율 (41-45)%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "corrupted": {
+      "prefix": [
+        {
+          "id": "V2CanCatchCorruptFishCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "You can catch Corrupted Fish",
+            "kr": "타락한 물고기 포획 가능"
+          },
+          "group": [
+            56
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "can_catch_corrupted_fish",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "You can catch Corrupted Fish",
+                "kr": "타락한 물고기 포획 가능"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2CastSpeedCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(10-20)% increased Cast Speed",
+            "kr": "시전 속도 (10-20)% 증가"
+          },
+          "group": [
+            28
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    10,
+                    20
+                  ]
+                }
+              ],
+              "value": "10~20",
+              "text": {
+                "en": "(10-20)% increased Cast Speed",
+                "kr": "시전 속도 (10-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2FishingQuantityCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-10)% increased Quantity of Fish Caught",
+            "kr": "포획하는 물고기 수 (5-10)% 증가"
+          },
+          "group": [
+            698
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fish_quantity_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Quantity of Fish Caught",
+                "kr": "포획하는 물고기 수 (5-10)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2FishingRarityCorrupted_",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-10)% increased Rarity of Fish Caught",
+            "kr": "포획하는 물고기 희귀도 (5-10)% 증가"
+          },
+          "group": [
+            699
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fish_rarity_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Rarity of Fish Caught",
+                "kr": "포획하는 물고기 희귀도 (5-10)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2IncreasedAreaOfEffect2hCorrupted_",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              25,
+              30
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(25-30)% increased Area of Effect",
+            "kr": "효과 범위 (25-30)% 증가"
+          },
+          "group": [
+            141
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_skill_area_of_effect_+%",
+                  "valueRange": [
+                    25,
+                    30
+                  ]
+                }
+              ],
+              "value": "25~30",
+              "text": {
+                "en": "(25-30)% increased Area of Effect",
+                "kr": "효과 범위 (25-30)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2LocalAddedPhysicalDamage2hCorrupted1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Adds 1 to (2-3) Physical Damage",
+            "kr": "물리 피해 1~(2-3) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "value": "1, 2~3",
+              "text": {
+                "en": "Adds 1 to (2-3) Physical Damage",
+                "kr": "물리 피해 1~(2-3) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2LocalMeleeWeaponRangeCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(1-2) metres to Weapon Range",
+            "kr": "무기 공격 범위 (1-2)미터"
+          },
+          "group": [
+            597
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_weapon_range_+",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": "(1-2) metres to Weapon Range",
+                "kr": "무기 공격 범위 (1-2)미터"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByAccuracyCorrupted__",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are supported by Level 10 Additional Accuracy",
+            "kr": "장착된 젬에 10레벨 정확도 추가 보조 효과 적용"
+          },
+          "group": [
+            1044
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_get_additional_accuracy_level",
+                  "valueRange": [
+                    10,
+                    10
+                  ]
+                }
+              ],
+              "value": "10",
+              "text": {
+                "en": "Socketed Gems are supported by Level 10 Additional Accuracy",
+                "kr": "장착된 젬에 10레벨 정확도 추가 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByBloodmagicCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are Supported by Level 1 Lifetap",
+            "kr": "장착된 젬에 1레벨 생명력 전환 보조 효과 적용"
+          },
+          "group": [
+            1160
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_supported_by_level_x_lifetap",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Socketed Gems are Supported by Level 1 Lifetap",
+                "kr": "장착된 젬에 1레벨 생명력 전환 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByFortifyCorrupted_",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are Supported by Level 10 Fortify",
+            "kr": "장착된 젬에 10레벨 방어 상승 보조 효과 적용"
+          },
+          "group": [
+            3098
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_supported_by_level_x_fortify",
+                  "valueRange": [
+                    10,
+                    10
+                  ]
+                }
+              ],
+              "value": "10",
+              "text": {
+                "en": "Socketed Gems are Supported by Level 10 Fortify",
+                "kr": "장착된 젬에 10레벨 방어 상승 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByLifeGainOnHitCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are Supported by Level 10 Life Gain On Hit",
+            "kr": "장착된 젬에 10레벨 명중 시 생명력 획득 보조 효과 적용"
+          },
+          "group": [
+            3099
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_supported_by_level_x_life_gain_on_hit",
+                  "valueRange": [
+                    10,
+                    10
+                  ]
+                }
+              ],
+              "value": "10",
+              "text": {
+                "en": "Socketed Gems are Supported by Level 10 Life Gain On Hit",
+                "kr": "장착된 젬에 10레벨 명중 시 생명력 획득 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByOnslaughtCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are Supported by Level 10 Momentum",
+            "kr": "장착된 젬에 10레벨 기세 보조 효과 적용"
+          },
+          "group": [
+            3100
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_supported_by_level_x_onslaught",
+                  "valueRange": [
+                    10,
+                    10
+                  ]
+                }
+              ],
+              "value": "10",
+              "text": {
+                "en": "Socketed Gems are Supported by Level 10 Momentum",
+                "kr": "장착된 젬에 10레벨 기세 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByReducedManaCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are Supported by Level 10 Inspiration",
+            "kr": "장착된 젬에 10레벨 영감 보조 효과 적용"
+          },
+          "group": [
+            3101
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_get_reduced_mana_cost_level",
+                  "valueRange": [
+                    10,
+                    10
+                  ]
+                }
+              ],
+              "value": "10",
+              "text": {
+                "en": "Socketed Gems are Supported by Level 10 Inspiration",
+                "kr": "장착된 젬에 10레벨 영감 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2LocalAddedPhysicalDamage2hCorrupted2__",
+          "affixType": "corrupted",
+          "tier": 31,
+          "valueRanges": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Adds (4-5) to (6-8) Physical Damage",
+            "kr": "물리 피해 (4-5)~(6-8) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    4,
+                    5
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~5, 6~8",
+              "text": {
+                "en": "Adds (4-5) to (6-8) Physical Damage",
+                "kr": "물리 피해 (4-5)~(6-8) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2LocalIncreasedAttackSpeed2hCorrupted_",
+          "affixType": "corrupted",
+          "tier": 70,
+          "valueRanges": [
+            [
+              5,
+              7
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-7)% increased Attack Speed",
+            "kr": "공격 속도 (5-7)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_attack_speed_+%",
+                  "valueRange": [
+                    5,
+                    7
+                  ]
+                }
+              ],
+              "value": "5~7",
+              "text": {
+                "en": "(5-7)% increased Attack Speed",
+                "kr": "공격 속도 (5-7)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2LocalAddedPhysicalDamage2hCorrupted3",
+          "affixType": "corrupted",
+          "tier": 84,
+          "valueRanges": [
+            [
+              8,
+              9
+            ],
+            [
+              11,
+              13
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Adds (8-9) to (11-13) Physical Damage",
+            "kr": "물리 피해 (8-9)~(11-13) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_minimum_added_physical_damage",
+                  "valueRange": [
+                    8,
+                    9
+                  ]
+                },
+                {
+                  "stat": "local_maximum_added_physical_damage",
+                  "valueRange": [
+                    11,
+                    13
+                  ]
+                }
+              ],
+              "value": "8~9, 11~13",
+              "text": {
+                "en": "Adds (8-9) to (11-13) Physical Damage",
+                "kr": "물리 피해 (8-9)~(11-13) 추가"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": []
+    }
+  }
+}

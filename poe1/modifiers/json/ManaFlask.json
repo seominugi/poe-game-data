@@ -1,0 +1,3973 @@
+{
+  "itemClass": "ManaFlask",
+  "className": {
+    "en": "Mana Flasks",
+    "kr": "마나 플라스크"
+  },
+  "domain": 2,
+  "classTags": [
+    "default",
+    "flask",
+    "mana_flask"
+  ],
+  "counts": {
+    "prefix": 51,
+    "suffix": 29,
+    "total": 80
+  },
+  "bucketCounts": {
+    "normal": {
+      "prefix": 51,
+      "suffix": 29,
+      "total": 80
+    }
+  },
+  "buckets": {
+    "normal": {
+      "prefix": [
+        {
+          "id": "FlaskIncreasedRecoveryAmount1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              41,
+              46
+            ],
+            [
+              -33,
+              -33
+            ]
+          ],
+          "name": {
+            "en": "Substantial",
+            "kr": "묵직한"
+          },
+          "effect": {
+            "en": "(41-46)% increased Amount Recovered\n-33% reduced Recovery rate",
+            "kr": "회복량 (41-46)% 증가\n회복 속도 -33% 감소"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    41,
+                    46
+                  ]
+                }
+              ],
+              "value": "41~46",
+              "text": {
+                "en": "(41-46)% increased Amount Recovered",
+                "kr": "회복량 (41-46)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    -33,
+                    -33
+                  ]
+                }
+              ],
+              "value": "-33",
+              "text": {
+                "en": "-33% reduced Recovery rate",
+                "kr": "회복 속도 -33% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              41,
+              46
+            ]
+          ],
+          "name": {
+            "en": "Undiluted",
+            "kr": "희석되지 않은"
+          },
+          "effect": {
+            "en": "(41-46)% increased Recovery rate",
+            "kr": "회복 속도 (41-46)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    41,
+                    46
+                  ]
+                }
+              ],
+              "value": "41~46",
+              "text": {
+                "en": "(41-46)% increased Recovery rate",
+                "kr": "회복 속도 (41-46)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges1",
+          "affixType": "prefix",
+          "tier": 2,
+          "valueRanges": [
+            [
+              16,
+              19
+            ]
+          ],
+          "name": {
+            "en": "Wide",
+            "kr": "넓은"
+          },
+          "effect": {
+            "en": "(16-19) to Maximum Charges",
+            "kr": "충전 최대치 (16-19)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    16,
+                    19
+                  ]
+                }
+              ],
+              "value": "16~19",
+              "text": {
+                "en": "(16-19) to Maximum Charges",
+                "kr": "충전 최대치 (16-19)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent1",
+          "affixType": "prefix",
+          "tier": 3,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Constant",
+            "kr": "지속적인"
+          },
+          "effect": {
+            "en": "(16-20)% increased Charge Recovery",
+            "kr": "충전 회복 (16-20)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Charge Recovery",
+                "kr": "충전 회복 (16-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery1",
+          "affixType": "prefix",
+          "tier": 3,
+          "valueRanges": [
+            [
+              50,
+              50
+            ],
+            [
+              -55,
+              -52
+            ],
+            [
+              135,
+              135
+            ]
+          ],
+          "name": {
+            "en": "Simmering",
+            "kr": "보글거리는"
+          },
+          "effect": {
+            "en": "50% of Recovery applied Instantly\n(-55--52)% reduced Amount Recovered\n135% increased Recovery rate",
+            "kr": "회복량의 50%를 즉시 회복\n회복량 (-55--52)% 감소\n회복 속도 135% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Recovery applied Instantly",
+                "kr": "회복량의 50%를 즉시 회복"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -55,
+                    -52
+                  ]
+                }
+              ],
+              "value": "-55~-52",
+              "text": {
+                "en": "(-55--52)% reduced Amount Recovered",
+                "kr": "회복량 (-55--52)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    135,
+                    135
+                  ]
+                }
+              ],
+              "value": "135",
+              "text": {
+                "en": "135% increased Recovery rate",
+                "kr": "회복 속도 135% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullInstantRecovery1",
+          "affixType": "prefix",
+          "tier": 7,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -66,
+              -66
+            ]
+          ],
+          "name": {
+            "en": "Seething",
+            "kr": "끓어오르는"
+          },
+          "effect": {
+            "en": "Instant Recovery\n-66% reduced Amount Recovered",
+            "kr": "즉시 회복\n회복량 -66% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 3000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovers_instantly",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Instant Recovery",
+                "kr": "즉시 회복"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -66,
+                    -66
+                  ]
+                }
+              ],
+              "value": "-66",
+              "text": {
+                "en": "-66% reduced Amount Recovered",
+                "kr": "회복량 -66% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit1",
+          "affixType": "prefix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Medic's",
+            "kr": "의무병의"
+          },
+          "effect": {
+            "en": "(11-15)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (11-15)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (11-15)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedHealingCharges1",
+          "affixType": "prefix",
+          "tier": 10,
+          "valueRanges": [
+            [
+              21,
+              26
+            ],
+            [
+              20,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Nitrate",
+            "kr": "질산염"
+          },
+          "effect": {
+            "en": "(21-26)% increased Amount Recovered\n(20-25)% increased Charges per use",
+            "kr": "회복량 (21-26)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
+          },
+          "group": [
+            100
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    21,
+                    26
+                  ]
+                }
+              ],
+              "value": "21~26",
+              "text": {
+                "en": "(21-26)% increased Amount Recovered",
+                "kr": "회복량 (21-26)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    20,
+                    25
+                  ]
+                }
+              ],
+              "value": "20~25",
+              "text": {
+                "en": "(20-25)% increased Charges per use",
+                "kr": "사용 1회당 충전 소모량 (20-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraManaCostsLife1",
+          "affixType": "prefix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              41,
+              46
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Aged",
+            "kr": "숙성된"
+          },
+          "effect": {
+            "en": "(41-46)% increased Mana Recovered\nRemoves 15% of Mana Recovered from Life when used",
+            "kr": "마나 회복 (41-46)% 증가\n사용 시 생명력에서 회복한 마나의 15% 제거"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_mana_to_recover_+%",
+                  "valueRange": [
+                    41,
+                    46
+                  ]
+                }
+              ],
+              "value": "41~46",
+              "text": {
+                "en": "(41-46)% increased Mana Recovered",
+                "kr": "마나 회복 (41-46)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_mana_recovery_from_life_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Mana Recovered from Life when used",
+                "kr": "사용 시 생명력에서 회복한 마나의 15% 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed1",
+          "affixType": "prefix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              -16,
+              -14
+            ]
+          ],
+          "name": {
+            "en": "Apprentice's",
+            "kr": "수습생의"
+          },
+          "effect": {
+            "en": "(-16--14)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-16--14)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -16,
+                    -14
+                  ]
+                }
+              ],
+              "value": "-16~-14",
+              "text": {
+                "en": "(-16--14)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-16--14)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskEffectNotRemovedOnFullMana1",
+          "affixType": "prefix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              -66,
+              -66
+            ]
+          ],
+          "name": {
+            "en": "Enduring",
+            "kr": "인내의"
+          },
+          "effect": {
+            "en": "Effect is not removed when Unreserved Mana is Filled\\nEffect does not Queue\n0% increased Duration\n-66% reduced Amount Recovered",
+            "kr": "점유되지 않은 마나가 찼을 때 효과가 제거되지 않음\\n효과가 예약되지 않음\n지속시간 0% 증가\n회복량 -66% 감소"
+          },
+          "group": [
+            102
+          ],
+          "weight": 3000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_not_removed_at_full_mana",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Effect is not removed when Unreserved Mana is Filled\\nEffect does not Queue",
+                "kr": "점유되지 않은 마나가 찼을 때 효과가 제거되지 않음\\n효과가 예약되지 않음"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "value": "0",
+              "text": {
+                "en": "0% increased Duration",
+                "kr": "지속시간 0% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -66,
+                    -66
+                  ]
+                }
+              ],
+              "value": "-66",
+              "text": {
+                "en": "-66% reduced Amount Recovered",
+                "kr": "회복량 -66% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskManaRecoveryAtEnd1_",
+          "affixType": "prefix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              66,
+              66
+            ]
+          ],
+          "name": {
+            "en": "Foreboding",
+            "kr": "불길한"
+          },
+          "effect": {
+            "en": "Mana Recovery occurs instantly at the end of Effect\n66% increased Amount Recovered",
+            "kr": "효과가 끝나면 마나 회복 즉시 발동\n회복량 66% 증가"
+          },
+          "group": [
+            101
+          ],
+          "weight": 3000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_mana_recovery_occurs_instantly_at_end_of_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Mana Recovery occurs instantly at the end of Effect",
+                "kr": "효과가 끝나면 마나 회복 즉시 발동"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    66,
+                    66
+                  ]
+                }
+              ],
+              "value": "66",
+              "text": {
+                "en": "66% increased Amount Recovered",
+                "kr": "회복량 66% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount2_",
+          "affixType": "prefix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              47,
+              52
+            ],
+            [
+              -33,
+              -33
+            ]
+          ],
+          "name": {
+            "en": "Opaque",
+            "kr": "불투명한"
+          },
+          "effect": {
+            "en": "(47-52)% increased Amount Recovered\n-33% reduced Recovery rate",
+            "kr": "회복량 (47-52)% 증가\n회복 속도 -33% 감소"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    47,
+                    52
+                  ]
+                }
+              ],
+              "value": "47~52",
+              "text": {
+                "en": "(47-52)% increased Amount Recovered",
+                "kr": "회복량 (47-52)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    -33,
+                    -33
+                  ]
+                }
+              ],
+              "value": "-33",
+              "text": {
+                "en": "-33% reduced Recovery rate",
+                "kr": "회복 속도 -33% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed2",
+          "affixType": "prefix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              47,
+              52
+            ]
+          ],
+          "name": {
+            "en": "Thickened",
+            "kr": "두터움의"
+          },
+          "effect": {
+            "en": "(47-52)% increased Recovery rate",
+            "kr": "회복 속도 (47-52)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    47,
+                    52
+                  ]
+                }
+              ],
+              "value": "47~52",
+              "text": {
+                "en": "(47-52)% increased Recovery rate",
+                "kr": "회복 속도 (47-52)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges2__",
+          "affixType": "prefix",
+          "tier": 22,
+          "valueRanges": [
+            [
+              20,
+              23
+            ]
+          ],
+          "name": {
+            "en": "Plentiful",
+            "kr": "풍요한"
+          },
+          "effect": {
+            "en": "(20-23) to Maximum Charges",
+            "kr": "충전 최대치 (20-23)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    20,
+                    23
+                  ]
+                }
+              ],
+              "value": "20~23",
+              "text": {
+                "en": "(20-23) to Maximum Charges",
+                "kr": "충전 최대치 (20-23)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery2",
+          "affixType": "prefix",
+          "tier": 22,
+          "valueRanges": [
+            [
+              50,
+              50
+            ],
+            [
+              -51,
+              -48
+            ],
+            [
+              135,
+              135
+            ]
+          ],
+          "name": {
+            "en": "Ebullient",
+            "kr": "넘치는"
+          },
+          "effect": {
+            "en": "50% of Recovery applied Instantly\n(-51--48)% reduced Amount Recovered\n135% increased Recovery rate",
+            "kr": "회복량의 50%를 즉시 회복\n회복량 (-51--48)% 감소\n회복 속도 135% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Recovery applied Instantly",
+                "kr": "회복량의 50%를 즉시 회복"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -51,
+                    -48
+                  ]
+                }
+              ],
+              "value": "-51~-48",
+              "text": {
+                "en": "(-51--48)% reduced Amount Recovered",
+                "kr": "회복량 (-51--48)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    135,
+                    135
+                  ]
+                }
+              ],
+              "value": "135",
+              "text": {
+                "en": "135% increased Recovery rate",
+                "kr": "회복 속도 135% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent2_",
+          "affixType": "prefix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Continuous",
+            "kr": "계속되는"
+          },
+          "effect": {
+            "en": "(21-25)% increased Charge Recovery",
+            "kr": "충전 회복 (21-25)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% increased Charge Recovery",
+                "kr": "충전 회복 (21-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit2",
+          "affixType": "prefix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Physician's",
+            "kr": "의원의"
+          },
+          "effect": {
+            "en": "(16-20)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (16-20)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (16-20)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedHealingCharges2",
+          "affixType": "prefix",
+          "tier": 28,
+          "valueRanges": [
+            [
+              27,
+              32
+            ],
+            [
+              20,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Dolomite",
+            "kr": "백운석"
+          },
+          "effect": {
+            "en": "(27-32)% increased Amount Recovered\n(20-25)% increased Charges per use",
+            "kr": "회복량 (27-32)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
+          },
+          "group": [
+            100
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    27,
+                    32
+                  ]
+                }
+              ],
+              "value": "27~32",
+              "text": {
+                "en": "(27-32)% increased Amount Recovered",
+                "kr": "회복량 (27-32)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    20,
+                    25
+                  ]
+                }
+              ],
+              "value": "20~25",
+              "text": {
+                "en": "(20-25)% increased Charges per use",
+                "kr": "사용 1회당 충전 소모량 (20-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullRechargeOnHit2_",
+          "affixType": "prefix",
+          "tier": 29,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Transgressor's",
+            "kr": "범법자의"
+          },
+          "effect": {
+            "en": "Gain 1 Charge when you are Hit by an Enemy",
+            "kr": "적에게 피격 시 충전 1 획득"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_when_hit",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Gain 1 Charge when you are Hit by an Enemy",
+                "kr": "적에게 피격 시 충전 1 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraManaCostsLife2",
+          "affixType": "prefix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              47,
+              52
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Fermented",
+            "kr": "발효된"
+          },
+          "effect": {
+            "en": "(47-52)% increased Mana Recovered\nRemoves 15% of Mana Recovered from Life when used",
+            "kr": "마나 회복 (47-52)% 증가\n사용 시 생명력에서 회복한 마나의 15% 제거"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_mana_to_recover_+%",
+                  "valueRange": [
+                    47,
+                    52
+                  ]
+                }
+              ],
+              "value": "47~52",
+              "text": {
+                "en": "(47-52)% increased Mana Recovered",
+                "kr": "마나 회복 (47-52)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_mana_recovery_from_life_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Mana Recovered from Life when used",
+                "kr": "사용 시 생명력에서 회복한 마나의 15% 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed2",
+          "affixType": "prefix",
+          "tier": 31,
+          "valueRanges": [
+            [
+              -19,
+              -17
+            ]
+          ],
+          "name": {
+            "en": "Scholar's",
+            "kr": "학자의"
+          },
+          "effect": {
+            "en": "(-19--17)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-19--17)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -19,
+                    -17
+                  ]
+                }
+              ],
+              "value": "-19~-17",
+              "text": {
+                "en": "(-19--17)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-19--17)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount3",
+          "affixType": "prefix",
+          "tier": 41,
+          "valueRanges": [
+            [
+              53,
+              58
+            ],
+            [
+              -33,
+              -33
+            ]
+          ],
+          "name": {
+            "en": "Full-bodied",
+            "kr": "진한"
+          },
+          "effect": {
+            "en": "(53-58)% increased Amount Recovered\n-33% reduced Recovery rate",
+            "kr": "회복량 (53-58)% 증가\n회복 속도 -33% 감소"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    53,
+                    58
+                  ]
+                }
+              ],
+              "value": "53~58",
+              "text": {
+                "en": "(53-58)% increased Amount Recovered",
+                "kr": "회복량 (53-58)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    -33,
+                    -33
+                  ]
+                }
+              ],
+              "value": "-33",
+              "text": {
+                "en": "-33% reduced Recovery rate",
+                "kr": "회복 속도 -33% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed3_",
+          "affixType": "prefix",
+          "tier": 41,
+          "valueRanges": [
+            [
+              53,
+              58
+            ]
+          ],
+          "name": {
+            "en": "Viscous",
+            "kr": "점성 있는"
+          },
+          "effect": {
+            "en": "(53-58)% increased Recovery rate",
+            "kr": "회복 속도 (53-58)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    53,
+                    58
+                  ]
+                }
+              ],
+              "value": "53~58",
+              "text": {
+                "en": "(53-58)% increased Recovery rate",
+                "kr": "회복 속도 (53-58)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery3",
+          "affixType": "prefix",
+          "tier": 41,
+          "valueRanges": [
+            [
+              50,
+              50
+            ],
+            [
+              -47,
+              -44
+            ],
+            [
+              135,
+              135
+            ]
+          ],
+          "name": {
+            "en": "Effusive",
+            "kr": "분출하는"
+          },
+          "effect": {
+            "en": "50% of Recovery applied Instantly\n(-47--44)% reduced Amount Recovered\n135% increased Recovery rate",
+            "kr": "회복량의 50%를 즉시 회복\n회복량 (-47--44)% 감소\n회복 속도 135% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Recovery applied Instantly",
+                "kr": "회복량의 50%를 즉시 회복"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -47,
+                    -44
+                  ]
+                }
+              ],
+              "value": "-47~-44",
+              "text": {
+                "en": "(-47--44)% reduced Amount Recovered",
+                "kr": "회복량 (-47--44)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    135,
+                    135
+                  ]
+                }
+              ],
+              "value": "135",
+              "text": {
+                "en": "135% increased Recovery rate",
+                "kr": "회복 속도 135% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges3_",
+          "affixType": "prefix",
+          "tier": 42,
+          "valueRanges": [
+            [
+              24,
+              27
+            ]
+          ],
+          "name": {
+            "en": "Bountiful",
+            "kr": "풍성한"
+          },
+          "effect": {
+            "en": "(24-27) to Maximum Charges",
+            "kr": "충전 최대치 (24-27)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    24,
+                    27
+                  ]
+                }
+              ],
+              "value": "24~27",
+              "text": {
+                "en": "(24-27) to Maximum Charges",
+                "kr": "충전 최대치 (24-27)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent3_",
+          "affixType": "prefix",
+          "tier": 43,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Endless",
+            "kr": "끝없는"
+          },
+          "effect": {
+            "en": "(26-30)% increased Charge Recovery",
+            "kr": "충전 회복 (26-30)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% increased Charge Recovery",
+                "kr": "충전 회복 (26-30)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit3___",
+          "affixType": "prefix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Doctor's",
+            "kr": "의생의"
+          },
+          "effect": {
+            "en": "(21-25)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (21-25)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (21-25)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedHealingCharges3",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              33,
+              38
+            ],
+            [
+              20,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Kieserite",
+            "kr": "키젤석"
+          },
+          "effect": {
+            "en": "(33-38)% increased Amount Recovered\n(20-25)% increased Charges per use",
+            "kr": "회복량 (33-38)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
+          },
+          "group": [
+            100
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    33,
+                    38
+                  ]
+                }
+              ],
+              "value": "33~38",
+              "text": {
+                "en": "(33-38)% increased Amount Recovered",
+                "kr": "회복량 (33-38)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    20,
+                    25
+                  ]
+                }
+              ],
+              "value": "20~25",
+              "text": {
+                "en": "(20-25)% increased Charges per use",
+                "kr": "사용 1회당 충전 소모량 (20-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraManaCostsLife3_",
+          "affixType": "prefix",
+          "tier": 47,
+          "valueRanges": [
+            [
+              53,
+              58
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Congealed",
+            "kr": "굳은"
+          },
+          "effect": {
+            "en": "(53-58)% increased Mana Recovered\nRemoves 15% of Mana Recovered from Life when used",
+            "kr": "마나 회복 (53-58)% 증가\n사용 시 생명력에서 회복한 마나의 15% 제거"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_mana_to_recover_+%",
+                  "valueRange": [
+                    53,
+                    58
+                  ]
+                }
+              ],
+              "value": "53~58",
+              "text": {
+                "en": "(53-58)% increased Mana Recovered",
+                "kr": "마나 회복 (53-58)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_mana_recovery_from_life_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Mana Recovered from Life when used",
+                "kr": "사용 시 생명력에서 회복한 마나의 15% 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed3__",
+          "affixType": "prefix",
+          "tier": 48,
+          "valueRanges": [
+            [
+              -22,
+              -20
+            ]
+          ],
+          "name": {
+            "en": "Practitioner's",
+            "kr": "실무자의"
+          },
+          "effect": {
+            "en": "(-22--20)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-22--20)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -22,
+                    -20
+                  ]
+                }
+              ],
+              "value": "-22~-20",
+              "text": {
+                "en": "(-22--20)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-22--20)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery4",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              50,
+              50
+            ],
+            [
+              -43,
+              -40
+            ],
+            [
+              135,
+              135
+            ]
+          ],
+          "name": {
+            "en": "Effervescent",
+            "kr": "거품 이는"
+          },
+          "effect": {
+            "en": "50% of Recovery applied Instantly\n(-43--40)% reduced Amount Recovered\n135% increased Recovery rate",
+            "kr": "회복량의 50%를 즉시 회복\n회복량 (-43--40)% 감소\n회복 속도 135% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Recovery applied Instantly",
+                "kr": "회복량의 50%를 즉시 회복"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -43,
+                    -40
+                  ]
+                }
+              ],
+              "value": "-43~-40",
+              "text": {
+                "en": "(-43--40)% reduced Amount Recovered",
+                "kr": "회복량 (-43--40)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    135,
+                    135
+                  ]
+                }
+              ],
+              "value": "135",
+              "text": {
+                "en": "135% increased Recovery rate",
+                "kr": "회복 속도 135% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount4",
+          "affixType": "prefix",
+          "tier": 61,
+          "valueRanges": [
+            [
+              59,
+              64
+            ],
+            [
+              -33,
+              -33
+            ]
+          ],
+          "name": {
+            "en": "Concentrated",
+            "kr": "밀집된"
+          },
+          "effect": {
+            "en": "(59-64)% increased Amount Recovered\n-33% reduced Recovery rate",
+            "kr": "회복량 (59-64)% 증가\n회복 속도 -33% 감소"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    59,
+                    64
+                  ]
+                }
+              ],
+              "value": "59~64",
+              "text": {
+                "en": "(59-64)% increased Amount Recovered",
+                "kr": "회복량 (59-64)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    -33,
+                    -33
+                  ]
+                }
+              ],
+              "value": "-33",
+              "text": {
+                "en": "-33% reduced Recovery rate",
+                "kr": "회복 속도 -33% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed4",
+          "affixType": "prefix",
+          "tier": 61,
+          "valueRanges": [
+            [
+              59,
+              64
+            ]
+          ],
+          "name": {
+            "en": "Condensed",
+            "kr": "농축된"
+          },
+          "effect": {
+            "en": "(59-64)% increased Recovery rate",
+            "kr": "회복 속도 (59-64)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    59,
+                    64
+                  ]
+                }
+              ],
+              "value": "59~64",
+              "text": {
+                "en": "(59-64)% increased Recovery rate",
+                "kr": "회복 속도 (59-64)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit4",
+          "affixType": "prefix",
+          "tier": 62,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Specialist's",
+            "kr": "전문의의"
+          },
+          "effect": {
+            "en": "(26-30)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (26-30)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (26-30)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges4__",
+          "affixType": "prefix",
+          "tier": 62,
+          "valueRanges": [
+            [
+              28,
+              31
+            ]
+          ],
+          "name": {
+            "en": "Abundant",
+            "kr": "풍부한"
+          },
+          "effect": {
+            "en": "(28-31) to Maximum Charges",
+            "kr": "충전 최대치 (28-31)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    28,
+                    31
+                  ]
+                }
+              ],
+              "value": "28~31",
+              "text": {
+                "en": "(28-31) to Maximum Charges",
+                "kr": "충전 최대치 (28-31)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent4_",
+          "affixType": "prefix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              31,
+              45
+            ]
+          ],
+          "name": {
+            "en": "Bottomless",
+            "kr": "바닥이 없는"
+          },
+          "effect": {
+            "en": "(31-45)% increased Charge Recovery",
+            "kr": "충전 회복 (31-45)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    31,
+                    45
+                  ]
+                }
+              ],
+              "value": "31~45",
+              "text": {
+                "en": "(31-45)% increased Charge Recovery",
+                "kr": "충전 회복 (31-45)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullRechargeOnHit4_",
+          "affixType": "prefix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              2,
+              2
+            ]
+          ],
+          "name": {
+            "en": "Masochist's",
+            "kr": "피학 도착자의"
+          },
+          "effect": {
+            "en": "Gain 2 Charges when you are Hit by an Enemy",
+            "kr": "적에게 피격 시 충전 2 획득"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_when_hit",
+                  "valueRange": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "value": "2",
+              "text": {
+                "en": "Gain 2 Charges when you are Hit by an Enemy",
+                "kr": "적에게 피격 시 충전 2 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraManaCostsLife4",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              59,
+              64
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Turbid",
+            "kr": "탁한"
+          },
+          "effect": {
+            "en": "(59-64)% increased Mana Recovered\nRemoves 15% of Mana Recovered from Life when used",
+            "kr": "마나 회복 (59-64)% 증가\n사용 시 생명력에서 회복한 마나의 15% 제거"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_mana_to_recover_+%",
+                  "valueRange": [
+                    59,
+                    64
+                  ]
+                }
+              ],
+              "value": "59~64",
+              "text": {
+                "en": "(59-64)% increased Mana Recovered",
+                "kr": "마나 회복 (59-64)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_mana_recovery_from_life_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Mana Recovered from Life when used",
+                "kr": "사용 시 생명력에서 회복한 마나의 15% 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedHealingCharges4____",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              39,
+              44
+            ],
+            [
+              20,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Kainite",
+            "kr": "카이나이트"
+          },
+          "effect": {
+            "en": "(39-44)% increased Amount Recovered\n(20-25)% increased Charges per use",
+            "kr": "회복량 (39-44)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
+          },
+          "group": [
+            100
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    39,
+                    44
+                  ]
+                }
+              ],
+              "value": "39~44",
+              "text": {
+                "en": "(39-44)% increased Amount Recovered",
+                "kr": "회복량 (39-44)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    20,
+                    25
+                  ]
+                }
+              ],
+              "value": "20~25",
+              "text": {
+                "en": "(20-25)% increased Charges per use",
+                "kr": "사용 1회당 충전 소모량 (20-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed4__",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              -25,
+              -23
+            ]
+          ],
+          "name": {
+            "en": "Brewer's",
+            "kr": "조제자의"
+          },
+          "effect": {
+            "en": "(-25--23)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-25--23)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -25,
+                    -23
+                  ]
+                }
+              ],
+              "value": "-25~-23",
+              "text": {
+                "en": "(-25--23)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-25--23)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPartialInstantRecovery5_",
+          "affixType": "prefix",
+          "tier": 79,
+          "valueRanges": [
+            [
+              50,
+              50
+            ],
+            [
+              -39,
+              -36
+            ],
+            [
+              135,
+              135
+            ]
+          ],
+          "name": {
+            "en": "Bubbling",
+            "kr": "부글대는"
+          },
+          "effect": {
+            "en": "50% of Recovery applied Instantly\n(-39--36)% reduced Amount Recovered\n135% increased Recovery rate",
+            "kr": "회복량의 50%를 즉시 회복\n회복량 (-39--36)% 감소\n회복 속도 135% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_amount_%_to_recover_instantly",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Recovery applied Instantly",
+                "kr": "회복량의 50%를 즉시 회복"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    -39,
+                    -36
+                  ]
+                }
+              ],
+              "value": "-39~-36",
+              "text": {
+                "en": "(-39--36)% reduced Amount Recovered",
+                "kr": "회복량 (-39--36)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    135,
+                    135
+                  ]
+                }
+              ],
+              "value": "135",
+              "text": {
+                "en": "135% increased Recovery rate",
+                "kr": "회복 속도 135% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit5",
+          "affixType": "prefix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "Surgeon's",
+            "kr": "의사의"
+          },
+          "effect": {
+            "en": "(31-35)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (31-35)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (31-35)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullRechargeOnHit5___",
+          "affixType": "prefix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Flagellant's",
+            "kr": "고행자의"
+          },
+          "effect": {
+            "en": "Gain 3 Charges when you are Hit by an Enemy",
+            "kr": "적에게 피격 시 충전 3 획득"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_when_hit",
+                  "valueRange": [
+                    3,
+                    3
+                  ]
+                }
+              ],
+              "value": "3",
+              "text": {
+                "en": "Gain 3 Charges when you are Hit by an Enemy",
+                "kr": "적에게 피격 시 충전 3 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraManaCostsLife5_",
+          "affixType": "prefix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              65,
+              70
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Caustic",
+            "kr": "부식성"
+          },
+          "effect": {
+            "en": "(65-70)% increased Mana Recovered\nRemoves 15% of Mana Recovered from Life when used",
+            "kr": "마나 회복 (65-70)% 증가\n사용 시 생명력에서 회복한 마나의 15% 제거"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_mana_to_recover_+%",
+                  "valueRange": [
+                    65,
+                    70
+                  ]
+                }
+              ],
+              "value": "65~70",
+              "text": {
+                "en": "(65-70)% increased Mana Recovered",
+                "kr": "마나 회복 (65-70)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_removes_%_of_mana_recovery_from_life_on_use",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "Removes 15% of Mana Recovered from Life when used",
+                "kr": "사용 시 생명력에서 회복한 마나의 15% 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryAmount5",
+          "affixType": "prefix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              65,
+              70
+            ],
+            [
+              -33,
+              -33
+            ]
+          ],
+          "name": {
+            "en": "Saturated",
+            "kr": "포화된"
+          },
+          "effect": {
+            "en": "(65-70)% increased Amount Recovered\n-33% reduced Recovery rate",
+            "kr": "회복량 (65-70)% 증가\n회복 속도 -33% 감소"
+          },
+          "group": [
+            86
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    65,
+                    70
+                  ]
+                }
+              ],
+              "value": "65~70",
+              "text": {
+                "en": "(65-70)% increased Amount Recovered",
+                "kr": "회복량 (65-70)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    -33,
+                    -33
+                  ]
+                }
+              ],
+              "value": "-33",
+              "text": {
+                "en": "-33% reduced Recovery rate",
+                "kr": "회복 속도 -33% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoverySpeed5",
+          "affixType": "prefix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              65,
+              70
+            ]
+          ],
+          "name": {
+            "en": "Catalysed",
+            "kr": "촉진된"
+          },
+          "effect": {
+            "en": "(65-70)% increased Recovery rate",
+            "kr": "회복 속도 (65-70)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_recovery_speed_+%",
+                  "valueRange": [
+                    65,
+                    70
+                  ]
+                }
+              ],
+              "value": "65~70",
+              "text": {
+                "en": "(65-70)% increased Recovery rate",
+                "kr": "회복 속도 (65-70)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed5",
+          "affixType": "prefix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              -28,
+              -26
+            ]
+          ],
+          "name": {
+            "en": "Chemist's",
+            "kr": "화학자의"
+          },
+          "effect": {
+            "en": "(-28--26)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-28--26)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -28,
+                    -26
+                  ]
+                }
+              ],
+              "value": "-28~-26",
+              "text": {
+                "en": "(-28--26)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-28--26)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges5",
+          "affixType": "prefix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              32,
+              35
+            ]
+          ],
+          "name": {
+            "en": "Ample",
+            "kr": "풍족한"
+          },
+          "effect": {
+            "en": "(32-35) to Maximum Charges",
+            "kr": "충전 최대치 (32-35)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    32,
+                    35
+                  ]
+                }
+              ],
+              "value": "32~35",
+              "text": {
+                "en": "(32-35) to Maximum Charges",
+                "kr": "충전 최대치 (32-35)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedHealingCharges5",
+          "affixType": "prefix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              45,
+              50
+            ],
+            [
+              20,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Gypsum",
+            "kr": "석고"
+          },
+          "effect": {
+            "en": "(45-50)% increased Amount Recovered\n(20-25)% increased Charges per use",
+            "kr": "회복량 (45-50)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
+          },
+          "group": [
+            100
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_amount_to_recover_+%",
+                  "valueRange": [
+                    45,
+                    50
+                  ]
+                }
+              ],
+              "value": "45~50",
+              "text": {
+                "en": "(45-50)% increased Amount Recovered",
+                "kr": "회복량 (45-50)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    20,
+                    25
+                  ]
+                }
+              ],
+              "value": "20~25",
+              "text": {
+                "en": "(20-25)% increased Charges per use",
+                "kr": "사용 1회당 충전 소모량 (20-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent5__",
+          "affixType": "prefix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Perpetual",
+            "kr": "영속적인"
+          },
+          "effect": {
+            "en": "(46-50)% increased Charge Recovery",
+            "kr": "충전 회복 (46-50)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% increased Charge Recovery",
+                "kr": "충전 회복 (46-50)% 증가"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "FlaskChillFreezeImmunity1",
+          "affixType": "suffix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Convection",
+            "kr": "- 대류"
+          },
+          "effect": {
+            "en": "Grants Immunity to Chill for (6-8) seconds if used while Chilled\\nGrants Immunity to Freeze for (6-8) seconds if used while Frozen",
+            "kr": "냉각 상태에서 사용 시 (6-8)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (6-8)초 동안 동결 면역 부여"
+          },
+          "group": [
+            90
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chill_or_freeze_immunity_if_chilled_or_frozen_s",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "Grants Immunity to Chill for (6-8) seconds if used while Chilled\\nGrants Immunity to Freeze for (6-8) seconds if used while Frozen",
+                "kr": "냉각 상태에서 사용 시 (6-8)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (6-8)초 동안 동결 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIgniteImmunity1",
+          "affixType": "suffix",
+          "tier": 6,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Damping",
+            "kr": "- 적시기"
+          },
+          "effect": {
+            "en": "Grants Immunity to Ignite for (6-8) seconds if used while Ignited\\nRemoves all Burning when used",
+            "kr": "점화 상태에서 사용 시 (6-8)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+          },
+          "group": [
+            91
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ignite_immunity_if_ignited_and_remove_burning_s",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "Grants Immunity to Ignite for (6-8) seconds if used while Ignited\\nRemoves all Burning when used",
+                "kr": "점화 상태에서 사용 시 (6-8)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskShockImmunity1",
+          "affixType": "suffix",
+          "tier": 6,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Earthing",
+            "kr": "- 땅"
+          },
+          "effect": {
+            "en": "Grants Immunity to Shock for (6-8) seconds if used while Shocked",
+            "kr": "감전 상태에서 사용 시 (6-8)초 동안 감전 면역 부여"
+          },
+          "group": [
+            550
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_shock_immunity_if_shocked_s",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "Grants Immunity to Shock for (6-8) seconds if used while Shocked",
+                "kr": "감전 상태에서 사용 시 (6-8)초 동안 감전 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBleedCorruptingBloodImmunity1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Sealing",
+            "kr": "- 봉인"
+          },
+          "effect": {
+            "en": "Grants Immunity to Bleeding for (6-8) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (6-8) seconds if used while affected by Corrupted Blood",
+            "kr": "출혈 상태에서 사용 시 (6-8)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (6-8)초 동안 타락한 피 면역 부여"
+          },
+          "group": [
+            549
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_bleeding_immunity_if_bleeding_and_remove_corrupted_blood_s",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "Grants Immunity to Bleeding for (6-8) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (6-8) seconds if used while affected by Corrupted Blood",
+                "kr": "출혈 상태에서 사용 시 (6-8)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (6-8)초 동안 타락한 피 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPoisonImmunity1__",
+          "affixType": "suffix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of the Antitoxin",
+            "kr": "- 항독소"
+          },
+          "effect": {
+            "en": "Grants Immunity to Poison for (6-8) seconds if used while Poisoned",
+            "kr": "중독 상태에서 사용 시 (6-8)초 동안 중독 면역 부여"
+          },
+          "group": [
+            96
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_poison_immunity_if_poisoned_s",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "Grants Immunity to Poison for (6-8) seconds if used while Poisoned",
+                "kr": "중독 상태에서 사용 시 (6-8)초 동안 중독 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalFlaskImmuneToMaimAndHinder1",
+          "affixType": "suffix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of Movement",
+            "kr": "- 이동"
+          },
+          "effect": {
+            "en": "Grants Immunity to Hinder for (6-8) seconds if used while Hindered\nGrants Immunity to Maim for (6-8) seconds if used while Maimed",
+            "kr": "이동 방해 상태에서 사용 시 (6-8)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (6-8)초 동안 힘줄 절단 면역 부여"
+          },
+          "group": [
+            4960
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_hinder_for_x_seconds_if_hindered",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "Grants Immunity to Hinder for (6-8) seconds if used while Hindered",
+                "kr": "이동 방해 상태에서 사용 시 (6-8)초 동안 이동 방해 면역 부여"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_maim_for_x_seconds_if_maimed",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "Grants Immunity to Maim for (6-8) seconds if used while Maimed",
+                "kr": "힘줄 절단 상태에서 사용 시 (6-8)초 동안 힘줄 절단 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskCurseImmunity1",
+          "affixType": "suffix",
+          "tier": 18,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of Warding",
+            "kr": "- 수호"
+          },
+          "effect": {
+            "en": "Removes Curses on use",
+            "kr": "사용 시 저주 제거"
+          },
+          "group": [
+            3041
+          ],
+          "weight": 3000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_remove_curses_on_use",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Removes Curses on use",
+                "kr": "사용 시 저주 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChillFreezeImmunity2",
+          "affixType": "suffix",
+          "tier": 28,
+          "valueRanges": [
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Thermodynamics",
+            "kr": "- 열역학"
+          },
+          "effect": {
+            "en": "Grants Immunity to Chill for (9-11) seconds if used while Chilled\\nGrants Immunity to Freeze for (9-11) seconds if used while Frozen",
+            "kr": "냉각 상태에서 사용 시 (9-11)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (9-11)초 동안 동결 면역 부여"
+          },
+          "group": [
+            90
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chill_or_freeze_immunity_if_chilled_or_frozen_s",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "Grants Immunity to Chill for (9-11) seconds if used while Chilled\\nGrants Immunity to Freeze for (9-11) seconds if used while Frozen",
+                "kr": "냉각 상태에서 사용 시 (9-11)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (9-11)초 동안 동결 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIgniteImmunity2_",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Quashing",
+            "kr": "- 짓누르기"
+          },
+          "effect": {
+            "en": "Grants Immunity to Ignite for (9-11) seconds if used while Ignited\\nRemoves all Burning when used",
+            "kr": "점화 상태에서 사용 시 (9-11)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+          },
+          "group": [
+            91
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ignite_immunity_if_ignited_and_remove_burning_s",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "Grants Immunity to Ignite for (9-11) seconds if used while Ignited\\nRemoves all Burning when used",
+                "kr": "점화 상태에서 사용 시 (9-11)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskShockImmunity2",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Grounding",
+            "kr": "- 접지"
+          },
+          "effect": {
+            "en": "Grants Immunity to Shock for (9-11) seconds if used while Shocked",
+            "kr": "감전 상태에서 사용 시 (9-11)초 동안 감전 면역 부여"
+          },
+          "group": [
+            550
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_shock_immunity_if_shocked_s",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "Grants Immunity to Shock for (9-11) seconds if used while Shocked",
+                "kr": "감전 상태에서 사용 시 (9-11)초 동안 감전 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalManaFlaskHinderNearbyEnemies1_",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              17,
+              22
+            ]
+          ],
+          "name": {
+            "en": "of Interference",
+            "kr": "- 방해"
+          },
+          "effect": {
+            "en": "Hinders nearby Enemies with (17-22)% reduced Movement Speed if used while not on Full Mana",
+            "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (17-22)% 감소"
+          },
+          "group": [
+            4959
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_hinder_nearby_enemies_%_for_4_seconds_if_not_on_full_mana",
+                  "valueRange": [
+                    17,
+                    22
+                  ]
+                }
+              ],
+              "value": "17~22",
+              "text": {
+                "en": "Hinders nearby Enemies with (17-22)% reduced Movement Speed if used while not on Full Mana",
+                "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (17-22)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBleedCorruptingBloodImmunity2",
+          "affixType": "suffix",
+          "tier": 32,
+          "valueRanges": [
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Alleviation",
+            "kr": "- 완화"
+          },
+          "effect": {
+            "en": "Grants Immunity to Bleeding for (9-11) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (9-11) seconds if used while affected by Corrupted Blood",
+            "kr": "출혈 상태에서 사용 시 (9-11)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (9-11)초 동안 타락한 피 면역 부여"
+          },
+          "group": [
+            549
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_bleeding_immunity_if_bleeding_and_remove_corrupted_blood_s",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "Grants Immunity to Bleeding for (9-11) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (9-11) seconds if used while affected by Corrupted Blood",
+                "kr": "출혈 상태에서 사용 시 (9-11)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (9-11)초 동안 타락한 피 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPoisonImmunity2",
+          "affixType": "suffix",
+          "tier": 38,
+          "valueRanges": [
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of the Remedy",
+            "kr": "- 요법"
+          },
+          "effect": {
+            "en": "Grants Immunity to Poison for (9-11) seconds if used while Poisoned",
+            "kr": "중독 상태에서 사용 시 (9-11)초 동안 중독 면역 부여"
+          },
+          "group": [
+            96
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_poison_immunity_if_poisoned_s",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "Grants Immunity to Poison for (9-11) seconds if used while Poisoned",
+                "kr": "중독 상태에서 사용 시 (9-11)초 동안 중독 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalFlaskImmuneToMaimAndHinder2",
+          "affixType": "suffix",
+          "tier": 38,
+          "valueRanges": [
+            [
+              9,
+              11
+            ],
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Motion",
+            "kr": "- 동작"
+          },
+          "effect": {
+            "en": "Grants Immunity to Hinder for (9-11) seconds if used while Hindered\nGrants Immunity to Maim for (9-11) seconds if used while Maimed",
+            "kr": "이동 방해 상태에서 사용 시 (9-11)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (9-11)초 동안 힘줄 절단 면역 부여"
+          },
+          "group": [
+            4960
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_hinder_for_x_seconds_if_hindered",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "Grants Immunity to Hinder for (9-11) seconds if used while Hindered",
+                "kr": "이동 방해 상태에서 사용 시 (9-11)초 동안 이동 방해 면역 부여"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_maim_for_x_seconds_if_maimed",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "Grants Immunity to Maim for (9-11) seconds if used while Maimed",
+                "kr": "힘줄 절단 상태에서 사용 시 (9-11)초 동안 힘줄 절단 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalManaFlaskHinderNearbyEnemies2",
+          "affixType": "suffix",
+          "tier": 48,
+          "valueRanges": [
+            [
+              23,
+              28
+            ]
+          ],
+          "name": {
+            "en": "of Obstruction",
+            "kr": "- 장애물"
+          },
+          "effect": {
+            "en": "Hinders nearby Enemies with (23-28)% reduced Movement Speed if used while not on Full Mana",
+            "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (23-28)% 감소"
+          },
+          "group": [
+            4959
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_hinder_nearby_enemies_%_for_4_seconds_if_not_on_full_mana",
+                  "valueRange": [
+                    23,
+                    28
+                  ]
+                }
+              ],
+              "value": "23~28",
+              "text": {
+                "en": "Hinders nearby Enemies with (23-28)% reduced Movement Speed if used while not on Full Mana",
+                "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (23-28)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChillFreezeImmunity3",
+          "affixType": "suffix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Entropy",
+            "kr": "- 엔트로피"
+          },
+          "effect": {
+            "en": "Grants Immunity to Chill for (12-14) seconds if used while Chilled\\nGrants Immunity to Freeze for (12-14) seconds if used while Frozen",
+            "kr": "냉각 상태에서 사용 시 (12-14)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (12-14)초 동안 동결 면역 부여"
+          },
+          "group": [
+            90
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chill_or_freeze_immunity_if_chilled_or_frozen_s",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "Grants Immunity to Chill for (12-14) seconds if used while Chilled\\nGrants Immunity to Freeze for (12-14) seconds if used while Frozen",
+                "kr": "냉각 상태에서 사용 시 (12-14)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (12-14)초 동안 동결 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIgniteImmunity3_",
+          "affixType": "suffix",
+          "tier": 54,
+          "valueRanges": [
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Quelling",
+            "kr": "- 진압"
+          },
+          "effect": {
+            "en": "Grants Immunity to Ignite for (12-14) seconds if used while Ignited\\nRemoves all Burning when used",
+            "kr": "점화 상태에서 사용 시 (12-14)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+          },
+          "group": [
+            91
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ignite_immunity_if_ignited_and_remove_burning_s",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "Grants Immunity to Ignite for (12-14) seconds if used while Ignited\\nRemoves all Burning when used",
+                "kr": "점화 상태에서 사용 시 (12-14)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskShockImmunity3",
+          "affixType": "suffix",
+          "tier": 54,
+          "valueRanges": [
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Insulation",
+            "kr": "- 절연"
+          },
+          "effect": {
+            "en": "Grants Immunity to Shock for (12-14) seconds if used while Shocked",
+            "kr": "감전 상태에서 사용 시 (12-14)초 동안 감전 면역 부여"
+          },
+          "group": [
+            550
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_shock_immunity_if_shocked_s",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "Grants Immunity to Shock for (12-14) seconds if used while Shocked",
+                "kr": "감전 상태에서 사용 시 (12-14)초 동안 감전 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBleedCorruptingBloodImmunity3______",
+          "affixType": "suffix",
+          "tier": 56,
+          "valueRanges": [
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Allaying",
+            "kr": "- 누그러뜨림"
+          },
+          "effect": {
+            "en": "Grants Immunity to Bleeding for (12-14) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (12-14) seconds if used while affected by Corrupted Blood",
+            "kr": "출혈 상태에서 사용 시 (12-14)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (12-14)초 동안 타락한 피 면역 부여"
+          },
+          "group": [
+            549
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_bleeding_immunity_if_bleeding_and_remove_corrupted_blood_s",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "Grants Immunity to Bleeding for (12-14) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (12-14) seconds if used while affected by Corrupted Blood",
+                "kr": "출혈 상태에서 사용 시 (12-14)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (12-14)초 동안 타락한 피 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPoisonImmunity3",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of the Cure",
+            "kr": "- 치료제"
+          },
+          "effect": {
+            "en": "Grants Immunity to Poison for (12-14) seconds if used while Poisoned",
+            "kr": "중독 상태에서 사용 시 (12-14)초 동안 중독 면역 부여"
+          },
+          "group": [
+            96
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_poison_immunity_if_poisoned_s",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "Grants Immunity to Poison for (12-14) seconds if used while Poisoned",
+                "kr": "중독 상태에서 사용 시 (12-14)초 동안 중독 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalFlaskImmuneToMaimAndHinder3",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Freedom",
+            "kr": "- 자유"
+          },
+          "effect": {
+            "en": "Grants Immunity to Hinder for (12-14) seconds if used while Hindered\nGrants Immunity to Maim for (12-14) seconds if used while Maimed",
+            "kr": "이동 방해 상태에서 사용 시 (12-14)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (12-14)초 동안 힘줄 절단 면역 부여"
+          },
+          "group": [
+            4960
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_hinder_for_x_seconds_if_hindered",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "Grants Immunity to Hinder for (12-14) seconds if used while Hindered",
+                "kr": "이동 방해 상태에서 사용 시 (12-14)초 동안 이동 방해 면역 부여"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_maim_for_x_seconds_if_maimed",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "Grants Immunity to Maim for (12-14) seconds if used while Maimed",
+                "kr": "힘줄 절단 상태에서 사용 시 (12-14)초 동안 힘줄 절단 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalManaFlaskHinderNearbyEnemies3",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              29,
+              34
+            ]
+          ],
+          "name": {
+            "en": "of Occlusion",
+            "kr": "- 폐색"
+          },
+          "effect": {
+            "en": "Hinders nearby Enemies with (29-34)% reduced Movement Speed if used while not on Full Mana",
+            "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (29-34)% 감소"
+          },
+          "group": [
+            4959
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_hinder_nearby_enemies_%_for_4_seconds_if_not_on_full_mana",
+                  "valueRange": [
+                    29,
+                    34
+                  ]
+                }
+              ],
+              "value": "29~34",
+              "text": {
+                "en": "Hinders nearby Enemies with (29-34)% reduced Movement Speed if used while not on Full Mana",
+                "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (29-34)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChillFreezeImmunity4",
+          "affixType": "suffix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              15,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Thawing",
+            "kr": "- 녹이기"
+          },
+          "effect": {
+            "en": "Grants Immunity to Chill for (15-17) seconds if used while Chilled\\nGrants Immunity to Freeze for (15-17) seconds if used while Frozen",
+            "kr": "냉각 상태에서 사용 시 (15-17)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (15-17)초 동안 동결 면역 부여"
+          },
+          "group": [
+            90
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chill_or_freeze_immunity_if_chilled_or_frozen_s",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "Grants Immunity to Chill for (15-17) seconds if used while Chilled\\nGrants Immunity to Freeze for (15-17) seconds if used while Frozen",
+                "kr": "냉각 상태에서 사용 시 (15-17)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (15-17)초 동안 동결 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIgniteImmunity4",
+          "affixType": "suffix",
+          "tier": 78,
+          "valueRanges": [
+            [
+              15,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Quenching",
+            "kr": "- 불 끄기"
+          },
+          "effect": {
+            "en": "Grants Immunity to Ignite for (15-17) seconds if used while Ignited\\nRemoves all Burning when used",
+            "kr": "점화 상태에서 사용 시 (15-17)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+          },
+          "group": [
+            91
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ignite_immunity_if_ignited_and_remove_burning_s",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "Grants Immunity to Ignite for (15-17) seconds if used while Ignited\\nRemoves all Burning when used",
+                "kr": "점화 상태에서 사용 시 (15-17)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskShockImmunity4_",
+          "affixType": "suffix",
+          "tier": 78,
+          "valueRanges": [
+            [
+              15,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of the Dielectric",
+            "kr": "- 유전체"
+          },
+          "effect": {
+            "en": "Grants Immunity to Shock for (15-17) seconds if used while Shocked",
+            "kr": "감전 상태에서 사용 시 (15-17)초 동안 감전 면역 부여"
+          },
+          "group": [
+            550
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_shock_immunity_if_shocked_s",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "Grants Immunity to Shock for (15-17) seconds if used while Shocked",
+                "kr": "감전 상태에서 사용 시 (15-17)초 동안 감전 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBleedCorruptingBloodImmunity4_",
+          "affixType": "suffix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              15,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Assuaging",
+            "kr": "- 속풀이"
+          },
+          "effect": {
+            "en": "Grants Immunity to Bleeding for (15-17) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (15-17) seconds if used while affected by Corrupted Blood",
+            "kr": "출혈 상태에서 사용 시 (15-17)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (15-17)초 동안 타락한 피 면역 부여"
+          },
+          "group": [
+            549
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_bleeding_immunity_if_bleeding_and_remove_corrupted_blood_s",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "Grants Immunity to Bleeding for (15-17) seconds if used while Bleeding\\nGrants Immunity to Corrupted Blood for (15-17) seconds if used while affected by Corrupted Blood",
+                "kr": "출혈 상태에서 사용 시 (15-17)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (15-17)초 동안 타락한 피 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPoisonImmunity4",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              15,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of the Antidote",
+            "kr": "- 해독제"
+          },
+          "effect": {
+            "en": "Grants Immunity to Poison for (15-17) seconds if used while Poisoned",
+            "kr": "중독 상태에서 사용 시 (15-17)초 동안 중독 면역 부여"
+          },
+          "group": [
+            96
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_poison_immunity_if_poisoned_s",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "Grants Immunity to Poison for (15-17) seconds if used while Poisoned",
+                "kr": "중독 상태에서 사용 시 (15-17)초 동안 중독 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalFlaskImmuneToMaimAndHinder4",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Liberation",
+            "kr": "- 해방"
+          },
+          "effect": {
+            "en": "Grants Immunity to Hinder for (15-17) seconds if used while Hindered\nGrants Immunity to Maim for (15-17) seconds if used while Maimed",
+            "kr": "이동 방해 상태에서 사용 시 (15-17)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (15-17)초 동안 힘줄 절단 면역 부여"
+          },
+          "group": [
+            4960
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_hinder_for_x_seconds_if_hindered",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "Grants Immunity to Hinder for (15-17) seconds if used while Hindered",
+                "kr": "이동 방해 상태에서 사용 시 (15-17)초 동안 이동 방해 면역 부여"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_maim_for_x_seconds_if_maimed",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "Grants Immunity to Maim for (15-17) seconds if used while Maimed",
+                "kr": "힘줄 절단 상태에서 사용 시 (15-17)초 동안 힘줄 절단 면역 부여"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalManaFlaskHinderNearbyEnemies4",
+          "affixType": "suffix",
+          "tier": 84,
+          "valueRanges": [
+            [
+              35,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Restraint",
+            "kr": "- 제약"
+          },
+          "effect": {
+            "en": "Hinders nearby Enemies with (35-40)% reduced Movement Speed if used while not on Full Mana",
+            "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (35-40)% 감소"
+          },
+          "group": [
+            4959
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_hinder_nearby_enemies_%_for_4_seconds_if_not_on_full_mana",
+                  "valueRange": [
+                    35,
+                    40
+                  ]
+                }
+              ],
+              "value": "35~40",
+              "text": {
+                "en": "Hinders nearby Enemies with (35-40)% reduced Movement Speed if used while not on Full Mana",
+                "kr": "마나가 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (35-40)% 감소"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

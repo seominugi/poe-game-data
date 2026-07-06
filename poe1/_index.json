@@ -8,7 +8,7 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-07-06T12:33:33.336Z",
+  "generated": "2026-07-06T13:08:59.047Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -1026,5 +1026,435 @@
   "uniques": {
     "jsonPath": "uniques/json/uniques.json",
     "count": 1398
+  },
+  "modifiers": {
+    "AbyssJewel": {
+      "jsonPath": "modifiers/json/AbyssJewel.json",
+      "className": {
+        "en": "Abyss Jewels",
+        "kr": "심연 주얼"
+      },
+      "prefixCount": 143,
+      "suffixCount": 0,
+      "totalCount": 143,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "Amulet": {
+      "jsonPath": "modifiers/json/Amulet.json",
+      "className": {
+        "en": "Amulets",
+        "kr": "목걸이"
+      },
+      "prefixCount": 142,
+      "suffixCount": 152,
+      "totalCount": 294,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Belt": {
+      "jsonPath": "modifiers/json/Belt.json",
+      "className": {
+        "en": "Belts",
+        "kr": "허리띠"
+      },
+      "prefixCount": 87,
+      "suffixCount": 77,
+      "totalCount": 164,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Body_Armour": {
+      "jsonPath": "modifiers/json/Body_Armour.json",
+      "className": {
+        "en": "Body Armours",
+        "kr": "갑옷"
+      },
+      "prefixCount": 211,
+      "suffixCount": 91,
+      "totalCount": 302,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Boots": {
+      "jsonPath": "modifiers/json/Boots.json",
+      "className": {
+        "en": "Boots",
+        "kr": "장화"
+      },
+      "prefixCount": 193,
+      "suffixCount": 95,
+      "totalCount": 288,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Bow": {
+      "jsonPath": "modifiers/json/Bow.json",
+      "className": {
+        "en": "Bows",
+        "kr": "활"
+      },
+      "prefixCount": 86,
+      "suffixCount": 77,
+      "totalCount": 163,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Claw": {
+      "jsonPath": "modifiers/json/Claw.json",
+      "className": {
+        "en": "Claws",
+        "kr": "클로"
+      },
+      "prefixCount": 92,
+      "suffixCount": 89,
+      "totalCount": 181,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Dagger": {
+      "jsonPath": "modifiers/json/Dagger.json",
+      "className": {
+        "en": "Daggers",
+        "kr": "단검"
+      },
+      "prefixCount": 144,
+      "suffixCount": 112,
+      "totalCount": 256,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "FishingRod": {
+      "jsonPath": "modifiers/json/FishingRod.json",
+      "className": {
+        "en": "Fishing Rods",
+        "kr": "낚싯대"
+      },
+      "prefixCount": 53,
+      "suffixCount": 70,
+      "totalCount": 123,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Gloves": {
+      "jsonPath": "modifiers/json/Gloves.json",
+      "className": {
+        "en": "Gloves",
+        "kr": "장갑"
+      },
+      "prefixCount": 207,
+      "suffixCount": 117,
+      "totalCount": 324,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Helmet": {
+      "jsonPath": "modifiers/json/Helmet.json",
+      "className": {
+        "en": "Helmets",
+        "kr": "투구"
+      },
+      "prefixCount": 205,
+      "suffixCount": 108,
+      "totalCount": 313,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "HybridFlask": {
+      "jsonPath": "modifiers/json/HybridFlask.json",
+      "className": {
+        "en": "Hybrid Flasks",
+        "kr": "하이브리드 플라스크"
+      },
+      "prefixCount": 56,
+      "suffixCount": 38,
+      "totalCount": 94,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "Jewel": {
+      "jsonPath": "modifiers/json/Jewel.json",
+      "className": {
+        "en": "Jewels",
+        "kr": "주얼"
+      },
+      "prefixCount": 143,
+      "suffixCount": 0,
+      "totalCount": 143,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "LifeFlask": {
+      "jsonPath": "modifiers/json/LifeFlask.json",
+      "className": {
+        "en": "Life Flasks",
+        "kr": "생명력 플라스크"
+      },
+      "prefixCount": 59,
+      "suffixCount": 39,
+      "totalCount": 98,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "ManaFlask": {
+      "jsonPath": "modifiers/json/ManaFlask.json",
+      "className": {
+        "en": "Mana Flasks",
+        "kr": "마나 플라스크"
+      },
+      "prefixCount": 51,
+      "suffixCount": 29,
+      "totalCount": 80,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "One_Hand_Axe": {
+      "jsonPath": "modifiers/json/One_Hand_Axe.json",
+      "className": {
+        "en": "One Hand Axes",
+        "kr": "한손 도끼"
+      },
+      "prefixCount": 75,
+      "suffixCount": 88,
+      "totalCount": 163,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "One_Hand_Mace": {
+      "jsonPath": "modifiers/json/One_Hand_Mace.json",
+      "className": {
+        "en": "One Hand Maces",
+        "kr": "한손 철퇴"
+      },
+      "prefixCount": 75,
+      "suffixCount": 79,
+      "totalCount": 154,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "One_Hand_Sword": {
+      "jsonPath": "modifiers/json/One_Hand_Sword.json",
+      "className": {
+        "en": "One Hand Swords",
+        "kr": "한손 검"
+      },
+      "prefixCount": 75,
+      "suffixCount": 88,
+      "totalCount": 163,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Quiver": {
+      "jsonPath": "modifiers/json/Quiver.json",
+      "className": {
+        "en": "Quivers",
+        "kr": "화살통"
+      },
+      "prefixCount": 78,
+      "suffixCount": 94,
+      "totalCount": 172,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Ring": {
+      "jsonPath": "modifiers/json/Ring.json",
+      "className": {
+        "en": "Rings",
+        "kr": "반지"
+      },
+      "prefixCount": 123,
+      "suffixCount": 126,
+      "totalCount": 249,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Rune_Dagger": {
+      "jsonPath": "modifiers/json/Rune_Dagger.json",
+      "className": {
+        "en": "Rune Daggers",
+        "kr": "룬 단검"
+      },
+      "prefixCount": 144,
+      "suffixCount": 112,
+      "totalCount": 256,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Sceptre": {
+      "jsonPath": "modifiers/json/Sceptre.json",
+      "className": {
+        "en": "Sceptres",
+        "kr": "셉터"
+      },
+      "prefixCount": 162,
+      "suffixCount": 145,
+      "totalCount": 307,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Shield": {
+      "jsonPath": "modifiers/json/Shield.json",
+      "className": {
+        "en": "Shields",
+        "kr": "방패"
+      },
+      "prefixCount": 238,
+      "suffixCount": 141,
+      "totalCount": 379,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Staff": {
+      "jsonPath": "modifiers/json/Staff.json",
+      "className": {
+        "en": "Staves",
+        "kr": "지팡이"
+      },
+      "prefixCount": 168,
+      "suffixCount": 154,
+      "totalCount": 322,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Thrusting_One_Hand_Sword": {
+      "jsonPath": "modifiers/json/Thrusting_One_Hand_Sword.json",
+      "className": {
+        "en": "Thrusting One Hand Swords",
+        "kr": "날카로운 한손 검"
+      },
+      "prefixCount": 72,
+      "suffixCount": 88,
+      "totalCount": 160,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Two_Hand_Axe": {
+      "jsonPath": "modifiers/json/Two_Hand_Axe.json",
+      "className": {
+        "en": "Two Hand Axes",
+        "kr": "양손 도끼"
+      },
+      "prefixCount": 79,
+      "suffixCount": 88,
+      "totalCount": 167,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Two_Hand_Mace": {
+      "jsonPath": "modifiers/json/Two_Hand_Mace.json",
+      "className": {
+        "en": "Two Hand Maces",
+        "kr": "양손 철퇴"
+      },
+      "prefixCount": 76,
+      "suffixCount": 79,
+      "totalCount": 155,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Two_Hand_Sword": {
+      "jsonPath": "modifiers/json/Two_Hand_Sword.json",
+      "className": {
+        "en": "Two Hand Swords",
+        "kr": "양손 검"
+      },
+      "prefixCount": 76,
+      "suffixCount": 88,
+      "totalCount": 164,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "UtilityFlask": {
+      "jsonPath": "modifiers/json/UtilityFlask.json",
+      "className": {
+        "en": "Utility Flasks",
+        "kr": "특수 플라스크"
+      },
+      "prefixCount": 36,
+      "suffixCount": 84,
+      "totalCount": 120,
+      "buckets": [
+        "normal"
+      ]
+    },
+    "Wand": {
+      "jsonPath": "modifiers/json/Wand.json",
+      "className": {
+        "en": "Wands",
+        "kr": "마법봉"
+      },
+      "prefixCount": 161,
+      "suffixCount": 142,
+      "totalCount": 303,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    },
+    "Warstaff": {
+      "jsonPath": "modifiers/json/Warstaff.json",
+      "className": {
+        "en": "Warstaves",
+        "kr": "전쟁지팡이"
+      },
+      "prefixCount": 168,
+      "suffixCount": 154,
+      "totalCount": 322,
+      "buckets": [
+        "normal",
+        "corrupted"
+      ]
+    }
   }
 }

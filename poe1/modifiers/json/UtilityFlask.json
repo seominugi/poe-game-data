@@ -1,0 +1,5614 @@
+{
+  "itemClass": "UtilityFlask",
+  "className": {
+    "en": "Utility Flasks",
+    "kr": "특수 플라스크"
+  },
+  "domain": 2,
+  "classTags": [
+    "default",
+    "expedition_flask",
+    "flask",
+    "utility_flask"
+  ],
+  "counts": {
+    "prefix": 36,
+    "suffix": 84,
+    "total": 120
+  },
+  "bucketCounts": {
+    "normal": {
+      "prefix": 36,
+      "suffix": 84,
+      "total": 120
+    }
+  },
+  "buckets": {
+    "normal": {
+      "prefix": [
+        {
+          "id": "FlaskExtraCharges1",
+          "affixType": "prefix",
+          "tier": 2,
+          "valueRanges": [
+            [
+              16,
+              19
+            ]
+          ],
+          "name": {
+            "en": "Wide",
+            "kr": "넓은"
+          },
+          "effect": {
+            "en": "(16-19) to Maximum Charges",
+            "kr": "충전 최대치 (16-19)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    16,
+                    19
+                  ]
+                }
+              ],
+              "value": "16~19",
+              "text": {
+                "en": "(16-19) to Maximum Charges",
+                "kr": "충전 최대치 (16-19)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent1",
+          "affixType": "prefix",
+          "tier": 3,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Constant",
+            "kr": "지속적인"
+          },
+          "effect": {
+            "en": "(16-20)% increased Charge Recovery",
+            "kr": "충전 회복 (16-20)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Charge Recovery",
+                "kr": "충전 회복 (16-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit1",
+          "affixType": "prefix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Medic's",
+            "kr": "의무병의"
+          },
+          "effect": {
+            "en": "(11-15)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (11-15)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (11-15)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed1",
+          "affixType": "prefix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              -16,
+              -14
+            ]
+          ],
+          "name": {
+            "en": "Apprentice's",
+            "kr": "수습생의"
+          },
+          "effect": {
+            "en": "(-16--14)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-16--14)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -16,
+                    -14
+                  ]
+                }
+              ],
+              "value": "-16~-14",
+              "text": {
+                "en": "(-16--14)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-16--14)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskEffectReducedDuration1",
+          "affixType": "prefix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              -38,
+              -33
+            ],
+            [
+              25,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Abecedarian's",
+            "kr": "초보자의"
+          },
+          "effect": {
+            "en": "(-38--33)% reduced Duration\n25% increased effect",
+            "kr": "지속시간 (-38--33)% 감소\n효과 25% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    -38,
+                    -33
+                  ]
+                }
+              ],
+              "value": "-38~-33",
+              "text": {
+                "en": "(-38--33)% reduced Duration",
+                "kr": "지속시간 (-38--33)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    25,
+                    25
+                  ]
+                }
+              ],
+              "value": "25",
+              "text": {
+                "en": "25% increased effect",
+                "kr": "효과 25% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedDuration2",
+          "affixType": "prefix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Investigator's",
+            "kr": "조사관의"
+          },
+          "effect": {
+            "en": "(16-20)% increased Duration",
+            "kr": "지속시간 (16-20)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Duration",
+                "kr": "지속시간 (16-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryReducedEffect1_",
+          "affixType": "prefix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              37,
+              42
+            ],
+            [
+              -25,
+              -25
+            ]
+          ],
+          "name": {
+            "en": "Doled",
+            "kr": "배급되는"
+          },
+          "effect": {
+            "en": "(37-42)% increased Charge Recovery\n-25% reduced effect",
+            "kr": "충전 회복 (37-42)% 증가\n효과 -25% 감소"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    37,
+                    42
+                  ]
+                }
+              ],
+              "value": "37~42",
+              "text": {
+                "en": "(37-42)% increased Charge Recovery",
+                "kr": "충전 회복 (37-42)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    -25,
+                    -25
+                  ]
+                }
+              ],
+              "value": "-25",
+              "text": {
+                "en": "-25% reduced effect",
+                "kr": "효과 -25% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges2__",
+          "affixType": "prefix",
+          "tier": 22,
+          "valueRanges": [
+            [
+              20,
+              23
+            ]
+          ],
+          "name": {
+            "en": "Plentiful",
+            "kr": "풍요한"
+          },
+          "effect": {
+            "en": "(20-23) to Maximum Charges",
+            "kr": "충전 최대치 (20-23)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    20,
+                    23
+                  ]
+                }
+              ],
+              "value": "20~23",
+              "text": {
+                "en": "(20-23) to Maximum Charges",
+                "kr": "충전 최대치 (20-23)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent2_",
+          "affixType": "prefix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Continuous",
+            "kr": "계속되는"
+          },
+          "effect": {
+            "en": "(21-25)% increased Charge Recovery",
+            "kr": "충전 회복 (21-25)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% increased Charge Recovery",
+                "kr": "충전 회복 (21-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit2",
+          "affixType": "prefix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Physician's",
+            "kr": "의원의"
+          },
+          "effect": {
+            "en": "(16-20)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (16-20)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (16-20)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullRechargeOnHit2_",
+          "affixType": "prefix",
+          "tier": 29,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Transgressor's",
+            "kr": "범법자의"
+          },
+          "effect": {
+            "en": "Gain 1 Charge when you are Hit by an Enemy",
+            "kr": "적에게 피격 시 충전 1 획득"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_when_hit",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Gain 1 Charge when you are Hit by an Enemy",
+                "kr": "적에게 피격 시 충전 1 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed2",
+          "affixType": "prefix",
+          "tier": 31,
+          "valueRanges": [
+            [
+              -19,
+              -17
+            ]
+          ],
+          "name": {
+            "en": "Scholar's",
+            "kr": "학자의"
+          },
+          "effect": {
+            "en": "(-19--17)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-19--17)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -19,
+                    -17
+                  ]
+                }
+              ],
+              "value": "-19~-17",
+              "text": {
+                "en": "(-19--17)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-19--17)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedDuration3_",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Analyst's",
+            "kr": "분석가의"
+          },
+          "effect": {
+            "en": "(21-25)% increased Duration",
+            "kr": "지속시간 (21-25)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% increased Duration",
+                "kr": "지속시간 (21-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryReducedEffect2_",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              43,
+              48
+            ],
+            [
+              -25,
+              -25
+            ]
+          ],
+          "name": {
+            "en": "Provisioned",
+            "kr": "보급되는"
+          },
+          "effect": {
+            "en": "(43-48)% increased Charge Recovery\n-25% reduced effect",
+            "kr": "충전 회복 (43-48)% 증가\n효과 -25% 감소"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    43,
+                    48
+                  ]
+                }
+              ],
+              "value": "43~48",
+              "text": {
+                "en": "(43-48)% increased Charge Recovery",
+                "kr": "충전 회복 (43-48)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    -25,
+                    -25
+                  ]
+                }
+              ],
+              "value": "-25",
+              "text": {
+                "en": "-25% reduced effect",
+                "kr": "효과 -25% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges3_",
+          "affixType": "prefix",
+          "tier": 42,
+          "valueRanges": [
+            [
+              24,
+              27
+            ]
+          ],
+          "name": {
+            "en": "Bountiful",
+            "kr": "풍성한"
+          },
+          "effect": {
+            "en": "(24-27) to Maximum Charges",
+            "kr": "충전 최대치 (24-27)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    24,
+                    27
+                  ]
+                }
+              ],
+              "value": "24~27",
+              "text": {
+                "en": "(24-27) to Maximum Charges",
+                "kr": "충전 최대치 (24-27)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent3_",
+          "affixType": "prefix",
+          "tier": 43,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Endless",
+            "kr": "끝없는"
+          },
+          "effect": {
+            "en": "(26-30)% increased Charge Recovery",
+            "kr": "충전 회복 (26-30)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% increased Charge Recovery",
+                "kr": "충전 회복 (26-30)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit3___",
+          "affixType": "prefix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Doctor's",
+            "kr": "의생의"
+          },
+          "effect": {
+            "en": "(21-25)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (21-25)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (21-25)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed3__",
+          "affixType": "prefix",
+          "tier": 48,
+          "valueRanges": [
+            [
+              -22,
+              -20
+            ]
+          ],
+          "name": {
+            "en": "Practitioner's",
+            "kr": "실무자의"
+          },
+          "effect": {
+            "en": "(-22--20)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-22--20)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -22,
+                    -20
+                  ]
+                }
+              ],
+              "value": "-22~-20",
+              "text": {
+                "en": "(-22--20)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-22--20)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskEffectReducedDuration2",
+          "affixType": "prefix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              -32,
+              -28
+            ],
+            [
+              25,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Dabbler's",
+            "kr": "초심자의"
+          },
+          "effect": {
+            "en": "(-32--28)% reduced Duration\n25% increased effect",
+            "kr": "지속시간 (-32--28)% 감소\n효과 25% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    -32,
+                    -28
+                  ]
+                }
+              ],
+              "value": "-32~-28",
+              "text": {
+                "en": "(-32--28)% reduced Duration",
+                "kr": "지속시간 (-32--28)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    25,
+                    25
+                  ]
+                }
+              ],
+              "value": "25",
+              "text": {
+                "en": "25% increased effect",
+                "kr": "효과 25% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedDuration4",
+          "affixType": "prefix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Examiner's",
+            "kr": "조사자의"
+          },
+          "effect": {
+            "en": "(26-30)% increased Duration",
+            "kr": "지속시간 (26-30)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% increased Duration",
+                "kr": "지속시간 (26-30)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryReducedEffect3____",
+          "affixType": "prefix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              49,
+              54
+            ],
+            [
+              -25,
+              -25
+            ]
+          ],
+          "name": {
+            "en": "Measured",
+            "kr": "측정되는"
+          },
+          "effect": {
+            "en": "(49-54)% increased Charge Recovery\n-25% reduced effect",
+            "kr": "충전 회복 (49-54)% 증가\n효과 -25% 감소"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    49,
+                    54
+                  ]
+                }
+              ],
+              "value": "49~54",
+              "text": {
+                "en": "(49-54)% increased Charge Recovery",
+                "kr": "충전 회복 (49-54)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    -25,
+                    -25
+                  ]
+                }
+              ],
+              "value": "-25",
+              "text": {
+                "en": "-25% reduced effect",
+                "kr": "효과 -25% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit4",
+          "affixType": "prefix",
+          "tier": 62,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Specialist's",
+            "kr": "전문의의"
+          },
+          "effect": {
+            "en": "(26-30)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (26-30)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (26-30)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges4__",
+          "affixType": "prefix",
+          "tier": 62,
+          "valueRanges": [
+            [
+              28,
+              31
+            ]
+          ],
+          "name": {
+            "en": "Abundant",
+            "kr": "풍부한"
+          },
+          "effect": {
+            "en": "(28-31) to Maximum Charges",
+            "kr": "충전 최대치 (28-31)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    28,
+                    31
+                  ]
+                }
+              ],
+              "value": "28~31",
+              "text": {
+                "en": "(28-31) to Maximum Charges",
+                "kr": "충전 최대치 (28-31)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent4_",
+          "affixType": "prefix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              31,
+              45
+            ]
+          ],
+          "name": {
+            "en": "Bottomless",
+            "kr": "바닥이 없는"
+          },
+          "effect": {
+            "en": "(31-45)% increased Charge Recovery",
+            "kr": "충전 회복 (31-45)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    31,
+                    45
+                  ]
+                }
+              ],
+              "value": "31~45",
+              "text": {
+                "en": "(31-45)% increased Charge Recovery",
+                "kr": "충전 회복 (31-45)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullRechargeOnHit4_",
+          "affixType": "prefix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              2,
+              2
+            ]
+          ],
+          "name": {
+            "en": "Masochist's",
+            "kr": "피학 도착자의"
+          },
+          "effect": {
+            "en": "Gain 2 Charges when you are Hit by an Enemy",
+            "kr": "적에게 피격 시 충전 2 획득"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_when_hit",
+                  "valueRange": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "value": "2",
+              "text": {
+                "en": "Gain 2 Charges when you are Hit by an Enemy",
+                "kr": "적에게 피격 시 충전 2 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed4__",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              -25,
+              -23
+            ]
+          ],
+          "name": {
+            "en": "Brewer's",
+            "kr": "조제자의"
+          },
+          "effect": {
+            "en": "(-25--23)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-25--23)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -25,
+                    -23
+                  ]
+                }
+              ],
+              "value": "-25~-23",
+              "text": {
+                "en": "(-25--23)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-25--23)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedDuration5__",
+          "affixType": "prefix",
+          "tier": 68,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "Clinician's",
+            "kr": "임상의의"
+          },
+          "effect": {
+            "en": "(31-35)% increased Duration",
+            "kr": "지속시간 (31-35)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% increased Duration",
+                "kr": "지속시간 (31-35)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryReducedEffect4_",
+          "affixType": "prefix",
+          "tier": 68,
+          "valueRanges": [
+            [
+              55,
+              60
+            ],
+            [
+              -25,
+              -25
+            ]
+          ],
+          "name": {
+            "en": "Allocated",
+            "kr": "할당되는"
+          },
+          "effect": {
+            "en": "(55-60)% increased Charge Recovery\n-25% reduced effect",
+            "kr": "충전 회복 (55-60)% 증가\n효과 -25% 감소"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    55,
+                    60
+                  ]
+                }
+              ],
+              "value": "55~60",
+              "text": {
+                "en": "(55-60)% increased Charge Recovery",
+                "kr": "충전 회복 (55-60)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    -25,
+                    -25
+                  ]
+                }
+              ],
+              "value": "-25",
+              "text": {
+                "en": "-25% reduced effect",
+                "kr": "효과 -25% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChanceRechargeOnCrit5",
+          "affixType": "prefix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "Surgeon's",
+            "kr": "의사의"
+          },
+          "effect": {
+            "en": "(31-35)% chance to gain a Flask Charge when you deal a Critical Strike",
+            "kr": "치명타 명중 시 (31-35)%의 확률로 플라스크 1 충전"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_recharge_on_crit_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% chance to gain a Flask Charge when you deal a Critical Strike",
+                "kr": "치명타 명중 시 (31-35)%의 확률로 플라스크 1 충전"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskEffectReducedDuration3",
+          "affixType": "prefix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              -27,
+              -23
+            ],
+            [
+              25,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Alchemist's",
+            "kr": "연금술사의"
+          },
+          "effect": {
+            "en": "(-27--23)% reduced Duration\n25% increased effect",
+            "kr": "지속시간 (-27--23)% 감소\n효과 25% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    -27,
+                    -23
+                  ]
+                }
+              ],
+              "value": "-27~-23",
+              "text": {
+                "en": "(-27--23)% reduced Duration",
+                "kr": "지속시간 (-27--23)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    25,
+                    25
+                  ]
+                }
+              ],
+              "value": "25",
+              "text": {
+                "en": "25% increased effect",
+                "kr": "효과 25% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFullRechargeOnHit5___",
+          "affixType": "prefix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              3,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Flagellant's",
+            "kr": "고행자의"
+          },
+          "effect": {
+            "en": "Gain 3 Charges when you are Hit by an Enemy",
+            "kr": "적에게 피격 시 충전 3 획득"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_gain_X_charges_when_hit",
+                  "valueRange": [
+                    3,
+                    3
+                  ]
+                }
+              ],
+              "value": "3",
+              "text": {
+                "en": "Gain 3 Charges when you are Hit by an Enemy",
+                "kr": "적에게 피격 시 충전 3 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesUsed5",
+          "affixType": "prefix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              -28,
+              -26
+            ]
+          ],
+          "name": {
+            "en": "Chemist's",
+            "kr": "화학자의"
+          },
+          "effect": {
+            "en": "(-28--26)% reduced Charges per use",
+            "kr": "사용 1회당 충전 소모량 (-28--26)% 감소"
+          },
+          "group": [
+            97
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_used_+%",
+                  "valueRange": [
+                    -28,
+                    -26
+                  ]
+                }
+              ],
+              "value": "-28~-26",
+              "text": {
+                "en": "(-28--26)% reduced Charges per use",
+                "kr": "사용 1회당 충전 소모량 (-28--26)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskExtraCharges5",
+          "affixType": "prefix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              32,
+              35
+            ]
+          ],
+          "name": {
+            "en": "Ample",
+            "kr": "풍족한"
+          },
+          "effect": {
+            "en": "(32-35) to Maximum Charges",
+            "kr": "충전 최대치 (32-35)"
+          },
+          "group": [
+            92
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_extra_max_charges",
+                  "valueRange": [
+                    32,
+                    35
+                  ]
+                }
+              ],
+              "value": "32~35",
+              "text": {
+                "en": "(32-35) to Maximum Charges",
+                "kr": "충전 최대치 (32-35)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskChargesAddedIncreasePercent5__",
+          "affixType": "prefix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Perpetual",
+            "kr": "영속적인"
+          },
+          "effect": {
+            "en": "(46-50)% increased Charge Recovery",
+            "kr": "충전 회복 (46-50)% 증가"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% increased Charge Recovery",
+                "kr": "충전 회복 (46-50)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedDuration6",
+          "affixType": "prefix",
+          "tier": 84,
+          "valueRanges": [
+            [
+              36,
+              40
+            ]
+          ],
+          "name": {
+            "en": "Experimenter's",
+            "kr": "실험자의"
+          },
+          "effect": {
+            "en": "(36-40)% increased Duration",
+            "kr": "지속시간 (36-40)% 증가"
+          },
+          "group": [
+            87
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% increased Duration",
+                "kr": "지속시간 (36-40)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIncreasedRecoveryReducedEffect5",
+          "affixType": "prefix",
+          "tier": 84,
+          "valueRanges": [
+            [
+              61,
+              66
+            ],
+            [
+              -25,
+              -25
+            ]
+          ],
+          "name": {
+            "en": "Rationed",
+            "kr": "분배되는"
+          },
+          "effect": {
+            "en": "(61-66)% increased Charge Recovery\n-25% reduced effect",
+            "kr": "충전 회복 (61-66)% 증가\n효과 -25% 감소"
+          },
+          "group": [
+            94
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_charges_added_+%",
+                  "valueRange": [
+                    61,
+                    66
+                  ]
+                }
+              ],
+              "value": "61~66",
+              "text": {
+                "en": "(61-66)% increased Charge Recovery",
+                "kr": "충전 회복 (61-66)% 증가"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_effect_+%",
+                  "valueRange": [
+                    -25,
+                    -25
+                  ]
+                }
+              ],
+              "value": "-25",
+              "text": {
+                "en": "-25% reduced effect",
+                "kr": "효과 -25% 감소"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "FlaskBuffResistancesWhileHealing",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of the Crystal",
+            "kr": "- 결정"
+          },
+          "effect": {
+            "en": "(12-14)% additional Elemental Resistances during Effect",
+            "kr": "효과를 받는 동안 추가 원소 저항 (12-14)%"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_resistances_+%_while_healing",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "(12-14)% additional Elemental Resistances during Effect",
+                "kr": "효과를 받는 동안 추가 원소 저항 (12-14)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffStunRecoveryWhileHealing",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              51,
+              56
+            ]
+          ],
+          "name": {
+            "en": "of Stiffness",
+            "kr": "- 뻣뻣함"
+          },
+          "effect": {
+            "en": "(51-56)% increased Block and Stun Recovery during Effect",
+            "kr": "효과를 받는 동안 막기 및 기절 회복 (51-56)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_stun_recovery_+%_while_healing",
+                  "valueRange": [
+                    51,
+                    56
+                  ]
+                }
+              ],
+              "value": "51~56",
+              "text": {
+                "en": "(51-56)% increased Block and Stun Recovery during Effect",
+                "kr": "효과를 받는 동안 막기 및 기절 회복 (51-56)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidChillFreeze1_",
+          "affixType": "suffix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              31,
+              35
+            ],
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Orca",
+            "kr": "- 범고래"
+          },
+          "effect": {
+            "en": "(31-35)% chance to Avoid being Chilled during Effect\n(31-35)% chance to Avoid being Frozen during Effect",
+            "kr": "효과를 받는 동안 (31-35)%의 확률로 냉각 긴급회피\n효과를 받는 동안 (31-35)%의 확률로 동결 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_chill_%_during_flask_effect",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% chance to Avoid being Chilled during Effect",
+                "kr": "효과를 받는 동안 (31-35)%의 확률로 냉각 긴급회피"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_freeze_%_during_flask_effect",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% chance to Avoid being Frozen during Effect",
+                "kr": "효과를 받는 동안 (31-35)%의 확률로 동결 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffChillFreezeDuration1",
+          "affixType": "suffix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              -41,
+              -36
+            ],
+            [
+              -41,
+              -36
+            ]
+          ],
+          "name": {
+            "en": "of the Rabbit",
+            "kr": "- 토끼"
+          },
+          "effect": {
+            "en": "(-41--36)% reduced Effect of Chill on you during Effect\n(-41--36)% reduced Freeze Duration on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-41--36)% 감소\n효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-41--36)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_chill_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -41,
+                    -36
+                  ]
+                }
+              ],
+              "value": "-41~-36",
+              "text": {
+                "en": "(-41--36)% reduced Effect of Chill on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-41--36)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_self_freeze_duration_+%_during_flask_effect",
+                  "valueRange": [
+                    -41,
+                    -36
+                  ]
+                }
+              ],
+              "value": "-41~-36",
+              "text": {
+                "en": "(-41--36)% reduced Freeze Duration on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-41--36)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFreezeAndChillImmunityDuringEffect",
+          "affixType": "suffix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -49,
+              -45
+            ]
+          ],
+          "name": {
+            "en": "of the Deer",
+            "kr": "- 사슴"
+          },
+          "effect": {
+            "en": "Immunity to Freeze and Chill during Effect\n(-49--45)% less Duration",
+            "kr": "효과를 받는 동안 동결 및 냉각 면역\n지속시간 (-49--45)% 감폭"
+          },
+          "group": [
+            4984
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_freeze_and_chill_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Freeze and Chill during Effect",
+                "kr": "효과를 받는 동안 동결 및 냉각 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -49,
+                    -45
+                  ]
+                }
+              ],
+              "value": "-49~-45",
+              "text": {
+                "en": "(-49--45)% less Duration",
+                "kr": "지속시간 (-49--45)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffMovementSpeedWhileHealing",
+          "affixType": "suffix",
+          "tier": 5,
+          "valueRanges": [
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "of the Hare",
+            "kr": "- 산토끼"
+          },
+          "effect": {
+            "en": "(6-8)% increased Movement Speed during Effect",
+            "kr": "효과를 받는 동안 이동 속도 (6-8)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_movement_speed_+%_while_healing",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "6~8",
+              "text": {
+                "en": "(6-8)% increased Movement Speed during Effect",
+                "kr": "효과를 받는 동안 이동 속도 (6-8)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidIgnite1",
+          "affixType": "suffix",
+          "tier": 6,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Guppy",
+            "kr": "- 구피"
+          },
+          "effect": {
+            "en": "(31-35)% chance to Avoid being Ignited during Effect",
+            "kr": "효과를 받는 동안 (31-35)%의 확률로 점화 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_ignite_%_during_flask_effect",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% chance to Avoid being Ignited during Effect",
+                "kr": "효과를 받는 동안 (31-35)%의 확률로 점화 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidShock1",
+          "affixType": "suffix",
+          "tier": 6,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Tree Moss",
+            "kr": "- 나무 이끼"
+          },
+          "effect": {
+            "en": "(31-35)% chance to Avoid being Shocked during Effect",
+            "kr": "효과를 받는 동안 (31-35)%의 확률로 감전 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_shock_%_during_flask_effect",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% chance to Avoid being Shocked during Effect",
+                "kr": "효과를 받는 동안 (31-35)%의 확률로 감전 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffShockEffect1",
+          "affixType": "suffix",
+          "tier": 6,
+          "valueRanges": [
+            [
+              -41,
+              -36
+            ]
+          ],
+          "name": {
+            "en": "of the Plover",
+            "kr": "- 물떼새"
+          },
+          "effect": {
+            "en": "(-41--36)% reduced Effect of Shock on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-41--36)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_shock_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -41,
+                    -36
+                  ]
+                }
+              ],
+              "value": "-41~-36",
+              "text": {
+                "en": "(-41--36)% reduced Effect of Shock on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-41--36)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIgniteImmunityDuringEffect_",
+          "affixType": "suffix",
+          "tier": 6,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -49,
+              -45
+            ]
+          ],
+          "name": {
+            "en": "of the Urchin",
+            "kr": "- 성게"
+          },
+          "effect": {
+            "en": "Immunity to Ignite during Effect\\nRemoves Burning on use\n(-49--45)% less Duration",
+            "kr": "효과를 받는 동안 점화에 면역\\n사용 시 화상 제거\n지속시간 (-49--45)% 감폭"
+          },
+          "group": [
+            4983
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_dispels_burning_and_ignite_immunity_during_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Ignite during Effect\\nRemoves Burning on use",
+                "kr": "효과를 받는 동안 점화에 면역\\n사용 시 화상 제거"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -49,
+                    -45
+                  ]
+                }
+              ],
+              "value": "-49~-45",
+              "text": {
+                "en": "(-49--45)% less Duration",
+                "kr": "지속시간 (-49--45)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskShockImmunityDuringEffect",
+          "affixType": "suffix",
+          "tier": 6,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -49,
+              -45
+            ]
+          ],
+          "name": {
+            "en": "of the Conger",
+            "kr": "- 붕장어"
+          },
+          "effect": {
+            "en": "Immunity to Shock during Effect\n(-49--45)% less Duration",
+            "kr": "효과를 받는 동안 감전 면역\n지속시간 (-49--45)% 감폭"
+          },
+          "group": [
+            4982
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_shock_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Shock during Effect",
+                "kr": "효과를 받는 동안 감전 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -49,
+                    -45
+                  ]
+                }
+              ],
+              "value": "-49~-45",
+              "text": {
+                "en": "(-49--45)% less Duration",
+                "kr": "지속시간 (-49--45)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBleedingAndCorruptedBloodImmunityDuringEffect_1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -49,
+              -45
+            ]
+          ],
+          "name": {
+            "en": "of the Lizard",
+            "kr": "- 도마뱀"
+          },
+          "effect": {
+            "en": "Immunity to Bleeding and Corrupted Blood during Effect\n(-49--45)% less Duration",
+            "kr": "효과를 받는 동안 출혈 및 타락한 피 면역\n지속시간 (-49--45)% 감폭"
+          },
+          "group": [
+            4985
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_bleeding_and_corrupted_blood_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Bleeding and Corrupted Blood during Effect",
+                "kr": "효과를 받는 동안 출혈 및 타락한 피 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -49,
+                    -45
+                  ]
+                }
+              ],
+              "value": "-49~-45",
+              "text": {
+                "en": "(-49--45)% less Duration",
+                "kr": "지속시간 (-49--45)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCurseEffect1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              -41,
+              -36
+            ]
+          ],
+          "name": {
+            "en": "of the Petrel",
+            "kr": "- 슴새"
+          },
+          "effect": {
+            "en": "(-41--36)% reduced Effect of Curses on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-41--36)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_curse_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -41,
+                    -36
+                  ]
+                }
+              ],
+              "value": "-41~-36",
+              "text": {
+                "en": "(-41--36)% reduced Effect of Curses on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-41--36)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAttackLifeLeechWhileHealing1",
+          "affixType": "suffix",
+          "tier": 10,
+          "valueRanges": [
+            [
+              40,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Bloodshed",
+            "kr": "- 유혈"
+          },
+          "effect": {
+            "en": "40% of Attack Damage Leeched as Life during Effect",
+            "kr": "효과를 받는 동안 공격 피해의 40%를 생명력으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_leech_from_attack_damage_permyriad_while_healing",
+                  "valueRange": [
+                    40,
+                    40
+                  ]
+                }
+              ],
+              "value": "40",
+              "text": {
+                "en": "40% of Attack Damage Leeched as Life during Effect",
+                "kr": "효과를 받는 동안 공격 피해의 40%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffSpellEnergyShieldLeechWhileHealing1",
+          "affixType": "suffix",
+          "tier": 10,
+          "valueRanges": [
+            [
+              40,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Diverting",
+            "kr": "- 분산"
+          },
+          "effect": {
+            "en": "40% of Spell Damage Leeched as Energy Shield during Effect",
+            "kr": "효과를 받는 동안 주문 피해의 40%를 에너지 보호막으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_energy_shield_leech_from_spell_damage_permyriad_while_healing",
+                  "valueRange": [
+                    40,
+                    40
+                  ]
+                }
+              ],
+              "value": "40",
+              "text": {
+                "en": "40% of Spell Damage Leeched as Energy Shield during Effect",
+                "kr": "효과를 받는 동안 주문 피해의 40%를 에너지 보호막으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidStunWhileHealing1_",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Composure",
+            "kr": "- 평정"
+          },
+          "effect": {
+            "en": "(31-35)% Chance to Avoid being Stunned during Effect",
+            "kr": "효과를 받는 동안 (31-35)%의 확률로 기절 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_avoid_stun_chance_%_during_flask_effect",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% Chance to Avoid being Stunned during Effect",
+                "kr": "효과를 받는 동안 (31-35)%의 확률로 기절 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffFreezeShockIgniteChanceWhileHealing1_",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              19,
+              22
+            ]
+          ],
+          "name": {
+            "en": "of Foisting",
+            "kr": "- 떠맡기기"
+          },
+          "effect": {
+            "en": "(19-22)% chance to Freeze, Shock and Ignite during Effect",
+            "kr": "효과를 받는 동안 (19-22)%의 확률로 동결, 감전 및 점화 유발"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chance_to_freeze_shock_ignite_%_while_healing",
+                  "valueRange": [
+                    19,
+                    22
+                  ]
+                }
+              ],
+              "value": "19~22",
+              "text": {
+                "en": "(19-22)% chance to Freeze, Shock and Ignite during Effect",
+                "kr": "효과를 받는 동안 (19-22)%의 확률로 동결, 감전 및 점화 유발"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffWardWhileHealing1",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              19,
+              21
+            ]
+          ],
+          "name": {
+            "en": "of Runegleaming",
+            "kr": "- 룬 불빛"
+          },
+          "effect": {
+            "en": "(19-21)% increased Ward during Effect",
+            "kr": "효과를 받는 동안 수호 (19-21)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ward_+%_during_effect",
+                  "valueRange": [
+                    19,
+                    21
+                  ]
+                }
+              ],
+              "value": "19~21",
+              "text": {
+                "en": "(19-21)% increased Ward during Effect",
+                "kr": "효과를 받는 동안 수호 (19-21)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPoisonImmunityDuringEffect",
+          "affixType": "suffix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -49,
+              -45
+            ]
+          ],
+          "name": {
+            "en": "of the Skunk",
+            "kr": "- 스컹크"
+          },
+          "effect": {
+            "en": "Immunity to Poison during Effect\n(-49--45)% less Duration",
+            "kr": "효과를 받는 동안 중독 면역\n지속시간 (-49--45)% 감폭"
+          },
+          "group": [
+            4981
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_poison_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Poison during Effect",
+                "kr": "효과를 받는 동안 중독 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -49,
+                    -45
+                  ]
+                }
+              ],
+              "value": "-49~-45",
+              "text": {
+                "en": "(-49--45)% less Duration",
+                "kr": "지속시간 (-49--45)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCriticalChanceWhileHealing1_",
+          "affixType": "suffix",
+          "tier": 18,
+          "valueRanges": [
+            [
+              26,
+              31
+            ]
+          ],
+          "name": {
+            "en": "of Stinging",
+            "kr": "- 찌르기"
+          },
+          "effect": {
+            "en": "(26-31)% increased Critical Strike Chance during Effect",
+            "kr": "효과를 받는 동안 치명타 확률 (26-31)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_critical_strike_chance_+%_during_flask_effect",
+                  "valueRange": [
+                    26,
+                    31
+                  ]
+                }
+              ],
+              "value": "26~31",
+              "text": {
+                "en": "(26-31)% increased Critical Strike Chance during Effect",
+                "kr": "효과를 받는 동안 치명타 확률 (26-31)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffStunRecoveryWhileHealing2",
+          "affixType": "suffix",
+          "tier": 19,
+          "valueRanges": [
+            [
+              57,
+              62
+            ]
+          ],
+          "name": {
+            "en": "of Bracing",
+            "kr": "- 버팀"
+          },
+          "effect": {
+            "en": "(57-62)% increased Block and Stun Recovery during Effect",
+            "kr": "효과를 받는 동안 막기 및 기절 회복 (57-62)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_stun_recovery_+%_while_healing",
+                  "valueRange": [
+                    57,
+                    62
+                  ]
+                }
+              ],
+              "value": "57~62",
+              "text": {
+                "en": "(57-62)% increased Block and Stun Recovery during Effect",
+                "kr": "효과를 받는 동안 막기 및 기절 회복 (57-62)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAttackLifeLeechWhileHealing2",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              50,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Gore",
+            "kr": "- 선혈"
+          },
+          "effect": {
+            "en": "50% of Attack Damage Leeched as Life during Effect",
+            "kr": "효과를 받는 동안 공격 피해의 50%를 생명력으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_leech_from_attack_damage_permyriad_while_healing",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Attack Damage Leeched as Life during Effect",
+                "kr": "효과를 받는 동안 공격 피해의 50%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffSpellEnergyShieldLeechWhileHealing2_",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              50,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Depletion",
+            "kr": "- 동남"
+          },
+          "effect": {
+            "en": "50% of Spell Damage Leeched as Energy Shield during Effect",
+            "kr": "효과를 받는 동안 주문 피해의 50%를 에너지 보호막으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_energy_shield_leech_from_spell_damage_permyriad_while_healing",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Spell Damage Leeched as Energy Shield during Effect",
+                "kr": "효과를 받는 동안 주문 피해의 50%를 에너지 보호막으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidChillFreeze2",
+          "affixType": "suffix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              36,
+              40
+            ],
+            [
+              36,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of the Sea Lion",
+            "kr": "- 바다사자"
+          },
+          "effect": {
+            "en": "(36-40)% chance to Avoid being Chilled during Effect\n(36-40)% chance to Avoid being Frozen during Effect",
+            "kr": "효과를 받는 동안 (36-40)%의 확률로 냉각 긴급회피\n효과를 받는 동안 (36-40)%의 확률로 동결 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_chill_%_during_flask_effect",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% chance to Avoid being Chilled during Effect",
+                "kr": "효과를 받는 동안 (36-40)%의 확률로 냉각 긴급회피"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_freeze_%_during_flask_effect",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% chance to Avoid being Frozen during Effect",
+                "kr": "효과를 받는 동안 (36-40)%의 확률로 동결 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffChillFreezeDuration2_",
+          "affixType": "suffix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              -47,
+              -42
+            ],
+            [
+              -47,
+              -42
+            ]
+          ],
+          "name": {
+            "en": "of the Cat",
+            "kr": "- 고양이"
+          },
+          "effect": {
+            "en": "(-47--42)% reduced Effect of Chill on you during Effect\n(-47--42)% reduced Freeze Duration on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-47--42)% 감소\n효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-47--42)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_chill_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -47,
+                    -42
+                  ]
+                }
+              ],
+              "value": "-47~-42",
+              "text": {
+                "en": "(-47--42)% reduced Effect of Chill on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-47--42)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_self_freeze_duration_+%_during_flask_effect",
+                  "valueRange": [
+                    -47,
+                    -42
+                  ]
+                }
+              ],
+              "value": "-47~-42",
+              "text": {
+                "en": "(-47--42)% reduced Freeze Duration on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-47--42)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidIgnite2",
+          "affixType": "suffix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              36,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of the Goldfish",
+            "kr": "- 금붕어"
+          },
+          "effect": {
+            "en": "(36-40)% chance to Avoid being Ignited during Effect",
+            "kr": "효과를 받는 동안 (36-40)%의 확률로 점화 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_ignite_%_during_flask_effect",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% chance to Avoid being Ignited during Effect",
+                "kr": "효과를 받는 동안 (36-40)%의 확률로 점화 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidShock2_",
+          "affixType": "suffix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              36,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Turf Moss",
+            "kr": "- 잔디 이끼"
+          },
+          "effect": {
+            "en": "(36-40)% chance to Avoid being Shocked during Effect",
+            "kr": "효과를 받는 동안 (36-40)%의 확률로 감전 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_shock_%_during_flask_effect",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% chance to Avoid being Shocked during Effect",
+                "kr": "효과를 받는 동안 (36-40)%의 확률로 감전 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffShockEffect2",
+          "affixType": "suffix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              -47,
+              -42
+            ]
+          ],
+          "name": {
+            "en": "of the Sandpiper",
+            "kr": "- 도요새"
+          },
+          "effect": {
+            "en": "(-47--42)% reduced Effect of Shock on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-47--42)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_shock_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -47,
+                    -42
+                  ]
+                }
+              ],
+              "value": "-47~-42",
+              "text": {
+                "en": "(-47--42)% reduced Effect of Shock on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-47--42)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffWardWhileHealing2_",
+          "affixType": "suffix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              22,
+              24
+            ]
+          ],
+          "name": {
+            "en": "of Runeshining",
+            "kr": "- 룬 광채"
+          },
+          "effect": {
+            "en": "(22-24)% increased Ward during Effect",
+            "kr": "효과를 받는 동안 수호 (22-24)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ward_+%_during_effect",
+                  "valueRange": [
+                    22,
+                    24
+                  ]
+                }
+              ],
+              "value": "22~24",
+              "text": {
+                "en": "(22-24)% increased Ward during Effect",
+                "kr": "효과를 받는 동안 수호 (22-24)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCurseEffect2",
+          "affixType": "suffix",
+          "tier": 27,
+          "valueRanges": [
+            [
+              -47,
+              -42
+            ]
+          ],
+          "name": {
+            "en": "of the Mockingbird",
+            "kr": "- 흉내지빠귀"
+          },
+          "effect": {
+            "en": "(-47--42)% reduced Effect of Curses on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-47--42)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_curse_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -47,
+                    -42
+                  ]
+                }
+              ],
+              "value": "-47~-42",
+              "text": {
+                "en": "(-47--42)% reduced Effect of Curses on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-47--42)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidStunWhileHealing2",
+          "affixType": "suffix",
+          "tier": 29,
+          "valueRanges": [
+            [
+              36,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Surefootedness",
+            "kr": "- 확실함"
+          },
+          "effect": {
+            "en": "(36-40)% Chance to Avoid being Stunned during Effect",
+            "kr": "효과를 받는 동안 (36-40)%의 확률로 기절 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_avoid_stun_chance_%_during_flask_effect",
+                  "valueRange": [
+                    36,
+                    40
+                  ]
+                }
+              ],
+              "value": "36~40",
+              "text": {
+                "en": "(36-40)% Chance to Avoid being Stunned during Effect",
+                "kr": "효과를 받는 동안 (36-40)%의 확률로 기절 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffFreezeShockIgniteChanceWhileHealing2____",
+          "affixType": "suffix",
+          "tier": 32,
+          "valueRanges": [
+            [
+              23,
+              26
+            ]
+          ],
+          "name": {
+            "en": "of Imposing",
+            "kr": "- 강제"
+          },
+          "effect": {
+            "en": "(23-26)% chance to Freeze, Shock and Ignite during Effect",
+            "kr": "효과를 받는 동안 (23-26)%의 확률로 동결, 감전 및 점화 유발"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chance_to_freeze_shock_ignite_%_while_healing",
+                  "valueRange": [
+                    23,
+                    26
+                  ]
+                }
+              ],
+              "value": "23~26",
+              "text": {
+                "en": "(23-26)% chance to Freeze, Shock and Ignite during Effect",
+                "kr": "효과를 받는 동안 (23-26)%의 확률로 동결, 감전 및 점화 유발"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCriticalChanceWhileHealing2_",
+          "affixType": "suffix",
+          "tier": 34,
+          "valueRanges": [
+            [
+              32,
+              37
+            ]
+          ],
+          "name": {
+            "en": "of Piercing",
+            "kr": "- 관통"
+          },
+          "effect": {
+            "en": "(32-37)% increased Critical Strike Chance during Effect",
+            "kr": "효과를 받는 동안 치명타 확률 (32-37)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_critical_strike_chance_+%_during_flask_effect",
+                  "valueRange": [
+                    32,
+                    37
+                  ]
+                }
+              ],
+              "value": "32~37",
+              "text": {
+                "en": "(32-37)% increased Critical Strike Chance during Effect",
+                "kr": "효과를 받는 동안 치명타 확률 (32-37)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffStunRecoveryWhileHealing3",
+          "affixType": "suffix",
+          "tier": 37,
+          "valueRanges": [
+            [
+              63,
+              68
+            ]
+          ],
+          "name": {
+            "en": "of Ballast",
+            "kr": "- 무게추"
+          },
+          "effect": {
+            "en": "(63-68)% increased Block and Stun Recovery during Effect",
+            "kr": "효과를 받는 동안 막기 및 기절 회복 (63-68)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_stun_recovery_+%_while_healing",
+                  "valueRange": [
+                    63,
+                    68
+                  ]
+                }
+              ],
+              "value": "63~68",
+              "text": {
+                "en": "(63-68)% increased Block and Stun Recovery during Effect",
+                "kr": "효과를 받는 동안 막기 및 기절 회복 (63-68)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFreezeAndChillImmunityDuringEffect2",
+          "affixType": "suffix",
+          "tier": 38,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -44,
+              -40
+            ]
+          ],
+          "name": {
+            "en": "of the Walrus",
+            "kr": "- 바다코끼리"
+          },
+          "effect": {
+            "en": "Immunity to Freeze and Chill during Effect\n(-44--40)% less Duration",
+            "kr": "효과를 받는 동안 동결 및 냉각 면역\n지속시간 (-44--40)% 감폭"
+          },
+          "group": [
+            4984
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_freeze_and_chill_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Freeze and Chill during Effect",
+                "kr": "효과를 받는 동안 동결 및 냉각 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -44,
+                    -40
+                  ]
+                }
+              ],
+              "value": "-44~-40",
+              "text": {
+                "en": "(-44--40)% less Duration",
+                "kr": "지속시간 (-44--40)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAttackLifeLeechWhileHealing3",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              60,
+              60
+            ]
+          ],
+          "name": {
+            "en": "of Carnage",
+            "kr": "- 살육"
+          },
+          "effect": {
+            "en": "60% of Attack Damage Leeched as Life during Effect",
+            "kr": "효과를 받는 동안 공격 피해의 60%를 생명력으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_leech_from_attack_damage_permyriad_while_healing",
+                  "valueRange": [
+                    60,
+                    60
+                  ]
+                }
+              ],
+              "value": "60",
+              "text": {
+                "en": "60% of Attack Damage Leeched as Life during Effect",
+                "kr": "효과를 받는 동안 공격 피해의 60%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffSpellEnergyShieldLeechWhileHealing3_____",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              60,
+              60
+            ]
+          ],
+          "name": {
+            "en": "of Tapping",
+            "kr": "- 끌어 쓰기"
+          },
+          "effect": {
+            "en": "60% of Spell Damage Leeched as Energy Shield during Effect",
+            "kr": "효과를 받는 동안 주문 피해의 60%를 에너지 보호막으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_energy_shield_leech_from_spell_damage_permyriad_while_healing",
+                  "valueRange": [
+                    60,
+                    60
+                  ]
+                }
+              ],
+              "value": "60",
+              "text": {
+                "en": "60% of Spell Damage Leeched as Energy Shield during Effect",
+                "kr": "효과를 받는 동안 주문 피해의 60%를 에너지 보호막으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIgniteImmunityDuringEffect2",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -44,
+              -40
+            ]
+          ],
+          "name": {
+            "en": "of the Mussel",
+            "kr": "- 홍합"
+          },
+          "effect": {
+            "en": "Immunity to Ignite during Effect\\nRemoves Burning on use\n(-44--40)% less Duration",
+            "kr": "효과를 받는 동안 점화에 면역\\n사용 시 화상 제거\n지속시간 (-44--40)% 감폭"
+          },
+          "group": [
+            4983
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_dispels_burning_and_ignite_immunity_during_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Ignite during Effect\\nRemoves Burning on use",
+                "kr": "효과를 받는 동안 점화에 면역\\n사용 시 화상 제거"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -44,
+                    -40
+                  ]
+                }
+              ],
+              "value": "-44~-40",
+              "text": {
+                "en": "(-44--40)% less Duration",
+                "kr": "지속시간 (-44--40)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskShockImmunityDuringEffect2___",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -44,
+              -40
+            ]
+          ],
+          "name": {
+            "en": "of the Moray",
+            "kr": "- 곰치"
+          },
+          "effect": {
+            "en": "Immunity to Shock during Effect\n(-44--40)% less Duration",
+            "kr": "효과를 받는 동안 감전 면역\n지속시간 (-44--40)% 감폭"
+          },
+          "group": [
+            4982
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_shock_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Shock during Effect",
+                "kr": "효과를 받는 동안 감전 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -44,
+                    -40
+                  ]
+                }
+              ],
+              "value": "-44~-40",
+              "text": {
+                "en": "(-44--40)% less Duration",
+                "kr": "지속시간 (-44--40)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffResistancesWhileHealing3",
+          "affixType": "suffix",
+          "tier": 41,
+          "valueRanges": [
+            [
+              15,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of the Kaleidoscope",
+            "kr": "- 만화경"
+          },
+          "effect": {
+            "en": "(15-17)% additional Elemental Resistances during Effect",
+            "kr": "효과를 받는 동안 추가 원소 저항 (15-17)%"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_resistances_+%_while_healing",
+                  "valueRange": [
+                    15,
+                    17
+                  ]
+                }
+              ],
+              "value": "15~17",
+              "text": {
+                "en": "(15-17)% additional Elemental Resistances during Effect",
+                "kr": "효과를 받는 동안 추가 원소 저항 (15-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBleedingAndCorruptedBloodImmunityDuringEffect2_",
+          "affixType": "suffix",
+          "tier": 42,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -44,
+              -40
+            ]
+          ],
+          "name": {
+            "en": "of the Skink",
+            "kr": "- 스킨크"
+          },
+          "effect": {
+            "en": "Immunity to Bleeding and Corrupted Blood during Effect\n(-44--40)% less Duration",
+            "kr": "효과를 받는 동안 출혈 및 타락한 피 면역\n지속시간 (-44--40)% 감폭"
+          },
+          "group": [
+            4985
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_bleeding_and_corrupted_blood_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Bleeding and Corrupted Blood during Effect",
+                "kr": "효과를 받는 동안 출혈 및 타락한 피 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -44,
+                    -40
+                  ]
+                }
+              ],
+              "value": "-44~-40",
+              "text": {
+                "en": "(-44--40)% less Duration",
+                "kr": "지속시간 (-44--40)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidChillFreeze3",
+          "affixType": "suffix",
+          "tier": 42,
+          "valueRanges": [
+            [
+              41,
+              45
+            ],
+            [
+              41,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of the Narwhal",
+            "kr": "- 일각고래"
+          },
+          "effect": {
+            "en": "(41-45)% chance to Avoid being Chilled during Effect\n(41-45)% chance to Avoid being Frozen during Effect",
+            "kr": "효과를 받는 동안 (41-45)%의 확률로 냉각 긴급회피\n효과를 받는 동안 (41-45)%의 확률로 동결 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_chill_%_during_flask_effect",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% chance to Avoid being Chilled during Effect",
+                "kr": "효과를 받는 동안 (41-45)%의 확률로 냉각 긴급회피"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_freeze_%_during_flask_effect",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% chance to Avoid being Frozen during Effect",
+                "kr": "효과를 받는 동안 (41-45)%의 확률로 동결 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffChillFreezeDuration3_",
+          "affixType": "suffix",
+          "tier": 42,
+          "valueRanges": [
+            [
+              -52,
+              -48
+            ],
+            [
+              -52,
+              -48
+            ]
+          ],
+          "name": {
+            "en": "of the Fox",
+            "kr": "- 여우"
+          },
+          "effect": {
+            "en": "(-52--48)% reduced Effect of Chill on you during Effect\n(-52--48)% reduced Freeze Duration on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-52--48)% 감소\n효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-52--48)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_chill_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -52,
+                    -48
+                  ]
+                }
+              ],
+              "value": "-52~-48",
+              "text": {
+                "en": "(-52--48)% reduced Effect of Chill on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-52--48)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_self_freeze_duration_+%_during_flask_effect",
+                  "valueRange": [
+                    -52,
+                    -48
+                  ]
+                }
+              ],
+              "value": "-52~-48",
+              "text": {
+                "en": "(-52--48)% reduced Freeze Duration on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-52--48)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidIgnite3",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              41,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of the Carp",
+            "kr": "- 잉어"
+          },
+          "effect": {
+            "en": "(41-45)% chance to Avoid being Ignited during Effect",
+            "kr": "효과를 받는 동안 (41-45)%의 확률로 점화 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_ignite_%_during_flask_effect",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% chance to Avoid being Ignited during Effect",
+                "kr": "효과를 받는 동안 (41-45)%의 확률로 점화 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidShock3",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              41,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of Tooth Moss",
+            "kr": "- 이 이끼"
+          },
+          "effect": {
+            "en": "(41-45)% chance to Avoid being Shocked during Effect",
+            "kr": "효과를 받는 동안 (41-45)%의 확률로 감전 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_shock_%_during_flask_effect",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% chance to Avoid being Shocked during Effect",
+                "kr": "효과를 받는 동안 (41-45)%의 확률로 감전 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffShockEffect3___",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              -52,
+              -48
+            ]
+          ],
+          "name": {
+            "en": "of the Cormorant",
+            "kr": "- 가마우지"
+          },
+          "effect": {
+            "en": "(-52--48)% reduced Effect of Shock on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-52--48)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_shock_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -52,
+                    -48
+                  ]
+                }
+              ],
+              "value": "-52~-48",
+              "text": {
+                "en": "(-52--48)% reduced Effect of Shock on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-52--48)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidStunWhileHealing3",
+          "affixType": "suffix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              41,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of Persistence",
+            "kr": "- 지속성"
+          },
+          "effect": {
+            "en": "(41-45)% Chance to Avoid being Stunned during Effect",
+            "kr": "효과를 받는 동안 (41-45)%의 확률로 기절 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_avoid_stun_chance_%_during_flask_effect",
+                  "valueRange": [
+                    41,
+                    45
+                  ]
+                }
+              ],
+              "value": "41~45",
+              "text": {
+                "en": "(41-45)% Chance to Avoid being Stunned during Effect",
+                "kr": "효과를 받는 동안 (41-45)%의 확률로 기절 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCurseEffect3_",
+          "affixType": "suffix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              -52,
+              -48
+            ]
+          ],
+          "name": {
+            "en": "of the Curlew",
+            "kr": "- 마도요"
+          },
+          "effect": {
+            "en": "(-52--48)% reduced Effect of Curses on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-52--48)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_curse_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -52,
+                    -48
+                  ]
+                }
+              ],
+              "value": "-52~-48",
+              "text": {
+                "en": "(-52--48)% reduced Effect of Curses on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-52--48)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPoisonImmunityDuringEffect2",
+          "affixType": "suffix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -44,
+              -40
+            ]
+          ],
+          "name": {
+            "en": "of the Hedgehog",
+            "kr": "- 고슴도치"
+          },
+          "effect": {
+            "en": "Immunity to Poison during Effect\n(-44--40)% less Duration",
+            "kr": "효과를 받는 동안 중독 면역\n지속시간 (-44--40)% 감폭"
+          },
+          "group": [
+            4981
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_poison_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Poison during Effect",
+                "kr": "효과를 받는 동안 중독 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -44,
+                    -40
+                  ]
+                }
+              ],
+              "value": "-44~-40",
+              "text": {
+                "en": "(-44--40)% less Duration",
+                "kr": "지속시간 (-44--40)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCriticalChanceWhileHealing3",
+          "affixType": "suffix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              38,
+              43
+            ]
+          ],
+          "name": {
+            "en": "of Rupturing",
+            "kr": "- 파열"
+          },
+          "effect": {
+            "en": "(38-43)% increased Critical Strike Chance during Effect",
+            "kr": "효과를 받는 동안 치명타 확률 (38-43)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_critical_strike_chance_+%_during_flask_effect",
+                  "valueRange": [
+                    38,
+                    43
+                  ]
+                }
+              ],
+              "value": "38~43",
+              "text": {
+                "en": "(38-43)% increased Critical Strike Chance during Effect",
+                "kr": "효과를 받는 동안 치명타 확률 (38-43)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffFreezeShockIgniteChanceWhileHealing3",
+          "affixType": "suffix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              27,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of Wreaking",
+            "kr": "- 마구잡이"
+          },
+          "effect": {
+            "en": "(27-30)% chance to Freeze, Shock and Ignite during Effect",
+            "kr": "효과를 받는 동안 (27-30)%의 확률로 동결, 감전 및 점화 유발"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chance_to_freeze_shock_ignite_%_while_healing",
+                  "valueRange": [
+                    27,
+                    30
+                  ]
+                }
+              ],
+              "value": "27~30",
+              "text": {
+                "en": "(27-30)% chance to Freeze, Shock and Ignite during Effect",
+                "kr": "효과를 받는 동안 (27-30)%의 확률로 동결, 감전 및 점화 유발"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffWardWhileHealing3",
+          "affixType": "suffix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of Runeflaring",
+            "kr": "- 룬 섬광"
+          },
+          "effect": {
+            "en": "(25-27)% increased Ward during Effect",
+            "kr": "효과를 받는 동안 수호 (25-27)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ward_+%_during_effect",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27)% increased Ward during Effect",
+                "kr": "효과를 받는 동안 수호 (25-27)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffStunRecoveryWhileHealing4",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              69,
+              74
+            ]
+          ],
+          "name": {
+            "en": "of Counterpoise",
+            "kr": "- 평형력"
+          },
+          "effect": {
+            "en": "(69-74)% increased Block and Stun Recovery during Effect",
+            "kr": "효과를 받는 동안 막기 및 기절 회복 (69-74)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_stun_recovery_+%_while_healing",
+                  "valueRange": [
+                    69,
+                    74
+                  ]
+                }
+              ],
+              "value": "69~74",
+              "text": {
+                "en": "(69-74)% increased Block and Stun Recovery during Effect",
+                "kr": "효과를 받는 동안 막기 및 기절 회복 (69-74)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAttackLifeLeechWhileHealing4",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              70,
+              70
+            ]
+          ],
+          "name": {
+            "en": "of Butchery",
+            "kr": "- 도살"
+          },
+          "effect": {
+            "en": "70% of Attack Damage Leeched as Life during Effect",
+            "kr": "효과를 받는 동안 공격 피해의 70%를 생명력으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_leech_from_attack_damage_permyriad_while_healing",
+                  "valueRange": [
+                    70,
+                    70
+                  ]
+                }
+              ],
+              "value": "70",
+              "text": {
+                "en": "70% of Attack Damage Leeched as Life during Effect",
+                "kr": "효과를 받는 동안 공격 피해의 70%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffSpellEnergyShieldLeechWhileHealing4",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              70,
+              70
+            ]
+          ],
+          "name": {
+            "en": "of Siphoning",
+            "kr": "- 착취"
+          },
+          "effect": {
+            "en": "70% of Spell Damage Leeched as Energy Shield during Effect",
+            "kr": "효과를 받는 동안 주문 피해의 70%를 에너지 보호막으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_energy_shield_leech_from_spell_damage_permyriad_while_healing",
+                  "valueRange": [
+                    70,
+                    70
+                  ]
+                }
+              ],
+              "value": "70",
+              "text": {
+                "en": "70% of Spell Damage Leeched as Energy Shield during Effect",
+                "kr": "효과를 받는 동안 주문 피해의 70%를 에너지 보호막으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidChillFreeze4",
+          "affixType": "suffix",
+          "tier": 61,
+          "valueRanges": [
+            [
+              46,
+              50
+            ],
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of the Beluga",
+            "kr": "- 벨루가"
+          },
+          "effect": {
+            "en": "(46-50)% chance to Avoid being Chilled during Effect\n(46-50)% chance to Avoid being Frozen during Effect",
+            "kr": "효과를 받는 동안 (46-50)%의 확률로 냉각 긴급회피\n효과를 받는 동안 (46-50)%의 확률로 동결 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_chill_%_during_flask_effect",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% chance to Avoid being Chilled during Effect",
+                "kr": "효과를 받는 동안 (46-50)%의 확률로 냉각 긴급회피"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_freeze_%_during_flask_effect",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% chance to Avoid being Frozen during Effect",
+                "kr": "효과를 받는 동안 (46-50)%의 확률로 동결 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffChillFreezeDuration4",
+          "affixType": "suffix",
+          "tier": 61,
+          "valueRanges": [
+            [
+              -59,
+              -52
+            ],
+            [
+              -59,
+              -52
+            ]
+          ],
+          "name": {
+            "en": "of the Sable",
+            "kr": "- 담비"
+          },
+          "effect": {
+            "en": "(-59--52)% reduced Effect of Chill on you during Effect\n(-59--52)% reduced Freeze Duration on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-59--52)% 감소\n효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-59--52)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_chill_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -59,
+                    -52
+                  ]
+                }
+              ],
+              "value": "-59~-52",
+              "text": {
+                "en": "(-59--52)% reduced Effect of Chill on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-59--52)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_self_freeze_duration_+%_during_flask_effect",
+                  "valueRange": [
+                    -59,
+                    -52
+                  ]
+                }
+              ],
+              "value": "-59~-52",
+              "text": {
+                "en": "(-59--52)% reduced Freeze Duration on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-59--52)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidIgnite4___",
+          "affixType": "suffix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of the Catfish",
+            "kr": "- 메기"
+          },
+          "effect": {
+            "en": "(46-50)% chance to Avoid being Ignited during Effect",
+            "kr": "효과를 받는 동안 (46-50)%의 확률로 점화 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_ignite_%_during_flask_effect",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% chance to Avoid being Ignited during Effect",
+                "kr": "효과를 받는 동안 (46-50)%의 확률로 점화 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidShock4_____",
+          "affixType": "suffix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Plume Moss",
+            "kr": "- 깃 이끼"
+          },
+          "effect": {
+            "en": "(46-50)% chance to Avoid being Shocked during Effect",
+            "kr": "효과를 받는 동안 (46-50)%의 확률로 감전 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_shock_%_during_flask_effect",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% chance to Avoid being Shocked during Effect",
+                "kr": "효과를 받는 동안 (46-50)%의 확률로 감전 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidStunWhileHealing4",
+          "affixType": "suffix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              46,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Relentlessness",
+            "kr": "- 집요함"
+          },
+          "effect": {
+            "en": "(46-50)% Chance to Avoid being Stunned during Effect",
+            "kr": "효과를 받는 동안 (46-50)%의 확률로 기절 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_avoid_stun_chance_%_during_flask_effect",
+                  "valueRange": [
+                    46,
+                    50
+                  ]
+                }
+              ],
+              "value": "46~50",
+              "text": {
+                "en": "(46-50)% Chance to Avoid being Stunned during Effect",
+                "kr": "효과를 받는 동안 (46-50)%의 확률로 기절 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffShockEffect4",
+          "affixType": "suffix",
+          "tier": 63,
+          "valueRanges": [
+            [
+              -59,
+              -52
+            ]
+          ],
+          "name": {
+            "en": "of the Sanderling",
+            "kr": "- 세발가락도요새"
+          },
+          "effect": {
+            "en": "(-59--52)% reduced Effect of Shock on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-59--52)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_shock_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -59,
+                    -52
+                  ]
+                }
+              ],
+              "value": "-59~-52",
+              "text": {
+                "en": "(-59--52)% reduced Effect of Shock on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-59--52)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCurseEffect4",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              -59,
+              -52
+            ]
+          ],
+          "name": {
+            "en": "of the Kakapo",
+            "kr": "- 카카포"
+          },
+          "effect": {
+            "en": "(-59--52)% reduced Effect of Curses on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-59--52)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_curse_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -59,
+                    -52
+                  ]
+                }
+              ],
+              "value": "-59~-52",
+              "text": {
+                "en": "(-59--52)% reduced Effect of Curses on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-59--52)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffMovementSpeedWhileHealing2",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              9,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of the Lynx",
+            "kr": "- 스라소니"
+          },
+          "effect": {
+            "en": "(9-11)% increased Movement Speed during Effect",
+            "kr": "효과를 받는 동안 이동 속도 (9-11)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_movement_speed_+%_while_healing",
+                  "valueRange": [
+                    9,
+                    11
+                  ]
+                }
+              ],
+              "value": "9~11",
+              "text": {
+                "en": "(9-11)% increased Movement Speed during Effect",
+                "kr": "효과를 받는 동안 이동 속도 (9-11)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCriticalChanceWhileHealing4__",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              44,
+              49
+            ]
+          ],
+          "name": {
+            "en": "of Penetrating",
+            "kr": "- 침투"
+          },
+          "effect": {
+            "en": "(44-49)% increased Critical Strike Chance during Effect",
+            "kr": "효과를 받는 동안 치명타 확률 (44-49)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_critical_strike_chance_+%_during_flask_effect",
+                  "valueRange": [
+                    44,
+                    49
+                  ]
+                }
+              ],
+              "value": "44~49",
+              "text": {
+                "en": "(44-49)% increased Critical Strike Chance during Effect",
+                "kr": "효과를 받는 동안 치명타 확률 (44-49)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffFreezeShockIgniteChanceWhileHealing4_",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              31,
+              34
+            ]
+          ],
+          "name": {
+            "en": "of Infliction",
+            "kr": "- 형벌"
+          },
+          "effect": {
+            "en": "(31-34)% chance to Freeze, Shock and Ignite during Effect",
+            "kr": "효과를 받는 동안 (31-34)%의 확률로 동결, 감전 및 점화 유발"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_chance_to_freeze_shock_ignite_%_while_healing",
+                  "valueRange": [
+                    31,
+                    34
+                  ]
+                }
+              ],
+              "value": "31~34",
+              "text": {
+                "en": "(31-34)% chance to Freeze, Shock and Ignite during Effect",
+                "kr": "효과를 받는 동안 (31-34)%의 확률로 동결, 감전 및 점화 유발"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskFreezeAndChillImmunityDuringEffect3__",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -39,
+              -35
+            ]
+          ],
+          "name": {
+            "en": "of the Penguin",
+            "kr": "- 펭귄"
+          },
+          "effect": {
+            "en": "Immunity to Freeze and Chill during Effect\n(-39--35)% less Duration",
+            "kr": "효과를 받는 동안 동결 및 냉각 면역\n지속시간 (-39--35)% 감폭"
+          },
+          "group": [
+            4984
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_freeze_and_chill_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Freeze and Chill during Effect",
+                "kr": "효과를 받는 동안 동결 및 냉각 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -39,
+                    -35
+                  ]
+                }
+              ],
+              "value": "-39~-35",
+              "text": {
+                "en": "(-39--35)% less Duration",
+                "kr": "지속시간 (-39--35)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffStunRecoveryWhileHealing5",
+          "affixType": "suffix",
+          "tier": 73,
+          "valueRanges": [
+            [
+              75,
+              80
+            ]
+          ],
+          "name": {
+            "en": "of Stabilisation",
+            "kr": "- 안정화"
+          },
+          "effect": {
+            "en": "(75-80)% increased Block and Stun Recovery during Effect",
+            "kr": "효과를 받는 동안 막기 및 기절 회복 (75-80)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_stun_recovery_+%_while_healing",
+                  "valueRange": [
+                    75,
+                    80
+                  ]
+                }
+              ],
+              "value": "75~80",
+              "text": {
+                "en": "(75-80)% increased Block and Stun Recovery during Effect",
+                "kr": "효과를 받는 동안 막기 및 기절 회복 (75-80)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskIgniteImmunityDuringEffect3",
+          "affixType": "suffix",
+          "tier": 74,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -39,
+              -35
+            ]
+          ],
+          "name": {
+            "en": "of the Starfish",
+            "kr": "- 불가사리"
+          },
+          "effect": {
+            "en": "Immunity to Ignite during Effect\\nRemoves Burning on use\n(-39--35)% less Duration",
+            "kr": "효과를 받는 동안 점화에 면역\\n사용 시 화상 제거\n지속시간 (-39--35)% 감폭"
+          },
+          "group": [
+            4983
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_dispels_burning_and_ignite_immunity_during_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Ignite during Effect\\nRemoves Burning on use",
+                "kr": "효과를 받는 동안 점화에 면역\\n사용 시 화상 제거"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -39,
+                    -35
+                  ]
+                }
+              ],
+              "value": "-39~-35",
+              "text": {
+                "en": "(-39--35)% less Duration",
+                "kr": "지속시간 (-39--35)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskShockImmunityDuringEffect3",
+          "affixType": "suffix",
+          "tier": 74,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -39,
+              -35
+            ]
+          ],
+          "name": {
+            "en": "of the Eel",
+            "kr": "- 뱀장어"
+          },
+          "effect": {
+            "en": "Immunity to Shock during Effect\n(-39--35)% less Duration",
+            "kr": "효과를 받는 동안 감전 면역\n지속시간 (-39--35)% 감폭"
+          },
+          "group": [
+            4982
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_shock_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Shock during Effect",
+                "kr": "효과를 받는 동안 감전 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -39,
+                    -35
+                  ]
+                }
+              ],
+              "value": "-39~-35",
+              "text": {
+                "en": "(-39--35)% less Duration",
+                "kr": "지속시간 (-39--35)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBleedingAndCorruptedBloodImmunityDuringEffect3___",
+          "affixType": "suffix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -39,
+              -35
+            ]
+          ],
+          "name": {
+            "en": "of the Iguana",
+            "kr": "- 이구아나"
+          },
+          "effect": {
+            "en": "Immunity to Bleeding and Corrupted Blood during Effect\n(-39--35)% less Duration",
+            "kr": "효과를 받는 동안 출혈 및 타락한 피 면역\n지속시간 (-39--35)% 감폭"
+          },
+          "group": [
+            4985
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_bleeding_and_corrupted_blood_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Bleeding and Corrupted Blood during Effect",
+                "kr": "효과를 받는 동안 출혈 및 타락한 피 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -39,
+                    -35
+                  ]
+                }
+              ],
+              "value": "-39~-35",
+              "text": {
+                "en": "(-39--35)% less Duration",
+                "kr": "지속시간 (-39--35)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskPoisonImmunityDuringEffect3",
+          "affixType": "suffix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              -39,
+              -35
+            ]
+          ],
+          "name": {
+            "en": "of the Opossum",
+            "kr": "- 주머니쥐"
+          },
+          "effect": {
+            "en": "Immunity to Poison during Effect\n(-39--35)% less Duration",
+            "kr": "효과를 받는 동안 중독 면역\n지속시간 (-39--35)% 감폭"
+          },
+          "group": [
+            4981
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_immune_to_poison_during_flask_effect",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Immunity to Poison during Effect",
+                "kr": "효과를 받는 동안 중독 면역"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_duration_+%_final",
+                  "valueRange": [
+                    -39,
+                    -35
+                  ]
+                }
+              ],
+              "value": "-39~-35",
+              "text": {
+                "en": "(-39--35)% less Duration",
+                "kr": "지속시간 (-39--35)% 감폭"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffWardWhileHealing4",
+          "affixType": "suffix",
+          "tier": 78,
+          "valueRanges": [
+            [
+              28,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of Runeblazing",
+            "kr": "- 룬 화염"
+          },
+          "effect": {
+            "en": "(28-30)% increased Ward during Effect",
+            "kr": "효과를 받는 동안 수호 (28-30)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_ward_+%_during_effect",
+                  "valueRange": [
+                    28,
+                    30
+                  ]
+                }
+              ],
+              "value": "28~30",
+              "text": {
+                "en": "(28-30)% increased Ward during Effect",
+                "kr": "효과를 받는 동안 수호 (28-30)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAttackLifeLeechWhileHealing5",
+          "affixType": "suffix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              80,
+              80
+            ]
+          ],
+          "name": {
+            "en": "of Bloodletting",
+            "kr": "- 출혈 과다"
+          },
+          "effect": {
+            "en": "80% of Attack Damage Leeched as Life during Effect",
+            "kr": "효과를 받는 동안 공격 피해의 80%를 생명력으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_life_leech_from_attack_damage_permyriad_while_healing",
+                  "valueRange": [
+                    80,
+                    80
+                  ]
+                }
+              ],
+              "value": "80",
+              "text": {
+                "en": "80% of Attack Damage Leeched as Life during Effect",
+                "kr": "효과를 받는 동안 공격 피해의 80%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidChillFreeze5",
+          "affixType": "suffix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              51,
+              55
+            ],
+            [
+              51,
+              55
+            ]
+          ],
+          "name": {
+            "en": "of the Seal",
+            "kr": "- 물개"
+          },
+          "effect": {
+            "en": "(51-55)% chance to Avoid being Chilled during Effect\n(51-55)% chance to Avoid being Frozen during Effect",
+            "kr": "효과를 받는 동안 (51-55)%의 확률로 냉각 긴급회피\n효과를 받는 동안 (51-55)%의 확률로 동결 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_chill_%_during_flask_effect",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55)% chance to Avoid being Chilled during Effect",
+                "kr": "효과를 받는 동안 (51-55)%의 확률로 냉각 긴급회피"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_freeze_%_during_flask_effect",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55)% chance to Avoid being Frozen during Effect",
+                "kr": "효과를 받는 동안 (51-55)%의 확률로 동결 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidStunWhileHealing5",
+          "affixType": "suffix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              51,
+              55
+            ]
+          ],
+          "name": {
+            "en": "of Tenaciousness",
+            "kr": "- 끈기"
+          },
+          "effect": {
+            "en": "(51-55)% Chance to Avoid being Stunned during Effect",
+            "kr": "효과를 받는 동안 (51-55)%의 확률로 기절 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_avoid_stun_chance_%_during_flask_effect",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55)% Chance to Avoid being Stunned during Effect",
+                "kr": "효과를 받는 동안 (51-55)%의 확률로 기절 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffChillFreezeDuration5",
+          "affixType": "suffix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              -65,
+              -60
+            ],
+            [
+              -65,
+              -60
+            ]
+          ],
+          "name": {
+            "en": "of the Bear",
+            "kr": "- 곰"
+          },
+          "effect": {
+            "en": "(-65--60)% reduced Effect of Chill on you during Effect\n(-65--60)% reduced Freeze Duration on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-65--60)% 감소\n효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-65--60)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_chill_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -65,
+                    -60
+                  ]
+                }
+              ],
+              "value": "-65~-60",
+              "text": {
+                "en": "(-65--60)% reduced Effect of Chill on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 냉각 효과 (-65--60)% 감소"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "local_self_freeze_duration_+%_during_flask_effect",
+                  "valueRange": [
+                    -65,
+                    -60
+                  ]
+                }
+              ],
+              "value": "-65~-60",
+              "text": {
+                "en": "(-65--60)% reduced Freeze Duration on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 동결 지속시간 (-65--60)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffSpellEnergyShieldLeechWhileHealing5",
+          "affixType": "suffix",
+          "tier": 80,
+          "valueRanges": [
+            [
+              80,
+              80
+            ]
+          ],
+          "name": {
+            "en": "of Draining",
+            "kr": "- 고갈"
+          },
+          "effect": {
+            "en": "80% of Spell Damage Leeched as Energy Shield during Effect",
+            "kr": "효과를 받는 동안 주문 피해의 80%를 에너지 보호막으로 흡수"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_energy_shield_leech_from_spell_damage_permyriad_while_healing",
+                  "valueRange": [
+                    80,
+                    80
+                  ]
+                }
+              ],
+              "value": "80",
+              "text": {
+                "en": "80% of Spell Damage Leeched as Energy Shield during Effect",
+                "kr": "효과를 받는 동안 주문 피해의 80%를 에너지 보호막으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffResistancesWhileHealing5_",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              18,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Rainbow",
+            "kr": "- 무지개"
+          },
+          "effect": {
+            "en": "(18-20)% additional Elemental Resistances during Effect",
+            "kr": "효과를 받는 동안 추가 원소 저항 (18-20)%"
+          },
+          "group": [
+            93
+          ],
+          "weight": 750,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_resistances_+%_while_healing",
+                  "valueRange": [
+                    18,
+                    20
+                  ]
+                }
+              ],
+              "value": "18~20",
+              "text": {
+                "en": "(18-20)% additional Elemental Resistances during Effect",
+                "kr": "효과를 받는 동안 추가 원소 저항 (18-20)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidIgnite5_",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              51,
+              55
+            ]
+          ],
+          "name": {
+            "en": "of the Sunfish",
+            "kr": "- 개복치"
+          },
+          "effect": {
+            "en": "(51-55)% chance to Avoid being Ignited during Effect",
+            "kr": "효과를 받는 동안 (51-55)%의 확률로 점화 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_ignite_%_during_flask_effect",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55)% chance to Avoid being Ignited during Effect",
+                "kr": "효과를 받는 동안 (51-55)%의 확률로 점화 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffAvoidShock5",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              51,
+              55
+            ]
+          ],
+          "name": {
+            "en": "of Bog Moss",
+            "kr": "- 습지대 이끼"
+          },
+          "effect": {
+            "en": "(51-55)% chance to Avoid being Shocked during Effect",
+            "kr": "효과를 받는 동안 (51-55)%의 확률로 감전 긴급회피"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_avoid_shock_%_during_flask_effect",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55)% chance to Avoid being Shocked during Effect",
+                "kr": "효과를 받는 동안 (51-55)%의 확률로 감전 긴급회피"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCriticalChanceWhileHealing5",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              50,
+              55
+            ]
+          ],
+          "name": {
+            "en": "of Incision",
+            "kr": "- 절개"
+          },
+          "effect": {
+            "en": "(50-55)% increased Critical Strike Chance during Effect",
+            "kr": "효과를 받는 동안 치명타 확률 (50-55)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_critical_strike_chance_+%_during_flask_effect",
+                  "valueRange": [
+                    50,
+                    55
+                  ]
+                }
+              ],
+              "value": "50~55",
+              "text": {
+                "en": "(50-55)% increased Critical Strike Chance during Effect",
+                "kr": "효과를 받는 동안 치명타 확률 (50-55)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffShockEffect5",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              -65,
+              -60
+            ]
+          ],
+          "name": {
+            "en": "of the Heron",
+            "kr": "- 왜가리"
+          },
+          "effect": {
+            "en": "(-65--60)% reduced Effect of Shock on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-65--60)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_shock_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -65,
+                    -60
+                  ]
+                }
+              ],
+              "value": "-65~-60",
+              "text": {
+                "en": "(-65--60)% reduced Effect of Shock on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 감전 효과 (-65--60)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffCurseEffect5",
+          "affixType": "suffix",
+          "tier": 84,
+          "valueRanges": [
+            [
+              -65,
+              -60
+            ]
+          ],
+          "name": {
+            "en": "of the Owl",
+            "kr": "- 올빼미"
+          },
+          "effect": {
+            "en": "(-65--60)% reduced Effect of Curses on you during Effect",
+            "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-65--60)% 감소"
+          },
+          "group": [
+            93
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_self_curse_effect_+%_during_flask_effect",
+                  "valueRange": [
+                    -65,
+                    -60
+                  ]
+                }
+              ],
+              "value": "-65~-60",
+              "text": {
+                "en": "(-65--60)% reduced Effect of Curses on you during Effect",
+                "kr": "효과를 받는 동안 플레이어에게 적용되는 저주 효과 (-65--60)% 감소"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FlaskBuffMovementSpeedWhileHealing3",
+          "affixType": "suffix",
+          "tier": 85,
+          "valueRanges": [
+            [
+              12,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of the Cheetah",
+            "kr": "- 치타"
+          },
+          "effect": {
+            "en": "(12-14)% increased Movement Speed during Effect",
+            "kr": "효과를 받는 동안 이동 속도 (12-14)% 증가"
+          },
+          "group": [
+            93
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_flask_movement_speed_+%_while_healing",
+                  "valueRange": [
+                    12,
+                    14
+                  ]
+                }
+              ],
+              "value": "12~14",
+              "text": {
+                "en": "(12-14)% increased Movement Speed during Effect",
+                "kr": "효과를 받는 동안 이동 속도 (12-14)% 증가"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

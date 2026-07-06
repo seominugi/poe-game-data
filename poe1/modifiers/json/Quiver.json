@@ -1,0 +1,7645 @@
+{
+  "itemClass": "Quiver",
+  "className": {
+    "en": "Quivers",
+    "kr": "화살통"
+  },
+  "domain": 1,
+  "classTags": [
+    "default",
+    "quiver",
+    "trade_market_legacy_item"
+  ],
+  "counts": {
+    "prefix": 53,
+    "suffix": 94,
+    "total": 147
+  },
+  "bucketCounts": {
+    "normal": {
+      "prefix": 53,
+      "suffix": 94,
+      "total": 147
+    },
+    "corrupted": {
+      "prefix": 25,
+      "suffix": 0,
+      "total": 25
+    }
+  },
+  "buckets": {
+    "normal": {
+      "prefix": [
+        {
+          "id": "AddedFireDamageQuiver1",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Heated",
+            "kr": "달궈진"
+          },
+          "effect": {
+            "en": "Adds (1-2) to 3 Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (1-2)~3 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    3,
+                    3
+                  ]
+                }
+              ],
+              "value": "1~2, 3",
+              "text": {
+                "en": "Adds (1-2) to 3 Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (1-2)~3 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife0",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              9
+            ]
+          ],
+          "name": {
+            "en": "Hale",
+            "kr": "정정한"
+          },
+          "effect": {
+            "en": "(3-9) to maximum Life",
+            "kr": "생명력 최대치 (3-9)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    3,
+                    9
+                  ]
+                }
+              ],
+              "value": "3~9",
+              "text": {
+                "en": "(3-9) to maximum Life",
+                "kr": "생명력 최대치 (3-9)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver1",
+          "affixType": "prefix",
+          "tier": 2,
+          "valueRanges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Frosted",
+            "kr": "서리 내린"
+          },
+          "effect": {
+            "en": "Adds (1-2) to 3 Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (1-2)~3 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    3,
+                    3
+                  ]
+                }
+              ],
+              "value": "1~2, 3",
+              "text": {
+                "en": "Adds (1-2) to 3 Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (1-2)~3 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver1",
+          "affixType": "prefix",
+          "tier": 3,
+          "valueRanges": [
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "name": {
+            "en": "Humming",
+            "kr": "윙윙대는"
+          },
+          "effect": {
+            "en": "Adds 1 to (3-4) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 1~(3-4) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    3,
+                    4
+                  ]
+                }
+              ],
+              "value": "1, 3~4",
+              "text": {
+                "en": "Adds 1 to (3-4) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 1~(3-4) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageWithBowSkills1",
+          "affixType": "prefix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Acute",
+            "kr": "격심한"
+          },
+          "effect": {
+            "en": "{}% increased Damage with Bow Skills",
+            "kr": "활 스킬로 주는 피해 {}% 증가"
+          },
+          "group": [
+            65
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_+%_with_bow_skills",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "{}% increased Damage with Bow Skills",
+                "kr": "활 스킬로 주는 피해 {}% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver1",
+          "affixType": "prefix",
+          "tier": 5,
+          "valueRanges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Glinting",
+            "kr": "미광의"
+          },
+          "effect": {
+            "en": "Adds (1-2) to 3 Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (1-2)~3 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    3,
+                    3
+                  ]
+                }
+              ],
+              "value": "1~2, 3",
+              "text": {
+                "en": "Adds (1-2) to 3 Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (1-2)~3 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife1",
+          "affixType": "prefix",
+          "tier": 5,
+          "valueRanges": [
+            [
+              10,
+              24
+            ]
+          ],
+          "name": {
+            "en": "Healthy",
+            "kr": "건강한"
+          },
+          "effect": {
+            "en": "(10-24) to maximum Life",
+            "kr": "생명력 최대치 (10-24)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    10,
+                    24
+                  ]
+                }
+              ],
+              "value": "10~24",
+              "text": {
+                "en": "(10-24) to maximum Life",
+                "kr": "생명력 최대치 (10-24)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife2",
+          "affixType": "prefix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              25,
+              39
+            ]
+          ],
+          "name": {
+            "en": "Sanguine",
+            "kr": "혈액 과다의"
+          },
+          "effect": {
+            "en": "(25-39) to maximum Life",
+            "kr": "생명력 최대치 (25-39)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    25,
+                    39
+                  ]
+                }
+              ],
+              "value": "25~39",
+              "text": {
+                "en": "(25-39) to maximum Life",
+                "kr": "생명력 최대치 (25-39)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver2",
+          "affixType": "prefix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              5,
+              7
+            ],
+            [
+              10,
+              12
+            ]
+          ],
+          "name": {
+            "en": "Smouldering",
+            "kr": "그을린"
+          },
+          "effect": {
+            "en": "Adds (5-7) to (10-12) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (5-7)~(10-12) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    5,
+                    7
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    10,
+                    12
+                  ]
+                }
+              ],
+              "value": "5~7, 10~12",
+              "text": {
+                "en": "Adds (5-7) to (10-12) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (5-7)~(10-12) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver2",
+          "affixType": "prefix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Chilled",
+            "kr": "냉각된"
+          },
+          "effect": {
+            "en": "Adds (5-6) to (9-10) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (5-6)~(9-10) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    5,
+                    6
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    9,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~6, 9~10",
+              "text": {
+                "en": "Adds (5-6) to (9-10) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (5-6)~(9-10) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver2",
+          "affixType": "prefix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              2,
+              2
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Buzzing",
+            "kr": "웅웅대는"
+          },
+          "effect": {
+            "en": "Adds 2 to (16-18) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 2~(16-18) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    16,
+                    18
+                  ]
+                }
+              ],
+              "value": "2, 16~18",
+              "text": {
+                "en": "Adds 2 to (16-18) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 2~(16-18) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver2",
+          "affixType": "prefix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Burnished",
+            "kr": "윤이 나는"
+          },
+          "effect": {
+            "en": "Adds (3-4) to (6-8) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (3-4)~(6-8) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    3,
+                    4
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    6,
+                    8
+                  ]
+                }
+              ],
+              "value": "3~4, 6~8",
+              "text": {
+                "en": "Adds (3-4) to (6-8) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (3-4)~(6-8) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageWithBowSkills2",
+          "affixType": "prefix",
+          "tier": 15,
+          "valueRanges": [
+            [
+              11,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Trenchant",
+            "kr": "신랄한"
+          },
+          "effect": {
+            "en": "{}% increased Damage with Bow Skills",
+            "kr": "활 스킬로 주는 피해 {}% 증가"
+          },
+          "group": [
+            65
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_+%_with_bow_skills",
+                  "valueRange": [
+                    11,
+                    20
+                  ]
+                }
+              ],
+              "value": "11~20",
+              "text": {
+                "en": "{}% increased Damage with Bow Skills",
+                "kr": "활 스킬로 주는 피해 {}% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife3",
+          "affixType": "prefix",
+          "tier": 18,
+          "valueRanges": [
+            [
+              40,
+              54
+            ]
+          ],
+          "name": {
+            "en": "Stalwart",
+            "kr": "건장한"
+          },
+          "effect": {
+            "en": "(40-54) to maximum Life",
+            "kr": "생명력 최대치 (40-54)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    40,
+                    54
+                  ]
+                }
+              ],
+              "value": "40~54",
+              "text": {
+                "en": "(40-54) to maximum Life",
+                "kr": "생명력 최대치 (40-54)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver3",
+          "affixType": "prefix",
+          "tier": 19,
+          "valueRanges": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Polished",
+            "kr": "광택 나는"
+          },
+          "effect": {
+            "en": "Adds (5-6) to (9-10) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (5-6)~(9-10) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    5,
+                    6
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    9,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~6, 9~10",
+              "text": {
+                "en": "Adds (5-6) to (9-10) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (5-6)~(9-10) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver3",
+          "affixType": "prefix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              8,
+              10
+            ],
+            [
+              15,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Smoking",
+            "kr": "연기 나는"
+          },
+          "effect": {
+            "en": "Adds (8-10) to (15-18) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (8-10)~(15-18) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    15,
+                    18
+                  ]
+                }
+              ],
+              "value": "8~10, 15~18",
+              "text": {
+                "en": "Adds (8-10) to (15-18) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (8-10)~(15-18) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver3_",
+          "affixType": "prefix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              7,
+              9
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Icy",
+            "kr": "얼음 같은"
+          },
+          "effect": {
+            "en": "Adds (7-9) to (14-16) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (7-9)~(14-16) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    7,
+                    9
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "7~9, 14~16",
+              "text": {
+                "en": "Adds (7-9) to (14-16) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (7-9)~(14-16) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver3",
+          "affixType": "prefix",
+          "tier": 22,
+          "valueRanges": [
+            [
+              1,
+              3
+            ],
+            [
+              25,
+              28
+            ]
+          ],
+          "name": {
+            "en": "Snapping",
+            "kr": "타닥대는"
+          },
+          "effect": {
+            "en": "Adds (1-3) to (25-28) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 (1-3)~(25-28) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    1,
+                    3
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    25,
+                    28
+                  ]
+                }
+              ],
+              "value": "1~3, 25~28",
+              "text": {
+                "en": "Adds (1-3) to (25-28) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 (1-3)~(25-28) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife4",
+          "affixType": "prefix",
+          "tier": 24,
+          "valueRanges": [
+            [
+              55,
+              69
+            ]
+          ],
+          "name": {
+            "en": "Stout",
+            "kr": "완강한"
+          },
+          "effect": {
+            "en": "(55-69) to maximum Life",
+            "kr": "생명력 최대치 (55-69)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    55,
+                    69
+                  ]
+                }
+              ],
+              "value": "55~69",
+              "text": {
+                "en": "(55-69) to maximum Life",
+                "kr": "생명력 최대치 (55-69)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver4",
+          "affixType": "prefix",
+          "tier": 28,
+          "valueRanges": [
+            [
+              11,
+              14
+            ],
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Burning",
+            "kr": "불타는"
+          },
+          "effect": {
+            "en": "Adds (11-14) to (21-25) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (11-14)~(21-25) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    11,
+                    14
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "11~14, 21~25",
+              "text": {
+                "en": "Adds (11-14) to (21-25) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (11-14)~(21-25) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver4",
+          "affixType": "prefix",
+          "tier": 28,
+          "valueRanges": [
+            [
+              2,
+              3
+            ],
+            [
+              35,
+              40
+            ]
+          ],
+          "name": {
+            "en": "Crackling",
+            "kr": "치직대는"
+          },
+          "effect": {
+            "en": "Adds (2-3) to (35-40) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 (2-3)~(35-40) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    35,
+                    40
+                  ]
+                }
+              ],
+              "value": "2~3, 35~40",
+              "text": {
+                "en": "Adds (2-3) to (35-40) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 (2-3)~(35-40) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver4",
+          "affixType": "prefix",
+          "tier": 28,
+          "valueRanges": [
+            [
+              6,
+              9
+            ],
+            [
+              13,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Honed",
+            "kr": "연마한"
+          },
+          "effect": {
+            "en": "Adds (6-9) to (13-16) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (6-9)~(13-16) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    6,
+                    9
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    13,
+                    16
+                  ]
+                }
+              ],
+              "value": "6~9, 13~16",
+              "text": {
+                "en": "Adds (6-9) to (13-16) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (6-9)~(13-16) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver4__",
+          "affixType": "prefix",
+          "tier": 29,
+          "valueRanges": [
+            [
+              10,
+              13
+            ],
+            [
+              19,
+              22
+            ]
+          ],
+          "name": {
+            "en": "Frigid",
+            "kr": "차디찬"
+          },
+          "effect": {
+            "en": "Adds (10-13) to (19-22) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (10-13)~(19-22) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    10,
+                    13
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    19,
+                    22
+                  ]
+                }
+              ],
+              "value": "10~13, 19~22",
+              "text": {
+                "en": "Adds (10-13) to (19-22) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (10-13)~(19-22) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageWithBowSkills3",
+          "affixType": "prefix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              21,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Perforating",
+            "kr": "천공하는"
+          },
+          "effect": {
+            "en": "{}% increased Damage with Bow Skills",
+            "kr": "활 스킬로 주는 피해 {}% 증가"
+          },
+          "group": [
+            65
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_+%_with_bow_skills",
+                  "valueRange": [
+                    21,
+                    30
+                  ]
+                }
+              ],
+              "value": "21~30",
+              "text": {
+                "en": "{}% increased Damage with Bow Skills",
+                "kr": "활 스킬로 주는 피해 {}% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife5",
+          "affixType": "prefix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              70,
+              84
+            ]
+          ],
+          "name": {
+            "en": "Robust",
+            "kr": "왕성한"
+          },
+          "effect": {
+            "en": "(70-84) to maximum Life",
+            "kr": "생명력 최대치 (70-84)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    70,
+                    84
+                  ]
+                }
+              ],
+              "value": "70~84",
+              "text": {
+                "en": "(70-84) to maximum Life",
+                "kr": "생명력 최대치 (70-84)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver5_",
+          "affixType": "prefix",
+          "tier": 35,
+          "valueRanges": [
+            [
+              13,
+              18
+            ],
+            [
+              27,
+              31
+            ]
+          ],
+          "name": {
+            "en": "Flaming",
+            "kr": "불을 뿜는"
+          },
+          "effect": {
+            "en": "Adds (13-18) to (27-31) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (13-18)~(27-31) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    13,
+                    18
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    27,
+                    31
+                  ]
+                }
+              ],
+              "value": "13~18, 27~31",
+              "text": {
+                "en": "Adds (13-18) to (27-31) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (13-18)~(27-31) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver5_",
+          "affixType": "prefix",
+          "tier": 35,
+          "valueRanges": [
+            [
+              2,
+              4
+            ],
+            [
+              44,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Sparking",
+            "kr": "전기불꽃의"
+          },
+          "effect": {
+            "en": "Adds (2-4) to (44-50) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 (2-4)~(44-50) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    2,
+                    4
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    44,
+                    50
+                  ]
+                }
+              ],
+              "value": "2~4, 44~50",
+              "text": {
+                "en": "Adds (2-4) to (44-50) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 (2-4)~(44-50) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver5",
+          "affixType": "prefix",
+          "tier": 35,
+          "valueRanges": [
+            [
+              8,
+              11
+            ],
+            [
+              16,
+              18
+            ]
+          ],
+          "name": {
+            "en": "Gleaming",
+            "kr": "번뜩이는"
+          },
+          "effect": {
+            "en": "Adds (8-11) to (16-18) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (8-11)~(16-18) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    8,
+                    11
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    16,
+                    18
+                  ]
+                }
+              ],
+              "value": "8~11, 16~18",
+              "text": {
+                "en": "Adds (8-11) to (16-18) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (8-11)~(16-18) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver5",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              12,
+              16
+            ],
+            [
+              24,
+              28
+            ]
+          ],
+          "name": {
+            "en": "Freezing",
+            "kr": "동결의"
+          },
+          "effect": {
+            "en": "Adds (12-16) to (24-28) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (12-16)~(24-28) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    12,
+                    16
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    24,
+                    28
+                  ]
+                }
+              ],
+              "value": "12~16, 24~28",
+              "text": {
+                "en": "Adds (12-16) to (24-28) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (12-16)~(24-28) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife6",
+          "affixType": "prefix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              85,
+              99
+            ]
+          ],
+          "name": {
+            "en": "Rotund",
+            "kr": "퉁퉁한"
+          },
+          "effect": {
+            "en": "(85-99) to maximum Life",
+            "kr": "생명력 최대치 (85-99)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    85,
+                    99
+                  ]
+                }
+              ],
+              "value": "85~99",
+              "text": {
+                "en": "(85-99) to maximum Life",
+                "kr": "생명력 최대치 (85-99)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver6",
+          "affixType": "prefix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              17,
+              22
+            ],
+            [
+              33,
+              38
+            ]
+          ],
+          "name": {
+            "en": "Scorching",
+            "kr": "작열하는"
+          },
+          "effect": {
+            "en": "Adds (17-22) to (33-38) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (17-22)~(33-38) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    17,
+                    22
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    33,
+                    38
+                  ]
+                }
+              ],
+              "value": "17~22, 33~38",
+              "text": {
+                "en": "Adds (17-22) to (33-38) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (17-22)~(33-38) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver6___",
+          "affixType": "prefix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              2,
+              5
+            ],
+            [
+              56,
+              62
+            ]
+          ],
+          "name": {
+            "en": "Arcing",
+            "kr": "전호의"
+          },
+          "effect": {
+            "en": "Adds (2-5) to (56-62) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 (2-5)~(56-62) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    2,
+                    5
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    56,
+                    62
+                  ]
+                }
+              ],
+              "value": "2~5, 56~62",
+              "text": {
+                "en": "Adds (2-5) to (56-62) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 (2-5)~(56-62) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver6",
+          "affixType": "prefix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              10,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ],
+          "name": {
+            "en": "Annealed",
+            "kr": "담금질한"
+          },
+          "effect": {
+            "en": "Adds (10-13) to (19-23) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (10-13)~(19-23) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    10,
+                    13
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    19,
+                    23
+                  ]
+                }
+              ],
+              "value": "10~13, 19~23",
+              "text": {
+                "en": "Adds (10-13) to (19-23) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (10-13)~(19-23) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife7",
+          "affixType": "prefix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              100,
+              114
+            ]
+          ],
+          "name": {
+            "en": "Virile",
+            "kr": "강건한"
+          },
+          "effect": {
+            "en": "(100-114) to maximum Life",
+            "kr": "생명력 최대치 (100-114)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    100,
+                    114
+                  ]
+                }
+              ],
+              "value": "100~114",
+              "text": {
+                "en": "(100-114) to maximum Life",
+                "kr": "생명력 최대치 (100-114)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver6",
+          "affixType": "prefix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              15,
+              20
+            ],
+            [
+              30,
+              35
+            ]
+          ],
+          "name": {
+            "en": "Frozen",
+            "kr": "얼어붙은"
+          },
+          "effect": {
+            "en": "Adds (15-20) to (30-35) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (15-20)~(30-35) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    15,
+                    20
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    30,
+                    35
+                  ]
+                }
+              ],
+              "value": "15~20, 30~35",
+              "text": {
+                "en": "Adds (15-20) to (30-35) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (15-20)~(30-35) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver7",
+          "affixType": "prefix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              20,
+              27
+            ],
+            [
+              40,
+              47
+            ]
+          ],
+          "name": {
+            "en": "Incinerating",
+            "kr": "소각하는"
+          },
+          "effect": {
+            "en": "Adds (20-27) to (40-47) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (20-27)~(40-47) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    20,
+                    27
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    40,
+                    47
+                  ]
+                }
+              ],
+              "value": "20~27, 40~47",
+              "text": {
+                "en": "Adds (20-27) to (40-47) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (20-27)~(40-47) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver7",
+          "affixType": "prefix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              2,
+              6
+            ],
+            [
+              66,
+              75
+            ]
+          ],
+          "name": {
+            "en": "Shocking",
+            "kr": "감전의"
+          },
+          "effect": {
+            "en": "Adds (2-6) to (66-75) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 (2-6)~(66-75) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    2,
+                    6
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    66,
+                    75
+                  ]
+                }
+              ],
+              "value": "2~6, 66~75",
+              "text": {
+                "en": "Adds (2-6) to (66-75) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 (2-6)~(66-75) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver7",
+          "affixType": "prefix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              11,
+              16
+            ],
+            [
+              23,
+              26
+            ]
+          ],
+          "name": {
+            "en": "Razor-sharp",
+            "kr": "날이 선"
+          },
+          "effect": {
+            "en": "Adds (11-16) to (23-26) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (11-16)~(23-26) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    11,
+                    16
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    23,
+                    26
+                  ]
+                }
+              ],
+              "value": "11~16, 23~26",
+              "text": {
+                "en": "Adds (11-16) to (23-26) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (11-16)~(23-26) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver7",
+          "affixType": "prefix",
+          "tier": 53,
+          "valueRanges": [
+            [
+              18,
+              24
+            ],
+            [
+              36,
+              42
+            ]
+          ],
+          "name": {
+            "en": "Glaciated",
+            "kr": "빙하의"
+          },
+          "effect": {
+            "en": "Adds (18-24) to (36-42) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (18-24)~(36-42) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    18,
+                    24
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    36,
+                    42
+                  ]
+                }
+              ],
+              "value": "18~24, 36~42",
+              "text": {
+                "en": "Adds (18-24) to (36-42) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (18-24)~(36-42) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife8",
+          "affixType": "prefix",
+          "tier": 54,
+          "valueRanges": [
+            [
+              115,
+              129
+            ]
+          ],
+          "name": {
+            "en": "Athlete's",
+            "kr": "늠름한"
+          },
+          "effect": {
+            "en": "(115-129) to maximum Life",
+            "kr": "생명력 최대치 (115-129)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    115,
+                    129
+                  ]
+                }
+              ],
+              "value": "115~129",
+              "text": {
+                "en": "(115-129) to maximum Life",
+                "kr": "생명력 최대치 (115-129)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageWithBowSkills4_",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              31,
+              36
+            ]
+          ],
+          "name": {
+            "en": "Incisive",
+            "kr": "날선"
+          },
+          "effect": {
+            "en": "{}% increased Damage with Bow Skills",
+            "kr": "활 스킬로 주는 피해 {}% 증가"
+          },
+          "group": [
+            65
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_+%_with_bow_skills",
+                  "valueRange": [
+                    31,
+                    36
+                  ]
+                }
+              ],
+              "value": "31~36",
+              "text": {
+                "en": "{}% increased Damage with Bow Skills",
+                "kr": "활 스킬로 주는 피해 {}% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver8__",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              27,
+              35
+            ],
+            [
+              53,
+              62
+            ]
+          ],
+          "name": {
+            "en": "Blasting",
+            "kr": "폭발하는"
+          },
+          "effect": {
+            "en": "Adds (27-35) to (53-62) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (27-35)~(53-62) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    27,
+                    35
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    53,
+                    62
+                  ]
+                }
+              ],
+              "value": "27~35, 53~62",
+              "text": {
+                "en": "Adds (27-35) to (53-62) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (27-35)~(53-62) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver8",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              3,
+              8
+            ],
+            [
+              89,
+              99
+            ]
+          ],
+          "name": {
+            "en": "Discharging",
+            "kr": "방전의"
+          },
+          "effect": {
+            "en": "Adds (3-8) to (89-99) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 (3-8)~(89-99) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    3,
+                    8
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    89,
+                    99
+                  ]
+                }
+              ],
+              "value": "3~8, 89~99",
+              "text": {
+                "en": "Adds (3-8) to (89-99) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 (3-8)~(89-99) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver8",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              14,
+              19
+            ],
+            [
+              28,
+              33
+            ]
+          ],
+          "name": {
+            "en": "Tempered",
+            "kr": "단조한"
+          },
+          "effect": {
+            "en": "Adds (14-19) to (28-33) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (14-19)~(28-33) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    14,
+                    19
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    28,
+                    33
+                  ]
+                }
+              ],
+              "value": "14~19, 28~33",
+              "text": {
+                "en": "Adds (14-19) to (28-33) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (14-19)~(28-33) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife9",
+          "affixType": "prefix",
+          "tier": 64,
+          "valueRanges": [
+            [
+              130,
+              144
+            ]
+          ],
+          "name": {
+            "en": "Fecund",
+            "kr": "다산의"
+          },
+          "effect": {
+            "en": "(130-144) to maximum Life",
+            "kr": "생명력 최대치 (130-144)"
+          },
+          "group": [
+            0
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    130,
+                    144
+                  ]
+                }
+              ],
+              "value": "130~144",
+              "text": {
+                "en": "(130-144) to maximum Life",
+                "kr": "생명력 최대치 (130-144)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver8",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              23,
+              32
+            ],
+            [
+              48,
+              55
+            ]
+          ],
+          "name": {
+            "en": "Polar",
+            "kr": "극지의"
+          },
+          "effect": {
+            "en": "Adds (23-32) to (48-55) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (23-32)~(48-55) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    23,
+                    32
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    48,
+                    55
+                  ]
+                }
+              ],
+              "value": "23~32, 48~55",
+              "text": {
+                "en": "Adds (23-32) to (48-55) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (23-32)~(48-55) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedFireDamageQuiver9",
+          "affixType": "prefix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              37,
+              50
+            ],
+            [
+              74,
+              87
+            ]
+          ],
+          "name": {
+            "en": "Cremating",
+            "kr": "화장하는"
+          },
+          "effect": {
+            "en": "Adds (37-50) to (74-87) Fire Damage to Attacks",
+            "kr": "공격 시 화염 피해 (37-50)~(74-87) 추가"
+          },
+          "group": [
+            3
+          ],
+          "weight": 125,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage",
+                  "valueRange": [
+                    37,
+                    50
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage",
+                  "valueRange": [
+                    74,
+                    87
+                  ]
+                }
+              ],
+              "value": "37~50, 74~87",
+              "text": {
+                "en": "Adds (37-50) to (74-87) Fire Damage to Attacks",
+                "kr": "공격 시 화염 피해 (37-50)~(74-87) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedLightningDamageQuiver9",
+          "affixType": "prefix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              5,
+              11
+            ],
+            [
+              124,
+              140
+            ]
+          ],
+          "name": {
+            "en": "Electrocuting",
+            "kr": "전기 처형의"
+          },
+          "effect": {
+            "en": "Adds (5-11) to (124-140) Lightning Damage to Attacks",
+            "kr": "공격 시 번개 피해 (5-11)~(124-140) 추가"
+          },
+          "group": [
+            5
+          ],
+          "weight": 125,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage",
+                  "valueRange": [
+                    5,
+                    11
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage",
+                  "valueRange": [
+                    124,
+                    140
+                  ]
+                }
+              ],
+              "value": "5~11, 124~140",
+              "text": {
+                "en": "Adds (5-11) to (124-140) Lightning Damage to Attacks",
+                "kr": "공격 시 번개 피해 (5-11)~(124-140) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedPhysicalDamageQuiver9",
+          "affixType": "prefix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              17,
+              23
+            ],
+            [
+              34,
+              39
+            ]
+          ],
+          "name": {
+            "en": "Flaring",
+            "kr": "빛을 뿜는"
+          },
+          "effect": {
+            "en": "Adds (17-23) to (34-39) Physical Damage to Attacks",
+            "kr": "공격 시 물리 피해 (17-23)~(34-39) 추가"
+          },
+          "group": [
+            6
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage",
+                  "valueRange": [
+                    17,
+                    23
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage",
+                  "valueRange": [
+                    34,
+                    39
+                  ]
+                }
+              ],
+              "value": "17~23, 34~39",
+              "text": {
+                "en": "Adds (17-23) to (34-39) Physical Damage to Attacks",
+                "kr": "공격 시 물리 피해 (17-23)~(34-39) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedColdDamageQuiver9_",
+          "affixType": "prefix",
+          "tier": 77,
+          "valueRanges": [
+            [
+              33,
+              45
+            ],
+            [
+              67,
+              78
+            ]
+          ],
+          "name": {
+            "en": "Entombing",
+            "kr": "얼음 무덤의"
+          },
+          "effect": {
+            "en": "Adds (33-45) to (67-78) Cold Damage to Attacks",
+            "kr": "공격 시 냉기 피해 (33-45)~(67-78) 추가"
+          },
+          "group": [
+            4
+          ],
+          "weight": 125,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage",
+                  "valueRange": [
+                    33,
+                    45
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage",
+                  "valueRange": [
+                    67,
+                    78
+                  ]
+                }
+              ],
+              "value": "33~45, 67~78",
+              "text": {
+                "en": "Adds (33-45) to (67-78) Cold Damage to Attacks",
+                "kr": "공격 시 냉기 피해 (33-45)~(67-78) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageWithBowSkills5",
+          "affixType": "prefix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              37,
+              42
+            ]
+          ],
+          "name": {
+            "en": "Lacerating",
+            "kr": "짓찢는"
+          },
+          "effect": {
+            "en": "{}% increased Damage with Bow Skills",
+            "kr": "활 스킬로 주는 피해 {}% 증가"
+          },
+          "group": [
+            65
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_+%_with_bow_skills",
+                  "valueRange": [
+                    37,
+                    42
+                  ]
+                }
+              ],
+              "value": "37~42",
+              "text": {
+                "en": "{}% increased Damage with Bow Skills",
+                "kr": "활 스킬로 주는 피해 {}% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AddedChaosDamageQuiver1",
+          "affixType": "prefix",
+          "tier": 83,
+          "valueRanges": [
+            [
+              27,
+              41
+            ],
+            [
+              55,
+              69
+            ]
+          ],
+          "name": {
+            "en": "Malicious",
+            "kr": "악의적인"
+          },
+          "effect": {
+            "en": "Adds (27-41) to (55-69) Chaos Damage to Attacks",
+            "kr": "공격 시 카오스 피해 (27-41)~(55-69) 추가"
+          },
+          "group": [
+            136
+          ],
+          "weight": 125,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_chaos_damage",
+                  "valueRange": [
+                    27,
+                    41
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_chaos_damage",
+                  "valueRange": [
+                    55,
+                    69
+                  ]
+                }
+              ],
+              "value": "27~41, 55~69",
+              "text": {
+                "en": "Adds (27-41) to (55-69) Chaos Damage to Attacks",
+                "kr": "공격 시 카오스 피해 (27-41)~(55-69) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "DamageWithBowSkills6_",
+          "affixType": "prefix",
+          "tier": 86,
+          "valueRanges": [
+            [
+              43,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Impaling",
+            "kr": "꿰뚫는"
+          },
+          "effect": {
+            "en": "{}% increased Damage with Bow Skills",
+            "kr": "활 스킬로 주는 피해 {}% 증가"
+          },
+          "group": [
+            65
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_+%_with_bow_skills",
+                  "valueRange": [
+                    43,
+                    50
+                  ]
+                }
+              ],
+              "value": "43~50",
+              "text": {
+                "en": "{}% increased Damage with Bow Skills",
+                "kr": "활 스킬로 주는 피해 {}% 증가"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "ColdResist1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of the Inuit",
+            "kr": "- 이누이트"
+          },
+          "effect": {
+            "en": "(6-11)% to Cold Resistance",
+            "kr": "냉기 저항 (6-11)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    6,
+                    11
+                  ]
+                }
+              ],
+              "value": "6~11",
+              "text": {
+                "en": "(6-11)% to Cold Resistance",
+                "kr": "냉기 저항 (6-11)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Mongoose",
+            "kr": "- 몽구스"
+          },
+          "effect": {
+            "en": "(8-12) to Dexterity",
+            "kr": "민첩 (8-12)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "(8-12) to Dexterity",
+                "kr": "민첩 (8-12)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of the Whelpling",
+            "kr": "- 새끼용"
+          },
+          "effect": {
+            "en": "(6-11)% to Fire Resistance",
+            "kr": "화염 저항 (6-11)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    6,
+                    11
+                  ]
+                }
+              ],
+              "value": "6~11",
+              "text": {
+                "en": "(6-11)% to Fire Resistance",
+                "kr": "화염 저항 (6-11)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAccuracyNew1_",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              50,
+              100
+            ]
+          ],
+          "name": {
+            "en": "of Steadiness",
+            "kr": "- 안정감"
+          },
+          "effect": {
+            "en": "(50-100) to Accuracy Rating",
+            "kr": "정확도 (50-100)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 600,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating",
+                  "valueRange": [
+                    50,
+                    100
+                  ]
+                }
+              ],
+              "value": "50~100",
+              "text": {
+                "en": "(50-100) to Accuracy Rating",
+                "kr": "정확도 (50-100)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAttackSpeed1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              7
+            ]
+          ],
+          "name": {
+            "en": "of Skill",
+            "kr": "- 스킬"
+          },
+          "effect": {
+            "en": "(5-7)% increased Attack Speed",
+            "kr": "공격 속도 (5-7)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_+%",
+                  "valueRange": [
+                    5,
+                    7
+                  ]
+                }
+              ],
+              "value": "5~7",
+              "text": {
+                "en": "(5-7)% increased Attack Speed",
+                "kr": "공격 속도 (5-7)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              7,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Success",
+            "kr": "- 성공"
+          },
+          "effect": {
+            "en": "Gain (7-10) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (7-10) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    7,
+                    10
+                  ]
+                }
+              ],
+              "value": "7~10",
+              "text": {
+                "en": "Gain (7-10) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (7-10) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of the Cloud",
+            "kr": "- 구름"
+          },
+          "effect": {
+            "en": "(6-11)% to Lightning Resistance",
+            "kr": "번개 저항 (6-11)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    6,
+                    11
+                  ]
+                }
+              ],
+              "value": "6~11",
+              "text": {
+                "en": "(6-11)% to Lightning Resistance",
+                "kr": "번개 저항 (6-11)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath1",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              6
+            ]
+          ],
+          "name": {
+            "en": "of Absorption",
+            "kr": "- 흡수"
+          },
+          "effect": {
+            "en": "Gain (4-6) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (4-6) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "value": "4~6",
+              "text": {
+                "en": "Gain (4-6) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (4-6) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAttackSpeed2Royale",
+          "affixType": "suffix",
+          "tier": 4,
+          "valueRanges": [
+            [
+              8,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Ease",
+            "kr": "- 쉬움"
+          },
+          "effect": {
+            "en": "(8-15)% increased Attack Speed",
+            "kr": "공격 속도 (8-15)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_+%",
+                  "valueRange": [
+                    8,
+                    15
+                  ]
+                }
+              ],
+              "value": "8~15",
+              "text": {
+                "en": "(8-15)% increased Attack Speed",
+                "kr": "공격 속도 (8-15)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceWithBows1_",
+          "affixType": "suffix",
+          "tier": 5,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Needling",
+            "kr": "- 바느질"
+          },
+          "effect": {
+            "en": "(10-14)% increased Critical Strike Chance with Bows",
+            "kr": "활 사용 시 치명타 확률 (10-14)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_chance_+%",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% increased Critical Strike Chance with Bows",
+                "kr": "활 사용 시 치명타 확률 (10-14)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration1",
+          "affixType": "suffix",
+          "tier": 5,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Impact",
+            "kr": "- 충격"
+          },
+          "effect": {
+            "en": "(11-15)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalMultiplierWithBows1",
+          "affixType": "suffix",
+          "tier": 8,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Ire",
+            "kr": "- 노여움"
+          },
+          "effect": {
+            "en": "(8-12)% to Critical Strike Multiplier with Bows",
+            "kr": "활 사용 시 치명타 피해 배율 (8-12)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_multiplier_+",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "(8-12)% to Critical Strike Multiplier with Bows",
+                "kr": "활 사용 시 치명타 피해 배율 (8-12)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              13,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of the Lynx",
+            "kr": "- 스라소니"
+          },
+          "effect": {
+            "en": "(13-17) to Dexterity",
+            "kr": "민첩 (13-17)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                }
+              ],
+              "value": "13~17",
+              "text": {
+                "en": "(13-17) to Dexterity",
+                "kr": "민첩 (13-17)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAttackSpeed2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Ease",
+            "kr": "- 쉬움"
+          },
+          "effect": {
+            "en": "(8-10)% increased Attack Speed",
+            "kr": "공격 속도 (8-10)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_+%",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "(8-10)% increased Attack Speed",
+                "kr": "공격 속도 (8-10)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist2",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              12,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of the Salamander",
+            "kr": "- 불도마뱀"
+          },
+          "effect": {
+            "en": "(12-17)% to Fire Resistance",
+            "kr": "화염 저항 (12-17)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    12,
+                    17
+                  ]
+                }
+              ],
+              "value": "12~17",
+              "text": {
+                "en": "(12-17)% to Fire Resistance",
+                "kr": "화염 저항 (12-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist2",
+          "affixType": "suffix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              12,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of the Squall",
+            "kr": "- 돌풍"
+          },
+          "effect": {
+            "en": "(12-17)% to Lightning Resistance",
+            "kr": "번개 저항 (12-17)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    12,
+                    17
+                  ]
+                }
+              ],
+              "value": "12~17",
+              "text": {
+                "en": "(12-17)% to Lightning Resistance",
+                "kr": "번개 저항 (12-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist2",
+          "affixType": "suffix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              12,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of the Seal",
+            "kr": "- 봉인"
+          },
+          "effect": {
+            "en": "(12-17)% to Cold Resistance",
+            "kr": "냉기 저항 (12-17)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    12,
+                    17
+                  ]
+                }
+              ],
+              "value": "12~17",
+              "text": {
+                "en": "(12-17)% to Cold Resistance",
+                "kr": "냉기 저항 (12-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ProjectileSpeed1",
+          "affixType": "suffix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              10,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Darting",
+            "kr": "- 사출"
+          },
+          "effect": {
+            "en": "(10-17)% increased Projectile Speed",
+            "kr": "투사체 속도 (10-17)% 증가"
+          },
+          "group": [
+            80
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_projectile_speed_+%",
+                  "valueRange": [
+                    10,
+                    17
+                  ]
+                }
+              ],
+              "value": "10~17",
+              "text": {
+                "en": "(10-17)% increased Projectile Speed",
+                "kr": "투사체 속도 (10-17)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist1",
+          "affixType": "suffix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of the Lost",
+            "kr": "- 상실"
+          },
+          "effect": {
+            "en": "(5-10)% to Chaos Resistance",
+            "kr": "카오스 저항 (5-10)%"
+          },
+          "group": [
+            75
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Chaos Resistance",
+                "kr": "카오스 저항 (5-10)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration2",
+          "affixType": "suffix",
+          "tier": 18,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Dazing",
+            "kr": "- 혼미"
+          },
+          "effect": {
+            "en": "(16-20)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceWithBows2_",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              15,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Stinging",
+            "kr": "- 찌르기"
+          },
+          "effect": {
+            "en": "(15-19)% increased Critical Strike Chance with Bows",
+            "kr": "활 사용 시 치명타 확률 (15-19)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_chance_+%",
+                  "valueRange": [
+                    15,
+                    19
+                  ]
+                }
+              ],
+              "value": "15~19",
+              "text": {
+                "en": "(15-19)% increased Critical Strike Chance with Bows",
+                "kr": "활 사용 시 치명타 확률 (15-19)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAccuracyNew2",
+          "affixType": "suffix",
+          "tier": 20,
+          "valueRanges": [
+            [
+              100,
+              165
+            ]
+          ],
+          "name": {
+            "en": "of Precision",
+            "kr": "- 정밀함"
+          },
+          "effect": {
+            "en": "(100-165) to Accuracy Rating",
+            "kr": "정확도 (100-165)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating",
+                  "valueRange": [
+                    100,
+                    165
+                  ]
+                }
+              ],
+              "value": "100~165",
+              "text": {
+                "en": "(100-165) to Accuracy Rating",
+                "kr": "정확도 (100-165)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalMultiplierWithBows2",
+          "affixType": "suffix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              13,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Anger",
+            "kr": "- 분노"
+          },
+          "effect": {
+            "en": "(13-19)% to Critical Strike Multiplier with Bows",
+            "kr": "활 사용 시 치명타 피해 배율 (13-19)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_multiplier_+",
+                  "valueRange": [
+                    13,
+                    19
+                  ]
+                }
+              ],
+              "value": "13~19",
+              "text": {
+                "en": "(13-19)% to Critical Strike Multiplier with Bows",
+                "kr": "활 사용 시 치명타 피해 배율 (13-19)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity3",
+          "affixType": "suffix",
+          "tier": 22,
+          "valueRanges": [
+            [
+              18,
+              22
+            ]
+          ],
+          "name": {
+            "en": "of the Fox",
+            "kr": "- 여우"
+          },
+          "effect": {
+            "en": "(18-22) to Dexterity",
+            "kr": "민첩 (18-22)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    18,
+                    22
+                  ]
+                }
+              ],
+              "value": "18~22",
+              "text": {
+                "en": "(18-22) to Dexterity",
+                "kr": "민첩 (18-22)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAttackSpeed3",
+          "affixType": "suffix",
+          "tier": 22,
+          "valueRanges": [
+            [
+              11,
+              13
+            ]
+          ],
+          "name": {
+            "en": "of Mastery",
+            "kr": "- 숙련"
+          },
+          "effect": {
+            "en": "(11-13)% increased Attack Speed",
+            "kr": "공격 속도 (11-13)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_+%",
+                  "valueRange": [
+                    11,
+                    13
+                  ]
+                }
+              ],
+              "value": "11~13",
+              "text": {
+                "en": "(11-13)% increased Attack Speed",
+                "kr": "공격 속도 (11-13)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath2",
+          "affixType": "suffix",
+          "tier": 23,
+          "valueRanges": [
+            [
+              12,
+              18
+            ]
+          ],
+          "name": {
+            "en": "of Victory",
+            "kr": "- 승리"
+          },
+          "effect": {
+            "en": "Gain (12-18) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (12-18) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    12,
+                    18
+                  ]
+                }
+              ],
+              "value": "12~18",
+              "text": {
+                "en": "Gain (12-18) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (12-18) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist3",
+          "affixType": "suffix",
+          "tier": 24,
+          "valueRanges": [
+            [
+              18,
+              23
+            ]
+          ],
+          "name": {
+            "en": "of the Drake",
+            "kr": "- 비룡"
+          },
+          "effect": {
+            "en": "(18-23)% to Fire Resistance",
+            "kr": "화염 저항 (18-23)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    18,
+                    23
+                  ]
+                }
+              ],
+              "value": "18~23",
+              "text": {
+                "en": "(18-23)% to Fire Resistance",
+                "kr": "화염 저항 (18-23)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath2",
+          "affixType": "suffix",
+          "tier": 24,
+          "valueRanges": [
+            [
+              7,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Osmosis",
+            "kr": "- 삼투"
+          },
+          "effect": {
+            "en": "Gain (7-10) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (7-10) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    7,
+                    10
+                  ]
+                }
+              ],
+              "value": "7~10",
+              "text": {
+                "en": "Gain (7-10) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (7-10) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist3",
+          "affixType": "suffix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              18,
+              23
+            ]
+          ],
+          "name": {
+            "en": "of the Storm",
+            "kr": "- 태풍"
+          },
+          "effect": {
+            "en": "(18-23)% to Lightning Resistance",
+            "kr": "번개 저항 (18-23)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    18,
+                    23
+                  ]
+                }
+              ],
+              "value": "18~23",
+              "text": {
+                "en": "(18-23)% to Lightning Resistance",
+                "kr": "번개 저항 (18-23)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist3",
+          "affixType": "suffix",
+          "tier": 26,
+          "valueRanges": [
+            [
+              18,
+              23
+            ]
+          ],
+          "name": {
+            "en": "of the Penguin",
+            "kr": "- 펭귄"
+          },
+          "effect": {
+            "en": "(18-23)% to Cold Resistance",
+            "kr": "냉기 저항 (18-23)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    18,
+                    23
+                  ]
+                }
+              ],
+              "value": "18~23",
+              "text": {
+                "en": "(18-23)% to Cold Resistance",
+                "kr": "냉기 저항 (18-23)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ProjectileSpeed2",
+          "affixType": "suffix",
+          "tier": 27,
+          "valueRanges": [
+            [
+              18,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Flight",
+            "kr": "- 비행"
+          },
+          "effect": {
+            "en": "(18-25)% increased Projectile Speed",
+            "kr": "투사체 속도 (18-25)% 증가"
+          },
+          "group": [
+            80
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_projectile_speed_+%",
+                  "valueRange": [
+                    18,
+                    25
+                  ]
+                }
+              ],
+              "value": "18~25",
+              "text": {
+                "en": "(18-25)% increased Projectile Speed",
+                "kr": "투사체 속도 (18-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist2",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Banishment",
+            "kr": "- 추방"
+          },
+          "effect": {
+            "en": "(11-15)% to Chaos Resistance",
+            "kr": "카오스 저항 (11-15)%"
+          },
+          "group": [
+            75
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% to Chaos Resistance",
+                "kr": "카오스 저항 (11-15)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceWithBows3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              20,
+              24
+            ]
+          ],
+          "name": {
+            "en": "of Piercing",
+            "kr": "- 관통"
+          },
+          "effect": {
+            "en": "(20-24)% increased Critical Strike Chance with Bows",
+            "kr": "활 사용 시 치명타 확률 (20-24)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_chance_+%",
+                  "valueRange": [
+                    20,
+                    24
+                  ]
+                }
+              ],
+              "value": "20~24",
+              "text": {
+                "en": "(20-24)% increased Critical Strike Chance with Bows",
+                "kr": "활 사용 시 치명타 확률 (20-24)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Stunning",
+            "kr": "- 기절"
+          },
+          "effect": {
+            "en": "(21-25)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalMultiplierWithBows3",
+          "affixType": "suffix",
+          "tier": 31,
+          "valueRanges": [
+            [
+              20,
+              24
+            ]
+          ],
+          "name": {
+            "en": "of Rage",
+            "kr": "- 격노"
+          },
+          "effect": {
+            "en": "(20-24)% to Critical Strike Multiplier with Bows",
+            "kr": "활 사용 시 치명타 피해 배율 (20-24)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_multiplier_+",
+                  "valueRange": [
+                    20,
+                    24
+                  ]
+                }
+              ],
+              "value": "20~24",
+              "text": {
+                "en": "(20-24)% to Critical Strike Multiplier with Bows",
+                "kr": "활 사용 시 치명타 피해 배율 (20-24)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              23,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Falcon",
+            "kr": "- 매"
+          },
+          "effect": {
+            "en": "(23-27) to Dexterity",
+            "kr": "민첩 (23-27)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    23,
+                    27
+                  ]
+                }
+              ],
+              "value": "23~27",
+              "text": {
+                "en": "(23-27) to Dexterity",
+                "kr": "민첩 (23-27)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist4",
+          "affixType": "suffix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              24,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of the Kiln",
+            "kr": "- 가마"
+          },
+          "effect": {
+            "en": "(24-29)% to Fire Resistance",
+            "kr": "화염 저항 (24-29)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    24,
+                    29
+                  ]
+                }
+              ],
+              "value": "24~29",
+              "text": {
+                "en": "(24-29)% to Fire Resistance",
+                "kr": "화염 저항 (24-29)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist4",
+          "affixType": "suffix",
+          "tier": 37,
+          "valueRanges": [
+            [
+              24,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of the Thunderhead",
+            "kr": "- 뇌운"
+          },
+          "effect": {
+            "en": "(24-29)% to Lightning Resistance",
+            "kr": "번개 저항 (24-29)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    24,
+                    29
+                  ]
+                }
+              ],
+              "value": "24~29",
+              "text": {
+                "en": "(24-29)% to Lightning Resistance",
+                "kr": "번개 저항 (24-29)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist4",
+          "affixType": "suffix",
+          "tier": 38,
+          "valueRanges": [
+            [
+              24,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of the Yeti",
+            "kr": "- 설인"
+          },
+          "effect": {
+            "en": "(24-29)% to Cold Resistance",
+            "kr": "냉기 저항 (24-29)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    24,
+                    29
+                  ]
+                }
+              ],
+              "value": "24~29",
+              "text": {
+                "en": "(24-29)% to Cold Resistance",
+                "kr": "냉기 저항 (24-29)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAccuracyNew3",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              166,
+              250
+            ]
+          ],
+          "name": {
+            "en": "of the Sniper",
+            "kr": "- 저격수"
+          },
+          "effect": {
+            "en": "(166-250) to Accuracy Rating",
+            "kr": "정확도 (166-250)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating",
+                  "valueRange": [
+                    166,
+                    250
+                  ]
+                }
+              ],
+              "value": "166~250",
+              "text": {
+                "en": "(166-250) to Accuracy Rating",
+                "kr": "정확도 (166-250)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath3",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              24,
+              32
+            ]
+          ],
+          "name": {
+            "en": "of Triumph",
+            "kr": "- 대성공"
+          },
+          "effect": {
+            "en": "Gain (24-32) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (24-32) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    24,
+                    32
+                  ]
+                }
+              ],
+              "value": "24~32",
+              "text": {
+                "en": "Gain (24-32) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (24-32) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath3",
+          "affixType": "suffix",
+          "tier": 40,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Consumption",
+            "kr": "- 소모"
+          },
+          "effect": {
+            "en": "Gain (11-15) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (11-15) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "Gain (11-15) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (11-15) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ProjectileSpeed3",
+          "affixType": "suffix",
+          "tier": 41,
+          "valueRanges": [
+            [
+              26,
+              33
+            ]
+          ],
+          "name": {
+            "en": "of Propulsion",
+            "kr": "- 추진"
+          },
+          "effect": {
+            "en": "(26-33)% increased Projectile Speed",
+            "kr": "투사체 속도 (26-33)% 증가"
+          },
+          "group": [
+            80
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_projectile_speed_+%",
+                  "valueRange": [
+                    26,
+                    33
+                  ]
+                }
+              ],
+              "value": "26~33",
+              "text": {
+                "en": "(26-33)% increased Projectile Speed",
+                "kr": "투사체 속도 (26-33)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist3",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              16,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Eviction",
+            "kr": "- 퇴거"
+          },
+          "effect": {
+            "en": "(16-20)% to Chaos Resistance",
+            "kr": "카오스 저항 (16-20)%"
+          },
+          "group": [
+            75
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    16,
+                    20
+                  ]
+                }
+              ],
+              "value": "16~20",
+              "text": {
+                "en": "(16-20)% to Chaos Resistance",
+                "kr": "카오스 저항 (16-20)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceWithBows4",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              25,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of Rupturing",
+            "kr": "- 파열"
+          },
+          "effect": {
+            "en": "(25-29)% increased Critical Strike Chance with Bows",
+            "kr": "활 사용 시 치명타 확률 (25-29)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_chance_+%",
+                  "valueRange": [
+                    25,
+                    29
+                  ]
+                }
+              ],
+              "value": "25~29",
+              "text": {
+                "en": "(25-29)% increased Critical Strike Chance with Bows",
+                "kr": "활 사용 시 치명타 확률 (25-29)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity5",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              28,
+              32
+            ]
+          ],
+          "name": {
+            "en": "of the Panther",
+            "kr": "- 흑표"
+          },
+          "effect": {
+            "en": "(28-32) to Dexterity",
+            "kr": "민첩 (28-32)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    28,
+                    32
+                  ]
+                }
+              ],
+              "value": "28~32",
+              "text": {
+                "en": "(28-32) to Dexterity",
+                "kr": "민첩 (28-32)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplierWithAttacks1h1",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              7,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Acrimony",
+            "kr": "- 신랄"
+          },
+          "effect": {
+            "en": "(7-11)% to Damage over Time Multiplier with Attack Skills",
+            "kr": "공격 스킬의 지속 피해 배율 (7-11)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_over_time_multiplier_+_with_attacks",
+                  "valueRange": [
+                    7,
+                    11
+                  ]
+                }
+              ],
+              "value": "7~11",
+              "text": {
+                "en": "(7-11)% to Damage over Time Multiplier with Attack Skills",
+                "kr": "공격 스킬의 지속 피해 배율 (7-11)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration4",
+          "affixType": "suffix",
+          "tier": 44,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of Slamming",
+            "kr": "- 강타"
+          },
+          "effect": {
+            "en": "(26-30)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalMultiplierWithBows4__",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              25,
+              29
+            ]
+          ],
+          "name": {
+            "en": "of Fury",
+            "kr": "- 광분"
+          },
+          "effect": {
+            "en": "(25-29)% to Critical Strike Multiplier with Bows",
+            "kr": "활 사용 시 치명타 피해 배율 (25-29)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_multiplier_+",
+                  "valueRange": [
+                    25,
+                    29
+                  ]
+                }
+              ],
+              "value": "25~29",
+              "text": {
+                "en": "(25-29)% to Critical Strike Multiplier with Bows",
+                "kr": "활 사용 시 치명타 피해 배율 (25-29)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist5",
+          "affixType": "suffix",
+          "tier": 48,
+          "valueRanges": [
+            [
+              30,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Furnace",
+            "kr": "- 용광로"
+          },
+          "effect": {
+            "en": "(30-35)% to Fire Resistance",
+            "kr": "화염 저항 (30-35)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    30,
+                    35
+                  ]
+                }
+              ],
+              "value": "30~35",
+              "text": {
+                "en": "(30-35)% to Fire Resistance",
+                "kr": "화염 저항 (30-35)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist5",
+          "affixType": "suffix",
+          "tier": 49,
+          "valueRanges": [
+            [
+              30,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Tempest",
+            "kr": "- 폭풍"
+          },
+          "effect": {
+            "en": "(30-35)% to Lightning Resistance",
+            "kr": "번개 저항 (30-35)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    30,
+                    35
+                  ]
+                }
+              ],
+              "value": "30~35",
+              "text": {
+                "en": "(30-35)% to Lightning Resistance",
+                "kr": "번개 저항 (30-35)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist5",
+          "affixType": "suffix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              30,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Walrus",
+            "kr": "- 바다코끼리"
+          },
+          "effect": {
+            "en": "(30-35)% to Cold Resistance",
+            "kr": "냉기 저항 (30-35)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    30,
+                    35
+                  ]
+                }
+              ],
+              "value": "30~35",
+              "text": {
+                "en": "(30-35)% to Cold Resistance",
+                "kr": "냉기 저항 (30-35)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeLeechPermyriadSuffix1",
+          "affixType": "suffix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              20,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of the Remora",
+            "kr": "- 빨판상어"
+          },
+          "effect": {
+            "en": "(20-40)% of Physical Attack Damage Leeched as Life",
+            "kr": "물리 공격 피해의 (20-40)%를 생명력으로 흡수"
+          },
+          "group": [
+            7
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "life_leech_from_physical_attack_damage_permyriad",
+                  "valueRange": [
+                    20,
+                    40
+                  ]
+                }
+              ],
+              "value": "20~40",
+              "text": {
+                "en": "(20-40)% of Physical Attack Damage Leeched as Life",
+                "kr": "물리 공격 피해의 (20-40)%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaLeechPermyriadSuffix1",
+          "affixType": "suffix",
+          "tier": 50,
+          "valueRanges": [
+            [
+              20,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Thirst",
+            "kr": "- 목마름"
+          },
+          "effect": {
+            "en": "(20-40)% of Physical Attack Damage Leeched as Mana",
+            "kr": "물리 공격 피해의 (20-40)%를 마나로 흡수"
+          },
+          "group": [
+            8
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "mana_leech_from_physical_attack_damage_permyriad",
+                  "valueRange": [
+                    20,
+                    40
+                  ]
+                }
+              ],
+              "value": "20~40",
+              "text": {
+                "en": "(20-40)% of Physical Attack Damage Leeched as Mana",
+                "kr": "물리 공격 피해의 (20-40)%를 마나로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath4",
+          "affixType": "suffix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              35,
+              44
+            ]
+          ],
+          "name": {
+            "en": "of Conquest",
+            "kr": "- 정복"
+          },
+          "effect": {
+            "en": "Gain (35-44) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (35-44) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    35,
+                    44
+                  ]
+                }
+              ],
+              "value": "35~44",
+              "text": {
+                "en": "Gain (35-44) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (35-44) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath4",
+          "affixType": "suffix",
+          "tier": 52,
+          "valueRanges": [
+            [
+              16,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Diffusion",
+            "kr": "- 유포"
+          },
+          "effect": {
+            "en": "Gain (16-25) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (16-25) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    16,
+                    25
+                  ]
+                }
+              ],
+              "value": "16~25",
+              "text": {
+                "en": "Gain (16-25) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (16-25) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              33,
+              37
+            ]
+          ],
+          "name": {
+            "en": "of the Leopard",
+            "kr": "- 표범"
+          },
+          "effect": {
+            "en": "(33-37) to Dexterity",
+            "kr": "민첩 (33-37)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    33,
+                    37
+                  ]
+                }
+              ],
+              "value": "33~37",
+              "text": {
+                "en": "(33-37) to Dexterity",
+                "kr": "민첩 (33-37)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplierWithAttacks1h2___",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              12,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Dispersion",
+            "kr": "- 분산"
+          },
+          "effect": {
+            "en": "(12-15)% to Damage over Time Multiplier with Attack Skills",
+            "kr": "공격 스킬의 지속 피해 배율 (12-15)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_over_time_multiplier_+_with_attacks",
+                  "valueRange": [
+                    12,
+                    15
+                  ]
+                }
+              ],
+              "value": "12~15",
+              "text": {
+                "en": "(12-15)% to Damage over Time Multiplier with Attack Skills",
+                "kr": "공격 스킬의 지속 피해 배율 (12-15)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ProjectileSpeed4",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              34,
+              41
+            ]
+          ],
+          "name": {
+            "en": "of the Zephyr",
+            "kr": "- 미풍"
+          },
+          "effect": {
+            "en": "(34-41)% increased Projectile Speed",
+            "kr": "투사체 속도 (34-41)% 증가"
+          },
+          "group": [
+            80
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_projectile_speed_+%",
+                  "valueRange": [
+                    34,
+                    41
+                  ]
+                }
+              ],
+              "value": "34~41",
+              "text": {
+                "en": "(34-41)% increased Projectile Speed",
+                "kr": "투사체 속도 (34-41)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist4",
+          "affixType": "suffix",
+          "tier": 56,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Expulsion",
+            "kr": "- 축출"
+          },
+          "effect": {
+            "en": "(21-25)% to Chaos Resistance",
+            "kr": "카오스 저항 (21-25)%"
+          },
+          "group": [
+            75
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% to Chaos Resistance",
+                "kr": "카오스 저항 (21-25)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceWithBows5_",
+          "affixType": "suffix",
+          "tier": 58,
+          "valueRanges": [
+            [
+              30,
+              34
+            ]
+          ],
+          "name": {
+            "en": "of Penetrating",
+            "kr": "- 침투"
+          },
+          "effect": {
+            "en": "(30-34)% increased Critical Strike Chance with Bows",
+            "kr": "활 사용 시 치명타 확률 (30-34)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_chance_+%",
+                  "valueRange": [
+                    30,
+                    34
+                  ]
+                }
+              ],
+              "value": "30~34",
+              "text": {
+                "en": "(30-34)% increased Critical Strike Chance with Bows",
+                "kr": "활 사용 시 치명타 확률 (30-34)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "StunDuration5",
+          "affixType": "suffix",
+          "tier": 58,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Staggering",
+            "kr": "- 비틀거림"
+          },
+          "effect": {
+            "en": "(31-35)% increased Stun Duration on Enemies",
+            "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
+          },
+          "group": [
+            35
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_stun_duration_+%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% increased Stun Duration on Enemies",
+                "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalMultiplierWithBows5_",
+          "affixType": "suffix",
+          "tier": 59,
+          "valueRanges": [
+            [
+              30,
+              34
+            ]
+          ],
+          "name": {
+            "en": "of Ferocity",
+            "kr": "- 흉포함"
+          },
+          "effect": {
+            "en": "(30-34)% to Critical Strike Multiplier with Bows",
+            "kr": "활 사용 시 치명타 피해 배율 (30-34)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_multiplier_+",
+                  "valueRange": [
+                    30,
+                    34
+                  ]
+                }
+              ],
+              "value": "30~34",
+              "text": {
+                "en": "(30-34)% to Critical Strike Multiplier with Bows",
+                "kr": "활 사용 시 치명타 피해 배율 (30-34)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              36,
+              41
+            ]
+          ],
+          "name": {
+            "en": "of the Polar Bear",
+            "kr": "- 북극곰"
+          },
+          "effect": {
+            "en": "(36-41)% to Cold Resistance",
+            "kr": "냉기 저항 (36-41)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    36,
+                    41
+                  ]
+                }
+              ],
+              "value": "36~41",
+              "text": {
+                "en": "(36-41)% to Cold Resistance",
+                "kr": "냉기 저항 (36-41)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              36,
+              41
+            ]
+          ],
+          "name": {
+            "en": "of the Volcano",
+            "kr": "- 화산"
+          },
+          "effect": {
+            "en": "(36-41)% to Fire Resistance",
+            "kr": "화염 저항 (36-41)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    36,
+                    41
+                  ]
+                }
+              ],
+              "value": "36~41",
+              "text": {
+                "en": "(36-41)% to Fire Resistance",
+                "kr": "화염 저항 (36-41)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAccuracyNew4",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              251,
+              350
+            ]
+          ],
+          "name": {
+            "en": "of the Marksman",
+            "kr": "- 지정사수"
+          },
+          "effect": {
+            "en": "(251-350) to Accuracy Rating",
+            "kr": "정확도 (251-350)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating",
+                  "valueRange": [
+                    251,
+                    350
+                  ]
+                }
+              ],
+              "value": "251~350",
+              "text": {
+                "en": "(251-350) to Accuracy Rating",
+                "kr": "정확도 (251-350)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              36,
+              41
+            ]
+          ],
+          "name": {
+            "en": "of the Maelstrom",
+            "kr": "- 큰 소용돌이"
+          },
+          "effect": {
+            "en": "(36-41)% to Lightning Resistance",
+            "kr": "번개 저항 (36-41)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    36,
+                    41
+                  ]
+                }
+              ],
+              "value": "36~41",
+              "text": {
+                "en": "(36-41)% to Lightning Resistance",
+                "kr": "번개 저항 (36-41)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist5",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              26,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of Exile",
+            "kr": "- 유배자"
+          },
+          "effect": {
+            "en": "(26-30)% to Chaos Resistance",
+            "kr": "카오스 저항 (26-30)%"
+          },
+          "group": [
+            75
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    26,
+                    30
+                  ]
+                }
+              ],
+              "value": "26~30",
+              "text": {
+                "en": "(26-30)% to Chaos Resistance",
+                "kr": "카오스 저항 (26-30)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity7",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              38,
+              42
+            ]
+          ],
+          "name": {
+            "en": "of the Jaguar",
+            "kr": "- 재규어"
+          },
+          "effect": {
+            "en": "(38-42) to Dexterity",
+            "kr": "민첩 (38-42)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    38,
+                    42
+                  ]
+                }
+              ],
+              "value": "38~42",
+              "text": {
+                "en": "(38-42) to Dexterity",
+                "kr": "민첩 (38-42)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath5",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              56,
+              72
+            ]
+          ],
+          "name": {
+            "en": "of Feat",
+            "kr": "- 개가"
+          },
+          "effect": {
+            "en": "Gain (56-72) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (56-72) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    56,
+                    72
+                  ]
+                }
+              ],
+              "value": "56~72",
+              "text": {
+                "en": "Gain (56-72) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (56-72) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath5",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              26,
+              37
+            ]
+          ],
+          "name": {
+            "en": "of Permeation",
+            "kr": "- 스며듦"
+          },
+          "effect": {
+            "en": "Gain (26-37) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (26-37) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    26,
+                    37
+                  ]
+                }
+              ],
+              "value": "26~37",
+              "text": {
+                "en": "Gain (26-37) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (26-37) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplierWithAttacks1h3",
+          "affixType": "suffix",
+          "tier": 68,
+          "valueRanges": [
+            [
+              16,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Liquefaction",
+            "kr": "- 액화"
+          },
+          "effect": {
+            "en": "(16-19)% to Damage over Time Multiplier with Attack Skills",
+            "kr": "공격 스킬의 지속 피해 배율 (16-19)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_over_time_multiplier_+_with_attacks",
+                  "valueRange": [
+                    16,
+                    19
+                  ]
+                }
+              ],
+              "value": "16~19",
+              "text": {
+                "en": "(16-19)% to Damage over Time Multiplier with Attack Skills",
+                "kr": "공격 스킬의 지속 피해 배율 (16-19)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AdditionalArrowQuiver1_",
+          "affixType": "suffix",
+          "tier": 70,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of Splintering",
+            "kr": "- 파편화"
+          },
+          "effect": {
+            "en": "Bow Attacks fire an additional Arrow",
+            "kr": "활 공격 시 화살 1개 추가 발사"
+          },
+          "group": [
+            10
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "number_of_additional_arrows",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Bow Attacks fire an additional Arrow",
+                "kr": "활 공격 시 화살 1개 추가 발사"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist7",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              42,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of the Ice",
+            "kr": "- 얼음판"
+          },
+          "effect": {
+            "en": "(42-45)% to Cold Resistance",
+            "kr": "냉기 저항 (42-45)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    42,
+                    45
+                  ]
+                }
+              ],
+              "value": "42~45",
+              "text": {
+                "en": "(42-45)% to Cold Resistance",
+                "kr": "냉기 저항 (42-45)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceWithBows6",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              35,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of Incision",
+            "kr": "- 절개"
+          },
+          "effect": {
+            "en": "(35-38)% increased Critical Strike Chance with Bows",
+            "kr": "활 사용 시 치명타 확률 (35-38)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_chance_+%",
+                  "valueRange": [
+                    35,
+                    38
+                  ]
+                }
+              ],
+              "value": "35~38",
+              "text": {
+                "en": "(35-38)% increased Critical Strike Chance with Bows",
+                "kr": "활 사용 시 치명타 확률 (35-38)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist7",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              42,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of the Magma",
+            "kr": "- 마그마"
+          },
+          "effect": {
+            "en": "(42-45)% to Fire Resistance",
+            "kr": "화염 저항 (42-45)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    42,
+                    45
+                  ]
+                }
+              ],
+              "value": "42~45",
+              "text": {
+                "en": "(42-45)% to Fire Resistance",
+                "kr": "화염 저항 (42-45)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist7",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              42,
+              45
+            ]
+          ],
+          "name": {
+            "en": "of the Lightning",
+            "kr": "- 번개"
+          },
+          "effect": {
+            "en": "(42-45)% to Lightning Resistance",
+            "kr": "번개 저항 (42-45)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    42,
+                    45
+                  ]
+                }
+              ],
+              "value": "42~45",
+              "text": {
+                "en": "(42-45)% to Lightning Resistance",
+                "kr": "번개 저항 (42-45)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalMultiplierWithBows6",
+          "affixType": "suffix",
+          "tier": 74,
+          "valueRanges": [
+            [
+              35,
+              38
+            ]
+          ],
+          "name": {
+            "en": "of Destruction",
+            "kr": "- 파괴"
+          },
+          "effect": {
+            "en": "(35-38)% to Critical Strike Multiplier with Bows",
+            "kr": "활 사용 시 치명타 피해 배율 (35-38)%"
+          },
+          "group": [
+            77
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_multiplier_+",
+                  "valueRange": [
+                    35,
+                    38
+                  ]
+                }
+              ],
+              "value": "35~38",
+              "text": {
+                "en": "(35-38)% to Critical Strike Multiplier with Bows",
+                "kr": "활 사용 시 치명타 피해 배율 (35-38)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity8",
+          "affixType": "suffix",
+          "tier": 74,
+          "valueRanges": [
+            [
+              43,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of the Phantom",
+            "kr": "- 유령"
+          },
+          "effect": {
+            "en": "(43-50) to Dexterity",
+            "kr": "민첩 (43-50)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    43,
+                    50
+                  ]
+                }
+              ],
+              "value": "43~50",
+              "text": {
+                "en": "(43-50) to Dexterity",
+                "kr": "민첩 (43-50)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAccuracyNew5_",
+          "affixType": "suffix",
+          "tier": 75,
+          "valueRanges": [
+            [
+              351,
+              480
+            ]
+          ],
+          "name": {
+            "en": "of the Ranger",
+            "kr": "- 레인저"
+          },
+          "effect": {
+            "en": "(351-480) to Accuracy Rating",
+            "kr": "정확도 (351-480)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating",
+                  "valueRange": [
+                    351,
+                    480
+                  ]
+                }
+              ],
+              "value": "351~480",
+              "text": {
+                "en": "(351-480) to Accuracy Rating",
+                "kr": "정확도 (351-480)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplierWithAttacks1h4_",
+          "affixType": "suffix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              20,
+              23
+            ]
+          ],
+          "name": {
+            "en": "of Melting",
+            "kr": "- 융해"
+          },
+          "effect": {
+            "en": "(20-23)% to Damage over Time Multiplier with Attack Skills",
+            "kr": "공격 스킬의 지속 피해 배율 (20-23)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_over_time_multiplier_+_with_attacks",
+                  "valueRange": [
+                    20,
+                    23
+                  ]
+                }
+              ],
+              "value": "20~23",
+              "text": {
+                "en": "(20-23)% to Damage over Time Multiplier with Attack Skills",
+                "kr": "공격 스킬의 지속 피해 배율 (20-23)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAttackSpeed4",
+          "affixType": "suffix",
+          "tier": 76,
+          "valueRanges": [
+            [
+              14,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Grandmastery",
+            "kr": "- 통달"
+          },
+          "effect": {
+            "en": "(14-16)% increased Attack Speed",
+            "kr": "공격 속도 (14-16)% 증가"
+          },
+          "group": [
+            29
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_speed_+%",
+                  "valueRange": [
+                    14,
+                    16
+                  ]
+                }
+              ],
+              "value": "14~16",
+              "text": {
+                "en": "(14-16)% increased Attack Speed",
+                "kr": "공격 속도 (14-16)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist6",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Bameth",
+            "kr": "- 바메스"
+          },
+          "effect": {
+            "en": "(31-35)% to Chaos Resistance",
+            "kr": "카오스 저항 (31-35)%"
+          },
+          "group": [
+            75
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Chaos Resistance",
+                "kr": "카오스 저항 (31-35)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LifeGainedFromEnemyDeath6",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              84,
+              110
+            ]
+          ],
+          "name": {
+            "en": "of Masterstroke",
+            "kr": "- 묘수"
+          },
+          "effect": {
+            "en": "Gain (84-110) Life per Enemy Killed",
+            "kr": "처치한 적 하나당 생명력 (84-110) 획득"
+          },
+          "group": [
+            112
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_gained_on_enemy_death",
+                  "valueRange": [
+                    84,
+                    110
+                  ]
+                }
+              ],
+              "value": "84~110",
+              "text": {
+                "en": "Gain (84-110) Life per Enemy Killed",
+                "kr": "처치한 적 하나당 생명력 (84-110) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ManaGainedFromEnemyDeath6",
+          "affixType": "suffix",
+          "tier": 81,
+          "valueRanges": [
+            [
+              38,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Retention",
+            "kr": "- 잔류"
+          },
+          "effect": {
+            "en": "Gain (38-50) Mana per Enemy Killed",
+            "kr": "처치한 적 하나당 마나 (38-50) 획득"
+          },
+          "group": [
+            113
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_gained_on_enemy_death",
+                  "valueRange": [
+                    38,
+                    50
+                  ]
+                }
+              ],
+              "value": "38~50",
+              "text": {
+                "en": "Gain (38-50) Mana per Enemy Killed",
+                "kr": "처치한 적 하나당 마나 (38-50) 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity9",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              51,
+              55
+            ]
+          ],
+          "name": {
+            "en": "of the Wind",
+            "kr": "- 바람"
+          },
+          "effect": {
+            "en": "(51-55) to Dexterity",
+            "kr": "민첩 (51-55)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    51,
+                    55
+                  ]
+                }
+              ],
+              "value": "51~55",
+              "text": {
+                "en": "(51-55) to Dexterity",
+                "kr": "민첩 (51-55)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "GlobalDamageOverTimeMultiplierWithAttacks1h5",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              24,
+              26
+            ]
+          ],
+          "name": {
+            "en": "of Dissolution",
+            "kr": "- 파경"
+          },
+          "effect": {
+            "en": "(24-26)% to Damage over Time Multiplier with Attack Skills",
+            "kr": "공격 스킬의 지속 피해 배율 (24-26)%"
+          },
+          "group": [
+            3674
+          ],
+          "weight": 300,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_over_time_multiplier_+_with_attacks",
+                  "valueRange": [
+                    24,
+                    26
+                  ]
+                }
+              ],
+              "value": "24~26",
+              "text": {
+                "en": "(24-26)% to Damage over Time Multiplier with Attack Skills",
+                "kr": "공격 스킬의 지속 피해 배율 (24-26)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ProjectileSpeed5",
+          "affixType": "suffix",
+          "tier": 82,
+          "valueRanges": [
+            [
+              42,
+              46
+            ]
+          ],
+          "name": {
+            "en": "of the Gale",
+            "kr": "- 강풍"
+          },
+          "effect": {
+            "en": "(42-46)% increased Projectile Speed",
+            "kr": "투사체 속도 (42-46)% 증가"
+          },
+          "group": [
+            80
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_projectile_speed_+%",
+                  "valueRange": [
+                    42,
+                    46
+                  ]
+                }
+              ],
+              "value": "42~46",
+              "text": {
+                "en": "(42-46)% increased Projectile Speed",
+                "kr": "투사체 속도 (42-46)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist8",
+          "affixType": "suffix",
+          "tier": 84,
+          "valueRanges": [
+            [
+              46,
+              48
+            ]
+          ],
+          "name": {
+            "en": "of Haast",
+            "kr": "- 하스트"
+          },
+          "effect": {
+            "en": "(46-48)% to Cold Resistance",
+            "kr": "냉기 저항 (46-48)%"
+          },
+          "group": [
+            38
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    46,
+                    48
+                  ]
+                }
+              ],
+              "value": "46~48",
+              "text": {
+                "en": "(46-48)% to Cold Resistance",
+                "kr": "냉기 저항 (46-48)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist8",
+          "affixType": "suffix",
+          "tier": 84,
+          "valueRanges": [
+            [
+              46,
+              48
+            ]
+          ],
+          "name": {
+            "en": "of Tzteosh",
+            "kr": "- 체오쉬"
+          },
+          "effect": {
+            "en": "(46-48)% to Fire Resistance",
+            "kr": "화염 저항 (46-48)%"
+          },
+          "group": [
+            37
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    46,
+                    48
+                  ]
+                }
+              ],
+              "value": "46~48",
+              "text": {
+                "en": "(46-48)% to Fire Resistance",
+                "kr": "화염 저항 (46-48)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist8",
+          "affixType": "suffix",
+          "tier": 84,
+          "valueRanges": [
+            [
+              46,
+              48
+            ]
+          ],
+          "name": {
+            "en": "of Ephij",
+            "kr": "- 에피즈"
+          },
+          "effect": {
+            "en": "(46-48)% to Lightning Resistance",
+            "kr": "번개 저항 (46-48)%"
+          },
+          "group": [
+            39
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    46,
+                    48
+                  ]
+                }
+              ],
+              "value": "46~48",
+              "text": {
+                "en": "(46-48)% to Lightning Resistance",
+                "kr": "번개 저항 (46-48)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "CriticalStrikeChanceWithBows7",
+          "affixType": "suffix",
+          "tier": 85,
+          "valueRanges": [
+            [
+              39,
+              44
+            ]
+          ],
+          "name": {
+            "en": "of Rending",
+            "kr": "- 분리"
+          },
+          "effect": {
+            "en": "(39-44)% increased Critical Strike Chance with Bows",
+            "kr": "활 사용 시 치명타 확률 (39-44)% 증가"
+          },
+          "group": [
+            74
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bow_critical_strike_chance_+%",
+                  "valueRange": [
+                    39,
+                    44
+                  ]
+                }
+              ],
+              "value": "39~44",
+              "text": {
+                "en": "(39-44)% increased Critical Strike Chance with Bows",
+                "kr": "활 사용 시 치명타 확률 (39-44)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity10",
+          "affixType": "suffix",
+          "tier": 85,
+          "valueRanges": [
+            [
+              56,
+              60
+            ]
+          ],
+          "name": {
+            "en": "of the Blur",
+            "kr": "- 희미함"
+          },
+          "effect": {
+            "en": "(56-60) to Dexterity",
+            "kr": "민첩 (56-60)"
+          },
+          "group": [
+            119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    56,
+                    60
+                  ]
+                }
+              ],
+              "value": "56~60",
+              "text": {
+                "en": "(56-60) to Dexterity",
+                "kr": "민첩 (56-60)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedAccuracyNew6",
+          "affixType": "suffix",
+          "tier": 85,
+          "valueRanges": [
+            [
+              481,
+              600
+            ]
+          ],
+          "name": {
+            "en": "of Lioneye",
+            "kr": "- 라이온아이"
+          },
+          "effect": {
+            "en": "(481-600) to Accuracy Rating",
+            "kr": "정확도 (481-600)"
+          },
+          "group": [
+            30
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "accuracy_rating",
+                  "valueRange": [
+                    481,
+                    600
+                  ]
+                }
+              ],
+              "value": "481~600",
+              "text": {
+                "en": "(481-600) to Accuracy Rating",
+                "kr": "정확도 (481-600)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "corrupted": {
+      "prefix": [
+        {
+          "id": "V2AddedColdDamageToBowAttacksCorrupted1__",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              11
+            ],
+            [
+              18,
+              21
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(8-11) to (18-21) Added Cold Damage with Bow Attacks",
+            "kr": "활 공격 시 냉기 피해 (8-11)~(18-21) 추가"
+          },
+          "group": [
+            3119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage_with_bows",
+                  "valueRange": [
+                    8,
+                    11
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage_with_bows",
+                  "valueRange": [
+                    18,
+                    21
+                  ]
+                }
+              ],
+              "value": "8~11, 18~21",
+              "text": {
+                "en": "(8-11) to (18-21) Added Cold Damage with Bow Attacks",
+                "kr": "활 공격 시 냉기 피해 (8-11)~(18-21) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedFireDamageToBowAttacksCorrupted1__",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              11,
+              14
+            ],
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(11-14) to (21-25) Added Fire Damage with Bow Attacks",
+            "kr": "활 공격 시 화염 피해 (11-14)~(21-25) 추가"
+          },
+          "group": [
+            3121
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage_with_bow",
+                  "valueRange": [
+                    11,
+                    14
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage_with_bow",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "11~14, 21~25",
+              "text": {
+                "en": "(11-14) to (21-25) Added Fire Damage with Bow Attacks",
+                "kr": "활 공격 시 화염 피해 (11-14)~(21-25) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedLightningDamageToBowAttacksCorrupted1_",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              3
+            ],
+            [
+              38,
+              39
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(1-3) to (38-39) Added Lightning Damage with Bow Attacks",
+            "kr": "활 공격 시 번개 피해 (1-3)~(38-39) 추가"
+          },
+          "group": [
+            3122
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage_with_bows",
+                  "valueRange": [
+                    1,
+                    3
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage_with_bows",
+                  "valueRange": [
+                    38,
+                    39
+                  ]
+                }
+              ],
+              "value": "1~3, 38~39",
+              "text": {
+                "en": "(1-3) to (38-39) Added Lightning Damage with Bow Attacks",
+                "kr": "활 공격 시 번개 피해 (1-3)~(38-39) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedPhysicalDamageToBowAttacksCorrupted1",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(3-4) to (6-10) Added Physical Damage with Bow Attacks",
+            "kr": "활 공격 시 물리 피해 (3-4)~(6-10) 추가"
+          },
+          "group": [
+            3123
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage_with_bow",
+                  "valueRange": [
+                    3,
+                    4
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage_with_bow",
+                  "valueRange": [
+                    6,
+                    10
+                  ]
+                }
+              ],
+              "value": "3~4, 6~10",
+              "text": {
+                "en": "(3-4) to (6-10) Added Physical Damage with Bow Attacks",
+                "kr": "활 공격 시 물리 피해 (3-4)~(6-10) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2PhysicalDamageAddedAsColdCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Gain (8-12)% of Physical Damage as Extra Cold Damage",
+            "kr": "물리 피해의 (8-12)%를 추가 냉기 피해로 획득"
+          },
+          "group": [
+            108
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_%_to_add_as_cold",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "Gain (8-12)% of Physical Damage as Extra Cold Damage",
+                "kr": "물리 피해의 (8-12)%를 추가 냉기 피해로 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2PhysicalDamageAddedAsFireCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Gain (8-12)% of Physical Damage as Extra Fire Damage",
+            "kr": "물리 피해의 (8-12)%를 추가 화염 피해로 획득"
+          },
+          "group": [
+            107
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_%_to_add_as_fire",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "Gain (8-12)% of Physical Damage as Extra Fire Damage",
+                "kr": "물리 피해의 (8-12)%를 추가 화염 피해로 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2PhysicalDamageAddedAsLightningCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Gain (8-12)% of Physical Damage as Extra Lightning Damage",
+            "kr": "물리 피해의 (8-12)%를 추가 번개 피해로 획득"
+          },
+          "group": [
+            143
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_%_to_add_as_lightning",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "Gain (8-12)% of Physical Damage as Extra Lightning Damage",
+                "kr": "물리 피해의 (8-12)%를 추가 번개 피해로 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2PointBlankCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Point Blank",
+            "kr": "근접 사격"
+          },
+          "group": [
+            148
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "keystone_point_blank",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Point Blank",
+                "kr": "근접 사격"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedColdDamageToBowAttacksCorrupted2",
+          "affixType": "corrupted",
+          "tier": 31,
+          "valueRanges": [
+            [
+              20,
+              25
+            ],
+            [
+              38,
+              45
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(20-25) to (38-45) Added Cold Damage with Bow Attacks",
+            "kr": "활 공격 시 냉기 피해 (20-25)~(38-45) 추가"
+          },
+          "group": [
+            3119
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage_with_bows",
+                  "valueRange": [
+                    20,
+                    25
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage_with_bows",
+                  "valueRange": [
+                    38,
+                    45
+                  ]
+                }
+              ],
+              "value": "20~25, 38~45",
+              "text": {
+                "en": "(20-25) to (38-45) Added Cold Damage with Bow Attacks",
+                "kr": "활 공격 시 냉기 피해 (20-25)~(38-45) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedFireDamageToBowAttacksCorrupted2",
+          "affixType": "corrupted",
+          "tier": 31,
+          "valueRanges": [
+            [
+              24,
+              31
+            ],
+            [
+              46,
+              55
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(24-31) to (46-55) Added Fire Damage with Bow Attacks",
+            "kr": "활 공격 시 화염 피해 (24-31)~(46-55) 추가"
+          },
+          "group": [
+            3121
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage_with_bow",
+                  "valueRange": [
+                    24,
+                    31
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage_with_bow",
+                  "valueRange": [
+                    46,
+                    55
+                  ]
+                }
+              ],
+              "value": "24~31, 46~55",
+              "text": {
+                "en": "(24-31) to (46-55) Added Fire Damage with Bow Attacks",
+                "kr": "활 공격 시 화염 피해 (24-31)~(46-55) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedLightningDamageToBowAttacksCorrupted2",
+          "affixType": "corrupted",
+          "tier": 31,
+          "valueRanges": [
+            [
+              3,
+              7
+            ],
+            [
+              81,
+              85
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(3-7) to (81-85) Added Lightning Damage with Bow Attacks",
+            "kr": "활 공격 시 번개 피해 (3-7)~(81-85) 추가"
+          },
+          "group": [
+            3122
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage_with_bows",
+                  "valueRange": [
+                    3,
+                    7
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage_with_bows",
+                  "valueRange": [
+                    81,
+                    85
+                  ]
+                }
+              ],
+              "value": "3~7, 81~85",
+              "text": {
+                "en": "(3-7) to (81-85) Added Lightning Damage with Bow Attacks",
+                "kr": "활 공격 시 번개 피해 (3-7)~(81-85) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedPhysicalDamageToBowAttacksCorrupted2___",
+          "affixType": "corrupted",
+          "tier": 31,
+          "valueRanges": [
+            [
+              5,
+              7
+            ],
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-7) to (10-14) Added Physical Damage with Bow Attacks",
+            "kr": "활 공격 시 물리 피해 (5-7)~(10-14) 추가"
+          },
+          "group": [
+            3123
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage_with_bow",
+                  "valueRange": [
+                    5,
+                    7
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage_with_bow",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "5~7, 10~14",
+              "text": {
+                "en": "(5-7) to (10-14) Added Physical Damage with Bow Attacks",
+                "kr": "활 공격 시 물리 피해 (5-7)~(10-14) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2IncreasedProjectileDamageForEachChainCorrupted",
+          "affixType": "corrupted",
+          "tier": 40,
+          "valueRanges": [
+            [
+              20,
+              25
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Projectiles deal (20-25)% increased Damage with Hits and Ailments for each time they have Chained",
+            "kr": "투사체가 연쇄한 횟수 하나당 해당 투사체의 명중 및 상태 이상 피해 (20-25)% 증가"
+          },
+          "group": [
+            3132
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "projectile_damage_+%_per_chain",
+                  "valueRange": [
+                    20,
+                    25
+                  ]
+                }
+              ],
+              "value": "20~25",
+              "text": {
+                "en": "Projectiles deal (20-25)% increased Damage with Hits and Ailments for each time they have Chained",
+                "kr": "투사체가 연쇄한 횟수 하나당 해당 투사체의 명중 및 상태 이상 피해 (20-25)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2IncreasedProjectileDamageForEachPierceCorrupted",
+          "affixType": "corrupted",
+          "tier": 40,
+          "valueRanges": [
+            [
+              8,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Projectiles deal (8-10)% increased Damage with Hits and Ailments for each Enemy Pierced",
+            "kr": "투사체가 관통한 적 하나당 해당 투사체의 명중 및 상태 이상 피해 (8-10)% 증가"
+          },
+          "group": [
+            2888
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "projectile_damage_+%_per_pierced_enemy",
+                  "valueRange": [
+                    8,
+                    10
+                  ]
+                }
+              ],
+              "value": "8~10",
+              "text": {
+                "en": "Projectiles deal (8-10)% increased Damage with Hits and Ailments for each Enemy Pierced",
+                "kr": "투사체가 관통한 적 하나당 해당 투사체의 명중 및 상태 이상 피해 (8-10)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2ColdDamageLifeLeechPermyriadCorrupted_",
+          "affixType": "corrupted",
+          "tier": 50,
+          "valueRanges": [
+            [
+              50,
+              50
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "50% of Cold Damage Leeched as Life",
+            "kr": "냉기 피해의 50%를 생명력으로 흡수"
+          },
+          "group": [
+            998
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_leech_from_cold_damage_permyriad",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Cold Damage Leeched as Life",
+                "kr": "냉기 피해의 50%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2FireDamageLifeLeechPermyriadCorrupted_",
+          "affixType": "corrupted",
+          "tier": 50,
+          "valueRanges": [
+            [
+              50,
+              50
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "50% of Fire Damage Leeched as Life",
+            "kr": "화염 피해의 50%를 생명력으로 흡수"
+          },
+          "group": [
+            999
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_leech_from_fire_damage_permyriad",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Fire Damage Leeched as Life",
+                "kr": "화염 피해의 50%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2LightningDamageLifeLeechPermyriadCorrupted",
+          "affixType": "corrupted",
+          "tier": 50,
+          "valueRanges": [
+            [
+              50,
+              50
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "50% of Lightning Damage Leeched as Life",
+            "kr": "번개 피해의 50%를 생명력으로 흡수"
+          },
+          "group": [
+            997
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_life_leech_from_lightning_damage_permyriad",
+                  "valueRange": [
+                    50,
+                    50
+                  ]
+                }
+              ],
+              "value": "50",
+              "text": {
+                "en": "50% of Lightning Damage Leeched as Life",
+                "kr": "번개 피해의 50%를 생명력으로 흡수"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedColdDamageToBowAttacksCorrupted3",
+          "affixType": "corrupted",
+          "tier": 75,
+          "valueRanges": [
+            [
+              29,
+              35
+            ],
+            [
+              55,
+              62
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(29-35) to (55-62) Added Cold Damage with Bow Attacks",
+            "kr": "활 공격 시 냉기 피해 (29-35)~(55-62) 추가"
+          },
+          "group": [
+            3119
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_cold_damage_with_bows",
+                  "valueRange": [
+                    29,
+                    35
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_cold_damage_with_bows",
+                  "valueRange": [
+                    55,
+                    62
+                  ]
+                }
+              ],
+              "value": "29~35, 55~62",
+              "text": {
+                "en": "(29-35) to (55-62) Added Cold Damage with Bow Attacks",
+                "kr": "활 공격 시 냉기 피해 (29-35)~(55-62) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedFireDamageToBowAttacksCorrupted3",
+          "affixType": "corrupted",
+          "tier": 75,
+          "valueRanges": [
+            [
+              29,
+              39
+            ],
+            [
+              59,
+              69
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(29-39) to (59-69) Added Fire Damage with Bow Attacks",
+            "kr": "활 공격 시 화염 피해 (29-39)~(59-69) 추가"
+          },
+          "group": [
+            3121
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_fire_damage_with_bow",
+                  "valueRange": [
+                    29,
+                    39
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_fire_damage_with_bow",
+                  "valueRange": [
+                    59,
+                    69
+                  ]
+                }
+              ],
+              "value": "29~39, 59~69",
+              "text": {
+                "en": "(29-39) to (59-69) Added Fire Damage with Bow Attacks",
+                "kr": "활 공격 시 화염 피해 (29-39)~(59-69) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedLightningDamageToBowAttacksCorrupted3",
+          "affixType": "corrupted",
+          "tier": 75,
+          "valueRanges": [
+            [
+              3,
+              8
+            ],
+            [
+              101,
+              106
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(3-8) to (101-106) Added Lightning Damage with Bow Attacks",
+            "kr": "활 공격 시 번개 피해 (3-8)~(101-106) 추가"
+          },
+          "group": [
+            3122
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_lightning_damage_with_bows",
+                  "valueRange": [
+                    3,
+                    8
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_lightning_damage_with_bows",
+                  "valueRange": [
+                    101,
+                    106
+                  ]
+                }
+              ],
+              "value": "3~8, 101~106",
+              "text": {
+                "en": "(3-8) to (101-106) Added Lightning Damage with Bow Attacks",
+                "kr": "활 공격 시 번개 피해 (3-8)~(101-106) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedPhysicalDamageToBowAttacksCorrupted3",
+          "affixType": "corrupted",
+          "tier": 75,
+          "valueRanges": [
+            [
+              9,
+              12
+            ],
+            [
+              16,
+              19
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(9-12) to (16-19) Added Physical Damage with Bow Attacks",
+            "kr": "활 공격 시 물리 피해 (9-12)~(16-19) 추가"
+          },
+          "group": [
+            3123
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_physical_damage_with_bow",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_physical_damage_with_bow",
+                  "valueRange": [
+                    16,
+                    19
+                  ]
+                }
+              ],
+              "value": "9~12, 16~19",
+              "text": {
+                "en": "(9-12) to (16-19) Added Physical Damage with Bow Attacks",
+                "kr": "활 공격 시 물리 피해 (9-12)~(16-19) 추가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AdditionalArrowsCorrupted",
+          "affixType": "corrupted",
+          "tier": 75,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Bow Attacks fire an additional Arrow",
+            "kr": "활 공격 시 화살 1개 추가 발사"
+          },
+          "group": [
+            10
+          ],
+          "weight": 200,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "number_of_additional_arrows",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Bow Attacks fire an additional Arrow",
+                "kr": "활 공격 시 화살 1개 추가 발사"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2ChanceToSuppressSpells_",
+          "affixType": "corrupted",
+          "tier": 75,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(8-12)% chance to Suppress Spell Damage",
+            "kr": "주문 피해 억제 확률 (8-12)%"
+          },
+          "group": [
+            890
+          ],
+          "weight": 200,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_spell_suppression_chance_%",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "(8-12)% chance to Suppress Spell Damage",
+                "kr": "주문 피해 억제 확률 (8-12)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AdditionalChainCorrupted",
+          "affixType": "corrupted",
+          "tier": 80,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Arrows Chain 1 times",
+            "kr": "화살 연쇄 1회"
+          },
+          "group": [
+            1054
+          ],
+          "weight": 200,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "arrow_chains_+",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Arrows Chain 1 times",
+                "kr": "화살 연쇄 1회"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2AddedChaosDamageToBowAttacksCorrupted1",
+          "affixType": "corrupted",
+          "tier": 81,
+          "valueRanges": [
+            [
+              23,
+              29
+            ],
+            [
+              37,
+              43
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(23-29) to (37-43) Added Chaos Damage with Bow Attacks",
+            "kr": "활 공격의 카오스 피해 (23-29)~(37-43) 추가"
+          },
+          "group": [
+            3124
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "attack_minimum_added_chaos_damage_with_bows",
+                  "valueRange": [
+                    23,
+                    29
+                  ]
+                },
+                {
+                  "stat": "attack_maximum_added_chaos_damage_with_bows",
+                  "valueRange": [
+                    37,
+                    43
+                  ]
+                }
+              ],
+              "value": "23~29, 37~43",
+              "text": {
+                "en": "(23-29) to (37-43) Added Chaos Damage with Bow Attacks",
+                "kr": "활 공격의 카오스 피해 (23-29)~(37-43) 추가"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": []
+    }
+  }
+}
