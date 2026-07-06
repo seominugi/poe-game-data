@@ -32,6 +32,11 @@
       "prefix": 19,
       "suffix": 0,
       "total": 19
+    },
+    "essence": {
+      "prefix": 25,
+      "suffix": 0,
+      "total": 25
     }
   },
   "buckets": {
@@ -14143,6 +14148,1131 @@
                 "kr": "모든 저항 최대치 1%"
               }
             }
+          ]
+        }
+      ],
+      "suffix": []
+    },
+    "essence": {
+      "prefix": [
+        {
+          "id": "FireResist8",
+          "affixType": "essence",
+          "essenceType": "Anger",
+          "essenceName": {
+            "en": "Anger",
+            "kr": "분노"
+          },
+          "name": {
+            "en": "Anger",
+            "kr": "분노"
+          },
+          "corrupted": false,
+          "stat": "base_fire_damage_resistance_%",
+          "effect": {
+            "en": "(12-48)% to Fire Resistance",
+            "kr": "화염 저항 (12-48)%"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              12,
+              17
+            ],
+            [
+              18,
+              23
+            ],
+            [
+              24,
+              29
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              42,
+              45
+            ],
+            [
+              46,
+              48
+            ]
+          ],
+          "valueRanges": [
+            [
+              12,
+              48
+            ]
+          ]
+        },
+        {
+          "id": "ChanceToAvoidFireDamageEssence7",
+          "affixType": "essence",
+          "essenceType": "Anguish",
+          "essenceName": {
+            "en": "Anguish",
+            "kr": "비통"
+          },
+          "name": {
+            "en": "Anguish",
+            "kr": "비통"
+          },
+          "corrupted": false,
+          "stat": "avoid_fire_damage_%",
+          "effect": {
+            "en": "(6-10)% chance to Avoid Fire Damage from Hits",
+            "kr": "피격 시 (6-10)% 확률로 화염 피해 긴급회피"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "valueRanges": [
+            [
+              6,
+              10
+            ]
+          ]
+        },
+        {
+          "id": "AttackerTakesDamageEssence7",
+          "affixType": "essence",
+          "essenceType": "Contempt",
+          "essenceName": {
+            "en": "Contempt",
+            "kr": "경멸"
+          },
+          "name": {
+            "en": "Contempt",
+            "kr": "경멸"
+          },
+          "corrupted": false,
+          "stat": "physical_damage_to_return_to_melee_attacker",
+          "effect": {
+            "en": "Reflects (151-200) Physical Damage to Melee Attackers",
+            "kr": "근접 공격자에게 (151-200)의 물리 피해 반사"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              1,
+              4
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              11,
+              24
+            ],
+            [
+              25,
+              50
+            ],
+            [
+              51,
+              100
+            ],
+            [
+              101,
+              150
+            ],
+            [
+              151,
+              200
+            ]
+          ],
+          "valueRanges": [
+            [
+              1,
+              200
+            ]
+          ]
+        },
+        {
+          "id": "ChaosDamageOverTimeTakenEssence1",
+          "affixType": "essence",
+          "essenceType": "Delirium",
+          "essenceName": {
+            "en": "Delirium",
+            "kr": "섬망"
+          },
+          "name": {
+            "en": "Delirium",
+            "kr": "섬망"
+          },
+          "corrupted": true,
+          "stat": "chaos_damage_taken_over_time_+%",
+          "effect": {
+            "en": "-25% reduced Chaos Damage taken over time",
+            "kr": "받는 지속 카오스 피해 -25% 감소"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              -25,
+              -25
+            ]
+          ],
+          "valueRanges": [
+            [
+              -25,
+              -25
+            ]
+          ]
+        },
+        {
+          "id": "GlobalDefencesNoOtherDefenceModifiersOnEquipmentEssence1",
+          "affixType": "essence",
+          "essenceType": "Desolation",
+          "essenceName": {
+            "en": "Desolation",
+            "kr": "황량함"
+          },
+          "name": {
+            "en": "Desolation",
+            "kr": "황량함"
+          },
+          "corrupted": false,
+          "stat": "global_defences_+%_if_no_defence_modifiers_on_equipment_except_body_armour",
+          "effect": {
+            "en": "(70-90)% increased Global Defences if there are no Defence Modifiers on other Equipped Items",
+            "kr": "장착 중인 다른 아이템에 방어력 속성이 부여되지 않은 경우 일반 방어력 (70-90)% 증가"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              70,
+              90
+            ]
+          ],
+          "valueRanges": [
+            [
+              70,
+              90
+            ]
+          ]
+        },
+        {
+          "id": "LocalIncreasedEvasionRatingEssence7",
+          "affixType": "essence",
+          "essenceType": "Doubt",
+          "essenceName": {
+            "en": "Doubt",
+            "kr": "의심"
+          },
+          "name": {
+            "en": "Doubt",
+            "kr": "의심"
+          },
+          "corrupted": false,
+          "stat": "local_base_evasion_rating",
+          "effect": {
+            "en": "(64-475) to Evasion Rating",
+            "kr": "회피 (64-475)"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              64,
+              82
+            ],
+            [
+              102,
+              120
+            ],
+            [
+              151,
+              200
+            ],
+            [
+              301,
+              400
+            ],
+            [
+              390,
+              475
+            ]
+          ],
+          "valueRanges": [
+            [
+              64,
+              475
+            ]
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamageReductionRatingEssence7",
+          "affixType": "essence",
+          "essenceType": "Dread",
+          "essenceName": {
+            "en": "Dread",
+            "kr": "불안"
+          },
+          "name": {
+            "en": "Dread",
+            "kr": "불안"
+          },
+          "corrupted": false,
+          "stat": "local_base_physical_damage_reduction_rating",
+          "effect": {
+            "en": "(151-475) to Armour",
+            "kr": "방어도 (151-475)"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              151,
+              200
+            ],
+            [
+              301,
+              400
+            ],
+            [
+              390,
+              475
+            ]
+          ],
+          "valueRanges": [
+            [
+              151,
+              475
+            ]
+          ]
+        },
+        {
+          "id": "ChaosResist6",
+          "affixType": "essence",
+          "essenceType": "Envy",
+          "essenceName": {
+            "en": "Envy",
+            "kr": "선망"
+          },
+          "name": {
+            "en": "Envy",
+            "kr": "선망"
+          },
+          "corrupted": false,
+          "stat": "base_chaos_damage_resistance_%",
+          "effect": {
+            "en": "(21-35)% to Chaos Resistance",
+            "kr": "카오스 저항 (21-35)%"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              21,
+              25
+            ],
+            [
+              26,
+              30
+            ],
+            [
+              31,
+              35
+            ]
+          ],
+          "valueRanges": [
+            [
+              21,
+              35
+            ]
+          ]
+        },
+        {
+          "id": "MinionLifeEssence7",
+          "affixType": "essence",
+          "essenceType": "Fear",
+          "essenceName": {
+            "en": "Fear",
+            "kr": "두려움"
+          },
+          "name": {
+            "en": "Fear",
+            "kr": "두려움"
+          },
+          "corrupted": false,
+          "stat": "minion_maximum_life_+%",
+          "effect": {
+            "en": "Minions have (13-30)% increased maximum Life",
+            "kr": "소환수의 최대 생명력 (13-30)% 증가"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              19,
+              21
+            ],
+            [
+              22,
+              24
+            ],
+            [
+              25,
+              27
+            ],
+            [
+              28,
+              30
+            ]
+          ],
+          "valueRanges": [
+            [
+              13,
+              30
+            ]
+          ]
+        },
+        {
+          "id": "IncreasedLife11",
+          "affixType": "essence",
+          "essenceType": "Greed",
+          "essenceName": {
+            "en": "Greed",
+            "kr": "탐욕"
+          },
+          "name": {
+            "en": "Greed",
+            "kr": "탐욕"
+          },
+          "corrupted": false,
+          "stat": "base_maximum_life",
+          "effect": {
+            "en": "(10-174) to maximum Life",
+            "kr": "생명력 최대치 (10-174)"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              10,
+              24
+            ],
+            [
+              40,
+              54
+            ],
+            [
+              70,
+              84
+            ],
+            [
+              100,
+              114
+            ],
+            [
+              130,
+              144
+            ],
+            [
+              145,
+              159
+            ],
+            [
+              160,
+              174
+            ]
+          ],
+          "valueRanges": [
+            [
+              10,
+              174
+            ]
+          ]
+        },
+        {
+          "id": "ColdResist8",
+          "affixType": "essence",
+          "essenceType": "Hatred",
+          "essenceName": {
+            "en": "Hatred",
+            "kr": "증오"
+          },
+          "name": {
+            "en": "Hatred",
+            "kr": "증오"
+          },
+          "corrupted": false,
+          "stat": "base_cold_damage_resistance_%",
+          "effect": {
+            "en": "(6-48)% to Cold Resistance",
+            "kr": "냉기 저항 (6-48)%"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              6,
+              11
+            ],
+            [
+              12,
+              17
+            ],
+            [
+              18,
+              23
+            ],
+            [
+              24,
+              29
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              42,
+              45
+            ],
+            [
+              46,
+              48
+            ]
+          ],
+          "valueRanges": [
+            [
+              6,
+              48
+            ]
+          ]
+        },
+        {
+          "id": "ReducedDamageFromCriticalStrikesPerEnduranceChargeEssence1",
+          "affixType": "essence",
+          "essenceType": "Horror",
+          "essenceName": {
+            "en": "Horror",
+            "kr": "경악"
+          },
+          "name": {
+            "en": "Horror",
+            "kr": "경악"
+          },
+          "corrupted": true,
+          "stat": "self_critical_strike_multiplier_-%_per_endurance_charge",
+          "effect": {
+            "en": "You take 10% reduced Extra Damage from Critical Strikes per Endurance Charge",
+            "kr": "인내 충전 하나당 치명타로 받는 추가 피해 10% 감소"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              10,
+              10
+            ]
+          ],
+          "valueRanges": [
+            [
+              10,
+              10
+            ]
+          ]
+        },
+        {
+          "id": "AreaOfEffectEssence1",
+          "affixType": "essence",
+          "essenceType": "Hysteria",
+          "essenceName": {
+            "en": "Hysteria",
+            "kr": "발작"
+          },
+          "name": {
+            "en": "Hysteria",
+            "kr": "발작"
+          },
+          "corrupted": true,
+          "stat": "base_skill_area_of_effect_+%",
+          "effect": {
+            "en": "25% increased Area of Effect",
+            "kr": "효과 범위 25% 증가"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              25,
+              25
+            ]
+          ],
+          "valueRanges": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "OnslaughtWhenHitNewEssence1",
+          "affixType": "essence",
+          "essenceType": "Insanity",
+          "essenceName": {
+            "en": "Insanity",
+            "kr": "광기"
+          },
+          "name": {
+            "en": "Insanity",
+            "kr": "광기"
+          },
+          "corrupted": true,
+          "stat": "unique_gain_onslaught_when_hit_duration_ms",
+          "effect": {
+            "en": "You gain Onslaught for 6000 seconds when Hit",
+            "kr": "피격 시 6000초 동안 맹공 획득"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              6000,
+              6000
+            ]
+          ],
+          "valueRanges": [
+            [
+              6000,
+              6000
+            ]
+          ]
+        },
+        {
+          "id": "ManaReservationEfficiencyEssence7",
+          "affixType": "essence",
+          "essenceType": "Loathing",
+          "essenceName": {
+            "en": "Loathing",
+            "kr": "혐오"
+          },
+          "name": {
+            "en": "Loathing",
+            "kr": "혐오"
+          },
+          "corrupted": false,
+          "stat": "base_mana_reservation_efficiency_+%",
+          "effect": {
+            "en": "(3-10)% increased Mana Reservation Efficiency of Skills",
+            "kr": "스킬의 마나 점유 효율 (3-10)% 증가"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "valueRanges": [
+            [
+              3,
+              10
+            ]
+          ]
+        },
+        {
+          "id": "IncreasedManaEssence7",
+          "affixType": "essence",
+          "essenceType": "Misery",
+          "essenceName": {
+            "en": "Misery",
+            "kr": "비참"
+          },
+          "name": {
+            "en": "Misery",
+            "kr": "비참"
+          },
+          "corrupted": false,
+          "stat": "base_maximum_mana",
+          "effect": {
+            "en": "(55-77) to maximum Mana",
+            "kr": "마나 최대치 (55-77)"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              55,
+              59
+            ],
+            [
+              65,
+              68
+            ],
+            [
+              69,
+              77
+            ]
+          ],
+          "valueRanges": [
+            [
+              55,
+              77
+            ]
+          ]
+        },
+        {
+          "id": "StrengthEssence7_",
+          "affixType": "essence",
+          "essenceType": "Rage",
+          "essenceName": {
+            "en": "Rage",
+            "kr": "격노"
+          },
+          "name": {
+            "en": "Rage",
+            "kr": "격노"
+          },
+          "corrupted": false,
+          "stat": "additional_strength",
+          "effect": {
+            "en": "(18-58) to Strength",
+            "kr": "힘 (18-58)"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              18,
+              22
+            ],
+            [
+              28,
+              32
+            ],
+            [
+              33,
+              37
+            ],
+            [
+              43,
+              50
+            ],
+            [
+              51,
+              58
+            ]
+          ],
+          "valueRanges": [
+            [
+              18,
+              58
+            ]
+          ]
+        },
+        {
+          "id": "IncreasedStunThresholdEssence7",
+          "affixType": "essence",
+          "essenceType": "Scorn",
+          "essenceName": {
+            "en": "Scorn",
+            "kr": "멸시"
+          },
+          "name": {
+            "en": "Scorn",
+            "kr": "멸시"
+          },
+          "corrupted": false,
+          "stat": "stun_threshold_+%",
+          "effect": {
+            "en": "(31-60)% increased Stun Threshold",
+            "kr": "기절 한계치 (31-60)% 증가"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              31,
+              39
+            ],
+            [
+              40,
+              45
+            ],
+            [
+              46,
+              60
+            ]
+          ],
+          "valueRanges": [
+            [
+              31,
+              60
+            ]
+          ]
+        },
+        {
+          "id": "DexterityEssence7",
+          "affixType": "essence",
+          "essenceType": "Sorrow",
+          "essenceName": {
+            "en": "Sorrow",
+            "kr": "슬픔"
+          },
+          "name": {
+            "en": "Sorrow",
+            "kr": "슬픔"
+          },
+          "corrupted": false,
+          "stat": "additional_dexterity",
+          "effect": {
+            "en": "(13-58) to Dexterity",
+            "kr": "민첩 (13-58)"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              13,
+              17
+            ],
+            [
+              18,
+              22
+            ],
+            [
+              28,
+              32
+            ],
+            [
+              33,
+              37
+            ],
+            [
+              43,
+              50
+            ],
+            [
+              51,
+              58
+            ]
+          ],
+          "valueRanges": [
+            [
+              13,
+              58
+            ]
+          ]
+        },
+        {
+          "id": "IntelligenceEssence7",
+          "affixType": "essence",
+          "essenceType": "Spite",
+          "essenceName": {
+            "en": "Spite",
+            "kr": "악의"
+          },
+          "name": {
+            "en": "Spite",
+            "kr": "악의"
+          },
+          "corrupted": false,
+          "stat": "additional_intelligence",
+          "effect": {
+            "en": "(28-58) to Intelligence",
+            "kr": "지능 (28-58)"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              28,
+              32
+            ],
+            [
+              33,
+              37
+            ],
+            [
+              43,
+              50
+            ],
+            [
+              51,
+              58
+            ]
+          ],
+          "valueRanges": [
+            [
+              28,
+              58
+            ]
+          ]
+        },
+        {
+          "id": "ChanceToAvoidColdDamageEssence7",
+          "affixType": "essence",
+          "essenceType": "Suffering",
+          "essenceName": {
+            "en": "Suffering",
+            "kr": "고통"
+          },
+          "name": {
+            "en": "Suffering",
+            "kr": "고통"
+          },
+          "corrupted": false,
+          "stat": "avoid_cold_damage_%",
+          "effect": {
+            "en": "(5-10)% chance to Avoid Cold Damage from Hits",
+            "kr": "피격 시 (5-10)% 확률로 냉기 피해 긴급회피"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ]
+        },
+        {
+          "id": "ChanceToAvoidLightningDamageEssence7",
+          "affixType": "essence",
+          "essenceType": "Torment",
+          "essenceName": {
+            "en": "Torment",
+            "kr": "고뇌"
+          },
+          "name": {
+            "en": "Torment",
+            "kr": "고뇌"
+          },
+          "corrupted": false,
+          "stat": "avoid_lightning_damage_%",
+          "effect": {
+            "en": "(4-10)% chance to Avoid Lightning Damage from Hits",
+            "kr": "피격 시 (4-10)% 확률로 번개 피해 긴급회피"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "valueRanges": [
+            [
+              4,
+              10
+            ]
+          ]
+        },
+        {
+          "id": "LocalIncreasedEnergyShieldEssenceChest7__",
+          "affixType": "essence",
+          "essenceType": "Woe",
+          "essenceName": {
+            "en": "Woe",
+            "kr": "비애"
+          },
+          "name": {
+            "en": "Woe",
+            "kr": "비애"
+          },
+          "corrupted": false,
+          "stat": "local_energy_shield",
+          "effect": {
+            "en": "(3-95) to maximum Energy Shield",
+            "kr": "에너지 보호막 최대치 (3-95)"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              17,
+              23
+            ],
+            [
+              31,
+              38
+            ],
+            [
+              50,
+              61
+            ],
+            [
+              77,
+              90
+            ],
+            [
+              88,
+              95
+            ]
+          ],
+          "valueRanges": [
+            [
+              3,
+              95
+            ]
+          ]
+        },
+        {
+          "id": "LightningResist8",
+          "affixType": "essence",
+          "essenceType": "Wrath",
+          "essenceName": {
+            "en": "Wrath",
+            "kr": "진노"
+          },
+          "name": {
+            "en": "Wrath",
+            "kr": "진노"
+          },
+          "corrupted": false,
+          "stat": "base_lightning_damage_resistance_%",
+          "effect": {
+            "en": "(18-48)% to Lightning Resistance",
+            "kr": "번개 저항 (18-48)%"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              18,
+              23
+            ],
+            [
+              24,
+              29
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              42,
+              45
+            ],
+            [
+              46,
+              48
+            ]
+          ],
+          "valueRanges": [
+            [
+              18,
+              48
+            ]
+          ]
+        },
+        {
+          "id": "SummonTotemCastSpeedEssence4",
+          "affixType": "essence",
+          "essenceType": "Zeal",
+          "essenceName": {
+            "en": "Zeal",
+            "kr": "열의"
+          },
+          "name": {
+            "en": "Zeal",
+            "kr": "열의"
+          },
+          "corrupted": false,
+          "stat": "summon_totem_cast_speed_+%",
+          "effect": {
+            "en": "(21-45)% increased Totem Placement speed",
+            "kr": "토템 설치 속도 (21-45)% 증가"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              21,
+              25
+            ],
+            [
+              26,
+              30
+            ],
+            [
+              31,
+              35
+            ],
+            [
+              36,
+              45
+            ]
+          ],
+          "valueRanges": [
+            [
+              21,
+              45
+            ]
           ]
         }
       ],

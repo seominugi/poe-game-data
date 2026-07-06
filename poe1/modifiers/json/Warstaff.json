@@ -27,6 +27,11 @@
       "prefix": 15,
       "suffix": 0,
       "total": 15
+    },
+    "essence": {
+      "prefix": 25,
+      "suffix": 0,
+      "total": 25
     }
   },
   "buckets": {
@@ -14434,6 +14439,1131 @@
                 "kr": "번개 피해 (5-9)~(103-107) 추가"
               }
             }
+          ]
+        }
+      ],
+      "suffix": []
+    },
+    "essence": {
+      "prefix": [
+        {
+          "id": "LocalAddedFireDamageTwoHandEssence7",
+          "affixType": "essence",
+          "essenceType": "Anger",
+          "essenceName": {
+            "en": "Anger",
+            "kr": "분노"
+          },
+          "name": {
+            "en": "Anger",
+            "kr": "분노"
+          },
+          "corrupted": false,
+          "stat": "local_minimum_added_fire_damage",
+          "effect": {
+            "en": "Adds (149-203) to (302-351) Fire Damage",
+            "kr": "화염 피해 (149-203)~(302-351) 추가"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              14,
+              20
+            ],
+            [
+              32,
+              44
+            ],
+            [
+              63,
+              85
+            ],
+            [
+              110,
+              150
+            ],
+            [
+              137,
+              188
+            ],
+            [
+              149,
+              203
+            ]
+          ],
+          "valueRanges": [
+            [
+              14,
+              203
+            ]
+          ]
+        },
+        {
+          "id": "SpellAddedFireDamageTwoHand9",
+          "affixType": "essence",
+          "essenceType": "Anguish",
+          "essenceName": {
+            "en": "Anguish",
+            "kr": "비통"
+          },
+          "name": {
+            "en": "Anguish",
+            "kr": "비통"
+          },
+          "corrupted": false,
+          "stat": "spell_minimum_added_fire_damage",
+          "effect": {
+            "en": "Adds (66-88) to (132-155) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (66-88)~(132-155) 추가"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              32,
+              44
+            ],
+            [
+              42,
+              56
+            ],
+            [
+              53,
+              70
+            ],
+            [
+              66,
+              88
+            ]
+          ],
+          "valueRanges": [
+            [
+              32,
+              88
+            ]
+          ]
+        },
+        {
+          "id": "LocalAddedPhysicalDamageTwoHandEssenceNew7__",
+          "affixType": "essence",
+          "essenceType": "Contempt",
+          "essenceName": {
+            "en": "Contempt",
+            "kr": "경멸"
+          },
+          "name": {
+            "en": "Contempt",
+            "kr": "경멸"
+          },
+          "corrupted": false,
+          "stat": "local_minimum_added_physical_damage",
+          "effect": {
+            "en": "Adds (31-42) to (65-75) Physical Damage",
+            "kr": "물리 피해 (31-42)~(65-75) 추가"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              2,
+              2
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              13,
+              17
+            ],
+            [
+              20,
+              28
+            ],
+            [
+              25,
+              33
+            ],
+            [
+              31,
+              42
+            ]
+          ],
+          "valueRanges": [
+            [
+              2,
+              42
+            ]
+          ]
+        },
+        {
+          "id": "DecayOnHitEssence1",
+          "affixType": "essence",
+          "essenceType": "Delirium",
+          "essenceName": {
+            "en": "Delirium",
+            "kr": "섬망"
+          },
+          "name": {
+            "en": "Delirium",
+            "kr": "섬망"
+          },
+          "corrupted": true,
+          "stat": "deal_1000_chaos_damage_per_second_for_10_seconds_on_hit",
+          "effect": {
+            "en": "Your Hits inflict Decay, dealing 700 Chaos Damage per second for 8 seconds",
+            "kr": "명중 시 8초 동안 1초마다 700 카오스 피해를 주는 부패 유발"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              1,
+              1
+            ]
+          ],
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "id": "AilmentDoubleDamageTwoHandEssence1",
+          "affixType": "essence",
+          "essenceType": "Desolation",
+          "essenceName": {
+            "en": "Desolation",
+            "kr": "황량함"
+          },
+          "name": {
+            "en": "Desolation",
+            "kr": "황량함"
+          },
+          "corrupted": false,
+          "stat": "ailment_types_apply_enemy_chance_to_deal_double_damage_%_against_self",
+          "effect": {
+            "en": "2% chance to deal Double Damage against Enemies for each type of Ailment you have inflicted on them",
+            "kr": "플레이어가 적에게 유발한 상태 이상 유형 하나당 2% 확률로 해당 적에게 2배의 피해를 줌"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              2,
+              2
+            ]
+          ],
+          "valueRanges": [
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "id": "LocalIncreasedAccuracyNew6",
+          "affixType": "essence",
+          "essenceType": "Doubt",
+          "essenceName": {
+            "en": "Doubt",
+            "kr": "의심"
+          },
+          "name": {
+            "en": "Doubt",
+            "kr": "의심"
+          },
+          "corrupted": false,
+          "stat": "local_accuracy_rating",
+          "effect": {
+            "en": "(131-780) to Accuracy Rating",
+            "kr": "정확도 (131-780)"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              131,
+              215
+            ],
+            [
+              216,
+              325
+            ],
+            [
+              326,
+              455
+            ],
+            [
+              456,
+              624
+            ],
+            [
+              625,
+              780
+            ]
+          ],
+          "valueRanges": [
+            [
+              131,
+              780
+            ]
+          ]
+        },
+        {
+          "id": "ImpaleEffectTwoHandEssence3_",
+          "affixType": "essence",
+          "essenceType": "Dread",
+          "essenceName": {
+            "en": "Dread",
+            "kr": "불안"
+          },
+          "name": {
+            "en": "Dread",
+            "kr": "불안"
+          },
+          "corrupted": false,
+          "stat": "impale_debuff_effect_+%",
+          "effect": {
+            "en": "(25-38)% increased Impale Effect",
+            "kr": "꿰뚫기 효과 (25-38)% 증가"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              25,
+              29
+            ],
+            [
+              30,
+              34
+            ],
+            [
+              35,
+              38
+            ]
+          ],
+          "valueRanges": [
+            [
+              25,
+              38
+            ]
+          ]
+        },
+        {
+          "id": "LocalAddedChaosDamageTwoHandEssence3",
+          "affixType": "essence",
+          "essenceType": "Envy",
+          "essenceName": {
+            "en": "Envy",
+            "kr": "선망"
+          },
+          "name": {
+            "en": "Envy",
+            "kr": "선망"
+          },
+          "corrupted": false,
+          "stat": "local_minimum_added_chaos_damage",
+          "effect": {
+            "en": "Adds (89-131) to (181-229) Chaos Damage",
+            "kr": "카오스 피해 (89-131)~(181-229) 추가"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              61,
+              103
+            ],
+            [
+              73,
+              113
+            ],
+            [
+              89,
+              131
+            ]
+          ],
+          "valueRanges": [
+            [
+              61,
+              131
+            ]
+          ]
+        },
+        {
+          "id": "MinionDamageOnTwoHandWeaponEssence7",
+          "affixType": "essence",
+          "essenceType": "Fear",
+          "essenceName": {
+            "en": "Fear",
+            "kr": "두려움"
+          },
+          "name": {
+            "en": "Fear",
+            "kr": "두려움"
+          },
+          "corrupted": false,
+          "stat": "minion_damage_+%",
+          "effect": {
+            "en": "Minions deal (30-144)% increased Damage",
+            "kr": "소환수가 주는 피해 (30-144)% 증가"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              30,
+              44
+            ],
+            [
+              45,
+              59
+            ],
+            [
+              60,
+              84
+            ],
+            [
+              85,
+              106
+            ],
+            [
+              107,
+              122
+            ],
+            [
+              123,
+              144
+            ]
+          ],
+          "valueRanges": [
+            [
+              30,
+              144
+            ]
+          ]
+        },
+        {
+          "id": "LifeLeechPermyriadLocalSuffixEssence7",
+          "affixType": "essence",
+          "essenceType": "Greed",
+          "essenceName": {
+            "en": "Greed",
+            "kr": "탐욕"
+          },
+          "name": {
+            "en": "Greed",
+            "kr": "탐욕"
+          },
+          "corrupted": false,
+          "stat": "local_life_leech_from_physical_damage_permyriad",
+          "effect": {
+            "en": "(200-440)% of Physical Attack Damage Leeched as Life",
+            "kr": "물리 공격 피해의 (200-440)%를 생명력으로 흡수"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              200,
+              220
+            ],
+            [
+              230,
+              240
+            ],
+            [
+              250,
+              280
+            ],
+            [
+              290,
+              320
+            ],
+            [
+              330,
+              360
+            ],
+            [
+              370,
+              400
+            ],
+            [
+              410,
+              440
+            ]
+          ],
+          "valueRanges": [
+            [
+              200,
+              440
+            ]
+          ]
+        },
+        {
+          "id": "LocalAddedColdDamageTwoHandEssence7",
+          "affixType": "essence",
+          "essenceType": "Hatred",
+          "essenceName": {
+            "en": "Hatred",
+            "kr": "증오"
+          },
+          "name": {
+            "en": "Hatred",
+            "kr": "증오"
+          },
+          "corrupted": false,
+          "stat": "local_minimum_added_cold_damage",
+          "effect": {
+            "en": "Adds (134-184) to (270-313) Cold Damage",
+            "kr": "냉기 피해 (134-184)~(270-313) 추가"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              2,
+              3
+            ],
+            [
+              12,
+              17
+            ],
+            [
+              29,
+              40
+            ],
+            [
+              57,
+              77
+            ],
+            [
+              99,
+              136
+            ],
+            [
+              124,
+              170
+            ],
+            [
+              134,
+              184
+            ]
+          ],
+          "valueRanges": [
+            [
+              2,
+              184
+            ]
+          ]
+        },
+        {
+          "id": "PowerFrenzyOrEnduranceChargeOnKillEssence1",
+          "affixType": "essence",
+          "essenceType": "Horror",
+          "essenceName": {
+            "en": "Horror",
+            "kr": "경악"
+          },
+          "name": {
+            "en": "Horror",
+            "kr": "경악"
+          },
+          "corrupted": true,
+          "stat": "power_frenzy_or_endurance_charge_on_kill_%",
+          "effect": {
+            "en": "16% chance to gain a Power, Frenzy or Endurance Charge on Kill",
+            "kr": "처치 시 16%의 확률로 권능, 격분 또는 인내 충전 획득"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              16,
+              16
+            ]
+          ],
+          "valueRanges": [
+            [
+              16,
+              16
+            ]
+          ]
+        },
+        {
+          "id": "FireBurstOnHitEssence1",
+          "affixType": "essence",
+          "essenceType": "Hysteria",
+          "essenceName": {
+            "en": "Hysteria",
+            "kr": "발작"
+          },
+          "name": {
+            "en": "Hysteria",
+            "kr": "발작"
+          },
+          "corrupted": true,
+          "stat": "local_display_fire_burst_on_hit_%",
+          "effect": {
+            "en": "Cast Level 20 Fire Burst on Hit",
+            "kr": "명중 시 20레벨 화염 격발 시전"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              100,
+              100
+            ]
+          ],
+          "valueRanges": [
+            [
+              100,
+              100
+            ]
+          ]
+        },
+        {
+          "id": "SpiritMinionEssence1",
+          "affixType": "essence",
+          "essenceType": "Insanity",
+          "essenceName": {
+            "en": "Insanity",
+            "kr": "광기"
+          },
+          "name": {
+            "en": "Insanity",
+            "kr": "광기"
+          },
+          "corrupted": true,
+          "stat": "base_number_of_essence_spirits_allowed",
+          "effect": {
+            "en": "Triggers Level 20 Spectral Spirits when Equipped\\n3 to maximum number of Spectral Spirits",
+            "kr": "장착 시 20레벨 영체 혼백 발동\\n영체 혼백의 최대 개수 3"
+          },
+          "tier": 1,
+          "tierValues": [
+            [
+              3,
+              3
+            ]
+          ],
+          "valueRanges": [
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "id": "LocalCriticalStrikeChance6",
+          "affixType": "essence",
+          "essenceType": "Loathing",
+          "essenceName": {
+            "en": "Loathing",
+            "kr": "혐오"
+          },
+          "name": {
+            "en": "Loathing",
+            "kr": "혐오"
+          },
+          "corrupted": false,
+          "stat": "local_critical_strike_chance_+%",
+          "effect": {
+            "en": "(20-38)% increased Critical Strike Chance",
+            "kr": "치명타 확률 (20-38)% 증가"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              20,
+              24
+            ],
+            [
+              25,
+              29
+            ],
+            [
+              30,
+              34
+            ],
+            [
+              35,
+              38
+            ]
+          ],
+          "valueRanges": [
+            [
+              20,
+              38
+            ]
+          ]
+        },
+        {
+          "id": "IncreasedCastSpeedTwoHand7",
+          "affixType": "essence",
+          "essenceType": "Misery",
+          "essenceName": {
+            "en": "Misery",
+            "kr": "비참"
+          },
+          "name": {
+            "en": "Misery",
+            "kr": "비참"
+          },
+          "corrupted": false,
+          "stat": "base_cast_speed_+%",
+          "effect": {
+            "en": "(32-49)% increased Cast Speed",
+            "kr": "시전 속도 (32-49)% 증가"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              32,
+              37
+            ],
+            [
+              38,
+              43
+            ],
+            [
+              44,
+              49
+            ]
+          ],
+          "valueRanges": [
+            [
+              32,
+              49
+            ]
+          ]
+        },
+        {
+          "id": "FireResistancePenetrationTwoHandEssence5",
+          "affixType": "essence",
+          "essenceType": "Rage",
+          "essenceName": {
+            "en": "Rage",
+            "kr": "격노"
+          },
+          "name": {
+            "en": "Rage",
+            "kr": "격노"
+          },
+          "corrupted": false,
+          "stat": "base_reduce_enemy_fire_resistance_%",
+          "effect": {
+            "en": "Damage Penetrates (7-16)% Fire Resistance",
+            "kr": "피해가 화염 저항 (7-16)% 관통"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              15,
+              16
+            ]
+          ],
+          "valueRanges": [
+            [
+              7,
+              16
+            ]
+          ]
+        },
+        {
+          "id": "SpellCriticalStrikeChanceEssence7",
+          "affixType": "essence",
+          "essenceType": "Scorn",
+          "essenceName": {
+            "en": "Scorn",
+            "kr": "멸시"
+          },
+          "name": {
+            "en": "Scorn",
+            "kr": "멸시"
+          },
+          "corrupted": false,
+          "stat": "spell_critical_strike_chance_+%",
+          "effect": {
+            "en": "(80-119)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (80-119)% 증가"
+          },
+          "tier": 3,
+          "tierValues": [
+            [
+              80,
+              99
+            ],
+            [
+              100,
+              109
+            ],
+            [
+              110,
+              119
+            ]
+          ],
+          "valueRanges": [
+            [
+              80,
+              119
+            ]
+          ]
+        },
+        {
+          "id": "ColdResistancePenetrationTwoHandEssence6__",
+          "affixType": "essence",
+          "essenceType": "Sorrow",
+          "essenceName": {
+            "en": "Sorrow",
+            "kr": "슬픔"
+          },
+          "name": {
+            "en": "Sorrow",
+            "kr": "슬픔"
+          },
+          "corrupted": false,
+          "stat": "base_reduce_enemy_cold_resistance_%",
+          "effect": {
+            "en": "Damage Penetrates (5-16)% Cold Resistance",
+            "kr": "피해가 냉기 저항 (5-16)% 관통"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              15,
+              16
+            ]
+          ],
+          "valueRanges": [
+            [
+              5,
+              16
+            ]
+          ]
+        },
+        {
+          "id": "LightningResistancePenetrationTwoHandEssence4",
+          "affixType": "essence",
+          "essenceType": "Spite",
+          "essenceName": {
+            "en": "Spite",
+            "kr": "악의"
+          },
+          "name": {
+            "en": "Spite",
+            "kr": "악의"
+          },
+          "corrupted": false,
+          "stat": "base_reduce_enemy_lightning_resistance_%",
+          "effect": {
+            "en": "Damage Penetrates (9-16)% Lightning Resistance",
+            "kr": "피해가 번개 저항 (9-16)% 관통"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              15,
+              16
+            ]
+          ],
+          "valueRanges": [
+            [
+              9,
+              16
+            ]
+          ]
+        },
+        {
+          "id": "SpellAddedColdDamageTwoHand9",
+          "affixType": "essence",
+          "essenceType": "Suffering",
+          "essenceName": {
+            "en": "Suffering",
+            "kr": "고통"
+          },
+          "name": {
+            "en": "Suffering",
+            "kr": "고통"
+          },
+          "corrupted": false,
+          "stat": "spell_minimum_added_cold_damage",
+          "effect": {
+            "en": "Adds (61-81) to (120-140) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (61-81)~(120-140) 추가"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              16,
+              22
+            ],
+            [
+              30,
+              40
+            ],
+            [
+              39,
+              52
+            ],
+            [
+              49,
+              64
+            ],
+            [
+              61,
+              81
+            ]
+          ],
+          "valueRanges": [
+            [
+              16,
+              81
+            ]
+          ]
+        },
+        {
+          "id": "SpellAddedLightningDamageTwoHand9_",
+          "affixType": "essence",
+          "essenceType": "Torment",
+          "essenceName": {
+            "en": "Torment",
+            "kr": "고뇌"
+          },
+          "name": {
+            "en": "Torment",
+            "kr": "고뇌"
+          },
+          "corrupted": false,
+          "stat": "spell_minimum_added_lightning_damage",
+          "effect": {
+            "en": "Adds (7-20) to (255-270) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (7-20)~(255-270) 추가"
+          },
+          "tier": 6,
+          "tierValues": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              5,
+              12
+            ],
+            [
+              5,
+              17
+            ],
+            [
+              7,
+              20
+            ]
+          ],
+          "valueRanges": [
+            [
+              1,
+              20
+            ]
+          ]
+        },
+        {
+          "id": "SpellDamageOnTwoHandWeaponEssence7",
+          "affixType": "essence",
+          "essenceType": "Woe",
+          "essenceName": {
+            "en": "Woe",
+            "kr": "비애"
+          },
+          "name": {
+            "en": "Woe",
+            "kr": "비애"
+          },
+          "corrupted": false,
+          "stat": "spell_damage_+%",
+          "effect": {
+            "en": "(15-144)% increased Spell Damage",
+            "kr": "주문 피해 (15-144)% 증가"
+          },
+          "tier": 7,
+          "tierValues": [
+            [
+              15,
+              29
+            ],
+            [
+              30,
+              44
+            ],
+            [
+              45,
+              59
+            ],
+            [
+              60,
+              84
+            ],
+            [
+              85,
+              106
+            ],
+            [
+              107,
+              122
+            ],
+            [
+              123,
+              144
+            ]
+          ],
+          "valueRanges": [
+            [
+              15,
+              144
+            ]
+          ]
+        },
+        {
+          "id": "LocalAddedLightningDamageTwoHandEssence7",
+          "affixType": "essence",
+          "essenceType": "Wrath",
+          "essenceName": {
+            "en": "Wrath",
+            "kr": "진노"
+          },
+          "name": {
+            "en": "Wrath",
+            "kr": "진노"
+          },
+          "corrupted": false,
+          "stat": "local_minimum_added_lightning_damage",
+          "effect": {
+            "en": "Adds (25-34) to (494-575) Lightning Damage",
+            "kr": "번개 피해 (25-34)~(494-575) 추가"
+          },
+          "tier": 5,
+          "tierValues": [
+            [
+              5,
+              8
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              23,
+              32
+            ],
+            [
+              25,
+              34
+            ]
+          ],
+          "valueRanges": [
+            [
+              5,
+              34
+            ]
+          ]
+        },
+        {
+          "id": "LocalIncreasedAttackSpeedEssence7",
+          "affixType": "essence",
+          "essenceType": "Zeal",
+          "essenceName": {
+            "en": "Zeal",
+            "kr": "열의"
+          },
+          "name": {
+            "en": "Zeal",
+            "kr": "열의"
+          },
+          "corrupted": false,
+          "stat": "local_attack_speed_+%",
+          "effect": {
+            "en": "(20-30)% increased Attack Speed",
+            "kr": "공격 속도 (20-30)% 증가"
+          },
+          "tier": 4,
+          "tierValues": [
+            [
+              20,
+              22
+            ],
+            [
+              23,
+              25
+            ],
+            [
+              26,
+              27
+            ],
+            [
+              28,
+              30
+            ]
+          ],
+          "valueRanges": [
+            [
+              20,
+              30
+            ]
           ]
         }
       ],
