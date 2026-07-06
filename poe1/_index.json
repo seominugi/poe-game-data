@@ -8,437 +8,1018 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-07-06T10:22:58.845Z",
+  "generated": "2026-07-06T11:15:17.165Z",
   "groups": {
     "weapons": {
       "Bow": {
         "jsonPath": "json/weapons/Bow/Bow_base_types.json",
         "count": 30,
-        "sampleName": "Crude Bow"
+        "sampleName": "Crude Bow",
+        "className": {
+          "en": "Bows",
+          "kr": "활",
+          "tw": "弓",
+          "ru": "Луки",
+          "jp": "弓"
+        }
       },
       "Claw": {
         "jsonPath": "json/weapons/Claw/Claw_base_types.json",
         "count": 28,
-        "sampleName": "Nailed Fist"
+        "sampleName": "Nailed Fist",
+        "className": {
+          "en": "Claws",
+          "kr": "클로",
+          "tw": "爪",
+          "ru": "Когти",
+          "jp": "鉤爪"
+        }
       },
       "Dagger": {
         "jsonPath": "json/weapons/Dagger/Dagger_base_types.json",
         "count": 14,
-        "sampleName": "Glass Shank"
+        "sampleName": "Glass Shank",
+        "className": {
+          "en": "Daggers",
+          "kr": "단검",
+          "tw": "匕首",
+          "ru": "Кинжалы",
+          "jp": "短剣"
+        }
       },
       "FishingRod": {
         "jsonPath": "json/weapons/FishingRod/FishingRod_base_types.json",
         "count": 1,
-        "sampleName": "Fishing Rod"
+        "sampleName": "Fishing Rod",
+        "className": {
+          "en": "Fishing Rods",
+          "kr": "낚싯대",
+          "tw": "魚竿",
+          "ru": "Удочки",
+          "jp": "釣り竿"
+        }
       },
       "One_Hand_Axe": {
         "jsonPath": "json/weapons/One_Hand_Axe/One_Hand_Axe_base_types.json",
         "count": 28,
-        "sampleName": "Rusted Hatchet"
+        "sampleName": "Rusted Hatchet",
+        "className": {
+          "en": "One Hand Axes",
+          "kr": "한손 도끼",
+          "tw": "單手斧",
+          "ru": "Одноручные топоры",
+          "jp": "片手斧"
+        }
       },
       "One_Hand_Mace": {
         "jsonPath": "json/weapons/One_Hand_Mace/One_Hand_Mace_base_types.json",
         "count": 28,
-        "sampleName": "Driftwood Club"
+        "sampleName": "Driftwood Club",
+        "className": {
+          "en": "One Hand Maces",
+          "kr": "한손 철퇴",
+          "tw": "單手錘",
+          "ru": "Одноручные булавы",
+          "jp": "片手メイス"
+        }
       },
       "One_Hand_Sword": {
         "jsonPath": "json/weapons/One_Hand_Sword/One_Hand_Sword_base_types.json",
         "count": 31,
-        "sampleName": "Charan's Sword"
+        "sampleName": "Charan's Sword",
+        "className": {
+          "en": "One Hand Swords",
+          "kr": "한손 검",
+          "tw": "單手劍",
+          "ru": "Одноручные мечи",
+          "jp": "片手剣"
+        }
       },
       "Rune_Dagger": {
         "jsonPath": "json/weapons/Rune_Dagger/Rune_Dagger_base_types.json",
         "count": 18,
-        "sampleName": "Carving Knife"
+        "sampleName": "Carving Knife",
+        "className": {
+          "en": "Rune Daggers",
+          "kr": "룬 단검",
+          "tw": "符紋匕首",
+          "ru": "Рунические кинжалы",
+          "jp": "ルーンの短剣"
+        }
       },
       "Sceptre": {
         "jsonPath": "json/weapons/Sceptre/Sceptre_base_types.json",
         "count": 28,
-        "sampleName": "Driftwood Sceptre"
+        "sampleName": "Driftwood Sceptre",
+        "className": {
+          "en": "Sceptres",
+          "kr": "셉터",
+          "tw": "權杖",
+          "ru": "Скипетры",
+          "jp": "セプター"
+        }
       },
       "Staff": {
         "jsonPath": "json/weapons/Staff/Staff_base_types.json",
         "count": 16,
-        "sampleName": "Gnarled Branch"
+        "sampleName": "Gnarled Branch",
+        "className": {
+          "en": "Staves",
+          "kr": "지팡이",
+          "tw": "長杖",
+          "ru": "Посохи",
+          "jp": "スタッフ"
+        }
       },
       "Thrusting_One_Hand_Sword": {
         "jsonPath": "json/weapons/Thrusting_One_Hand_Sword/Thrusting_One_Hand_Sword_base_types.json",
         "count": 25,
-        "sampleName": "Rusted Spike"
+        "sampleName": "Rusted Spike",
+        "className": {
+          "en": "Thrusting One Hand Swords",
+          "kr": "날카로운 한손 검",
+          "tw": "細劍",
+          "ru": "Шпаги",
+          "jp": "刺突剣"
+        }
       },
       "Two_Hand_Axe": {
         "jsonPath": "json/weapons/Two_Hand_Axe/Two_Hand_Axe_base_types.json",
         "count": 25,
-        "sampleName": "Stone Axe"
+        "sampleName": "Stone Axe",
+        "className": {
+          "en": "Two Hand Axes",
+          "kr": "양손 도끼",
+          "tw": "雙手斧",
+          "ru": "Двуручные топоры",
+          "jp": "両手斧"
+        }
       },
       "Two_Hand_Mace": {
         "jsonPath": "json/weapons/Two_Hand_Mace/Two_Hand_Mace_base_types.json",
         "count": 25,
-        "sampleName": "Driftwood Maul"
+        "sampleName": "Driftwood Maul",
+        "className": {
+          "en": "Two Hand Maces",
+          "kr": "양손 철퇴",
+          "tw": "雙手錘",
+          "ru": "Двуручные булавы",
+          "jp": "両手メイス"
+        }
       },
       "Two_Hand_Sword": {
         "jsonPath": "json/weapons/Two_Hand_Sword/Two_Hand_Sword_base_types.json",
         "count": 27,
-        "sampleName": "Keyblade"
+        "sampleName": "Keyblade",
+        "className": {
+          "en": "Two Hand Swords",
+          "kr": "양손 검",
+          "tw": "雙手劍",
+          "ru": "Двуручные мечи",
+          "jp": "両手剣"
+        }
       },
       "Wand": {
         "jsonPath": "json/weapons/Wand/Wand_base_types.json",
         "count": 29,
-        "sampleName": "Driftwood Wand"
+        "sampleName": "Driftwood Wand",
+        "className": {
+          "en": "Wands",
+          "kr": "마법봉",
+          "tw": "法杖",
+          "ru": "Жезлы",
+          "jp": "ワンド"
+        }
       },
       "Warstaff": {
         "jsonPath": "json/weapons/Warstaff/Warstaff_base_types.json",
         "count": 12,
-        "sampleName": "Iron Staff"
+        "sampleName": "Iron Staff",
+        "className": {
+          "en": "Warstaves",
+          "kr": "전쟁지팡이",
+          "tw": "征戰長杖",
+          "ru": "Воинские посохи",
+          "jp": "ウォースタッフ"
+        }
       }
     },
     "armour": {
       "Body_Armour": {
         "jsonPath": "json/armour/Body_Armour/Body_Armour_base_types.json",
         "count": 124,
-        "sampleName": "Plate Vest"
+        "sampleName": "Plate Vest",
+        "className": {
+          "en": "Body Armours",
+          "kr": "갑옷",
+          "tw": "胸甲",
+          "ru": "Доспехи",
+          "jp": "鎧"
+        }
       },
       "Boots": {
         "jsonPath": "json/armour/Boots/Boots_base_types.json",
         "count": 83,
-        "sampleName": "Iron Greaves"
+        "sampleName": "Iron Greaves",
+        "className": {
+          "en": "Boots",
+          "kr": "장화",
+          "tw": "鞋子",
+          "ru": "Обувь",
+          "jp": "靴"
+        }
       },
       "Gloves": {
         "jsonPath": "json/armour/Gloves/Gloves_base_types.json",
         "count": 80,
-        "sampleName": "Iron Gauntlets"
+        "sampleName": "Iron Gauntlets",
+        "className": {
+          "en": "Gloves",
+          "kr": "장갑",
+          "tw": "手套",
+          "ru": "Перчатки",
+          "jp": "手袋"
+        }
       },
       "Helmet": {
         "jsonPath": "json/armour/Helmet/Helmet_base_types.json",
         "count": 96,
-        "sampleName": "Iron Hat"
+        "sampleName": "Iron Hat",
+        "className": {
+          "en": "Helmets",
+          "kr": "투구",
+          "tw": "頭部",
+          "ru": "Шлемы",
+          "jp": "兜"
+        }
       },
       "Quiver": {
         "jsonPath": "json/armour/Quiver/Quiver_base_types.json",
         "count": 29,
-        "sampleName": "Cured Quiver"
+        "sampleName": "Cured Quiver",
+        "className": {
+          "en": "Quivers",
+          "kr": "화살통",
+          "tw": "箭袋",
+          "ru": "Колчаны",
+          "jp": "矢筒"
+        }
       },
       "Shield": {
         "jsonPath": "json/armour/Shield/Shield_base_types.json",
         "count": 98,
-        "sampleName": "Splintered Tower Shield"
+        "sampleName": "Splintered Tower Shield",
+        "className": {
+          "en": "Shields",
+          "kr": "방패",
+          "tw": "盾",
+          "ru": "Щиты",
+          "jp": "盾"
+        }
       }
     },
     "jewellery": {
       "Amulet": {
         "jsonPath": "json/jewellery/Amulet/Amulet_base_types.json",
         "count": 55,
-        "sampleName": "Paua Amulet"
+        "sampleName": "Paua Amulet",
+        "className": {
+          "en": "Amulets",
+          "kr": "목걸이",
+          "tw": "項鍊",
+          "ru": "Амулеты",
+          "jp": "アミュレット"
+        }
       },
       "Belt": {
         "jsonPath": "json/jewellery/Belt/Belt_base_types.json",
         "count": 17,
-        "sampleName": "Rustic Sash"
+        "sampleName": "Rustic Sash",
+        "className": {
+          "en": "Belts",
+          "kr": "허리띠",
+          "tw": "腰帶",
+          "ru": "Пояса",
+          "jp": "ベルト"
+        }
       },
       "LabyrinthTrinket": {
         "jsonPath": "json/jewellery/LabyrinthTrinket/LabyrinthTrinket_base_types.json",
         "count": 10,
-        "sampleName": "Bane of the Loyal"
+        "sampleName": "Bane of the Loyal",
+        "className": {
+          "en": "Labyrinth Trinkets",
+          "kr": "미궁 장신구",
+          "tw": "迷宮飾品",
+          "ru": "Украшения Лабиринта",
+          "jp": "ラビリンス宝飾品"
+        }
       },
       "Ring": {
         "jsonPath": "json/jewellery/Ring/Ring_base_types.json",
         "count": 49,
-        "sampleName": "Golden Hoop"
+        "sampleName": "Golden Hoop",
+        "className": {
+          "en": "Rings",
+          "kr": "반지",
+          "tw": "戒指",
+          "ru": "Кольца",
+          "jp": "指輪"
+        }
       },
       "Trinket": {
         "jsonPath": "json/jewellery/Trinket/Trinket_base_types.json",
         "count": 1,
-        "sampleName": "Thief's Trinket"
+        "sampleName": "Thief's Trinket",
+        "className": {
+          "en": "Trinkets",
+          "kr": "장신구",
+          "tw": "飾品",
+          "ru": "Украшения",
+          "jp": "トリンケット"
+        }
       }
     },
     "gems": {
       "Active_Skill_Gem": {
         "jsonPath": "json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json",
         "count": 529,
-        "sampleName": "Spectral Shield Throw"
+        "sampleName": "Spectral Shield Throw",
+        "className": {
+          "en": "Skill Gems",
+          "kr": "스킬 젬",
+          "tw": "技能寶石",
+          "ru": "Камни умений",
+          "jp": "スキルジェム"
+        }
       },
       "Support_Skill_Gem": {
         "jsonPath": "json/gems/Support_Skill_Gem/Support_Skill_Gem_base_types.json",
         "count": 311,
-        "sampleName": "Added Fire Damage Support"
+        "sampleName": "Added Fire Damage Support",
+        "className": {
+          "en": "Support Gems",
+          "kr": "보조 젬",
+          "tw": "輔助寶石",
+          "ru": "Камни поддержки",
+          "jp": "サポートジェム"
+        }
       }
     },
     "flasks": {
       "AnimalCharm": {
         "jsonPath": "json/flasks/AnimalCharm/AnimalCharm_base_types.json",
         "count": 3,
-        "sampleName": "Ursine Charm"
+        "sampleName": "Ursine Charm",
+        "className": {
+          "en": "Charms",
+          "kr": "부적",
+          "tw": "咒語",
+          "ru": "Обереги",
+          "jp": "チャーム"
+        }
       },
       "HybridFlask": {
         "jsonPath": "json/flasks/HybridFlask/HybridFlask_base_types.json",
         "count": 6,
-        "sampleName": "Small Hybrid Flask"
+        "sampleName": "Small Hybrid Flask",
+        "className": {
+          "en": "Hybrid Flasks",
+          "kr": "하이브리드 플라스크",
+          "tw": "複合藥劑",
+          "ru": "Флаконы равновесия",
+          "jp": "ハイブリッドフラスコ"
+        }
       },
       "LifeFlask": {
         "jsonPath": "json/flasks/LifeFlask/LifeFlask_base_types.json",
         "count": 15,
-        "sampleName": "Small Life Flask"
+        "sampleName": "Small Life Flask",
+        "className": {
+          "en": "Life Flasks",
+          "kr": "생명력 플라스크",
+          "tw": "生命藥劑",
+          "ru": "Флаконы жизни",
+          "jp": "ライフフラスコ"
+        }
       },
       "ManaFlask": {
         "jsonPath": "json/flasks/ManaFlask/ManaFlask_base_types.json",
         "count": 12,
-        "sampleName": "Small Mana Flask"
+        "sampleName": "Small Mana Flask",
+        "className": {
+          "en": "Mana Flasks",
+          "kr": "마나 플라스크",
+          "tw": "魔力藥劑",
+          "ru": "Флаконы маны",
+          "jp": "マナフラスコ"
+        }
       },
       "UtilityFlask": {
         "jsonPath": "json/flasks/UtilityFlask/UtilityFlask_base_types.json",
         "count": 18,
-        "sampleName": "Diamond Flask"
+        "sampleName": "Diamond Flask",
+        "className": {
+          "en": "Utility Flasks",
+          "kr": "특수 플라스크",
+          "tw": "功能藥劑",
+          "ru": "Особые флаконы",
+          "jp": "ユーティリティフラスコ"
+        }
       }
     },
     "jewels": {
       "AbyssJewel": {
         "jsonPath": "json/jewels/AbyssJewel/AbyssJewel_base_types.json",
         "count": 4,
-        "sampleName": "Murderous Eye Jewel"
+        "sampleName": "Murderous Eye Jewel",
+        "className": {
+          "en": "Abyss Jewels",
+          "kr": "심연 주얼",
+          "tw": "深淵珠寶",
+          "ru": "Самоцветы Бездны",
+          "jp": "アビスジュエル"
+        }
       },
       "Jewel": {
         "jsonPath": "json/jewels/Jewel/Jewel_base_types.json",
         "count": 8,
-        "sampleName": "Crimson Jewel"
+        "sampleName": "Crimson Jewel",
+        "className": {
+          "en": "Jewels",
+          "kr": "주얼",
+          "tw": "珠寶",
+          "ru": "Самоцветы",
+          "jp": "ジュエル"
+        }
       }
     },
     "currency": {
       "AtlasRelic": {
         "jsonPath": "json/currency/AtlasRelic/AtlasRelic_base_types.json",
         "count": 6,
-        "sampleName": "Minor Idol"
+        "sampleName": "Minor Idol",
+        "className": {
+          "en": "Idols",
+          "kr": "우상",
+          "tw": "魔偶",
+          "ru": "Идолы",
+          "jp": "アイドル"
+        }
       },
       "Breachstone": {
         "jsonPath": "json/currency/Breachstone/Breachstone_base_types.json",
         "count": 25,
-        "sampleName": "Xoph's Breachstone"
+        "sampleName": "Xoph's Breachstone",
+        "className": {
+          "en": "Breachstones",
+          "kr": "균열석",
+          "tw": "裂痕石",
+          "ru": "Камни Разлома",
+          "jp": "ブリーチストーン"
+        }
       },
       "Currency": {
         "jsonPath": "json/currency/Currency/Currency_base_types.json",
         "count": 1,
-        "sampleName": "Mystery Leaguestone"
+        "sampleName": "Mystery Leaguestone",
+        "className": {
+          "en": "Currency",
+          "kr": "화폐",
+          "tw": "通貨",
+          "ru": "Вещи на обмен",
+          "jp": "カレンシー"
+        }
       },
       "DelveSocketableCurrency": {
         "jsonPath": "json/currency/DelveSocketableCurrency/DelveSocketableCurrency_base_types.json",
         "count": 8,
-        "sampleName": "Primitive Alchemical Resonator"
+        "sampleName": "Primitive Alchemical Resonator",
+        "className": {
+          "en": "Delve Socketable Currency",
+          "kr": "탐광 결합형 화폐",
+          "tw": "掘獄插槽通貨",
+          "ru": "Валюта Спуска",
+          "jp": "デルヴスタック可能カレンシー"
+        }
       },
       "DelveStackableSocketableCurrency": {
         "jsonPath": "json/currency/DelveStackableSocketableCurrency/DelveStackableSocketableCurrency_base_types.json",
         "count": 8,
-        "sampleName": "Primitive Alchemical Resonator"
+        "sampleName": "Primitive Alchemical Resonator",
+        "className": {
+          "en": "Delve Stackable Socketable Currency",
+          "kr": "탐광 중첩 및 결합형 화폐",
+          "tw": "掘獄可堆疊有插槽通貨",
+          "ru": "Валюта Спуска",
+          "jp": "デルヴスタック可能ソケット可能カレンシー"
+        }
       },
       "HeistObjective": {
         "jsonPath": "json/currency/HeistObjective/HeistObjective_base_types.json",
         "count": 47,
-        "sampleName": "Urn of Farud"
+        "sampleName": "Urn of Farud",
+        "className": {
+          "en": "Heist Targets",
+          "kr": "강탈 대상",
+          "tw": "劫盜目標",
+          "ru": "Предметы кражи",
+          "jp": "ハイストターゲット"
+        }
       },
       "Incubator": {
         "jsonPath": "json/currency/Incubator/Incubator_base_types.json",
         "count": 30,
-        "sampleName": "Whispering Incubator"
+        "sampleName": "Whispering Incubator",
+        "className": {
+          "en": "Incubators",
+          "kr": "인큐베이터",
+          "tw": "培育器",
+          "ru": "Инкубаторы",
+          "jp": "インキュベーター"
+        }
       },
       "IncubatorStackable": {
         "jsonPath": "json/currency/IncubatorStackable/IncubatorStackable_base_types.json",
         "count": 33,
-        "sampleName": "Whispering Incubator"
+        "sampleName": "Whispering Incubator",
+        "className": {
+          "en": "Incubators",
+          "kr": "인큐베이터",
+          "tw": "培育器",
+          "ru": "Инкубаторы",
+          "jp": "インキュベーター"
+        }
       },
       "IncursionItem": {
         "jsonPath": "json/currency/IncursionItem/IncursionItem_base_types.json",
         "count": 2,
-        "sampleName": "Stone of Passage"
+        "sampleName": "Stone of Passage",
+        "className": {
+          "en": "Incursion Items",
+          "kr": "기습 아이템",
+          "tw": "穿越物品",
+          "ru": "Предметы Вмешательства",
+          "jp": "インカージョンアイテム"
+        }
       },
       "LabyrinthMapItem": {
         "jsonPath": "json/currency/LabyrinthMapItem/LabyrinthMapItem_base_types.json",
         "count": 1,
-        "sampleName": "Offering to the Goddess"
+        "sampleName": "Offering to the Goddess",
+        "className": {
+          "en": "Labyrinth Map Items",
+          "kr": "미궁 지도 아이템",
+          "tw": "異界迷宮物品",
+          "ru": "Карты Лабиринта",
+          "jp": "ラビリンスマップアイテム"
+        }
       },
       "Map": {
         "jsonPath": "json/currency/Map/Map_base_types.json",
         "count": 491,
-        "sampleName": "Cursed Crypt Map"
+        "sampleName": "Cursed Crypt Map",
+        "className": {
+          "en": "Maps",
+          "kr": "지도",
+          "tw": "異界地圖",
+          "ru": "Карты",
+          "jp": "マップ"
+        }
       },
       "MapFragment": {
         "jsonPath": "json/currency/MapFragment/MapFragment_base_types.json",
         "count": 291,
-        "sampleName": "Sacrifice at Midnight"
+        "sampleName": "Sacrifice at Midnight",
+        "className": {
+          "en": "Map Fragments",
+          "kr": "지도 조각",
+          "tw": "地圖碎片",
+          "ru": "Обрывки карт",
+          "jp": "マップフラグメント"
+        }
       },
       "MapKey": {
         "jsonPath": "json/currency/MapKey/MapKey_base_types.json",
         "count": 20,
-        "sampleName": "Map (Tier 1)"
+        "sampleName": "Map (Tier 1)",
+        "className": {
+          "en": "Maps",
+          "kr": "지도",
+          "tw": "地圖",
+          "ru": "Карты",
+          "jp": "マップ"
+        }
       },
       "MiscMapItem": {
         "jsonPath": "json/currency/MiscMapItem/MiscMapItem_base_types.json",
         "count": 36,
-        "sampleName": "Primeval Remnant"
+        "sampleName": "Primeval Remnant",
+        "className": {
+          "en": "Misc Map Items",
+          "kr": "기타 지도 아이템",
+          "tw": "其它",
+          "ru": "Прочие предметы карт",
+          "jp": "その他マップアイテム"
+        }
       },
       "Relic": {
         "jsonPath": "json/currency/Relic/Relic_base_types.json",
         "count": 14,
-        "sampleName": "[DO NOT USE] Censer Relic"
+        "sampleName": "[DO NOT USE] Censer Relic",
+        "className": {
+          "en": "Relics",
+          "kr": "유물",
+          "tw": "聖物",
+          "ru": "Реликвии",
+          "jp": "レリック"
+        }
       },
       "SanctumSpecialRelic": {
         "jsonPath": "json/currency/SanctumSpecialRelic/SanctumSpecialRelic_base_types.json",
         "count": 3,
-        "sampleName": "Sanctified Relic"
+        "sampleName": "Sanctified Relic",
+        "className": {
+          "en": "Sanctified Relics",
+          "kr": "축성된 유물",
+          "tw": "神化聖物",
+          "ru": "Священные реликвии",
+          "jp": "聖別されたレリック"
+        }
       },
       "StackableCurrency": {
         "jsonPath": "json/currency/StackableCurrency/StackableCurrency_base_types.json",
         "count": 641,
-        "sampleName": "Blacksmith's Whetstone"
+        "sampleName": "Blacksmith's Whetstone",
+        "className": {
+          "en": "Stackable Currency",
+          "kr": "중첩 가능 화폐",
+          "tw": "可堆疊通貨",
+          "ru": "Валюта",
+          "jp": "スタック可能カレンシー"
+        }
       },
       "UniqueFragment": {
         "jsonPath": "json/currency/UniqueFragment/UniqueFragment_base_types.json",
         "count": 26,
-        "sampleName": "Archon Kite Shield Piece"
+        "sampleName": "Archon Kite Shield Piece",
+        "className": {
+          "en": "Pieces",
+          "kr": "조각",
+          "tw": "碎片",
+          "ru": "Фрагменты",
+          "jp": "ユニークのピース"
+        }
       }
     },
     "misc": {
       "ArchnemesisMod": {
         "jsonPath": "json/misc/ArchnemesisMod/ArchnemesisMod_base_types.json",
         "count": 1,
-        "sampleName": "Archnemesis Mod"
+        "sampleName": "Archnemesis Mod",
+        "className": {
+          "en": "Archnemesis Mods",
+          "kr": "강적 속성",
+          "tw": "宿敵詞綴",
+          "ru": "Свойства Возмездия",
+          "jp": "アーチネメシスモッド"
+        }
       },
       "AtlasUpgradeItem": {
         "jsonPath": "json/misc/AtlasUpgradeItem/AtlasUpgradeItem_base_types.json",
         "count": 61,
-        "sampleName": "Ivory Watchstone"
+        "sampleName": "Ivory Watchstone",
+        "className": {
+          "en": "Atlas Upgrade Items",
+          "kr": "아틀라스 업그레이드 아이템",
+          "tw": "輿圖升級道具",
+          "ru": "Предметы улучшения Атласа",
+          "jp": "アトラスアップグレードアイテム"
+        }
       },
       "BrequelFruit": {
         "jsonPath": "json/misc/BrequelFruit/BrequelFruit_base_types.json",
         "count": 4,
-        "sampleName": "Provisioning Wombgift"
+        "sampleName": "Provisioning Wombgift",
+        "className": {
+          "en": "Wombgifts",
+          "kr": "생명의 결실",
+          "tw": "胎贈",
+          "ru": "Дары утробы",
+          "jp": "母胎ギフト"
+        }
       },
       "DivinationCard": {
         "jsonPath": "json/misc/DivinationCard/DivinationCard_base_types.json",
         "count": 467,
-        "sampleName": "Three Faces in the Dark"
+        "sampleName": "Three Faces in the Dark",
+        "className": {
+          "en": "Divination Cards",
+          "kr": "점술 카드",
+          "tw": "命運卡",
+          "ru": "Гадальные карты",
+          "jp": "占いカード"
+        }
       },
       "ExpeditionLogbook": {
         "jsonPath": "json/misc/ExpeditionLogbook/ExpeditionLogbook_base_types.json",
         "count": 1,
-        "sampleName": "Expedition Logbook"
+        "sampleName": "Expedition Logbook",
+        "className": {
+          "en": "Expedition Logbooks",
+          "kr": "탐험 일지",
+          "tw": "探險日誌",
+          "ru": "Журналы экспедиции",
+          "jp": "エクスペディションログブック"
+        }
       },
       "GiftBox": {
         "jsonPath": "json/misc/GiftBox/GiftBox_base_types.json",
         "count": 11,
-        "sampleName": "Wrapped Gift"
+        "sampleName": "Wrapped Gift",
+        "className": {
+          "en": "",
+          "kr": "",
+          "tw": "",
+          "ru": "",
+          "jp": ""
+        }
       },
       "Gold": {
         "jsonPath": "json/misc/Gold/Gold_base_types.json",
         "count": 1,
-        "sampleName": "Gold"
+        "sampleName": "Gold",
+        "className": {
+          "en": "Gold",
+          "kr": "골드",
+          "tw": "金幣",
+          "ru": "Золото",
+          "jp": "ゴールド"
+        }
       },
       "HeistBlueprint": {
         "jsonPath": "json/misc/HeistBlueprint/HeistBlueprint_base_types.json",
         "count": 9,
-        "sampleName": "Blueprint: Bunker"
+        "sampleName": "Blueprint: Bunker",
+        "className": {
+          "en": "Blueprints",
+          "kr": "도면",
+          "tw": "藍圖",
+          "ru": "Чертежи",
+          "jp": "計画書"
+        }
       },
       "HeistContract": {
         "jsonPath": "json/misc/HeistContract/HeistContract_base_types.json",
         "count": 15,
-        "sampleName": "Contract: Bunker"
+        "sampleName": "Contract: Bunker",
+        "className": {
+          "en": "Contracts",
+          "kr": "계약",
+          "tw": "契約書",
+          "ru": "Контракты",
+          "jp": "依頼書"
+        }
       },
       "HeistEquipmentReward": {
         "jsonPath": "json/misc/HeistEquipmentReward/HeistEquipmentReward_base_types.json",
         "count": 5,
-        "sampleName": "[UNUSED] Heist Test Reward Equipment"
+        "sampleName": "[UNUSED] Heist Test Reward Equipment",
+        "className": {
+          "en": "Heist Brooches",
+          "kr": "강탈 브로치",
+          "tw": "劫盜胸針",
+          "ru": "Разбойничьи броши",
+          "jp": "ハイストブローチ"
+        }
       },
       "HeistEquipmentTool": {
         "jsonPath": "json/misc/HeistEquipmentTool/HeistEquipmentTool_base_types.json",
         "count": 37,
-        "sampleName": "[UNUSED] Heist Test Tool"
+        "sampleName": "[UNUSED] Heist Test Tool",
+        "className": {
+          "en": "Heist Tools",
+          "kr": "강탈 도구",
+          "tw": "劫盜工具",
+          "ru": "Разбойничий инструмент",
+          "jp": "ハイストツール"
+        }
       },
       "HeistEquipmentUtility": {
         "jsonPath": "json/misc/HeistEquipmentUtility/HeistEquipmentUtility_base_types.json",
         "count": 5,
-        "sampleName": "[UNUSED] Heist Test Utility Equipment"
+        "sampleName": "[UNUSED] Heist Test Utility Equipment",
+        "className": {
+          "en": "Heist Cloaks",
+          "kr": "강탈 망토",
+          "tw": "劫盜披風",
+          "ru": "Разбойничьи накидки",
+          "jp": "ハイストクローク"
+        }
       },
       "HeistEquipmentWeapon": {
         "jsonPath": "json/misc/HeistEquipmentWeapon/HeistEquipmentWeapon_base_types.json",
         "count": 13,
-        "sampleName": "[UNUSED] Heist Test Weapon"
+        "sampleName": "[UNUSED] Heist Test Weapon",
+        "className": {
+          "en": "Heist Gear",
+          "kr": "강탈 장비",
+          "tw": "劫盜裝備",
+          "ru": "Разбойничьи принадлежности",
+          "jp": "ハイストギア"
+        }
       },
       "HiddenItem": {
         "jsonPath": "json/misc/HiddenItem/HiddenItem_base_types.json",
         "count": 77,
-        "sampleName": "Hidden Item"
+        "sampleName": "Hidden Item",
+        "className": {
+          "en": "Hidden Items",
+          "kr": "숨겨진 아이템",
+          "tw": "隱藏道具",
+          "ru": "Сокрытые предметы",
+          "jp": "隠しアイテム"
+        }
       },
       "InstanceLocalItem": {
         "jsonPath": "json/misc/InstanceLocalItem/InstanceLocalItem_base_types.json",
         "count": 22,
-        "sampleName": "Serpent Extract"
+        "sampleName": "Serpent Extract",
+        "className": {
+          "en": "Instance Local Items",
+          "kr": "인스턴스 특정 아이템",
+          "tw": "地區物品",
+          "ru": "Местные предметы области",
+          "jp": "インスタンスローカルアイテム"
+        }
       },
       "ItemisedCorpse": {
         "jsonPath": "json/misc/ItemisedCorpse/ItemisedCorpse_base_types.json",
         "count": 114,
-        "sampleName": "Imperfect Hydra"
+        "sampleName": "Imperfect Hydra",
+        "className": {
+          "en": "Corpses",
+          "kr": "시신",
+          "tw": "屍體",
+          "ru": "Трупы",
+          "jp": "死体"
+        }
       },
       "ItemisedSanctum": {
         "jsonPath": "json/misc/ItemisedSanctum/ItemisedSanctum_base_types.json",
         "count": 5,
-        "sampleName": "Forbidden Tome"
+        "sampleName": "Forbidden Tome",
+        "className": {
+          "en": "Sanctum Research",
+          "kr": "성역 연구",
+          "tw": "聖域研究",
+          "ru": "Исследования Святилища",
+          "jp": "サンクタム調査書"
+        }
       },
       "LabyrinthItem": {
         "jsonPath": "json/misc/LabyrinthItem/LabyrinthItem_base_types.json",
         "count": 3,
-        "sampleName": "Golden Key"
+        "sampleName": "Golden Key",
+        "className": {
+          "en": "Labyrinth Items",
+          "kr": "미궁 아이템",
+          "tw": "迷宮物品",
+          "ru": "Предметы Лабиринта",
+          "jp": "ラビリンスアイテム"
+        }
       },
       "Leaguestone": {
         "jsonPath": "json/misc/Leaguestone/Leaguestone_base_types.json",
         "count": 17,
-        "sampleName": "Breach Leaguestone"
+        "sampleName": "Breach Leaguestone",
+        "className": {
+          "en": "Leaguestones",
+          "kr": "리그스톤",
+          "tw": "聯盟石",
+          "ru": "Камни лиги",
+          "jp": "リーグストーン"
+        }
       },
       "MemoryLine": {
         "jsonPath": "json/misc/MemoryLine/MemoryLine_base_types.json",
         "count": 4,
-        "sampleName": "Kirac's Memory"
+        "sampleName": "Kirac's Memory",
+        "className": {
+          "en": "Memories",
+          "kr": "기억",
+          "tw": "記憶",
+          "ru": "Воспоминания",
+          "jp": "メモリー"
+        }
       },
       "MetamorphosisDNA": {
         "jsonPath": "json/misc/MetamorphosisDNA/MetamorphosisDNA_base_types.json",
         "count": 5,
-        "sampleName": "Metamorph Brain"
+        "sampleName": "Metamorph Brain",
+        "className": {
+          "en": "Metamorph Samples",
+          "kr": "변형 샘플",
+          "tw": "鍊魔樣本",
+          "ru": "Образцы Метаморфа",
+          "jp": "メタモルフサンプル"
+        }
       },
       "Microtransaction": {
         "jsonPath": "json/misc/Microtransaction/Microtransaction_base_types.json",
         "count": 6,
-        "sampleName": "MTX Wrapper"
+        "sampleName": "MTX Wrapper",
+        "className": {
+          "en": "Microtransactions",
+          "kr": "포인트 아이템",
+          "tw": "商城物品",
+          "ru": "Микротранзакции",
+          "jp": "マイクロトランザクション"
+        }
       },
       "NecropolisPack": {
         "jsonPath": "json/misc/NecropolisPack/NecropolisPack_base_types.json",
         "count": 70,
-        "sampleName": "Allflame Ember of Frogs"
+        "sampleName": "Allflame Ember of Frogs",
+        "className": {
+          "en": "Embers of the Allflame",
+          "kr": "올플레임의 잉걸불",
+          "tw": "不滅之火餘燼",
+          "ru": "Уголья Всепламени",
+          "jp": "オールフレイムの残り火"
+        }
       },
       "PantheonSoul": {
         "jsonPath": "json/misc/PantheonSoul/PantheonSoul_base_types.json",
         "count": 20,
-        "sampleName": "Captured Soul of Puruna, the Challenger"
+        "sampleName": "Captured Soul of Puruna, the Challenger",
+        "className": {
+          "en": "Pantheon Souls",
+          "kr": "판테온의 영혼",
+          "tw": "眾神之魂",
+          "ru": "Души Пантеона",
+          "jp": "パンテオンソウル"
+        }
       },
       "QuestItem": {
         "jsonPath": "json/misc/QuestItem/QuestItem_base_types.json",
         "count": 275,
-        "sampleName": "Shaper's Orb (Tier 1)"
+        "sampleName": "Shaper's Orb (Tier 1)",
+        "className": {
+          "en": "Quest Items",
+          "kr": "퀘스트 아이템",
+          "tw": "任務物品",
+          "ru": "Вещи для заданий",
+          "jp": "クエストアイテム"
+        }
       },
       "RemovedItem": {
         "jsonPath": "json/misc/RemovedItem/RemovedItem_base_types.json",
         "count": 18,
-        "sampleName": "Fleshgraft"
+        "sampleName": "Fleshgraft",
+        "className": {
+          "en": "",
+          "kr": "",
+          "tw": "",
+          "ru": "",
+          "jp": ""
+        }
       },
       "SentinelDrone": {
         "jsonPath": "json/misc/SentinelDrone/SentinelDrone_base_types.json",
         "count": 26,
-        "sampleName": "Rusted Stalker Sentinel"
+        "sampleName": "Rusted Stalker Sentinel",
+        "className": {
+          "en": "Sentinels",
+          "kr": "파수꾼",
+          "tw": "守望號令",
+          "ru": "Часовые",
+          "jp": "センチネル"
+        }
       },
       "Tincture": {
         "jsonPath": "json/misc/Tincture/Tincture_base_types.json",
         "count": 18,
-        "sampleName": "Ironwood Tincture"
+        "sampleName": "Ironwood Tincture",
+        "className": {
+          "en": "Tinctures",
+          "kr": "팅크",
+          "tw": "萃取物",
+          "ru": "Микстуры",
+          "jp": "チンキ"
+        }
       },
       "VaultKey": {
         "jsonPath": "json/misc/VaultKey/VaultKey_base_types.json",
         "count": 15,
-        "sampleName": "Ancient Reliquary Key"
+        "sampleName": "Ancient Reliquary Key",
+        "className": {
+          "en": "Vault Keys",
+          "kr": "금고실 열쇠",
+          "tw": "遺鑰",
+          "ru": "Ключи от хранилищ",
+          "jp": "聖廟の鍵"
+        }
       }
     }
   }

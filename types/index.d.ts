@@ -7,7 +7,7 @@ export interface RootIndex {
   generatedAt: string;
 }
 
-export interface ClassEntry { jsonPath: string; count: number; sampleName: string; }
+export interface ClassEntry { jsonPath: string; count: number; sampleName: string; className?: LocalizedString; }
 export interface FlatEntry { jsonPath: string; count: number; }
 export interface ModifierEntry {
   jsonPath: string;
