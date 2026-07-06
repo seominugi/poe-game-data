@@ -1,0 +1,941 @@
+[
+  {
+    "id": "breach-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Breach Leaguestone",
+      "kr": "균열 리그스톤",
+      "tw": "裂痕聯盟石",
+      "ru": "Камень лиги Разлом",
+      "jp": "ブリーチリーグストーン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapAreaContainsBreachesImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_breaches",
+            "value": "1",
+            "text": {
+              "en": "Area contains a Breach",
+              "kr": "지역에 균열 등장",
+              "tw": "區域含有 1 個裂痕",
+              "ru": "В области можно найти Разлом",
+              "jp": "エリアにはブリーチが1個出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "prophecy-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Prophecy Leaguestone",
+      "kr": "예언 리그스톤",
+      "tw": "預言聯盟石",
+      "ru": "Камень лиги Пророчество",
+      "jp": "プロフェシーリーグストーン"
+    },
+    "dropLevel": 11,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapAreaHasAdditionalSilverCoinMonstersImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_prophecy_coins",
+            "value": "1",
+            "text": {
+              "en": "Area contains a Silver Coin",
+              "kr": "지역에 실버 코인 등장",
+              "tw": "區域含有 1 枚銀幣",
+              "ru": "В области можно найти серебряную монету",
+              "jp": "エリアにはシルバーコインが1個出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "perandus-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Perandus Leaguestone",
+      "kr": "페란두스 리그스톤",
+      "tw": "普蘭德斯聯盟石",
+      "ru": "Камень лиги Перандусы",
+      "jp": "ペランダスリーグストーン"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapSpawnAdditionalPerandusChestsImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_perandus_chests",
+            "value": "1",
+            "text": {
+              "en": "Area contains a Perandus Chest",
+              "kr": "지역에 페란두스 상자 등장",
+              "tw": "此區域含有 1 個普蘭德斯保險箱",
+              "ru": "В области можно найти сундук Перандусов",
+              "jp": "エリアにはペランダスのチェストが1個出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "map_spawn_cadiro_%_chance",
+            "value": "20",
+            "text": {
+              "en": "Area has a 20% chance to contain Cadiro Perandus",
+              "kr": "지역에 20%의 확률로 카디로 페란두스가 등장",
+              "tw": "此區域有 20% 機率包含卡迪羅普蘭德斯",
+              "ru": "Область имеет 20% шанс появления Кадиро Перандуса",
+              "jp": "エリアには20%の確率でカディーロ・ペランダスが出現する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "essence-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Essence Leaguestone",
+      "kr": "에센스 리그스톤",
+      "tw": "精髓聯盟石",
+      "ru": "Камень лиги Сущность",
+      "jp": "エッセンスリーグストーン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapAreaContainsMonolithsImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_monoliths",
+            "value": "1",
+            "text": {
+              "en": "Area contains up to 1 Monster imprisoned by Essences",
+              "kr": "지역에 에센스에 갇힌 몬스터 최대 1마리 등장",
+              "tw": "區域含有 1 個受精髓禁錮的怪物",
+              "ru": "В области можно встретить 1 монстра, пленённого Сущностями",
+              "jp": "エリアにはエッセンスに閉じこめられたモンスターが最大1体出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tempest-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Tempest Leaguestone",
+      "kr": "폭풍 리그스톤",
+      "tw": "風暴聯盟石",
+      "ru": "Камень лиги Буря",
+      "jp": "テンペストリーグストーン"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapAreaContainsARandomTempestImplicit_",
+        "lines": [
+          {
+            "stat": "map_leaguestone_implicit_tempest_random",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "talisman-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Talisman Leaguestone",
+      "kr": "부적 리그스톤",
+      "tw": "魔符聯盟石",
+      "ru": "Камень лиги Талисман",
+      "jp": "タリスマンリーグストーン"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapAreaContainsTalismansImplicit_",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_talismans",
+            "value": "1",
+            "text": {
+              "en": "Area contains a Monster possessed by an Ancient Talisman",
+              "kr": "지역에 고대 부적에 사로잡힌 몬스터 1마리 등장",
+              "tw": "區域含有 1 個受魔符附身的怪物",
+              "ru": "В области можно встретить монстра, одержимого древним Талисманом",
+              "jp": "エリアには太古のタリスマンに憑依されたモンスターが1体出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "map_leaguestone_stone_circle_%_chance",
+            "value": "25",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "anarchy-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Anarchy Leaguestone",
+      "kr": "혼란 리그스톤",
+      "tw": "混亂聯盟石",
+      "ru": "Камень лиги Анархия",
+      "jp": "アナーキーリーグストーン"
+    },
+    "dropLevel": 11,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapAreaContainsRogueExilesImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_rogue_exiles",
+            "value": "1",
+            "text": {
+              "en": "Area contains a Rogue Exile",
+              "kr": "지역에 탈주 유배자 1명 등장",
+              "tw": "區域含有 1 位盜賊流亡者",
+              "ru": "В области можно встретить бродячего изгнанника",
+              "jp": "エリアにはローグエグザイルが1体出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "domination-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Domination Leaguestone",
+      "kr": "지배 리그스톤",
+      "tw": "支配聯盟石",
+      "ru": "Камень лиги Господство",
+      "jp": "ドミネイションリーグストーン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapAreaContainsAdditionalShrinesImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_shrines",
+            "value": "1",
+            "text": {
+              "en": "Area contains up to 1 Shrine",
+              "kr": "지역에 성소 최대 1개 등장",
+              "tw": "區域含有 1 座神殿",
+              "ru": "В области можно найти до 1 алтаря",
+              "jp": "エリアにはシュラインが最大1個出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "warbands-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Warbands Leaguestone",
+      "kr": "군벌 리그스톤",
+      "tw": "軍團聯盟石",
+      "ru": "Камень лиги Отряды",
+      "jp": "ウォーバンドリーグストーン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapNumberOfWarbandPacksImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_warband_packs",
+            "value": "1",
+            "text": {
+              "en": "Area contains at least 1 Warband Pack",
+              "kr": "지역에 군벌 최소 1개 무리 등장",
+              "tw": "區域含有至少 1 個軍團",
+              "ru": "В области можно встретить минимум 1 отряд",
+              "jp": "エリアにはウォーバンドが最低1パック出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rampage-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Rampage Leaguestone",
+      "kr": "광란 리그스톤",
+      "tw": "暴怒聯盟石",
+      "ru": "Камень лиги Буйство",
+      "jp": "ランペイジリーグストーン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapRampageLeaguestoneImplicit_",
+        "lines": [
+          {
+            "stat": "map_players_gain_rampage_stacks",
+            "value": "1",
+            "text": {
+              "en": "Slaying Enemies in a kill streak grants Rampage bonuses",
+              "kr": "연속으로 적 처치 시 광란 보너스 적용",
+              "tw": "快速擊殺敵人以累積暴怒獎勵",
+              "ru": "Побеждённые враги в серии убийств даруют бонусы Буйства",
+              "jp": "敵を連続して倒すとランページボーナスが付与される"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bloodlines-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Bloodlines Leaguestone",
+      "kr": "혈맹 리그스톤",
+      "tw": "血族聯盟石",
+      "ru": "Камень лиги Родословные",
+      "jp": "ブラッドラインリーグストーン"
+    },
+    "dropLevel": 10,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapBloodlinesLeaguestoneImplicit",
+        "lines": [
+          {
+            "stat": "map_magic_pack_mod_rules",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "map_contains_x_additional_magic_packs",
+            "value": "2",
+            "text": {
+              "en": "Area contains 2 additional Magic Monster packs",
+              "kr": "지역에 마법 몬스터 무리 2개 추가 등장",
+              "tw": "區域含有 2 個額外魔法怪物群",
+              "ru": "В области можно встретить 2 дополнительных групп волшебных монстров",
+              "jp": "エリアにはマジックモンスターが追加で2パック出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "torment-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Torment Leaguestone",
+      "kr": "고통 리그스톤",
+      "tw": "苦痛聯盟石",
+      "ru": "Камень лиги Мучение",
+      "jp": "トーメントリーグストーン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapNumberOfTormentedSpiritsImplicit",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_tormented_spirits",
+            "value": "1",
+            "text": {
+              "en": "Area contains a Tormented Spirit",
+              "kr": "지역에 고통받는 혼백 한 명 등장",
+              "tw": "區域含有 1 個罪魂",
+              "ru": "В области можно встретить страдающего духа",
+              "jp": "エリアには拷問された幽霊が1体出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "beyond-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Beyond Leaguestone",
+      "kr": "이계 리그스톤",
+      "tw": "超越聯盟石",
+      "ru": "Камень лиги Иномирье",
+      "jp": "ビヨンドリーグストーン"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapBeyondLeaguestoneImplicit",
+        "lines": [
+          {
+            "stat": "map_beyond_rules",
+            "value": "1",
+            "text": {
+              "en": "Slaying Enemies close together can attract monsters from Beyond this realm",
+              "kr": "서로 가까이 있는 적을 처치하면 이계 몬스터를 불러옴",
+              "tw": "擊殺敵人將會吸引更強大的怪物登場",
+              "ru": "Убитые близко друг к другу враги могут привлечь монстров из другого мира",
+              "jp": "敵どうしが近くにいる状態で同時に倒すとこの世界の外からのビヨンドからモンスターを呼び寄せる"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "onslaught-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Onslaught Leaguestone",
+      "kr": "맹공 리그스톤",
+      "tw": "猛攻聯盟石",
+      "ru": "Камень лиги Боевой раж",
+      "jp": "オンスロートリーグストーン"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapOnslaughtLeaguestoneImplicit",
+        "lines": [
+          {
+            "stat": "map_monsters_have_onslaught",
+            "value": "1",
+            "text": {
+              "en": "Monsters have Onslaught",
+              "kr": "몬스터가 맹공 보유",
+              "tw": "地圖中怪物帶有猛攻",
+              "ru": "Монстры имеют эффект Боевой раж",
+              "jp": "モンスターは猛攻ととなる"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "map_item_drop_quantity_+%",
+            "value": "20",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "nemesis-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Nemesis Leaguestone",
+      "kr": "천벌 리그스톤",
+      "tw": "復仇聯盟石",
+      "ru": "Камень лиги Немезида",
+      "jp": "ネメシスリーグストーン"
+    },
+    "dropLevel": 11,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapNemesisLeaguestoneImplicit",
+        "lines": [
+          {
+            "stat": "map_rare_monsters_have_nemesis_mod",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "map_contains_x_additional_rare_packs",
+            "value": "2",
+            "text": {
+              "en": "Area contains 2 additional packs with a Rare monster",
+              "kr": "지역에 희귀 몬스터를 포함한 무리 2개 추가 등장",
+              "tw": "區域含有 2 個額外有 1 隻稀有怪物的怪物群",
+              "ru": "В области можно встретить 2 дополнительных групп с редким монстром",
+              "jp": "エリアにはレアモンスターが追加で2パック出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "invasion-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Invasion Leaguestone",
+      "kr": "침략 리그스톤",
+      "tw": "侵略聯盟石",
+      "ru": "Камень лиги Вторжение",
+      "jp": "インベージョンリーグストーン"
+    },
+    "dropLevel": 11,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapInvasionLeaguestoneImplicit_",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_invasion_bosses",
+            "value": "1",
+            "text": {
+              "en": "Area contains an Invasion Boss",
+              "kr": "지역에 침략 보스 1마리 등장",
+              "tw": "區域含有 1 個侵略頭目",
+              "ru": "В области можно встретить босса Вторжения",
+              "jp": "エリアにはインベージョンボスが1体出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ambush-leaguestone",
+    "classId": "Leaguestone",
+    "className": {
+      "en": "Leaguestones",
+      "kr": "리그스톤",
+      "tw": "聯盟石",
+      "ru": "Камни лиги",
+      "jp": "リーグストーン"
+    },
+    "name": {
+      "en": "Ambush Leaguestone",
+      "kr": "매복 리그스톤",
+      "tw": "伏擊聯盟石",
+      "ru": "Камень лиги Засада",
+      "jp": "アンブッシュリーグストーン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapLeaguestoneStrongboxImplicit_",
+        "lines": [
+          {
+            "stat": "map_leaguestone_override_base_num_strongboxes",
+            "value": "1",
+            "text": {
+              "en": "Area contains a Strongbox",
+              "kr": "지역에 금고 등장",
+              "tw": "區域含有 1 個保險箱",
+              "ru": "В области можно найти ларец",
+              "jp": "エリアにはストロングボックスが1個出現する"
+            }
+          },
+          {
+            "stat": "dummy_stat_display_nothing",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

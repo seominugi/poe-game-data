@@ -1,0 +1,518 @@
+[
+  {
+    "id": "unused-heist-test-weapon",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "[UNUSED] Heist Test Weapon",
+      "kr": "[UNUSED] Heist Test Weapon",
+      "tw": "[UNUSED] Heist Test Weapon",
+      "ru": "[UNUSED] Heist Test Weapon",
+      "jp": "[UNUSED] Heist Test Weapon"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rough-sharpening-stone",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Rough Sharpening Stone",
+      "kr": "거친 숫돌",
+      "tw": "低階磨刀石",
+      "ru": "Грубый оселок",
+      "jp": "粗雑な研ぎ石"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCMeleeDamageImplicit1",
+        "lines": [
+          {
+            "stat": "melee_damage_+%",
+            "value": "11~15",
+            "text": {
+              "en": "11~15% increased Melee Damage",
+              "kr": "근접 피해 11~15% 증가",
+              "tw": "增加 11~15% 近戰傷害",
+              "ru": "11~15% увеличение урона в ближнем бою",
+              "jp": "近接ダメージが11~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "standard-sharpening-stone",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Standard Sharpening Stone",
+      "kr": "표준 숫돌",
+      "tw": "標準磨刀石",
+      "ru": "Обычный оселок",
+      "jp": "標準的な研ぎ石"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCMeleeDamageImplicit2__",
+        "lines": [
+          {
+            "stat": "melee_damage_+%",
+            "value": "16~20",
+            "text": {
+              "en": "16~20% increased Melee Damage",
+              "kr": "근접 피해 16~20% 증가",
+              "tw": "增加 16~20% 近戰傷害",
+              "ru": "16~20% увеличение урона в ближнем бою",
+              "jp": "近接ダメージが16~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fine-sharpening-stone",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Fine Sharpening Stone",
+      "kr": "정교한 숫돌",
+      "tw": "精良磨刀石",
+      "ru": "Мелкий оселок",
+      "jp": "優れた研ぎ石"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCMeleeDamageImplicit3_",
+        "lines": [
+          {
+            "stat": "melee_damage_+%",
+            "value": "21~25",
+            "text": {
+              "en": "21~25% increased Melee Damage",
+              "kr": "근접 피해 21~25% 증가",
+              "tw": "增加 21~25% 近戰傷害",
+              "ru": "21~25% увеличение урона в ближнем бою",
+              "jp": "近接ダメージが21~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "obsidian-sharpening-stone",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Obsidian Sharpening Stone",
+      "kr": "흑요석 숫돌",
+      "tw": "黑曜磨刀石",
+      "ru": "Обсидиановый оселок",
+      "jp": "オブシディアンの研ぎ石"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCMeleeDamageImplicit4",
+        "lines": [
+          {
+            "stat": "melee_damage_+%",
+            "value": "26~30",
+            "text": {
+              "en": "26~30% increased Melee Damage",
+              "kr": "근접 피해 26~30% 증가",
+              "tw": "增加 26~30% 近戰傷害",
+              "ru": "26~30% увеличение урона в ближнем бою",
+              "jp": "近接ダメージが26~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flanged-arrowhead",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Flanged Arrowhead",
+      "kr": "테두리 화살촉",
+      "tw": "法蘭箭矢",
+      "ru": "Рубчатый наконечник",
+      "jp": "羽根付きの矢じり"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCProjectileAttackDamageImplicit1",
+        "lines": [
+          {
+            "stat": "projectile_attack_damage_+%",
+            "value": "11~15",
+            "text": {
+              "en": "11~15% increased Projectile Attack Damage",
+              "kr": "투사체 공격 피해 11~15% 증가",
+              "tw": "增加 11~15% 攻擊投射物傷害",
+              "ru": "11~15% увеличение урона от атак снарядами",
+              "jp": "投射物アタックダメージが11~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fragmenting-arrowhead",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Fragmenting Arrowhead",
+      "kr": "분열 화살촉",
+      "tw": "碎片箭矢",
+      "ru": "Раскалывающий наконечник",
+      "jp": "分裂の矢じり"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCProjectileAttackDamageImplicit2",
+        "lines": [
+          {
+            "stat": "projectile_attack_damage_+%",
+            "value": "16~20",
+            "text": {
+              "en": "16~20% increased Projectile Attack Damage",
+              "kr": "투사체 공격 피해 16~20% 증가",
+              "tw": "增加 16~20% 攻擊投射物傷害",
+              "ru": "16~20% увеличение урона от атак снарядами",
+              "jp": "投射物アタックダメージが16~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hollowpoint-arrowhead",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Hollowpoint Arrowhead",
+      "kr": "중공 화살촉",
+      "tw": "簍空箭矢",
+      "ru": "Сминающий наконечник",
+      "jp": "ホローポイントの矢じり"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCProjectileAttackDamageImplicit3",
+        "lines": [
+          {
+            "stat": "projectile_attack_damage_+%",
+            "value": "21~25",
+            "text": {
+              "en": "21~25% increased Projectile Attack Damage",
+              "kr": "투사체 공격 피해 21~25% 증가",
+              "tw": "增加 21~25% 攻擊投射物傷害",
+              "ru": "21~25% увеличение урона от атак снарядами",
+              "jp": "投射物アタックダメージが21~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "precise-arrowhead",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Precise Arrowhead",
+      "kr": "정확한 화살촉",
+      "tw": "精準箭矢",
+      "ru": "Точный наконечник",
+      "jp": "精密な矢じり"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCProjectileAttackDamageImplicit4_",
+        "lines": [
+          {
+            "stat": "projectile_attack_damage_+%",
+            "value": "26~30",
+            "text": {
+              "en": "26~30% increased Projectile Attack Damage",
+              "kr": "투사체 공격 피해 26~30% 증가",
+              "tw": "增加 26~30% 攻擊投射物傷害",
+              "ru": "26~30% увеличение урона от атак снарядами",
+              "jp": "投射物アタックダメージが26~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "focal-stone",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Focal Stone",
+      "kr": "초점석",
+      "tw": "聚焦石",
+      "ru": "Фокусирующий камень",
+      "jp": "集中の秘石"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCSpellDamageImplicit1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "11~15",
+            "text": {
+              "en": "11~15% increased Spell Damage",
+              "kr": "주문 피해 11~15% 증가",
+              "tw": "增加 11~15% 法術傷害",
+              "ru": "11~15% увеличение урона от чар",
+              "jp": "スペルダメージが11~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "conduit-line",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Conduit Line",
+      "kr": "관로",
+      "tw": "導管線",
+      "ru": "Проводящая цепочка",
+      "jp": "伝導の数珠"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCSpellDamageImplicit2",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "16~20",
+            "text": {
+              "en": "16~20% increased Spell Damage",
+              "kr": "주문 피해 16~20% 증가",
+              "tw": "增加 16~20% 法術傷害",
+              "ru": "16~20% увеличение урона от чар",
+              "jp": "スペルダメージが16~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "aggregator-charm",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Aggregator Charm",
+      "kr": "집합 부적",
+      "tw": "匯聚符",
+      "ru": "Накопительный оберег",
+      "jp": "集積のお守り"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCSpellDamageImplicit3",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "21~25",
+            "text": {
+              "en": "21~25% increased Spell Damage",
+              "kr": "주문 피해 21~25% 증가",
+              "tw": "增加 21~25% 法術傷害",
+              "ru": "21~25% увеличение урона от чар",
+              "jp": "スペルダメージが21~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "burst-band",
+    "classId": "HeistEquipmentWeapon",
+    "className": {
+      "en": "Heist Gear",
+      "kr": "강탈 장비",
+      "tw": "劫盜裝備",
+      "ru": "Разбойничьи принадлежности",
+      "jp": "ハイストギア"
+    },
+    "name": {
+      "en": "Burst Band",
+      "kr": "격발 반지",
+      "tw": "暴裂法帶",
+      "ru": "Высвобождающее ожерелье",
+      "jp": "爆発の環"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCSpellDamageImplicit4",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "26~30",
+            "text": {
+              "en": "26~30% increased Spell Damage",
+              "kr": "주문 피해 26~30% 증가",
+              "tw": "增加 26~30% 法術傷害",
+              "ru": "26~30% увеличение урона от чар",
+              "jp": "スペルダメージが26~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

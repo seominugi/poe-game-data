@@ -1,0 +1,657 @@
+[
+  {
+    "id": "glass-shank",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Glass Shank",
+      "kr": "유리 단도",
+      "tw": "玻璃利片",
+      "ru": "Осколок стекла",
+      "jp": "柄付きのガラス"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 10,
+      "critChance": 8,
+      "attackTime": 0.667,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "skinning-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Skinning Knife",
+      "kr": "무두질용 단도",
+      "tw": "剝皮刀",
+      "ru": "Нож скорняка",
+      "jp": "皮切りナイフ"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 17,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stiletto",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Stiletto",
+      "kr": "스틸레토",
+      "tw": "銳利刺匕",
+      "ru": "Стилет",
+      "jp": "スティレット"
+    },
+    "dropLevel": 15,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 27,
+      "critChance": 8.3,
+      "attackTime": 0.667,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "prong-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Prong Dagger",
+      "kr": "갈래 단검",
+      "tw": "尖耙短匕",
+      "ru": "Жало",
+      "jp": "三叉ダガー"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 54,
+      "critChance": 8.5,
+      "attackTime": 0.741,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockPercentMarakethDaggerImplicit1",
+        "lines": [
+          {
+            "stat": "monster_base_block_%",
+            "value": "4",
+            "text": {
+              "en": "4% Chance to Block Attack Damage",
+              "kr": "4%의 확률로 공격 피해를 막아냄",
+              "tw": "4% 攻擊傷害格擋率",
+              "ru": "4% шанс блокировать урон от атак",
+              "jp": "アタックブロック率が4%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flaying-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Flaying Knife",
+      "kr": "박피 단도",
+      "tw": "殘體利刃",
+      "ru": "Нож свежевателя",
+      "jp": "皮剝ぎナイフ"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 45,
+      "critChance": 8,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "poignard",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Poignard",
+      "kr": "포이너드",
+      "tw": "奪命刺",
+      "ru": "Дага",
+      "jp": "ポニャードダガー"
+    },
+    "dropLevel": 41,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 52,
+      "critChance": 8.3,
+      "attackTime": 0.667,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "trisula",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Trisula",
+      "kr": "트리술라",
+      "tw": "三叉短匕",
+      "ru": "Трезубец",
+      "jp": "トリシュラ"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 74,
+      "critChance": 9,
+      "attackTime": 0.741,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockPercentMarakethDaggerImplicit1",
+        "lines": [
+          {
+            "stat": "monster_base_block_%",
+            "value": "4",
+            "text": {
+              "en": "4% Chance to Block Attack Damage",
+              "kr": "4%의 확률로 공격 피해를 막아냄",
+              "tw": "4% 攻擊傷害格擋率",
+              "ru": "4% шанс блокировать урон от атак",
+              "jp": "アタックブロック率が4%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gutting-knife",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Gutting Knife",
+      "kr": "내장 제거용 단도",
+      "tw": "重傷短刀",
+      "ru": "Нож потрошителя",
+      "jp": "解体のナイフ"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 76,
+      "critChance": 9,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ambusher",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Ambusher",
+      "kr": "매복자",
+      "tw": "伏擊刺刃",
+      "ru": "Рондел",
+      "jp": "アンブッシャー"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 74,
+      "critChance": 8.3,
+      "attackTime": 0.667,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sai",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Sai",
+      "kr": "사이",
+      "tw": "戰叉",
+      "ru": "Сай",
+      "jp": "釵"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 88,
+      "critChance": 8.5,
+      "attackTime": 0.741,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockPercentMarakethDaggerImplicit2_",
+        "lines": [
+          {
+            "stat": "monster_base_block_%",
+            "value": "6",
+            "text": {
+              "en": "6% Chance to Block Attack Damage",
+              "kr": "6%의 확률로 공격 피해를 막아냄",
+              "tw": "6% 攻擊傷害格擋率",
+              "ru": "6% шанс блокировать урон от атак",
+              "jp": "アタックブロック率が6%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hollowpoint-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Hollowpoint Dagger",
+      "kr": "중공 단검",
+      "tw": "簍空短匕",
+      "ru": "Экспансивный кинжал",
+      "jp": "ホローポイントダガー"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 46,
+      "critChance": 8.8,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAllDamageCanPoisonImplicitE1_",
+        "lines": [
+          {
+            "stat": "local_all_damage_can_poison",
+            "value": "1",
+            "text": {
+              "en": "All Damage from Hits with This Weapon can Poison",
+              "kr": "이 무기로 주는 모든 명중 피해가 중독 유발 가능",
+              "tw": "使用此武器的全部擊中傷害會造成中毒",
+              "ru": "Весь урон от ударов этим оружием может отравить",
+              "jp": "この武器によるヒットの全てのダメージで敵に毒を付与できる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pressurised-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Pressurised Dagger",
+      "kr": "가압 단검",
+      "tw": "高壓短匕",
+      "ru": "Герметизированный кинжал",
+      "jp": "加圧のダガー"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 71,
+      "critChance": 8.8,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAllDamageCanPoisonImplicitE1_",
+        "lines": [
+          {
+            "stat": "local_all_damage_can_poison",
+            "value": "1",
+            "text": {
+              "en": "All Damage from Hits with This Weapon can Poison",
+              "kr": "이 무기로 주는 모든 명중 피해가 중독 유발 가능",
+              "tw": "使用此武器的全部擊中傷害會造成中毒",
+              "ru": "Весь урон от ударов этим оружием может отравить",
+              "jp": "この武器によるヒットの全てのダメージで敵に毒を付与できる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pneumatic-dagger",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Pneumatic Dagger",
+      "kr": "공압 단검",
+      "tw": "魂靈短匕",
+      "ru": "Пневматический кинжал",
+      "jp": "空圧のダガー"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 79,
+      "critChance": 8.8,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAllDamageCanPoisonImplicitE1_",
+        "lines": [
+          {
+            "stat": "local_all_damage_can_poison",
+            "value": "1",
+            "text": {
+              "en": "All Damage from Hits with This Weapon can Poison",
+              "kr": "이 무기로 주는 모든 명중 피해가 중독 유발 가능",
+              "tw": "使用此武器的全部擊中傷害會造成中毒",
+              "ru": "Весь урон от ударов этим оружием может отравить",
+              "jp": "この武器によるヒットの全てのダメージで敵に毒を付与できる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ethereal-blade",
+    "classId": "Dagger",
+    "className": {
+      "en": "Daggers",
+      "kr": "단검",
+      "tw": "匕首",
+      "ru": "Кинжалы",
+      "jp": "短剣"
+    },
+    "name": {
+      "en": "Ethereal Blade",
+      "kr": "천상의 칼날",
+      "tw": "虛空刀刃",
+      "ru": "Бесплотный клинок",
+      "jp": "イシリアルブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 8,
+      "critChance": 8,
+      "attackTime": 0.667,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

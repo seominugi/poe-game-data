@@ -1,0 +1,2453 @@
+[
+  {
+    "id": "golden-hoop",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Golden Hoop",
+      "kr": "황금 고리",
+      "tw": "金環",
+      "ru": "Золотой обруч",
+      "jp": "黄金の指輪"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllAttributesImplicitDemigodRing1",
+        "lines": [
+          {
+            "stat": "additional_all_attributes",
+            "value": "8~12",
+            "text": {
+              "en": "8~12 to all Attributes",
+              "kr": "모든 능력치 8~12",
+              "tw": "8~12 全能力",
+              "ru": "8~12 ко всем характеристикам",
+              "jp": "全ての能力値 8~12"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "iron-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Iron Ring",
+      "kr": "철제 반지",
+      "tw": "鍛鐵戒指",
+      "ru": "Железное кольцо",
+      "jp": "鉄の指輪"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitRing1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage",
+            "value": "4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coral-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Coral Ring",
+      "kr": "산호 반지",
+      "tw": "珊瑚戒指",
+      "ru": "Кольцо с кораллом",
+      "jp": "珊瑚の指輪"
+    },
+    "dropLevel": 4,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "paua-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Paua Ring",
+      "kr": "파우아 반지",
+      "tw": "海靈戒指",
+      "ru": "Кольцо с ракушкой",
+      "jp": "パウア貝の指輪"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedManaImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_maximum_mana",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Mana",
+              "kr": "마나 최대치 20~30",
+              "tw": "20~30 最大魔力",
+              "ru": "20~30 к максимуму маны",
+              "jp": "最大マナ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gold-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Gold Ring",
+      "kr": "황금 반지",
+      "tw": "金光戒指",
+      "ru": "Золотое кольцо",
+      "jp": "金の指輪"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ItemFoundRarityIncreaseImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_item_found_rarity_+%",
+            "value": "6~15",
+            "text": {
+              "en": "6~15% increased Rarity of Items found",
+              "kr": "발견하는 아이템 희귀도 6~15% 증가",
+              "tw": "增加 6~15% 物品稀有度",
+              "ru": "6~15% повышение редкости найденных предметов",
+              "jp": "見つかるアイテムのレアリティが6~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "topaz-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Topaz Ring",
+      "kr": "토파즈 반지",
+      "tw": "黃玉戒指",
+      "ru": "Кольцо с топазом",
+      "jp": "トパーズの指輪"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LightningResistImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_lightning_damage_resistance_%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% to Lightning Resistance",
+              "kr": "번개 저항 20~30%",
+              "tw": "20~30% 閃電抗性",
+              "ru": "20~30% к сопротивлению молнии",
+              "jp": "雷耐性 20~30%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sapphire-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Sapphire Ring",
+      "kr": "사파이어 반지",
+      "tw": "藍玉戒指",
+      "ru": "Кольцо с сапфиром",
+      "jp": "サファイアの指輪"
+    },
+    "dropLevel": 8,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ColdResistImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_cold_damage_resistance_%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% to Cold Resistance",
+              "kr": "냉기 저항 20~30%",
+              "tw": "20~30% 冰冷抗性",
+              "ru": "20~30% к сопротивлению холоду",
+              "jp": "冷気耐性 20~30%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ruby-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Ruby Ring",
+      "kr": "루비 반지",
+      "tw": "紅玉戒指",
+      "ru": "Кольцо с рубином",
+      "jp": "ルビーの指輪"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FireResistImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_fire_damage_resistance_%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% to Fire Resistance",
+              "kr": "화염 저항 20~30%",
+              "tw": "20~30% 火焰抗性",
+              "ru": "20~30% к сопротивлению огню",
+              "jp": "火耐性 20~30%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "prismatic-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Prismatic Ring",
+      "kr": "분광 반지",
+      "tw": "三相戒指",
+      "ru": "Радужное кольцо",
+      "jp": "プリズムの指輪"
+    },
+    "dropLevel": 30,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8~10",
+            "text": {
+              "en": "8~10% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8~10%",
+              "tw": "8~10% 全部元素抗性",
+              "ru": "8~10% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8~10%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "moonstone-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Moonstone Ring",
+      "kr": "월장석 반지",
+      "tw": "月光石戒指",
+      "ru": "Кольцо с лунным камнем",
+      "jp": "ムーンストーンの指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedEnergyShieldImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_maximum_energy_shield",
+            "value": "15~25",
+            "text": {
+              "en": "15~25 to maximum Energy Shield",
+              "kr": "에너지 보호막 최대치 15~25",
+              "tw": "15~25 最大能量護盾",
+              "ru": "15~25 к максимуму энергетического щита",
+              "jp": "最大エナジーシールド 15~25"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "amethyst-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Amethyst Ring",
+      "kr": "자수정 반지",
+      "tw": "紫晶戒指",
+      "ru": "Кольцо с аметистом",
+      "jp": "アメジストの指輪"
+    },
+    "dropLevel": 38,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChaosResistImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_chaos_damage_resistance_%",
+            "value": "17~23",
+            "text": {
+              "en": "17~23% to Chaos Resistance",
+              "kr": "카오스 저항 17~23%",
+              "tw": "17~23% 混沌抗性",
+              "ru": "17~23% к сопротивлению хаосу",
+              "jp": "混沌耐性 17~23%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "diamond-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Diamond Ring",
+      "kr": "다이아몬드 반지",
+      "tw": "寶鑽戒指",
+      "ru": "Кольцо с бриллиантом",
+      "jp": "ダイヤモンドの指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitRing1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 20~30% 증가",
+              "tw": "增加 20~30% 全域暴擊率",
+              "ru": "20~30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "two-stone-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Two-Stone Ring",
+      "kr": "쌍보석 반지",
+      "tw": "雙玉戒指",
+      "ru": "Кольцо с двумя камнями",
+      "jp": "二つ石の指輪"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FireAndLightningResistImplicitRing1",
+        "lines": [
+          {
+            "stat": "fire_and_lightning_damage_resistance_%",
+            "value": "12~16",
+            "text": {
+              "en": "12~16% to Fire and Lightning Resistances",
+              "kr": "화염 및 번개 저항 12~16%",
+              "tw": "12~16% 火焰與閃電抗性",
+              "ru": "12~16% к сопротивлению огню и молнии",
+              "jp": "火および雷耐性 12~16%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "two-stone-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Two-Stone Ring",
+      "kr": "쌍보석 반지",
+      "tw": "雙玉戒指",
+      "ru": "Кольцо с двумя камнями",
+      "jp": "二つ石の指輪"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ColdAndLightningResistImplicitRing1",
+        "lines": [
+          {
+            "stat": "cold_and_lightning_damage_resistance_%",
+            "value": "12~16",
+            "text": {
+              "en": "12~16% to Cold and Lightning Resistances",
+              "kr": "냉기 및 번개 저항 12~16%",
+              "tw": "12~16% 冰冷與閃電抗性",
+              "ru": "12~16% к сопротивлению холоду и молнии",
+              "jp": "冷気および雷耐性 12~16%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "two-stone-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Two-Stone Ring",
+      "kr": "쌍보석 반지",
+      "tw": "雙玉戒指",
+      "ru": "Кольцо с двумя камнями",
+      "jp": "二つ石の指輪"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FireAndColdResistImplicitRing1",
+        "lines": [
+          {
+            "stat": "fire_and_cold_damage_resistance_%",
+            "value": "12~16",
+            "text": {
+              "en": "12~16% to Fire and Cold Resistances",
+              "kr": "화염 및 냉기 저항 12~16%",
+              "tw": "12~16% 火焰與冰冷抗性",
+              "ru": "12~16% к сопротивлению огню и холоду",
+              "jp": "火および冷気耐性 12~16%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "unset-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Unset Ring",
+      "kr": "무보석 반지",
+      "tw": "潛能之戒",
+      "ru": "Кольцо без камня",
+      "jp": "石なしの指輪"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "RingHasOneSocket",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Socket",
+              "kr": "홈 1개",
+              "tw": "有 1 個插槽",
+              "ru": "Имеет 1 гнездо",
+              "jp": "ソケットを1個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bone-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Bone Ring",
+      "kr": "뼈 반지",
+      "tw": "骸骨之戒",
+      "ru": "Костяное кольцо",
+      "jp": "骨の指輪"
+    },
+    "dropLevel": 30,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MinionElementalResistanceImplicitRing1",
+        "lines": [
+          {
+            "stat": "minion_elemental_resistance_%",
+            "value": "10~15",
+            "text": {
+              "en": "Minions have 10~15% to all Elemental Resistances",
+              "kr": "소환수의 모든 원소 저항 10~15%",
+              "tw": "召喚物有 10~15% 全部元素抗性",
+              "ru": "Приспешники имеют 10~15% к сопротивлению всем стихиям",
+              "jp": "ミニオンの全ての元素耐性 10~15%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cryonic-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Cryonic Ring",
+      "kr": "냉동 보존 반지",
+      "tw": "低溫之戒",
+      "ru": "Крионическое кольцо",
+      "jp": "クライオニックリング"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We lie eternal, eyes open, yet still.",
+      "kr": "우리는 눈을 뜨고, 그러나 움직이지 않고, 영원히 누워 있다.",
+      "tw": "我們長眠不醒，雙眼圓睜，卻依舊靜止。",
+      "ru": "Мы вечно покоимся; глаза открыты, но неподвижны.",
+      "jp": "目を開けて、だが動かず、我らは永遠に横たわる。"
+    },
+    "implicits": [
+      {
+        "modId": "TulBreachRingImplicit",
+        "lines": [
+          {
+            "stat": "breach_ring_tul_implicit",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Modifiers of Non-Cold Damage Types",
+              "kr": "비-냉기 피해 유형의 속성 부여 불가",
+              "tw": "無法骰出非冰冷傷害類型的詞綴",
+              "ru": "Не может иметь свойства урона не холодом",
+              "jp": "冷気以外のダメージ属性のモッドをロールできない"
+            }
+          },
+          {
+            "stat": "base_maximum_cold_damage_resistance_%",
+            "value": "2",
+            "text": {
+              "en": "2% to maximum Cold Resistance",
+              "kr": "냉기 저항 최대치 2%",
+              "tw": "2% 最大冰冷抗性",
+              "ru": "2% к максимальному сопротивлению холоду",
+              "jp": "冷気耐性の最大値 2%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "enthalpic-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Enthalpic Ring",
+      "kr": "엔탈피 반지",
+      "tw": "焓能之戒",
+      "ru": "Энтальпийное кольцо",
+      "jp": "エンタルピックリング"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The embers of the Red Pyre yet glow.",
+      "kr": "붉은 장작의 불씨는 아직 타오르고 있다.",
+      "tw": "紅色烈焰的餘燼仍在微光閃爍。",
+      "ru": "Угли Красного Костра ещё алеют.",
+      "jp": "赤き火葬壇の燃え殻は未だ輝いている。"
+    },
+    "implicits": [
+      {
+        "modId": "XophBreachRingImplicit",
+        "lines": [
+          {
+            "stat": "breach_ring_xoph_implicit",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Modifiers of Non-Fire Damage Types",
+              "kr": "비-화염 피해 유형의 속성 부여 불가",
+              "tw": "無法骰出非火焰傷害類型的詞綴",
+              "ru": "Не может иметь свойства урона не огнем",
+              "jp": "火以外のダメージ属性のモッドをロールできない"
+            }
+          },
+          {
+            "stat": "base_maximum_fire_damage_resistance_%",
+            "value": "2",
+            "text": {
+              "en": "2% to maximum Fire Resistance",
+              "kr": "화염 저항 최대치 2%",
+              "tw": "2% 最大火焰抗性",
+              "ru": "2% к максимальному сопротивлению огню",
+              "jp": "火耐性の最大値 2%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "synaptic-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Synaptic Ring",
+      "kr": "시냅스 반지",
+      "tw": "突觸之戒",
+      "ru": "Синаптическое кольцо",
+      "jp": "シナプティックリング"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Metallic thoughts whisper in the dark.",
+      "kr": "금속성 생각들이 어둠 속에서 속삭인다.",
+      "tw": "金屬般的思緒在黑暗中低語。",
+      "ru": "Металлические мысли шепчут в темноте.",
+      "jp": "金属質の思考が闇の中で囁く。"
+    },
+    "implicits": [
+      {
+        "modId": "EshBreachRingImplicit",
+        "lines": [
+          {
+            "stat": "breach_ring_esh_implicit",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Modifiers of Non-Lightning Damage Types",
+              "kr": "비-번개 피해 유형의 속성 부여 불가",
+              "tw": "無法骰出非閃電傷害類型的詞綴",
+              "ru": "Не может иметь свойства урона не молнией",
+              "jp": "雷以外のダメージ属性のモッドをロールできない"
+            }
+          },
+          {
+            "stat": "base_maximum_lightning_damage_resistance_%",
+            "value": "2",
+            "text": {
+              "en": "2% to maximum Lightning Resistance",
+              "kr": "번개 저항 최대치 2%",
+              "tw": "2% 最大閃電抗性",
+              "ru": "2% к максимальному сопротивлению молнии",
+              "jp": "雷耐性の最大値 2%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "organic-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Organic Ring",
+      "kr": "유기적 반지",
+      "tw": "有機之戒",
+      "ru": "Органическое кольцо",
+      "jp": "オーガニックリング"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Our flesh longs to move as one.",
+      "kr": "우리의 육신은 하나로서 움직이기를 갈망한다.",
+      "tw": "我們的肉身渴望合而為一。",
+      "ru": "Наша плоть жаждет двигаться как одно целое.",
+      "jp": "我らの肉体は一つとなることを切望している。"
+    },
+    "implicits": [
+      {
+        "modId": "UulNetolBreachRingImplicit",
+        "lines": [
+          {
+            "stat": "breach_ring_uulnetol_implicit",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Modifiers of Non-Physical Damage Types",
+              "kr": "비-물리 피해 유형의 속성 부여 불가",
+              "tw": "無法骰出非物理傷害類型的詞綴",
+              "ru": "Не может иметь свойства не физического урона",
+              "jp": "物理以外のダメージ属性のモッドをロールできない"
+            }
+          },
+          {
+            "stat": "base_additional_physical_damage_reduction_%",
+            "value": "3",
+            "text": {
+              "en": "3% additional Physical Damage Reduction",
+              "kr": "받는 물리 피해 3% 추가 감소",
+              "tw": "3% 額外物理傷害減免",
+              "ru": "3% дополнительного уменьшения получаемого физического урона",
+              "jp": "物理ダメージ軽減率が3%される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fugitive-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Fugitive Ring",
+      "kr": "도망자 반지",
+      "tw": "亡命之戒",
+      "ru": "Беглое кольцо",
+      "jp": "逃走者の指輪"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We will seize back our wayward Dream.",
+      "kr": "우리는 제멋대로인 꿈을 다시 붙잡을 것이다.",
+      "tw": "我們將奪回那失落的夢想。",
+      "ru": "Мы заберём назад наш своенравный Сон.",
+      "jp": "我らは気まぐれな夢を取り戻す。"
+    },
+    "implicits": [
+      {
+        "modId": "ChayulaBreachRingImplicit",
+        "lines": [
+          {
+            "stat": "breach_ring_chayula_implicit",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Modifiers of Non-Chaos Damage Types",
+              "kr": "비-카오스 피해 유형의 속성 부여 불가",
+              "tw": "無法骰出非混沌傷害類型的詞綴",
+              "ru": "Не может иметь свойства урона не хаосом",
+              "jp": "混沌以外のダメージ属性のモッドをロールできない"
+            }
+          },
+          {
+            "stat": "base_maximum_chaos_damage_resistance_%",
+            "value": "2",
+            "text": {
+              "en": "2% to maximum Chaos Resistance",
+              "kr": "카오스 저항 최대치 2%",
+              "tw": "2% 最大混沌抗性",
+              "ru": "2% к максимальному сопротивлению хаосу",
+              "jp": "混沌耐性の最大値 2%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "formless-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Formless Ring",
+      "kr": "형상 없는 반지",
+      "tw": "無形之戒",
+      "ru": "Бесформенное кольцо",
+      "jp": "フォームレスリング"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FormlessBreachRingImplicit",
+        "lines": [
+          {
+            "stat": "global_defences_+%",
+            "value": "5~7",
+            "text": {
+              "en": "5~7% increased Global Defences",
+              "kr": "일반 방어력 5~7% 증가",
+              "tw": "增加 5~7% 全域防禦",
+              "ru": "5~7% повышение глобальной защиты",
+              "jp": "グローバル防御力が5~7%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cogwork-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Cogwork Ring",
+      "kr": "톱니장치 반지",
+      "tw": "齒輪戒指",
+      "ru": "Шестерёнчатое кольцо",
+      "jp": "歯車の指輪"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixImplicitE1__",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -1개",
+              "tw": "允許前綴 -1",
+              "ru": "-1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": "1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 1개",
+              "tw": "允許後綴 1",
+              "ru": "1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド 1個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_suffix_mod_effect_+%",
+            "value": "25",
+            "text": {
+              "en": "25% increased Suffix Modifier magnitudes",
+              "kr": "접미어 속성 규모 25% 증가",
+              "tw": "增加 25% 後綴大小",
+              "ru": "25% повышение значений свойств-суффиксов",
+              "jp": "サフィックスモッドの強さが25%増加する"
+            }
+          },
+          {
+            "stat": "local_prefix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Prefix Modifier magnitudes",
+              "kr": "접두어 속성 규모 0% 증가",
+              "tw": "增加 0% 前綴大小",
+              "ru": "0% повышение значений свойств-префиксов",
+              "jp": "プレフィックスモッドの強さが0%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "geodesic-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Geodesic Ring",
+      "kr": "정동석 반지",
+      "tw": "大地戒指",
+      "ru": "Геодезическое кольцо",
+      "jp": "測地線の指輪"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixImplicitE2_",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": "1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 1개",
+              "tw": "允許前綴 1",
+              "ru": "1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド 1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -1개",
+              "tw": "允許後綴 -1",
+              "ru": "-1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_suffix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Suffix Modifier magnitudes",
+              "kr": "접미어 속성 규모 0% 증가",
+              "tw": "增加 0% 後綴大小",
+              "ru": "0% повышение значений свойств-суффиксов",
+              "jp": "サフィックスモッドの強さが0%増加する"
+            }
+          },
+          {
+            "stat": "local_prefix_mod_effect_+%",
+            "value": "25",
+            "text": {
+              "en": "25% increased Prefix Modifier magnitudes",
+              "kr": "접두어 속성 규모 25% 증가",
+              "tw": "增加 25% 前綴大小",
+              "ru": "25% повышение значений свойств-префиксов",
+              "jp": "プレフィックスモッドの強さが25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "composite-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Composite Ring",
+      "kr": "합성 반지",
+      "tw": "複合戒指",
+      "ru": "Составное кольцо",
+      "jp": "複合の指輪"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixImplicitE3",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "3",
+            "text": {
+              "en": "3 Prefix Modifiers allowed",
+              "kr": "접두어 속성 부여의 최대 개수 3개",
+              "tw": "允許前綴 3",
+              "ru": "допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド 3個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-3",
+            "text": {
+              "en": "-3 Suffix Modifiers allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -3개",
+              "tw": "允許後綴 -3",
+              "ru": "-3 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -3個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_suffix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Suffix Modifier magnitudes",
+              "kr": "접미어 속성 규모 0% 증가",
+              "tw": "增加 0% 後綴大小",
+              "ru": "0% повышение значений свойств-суффиксов",
+              "jp": "サフィックスモッドの強さが0%増加する"
+            }
+          },
+          {
+            "stat": "local_prefix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Prefix Modifier magnitudes",
+              "kr": "접두어 속성 규모 0% 증가",
+              "tw": "增加 0% 前綴大小",
+              "ru": "0% повышение значений свойств-префиксов",
+              "jp": "プレフィックスモッドの強さが0%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "manifold-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Manifold Ring",
+      "kr": "다면의 반지",
+      "tw": "孔洞戒指",
+      "ru": "Клапанное кольцо",
+      "jp": "多様体の指輪"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixImplicitE4",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": "1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 1개",
+              "tw": "允許前綴 1",
+              "ru": "1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド 1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-2",
+            "text": {
+              "en": "-2 Suffix Modifiers allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -2개",
+              "tw": "允許後綴 -2",
+              "ru": "-2 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -2個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_suffix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Suffix Modifier magnitudes",
+              "kr": "접미어 속성 규모 0% 증가",
+              "tw": "增加 0% 後綴大小",
+              "ru": "0% повышение значений свойств-суффиксов",
+              "jp": "サフィックスモッドの強さが0%増加する"
+            }
+          },
+          {
+            "stat": "local_prefix_mod_effect_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Prefix Modifier magnitudes",
+              "kr": "접두어 속성 규모 50% 증가",
+              "tw": "增加 50% 前綴大小",
+              "ru": "50% повышение значений свойств-префиксов",
+              "jp": "プレフィックスモッドの強さが50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ratcheting-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Ratcheting Ring",
+      "kr": "미늘톱니 반지",
+      "tw": "荊棘戒指",
+      "ru": "Зубчатое кольцо",
+      "jp": "歯止めの指輪"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixImplicitE5",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-3",
+            "text": {
+              "en": "-3 Prefix Modifiers allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -3개",
+              "tw": "允許前綴 -3",
+              "ru": "допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -3個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "3",
+            "text": {
+              "en": "3 Suffix Modifiers allowed",
+              "kr": "접미어 속성 부여의 최대 개수 3개",
+              "tw": "允許後綴 3",
+              "ru": "3 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド 3個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_suffix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Suffix Modifier magnitudes",
+              "kr": "접미어 속성 규모 0% 증가",
+              "tw": "增加 0% 後綴大小",
+              "ru": "0% повышение значений свойств-суффиксов",
+              "jp": "サフィックスモッドの強さが0%増加する"
+            }
+          },
+          {
+            "stat": "local_prefix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Prefix Modifier magnitudes",
+              "kr": "접두어 속성 규모 0% 증가",
+              "tw": "增加 0% 前綴大小",
+              "ru": "0% повышение значений свойств-префиксов",
+              "jp": "プレフィックスモッドの強さが0%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "helical-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Helical Ring",
+      "kr": "나선형 반지",
+      "tw": "螺旋戒指",
+      "ru": "Спиральное кольцо",
+      "jp": "螺旋の指輪"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixImplicitE6",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-2",
+            "text": {
+              "en": "-2 Prefix Modifiers allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -2개",
+              "tw": "允許前綴 -2",
+              "ru": "допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -2個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": "1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 1개",
+              "tw": "允許後綴 1",
+              "ru": "1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド 1個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_suffix_mod_effect_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Suffix Modifier magnitudes",
+              "kr": "접미어 속성 규모 50% 증가",
+              "tw": "增加 50% 後綴大小",
+              "ru": "50% повышение значений свойств-суффиксов",
+              "jp": "サフィックスモッドの強さが50%増加する"
+            }
+          },
+          {
+            "stat": "local_prefix_mod_effect_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Prefix Modifier magnitudes",
+              "kr": "접두어 속성 규모 0% 증가",
+              "tw": "增加 0% 前綴大小",
+              "ru": "0% повышение значений свойств-префиксов",
+              "jp": "プレフィックスモッドの強さが0%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dusk-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Dusk Ring",
+      "kr": "황혼 반지",
+      "tw": "幽暗戒指",
+      "ru": "Сумеречное кольцо",
+      "jp": "黄昏の指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReflectedDurationRingImplicitK1",
+        "lines": [
+          {
+            "stat": "local_left_ring_slot_skill_effect_duration_+%",
+            "value": "-15",
+            "text": {
+              "en": "Left ring slot: -15% reduced Skill Effect Duration",
+              "kr": "왼쪽 반지 슬롯: 스킬 효과 지속시간 -15% 감소",
+              "tw": "左戒指欄位：減少 -15% 技能效果持續時間",
+              "ru": "Кольцо в левом слоте: -15% уменьшение длительности эффекта умения",
+              "jp": "左の指輪スロット: スキル効果持続時間が-15%減少する"
+            }
+          },
+          {
+            "stat": "local_right_ring_slot_skill_effect_duration_+%",
+            "value": "15",
+            "text": {
+              "en": "Right ring slot: 15% increased Skill Effect Duration",
+              "kr": "오른쪽 반지 슬롯: 스킬 효과 지속시간 15% 증가",
+              "tw": "右戒指欄位：增加 15% 技能效果持續時間",
+              "ru": "Кольцо в правом слоте: 15% увеличение длительности эффекта умения",
+              "jp": "右の指輪スロット: スキル効果持続時間が15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "penumbra-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Penumbra Ring",
+      "kr": "음영 반지",
+      "tw": "半影戒指",
+      "ru": "Кольцо полутени",
+      "jp": "半影の指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReflectedCurseEffectOnSelfImplicitK2",
+        "lines": [
+          {
+            "stat": "local_left_ring_slot_curse_effect_on_self_+%",
+            "value": "-30",
+            "text": {
+              "en": "Left ring slot: -30% reduced Effect of Curses on you",
+              "kr": "왼쪽 반지 슬롯: 플레이어에게 적용되는 저주 효과 -30% 감소",
+              "tw": "左戒指欄位：減少 -30% 你身上的詛咒效果",
+              "ru": "Кольцо в левом слоте: -30% ослабление эффекта проклятий на вас",
+              "jp": "左の指輪スロット: 受けている呪いの効果が-30%減少する"
+            }
+          },
+          {
+            "stat": "local_right_ring_slot_curse_effect_on_self_+%",
+            "value": "30",
+            "text": {
+              "en": "Right ring slot: 30% increased Effect of Curses on you",
+              "kr": "오른쪽 반지 슬롯: 플레이어에게 적용되는 저주 효과 30% 증가",
+              "tw": "右戒指欄位：增加 30% 你身上的詛咒效果",
+              "ru": "Кольцо в правом слоте: 30% усиление эффекта проклятий на вас",
+              "jp": "右の指輪スロット: 受けている呪いの効果が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gloam-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Gloam Ring",
+      "kr": "석양 반지",
+      "tw": "黃昏戒指",
+      "ru": "Мглистое кольцо",
+      "jp": "薄明の指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReflectedMinionDamageTakenImplicitK3",
+        "lines": [
+          {
+            "stat": "local_left_ring_slot_minion_damage_taken_+%",
+            "value": "-15",
+            "text": {
+              "en": "Left ring slot: Minions take -15% reduced Damage",
+              "kr": "왼쪽 반지 슬롯: 소환수가 받는 피해 -15% 감소",
+              "tw": "左戒指欄位：召喚物減少承受 -15% 傷害",
+              "ru": "Кольцо в левом слоте: Приспешники получают уменьшенный на -15% урон",
+              "jp": "左の指輪スロット: ミニオンが受けるダメージが-15%減少する"
+            }
+          },
+          {
+            "stat": "local_right_ring_slot_minion_damage_taken_+%",
+            "value": "15",
+            "text": {
+              "en": "Right ring slot: Minions take 15% increased Damage",
+              "kr": "오른쪽 반지 슬롯: 소환수가 받는 피해 15% 증가",
+              "tw": "右戒指欄位：召喚物增加承受 15% 傷害",
+              "ru": "Кольцо в правом слоте: Приспешники получают увеличенный на 15% урон",
+              "jp": "右の指輪スロット: ミニオンが受けるダメージが15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tenebrous-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Tenebrous Ring",
+      "kr": "어둑한 반지",
+      "tw": "黑暗戒指",
+      "ru": "Тусклое кольцо",
+      "jp": "仄暗い指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReflectedAilmentDurationOnSelfImplicitK4",
+        "lines": [
+          {
+            "stat": "local_left_ring_slot_base_all_ailment_duration_on_self_+%",
+            "value": "-30",
+            "text": {
+              "en": "Left ring slot: -30% reduced Duration of Ailments on You",
+              "kr": "왼쪽 반지 슬롯: 플레이어에게 적용되는 상태 이상 지속시간 -30% 감소",
+              "tw": "左戒指欄位：減少 -30% 你身上異常狀態持續時間",
+              "ru": "Кольцо в левом слоте: -30% уменьшение длительности состояний на вас",
+              "jp": "左の指輪スロット: 受けている状態異常の持続時間が-30%減少する"
+            }
+          },
+          {
+            "stat": "local_right_ring_slot_base_all_ailment_duration_on_self_+%",
+            "value": "30",
+            "text": {
+              "en": "Right ring slot: 30% increased Duration of Ailments on You",
+              "kr": "오른쪽 반지 슬롯: 플레이어에게 적용되는 상태 이상 지속시간 30% 증가",
+              "tw": "右戒指欄位：增加 30% 你身上異常狀態持續時間",
+              "ru": "Кольцо в правом слоте: 30% увеличение длительности состояний на вас",
+              "jp": "右の指輪スロット: 受けている状態異常の持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "shadowed-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Shadowed Ring",
+      "kr": "그늘진 반지",
+      "tw": "暗影戒指",
+      "ru": "Затенённое кольцо",
+      "jp": "影の指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReflectedFireColdDamageTakenConversionImplicitK5a",
+        "lines": [
+          {
+            "stat": "local_left_ring_slot_cold_damage_taken_%_as_fire",
+            "value": "25",
+            "text": {
+              "en": "Left ring slot: 25% of Cold Damage from Hits taken as Fire Damage",
+              "kr": "왼쪽 반지 슬롯: 피격 시 냉기 피해의 25%를 화염 피해로 받음",
+              "tw": "左戒指欄位：承受來自擊中的 25% 冰冷傷害視為火焰傷害",
+              "ru": "Кольцо в левом слоте: 25% получаемого урона от холода от ударов становится уроном от огня",
+              "jp": "左の指輪スロット: ヒットによる冷気ダメージの25%を火ダメージとして受ける"
+            }
+          },
+          {
+            "stat": "local_right_ring_slot_fire_damage_taken_%_as_cold",
+            "value": "25",
+            "text": {
+              "en": "Right ring slot: 25% of Fire Damage from Hits taken as Cold Damage",
+              "kr": "오른쪽 반지 슬롯: 피격 시 화염 피해의 25%를 냉기 피해로 받음",
+              "tw": "右戒指欄位：承受來自擊中的 25% 火焰傷害視為冰冷傷害",
+              "ru": "Кольцо в правом слоте: 25% получаемого урона от огня от ударов становится уроном от холода",
+              "jp": "右の指輪スロット: ヒットによる火ダメージの25%を冷気ダメージとして受ける"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "shadowed-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Shadowed Ring",
+      "kr": "그늘진 반지",
+      "tw": "暗影戒指",
+      "ru": "Затенённое кольцо",
+      "jp": "影の指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReflectedFireLightningDamageTakenConversionImplicitK5b",
+        "lines": [
+          {
+            "stat": "local_left_ring_slot_fire_damage_taken_%_as_lightning",
+            "value": "25",
+            "text": {
+              "en": "Left ring slot: 25% of Fire Damage from Hits taken as Lightning Damage",
+              "kr": "왼쪽 반지 슬롯: 피격 시 화염 피해의 25%를 번개 피해로 받음",
+              "tw": "左戒指欄位：承受來自擊中的 25% 火焰傷害視為閃電傷害",
+              "ru": "Кольцо в левом слоте: 25% получаемого урона от огня от ударов становится уроном от молнии",
+              "jp": "左の指輪スロット: ヒットによる火ダメージの25%を雷ダメージとして受ける"
+            }
+          },
+          {
+            "stat": "local_right_ring_slot_lightning_damage_taken_%_as_fire",
+            "value": "25",
+            "text": {
+              "en": "Right ring slot: 25% of Lightning Damage from Hits taken as Fire Damage",
+              "kr": "오른쪽 반지 슬롯: 피격 시 번개 피해의 25%를 화염 피해로 받음",
+              "tw": "右戒指欄位：承受來自擊中的 25% 閃電傷害視為火焰傷害",
+              "ru": "Кольцо в правом слоте: 25% получаемого урона от молнии от ударов становится уроном от огня",
+              "jp": "右の指輪スロット: ヒットによる雷ダメージの25%を火ダメージとして受ける"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "shadowed-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Shadowed Ring",
+      "kr": "그늘진 반지",
+      "tw": "暗影戒指",
+      "ru": "Затенённое кольцо",
+      "jp": "影の指輪"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReflectedColdLightningDamageTakenConversionImplicitK5c",
+        "lines": [
+          {
+            "stat": "local_left_ring_slot_lightning_damage_taken_%_as_cold",
+            "value": "25",
+            "text": {
+              "en": "Left ring slot: 25% of Lightning Damage from Hits taken as Cold Damage",
+              "kr": "왼쪽 반지 슬롯: 피격 시 번개 피해의 25%를 냉기 피해로 받음",
+              "tw": "左戒指欄位：承受來自擊中的 25% 閃電傷害視為冰冷傷害",
+              "ru": "Кольцо в левом слоте: 25% получаемого урона от молнии от ударов становится уроном от холода",
+              "jp": "左の指輪スロット: ヒットによる雷ダメージの25%を冷気ダメージとして受ける"
+            }
+          },
+          {
+            "stat": "local_right_ring_slot_cold_damage_taken_%_as_lightning",
+            "value": "25",
+            "text": {
+              "en": "Right ring slot: 25% of Cold Damage from Hits taken as Lightning Damage",
+              "kr": "오른쪽 반지 슬롯: 피격 시 냉기 피해의 25%를 번개 피해로 받음",
+              "tw": "右戒指欄位：承受來自擊中的 25% 冰冷傷害視為閃電傷害",
+              "ru": "Кольцо в правом слоте: 25% получаемого урона от холода от ударов становится уроном от молнии",
+              "jp": "右の指輪スロット: ヒットによる冷気ダメージの25%を雷ダメージとして受ける"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "nameless-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Nameless Ring",
+      "kr": "이름 없는 반지",
+      "tw": "無名戒指",
+      "ru": "Безымянное кольцо",
+      "jp": "名もなき指輪"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CurseEffectElementalAilmentDurationOnSelfR1",
+        "lines": [
+          {
+            "stat": "curse_effect_on_self_+%",
+            "value": "-50",
+            "text": {
+              "en": "-50% reduced Effect of Curses on you",
+              "kr": "플레이어에게 적용되는 저주 효과 -50% 감소",
+              "tw": "減少在你身上的詛咒效果 -50%",
+              "ru": "-50% ослабление эффектов проклятий на вас",
+              "jp": "プレイヤーに対する呪いの効果が-50%減少する"
+            }
+          },
+          {
+            "stat": "self_elemental_status_duration_-%",
+            "value": "-50",
+            "text": {
+              "en": "-50% increased Elemental Ailment Duration on you",
+              "kr": "플레이어에게 적용되는 원소 상태 이상 지속시간 -50% 증가",
+              "tw": "增加 -50% 身上元素異常狀態時間",
+              "ru": "-50% увеличение длительности стихийных состояний на вас",
+              "jp": "受ける元素系状態異常の持続時間が-50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jet-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Jet Ring",
+      "kr": "흑옥 반지",
+      "tw": "傑特戒指",
+      "ru": "Кольцо с чёрной яшмой",
+      "jp": "黒玉の指輪"
+    },
+    "dropLevel": 15,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllDefensesImplicitJetRing",
+        "lines": [
+          {
+            "stat": "global_defences_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Global Defences",
+              "kr": "일반 방어력 5~10% 증가",
+              "tw": "增加 5~10% 全域防禦",
+              "ru": "5~10% повышение глобальной защиты",
+              "jp": "グローバル防御力が5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "steel-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Steel Ring",
+      "kr": "강철 반지",
+      "tw": "鋼鑄戒指",
+      "ru": "Стальное кольцо",
+      "jp": "鋼の指輪"
+    },
+    "dropLevel": 78,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitRing2",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage",
+            "value": "3~4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage",
+            "value": "10~14",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "opal-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Opal Ring",
+      "kr": "오팔 반지",
+      "tw": "蛋白石戒指",
+      "ru": "Кольцо с опалом",
+      "jp": "オパールの指輪"
+    },
+    "dropLevel": 78,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ElementalDamagePercentImplicitAtlasRing_",
+        "lines": [
+          {
+            "stat": "elemental_damage_+%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% increased Elemental Damage",
+              "kr": "원소 피해 15~25% 증가",
+              "tw": "增加 15~25% 元素傷害",
+              "ru": "15~25% увеличение урона от стихий",
+              "jp": "元素ダメージが15~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vermillion-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Vermillion Ring",
+      "kr": "주색 반지",
+      "tw": "朱紅戒指",
+      "ru": "Кольцо с киноварью",
+      "jp": "朱色の指輪"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaximumLifeImplicitAtlasRing",
+        "lines": [
+          {
+            "stat": "maximum_life_+%",
+            "value": "5~7",
+            "text": {
+              "en": "5~7% increased maximum Life",
+              "kr": "최대 생명력 5~7% 증가",
+              "tw": "增加 5~7% 最大生命",
+              "ru": "5~7% увеличение максимума здоровья",
+              "jp": "最大ライフが5~7%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cerulean-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Cerulean Ring",
+      "kr": "진청색 반지",
+      "tw": "碧藍戒指",
+      "ru": "Кольцо с аквамарином",
+      "jp": "紺碧の指輪"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaximumManaImplicitAtlasRing_",
+        "lines": [
+          {
+            "stat": "maximum_mana_+%",
+            "value": "8~10",
+            "text": {
+              "en": "8~10% increased maximum Mana",
+              "kr": "최대 마나 8~10% 증가",
+              "tw": "增加 8~10% 最大魔力",
+              "ru": "8~10% увеличение максимума маны",
+              "jp": "最大マナが8~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "iolite-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Iolite Ring",
+      "kr": "근청석 반지",
+      "tw": "混青石戒指",
+      "ru": "Иолитовое кольцо",
+      "jp": "董青石の指輪"
+    },
+    "dropLevel": 78,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedChaosDamageImplicit1_",
+        "lines": [
+          {
+            "stat": "chaos_damage_+%",
+            "value": "17~23",
+            "text": {
+              "en": "17~23% increased Chaos Damage",
+              "kr": "카오스 피해 17~23% 증가",
+              "tw": "增加 17~23% 混沌傷害",
+              "ru": "17~23% увеличение урона хаосом",
+              "jp": "混沌ダメージが17~23%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Ring",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольцо",
+      "jp": "指輪"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "breach-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Breach Ring",
+      "kr": "균열 반지",
+      "tw": "裂痕戒指",
+      "ru": "Кольцо Разлома",
+      "jp": "ブリーチの指輪"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ItemStatsDoubledInBreachImplicit",
+        "lines": [
+          {
+            "stat": "local_item_stats_are_doubled_in_breach",
+            "value": "1",
+            "text": {
+              "en": "Properties are doubled while in a Breach",
+              "kr": "균열에 있는 동안 속성 수치 2배",
+              "tw": "裂痕中此道具屬性有雙倍效果",
+              "ru": "В Разломе свойства удваиваются",
+              "jp": "ブリーチ内にいる時にプロパティが二倍になる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "opal-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Opal Ring",
+      "kr": "오팔 반지",
+      "tw": "蛋白石戒指",
+      "ru": "Кольцо с опалом",
+      "jp": "オパールの指輪"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ElementalDamagePercentImplicitRingRoyale",
+        "lines": [
+          {
+            "stat": "elemental_damage_+%",
+            "value": "12~16",
+            "text": {
+              "en": "12~16% increased Elemental Damage",
+              "kr": "원소 피해 12~16% 증가",
+              "tw": "增加 12~16% 元素傷害",
+              "ru": "12~16% увеличение урона от стихий",
+              "jp": "元素ダメージが12~16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "prismatic-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Prismatic Ring",
+      "kr": "분광 반지",
+      "tw": "三相戒指",
+      "ru": "Радужное кольцо",
+      "jp": "プリズムの指輪"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitRoyaleRing1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8~10",
+            "text": {
+              "en": "8~10% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8~10%",
+              "tw": "8~10% 全部元素抗性",
+              "ru": "8~10% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8~10%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "diamond-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Diamond Ring",
+      "kr": "다이아몬드 반지",
+      "tw": "寶鑽戒指",
+      "ru": "Кольцо с бриллиантом",
+      "jp": "ダイヤモンドの指輪"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitRingRoyale1_",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30~40",
+            "text": {
+              "en": "30~40% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30~40% 증가",
+              "tw": "增加 30~40% 全域暴擊率",
+              "ru": "30~40% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "paua-ring",
+    "classId": "Ring",
+    "className": {
+      "en": "Rings",
+      "kr": "반지",
+      "tw": "戒指",
+      "ru": "Кольца",
+      "jp": "指輪"
+    },
+    "name": {
+      "en": "Paua Ring",
+      "kr": "파우아 반지",
+      "tw": "海靈戒指",
+      "ru": "Кольцо с ракушкой",
+      "jp": "パウア貝の指輪"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedManaImplicitRing1",
+        "lines": [
+          {
+            "stat": "base_maximum_mana",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Mana",
+              "kr": "마나 최대치 20~30",
+              "tw": "20~30 最大魔力",
+              "ru": "20~30 к максимуму маны",
+              "jp": "最大マナ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

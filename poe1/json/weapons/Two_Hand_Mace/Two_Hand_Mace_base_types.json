@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "driftwood-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Driftwood Maul",
+      "kr": "표류목 대형 망치",
+      "tw": "朽木巨錘",
+      "ru": "Дубина из плавника",
+      "jp": "流木の大鎚"
+    },
+    "dropLevel": 3,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 16,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tribal-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Tribal Maul",
+      "kr": "부족 대형 망치",
+      "tw": "祭儀巨錘",
+      "ru": "Дубина аборигена",
+      "jp": "部族の大鎚"
+    },
+    "dropLevel": 8,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 17,
+      "damageMax": 25,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mallet",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Mallet",
+      "kr": "나무 망치",
+      "tw": "千斤錘",
+      "ru": "Колотушка",
+      "jp": "マレット"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 33,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sledgehammer",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Sledgehammer",
+      "kr": "대형 양손 망치",
+      "tw": "冷鐵重錘",
+      "ru": "Кувалда",
+      "jp": "スレッジハンマー"
+    },
+    "dropLevel": 17,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 38,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "45",
+            "text": {
+              "en": "45% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 45% 증가",
+              "tw": "增加 45% 敵人暈眩時間",
+              "ru": "45% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が45%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jagged-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Jagged Maul",
+      "kr": "삐죽삐죽한 대형 망치",
+      "tw": "狼牙重錘",
+      "ru": "Зубастый молот",
+      "jp": "ギザギザの大鎚"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 49,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "brass-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Brass Maul",
+      "kr": "황동 대형 망치",
+      "tw": "銅影巨錘",
+      "ru": "Латунный молот",
+      "jp": "真鍮の大鎚"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 40,
+      "damageMax": 60,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fright-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Fright Maul",
+      "kr": "섬뜩한 대형 망치",
+      "tw": "恐懼重錘",
+      "ru": "Пугающий молот",
+      "jp": "恐怖の大鎚"
+    },
+    "dropLevel": 32,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 62,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "morning-star",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Morning Star",
+      "kr": "모닝스타",
+      "tw": "晨星",
+      "ru": "Моргенштерн",
+      "jp": "モーニングスター"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 68,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AreaOfEffectImplicitMarakethTwoHandMace1",
+        "lines": [
+          {
+            "stat": "base_skill_area_of_effect_+%",
+            "value": "15",
+            "text": {
+              "en": "15% increased Area of Effect",
+              "kr": "효과 범위 15% 증가",
+              "tw": "增加 15% 範圍效果",
+              "ru": "15% увеличение области действия",
+              "jp": "効果範囲が15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "totemic-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Totemic Maul",
+      "kr": "토템 대형 망치",
+      "tw": "圖騰巨錘",
+      "ru": "Тотемная дубина",
+      "jp": "トーテムの大鎚"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 57,
+      "damageMax": 85,
+      "critChance": 5,
+      "attackTime": 0.909,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "great-mallet",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Great Mallet",
+      "kr": "대형 나무 망치",
+      "tw": "剛猛巨錘",
+      "ru": "Большая колотушка",
+      "jp": "グレートマレット"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 88,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "steelhead",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Steelhead",
+      "kr": "강철머리 망치",
+      "tw": "沉鋼重錘",
+      "ru": "Стальной молот",
+      "jp": "スチールヘッド"
+    },
+    "dropLevel": 44,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 54,
+      "damageMax": 81,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "45",
+            "text": {
+              "en": "45% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 45% 증가",
+              "tw": "增加 45% 敵人暈眩時間",
+              "ru": "45% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が45%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiny-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Spiny Maul",
+      "kr": "가시투성이 대형 망치",
+      "tw": "凶刺巨錘",
+      "ru": "Колючая дубина",
+      "jp": "トゲの大鎚"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 55,
+      "damageMax": 103,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "plated-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Plated Maul",
+      "kr": "판금 대형 망치",
+      "tw": "華麗重錘",
+      "ru": "Позолоченный молот",
+      "jp": "金メッキの大鎚"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 72,
+      "damageMax": 108,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dread-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Dread Maul",
+      "kr": "끔찍한 대형 망치",
+      "tw": "威權巨錘",
+      "ru": "Ужасающий молот",
+      "jp": "脅威の大鎚"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 77,
+      "damageMax": 104,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 30% 증가",
+              "tw": "增加 30% 敵人暈眩時間",
+              "ru": "30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "solar-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Solar Maul",
+      "kr": "태양의 대형 망치",
+      "tw": "日光錘",
+      "ru": "Молот светила",
+      "jp": "太陽の大鎚"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 75,
+      "damageMax": 113,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AreaOfEffectImplicitMarakethTwoHandMace1",
+        "lines": [
+          {
+            "stat": "base_skill_area_of_effect_+%",
+            "value": "15",
+            "text": {
+              "en": "15% increased Area of Effect",
+              "kr": "효과 범위 15% 증가",
+              "tw": "增加 15% 範圍效果",
+              "ru": "15% увеличение области действия",
+              "jp": "効果範囲が15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "karui-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Karui Maul",
+      "kr": "카루이 대형 망치",
+      "tw": "卡魯重錘",
+      "ru": "Дубина каруи",
+      "jp": "カルイの大鎚"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 112,
+      "damageMax": 168,
+      "critChance": 5,
+      "attackTime": 1,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "45",
+            "text": {
+              "en": "45% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 45% 증가",
+              "tw": "增加 45% 敵人暈眩時間",
+              "ru": "45% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が45%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "colossus-mallet",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Colossus Mallet",
+      "kr": "초대형 나무 망치",
+      "tw": "巨型重錘",
+      "ru": "Громадная колотушка",
+      "jp": "巨大な大鎚"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 65,
+      "damageMax": 135,
+      "critChance": 5.5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AreaDamageImplicitMace1",
+        "lines": [
+          {
+            "stat": "area_damage_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Area Damage",
+              "kr": "범위 피해 30% 증가",
+              "tw": "增加 30% 範圍傷害",
+              "ru": "30% увеличение урона по области",
+              "jp": "範囲ダメージが30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "piledriver",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Piledriver",
+      "kr": "말뚝 망치",
+      "tw": "掃蕩者",
+      "ru": "Забиватель",
+      "jp": "パイルドライバー"
+    },
+    "dropLevel": 61,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 77,
+      "damageMax": 115,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace3_",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "20",
+            "text": {
+              "en": "20% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 20% 감소",
+              "tw": "減少 20% 敵人暈眩門檻",
+              "ru": "20% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が20%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "meatgrinder",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Meatgrinder",
+      "kr": "고기 갈이개",
+      "tw": "戮魂重錘",
+      "ru": "Мясодёр",
+      "jp": "ミートグラインダー"
+    },
+    "dropLevel": 63,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 138,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DoubleDamageChanceImplicitMace1",
+        "lines": [
+          {
+            "stat": "chance_to_deal_double_damage_%",
+            "value": "5",
+            "text": {
+              "en": "5% chance to deal Double Damage",
+              "kr": "5%의 확률로 2배의 피해를 줌",
+              "tw": "5% 機率造成兩倍傷害",
+              "ru": "5% шанс нанести двойной урон",
+              "jp": "5%の確率でダブルダメージを与える"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "imperial-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Imperial Maul",
+      "kr": "제국 대형 망치",
+      "tw": "帝國重錘",
+      "ru": "Императорский молот",
+      "jp": "帝国の大鎚"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 102,
+      "damageMax": 153,
+      "critChance": 5,
+      "attackTime": 0.909,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "PercentageStrengthImplicitMace1",
+        "lines": [
+          {
+            "stat": "strength_+%",
+            "value": "10",
+            "text": {
+              "en": "10% increased Strength",
+              "kr": "힘 10% 증가",
+              "tw": "增加 10% 力量",
+              "ru": "10% повышение силы",
+              "jp": "筋力が10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "terror-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Terror Maul",
+      "kr": "공포의 대형 망치",
+      "tw": "懼靈重錘",
+      "ru": "Чудовищный молот",
+      "jp": "畏怖の大鎚"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 101,
+      "damageMax": 137,
+      "critChance": 6,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceForDoubleStunDurationImplicitMace_1",
+        "lines": [
+          {
+            "stat": "chance_to_double_stun_duration_%",
+            "value": "25",
+            "text": {
+              "en": "25% chance to double Stun Duration",
+              "kr": "25%의 확률로 기절 지속시간 2배",
+              "tw": "有 25% 機率增加暈眩時間 1 倍",
+              "ru": "25% шанс удвоить длительность оглушения",
+              "jp": "25%の確率で敵に対するスタンの持続時間が倍になる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coronal-maul",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Coronal Maul",
+      "kr": "광환의 대형 망치",
+      "tw": "花冠重錘",
+      "ru": "Венечный молот",
+      "jp": "宝冠の大鎚"
+    },
+    "dropLevel": 69,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 91,
+      "damageMax": 136,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AreaOfEffectImplicitMarakethTwoHandMace2",
+        "lines": [
+          {
+            "stat": "base_skill_area_of_effect_+%",
+            "value": "20",
+            "text": {
+              "en": "20% increased Area of Effect",
+              "kr": "효과 범위 20% 증가",
+              "tw": "增加 20% 範圍效果",
+              "ru": "20% увеличение области действия",
+              "jp": "効果範囲が20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blunt-force-condenser",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Blunt Force Condenser",
+      "kr": "둔력 응축자",
+      "tw": "鈍擊力凝聚錘",
+      "ru": "Накопитель грубой силы",
+      "jp": "殴打のコンデンサー"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 64,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WarcriesExertAnAdditionalAttackImplicitE1_",
+        "lines": [
+          {
+            "stat": "warcry_empowers_next_x_melee_attacks",
+            "value": "1",
+            "text": {
+              "en": "Warcries Exert 1 additional Attack",
+              "kr": "함성 사용 시 전력 공격 1회 추가",
+              "tw": "戰吼竭盡 1 次額外攻擊",
+              "ru": "Боевые кличи улучшают дополнительных атак: 1",
+              "jp": "ウォークライは追加で1回のアタックを奮起させる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crushing-force-magnifier",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Crushing Force Magnifier",
+      "kr": "압착력 확대자",
+      "tw": "粉碎力增幅錘",
+      "ru": "Усилитель разрушения",
+      "jp": "粉砕のマグニファイヤー"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 103,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WarcriesExertAnAdditionalAttackImplicitE1_",
+        "lines": [
+          {
+            "stat": "warcry_empowers_next_x_melee_attacks",
+            "value": "1",
+            "text": {
+              "en": "Warcries Exert 1 additional Attack",
+              "kr": "함성 사용 시 전력 공격 1회 추가",
+              "tw": "戰吼竭盡 1 次額外攻擊",
+              "ru": "Боевые кличи улучшают дополнительных атак: 1",
+              "jp": "ウォークライは追加で1回のアタックを奮起させる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "impact-force-propagator",
+    "classId": "Two Hand Mace",
+    "className": {
+      "en": "Two Hand Maces",
+      "kr": "양손 철퇴",
+      "tw": "雙手錘",
+      "ru": "Двуручные булавы",
+      "jp": "両手メイス"
+    },
+    "name": {
+      "en": "Impact Force Propagator",
+      "kr": "충격력 확산자",
+      "tw": "衝擊力擴散錘",
+      "ru": "Распространитель удара",
+      "jp": "衝撃のプロパゲーター"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 81,
+      "damageMax": 135,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WarcriesExertAnAdditionalAttackImplicitE2",
+        "lines": [
+          {
+            "stat": "warcry_empowers_next_x_melee_attacks",
+            "value": "2",
+            "text": {
+              "en": "Warcries Exert 2 additional Attacks",
+              "kr": "함성 사용 시 전력 공격 2회 추가",
+              "tw": "戰吼竭盡 2 次額外攻擊",
+              "ru": "Боевые кличи улучшают дополнительных атак: 2",
+              "jp": "ウォークライは追加で2回のアタックを奮起させる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

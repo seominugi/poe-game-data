@@ -1,0 +1,445 @@
+{
+  "gamePatch": "3.28.0.12",
+  "langs": [
+    "en",
+    "kr",
+    "tw",
+    "ru",
+    "jp"
+  ],
+  "imageStrategy": "none",
+  "generated": "2026-07-06T10:22:58.845Z",
+  "groups": {
+    "weapons": {
+      "Bow": {
+        "jsonPath": "json/weapons/Bow/Bow_base_types.json",
+        "count": 30,
+        "sampleName": "Crude Bow"
+      },
+      "Claw": {
+        "jsonPath": "json/weapons/Claw/Claw_base_types.json",
+        "count": 28,
+        "sampleName": "Nailed Fist"
+      },
+      "Dagger": {
+        "jsonPath": "json/weapons/Dagger/Dagger_base_types.json",
+        "count": 14,
+        "sampleName": "Glass Shank"
+      },
+      "FishingRod": {
+        "jsonPath": "json/weapons/FishingRod/FishingRod_base_types.json",
+        "count": 1,
+        "sampleName": "Fishing Rod"
+      },
+      "One_Hand_Axe": {
+        "jsonPath": "json/weapons/One_Hand_Axe/One_Hand_Axe_base_types.json",
+        "count": 28,
+        "sampleName": "Rusted Hatchet"
+      },
+      "One_Hand_Mace": {
+        "jsonPath": "json/weapons/One_Hand_Mace/One_Hand_Mace_base_types.json",
+        "count": 28,
+        "sampleName": "Driftwood Club"
+      },
+      "One_Hand_Sword": {
+        "jsonPath": "json/weapons/One_Hand_Sword/One_Hand_Sword_base_types.json",
+        "count": 31,
+        "sampleName": "Charan's Sword"
+      },
+      "Rune_Dagger": {
+        "jsonPath": "json/weapons/Rune_Dagger/Rune_Dagger_base_types.json",
+        "count": 18,
+        "sampleName": "Carving Knife"
+      },
+      "Sceptre": {
+        "jsonPath": "json/weapons/Sceptre/Sceptre_base_types.json",
+        "count": 28,
+        "sampleName": "Driftwood Sceptre"
+      },
+      "Staff": {
+        "jsonPath": "json/weapons/Staff/Staff_base_types.json",
+        "count": 16,
+        "sampleName": "Gnarled Branch"
+      },
+      "Thrusting_One_Hand_Sword": {
+        "jsonPath": "json/weapons/Thrusting_One_Hand_Sword/Thrusting_One_Hand_Sword_base_types.json",
+        "count": 25,
+        "sampleName": "Rusted Spike"
+      },
+      "Two_Hand_Axe": {
+        "jsonPath": "json/weapons/Two_Hand_Axe/Two_Hand_Axe_base_types.json",
+        "count": 25,
+        "sampleName": "Stone Axe"
+      },
+      "Two_Hand_Mace": {
+        "jsonPath": "json/weapons/Two_Hand_Mace/Two_Hand_Mace_base_types.json",
+        "count": 25,
+        "sampleName": "Driftwood Maul"
+      },
+      "Two_Hand_Sword": {
+        "jsonPath": "json/weapons/Two_Hand_Sword/Two_Hand_Sword_base_types.json",
+        "count": 27,
+        "sampleName": "Keyblade"
+      },
+      "Wand": {
+        "jsonPath": "json/weapons/Wand/Wand_base_types.json",
+        "count": 29,
+        "sampleName": "Driftwood Wand"
+      },
+      "Warstaff": {
+        "jsonPath": "json/weapons/Warstaff/Warstaff_base_types.json",
+        "count": 12,
+        "sampleName": "Iron Staff"
+      }
+    },
+    "armour": {
+      "Body_Armour": {
+        "jsonPath": "json/armour/Body_Armour/Body_Armour_base_types.json",
+        "count": 124,
+        "sampleName": "Plate Vest"
+      },
+      "Boots": {
+        "jsonPath": "json/armour/Boots/Boots_base_types.json",
+        "count": 83,
+        "sampleName": "Iron Greaves"
+      },
+      "Gloves": {
+        "jsonPath": "json/armour/Gloves/Gloves_base_types.json",
+        "count": 80,
+        "sampleName": "Iron Gauntlets"
+      },
+      "Helmet": {
+        "jsonPath": "json/armour/Helmet/Helmet_base_types.json",
+        "count": 96,
+        "sampleName": "Iron Hat"
+      },
+      "Quiver": {
+        "jsonPath": "json/armour/Quiver/Quiver_base_types.json",
+        "count": 29,
+        "sampleName": "Cured Quiver"
+      },
+      "Shield": {
+        "jsonPath": "json/armour/Shield/Shield_base_types.json",
+        "count": 98,
+        "sampleName": "Splintered Tower Shield"
+      }
+    },
+    "jewellery": {
+      "Amulet": {
+        "jsonPath": "json/jewellery/Amulet/Amulet_base_types.json",
+        "count": 55,
+        "sampleName": "Paua Amulet"
+      },
+      "Belt": {
+        "jsonPath": "json/jewellery/Belt/Belt_base_types.json",
+        "count": 17,
+        "sampleName": "Rustic Sash"
+      },
+      "LabyrinthTrinket": {
+        "jsonPath": "json/jewellery/LabyrinthTrinket/LabyrinthTrinket_base_types.json",
+        "count": 10,
+        "sampleName": "Bane of the Loyal"
+      },
+      "Ring": {
+        "jsonPath": "json/jewellery/Ring/Ring_base_types.json",
+        "count": 49,
+        "sampleName": "Golden Hoop"
+      },
+      "Trinket": {
+        "jsonPath": "json/jewellery/Trinket/Trinket_base_types.json",
+        "count": 1,
+        "sampleName": "Thief's Trinket"
+      }
+    },
+    "gems": {
+      "Active_Skill_Gem": {
+        "jsonPath": "json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json",
+        "count": 529,
+        "sampleName": "Spectral Shield Throw"
+      },
+      "Support_Skill_Gem": {
+        "jsonPath": "json/gems/Support_Skill_Gem/Support_Skill_Gem_base_types.json",
+        "count": 311,
+        "sampleName": "Added Fire Damage Support"
+      }
+    },
+    "flasks": {
+      "AnimalCharm": {
+        "jsonPath": "json/flasks/AnimalCharm/AnimalCharm_base_types.json",
+        "count": 3,
+        "sampleName": "Ursine Charm"
+      },
+      "HybridFlask": {
+        "jsonPath": "json/flasks/HybridFlask/HybridFlask_base_types.json",
+        "count": 6,
+        "sampleName": "Small Hybrid Flask"
+      },
+      "LifeFlask": {
+        "jsonPath": "json/flasks/LifeFlask/LifeFlask_base_types.json",
+        "count": 15,
+        "sampleName": "Small Life Flask"
+      },
+      "ManaFlask": {
+        "jsonPath": "json/flasks/ManaFlask/ManaFlask_base_types.json",
+        "count": 12,
+        "sampleName": "Small Mana Flask"
+      },
+      "UtilityFlask": {
+        "jsonPath": "json/flasks/UtilityFlask/UtilityFlask_base_types.json",
+        "count": 18,
+        "sampleName": "Diamond Flask"
+      }
+    },
+    "jewels": {
+      "AbyssJewel": {
+        "jsonPath": "json/jewels/AbyssJewel/AbyssJewel_base_types.json",
+        "count": 4,
+        "sampleName": "Murderous Eye Jewel"
+      },
+      "Jewel": {
+        "jsonPath": "json/jewels/Jewel/Jewel_base_types.json",
+        "count": 8,
+        "sampleName": "Crimson Jewel"
+      }
+    },
+    "currency": {
+      "AtlasRelic": {
+        "jsonPath": "json/currency/AtlasRelic/AtlasRelic_base_types.json",
+        "count": 6,
+        "sampleName": "Minor Idol"
+      },
+      "Breachstone": {
+        "jsonPath": "json/currency/Breachstone/Breachstone_base_types.json",
+        "count": 25,
+        "sampleName": "Xoph's Breachstone"
+      },
+      "Currency": {
+        "jsonPath": "json/currency/Currency/Currency_base_types.json",
+        "count": 1,
+        "sampleName": "Mystery Leaguestone"
+      },
+      "DelveSocketableCurrency": {
+        "jsonPath": "json/currency/DelveSocketableCurrency/DelveSocketableCurrency_base_types.json",
+        "count": 8,
+        "sampleName": "Primitive Alchemical Resonator"
+      },
+      "DelveStackableSocketableCurrency": {
+        "jsonPath": "json/currency/DelveStackableSocketableCurrency/DelveStackableSocketableCurrency_base_types.json",
+        "count": 8,
+        "sampleName": "Primitive Alchemical Resonator"
+      },
+      "HeistObjective": {
+        "jsonPath": "json/currency/HeistObjective/HeistObjective_base_types.json",
+        "count": 47,
+        "sampleName": "Urn of Farud"
+      },
+      "Incubator": {
+        "jsonPath": "json/currency/Incubator/Incubator_base_types.json",
+        "count": 30,
+        "sampleName": "Whispering Incubator"
+      },
+      "IncubatorStackable": {
+        "jsonPath": "json/currency/IncubatorStackable/IncubatorStackable_base_types.json",
+        "count": 33,
+        "sampleName": "Whispering Incubator"
+      },
+      "IncursionItem": {
+        "jsonPath": "json/currency/IncursionItem/IncursionItem_base_types.json",
+        "count": 2,
+        "sampleName": "Stone of Passage"
+      },
+      "LabyrinthMapItem": {
+        "jsonPath": "json/currency/LabyrinthMapItem/LabyrinthMapItem_base_types.json",
+        "count": 1,
+        "sampleName": "Offering to the Goddess"
+      },
+      "Map": {
+        "jsonPath": "json/currency/Map/Map_base_types.json",
+        "count": 491,
+        "sampleName": "Cursed Crypt Map"
+      },
+      "MapFragment": {
+        "jsonPath": "json/currency/MapFragment/MapFragment_base_types.json",
+        "count": 291,
+        "sampleName": "Sacrifice at Midnight"
+      },
+      "MapKey": {
+        "jsonPath": "json/currency/MapKey/MapKey_base_types.json",
+        "count": 20,
+        "sampleName": "Map (Tier 1)"
+      },
+      "MiscMapItem": {
+        "jsonPath": "json/currency/MiscMapItem/MiscMapItem_base_types.json",
+        "count": 36,
+        "sampleName": "Primeval Remnant"
+      },
+      "Relic": {
+        "jsonPath": "json/currency/Relic/Relic_base_types.json",
+        "count": 14,
+        "sampleName": "[DO NOT USE] Censer Relic"
+      },
+      "SanctumSpecialRelic": {
+        "jsonPath": "json/currency/SanctumSpecialRelic/SanctumSpecialRelic_base_types.json",
+        "count": 3,
+        "sampleName": "Sanctified Relic"
+      },
+      "StackableCurrency": {
+        "jsonPath": "json/currency/StackableCurrency/StackableCurrency_base_types.json",
+        "count": 641,
+        "sampleName": "Blacksmith's Whetstone"
+      },
+      "UniqueFragment": {
+        "jsonPath": "json/currency/UniqueFragment/UniqueFragment_base_types.json",
+        "count": 26,
+        "sampleName": "Archon Kite Shield Piece"
+      }
+    },
+    "misc": {
+      "ArchnemesisMod": {
+        "jsonPath": "json/misc/ArchnemesisMod/ArchnemesisMod_base_types.json",
+        "count": 1,
+        "sampleName": "Archnemesis Mod"
+      },
+      "AtlasUpgradeItem": {
+        "jsonPath": "json/misc/AtlasUpgradeItem/AtlasUpgradeItem_base_types.json",
+        "count": 61,
+        "sampleName": "Ivory Watchstone"
+      },
+      "BrequelFruit": {
+        "jsonPath": "json/misc/BrequelFruit/BrequelFruit_base_types.json",
+        "count": 4,
+        "sampleName": "Provisioning Wombgift"
+      },
+      "DivinationCard": {
+        "jsonPath": "json/misc/DivinationCard/DivinationCard_base_types.json",
+        "count": 467,
+        "sampleName": "Three Faces in the Dark"
+      },
+      "ExpeditionLogbook": {
+        "jsonPath": "json/misc/ExpeditionLogbook/ExpeditionLogbook_base_types.json",
+        "count": 1,
+        "sampleName": "Expedition Logbook"
+      },
+      "GiftBox": {
+        "jsonPath": "json/misc/GiftBox/GiftBox_base_types.json",
+        "count": 11,
+        "sampleName": "Wrapped Gift"
+      },
+      "Gold": {
+        "jsonPath": "json/misc/Gold/Gold_base_types.json",
+        "count": 1,
+        "sampleName": "Gold"
+      },
+      "HeistBlueprint": {
+        "jsonPath": "json/misc/HeistBlueprint/HeistBlueprint_base_types.json",
+        "count": 9,
+        "sampleName": "Blueprint: Bunker"
+      },
+      "HeistContract": {
+        "jsonPath": "json/misc/HeistContract/HeistContract_base_types.json",
+        "count": 15,
+        "sampleName": "Contract: Bunker"
+      },
+      "HeistEquipmentReward": {
+        "jsonPath": "json/misc/HeistEquipmentReward/HeistEquipmentReward_base_types.json",
+        "count": 5,
+        "sampleName": "[UNUSED] Heist Test Reward Equipment"
+      },
+      "HeistEquipmentTool": {
+        "jsonPath": "json/misc/HeistEquipmentTool/HeistEquipmentTool_base_types.json",
+        "count": 37,
+        "sampleName": "[UNUSED] Heist Test Tool"
+      },
+      "HeistEquipmentUtility": {
+        "jsonPath": "json/misc/HeistEquipmentUtility/HeistEquipmentUtility_base_types.json",
+        "count": 5,
+        "sampleName": "[UNUSED] Heist Test Utility Equipment"
+      },
+      "HeistEquipmentWeapon": {
+        "jsonPath": "json/misc/HeistEquipmentWeapon/HeistEquipmentWeapon_base_types.json",
+        "count": 13,
+        "sampleName": "[UNUSED] Heist Test Weapon"
+      },
+      "HiddenItem": {
+        "jsonPath": "json/misc/HiddenItem/HiddenItem_base_types.json",
+        "count": 77,
+        "sampleName": "Hidden Item"
+      },
+      "InstanceLocalItem": {
+        "jsonPath": "json/misc/InstanceLocalItem/InstanceLocalItem_base_types.json",
+        "count": 22,
+        "sampleName": "Serpent Extract"
+      },
+      "ItemisedCorpse": {
+        "jsonPath": "json/misc/ItemisedCorpse/ItemisedCorpse_base_types.json",
+        "count": 114,
+        "sampleName": "Imperfect Hydra"
+      },
+      "ItemisedSanctum": {
+        "jsonPath": "json/misc/ItemisedSanctum/ItemisedSanctum_base_types.json",
+        "count": 5,
+        "sampleName": "Forbidden Tome"
+      },
+      "LabyrinthItem": {
+        "jsonPath": "json/misc/LabyrinthItem/LabyrinthItem_base_types.json",
+        "count": 3,
+        "sampleName": "Golden Key"
+      },
+      "Leaguestone": {
+        "jsonPath": "json/misc/Leaguestone/Leaguestone_base_types.json",
+        "count": 17,
+        "sampleName": "Breach Leaguestone"
+      },
+      "MemoryLine": {
+        "jsonPath": "json/misc/MemoryLine/MemoryLine_base_types.json",
+        "count": 4,
+        "sampleName": "Kirac's Memory"
+      },
+      "MetamorphosisDNA": {
+        "jsonPath": "json/misc/MetamorphosisDNA/MetamorphosisDNA_base_types.json",
+        "count": 5,
+        "sampleName": "Metamorph Brain"
+      },
+      "Microtransaction": {
+        "jsonPath": "json/misc/Microtransaction/Microtransaction_base_types.json",
+        "count": 6,
+        "sampleName": "MTX Wrapper"
+      },
+      "NecropolisPack": {
+        "jsonPath": "json/misc/NecropolisPack/NecropolisPack_base_types.json",
+        "count": 70,
+        "sampleName": "Allflame Ember of Frogs"
+      },
+      "PantheonSoul": {
+        "jsonPath": "json/misc/PantheonSoul/PantheonSoul_base_types.json",
+        "count": 20,
+        "sampleName": "Captured Soul of Puruna, the Challenger"
+      },
+      "QuestItem": {
+        "jsonPath": "json/misc/QuestItem/QuestItem_base_types.json",
+        "count": 275,
+        "sampleName": "Shaper's Orb (Tier 1)"
+      },
+      "RemovedItem": {
+        "jsonPath": "json/misc/RemovedItem/RemovedItem_base_types.json",
+        "count": 18,
+        "sampleName": "Fleshgraft"
+      },
+      "SentinelDrone": {
+        "jsonPath": "json/misc/SentinelDrone/SentinelDrone_base_types.json",
+        "count": 26,
+        "sampleName": "Rusted Stalker Sentinel"
+      },
+      "Tincture": {
+        "jsonPath": "json/misc/Tincture/Tincture_base_types.json",
+        "count": 18,
+        "sampleName": "Ironwood Tincture"
+      },
+      "VaultKey": {
+        "jsonPath": "json/misc/VaultKey/VaultKey_base_types.json",
+        "count": 15,
+        "sampleName": "Ancient Reliquary Key"
+      }
+    }
+  }
+}

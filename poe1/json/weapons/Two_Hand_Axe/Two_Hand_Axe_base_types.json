@@ -1,0 +1,913 @@
+[
+  {
+    "id": "stone-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Stone Axe",
+      "kr": "돌도끼",
+      "tw": "石斧",
+      "ru": "Каменный топор",
+      "jp": "石斧"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 20,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "jade-chopper",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Jade Chopper",
+      "kr": "비취 절단기",
+      "tw": "碎玉大斧",
+      "ru": "Нефритовое рубило",
+      "jp": "翡翠の大斧"
+    },
+    "dropLevel": 9,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 30,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "woodsplitter",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Woodsplitter",
+      "kr": "벌목스플리터",
+      "tw": "柴斧",
+      "ru": "Колун",
+      "jp": "ウッドスプリッター"
+    },
+    "dropLevel": 13,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 39,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "poleaxe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Poleaxe",
+      "kr": "자루 도끼",
+      "tw": "巨戰斧",
+      "ru": "Алебарда",
+      "jp": "ポールアックス"
+    },
+    "dropLevel": 18,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 43,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "double-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Double Axe",
+      "kr": "양날 도끼",
+      "tw": "雙刃巨斧",
+      "ru": "Секира",
+      "jp": "ダブルアックス"
+    },
+    "dropLevel": 23,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 60,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gilded-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Gilded Axe",
+      "kr": "도금된 도끼",
+      "tw": "金柄之斧",
+      "ru": "Золочёный топор",
+      "jp": "金メッキの斧"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 58,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shadow-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Shadow Axe",
+      "kr": "그림자 도끼",
+      "tw": "幽影巨斧",
+      "ru": "Топор тени",
+      "jp": "シャドウアックス"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 73,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "dagger-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Dagger Axe",
+      "kr": "단검 도끼",
+      "tw": "匕斧",
+      "ru": "Топор-кинжал",
+      "jp": "ダガーアックス"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 83,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalCriticalStrikeChanceImplicitMarakethTwoHandAxe1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_chance_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Critical Strike Chance",
+              "kr": "치명타 확률 50% 증가",
+              "tw": "增加 50% 暴擊率",
+              "ru": "50% повышение шанса критического удара",
+              "jp": "クリティカル率が50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jasper-chopper",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Jasper Chopper",
+      "kr": "벽옥 절단기",
+      "tw": "靈玉巨斧",
+      "ru": "Яшмовое рубило",
+      "jp": "碧玉の大斧"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 58,
+      "damageMax": 91,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "timber-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Timber Axe",
+      "kr": "목재용 도끼",
+      "tw": "裂木巨斧",
+      "ru": "Топор лесоруба",
+      "jp": "薪割りの斧"
+    },
+    "dropLevel": 41,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 48,
+      "damageMax": 99,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "headsman-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Headsman Axe",
+      "kr": "참수자 도끼",
+      "tw": "行刑巨斧",
+      "ru": "Топор палача",
+      "jp": "首長の斧"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 61,
+      "damageMax": 92,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "labrys",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Labrys",
+      "kr": "라브리스",
+      "tw": "雙影巨斧",
+      "ru": "Лабрис",
+      "jp": "ラブリス"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 123,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "noble-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Noble Axe",
+      "kr": "귀족 도끼",
+      "tw": "權貴巨斧",
+      "ru": "Топор вельможи",
+      "jp": "貴族の斧"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 76,
+      "damageMax": 103,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "abyssal-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Abyssal Axe",
+      "kr": "심연의 도끼",
+      "tw": "深淵巨斧",
+      "ru": "Топор кромешной тьмы",
+      "jp": "アビスアックス"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 81,
+      "damageMax": 121,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "talon-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Talon Axe",
+      "kr": "발톱 도끼",
+      "tw": "猛禽爪斧",
+      "ru": "Топор когтя",
+      "jp": "タロンアックス"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 88,
+      "damageMax": 138,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalCriticalStrikeChanceImplicitMarakethTwoHandAxe1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_chance_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Critical Strike Chance",
+              "kr": "치명타 확률 50% 증가",
+              "tw": "增加 50% 暴擊率",
+              "ru": "50% повышение шанса критического удара",
+              "jp": "クリティカル率が50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "karui-chopper",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Karui Chopper",
+      "kr": "카루이 절단기",
+      "tw": "卡魯巨斧",
+      "ru": "Рубило каруи",
+      "jp": "カルイの大斧"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 121,
+      "damageMax": 189,
+      "critChance": 5,
+      "attackTime": 0.952,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sundering-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Sundering Axe",
+      "kr": "작렬하는 도끼",
+      "tw": "裂甲巨斧",
+      "ru": "Раскалыватель",
+      "jp": "切断の斧"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 74,
+      "damageMax": 155,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BleedDotMultiplier2HImplicit1",
+        "lines": [
+          {
+            "stat": "bleeding_dot_multiplier_+",
+            "value": "20",
+            "text": {
+              "en": "20% to Damage over Time Multiplier for Bleeding",
+              "kr": "출혈 지속 피해 배율 20%",
+              "tw": "流血 20% 持續傷害加成",
+              "ru": "20% к множителю постепенного урона от кровотечения",
+              "jp": "出血の継続ダメージ倍率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ezomyte-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Ezomyte Axe",
+      "kr": "에조미어 도끼",
+      "tw": "艾茲麥巨斧",
+      "ru": "Топор эзомита",
+      "jp": "エゾマイトアックス"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 87,
+      "damageMax": 131,
+      "critChance": 5.7,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vaal-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Vaal Axe",
+      "kr": "바알 도끼",
+      "tw": "瓦爾巨斧",
+      "ru": "Топор ваал",
+      "jp": "ヴァールアックス"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 104,
+      "damageMax": 174,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalMaimOnHit2HImplicit_1",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "25",
+            "text": {
+              "en": "25% chance to Maim on Hit",
+              "kr": "명중 시 25%의 확률로 힘줄 절단",
+              "tw": "擊中時有 25% 機率造成癱瘓",
+              "ru": "25% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に25%の確率で敵に重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "despot-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Despot Axe",
+      "kr": "절대군주 도끼",
+      "tw": "霸主巨斧",
+      "ru": "Топор деспота",
+      "jp": "暴君の斧"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 90,
+      "damageMax": 122,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "void-axe",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Void Axe",
+      "kr": "공허의 도끼",
+      "tw": "虛影巨斧",
+      "ru": "Топор пустоты",
+      "jp": "ヴォイドアックス"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 96,
+      "damageMax": 144,
+      "critChance": 6,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fleshripper",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Fleshripper",
+      "kr": "살점 거열기",
+      "tw": "裂肉者",
+      "ru": "Раздиратель",
+      "jp": "フレッシュリッパー"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 97,
+      "damageMax": 152,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalCriticalStrikeChanceImplicitMarakethTwoHandAxe2",
+        "lines": [
+          {
+            "stat": "local_critical_strike_chance_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Critical Strike Chance",
+              "kr": "치명타 확률 50% 증가",
+              "tw": "增加 50% 暴擊率",
+              "ru": "50% повышение шанса критического удара",
+              "jp": "クリティカル率が50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "prime-cleaver",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Prime Cleaver",
+      "kr": "최종형 가로날도끼",
+      "tw": "原始砍斧",
+      "ru": "Превосходный секач",
+      "jp": "良質なクリーバー"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 61,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalIgnorePhysReductionImplicitE1",
+        "lines": [
+          {
+            "stat": "local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+            "value": "30",
+            "text": {
+              "en": "Hits with this Weapon have 30% chance to ignore Enemy Physical Damage Reduction",
+              "kr": "이 무기로 명중 시 30%의 확률로 적의 물리 피해 감소를 무시",
+              "tw": "此武器擊中時有 30% 機率無視敵人的物理傷害減免",
+              "ru": "Удары этим оружием с 30% шансом могут игнорировать уменьшение получаемого физического урона врага",
+              "jp": "この武器によるヒットは30%の確率で敵物理ダメージ軽減を無視する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "honed-cleaver",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Honed Cleaver",
+      "kr": "연마한 가로날도끼",
+      "tw": "珩磨砍斧",
+      "ru": "Заточенный секач",
+      "jp": "鋭利なクリーバー"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 60,
+      "damageMax": 95,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalIgnorePhysReductionImplicitE2",
+        "lines": [
+          {
+            "stat": "local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+            "value": "50",
+            "text": {
+              "en": "Hits with this Weapon have 50% chance to ignore Enemy Physical Damage Reduction",
+              "kr": "이 무기로 명중 시 50%의 확률로 적의 물리 피해 감소를 무시",
+              "tw": "此武器擊中時有 50% 機率無視敵人的物理傷害減免",
+              "ru": "Удары этим оружием с 50% шансом могут игнорировать уменьшение получаемого физического урона врага",
+              "jp": "この武器によるヒットは50%の確率で敵物理ダメージ軽減を無視する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "apex-cleaver",
+    "classId": "Two Hand Axe",
+    "className": {
+      "en": "Two Hand Axes",
+      "kr": "양손 도끼",
+      "tw": "雙手斧",
+      "ru": "Двуручные топоры",
+      "jp": "両手斧"
+    },
+    "name": {
+      "en": "Apex Cleaver",
+      "kr": "정점의 가로날도끼",
+      "tw": "巔峰砍斧",
+      "ru": "Острейший секач",
+      "jp": "切っ先のクリーバー"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 78,
+      "damageMax": 121,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalIgnorePhysReductionImplicitE3",
+        "lines": [
+          {
+            "stat": "local_hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+            "value": "100",
+            "text": {
+              "en": "Hits with this Weapon ignore Enemy Physical Damage Reduction",
+              "kr": "이 무기로 명중 시 적의 물리 피해 감소를 무시",
+              "tw": "此武器擊中時無視敵人的物理傷害減免",
+              "ru": "Удары этим оружием игнорируют уменьшение получаемого физического урона врага",
+              "jp": "この武器によるヒットは敵物理ダメージ軽減を無視する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

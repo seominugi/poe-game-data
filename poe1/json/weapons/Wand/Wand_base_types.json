@@ -1,0 +1,1493 @@
+[
+  {
+    "id": "driftwood-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Driftwood Wand",
+      "kr": "표류목 마법봉",
+      "tw": "朽木法杖",
+      "ru": "Жезл из плавника",
+      "jp": "流木のワンド"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 9,
+      "critChance": 8.3,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "8~12",
+            "text": {
+              "en": "8~12% increased Spell Damage",
+              "kr": "주문 피해 8~12% 증가",
+              "tw": "增加 8~12% 法術傷害",
+              "ru": "8~12% увеличение урона от чар",
+              "jp": "スペルダメージが8~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "goats-horn",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Goat's Horn",
+      "kr": "염소의 뿔",
+      "tw": "羊角法杖",
+      "ru": "Козий рог",
+      "jp": "ヤギの角"
+    },
+    "dropLevel": 6,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 13,
+      "critChance": 8,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedFireDamageSpellsAndAttacksImplicit1",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_fire_damage",
+            "value": "1~2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_fire_damage",
+            "value": "3~4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "carved-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Carved Wand",
+      "kr": "조각된 마법봉",
+      "tw": "粗紋法杖",
+      "ru": "Оструганный жезл",
+      "jp": "カーブワンド"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 16,
+      "critChance": 8,
+      "attackTime": 0.625,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand3",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "11~15",
+            "text": {
+              "en": "11~15% increased Spell Damage",
+              "kr": "주문 피해 11~15% 증가",
+              "tw": "增加 11~15% 法術傷害",
+              "ru": "11~15% увеличение урона от чар",
+              "jp": "スペルダメージが11~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "quartz-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Quartz Wand",
+      "kr": "석영 마법봉",
+      "tw": "石英法杖",
+      "ru": "Кварцевый жезл",
+      "jp": "石英のワンド"
+    },
+    "dropLevel": 18,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 23,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedColdDamageSpellsAndAttacksImplicit1",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_cold_damage",
+            "value": "2~3",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_cold_damage",
+            "value": "4~7",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiraled-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Spiraled Wand",
+      "kr": "나선형 마법봉",
+      "tw": "螺紋法杖",
+      "ru": "Витой жезл",
+      "jp": "スパイラルワンド"
+    },
+    "dropLevel": 24,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 32,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedLightningDamageSpellsAndAttacksImplicit1",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_lightning_damage",
+            "value": "1~2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_lightning_damage",
+            "value": "9~11",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sage-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Sage Wand",
+      "kr": "현자 마법봉",
+      "tw": "賢者法杖",
+      "ru": "Жезл провидца",
+      "jp": "賢者のワンド"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 17,
+      "damageMax": 32,
+      "critChance": 8.7,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand6",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "17~21",
+            "text": {
+              "en": "17~21% increased Spell Damage",
+              "kr": "주문 피해 17~21% 증가",
+              "tw": "增加 17~21% 法術傷害",
+              "ru": "17~21% увеличение урона от чар",
+              "jp": "スペルダメージが17~21%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pagan-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Pagan Wand",
+      "kr": "이교도 마법봉",
+      "tw": "異教法杖",
+      "ru": "Жезл язычника",
+      "jp": "異教徒のワンド"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 37,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedCastSpeedImplicitMarakethWand1",
+        "lines": [
+          {
+            "stat": "base_cast_speed_+%",
+            "value": "10",
+            "text": {
+              "en": "10% increased Cast Speed",
+              "kr": "시전 속도 10% 증가",
+              "tw": "增加 10% 施放速度",
+              "ru": "10% повышение скорости сотворения чар",
+              "jp": "キャストスピードが10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fauns-horn",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Faun's Horn",
+      "kr": "판의 뿔",
+      "tw": "獸角法杖",
+      "ru": "Рог фавна",
+      "jp": "ファウヌスの角"
+    },
+    "dropLevel": 35,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 38,
+      "critChance": 8,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedFireDamageSpellsAndAttacksImplicit2",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_fire_damage",
+            "value": "5~10",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_fire_damage",
+            "value": "11~13",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "engraved-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Engraved Wand",
+      "kr": "아로새긴 마법봉",
+      "tw": "符文法杖",
+      "ru": "Резной жезл",
+      "jp": "エングレービングワンド"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 36,
+      "critChance": 8,
+      "attackTime": 0.625,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand9",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "22~26",
+            "text": {
+              "en": "22~26% increased Spell Damage",
+              "kr": "주문 피해 22~26% 증가",
+              "tw": "增加 22~26% 法術傷害",
+              "ru": "22~26% увеличение урона от чар",
+              "jp": "スペルダメージが22~26%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crystal-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Crystal Wand",
+      "kr": "수정 마법봉",
+      "tw": "水晶法杖",
+      "ru": "Кристальный жезл",
+      "jp": "クリスタルワンド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 45,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedColdDamageSpellsAndAttacksImplicit2",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_cold_damage",
+            "value": "4~8",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_cold_damage",
+            "value": "10~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coiled-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Coiled Wand",
+      "kr": "똬리 마법봉",
+      "tw": "纏繞法杖",
+      "ru": "Кручёный жезл",
+      "jp": "巻かれたワンド"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 55,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedLightningDamageSpellsAndAttacksImplicit2",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_lightning_damage",
+            "value": "1~2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_lightning_damage",
+            "value": "22~24",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "omen-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Omen Wand",
+      "kr": "전조의 마법봉",
+      "tw": "靈兆法杖",
+      "ru": "Жезл предвестия",
+      "jp": "前兆のワンド"
+    },
+    "dropLevel": 53,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 45,
+      "critChance": 8.7,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand12",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "27~31",
+            "text": {
+              "en": "27~31% increased Spell Damage",
+              "kr": "주문 피해 27~31% 증가",
+              "tw": "增加 27~31% 法術傷害",
+              "ru": "27~31% увеличение урона от чар",
+              "jp": "スペルダメージが27~31%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heathen-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Heathen Wand",
+      "kr": "이방인 마법봉",
+      "tw": "異徒法杖",
+      "ru": "Жезл варвара",
+      "jp": "不信心のワンド"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 52,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedCastSpeedImplicitMarakethWand1",
+        "lines": [
+          {
+            "stat": "base_cast_speed_+%",
+            "value": "10",
+            "text": {
+              "en": "10% increased Cast Speed",
+              "kr": "시전 속도 10% 증가",
+              "tw": "增加 10% 施放速度",
+              "ru": "10% повышение скорости сотворения чар",
+              "jp": "キャストスピードが10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "demons-horn",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Demon's Horn",
+      "kr": "악마의 뿔",
+      "tw": "魔角法杖",
+      "ru": "Рог демона",
+      "jp": "悪魔の角"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 57,
+      "critChance": 8,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedFireDamageSpellsAndAttacksImplicit3",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_fire_damage",
+            "value": "18~36",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_fire_damage",
+            "value": "53~59",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "imbued-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Imbued Wand",
+      "kr": "부여된 마법봉",
+      "tw": "魔性法杖",
+      "ru": "Волшебный жезл",
+      "jp": "浸潤のワンド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 50,
+      "critChance": 8,
+      "attackTime": 0.625,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand15",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "33~37",
+            "text": {
+              "en": "33~37% increased Spell Damage",
+              "kr": "주문 피해 33~37% 증가",
+              "tw": "增加 33~37% 法術傷害",
+              "ru": "33~37% увеличение урона от чар",
+              "jp": "スペルダメージが33~37%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "opal-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Opal Wand",
+      "kr": "오팔 마법봉",
+      "tw": "靈石法杖",
+      "ru": "Опаловый жезл",
+      "jp": "オパールのワンド"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 56,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedColdDamageSpellsAndAttacksImplicit3",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_cold_damage",
+            "value": "14~29",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_cold_damage",
+            "value": "42~47",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tornado-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Tornado Wand",
+      "kr": "회오리 마법봉",
+      "tw": "狂風法杖",
+      "ru": "Жезл торнадо",
+      "jp": "竜巻のワンド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 65,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedLightningDamageSpellsAndAttacksImplicit3",
+        "lines": [
+          {
+            "stat": "spell_and_attack_minimum_added_lightning_damage",
+            "value": "3~5",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "spell_and_attack_maximum_added_lightning_damage",
+            "value": "70~82",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "prophecy-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Prophecy Wand",
+      "kr": "예언 마법봉",
+      "tw": "箴言法杖",
+      "ru": "Жезл пророчества",
+      "jp": "預言のワンド"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 26,
+      "damageMax": 48,
+      "critChance": 8.7,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand17",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "36~40",
+            "text": {
+              "en": "36~40% increased Spell Damage",
+              "kr": "주문 피해 36~40% 증가",
+              "tw": "增加 36~40% 法術傷害",
+              "ru": "36~40% увеличение урона от чар",
+              "jp": "スペルダメージが36~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "profane-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Profane Wand",
+      "kr": "부정한 마법봉",
+      "tw": "褻瀆法杖",
+      "ru": "Жезл отступника",
+      "jp": "冒涜のワンド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 56,
+      "critChance": 8,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedCastSpeedImplicitMarakethWand2",
+        "lines": [
+          {
+            "stat": "base_cast_speed_+%",
+            "value": "14",
+            "text": {
+              "en": "14% increased Cast Speed",
+              "kr": "시전 속도 14% 증가",
+              "tw": "增加 14% 施放速度",
+              "ru": "14% повышение скорости сотворения чар",
+              "jp": "キャストスピードが14%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "assembler-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Assembler Wand",
+      "kr": "조립 마법봉",
+      "tw": "拼裝法杖",
+      "ru": "Собирающий жезл",
+      "jp": "寄集のワンド"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 28,
+      "critChance": 8.5,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GainRandomChargeEvery6SecondsImplicitE1",
+        "lines": [
+          {
+            "stat": "gain_X_random_charges_every_6_seconds",
+            "value": "1",
+            "text": {
+              "en": "Gain an Endurance, Frenzy or Power Charge every 6 seconds",
+              "kr": "6초마다 인내, 격분 또는 권능 충전 획득",
+              "tw": "每 6 秒獲得 1 顆耐力、狂怒或暴擊球",
+              "ru": "Дарует заряд выносливости, ярости или энергии каждые 6 секунд",
+              "jp": "6秒ごとにエンデュランスチャージ、フレンジーチャージまたはパワーチャージを1個獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "congregator-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Congregator Wand",
+      "kr": "군집 마법봉",
+      "tw": "匯能法杖",
+      "ru": "Накопляющий жезл",
+      "jp": "収集のワンド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 43,
+      "critChance": 8.5,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GainRandomChargeEvery6SecondsImplicitE1",
+        "lines": [
+          {
+            "stat": "gain_X_random_charges_every_6_seconds",
+            "value": "1",
+            "text": {
+              "en": "Gain an Endurance, Frenzy or Power Charge every 6 seconds",
+              "kr": "6초마다 인내, 격분 또는 권능 충전 획득",
+              "tw": "每 6 秒獲得 1 顆耐力、狂怒或暴擊球",
+              "ru": "Дарует заряд выносливости, ярости или энергии каждые 6 секунд",
+              "jp": "6秒ごとにエンデュランスチャージ、フレンジーチャージまたはパワーチャージを1個獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "accumulator-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Accumulator Wand",
+      "kr": "축적 마법봉",
+      "tw": "蓄能法杖",
+      "ru": "Аккумулирующий жезл",
+      "jp": "蓄積のワンド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 50,
+      "critChance": 8.5,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GainRandomChargeEvery6SecondsImplicitE2",
+        "lines": [
+          {
+            "stat": "gain_X_random_charges_every_6_seconds",
+            "value": "2",
+            "text": {
+              "en": "Gain {} Endurance, Frenzy or Power Charges every 6 seconds",
+              "kr": "6초마다 인내, 격분 또는 권능 충전 {} 획득",
+              "tw": "每 6 秒獲得 {} 顆耐力、狂怒或暴擊球",
+              "ru": "Дарует зарядов выносливости, ярости или энергии каждые 6 секунд: {}",
+              "jp": "6秒ごとにエンデュランスチャージ、フレンジーチャージまたはパワーチャージを{}個獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "somatic-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Somatic Wand",
+      "kr": "신체의 마법봉",
+      "tw": "軀體魔杖",
+      "ru": "Соматический жезл",
+      "jp": "肉体のワンド"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 18,
+      "critChance": 8.5,
+      "attackTime": 0.625,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "KineticWandImplicit",
+        "lines": [
+          {
+            "stat": "kinetic_wand_implicit_cannot_roll_caster_modifiers",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Caster Modifiers",
+              "kr": "시전 속성 부여 불가",
+              "tw": "不能骰出法術詞綴",
+              "ru": "Не может иметь свойства чар",
+              "jp": "キャスターモッドはロールされない"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blasting-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Blasting Wand",
+      "kr": "폭발하는 마법봉",
+      "tw": "爆裂魔杖",
+      "ru": "Подрывной жезл",
+      "jp": "爆破のワンド"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 39,
+      "critChance": 8.5,
+      "attackTime": 0.625,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "KineticWandImplicit",
+        "lines": [
+          {
+            "stat": "kinetic_wand_implicit_cannot_roll_caster_modifiers",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Caster Modifiers",
+              "kr": "시전 속성 부여 불가",
+              "tw": "不能骰出法術詞綴",
+              "ru": "Не может иметь свойства чар",
+              "jp": "キャスターモッドはロールされない"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "kinetic-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Kinetic Wand",
+      "kr": "역학 마법봉",
+      "tw": "動能魔杖",
+      "ru": "Кинетический жезл",
+      "jp": "キネティックワンド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 54,
+      "critChance": 8.5,
+      "attackTime": 0.625,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "KineticWandImplicit",
+        "lines": [
+          {
+            "stat": "kinetic_wand_implicit_cannot_roll_caster_modifiers",
+            "value": "1",
+            "text": {
+              "en": "Cannot roll Caster Modifiers",
+              "kr": "시전 속성 부여 불가",
+              "tw": "不能骰出法術詞綴",
+              "ru": "Не может иметь свойства чар",
+              "jp": "キャスターモッドはロールされない"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "calling-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Calling Wand",
+      "kr": "부름의 마법봉",
+      "tw": "呼喚法杖",
+      "ru": "Жезл зова",
+      "jp": "呼集のワンド"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 23,
+      "critChance": 8,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MinionDamageImplicitWand3",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "12~16",
+            "text": {
+              "en": "Minions deal 12~16% increased Damage",
+              "kr": "소환수가 주는 피해 12~16% 증가",
+              "tw": "增加 12~16% 召喚物所造成的傷害",
+              "ru": "Приспешники имеют 12~16% увеличение урона",
+              "jp": "ミニオンのダメージが12~16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "convening-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Convening Wand",
+      "kr": "회합의 마법봉",
+      "tw": "召集法杖",
+      "ru": "Жезл вызова",
+      "jp": "招来のワンド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 47,
+      "critChance": 8,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MinionDamageImplicitWand2",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "20~24",
+            "text": {
+              "en": "Minions deal 20~24% increased Damage",
+              "kr": "소환수가 주는 피해 20~24% 증가",
+              "tw": "增加 20~24% 召喚物所造成的傷害",
+              "ru": "Приспешники имеют 20~24% увеличение урона",
+              "jp": "ミニオンのダメージが20~24%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "convoking-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Convoking Wand",
+      "kr": "소집의 마법봉",
+      "tw": "召喚法杖",
+      "ru": "Жезл призыва",
+      "jp": "召集のワンド"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 52,
+      "critChance": 8,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MinionDamageImplicitWand1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "26~30",
+            "text": {
+              "en": "Minions deal 26~30% increased Damage",
+              "kr": "소환수가 주는 피해 26~30% 증가",
+              "tw": "增加 26~30% 召喚物所造成的傷害",
+              "ru": "Приспешники имеют 26~30% увеличение урона",
+              "jp": "ミニオンのダメージが26~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "driftwood-wand",
+    "classId": "Wand",
+    "className": {
+      "en": "Wands",
+      "kr": "마법봉",
+      "tw": "法杖",
+      "ru": "Жезлы",
+      "jp": "ワンド"
+    },
+    "name": {
+      "en": "Driftwood Wand",
+      "kr": "표류목 마법봉",
+      "tw": "朽木法杖",
+      "ru": "Жезл из плавника",
+      "jp": "流木のワンド"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 8,
+      "critChance": 8.3,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageOnWeaponImplicitWand1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "8~12",
+            "text": {
+              "en": "8~12% increased Spell Damage",
+              "kr": "주문 피해 8~12% 증가",
+              "tw": "增加 8~12% 法術傷害",
+              "ru": "8~12% увеличение урона от чар",
+              "jp": "スペルダメージが8~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

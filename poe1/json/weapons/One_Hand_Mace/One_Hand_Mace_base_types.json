@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "driftwood-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Driftwood Club",
+      "kr": "표류목 곤봉",
+      "tw": "朽木之棒",
+      "ru": "Дубинка из плавника",
+      "jp": "流木のこん棒"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 8,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tribal-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Tribal Club",
+      "kr": "부족 곤봉",
+      "tw": "祭儀之杵",
+      "ru": "Дубинка аборигена",
+      "jp": "部族のこん棒"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 13,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiked-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Spiked Club",
+      "kr": "가시 박힌 곤봉",
+      "tw": "鈍釘木棒",
+      "ru": "Шипастая дубинка",
+      "jp": "釘のこん棒"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 16,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stone-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Stone Hammer",
+      "kr": "쇄석 망치",
+      "tw": "石錘",
+      "ru": "Каменный молот",
+      "jp": "ストーンハンマー"
+    },
+    "dropLevel": 15,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 27,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "15",
+            "text": {
+              "en": "15% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 15% 감소",
+              "tw": "減少 15% 敵人暈眩門檻",
+              "ru": "15% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が15%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "war-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "War Hammer",
+      "kr": "전쟁 망치",
+      "tw": "戰錘",
+      "ru": "Воинский молот",
+      "jp": "ウォーハンマー"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 31,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bladed-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Bladed Mace",
+      "kr": "톱날 철퇴",
+      "tw": "多刃錘",
+      "ru": "Булава с пластинами",
+      "jp": "刃付きメイス"
+    },
+    "dropLevel": 24,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 32,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ceremonial-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Ceremonial Mace",
+      "kr": "의식용 철퇴",
+      "tw": "祭禮之錘",
+      "ru": "Церемониальная булава",
+      "jp": "儀式用メイス"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 40,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "15",
+            "text": {
+              "en": "15% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 15% 감소",
+              "tw": "減少 15% 敵人暈眩門檻",
+              "ru": "15% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が15%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dream-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Dream Mace",
+      "kr": "몽환의 철퇴",
+      "tw": "夢境之錘",
+      "ru": "Булава видений",
+      "jp": "ドリームメイス"
+    },
+    "dropLevel": 32,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 43,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "wyrm-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Wyrm Mace",
+      "kr": "아룡 철퇴",
+      "tw": "古龍之錘",
+      "ru": "Булава червя",
+      "jp": "ワームメイス"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 42,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalIncreasedAttackSpeedImplicitMarakethOneHandMace1",
+        "lines": [
+          {
+            "stat": "local_attack_speed_+%",
+            "value": "4",
+            "text": {
+              "en": "4% increased Attack Speed",
+              "kr": "공격 속도 4% 증가",
+              "tw": "增加 4% 攻擊速度",
+              "ru": "4% повышение скорости атаки",
+              "jp": "アタックスピードが4%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "petrified-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Petrified Club",
+      "kr": "석화된 곤봉",
+      "tw": "堅石木棒",
+      "ru": "Окаменелая дубинка",
+      "jp": "石のこん棒"
+    },
+    "dropLevel": 35,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 51,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "barbed-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Barbed Club",
+      "kr": "가시 돋친 곤봉",
+      "tw": "銳刺木棒",
+      "ru": "Колючая дубинка",
+      "jp": "トゲのこん棒"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 42,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rock-breaker",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Rock Breaker",
+      "kr": "바위 분쇄기",
+      "tw": "破岩錘",
+      "ru": "Камнедробитель",
+      "jp": "ロックブレーカー"
+    },
+    "dropLevel": 41,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 69,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "15",
+            "text": {
+              "en": "15% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 15% 감소",
+              "tw": "減少 15% 敵人暈眩門檻",
+              "ru": "15% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が15%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "battle-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Battle Hammer",
+      "kr": "전투용 망치",
+      "tw": "強化戰錘",
+      "ru": "Боевой молот",
+      "jp": "バトルハンマー"
+    },
+    "dropLevel": 44,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 59,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flanged-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Flanged Mace",
+      "kr": "테두리 철퇴",
+      "tw": "護體之錘",
+      "ru": "Шестопёр",
+      "jp": "フランジメイス"
+    },
+    "dropLevel": 47,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 63,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ornate-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Ornate Mace",
+      "kr": "화려한 철퇴",
+      "tw": "華麗之錘",
+      "ru": "Украшенная булава",
+      "jp": "装飾メイス"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 67,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "15",
+            "text": {
+              "en": "15% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 15% 감소",
+              "tw": "減少 15% 敵人暈眩門檻",
+              "ru": "15% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が15%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "phantom-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Phantom Mace",
+      "kr": "혼령 철퇴",
+      "tw": "幻象之錘",
+      "ru": "Призрачная булава",
+      "jp": "ファントムメイス"
+    },
+    "dropLevel": 53,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 33,
+      "damageMax": 69,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dragon-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Dragon Mace",
+      "kr": "용 철퇴",
+      "tw": "龍之錘",
+      "ru": "Булава дракона",
+      "jp": "ドラゴンメイス"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 66,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalIncreasedAttackSpeedImplicitMarakethOneHandMace1",
+        "lines": [
+          {
+            "stat": "local_attack_speed_+%",
+            "value": "4",
+            "text": {
+              "en": "4% increased Attack Speed",
+              "kr": "공격 속도 4% 증가",
+              "tw": "增加 4% 攻擊速度",
+              "ru": "4% повышение скорости атаки",
+              "jp": "アタックスピードが4%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ancestral-club",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Ancestral Club",
+      "kr": "선대의 곤봉",
+      "tw": "祖靈之杵",
+      "ru": "Дубинка предков",
+      "jp": "祖先のこん棒"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 48,
+      "damageMax": 80,
+      "critChance": 5,
+      "attackTime": 0.8,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tenderizer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Tenderizer",
+      "kr": "고기 망치",
+      "tw": "裂肉之錘",
+      "ru": "Палица",
+      "jp": "テンダライザー"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 62,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gavel",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Gavel",
+      "kr": "의사봉",
+      "tw": "堅錘",
+      "ru": "Камнетёс",
+      "jp": "ガベル"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 54,
+      "damageMax": 101,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "15",
+            "text": {
+              "en": "15% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 15% 감소",
+              "tw": "減少 15% 敵人暈眩門檻",
+              "ru": "15% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が15%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "legion-hammer",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Legion Hammer",
+      "kr": "군단 망치",
+      "tw": "軍團之錘",
+      "ru": "Молот легионера",
+      "jp": "軍隊のハンマー"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 81,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pernach",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Pernach",
+      "kr": "페르나치",
+      "tw": "鋒刃重錘",
+      "ru": "Пернач",
+      "jp": "ペルナッハ"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 82,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "auric-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Auric Mace",
+      "kr": "금빛 철퇴",
+      "tw": "聖約之錘",
+      "ru": "Золотая булава",
+      "jp": "黄金のメイス"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 65,
+      "damageMax": 82,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace2",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "15",
+            "text": {
+              "en": "15% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 15% 감소",
+              "tw": "減少 15% 敵人暈眩門檻",
+              "ru": "15% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が15%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "nightmare-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Nightmare Mace",
+      "kr": "악몽의 철퇴",
+      "tw": "夢魘之錘",
+      "ru": "Кошмарная булава",
+      "jp": "ナイトメアメイス"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 80,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunThresholdReductionImplicitMace1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "10",
+            "text": {
+              "en": "10% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 10% 감소",
+              "tw": "減少 10% 敵人暈眩門檻",
+              "ru": "10% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が10%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "behemoth-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Behemoth Mace",
+      "kr": "거대한 철퇴",
+      "tw": "巴哈姆特",
+      "ru": "Булава исполина",
+      "jp": "ベヒモスメイス"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 74,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalIncreasedAttackSpeedImplicitMarakethOneHandMace2",
+        "lines": [
+          {
+            "stat": "local_attack_speed_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Attack Speed",
+              "kr": "공격 속도 6% 증가",
+              "tw": "增加 6% 攻擊速度",
+              "ru": "6% повышение скорости атаки",
+              "jp": "アタックスピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flare-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Flare Mace",
+      "kr": "조명탄 철퇴",
+      "tw": "閃耀之錘",
+      "ru": "Cверкающая булава",
+      "jp": "鳴動のメイス"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 41,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TriggeredFieryImpactOnHitWithWeaponImplicitE1",
+        "lines": [
+          {
+            "stat": "local_display_trigger_level_x_fiery_impact_on_melee_hit_with_this_weapon",
+            "value": "10",
+            "text": {
+              "en": "Trigger Level 10 Fiery Impact on Melee Hit with this Weapon",
+              "kr": "이 무기로 근접 명중 시 10레벨 불타는 충격 발동",
+              "tw": "使用此武器近戰擊中時，觸發等級 10 的熾熱衝擊",
+              "ru": "Вызывает срабатывание Огненного удара 10 уровня при ударе этим оружием в ближнем бою",
+              "jp": "この武器による近接ヒット時にレベル10ファイアリーインパクトをトリガーする"
+            }
+          },
+          {
+            "stat": "local_use_skill_on_melee_hit_%",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crack-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Crack Mace",
+      "kr": "균열 철퇴",
+      "tw": "碎裂之錘",
+      "ru": "Трескучая булава",
+      "jp": "爆音のメイス"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 64,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TriggeredFieryImpactOnHitWithWeaponImplicitE2_",
+        "lines": [
+          {
+            "stat": "local_display_trigger_level_x_fiery_impact_on_melee_hit_with_this_weapon",
+            "value": "15",
+            "text": {
+              "en": "Trigger Level 15 Fiery Impact on Melee Hit with this Weapon",
+              "kr": "이 무기로 근접 명중 시 15레벨 불타는 충격 발동",
+              "tw": "使用此武器近戰擊中時，觸發等級 15 的熾熱衝擊",
+              "ru": "Вызывает срабатывание Огненного удара 15 уровня при ударе этим оружием в ближнем бою",
+              "jp": "この武器による近接ヒット時にレベル15ファイアリーインパクトをトリガーする"
+            }
+          },
+          {
+            "stat": "local_use_skill_on_melee_hit_%",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "boom-mace",
+    "classId": "One Hand Mace",
+    "className": {
+      "en": "One Hand Maces",
+      "kr": "한손 철퇴",
+      "tw": "單手錘",
+      "ru": "Одноручные булавы",
+      "jp": "片手メイス"
+    },
+    "name": {
+      "en": "Boom Mace",
+      "kr": "우뢰 철퇴",
+      "tw": "爆裂之錘",
+      "ru": "Грохочущая булава",
+      "jp": "轟音のメイス"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 81,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TriggeredFieryImpactOnHitWithWeaponImplicitE3",
+        "lines": [
+          {
+            "stat": "local_display_trigger_level_x_fiery_impact_on_melee_hit_with_this_weapon",
+            "value": "20",
+            "text": {
+              "en": "Trigger Level 20 Fiery Impact on Melee Hit with this Weapon",
+              "kr": "이 무기로 근접 명중 시 20레벨 불타는 충격 발동",
+              "tw": "使用此武器近戰擊中時，觸發等級 20 的熾熱衝擊",
+              "ru": "Вызывает срабатывание Огненного удара 20 уровня при ударе этим оружием в ближнем бою",
+              "jp": "この武器による近接ヒット時にレベル20ファイアリーインパクトをトリガーする"
+            }
+          },
+          {
+            "stat": "local_use_skill_on_melee_hit_%",
+            "value": "100",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

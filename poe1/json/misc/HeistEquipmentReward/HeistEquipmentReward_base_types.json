@@ -1,0 +1,190 @@
+[
+  {
+    "id": "unused-heist-test-reward-equipment",
+    "classId": "HeistEquipmentReward",
+    "className": {
+      "en": "Heist Brooches",
+      "kr": "강탈 브로치",
+      "tw": "劫盜胸針",
+      "ru": "Разбойничьи броши",
+      "jp": "ハイストブローチ"
+    },
+    "name": {
+      "en": "[UNUSED] Heist Test Reward Equipment",
+      "kr": "[UNUSED] Heist Test Reward Equipment",
+      "tw": "[UNUSED] Heist Test Reward Equipment",
+      "ru": "[UNUSED] Heist Test Reward Equipment",
+      "jp": "[UNUSED] Heist Test Reward Equipment"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "silver-brooch",
+    "classId": "HeistEquipmentReward",
+    "className": {
+      "en": "Heist Brooches",
+      "kr": "강탈 브로치",
+      "tw": "劫盜胸針",
+      "ru": "Разбойничьи броши",
+      "jp": "ハイストブローチ"
+    },
+    "name": {
+      "en": "Silver Brooch",
+      "kr": "은 브로치",
+      "tw": "白銀胸針",
+      "ru": "Серебряная брошь",
+      "jp": "銀のブローチ"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCIncreasedRarityImplicit1",
+        "lines": [
+          {
+            "stat": "heist_item_rarity_+%",
+            "value": "11~15",
+            "text": {
+              "en": "11~15% increased Rarity of Items dropped in Heists",
+              "kr": "강탈에서 떨어지는 아이템 희귀도 11~15% 증가",
+              "tw": "劫盜時增加 11~15% 物品掉落稀有度",
+              "ru": "11~15% повышение редкости предметов, выпадающих во время краж",
+              "jp": "ハイスト中にドロップするアイテムのレアリティが11~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-brooch",
+    "classId": "HeistEquipmentReward",
+    "className": {
+      "en": "Heist Brooches",
+      "kr": "강탈 브로치",
+      "tw": "劫盜胸針",
+      "ru": "Разбойничьи броши",
+      "jp": "ハイストブローチ"
+    },
+    "name": {
+      "en": "Golden Brooch",
+      "kr": "황금 브로치",
+      "tw": "黃金胸針",
+      "ru": "Золотая брошь",
+      "jp": "金のブローチ"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCIncreasedRarityImplicit2",
+        "lines": [
+          {
+            "stat": "heist_item_rarity_+%",
+            "value": "16~20",
+            "text": {
+              "en": "16~20% increased Rarity of Items dropped in Heists",
+              "kr": "강탈에서 떨어지는 아이템 희귀도 16~20% 증가",
+              "tw": "劫盜時增加 16~20% 物品掉落稀有度",
+              "ru": "16~20% повышение редкости предметов, выпадающих во время краж",
+              "jp": "ハイスト中にドロップするアイテムのレアリティが16~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "enamel-brooch",
+    "classId": "HeistEquipmentReward",
+    "className": {
+      "en": "Heist Brooches",
+      "kr": "강탈 브로치",
+      "tw": "劫盜胸針",
+      "ru": "Разбойничьи броши",
+      "jp": "ハイストブローチ"
+    },
+    "name": {
+      "en": "Enamel Brooch",
+      "kr": "유약 도색 브로치",
+      "tw": "琺瑯胸針",
+      "ru": "Глянцевая брошь",
+      "jp": "エナメルのブローチ"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCIncreasedRarityImplicit3__",
+        "lines": [
+          {
+            "stat": "heist_item_rarity_+%",
+            "value": "21~25",
+            "text": {
+              "en": "21~25% increased Rarity of Items dropped in Heists",
+              "kr": "강탈에서 떨어지는 아이템 희귀도 21~25% 증가",
+              "tw": "劫盜時增加 21~25% 物品掉落稀有度",
+              "ru": "21~25% повышение редкости предметов, выпадающих во время краж",
+              "jp": "ハイスト中にドロップするアイテムのレアリティが21~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "foliate-brooch",
+    "classId": "HeistEquipmentReward",
+    "className": {
+      "en": "Heist Brooches",
+      "kr": "강탈 브로치",
+      "tw": "劫盜胸針",
+      "ru": "Разбойничьи броши",
+      "jp": "ハイストブローチ"
+    },
+    "name": {
+      "en": "Foliate Brooch",
+      "kr": "잎사귀 브로치",
+      "tw": "箔片胸針",
+      "ru": "Амальгамированная брошь",
+      "jp": "葉形のブローチ"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCIncreasedRarityImplicit4_",
+        "lines": [
+          {
+            "stat": "heist_item_rarity_+%",
+            "value": "26~30",
+            "text": {
+              "en": "26~30% increased Rarity of Items dropped in Heists",
+              "kr": "강탈에서 떨어지는 아이템 희귀도 26~30% 증가",
+              "tw": "劫盜時增加 26~30% 物品掉落稀有度",
+              "ru": "26~30% повышение редкости предметов, выпадающих во время краж",
+              "jp": "ハイスト中にドロップするアイテムのレアリティが26~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

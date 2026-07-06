@@ -1,0 +1,578 @@
+[
+  {
+    "id": "iron-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Iron Staff",
+      "kr": "철제 지팡이",
+      "tw": "鐵鍛長杖",
+      "ru": "Крепкий посох",
+      "jp": "アイアンスタッフ"
+    },
+    "dropLevel": 13,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 42,
+      "critChance": 7.6,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff1",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "20",
+            "text": {
+              "en": "20% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 20%",
+              "tw": "持長杖時 20% 攻擊傷害格擋率",
+              "ru": "20% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coiled-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Coiled Staff",
+      "kr": "코일형 지팡이",
+      "tw": "強化長杖",
+      "ru": "Кручёный посох",
+      "jp": "渦巻のスタッフ"
+    },
+    "dropLevel": 23,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 57,
+      "critChance": 7.7,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff1",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "20",
+            "text": {
+              "en": "20% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 20%",
+              "tw": "持長杖時 20% 攻擊傷害格擋率",
+              "ru": "20% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vile-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Vile Staff",
+      "kr": "끔찍한 지팡이",
+      "tw": "毒牙長杖",
+      "ru": "Посох нечистого",
+      "jp": "ヴァイルスタッフ"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 76,
+      "critChance": 7.5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff1",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "20",
+            "text": {
+              "en": "20% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 20%",
+              "tw": "持長杖時 20% 攻擊傷害格擋率",
+              "ru": "20% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "military-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Military Staff",
+      "kr": "군용 지팡이",
+      "tw": "軍用長杖",
+      "ru": "Боевой посох",
+      "jp": "ミリタリースタッフ"
+    },
+    "dropLevel": 41,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 114,
+      "critChance": 7.9,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff2",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "22",
+            "text": {
+              "en": "22% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 22%",
+              "tw": "持長杖時 22% 攻擊傷害格擋率",
+              "ru": "22% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 22%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "serpentine-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Serpentine Staff",
+      "kr": "사문석 지팡이",
+      "tw": "蛇紋長杖",
+      "ru": "Змеиный посох",
+      "jp": "蛇のスタッフ"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 56,
+      "damageMax": 117,
+      "critChance": 7.8,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff2",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "22",
+            "text": {
+              "en": "22% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 22%",
+              "tw": "持長杖時 22% 攻擊傷害格擋率",
+              "ru": "22% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 22%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "foul-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Foul Staff",
+      "kr": "사악한 지팡이",
+      "tw": "惡靈長杖",
+      "ru": "Посох падшего",
+      "jp": "ファウルスタッフ"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 65,
+      "damageMax": 121,
+      "critChance": 7.5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff2",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "22",
+            "text": {
+              "en": "22% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 22%",
+              "tw": "持長杖時 22% 攻擊傷害格擋率",
+              "ru": "22% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 22%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ezomyte-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Ezomyte Staff",
+      "kr": "에조미어 지팡이",
+      "tw": "艾茲麥長杖",
+      "ru": "Посох эзомита",
+      "jp": "エゾマイトスタッフ"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 160,
+      "critChance": 8.5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff3",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "25",
+            "text": {
+              "en": "25% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 25%",
+              "tw": "持長杖時 25% 攻擊傷害格擋率",
+              "ru": "25% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "maelstr-m-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Maelström Staff",
+      "kr": "마엘스트롬 지팡이",
+      "tw": "風暴長杖",
+      "ru": "Посох вихрей",
+      "jp": "メールストロームスタッフ"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 71,
+      "damageMax": 147,
+      "critChance": 8.1,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff3",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "25",
+            "text": {
+              "en": "25% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 25%",
+              "tw": "持長杖時 25% 攻擊傷害格擋率",
+              "ru": "25% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "judgement-staff",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Judgement Staff",
+      "kr": "심판 지팡이",
+      "tw": "審判長杖",
+      "ru": "Посох судьи",
+      "jp": "ジャッジメントスタッフ"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 73,
+      "damageMax": 136,
+      "critChance": 8,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffBlockPercentImplicitStaff3",
+        "lines": [
+          {
+            "stat": "staff_block_%",
+            "value": "25",
+            "text": {
+              "en": "25% Chance to Block Attack Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 공격 피해 막기 확률 25%",
+              "tw": "持長杖時 25% 攻擊傷害格擋率",
+              "ru": "25% шанс блокировать урон от атак с посохом в руках",
+              "jp": "スタッフ装備中のアタックブロック率 25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "capacity-rod",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Capacity Rod",
+      "kr": "가능성의 막대",
+      "tw": "才能長桿",
+      "ru": "Стержень способности",
+      "jp": "能力のロッド"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 73,
+      "critChance": 8.3,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaximumPowerandEnduranceChargesImplicitE1",
+        "lines": [
+          {
+            "stat": "maximum_power_and_endurance_charges_+",
+            "value": "1",
+            "text": {
+              "en": "{:+d} to Maximum Power Charges and Maximum Endurance Charges",
+              "kr": "권능 충전 및 인내 충전 최대치 {:+d}",
+              "tw": "{:+d} 最大暴擊球和耐力球數量",
+              "ru": "{:+d} к максимуму зарядов энергии и выносливости",
+              "jp": "パワーチャージおよびエンデュランスチャージの最大数 {:+d}"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "potentiality-rod",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Potentiality Rod",
+      "kr": "잠재력의 막대",
+      "tw": "潛能長桿",
+      "ru": "Стержень потенциала",
+      "jp": "潜在力のロッド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 61,
+      "damageMax": 113,
+      "critChance": 8.3,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaximumPowerandEnduranceChargesImplicitE1",
+        "lines": [
+          {
+            "stat": "maximum_power_and_endurance_charges_+",
+            "value": "1",
+            "text": {
+              "en": "{:+d} to Maximum Power Charges and Maximum Endurance Charges",
+              "kr": "권능 충전 및 인내 충전 최대치 {:+d}",
+              "tw": "{:+d} 最大暴擊球和耐力球數量",
+              "ru": "{:+d} к максимуму зарядов энергии и выносливости",
+              "jp": "パワーチャージおよびエンデュランスチャージの最大数 {:+d}"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "eventuality-rod",
+    "classId": "Warstaff",
+    "className": {
+      "en": "Warstaves",
+      "kr": "전쟁지팡이",
+      "tw": "征戰長杖",
+      "ru": "Воинские посохи",
+      "jp": "ウォースタッフ"
+    },
+    "name": {
+      "en": "Eventuality Rod",
+      "kr": "불예측의 막대",
+      "tw": "萬能長桿",
+      "ru": "Стержень допустимости",
+      "jp": "偶発性のロッド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 78,
+      "damageMax": 144,
+      "critChance": 8.3,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaximumPowerandEnduranceChargesImplicitE1",
+        "lines": [
+          {
+            "stat": "maximum_power_and_endurance_charges_+",
+            "value": "1",
+            "text": {
+              "en": "{:+d} to Maximum Power Charges and Maximum Endurance Charges",
+              "kr": "권능 충전 및 인내 충전 최대치 {:+d}",
+              "tw": "{:+d} 最大暴擊球和耐力球數量",
+              "ru": "{:+d} к максимуму зарядов энергии и выносливости",
+              "jp": "パワーチャージおよびエンデュランスチャージの最大数 {:+d}"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

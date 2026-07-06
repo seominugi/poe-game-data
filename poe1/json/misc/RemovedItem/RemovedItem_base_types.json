@@ -1,0 +1,733 @@
+[
+  {
+    "id": "fleshgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Fleshgraft",
+      "kr": "살점기생체",
+      "tw": "血肉接肢",
+      "ru": "Нарост плоти",
+      "jp": "肉のグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "battering-uulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Battering Uulgraft",
+      "kr": "구타하는 울기생체",
+      "tw": "烏爾尼托的破壞接肢",
+      "ru": "Пробивающий нарост Уул",
+      "jp": "殴打のウールグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitUulNetol1",
+        "lines": [
+          {
+            "stat": "base_stun_threshold_reduction_+%",
+            "value": "4~12",
+            "text": {
+              "en": "4~12% reduced Enemy Stun Threshold",
+              "kr": "적 기절 한계치 4~12% 감소",
+              "tw": "減少 4~12% 敵人暈眩門檻",
+              "ru": "4~12% снижение порога оглушения врагов",
+              "jp": "敵スタン閾値が4~12%減少する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiking-uulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Spiking Uulgraft",
+      "kr": "구타하는 울기생체",
+      "tw": "烏爾尼托的銳釘接肢",
+      "ru": "Шипастый нарост Уул",
+      "jp": "棘のウールグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitUulNetol2",
+        "lines": [
+          {
+            "stat": "bleed_on_hit_with_attacks_%",
+            "value": "4~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "impaling-uulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Impaling Uulgraft",
+      "kr": "꿰뚫는 울기생체",
+      "tw": "烏爾尼托的穿刺接肢",
+      "ru": "Прокалывающий нарост Уул",
+      "jp": "串刺しのウールグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitUulNetol3",
+        "lines": [
+          {
+            "stat": "attacks_impale_on_hit_%_chance",
+            "value": "4~12",
+            "text": {
+              "en": "4~12% chance to Impale Enemies on Hit with Attacks",
+              "kr": "공격 명중 시 4~12%의 확률로 적 꿰뚫음",
+              "tw": "攻擊擊中時有 4~12% 機率穿刺敵人",
+              "ru": "4~12% шанс наложить на врагов Прокол при нанесении удара атаками",
+              "jp": "アタックによるヒット時に4~12%の確率で敵を串刺しにする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hardening-uulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Hardening Uulgraft",
+      "kr": "경화하는 울기생체",
+      "tw": "烏爾尼托的硬化接肢",
+      "ru": "Укрепляющий нарост Уул",
+      "jp": "硬化のウールグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitUulNetol4",
+        "lines": [
+          {
+            "stat": "base_additional_physical_damage_reduction_%",
+            "value": "1~3",
+            "text": {
+              "en": "1~3% additional Physical Damage Reduction",
+              "kr": "받는 물리 피해 1~3% 추가 감소",
+              "tw": "1~3% 額外物理傷害減免",
+              "ru": "1~3% дополнительного уменьшения получаемого физического урона",
+              "jp": "物理ダメージ軽減率が1~3%される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "molten-xophgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Molten Xophgraft",
+      "kr": "녹아내린 조프기생체",
+      "tw": "索伏的熔岩接肢",
+      "ru": "Расплавленный нарост Ксофа",
+      "jp": "マグマのゾフグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitXoph1",
+        "lines": [
+          {
+            "stat": "physical_damage_reduction_rating_+%",
+            "value": "10~20",
+            "text": {
+              "en": "10~20% increased Armour",
+              "kr": "방어도 10~20% 증가",
+              "tw": "增加 10~20% 護甲",
+              "ru": "10~20% повышение брони",
+              "jp": "アーマーが10~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "erupting-xophgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Erupting Xophgraft",
+      "kr": "분출하는 조프기생체",
+      "tw": "索伏的噴湧接肢",
+      "ru": "Извергающий нарост Ксофа",
+      "jp": "噴出のゾフグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitXoph2",
+        "lines": [
+          {
+            "stat": "area_damage_+%",
+            "value": "8~16",
+            "text": {
+              "en": "8~16% increased Area Damage",
+              "kr": "범위 피해 8~16% 증가",
+              "tw": "增加 8~16% 範圍傷害",
+              "ru": "8~16% увеличение урона по области",
+              "jp": "範囲ダメージが8~16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flamecaller-xophgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Flamecaller Xophgraft",
+      "kr": "불길소환사 조프기생체",
+      "tw": "索伏的換焰接肢",
+      "ru": "Пламезовущий нарост Ксофа",
+      "jp": "フレイムコーラーのゾフグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitXoph3",
+        "lines": [
+          {
+            "stat": "elemental_damage_with_attack_skills_+%",
+            "value": "8~16",
+            "text": {
+              "en": "8~16% increased Elemental Damage with Attack Skills",
+              "kr": "공격 스킬의 원소 피해 8~16% 증가",
+              "tw": "攻擊技能增加 8~16% 元素傷害",
+              "ru": "8~16% увеличение урона от стихий от умений атак",
+              "jp": "アタックスキルの元素ダメージが8~16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stoking-xophgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Stoking Xophgraft",
+      "kr": "불 때는 조프기생체",
+      "tw": "索伏的燃灼接肢",
+      "ru": "Разжигающий нарост Ксофа",
+      "jp": "炎上のゾフグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitXoph4",
+        "lines": [
+          {
+            "stat": "base_elemental_status_ailment_duration_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Duration of Elemental Ailments on Enemies",
+              "kr": "적에게 적용되는 원소 상태 이상 지속시간 5~10% 증가",
+              "tw": "增加 5~10% 敵人身上元素異常狀態時間",
+              "ru": "5~10% увеличение длительности стихийных состояний на врагах",
+              "jp": "敵に対する元素系状態異常の持続時間が5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "storming-eshgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Storming Eshgraft",
+      "kr": "몰아치는 에쉬기생체",
+      "tw": "艾許的雷暴接肢",
+      "ru": "Бушующий нарост Иш",
+      "jp": "嵐のエシュグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitEsh1",
+        "lines": [
+          {
+            "stat": "global_minimum_added_lightning_damage",
+            "value": "1~4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "global_maximum_added_lightning_damage",
+            "value": "18~20",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "replicating-eshgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Replicating Eshgraft",
+      "kr": "복제하는 에쉬기생체",
+      "tw": "艾許的重現接肢",
+      "ru": "Реплицирующий нарост Иш",
+      "jp": "複製のエシュグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitEsh2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3~5",
+            "text": {
+              "en": "3~5% increased Movement Speed",
+              "kr": "이동 속도 3~5% 증가",
+              "tw": "增加 3~5% 移動速度",
+              "ru": "3~5% повышение скорости передвижения",
+              "jp": "移動スピードが3~5%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "draining-eshgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Draining Eshgraft",
+      "kr": "고갈시키는 에쉬기생체",
+      "tw": "艾許的汲取接肢",
+      "ru": "Осущающий нарост Иш",
+      "jp": "吸収のエシュグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitEsh3",
+        "lines": [
+          {
+            "stat": "spell_area_of_effect_+%",
+            "value": "5~10",
+            "text": {
+              "en": "Spell Skills have 5~10% increased Area of Effect",
+              "kr": "주문 스킬의 효과 범위 5~10% 증가",
+              "tw": "法術技能增加 5~10% 範圍效果",
+              "ru": "5~10% увеличение области действия умений чар",
+              "jp": "スペルスキルの効果範囲が5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jolting-eshgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Jolting Eshgraft",
+      "kr": "경악시키는 에쉬기생체",
+      "tw": "艾許的震顫接肢",
+      "ru": "Встряхивающий нарост Иш",
+      "jp": "雷撃のエシュグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitEsh4",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "4~12",
+            "text": {
+              "en": "4~12% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 4~12% 증가",
+              "tw": "增加 4~12% 全域暴擊率",
+              "ru": "4~12% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が4~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "squalling-tulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Squalling Tulgraft",
+      "kr": "울부짖는 툴기생체",
+      "tw": "托沃的狂號接肢",
+      "ru": "Шквальный нарост Тул",
+      "jp": "暴雨のトゥルグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitTul1",
+        "lines": [
+          {
+            "stat": "projectile_damage_+%",
+            "value": "8~16",
+            "text": {
+              "en": "8~16% increased Projectile Damage",
+              "kr": "투사체 피해 8~16% 증가",
+              "tw": "增加 8~16% 投射物傷害",
+              "ru": "8~16% увеличение урона снарядов",
+              "jp": "投射物ダメージが8~16%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "freezing-tulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Freezing Tulgraft",
+      "kr": "동결하는 툴기생체",
+      "tw": "托沃的冷凍接肢",
+      "ru": "Замораживающий нарост Тул",
+      "jp": "凍結のトゥルグラフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitTul2",
+        "lines": [
+          {
+            "stat": "base_chance_to_freeze_%",
+            "value": "8~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "summoning-tulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Summoning Tulgraft",
+      "kr": "소환하는 툴기생체",
+      "tw": "托沃的召喚接肢",
+      "ru": "Призывающий нарост Тул",
+      "jp": "召喚のトゥルグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitTul3",
+        "lines": [
+          {
+            "stat": "minion_attack_and_cast_speed_+%",
+            "value": "4~8",
+            "text": {
+              "en": "Minions have 4~8% increased Attack and Cast Speed",
+              "kr": "소환수의 공격 및 시전 속도 4~8% 증가",
+              "tw": "召喚物增加 4~8% 攻擊和施放速度",
+              "ru": "Приспешники имеют 4~8% повышение скорости атаки и сотворения чар",
+              "jp": "ミニオンのアタックスピードおよびキャストスピードが4~8%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "aegis-tulgraft",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Aegis Tulgraft",
+      "kr": "비호의 툴기생체",
+      "tw": "托沃的聖盾接肢",
+      "ru": "Защищающий нарост Тул",
+      "jp": "イージスのトゥルグラフト"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "GraftImplicitTul4",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "3~6",
+            "text": {
+              "en": "3~6% to all Elemental Resistances",
+              "kr": "모든 원소 저항 3~6%",
+              "tw": "3~6% 全部元素抗性",
+              "ru": "3~6% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 3~6%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "growing-wombgift",
+    "classId": "RemovedItem",
+    "className": {
+      "en": "",
+      "kr": "",
+      "tw": "",
+      "ru": "",
+      "jp": ""
+    },
+    "name": {
+      "en": "Growing Wombgift",
+      "kr": "성장하는 생명의 결실",
+      "tw": "成長之胎贈",
+      "ru": "Растущий дар утробы",
+      "jp": "成長する母胎ギフト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Can grow into a Graft item on the Genesis Tree",
+        "kr": "기원의 나무에서 기생체 아이템으로 성장할 수 있습니다.",
+        "tw": "可在創始之樹上成長為一件接肢物品",
+        "ru": "Может вырасти в нарост на Дереве зарождения",
+        "jp": "創生の樹でグラフトアイテムに成長させられる。"
+      },
+      "directions": {
+        "en": "Place this item into an allocated equipment item womb on the Genesis Tree. Right click to retrieve from the Genesis Tree.",
+        "kr": "이 아이템을 기원의 나무에서 할당된 장비 아이템 생명의 근원에 장착하십시오. 우클릭하면 기원의 나무에서 꺼냅니다.",
+        "tw": "將此物品放入創始之樹上已分配的裝備之胎中。右鍵點擊即可從創始之樹中取回。",
+        "ru": "Поместите этот предмет в выбранную утробу для предметов снаряжения на Дереве зарождения. Щёлкните ПКМ, чтобы извлечь из Дерева зарождения.",
+        "jp": "このアイテムを創生の樹の割り当て済み装備品アイテムの母胎に配置して使用する。右クリックして創生の樹から取り外せる。"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

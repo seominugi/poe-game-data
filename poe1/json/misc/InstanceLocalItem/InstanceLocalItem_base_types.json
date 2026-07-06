@@ -1,0 +1,546 @@
+[
+  {
+    "id": "serpent-extract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Serpent Extract",
+      "kr": "독사 추출물",
+      "tw": "巨蛇萃取物",
+      "ru": "Экстракт змеи",
+      "jp": "サーペントのエキス"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": {
+      "stackSize": 10,
+      "description": {
+        "en": "Exiles that consume Serpent Extract daily are sane exiles. ",
+        "kr": "매일 독사 추출물을 섭취하는 유배자는 제정신인 유배자입니다.",
+        "tw": "每天攝取巨蛇萃取物的流亡者都能保持理智。",
+        "ru": "Изгнанник, ежедневно употребляющий экстракт змеи, – здоровый изгнанник.",
+        "jp": "サーペントのエキスを毎日消費しているエグザイルは正気です。"
+      },
+      "directions": {
+        "en": "Right click on this item to use it. Cannot be removed from hideout.",
+        "kr": "해당 아이템을 우클릭해 사용할 수 있습니다. 은신처에서 제거할 수 없습니다.",
+        "tw": "右鍵點擊以使用此物品。無法從藏身處移除。",
+        "ru": "Щёлкните правой кнопкой мыши по предмету, чтобы использовать. Нельзя вынести из убежища.",
+        "jp": "このアイテムを右クリックして使用する。隠れ家から取り除くことは出来ない"
+      }
+    },
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blighted-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Blighted Map",
+      "kr": "역병 걸린 지도",
+      "tw": "凋落的地圖",
+      "ru": "Заражённая карта",
+      "jp": "ブライトマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blight-ravaged-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Blight-ravaged Map",
+      "kr": "역병에 유린당한 지도",
+      "tw": "凋落蔓延地圖",
+      "ru": "Разорённая Скверной карта",
+      "jp": "ブライト荒廃マップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "al-hezmins-citadel-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Al-Hezmin's Citadel Map",
+      "kr": "알-헤즈민의 시타델 지도",
+      "tw": "奧赫茲明的壁壘地圖",
+      "ru": "Карта крепости Аль-Хезмина",
+      "jp": "アルヘズミンの城塞のマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "barans-citadel-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Baran's Citadel Map",
+      "kr": "바란의 시타델 지도",
+      "tw": "巴倫的壁壘地圖",
+      "ru": "Карта крепости Бэрана",
+      "jp": "バランの城塞のマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "droxs-citadel-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Drox's Citadel Map",
+      "kr": "드록스의 시타델 지도",
+      "tw": "圖拉克斯的壁壘地圖",
+      "ru": "Карта крепости Дрокса",
+      "jp": "ドロクスの城塞のマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "veritanias-citadel-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Veritania's Citadel Map",
+      "kr": "베리타니아의 시타델 지도",
+      "tw": "維羅提尼亞的壁壘地圖",
+      "ru": "Карта крепости Веритании",
+      "jp": "ヴェリタニアの城塞のマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "enslaver-occupied-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Enslaver-Occupied Map",
+      "kr": "조종자의 손에 넘어간 지도",
+      "tw": "異界·奴役盤據的地圖",
+      "ru": "Карта во власти Поработителя",
+      "jp": "エンスレイバーに占拠されたマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "eradicator-occupied-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Eradicator-Occupied Map",
+      "kr": "박멸자의 손에 넘어간 지도",
+      "tw": "異界·根除盤據的地圖",
+      "ru": "Карта во власти Искоренителя",
+      "jp": "エラディケーターに占拠されたマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "constrictor-occupied-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Constrictor-Occupied Map",
+      "kr": "위압자의 손에 넘어간 지도",
+      "tw": "異界·干擾盤據的地圖",
+      "ru": "Карта во власти Угнетателя",
+      "jp": "コンストリクターに占拠されたマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "purifier-occupied-map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Purifier-Occupied Map",
+      "kr": "정화자의 손에 넘어간 지도",
+      "tw": "異界·淨化盤據的地圖",
+      "ru": "Карта во власти Искупителя",
+      "jp": "ピュアリファイヤーに占拠されたマップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lockpicking-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Lockpicking Contract",
+      "kr": "자물쇠 따기 계약",
+      "tw": "撬鎖契約書",
+      "ru": "Контракт взлома",
+      "jp": "錠前破りの依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "brute-force-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Brute Force Contract",
+      "kr": "완력 계약",
+      "tw": "蠻力契約書",
+      "ru": "Контракт грубой силы",
+      "jp": "怪力の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "perception-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Perception Contract",
+      "kr": "통찰력 계약",
+      "tw": "洞察契約書",
+      "ru": "Контракт восприятия",
+      "jp": "知覚能力の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "demolition-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Demolition Contract",
+      "kr": "파괴 공작 계약",
+      "tw": "拆除契約書",
+      "ru": "Контракт взрывного дела",
+      "jp": "爆破の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "counter-thaumaturgy-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Counter-Thaumaturgy Contract",
+      "kr": "반-마석학 계약",
+      "tw": "解咒契約書",
+      "ru": "Контракт контрмагии",
+      "jp": "対魔術の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "trap-disarmament-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Trap Disarmament Contract",
+      "kr": "덫 해제 계약",
+      "tw": "陷阱拆除契約書",
+      "ru": "Контракт разминирования",
+      "jp": "罠解除の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "agility-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Agility Contract",
+      "kr": "민첩함 계약",
+      "tw": "靈敏契約書",
+      "ru": "Контракт проворства",
+      "jp": "敏捷性の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "deception-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Deception Contract",
+      "kr": "기만 계약",
+      "tw": "詐欺契約書",
+      "ru": "Контракт маскировки",
+      "jp": "欺瞞の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "engineering-contract",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Engineering Contract",
+      "kr": "공학 계약",
+      "tw": "工程契約書",
+      "ru": "Контракт инженерного дела",
+      "jp": "工作の依頼書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blueprint",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Blueprint",
+      "kr": "도면",
+      "tw": "藍圖",
+      "ru": "Чертёж",
+      "jp": "計画書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "map",
+    "classId": "InstanceLocalItem",
+    "className": {
+      "en": "Instance Local Items",
+      "kr": "인스턴스 특정 아이템",
+      "tw": "地區物品",
+      "ru": "Местные предметы области",
+      "jp": "インスタンスローカルアイテム"
+    },
+    "name": {
+      "en": "Map",
+      "kr": "지도",
+      "tw": "地圖",
+      "ru": "Карта",
+      "jp": "マップ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

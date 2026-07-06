@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "crude-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Crude Bow",
+      "kr": "조잡한 활",
+      "tw": "粗製弓",
+      "ru": "Грубый лук",
+      "jp": "粗雑な弓"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 13,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "short-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Short Bow",
+      "kr": "단궁",
+      "tw": "短弓",
+      "ru": "Короткий лук",
+      "jp": "ショートボウ"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 16,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "long-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Long Bow",
+      "kr": "장궁",
+      "tw": "長弓",
+      "ru": "Длинный лук",
+      "jp": "ロングボウ"
+    },
+    "dropLevel": 9,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 33,
+      "critChance": 6,
+      "attackTime": 0.769,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "composite-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Composite Bow",
+      "kr": "합성궁",
+      "tw": "合成弓",
+      "ru": "Составной лук",
+      "jp": "コンポジットボウ"
+    },
+    "dropLevel": 14,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 34,
+      "critChance": 6,
+      "attackTime": 0.769,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "recurve-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Recurve Bow",
+      "kr": "반곡궁",
+      "tw": "反曲弓",
+      "ru": "Загнутый лук",
+      "jp": "リカーブボウ"
+    },
+    "dropLevel": 18,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 45,
+      "critChance": 6.7,
+      "attackTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalMultiplierImplicitBow1",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 15~25%",
+              "tw": "15~25% 全域暴擊加成",
+              "ru": "15~25% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 15~25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bone-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Bone Bow",
+      "kr": "뼈 활",
+      "tw": "骨製弓",
+      "ru": "Костяной лук",
+      "jp": "骨の弓"
+    },
+    "dropLevel": 23,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 45,
+      "critChance": 6.5,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "royal-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Royal Bow",
+      "kr": "왕실 활",
+      "tw": "皇家獵弓",
+      "ru": "Царский лук",
+      "jp": "王者の弓"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 56,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WeaponElementalDamageImplicitBow1",
+        "lines": [
+          {
+            "stat": "elemental_damage_with_attack_skills_+%",
+            "value": "20~24",
+            "text": {
+              "en": "20~24% increased Elemental Damage with Attack Skills",
+              "kr": "공격 스킬의 원소 피해 20~24% 증가",
+              "tw": "攻擊技能增加 20~24% 元素傷害",
+              "ru": "20~24% увеличение урона от стихий от умений атак",
+              "jp": "アタックスキルの元素ダメージが20~24%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "death-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Death Bow",
+      "kr": "죽음의 활",
+      "tw": "死亡之弓",
+      "ru": "Лук смерти",
+      "jp": "死の弓"
+    },
+    "dropLevel": 32,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 73,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalCriticalStrikeChanceImplicitBow1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_chance_+%",
+            "value": "30~50",
+            "text": {
+              "en": "30~50% increased Critical Strike Chance",
+              "kr": "치명타 확률 30~50% 증가",
+              "tw": "增加 30~50% 暴擊率",
+              "ru": "30~50% повышение шанса критического удара",
+              "jp": "クリティカル率が30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "reflex-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Reflex Bow",
+      "kr": "반동궁",
+      "tw": "反射弓",
+      "ru": "Лук прыти",
+      "jp": "リフレックスボウ"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 56,
+      "critChance": 5.5,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityMarakethBowImplicit1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "grove-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Grove Bow",
+      "kr": "수목원 활",
+      "tw": "叢林獵弓",
+      "ru": "Лесной лук",
+      "jp": "木立の弓"
+    },
+    "dropLevel": 35,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 61,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "decurve-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Decurve Bow",
+      "kr": "비곡궁",
+      "tw": "直弓",
+      "ru": "Мощный лук",
+      "jp": "湾曲の弓"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 96,
+      "critChance": 6,
+      "attackTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "compound-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Compound Bow",
+      "kr": "복합궁",
+      "tw": "複合弓",
+      "ru": "Сложный лук",
+      "jp": "コンパウンドボウ"
+    },
+    "dropLevel": 41,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 76,
+      "critChance": 6,
+      "attackTime": 0.769,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sniper-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Sniper Bow",
+      "kr": "저격수 활",
+      "tw": "狙殺弓",
+      "ru": "Лук птицебоя",
+      "jp": "狙撃手の弓"
+    },
+    "dropLevel": 44,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 96,
+      "critChance": 6.7,
+      "attackTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalMultiplierImplicitBow1",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 15~25%",
+              "tw": "15~25% 全域暴擊加成",
+              "ru": "15~25% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 15~25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ivory-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Ivory Bow",
+      "kr": "상아색 활",
+      "tw": "象牙弓",
+      "ru": "Лук из бивня",
+      "jp": "象牙の弓"
+    },
+    "dropLevel": 47,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 86,
+      "critChance": 6.5,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "highborn-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Highborn Bow",
+      "kr": "명문가의 활",
+      "tw": "貴族之弓",
+      "ru": "Лук патриция",
+      "jp": "貴族の弓"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 94,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WeaponElementalDamageImplicitBow1",
+        "lines": [
+          {
+            "stat": "elemental_damage_with_attack_skills_+%",
+            "value": "20~24",
+            "text": {
+              "en": "20~24% increased Elemental Damage with Attack Skills",
+              "kr": "공격 스킬의 원소 피해 20~24% 증가",
+              "tw": "攻擊技能增加 20~24% 元素傷害",
+              "ru": "20~24% увеличение урона от стихий от умений атак",
+              "jp": "アタックスキルの元素ダメージが20~24%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "decimation-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Decimation Bow",
+      "kr": "대량 학살의 활",
+      "tw": "獵魂之弓",
+      "ru": "Лук палача",
+      "jp": "殺戮の弓"
+    },
+    "dropLevel": 53,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 116,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalCriticalStrikeChanceImplicitBow1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_chance_+%",
+            "value": "30~50",
+            "text": {
+              "en": "30~50% increased Critical Strike Chance",
+              "kr": "치명타 확률 30~50% 증가",
+              "tw": "增加 30~50% 暴擊率",
+              "ru": "30~50% повышение шанса критического удара",
+              "jp": "クリティカル率が30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "steelwood-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Steelwood Bow",
+      "kr": "강철목 활",
+      "tw": "鋼木之弓",
+      "ru": "Железный лук",
+      "jp": "鋼木の弓"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 58,
+      "damageMax": 86,
+      "critChance": 5.5,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityMarakethBowImplicit1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thicket-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Thicket Bow",
+      "kr": "잡목림 활",
+      "tw": "林野獵弓",
+      "ru": "Чащобный лук",
+      "jp": "茂みの弓"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 32,
+      "damageMax": 96,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "citadel-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Citadel Bow",
+      "kr": "성채 활",
+      "tw": "城塞戰弓",
+      "ru": "Осадный лук",
+      "jp": "シタデルボウ"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 144,
+      "critChance": 6,
+      "attackTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ranger-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Ranger Bow",
+      "kr": "레인저 활",
+      "tw": "漫遊之弓",
+      "ru": "Лук охотника",
+      "jp": "レンジャーボウ"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 56,
+      "damageMax": 117,
+      "critChance": 6,
+      "attackTime": 0.769,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "assassin-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Assassin Bow",
+      "kr": "암살자 활",
+      "tw": "暗殺弓",
+      "ru": "Лук убийцы",
+      "jp": "アサシンボウ"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 43,
+      "damageMax": 130,
+      "critChance": 6.7,
+      "attackTime": 0.8,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalMultiplierImplicitBow1",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 15~25%",
+              "tw": "15~25% 全域暴擊加成",
+              "ru": "15~25% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 15~25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spine-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Spine Bow",
+      "kr": "척추 활",
+      "tw": "脊弓",
+      "ru": "Лук из рога",
+      "jp": "背骨の弓"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 115,
+      "critChance": 6.5,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "imperial-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Imperial Bow",
+      "kr": "제국 활",
+      "tw": "帝國之弓",
+      "ru": "Императорский лук",
+      "jp": "帝国の弓"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 117,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WeaponElementalDamageImplicitBow1",
+        "lines": [
+          {
+            "stat": "elemental_damage_with_attack_skills_+%",
+            "value": "20~24",
+            "text": {
+              "en": "20~24% increased Elemental Damage with Attack Skills",
+              "kr": "공격 스킬의 원소 피해 20~24% 증가",
+              "tw": "攻擊技能增加 20~24% 元素傷害",
+              "ru": "20~24% увеличение урона от стихий от умений атак",
+              "jp": "アタックスキルの元素ダメージが20~24%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "harbinger-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Harbinger Bow",
+      "kr": "선구자 활",
+      "tw": "先驅者之弓",
+      "ru": "Лук предвестника",
+      "jp": "ハービンジャーボウ"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 50,
+      "damageMax": 133,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalCriticalStrikeChanceImplicitBow1",
+        "lines": [
+          {
+            "stat": "local_critical_strike_chance_+%",
+            "value": "30~50",
+            "text": {
+              "en": "30~50% increased Critical Strike Chance",
+              "kr": "치명타 확률 30~50% 증가",
+              "tw": "增加 30~50% 暴擊率",
+              "ru": "30~50% повышение шанса критического удара",
+              "jp": "クリティカル率が30~50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "maraketh-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Maraketh Bow",
+      "kr": "마라케스 활",
+      "tw": "馬拉克斯弓",
+      "ru": "Лук маракета",
+      "jp": "マラケスボウ"
+    },
+    "dropLevel": 71,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 61,
+      "damageMax": 92,
+      "critChance": 5.5,
+      "attackTime": 0.714,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityMarakethBowImplicit2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "10",
+            "text": {
+              "en": "10% increased Movement Speed",
+              "kr": "이동 속도 10% 증가",
+              "tw": "增加 10% 移動速度",
+              "ru": "10% повышение скорости передвижения",
+              "jp": "移動スピードが10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hedron-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Hedron Bow",
+      "kr": "다면체 활",
+      "tw": "海德隆之弓",
+      "ru": "Лук с гранями",
+      "jp": "ヘドロンボウ"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 13,
+      "critChance": 5.5,
+      "attackTime": 0.769,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAddedFireDamageImplicitE1_",
+        "lines": [
+          {
+            "stat": "local_minimum_added_fire_damage",
+            "value": "46~55",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_fire_damage",
+            "value": "69~83",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "foundry-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Foundry Bow",
+      "kr": "주물 활",
+      "tw": "鑄造之弓",
+      "ru": "Литой лук",
+      "jp": "ファウンドリーボウ"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 20,
+      "critChance": 5.5,
+      "attackTime": 0.769,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAddedFireDamageImplicitE2_",
+        "lines": [
+          {
+            "stat": "local_minimum_added_fire_damage",
+            "value": "80~97",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_fire_damage",
+            "value": "126~144",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "solarine-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Solarine Bow",
+      "kr": "태양의 활",
+      "tw": "日耀之弓",
+      "ru": "Солнечный лук",
+      "jp": "ソラリンボウ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 24,
+      "critChance": 5.5,
+      "attackTime": 0.769,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAddedFireDamageImplicitE3_",
+        "lines": [
+          {
+            "stat": "local_minimum_added_fire_damage",
+            "value": "121~133",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_fire_damage",
+            "value": "184~197",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crude-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Crude Bow",
+      "kr": "조잡한 활",
+      "tw": "粗製弓",
+      "ru": "Грубый лук",
+      "jp": "粗末な弓"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 10,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ethereal-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Ethereal Bow",
+      "kr": "천상의 활",
+      "tw": "以太之弓",
+      "ru": "Бесплотный лук",
+      "jp": "エセリアルの弓"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 9,
+      "critChance": 6,
+      "attackTime": 0.667,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

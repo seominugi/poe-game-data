@@ -1,0 +1,5596 @@
+[
+  {
+    "id": "splintered-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Splintered Tower Shield",
+      "kr": "쪼개진 거대 방패",
+      "tw": "朽木塔盾",
+      "ru": "Разбитый ростовой щит",
+      "jp": "ボロボロのタワーシールド"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 9,
+        "max": 12
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "corroded-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Corroded Tower Shield",
+      "kr": "부식된 거대 방패",
+      "tw": "斑駁塔盾",
+      "ru": "Ржавый ростовой щит",
+      "jp": "腐食したタワーシールド"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 36,
+        "max": 47
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "10~20",
+            "text": {
+              "en": "10~20 to maximum Life",
+              "kr": "생명력 최대치 10~20",
+              "tw": "10~20 最大生命",
+              "ru": "10~20 к максимуму здоровья",
+              "jp": "最大ライフ 10~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rawhide-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Rawhide Tower Shield",
+      "kr": "생가죽 거대 방패",
+      "tw": "生皮塔盾",
+      "ru": "Сыромятный ростовой щит",
+      "jp": "生皮のタワーシールド"
+    },
+    "dropLevel": 11,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 53,
+        "max": 66
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "10~20",
+            "text": {
+              "en": "10~20 to maximum Life",
+              "kr": "생명력 최대치 10~20",
+              "tw": "10~20 最大生命",
+              "ru": "10~20 к максимуму здоровья",
+              "jp": "最大ライフ 10~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cedar-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Cedar Tower Shield",
+      "kr": "삼나무 거대 방패",
+      "tw": "松木塔盾",
+      "ru": "Кедровый ростовой щит",
+      "jp": "杉のタワーシールド"
+    },
+    "dropLevel": 17,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 94,
+        "max": 113
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "copper-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Copper Tower Shield",
+      "kr": "구리 거대 방패",
+      "tw": "銅鍛塔盾",
+      "ru": "Медный ростовой щит",
+      "jp": "銅のタワーシールド"
+    },
+    "dropLevel": 24,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 151,
+        "max": 173
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to maximum Life",
+              "kr": "생명력 최대치 30~40",
+              "tw": "30~40 最大生命",
+              "ru": "30~40 к максимуму здоровья",
+              "jp": "最大ライフ 30~40"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "reinforced-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Reinforced Tower Shield",
+      "kr": "강화 거대 방패",
+      "tw": "強化塔盾",
+      "ru": "Укреплённый ростовой щит",
+      "jp": "強化されたタワーシールド"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 237,
+        "max": 260
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "10~20",
+            "text": {
+              "en": "10~20 to maximum Life",
+              "kr": "생명력 최대치 10~20",
+              "tw": "10~20 最大生命",
+              "ru": "10~20 к максимуму здоровья",
+              "jp": "最大ライフ 10~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "painted-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Painted Tower Shield",
+      "kr": "도색된 거대 방패",
+      "tw": "彩繪塔盾",
+      "ru": "Расписной ростовой щит",
+      "jp": "彩色されたタワーシールド"
+    },
+    "dropLevel": 35,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 188,
+        "max": 216
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "buckskin-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Buckskin Tower Shield",
+      "kr": "사슴가죽 거대 방패",
+      "tw": "鹿皮塔盾",
+      "ru": "Кожаный ростовой щит",
+      "jp": "鹿皮のタワーシールド"
+    },
+    "dropLevel": 39,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 177,
+        "max": 209
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "10~20",
+            "text": {
+              "en": "10~20 to maximum Life",
+              "kr": "생명력 최대치 10~20",
+              "tw": "10~20 最大生命",
+              "ru": "10~20 к максимуму здоровья",
+              "jp": "最大ライフ 10~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mahogany-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Mahogany Tower Shield",
+      "kr": "마호가니 거대 방패",
+      "tw": "桃木塔盾",
+      "ru": "Палисандровый ростовой щит",
+      "jp": "マホガニータワーシールド"
+    },
+    "dropLevel": 43,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 230,
+        "max": 265
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bronze-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Bronze Tower Shield",
+      "kr": "청동 거대 방패",
+      "tw": "青銅塔盾",
+      "ru": "Бронзовый ростовой щит",
+      "jp": "青銅のタワーシールド"
+    },
+    "dropLevel": 47,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 290,
+        "max": 324
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to maximum Life",
+              "kr": "생명력 최대치 30~40",
+              "tw": "30~40 最大生命",
+              "ru": "30~40 к максимуму здоровья",
+              "jp": "最大ライフ 30~40"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "girded-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Girded Tower Shield",
+      "kr": "둘러싼 거대 방패",
+      "tw": "征戰塔盾",
+      "ru": "Ростовой щит с умбоном",
+      "jp": "補強されたタワーシールド"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 397,
+        "max": 437
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "10~20",
+            "text": {
+              "en": "10~20 to maximum Life",
+              "kr": "생명력 최대치 10~20",
+              "tw": "10~20 最大生命",
+              "ru": "10~20 к максимуму здоровья",
+              "jp": "最大ライフ 10~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crested-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Crested Tower Shield",
+      "kr": "문장 거대 방패",
+      "tw": "榮冠塔盾",
+      "ru": "Ростовой щит с гербом",
+      "jp": "紋章のタワーシールド"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 293,
+        "max": 337
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "shagreen-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Shagreen Tower Shield",
+      "kr": "거친 생가죽 거대 방패",
+      "tw": "粗革塔盾",
+      "ru": "Ростовой щит из акульей кожи",
+      "jp": "粒起皮のタワーシールド"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 261,
+        "max": 308
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "10~20",
+            "text": {
+              "en": "10~20 to maximum Life",
+              "kr": "생명력 최대치 10~20",
+              "tw": "10~20 最大生命",
+              "ru": "10~20 к максимуму здоровья",
+              "jp": "最大ライフ 10~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ebony-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ebony Tower Shield",
+      "kr": "칠흑의 거대 방패",
+      "tw": "烏木塔盾",
+      "ru": "Эбеновый ростовой щит",
+      "jp": "黒檀のタワーシールド"
+    },
+    "dropLevel": 61,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 357,
+        "max": 411
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ezomyte-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ezomyte Tower Shield",
+      "kr": "에조미어 거대 방패",
+      "tw": "艾茲麥塔盾",
+      "ru": "Ростовой щит эзомита",
+      "jp": "エゾマイトタワーシールド"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 412,
+        "max": 474
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to maximum Life",
+              "kr": "생명력 최대치 30~40",
+              "tw": "30~40 最大生命",
+              "ru": "30~40 к максимуму здоровья",
+              "jp": "最大ライフ 30~40"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "colossal-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Colossal Tower Shield",
+      "kr": "초대형 거대 방패",
+      "tw": "巨型塔盾",
+      "ru": "Массивный ростовой щит",
+      "jp": "巨大なタワーシールド"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 522,
+        "max": 601
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "10~20",
+            "text": {
+              "en": "10~20 to maximum Life",
+              "kr": "생명력 최대치 10~20",
+              "tw": "10~20 最大生命",
+              "ru": "10~20 к максимуму здоровья",
+              "jp": "最大ライフ 10~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pinnacle-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Pinnacle Tower Shield",
+      "kr": "최고의 거대 방패",
+      "tw": "堅毅塔盾",
+      "ru": "Лучший ростовой щит",
+      "jp": "天頂のタワーシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 467,
+        "max": 537
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "exothermic-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Exothermic Tower Shield",
+      "kr": "발열성 거대 방패",
+      "tw": "熱氣塔盾",
+      "ru": "Экзотермический ростовой щит",
+      "jp": "放熱のタワーシールド"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 87,
+        "max": 100
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictScorchOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_scorch_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Scorch Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적 그을림",
+              "tw": "當你格擋敵人的傷害時，對他們造成焦灼",
+              "ru": "Накладывает Опаление на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時に焦げを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "magmatic-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Magmatic Tower Shield",
+      "kr": "마그마 거대 방패",
+      "tw": "熔岩塔盾",
+      "ru": "Магматический ростовой щит",
+      "jp": "マグマタワーシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 144,
+        "max": 165
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictScorchOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_scorch_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Scorch Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적 그을림",
+              "tw": "當你格擋敵人的傷害時，對他們造成焦灼",
+              "ru": "Накладывает Опаление на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時に焦げを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heat-attuned-tower-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Heat-attuned Tower Shield",
+      "kr": "조율된 열기 거대 방패",
+      "tw": "熱調塔盾",
+      "ru": "Пламенный ростовой щит",
+      "jp": "熱調整のタワーシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 220,
+        "max": 253
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictScorchOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_scorch_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Scorch Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적 그을림",
+              "tw": "當你格擋敵人的傷害時，對他們造成焦灼",
+              "ru": "Накладывает Опаление на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時に焦げを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "goathide-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Goathide Buckler",
+      "kr": "염소 가죽 버클러",
+      "tw": "羊皮輕盾",
+      "ru": "Кожаный баклер",
+      "jp": "山羊皮のバックラー"
+    },
+    "dropLevel": 2,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 14,
+        "max": 20
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3",
+            "text": {
+              "en": "3% increased Movement Speed",
+              "kr": "이동 속도 3% 증가",
+              "tw": "增加 3% 移動速度",
+              "ru": "3% повышение скорости передвижения",
+              "jp": "移動スピードが3%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "pine-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Pine Buckler",
+      "kr": "소나무 버클러",
+      "tw": "松木輕盾",
+      "ru": "Сосновый баклер",
+      "jp": "松のバックラー"
+    },
+    "dropLevel": 8,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 51,
+        "max": 66
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3",
+            "text": {
+              "en": "3% increased Movement Speed",
+              "kr": "이동 속도 3% 증가",
+              "tw": "增加 3% 移動速度",
+              "ru": "3% повышение скорости передвижения",
+              "jp": "移動スピードが3%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "painted-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Painted Buckler",
+      "kr": "도색된 버클러",
+      "tw": "彩繪輕盾",
+      "ru": "Железный баклер",
+      "jp": "彩色されたバックラー"
+    },
+    "dropLevel": 16,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 123,
+        "max": 154
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hammered-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Hammered Buckler",
+      "kr": "단련한 버클러",
+      "tw": "鉚釘輕盾",
+      "ru": "Кованый баклер",
+      "jp": "鍛造されたバックラー"
+    },
+    "dropLevel": 23,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 116,
+        "max": 139
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3",
+            "text": {
+              "en": "3% increased Movement Speed",
+              "kr": "이동 속도 3% 증가",
+              "tw": "增加 3% 移動速度",
+              "ru": "3% повышение скорости передвижения",
+              "jp": "移動スピードが3%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "war-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "War Buckler",
+      "kr": "전쟁용 버클러",
+      "tw": "戰爭輕盾",
+      "ru": "Воинский баклер",
+      "jp": "ウォーバックラー"
+    },
+    "dropLevel": 29,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 169,
+        "max": 194
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "9",
+            "text": {
+              "en": "9% increased Movement Speed",
+              "kr": "이동 속도 9% 증가",
+              "tw": "增加 9% 移動速度",
+              "ru": "9% повышение скорости передвижения",
+              "jp": "移動スピードが9%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gilded-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Gilded Buckler",
+      "kr": "도금 버클러",
+      "tw": "金面輕盾",
+      "ru": "Позолоченный баклер",
+      "jp": "金メッキのバックラー"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 225,
+        "max": 259
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "oak-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Oak Buckler",
+      "kr": "참나무 버클러",
+      "tw": "橡木輕盾",
+      "ru": "Дубовый баклер",
+      "jp": "樫のバックラー"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 220,
+        "max": 259
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3",
+            "text": {
+              "en": "3% increased Movement Speed",
+              "kr": "이동 속도 3% 증가",
+              "tw": "增加 3% 移動速度",
+              "ru": "3% повышение скорости передвижения",
+              "jp": "移動スピードが3%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "enameled-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Enameled Buckler",
+      "kr": "유약 도색 버클러",
+      "tw": "釉彩輕盾",
+      "ru": "Стальной баклер",
+      "jp": "エナメルバックラー"
+    },
+    "dropLevel": 42,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 311,
+        "max": 349
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "corrugated-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Corrugated Buckler",
+      "kr": "주름진 버클러",
+      "tw": "波紋輕盾",
+      "ru": "Рифлёный баклер",
+      "jp": "波型のバックラー"
+    },
+    "dropLevel": 46,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 227,
+        "max": 272
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3",
+            "text": {
+              "en": "3% increased Movement Speed",
+              "kr": "이동 속도 3% 증가",
+              "tw": "增加 3% 移動速度",
+              "ru": "3% повышение скорости передвижения",
+              "jp": "移動スピードが3%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "battle-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Battle Buckler",
+      "kr": "전투용 버클러",
+      "tw": "鬥者輕盾",
+      "ru": "Боевой баклер",
+      "jp": "バトルバックラー"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 287,
+        "max": 330
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "9",
+            "text": {
+              "en": "9% increased Movement Speed",
+              "kr": "이동 속도 9% 증가",
+              "tw": "增加 9% 移動速度",
+              "ru": "9% повышение скорости передвижения",
+              "jp": "移動スピードが9%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Golden Buckler",
+      "kr": "금색 버클러",
+      "tw": "金陽輕盾",
+      "ru": "Золотой баклер",
+      "jp": "黄金のバックラー"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 354,
+        "max": 407
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ironwood-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ironwood Buckler",
+      "kr": "철목 버클러",
+      "tw": "鋼木輕盾",
+      "ru": "Самшитовый баклер",
+      "jp": "アイアンウッドバックラー"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 327,
+        "max": 385
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3",
+            "text": {
+              "en": "3% increased Movement Speed",
+              "kr": "이동 속도 3% 증가",
+              "tw": "增加 3% 移動速度",
+              "ru": "3% повышение скорости передвижения",
+              "jp": "移動スピードが3%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lacquered-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Lacquered Buckler",
+      "kr": "옻칠한 버클러",
+      "tw": "漆彩輕盾",
+      "ru": "Многослойный баклер",
+      "jp": "漆塗のバックラー"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 477,
+        "max": 549
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vaal-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Vaal Buckler",
+      "kr": "바알 버클러",
+      "tw": "瓦爾輕盾",
+      "ru": "Баклер ваал",
+      "jp": "ヴァールバックラー"
+    },
+    "dropLevel": 63,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 330,
+        "max": 379
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "3",
+            "text": {
+              "en": "3% increased Movement Speed",
+              "kr": "이동 속도 3% 증가",
+              "tw": "增加 3% 移動速度",
+              "ru": "3% повышение скорости передвижения",
+              "jp": "移動スピードが3%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crusader-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Crusader Buckler",
+      "kr": "십자군 버클러",
+      "tw": "聖戰輕盾",
+      "ru": "Баклер подвижника",
+      "jp": "聖戦士のバックラー"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 385,
+        "max": 442
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "9",
+            "text": {
+              "en": "9% increased Movement Speed",
+              "kr": "이동 속도 9% 증가",
+              "tw": "增加 9% 移動速度",
+              "ru": "9% повышение скорости передвижения",
+              "jp": "移動スピードが9%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "imperial-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Imperial Buckler",
+      "kr": "제국 버클러",
+      "tw": "帝國輕盾",
+      "ru": "Императорский баклер",
+      "jp": "帝国のバックラー"
+    },
+    "dropLevel": 69,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 440,
+        "max": 506
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MovementVelocityImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_movement_velocity_+%",
+            "value": "6",
+            "text": {
+              "en": "6% increased Movement Speed",
+              "kr": "이동 속도 6% 증가",
+              "tw": "增加 6% 移動速度",
+              "ru": "6% повышение скорости передвижения",
+              "jp": "移動スピードが6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "endothermic-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Endothermic Buckler",
+      "kr": "흡열성 버클러",
+      "tw": "熱力輕盾",
+      "ru": "Эндотермический баклер",
+      "jp": "吸熱のバックラー"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 75,
+        "max": 86
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictBrittleOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_brittle_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Inflict Brittle on Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적에게 허약 유발",
+              "tw": "當你格擋敵人的傷害時，對他們造成易碎",
+              "ru": "Накладывает Хрупкость на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時にその敵に脆弱を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "polar-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Polar Buckler",
+      "kr": "극지의 버클러",
+      "tw": "極地輕盾",
+      "ru": "Полярный баклер",
+      "jp": "極地のバックラー"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 123,
+        "max": 142
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictBrittleOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_brittle_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Inflict Brittle on Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적에게 허약 유발",
+              "tw": "當你格擋敵人的傷害時，對他們造成易碎",
+              "ru": "Накладывает Хрупкость на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時にその敵に脆弱を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cold-attuned-buckler",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Cold-attuned Buckler",
+      "kr": "조율된 냉기 버클러",
+      "tw": "冷調輕盾",
+      "ru": "Ледяной баклер",
+      "jp": "冷気を纏うバックラー"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 206,
+        "max": 237
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictBrittleOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_brittle_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Inflict Brittle on Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적에게 허약 유발",
+              "tw": "當你格擋敵人的傷害時，對他們造成易碎",
+              "ru": "Накладывает Хрупкость на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時にその敵に脆弱を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "twig-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Twig Spirit Shield",
+      "kr": "잔가지 영혼 방패",
+      "tw": "殘枝魔盾",
+      "ru": "Сучковатый щит духа",
+      "jp": "小枝のスピリットシールド"
+    },
+    "dropLevel": 3,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 6,
+        "max": 8
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield2",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "10~15",
+            "text": {
+              "en": "10~15% increased Spell Damage",
+              "kr": "주문 피해 10~15% 증가",
+              "tw": "增加 10~15% 法術傷害",
+              "ru": "10~15% увеличение урона от чар",
+              "jp": "スペルダメージが10~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "yew-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Yew Spirit Shield",
+      "kr": "주목 영혼 방패",
+      "tw": "紫衫魔盾",
+      "ru": "Тисовый щит духа",
+      "jp": "イチイのスピリットシールド"
+    },
+    "dropLevel": 9,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 11,
+        "max": 14
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Spell Damage",
+              "kr": "주문 피해 5~10% 증가",
+              "tw": "增加 5~10% 法術傷害",
+              "ru": "5~10% увеличение урона от чар",
+              "jp": "スペルダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bone-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Bone Spirit Shield",
+      "kr": "뼈 영혼 방패",
+      "tw": "骨製魔盾",
+      "ru": "Щит духа из костей",
+      "jp": "骨のスピリットシールド"
+    },
+    "dropLevel": 15,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 15,
+        "max": 19
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MinionDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "Minions deal 5~10% increased Damage",
+              "kr": "소환수가 주는 피해 5~10% 증가",
+              "tw": "增加 5~10% 召喚物所造成的傷害",
+              "ru": "Приспешники имеют 5~10% увеличение урона",
+              "jp": "ミニオンのダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tarnished-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Tarnished Spirit Shield",
+      "kr": "변색된 영혼 방패",
+      "tw": "環形魔盾",
+      "ru": "Потёртый щит духа",
+      "jp": "色褪せたスピリットシールド"
+    },
+    "dropLevel": 23,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 21,
+        "max": 25
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Spell Damage",
+              "kr": "주문 피해 5~10% 증가",
+              "tw": "增加 5~10% 法術傷害",
+              "ru": "5~10% увеличение урона от чар",
+              "jp": "スペルダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jingling-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Jingling Spirit Shield",
+      "kr": "방울 영혼 방패",
+      "tw": "靈相魔盾",
+      "ru": "Звенящий щит духа",
+      "jp": "鈴のスピリットシールド"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 25,
+        "max": 29
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield2",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "10~15",
+            "text": {
+              "en": "10~15% increased Spell Damage",
+              "kr": "주문 피해 10~15% 증가",
+              "tw": "增加 10~15% 法術傷害",
+              "ru": "10~15% увеличение урона от чар",
+              "jp": "スペルダメージが10~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "brass-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Brass Spirit Shield",
+      "kr": "황동 영혼 방패",
+      "tw": "銅鍛魔盾",
+      "ru": "Бронзовый щит духа",
+      "jp": "真鍮のスピリットシールド"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 35,
+        "max": 40
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "walnut-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Walnut Spirit Shield",
+      "kr": "호두나무 영혼 방패",
+      "tw": "桃木魔盾",
+      "ru": "Ореховый щит духа",
+      "jp": "胡桃のスピリットシールド"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 32,
+        "max": 38
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Spell Damage",
+              "kr": "주문 피해 5~10% 증가",
+              "tw": "增加 5~10% 法術傷害",
+              "ru": "5~10% увеличение урона от чар",
+              "jp": "スペルダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ivory-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ivory Spirit Shield",
+      "kr": "상아 영혼 방패",
+      "tw": "象牙魔盾",
+      "ru": "Щит духа из старых костей",
+      "jp": "象牙のスピリットシールド"
+    },
+    "dropLevel": 41,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 35,
+        "max": 40
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MinionDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "Minions deal 5~10% increased Damage",
+              "kr": "소환수가 주는 피해 5~10% 증가",
+              "tw": "增加 5~10% 召喚物所造成的傷害",
+              "ru": "Приспешники имеют 5~10% увеличение урона",
+              "jp": "ミニオンのダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ancient-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ancient Spirit Shield",
+      "kr": "고대의 영혼 방패",
+      "tw": "遠古魔盾",
+      "ru": "Древний щит духа",
+      "jp": "古代のスピリットシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 38,
+        "max": 45
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Spell Damage",
+              "kr": "주문 피해 5~10% 증가",
+              "tw": "增加 5~10% 法術傷害",
+              "ru": "5~10% увеличение урона от чар",
+              "jp": "スペルダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "chiming-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Chiming Spirit Shield",
+      "kr": "차임벨 영혼 방패",
+      "tw": "魂相魔盾",
+      "ru": "Мелодичный щит духа",
+      "jp": "鐘のスピリットシールド"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 42,
+        "max": 48
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield2",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "10~15",
+            "text": {
+              "en": "10~15% increased Spell Damage",
+              "kr": "주문 피해 10~15% 증가",
+              "tw": "增加 10~15% 法術傷害",
+              "ru": "10~15% увеличение урона от чар",
+              "jp": "スペルダメージが10~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thorium-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Thorium Spirit Shield",
+      "kr": "토륨 영혼 방패",
+      "tw": "暗金魔盾",
+      "ru": "Орихалковый щит духа",
+      "jp": "トリウムのスピリットシールド"
+    },
+    "dropLevel": 53,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 54,
+        "max": 62
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lacewood-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Lacewood Spirit Shield",
+      "kr": "쥐방울나무 영혼 방패",
+      "tw": "軟橡魔盾",
+      "ru": "Платановый щит духа",
+      "jp": "レースウッドのスピリットシールド"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 47,
+        "max": 55
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Spell Damage",
+              "kr": "주문 피해 5~10% 증가",
+              "tw": "增加 5~10% 法術傷害",
+              "ru": "5~10% увеличение урона от чар",
+              "jp": "スペルダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fossilised-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Fossilised Spirit Shield",
+      "kr": "화석 영혼 방패",
+      "tw": "石化魔盾",
+      "ru": "Щит духа из окаменелостей",
+      "jp": "化石化したスピリットシールド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 49,
+        "max": 55
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MinionDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "minion_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "Minions deal 5~10% increased Damage",
+              "kr": "소환수가 주는 피해 5~10% 증가",
+              "tw": "增加 5~10% 召喚物所造成的傷害",
+              "ru": "Приспешники имеют 5~10% увеличение урона",
+              "jp": "ミニオンのダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vaal-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Vaal Spirit Shield",
+      "kr": "바알 영혼 방패",
+      "tw": "瓦爾魔盾",
+      "ru": "Щит духа ваал",
+      "jp": "ヴァールスピリットシールド"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 56,
+        "max": 64
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield1",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "5~10",
+            "text": {
+              "en": "5~10% increased Spell Damage",
+              "kr": "주문 피해 5~10% 증가",
+              "tw": "增加 5~10% 法術傷害",
+              "ru": "5~10% увеличение урона от чар",
+              "jp": "スペルダメージが5~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "harmonic-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Harmonic Spirit Shield",
+      "kr": "화음 영혼 방패",
+      "tw": "和諧魔盾",
+      "ru": "Поющий щит духа",
+      "jp": "ハーモニーのスピリットシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 58,
+        "max": 66
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SpellDamageImplicitShield2",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "10~15",
+            "text": {
+              "en": "10~15% increased Spell Damage",
+              "kr": "주문 피해 10~15% 증가",
+              "tw": "增加 10~15% 法術傷害",
+              "ru": "10~15% увеличение урона от чар",
+              "jp": "スペルダメージが10~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "titanium-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Titanium Spirit Shield",
+      "kr": "티타늄 영혼 방패",
+      "tw": "巨人魔盾",
+      "ru": "Адамантиевый щит духа",
+      "jp": "チタンスピリットシールド"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 67,
+        "max": 77
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "exhausting-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Exhausting Spirit Shield",
+      "kr": "기진맥진한 영혼 방패",
+      "tw": "力竭魔盾",
+      "ru": "Истощающий щит духа",
+      "jp": "疲弊のスピリットシールド"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 16,
+        "max": 19
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictSapOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_sap_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Sap Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적 활력 감소",
+              "tw": "當你格擋敵人的傷害時，對他們造成殘喘",
+              "ru": "Накладывает Ошеломление на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時に消耗を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "subsuming-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Subsuming Spirit Shield",
+      "kr": "아우르는 영혼 방패",
+      "tw": "靈吸魔盾",
+      "ru": "Поглощающий щит духа",
+      "jp": "包摂のスピリットシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 25,
+        "max": 29
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictSapOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_sap_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Sap Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적 활력 감소",
+              "tw": "當你格擋敵人的傷害時，對他們造成殘喘",
+              "ru": "Накладывает Ошеломление на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時に消耗を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "transfer-attuned-spirit-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Transfer-attuned Spirit Shield",
+      "kr": "조율된 전이 영혼 방패",
+      "tw": "調和魔盾",
+      "ru": "Переливающий щит духа",
+      "jp": "転嫁のスピリットシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 39,
+        "max": 45
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToInflictSapOnEnemyOnBlockImplicitE1",
+        "lines": [
+          {
+            "stat": "chance_to_inflict_sap_on_enemy_on_block_%",
+            "value": "100",
+            "text": {
+              "en": "Sap Enemies when you Block their Damage",
+              "kr": "적이 주는 피해를 막아낼 시 적 활력 감소",
+              "tw": "當你格擋敵人的傷害時，對他們造成殘喘",
+              "ru": "Накладывает Ошеломление на врагов когда вы блокируете их урон",
+              "jp": "敵のダメージをブロックした時に消耗を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rotted-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Rotted Round Shield",
+      "kr": "썩은 원형 방패",
+      "tw": "朽木圓盾",
+      "ru": "Прогнивший круглый щит",
+      "jp": "腐ったラウンドシールド"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 13,
+        "max": 18
+      },
+      "evasion": {
+        "min": 13,
+        "max": 18
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield1",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Block Recovery",
+              "kr": "막기 회복 60% 증가",
+              "tw": "增加 60% 格擋恢復",
+              "ru": "60% ускорение восстановления блока",
+              "jp": "ブロック復帰が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fir-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Fir Round Shield",
+      "kr": "전나무 원형 방패",
+      "tw": "杉木圓盾",
+      "ru": "Пихтовый круглый щит",
+      "jp": "モミ材のラウンドシールド"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 29,
+        "max": 37
+      },
+      "evasion": {
+        "min": 29,
+        "max": 37
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield3",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "180",
+            "text": {
+              "en": "180% increased Block Recovery",
+              "kr": "막기 회복 180% 증가",
+              "tw": "增加 180% 格擋恢復",
+              "ru": "180% ускорение восстановления блока",
+              "jp": "ブロック復帰が180%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "studded-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Studded Round Shield",
+      "kr": "징 박힌 원형 방패",
+      "tw": "鉚釘圓盾",
+      "ru": "Клёпаный круглый щит",
+      "jp": "スタッド付きラウンドシールド"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 46,
+        "max": 58
+      },
+      "evasion": {
+        "min": 46,
+        "max": 58
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield1",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Block Recovery",
+              "kr": "막기 회복 60% 증가",
+              "tw": "增加 60% 格擋恢復",
+              "ru": "60% ускорение восстановления блока",
+              "jp": "ブロック復帰が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "scarlet-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Scarlet Round Shield",
+      "kr": "다홍색 원형 방패",
+      "tw": "熾紅圓盾",
+      "ru": "Алый круглый щит",
+      "jp": "緋色のラウンドシールド"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 87,
+        "max": 100
+      },
+      "evasion": {
+        "min": 87,
+        "max": 100
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "splendid-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Splendid Round Shield",
+      "kr": "화려한 원형 방패",
+      "tw": "光輝圓盾",
+      "ru": "Украшенный круглый щит",
+      "jp": "立派なラウンドシールド"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 75,
+        "max": 86
+      },
+      "evasion": {
+        "min": 75,
+        "max": 86
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield2",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "120",
+            "text": {
+              "en": "120% increased Block Recovery",
+              "kr": "막기 회복 120% 증가",
+              "tw": "增加 120% 格擋恢復",
+              "ru": "120% ускорение восстановления блока",
+              "jp": "ブロック復帰が120%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "maple-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Maple Round Shield",
+      "kr": "단풍나무 원형 방패",
+      "tw": "楓木圓盾",
+      "ru": "Кленовый круглый щит",
+      "jp": "楓のラウンドシールド"
+    },
+    "dropLevel": 39,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 88,
+        "max": 99
+      },
+      "evasion": {
+        "min": 88,
+        "max": 99
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield3",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "180",
+            "text": {
+              "en": "180% increased Block Recovery",
+              "kr": "막기 회복 180% 증가",
+              "tw": "增加 180% 格擋恢復",
+              "ru": "180% ускорение восстановления блока",
+              "jp": "ブロック復帰が180%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiked-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Spiked Round Shield",
+      "kr": "가시 박힌 원형 방패",
+      "tw": "尖刺圓盾",
+      "ru": "Усиленный круглый щит",
+      "jp": "釘のラウンドシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 102,
+        "max": 120
+      },
+      "evasion": {
+        "min": 102,
+        "max": 120
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield1",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Block Recovery",
+              "kr": "막기 회복 60% 증가",
+              "tw": "增加 60% 格擋恢復",
+              "ru": "60% ускорение восстановления блока",
+              "jp": "ブロック復帰が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crimson-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Crimson Round Shield",
+      "kr": "진홍색 원형 방패",
+      "tw": "緋紅圓盾",
+      "ru": "Багряный круглый щит",
+      "jp": "真紅のラウンドシールド"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 155,
+        "max": 178
+      },
+      "evasion": {
+        "min": 155,
+        "max": 178
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "baroque-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Baroque Round Shield",
+      "kr": "바로크 원형 방패",
+      "tw": "古代圓盾",
+      "ru": "Вычурный круглый щит",
+      "jp": "バロックラウンドシールド"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 122,
+        "max": 140
+      },
+      "evasion": {
+        "min": 122,
+        "max": 140
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield2",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "120",
+            "text": {
+              "en": "120% increased Block Recovery",
+              "kr": "막기 회복 120% 증가",
+              "tw": "增加 120% 格擋恢復",
+              "ru": "120% ускорение восстановления блока",
+              "jp": "ブロック復帰が120%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "teak-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Teak Round Shield",
+      "kr": "티크목 원형 방패",
+      "tw": "柚木圓盾",
+      "ru": "Тиковый круглый щит",
+      "jp": "チークラウンドシールド"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 131,
+        "max": 146
+      },
+      "evasion": {
+        "min": 131,
+        "max": 146
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield3",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "180",
+            "text": {
+              "en": "180% increased Block Recovery",
+              "kr": "막기 회복 180% 증가",
+              "tw": "增加 180% 格擋恢復",
+              "ru": "180% ускорение восстановления блока",
+              "jp": "ブロック復帰が180%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiny-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Spiny Round Shield",
+      "kr": "가시투성이 원형 방패",
+      "tw": "棘刺圓盾",
+      "ru": "Укреплённый круглый щит",
+      "jp": "棘のラウンドシールド"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 154,
+        "max": 177
+      },
+      "evasion": {
+        "min": 154,
+        "max": 177
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield1",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Block Recovery",
+              "kr": "막기 회복 60% 증가",
+              "tw": "增加 60% 格擋恢復",
+              "ru": "60% ускорение восстановления блока",
+              "jp": "ブロック復帰が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cardinal-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Cardinal Round Shield",
+      "kr": "선홍색 원형 방패",
+      "tw": "祭者圓盾",
+      "ru": "Червлёный круглый щит",
+      "jp": "枢機卿のラウンドシールド"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 209,
+        "max": 240
+      },
+      "evasion": {
+        "min": 209,
+        "max": 240
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "elegant-round-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Elegant Round Shield",
+      "kr": "고상한 원형 방패",
+      "tw": "權貴圓盾",
+      "ru": "Элегантный круглый щит",
+      "jp": "エレガントラウンドシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 148,
+        "max": 170
+      },
+      "evasion": {
+        "min": 148,
+        "max": 170
+      },
+      "energyShield": {
+        "min": 0,
+        "max": 0
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BlockRecoveryImplicitShield2",
+        "lines": [
+          {
+            "stat": "block_recovery_+%",
+            "value": "120",
+            "text": {
+              "en": "120% increased Block Recovery",
+              "kr": "막기 회복 120% 증가",
+              "tw": "增加 120% 格擋恢復",
+              "ru": "120% ускорение восстановления блока",
+              "jp": "ブロック復帰が120%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "plank-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Plank Kite Shield",
+      "kr": "널빤지 연모양 방패",
+      "tw": "朽木鳶盾",
+      "ru": "Дощатый каплевидный щит",
+      "jp": "木のカイトシールド"
+    },
+    "dropLevel": 7,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 18,
+        "max": 25
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 5,
+        "max": 7
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "4",
+            "text": {
+              "en": "4% to all Elemental Resistances",
+              "kr": "모든 원소 저항 4%",
+              "tw": "4% 全部元素抗性",
+              "ru": "4% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 4%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "linden-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Linden Kite Shield",
+      "kr": "린덴목 연모양 방패",
+      "tw": "椴木鳶盾",
+      "ru": "Липовый каплевидный щит",
+      "jp": "菩提樹のカイトシールド"
+    },
+    "dropLevel": 13,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 43,
+        "max": 56
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 11,
+        "max": 14
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "4",
+            "text": {
+              "en": "4% to all Elemental Resistances",
+              "kr": "모든 원소 저항 4%",
+              "tw": "4% 全部元素抗性",
+              "ru": "4% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 4%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "reinforced-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Reinforced Kite Shield",
+      "kr": "강화 연모양 방패",
+      "tw": "強化鳶盾",
+      "ru": "Укреплённый каплевидный щит",
+      "jp": "強化されたカイトシールド"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 65,
+        "max": 81
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 15,
+        "max": 18
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "layered-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Layered Kite Shield",
+      "kr": "겹재질 연모양 방패",
+      "tw": "層板鳶盾",
+      "ru": "Многослойный каплевидный щит",
+      "jp": "層状のカイトシールド"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 62,
+        "max": 73
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 13,
+        "max": 16
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8",
+            "text": {
+              "en": "8% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8%",
+              "tw": "8% 全部元素抗性",
+              "ru": "8% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ceremonial-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ceremonial Kite Shield",
+      "kr": "제사장의 연모양 방패",
+      "tw": "祭儀鳶盾",
+      "ru": "Церемониальный каплевидный щит",
+      "jp": "儀式用カイトシールド"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 77,
+        "max": 89
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 16,
+        "max": 19
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "12",
+            "text": {
+              "en": "12% to all Elemental Resistances",
+              "kr": "모든 원소 저항 12%",
+              "tw": "12% 全部元素抗性",
+              "ru": "12% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 12%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "etched-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Etched Kite Shield",
+      "kr": "조각된 연모양 방패",
+      "tw": "刻文鳶盾",
+      "ru": "Каплевидный щит с рисунком",
+      "jp": "エッチングカイトシールド"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 127,
+        "max": 142
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 27,
+        "max": 30
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "4",
+            "text": {
+              "en": "4% to all Elemental Resistances",
+              "kr": "모든 원소 저항 4%",
+              "tw": "4% 全部元素抗性",
+              "ru": "4% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 4%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "steel-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Steel Kite Shield",
+      "kr": "강철 연모양 방패",
+      "tw": "冷鋼鳶盾",
+      "ru": "Стальной каплевидный щит",
+      "jp": "鋼のカイトシールド"
+    },
+    "dropLevel": 46,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 146,
+        "max": 167
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 30,
+        "max": 35
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "laminated-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Laminated Kite Shield",
+      "kr": "합판 연모양 방패",
+      "tw": "合板鳶盾",
+      "ru": "Проклеенный каплевидный щит",
+      "jp": "薄板のカイトシールド"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 113,
+        "max": 133
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 23,
+        "max": 27
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8",
+            "text": {
+              "en": "8% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8%",
+              "tw": "8% 全部元素抗性",
+              "ru": "8% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "angelic-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Angelic Kite Shield",
+      "kr": "천사의 연모양 방패",
+      "tw": "天使鳶盾",
+      "ru": "Каплевидный щит ангела",
+      "jp": "天使のカイトシールド"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 124,
+        "max": 142
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 25,
+        "max": 29
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "12",
+            "text": {
+              "en": "12% to all Elemental Resistances",
+              "kr": "모든 원소 저항 12%",
+              "tw": "12% 全部元素抗性",
+              "ru": "12% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 12%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "branded-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Branded Kite Shield",
+      "kr": "각인한 연모양 방패",
+      "tw": "聖記鳶盾",
+      "ru": "Каплевидный щит с символом",
+      "jp": "焼き印のカイトシールド"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 186,
+        "max": 208
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 38,
+        "max": 43
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "4",
+            "text": {
+              "en": "4% to all Elemental Resistances",
+              "kr": "모든 원소 저항 4%",
+              "tw": "4% 全部元素抗性",
+              "ru": "4% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 4%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "champion-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Champion Kite Shield",
+      "kr": "용사의 연모양 방패",
+      "tw": "鬥士鳶盾",
+      "ru": "Каплевидный щит триумфатора",
+      "jp": "チャンピオンカイトシールド"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 215,
+        "max": 247
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 44,
+        "max": 50
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mosaic-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Mosaic Kite Shield",
+      "kr": "조각무늬 연모양 방패",
+      "tw": "厚裝鳶盾",
+      "ru": "Мозаичный каплевидный щит",
+      "jp": "モザイクカイトシールド"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 147,
+        "max": 169
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 30,
+        "max": 34
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8",
+            "text": {
+              "en": "8% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8%",
+              "tw": "8% 全部元素抗性",
+              "ru": "8% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "archon-kite-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Archon Kite Shield",
+      "kr": "집정관의 연모양 방패",
+      "tw": "威能鳶盾",
+      "ru": "Каплевидный щит архонта",
+      "jp": "アルコンカイトシールド"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 156,
+        "max": 179
+      },
+      "evasion": {
+        "min": 0,
+        "max": 0
+      },
+      "energyShield": {
+        "min": 32,
+        "max": 37
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitShield3",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "12",
+            "text": {
+              "en": "12% to all Elemental Resistances",
+              "kr": "모든 원소 저항 12%",
+              "tw": "12% 全部元素抗性",
+              "ru": "12% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 12%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spiked-bundle",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Spiked Bundle",
+      "kr": "가시 박힌 꾸러미",
+      "tw": "尖木刺盾",
+      "ru": "Колючая повязка",
+      "jp": "釘の束"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 13,
+        "max": 18
+      },
+      "energyShield": {
+        "min": 4,
+        "max": 6
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "3",
+            "text": {
+              "en": "3% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 3%",
+              "tw": "3% 壓抑法術傷害率",
+              "ru": "3% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "driftwood-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Driftwood Spiked Shield",
+      "kr": "유목 가시 방패",
+      "tw": "朽木刺盾",
+      "ru": "Колючий щит из плавника",
+      "jp": "流木のスパイクシールド"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 46,
+        "max": 60
+      },
+      "energyShield": {
+        "min": 11,
+        "max": 15
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "3",
+            "text": {
+              "en": "3% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 3%",
+              "tw": "3% 壓抑法術傷害率",
+              "ru": "3% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "alloyed-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Alloyed Spiked Shield",
+      "kr": "합금 가시 방패",
+      "tw": "合金刺盾",
+      "ru": "Бронзовый колючий щит",
+      "jp": "合金のスパイクシールド"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 56,
+        "max": 70
+      },
+      "energyShield": {
+        "min": 13,
+        "max": 16
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeSpellsImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "3",
+            "text": {
+              "en": "3% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 3%",
+              "tw": "3% 壓抑法術傷害率",
+              "ru": "3% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "burnished-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Burnished Spiked Shield",
+      "kr": "윤이 나는 가시 방패",
+      "tw": "冷芒刺盾",
+      "ru": "Воронёный колючий щит",
+      "jp": "艶のあるスパイクシールド"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 62,
+        "max": 73
+      },
+      "energyShield": {
+        "min": 13,
+        "max": 16
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "5",
+            "text": {
+              "en": "5% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 5%",
+              "tw": "5% 壓抑法術傷害率",
+              "ru": "5% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 5%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ornate-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ornate Spiked Shield",
+      "kr": "화려한 가시 방패",
+      "tw": "華麗刺盾",
+      "ru": "Украшенный колючий щит",
+      "jp": "華美なスパイクシールド"
+    },
+    "dropLevel": 33,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 120,
+        "max": 135
+      },
+      "energyShield": {
+        "min": 26,
+        "max": 29
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeSpellsImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "5",
+            "text": {
+              "en": "5% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 5%",
+              "tw": "5% 壓抑法術傷害率",
+              "ru": "5% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 5%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "redwood-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Redwood Spiked Shield",
+      "kr": "삼나무 가시 방패",
+      "tw": "紅木刺盾",
+      "ru": "Сандаловый колючий щит",
+      "jp": "セコイアスパイクシールド"
+    },
+    "dropLevel": 39,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 142,
+        "max": 163
+      },
+      "energyShield": {
+        "min": 30,
+        "max": 34
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "3",
+            "text": {
+              "en": "3% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 3%",
+              "tw": "3% 壓抑法術傷害率",
+              "ru": "3% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "compound-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Compound Spiked Shield",
+      "kr": "합성 가시 방패",
+      "tw": "複合刺盾",
+      "ru": "Латунный колючий щит",
+      "jp": "コンパウンドスパイクシールド"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 122,
+        "max": 144
+      },
+      "energyShield": {
+        "min": 25,
+        "max": 30
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeSpellsImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "3",
+            "text": {
+              "en": "3% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 3%",
+              "tw": "3% 壓抑法術傷害率",
+              "ru": "3% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "polished-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Polished Spiked Shield",
+      "kr": "광택을 낸 가시 방패",
+      "tw": "光輝刺盾",
+      "ru": "Полированный колючий щит",
+      "jp": "磨かれたスパイクシールド"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 111,
+        "max": 131
+      },
+      "energyShield": {
+        "min": 23,
+        "max": 27
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "5",
+            "text": {
+              "en": "5% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 5%",
+              "tw": "5% 壓抑法術傷害率",
+              "ru": "5% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 5%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sovereign-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Sovereign Spiked Shield",
+      "kr": "주권자 가시 방패",
+      "tw": "王權刺盾",
+      "ru": "Царский колючий щит",
+      "jp": "君主のスパイクシールド"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 195,
+        "max": 218
+      },
+      "energyShield": {
+        "min": 40,
+        "max": 45
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeSpellsImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "5",
+            "text": {
+              "en": "5% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 5%",
+              "tw": "5% 壓抑法術傷害率",
+              "ru": "5% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 5%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "alder-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Alder Spiked Shield",
+      "kr": "오리나무 가시 방패",
+      "tw": "榿木刺盾",
+      "ru": "Ольховый колючий щит",
+      "jp": "ハンノキスパイクシールド"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 209,
+        "max": 240
+      },
+      "energyShield": {
+        "min": 43,
+        "max": 49
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "3",
+            "text": {
+              "en": "3% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 3%",
+              "tw": "3% 壓抑法術傷害率",
+              "ru": "3% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ezomyte-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Ezomyte Spiked Shield",
+      "kr": "에조미어 가시 방패",
+      "tw": "艾茲麥刺盾",
+      "ru": "Колючий щит эзомита",
+      "jp": "エゾマイトスパイクシールド"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 181,
+        "max": 209
+      },
+      "energyShield": {
+        "min": 37,
+        "max": 43
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeSpellsImplicitShield1",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "3",
+            "text": {
+              "en": "3% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 3%",
+              "tw": "3% 壓抑法術傷害率",
+              "ru": "3% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 3%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mirrored-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Mirrored Spiked Shield",
+      "kr": "거울 같은 가시 방패",
+      "tw": "鋼鏡刺盾",
+      "ru": "Зеркальный колючий щит",
+      "jp": "鏡面のスパイクシールド"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 151,
+        "max": 174
+      },
+      "energyShield": {
+        "min": 31,
+        "max": 35
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "5",
+            "text": {
+              "en": "5% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 5%",
+              "tw": "5% 壓抑法術傷害率",
+              "ru": "5% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 5%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "supreme-spiked-shield",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Supreme Spiked Shield",
+      "kr": "최상급 가시 방패",
+      "tw": "霸者刺盾",
+      "ru": "Императорский колючий щит",
+      "jp": "至高のスパイクシールド"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "armour",
+      "armour": {
+        "min": 0,
+        "max": 0
+      },
+      "evasion": {
+        "min": 242,
+        "max": 278
+      },
+      "energyShield": {
+        "min": 49,
+        "max": 57
+      },
+      "ward": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChanceToDodgeSpellsImplicitShield2",
+        "lines": [
+          {
+            "stat": "base_spell_suppression_chance_%",
+            "value": "5",
+            "text": {
+              "en": "5% chance to Suppress Spell Damage",
+              "kr": "주문 피해 억제 확률 5%",
+              "tw": "5% 壓抑法術傷害率",
+              "ru": "5% шанс подавить урон от чар",
+              "jp": "スペルダメージ抑制確率 5%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-flame",
+    "classId": "Shield",
+    "className": {
+      "en": "Shields",
+      "kr": "방패",
+      "tw": "盾",
+      "ru": "Щиты",
+      "jp": "盾"
+    },
+    "name": {
+      "en": "Golden Flame",
+      "kr": "황금 불꽃",
+      "tw": "黃金聖炎",
+      "ru": "Золотое пламя",
+      "jp": "黄金の炎"
+    },
+    "dropLevel": 15,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ChaosResistDemigodsTorchImplicit",
+        "lines": [
+          {
+            "stat": "base_chaos_damage_resistance_%",
+            "value": "11~19",
+            "text": {
+              "en": "11~19% to Chaos Resistance",
+              "kr": "카오스 저항 11~19%",
+              "tw": "11~19% 混沌抗性",
+              "ru": "11~19% к сопротивлению хаосу",
+              "jp": "混沌耐性 11~19%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

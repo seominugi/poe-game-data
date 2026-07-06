@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "unused-heist-test-tool",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "[UNUSED] Heist Test Tool",
+      "kr": "[UNUSED] Heist Test Tool",
+      "tw": "[UNUSED] Heist Test Tool",
+      "ru": "[UNUSED] Heist Test Tool",
+      "jp": "[UNUSED] Heist Test Tool"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "simple-lockpick",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Simple Lockpick",
+      "kr": "단순한 자물쇠 따개",
+      "tw": "簡易鎖撬",
+      "ru": "Базовая отмычка",
+      "jp": "単純なロックピック"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCLockpickSpeedImplicit1",
+        "lines": [
+          {
+            "stat": "heist_job_lockpicking_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": "4~6% increased Lockpicking speed",
+              "kr": "자물쇠 따기 속도 4~6% 증가",
+              "tw": "增加 4~6% 開鎖速度",
+              "ru": "4~6% повышение скорости использования Взлома",
+              "jp": "錠前破りのスピードが4~6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "standard-lockpick",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Standard Lockpick",
+      "kr": "표준 자물쇠 따개",
+      "tw": "標準鎖撬",
+      "ru": "Стандартная отмычка",
+      "jp": "標準的なロックピック"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCLockpickSpeedImplicit2",
+        "lines": [
+          {
+            "stat": "heist_job_lockpicking_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": "7~9% increased Lockpicking speed",
+              "kr": "자물쇠 따기 속도 7~9% 증가",
+              "tw": "增加 7~9% 開鎖速度",
+              "ru": "7~9% повышение скорости использования Взлома",
+              "jp": "錠前破りのスピードが7~9%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fine-lockpick",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Fine Lockpick",
+      "kr": "정교한 자물쇠 따개",
+      "tw": "精良鎖撬",
+      "ru": "Тонкая отмычка",
+      "jp": "優れたロックピック"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCLockpickSpeedImplicit3",
+        "lines": [
+          {
+            "stat": "heist_job_lockpicking_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": "10~12% increased Lockpicking speed",
+              "kr": "자물쇠 따기 속도 10~12% 증가",
+              "tw": "增加 10~12% 開鎖速度",
+              "ru": "10~12% повышение скорости использования Взлома",
+              "jp": "錠前破りのスピードが10~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "master-lockpick",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Master Lockpick",
+      "kr": "고급 자물쇠 따개",
+      "tw": "專業鎖撬",
+      "ru": "Образцовая отмычка",
+      "jp": "マスターロックピック"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCLockpickSpeedImplicit4",
+        "lines": [
+          {
+            "stat": "heist_job_lockpicking_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": "13~15% increased Lockpicking speed",
+              "kr": "자물쇠 따기 속도 13~15% 증가",
+              "tw": "增加 13~15% 開鎖速度",
+              "ru": "13~15% повышение скорости использования Взлома",
+              "jp": "錠前破りのスピードが13~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "leather-bracers",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Leather Bracers",
+      "kr": "가죽 팔보호구",
+      "tw": "皮革護腕",
+      "ru": "Кожаные наручи",
+      "jp": "革の小手"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCBruteForceSpeedImplicit1",
+        "lines": [
+          {
+            "stat": "heist_job_brute_force_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "studded-bracers",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Studded Bracers",
+      "kr": "징 박힌 팔보호구",
+      "tw": "鉚釘護腕",
+      "ru": "Клёпаные наручи",
+      "jp": "鋲付き革の小手"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCBruteForceSpeedImplicit2",
+        "lines": [
+          {
+            "stat": "heist_job_brute_force_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "runed-bracers",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Runed Bracers",
+      "kr": "룬 문자 팔보호구",
+      "tw": "符紋護腕",
+      "ru": "Рунные наручи",
+      "jp": "ルーン文字の小手"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCBruteForceSpeedImplicit3",
+        "lines": [
+          {
+            "stat": "heist_job_brute_force_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "steel-bracers",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Steel Bracers",
+      "kr": "강철 팔보호구",
+      "tw": "鋼鐵護腕",
+      "ru": "Стальные наручи",
+      "jp": "鋼鉄の小手"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCBruteForceSpeedImplicit4__",
+        "lines": [
+          {
+            "stat": "heist_job_brute_force_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crude-sensing-charm",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Crude Sensing Charm",
+      "kr": "조잡한 감지 부적",
+      "tw": "初級感知咒術",
+      "ru": "Грубый чуящий амулет",
+      "jp": "粗雑な感応のお守り"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCPerceptionSpeedImplicit1__",
+        "lines": [
+          {
+            "stat": "heist_job_perception_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fine-sensing-charm",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Fine Sensing Charm",
+      "kr": "정교한 감지 부적",
+      "tw": "精良感知咒術",
+      "ru": "Тонкий чуящий амулет",
+      "jp": "優れた感応のお守り"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCPerceptionSpeedImplicit2",
+        "lines": [
+          {
+            "stat": "heist_job_perception_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "polished-sensing-charm",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Polished Sensing Charm",
+      "kr": "광택 나는 감지 부적",
+      "tw": "金光感知咒術",
+      "ru": "Гладкий чуящий амулет",
+      "jp": "光沢のある感応のお守り"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCPerceptionSpeedImplicit3_",
+        "lines": [
+          {
+            "stat": "heist_job_perception_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thaumaturgical-sensing-charm",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Thaumaturgical Sensing Charm",
+      "kr": "마석학 감지 부적",
+      "tw": "奇術感知咒術",
+      "ru": "Волшебный чуящий амулет",
+      "jp": "魔術の感応のお守り"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCPerceptionSpeedImplicit4_",
+        "lines": [
+          {
+            "stat": "heist_job_perception_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "voltaxic-flashpowder",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Voltaxic Flashpowder",
+      "kr": "전도성 섬광가루",
+      "tw": "魔暴閃光粉",
+      "ru": "Вольтаксовый порох",
+      "jp": "ボルタキシック爆薬"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDemolitionSpeedImplicit1",
+        "lines": [
+          {
+            "stat": "heist_job_demolition_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": "4~6% increased Demolition speed",
+              "kr": "파괴 공작 속도 4~6% 증가",
+              "tw": "增加 4~6% 拆除速度",
+              "ru": "4~6% повышение скорости использования Взрывного дела",
+              "jp": "爆破のスピードが4~6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "trarthan-flashpowder",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Trarthan Flashpowder",
+      "kr": "트라탄 섬광가루",
+      "tw": "查爾森閃光粉",
+      "ru": "Тератновый порох",
+      "jp": "トラーサスの爆薬"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDemolitionSpeedImplicit2",
+        "lines": [
+          {
+            "stat": "heist_job_demolition_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": "7~9% increased Demolition speed",
+              "kr": "파괴 공작 속도 7~9% 증가",
+              "tw": "增加 7~9% 拆除速度",
+              "ru": "7~9% повышение скорости использования Взрывного дела",
+              "jp": "爆破のスピードが7~9%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "azurite-flashpowder",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Azurite Flashpowder",
+      "kr": "남동석 섬광가루",
+      "tw": "碧藍閃光粉",
+      "ru": "Азуритовый порох",
+      "jp": "アズライトの爆薬"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDemolitionSpeedImplicit3_",
+        "lines": [
+          {
+            "stat": "heist_job_demolition_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": "10~12% increased Demolition speed",
+              "kr": "파괴 공작 속도 10~12% 증가",
+              "tw": "增加 10~12% 拆除速度",
+              "ru": "10~12% повышение скорости использования Взрывного дела",
+              "jp": "爆破のスピードが10~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thaumetic-flashpowder",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Thaumetic Flashpowder",
+      "kr": "마석 섬광가루",
+      "tw": "奇術閃光粉",
+      "ru": "Волшебный порох",
+      "jp": "魔術の爆薬"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDemolitionSpeedImplicit4_",
+        "lines": [
+          {
+            "stat": "heist_job_demolition_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": "13~15% increased Demolition speed",
+              "kr": "파괴 공작 속도 13~15% 증가",
+              "tw": "增加 13~15% 拆除速度",
+              "ru": "13~15% повышение скорости использования Взрывного дела",
+              "jp": "爆破のスピードが13~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crude-ward",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Crude Ward",
+      "kr": "조잡한 수호",
+      "tw": "低階法杖",
+      "ru": "Грубый оберег",
+      "jp": "粗雑な魔除け"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCCounterThaumaturgySpeedImplicit1_",
+        "lines": [
+          {
+            "stat": "heist_job_counter_thaumaturgy_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lustrous-ward",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Lustrous Ward",
+      "kr": "빛나는 수호",
+      "tw": "光輝法杖",
+      "ru": "Блестящий оберег",
+      "jp": "光沢の魔除け"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCCounterThaumaturgySpeedImplicit2_",
+        "lines": [
+          {
+            "stat": "heist_job_counter_thaumaturgy_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "shining-ward",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Shining Ward",
+      "kr": "반짝이는 수호",
+      "tw": "閃耀法杖",
+      "ru": "Сияющий оберег",
+      "jp": "輝きの魔除け"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCCounterThaumaturgySpeedImplicit3",
+        "lines": [
+          {
+            "stat": "heist_job_counter_thaumaturgy_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thaumaturgical-ward",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Thaumaturgical Ward",
+      "kr": "마석학 수호",
+      "tw": "奇術法杖",
+      "ru": "Волшебный оберег",
+      "jp": "魔術の魔除け"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCCounterThaumaturgySpeedImplicit4",
+        "lines": [
+          {
+            "stat": "heist_job_counter_thaumaturgy_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "essential-keyring",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Essential Keyring",
+      "kr": "필수 열쇠고리",
+      "tw": "基礎鑰匙圈",
+      "ru": "Cвязка типовых ключей",
+      "jp": "基礎的なキーリング"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCTrapDisarmamentSpeedImplicit1",
+        "lines": [
+          {
+            "stat": "heist_job_trap_disarmament_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": "4~6% increased Trap Disarmament speed",
+              "kr": "덫 해제 속도 4~6% 증가",
+              "tw": "增加 4~6% 拆除陷阱速度",
+              "ru": "4~6% повышение скорости использования Разминирования",
+              "jp": "罠解除のスピードが4~6%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "versatile-keyring",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Versatile Keyring",
+      "kr": "다용도 열쇠고리",
+      "tw": "多功鑰匙圈",
+      "ru": "Связка разнообразных ключей",
+      "jp": "多様なキーリング"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCTrapDisarmamentSpeedImplicit2",
+        "lines": [
+          {
+            "stat": "heist_job_trap_disarmament_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": "7~9% increased Trap Disarmament speed",
+              "kr": "덫 해제 속도 7~9% 증가",
+              "tw": "增加 7~9% 拆除陷阱速度",
+              "ru": "7~9% повышение скорости использования Разминирования",
+              "jp": "罠解除のスピードが7~9%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "skeleton-keyring",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Skeleton Keyring",
+      "kr": "해골 열쇠고리",
+      "tw": "專業鑰匙圈",
+      "ru": "Связка универсальных ключей",
+      "jp": "スケルトンキーリング"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCTrapDisarmamentSpeedImplicit3__",
+        "lines": [
+          {
+            "stat": "heist_job_trap_disarmament_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": "10~12% increased Trap Disarmament speed",
+              "kr": "덫 해제 속도 10~12% 증가",
+              "tw": "增加 10~12% 拆除陷阱速度",
+              "ru": "10~12% повышение скорости использования Разминирования",
+              "jp": "罠解除のスピードが10~12%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "grandmaster-keyring",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Grandmaster Keyring",
+      "kr": "명인 열쇠고리",
+      "tw": "大師鑰匙圈",
+      "ru": "Связка великого мастера ключей",
+      "jp": "グランドマスターキーリング"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCTrapDisarmamentSpeedImplicit4",
+        "lines": [
+          {
+            "stat": "heist_job_trap_disarmament_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": "13~15% increased Trap Disarmament speed",
+              "kr": "덫 해제 속도 13~15% 증가",
+              "tw": "增加 13~15% 拆除陷阱速度",
+              "ru": "13~15% повышение скорости использования Разминирования",
+              "jp": "罠解除のスピードが13~15%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "eelskin-sole",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Eelskin Sole",
+      "kr": "장어가죽 밑창",
+      "tw": "鰻皮鞋底",
+      "ru": "Щучьи подошвы",
+      "jp": "鰻皮の靴底"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCAgilitySpeedImplicit1",
+        "lines": [
+          {
+            "stat": "heist_job_agility_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "foxhide-sole",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Foxhide Sole",
+      "kr": "여우가죽 밑창",
+      "tw": "湖皮鞋底",
+      "ru": "Лисьи подошвы",
+      "jp": "狐皮の靴底"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCAgilitySpeedImplicit2",
+        "lines": [
+          {
+            "stat": "heist_job_agility_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "winged-sole",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Winged Sole",
+      "kr": "날개 달린 밑창",
+      "tw": "羽翅鞋底",
+      "ru": "Крылатые подошвы",
+      "jp": "羽付きの靴底"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCAgilitySpeedImplicit3__",
+        "lines": [
+          {
+            "stat": "heist_job_agility_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "silkweave-sole",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Silkweave Sole",
+      "kr": "비단 직물 밑창",
+      "tw": "絲織鞋底",
+      "ru": "Шелкопрядные подошвы",
+      "jp": "シルク編みの靴底"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCAgilitySpeedImplicit4",
+        "lines": [
+          {
+            "stat": "heist_job_agility_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "basic-disguise-kit",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Basic Disguise Kit",
+      "kr": "기본 변장 도구",
+      "tw": "基礎偽裝套組",
+      "ru": "Базовый маскировочный набор",
+      "jp": "基本変装道具"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDeceptionSpeedImplicit1",
+        "lines": [
+          {
+            "stat": "heist_job_deception_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "theatre-disguise-kit",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Theatre Disguise Kit",
+      "kr": "극장 변장 도구",
+      "tw": "劇場偽裝套組",
+      "ru": "Театральный маскировочный набор",
+      "jp": "劇場の変装道具"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDeceptionSpeedImplicit2",
+        "lines": [
+          {
+            "stat": "heist_job_deception_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "espionage-disguise-kit",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Espionage Disguise Kit",
+      "kr": "첩보 변장 도구",
+      "tw": "間諜偽裝套組",
+      "ru": "Шпионский маскировочный набор",
+      "jp": "スパイの変装道具"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDeceptionSpeedImplicit3",
+        "lines": [
+          {
+            "stat": "heist_job_deception_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "regicide-disguise-kit",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Regicide Disguise Kit",
+      "kr": "왕 시해자 변장 도구",
+      "tw": "弒君偽裝套組",
+      "ru": "Маскировочный набор цареубийцы",
+      "jp": "国王殺しの変装道具"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCDeceptionSpeedImplicit4_",
+        "lines": [
+          {
+            "stat": "heist_job_deception_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "steel-drill",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Steel Drill",
+      "kr": "강철 송곳",
+      "tw": "鋼鐵鑽頭",
+      "ru": "Стальная дрель",
+      "jp": "鋼鉄のドリル"
+    },
+    "dropLevel": 60,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCEngineeringSpeedImplicit1",
+        "lines": [
+          {
+            "stat": "heist_job_engineering_speed_+%",
+            "value": "4~6",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flanged-drill",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Flanged Drill",
+      "kr": "테두리 송곳",
+      "tw": "法蘭鑽頭",
+      "ru": "Звездообразная дрель",
+      "jp": "羽根付きのドリル"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCEngineeringSpeedImplicit2_____",
+        "lines": [
+          {
+            "stat": "heist_job_engineering_speed_+%",
+            "value": "7~9",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sulphur-blowtorch",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Sulphur Blowtorch",
+      "kr": "유황 발염기",
+      "tw": "硫酸噴管",
+      "ru": "Серная горелка",
+      "jp": "サルファーのガスバーナー"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCEngineeringSpeedImplicit3__",
+        "lines": [
+          {
+            "stat": "heist_job_engineering_speed_+%",
+            "value": "10~12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thaumetic-blowtorch",
+    "classId": "HeistEquipmentTool",
+    "className": {
+      "en": "Heist Tools",
+      "kr": "강탈 도구",
+      "tw": "劫盜工具",
+      "ru": "Разбойничий инструмент",
+      "jp": "ハイストツール"
+    },
+    "name": {
+      "en": "Thaumetic Blowtorch",
+      "kr": "마석 발염기",
+      "tw": "奇術噴管",
+      "ru": "Волшебная горелка",
+      "jp": "魔術のガスバーナー"
+    },
+    "dropLevel": 83,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HeistNPCEngineeringSpeedImplicit4",
+        "lines": [
+          {
+            "stat": "heist_job_engineering_speed_+%",
+            "value": "13~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

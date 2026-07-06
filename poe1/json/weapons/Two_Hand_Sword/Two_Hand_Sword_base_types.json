@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "keyblade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Keyblade",
+      "kr": "열쇠검",
+      "tw": "寶鑰之刃",
+      "ru": "Клинок из ключей",
+      "jp": "キーブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 1,
+      "damageMax": 1,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": {
+      "en": "Forged from thousands of unclaimed Beta keys",
+      "kr": "주인 없는 베타 키 수천 개를 녹여 만들다.",
+      "tw": "數千把無人領取的封測金鑰鍛造而成",
+      "ru": "Выкован из тысяч невостребованных ключей к Бете.",
+      "jp": "幾千もの未使用ベータキーから造られた"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "corroded-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Corroded Blade",
+      "kr": "부식된 칼날",
+      "tw": "鏽斑巨劍",
+      "ru": "Ржавый клинок",
+      "jp": "錆びた刃"
+    },
+    "dropLevel": 3,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 16,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "longsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Longsword",
+      "kr": "장검",
+      "tw": "大劍",
+      "ru": "Длинный меч",
+      "jp": "ロングソード"
+    },
+    "dropLevel": 8,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 26,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit1",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "60",
+            "text": {
+              "en": "60 to Accuracy Rating",
+              "kr": "정확도 60",
+              "tw": "60 命中值",
+              "ru": "60 к меткости",
+              "jp": "命中力 60"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bastard-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Bastard Sword",
+      "kr": "바스타드",
+      "tw": "重劍",
+      "ru": "Полуторный меч",
+      "jp": "バスタードソード"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 17,
+      "damageMax": 29,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicit2HSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Global Accuracy Rating",
+              "kr": "일반 정확도 60% 증가",
+              "tw": "增加 60% 全域命中值",
+              "ru": "60% повышение глобальной меткости",
+              "jp": "グローバル命中力が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "two-handed-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Two-Handed Sword",
+      "kr": "양손검",
+      "tw": "雙手劍",
+      "ru": "Двуручный меч",
+      "jp": "ツーハンドソード"
+    },
+    "dropLevel": 17,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 38,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit2",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "120",
+            "text": {
+              "en": "120 to Accuracy Rating",
+              "kr": "정확도 120",
+              "tw": "120 命中值",
+              "ru": "120 к меткости",
+              "jp": "命中力 120"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "etched-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Etched Greatsword",
+      "kr": "조각된 대검",
+      "tw": "術雕巨劍",
+      "ru": "Большой меч с травлением",
+      "jp": "エッチンググレートソード"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 48,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicit2HSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Global Accuracy Rating",
+              "kr": "일반 정확도 60% 증가",
+              "tw": "增加 60% 全域命中值",
+              "ru": "60% повышение глобальной меткости",
+              "jp": "グローバル命中力が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ornate-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Ornate Sword",
+      "kr": "화려한 검",
+      "tw": "名貴巨劍",
+      "ru": "Украшенный меч",
+      "jp": "装飾された剣"
+    },
+    "dropLevel": 27,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 50,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit3",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "185",
+            "text": {
+              "en": "185 to Accuracy Rating",
+              "kr": "정확도 185",
+              "tw": "185 命中值",
+              "ru": "185 к меткости",
+              "jp": "命中力 185"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spectral-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Spectral Sword",
+      "kr": "영체 검",
+      "tw": "幽魂巨劍",
+      "ru": "Призрачный меч",
+      "jp": "スペクトラルソード"
+    },
+    "dropLevel": 32,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 31,
+      "damageMax": 65,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicit2HSword2_",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "45",
+            "text": {
+              "en": "45% increased Global Accuracy Rating",
+              "kr": "일반 정확도 45% 증가",
+              "tw": "增加 45% 全域命中值",
+              "ru": "45% повышение глобальной меткости",
+              "jp": "グローバル命中力が45%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "curved-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Curved Blade",
+      "kr": "곡도",
+      "tw": "彎刃",
+      "ru": "Кривой клинок",
+      "jp": "湾曲した刃"
+    },
+    "dropLevel": 35,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 68,
+      "critChance": 6,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalMultiplierImplicitSwordM2",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "40",
+            "text": {
+              "en": "40% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 40%",
+              "tw": "40% 全域暴擊加成",
+              "ru": "40% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 40%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "butcher-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Butcher Sword",
+      "kr": "도살자 검",
+      "tw": "殺戮巨劍",
+      "ru": "Меч мясника",
+      "jp": "肉屋の剣"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 34,
+      "damageMax": 79,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit4",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "250",
+            "text": {
+              "en": "250 to Accuracy Rating",
+              "kr": "정확도 250",
+              "tw": "250 命中值",
+              "ru": "250 к меткости",
+              "jp": "命中力 250"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "footman-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Footman Sword",
+      "kr": "보병 검",
+      "tw": "士兵巨劍",
+      "ru": "Меч пехотинца",
+      "jp": "従者の剣"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 65,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicit2HSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Global Accuracy Rating",
+              "kr": "일반 정확도 60% 증가",
+              "tw": "增加 60% 全域命中值",
+              "ru": "60% повышение глобальной меткости",
+              "jp": "グローバル命中力が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "highland-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Highland Blade",
+      "kr": "고지대 검",
+      "tw": "高山重刃",
+      "ru": "Клинок горца",
+      "jp": "ハイランドソード"
+    },
+    "dropLevel": 44,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 45,
+      "damageMax": 84,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit5",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "305",
+            "text": {
+              "en": "305 to Accuracy Rating",
+              "kr": "정확도 305",
+              "tw": "305 命中值",
+              "ru": "305 к меткости",
+              "jp": "命中力 305"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "engraved-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Engraved Greatsword",
+      "kr": "아로새긴 대검",
+      "tw": "符文巨劍",
+      "ru": "Большой меч с чеканкой",
+      "jp": "エングレービンググレートソード"
+    },
+    "dropLevel": 48,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 49,
+      "damageMax": 102,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicit2HSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Global Accuracy Rating",
+              "kr": "일반 정확도 60% 증가",
+              "tw": "增加 60% 全域命中值",
+              "ru": "60% повышение глобальной меткости",
+              "jp": "グローバル命中力が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tiger-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Tiger Sword",
+      "kr": "호랑이 검",
+      "tw": "虎牙巨劍",
+      "ru": "Меч тигра",
+      "jp": "タイガーソード"
+    },
+    "dropLevel": 51,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 54,
+      "damageMax": 89,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit6",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "360",
+            "text": {
+              "en": "360 to Accuracy Rating",
+              "kr": "정확도 360",
+              "tw": "360 命中值",
+              "ru": "360 к меткости",
+              "jp": "命中力 360"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "wraith-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Wraith Sword",
+      "kr": "악령 검",
+      "tw": "凶靈巨劍",
+      "ru": "Потусторонний меч",
+      "jp": "レイスソード"
+    },
+    "dropLevel": 54,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 52,
+      "damageMax": 109,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicit2HSword2_",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "45",
+            "text": {
+              "en": "45% increased Global Accuracy Rating",
+              "kr": "일반 정확도 45% 증가",
+              "tw": "增加 45% 全域命中值",
+              "ru": "45% повышение глобальной меткости",
+              "jp": "グローバル命中力が45%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lithe-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Lithe Blade",
+      "kr": "유연한 검",
+      "tw": "細刃",
+      "ru": "Гибкий клинок",
+      "jp": "しなやかな刃"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 63,
+      "damageMax": 104,
+      "critChance": 6,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalMultiplierImplicitSwordM2",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "40",
+            "text": {
+              "en": "40% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 40%",
+              "tw": "40% 全域暴擊加成",
+              "ru": "40% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 40%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "headmans-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Headman's Sword",
+      "kr": "참수자의 검",
+      "tw": "行刑巨劍",
+      "ru": "Меч палача",
+      "jp": "首長の剣"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 55,
+      "damageMax": 128,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit7",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "400",
+            "text": {
+              "en": "400 to Accuracy Rating",
+              "kr": "정확도 400",
+              "tw": "400 命中值",
+              "ru": "400 к меткости",
+              "jp": "命中力 400"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "reaver-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Reaver Sword",
+      "kr": "강탈자 검",
+      "tw": "殘暴巨劍",
+      "ru": "Меч наёмника",
+      "jp": "略奪者の剣"
+    },
+    "dropLevel": 59,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 104,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicit2HSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "60",
+            "text": {
+              "en": "60% increased Global Accuracy Rating",
+              "kr": "일반 정확도 60% 증가",
+              "tw": "增加 60% 全域命中值",
+              "ru": "60% повышение глобальной меткости",
+              "jp": "グローバル命中力が60%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ezomyte-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Ezomyte Blade",
+      "kr": "에조미어 검",
+      "tw": "艾茲麥巨劍",
+      "ru": "Клинок эзомита",
+      "jp": "エゾマイトの刃"
+    },
+    "dropLevel": 61,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 115,
+      "critChance": 6.5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalMultiplierImplicitSword2H1",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "25",
+            "text": {
+              "en": "25% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 25%",
+              "tw": "25% 全域暴擊加成",
+              "ru": "25% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vaal-greatsword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Vaal Greatsword",
+      "kr": "바알 대검",
+      "tw": "瓦爾巨劍",
+      "ru": "Большой меч ваал",
+      "jp": "ヴァールグレートソード"
+    },
+    "dropLevel": 63,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 68,
+      "damageMax": 142,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracy2hSwordImplicit9",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "470",
+            "text": {
+              "en": "470 to Accuracy Rating",
+              "kr": "정확도 470",
+              "tw": "470 命中值",
+              "ru": "470 к меткости",
+              "jp": "命中力 470"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lion-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Lion Sword",
+      "kr": "사자 검",
+      "tw": "獅爪巨劍",
+      "ru": "Меч льва",
+      "jp": "ライオンソード"
+    },
+    "dropLevel": 65,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 69,
+      "damageMax": 115,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StrengthDexterityImplicitSword_1",
+        "lines": [
+          {
+            "stat": "additional_strength_and_dexterity",
+            "value": "50",
+            "text": {
+              "en": "50 to Strength and Dexterity",
+              "kr": "힘 및 민첩 50",
+              "tw": "50 力量和敏捷",
+              "ru": "50 к силе и ловкости",
+              "jp": "筋力および器用さ 50"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "infernal-sword",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Infernal Sword",
+      "kr": "지옥불 검",
+      "tw": "獄炎重劍",
+      "ru": "Меч подземного царства",
+      "jp": "インファーナルソード"
+    },
+    "dropLevel": 67,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 62,
+      "damageMax": 129,
+      "critChance": 5,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WeaponElementalDamageImplicitSword1",
+        "lines": [
+          {
+            "stat": "elemental_damage_with_attack_skills_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Elemental Damage with Attack Skills",
+              "kr": "공격 스킬의 원소 피해 30% 증가",
+              "tw": "攻擊技能增加 30% 元素傷害",
+              "ru": "30% увеличение урона от стихий от умений атак",
+              "jp": "アタックスキルの元素ダメージが30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "exquisite-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Exquisite Blade",
+      "kr": "정교한 검",
+      "tw": "精緻之刃",
+      "ru": "Изысканный клинок",
+      "jp": "精巧な刃"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 67,
+      "damageMax": 112,
+      "critChance": 5.7,
+      "attackTime": 0.741,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalMultiplierImplicitSword3",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "50",
+            "text": {
+              "en": "50% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 50%",
+              "tw": "50% 全域暴擊加成",
+              "ru": "50% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 50%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rebuking-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Rebuking Blade",
+      "kr": "질책의 칼",
+      "tw": "鞭策之刃",
+      "ru": "Обличающий клинок",
+      "jp": "非難の刃"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 56,
+      "critChance": 6.5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AttackCriticalStrikesIgnoreElementalResistancesImplicitE1",
+        "lines": [
+          {
+            "stat": "attack_critical_strikes_ignore_elemental_resistances",
+            "value": "1",
+            "text": {
+              "en": "Attack Critical Strikes ignore Enemy Monster Elemental Resistances",
+              "kr": "공격 치명타 시 적 몬스터의 원소 저항 무시",
+              "tw": "攻擊暴擊無視敵人怪物元素抗性",
+              "ru": "Критические удары атаками игнорируют вражеское сопротивление стихиям",
+              "jp": "アタックのクリティカルストライクは敵モンスターの元素耐性を無視する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blasting-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Blasting Blade",
+      "kr": "폭발성 칼",
+      "tw": "爆破之刃",
+      "ru": "Проклинающий клинок",
+      "jp": "叱責の刃"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 47,
+      "damageMax": 87,
+      "critChance": 6.5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AttackCriticalStrikesIgnoreElementalResistancesImplicitE1",
+        "lines": [
+          {
+            "stat": "attack_critical_strikes_ignore_elemental_resistances",
+            "value": "1",
+            "text": {
+              "en": "Attack Critical Strikes ignore Enemy Monster Elemental Resistances",
+              "kr": "공격 치명타 시 적 몬스터의 원소 저항 무시",
+              "tw": "攻擊暴擊無視敵人怪物元素抗性",
+              "ru": "Критические удары атаками игнорируют вражеское сопротивление стихиям",
+              "jp": "アタックのクリティカルストライクは敵モンスターの元素耐性を無視する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "banishing-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Banishing Blade",
+      "kr": "추방의 칼",
+      "tw": "放逐之刃",
+      "ru": "Изгоняющий клинок",
+      "jp": "追放の刃"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 55,
+      "damageMax": 102,
+      "critChance": 6.5,
+      "attackTime": 0.714,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AttackCriticalStrikesIgnoreElementalResistancesImplicitE1",
+        "lines": [
+          {
+            "stat": "attack_critical_strikes_ignore_elemental_resistances",
+            "value": "1",
+            "text": {
+              "en": "Attack Critical Strikes ignore Enemy Monster Elemental Resistances",
+              "kr": "공격 치명타 시 적 몬스터의 원소 저항 무시",
+              "tw": "攻擊暴擊無視敵人怪物元素抗性",
+              "ru": "Критические удары атаками игнорируют вражеское сопротивление стихиям",
+              "jp": "アタックのクリティカルストライクは敵モンスターの元素耐性を無視する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "energy-blade",
+    "classId": "Two Hand Sword",
+    "className": {
+      "en": "Two Hand Swords",
+      "kr": "양손 검",
+      "tw": "雙手劍",
+      "ru": "Двуручные мечи",
+      "jp": "両手剣"
+    },
+    "name": {
+      "en": "Energy Blade",
+      "kr": "에너지 칼날",
+      "tw": "能量之刃",
+      "ru": "Клинок энергии",
+      "jp": "エナジーブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 0,
+      "damageMax": 0,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StormBladeImplicitLocalLightningDamage_1",
+        "lines": [
+          {
+            "stat": "local_minimum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

@@ -1,0 +1,1412 @@
+[
+  {
+    "id": "nailed-fist",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Nailed Fist",
+      "kr": "못박은 너클",
+      "tw": "拳釘",
+      "ru": "Шипастый кулак",
+      "jp": "釘打ちの鉄拳"
+    },
+    "dropLevel": 3,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 11,
+      "critChance": 7.3,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw1",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "3",
+            "text": {
+              "en": "Grants 3 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 3 획득",
+              "tw": "每擊中一個敵人，獲得 3 生命",
+              "ru": "Дарует 3 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに3のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sharktooth-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Sharktooth Claw",
+      "kr": "상어이빨 클로",
+      "tw": "鯊顎爪",
+      "ru": "Кастет с зубами акулы",
+      "jp": "鮫歯の鉤爪"
+    },
+    "dropLevel": 7,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 17,
+      "critChance": 8,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw2",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "6",
+            "text": {
+              "en": "Grants 6 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 6 획득",
+              "tw": "每擊中一個敵人，獲得 6 生命",
+              "ru": "Дарует 6 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに6のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "awl",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Awl",
+      "kr": "송곳",
+      "tw": "鑿釘",
+      "ru": "Шило",
+      "jp": "千枚通し"
+    },
+    "dropLevel": 12,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 23,
+      "critChance": 7.5,
+      "attackTime": 0.645,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw3",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "7",
+            "text": {
+              "en": "Grants 7 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 7 획득",
+              "tw": "每擊中一個敵人，獲得 7 生命",
+              "ru": "Дарует 7 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに7のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cats-paw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Cat's Paw",
+      "kr": "고양이 발",
+      "tw": "貓爪刃",
+      "ru": "Кошачья лапа",
+      "jp": "猫手"
+    },
+    "dropLevel": 17,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 22,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw3_1",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "8",
+            "text": {
+              "en": "Grants 8 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 8 획득",
+              "tw": "每擊中一個敵人，獲得 8 生命",
+              "ru": "Дарует 8 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに8のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blinder",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Blinder",
+      "kr": "실명기",
+      "tw": "襲眼鉤",
+      "ru": "Ослепитель",
+      "jp": "ブラインダー"
+    },
+    "dropLevel": 22,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 31,
+      "critChance": 7.5,
+      "attackTime": 0.645,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw4",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "12",
+            "text": {
+              "en": "Grants 12 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 12 획득",
+              "tw": "每擊中一個敵人，獲得 12 生命",
+              "ru": "Дарует 12 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに12のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "timeworn-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Timeworn Claw",
+      "kr": "오래된 클로",
+      "tw": "遠古戰爪",
+      "ru": "Истёртый кастет",
+      "jp": "傷んだ鉤爪"
+    },
+    "dropLevel": 26,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 43,
+      "critChance": 8,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw4_1",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "19",
+            "text": {
+              "en": "Grants 19 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 19 획득",
+              "tw": "每擊中一個敵人，獲得 19 生命",
+              "ru": "Дарует 19 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに19のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sparkling-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Sparkling Claw",
+      "kr": "섬광 클로",
+      "tw": "眩目爪刃",
+      "ru": "Блестящий коготь",
+      "jp": "きらめきの鉤爪"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 14,
+      "damageMax": 38,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw5",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "15",
+            "text": {
+              "en": "Grants 15 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 15 획득",
+              "tw": "每擊中一個敵人，獲得 15 生命",
+              "ru": "Дарует 15 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに15のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fright-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Fright Claw",
+      "kr": "섬뜩한 클로",
+      "tw": "恐懼之爪",
+      "ru": "Пугающий коготь",
+      "jp": "畏怖の鉤爪"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 46,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw5_1",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "20",
+            "text": {
+              "en": "Grants 20 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 20 획득",
+              "tw": "每擊中一個敵人，獲得 20 生命",
+              "ru": "Дарует 20 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに20のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "double-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Double Claw",
+      "kr": "이중 클로",
+      "tw": "雙刃爪",
+      "ru": "Двойной коготь",
+      "jp": "ダブルクロー"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 44,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeAndManaOnHitSeparatedImplicitMarakethClaw1",
+        "lines": [
+          {
+            "stat": "local_mana_gain_per_target",
+            "value": "6",
+            "text": {
+              "en": "Grants 6 Mana per Enemy Hit",
+              "kr": "명중한 적 하나당 마나 6 획득",
+              "tw": "每擊中一個敵人，獲得 6 魔力",
+              "ru": "Дарует 6 маны за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに6のマナを付与する"
+            }
+          },
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "15",
+            "text": {
+              "en": "Grants 15 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 15 획득",
+              "tw": "每擊中一個敵人，獲得 15 生命",
+              "ru": "Дарует 15 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに15のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thresher-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Thresher Claw",
+      "kr": "도리깨 클로",
+      "tw": "撕裂尖爪",
+      "ru": "Кастет молотильщика",
+      "jp": "鮫の鉤爪"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 53,
+      "critChance": 8,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw6",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "25",
+            "text": {
+              "en": "Grants 25 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 25 획득",
+              "tw": "每擊中一個敵人，獲得 25 生命",
+              "ru": "Дарует 25 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに25のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gouger",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Gouger",
+      "kr": "후비개",
+      "tw": "穿體鑿",
+      "ru": "Тычок",
+      "jp": "ガウジャー"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 51,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw7",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "24",
+            "text": {
+              "en": "Grants 24 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 24 획득",
+              "tw": "每擊中一個敵人，獲得 24 生命",
+              "ru": "Дарует 24 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに24のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tigers-paw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Tiger's Paw",
+      "kr": "호랑이 발",
+      "tw": "虎爪刃",
+      "ru": "Тигриная лапа",
+      "jp": "虎の前足"
+    },
+    "dropLevel": 43,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 43,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeLeechPermyriadImplicitClaw1",
+        "lines": [
+          {
+            "stat": "local_life_leech_from_physical_damage_permyriad",
+            "value": "160",
+            "text": {
+              "en": "160% of Physical Attack Damage Leeched as Life",
+              "kr": "물리 공격 피해의 160%를 생명력으로 흡수",
+              "tw": "160% 的物理攻擊傷害偷取生命",
+              "ru": "160% физического урона от атак похищается в виде здоровья",
+              "jp": "物理アタックダメージの160%をライフとしてリーチする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gut-ripper",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Gut Ripper",
+      "kr": "내장 거열기",
+      "tw": "裂臟鉤",
+      "ru": "Вспарыватель",
+      "jp": "ガットリッパー"
+    },
+    "dropLevel": 46,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 53,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw8",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "44",
+            "text": {
+              "en": "Grants 44 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 44 획득",
+              "tw": "每擊中一個敵人，獲得 44 生命",
+              "ru": "Дарует 44 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに44のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "prehistoric-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Prehistoric Claw",
+      "kr": "선사 시대 클로",
+      "tw": "史前戰爪",
+      "ru": "Доисторический кастет",
+      "jp": "太古の鉤爪"
+    },
+    "dropLevel": 49,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 26,
+      "damageMax": 68,
+      "critChance": 8,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeLeechPermyriadImplicitClaw2",
+        "lines": [
+          {
+            "stat": "local_life_leech_from_physical_damage_permyriad",
+            "value": "200",
+            "text": {
+              "en": "200% of Physical Attack Damage Leeched as Life",
+              "kr": "물리 공격 피해의 200%를 생명력으로 흡수",
+              "tw": "200% 的物理攻擊傷害偷取生命",
+              "ru": "200% физического урона от атак похищается в виде здоровья",
+              "jp": "物理アタックダメージの200%をライフとしてリーチする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "noble-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Noble Claw",
+      "kr": "귀족 클로",
+      "tw": "貴族戰爪",
+      "ru": "Коготь патриция",
+      "jp": "貴族の鉤爪"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 56,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw9_",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "40",
+            "text": {
+              "en": "Grants 40 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 40 획득",
+              "tw": "每擊中一個敵人，獲得 40 生命",
+              "ru": "Дарует 40 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに40のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "eagle-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Eagle Claw",
+      "kr": "독수리 클로",
+      "tw": "鷹爪刃",
+      "ru": "Орлиный коготь",
+      "jp": "イーグルクロー"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 17,
+      "damageMax": 69,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeLeechPermyriadImplicitClaw2",
+        "lines": [
+          {
+            "stat": "local_life_leech_from_physical_damage_permyriad",
+            "value": "200",
+            "text": {
+              "en": "200% of Physical Attack Damage Leeched as Life",
+              "kr": "물리 공격 피해의 200%를 생명력으로 흡수",
+              "tw": "200% 的物理攻擊傷害偷取生命",
+              "ru": "200% физического урона от атак похищается в виде здоровья",
+              "jp": "物理アタックダメージの200%をライフとしてリーチする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "twin-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Twin Claw",
+      "kr": "쌍둥이 클로",
+      "tw": "重刃爪",
+      "ru": "Парный коготь",
+      "jp": "ツインクロー"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 64,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeAndManaOnHitSeparatedImplicitMarakethClaw2",
+        "lines": [
+          {
+            "stat": "local_mana_gain_per_target",
+            "value": "10",
+            "text": {
+              "en": "Grants 10 Mana per Enemy Hit",
+              "kr": "명중한 적 하나당 마나 10 획득",
+              "tw": "每擊中一個敵人，獲得 10 魔力",
+              "ru": "Дарует 10 маны за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに10のマナを付与する"
+            }
+          },
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "28",
+            "text": {
+              "en": "Grants 28 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 28 획득",
+              "tw": "每擊中一個敵人，獲得 28 生命",
+              "ru": "Дарует 28 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに28のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "great-white-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Great White Claw",
+      "kr": "거대 하얀 클로",
+      "tw": "白靈之爪",
+      "ru": "Большой белый коготь",
+      "jp": "頬白鮫の鉤爪"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 78,
+      "critChance": 8,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw10",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "46",
+            "text": {
+              "en": "Grants 46 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 46 획득",
+              "tw": "每擊中一個敵人，獲得 46 生命",
+              "ru": "Дарует 46 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに46のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "throat-stabber",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Throat Stabber",
+      "kr": "목구멍 송곳",
+      "tw": "刺喉刃",
+      "ru": "Затыкатель",
+      "jp": "スロートスタバー"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 73,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw11_",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "40",
+            "text": {
+              "en": "Grants 40 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 40 획득",
+              "tw": "每擊中一個敵人，獲得 40 生命",
+              "ru": "Дарует 40 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに40のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hellions-paw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Hellion's Paw",
+      "kr": "헬리온의 발",
+      "tw": "魔爪刃",
+      "ru": "Лапа волкодава",
+      "jp": "ヘリオンの前足"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 55,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeLeechPermyriadImplicitClaw1",
+        "lines": [
+          {
+            "stat": "local_life_leech_from_physical_damage_permyriad",
+            "value": "160",
+            "text": {
+              "en": "160% of Physical Attack Damage Leeched as Life",
+              "kr": "물리 공격 피해의 160%를 생명력으로 흡수",
+              "tw": "160% 的物理攻擊傷害偷取生命",
+              "ru": "160% физического урона от атак похищается в виде здоровья",
+              "jp": "物理アタックダメージの160%をライフとしてリーチする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "eye-gouger",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Eye Gouger",
+      "kr": "눈 후비개",
+      "tw": "刺眼鉤",
+      "ru": "Выкалыватель",
+      "jp": "目潰しの鉤爪"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 26,
+      "damageMax": 68,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw12",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "50",
+            "text": {
+              "en": "Grants 50 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 50 획득",
+              "tw": "每擊中一個敵人，獲得 50 生命",
+              "ru": "Дарует 50 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに50のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vaal-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Vaal Claw",
+      "kr": "바알 클로",
+      "tw": "瓦爾戰爪",
+      "ru": "Коготь ваал",
+      "jp": "ヴァールクロー"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 29,
+      "damageMax": 76,
+      "critChance": 8,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeLeechPermyriadImplicitClaw2",
+        "lines": [
+          {
+            "stat": "local_life_leech_from_physical_damage_permyriad",
+            "value": "200",
+            "text": {
+              "en": "200% of Physical Attack Damage Leeched as Life",
+              "kr": "물리 공격 피해의 200%를 생명력으로 흡수",
+              "tw": "200% 的物理攻擊傷害偷取生命",
+              "ru": "200% физического урона от атак похищается в виде здоровья",
+              "jp": "物理アタックダメージの200%をライフとしてリーチする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "imperial-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Imperial Claw",
+      "kr": "제국 클로",
+      "tw": "帝國戰爪",
+      "ru": "Имперский коготь",
+      "jp": "帝国の鉤爪"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 65,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicit2Claw13",
+        "lines": [
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "46",
+            "text": {
+              "en": "Grants 46 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 46 획득",
+              "tw": "每擊中一個敵人，獲得 46 生命",
+              "ru": "Дарует 46 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに46のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "terror-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Terror Claw",
+      "kr": "공포의 클로",
+      "tw": "恐懼之牙",
+      "ru": "Жуткий коготь",
+      "jp": "恐怖の鉤爪"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 71,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeLeechPermyriadImplicitClaw2",
+        "lines": [
+          {
+            "stat": "local_life_leech_from_physical_damage_permyriad",
+            "value": "200",
+            "text": {
+              "en": "200% of Physical Attack Damage Leeched as Life",
+              "kr": "물리 공격 피해의 200%를 생명력으로 흡수",
+              "tw": "200% 的物理攻擊傷害偷取生命",
+              "ru": "200% физического урона от атак похищается в виде здоровья",
+              "jp": "物理アタックダメージの200%をライフとしてリーチする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gemini-claw",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Gemini Claw",
+      "kr": "쌍생아 클로",
+      "tw": "雙子戰爪",
+      "ru": "Коготь-близнец",
+      "jp": "ジェミニクロー"
+    },
+    "dropLevel": 72,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 23,
+      "damageMax": 68,
+      "critChance": 7.5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeAndManaOnHitSeparatedImplicitMarakethClaw3",
+        "lines": [
+          {
+            "stat": "local_mana_gain_per_target",
+            "value": "14",
+            "text": {
+              "en": "Grants 14 Mana per Enemy Hit",
+              "kr": "명중한 적 하나당 마나 14 획득",
+              "tw": "每擊中一個敵人，獲得 14 魔力",
+              "ru": "Дарует 14 маны за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに14のマナを付与する"
+            }
+          },
+          {
+            "stat": "local_life_gain_per_target",
+            "value": "38",
+            "text": {
+              "en": "Grants 38 Life per Enemy Hit",
+              "kr": "명중한 적 하나당 생명력 38 획득",
+              "tw": "每擊中一個敵人，獲得 38 生命",
+              "ru": "Дарует 38 здоровья за каждый удар по врагу",
+              "jp": "ヒットを与えた敵1体ごとに38のライフを付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "shadow-fangs",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Shadow Fangs",
+      "kr": "그림자 송곳니",
+      "tw": "暗影獠牙",
+      "ru": "Теневые клыки",
+      "jp": "シャドウファング"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 24,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAddedChaosDamageImplicitE1",
+        "lines": [
+          {
+            "stat": "local_minimum_added_chaos_damage",
+            "value": "26~38",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_chaos_damage",
+            "value": "52~70",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "malign-fangs",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Malign Fangs",
+      "kr": "해악의 송곳니",
+      "tw": "邪惡獠牙",
+      "ru": "Чёрные клыки",
+      "jp": "マラインファング"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 37,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAddedChaosDamageImplicitE2",
+        "lines": [
+          {
+            "stat": "local_minimum_added_chaos_damage",
+            "value": "43~55",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_chaos_damage",
+            "value": "81~104",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "void-fangs",
+    "classId": "Claw",
+    "className": {
+      "en": "Claws",
+      "kr": "클로",
+      "tw": "爪",
+      "ru": "Когти",
+      "jp": "鉤爪"
+    },
+    "name": {
+      "en": "Void Fangs",
+      "kr": "공허의 송곳니",
+      "tw": "虛空獠牙",
+      "ru": "Пустотные клыки",
+      "jp": "ヴォイドファング"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 41,
+      "critChance": 7,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalAddedChaosDamageImplicitE3_",
+        "lines": [
+          {
+            "stat": "local_minimum_added_chaos_damage",
+            "value": "46~63",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_chaos_damage",
+            "value": "92~113",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

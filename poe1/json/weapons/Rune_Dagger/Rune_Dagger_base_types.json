@@ -1,0 +1,932 @@
+[
+  {
+    "id": "carving-knife",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Carving Knife",
+      "kr": "조각용 단도",
+      "tw": "雕刻刀",
+      "ru": "Разделочный нож",
+      "jp": "肉切りナイフ"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 3,
+      "damageMax": 26,
+      "critChance": 8.5,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "boot-knife",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Boot Knife",
+      "kr": "주머니 단도",
+      "tw": "戰亂刀",
+      "ru": "Засапожный нож",
+      "jp": "ブーツナイフ"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 8,
+      "damageMax": 34,
+      "critChance": 8.5,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "copper-kris",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Copper Kris",
+      "kr": "구리 크리스",
+      "tw": "銅器波刃",
+      "ru": "Медный крис",
+      "jp": "銅のクリス"
+    },
+    "dropLevel": 24,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 41,
+      "critChance": 9,
+      "attackTime": 0.769,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew3",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 50% 증가",
+              "tw": "增加 50% 全域暴擊率",
+              "ru": "50% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "skean",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Skean",
+      "kr": "양날 단검",
+      "tw": "雙刃匕",
+      "ru": "Гаэльский кинжал",
+      "jp": "スキーン"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 11,
+      "damageMax": 43,
+      "critChance": 8.5,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "imp-dagger",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Imp Dagger",
+      "kr": "임프 단검",
+      "tw": "妖邪短匕",
+      "ru": "Кинжал беса",
+      "jp": "インプダガー"
+    },
+    "dropLevel": 32,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 59,
+      "critChance": 9,
+      "attackTime": 0.833,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew2",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 40% 증가",
+              "tw": "增加 40% 全域暴擊率",
+              "ru": "40% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "butcher-knife",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Butcher Knife",
+      "kr": "도살자 단도",
+      "tw": "屠夫刀",
+      "ru": "Нож мясника",
+      "jp": "肉屋のナイフ"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 7,
+      "damageMax": 62,
+      "critChance": 8.5,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "boot-blade",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Boot Blade",
+      "kr": "주머니칼",
+      "tw": "戰亂劍",
+      "ru": "Засапожный клинок",
+      "jp": "ブーツブレード"
+    },
+    "dropLevel": 44,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 59,
+      "critChance": 8.5,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-kris",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Golden Kris",
+      "kr": "황금 크리스",
+      "tw": "金耀波刃",
+      "ru": "Золотой крис",
+      "jp": "ゴールデンクリス"
+    },
+    "dropLevel": 47,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 75,
+      "critChance": 9,
+      "attackTime": 0.833,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew3",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 50% 증가",
+              "tw": "增加 50% 全域暴擊率",
+              "ru": "50% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "royal-skean",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Royal Skean",
+      "kr": "왕실 양날 단검",
+      "tw": "皇家雙刃匕",
+      "ru": "Кинжал царя",
+      "jp": "ロイヤルスキーン"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 64,
+      "critChance": 8.5,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fiend-dagger",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Fiend Dagger",
+      "kr": "마귀 단검",
+      "tw": "妖魔短匕",
+      "ru": "Кинжал изверга",
+      "jp": "フィーンドダガー"
+    },
+    "dropLevel": 53,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 22,
+      "damageMax": 87,
+      "critChance": 9,
+      "attackTime": 0.833,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew2",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 40% 증가",
+              "tw": "增加 40% 全域暴擊率",
+              "ru": "40% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "slaughter-knife",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Slaughter Knife",
+      "kr": "살육 단도",
+      "tw": "殘暴短匕",
+      "ru": "Кинжал душегуба",
+      "jp": "屠殺のナイフ"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 86,
+      "critChance": 8.5,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ezomyte-dagger",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Ezomyte Dagger",
+      "kr": "에조미어 단검",
+      "tw": "艾茲麥短匕",
+      "ru": "Кинжал эзомита",
+      "jp": "エゾマイトダガー"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 79,
+      "critChance": 8.5,
+      "attackTime": 0.714,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "platinum-kris",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Platinum Kris",
+      "kr": "백금 크리스",
+      "tw": "白金波刃",
+      "ru": "Платиновый крис",
+      "jp": "プラチナムクリス"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 95,
+      "critChance": 9,
+      "attackTime": 0.833,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew3",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "50",
+            "text": {
+              "en": "50% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 50% 증가",
+              "tw": "增加 50% 全域暴擊率",
+              "ru": "50% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が50%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "imperial-skean",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Imperial Skean",
+      "kr": "제국 양날 단검",
+      "tw": "帝國雙刃匕",
+      "ru": "Кинжал императора",
+      "jp": "インペリアルスキーン"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 73,
+      "critChance": 8.5,
+      "attackTime": 0.667,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "30",
+            "text": {
+              "en": "30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 30% 증가",
+              "tw": "增加 30% 全域暴擊率",
+              "ru": "30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "demon-dagger",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Demon Dagger",
+      "kr": "악마 단검",
+      "tw": "惡魔短匕",
+      "ru": "Кинжал демона",
+      "jp": "デモンダガー"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 97,
+      "critChance": 9,
+      "attackTime": 0.833,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitDaggerNew2",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 40% 증가",
+              "tw": "增加 40% 全域暴擊率",
+              "ru": "40% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flickerflame-blade",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Flickerflame Blade",
+      "kr": "일렁이는 화염 칼",
+      "tw": "閃火之刃",
+      "ru": "Мерцающий клинок",
+      "jp": "明滅の刃"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 12,
+      "damageMax": 47,
+      "critChance": 8.5,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TriggerFlameDashOnSocketedSkillUseImplicitE1",
+        "lines": [
+          {
+            "stat": "local_display_trigger_level_x_flame_dash_when_you_use_a_socketed_skill",
+            "value": "10",
+            "text": {
+              "en": "Trigger Level {} Flame Dash when you use a Socketed Skill",
+              "kr": "장착된 스킬 사용 시 {}레벨 화염 질주 발동",
+              "tw": "當你使用插槽中的技能時，觸發等級 {} 的烈焰衝刺",
+              "ru": "Вызывает срабатывание Огненного рывка {} уровня, когда вы используете размещенное умение",
+              "jp": "プレイヤーがソケットされたスキルを使用した時にレベル10フレイムダッシュをトリガーする"
+            }
+          },
+          {
+            "stat": "local_skills_granted_by_item_are_supported_by_level_x_unique_trigger_support",
+            "value": "2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "travel_skill_cooldown_speed_+%",
+            "value": "0",
+            "text": {
+              "en": "0% increased Cooldown Recovery Rate of Travel Skills",
+              "kr": "이동 전용 스킬의 재사용 대기시간 회복 속도 0% 증가",
+              "tw": "增加 0% 快行技能冷卻時間恢復速度",
+              "ru": "0% повышение скорости перезарядки умений смещения",
+              "jp": "トラベルスキルのクールダウン解消レートが0%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "flashfire-blade",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Flashfire Blade",
+      "kr": "번쩍이는 불꽃 칼",
+      "tw": "瞬炎之刃",
+      "ru": "Вспышечный клинок",
+      "jp": "閃光の刃"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 73,
+      "critChance": 8.5,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TriggerFlameDashOnSocketedSkillUseImplicitE2",
+        "lines": [
+          {
+            "stat": "local_display_trigger_level_x_flame_dash_when_you_use_a_socketed_skill",
+            "value": "20",
+            "text": {
+              "en": "Trigger Level {} Flame Dash when you use a Socketed Skill",
+              "kr": "장착된 스킬 사용 시 {}레벨 화염 질주 발동",
+              "tw": "當你使用插槽中的技能時，觸發等級 {} 的烈焰衝刺",
+              "ru": "Вызывает срабатывание Огненного рывка {} уровня, когда вы используете размещенное умение",
+              "jp": "プレイヤーがソケットされたスキルを使用した時にレベル20フレイムダッシュをトリガーする"
+            }
+          },
+          {
+            "stat": "local_skills_granted_by_item_are_supported_by_level_x_unique_trigger_support",
+            "value": "2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "travel_skill_cooldown_speed_+%",
+            "value": "20",
+            "text": {
+              "en": "20% increased Cooldown Recovery Rate of Travel Skills",
+              "kr": "이동 전용 스킬의 재사용 대기시간 회복 속도 20% 증가",
+              "tw": "增加 20% 快行技能冷卻時間恢復速度",
+              "ru": "20% повышение скорости перезарядки умений смещения",
+              "jp": "トラベルスキルのクールダウン解消レートが20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "infernal-blade",
+    "classId": "Rune Dagger",
+    "className": {
+      "en": "Rune Daggers",
+      "kr": "룬 단검",
+      "tw": "符紋匕首",
+      "ru": "Рунические кинжалы",
+      "jp": "ルーンの短剣"
+    },
+    "name": {
+      "en": "Infernal Blade",
+      "kr": "지옥불 칼",
+      "tw": "煉獄之刃",
+      "ru": "Инфернальный клинок",
+      "jp": "業火の刃"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 21,
+      "damageMax": 85,
+      "critChance": 8.5,
+      "attackTime": 0.69,
+      "rangeMax": 10
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "TriggerFlameDashOnSocketedSkillUseImplicitE3_",
+        "lines": [
+          {
+            "stat": "local_display_trigger_level_x_flame_dash_when_you_use_a_socketed_skill",
+            "value": "30",
+            "text": {
+              "en": "Trigger Level {} Flame Dash when you use a Socketed Skill",
+              "kr": "장착된 스킬 사용 시 {}레벨 화염 질주 발동",
+              "tw": "當你使用插槽中的技能時，觸發等級 {} 的烈焰衝刺",
+              "ru": "Вызывает срабатывание Огненного рывка {} уровня, когда вы используете размещенное умение",
+              "jp": "プレイヤーがソケットされたスキルを使用した時にレベル30フレイムダッシュをトリガーする"
+            }
+          },
+          {
+            "stat": "local_skills_granted_by_item_are_supported_by_level_x_unique_trigger_support",
+            "value": "2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "travel_skill_cooldown_speed_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Cooldown Recovery Rate of Travel Skills",
+              "kr": "이동 전용 스킬의 재사용 대기시간 회복 속도 40% 증가",
+              "tw": "增加 40% 快行技能冷卻時間恢復速度",
+              "ru": "40% повышение скорости перезарядки умений смещения",
+              "jp": "トラベルスキルのクールダウン解消レートが40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

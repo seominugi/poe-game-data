@@ -1,0 +1,1334 @@
+[
+  {
+    "id": "cured-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Cured Quiver",
+      "kr": "보존된 화살통",
+      "tw": "火焰箭袋",
+      "ru": "Дублёный колчан",
+      "jp": "治癒の矢筒"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedFireDamageImplicitQuiver1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_fire_damage",
+            "value": "2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_fire_damage",
+            "value": "4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rugged-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Rugged Quiver",
+      "kr": "투박한 화살통",
+      "tw": "冰晶箭袋",
+      "ru": "Грубый колчан",
+      "jp": "頑丈な矢筒"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedColdDamageImplicitQuiver1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_cold_damage",
+            "value": "2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_cold_damage",
+            "value": "3",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "conductive-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Conductive Quiver",
+      "kr": "전도성 화살통",
+      "tw": "電光箭袋",
+      "ru": "Гудящий колчан",
+      "jp": "導電の矢筒"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedLightningDamageImplicitQuiver1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_lightning_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_lightning_damage",
+            "value": "5",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heavy-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Heavy Quiver",
+      "kr": "무거운 화살통",
+      "tw": "重矢箭袋",
+      "ru": "Тяжелый колчан",
+      "jp": "重い矢筒"
+    },
+    "dropLevel": 7,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitQuiver1",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage",
+            "value": "4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "light-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Light Quiver",
+      "kr": "가벼운 화살통",
+      "tw": "輕巧箭袋",
+      "ru": "Лёгкий колчан",
+      "jp": "軽い矢筒"
+    },
+    "dropLevel": 15,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DexterityImplicitQuiver1",
+        "lines": [
+          {
+            "stat": "additional_dexterity",
+            "value": "30~40",
+            "text": {
+              "en": "30~40 to Dexterity",
+              "kr": "민첩 30~40",
+              "tw": "30~40 敏捷",
+              "ru": "30~40 к ловкости",
+              "jp": "器用さ 30~40"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "serrated-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Serrated Arrow Quiver",
+      "kr": "톱니 화살통",
+      "tw": "鋸齒箭袋",
+      "ru": "Колчан зазубренных стрел",
+      "jp": "鋸歯の矢筒"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitQuiver6_",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage_with_bow",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage_with_bow",
+            "value": "4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "two-point-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Two-Point Arrow Quiver",
+      "kr": "쌍촉 화살통",
+      "tw": "雙鋒箭袋",
+      "ru": "Колчан двуглавых стрел",
+      "jp": "二股の矢筒"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracyPercentImplicitQuiver7",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Global Accuracy Rating",
+              "kr": "일반 정확도 20~30% 증가",
+              "tw": "增加 20~30% 全域命中值",
+              "ru": "20~30% повышение глобальной меткости",
+              "jp": "グローバル命中力が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sharktooth-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Sharktooth Arrow Quiver",
+      "kr": "상어이빨 화살통",
+      "tw": "鯊齒箭袋",
+      "ru": "Колчан акульих стрел",
+      "jp": "鮫歯の矢筒"
+    },
+    "dropLevel": 10,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicitQuiver8",
+        "lines": [
+          {
+            "stat": "base_life_gain_per_target",
+            "value": "3~4",
+            "text": {
+              "en": "Gain 3~4 Life per Enemy Hit with Attacks",
+              "kr": "공격으로 명중한 적 하나당 생명력 3~4 획득",
+              "tw": "每用攻擊擊中一個敵人，獲得 3~4 生命",
+              "ru": "3~4 здоровья за каждый удар атаками по врагу",
+              "jp": "アタックでヒットを与えた敵1体ごとに3~4のライフを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blunt-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Blunt Arrow Quiver",
+      "kr": "뭉툭한 화살통",
+      "tw": "鈍矢箭袋",
+      "ru": "Колчан промысловых стрел",
+      "jp": "鈍頭の矢筒"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitQuiver9",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 25~35% 증가",
+              "tw": "增加 25~35% 敵人暈眩時間",
+              "ru": "25~35% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が25~35%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fire-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Fire Arrow Quiver",
+      "kr": "불화살통",
+      "tw": "火靈箭袋",
+      "ru": "Колчан огненных стрел",
+      "jp": "炎の矢筒"
+    },
+    "dropLevel": 22,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedFireDamageImplicitQuiver10",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_fire_damage_with_bow",
+            "value": "4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_fire_damage_with_bow",
+            "value": "8",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "broadhead-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Broadhead Arrow Quiver",
+      "kr": "넓은 촉 화살통",
+      "tw": "寬矢箭袋",
+      "ru": "Колчан охотничьих стрел",
+      "jp": "太矢じりの矢筒"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitQuiver11",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage_with_bow",
+            "value": "6",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage_with_bow",
+            "value": "12",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "penetrating-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Penetrating Arrow Quiver",
+      "kr": "관통 화살통",
+      "tw": "穿射箭袋",
+      "ru": "Колчан боевых стрел",
+      "jp": "貫通の矢筒"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AdditionalArrowPierceImplicitQuiver12_",
+        "lines": [
+          {
+            "stat": "arrow_base_number_of_targets_to_pierce",
+            "value": "1",
+            "text": {
+              "en": "Arrows Pierce an additional Target",
+              "kr": "화살이 대상을 추가 관통",
+              "tw": "箭矢穿透一個額外目標",
+              "ru": "Стрелы пронзают дополнительную цель",
+              "jp": "矢は対象を追加で1体貫通する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spike-point-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Spike-Point Arrow Quiver",
+      "kr": "가시촉 화살통",
+      "tw": "刺鋒箭袋",
+      "ru": "Колчан точных стрел",
+      "jp": "尖った矢筒"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitQuiver13",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 20~30% 증가",
+              "tw": "增加 20~30% 全域暴擊率",
+              "ru": "20~30% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ornate-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Ornate Quiver",
+      "kr": "화려한 화살통",
+      "tw": "華麗箭袋",
+      "ru": "Витиеватый колчан",
+      "jp": "華美な矢筒"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "QuiverHasOneSocket",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Socket",
+              "kr": "홈 1개",
+              "tw": "有 1 個插槽",
+              "ru": "Имеет 1 гнездо",
+              "jp": "ソケットを1個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "serrated-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Serrated Arrow Quiver",
+      "kr": "톱니 화살통",
+      "tw": "鋸齒箭袋",
+      "ru": "Колчан зазубренных стрел",
+      "jp": "鋸歯の矢筒"
+    },
+    "dropLevel": 4,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitQuiver1New",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage",
+            "value": "4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fire-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Fire Arrow Quiver",
+      "kr": "불화살통",
+      "tw": "火靈箭袋",
+      "ru": "Колчан огненных стрел",
+      "jp": "炎の矢筒"
+    },
+    "dropLevel": 9,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedFireDamageImplicitQuiver2New",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_fire_damage",
+            "value": "3",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_fire_damage",
+            "value": "5",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sharktooth-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Sharktooth Arrow Quiver",
+      "kr": "상어이빨 화살통",
+      "tw": "鯊齒箭袋",
+      "ru": "Колчан акульих стрел",
+      "jp": "鮫歯の矢筒"
+    },
+    "dropLevel": 14,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeGainPerTargetImplicitQuiver3New",
+        "lines": [
+          {
+            "stat": "base_life_gain_per_target",
+            "value": "6~8",
+            "text": {
+              "en": "Gain 6~8 Life per Enemy Hit with Attacks",
+              "kr": "공격으로 명중한 적 하나당 생명력 6~8 획득",
+              "tw": "每用攻擊擊中一個敵人，獲得 6~8 生命",
+              "ru": "6~8 здоровья за каждый удар атаками по врагу",
+              "jp": "アタックでヒットを与えた敵1体ごとに6~8のライフを獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "feathered-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Feathered Arrow Quiver",
+      "kr": "깃 화살통",
+      "tw": "羽翼箭袋",
+      "ru": "Колчан оперённых стрел",
+      "jp": "羽根付きの矢筒"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ProjectileSpeedImplicitQuiver4New",
+        "lines": [
+          {
+            "stat": "base_projectile_speed_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Projectile Speed",
+              "kr": "투사체 속도 20~30% 증가",
+              "tw": "增加 20~30% 投射物速度",
+              "ru": "20~30% повышение скорости снарядов",
+              "jp": "投射物スピードが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "penetrating-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Penetrating Arrow Quiver",
+      "kr": "관통 화살통",
+      "tw": "穿射箭袋",
+      "ru": "Колчан боевых стрел",
+      "jp": "貫通の矢筒"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AdditionalArrowPierceImplicitQuiver5New",
+        "lines": [
+          {
+            "stat": "arrow_base_number_of_targets_to_pierce",
+            "value": "1",
+            "text": {
+              "en": "Arrows Pierce an additional Target",
+              "kr": "화살이 대상을 추가 관통",
+              "tw": "箭矢穿透一個額外目標",
+              "ru": "Стрелы пронзают дополнительную цель",
+              "jp": "矢は対象を追加で1体貫通する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blunt-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Blunt Arrow Quiver",
+      "kr": "뭉툭한 화살통",
+      "tw": "鈍矢箭袋",
+      "ru": "Колчан промысловых стрел",
+      "jp": "鈍頭の矢筒"
+    },
+    "dropLevel": 31,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitQuiver6New",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage",
+            "value": "7~9",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage",
+            "value": "13~16",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "two-point-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Two-Point Arrow Quiver",
+      "kr": "쌍촉 화살통",
+      "tw": "雙鋒箭袋",
+      "ru": "Колчан двуглавых стрел",
+      "jp": "二股の矢筒"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracyPercentImplicitQuiver7New",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Global Accuracy Rating",
+              "kr": "일반 정확도 20~30% 증가",
+              "tw": "增加 20~30% 全域命中值",
+              "ru": "20~30% повышение глобальной меткости",
+              "jp": "グローバル命中力が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spike-point-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Spike-Point Arrow Quiver",
+      "kr": "가시촉 화살통",
+      "tw": "刺鋒箭袋",
+      "ru": "Колчан точных стрел",
+      "jp": "尖った矢筒"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitQuiver8New",
+        "lines": [
+          {
+            "stat": "bow_critical_strike_chance_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Critical Strike Chance with Bows",
+              "kr": "활 사용 시 치명타 확률 20~30% 증가",
+              "tw": "使用弓類武器時增加 20~30% 暴擊率",
+              "ru": "20~30% повышение шанса критического удара луками",
+              "jp": "弓のクリティカル率が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blazing-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Blazing Arrow Quiver",
+      "kr": "맹렬한 화살통",
+      "tw": "熾熱箭袋",
+      "ru": "Колчан пылающих стрел",
+      "jp": "灼熱の矢筒"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedFireDamageImplicitQuiver9New",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_fire_damage",
+            "value": "12~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_fire_damage",
+            "value": "24~27",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "broadhead-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Broadhead Arrow Quiver",
+      "kr": "넓은 촉 화살통",
+      "tw": "寬矢箭袋",
+      "ru": "Колчан охотничьих стрел",
+      "jp": "太矢じりの矢筒"
+    },
+    "dropLevel": 49,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAttackSpeedImplicitQuiver10New",
+        "lines": [
+          {
+            "stat": "attack_speed_+%",
+            "value": "8~10",
+            "text": {
+              "en": "8~10% increased Attack Speed",
+              "kr": "공격 속도 8~10% 증가",
+              "tw": "增加 8~10% 攻擊速度",
+              "ru": "8~10% повышение скорости атаки",
+              "jp": "アタックスピードが8~10%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vile-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Vile Arrow Quiver",
+      "kr": "끔찍한 화살통",
+      "tw": "邪惡箭袋",
+      "ru": "Колчан отравленных стрел",
+      "jp": "卑劣な矢筒"
+    },
+    "dropLevel": 55,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "PhysicalDamageAddedAsChaosImplicitQuiver11New",
+        "lines": [
+          {
+            "stat": "physical_damage_%_to_add_as_chaos",
+            "value": "10~15",
+            "text": {
+              "en": "Gain 10~15% of Physical Damage as Extra Chaos Damage",
+              "kr": "물리 피해의 10~15%를 추가 카오스 피해로 획득",
+              "tw": "獲得 10~15% 物理傷害的混沌傷害",
+              "ru": "Дарует 10~15% от физического урона в виде дополнительного урона хаосом",
+              "jp": "物理ダメージの10~15%を追加混沌ダメージとして獲得する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heavy-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Heavy Arrow Quiver",
+      "kr": "무거운 화살통",
+      "tw": "沉頓箭袋",
+      "ru": "Колчан тяжёлых стрел",
+      "jp": "重い矢筒"
+    },
+    "dropLevel": 61,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitQuiver12New",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage",
+            "value": "12~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage",
+            "value": "24~27",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primal-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Primal Arrow Quiver",
+      "kr": "원시 화살통",
+      "tw": "始祖箭袋",
+      "ru": "Колчан первозданных стрел",
+      "jp": "原始の矢筒"
+    },
+    "dropLevel": 66,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "WeaponElementalDamageImplicitQuiver13New",
+        "lines": [
+          {
+            "stat": "elemental_damage_with_attack_skills_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Elemental Damage with Attack Skills",
+              "kr": "공격 스킬의 원소 피해 20~30% 증가",
+              "tw": "攻擊技能增加 20~30% 元素傷害",
+              "ru": "20~30% увеличение урона от стихий от умений атак",
+              "jp": "アタックスキルの元素ダメージが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "serrated-arrow-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Serrated Arrow Quiver",
+      "kr": "톱니 화살통",
+      "tw": "鋸齒箭袋",
+      "ru": "Колчан зазубренных стрел",
+      "jp": "鋸歯の矢筒"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AddedPhysicalDamageImplicitQuiverDescent",
+        "lines": [
+          {
+            "stat": "attack_minimum_added_physical_damage_with_bow",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "attack_maximum_added_physical_damage_with_bow",
+            "value": "4",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "artillery-quiver",
+    "classId": "Quiver",
+    "className": {
+      "en": "Quivers",
+      "kr": "화살통",
+      "tw": "箭袋",
+      "ru": "Колчаны",
+      "jp": "矢筒"
+    },
+    "name": {
+      "en": "Artillery Quiver",
+      "kr": "포대 화살통",
+      "tw": "火炮箭袋",
+      "ru": "Артиллерийский колчан",
+      "jp": "砲兵の矢筒"
+    },
+    "dropLevel": 74,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SummonTotemCastSpeedImplicit1",
+        "lines": [
+          {
+            "stat": "summon_totem_cast_speed_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Totem Placement speed",
+              "kr": "토템 설치 속도 20~30% 증가",
+              "tw": "增加 20~30% 圖騰放置速度",
+              "ru": "20~30% повышение скорости установки тотемов",
+              "jp": "トーテム設置スピードが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

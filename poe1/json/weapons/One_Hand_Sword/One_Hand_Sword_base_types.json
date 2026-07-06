@@ -1,0 +1,1501 @@
+[
+  {
+    "id": "charans-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Charan's Sword",
+      "kr": "차란의 검",
+      "tw": "查蘭之劍",
+      "ru": "Меч Чарана",
+      "jp": "チャランの剣"
+    },
+    "dropLevel": 2,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 11,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Golden Blade",
+      "kr": "황금 검",
+      "tw": "黃金之刃",
+      "ru": "Золотой клинок",
+      "jp": "ゴールデンブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 3,
+      "damageMax": 23,
+      "critChance": 5,
+      "attackTime": 0.909,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllAttributesImplicitDemigodOneHandSword1",
+        "lines": [
+          {
+            "stat": "additional_all_attributes",
+            "value": "16~24",
+            "text": {
+              "en": "16~24 to all Attributes",
+              "kr": "모든 능력치 16~24",
+              "tw": "16~24 全能力",
+              "ru": "16~24 ко всем характеристикам",
+              "jp": "全ての能力値 16~24"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rusted-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Rusted Sword",
+      "kr": "녹슨 검",
+      "tw": "鏽劍",
+      "ru": "Ржавый меч",
+      "jp": "錆びた剣"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 4,
+      "damageMax": 9,
+      "critChance": 5,
+      "attackTime": 0.645,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "copper-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Copper Sword",
+      "kr": "구리 검",
+      "tw": "青銅短劍",
+      "ru": "Медный меч",
+      "jp": "銅の剣"
+    },
+    "dropLevel": 5,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 6,
+      "damageMax": 14,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit1",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "45",
+            "text": {
+              "en": "45 to Accuracy Rating",
+              "kr": "정확도 45",
+              "tw": "45 命中值",
+              "ru": "45 к меткости",
+              "jp": "命中力 45"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "sabre",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Sabre",
+      "kr": "사브르",
+      "tw": "舊軍刀",
+      "ru": "Сабля",
+      "jp": "サーベル"
+    },
+    "dropLevel": 10,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 5,
+      "damageMax": 22,
+      "critChance": 5,
+      "attackTime": 0.645,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "broad-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Broad Sword",
+      "kr": "넓은날 검",
+      "tw": "闊劍",
+      "ru": "Широкий меч",
+      "jp": "大剣"
+    },
+    "dropLevel": 15,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 15,
+      "damageMax": 21,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "war-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "War Sword",
+      "kr": "전쟁 검",
+      "tw": "征戰之劍",
+      "ru": "Воинский меч",
+      "jp": "ウォーソード"
+    },
+    "dropLevel": 20,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 16,
+      "damageMax": 30,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ancient-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Ancient Sword",
+      "kr": "고대의 검",
+      "tw": "遠古之劍",
+      "ru": "Древний меч",
+      "jp": "エンシェントソード"
+    },
+    "dropLevel": 24,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 33,
+      "critChance": 5,
+      "attackTime": 0.69,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit2",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "165",
+            "text": {
+              "en": "165 to Accuracy Rating",
+              "kr": "정확도 165",
+              "tw": "165 命中值",
+              "ru": "165 к меткости",
+              "jp": "命中力 165"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "elegant-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Elegant Sword",
+      "kr": "고상한 검",
+      "tw": "貴族之劍",
+      "ru": "Элегантный меч",
+      "jp": "豪華な剣"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 33,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit3",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "190",
+            "text": {
+              "en": "190 to Accuracy Rating",
+              "kr": "정확도 190",
+              "tw": "190 命中值",
+              "ru": "190 к меткости",
+              "jp": "命中力 190"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "dusk-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Dusk Blade",
+      "kr": "황혼의 검",
+      "tw": "暮色之刃",
+      "ru": "Закатный клинок",
+      "jp": "ダスクブレード"
+    },
+    "dropLevel": 32,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 19,
+      "damageMax": 54,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hook-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Hook Sword",
+      "kr": "갈고리 검",
+      "tw": "鉤爪劍",
+      "ru": "Меч-крюк",
+      "jp": "フックソード"
+    },
+    "dropLevel": 34,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 28,
+      "damageMax": 60,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DodgeImplicitMarakethSword1",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "15",
+            "text": {
+              "en": "15% chance to Maim on Hit",
+              "kr": "명중 시 15%의 확률로 힘줄 절단",
+              "tw": "擊中時有 15% 機率造成癱瘓",
+              "ru": "15% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に15%の確率で敵に重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "variscite-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Variscite Blade",
+      "kr": "바리사이트 검",
+      "tw": "碧銅短劍",
+      "ru": "Варисцитовый меч",
+      "jp": "バリサイトの剣"
+    },
+    "dropLevel": 35,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 25,
+      "damageMax": 53,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit4",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "240",
+            "text": {
+              "en": "240 to Accuracy Rating",
+              "kr": "정확도 240",
+              "tw": "240 命中值",
+              "ru": "240 к меткости",
+              "jp": "命中力 240"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cutlass",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Cutlass",
+      "kr": "커틀라스",
+      "tw": "軍用長刃",
+      "ru": "Абордажная сабля",
+      "jp": "カットラス"
+    },
+    "dropLevel": 38,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 13,
+      "damageMax": 53,
+      "critChance": 5,
+      "attackTime": 0.645,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "baselard",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Baselard",
+      "kr": "베이스라드",
+      "tw": "冷光長劍",
+      "ru": "Короткий меч",
+      "jp": "バーゼラルド"
+    },
+    "dropLevel": 41,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 53,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "battle-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Battle Sword",
+      "kr": "전투용 검",
+      "tw": "士兵長劍",
+      "ru": "Боевой меч",
+      "jp": "バトルソード"
+    },
+    "dropLevel": 44,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 70,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "elder-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Elder Sword",
+      "kr": "장로의 검",
+      "tw": "智者長劍",
+      "ru": "Меч старейшины",
+      "jp": "長老の剣"
+    },
+    "dropLevel": 47,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 66,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit5",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "330",
+            "text": {
+              "en": "330 to Accuracy Rating",
+              "kr": "정확도 330",
+              "tw": "330 命中值",
+              "ru": "330 к меткости",
+              "jp": "命中力 330"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "graceful-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Graceful Sword",
+      "kr": "우아한 검",
+      "tw": "權貴之劍",
+      "ru": "Изящный меч",
+      "jp": "優雅な剣"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 34,
+      "damageMax": 55,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit6",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "350",
+            "text": {
+              "en": "350 to Accuracy Rating",
+              "kr": "정확도 350",
+              "tw": "350 命中值",
+              "ru": "350 к меткости",
+              "jp": "命中力 350"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "twilight-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Twilight Blade",
+      "kr": "여명의 검",
+      "tw": "暮光長劍",
+      "ru": "Сумрачный клинок",
+      "jp": "トワイライトブレード"
+    },
+    "dropLevel": 53,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 30,
+      "damageMax": 86,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "grappler",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Grappler",
+      "kr": "격투자",
+      "tw": "捕捉者",
+      "ru": "Хвататель",
+      "jp": "グラップラー"
+    },
+    "dropLevel": 55,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 44,
+      "damageMax": 94,
+      "critChance": 5,
+      "attackTime": 0.87,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DodgeImplicitMarakethSword1",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "15",
+            "text": {
+              "en": "15% chance to Maim on Hit",
+              "kr": "명중 시 15%의 확률로 힘줄 절단",
+              "tw": "擊中時有 15% 機率造成癱瘓",
+              "ru": "15% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に15%の確率で敵に重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gemstone-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Gemstone Sword",
+      "kr": "원석 검",
+      "tw": "寶石之劍",
+      "ru": "Самоцветный меч",
+      "jp": "原石の剣"
+    },
+    "dropLevel": 56,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 39,
+      "damageMax": 83,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit7",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "400",
+            "text": {
+              "en": "400 to Accuracy Rating",
+              "kr": "정확도 400",
+              "tw": "400 命中值",
+              "ru": "400 к меткости",
+              "jp": "命中力 400"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "corsair-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Corsair Sword",
+      "kr": "해적의 검",
+      "tw": "海賊長刀",
+      "ru": "Пиратский тесак",
+      "jp": "コルセアソード"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 20,
+      "damageMax": 80,
+      "critChance": 5,
+      "attackTime": 0.645,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gladius",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Gladius",
+      "kr": "글라디우스",
+      "tw": "鬥士長劍",
+      "ru": "Гладиус",
+      "jp": "グラディウス"
+    },
+    "dropLevel": 60,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 54,
+      "damageMax": 78,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "legion-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Legion Sword",
+      "kr": "군단 검",
+      "tw": "軍團長劍",
+      "ru": "Меч всадника",
+      "jp": "リージョンソード"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 53,
+      "damageMax": 98,
+      "critChance": 5,
+      "attackTime": 0.833,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vaal-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Vaal Blade",
+      "kr": "바알 칼날",
+      "tw": "瓦爾軍刃",
+      "ru": "Клинок ваал",
+      "jp": "ヴァールの剣"
+    },
+    "dropLevel": 64,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 46,
+      "damageMax": 86,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit8",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "460",
+            "text": {
+              "en": "460 to Accuracy Rating",
+              "kr": "정확도 460",
+              "tw": "460 命中值",
+              "ru": "460 к меткости",
+              "jp": "命中力 460"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "eternal-sword",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Eternal Sword",
+      "kr": "영원의 검",
+      "tw": "永恆之劍",
+      "ru": "Меч вечного",
+      "jp": "永遠の剣"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 68,
+      "critChance": 5,
+      "attackTime": 0.667,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedAccuracySwordImplicit9",
+        "lines": [
+          {
+            "stat": "local_accuracy_rating",
+            "value": "475",
+            "text": {
+              "en": "475 to Accuracy Rating",
+              "kr": "정확도 475",
+              "tw": "475 命中值",
+              "ru": "475 к меткости",
+              "jp": "命中力 475"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "midnight-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Midnight Blade",
+      "kr": "심야의 칼날",
+      "tw": "夜語長劍",
+      "ru": "Полуночный меч",
+      "jp": "ミッドナイトブレード"
+    },
+    "dropLevel": 68,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 35,
+      "damageMax": 99,
+      "critChance": 5,
+      "attackTime": 0.769,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AccuracyPercentImplicitSword1",
+        "lines": [
+          {
+            "stat": "accuracy_rating_+%",
+            "value": "40",
+            "text": {
+              "en": "40% increased Global Accuracy Rating",
+              "kr": "일반 정확도 40% 증가",
+              "tw": "增加 40% 全域命中值",
+              "ru": "40% повышение глобальной меткости",
+              "jp": "グローバル命中力が40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "tiger-hook",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Tiger Hook",
+      "kr": "호랑이 갈고리",
+      "tw": "虎鉤",
+      "ru": "Тигровый крюк",
+      "jp": "タイガーフック"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 37,
+      "damageMax": 80,
+      "critChance": 5,
+      "attackTime": 0.714,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DodgeImplicitMarakethSword2",
+        "lines": [
+          {
+            "stat": "local_maim_on_hit_%",
+            "value": "20",
+            "text": {
+              "en": "20% chance to Maim on Hit",
+              "kr": "명중 시 20%의 확률로 힘줄 절단",
+              "tw": "擊中時有 20% 機率造成癱瘓",
+              "ru": "20% шанс изувечить при нанесении удара",
+              "jp": "ヒット時に20%の確率で敵に重傷を付与する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fickle-spiritblade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Fickle Spiritblade",
+      "kr": "변화무쌍한 정령의 칼",
+      "tw": "非命魂刃",
+      "ru": "Изменчивый меч духа",
+      "jp": "移り気な精霊の剣"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 18,
+      "damageMax": 33,
+      "critChance": 6.5,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalDamageConversionToRandomElementImplicitE1",
+        "lines": [
+          {
+            "stat": "local_physical_damage_%_to_convert_to_a_random_element",
+            "value": "100",
+            "text": {
+              "en": "100% of Physical Damage from Hits with this Weapon is Converted to a random Element",
+              "kr": "이 무기로 적 명중 시 물리 피해의 100%를 무작위 원소 피해로 전환",
+              "tw": "使用此武器攻擊時 100% 物理傷害轉化為隨機元素傷害",
+              "ru": "100% физического урона от ударов этим оружием становится уроном от случайной стихии",
+              "jp": "この武器のヒットによる物理ダメージの100%がランダムな元素属性に変換される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "capricious-spiritblade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Capricious Spiritblade",
+      "kr": "변덕스러운 정령의 칼",
+      "tw": "怪談魂刃",
+      "ru": "Своенравный меч духа",
+      "jp": "気まぐれな精霊の剣"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 51,
+      "critChance": 6.5,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalDamageConversionToRandomElementImplicitE1",
+        "lines": [
+          {
+            "stat": "local_physical_damage_%_to_convert_to_a_random_element",
+            "value": "100",
+            "text": {
+              "en": "100% of Physical Damage from Hits with this Weapon is Converted to a random Element",
+              "kr": "이 무기로 적 명중 시 물리 피해의 100%를 무작위 원소 피해로 전환",
+              "tw": "使用此武器攻擊時 100% 物理傷害轉化為隨機元素傷害",
+              "ru": "100% физического урона от ударов этим оружием становится уроном от случайной стихии",
+              "jp": "この武器のヒットによる物理ダメージの100%がランダムな元素属性に変換される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "anarchic-spiritblade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Anarchic Spiritblade",
+      "kr": "무질서한 정령의 칼",
+      "tw": "翻天魂刃",
+      "ru": "Сумбурный меч духа",
+      "jp": "無秩序な精霊の剣"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 34,
+      "damageMax": 63,
+      "critChance": 6.5,
+      "attackTime": 0.625,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LocalDamageConversionToRandomElementImplicitE1",
+        "lines": [
+          {
+            "stat": "local_physical_damage_%_to_convert_to_a_random_element",
+            "value": "100",
+            "text": {
+              "en": "100% of Physical Damage from Hits with this Weapon is Converted to a random Element",
+              "kr": "이 무기로 적 명중 시 물리 피해의 100%를 무작위 원소 피해로 전환",
+              "tw": "使用此武器攻擊時 100% 物理傷害轉化為隨機元素傷害",
+              "ru": "100% физического урона от ударов этим оружием становится уроном от случайной стихии",
+              "jp": "この武器のヒットによる物理ダメージの100%がランダムな元素属性に変換される"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "energy-blade",
+    "classId": "One Hand Sword",
+    "className": {
+      "en": "One Hand Swords",
+      "kr": "한손 검",
+      "tw": "單手劍",
+      "ru": "Одноручные мечи",
+      "jp": "片手剣"
+    },
+    "name": {
+      "en": "Energy Blade",
+      "kr": "에너지 칼날",
+      "tw": "能量之刃",
+      "ru": "Клинок энергии",
+      "jp": "エナジーブレード"
+    },
+    "dropLevel": 1,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 0,
+      "damageMax": 0,
+      "critChance": 7,
+      "attackTime": 0.588,
+      "rangeMax": 11
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StormBladeImplicitLocalLightningDamage_1",
+        "lines": [
+          {
+            "stat": "local_minimum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_maximum_added_lightning_damage",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

@@ -1,0 +1,1390 @@
+[
+  {
+    "id": "primeval-remnant",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Primeval Remnant",
+      "kr": "원시 유물",
+      "tw": "史前遺跡",
+      "ru": "Первобытные останки",
+      "jp": "太古のレムナント"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Kalandra watched as the almighty titans fell,\r\nrelegated to the innermost depths of the world,\r\nwhere horrific abominations awaited them.",
+      "kr": "칼란드라는 전능한 거신들이 쓰러져서\r\n끔찍하고 가증스러운 존재들이 기다리는,\r\n가장 깊은 심연으로 추락하는 것을 지켜보았다.",
+      "tw": "卡蘭德看著萬能的泰坦倒下，\r\n被放逐到世界最深處，\r\n在那裡恐怖的怪物在等待著他們。",
+      "ru": "Каландра наблюдала, как всемогущие титаны пали,\r\nнизверженные в самые глубины мира,\r\nгде их дожидались чудовищные отродья.",
+      "jp": "カランドラは、全能のタイタンが落ちるのを眺めていた。\r\n追いやられた世界の最も深い部分、\r\nそこには恐ろしく忌まわしい存在が待っていた。"
+    },
+    "implicits": [
+      {
+        "modId": "CrucibleMapGrantsCombiningForgeImplicit",
+        "lines": [
+          {
+            "stat": "map_crucible_forge_display",
+            "value": "1",
+            "text": {
+              "en": "Contains a Forge that can Combine Crucible Passive Skill Trees",
+              "kr": "시련 패시브 스킬 트리를 조합할 수 있는 대장간 포함",
+              "tw": "含有 1 個額外鍛造，可以融合熔火天賦樹",
+              "ru": "Можно встретить кузню, которая позволит объединить пассивные древа умений Горнила",
+              "jp": "クルーシブパッシブツリーを組み合わせることができる鍜治場が出現する"
+            }
+          },
+          {
+            "stat": "local_hidden_maximum_prefixes_allowed_+",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_hidden_maximum_suffixes_allowed_+",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primordial-remnant",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Primordial Remnant",
+      "kr": "태고의 유물",
+      "tw": "史前遺跡",
+      "ru": "Первозданные останки",
+      "jp": "原始のレムナント"
+    },
+    "dropLevel": 84,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Kalandra watched as the almighty titans fell,\r\nrelegated to the innermost depths of the world,\r\nwhere horrific abominations awaited them.",
+      "kr": "칼란드라는 전능한 거신들이 쓰러져서\r\n끔찍하고 가증스러운 존재들이 기다리는,\r\n가장 깊은 심연으로 추락하는 것을 지켜보았다.",
+      "tw": "卡蘭德看著萬能的泰坦倒下，\r\n被放逐到世界最深處，\r\n在那裡恐怖的怪物在等待著他們。",
+      "ru": "Каландра наблюдала, как всемогущие титаны пали,\r\nнизверженные в самые глубины мира,\r\nгде их дожидались чудовищные отродья.",
+      "jp": "カランドラは、全能のタイタンが落ちるのを眺めていた。\r\n追いやられた世界の最も深い部分、\r\nそこには恐ろしく忌まわしい存在が待っていた。"
+    },
+    "implicits": [
+      {
+        "modId": "CrucibleMapGrantsUberCombiningForgeImplicit",
+        "lines": [
+          {
+            "stat": "map_crucible_forge_display_uber",
+            "value": "1",
+            "text": {
+              "en": "Contains a Forge that can Combine Crucible Passive Skill Trees, including on Unique and Corrupted Items",
+              "kr": "고유 및 타락한 아이템을 포함하는 아이템의 시련 패시브 스킬 트리를 조합할 수 있는 대장간 포함",
+              "tw": "含有 1 個額外鍛造，可以融合熔火天賦樹，包括傳奇和已汙染物品",
+              "ru": "Можно встретить кузню, которая позволит объединить пассивные древа умений Горнила, включая древа на уникальных и оскверненных предметах",
+              "jp": "ユニークアイテムおよびコラプト状態のアイテムを含む、クルーシブルパッシブツリーを組み合わせることができる鍛冶場が出現する"
+            }
+          },
+          {
+            "stat": "local_hidden_maximum_prefixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_hidden_maximum_suffixes_allowed_+",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "xophs-breachstone",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Xoph's Breachstone",
+      "kr": "조프의 균열석",
+      "tw": "索伏裂痕石",
+      "ru": "Камень Разлома Ксофа",
+      "jp": "ゾフのブリーチストーン"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tuls-breachstone",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Tul's Breachstone",
+      "kr": "툴의 균열석",
+      "tw": "托沃裂痕石",
+      "ru": "Камень Разлома Тул",
+      "jp": "トゥルのブリーチストーン"
+    },
+    "dropLevel": 70,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "eshs-breachstone",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Esh's Breachstone",
+      "kr": "에쉬의 균열석",
+      "tw": "艾許裂痕石",
+      "ru": "Камень Разлома Иш",
+      "jp": "エシュのブリーチストーン"
+    },
+    "dropLevel": 72,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "uul-netols-breachstone",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Uul-Netol's Breachstone",
+      "kr": "울네톨의 균열석",
+      "tw": "烏爾尼多裂痕石",
+      "ru": "Камень Разлома Уул-Нетол",
+      "jp": "ウール・ネトルのブリーチストーン"
+    },
+    "dropLevel": 76,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "chayulas-breachstone",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Chayula's Breachstone",
+      "kr": "차율라의 균열석",
+      "tw": "夏烏拉裂痕石",
+      "ru": "Камень Разлома Чаюлы",
+      "jp": "チャユラのブリーチストーン"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-formed",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Formed",
+      "kr": "메이븐의 초대: 형성된 영역",
+      "tw": "釋界之邀：塑型",
+      "ru": "Приглашение Мейвен: Обращённые",
+      "jp": "メイヴェンの招待状: 形作られし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-twisted",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Twisted",
+      "kr": "메이븐의 초대: 뒤틀린 영역",
+      "tw": "釋界之邀：扭曲",
+      "ru": "Приглашение Мейвен: Искажённые",
+      "jp": "メイヴェンの招待状: 歪みし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-forgotten",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Forgotten",
+      "kr": "메이븐의 초대: 잊혀진 영역",
+      "tw": "釋界之邀：遺忘",
+      "ru": "Приглашение Мейвен: Позабытые",
+      "jp": "メイヴェンの招待状: 忘れ去られし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-hidden",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Hidden",
+      "kr": "메이븐의 초대: 숨겨진 영역",
+      "tw": "釋界之邀：隱匿",
+      "ru": "Приглашение Мейвен: Сокрытые",
+      "jp": "メイヴェンの招待状: 隠されし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-feared",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Feared",
+      "kr": "메이븐의 초대: 끔찍한 영역",
+      "tw": "釋界之邀：恐懼",
+      "ru": "Приглашение Мейвен: Внушающие страх",
+      "jp": "メイヴェンの招待状: 恐れられし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-elderslayers",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Elderslayers",
+      "kr": "메이븐의 초대: 엘더슬레이어",
+      "tw": "釋界之邀：尊師殺手",
+      "ru": "Приглашение Мейвен: Убийцы Древнего",
+      "jp": "メイヴェンの招待状: エルダースレイヤー"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-formed",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Formed",
+      "kr": "메이븐의 초대: 형성된 영역",
+      "tw": "釋界之邀：塑型",
+      "ru": "Приглашение Мейвен: Обращённые",
+      "jp": "メイヴェンの招待状: 形作られし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-twisted",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Twisted",
+      "kr": "메이븐의 초대: 뒤틀린 영역",
+      "tw": "釋界之邀：扭曲",
+      "ru": "Приглашение Мейвен: Искажённые",
+      "jp": "メイヴェンの招待状: 歪みし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-forgotten",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Forgotten",
+      "kr": "메이븐의 초대: 잊혀진 영역",
+      "tw": "釋界之邀：遺忘",
+      "ru": "Приглашение Мейвен: Позабытые",
+      "jp": "メイヴェンの招待状: 忘れ去られし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-remembered",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Remembered",
+      "kr": "메이븐의 초대: 기억되는 자들",
+      "tw": "釋界之邀：返憶",
+      "ru": "Приглашение Мейвен: Памятные",
+      "jp": "メイヴェンの招待状: 記憶されし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-feared",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Feared",
+      "kr": "메이븐의 초대: 끔찍한 영역",
+      "tw": "釋界之邀：恐懼",
+      "ru": "Приглашение Мейвен: Внушающие страх",
+      "jp": "メイヴェンの招待状: 恐れられし者"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-elderslayers",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Elderslayers",
+      "kr": "메이븐의 초대: 엘더슬레이어",
+      "tw": "釋界之邀：尊師殺手",
+      "ru": "Приглашение Мейвен: Убийцы Древнего",
+      "jp": "メイヴェンの招待状: エルダースレイヤー"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": [
+      {
+        "modId": "MavenInvitation",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_encounter_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity will affect the number of encounter rewards dropped",
+              "kr": "아이템 수량 속성 부여가 인카운터에서 떨어지는 보상의 개수에도 적용",
+              "tw": "物品數量詞綴影響事件的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはエンカウンターの報酬からドロップするアイテムの数に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-atlas",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Atlas",
+      "kr": "메이븐의 초대: 아틀라스",
+      "tw": "釋界之邀：輿圖",
+      "ru": "Приглашение Мейвен: Атлас",
+      "jp": "メイヴェンの招待状: アトラス"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-the-atlas",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: The Atlas",
+      "kr": "메이븐의 초대: 아틀라스",
+      "tw": "釋界之邀：輿圖",
+      "ru": "Приглашение Мейвен: Атлас",
+      "jp": "メイヴェンの招待状: アトラス"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-haewark-hamlet",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: Haewark Hamlet",
+      "kr": "메이븐의 초대: 헤이워크 촌락",
+      "tw": "釋界之邀：海沃克．哈姆雷特",
+      "ru": "Приглашение Мейвен: Деревня Хейварк",
+      "jp": "メイヴェンの招待状: ヘイウォークの集落"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-tirns-end",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: Tirn's End",
+      "kr": "메이븐의 초대: 티른의 끝자락",
+      "tw": "釋界之邀：特恩之盡",
+      "ru": "Приглашение Мейвен: Предел Тирна",
+      "jp": "メイヴェンの招待状: ティアーンの果て"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-lex-proxima",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: Lex Proxima",
+      "kr": "메이븐의 초대: 렉스 프록시마",
+      "tw": "釋界之邀：雷克斯．普拉克斯瑪",
+      "ru": "Приглашение Мейвен: Лекс Проксима",
+      "jp": "メイヴェンの招待状: レックス・プロキシマ"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-lex-ejoris",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: Lex Ejoris",
+      "kr": "메이븐의 초대: 렉스 에요리스",
+      "tw": "釋界之邀：雷克斯．伊喬里斯",
+      "ru": "Приглашение Мейвен: Лекс Эйорис",
+      "jp": "メイヴェンの招待状: レックス・イジョリス"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-new-vastir",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: New Vastir",
+      "kr": "메이븐의 초대: 뉴 바스티르",
+      "tw": "釋界之邀：新瓦斯提里",
+      "ru": "Приглашение Мейвен: Новый Вастир",
+      "jp": "メイヴェンの招待状: ニューヴァスティア"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-glennach-cairns",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: Glennach Cairns",
+      "kr": "메이븐의 초대: 글렌나크 돌무덤",
+      "tw": "釋界之邀：格倫納許．凱恩斯",
+      "ru": "Приглашение Мейвен: Пирамиды Гленнаха",
+      "jp": "メイヴェンの招待状: グレナックの石塚"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-valdos-rest",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: Valdo's Rest",
+      "kr": "메이븐의 초대: 발도의 휴식처",
+      "tw": "釋界之邀：瓦爾多憩地",
+      "ru": "Приглашение Мейвен: Покой Валдо",
+      "jp": "メイヴェンの招待状: ヴァルドの安息"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mavens-invitation-lira-arthain",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Maven's Invitation: Lira Arthain",
+      "kr": "메이븐의 초대: 리라 아르타인",
+      "tw": "釋界之邀：里拉．奧斯汀",
+      "ru": "Приглашение Мейвен: Лира Артейн",
+      "jp": "メイヴェンの招待状: リラ・アルテイン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For those who must not endure it,\r\nthere may be found a perverse joy \r\nin watching the struggle for survival.",
+      "kr": "그것을 감내하지 않는 자는,\r\n살아남기 위한 몸부림을 지켜보는 데서 \r\n변태적인 낙을 느낀다.",
+      "tw": "對於那些不能忍受的人，\r\n可能會發現不正當的喜樂\r\n看著掙扎求生。",
+      "ru": "Тем, кому не нужно испытывать её на себе,\r\nзрелище борьбы за выживание\r\nможет принести извращённое удовольствие.",
+      "jp": "それを自ら体験する必要の無い者にとって、\r\n生存のためのあがきを眺めることには\r\nねじ曲がった悦びがあるのだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "chronicle-of-atzoatl",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Chronicle of Atzoatl",
+      "kr": "앗조아틀의 연대기",
+      "tw": "阿茲瓦特史記",
+      "ru": "Хроники Ацоатля",
+      "jp": "アッツォアトルの歴史書"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Grand plans were laid for a place called Atzoatl, though fierce bickering between its Architects is said to have stifled its development.\" - Icius Perandus, Antiquities Collection, Research Report",
+      "kr": "\"앗조아틀이라는 곳을 위해 거창한 계획이 세워졌다. 하지만 건축가들이 격한 언쟁을 벌이는 통에 개발에 진척이 없었다고 한다.\" - 이시우스 페란두스, 유물 모음집, 연구 보고서",
+      "tw": "儘管有建築師之間的激烈爭吵抑制了其發展，但已經為一個名為阿茲瓦特的地方制定了宏偉的計劃。\" - 古玩蒐藏，研究報告，伊席厄斯．普蘭德斯",
+      "ru": "«Грандиозные планы возлагались на место под названием Ацоатль, хотя яростные споры между его архитекторами, как говорят, задушили его развитие». - Иций Перандус, Коллекция древностей, Отчет об исследованиях",
+      "jp": "「アッツォアトルと呼ばれる場所には壮大な計画があったが、アーキテクトたちの間の強烈な諍いがその発展を妨げたと言われている。」ーイシウス・ペランダス、骨董品コレクション、研究報告書"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "inscribed-ultimatum",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Inscribed Ultimatum",
+      "kr": "새겨진 결전",
+      "tw": "最後通牒雕刻",
+      "ru": "Начертанный Ультиматум",
+      "jp": "アルティメイタムの刻印"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "writhing-invitation",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Writhing Invitation",
+      "kr": "꿈틀거리는 초대",
+      "tw": "纏繞之邀",
+      "ru": "Извивающееся приглашение",
+      "jp": "蠢きの招待状"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The Infinite Hunger awaits in a cosmic stomach where\r\nwhole civilisations are digested - but do not die.",
+      "kr": "문명이 통째로 삼켜지나 죽지는 않는\r\n우주의 위장 속에서 무한한 허기가 기다린다.",
+      "tw": "無限飢餓在消化整個文明的\r\n浩瀚宇宙中等待著—但不要死。",
+      "ru": "Неутолимый голод дожидается в космическом желудке, где\r\nпожранные им цивилизации перевариваются, но не умирают.",
+      "jp": "果てなき渇望が宇宙の胃袋の中で待ち受けている。\r\nそこでは文明すべてが消化され、しかし死ぬことはない"
+    },
+    "implicits": [
+      {
+        "modId": "ChampionsFragment",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_boss_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity affect the amount of rewards dropped by the boss",
+              "kr": "아이템 수량에 부여된 속성이 보스가 떨어뜨리는 보상의 수량에도 적용",
+              "tw": "物品數量詞綴影響頭目掉落的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはボスからドロップする報酬の量に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "screaming-invitation",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Screaming Invitation",
+      "kr": "절규하는 초대",
+      "tw": "尖嘯之邀",
+      "ru": "Кричащее приглашение",
+      "jp": "絶叫の招待状"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "From the heart of the Tangle, the Eater of Worlds\r\nreaches out for control of the Atlas.",
+      "kr": "갈퀴의 심장부에서 세계 포식자가\r\n아틀라스를 장악하려 손을 뻗는다.",
+      "tw": "吞噬天地從纏結的中心\r\n伸出手來控制輿圖。",
+      "ru": "Из самого сердца Переплетения, Пожиратель миров\r\nтянется к господству над Атласом.",
+      "jp": "タングルの中心から\r\n世界を喰らうものが\r\nアトラスを支配しようと手を伸ばす"
+    },
+    "implicits": [
+      {
+        "modId": "ChampionsFragment",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_boss_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity affect the amount of rewards dropped by the boss",
+              "kr": "아이템 수량에 부여된 속성이 보스가 떨어뜨리는 보상의 수량에도 적용",
+              "tw": "物品數量詞綴影響頭目掉落的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはボスからドロップする報酬の量に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "polaric-invitation",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Polaric Invitation",
+      "kr": "극성의 초대",
+      "tw": "極地之邀",
+      "ru": "Полярное приглашение",
+      "jp": "極性の招待状"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Once within the grasp of the Black Star,\r\nthere can be no escape.",
+      "kr": "검은 별의 손아귀 안에 들어가면\r\n빠져나갈 길은 없다.",
+      "tw": "一旦落入黯星的掌控之中，\r\n就無法逃脫。",
+      "ru": "Угодив в горизонт Чёрного солнца,\r\nспастись уже не сумеешь.",
+      "jp": "一度黒き星に捕まれば、\r\n逃げ場はない。"
+    },
+    "implicits": [
+      {
+        "modId": "ChampionsFragment",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_boss_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity affect the amount of rewards dropped by the boss",
+              "kr": "아이템 수량에 부여된 속성이 보스가 떨어뜨리는 보상의 수량에도 적용",
+              "tw": "物品數量詞綴影響頭目掉落的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはボスからドロップする報酬の量に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "incandescent-invitation",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Incandescent Invitation",
+      "kr": "백열하는 초대",
+      "tw": "熾熱之邀",
+      "ru": "Сияющее приглашение",
+      "jp": "白熱の招待状"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "From the corona of an ancient star,\r\nthe Searing Exarch seeks to master the Atlas.",
+      "kr": "고대 별의 광환에서,\r\n작열의 총주교가 아틀라스를 지배하려 한다.",
+      "tw": "從一顆古老恆星的日冕中，\r\n灼烙總督試圖掌握輿圖。",
+      "ru": "Из ореола древней звезды\r\nПламенный экзарх стремится править Атласом.",
+      "jp": "古代の星の光冠から、\r\n灼熱の代行者がアトラスを支配しようとしている。"
+    },
+    "implicits": [
+      {
+        "modId": "ChampionsFragment",
+        "lines": [
+          {
+            "stat": "display_item_quantity_increases_rewards_from_boss_by_x_percent_of_its_value",
+            "value": "100",
+            "text": {
+              "en": "Modifiers to Item Quantity affect the amount of rewards dropped by the boss",
+              "kr": "아이템 수량에 부여된 속성이 보스가 떨어뜨리는 보상의 수량에도 적용",
+              "tw": "物品數量詞綴影響頭目掉落的總獎勵數量",
+              "ru": "Модификаторы количества предметов влияют на количество выпадающих из босса наград",
+              "jp": "アイテムの数量のモッドはボスからドロップする報酬の量に影響する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mirrored-tablet",
+    "classId": "MiscMapItem",
+    "className": {
+      "en": "Misc Map Items",
+      "kr": "기타 지도 아이템",
+      "tw": "其它",
+      "ru": "Прочие предметы карт",
+      "jp": "その他マップアイテム"
+    },
+    "name": {
+      "en": "Mirrored Tablet",
+      "kr": "복제 서판",
+      "tw": "鏡像碑牌",
+      "ru": "Зеркальная табличка",
+      "jp": "鏡の石板"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

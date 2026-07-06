@@ -1,0 +1,1056 @@
+[
+  {
+    "id": "rusted-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Rusted Stalker Sentinel",
+      "kr": "녹슨 추적자 파수꾼",
+      "tw": "鏽蝕的潛行守望",
+      "ru": "Ржавый Часовой-охотник",
+      "jp": "錆びたストーカーセンチネル"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "bronze-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Bronze Stalker Sentinel",
+      "kr": "청동 추적자 파수꾼",
+      "tw": "青銅的潛行守望",
+      "ru": "Бронзовый Часовой-охотник",
+      "jp": "青銅のストーカーセンチネル"
+    },
+    "dropLevel": 5,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cobalt-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Cobalt Stalker Sentinel",
+      "kr": "코발트 추적자 파수꾼",
+      "tw": "鈷藍的潛行守望",
+      "ru": "Кобальтовый Часовой-охотник",
+      "jp": "コバルトストーカーセンチネル"
+    },
+    "dropLevel": 18,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "brimstone-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Brimstone Stalker Sentinel",
+      "kr": "유황 추적자 파수꾼",
+      "tw": "硫磺的潛行守望",
+      "ru": "Сернистый Часовой-охотник",
+      "jp": "ブリムストーンストーカーセンチネル"
+    },
+    "dropLevel": 38,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "emberstone-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Emberstone Stalker Sentinel",
+      "kr": "불씨석 추적자 파수꾼",
+      "tw": "灰石的潛行守望",
+      "ru": "Каменноугольный Часовой-охотник",
+      "jp": "エンバーストーンストーカーセンチネル"
+    },
+    "dropLevel": 58,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "obsidian-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Obsidian Stalker Sentinel",
+      "kr": "흑요석 추적자 파수꾼",
+      "tw": "黑曜的潛行守望",
+      "ru": "Обсидиановый Часовой-охотник",
+      "jp": "黒曜石のストーカーセンチネル"
+    },
+    "dropLevel": 67,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cryptic-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Cryptic Stalker Sentinel",
+      "kr": "난해한 추적자 파수꾼",
+      "tw": "神秘的潛行守望",
+      "ru": "Скрытый Часовой-охотник",
+      "jp": "謎めいたストーカーセンチネル"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedA1",
+        "lines": [
+          {
+            "stat": "number_of_chains",
+            "value": "1",
+            "text": {
+              "en": "Skills Chain 1 times",
+              "kr": "스킬 연쇄 1회",
+              "tw": "技能連鎖 1",
+              "ru": "Умения поражают целей по цепи: 1",
+              "jp": "スキルは1回連鎖する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primeval-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Primeval Stalker Sentinel",
+      "kr": "원시 추적자 파수꾼",
+      "tw": "原始的潛行守望",
+      "ru": "Первобытный Часовой-охотник",
+      "jp": "太古のストーカーセンチネル"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedA2",
+        "lines": [
+          {
+            "stat": "base_cast_speed_+%",
+            "value": "30~40",
+            "text": {
+              "en": "30~40% increased Cast Speed",
+              "kr": "시전 속도 30~40% 증가",
+              "tw": "增加 30~40% 施放速度",
+              "ru": "30~40% повышение скорости сотворения чар",
+              "jp": "キャストスピードが30~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ancient-stalker-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Ancient Stalker Sentinel",
+      "kr": "고대 추적자 파수꾼",
+      "tw": "古代的潛行守望",
+      "ru": "Древний Часовой-охотник",
+      "jp": "古代のストーカーセンチネル"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedA3",
+        "lines": [
+          {
+            "stat": "local_sentinel_drone_difficulty_+%",
+            "value": "10~15",
+            "text": {
+              "en": "{}% increased Empowerment",
+              "kr": "강화 {}% 증가",
+              "tw": "增加 {}% 賦予",
+              "ru": "{}% повышение Усиления",
+              "jp": "強化値が{}%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bronze-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Bronze Pandemonium Sentinel",
+      "kr": "청동 대혼란 파수꾼",
+      "tw": "青銅的萬劫守望",
+      "ru": "Бронзовый Часовой-пандемоний",
+      "jp": "青銅のパンデモニウムセンチネル"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cobalt-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Cobalt Pandemonium Sentinel",
+      "kr": "코발트 대혼란 파수꾼",
+      "tw": "鈷藍的萬劫守望",
+      "ru": "Кобальтовый Часовой-пандемоний",
+      "jp": "コバルトパンデモニウムセンチネル"
+    },
+    "dropLevel": 46,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "brimstone-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Brimstone Pandemonium Sentinel",
+      "kr": "유황 대혼란 파수꾼",
+      "tw": "硫磺的萬劫守望",
+      "ru": "Сернистый Часовой-пандемоний",
+      "jp": "ブリムストーンパンデモニウムセンチネル"
+    },
+    "dropLevel": 54,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "emberstone-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Emberstone Pandemonium Sentinel",
+      "kr": "불씨석 대혼란 파수꾼",
+      "tw": "灰石的萬劫守望",
+      "ru": "Каменноугольный Часовой-пандемоний",
+      "jp": "エンバーストーンパンデモニウムセンチネル"
+    },
+    "dropLevel": 62,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "obsidian-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Obsidian Pandemonium Sentinel",
+      "kr": "흑요석 대혼란 파수꾼",
+      "tw": "黑曜的萬劫守望",
+      "ru": "Обсидиановый Часовой-пандемоний",
+      "jp": "黒曜石のパンデモニウムセンチネル"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cryptic-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Cryptic Pandemonium Sentinel",
+      "kr": "난해한 대혼란 파수꾼",
+      "tw": "神秘的萬劫守望",
+      "ru": "Скрытый Часовой-пандемоний",
+      "jp": "謎めいたパンデモニウムセンチネル"
+    },
+    "dropLevel": 40,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedB1",
+        "lines": [
+          {
+            "stat": "chaining_range_+%",
+            "value": "30~40",
+            "text": {
+              "en": "30~40% increased Chaining range",
+              "kr": "연쇄 범위 30~40% 증가",
+              "tw": "增加 30~40% 連鎖範圍",
+              "ru": "30~40% увеличение дальности поражения целей по цепи",
+              "jp": "連鎖範囲が30~40%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primeval-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Primeval Pandemonium Sentinel",
+      "kr": "원시 대혼란 파수꾼",
+      "tw": "原始的萬劫守望",
+      "ru": "Первобытный Часовой-пандемоний",
+      "jp": "太古のパンデモニウムセンチネル"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedB2",
+        "lines": [
+          {
+            "stat": "sentinel_tag_beam_number_of_beams",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ancient-pandemonium-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Ancient Pandemonium Sentinel",
+      "kr": "고대 대혼란 파수꾼",
+      "tw": "古代的萬劫守望",
+      "ru": "Древний Часовой-пандемоний",
+      "jp": "古代のパンデモニウムセンチネル"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedB3",
+        "lines": [
+          {
+            "stat": "local_sentinel_drone_difficulty_+%",
+            "value": "10~15",
+            "text": {
+              "en": "{}% increased Empowerment",
+              "kr": "강화 {}% 증가",
+              "tw": "增加 {}% 賦予",
+              "ru": "{}% повышение Усиления",
+              "jp": "強化値が{}%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SentinelImplicitOnlyOneUseDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_one_use",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bronze-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Bronze Apex Sentinel",
+      "kr": "청동 거물 파수꾼",
+      "tw": "青銅的巔峰守望",
+      "ru": "Бронзовый Апекс-Часовой",
+      "jp": "青銅のエイペックスセンチネル"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cobalt-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Cobalt Apex Sentinel",
+      "kr": "코발트 거물 파수꾼",
+      "tw": "鈷藍的巔峰守望",
+      "ru": "Кобальтовый Апекс-Часовой",
+      "jp": "コバルトエイペックスセンチネル"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "brimstone-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Brimstone Apex Sentinel",
+      "kr": "유황 거물 파수꾼",
+      "tw": "硫磺的巔峰守望",
+      "ru": "Сернистый Апекс-Часовой",
+      "jp": "ブリムストーンエイペックスセンチネル"
+    },
+    "dropLevel": 48,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "emberstone-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Emberstone Apex Sentinel",
+      "kr": "불씨석 거물 파수꾼",
+      "tw": "灰石的巔峰守望",
+      "ru": "Каменноугольный Апекс-Часовой",
+      "jp": "エンバーストーンエイペックスセンチネル"
+    },
+    "dropLevel": 58,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "obsidian-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Obsidian Apex Sentinel",
+      "kr": "흑요석 거물 파수꾼",
+      "tw": "黑曜的巔峰守望",
+      "ru": "Обсидиановый Апекс-Часовой",
+      "jp": "黒曜石のエイペックスセンチネル"
+    },
+    "dropLevel": 66,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cryptic-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Cryptic Apex Sentinel",
+      "kr": "난해한 거물 파수꾼",
+      "tw": "神秘的巔峰守望",
+      "ru": "Скрытый Апекс-Часовой",
+      "jp": "謎めいたエイペックスセンチネル"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedC1",
+        "lines": [
+          {
+            "stat": "local_sentinel_tag_limit_+",
+            "value": "2",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primeval-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Primeval Apex Sentinel",
+      "kr": "원시 거물 파수꾼",
+      "tw": "原始的巔峰守望",
+      "ru": "Первобытный Апекс-Часовой",
+      "jp": "太古のエイペックスセンチネル"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedC2",
+        "lines": [
+          {
+            "stat": "sentinel_tag_duplicate_reward_chance_%",
+            "value": "10~15",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "local_sentinel_drone_difficulty_+",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ancient-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Ancient Apex Sentinel",
+      "kr": "고대 거물 파수꾼",
+      "tw": "古代的巔峰守望",
+      "ru": "Древний Апекс-Часовой",
+      "jp": "古代のエイペックスセンチネル"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SentinelImplicitCraftedC3",
+        "lines": [
+          {
+            "stat": "local_sentinel_drone_difficulty_+%",
+            "value": "10~15",
+            "text": {
+              "en": "{}% increased Empowerment",
+              "kr": "강화 {}% 증가",
+              "tw": "增加 {}% 賦予",
+              "ru": "{}% повышение Усиления",
+              "jp": "強化値が{}%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "SentinelImplicitTagOnlyRareOrUniqueDisplay",
+        "lines": [
+          {
+            "stat": "local_sentinel_only_tag_rare_or_unique",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cosmic-apex-sentinel",
+    "classId": "SentinelDrone",
+    "className": {
+      "en": "Sentinels",
+      "kr": "파수꾼",
+      "tw": "守望號令",
+      "ru": "Часовые",
+      "jp": "センチネル"
+    },
+    "name": {
+      "en": "Cosmic Apex Sentinel",
+      "kr": "우주의 거물 파수꾼",
+      "tw": "宇宙的巔峰守望",
+      "ru": "Космический Апекс-Часовой",
+      "jp": "宇宙のエイペックスセンチネル"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  }
+]

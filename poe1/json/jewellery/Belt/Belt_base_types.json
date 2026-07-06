@@ -1,0 +1,710 @@
+[
+  {
+    "id": "rustic-sash",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Rustic Sash",
+      "kr": "소박한 띠",
+      "tw": "素布腰帶",
+      "ru": "Кушак",
+      "jp": "素朴な飾り帯"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedPhysicalDamagePercentImplicitBelt1",
+        "lines": [
+          {
+            "stat": "physical_damage_+%",
+            "value": "12~24",
+            "text": {
+              "en": "12~24% increased Global Physical Damage",
+              "kr": "일반 물리 피해 12~24% 증가",
+              "tw": "增加 12~24% 全域物理傷害",
+              "ru": "12~24% увеличение глобального физического урона",
+              "jp": "グローバル物理ダメージが12~24%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "chain-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Chain Belt",
+      "kr": "사슬 허리띠",
+      "tw": "扣鏈腰帶",
+      "ru": "Цепочка",
+      "jp": "チェーンベルト"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedEnergyShieldImplicitBelt1",
+        "lines": [
+          {
+            "stat": "base_maximum_energy_shield",
+            "value": "9~20",
+            "text": {
+              "en": "9~20 to maximum Energy Shield",
+              "kr": "에너지 보호막 최대치 9~20",
+              "tw": "9~20 最大能量護盾",
+              "ru": "9~20 к максимуму энергетического щита",
+              "jp": "最大エナジーシールド 9~20"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "leather-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Leather Belt",
+      "kr": "가죽 허리띠",
+      "tw": "皮革腰帶",
+      "ru": "Ремень",
+      "jp": "革のベルト"
+    },
+    "dropLevel": 10,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitBelt1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "25~40",
+            "text": {
+              "en": "25~40 to maximum Life",
+              "kr": "생명력 최대치 25~40",
+              "tw": "25~40 最大生命",
+              "ru": "25~40 к максимуму здоровья",
+              "jp": "最大ライフ 25~40"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heavy-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Heavy Belt",
+      "kr": "무거운 허리띠",
+      "tw": "重革腰帶",
+      "ru": "Широкий ремень",
+      "jp": "ヘビーベルト"
+    },
+    "dropLevel": 10,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StrengthImplicitBelt1",
+        "lines": [
+          {
+            "stat": "additional_strength",
+            "value": "25~35",
+            "text": {
+              "en": "25~35 to Strength",
+              "kr": "힘 25~35",
+              "tw": "25~35 力量",
+              "ru": "25~35 к силе",
+              "jp": "筋力 25~35"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cloth-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Cloth Belt",
+      "kr": "헝겊 허리띠",
+      "tw": "飾布腰帶",
+      "ru": "Матерчатый пояс",
+      "jp": "布のベルト"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunRecoveryImplicitBelt1",
+        "lines": [
+          {
+            "stat": "base_stun_recovery_+%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% increased Stun and Block Recovery",
+              "kr": "기절 및 막기 회복 15~25% 증가",
+              "tw": "增加 15~25% 暈眩恢復和格擋恢復",
+              "ru": "15~25% ускорение восстановления после оглушения и блока",
+              "jp": "スタンおよびブロック復帰が15~25%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "studded-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Studded Belt",
+      "kr": "징 박힌 허리띠",
+      "tw": "扣釘腰帶",
+      "ru": "Клёпаный ремень",
+      "jp": "スタッド付きベルト"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunDurationImplicitBelt1",
+        "lines": [
+          {
+            "stat": "base_stun_duration_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Stun Duration on Enemies",
+              "kr": "적에게 적용되는 기절 지속시간 20~30% 증가",
+              "tw": "增加 20~30% 敵人暈眩時間",
+              "ru": "20~30% увеличение длительности оглушения на врагах",
+              "jp": "敵に対するスタンの持続時間が20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "micro-distillery-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Micro-Distillery Belt",
+      "kr": "섬세한 주조자 허리띠",
+      "tw": "微釀腰帶",
+      "ru": "Микро-перегонный пояс",
+      "jp": "小さな蒸留所のベルト"
+    },
+    "dropLevel": 68,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CannotUseFlaskInFifthSlotImplicitE1_",
+        "lines": [
+          {
+            "stat": "cannot_use_flask_in_fifth_slot",
+            "value": "1",
+            "text": {
+              "en": "Can't use Flask in Fifth Slot",
+              "kr": "5번째 슬롯의 플라스크 사용 불가",
+              "tw": "不能使用第 5 欄位的藥劑",
+              "ru": "Невозможно использовать флакон в пятой ячейке",
+              "jp": "5番目のスロットのフラスコを使用できない"
+            }
+          },
+          {
+            "stat": "flask_effect_+%",
+            "value": "30",
+            "text": {
+              "en": "Flasks applied to you have 30% increased Effect",
+              "kr": "자신에게 적용된 플라스크의 효과 30% 증가",
+              "tw": "作用於你的藥劑增加 30% 效果",
+              "ru": "30% усиление эффекта примененных на вас флаконов",
+              "jp": "プレイヤーに対して使用されたフラスコの効果が30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mechalarm-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Mechalarm Belt",
+      "kr": "기계 경보 허리띠",
+      "tw": "機械腰帶",
+      "ru": "Меха-сигнальный пояс",
+      "jp": "機械装置のベルト"
+    },
+    "dropLevel": 70,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "SummonTauntingContraptionOnFlaskUseImplicitE1",
+        "lines": [
+          {
+            "stat": "local_display_trigger_summon_taunting_contraption_on_flask_use",
+            "value": "20",
+            "text": {
+              "en": "Trigger Level 20 Summon Taunting Contraption when you use a Flask",
+              "kr": "플라스크 사용 시 20레벨 도발 장치 소환 발동",
+              "tw": "當你使用藥劑時，觸發等級 20 召喚嘲諷裝置",
+              "ru": "Вызывает срабатывание Призыва провоцирующего устройства, когда вы используете флакон",
+              "jp": "フラスコを使用した時にレベル20挑発装置召喚をトリガーする"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mechanical-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Mechanical Belt",
+      "kr": "기계식 허리띠",
+      "tw": "腰帶外觀：機械龐克",
+      "ru": "Механический пояс",
+      "jp": "機械的なベルト"
+    },
+    "dropLevel": 70,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltHasOneSocket",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Socket",
+              "kr": "홈 1개",
+              "tw": "有 1 個插槽",
+              "ru": "Имеет 1 гнездо",
+              "jp": "ソケットを1個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "vanguard-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Vanguard Belt",
+      "kr": "선봉대 허리띠",
+      "tw": "先鋒腰帶",
+      "ru": "Ремень гастата",
+      "jp": "前衛のベルト"
+    },
+    "dropLevel": 73,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ArmourAndEvasionImplicitBelt1",
+        "lines": [
+          {
+            "stat": "base_physical_damage_reduction_and_evasion_rating",
+            "value": "260~320",
+            "text": {
+              "en": "260~320 to Armour and Evasion Rating",
+              "kr": "방어도 및 회피 260~320",
+              "tw": "260~320 護甲和閃避值",
+              "ru": "260~320 к броне и уклонению",
+              "jp": "アーマーと回避力 260~320"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crystal-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Crystal Belt",
+      "kr": "수정 허리띠",
+      "tw": "水晶腰帶",
+      "ru": "Кристальный пояс",
+      "jp": "クリスタルベルト"
+    },
+    "dropLevel": 73,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedEnergyShieldImplicitBelt2",
+        "lines": [
+          {
+            "stat": "base_maximum_energy_shield",
+            "value": "60~80",
+            "text": {
+              "en": "60~80 to maximum Energy Shield",
+              "kr": "에너지 보호막 최대치 60~80",
+              "tw": "60~80 最大能量護盾",
+              "ru": "60~80 к максимуму энергетического щита",
+              "jp": "最大エナジーシールド 60~80"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "golden-obi",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Golden Obi",
+      "kr": "황금 오비",
+      "tw": "金羽腰帶",
+      "ru": "Шитый золотом пояс",
+      "jp": "金の帯"
+    },
+    "dropLevel": 12,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ItemFoundRarityIncreaseImplicitDemigodsBelt1",
+        "lines": [
+          {
+            "stat": "base_item_found_rarity_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Rarity of Items found",
+              "kr": "발견하는 아이템 희귀도 20~30% 증가",
+              "tw": "增加 20~30% 物品稀有度",
+              "ru": "20~30% повышение редкости найденных предметов",
+              "jp": "見つかるアイテムのレアリティが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "stygian-vise",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Stygian Vise",
+      "kr": "명계의 조임쇠",
+      "tw": "冥河腰帶",
+      "ru": "Тёмные тиски",
+      "jp": "地獄の万力"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AbyssJewelSocketImplicit",
+        "lines": [
+          {
+            "stat": "local_has_X_abyss_sockets",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Abyssal Socket",
+              "kr": "심연 홈 1개",
+              "tw": "有 1 個深淵插槽",
+              "ru": "Имеет 1 гнездо Бездны",
+              "jp": "アビスソケットを1個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cord-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Cord Belt",
+      "kr": "줄 허리띠",
+      "tw": "繩帶",
+      "ru": "Верёвочный пояс",
+      "jp": "コードベルト"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BeltEnchantImplicit",
+        "lines": [
+          {
+            "stat": "local_can_be_anointed",
+            "value": "1",
+            "text": {
+              "en": "Can be Anointed",
+              "kr": "성유 바를 수 있음",
+              "tw": "可以被塗抹",
+              "ru": "Может быть зачарован",
+              "jp": "アノイントできる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "leather-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Leather Belt",
+      "kr": "가죽 허리띠",
+      "tw": "皮革腰帶",
+      "ru": "Ремень",
+      "jp": "革のベルト"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IncreasedLifeImplicitBeltRoyale1",
+        "lines": [
+          {
+            "stat": "base_maximum_life",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to maximum Life",
+              "kr": "생명력 최대치 20~30",
+              "tw": "20~30 最大生命",
+              "ru": "20~30 к максимуму здоровья",
+              "jp": "最大ライフ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "heavy-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Heavy Belt",
+      "kr": "무거운 허리띠",
+      "tw": "重革腰帶",
+      "ru": "Широкий ремень",
+      "jp": "ヘビーベルト"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StrengthImplicitBeltRoyale1",
+        "lines": [
+          {
+            "stat": "additional_strength",
+            "value": "25~35",
+            "text": {
+              "en": "25~35 to Strength",
+              "kr": "힘 25~35",
+              "tw": "25~35 力量",
+              "ru": "25~35 к силе",
+              "jp": "筋力 25~35"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "cloth-belt",
+    "classId": "Belt",
+    "className": {
+      "en": "Belts",
+      "kr": "허리띠",
+      "tw": "腰帶",
+      "ru": "Пояса",
+      "jp": "ベルト"
+    },
+    "name": {
+      "en": "Cloth Belt",
+      "kr": "헝겊 허리띠",
+      "tw": "飾布腰帶",
+      "ru": "Матерчатый пояс",
+      "jp": "布のベルト"
+    },
+    "dropLevel": 2,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StunRecoveryImplicitBeltRoyale1",
+        "lines": [
+          {
+            "stat": "base_stun_recovery_+%",
+            "value": "30~40",
+            "text": {
+              "en": "30~40% increased Stun and Block Recovery",
+              "kr": "기절 및 막기 회복 30~40% 증가",
+              "tw": "增加 30~40% 暈眩恢復和格擋恢復",
+              "ru": "30~40% ускорение восстановления после оглушения и блока",
+              "jp": "スタンおよびブロック復帰が30~40%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

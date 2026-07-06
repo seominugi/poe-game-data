@@ -1,0 +1,803 @@
+[
+  {
+    "id": "gnarled-branch",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Gnarled Branch",
+      "kr": "울퉁불퉁한 나뭇가지",
+      "tw": "朽木之幹",
+      "ru": "Сучковатая ветка",
+      "jp": "ねじれた枝"
+    },
+    "dropLevel": 4,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 9,
+      "damageMax": 19,
+      "critChance": 7.5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercentImplicitStaff__1",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "20",
+            "text": {
+              "en": "20% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 20%",
+              "tw": "持長杖時 20% 法術傷害格擋率",
+              "ru": "20% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primitive-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Primitive Staff",
+      "kr": "원시의 지팡이",
+      "tw": "粗製長杖",
+      "ru": "Простейший посох",
+      "jp": "素朴な杖"
+    },
+    "dropLevel": 9,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 10,
+      "damageMax": 31,
+      "critChance": 8,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercentImplicitStaff__1",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "20",
+            "text": {
+              "en": "20% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 20%",
+              "tw": "持長杖時 20% 法術傷害格擋率",
+              "ru": "20% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "long-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Long Staff",
+      "kr": "긴 지팡이",
+      "tw": "長杖",
+      "ru": "Длинный посох",
+      "jp": "ロングスタッフ"
+    },
+    "dropLevel": 18,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 24,
+      "damageMax": 41,
+      "critChance": 7.5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercentImplicitStaff__1",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "20",
+            "text": {
+              "en": "20% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 20%",
+              "tw": "持長杖時 20% 法術傷害格擋率",
+              "ru": "20% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "royal-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Royal Staff",
+      "kr": "왕실 지팡이",
+      "tw": "皇家長杖",
+      "ru": "Царский посох",
+      "jp": "王者のスタッフ"
+    },
+    "dropLevel": 28,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 27,
+      "damageMax": 81,
+      "critChance": 8.5,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercentImplicitStaff__1",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "20",
+            "text": {
+              "en": "20% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 20%",
+              "tw": "持長杖時 20% 法術傷害格擋率",
+              "ru": "20% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 20%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "crescent-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Crescent Staff",
+      "kr": "초승달의 지팡이",
+      "tw": "新月長杖",
+      "ru": "Посох с полумесяцем",
+      "jp": "クレセントスタッフ"
+    },
+    "dropLevel": 36,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 41,
+      "damageMax": 85,
+      "critChance": 7.5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitMarakethStaff1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "80",
+            "text": {
+              "en": "80% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 80% 증가",
+              "tw": "增加 80% 全域暴擊率",
+              "ru": "80% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が80%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "woodful-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Woodful Staff",
+      "kr": "목재 지팡이",
+      "tw": "堅木長杖",
+      "ru": "Старинный посох",
+      "jp": "木製スタッフ"
+    },
+    "dropLevel": 37,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 34,
+      "damageMax": 102,
+      "critChance": 8,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercent2",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "22",
+            "text": {
+              "en": "22% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 22%",
+              "tw": "持長杖時 22% 法術傷害格擋率",
+              "ru": "22% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 22%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "quarterstaff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Quarterstaff",
+      "kr": "육척봉",
+      "tw": "細柄長杖",
+      "ru": "Окованный посох",
+      "jp": "クォータースタッフ"
+    },
+    "dropLevel": 45,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 51,
+      "damageMax": 86,
+      "critChance": 7.5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercent2",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "22",
+            "text": {
+              "en": "22% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 22%",
+              "tw": "持長杖時 22% 法術傷害格擋率",
+              "ru": "22% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 22%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "highborn-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Highborn Staff",
+      "kr": "상류층의 지팡이",
+      "tw": "貴族長杖",
+      "ru": "Посох патриция",
+      "jp": "貴族のスタッフ"
+    },
+    "dropLevel": 52,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 48,
+      "damageMax": 145,
+      "critChance": 8.25,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercent2",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "22",
+            "text": {
+              "en": "22% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 22%",
+              "tw": "持長杖時 22% 法術傷害格擋率",
+              "ru": "22% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 22%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "moon-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Moon Staff",
+      "kr": "달의 지팡이",
+      "tw": "月神長杖",
+      "ru": "Лунный посох",
+      "jp": "ムーンスタッフ"
+    },
+    "dropLevel": 57,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 66,
+      "damageMax": 138,
+      "critChance": 7.5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitMarakethStaff1",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "80",
+            "text": {
+              "en": "80% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 80% 증가",
+              "tw": "增加 80% 全域暴擊率",
+              "ru": "80% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が80%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primordial-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Primordial Staff",
+      "kr": "태고의 지팡이",
+      "tw": "史典長杖",
+      "ru": "Древний посох",
+      "jp": "原始のスタッフ"
+    },
+    "dropLevel": 58,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 55,
+      "damageMax": 165,
+      "critChance": 8,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercent3",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "25",
+            "text": {
+              "en": "25% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 25%",
+              "tw": "持長杖時 25% 法術傷害格擋率",
+              "ru": "25% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lathi",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Lathi",
+      "kr": "쇠테 곤봉",
+      "tw": "武術長杖",
+      "ru": "Бамбуковый посох",
+      "jp": "ラシィ"
+    },
+    "dropLevel": 62,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 72,
+      "damageMax": 120,
+      "critChance": 7.5,
+      "attackTime": 0.769,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercent3",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "25",
+            "text": {
+              "en": "25% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 25%",
+              "tw": "持長杖時 25% 法術傷害格擋率",
+              "ru": "25% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "imperial-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Imperial Staff",
+      "kr": "제국 지팡이",
+      "tw": "帝國長杖",
+      "ru": "Императорский посох",
+      "jp": "インペリアルスタッフ"
+    },
+    "dropLevel": 66,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 57,
+      "damageMax": 171,
+      "critChance": 8.5,
+      "attackTime": 0.87,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StaffSpellBlockPercent3",
+        "lines": [
+          {
+            "stat": "spell_block_with_staff_%",
+            "value": "25",
+            "text": {
+              "en": "25% Chance to Block Spell Damage while wielding a Staff",
+              "kr": "지팡이 장착 시 주문 피해 막기 확률 25%",
+              "tw": "持長杖時 25% 法術傷害格擋率",
+              "ru": "25% шанс блокировать урон от чар с посохом в руках",
+              "jp": "スタッフ装備中のスペルブロック率 25%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "eclipse-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Eclipse Staff",
+      "kr": "월식 지팡이",
+      "tw": "月蝕長杖",
+      "ru": "Посох затмения",
+      "jp": "エクリプススタッフ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 70,
+      "damageMax": 145,
+      "critChance": 7.5,
+      "attackTime": 0.833,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CriticalStrikeChanceImplicitMarakethStaff2",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "100",
+            "text": {
+              "en": "100% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 100% 증가",
+              "tw": "增加 100% 全域暴擊率",
+              "ru": "100% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が100%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "transformer-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Transformer Staff",
+      "kr": "변신 지팡이",
+      "tw": "變形長杖",
+      "ru": "Трансформирующий посох",
+      "jp": "変化のスタッフ"
+    },
+    "dropLevel": 30,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 36,
+      "damageMax": 66,
+      "critChance": 7.5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "EnergyShieldLocalDisplaySpendEnergyShieldForCostsBeforeManaForSocketedSkillsImplicitE1",
+        "lines": [
+          {
+            "stat": "base_maximum_energy_shield",
+            "value": "66~80",
+            "text": {
+              "en": "66~80 to maximum Energy Shield",
+              "kr": "에너지 보호막 최대치 66~80",
+              "tw": "66~80 最大能量護盾",
+              "ru": "66~80 к максимуму энергетического щита",
+              "jp": "最大エナジーシールド 66~80"
+            }
+          },
+          {
+            "stat": "local_display_spend_energy_shield_for_costs_before_mana_for_socketed_skills",
+            "value": "1",
+            "text": {
+              "en": "Spend Energy Shield before Mana for Costs of Socketed Skills",
+              "kr": "장착된 스킬 사용 시 마나 대신 에너지 보호막 소모",
+              "tw": "插槽中技能的消耗先使用能量護盾再使用魔力",
+              "ru": "Размещенные умения тратят сначала энергетический щит вместо маны",
+              "jp": "ソケットされたスキルはコストとしてマナの代わりにエナジーシールドを消費する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "reciprocation-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Reciprocation Staff",
+      "kr": "보복 지팡이",
+      "tw": "鐘擺長杖",
+      "ru": "Посох сопряжения",
+      "jp": "相互変換のスタッフ"
+    },
+    "dropLevel": 50,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 55,
+      "damageMax": 102,
+      "critChance": 7.5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "EnergyShieldLocalDisplaySpendEnergyShieldForCostsBeforeManaForSocketedSkillsImplicitE2",
+        "lines": [
+          {
+            "stat": "base_maximum_energy_shield",
+            "value": "100~120",
+            "text": {
+              "en": "100~120 to maximum Energy Shield",
+              "kr": "에너지 보호막 최대치 100~120",
+              "tw": "100~120 最大能量護盾",
+              "ru": "100~120 к максимуму энергетического щита",
+              "jp": "最大エナジーシールド 100~120"
+            }
+          },
+          {
+            "stat": "local_display_spend_energy_shield_for_costs_before_mana_for_socketed_skills",
+            "value": "1",
+            "text": {
+              "en": "Spend Energy Shield before Mana for Costs of Socketed Skills",
+              "kr": "장착된 스킬 사용 시 마나 대신 에너지 보호막 소모",
+              "tw": "插槽中技能的消耗先使用能量護盾再使用魔力",
+              "ru": "Размещенные умения тратят сначала энергетический щит вместо маны",
+              "jp": "ソケットされたスキルはコストとしてマナの代わりにエナジーシールドを消費する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "battery-staff",
+    "classId": "Staff",
+    "className": {
+      "en": "Staves",
+      "kr": "지팡이",
+      "tw": "長杖",
+      "ru": "Посохи",
+      "jp": "スタッフ"
+    },
+    "name": {
+      "en": "Battery Staff",
+      "kr": "충전 지팡이",
+      "tw": "蓄能長杖",
+      "ru": "Гальванический посох",
+      "jp": "バッテリースタッフ"
+    },
+    "dropLevel": 70,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 65,
+      "damageMax": 120,
+      "critChance": 7.5,
+      "attackTime": 0.8,
+      "rangeMax": 13
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "EnergyShieldLocalDisplaySpendEnergyShieldForCostsBeforeManaForSocketedSkillsImplicitE3",
+        "lines": [
+          {
+            "stat": "base_maximum_energy_shield",
+            "value": "140~165",
+            "text": {
+              "en": "140~165 to maximum Energy Shield",
+              "kr": "에너지 보호막 최대치 140~165",
+              "tw": "140~165 最大能量護盾",
+              "ru": "140~165 к максимуму энергетического щита",
+              "jp": "最大エナジーシールド 140~165"
+            }
+          },
+          {
+            "stat": "local_display_spend_energy_shield_for_costs_before_mana_for_socketed_skills",
+            "value": "1",
+            "text": {
+              "en": "Spend Energy Shield before Mana for Costs of Socketed Skills",
+              "kr": "장착된 스킬 사용 시 마나 대신 에너지 보호막 소모",
+              "tw": "插槽中技能的消耗先使用能量護盾再使用魔力",
+              "ru": "Размещенные умения тратят сначала энергетический щит вместо маны",
+              "jp": "ソケットされたスキルはコストとしてマナの代わりにエナジーシールドを消費する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

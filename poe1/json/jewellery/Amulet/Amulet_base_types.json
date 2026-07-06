@@ -1,0 +1,3093 @@
+[
+  {
+    "id": "paua-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Paua Amulet",
+      "kr": "파우아 목걸이",
+      "tw": "海靈護身符",
+      "ru": "Амулет из ракушек",
+      "jp": "パウア貝のアミュレット"
+    },
+    "dropLevel": 3,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ManaRegenerationImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "mana_regeneration_rate_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Mana Regeneration Rate",
+              "kr": "마나 재생 속도 20~30% 증가",
+              "tw": "增加 20~30% 魔力回復率",
+              "ru": "20~30% повышение скорости регенерации маны",
+              "jp": "マナ自動回復レートが20~30%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coral-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Coral Amulet",
+      "kr": "산호 목걸이",
+      "tw": "珊瑚護身符",
+      "ru": "Амулет с кораллом",
+      "jp": "珊瑚のアミュレット"
+    },
+    "dropLevel": 3,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeRegenerationImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "base_life_regeneration_rate_per_minute",
+            "value": "120~240",
+            "text": {
+              "en": "Regenerate 120~240 Life per second",
+              "kr": "1초마다 생명력 120~240 재생",
+              "tw": "120~240 每秒生命回復",
+              "ru": "Регенерация 120~240 здоровья в секунду",
+              "jp": "毎秒120~240のライフを自動回復する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "amber-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Amber Amulet",
+      "kr": "호박 목걸이",
+      "tw": "琥珀護身符",
+      "ru": "Амулет с янтарём",
+      "jp": "琥珀のアミュレット"
+    },
+    "dropLevel": 7,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "StrengthImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "additional_strength",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to Strength",
+              "kr": "힘 20~30",
+              "tw": "20~30 力量",
+              "ru": "20~30 к силе",
+              "jp": "筋力 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jade-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Jade Amulet",
+      "kr": "비취 목걸이",
+      "tw": "翠玉護身符",
+      "ru": "Амулет с нефритом",
+      "jp": "翡翠のアミュレット"
+    },
+    "dropLevel": 7,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "DexterityImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "additional_dexterity",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to Dexterity",
+              "kr": "민첩 20~30",
+              "tw": "20~30 敏捷",
+              "ru": "20~30 к ловкости",
+              "jp": "器用さ 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lapis-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Lapis Amulet",
+      "kr": "청금석 목걸이",
+      "tw": "海玉護身符",
+      "ru": "Амулет с лазуритом",
+      "jp": "瑠璃のアミュレット"
+    },
+    "dropLevel": 7,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "IntelligenceImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "additional_intelligence",
+            "value": "20~30",
+            "text": {
+              "en": "20~30 to Intelligence",
+              "kr": "지능 20~30",
+              "tw": "20~30 智慧",
+              "ru": "20~30 к интеллекту",
+              "jp": "知性 20~30"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "gold-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Gold Amulet",
+      "kr": "황금 목걸이",
+      "tw": "帝金護身符",
+      "ru": "Золотой амулет",
+      "jp": "金のアミュレット"
+    },
+    "dropLevel": 15,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ItemFoundRarityIncreaseImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "base_item_found_rarity_+%",
+            "value": "12~20",
+            "text": {
+              "en": "12~20% increased Rarity of Items found",
+              "kr": "발견하는 아이템 희귀도 12~20% 증가",
+              "tw": "增加 12~20% 物品稀有度",
+              "ru": "12~20% повышение редкости найденных предметов",
+              "jp": "見つかるアイテムのレアリティが12~20%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "onyx-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Onyx Amulet",
+      "kr": "오닉스 목걸이",
+      "tw": "黑曜護身符",
+      "ru": "Амулет с ониксом",
+      "jp": "オニキスのアミュレット"
+    },
+    "dropLevel": 25,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllAttributesImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "additional_all_attributes",
+            "value": "10~16",
+            "text": {
+              "en": "10~16 to all Attributes",
+              "kr": "모든 능력치 10~16",
+              "tw": "10~16 全能力",
+              "ru": "10~16 ко всем характеристикам",
+              "jp": "全ての能力値 10~16"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "turquoise-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Turquoise Amulet",
+      "kr": "터키석 목걸이",
+      "tw": "青玉護身符",
+      "ru": "Амулет с бирюзой",
+      "jp": "ターコイズのアミュレット"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HybridDexInt",
+        "lines": [
+          {
+            "stat": "additional_dexterity_and_intelligence",
+            "value": "16~24",
+            "text": {
+              "en": "16~24 to Dexterity and Intelligence",
+              "kr": "민첩 및 지능 16~24",
+              "tw": "16~24 敏捷和智慧",
+              "ru": "16~24 к ловкости и интеллекту",
+              "jp": "器用さおよび知性 16~24"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "agate-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Agate Amulet",
+      "kr": "마노 목걸이",
+      "tw": "瑪瑙護身符",
+      "ru": "Амулет с агатом",
+      "jp": "瑪瑙のアミュレット"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HybridStrInt",
+        "lines": [
+          {
+            "stat": "additional_strength_and_intelligence",
+            "value": "16~24",
+            "text": {
+              "en": "16~24 to Strength and Intelligence",
+              "kr": "힘 및 지능 16~24",
+              "tw": "16~24 力量和智慧",
+              "ru": "16~24 к силе и интеллекту",
+              "jp": "筋力および知性 16~24"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "citrine-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Citrine Amulet",
+      "kr": "황수정 목걸이",
+      "tw": "黃晶護身符",
+      "ru": "Амулет с цитрином",
+      "jp": "黄水晶のアミュレット"
+    },
+    "dropLevel": 20,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "HybridStrDex",
+        "lines": [
+          {
+            "stat": "additional_strength_and_dexterity",
+            "value": "16~24",
+            "text": {
+              "en": "16~24 to Strength and Dexterity",
+              "kr": "힘 및 민첩 16~24",
+              "tw": "16~24 力量和敏捷",
+              "ru": "16~24 к силе и ловкости",
+              "jp": "筋力および器用さ 16~24"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ruby-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Ruby Amulet",
+      "kr": "루비 목걸이",
+      "tw": "血色護身符",
+      "ru": "Амулет с рубином",
+      "jp": "ルビーのアミュレット"
+    },
+    "dropLevel": 50,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "FireResistImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "base_fire_damage_resistance_%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% to Fire Resistance",
+              "kr": "화염 저항 20~30%",
+              "tw": "20~30% 火焰抗性",
+              "ru": "20~30% к сопротивлению огню",
+              "jp": "火耐性 20~30%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "unset-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Unset Amulet",
+      "kr": "무보석 목걸이",
+      "tw": "夕暮護身符",
+      "ru": "Амулет без камня",
+      "jp": "アンセットアミュレット"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AmuletHasOneSocket",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Socket",
+              "kr": "홈 1개",
+              "tw": "有 1 個插槽",
+              "ru": "Имеет 1 гнездо",
+              "jp": "ソケットを1個持つ"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "astrolabe-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Astrolabe Amulet",
+      "kr": "관측기 목걸이",
+      "tw": "星盤護身符",
+      "ru": "Амулет-астролябия",
+      "jp": "アストロラーベアミュレット"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "CanHaveEveryInfluenceTypeImplicitE1",
+        "lines": [
+          {
+            "stat": "local_item_can_roll_all_influences",
+            "value": "1",
+            "text": {
+              "en": "Has Elder, Shaper and all Conqueror Influences",
+              "kr": "엘더, 쉐이퍼, 모든 정복자 영향력 보유",
+              "tw": "有異界尊師、塑界者和全部征服者勢力",
+              "ru": "Имеет влияние Древнего, Создателя и всех Завоевателей",
+              "jp": "エルダー、シェイパーおよび全ての征服者のインフルエンスを持つ"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "simplex-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Simplex Amulet",
+      "kr": "평범한 목걸이",
+      "tw": "簡純護身符",
+      "ru": "Простой амулет",
+      "jp": "シンプレックスアミュレット"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixModEffectImplicitE2",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-2",
+            "text": {
+              "en": "-2 Prefix Modifiers allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -2개",
+              "tw": "允許前綴 -2",
+              "ru": "допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -2個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Suffix Modifier allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -1개",
+              "tw": "允許後綴 -1",
+              "ru": "-1 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_explicit_mod_effect_+%",
+            "value": "100",
+            "text": {
+              "en": "100% increased Explicit Modifier magnitudes",
+              "kr": "비고정 속성 부여 규모 100% 증가",
+              "tw": "增加 100% 變動詞綴大小",
+              "ru": "100% повышение значений добавленных свойств",
+              "jp": "明示モッドの強さが100%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "focused-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Focused Amulet",
+      "kr": "집중된 목걸이",
+      "tw": "專注護身符",
+      "ru": "Направленный амулет",
+      "jp": "フォーカスアミュレット"
+    },
+    "dropLevel": 80,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MaxPrefixMaxSuffixModEffectImplicitE3",
+        "lines": [
+          {
+            "stat": "local_maximum_prefixes_allowed_+",
+            "value": "-1",
+            "text": {
+              "en": "-1 Prefix Modifier allowed",
+              "kr": "접두어 속성 부여의 최대 개수 -1개",
+              "tw": "允許前綴 -1",
+              "ru": "-1 допустимых свойств-префиксов",
+              "jp": "プレフィックスモッド -1個"
+            }
+          },
+          {
+            "stat": "local_maximum_suffixes_allowed_+",
+            "value": "-2",
+            "text": {
+              "en": "-2 Suffix Modifiers allowed",
+              "kr": "접미어 속성 부여의 최대 개수 -2개",
+              "tw": "允許後綴 -2",
+              "ru": "-2 допустимых свойств-суффиксов",
+              "jp": "サフィックスモッド -2個"
+            }
+          },
+          {
+            "stat": "local_implicit_mod_cannot_be_changed",
+            "value": "1",
+            "text": {
+              "en": "Implicit Modifiers Cannot Be Changed",
+              "kr": "고정 속성 변경 불가",
+              "tw": "固定詞綴不能被改變",
+              "ru": "Собственные свойства не могут быть изменены",
+              "jp": "暗黙モッドは変化しない"
+            }
+          },
+          {
+            "stat": "local_explicit_mod_effect_+%",
+            "value": "100",
+            "text": {
+              "en": "100% increased Explicit Modifier magnitudes",
+              "kr": "비고정 속성 부여 규모 100% 증가",
+              "tw": "增加 100% 變動詞綴大小",
+              "ru": "100% повышение значений добавленных свойств",
+              "jp": "明示モッドの強さが100%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "jet-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Jet Amulet",
+      "kr": "흑옥 목걸이",
+      "tw": "傑特護身符",
+      "ru": "Амулет с чёрной яшмой",
+      "jp": "黒玉のアミュレット"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitVictorAmulet",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8~12",
+            "text": {
+              "en": "8~12% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8~12%",
+              "tw": "8~12% 全部元素抗性",
+              "ru": "8~12% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8~12%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "blue-pearl-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Blue Pearl Amulet",
+      "kr": "파란 진주 목걸이",
+      "tw": "碧珠護身符",
+      "ru": "Амулет с голубой жемчужиной",
+      "jp": "青真珠のアミュレット"
+    },
+    "dropLevel": 77,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ManaRegenerationImplicitAmulet2",
+        "lines": [
+          {
+            "stat": "mana_regeneration_rate_+%",
+            "value": "48~56",
+            "text": {
+              "en": "48~56% increased Mana Regeneration Rate",
+              "kr": "마나 재생 속도 48~56% 증가",
+              "tw": "增加 48~56% 魔力回復率",
+              "ru": "48~56% повышение скорости регенерации маны",
+              "jp": "マナ自動回復レートが48~56%増加する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "marble-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Marble Amulet",
+      "kr": "대리석 목걸이",
+      "tw": "理石護身符",
+      "ru": "Мраморный амулет",
+      "jp": "大理石のアミュレット"
+    },
+    "dropLevel": 74,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "LifeRegenerationImplicitAmulet2",
+        "lines": [
+          {
+            "stat": "life_regeneration_rate_per_minute_%",
+            "value": "72~96",
+            "text": {
+              "en": "Regenerate 72~96% of Life per second",
+              "kr": "1초마다 생명력의 72~96% 재생",
+              "tw": "每秒回復 72~96% 生命",
+              "ru": "Регенерация 72~96% здоровья в секунду",
+              "jp": "毎秒ライフの72~96%を自動回復する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "seaglass-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Seaglass Amulet",
+      "kr": "바다유리 목걸이",
+      "tw": "海鏡項鍊",
+      "ru": "Амулет из морского стекла",
+      "jp": "シーグラスのアミュレット"
+    },
+    "dropLevel": 74,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "ReducedEnergyShieldDelayImplicit1_",
+        "lines": [
+          {
+            "stat": "energy_shield_delay_-%",
+            "value": "10~15",
+            "text": {
+              "en": "10~15% faster start of Energy Shield Recharge",
+              "kr": "에너지 보호막 재충전 시작 속도 10~15% 가속",
+              "tw": "提前 10~15% 開始充能能量護盾",
+              "ru": "10~15% ускорение начала перезарядки энергетического щита",
+              "jp": "エナジーシールドのリチャージが10~15%速く始まる"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "onyx-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Onyx Amulet",
+      "kr": "오닉스 목걸이",
+      "tw": "黑曜護身符",
+      "ru": "Амулет с ониксом",
+      "jp": "オニキスのアミュレット"
+    },
+    "dropLevel": 3,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllAttributesImplicitAmuletRoyale1",
+        "lines": [
+          {
+            "stat": "additional_all_attributes",
+            "value": "10~16",
+            "text": {
+              "en": "10~16 to all Attributes",
+              "kr": "모든 능력치 10~16",
+              "tw": "10~16 全能力",
+              "ru": "10~16 ко всем характеристикам",
+              "jp": "全ての能力値 10~16"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "black-maw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Black Maw Talisman",
+      "kr": "검은 턱 부적",
+      "tw": "黑牙魔符",
+      "ru": "Талисман чёрной пасти",
+      "jp": "黒い口のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The First Ones stalk with us\r\nupon this lifelong hunt,\r\nand cast their contempt\r\nupon those that would make us their prey.\r\n- The Wolven King",
+      "kr": "생 전체를 걸친 사냥길에\r\n최초의 존재들이 우리와 함께 걷나니\r\n우리를 먹이로 삼으려는 것들도 \r\n그들에겐 그저 경멸의 대상일 뿐이니\r\n- 늑대왕",
+      "tw": "初代緊跟著我們\r\n伴隨著我們世代的狩獵\r\n並對將我們視為獵物的敵人\r\n降下最惡毒的咒怨\r\n- 狼王",
+      "ru": "Первые бродят среди нас,\r\nвечной охотой влекомы.\r\nПлатят презреньем подчас\r\nтем, кто добычей нас помнит.\r\n- Волчий король",
+      "jp": "最初のものたちはは生涯をかけた狩猟を\r\n我らと共に追いかけ、\r\n我らを獲物とするものを\r\n蔑むことだろう。\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanHasOneSocket_",
+        "lines": [
+          {
+            "stat": "local_has_X_sockets",
+            "value": "1",
+            "text": {
+              "en": "Has 1 Socket",
+              "kr": "홈 1개",
+              "tw": "有 1 個插槽",
+              "ru": "Имеет 1 гнездо",
+              "jp": "ソケットを1個持つ"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "bonespire-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Bonespire Talisman",
+      "kr": "뼈 첨탑 부적",
+      "tw": "脊骨魔符",
+      "ru": "Талисман костешипа",
+      "jp": "尖った骨のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The civilised man must wrestle\r\nwith the demands of heart and mind.\r\nThe First Ones share no such struggle.\r\nFor their Spirit is swift and deadly certain.\r\n- The Wolven King\r\n",
+      "kr": "문명화된 인간은\r\n가슴과 머리의 요구와 씨름해야 한다.\r\n최초의 존재들은 그런 고통이 없다.\r\n그들의 혼은 재빠르고 극도로 확실하기 때문이다.\r\n- 늑대왕",
+      "tw": "文明人的戰鬥\r\n用的是對於心智的需求\r\n而初代們毫無此煩惱\r\n他們的靈魂是果斷、迅速的\r\n- 狼王",
+      "ru": "Культура вынуждает человека\r\nприслушиваться к разуму и вере.\r\nНо Первые не столь слабы и слепы,\r\nсмертельно острый дух их неизменен.\r\n- Волчий король",
+      "jp": "文明人は心と頭脳の\r\n欲求に抗わねばならぬ。\r\n最初のものたちにはそのような苦労はない。\r\n彼らの魂は素早く絶対的な確信を持っているのだから。\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedMana",
+        "lines": [
+          {
+            "stat": "maximum_mana_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased maximum Mana",
+              "kr": "최대 마나 20~30% 증가",
+              "tw": "增加 20~30% 最大魔力",
+              "ru": "20~30% увеличение максимума маны",
+              "jp": "最大マナが20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "ashscale-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Ashscale Talisman",
+      "kr": "재비늘 부적",
+      "tw": "灰燼魔符",
+      "ru": "Талисман пепельного чешуйника",
+      "jp": "灰鱗のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The fire of the hearth is a docile dog,\r\nleashed and tamed.\r\nThe fire of the First Ones is a ravening wolf,\r\nwild and free.\r\n- The Wolven King\r\n",
+      "kr": "난로의 불은\r\n목줄을 매고 길들인 유순한 개에 불과하다.\r\n최초의 존재들이 부리는 불은\r\n야생에서 자유롭게 날뛰는 늑대라 할 수 있다.\r\n- 늑대왕",
+      "tw": "內心的火像條中犬，\r\n溫馴地戴著項圈。\r\n初代的火像條狂狼，\r\n充滿野性而自由。\r\n- 狼王",
+      "ru": "Огонь горит послушен, словно пёс,\r\nон пойман в очаге и укрощён.\r\nНо пламя Первых достигает звёзд:\r\nнеукротимо, дико испокон.\r\n- Волчий король",
+      "jp": "暖炉の炎は従順な犬だ。\r\n紐がつけられ、飼いならされている。\r\n最初のものたちの炎は飢えた狼だ。\r\n野性的で自由だ。\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedFireDamage",
+        "lines": [
+          {
+            "stat": "fire_damage_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Fire Damage",
+              "kr": "화염 피해 20~30% 증가",
+              "tw": "增加 20~30% 火焰傷害",
+              "ru": "20~30% увеличение урона от огня",
+              "jp": "火ダメージが20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "lone-antler-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Lone Antler Talisman",
+      "kr": "외가지뿔 부적",
+      "tw": "孤角魔符",
+      "ru": "Талисман оленерога-одиночки",
+      "jp": "一本の枝角のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The First Ones thundered over Ezomyr\r\nupon hooves of grey and black.\r\nThe people felt their stamping rage\r\nand cowered as the fury rained down.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 회색과 검은색 말발굽으로\r\n에조미어를 천둥처럼 내달렸다.\r\n사람들은 그들의 격노를 느끼고\r\n비처럼 쏟아내리는 분노에 몸을 웅크릴 뿐이었다.\r\n- 늑대왕",
+      "tw": "初代如雷般地踏過\r\n古艾茲麥的寸土\r\n人們感受著他們充滿怒火的踏蹄\r\n在怒氣的籠罩之下俯首\r\n- 狼王",
+      "ru": "Первые прошлись по Эзомиру,\r\nчёрными копытами гремя.\r\nЯростной была предтечей сила,\r\nвсе скрывались от её огня.\r\n- Волчий король",
+      "jp": "「最初のものたちは灰と黒の蹄で\r\nエゾミアを蹂躙した。\r\n民は彼らの踏み荒らす怒りを感じ、\r\n降りかかる猛威に身をすくめた」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedLightningDamage",
+        "lines": [
+          {
+            "stat": "lightning_damage_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Lightning Damage",
+              "kr": "번개 피해 20~30% 증가",
+              "tw": "增加 20~30% 閃電傷害",
+              "ru": "20~30% увеличение урона от молнии",
+              "jp": "雷ダメージが20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "deep-one-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Deep One Talisman",
+      "kr": "심해의 존재 부적",
+      "tw": "深淵魔符",
+      "ru": "Талисман глубинника",
+      "jp": "深き者のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We have basked in the cloying warmth of servitude.\r\nNow the First Ones harden us\r\nagainst the numbing chill of despair\r\nso that freedom will not slip through our trembling fingers.\r\n- The Wolven King",
+      "kr": "지겨울 정도로 멍에에 묶여 더위에 시달렸다.\r\n이제 최초의 존재들이 우리를\r\n감각을 마비시키는 절망의 추위에 단련시킨다\r\n떨리는 손가락 사이로 자유가 빠져나가지 않도록\r\n- 늑대왕",
+      "tw": "我們在服侍中得到了如陽光般地溫暖\r\n如今初代將我們砥礪\r\n成為能抵抗絕望的酷寒的人們\r\n來防止自由從我們顫抖的手指之間流逝\r\n- 狼王",
+      "ru": "Служа, мы стали мягкими, как слизни,\r\nно Первые вернули твердь страдальцам,\r\nчтоб дать уйти от жалкой прошлой жизни\r\nи сжать свободу в крепких, сильных пальцах.\r\n - Волчий король",
+      "jp": "「我らは隷属の甘ったるいぬくもりに浸かっていた。\r\n今最初のものたちは痺れるような絶望の冷気に対し\r\n我らを鍛えてくれている。\r\n我らの震える指から自由がこぼれ落ちぬように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedColdDamage",
+        "lines": [
+          {
+            "stat": "cold_damage_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Cold Damage",
+              "kr": "냉기 피해 20~30% 증가",
+              "tw": "增加 20~30% 冰冷傷害",
+              "ru": "20~30% увеличение урона от холода",
+              "jp": "冷気ダメージが20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "breakrib-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Breakrib Talisman",
+      "kr": "골절늑골 부적",
+      "tw": "碎骨魔符",
+      "ru": "Талисман ребролома",
+      "jp": "折れし肋骨のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "I stood among the stones\r\nAnd called out to the First Ones;\r\nThat with tooth and mighty claw,\r\nThey should tear our enemies asunder.\r\n- The Wolven King",
+      "kr": "나는 바위 사이에 서서\r\n최초의 존재들에게 외쳤다.\r\n강대한 이빨과 발톱으로\r\n우리의 적을 갈갈이 찢어야 한다고.\r\n- 늑대왕",
+      "tw": "我佇立石陣中央\r\n並喚醒了初代的靈魂\r\n他們尖銳的利牙和強壯的爪子\r\n必將使敵人成為碎片\r\n- 狼王",
+      "ru": "Я ступил в круг камней\r\nи воззвал к лютым Первым,\r\nчтобы враг поскорей\r\nвыпил чашу их гнева.\r\n- Волчий король",
+      "jp": "「我は石の間に立ち\r\n最初のものたちに呼びかけた\r\nその牙と強大な爪で\r\n我らの敵を引き裂いてくれるように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedPhysicalDamage",
+        "lines": [
+          {
+            "stat": "physical_damage_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Global Physical Damage",
+              "kr": "일반 물리 피해 20~30% 증가",
+              "tw": "增加 20~30% 全域物理傷害",
+              "ru": "20~30% увеличение глобального физического урона",
+              "jp": "グローバル物理ダメージが20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "deadhand-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Deadhand Talisman",
+      "kr": "죽은 손 부적",
+      "tw": "亡手魔符",
+      "ru": "Талисман смерторука",
+      "jp": "死手のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The Empire poisons our blood with sweet wine.\r\nPoisons our flesh with silk.\r\nPoisons our minds with civil lies.\r\nPoisons our children with servitude.\r\n- The Wolven King ",
+      "kr": "제국은 달콤한 술로 우리의 피를 오염시키고\r\n비단으로 우리의 살을 오염시키고\r\n입바른 거짓말로 우리의 정신을 오염시키고\r\n우리의 아이들을 노예로 만들어 오염시킨다.\r\n- 늑대왕",
+      "tw": "帝國用美酒在我們的血液中下毒\r\n用絲綢毒化我們的軀體\r\n用文明的謊言毒化我們的心智\r\n用奴役毒化我們的子孫\r\n- 狼王",
+      "ru": "Сладко вино Империи, но отравляет кровь.\r\nШёлк её мягок, тонок, но отравляет плоть.\r\nДобрая ложь культуры наш забивает мозг.\r\nДети растут убогими, слугами став господ.\r\n- Волчий король",
+      "jp": "「帝国は我らの血を甘いワインで毒する。\r\n我らの肉体を絹で毒する。\r\n我らの心を親切な嘘で毒する。\r\n我らの子を隷属で毒する」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedChaosDamage",
+        "lines": [
+          {
+            "stat": "chaos_damage_+%",
+            "value": "19~31",
+            "text": {
+              "en": "19~31% increased Chaos Damage",
+              "kr": "카오스 피해 19~31% 증가",
+              "tw": "增加 19~31% 混沌傷害",
+              "ru": "19~31% увеличение урона хаосом",
+              "jp": "混沌ダメージが19~31%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "undying-flesh-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Undying Flesh Talisman",
+      "kr": "산 송장 살점 부적",
+      "tw": "不朽魔符",
+      "ru": "Талисман бессмертной плоти",
+      "jp": "不死肉のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "'Sleep when you are weary,' our mothers told us.\r\n'Sleep when you are dead,' our fathers told us.\r\nTo the First Ones, the slumbering and the corpse\r\nare one and the same.\r\n- The Wolven King",
+      "kr": "'지쳤을 땐 자라.'어머니들은 말했다.\r\n'죽었을 땐 자라.'아버지들은 말했다.\r\n최초의 존재들이 보기에 잠자는 자와 죽은 자는\r\n매한가지였다.\r\n- 늑대왕",
+      "tw": "媽媽說，有警覺再入睡\r\n爸爸說，死亡時才能入睡\r\n對初代來說，酣睡的和死亡的人\r\n完全沒有差別\r\n- 狼王",
+      "ru": "«Спи, устав», — вот совет матерей.\r\n«Спи, погибнув», — вот воля отцов.\r\nНо у Первых мерила не те:\r\nесли спишь — все равно что ты мёртв.\r\n- Волчий король",
+      "jp": "「『疲れた時に眠りなさい』と我らの母は言った。\r\n『死んだ時に眠れ』と我らの父は言った。\r\n最初のものたちにとって、眠る者と死体は\r\nまったく同じものだ」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanAdditionalZombie",
+        "lines": [
+          {
+            "stat": "base_number_of_zombies_allowed",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "base_number_of_skeletons_allowed",
+            "value": "0",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          },
+          {
+            "stat": "base_number_of_spectres_allowed",
+            "value": "0",
+            "text": {
+              "en": "0 to maximum number of Spectres",
+              "kr": "망령 최대치 0",
+              "tw": "0 最大幽魂數量",
+              "ru": "0 к максимальному числу призраков",
+              "jp": "蘇生したスペクター最大数 0"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rot-head-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Rot Head Talisman",
+      "kr": "썩은 머리 부적",
+      "tw": "腐首魔符",
+      "ru": "Талисман гнилой головы",
+      "jp": "腐頭のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "To catch a big fish you need tempting bait. \r\nAnd there is no fish bigger than the Empire,\r\nand no bait as tempting as Ezomyr.\r\n- The Wolven King",
+      "kr": "큰 물고기를 잡으려면 맛있어 보이는 미끼가 필요하다.\r\n제국보다 큰 물고기는 없고,\r\n에조미어처럼 맛있어 보이는 미끼는 없었다.\r\n- 늑대왕",
+      "tw": "想抓大魚，就必須使用誘人的餌\r\n而沒有什麼魚比帝國來得更大了\r\n而沒有什麼餌比艾茲麥更誘人了\r\n- 狼王",
+      "ru": "Большая рыба клюёт на хорошую приманку.\r\nВ нашем море нет рыбы больше Империи\r\nи приманки вкуснее, чем Эзомир.\r\n- Волчий король",
+      "jp": "「大きな魚を釣るためには良い餌が必要だ。\r\nそして帝国ほど大きな魚はおらず、\r\nエゾミアほど良い餌はない」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanFishBiteSensitivity",
+        "lines": [
+          {
+            "stat": "fishing_bite_sensitivity_+%",
+            "value": "30~40",
+            "text": {
+              "en": "30~40% increased Fish Bite Sensitivity",
+              "kr": "물고기 이빨 민감도 30~40% 증가",
+              "tw": "增加 30~40% 魚咬靈敏度",
+              "ru": "30~40% повышение чувствительности поклёвки рыбы",
+              "jp": "魚のアタリの感度が30~40%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "mandible-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Mandible Talisman",
+      "kr": "아래턱 부적",
+      "tw": "巨顎魔符",
+      "ru": "Талисман мандибулы",
+      "jp": "下顎のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The First Ones hold us\r\nbetween two sharpened blades.\r\nThat should we stray too far from the path,\r\nwe find ourselves severed.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 우리를\r\n날카롭게 간 두 칼날 사이에 둔다.\r\n우리가 길에서 너무 멀리 벗어나면\r\n두 동강 낼 수 있도록.\r\n - 늑대왕",
+      "tw": "初代用兩柄鋒利的刀刃\r\n將我們夾在其間\r\n如果我們偏離了路途\r\n就會發現自己身首異處\r\n- 狼王",
+      "ru": "Первые держат нас\r\nмеж двух острых клинков.\r\nИ тот кто сходит с пути,\r\nбудет разорван.\r\n- Волчий король",
+      "jp": "「二枚の鋭い刃の間に\r\n最初のものたちは我らを挟む。\r\n我らが道を外れすぎた時、\r\n斬られてしまうように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanAttackAndCastSpeed",
+        "lines": [
+          {
+            "stat": "attack_and_cast_speed_+%",
+            "value": "6~10",
+            "text": {
+              "en": "6~10% increased Attack and Cast Speed",
+              "kr": "공격 및 시전 속도 6~10% 증가",
+              "tw": "增加 6~10% 攻擊與施放速度",
+              "ru": "6~10% повышение скорости атаки и сотворения чар",
+              "jp": "アタックスピードおよびキャストスピードが6~10%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "chrysalis-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Chrysalis Talisman",
+      "kr": "번데기 부적",
+      "tw": "蟲蛹魔符",
+      "ru": "Талисман кокона",
+      "jp": "蛹のタリスマン"
+    },
+    "dropLevel": 35,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The world of the First Ones is harsh;\r\nWe struggle on our bellies to survive.\r\nBut that which imprisons us also changes us\r\nAnd soon we will emerge anew.\r\n- The Wolven King",
+      "kr": "최초의 존재들의 세상은 거칠다.\r\n납작 엎드려 생존하기 위해 애를 쓴다.\r\n아예 속박하는 것이 또한 우리를 변화시킬 수도 있으니,\r\n우린 곧 새로운 모습으로 나타날 것이다.\r\n- 늑대왕",
+      "tw": "初代生長的世界是嚴酷的\r\n我們為了填飽肚子而求生\r\n那囚困我們的也改變著我們\r\n但我們終究會重獲新生\r\n- 狼王",
+      "ru": "Мир Первых жесток;\r\nМы ползаем на брюхе, пытаясь выжить.\r\nНо то, что сдерживает, меняет нас.\r\nСкоро мы вырвемся в новом облике.\r\n- Волчий король",
+      "jp": "「最初のものたちの世界は厳しい\r\n我らは腹ばいになり生きるためにもがく。\r\nしかし我らを囚えるものは同時に我らを変え\r\nすぐに我らは新たに生まれ変わる」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanSpellDamage",
+        "lines": [
+          {
+            "stat": "spell_damage_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Spell Damage",
+              "kr": "주문 피해 20~30% 증가",
+              "tw": "增加 20~30% 法術傷害",
+              "ru": "20~30% увеличение урона от чар",
+              "jp": "スペルダメージが20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "writhing-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Writhing Talisman",
+      "kr": "꿈틀거리는 부적",
+      "tw": "狂癲魔符",
+      "ru": "Талисман личинок",
+      "jp": "悶えるタリスマン"
+    },
+    "dropLevel": 35,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "For too long we have crawled in darkness,\r\nscavenging through rotten scraps.\r\nThe First Ones teach us to scavenge until we can hunt,\r\nand then never crawl again.\r\n- The Wolven King",
+      "kr": "오랫동안 우리는 어둠 속을 기면서\r\n썩은 고깃조각을 뒤져 왔다.\r\n최초의 존재들은 우리에게 음식을 찾는 법을 가르쳐 주었다.\r\n우리가 사냥을 하고 더 이상 기어다니지 않을 때까지.\r\n- 늑대왕",
+      "tw": "我們在黑暗中藏身了太久\r\n在腐朽的殘骸中覓食\r\n初代教我們在學會狩獵前\r\n不斷覓食，然後不再藏身\r\n- 狼王",
+      "ru": "Слишком долго ползали во тьме,\r\nсобирая гнилые отбросы.\r\nПервые учат нас использовать найденное для охоты,\r\nЧтобы мы уже никогда не ползали.\r\n- Волчий король",
+      "jp": "「我らは長すぎる期間、腐った食べ残しを漁りながら\r\n闇の中を這いずってきた。\r\n最初のものたちは我らに狩りができるまで漁るよう教えている\r\nそしてその後二度と這いずらないことも」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanAttackDamage",
+        "lines": [
+          {
+            "stat": "attack_damage_+%",
+            "value": "20~30",
+            "text": {
+              "en": "20~30% increased Attack Damage",
+              "kr": "공격 피해 20~30% 증가",
+              "tw": "增加 20~30% 攻擊傷害",
+              "ru": "20~30% увеличение урона от атак",
+              "jp": "アタックダメージが20~30%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "hexclaw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Hexclaw Talisman",
+      "kr": "사술발톱 부적",
+      "tw": "幻爪魔符",
+      "ru": "Талисман ведьмокогтя",
+      "jp": "呪いの爪のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The Hunter faced the First One\r\nand notched his final arrow.\r\nThe First One bared its fangs\r\nand savoured its final breath.\r\n- The Wolven King",
+      "kr": "사냥꾼은 최초의 존재를 마주보고\r\n마지막 화살을 메겼다.\r\n최초의 존재는 송곳니를 드러내고\r\n마지막 호흡을 음미했다.\r\n- 늑대왕",
+      "tw": "當獵人們面對著初代\r\n並拉上他們最後一支箭矢\r\n初代露出了他的獠牙\r\n接著品嚐著他們最後一口氣\r\n- 狼王",
+      "ru": "Когда Первого встретил охотник,\r\nон последнюю вынул стрелу.\r\nНо предтеч обнажил свои когти,\r\nи охотник навеки уснул.\r\n- Волчий король",
+      "jp": "「狩人は最初のものに相対し\r\n最後の矢をつがえた。\r\n最初のものは牙を剥き、\r\n最後の一息を味わった」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedCriticalChance",
+        "lines": [
+          {
+            "stat": "critical_strike_chance_+%",
+            "value": "40~50",
+            "text": {
+              "en": "40~50% increased Global Critical Strike Chance",
+              "kr": "일반 치명타 확률 40~50% 증가",
+              "tw": "增加 40~50% 全域暴擊率",
+              "ru": "40~50% повышение глобального шанса критического удара",
+              "jp": "グローバルクリティカル率が40~50%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "primal-skull-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Primal Skull Talisman",
+      "kr": "원시 해골 부적",
+      "tw": "皇骨魔符",
+      "ru": "Талисман первочерепа",
+      "jp": "原始の頭蓋骨のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "With the will of the first ones in our sinews\r\nwe shall tear down the walls of Sarn.\r\nYet as is the way of the wildlands,\r\nOnly the strong may grow stronger.\r\n- The Wolven King",
+      "kr": "우리의 힘줄 속에 최초의 존재들의 의지가 함께하니\r\n우리는 사안의 성벽을 무너뜨릴 것이다.\r\n황무지의 법칙이 그런 것이다.\r\n강한 자만이 더 강해질 수 있는 것이다.\r\n- 늑대왕",
+      "tw": "與初代的意志同心協力\r\n我們必將薩恩之牆推倒\r\n就如同是荒野中的法則\r\n只有強者能變得更強大\r\n- 狼王",
+      "ru": "В наших жилах звенит воля Первых.\r\nРазметаем мы Сарна стены.\r\nВедь законы глуши гласят верно:\r\nтолько сильный, да станет сильнее.\r\n- Волчий король",
+      "jp": "「最初のものたちの意志を肉体に宿し、\r\n我らはサーンの壁を破壊するだろう。\r\nしかし自然の掟の通り、\r\n強者のみが更に強くなれるのだ」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanPercentLifeRegeneration",
+        "lines": [
+          {
+            "stat": "life_regeneration_rate_per_minute_%",
+            "value": "120",
+            "text": {
+              "en": "Regenerate 120% of Life per second",
+              "kr": "1초마다 생명력의 120% 재생",
+              "tw": "每秒回復 120% 生命",
+              "ru": "Регенерация 120% здоровья в секунду",
+              "jp": "毎秒ライフの120%を自動回復する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "wereclaw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Wereclaw Talisman",
+      "kr": "변신자발톱 부적",
+      "tw": "亡爪魔符",
+      "ru": "Талисман когтистого оборотня",
+      "jp": "人狼爪のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "It's said to be noble to stand one's ground.\r\nTo soak the earth in stalwart blood.\r\nWhile the First Ones chose to laugh and run\r\nand caper with untamed glee.\r\n- The Wolven King",
+      "kr": "자신의 위치를 견지하는 것이 고귀하다고들 말한다.\r\n충실히 피를 흘려 땅을 적시어라.\r\n그동안 최초의 존재들은 웃고 달리며\r\n야생의 기쁨 속에 뛰노는 것을 선택했으니.\r\n- 늑대왕",
+      "tw": "人們說有自己的信念是高尚的\r\n將大地的精華融於血液之中\r\n然而初代們選擇愉悅的奔跑\r\n那喜悅的姿態如猴兒般蹦跳的心情一般\r\n- 狼王",
+      "ru": "Лучшие в последний бой идут,\r\nпроливая кровь сынов храбрейших. \r\nПодлые же Первые бегут,\r\nстроя рожи, полные насмешки.\r\n- Волчий король",
+      "jp": "「退かないことは誇り高いことだと言われている。\r\n大地をその強固な血で濡らすことが。\r\n一方で最初のものたちは笑って逃げ\r\n野生の悦びで跳ね回ることを選んだ」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedCriticalStrikeMultiplier_",
+        "lines": [
+          {
+            "stat": "base_critical_strike_multiplier_+",
+            "value": "24~36",
+            "text": {
+              "en": "24~36% to Global Critical Strike Multiplier",
+              "kr": "일반 치명타 피해 배율 24~36%",
+              "tw": "24~36% 全域暴擊加成",
+              "ru": "24~36% к глобальному множителю критического удара",
+              "jp": "グローバルクリティカルダメージ倍率 24~36%"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "splitnewt-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Splitnewt Talisman",
+      "kr": "분할도롱뇽 부적",
+      "tw": "斷螈魔符",
+      "ru": "Талисман колотритона",
+      "jp": "バラバラのトカゲのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "From flesh and ferocity,\r\nthe First Ones roamed\r\nthrough the realm of Spirit,\r\nand into the darkness beyond. \r\n- The Wolven King",
+      "kr": "최초의 존재들은\r\n육신과 흉포함으로부터\r\n영혼의 왕국을 거쳐,\r\n심연의 그 너머를 거닐었다.\r\n- 늑대왕",
+      "tw": "利用與生俱來的軀體和野性\r\n初代們一步一步地閒晃著\r\n從靈魂的領域\r\n直到超越黑暗的領域\r\n- 狼王",
+      "ru": "Из плоти и дикости\r\nуходят вдаль Первые\r\nпо вотчине Духа\r\nв грядущую тьму.\r\n- Волчий король",
+      "jp": "「その肉体と凶暴性で\r\n最初のものたちは\r\n魂の領域を彷徨い抜け\r\nその先の暗闇へと進んだ」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanChanceToFreezeShockIgnite_",
+        "lines": [
+          {
+            "stat": "chance_to_freeze_shock_ignite_%",
+            "value": "4~6",
+            "text": {
+              "en": "4~6% chance to Freeze, Shock and Ignite",
+              "kr": "4~6%의 확률로 동결, 감전 및 점화 유발",
+              "tw": "4~6% 機率使敵人冰凍、感電與點燃",
+              "ru": "4~6% шанс наложить заморозку, шок и поджог",
+              "jp": "4~6%の確率で凍結、感電および発火を付与する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "clutching-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Clutching Talisman",
+      "kr": "움켜잡는 부적",
+      "tw": "咒箍魔符",
+      "ru": "Сжимающий талисман",
+      "jp": "握る手のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Fear the children of the First Ones.\r\nLet fear shield your back.\r\nAnd let the dullard speak of bravery\r\nwhen the First Ones come for him.\r\n- The Wolven King",
+      "kr": "최초의 존재들의 자손을 두려워하라.\r\n두려움이 등 뒤를 보호케 하라.\r\n그리고 최초의 존재들이 올 때\r\n멍청한 자들더러 용기를 논하게 하라.\r\n- 늑대왕",
+      "tw": "畏懼初代的子孫吧\r\n讓恐懼成為你的支柱\r\n當初代準備出來之時\r\n讓愚人暢談他的勇猛\r\n- 狼王",
+      "ru": "Бойтесь детей самых Первых.\r\nСтрах да укроет вам спину.\r\nНаглость оставьте неверным\r\nдурням, что в их пасти сгинут.\r\n- Волчий король",
+      "jp": "「最初のものたちの子らを恐れよ\r\n恐れに背を守らせよ\r\n勇敢さを語る愚者のもとには\r\n最初のものたちがやってくる」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanGlobalDefensesPercent",
+        "lines": [
+          {
+            "stat": "global_defences_+%",
+            "value": "15~25",
+            "text": {
+              "en": "15~25% increased Global Defences",
+              "kr": "일반 방어력 15~25% 증가",
+              "tw": "增加 15~25% 全域防禦",
+              "ru": "15~25% повышение глобальной защиты",
+              "jp": "グローバル防御力が15~25%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "avian-twins-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Avian Twins Talisman",
+      "kr": "쌍둥이 새 부적",
+      "tw": "雙子魔符",
+      "ru": "Талисман пернатых близнецов",
+      "jp": "双鳥のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
+      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
+      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
+      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanFireTakenAsCold",
+        "lines": [
+          {
+            "stat": "fire_damage_taken_%_as_cold",
+            "value": "50",
+            "text": {
+              "en": "50% of Fire Damage from Hits taken as Cold Damage",
+              "kr": "피격 시 화염 피해의 50%를 냉기 피해로 받음",
+              "tw": "承受 50% 的擊中火焰傷害視為冰冷傷害",
+              "ru": "50% получаемого урона от огня от ударов становится уроном от холода",
+              "jp": "ヒットによる火ダメージの50%を冷気ダメージとして受ける"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "avian-twins-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Avian Twins Talisman",
+      "kr": "쌍둥이 새 부적",
+      "tw": "雙子魔符",
+      "ru": "Талисман пернатых близнецов",
+      "jp": "双鳥のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
+      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
+      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
+      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanFireTakenAsLightning",
+        "lines": [
+          {
+            "stat": "fire_damage_taken_%_as_lightning",
+            "value": "50",
+            "text": {
+              "en": "50% of Fire Damage from Hits taken as Lightning Damage",
+              "kr": "피격 시 화염 피해의 50%를 번개 피해로 받음",
+              "tw": "承受 50% 的擊中火焰傷害視為閃電傷害",
+              "ru": "50% получаемого урона от огня от ударов становится уроном от молнии",
+              "jp": "ヒットによる火ダメージの50%を雷ダメージとして受ける"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "avian-twins-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Avian Twins Talisman",
+      "kr": "쌍둥이 새 부적",
+      "tw": "雙子魔符",
+      "ru": "Талисман пернатых близнецов",
+      "jp": "双鳥のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
+      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
+      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
+      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanColdTakenAsFire",
+        "lines": [
+          {
+            "stat": "cold_damage_taken_%_as_fire",
+            "value": "50",
+            "text": {
+              "en": "50% of Cold Damage from Hits taken as Fire Damage",
+              "kr": "피격 시 냉기 피해의 50%를 화염 피해로 받음",
+              "tw": "承受 50% 的擊中冰冷傷害視為火焰傷害",
+              "ru": "50% получаемого урона от холода от ударов становится уроном от огня",
+              "jp": "ヒットによる冷気ダメージの50%を火ダメージとして受ける"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "avian-twins-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Avian Twins Talisman",
+      "kr": "쌍둥이 새 부적",
+      "tw": "雙子魔符",
+      "ru": "Талисман пернатых близнецов",
+      "jp": "双鳥のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
+      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
+      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
+      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanColdTakenAsLightning",
+        "lines": [
+          {
+            "stat": "cold_damage_taken_%_as_lightning",
+            "value": "50",
+            "text": {
+              "en": "50% of Cold Damage from Hits taken as Lightning Damage",
+              "kr": "피격 시 냉기 피해의 50%를 번개 피해로 받음",
+              "tw": "承受 50% 的擊中冰冷傷害視為閃電傷害",
+              "ru": "50% получаемого урона от холода от ударов становится уроном от молнии",
+              "jp": "ヒットによる冷気ダメージの50%を雷ダメージとして受ける"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "avian-twins-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Avian Twins Talisman",
+      "kr": "쌍둥이 새 부적",
+      "tw": "雙子魔符",
+      "ru": "Талисман пернатых близнецов",
+      "jp": "双鳥のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
+      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
+      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
+      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanLightningTakenAsCold",
+        "lines": [
+          {
+            "stat": "lightning_damage_taken_%_as_cold",
+            "value": "50",
+            "text": {
+              "en": "50% of Lightning Damage from Hits taken as Cold Damage",
+              "kr": "피격 시 번개 피해의 50%를 냉기 피해로 받음",
+              "tw": "承受 50% 的擊中閃電傷害視為冰冷傷害",
+              "ru": "50% получаемого урона от молнии от ударов становится уроном от холода",
+              "jp": "ヒットによる雷ダメージの50%を冷気ダメージとして受ける"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "avian-twins-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Avian Twins Talisman",
+      "kr": "쌍둥이 새 부적",
+      "tw": "雙子魔符",
+      "ru": "Талисман пернатых близнецов",
+      "jp": "双鳥のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
+      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
+      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
+      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanLightningTakenAsFire",
+        "lines": [
+          {
+            "stat": "lightning_damage_taken_%_as_fire",
+            "value": "50",
+            "text": {
+              "en": "50% of Lightning Damage from Hits taken as Fire Damage",
+              "kr": "피격 시 번개 피해의 50%를 화염 피해로 받음",
+              "tw": "承受 50% 的擊中閃電傷害視為火焰傷害",
+              "ru": "50% получаемого урона от молнии от ударов становится уроном от огня",
+              "jp": "ヒットによる雷ダメージの50%を火ダメージとして受ける"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "fangjaw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Fangjaw Talisman",
+      "kr": "송곳니턱 부적",
+      "tw": "齒鯊魔符",
+      "ru": "Талисман клыкастика",
+      "jp": "牙顎のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The First Ones are the forever ones.\r\nThere is no dust of the hourglass in their blood.\r\nNo fissures of weariness in their faces.\r\nTo drink of their blood is to drink of time itself.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 영원하다.\r\n그들의 피로 말하면, 모래시계의 모래가 없는 셈이다.\r\n얼굴에는 피로함의 주름 역시 존재하지 않는다.\r\n그들의 피를 마시는 것은 시간 자체를 취하는 것이다.\r\n- 늑대왕",
+      "tw": "初代是種永恆的存在\r\n在他們的血液中沒有時間的流逝\r\n在他們的臉龐上沒有焦慮的痕跡\r\n若要飲下他們的血即是飲下時間\r\n- 狼王",
+      "ru": "Первые, знай, неизменны и вечны.\r\nИх потроха не съедает болезнь.\r\nНет среди Первых усталых, калечных.\r\nКровь их на вкус, словно времени песнь.\r\n- Волчий король",
+      "jp": "「最初のものたちは永遠の者たちだ。\r\n彼らの血には砂時計の砂は流れておらぬ。\r\n彼らの顔には疲れの谷も現れておらぬ。\r\n彼らの血を飲むことは時そのものを飲むということだ」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedLife",
+        "lines": [
+          {
+            "stat": "maximum_life_+%",
+            "value": "8~12",
+            "text": {
+              "en": "8~12% increased maximum Life",
+              "kr": "최대 생명력 8~12% 증가",
+              "tw": "增加 8~12% 最大生命",
+              "ru": "8~12% увеличение максимума здоровья",
+              "jp": "最大ライフが8~12%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "horned-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Horned Talisman",
+      "kr": "뿔 달린 부적",
+      "tw": "尖角魔符",
+      "ru": "Талисман рогов",
+      "jp": "角のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The Empire hides lies and falsehoods\r\nBehind a mask of politeness and civility.\r\nThe First Ones teach us to look through the lies,\r\nAnd that no beast can truly cover their tracks.\r\n- The Wolven King",
+      "kr": "제국은 예의와 정중함의 가면 뒤에\r\n거짓과 허위를 숨긴다.\r\n최초의 존재들은 우리에게 거짓말을 간파할 것을\r\n그리고 어떤 짐승도 완전히 자취를 감출 수 없다는 것을 가르쳐 주었다.\r\n- 늑대왕",
+      "tw": "帝國一直藏著謊言和誤導\r\n藏在文明禮儀的面具後面\r\n初代教會我們看穿那謊言\r\n沒有誰能完全抹滅其蹤跡\r\n- 狼王",
+      "ru": "Империя скрывает ложь и притворство\r\nЗа маской вежливости и любезности.\r\nПервые учат нас смотреть сквозь обман,\r\nЧтоб ни один зверь не скрыл своих следов.\r\n- Волчий король",
+      "jp": "「帝国は嘘と欺瞞を\r\n礼儀と丁重さの仮面で隠している。\r\n最初のものたちは嘘を見抜くことを教える\r\nどんな獣でも完全に痕跡を隠すことはできないことも」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanAdditionalPierce",
+        "lines": [
+          {
+            "stat": "projectile_base_number_of_targets_to_pierce",
+            "value": "2",
+            "text": {
+              "en": "Projectiles Pierce 2 additional Targets",
+              "kr": "투사체가 대상 2개를 추가 관통",
+              "tw": "投射物穿透 2 個額外目標",
+              "ru": "Снаряды пронзают 2 дополнительных цели(-ей)",
+              "jp": "投射物は対象を追加で2体貫通する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "spinefuse-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Spinefuse Talisman",
+      "kr": "척추융합 부적",
+      "tw": "潛能魔符",
+      "ru": "Талисман хребтоплава",
+      "jp": "融合した背骨のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We Ezomytes are beasts of burden\r\nbearing wealth of an empire on our backs,\r\ngrowing lean and strong\r\nwhile our masters grow fat and weak.\r\n- The Wolven King",
+      "kr": "우리 에조미어인은 등에 제국의 부를 진\r\n동물과 같다.\r\n주인들이 살이 오르고 허약해지는 동안\r\n우리는 군살 없이 강해지고 있다.\r\n- 늑대왕",
+      "tw": "身為負重高手的艾茲麥族人\r\n為帝國的人們背著他們的財富\r\n因此能越加成長越加精壯\r\n而有錢的主人越來越虛弱肥胖\r\n- 狼王",
+      "ru": "Эзомиты впряжены в Империю\r\nсловно скот, что тянет за собой\r\nвечных, жирных телом и душой.\r\nТем сильнее станут дети севера.\r\n- Волчий король",
+      "jp": "「我らエゾマイトは駄獣だ\r\n背には帝国の富を背負い、\r\n体は引き締まり強くなる\r\n一方で我らの主人は肥え太り弱くなる」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanGlobalDamageOverTimeMultiplier",
+        "lines": [
+          {
+            "stat": "dot_multiplier_+",
+            "value": "12~18",
+            "text": {
+              "en": "12~18% to Damage over Time Multiplier",
+              "kr": "지속 피해 배율 12~18%",
+              "tw": "12~18% 持續傷害加成",
+              "ru": "12~18% к множителю постепенного урона",
+              "jp": "継続ダメージ倍率 12~18%"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "three-rat-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Three Rat Talisman",
+      "kr": "세 마리 쥐 부적",
+      "tw": "三鼠魔符",
+      "ru": "Талисман трёх крыс",
+      "jp": "三匹のネズミのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "When we free ourselves from the shackles\r\nof civilised existence\r\nwe learn to feed and run and breathe\r\nas the First Ones have always done.\r\n- The Wolven King",
+      "kr": "문명화된 존재의\r\n족쇄에서 벗어날 때\r\n우리는 최초의 존재들이 항상 그랬듯\r\n먹고 달리고 숨 쉬는 법을 배울 수 있다.\r\n- 늑대왕",
+      "tw": "當我們將自己\r\n從文民的枷鎖解放時\r\n我們學會了疾跑、呼吸，和獵食\r\n就像是初代們的所作所為一樣\r\n- 狼王",
+      "ru": "Лишь только стряхнув оковы\r\nкультуры и быта муть,\r\nмы бегать научимся снова,\r\nкак Первые, жизнь вдохнув.\r\n- Волчий король",
+      "jp": "「我らが文明の枷から\r\n自らを解き放つ時、\r\n我らは最初のものたちがしてきたように\r\n喰い、走り、息をすることを学ぶのだ」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedAllAttributes",
+        "lines": [
+          {
+            "stat": "all_attributes_+%",
+            "value": "12~16",
+            "text": {
+              "en": "12~16% increased Attributes",
+              "kr": "능력치 12~16% 증가",
+              "tw": "增加 12~16% 所有屬性",
+              "ru": "12~16% увеличение характеристик",
+              "jp": "能力値が12~16%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "monkey-twins-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Monkey Twins Talisman",
+      "kr": "쌍둥이 원숭이 부적",
+      "tw": "雙猴魔符",
+      "ru": "Талисман близнецов-обезьян",
+      "jp": "双猿のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The first ones marked their hunting grounds\r\nwith blood and piss.\r\nWe have tried to paint our future in words.\r\nNow we shall paint with inks of savagery.\r\n- The Wolven King",
+      "kr": "최초의 존재들은 자기 사냥터를\r\n피와 소변으로 표시했다.\r\n우리는 언어로 우리의 미래를 그리려고 했다.\r\n이제 우리 역시 야만의 물감으로 그려낼 것이다.\r\n- 늑대왕",
+      "tw": "初代們用血和尿液\r\n標下了屬於自己的狩獵區\r\n我們曾嘗試用文字畫出未來\r\n現在我們必須用野性的墨水來嘗試\r\n- 狼王",
+      "ru": "Если Первые метят свой край,\r\nони щедро льют кровь и мочу.\r\nМы словами пытались ваять\r\nто, что должно чертить по мечу.\r\n- Волчий король",
+      "jp": "「最初のものたちは血と尿で\r\n狩場に印を付けてきた。\r\n我らは言葉で未来を描こうとしてきた。\r\nこれからは野生の墨で描こう」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedAreaOfEffect",
+        "lines": [
+          {
+            "stat": "base_skill_area_of_effect_+%",
+            "value": "5~8",
+            "text": {
+              "en": "5~8% increased Area of Effect",
+              "kr": "효과 범위 5~8% 증가",
+              "tw": "增加 5~8% 範圍效果",
+              "ru": "5~8% увеличение области действия",
+              "jp": "効果範囲が5~8%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "longtooth-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Longtooth Talisman",
+      "kr": "긴 이빨 부적",
+      "tw": "長牙魔符",
+      "ru": "Талисман длиннозуба",
+      "jp": "長い歯のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We grew contemptuous of our past.\r\nDismissed the first ones as ignorant and wild.\r\nWe were fools and naive children\r\nto turn our backs on our inheritance.\r\n- The Wolven King",
+      "kr": "그동안의 과거를 경멸했었다.\r\n최초의 존재들을 무지하고 야만적이라고 무시했었다.\r\n물려받은 힘에 등을 돌린 것은\r\n어리석고 순진한 아이 같은 행동이었다.\r\n- 늑대왕",
+      "tw": "我們開始對過去感到鄙視\r\n視初代為野蠻和原始並背棄了他\r\n然後我們其實只是愚笨天真的孩子\r\n與我們天生的本性背道而馳\r\n- 狼王",
+      "ru": "Высокомерно отвергнув былое,\r\nмы окрестили Первых зверями.\r\nГлупое племя мы, молодое,\r\nраз отвернулись от прошлого сами.\r\n- Волчий король",
+      "jp": "「我らは過去を軽んじるようになった。\r\n最初のものたちを無知で野蛮なものだと片付けた。\r\n我らは愚かで物を知らぬ子供だった\r\n遺産に背を向けてしまうとは」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanReducedPhysicalDamageTaken_",
+        "lines": [
+          {
+            "stat": "base_additional_physical_damage_reduction_%",
+            "value": "4~6",
+            "text": {
+              "en": "4~6% additional Physical Damage Reduction",
+              "kr": "받는 물리 피해 4~6% 추가 감소",
+              "tw": "4~6% 額外物理傷害減免",
+              "ru": "4~6% дополнительного уменьшения получаемого физического урона",
+              "jp": "物理ダメージ軽減率が4~6%される"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "rotfeather-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Rotfeather Talisman",
+      "kr": "썩은 깃털 부적",
+      "tw": "死羽魔符",
+      "ru": "Талисман перогнильца",
+      "jp": "腐羽のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Death met with the First Ones\r\nand demanded they hunt with mercy.\r\nFor while pain might delight the mind,\r\nit does not fill the belly.\r\n- The Wolven King",
+      "kr": "죽음이 최초의 존재들을 조우했을 때\r\n자비로운 사냥을 요청해 왔다.\r\n고통으로 마음을 즐겁게 할 수는 있지만\r\n배를 채우지는 못하기 때문이다.\r\n- 늑대왕",
+      "tw": "當死亡遇上了初代時\r\n要求他們狩獵時手下留情\r\n僅管製造痛苦能讓人快樂\r\n但卻無法填飽肚子\r\n- 狼王",
+      "ru": "Навестила Смерть как-то Первых,\r\nнаказала бить дичь без боли.\r\nБоль добычи лишь разум тешит,\r\nно живот она не наполнит.\r\n- Волчий король",
+      "jp": "「死は最初のものたちに合い、\r\n慈悲を持って狩るよう求めた。\r\n苦痛は精神を悦ばせることはあるが、\r\n腹は満たさぬからだ」\r\nー狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanIncreasedDamage",
+        "lines": [
+          {
+            "stat": "damage_+%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% increased Damage",
+              "kr": "피해 25~35% 증가",
+              "tw": "增加 25~35% 傷害",
+              "ru": "25~35% увеличение урона",
+              "jp": "ダメージが25~35%増加する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "monkey-paw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Monkey Paw Talisman",
+      "kr": "원숭이 발 부적",
+      "tw": "猴掌魔符",
+      "ru": "Талисман обезьяньей лапки",
+      "jp": "猿の手のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Look not upon me with fear, my men.\r\nThough I seem strange, even monstrous,\r\nwere you to see with the eyes of your forebears,\r\nyour hearts would be filled with wonder.\r\n- The Wolven King",
+      "kr": "동족이여, 그리 두려운 눈으로 쳐다보지 말라.\r\n내가 기묘하고 괴물처럼 보이겠지만\r\n만약 그대들이 선조의 눈으로 나를 보았다면\r\n경이로움으로 가득 찼을 것이니.\r\n- 늑대왕",
+      "tw": "別用畏懼的眼神看著我，人類\r\n我或許長得奇怪，甚至如怪物般\r\n若你見著先祖們的眼睛\r\n你的心將會充滿更多的好奇\r\n- 狼王",
+      "ru": "Не смотрите вы со страхом, соплеменники.\r\nПусть в глазах людских я странен и чудовищен,\r\nно увидь меня глазами славных предков вы -\r\nвмиг сердца свои наполнили бы радостью.\r\n- Волчий король",
+      "jp": "「我が民よ、我を見る目に畏怖を込めるなかれ。\r\n我は奇妙で怪物のように映るかもしれぬが、\r\n其方らが先祖の目を通して我を見られたならば\r\n其方らの心には驚きが満ちるだろう」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanPowerChargeOnKill",
+        "lines": [
+          {
+            "stat": "add_power_charge_on_kill_%_chance",
+            "value": "10",
+            "text": {
+              "en": "10% chance to gain a Power Charge on Kill",
+              "kr": "처치 시 10%의 확률로 권능 충전 획득",
+              "tw": "擊殺時有 10% 機率獲得 1 顆暴擊球",
+              "ru": "10% шанс получить заряд энергии при убийстве",
+              "jp": "敵を倒した時に10%の確率でパワーチャージを1個獲得する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "monkey-paw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Monkey Paw Talisman",
+      "kr": "원숭이 발 부적",
+      "tw": "猴掌魔符",
+      "ru": "Талисман обезьяньей лапки",
+      "jp": "猿の手のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Look not upon me with fear, my men.\r\nThough I seem strange, even monstrous,\r\nwere you to see with the eyes of your forebears,\r\nyour hearts would be filled with wonder.\r\n- The Wolven King",
+      "kr": "동족이여, 그리 두려운 눈으로 쳐다보지 말라.\r\n내가 기묘하고 괴물처럼 보이겠지만\r\n만약 그대들이 선조의 눈으로 나를 보았다면\r\n경이로움으로 가득 찼을 것이니.\r\n- 늑대왕",
+      "tw": "別用畏懼的眼神看著我，人類\r\n我或許長得奇怪，甚至如怪物般\r\n若你見著先祖們的眼睛\r\n你的心將會充滿更多的好奇\r\n- 狼王",
+      "ru": "Не смотрите вы со страхом, соплеменники.\r\nПусть в глазах людских я странен и чудовищен,\r\nно увидь меня глазами славных предков вы -\r\nвмиг сердца свои наполнили бы радостью.\r\n- Волчий король",
+      "jp": "「我が民よ、我を見る目に畏怖を込めるなかれ。\r\n我は奇妙で怪物のように映るかもしれぬが、\r\n其方らが先祖の目を通して我を見られたならば\r\n其方らの心には驚きが満ちるだろう」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanFrenzyChargeOnKill",
+        "lines": [
+          {
+            "stat": "add_frenzy_charge_on_kill_%_chance",
+            "value": "10",
+            "text": {
+              "en": "10% chance to gain a Frenzy Charge on Kill",
+              "kr": "처치 시 10%의 확률로 격분 충전 획득",
+              "tw": "擊殺時有 10% 機率獲得 1 顆狂怒球",
+              "ru": "10% шанс получить заряд ярости при убийстве",
+              "jp": "敵を倒した時に10%の確率でフレンジーチャージを1個獲得する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "monkey-paw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Monkey Paw Talisman",
+      "kr": "원숭이 발 부적",
+      "tw": "猴掌魔符",
+      "ru": "Талисман обезьяньей лапки",
+      "jp": "猿の手のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Look not upon me with fear, my men.\r\nThough I seem strange, even monstrous,\r\nwere you to see with the eyes of your forebears,\r\nyour hearts would be filled with wonder.\r\n- The Wolven King",
+      "kr": "동족이여, 그리 두려운 눈으로 쳐다보지 말라.\r\n내가 기묘하고 괴물처럼 보이겠지만\r\n만약 그대들이 선조의 눈으로 나를 보았다면\r\n경이로움으로 가득 찼을 것이니.\r\n- 늑대왕",
+      "tw": "別用畏懼的眼神看著我，人類\r\n我或許長得奇怪，甚至如怪物般\r\n若你見著先祖們的眼睛\r\n你的心將會充滿更多的好奇\r\n- 狼王",
+      "ru": "Не смотрите вы со страхом, соплеменники.\r\nПусть в глазах людских я странен и чудовищен,\r\nно увидь меня глазами славных предков вы -\r\nвмиг сердца свои наполнили бы радостью.\r\n- Волчий король",
+      "jp": "「我が民よ、我を見る目に畏怖を込めるなかれ。\r\n我は奇妙で怪物のように映るかもしれぬが、\r\n其方らが先祖の目を通して我を見られたならば\r\n其方らの心には驚きが満ちるだろう」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanEnduranceChargeOnKill_",
+        "lines": [
+          {
+            "stat": "endurance_charge_on_kill_%",
+            "value": "10",
+            "text": {
+              "en": "10% chance to gain an Endurance Charge on Kill",
+              "kr": "처치 시 10%의 확률로 인내 충전 획득",
+              "tw": "10% 機率擊殺時獲得 1 顆耐力球",
+              "ru": "10% шанс получить заряд выносливости при убийстве",
+              "jp": "敵を倒した時に10%の確率でエンデュランスチャージを1個獲得する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "three-hands-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Three Hands Talisman",
+      "kr": "세 개의 손 부적",
+      "tw": "三手魔符",
+      "ru": "Талисман трёх рук",
+      "jp": "三つ手のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "We breed thoughts of single mind,\r\nfashion tools of single purpose.\r\nWhile the First Ones bring to bear\r\nanything that the wildlands provide.\r\n- The Wolven King",
+      "kr": "우리는 한 가지 뜻에서 나온 생각만 하고\r\n한 가지 목적을 가진 도구를 만들 뿐이다.\r\n반면 최초의 존재들은\r\n황무지에서 나는 것은 무엇이든 활용해 낸다.\r\n- 늑대왕",
+      "tw": "我們孕育出個體的心智\r\n創造單一功能的器具\r\n而初代卻能將廢土中\r\n任何的事物加以運用\r\n- 狼王",
+      "ru": "Мы думаем, но каждый за себя.\r\nГотовим скарб для всяких личных целей.\r\nНо Первые, хоть и в глуши живя,\r\nнесут нам всё, что сами заимели.\r\n - Волчий король",
+      "jp": "「我らは一念の心を育み、\r\n専用の道具を作る。\r\n一方で最初のものたちが生み出すのは\r\n自然の与えるもの全てだ」\r\n―狼王"
+    },
+    "implicits": [
+      {
+        "modId": "TalismanDamageDealtAddedAsRandomElement",
+        "lines": [
+          {
+            "stat": "physical_damage_%_to_add_as_random_element",
+            "value": "6~12",
+            "text": {
+              "en": "Gain 6~12% of Physical Damage as Extra Damage of a random Element",
+              "kr": "물리 피해의 6~12%를 무작위 원소 피해로 추가",
+              "tw": "獲得等同 6~12% 物理傷害的一個隨機元素傷害",
+              "ru": "Дарует 6~12% физического урона в виде дополнительного урона от случайной стихии",
+              "jp": "物理ダメージの6~12%をランダムな元素属性の追加ダメージとして獲得する"
+            }
+          }
+        ]
+      },
+      {
+        "modId": "TalismanCanBePickedUpByMonster",
+        "lines": [
+          {
+            "stat": "local_stat_monsters_pick_up_item",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "greatwolf-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Greatwolf Talisman",
+      "kr": "위대한 늑대 부적",
+      "tw": "狼王魔符",
+      "ru": "Талисман Великого волка",
+      "jp": "大狼のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The wolf greeted the king,\r\nIn the light of the harvest moon.\r\nThe wolf offered the strength of the wild,\r\nAnd the king paid for it in blood.",
+      "kr": "추수의 달 아래\r\n늑대는 왕을 맞이했다.\r\n늑대는 야생의 힘을 제시했고\r\n왕은 피로써 대가를 치렀다.",
+      "tw": "狼在滿月的月光下\r\n像王表示了敬意\r\n狼獻出了野性的力量\r\n而王獻出了他的血",
+      "ru": "Повстречал старший волк короля\r\nв свете полной, большой луны.\r\nСилу диких земель даря,\r\nкровь монарха взамен испил.",
+      "jp": "中秋の名月の明かりの下で\r\n狼は王を迎えた。\r\n狼は野生の力を与え、\r\n王は血で支払った。"
+    },
+    "implicits": null,
+    "image": null
+  }
+]
