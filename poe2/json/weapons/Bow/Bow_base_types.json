@@ -857,6 +857,54 @@
     "image": null
   },
   {
+    "id": "runeforged-warden-bow",
+    "classId": "Bow",
+    "className": {
+      "en": "Bows",
+      "kr": "활",
+      "tw": "弓",
+      "ru": "Луки",
+      "jp": "弓"
+    },
+    "name": {
+      "en": "Runeforged Warden Bow",
+      "kr": "Runeforged Warden Bow",
+      "tw": "Runeforged Warden Bow",
+      "ru": "Runeforged Warden Bow",
+      "jp": "Runeforged Warden Bow"
+    },
+    "dropLevel": 40,
+    "spec": {
+      "type": "weapon",
+      "damageMin": 38,
+      "damageMax": 63,
+      "critChance": 5,
+      "reloadTime": 0,
+      "rangeMax": 120
+    },
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "BowImplicitLocalChanceToChain1",
+        "lines": [
+          {
+            "stat": "local_additional_attack_chain_chance_%",
+            "value": "25~35",
+            "text": {
+              "en": "25~35% chance to Chain an additional time",
+              "kr": "25~35%의 확률로 1회 추가 연쇄",
+              "tw": "有25~35%機率額外連鎖一次",
+              "ru": "25~35% шанс нанести дополнительный удар по цепи",
+              "jp": "25~35%の確率で追加で1回連鎖する"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
     "id": "runeforged-recurve-bow",
     "classId": "Bow",
     "className": {

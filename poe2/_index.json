@@ -1,5 +1,5 @@
 {
-  "gamePatch": "3.28.0.12",
+  "gamePatch": "4.5.4.3",
   "langs": [
     "en",
     "kr",
@@ -8,12 +8,12 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-07-06T11:15:17.415Z",
+  "generated": "2026-07-10T12:04:01.294Z",
   "groups": {
     "weapons": {
       "Bow": {
         "jsonPath": "json/weapons/Bow/Bow_base_types.json",
-        "count": 34,
+        "count": 35,
         "sampleName": "Crude Bow",
         "className": {
           "en": "Bows",
@@ -133,7 +133,7 @@
       },
       "Staff": {
         "jsonPath": "json/weapons/Staff/Staff_base_types.json",
-        "count": 18,
+        "count": 19,
         "sampleName": "Ashen Staff",
         "className": {
           "en": "Staves",
@@ -205,6 +205,18 @@
       }
     },
     "armour": {
+      "Body_Armour": {
+        "jsonPath": "json/armour/Body_Armour/Body_Armour_base_types.json",
+        "count": 369,
+        "sampleName": "Golden Mantle",
+        "className": {
+          "en": "Body Armours",
+          "kr": "갑옷",
+          "tw": "胸甲",
+          "ru": "Нательные доспехи",
+          "jp": "鎧"
+        }
+      },
       "Boots": {
         "jsonPath": "json/armour/Boots/Boots_base_types.json",
         "count": 192,
@@ -243,7 +255,7 @@
       },
       "Gloves": {
         "jsonPath": "json/armour/Gloves/Gloves_base_types.json",
-        "count": 202,
+        "count": 203,
         "sampleName": "Golden Bracers",
         "className": {
           "en": "Gloves",
@@ -331,7 +343,7 @@
     "gems": {
       "Active_Skill_Gem": {
         "jsonPath": "json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json",
-        "count": 502,
+        "count": 505,
         "sampleName": "Ice Nova",
         "className": {
           "en": "Skill Gems",
@@ -601,7 +613,7 @@
       },
       "StackableCurrency": {
         "jsonPath": "json/currency/StackableCurrency/StackableCurrency_base_types.json",
-        "count": 447,
+        "count": 448,
         "sampleName": "Blacksmith's Whetstone",
         "className": {
           "en": "Stackable Currency",
@@ -621,6 +633,18 @@
           "tw": "魔符",
           "ru": "Талисманы",
           "jp": "タリスマン"
+        }
+      },
+      "TowerAugmentation": {
+        "jsonPath": "json/currency/TowerAugmentation/TowerAugmentation_base_types.json",
+        "count": 8,
+        "sampleName": "Breach Tablet",
+        "className": {
+          "en": "Tablet",
+          "kr": "서판",
+          "tw": "碑牌",
+          "ru": "Плитки",
+          "jp": "石板"
         }
       },
       "UniqueFragment": {
@@ -659,18 +683,6 @@
           "tw": "輿圖升級道具",
           "ru": "Предметы улучшения Атласа",
           "jp": "アトラスアップグレードアイテム"
-        }
-      },
-      "Body_Armour": {
-        "jsonPath": "json/misc/Body_Armour/Body_Armour_base_types.json",
-        "count": 369,
-        "sampleName": "Golden Mantle",
-        "className": {
-          "en": "Body Armours",
-          "kr": "갑옷",
-          "tw": "胸甲",
-          "ru": "Нательные доспехи",
-          "jp": "鎧"
         }
       },
       "BrequelFruit": {
@@ -1000,25 +1012,13 @@
       "SentinelDrone": {
         "jsonPath": "json/misc/SentinelDrone/SentinelDrone_base_types.json",
         "count": 1,
-        "sampleName": "[DNT] Kalguur Drone",
+        "sampleName": "Verisium Sentry",
         "className": {
           "en": "Sentinels",
           "kr": "파수꾼",
           "tw": "護衛",
           "ru": "Часовые",
           "jp": "センチネル"
-        }
-      },
-      "TowerAugmentation": {
-        "jsonPath": "json/misc/TowerAugmentation/TowerAugmentation_base_types.json",
-        "count": 8,
-        "sampleName": "Breach Tablet",
-        "className": {
-          "en": "Tablet",
-          "kr": "서판",
-          "tw": "碑牌",
-          "ru": "Плитки",
-          "jp": "石板"
         }
       },
       "TrapTool": {
