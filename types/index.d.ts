@@ -29,6 +29,19 @@ export interface GameIndex {
   modifiers?: Record<string, ModifierEntry>;
 }
 
+/**
+ * `<game>/names/<lang>.json` — normalized English name -> localized display name.
+ * Derived artifact built by poe-ggpk-extractor (`npm run build:names[:poe1]`).
+ *
+ * Like `dict/`, it is addressed by path convention and is NOT listed in `_index.json`
+ * (that file is regenerated wholesale by gen-index/export, so a registered node would be
+ * silently dropped on the next refresh). Enumerate languages from `GameIndex.langs`.
+ *
+ * Key: `en.trim().toLowerCase().replace(/\s+/g, ' ')` — consumers must normalize lookups the
+ * same way. Entries whose localized value equals the English name are omitted; fall back to it.
+ */
+export type NameDictionary = Record<string, string>;
+
 export interface BaseItem {
   id: string;
   classId: string;
