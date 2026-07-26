@@ -684,7 +684,7 @@
     "name": {
       "en": "Split Arrow",
       "kr": "분할 화살",
-      "tw": "分裂箭矢",
+      "tw": "裂化箭矢",
       "ru": "Расколотая стрела",
       "jp": "スプリットアロー"
     },
@@ -2702,7 +2702,7 @@
       "kr": "불타는 굴레",
       "tw": "灼熱連結",
       "ru": "Обжигающие узы",
-      "jp": "シーリングボンド"
+      "jp": "シアリングボンド"
     },
     "dropLevel": 12,
     "spec": null,
@@ -4128,7 +4128,7 @@
     "image": null
   },
   {
-    "id": "item-1843",
+    "id": "item-1893",
     "classId": "Active Skill Gem",
     "className": {
       "en": "Skill Gems",
@@ -5562,7 +5562,7 @@
     "image": null
   },
   {
-    "id": "dark-pact",
+    "id": "dark-bargain",
     "classId": "Active Skill Gem",
     "className": {
       "en": "Skill Gems",
@@ -5572,11 +5572,11 @@
       "jp": "スキルジェム"
     },
     "name": {
-      "en": "Dark Pact",
-      "kr": "어둠의 서약",
+      "en": "Dark Bargain",
+      "kr": "어둠의 협상",
       "tw": "暗夜血契",
-      "ru": "Тёмный договор",
-      "jp": "ダークパクト"
+      "ru": "Тёмная сделка",
+      "jp": "ダークバーゲン"
     },
     "dropLevel": 28,
     "spec": null,
@@ -10562,7 +10562,7 @@
       "kr": "불타는 굴레",
       "tw": "灼熱連結",
       "ru": "Обжигающие узы",
-      "jp": "シーリングボンド"
+      "jp": "シアリングボンド"
     },
     "dropLevel": 4,
     "spec": null,
@@ -10860,7 +10860,7 @@
     "image": null
   },
   {
-    "id": "dark-pact",
+    "id": "dark-bargain",
     "classId": "Active Skill Gem",
     "className": {
       "en": "Skill Gems",
@@ -10870,11 +10870,11 @@
       "jp": "スキルジェム"
     },
     "name": {
-      "en": "Dark Pact",
-      "kr": "어둠의 서약",
+      "en": "Dark Bargain",
+      "kr": "어둠의 협상",
       "tw": "暗夜血契",
-      "ru": "Тёмный договор",
-      "jp": "ダークパクト"
+      "ru": "Тёмная сделка",
+      "jp": "ダークバーゲン"
     },
     "dropLevel": 4,
     "spec": null,
@@ -11928,7 +11928,7 @@
     "name": {
       "en": "Vaal Split Arrow",
       "kr": "바알 분할 화살",
-      "tw": "瓦爾．分裂箭矢",
+      "tw": "瓦爾．裂化箭矢",
       "ru": "Расколотая стрела ваал",
       "jp": "ヴァールスプリットアロー"
     },
@@ -12224,6 +12224,150 @@
     "spec": null,
     "currency": null,
     "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "mana-infused-staff",
+    "classId": "Active Skill Gem",
+    "className": {
+      "en": "Skill Gems",
+      "kr": "스킬 젬",
+      "tw": "技能寶石",
+      "ru": "Камни умений",
+      "jp": "スキルジェム"
+    },
+    "name": {
+      "en": "Mana-Infused Staff",
+      "kr": "마나 주입 지팡이",
+      "tw": "魔能長杖",
+      "ru": "Насыщенный маной посох",
+      "jp": "マナインフューズスタッフ"
+    },
+    "dropLevel": 16,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pact-of-beidat",
+    "classId": "Active Skill Gem",
+    "className": {
+      "en": "Skill Gems",
+      "kr": "스킬 젬",
+      "tw": "技能寶石",
+      "ru": "Камни умений",
+      "jp": "スキルジェム"
+    },
+    "name": {
+      "en": "Pact of Beidat",
+      "kr": "베이다트의 맹약",
+      "tw": "貝達特誓約",
+      "ru": "Пакт Беидата",
+      "jp": "ベイダットの契約"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Wield the gifts of Beidat, luminary of the pale unseeing,\r\nwhose honeyed words bore tunnels through pliant minds.",
+      "kr": "보지 못하는 창백한 자들의 빛, 베이다트의 선물을 휘둘러라.\r\n그의 감언은 유약한 정신을 파고들어 굴을 뚫을지니.",
+      "tw": "揮舞貝達特的恩賜吧，牠是蒼白盲目者\r\n的引路星辰，其甜言蜜語在順從的心靈中鑿出了隧道。",
+      "ru": "Wield the gifts of Beidat, luminary of the pale unseeing,\r\nwhose honeyed words bore tunnels through pliant minds.",
+      "jp": "甘い言葉で素直な精神に穴を穿った\r\n蒼白なる盲者の指導者ベイダットの恵みを振るうがいい。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pact-of-ghorr",
+    "classId": "Active Skill Gem",
+    "className": {
+      "en": "Skill Gems",
+      "kr": "스킬 젬",
+      "tw": "技能寶石",
+      "ru": "Камни умений",
+      "jp": "スキルジェム"
+    },
+    "name": {
+      "en": "Pact of Ghorr",
+      "kr": "고르의 맹약",
+      "tw": "戈沃誓約",
+      "ru": "Пакт Гхорра",
+      "jp": "ゴールの契約"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Offer yourself to Ghorr, the gluttonous, the cage of\r\nflesh trapping souls in the cycle of consumption.",
+      "kr": "포식의 굴레에 영혼을 가두는 육신의 우리\r\n걸신들린 고르에게 너 자신을 바쳐라.",
+      "tw": "將你自己奉獻給暴食者戈沃，\r\n那座將靈魂困在吞噬循環中的血肉之牢。",
+      "ru": "Поднеси себя Гхорру, ненасытному – клетке\r\nиз плоти, запирающей души в цикле поглощения.",
+      "jp": "食の連鎖に魂を囚える肉の檻、\r\n暴食のゴールにその身を捧げよ。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pact-of-ktash",
+    "classId": "Active Skill Gem",
+    "className": {
+      "en": "Skill Gems",
+      "kr": "스킬 젬",
+      "tw": "技能寶石",
+      "ru": "Камни умений",
+      "jp": "スキルジェム"
+    },
+    "name": {
+      "en": "Pact of K'Tash",
+      "kr": "크타쉬의 맹약",
+      "tw": "克塔什誓約",
+      "ru": "Пакт К'Таш",
+      "jp": "カタッシュの契約"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Unleash the fury of K'Tash, incarnation of hate.\r\nEndless bodies burn beneath the flames of his pursuit.",
+      "kr": "증오의 화신 크타쉬의 분노를 해방하라.\r\n그의 집요한 불길 아래 무수한 육신이 타오르리라.",
+      "tw": "釋放克塔什的憤怒，牠是仇恨的化身。\r\n無數軀殼在牠追尋的烈焰下燃燒殆盡。",
+      "ru": "Unleash the fury of K'Tash, incarnation of hate.\r\nEndless bodies burn beneath the flames of his pursuit.",
+      "jp": "憎悪の化身、ク・タシュの怒りを解き放て。\r\n彼の追跡の炎の下では無数の肉体が燃えている。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pact-of-lycia",
+    "classId": "Active Skill Gem",
+    "className": {
+      "en": "Skill Gems",
+      "kr": "스킬 젬",
+      "tw": "技能寶石",
+      "ru": "Камни умений",
+      "jp": "スキルジェム"
+    },
+    "name": {
+      "en": "Pact of Lycia",
+      "kr": "리키아의 맹약",
+      "tw": "利希亞誓約",
+      "ru": "Пакт Люции",
+      "jp": "リシアの契約"
+    },
+    "dropLevel": 24,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Call upon Lycia, conduit of the Scourge. She forfeit\r\nher soul for the power to condemn lies told by bones.",
+      "kr": "뼈의 거짓을 단죄할 힘을 얻고자 영혼을 내놓은\r\n스컬지의 전령 리시아를 불러내라.",
+      "tw": "召喚災禍的媒介利希亞。\r\n她出賣了自己的靈魂，換取了譴責白骨所言之謊的力量。",
+      "ru": "Call upon Lycia, conduit of the Scourge. She forfeit\r\nher soul for the power to condemn lies told by bones.",
+      "jp": "災厄の導管、リシアに呼びかけよ。彼女は\r\n骨の語る嘘を咎める力と引き換えに魂を捧げた。"
+    },
     "implicits": null,
     "image": null
   },

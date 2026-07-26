@@ -1260,7 +1260,7 @@
     "name": {
       "en": "Split Projectiles Support",
       "kr": "분할 투사체 보조",
-      "tw": "投射物分裂輔助",
+      "tw": "投射物裂化輔助",
       "ru": "Поддержка: Разделение снарядов",
       "jp": "投射物分裂サポート"
     },
@@ -6913,7 +6913,7 @@
       "en": "Edify Support",
       "kr": "교화 보조",
       "tw": "教化輔助",
-      "ru": "Edify Support",
+      "ru": "Поддержка: Назидание",
       "jp": "教化サポート"
     },
     "dropLevel": 72,
@@ -7410,7 +7410,7 @@
     "image": null
   },
   {
-    "id": "minion-pact-support",
+    "id": "communion-support",
     "classId": "Support Skill Gem",
     "className": {
       "en": "Support Gems",
@@ -7420,21 +7420,21 @@
       "jp": "サポートジェム"
     },
     "name": {
-      "en": "Minion Pact Support",
-      "kr": "소환수 맹약 보조",
-      "tw": "召喚契約輔助",
-      "ru": "Поддержка: Договор служения",
-      "jp": "ミニオンパクトサポート"
+      "en": "Communion Support",
+      "kr": "교감 보조",
+      "tw": "共融輔助",
+      "ru": "Поддержка: Причастие",
+      "jp": "交感サポート"
     },
     "dropLevel": 72,
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "Immortality could grant Catarina the time necessary to shape\r\na better world... but building requires sacrifice, and the useless\r\nwould be crushed into the foundation of her new utopia.",
-      "kr": "불멸성은 카타리나에게 더 나은 세상을 만드는 데 필요한 시간을 줄 것이었다...\r\n... 하지만 건설에는 희생이 필요하며, 쓸모없는 자들은 그녀가 새롭게\r\n건설하는 유토피아의 토대 아래 깔릴 것이었다.",
-      "tw": "永生能賦予卡塔莉娜足夠的時間來塑造 一個更美好的世界……但建設需要犧牲，而那些無用之徒 將被粉碎，成為她新烏托邦的基石。",
-      "ru": "Бессмертие могло даровать Катарине время, необходимое\r\nдля создания лучшего мира... но строительство требует жертв,\r\nи бесполезные были бы истёрты в фундамент её новой утопии.",
-      "jp": "不老不死はカタリーナにより良い世界を作るための時間を与えるだろう……\r\nだが建築には犠牲が伴い、役に立たぬ者たちは潰され彼女の新たな\r\n楽園の土台となるだろう。"
+      "en": "Catarina envisioned a Wraeclast of disparate societies united.\r\nThat diversity would empower the Syndicate - and the increased\r\nnumber of dispensible bodies was a convenient coincidence.",
+      "kr": "카타리나는 이질적인 사회들이 하나로 뭉친 레이클라스트를 꿈꾸었다.\r\n그런 다양성이 연합에 힘을 실어 줄 것이고, 막 쓰고 버려도 되는 몸뚱이의 수가 늘어난다는\r\n부수적인 이익도 있을 것이었다.",
+      "tw": "卡塔莉娜曾設想過一個將無數異質社會融合為一的瓦爾克拉斯。\r\n這種多樣性將賦予永生密教強大的力量——而那些隨之增加、\r\n可供隨意消耗的軀殼，不過是一個便利的巧合罷了。",
+      "ru": "В глазах Катарины разношёрстный Рэкласт оказывался единым.\r\nПодобное разнообразие укрепило бы Синдикат – а увеличенное\r\nколичество расходных тел выходило удобным совпадением.",
+      "jp": "カタリーナは異なる文化が共にあるレイクラストを思い描いていた。\r\nその多様性はシンジケートの力となり……余った肉体が増えることは\r\n都合の良い偶然だった。"
     },
     "implicits": null,
     "image": null
@@ -7555,6 +7555,66 @@
       "tw": "讓深藏於內的永恆尖嘯 從你悲泣的鮮血中流淌而出。",
       "ru": "Пусть вечный сдержанный крик\r\nтечёт из твоей пролитой крови.",
       "jp": "「お前の嘆く血から内なる永遠の絶叫が\r\n流れ出さんことを。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "coursing-current-support",
+    "classId": "Support Skill Gem",
+    "className": {
+      "en": "Support Gems",
+      "kr": "보조 젬",
+      "tw": "輔助寶石",
+      "ru": "Камни поддержки",
+      "jp": "サポートジェム"
+    },
+    "name": {
+      "en": "Coursing Current Support",
+      "kr": "세차게 흐르는 전류 보조",
+      "tw": "雷鳴湍流輔助",
+      "ru": "Поддержка: Скачущее напряжение",
+      "jp": "奔流サポート"
+    },
+    "dropLevel": 72,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Velka reached out her hand. One touch and she\r\nfolded, screaming, clawing desperately at her back\r\nas the crustaceous gift burst itself from her spine.",
+      "kr": "벨카가 손을 뻗었다. 손끝이 닿는 순간,\r\n녀는 비명을 내지르며 몸을 웅크리고 마구\r\n등을 할퀴었다. 그리고 그녀의 척추에서 갑각의 선물이 터져 나왔다.",
+      "tw": "維爾卡伸出手。僅僅一觸，她便\r\n蜷身倒下，尖叫著，絕望地抓撓自己的背，\r\n任由甲殼般的恩賜自她脊椎爆裂而出。",
+      "ru": "Velka reached out her hand. One touch and she\r\nfolded, screaming, clawing desperately at her back\r\nas the crustaceous gift burst itself from her spine.",
+      "jp": "ヴェルカは手を伸ばした。触れた途端、彼女は体を折り曲げ、\r\n絶叫を上げながら甲殻の恵みが飛び出す自分の背を\r\n必死に掻きむしった。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "crystalfall-support",
+    "classId": "Support Skill Gem",
+    "className": {
+      "en": "Support Gems",
+      "kr": "보조 젬",
+      "tw": "輔助寶石",
+      "ru": "Камни поддержки",
+      "jp": "サポートジェム"
+    },
+    "name": {
+      "en": "Crystalfall Support",
+      "kr": "수정 낙하 보조",
+      "tw": "晶墜輔助",
+      "ru": "Поддержка: Кристальный обвал",
+      "jp": "クリスタルフォールサポート"
+    },
+    "dropLevel": 72,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The ancient golem of bone climbs ever upward. \r\nIts body is an engine. Its eyes are fuel.",
+      "kr": "고대의 뼈 골렘은 끝없이 위를 향해 오른다.\r\n그 몸은 하나의 기관이며, 눈은 그 연료다.",
+      "tw": "由枯骨組成的古老魔像不斷向上攀爬。\r\n它的軀體是一具引擎。它的雙眼則是燃料。",
+      "ru": "The ancient golem of bone climbs ever upward. \r\nIts body is an engine. Its eyes are fuel.",
+      "jp": "骨でできた古のゴーレムは上へと登り続ける。\r\nその体はエンジンだ。その目は燃料だ。"
     },
     "implicits": null,
     "image": null

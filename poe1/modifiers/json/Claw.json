@@ -13,19 +13,19 @@
   ],
   "counts": {
     "prefix": 77,
-    "suffix": 89,
-    "total": 166
+    "suffix": 84,
+    "total": 161
   },
   "bucketCounts": {
     "normal": {
       "prefix": 77,
-      "suffix": 89,
-      "total": 166
+      "suffix": 84,
+      "total": 161
     },
     "corrupted": {
-      "prefix": 15,
+      "prefix": 16,
       "suffix": 0,
-      "total": 15
+      "total": 16
     },
     "essence": {
       "prefix": 25,
@@ -3621,7 +3621,7 @@
             "kr": "카오스 피해 (56-87)~(105-160) 추가"
           },
           "group": [
-            655
+            658
           ],
           "weight": 600,
           "stats": [
@@ -4165,47 +4165,6 @@
           ]
         },
         {
-          "id": "StunDuration1",
-          "affixType": "suffix",
-          "tier": 5,
-          "valueRanges": [
-            [
-              11,
-              15
-            ]
-          ],
-          "name": {
-            "en": "of Impact",
-            "kr": "- 충격"
-          },
-          "effect": {
-            "en": "(11-15)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    11,
-                    15
-                  ]
-                }
-              ],
-              "value": "11~15",
-              "text": {
-                "en": "(11-15)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
-              }
-            }
-          ]
-        },
-        {
           "id": "LifeGainPerTargetLocal1",
           "affixType": "suffix",
           "tier": 8,
@@ -4310,7 +4269,7 @@
             "kr": "시야 반경 5% 증가\n일반 정확도 (9-11)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -4494,7 +4453,7 @@
             "kr": "시야 반경 10% 증가\n일반 정확도 (12-15)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -4569,47 +4528,6 @@
               "text": {
                 "en": "(20-29)% increased Mana Regeneration Rate",
                 "kr": "마나 재생 속도 (20-29)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration2",
-          "affixType": "suffix",
-          "tier": 18,
-          "valueRanges": [
-            [
-              16,
-              20
-            ]
-          ],
-          "name": {
-            "en": "of Dazing",
-            "kr": "- 혼미"
-          },
-          "effect": {
-            "en": "(16-20)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    16,
-                    20
-                  ]
-                }
-              ],
-              "value": "16~20",
-              "text": {
-                "en": "(16-20)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
               }
             }
           ]
@@ -5252,7 +5170,7 @@
             "kr": "시야 반경 15% 증가\n일반 정확도 (16-20)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -5286,47 +5204,6 @@
               "text": {
                 "en": "(16-20)% increased Global Accuracy Rating",
                 "kr": "일반 정확도 (16-20)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration3",
-          "affixType": "suffix",
-          "tier": 30,
-          "valueRanges": [
-            [
-              21,
-              25
-            ]
-          ],
-          "name": {
-            "en": "of Stunning",
-            "kr": "- 기절"
-          },
-          "effect": {
-            "en": "(21-25)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    21,
-                    25
-                  ]
-                }
-              ],
-              "value": "21~25",
-              "text": {
-                "en": "(21-25)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
               }
             }
           ]
@@ -5432,7 +5309,7 @@
             "kr": "능력치 요구사항 -18% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -5760,7 +5637,7 @@
             "kr": "지속 피해 배율 (7-11)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -5901,47 +5778,6 @@
               "text": {
                 "en": "(25-29)% increased Critical Strike Chance",
                 "kr": "치명타 확률 (25-29)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration4",
-          "affixType": "suffix",
-          "tier": 44,
-          "valueRanges": [
-            [
-              26,
-              30
-            ]
-          ],
-          "name": {
-            "en": "of Slamming",
-            "kr": "- 강타"
-          },
-          "effect": {
-            "en": "(26-30)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    26,
-                    30
-                  ]
-                }
-              ],
-              "value": "26~30",
-              "text": {
-                "en": "(26-30)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
               }
             }
           ]
@@ -6252,7 +6088,7 @@
             "kr": "지속 피해 배율 (12-15)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -6352,47 +6188,6 @@
               "text": {
                 "en": "(50-59)% increased Mana Regeneration Rate",
                 "kr": "마나 재생 속도 (50-59)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration5",
-          "affixType": "suffix",
-          "tier": 58,
-          "valueRanges": [
-            [
-              31,
-              35
-            ]
-          ],
-          "name": {
-            "en": "of Staggering",
-            "kr": "- 비틀거림"
-          },
-          "effect": {
-            "en": "(31-35)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    31,
-                    35
-                  ]
-                }
-              ],
-              "value": "31~35",
-              "text": {
-                "en": "(31-35)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
               }
             }
           ]
@@ -6621,7 +6416,7 @@
             "kr": "능력치 요구사항 -32% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -6826,7 +6621,7 @@
             "kr": "지속 피해 배율 (16-19)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -7154,7 +6949,7 @@
             "kr": "지속 피해 배율 (20-23)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -7441,7 +7236,7 @@
             "kr": "지속 피해 배율 (24-26)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -7527,7 +7322,7 @@
             "kr": "처치 시 (9-11)%의 확률로 격분 충전 획득"
           },
           "group": [
-            600
+            603
           ],
           "weight": 1000,
           "stats": [
@@ -7568,7 +7363,7 @@
             "kr": "치명타 명중 시 (5-7)%의 확률로 권능 충전 획득"
           },
           "group": [
-            1625
+            1660
           ],
           "weight": 1000,
           "stats": [
@@ -7609,7 +7404,7 @@
             "kr": "쌍수 장착 시 공격 피해 막기 확률 (8-10)%"
           },
           "group": [
-            378
+            379
           ],
           "weight": 1000,
           "stats": [
@@ -7627,6 +7422,47 @@
               "text": {
                 "en": "(8-10)% Chance to Block Attack Damage while Dual Wielding",
                 "kr": "쌍수 장착 시 공격 피해 막기 확률 (8-10)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2GemQualityCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-10)% to Quality of Socketed Gems",
+            "kr": "장착된 젬 퀄리티 (5-10)%"
+          },
+          "group": [
+            3405
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_gem_quality_+",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Quality of Socketed Gems",
+                "kr": "장착된 젬 퀄리티 (5-10)%"
               }
             }
           ]
@@ -8294,32 +8130,32 @@
           "corrupted": false,
           "stat": "spell_minimum_added_fire_damage",
           "effect": {
-            "en": "Adds (49-66) to (98-115) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (49-66)~(98-115) 추가"
+            "en": "Adds (62-84) to (124-146) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (62-84)~(124-146) 추가"
           },
           "tier": 4,
           "tierValues": [
             [
-              24,
-              33
+              28,
+              39
             ],
             [
-              31,
-              42
+              38,
+              51
             ],
             [
-              40,
-              52
+              50,
+              64
             ],
             [
-              49,
-              66
+              62,
+              84
             ]
           ],
           "valueRanges": [
             [
-              24,
-              66
+              28,
+              84
             ]
           ]
         },
@@ -8985,10 +8821,10 @@
           "tierValues": [
             [
               80,
-              99
+              89
             ],
             [
-              100,
+              90,
               109
             ],
             [
@@ -9114,36 +8950,36 @@
           "corrupted": false,
           "stat": "spell_minimum_added_cold_damage",
           "effect": {
-            "en": "Adds (41-54) to (81-93) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (41-54)~(81-93) 추가"
+            "en": "Adds (52-69) to (103-118) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (52-69)~(103-118) 추가"
           },
           "tier": 5,
           "tierValues": [
             [
-              11,
-              15
+              12,
+              17
             ],
             [
-              20,
-              26
+              24,
+              31
             ],
             [
-              26,
-              35
-            ],
-            [
-              33,
-              43
+              31,
+              42
             ],
             [
               41,
-              54
+              53
+            ],
+            [
+              52,
+              69
             ]
           ],
           "valueRanges": [
             [
-              11,
-              54
+              12,
+              69
             ]
           ]
         },
@@ -9162,8 +8998,8 @@
           "corrupted": false,
           "stat": "spell_minimum_added_lightning_damage",
           "effect": {
-            "en": "Adds (4-14) to (170-179) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (4-14)~(170-179) 추가"
+            "en": "Adds (5-18) to (216-227) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (5-18)~(216-227) 추가"
           },
           "tier": 6,
           "tierValues": [
@@ -9177,25 +9013,25 @@
             ],
             [
               2,
-              7
+              8
             ],
             [
               2,
-              9
-            ],
-            [
-              4,
               11
             ],
             [
-              4,
+              5,
               14
+            ],
+            [
+              5,
+              18
             ]
           ],
           "valueRanges": [
             [
               1,
-              14
+              18
             ]
           ]
         },

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "sandy-seabed-chart",
+    "classId": "DeepwaterChart",
+    "className": {
+      "en": "Chart",
+      "kr": "해도",
+      "tw": "海圖",
+      "ru": "Морские карты",
+      "jp": "海図"
+    },
+    "name": {
+      "en": "Sandy Seabed Chart",
+      "kr": "모래 덮인 해저 해도",
+      "tw": "沙質海床海圖",
+      "ru": "Карта песчаного дна",
+      "jp": "砂の海底の海図"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapDeepwaterChartImplicit",
+        "lines": [
+          {
+            "stat": "local_display_deepwater_chart_implicit",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coral-forest-chart",
+    "classId": "DeepwaterChart",
+    "className": {
+      "en": "Chart",
+      "kr": "해도",
+      "tw": "海圖",
+      "ru": "Морские карты",
+      "jp": "海図"
+    },
+    "name": {
+      "en": "Coral Forest Chart",
+      "kr": "산호 숲 해도",
+      "tw": "珊瑚林海圖",
+      "ru": "Карта кораллового леса",
+      "jp": "サンゴの森の海図"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapDeepwaterChartImplicit",
+        "lines": [
+          {
+            "stat": "local_display_deepwater_chart_implicit",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "coral-reef-chart",
+    "classId": "DeepwaterChart",
+    "className": {
+      "en": "Chart",
+      "kr": "해도",
+      "tw": "海圖",
+      "ru": "Морские карты",
+      "jp": "海図"
+    },
+    "name": {
+      "en": "Coral Reef Chart",
+      "kr": "산호 암초 해도",
+      "tw": "珊瑚礁海圖",
+      "ru": "Карта кораллового рифа",
+      "jp": "サンゴ礁の海図"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapDeepwaterChartImplicit",
+        "lines": [
+          {
+            "stat": "local_display_deepwater_chart_implicit",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
+    "id": "thermal-vents-chart",
+    "classId": "DeepwaterChart",
+    "className": {
+      "en": "Chart",
+      "kr": "해도",
+      "tw": "海圖",
+      "ru": "Морские карты",
+      "jp": "海図"
+    },
+    "name": {
+      "en": "Thermal Vents Chart",
+      "kr": "열수 분출구 해도",
+      "tw": "海底熱泉海圖",
+      "ru": "Карта термальных источников",
+      "jp": "熱水噴出孔の海図"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "MapDeepwaterChartImplicit",
+        "lines": [
+          {
+            "stat": "local_display_deepwater_chart_implicit",
+            "value": "1",
+            "text": {
+              "en": null,
+              "kr": null,
+              "tw": null,
+              "ru": null,
+              "jp": null
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  }
+]

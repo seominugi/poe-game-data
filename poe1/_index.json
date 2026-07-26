@@ -1,5 +1,5 @@
 {
-  "gamePatch": "3.28.0.12",
+  "gamePatch": "3.29.0.2.3",
   "langs": [
     "en",
     "kr",
@@ -8,7 +8,7 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-07-17T18:20:20.129Z",
+  "generated": "2026-07-26T14:35:43.122Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -85,7 +85,7 @@
       },
       "One_Hand_Sword": {
         "jsonPath": "json/weapons/One_Hand_Sword/One_Hand_Sword_base_types.json",
-        "count": 31,
+        "count": 32,
         "sampleName": "Charan's Sword",
         "className": {
           "en": "One Hand Swords",
@@ -229,6 +229,18 @@
           "jp": "靴"
         }
       },
+      "CocoonedItem": {
+        "jsonPath": "json/armour/CocoonedItem/CocoonedItem_base_types.json",
+        "count": 5,
+        "sampleName": "Enshrouded Gloves",
+        "className": {
+          "en": "Enshrouded Items",
+          "kr": "휩싸인 아이템",
+          "tw": "壟罩物品",
+          "ru": "Затуманенные предметы",
+          "jp": "エンシュラウドアイテム"
+        }
+      },
       "Gloves": {
         "jsonPath": "json/armour/Gloves/Gloves_base_types.json",
         "count": 80,
@@ -281,7 +293,7 @@
     "jewellery": {
       "Amulet": {
         "jsonPath": "json/jewellery/Amulet/Amulet_base_types.json",
-        "count": 55,
+        "count": 99,
         "sampleName": "Paua Amulet",
         "className": {
           "en": "Amulets",
@@ -343,7 +355,7 @@
     "gems": {
       "Active_Skill_Gem": {
         "jsonPath": "json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json",
-        "count": 529,
+        "count": 534,
         "sampleName": "Spectral Shield Throw",
         "className": {
           "en": "Skill Gems",
@@ -355,7 +367,7 @@
       },
       "Support_Skill_Gem": {
         "jsonPath": "json/gems/Support_Skill_Gem/Support_Skill_Gem_base_types.json",
-        "count": 311,
+        "count": 313,
         "sampleName": "Added Fire Damage Support",
         "className": {
           "en": "Support Gems",
@@ -367,8 +379,8 @@
       },
       "Transfigured_Skill_Gem": {
         "jsonPath": "json/gems/Transfigured_Skill_Gem/Transfigured_Skill_Gem_base_types.json",
-        "count": 213,
-        "sampleName": "Ground Slam of Earthshaking",
+        "count": 218,
+        "sampleName": "Holy Sweep of Hammerfalls",
         "className": {
           "en": "Skill Gems",
           "kr": "스킬 젬",
@@ -443,7 +455,7 @@
     "jewels": {
       "AbyssJewel": {
         "jsonPath": "json/jewels/AbyssJewel/AbyssJewel_base_types.json",
-        "count": 4,
+        "count": 5,
         "sampleName": "Murderous Eye Jewel",
         "className": {
           "en": "Abyss Jewels",
@@ -501,6 +513,18 @@
           "tw": "通貨",
           "ru": "Вещи на обмен",
           "jp": "カレンシー"
+        }
+      },
+      "DeepwaterChart": {
+        "jsonPath": "json/currency/DeepwaterChart/DeepwaterChart_base_types.json",
+        "count": 4,
+        "sampleName": "Sandy Seabed Chart",
+        "className": {
+          "en": "Chart",
+          "kr": "해도",
+          "tw": "海圖",
+          "ru": "Морские карты",
+          "jp": "海図"
         }
       },
       "DelveSocketableCurrency": {
@@ -601,7 +625,7 @@
       },
       "MapFragment": {
         "jsonPath": "json/currency/MapFragment/MapFragment_base_types.json",
-        "count": 291,
+        "count": 300,
         "sampleName": "Sacrifice at Midnight",
         "className": {
           "en": "Map Fragments",
@@ -661,7 +685,7 @@
       },
       "StackableCurrency": {
         "jsonPath": "json/currency/StackableCurrency/StackableCurrency_base_types.json",
-        "count": 641,
+        "count": 662,
         "sampleName": "Blacksmith's Whetstone",
         "className": {
           "en": "Stackable Currency",
@@ -723,7 +747,7 @@
       },
       "DivinationCard": {
         "jsonPath": "json/misc/DivinationCard/DivinationCard_base_types.json",
-        "count": 467,
+        "count": 470,
         "sampleName": "Three Faces in the Dark",
         "className": {
           "en": "Divination Cards",
@@ -964,7 +988,7 @@
       "PantheonSoul": {
         "jsonPath": "json/misc/PantheonSoul/PantheonSoul_base_types.json",
         "count": 20,
-        "sampleName": "Captured Soul of Puruna, the Challenger",
+        "sampleName": "Captured Soul of Nassar, Lion of the Seas",
         "className": {
           "en": "Pantheon Souls",
           "kr": "판테온의 영혼",
@@ -975,7 +999,7 @@
       },
       "QuestItem": {
         "jsonPath": "json/misc/QuestItem/QuestItem_base_types.json",
-        "count": 275,
+        "count": 282,
         "sampleName": "Shaper's Orb (Tier 1)",
         "className": {
           "en": "Quest Items",
@@ -1037,7 +1061,7 @@
   },
   "uniques": {
     "jsonPath": "uniques/json/uniques.json",
-    "count": 1398
+    "count": 1428
   },
   "modifiers": {
     "AbyssJewel": {
@@ -1074,9 +1098,9 @@
         "en": "Belts",
         "kr": "허리띠"
       },
-      "prefixCount": 112,
+      "prefixCount": 108,
       "suffixCount": 77,
-      "totalCount": 189,
+      "totalCount": 185,
       "buckets": [
         "normal",
         "corrupted",
@@ -1089,9 +1113,9 @@
         "en": "Body Armours",
         "kr": "갑옷"
       },
-      "prefixCount": 236,
+      "prefixCount": 238,
       "suffixCount": 91,
-      "totalCount": 327,
+      "totalCount": 329,
       "buckets": [
         "normal",
         "corrupted",
@@ -1104,9 +1128,9 @@
         "en": "Boots",
         "kr": "장화"
       },
-      "prefixCount": 218,
+      "prefixCount": 221,
       "suffixCount": 95,
-      "totalCount": 313,
+      "totalCount": 316,
       "buckets": [
         "normal",
         "corrupted",
@@ -1119,9 +1143,9 @@
         "en": "Bows",
         "kr": "활"
       },
-      "prefixCount": 111,
+      "prefixCount": 117,
       "suffixCount": 77,
-      "totalCount": 188,
+      "totalCount": 194,
       "buckets": [
         "normal",
         "corrupted",
@@ -1134,9 +1158,9 @@
         "en": "Claws",
         "kr": "클로"
       },
-      "prefixCount": 117,
-      "suffixCount": 89,
-      "totalCount": 206,
+      "prefixCount": 118,
+      "suffixCount": 84,
+      "totalCount": 202,
       "buckets": [
         "normal",
         "corrupted",
@@ -1149,9 +1173,9 @@
         "en": "Daggers",
         "kr": "단검"
       },
-      "prefixCount": 169,
-      "suffixCount": 112,
-      "totalCount": 281,
+      "prefixCount": 176,
+      "suffixCount": 107,
+      "totalCount": 283,
       "buckets": [
         "normal",
         "corrupted",
@@ -1164,9 +1188,9 @@
         "en": "Fishing Rods",
         "kr": "낚싯대"
       },
-      "prefixCount": 53,
-      "suffixCount": 70,
-      "totalCount": 123,
+      "prefixCount": 50,
+      "suffixCount": 65,
+      "totalCount": 115,
       "buckets": [
         "normal",
         "corrupted"
@@ -1178,9 +1202,9 @@
         "en": "Gloves",
         "kr": "장갑"
       },
-      "prefixCount": 232,
+      "prefixCount": 239,
       "suffixCount": 117,
-      "totalCount": 349,
+      "totalCount": 356,
       "buckets": [
         "normal",
         "corrupted",
@@ -1193,9 +1217,9 @@
         "en": "Helmets",
         "kr": "투구"
       },
-      "prefixCount": 230,
+      "prefixCount": 236,
       "suffixCount": 108,
-      "totalCount": 338,
+      "totalCount": 344,
       "buckets": [
         "normal",
         "corrupted",
@@ -1260,9 +1284,9 @@
         "en": "One Hand Axes",
         "kr": "한손 도끼"
       },
-      "prefixCount": 100,
+      "prefixCount": 102,
       "suffixCount": 88,
-      "totalCount": 188,
+      "totalCount": 190,
       "buckets": [
         "normal",
         "corrupted",
@@ -1275,9 +1299,9 @@
         "en": "One Hand Maces",
         "kr": "한손 철퇴"
       },
-      "prefixCount": 100,
+      "prefixCount": 101,
       "suffixCount": 79,
-      "totalCount": 179,
+      "totalCount": 180,
       "buckets": [
         "normal",
         "corrupted",
@@ -1290,9 +1314,9 @@
         "en": "One Hand Swords",
         "kr": "한손 검"
       },
-      "prefixCount": 100,
+      "prefixCount": 102,
       "suffixCount": 88,
-      "totalCount": 188,
+      "totalCount": 190,
       "buckets": [
         "normal",
         "corrupted",
@@ -1334,9 +1358,9 @@
         "en": "Rune Daggers",
         "kr": "룬 단검"
       },
-      "prefixCount": 169,
-      "suffixCount": 112,
-      "totalCount": 281,
+      "prefixCount": 176,
+      "suffixCount": 107,
+      "totalCount": 283,
       "buckets": [
         "normal",
         "corrupted",
@@ -1349,9 +1373,9 @@
         "en": "Sceptres",
         "kr": "셉터"
       },
-      "prefixCount": 187,
-      "suffixCount": 145,
-      "totalCount": 332,
+      "prefixCount": 192,
+      "suffixCount": 117,
+      "totalCount": 309,
       "buckets": [
         "normal",
         "corrupted",
@@ -1364,9 +1388,9 @@
         "en": "Shields",
         "kr": "방패"
       },
-      "prefixCount": 263,
+      "prefixCount": 270,
       "suffixCount": 141,
-      "totalCount": 404,
+      "totalCount": 411,
       "buckets": [
         "normal",
         "corrupted",
@@ -1379,9 +1403,9 @@
         "en": "Staves",
         "kr": "지팡이"
       },
-      "prefixCount": 193,
-      "suffixCount": 154,
-      "totalCount": 347,
+      "prefixCount": 212,
+      "suffixCount": 138,
+      "totalCount": 350,
       "buckets": [
         "normal",
         "corrupted",
@@ -1394,9 +1418,9 @@
         "en": "Thrusting One Hand Swords",
         "kr": "날카로운 한손 검"
       },
-      "prefixCount": 97,
+      "prefixCount": 99,
       "suffixCount": 88,
-      "totalCount": 185,
+      "totalCount": 187,
       "buckets": [
         "normal",
         "corrupted",
@@ -1409,9 +1433,9 @@
         "en": "Two Hand Axes",
         "kr": "양손 도끼"
       },
-      "prefixCount": 104,
+      "prefixCount": 108,
       "suffixCount": 88,
-      "totalCount": 192,
+      "totalCount": 196,
       "buckets": [
         "normal",
         "corrupted",
@@ -1424,9 +1448,9 @@
         "en": "Two Hand Maces",
         "kr": "양손 철퇴"
       },
-      "prefixCount": 101,
+      "prefixCount": 105,
       "suffixCount": 79,
-      "totalCount": 180,
+      "totalCount": 184,
       "buckets": [
         "normal",
         "corrupted",
@@ -1439,9 +1463,9 @@
         "en": "Two Hand Swords",
         "kr": "양손 검"
       },
-      "prefixCount": 101,
+      "prefixCount": 105,
       "suffixCount": 88,
-      "totalCount": 189,
+      "totalCount": 193,
       "buckets": [
         "normal",
         "corrupted",
@@ -1467,9 +1491,9 @@
         "en": "Wands",
         "kr": "마법봉"
       },
-      "prefixCount": 186,
-      "suffixCount": 142,
-      "totalCount": 328,
+      "prefixCount": 195,
+      "suffixCount": 119,
+      "totalCount": 314,
       "buckets": [
         "normal",
         "corrupted",
@@ -1482,9 +1506,9 @@
         "en": "Warstaves",
         "kr": "전쟁지팡이"
       },
-      "prefixCount": 193,
-      "suffixCount": 154,
-      "totalCount": 347,
+      "prefixCount": 208,
+      "suffixCount": 138,
+      "totalCount": 346,
       "buckets": [
         "normal",
         "corrupted",

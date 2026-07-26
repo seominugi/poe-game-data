@@ -492,6 +492,47 @@
     "image": null
   },
   {
+    "id": "pearlescent-amulet",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Pearlescent Amulet",
+      "kr": "진줏빛 목걸이",
+      "tw": "珠光項鍊",
+      "ru": "Амулет с перламутром",
+      "jp": "真珠のアミュレット"
+    },
+    "dropLevel": 10,
+    "spec": null,
+    "currency": null,
+    "flavour": null,
+    "implicits": [
+      {
+        "modId": "AllResistancesImplicitAmulet1",
+        "lines": [
+          {
+            "stat": "base_resist_all_elements_%",
+            "value": "8~10",
+            "text": {
+              "en": "8~10% to all Elemental Resistances",
+              "kr": "모든 원소 저항 8~10%",
+              "tw": "8~10% 全部元素抗性",
+              "ru": "8~10% к сопротивлению всем стихиям",
+              "jp": "全ての元素耐性 8~10%"
+            }
+          }
+        ]
+      }
+    ],
+    "image": null
+  },
+  {
     "id": "astrolabe-amulet",
     "classId": "Amulet",
     "className": {
@@ -917,11 +958,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The First Ones stalk with us\r\nupon this lifelong hunt,\r\nand cast their contempt\r\nupon those that would make us their prey.\r\n- The Wolven King",
-      "kr": "생 전체를 걸친 사냥길에\r\n최초의 존재들이 우리와 함께 걷나니\r\n우리를 먹이로 삼으려는 것들도 \r\n그들에겐 그저 경멸의 대상일 뿐이니\r\n- 늑대왕",
-      "tw": "初代緊跟著我們\r\n伴隨著我們世代的狩獵\r\n並對將我們視為獵物的敵人\r\n降下最惡毒的咒怨\r\n- 狼王",
-      "ru": "Первые бродят среди нас,\r\nвечной охотой влекомы.\r\nПлатят презреньем подчас\r\nтем, кто добычей нас помнит.\r\n- Волчий король",
-      "jp": "最初のものたちはは生涯をかけた狩猟を\r\n我らと共に追いかけ、\r\n我らを獲物とするものを\r\n蔑むことだろう。\r\n―狼王"
+      "en": "\"I know where we found our belief in\r\nthe First Ones. I see it every time I walk\r\nthe untouched forests and hills. The\r\nprimordial world is still here. With us.\"",
+      "kr": "\"나는 최초의 존재들에 대한 우리의 믿음이\r\n무엇을 근거로 하는지 안다. 손길이 닿지 않은 숲과\r\n언덕을 걸을 때마다 그것을 본다. 태고의 세계는\r\n여전히 여기, 우리와 함께 있다.\"",
+      "tw": "\"我知道我們對初始者的信仰源自何處。\r\n每當我走在未受侵擾的森林與山丘間，\r\n我都能看見它。那原始的世界\r\n依然存在。與我們同在。\"",
+      "ru": "«Я знаю, откуда взялась наша вера в\r\nПервых. Я вижу её всякий раз, когда\r\nгуляю по нетронутым лесам и холмам.\r\nПервобытный мир по-прежнему здесь. С нами».",
+      "jp": "「最初のものたちへの信仰心がどこで\r\n育まれたものなのかはわかっている。\r\n人の手を免れし森や丘を歩む度に見ている。\r\n原始の世界は未だここにある。我らと共に。」"
     },
     "implicits": [
       {
@@ -936,22 +977,6 @@
               "tw": "有 1 個插槽",
               "ru": "Имеет 1 гнездо",
               "jp": "ソケットを1個持つ"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -980,11 +1005,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The civilised man must wrestle\r\nwith the demands of heart and mind.\r\nThe First Ones share no such struggle.\r\nFor their Spirit is swift and deadly certain.\r\n- The Wolven King\r\n",
-      "kr": "문명화된 인간은\r\n가슴과 머리의 요구와 씨름해야 한다.\r\n최초의 존재들은 그런 고통이 없다.\r\n그들의 혼은 재빠르고 극도로 확실하기 때문이다.\r\n- 늑대왕",
-      "tw": "文明人的戰鬥\r\n用的是對於心智的需求\r\n而初代們毫無此煩惱\r\n他們的靈魂是果斷、迅速的\r\n- 狼王",
-      "ru": "Культура вынуждает человека\r\nприслушиваться к разуму и вере.\r\nНо Первые не столь слабы и слепы,\r\nсмертельно острый дух их неизменен.\r\n- Волчий король",
-      "jp": "文明人は心と頭脳の\r\n欲求に抗わねばならぬ。\r\n最初のものたちにはそのような苦労はない。\r\n彼らの魂は素早く絶対的な確信を持っているのだから。\r\n―狼王"
+      "en": "\"We held our trust in the First Ones long\r\nbefore we learned runes. Long before we\r\nwere shown the ways of cities and roads.\"",
+      "kr": "\"우리는 룬을 배우기 훨씬 전부터\r\n최초의 존재들을 신뢰했다. 도시와 길의\r\n방식을 보고 배우기 훨씬 전부터.\"",
+      "tw": "\"早在我們學會符文之前，我們就對初始者\r\n抱持著信任。早在我們被指引城市\r\n與道路的運作方式之前，便是如此。\"",
+      "ru": "«Мы верили в Первых задолго до того,\r\nкак узнали о рунах. Задолго до того, как\r\nнас научили строить города и дороги».",
+      "jp": "「我らはルーンを学ぶよりも遥か以前から\r\n最初のものたちを信頼していた。我らが\r\n都市や道の在り方を見せられるよりも遥か以前から。」"
     },
     "implicits": [
       {
@@ -999,22 +1024,6 @@
               "tw": "增加 20~30% 最大魔力",
               "ru": "20~30% увеличение максимума маны",
               "jp": "最大マナが20~30%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1043,11 +1052,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The fire of the hearth is a docile dog,\r\nleashed and tamed.\r\nThe fire of the First Ones is a ravening wolf,\r\nwild and free.\r\n- The Wolven King\r\n",
-      "kr": "난로의 불은\r\n목줄을 매고 길들인 유순한 개에 불과하다.\r\n최초의 존재들이 부리는 불은\r\n야생에서 자유롭게 날뛰는 늑대라 할 수 있다.\r\n- 늑대왕",
-      "tw": "內心的火像條中犬，\r\n溫馴地戴著項圈。\r\n初代的火像條狂狼，\r\n充滿野性而自由。\r\n- 狼王",
-      "ru": "Огонь горит послушен, словно пёс,\r\nон пойман в очаге и укрощён.\r\nНо пламя Первых достигает звёзд:\r\nнеукротимо, дико испокон.\r\n- Волчий король",
-      "jp": "暖炉の炎は従順な犬だ。\r\n紐がつけられ、飼いならされている。\r\n最初のものたちの炎は飢えた狼だ。\r\n野性的で自由だ。\r\n―狼王"
+      "en": "\"This land was always harsh and brutal,\r\never seeking ways to kill and maim us.\r\nWe had to grow and change to survive,\r\nbut each clan had its own ideas how...\"",
+      "kr": "\"이 땅은 언제나 거칠고 가혹했으며,\r\n끊임없이 우리를 죽이고 망가뜨릴 방법을 찾았다.\r\n우리는 살아남기 위해 성장하고 변화해야 했지만,\r\n그에 관해 혈족들은 저마다 다른 방법을 생각하고 있었다...\"",
+      "tw": "\"這片土地向來嚴酷而殘暴，無時無刻\r\n不在尋找殺戮與殘害我們的機會。為了\r\n生存，我們必須成長與改變，但每個\r\n氏族對於如何改變，都有各自的想法……\"",
+      "ru": "«Этот край всегда был суров и жесток,\r\nвсегда искал способов убить и покалечить\r\nнас. Нам пришлось расти и меняться, чтобы\r\nвыжить, но каждый клан делал это по-своему...»",
+      "jp": "「この地はずっと厳しく残酷で、\r\n常に我らを殺し傷つける方法を探していた。\r\n我らは生き残るために成長し変わらねばならなかったが、\r\nその方法は氏族によって異なっていた。"
     },
     "implicits": [
       {
@@ -1062,22 +1071,6 @@
               "tw": "增加 20~30% 火焰傷害",
               "ru": "20~30% увеличение урона от огня",
               "jp": "火ダメージが20~30%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1106,11 +1099,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The First Ones thundered over Ezomyr\r\nupon hooves of grey and black.\r\nThe people felt their stamping rage\r\nand cowered as the fury rained down.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 회색과 검은색 말발굽으로\r\n에조미어를 천둥처럼 내달렸다.\r\n사람들은 그들의 격노를 느끼고\r\n비처럼 쏟아내리는 분노에 몸을 웅크릴 뿐이었다.\r\n- 늑대왕",
-      "tw": "初代如雷般地踏過\r\n古艾茲麥的寸土\r\n人們感受著他們充滿怒火的踏蹄\r\n在怒氣的籠罩之下俯首\r\n- 狼王",
-      "ru": "Первые прошлись по Эзомиру,\r\nчёрными копытами гремя.\r\nЯростной была предтечей сила,\r\nвсе скрывались от её огня.\r\n- Волчий король",
-      "jp": "「最初のものたちは灰と黒の蹄で\r\nエゾミアを蹂躙した。\r\n民は彼らの踏み荒らす怒りを感じ、\r\n降りかかる猛威に身をすくめた」\r\n―狼王"
+      "en": "\"A great rift formed, between clans,\r\nbetween families. Those that remained\r\nresolved to endure times of struggle,\r\nif it meant we could keep our ways.\"",
+      "kr": "\"혈족들 사이에, 가족들 사이에,\r\n거대한 균열이 생겼다. 남은 이들은 우리의\r\n방식을 지킬 수 있다면 고난의 시기를\r\n견뎌내겠노라고 결심했다.\"",
+      "tw": "\"一條巨大的裂痕在氏族之間、在家族\r\n之間形成。那些留下來的人決心忍受\r\n掙扎的歲月，只要這意味著我們能\r\n保留自己的生活方式。\"",
+      "ru": "«Возник большой разрыв между кланами, между\r\nсемьями. Те, кто остался, решили перетерпеть\r\nвремена раздора, если это означало, что мы\r\nсможем и дальше жить так, как привыкли».",
+      "jp": "「大きな隔たりが氏族の間に、\r\n家族の間に生まれた。残った者たちは\r\n困難の時を耐えることを決意した。\r\nそれで在り方を守ることができるのならば。」"
     },
     "implicits": [
       {
@@ -1125,22 +1118,6 @@
               "tw": "增加 20~30% 閃電傷害",
               "ru": "20~30% увеличение урона от молнии",
               "jp": "雷ダメージが20~30%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1169,11 +1146,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "We have basked in the cloying warmth of servitude.\r\nNow the First Ones harden us\r\nagainst the numbing chill of despair\r\nso that freedom will not slip through our trembling fingers.\r\n- The Wolven King",
-      "kr": "지겨울 정도로 멍에에 묶여 더위에 시달렸다.\r\n이제 최초의 존재들이 우리를\r\n감각을 마비시키는 절망의 추위에 단련시킨다\r\n떨리는 손가락 사이로 자유가 빠져나가지 않도록\r\n- 늑대왕",
-      "tw": "我們在服侍中得到了如陽光般地溫暖\r\n如今初代將我們砥礪\r\n成為能抵抗絕望的酷寒的人們\r\n來防止自由從我們顫抖的手指之間流逝\r\n- 狼王",
-      "ru": "Служа, мы стали мягкими, как слизни,\r\nно Первые вернули твердь страдальцам,\r\nчтоб дать уйти от жалкой прошлой жизни\r\nи сжать свободу в крепких, сильных пальцах.\r\n - Волчий король",
-      "jp": "「我らは隷属の甘ったるいぬくもりに浸かっていた。\r\n今最初のものたちは痺れるような絶望の冷気に対し\r\n我らを鍛えてくれている。\r\n我らの震える指から自由がこぼれ落ちぬように」\r\n―狼王"
+      "en": "\"Those that departed sought the way of\r\ncities and roads. Theirs would be a path\r\nfraught with danger and hardship, as they\r\nset out to find and build a new home.\"",
+      "kr": "\"떠난 이들은 도시와 길의\r\n방식을 좇았다. 새로운 보금자리를 찾고\r\n세우기 위해 나아가는 그들의 길은,\r\n위험과 고난으로 가득할 것이었다.\"",
+      "tw": "\"而那些離開的人，則去追尋了城市\r\n與道路的道路。當他們出發去尋找\r\n並建立新家園時，他們的旅途\r\n將充滿危險與艱辛。\"",
+      "ru": "«Те, кто ушёл, пошли по пути городов\r\nи дорог. Их маршрут был полон опасностей\r\nи тягот, ведь они отправились искать\r\nместо, где можно построить новый дом».",
+      "jp": "「去った者たちは都市や道の在り方を\r\n求めた。新たな故郷を見つけ築こうと\r\n出ていった彼らの道は危険と困難に満ちた\r\nものとなるだろう。」"
     },
     "implicits": [
       {
@@ -1188,22 +1165,6 @@
               "tw": "增加 20~30% 冰冷傷害",
               "ru": "20~30% увеличение урона от холода",
               "jp": "冷気ダメージが20~30%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1232,11 +1193,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "I stood among the stones\r\nAnd called out to the First Ones;\r\nThat with tooth and mighty claw,\r\nThey should tear our enemies asunder.\r\n- The Wolven King",
-      "kr": "나는 바위 사이에 서서\r\n최초의 존재들에게 외쳤다.\r\n강대한 이빨과 발톱으로\r\n우리의 적을 갈갈이 찢어야 한다고.\r\n- 늑대왕",
-      "tw": "我佇立石陣中央\r\n並喚醒了初代的靈魂\r\n他們尖銳的利牙和強壯的爪子\r\n必將使敵人成為碎片\r\n- 狼王",
-      "ru": "Я ступил в круг камней\r\nи воззвал к лютым Первым,\r\nчтобы враг поскорей\r\nвыпил чашу их гнева.\r\n- Волчий король",
-      "jp": "「我は石の間に立ち\r\n最初のものたちに呼びかけた\r\nその牙と強大な爪で\r\n我らの敵を引き裂いてくれるように」\r\n―狼王"
+      "en": "\"When they set out to find and build\r\nEzomyr, they encountered creatures of\r\ndeadly variety and intent. Many died,\r\nfor none yet knew how to fight back.\"",
+      "kr": "\"에조미어를 찾고 건설하고자 떠났을 때,\r\n그들은 무시무시한 다양성과 의도를 지닌 생물들과\r\n마주쳤다. 맞서 싸우는 방법을 아직 누구도 몰랐기에,\r\n많은 이들이 목숨을 잃었다.\"",
+      "tw": "\"當他們出發尋找並建立艾茲麥時，\r\n他們遭遇了各式各樣帶有致命意圖\r\n的生物。許多人因此喪生，因為\r\n當時還沒有人知道該如何反擊。\"",
+      "ru": "«Отправившись искать место для возведения\r\nЭзомира, они столкнулись с тварями смертоносных\r\nвидов и намерений. Многие умерли, ведь ещё\r\nникто не знал, как отбиваться от них».",
+      "jp": "「彼らがエゾミアを見つけ築こうと\r\n出ていった時、彼らは恐ろしい\r\n種と意図の生物に出会った。まだ\r\n反撃の術を知らなかった彼らの多くは死んだ。」"
     },
     "implicits": [
       {
@@ -1251,22 +1212,6 @@
               "tw": "增加 20~30% 全域物理傷害",
               "ru": "20~30% увеличение глобального физического урона",
               "jp": "グローバル物理ダメージが20~30%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1295,11 +1240,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The Empire poisons our blood with sweet wine.\r\nPoisons our flesh with silk.\r\nPoisons our minds with civil lies.\r\nPoisons our children with servitude.\r\n- The Wolven King ",
-      "kr": "제국은 달콤한 술로 우리의 피를 오염시키고\r\n비단으로 우리의 살을 오염시키고\r\n입바른 거짓말로 우리의 정신을 오염시키고\r\n우리의 아이들을 노예로 만들어 오염시킨다.\r\n- 늑대왕",
-      "tw": "帝國用美酒在我們的血液中下毒\r\n用絲綢毒化我們的軀體\r\n用文明的謊言毒化我們的心智\r\n用奴役毒化我們的子孫\r\n- 狼王",
-      "ru": "Сладко вино Империи, но отравляет кровь.\r\nШёлк её мягок, тонок, но отравляет плоть.\r\nДобрая ложь культуры наш забивает мозг.\r\nДети растут убогими, слугами став господ.\r\n- Волчий король",
-      "jp": "「帝国は我らの血を甘いワインで毒する。\r\n我らの肉体を絹で毒する。\r\n我らの心を親切な嘘で毒する。\r\n我らの子を隷属で毒する」\r\n―狼王"
+      "en": "\"Lysanda of Myr was but a girl on that exodus.\r\nEzomyr almost met its end before it began...\r\nbut she could not hear that deadly lure. She\r\ntook the Siren's head with her bare hands.\"",
+      "kr": "\"미어의 라이산다는 그 대탈출 당시 아직 소녀에 불과했다.\r\n에조미어는 시작되기도 전에 끝을 맞을 위기에 처했지만...\r\n그녀에게는 그 치명적인 유혹이 들리지 않았다.\r\n그녀는 맨손으로 사이렌의 머리를 뜯어냈다.\"",
+      "tw": "\"在內遷的旅途中，米爾的萊珊德菈\r\n還只是個女孩。艾茲麥甚至在建立之前\r\n就差點迎來終結……但她對那魅惑的歌聲\r\n置若罔聞。她徒手摘下了海妖的頭顱。\"",
+      "ru": "«Лисанда из Мир была обычной девушкой в том исходе.\r\nЭзомир едва не встретил конец, даже не начавшись...\r\nНо она не могла слышать той смертоносной приманки.\r\nОна забрала голову сирены голыми руками».",
+      "jp": "「リサンダ・ド・ミアはその大移住の時、少女に\r\n過ぎなかった。エゾミアは始まる前から終わりそうに\r\nなっていた……だが彼女にはその危険な誘いは\r\n聞こえなかった。彼女は素手でセイレーンの首を取った。」"
     },
     "implicits": [
       {
@@ -1314,22 +1259,6 @@
               "tw": "增加 19~31% 混沌傷害",
               "ru": "19~31% увеличение урона хаосом",
               "jp": "混沌ダメージが19~31%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1358,11 +1287,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "'Sleep when you are weary,' our mothers told us.\r\n'Sleep when you are dead,' our fathers told us.\r\nTo the First Ones, the slumbering and the corpse\r\nare one and the same.\r\n- The Wolven King",
-      "kr": "'지쳤을 땐 자라.'어머니들은 말했다.\r\n'죽었을 땐 자라.'아버지들은 말했다.\r\n최초의 존재들이 보기에 잠자는 자와 죽은 자는\r\n매한가지였다.\r\n- 늑대왕",
-      "tw": "媽媽說，有警覺再入睡\r\n爸爸說，死亡時才能入睡\r\n對初代來說，酣睡的和死亡的人\r\n完全沒有差別\r\n- 狼王",
-      "ru": "«Спи, устав», — вот совет матерей.\r\n«Спи, погибнув», — вот воля отцов.\r\nНо у Первых мерила не те:\r\nесли спишь — все равно что ты мёртв.\r\n- Волчий король",
-      "jp": "「『疲れた時に眠りなさい』と我らの母は言った。\r\n『死んだ時に眠れ』と我らの父は言った。\r\n最初のものたちにとって、眠る者と死体は\r\nまったく同じものだ」\r\n―狼王"
+      "en": "\"It turned out, Lysanda made for an excellent\r\nvanguard - a light, evasive girl who could scout\r\nand lead the way. The people came to see her\r\nas their guide, their hope, and then... their leader.\"",
+      "kr": "\"라이산다 드 미어는 훌륭한 선봉이 되었다.\r\n가볍고 날랜 그녀는 정찰하며 길을 이끌 수 있었다.\r\n사람들은 그녀를 안내인이자, 희망으로...\r\n그리고 마침내 지도자로 받아들였다.\"",
+      "tw": "\"事實證明，萊珊德菈成了極其優秀的前鋒—\r\n一個身手輕盈、擅長閃躲的女孩，能負責\r\n偵察並在前引路。人們開始將她視為他們的\r\n嚮導、他們的希望，接著……成為他們的領袖。\"",
+      "ru": "«Оказалось, что Лисанда отлично годилась в авангард –\r\nлёгкая и быстрая девушка, которая могла разведывать\r\nнаперёд и прокладывать путь. Люди стали видеть в ней\r\nсвоего проводника, надежду, а затем... и своего лидера».",
+      "jp": "「リサンダは先陣として素晴らしかった。偵察し、\r\n皆を導くことができる体の軽い、逃げ足の早い\r\n少女だった。人々は彼女を導き手として、希望として、\r\nそして……リーダーとして見るようになった。」"
     },
     "implicits": [
       {
@@ -1402,22 +1331,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -1443,11 +1356,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "To catch a big fish you need tempting bait. \r\nAnd there is no fish bigger than the Empire,\r\nand no bait as tempting as Ezomyr.\r\n- The Wolven King",
-      "kr": "큰 물고기를 잡으려면 맛있어 보이는 미끼가 필요하다.\r\n제국보다 큰 물고기는 없고,\r\n에조미어처럼 맛있어 보이는 미끼는 없었다.\r\n- 늑대왕",
-      "tw": "想抓大魚，就必須使用誘人的餌\r\n而沒有什麼魚比帝國來得更大了\r\n而沒有什麼餌比艾茲麥更誘人了\r\n- 狼王",
-      "ru": "Большая рыба клюёт на хорошую приманку.\r\nВ нашем море нет рыбы больше Империи\r\nи приманки вкуснее, чем Эзомир.\r\n- Волчий король",
-      "jp": "「大きな魚を釣るためには良い餌が必要だ。\r\nそして帝国ほど大きな魚はおらず、\r\nエゾミアほど良い餌はない」\r\n―狼王"
+      "en": "\"Those that swore loyalty to Lysanda, that\r\nforged ahead with her to clear the way.\r\nbecame known as the first Knights...\r\narmoured, battered, and courageous.\"",
+      "kr": "\"라이산다에게 충성을 맹세하고\r\n그녀와 함께 길을 만든 이들은 갑옷을 입고,\r\n상처를 겪고, 용기 있었던...\r\n최초의 기사들로 알려지게 되었다.\"",
+      "tw": "\"那些向萊珊德菈效忠、與她一同\r\n前行開路的追隨者，後來被稱為\r\n第一批騎士……他們身披盔甲、\r\n飽受摧殘卻無所畏懼。\"",
+      "ru": "«Те, кто поклялся в верности Лисанде, кто\r\nпробивался вперёд вместе с ней, расчищая\r\nпуть, стали известны как первые Рыцари...\r\nодоспешенные, потрёпанные и храбрые».",
+      "jp": "「リサンダに忠誠を誓い、彼女と共に\r\n道を切り開くために前進した者たち。\r\n彼らは最初の『騎士』と呼ばれるようになった……\r\n鎧を纏い、ぼろぼろになった、勇敢な者たち。」"
     },
     "implicits": [
       {
@@ -1462,22 +1375,6 @@
               "tw": "增加 30~40% 魚咬靈敏度",
               "ru": "30~40% повышение чувствительности поклёвки рыбы",
               "jp": "魚のアタリの感度が30~40%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1506,11 +1403,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The First Ones hold us\r\nbetween two sharpened blades.\r\nThat should we stray too far from the path,\r\nwe find ourselves severed.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 우리를\r\n날카롭게 간 두 칼날 사이에 둔다.\r\n우리가 길에서 너무 멀리 벗어나면\r\n두 동강 낼 수 있도록.\r\n - 늑대왕",
-      "tw": "初代用兩柄鋒利的刀刃\r\n將我們夾在其間\r\n如果我們偏離了路途\r\n就會發現自己身首異處\r\n- 狼王",
-      "ru": "Первые держат нас\r\nмеж двух острых клинков.\r\nИ тот кто сходит с пути,\r\nбудет разорван.\r\n- Волчий король",
-      "jp": "「二枚の鋭い刃の間に\r\n最初のものたちは我らを挟む。\r\n我らが道を外れすぎた時、\r\n斬られてしまうように」\r\n―狼王"
+      "en": "\"Lysanda and her Knights brought the\r\nsettling clans to what would become\r\nEzomyr... but there was one beast against\r\nwhich even they could not stand.\"",
+      "kr": "\"라이산다와 그녀의 기사들은\r\n정착한 혈족들을 이끌어 훗날 에조미어가\r\n될 곳으로 데려갔다... 그러나 그들조차 맞설 수 없는\r\n한 마리의 짐승이 그곳에 있었다.\"",
+      "tw": "\"萊珊德菈和她的騎士們帶著前來\r\n定居的氏族來到了未來的艾茲麥……\r\n但那裡存在著一隻巨獸，\r\n一隻連他們也無法抗衡的巨獸。\"",
+      "ru": "«Лисанда и её Рыцари привели оседлые\r\nкланы к тому, что позже стало Эзомиром...\r\nно была одна зверюга, против которой\r\nдаже они не могли выстоять».",
+      "jp": "「リサンダと騎士たちは移住する\r\n氏族たちを後のエゾミアへと連れてきた……\r\nだが一匹だけ、彼女たちでも\r\n勝ち目のない獣がいた。」"
     },
     "implicits": [
       {
@@ -1525,22 +1422,6 @@
               "tw": "增加 6~10% 攻擊與施放速度",
               "ru": "6~10% повышение скорости атаки и сотворения чар",
               "jp": "アタックスピードおよびキャストスピードが6~10%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1569,11 +1450,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The world of the First Ones is harsh;\r\nWe struggle on our bellies to survive.\r\nBut that which imprisons us also changes us\r\nAnd soon we will emerge anew.\r\n- The Wolven King",
-      "kr": "최초의 존재들의 세상은 거칠다.\r\n납작 엎드려 생존하기 위해 애를 쓴다.\r\n아예 속박하는 것이 또한 우리를 변화시킬 수도 있으니,\r\n우린 곧 새로운 모습으로 나타날 것이다.\r\n- 늑대왕",
-      "tw": "初代生長的世界是嚴酷的\r\n我們為了填飽肚子而求生\r\n那囚困我們的也改變著我們\r\n但我們終究會重獲新生\r\n- 狼王",
-      "ru": "Мир Первых жесток;\r\nМы ползаем на брюхе, пытаясь выжить.\r\nНо то, что сдерживает, меняет нас.\r\nСкоро мы вырвемся в новом облике.\r\n- Волчий король",
-      "jp": "「最初のものたちの世界は厳しい\r\n我らは腹ばいになり生きるためにもがく。\r\nしかし我らを囚えるものは同時に我らを変え\r\nすぐに我らは新たに生まれ変わる」\r\n―狼王"
+      "en": "\"A great headless monstrosity with arms like\r\nteeth stalked the lands they hoped to settle.\r\nNo other weapon would find purchase. They\r\nsurrounded it with fire, burning it for days.\"",
+      "kr": "\"이빨 같은 팔이 달린 머리 없는 거대한 괴물이\r\n그들이 정착하려는 땅을 배회했다. 다른 어떤 무기도\r\n통하지 않았기에, 그들은 불로 괴물을 포위해\r\n며칠 동안 태웠다.\"",
+      "tw": "\"一隻巨大的無頭怪物，長著如牙齒般的手臂，\r\n在他們希望定居的土地上遊蕩。其他武器\r\n都無法對它造成傷害。於是他們用烈火\r\n將其包圍，足足焚燒了數日之久。\"",
+      "ru": "«Огромное безголовое чудище с руками, похожими\r\nна зубы, охотилось в землях, где они надеялись\r\nосесть. Никакое другое оружие его не брало;\r\nчудище окружили огнём и жгли дни напролёт».",
+      "jp": "「歯のような腕を持つ、巨大な首無しの怪物が\r\n彼らが住み着こうとする地を徘徊していた。\r\n他の武器では歯が立たなかった。彼らはそれを\r\n炎で囲み、何日もそれを焼き続けた。」"
     },
     "implicits": [
       {
@@ -1588,22 +1469,6 @@
               "tw": "增加 20~30% 法術傷害",
               "ru": "20~30% увеличение урона от чар",
               "jp": "スペルダメージが20~30%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1632,11 +1497,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "For too long we have crawled in darkness,\r\nscavenging through rotten scraps.\r\nThe First Ones teach us to scavenge until we can hunt,\r\nand then never crawl again.\r\n- The Wolven King",
-      "kr": "오랫동안 우리는 어둠 속을 기면서\r\n썩은 고깃조각을 뒤져 왔다.\r\n최초의 존재들은 우리에게 음식을 찾는 법을 가르쳐 주었다.\r\n우리가 사냥을 하고 더 이상 기어다니지 않을 때까지.\r\n- 늑대왕",
-      "tw": "我們在黑暗中藏身了太久\r\n在腐朽的殘骸中覓食\r\n初代教我們在學會狩獵前\r\n不斷覓食，然後不再藏身\r\n- 狼王",
-      "ru": "Слишком долго ползали во тьме,\r\nсобирая гнилые отбросы.\r\nПервые учат нас использовать найденное для охоты,\r\nЧтобы мы уже никогда не ползали.\r\n- Волчий король",
-      "jp": "「我らは長すぎる期間、腐った食べ残しを漁りながら\r\n闇の中を這いずってきた。\r\n最初のものたちは我らに狩りができるまで漁るよう教えている\r\nそしてその後二度と這いずらないことも」\r\n―狼王"
+      "en": "\"With the headless beast incinerated, the\r\nsettlers rejoiced, and began building homes.\r\nThey would soon find that this hostile land\r\nhad more insidious ways of rejecting them.\"",
+      "kr": "\"머리 없는 괴물이 불태워지자, 정착민들은\r\n환호하며 집을 짓기 시작했다. 그러나 그들은 곧\r\n이 혹독한 땅이 더 교묘한 방식으로\r\n그들을 거부함을 알게 되었다.\"",
+      "tw": "\"隨著無頭巨獸被燒成灰燼，\r\n定居者們歡欣鼓舞，並開始建造家園。\r\n但他們很快就會發現，這片充滿敵意\r\n的土地，有著更隱蔽的方法來排斥他們。\"",
+      "ru": "«Предав безголовое чудище огню, поселенцы\r\nвозрадовались и начали строить дома. Вскоре\r\nим пришлось выяснить, что у этой враждебной\r\nземли есть более коварные способы отвергнуть их».",
+      "jp": "「首なしの獣が燃やされ、移住者たちは\r\n喜び、家を建て始めた。すぐに彼らはこの\r\n敵意に満ちた地が更に陰湿な方法で\r\n彼らを排除しようとすることに気づくだろう。」"
     },
     "implicits": [
       {
@@ -1651,22 +1516,6 @@
               "tw": "增加 20~30% 攻擊傷害",
               "ru": "20~30% увеличение урона от атак",
               "jp": "アタックダメージが20~30%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1695,11 +1544,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The Hunter faced the First One\r\nand notched his final arrow.\r\nThe First One bared its fangs\r\nand savoured its final breath.\r\n- The Wolven King",
-      "kr": "사냥꾼은 최초의 존재를 마주보고\r\n마지막 화살을 메겼다.\r\n최초의 존재는 송곳니를 드러내고\r\n마지막 호흡을 음미했다.\r\n- 늑대왕",
-      "tw": "當獵人們面對著初代\r\n並拉上他們最後一支箭矢\r\n初代露出了他的獠牙\r\n接著品嚐著他們最後一口氣\r\n- 狼王",
-      "ru": "Когда Первого встретил охотник,\r\nон последнюю вынул стрелу.\r\nНо предтеч обнажил свои когти,\r\nи охотник навеки уснул.\r\n- Волчий король",
-      "jp": "「狩人は最初のものに相対し\r\n最後の矢をつがえた。\r\n最初のものは牙を剥き、\r\n最後の一息を味わった」\r\n―狼王"
+      "en": "\"The clans had travelled to their new home\r\nunited, and they did love Lysanda, but some\r\nmen must go their own way. Those that braved\r\nthe inland sea settled the Isles of Skothe.\"",
+      "kr": "\"혈족들은 새로운 터전으로 함께 떠났고,\r\n라이산다를 사랑했음에도 일부는 자신만의 길을 가야 했다.\r\n과감히 내해로 건너간 이들은\r\n스코테 군도에 정착했다.\"",
+      "tw": "\"各氏族團結一致地遷徙到了他們的新家園，\r\n他們也確實愛戴萊珊德菈，但有些人註定\r\n得走自己的路。那些勇闖內海的人，\r\n最終在斯科提群島定居了下來。\"",
+      "ru": "«Кланы отправились в свой новый дом вместе,\r\nи они действительно любили Лисанду, но кто-то\r\nдолжен ступать своей дорогой. Те, кто преодолел\r\nвнутреннее море, осели на Скофийских островах».",
+      "jp": "「氏族たちは団結して新たな故郷を見つけ、\r\nリサンダを愛してもいたが、袂が分かたれることも\r\nあった。内海を冒険した者たちは\r\nスコース諸島に住み着いた。」"
     },
     "implicits": [
       {
@@ -1714,22 +1563,6 @@
               "tw": "增加 40~50% 全域暴擊率",
               "ru": "40~50% повышение глобального шанса критического удара",
               "jp": "グローバルクリティカル率が40~50%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1758,11 +1591,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "With the will of the first ones in our sinews\r\nwe shall tear down the walls of Sarn.\r\nYet as is the way of the wildlands,\r\nOnly the strong may grow stronger.\r\n- The Wolven King",
-      "kr": "우리의 힘줄 속에 최초의 존재들의 의지가 함께하니\r\n우리는 사안의 성벽을 무너뜨릴 것이다.\r\n황무지의 법칙이 그런 것이다.\r\n강한 자만이 더 강해질 수 있는 것이다.\r\n- 늑대왕",
-      "tw": "與初代的意志同心協力\r\n我們必將薩恩之牆推倒\r\n就如同是荒野中的法則\r\n只有強者能變得更強大\r\n- 狼王",
-      "ru": "В наших жилах звенит воля Первых.\r\nРазметаем мы Сарна стены.\r\nВедь законы глуши гласят верно:\r\nтолько сильный, да станет сильнее.\r\n- Волчий король",
-      "jp": "「最初のものたちの意志を肉体に宿し、\r\n我らはサーンの壁を破壊するだろう。\r\nしかし自然の掟の通り、\r\n強者のみが更に強くなれるのだ」\r\n―狼王"
+      "en": "\"The journey was over, the land was being\r\nsecured, and the foundations for the first city\r\nhad been laid. Winter hit them with horrible\r\nfury, sent not by nature, but by a curse.\"",
+      "kr": "\"여정은 끝났고, 땅은 확보되었으며,\r\n첫 도시의 기틀이 세워졌다. 그러나 겨울은 끔찍한 분노로\r\n그들을 덮쳤는데, 그것은 자연이 아니라\r\n저주에서 비롯된 것이었다.",
+      "tw": "\"旅程已經結束，土地正逐步被掌控，\r\n第一座城市的基石也已奠定。然而，\r\n冬季卻以可怕的狂暴之姿席捲而來—\r\n那並非源自大自然，而是來自一場詛咒。\"",
+      "ru": "«Путешествие закончилось, земли были\r\nограждены от опасностей, и заложен фундамент\r\nпервого города. Лютая зима ударила по ним с\r\nяростью, насланная не природой, а проклятием».",
+      "jp": "「旅は終わり、土地は確保されており、\r\n最初の都市の基盤は完成していた。\r\n恐ろしい怒りを持って襲いかかった冬は、\r\n自然ではなく呪いにより到来したものだった。」"
     },
     "implicits": [
       {
@@ -1777,22 +1610,6 @@
               "tw": "每秒回復 120% 生命",
               "ru": "Регенерация 120% здоровья в секунду",
               "jp": "毎秒ライフの120%を自動回復する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1821,11 +1638,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "It's said to be noble to stand one's ground.\r\nTo soak the earth in stalwart blood.\r\nWhile the First Ones chose to laugh and run\r\nand caper with untamed glee.\r\n- The Wolven King",
-      "kr": "자신의 위치를 견지하는 것이 고귀하다고들 말한다.\r\n충실히 피를 흘려 땅을 적시어라.\r\n그동안 최초의 존재들은 웃고 달리며\r\n야생의 기쁨 속에 뛰노는 것을 선택했으니.\r\n- 늑대왕",
-      "tw": "人們說有自己的信念是高尚的\r\n將大地的精華融於血液之中\r\n然而初代們選擇愉悅的奔跑\r\n那喜悅的姿態如猴兒般蹦跳的心情一般\r\n- 狼王",
-      "ru": "Лучшие в последний бой идут,\r\nпроливая кровь сынов храбрейших. \r\nПодлые же Первые бегут,\r\nстроя рожи, полные насмешки.\r\n- Волчий король",
-      "jp": "「退かないことは誇り高いことだと言われている。\r\n大地をその強固な血で濡らすことが。\r\n一方で最初のものたちは笑って逃げ\r\n野生の悦びで跳ね回ることを選んだ」\r\n―狼王"
+      "en": "\"Against the Winter Curse, only the forges of\r\nrunesmiths could stand. The people huddled,\r\nshoulder to shoulder, while those within were\r\npressed against the fires, screaming in agony.\"",
+      "kr": "\"겨울의 저주를 견딜 수 있었던 것은\r\n룬 대장장이들의 용광로뿐이었다. 사람들은 어깨를\r\n맞대고 웅크렸으며, 안쪽에 있던 이들은\r\n불길에 닿아 고통스러운 비명을 질렀다.\"",
+      "tw": "\"面對凜冬詛咒，唯有符文鐵匠的鍛爐\r\n得以抗衡。人們肩並肩地擠在一起，\r\n而留守在內的人則緊貼著烈火，\r\n在痛苦中痛苦哀號。\"",
+      "ru": "«Против Проклятия Зимы могли выстоять\r\nтолько кузни рунодельцев. Люди теснились\r\nплечом к плечу, а тех, кто был в центре,\r\nприжимали к огню, и они кричали от боли».",
+      "jp": "「『冬の呪い』に立ち向かえたのは\r\nルーン鍛冶の鍛冶場だけだった。人々は\r\n集まって肩を寄せ合い、内側の者たちは\r\n炎に身を押し付けられ、苦悶の叫びを上げた。」"
     },
     "implicits": [
       {
@@ -1840,22 +1657,6 @@
               "tw": "24~36% 全域暴擊加成",
               "ru": "24~36% к глобальному множителю критического удара",
               "jp": "グローバルクリティカルダメージ倍率 24~36%"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1884,11 +1685,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "From flesh and ferocity,\r\nthe First Ones roamed\r\nthrough the realm of Spirit,\r\nand into the darkness beyond. \r\n- The Wolven King",
-      "kr": "최초의 존재들은\r\n육신과 흉포함으로부터\r\n영혼의 왕국을 거쳐,\r\n심연의 그 너머를 거닐었다.\r\n- 늑대왕",
-      "tw": "利用與生俱來的軀體和野性\r\n初代們一步一步地閒晃著\r\n從靈魂的領域\r\n直到超越黑暗的領域\r\n- 狼王",
-      "ru": "Из плоти и дикости\r\nуходят вдаль Первые\r\nпо вотчине Духа\r\nв грядущую тьму.\r\n- Волчий король",
-      "jp": "「その肉体と凶暴性で\r\n最初のものたちは\r\n魂の領域を彷徨い抜け\r\nその先の暗闇へと進んだ」\r\n―狼王"
+      "en": "\"And still the Winter Curse raged in through\r\nevery window and every door. The fathers\r\nand mothers of those within let themselves\r\nfreeze solid, sealing the gaps with their lives.\"",
+      "kr": "\"겨울의 저주는 여전히 모든 창과\r\n문으로 들이닥쳤다. 안에 있던 이들의\r\n부모들은, 스스로 꽁꽁 얼어붙어\r\n목숨으로 틈새를 막았다.\"",
+      "tw": "\"而凜冬詛咒依舊穿透每扇窗戶\r\n與每道門戶瘋狂肆虐。屋內為人\r\n父母者任由自己凍成冰雕，\r\n用他們的生命封死所有的縫隙。\"",
+      "ru": "«И всё равно Проклятие Зимы прорывалось в\r\nкаждое окно и каждую дверь. Отцы и матери\r\nтех, кто был внутри, дали себе замёрзнуть\r\nнасмерть, закрывая телами промежутки и щели».",
+      "jp": "「それでも冬の呪いは全ての窓、\r\n全ての扉から吹き込んだ。中の者たちの\r\n父や母たちは自らが凍りつくことにより、\r\n命を持って隙間を塞いだ。」"
     },
     "implicits": [
       {
@@ -1903,22 +1704,6 @@
               "tw": "4~6% 機率使敵人冰凍、感電與點燃",
               "ru": "4~6% шанс наложить заморозку, шок и поджог",
               "jp": "4~6%の確率で凍結、感電および発火を付与する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -1947,11 +1732,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "Fear the children of the First Ones.\r\nLet fear shield your back.\r\nAnd let the dullard speak of bravery\r\nwhen the First Ones come for him.\r\n- The Wolven King",
-      "kr": "최초의 존재들의 자손을 두려워하라.\r\n두려움이 등 뒤를 보호케 하라.\r\n그리고 최초의 존재들이 올 때\r\n멍청한 자들더러 용기를 논하게 하라.\r\n- 늑대왕",
-      "tw": "畏懼初代的子孫吧\r\n讓恐懼成為你的支柱\r\n當初代準備出來之時\r\n讓愚人暢談他的勇猛\r\n- 狼王",
-      "ru": "Бойтесь детей самых Первых.\r\nСтрах да укроет вам спину.\r\nНаглость оставьте неверным\r\nдурням, что в их пасти сгинут.\r\n- Волчий король",
-      "jp": "「最初のものたちの子らを恐れよ\r\n恐れに背を守らせよ\r\n勇敢さを語る愚者のもとには\r\n最初のものたちがやってくる」\r\n―狼王"
+      "en": "\"The night refused to end, and the Winter Curse\r\nhowled. The people wailed, and Lysanda raged.\r\nIt was then that the sky tore open, unleashing\r\na saviour fury... at the behest of the Druids.\"",
+      "kr": "\"밤은 좀처럼 끝나지 않고, 겨울의 저주는 울부짖었다.\r\n사람들은 통곡했고, 라이산다는 분노했다.\r\n그때 하늘이 갈라지며 드루이드들의 뜻에 따라...\r\n구원의 분노가 쏟아져 내렸다.\"",
+      "tw": "\"黑夜拒絕結束，凜冬詛咒在狂風中咆哮。\r\n人們哀慟哭求，而萊珊德菈盛怒無比。\r\n就在那時，天空被撕裂開來，\r\n在德魯伊的請求下，釋放出了救世主的憤怒。\"",
+      "ru": "«Ночь не желала прекращаться, и Проклятие\r\nЗимы выло снаружи. Люди стенали, и Лисанда\r\nбыла в гневе. Именно тогда небо разверзлось,\r\nвысвобождая ярость спасителя... по воле друидов».",
+      "jp": "「夜は終わらず、冬の呪いは唸った。\r\n人々は嘆き、リサンダは怒った。\r\nその時、空が引き裂かれ、救済の怒りが\r\n解き放たれた……ドルイドたちの手によって。」"
     },
     "implicits": [
       {
@@ -1969,22 +1754,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2010,11 +1779,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
-      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
-      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
-      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+      "en": "\"The Druids emerged from the forests to greet\r\nand warn the new settlers. This was an ancient\r\nland full of mysteries and dangers. Lysanda sent\r\nher best men to study and learn with them.\"",
+      "kr": "\"드루이드들은 숲에서 나와 새로운 정착민들을\r\n맞이하고 경고했다. 이곳은 신비와 위험이 수없이 도사리는\r\n고대의 땅이었다. 라이산다는 최고의 인재들을 보내\r\n그들과 함께 배우고 익히게 했다.\"",
+      "tw": "\"德魯伊從森林中現身，前來迎接並警告\r\n新定居者。這是一片充滿未知謎團與危險\r\n的古老土地。萊珊德菈派出了她最優秀\r\n的人手，前去與他們一同研究並學習。\"",
+      "ru": "«Друиды явились из лесов, чтобы приветствовать\r\nи предупредить новых поселенцев. Это был древний\r\nкрай, полный загадок и опасностей. Лисанда послала\r\nсвоих лучших людей учиться мудрости друидов».",
+      "jp": "「ドルイドたちは新参者たちを歓迎し\r\n警告するため森からやってきた。ここは\r\n秘密や危険の多い古い地であると。リサンダは\r\n最も有能な者たちを彼らの下へと送り出し学ばせた。」"
     },
     "implicits": [
       {
@@ -2032,22 +1801,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2073,11 +1826,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
-      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
-      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
-      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+      "en": "\"The Druids emerged from the forests to greet\r\nand warn the new settlers. This was an ancient\r\nland full of mysteries and dangers. Lysanda sent\r\nher best men to study and learn with them.\"",
+      "kr": "\"드루이드들은 숲에서 나와 새로운 정착민들을\r\n맞이하고 경고했다. 이곳은 신비와 위험이 수없이 도사리는\r\n고대의 땅이었다. 라이산다는 최고의 인재들을 보내\r\n그들과 함께 배우고 익히게 했다.\"",
+      "tw": "\"德魯伊從森林中現身，前來迎接並警告\r\n新定居者。這是一片充滿未知謎團與危險\r\n的古老土地。萊珊德菈派出了她最優秀\r\n的人手，前去與他們一同研究並學習。\"",
+      "ru": "«Друиды явились из лесов, чтобы приветствовать\r\nи предупредить новых поселенцев. Это был древний\r\nкрай, полный загадок и опасностей. Лисанда послала\r\nсвоих лучших людей учиться мудрости друидов».",
+      "jp": "「ドルイドたちは新参者たちを歓迎し\r\n警告するため森からやってきた。ここは\r\n秘密や危険の多い古い地であると。リサンダは\r\n最も有能な者たちを彼らの下へと送り出し学ばせた。」"
     },
     "implicits": [
       {
@@ -2095,22 +1848,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2136,11 +1873,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
-      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
-      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
-      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+      "en": "\"The Druids emerged from the forests to greet\r\nand warn the new settlers. This was an ancient\r\nland full of mysteries and dangers. Lysanda sent\r\nher best men to study and learn with them.\"",
+      "kr": "\"드루이드들은 숲에서 나와 새로운 정착민들을\r\n맞이하고 경고했다. 이곳은 신비와 위험이 수없이 도사리는\r\n고대의 땅이었다. 라이산다는 최고의 인재들을 보내\r\n그들과 함께 배우고 익히게 했다.\"",
+      "tw": "\"德魯伊從森林中現身，前來迎接並警告\r\n新定居者。這是一片充滿未知謎團與危險\r\n的古老土地。萊珊德菈派出了她最優秀\r\n的人手，前去與他們一同研究並學習。\"",
+      "ru": "«Друиды явились из лесов, чтобы приветствовать\r\nи предупредить новых поселенцев. Это был древний\r\nкрай, полный загадок и опасностей. Лисанда послала\r\nсвоих лучших людей учиться мудрости друидов».",
+      "jp": "「ドルイドたちは新参者たちを歓迎し\r\n警告するため森からやってきた。ここは\r\n秘密や危険の多い古い地であると。リサンダは\r\n最も有能な者たちを彼らの下へと送り出し学ばせた。」"
     },
     "implicits": [
       {
@@ -2158,22 +1895,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2199,11 +1920,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
-      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
-      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
-      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+      "en": "\"The Druids emerged from the forests to greet\r\nand warn the new settlers. This was an ancient\r\nland full of mysteries and dangers. Lysanda sent\r\nher best men to study and learn with them.\"",
+      "kr": "\"드루이드들은 숲에서 나와 새로운 정착민들을\r\n맞이하고 경고했다. 이곳은 신비와 위험이 수없이 도사리는\r\n고대의 땅이었다. 라이산다는 최고의 인재들을 보내\r\n그들과 함께 배우고 익히게 했다.\"",
+      "tw": "\"德魯伊從森林中現身，前來迎接並警告\r\n新定居者。這是一片充滿未知謎團與危險\r\n的古老土地。萊珊德菈派出了她最優秀\r\n的人手，前去與他們一同研究並學習。\"",
+      "ru": "«Друиды явились из лесов, чтобы приветствовать\r\nи предупредить новых поселенцев. Это был древний\r\nкрай, полный загадок и опасностей. Лисанда послала\r\nсвоих лучших людей учиться мудрости друидов».",
+      "jp": "「ドルイドたちは新参者たちを歓迎し\r\n警告するため森からやってきた。ここは\r\n秘密や危険の多い古い地であると。リサンダは\r\n最も有能な者たちを彼らの下へと送り出し学ばせた。」"
     },
     "implicits": [
       {
@@ -2221,22 +1942,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2262,11 +1967,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
-      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
-      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
-      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+      "en": "\"The Druids emerged from the forests to greet\r\nand warn the new settlers. This was an ancient\r\nland full of mysteries and dangers. Lysanda sent\r\nher best men to study and learn with them.\"",
+      "kr": "\"드루이드들은 숲에서 나와 새로운 정착민들을\r\n맞이하고 경고했다. 이곳은 신비와 위험이 수없이 도사리는\r\n고대의 땅이었다. 라이산다는 최고의 인재들을 보내\r\n그들과 함께 배우고 익히게 했다.\"",
+      "tw": "\"德魯伊從森林中現身，前來迎接並警告\r\n新定居者。這是一片充滿未知謎團與危險\r\n的古老土地。萊珊德菈派出了她最優秀\r\n的人手，前去與他們一同研究並學習。\"",
+      "ru": "«Друиды явились из лесов, чтобы приветствовать\r\nи предупредить новых поселенцев. Это был древний\r\nкрай, полный загадок и опасностей. Лисанда послала\r\nсвоих лучших людей учиться мудрости друидов».",
+      "jp": "「ドルイドたちは新参者たちを歓迎し\r\n警告するため森からやってきた。ここは\r\n秘密や危険の多い古い地であると。リサンダは\r\n最も有能な者たちを彼らの下へと送り出し学ばせた。」"
     },
     "implicits": [
       {
@@ -2284,22 +1989,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2325,11 +2014,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The first ones live where they can, where they must.\r\nThey embrace the frost, the storm, the drought.\r\nWaxing and waning, breaking and mending,\r\nliving with time and happenstance, as must we.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 그들만의 살 수 있는 곳, 살아야만 하는 곳에 살았다.\r\n그렇게 서리, 폭풍, 가뭄 모두 받아들인채.\r\n차고 이지러지고, 부러지고 수리하고.\r\n시간과 우연까지 받아들였다. 우리도 마땅히 그래야 함인데.\r\n- 늑대왕",
-      "tw": "初代們定居在他們必須待的地方\r\n他們居擁山林、風雨，和飢旱\r\n來來去去，修修補補\r\n和凡人們一樣，與時間和命運相依\r\n- 狼王",
-      "ru": "Первые жили где можно, где должно:\r\nв стуже, в жаре, в хлад и зной пополам.\r\nИ становились сильнее, твёрже\r\nс каждой невзгодой, как стоит и нам.\r\n- Волчий король",
-      "jp": "「最初のものたちは住める所に、住まねばならぬ所に住まう。\r\n彼らは霜を、嵐を、間伐を受け入れる。\r\n栄えては衰え、壊れては治り、\r\n時と偶然と共に暮らしている。我らもせねばならぬように」\r\n―狼王"
+      "en": "\"The Druids emerged from the forests to greet\r\nand warn the new settlers. This was an ancient\r\nland full of mysteries and dangers. Lysanda sent\r\nher best men to study and learn with them.\"",
+      "kr": "\"드루이드들은 숲에서 나와 새로운 정착민들을\r\n맞이하고 경고했다. 이곳은 신비와 위험이 수없이 도사리는\r\n고대의 땅이었다. 라이산다는 최고의 인재들을 보내\r\n그들과 함께 배우고 익히게 했다.\"",
+      "tw": "\"德魯伊從森林中現身，前來迎接並警告\r\n新定居者。這是一片充滿未知謎團與危險\r\n的古老土地。萊珊德菈派出了她最優秀\r\n的人手，前去與他們一同研究並學習。\"",
+      "ru": "«Друиды явились из лесов, чтобы приветствовать\r\nи предупредить новых поселенцев. Это был древний\r\nкрай, полный загадок и опасностей. Лисанда послала\r\nсвоих лучших людей учиться мудрости друидов».",
+      "jp": "「ドルイドたちは新参者たちを歓迎し\r\n警告するため森からやってきた。ここは\r\n秘密や危険の多い古い地であると。リサンダは\r\n最も有能な者たちを彼らの下へと送り出し学ばせた。」"
     },
     "implicits": [
       {
@@ -2344,22 +2033,6 @@
               "tw": "承受 50% 的擊中閃電傷害視為火焰傷害",
               "ru": "50% получаемого урона от молнии от ударов становится уроном от огня",
               "jp": "ヒットによる雷ダメージの50%を火ダメージとして受ける"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -2388,11 +2061,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The First Ones are the forever ones.\r\nThere is no dust of the hourglass in their blood.\r\nNo fissures of weariness in their faces.\r\nTo drink of their blood is to drink of time itself.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 영원하다.\r\n그들의 피로 말하면, 모래시계의 모래가 없는 셈이다.\r\n얼굴에는 피로함의 주름 역시 존재하지 않는다.\r\n그들의 피를 마시는 것은 시간 자체를 취하는 것이다.\r\n- 늑대왕",
-      "tw": "初代是種永恆的存在\r\n在他們的血液中沒有時間的流逝\r\n在他們的臉龐上沒有焦慮的痕跡\r\n若要飲下他們的血即是飲下時間\r\n- 狼王",
-      "ru": "Первые, знай, неизменны и вечны.\r\nИх потроха не съедает болезнь.\r\nНет среди Первых усталых, калечных.\r\nКровь их на вкус, словно времени песнь.\r\n- Волчий король",
-      "jp": "「最初のものたちは永遠の者たちだ。\r\n彼らの血には砂時計の砂は流れておらぬ。\r\n彼らの顔には疲れの谷も現れておらぬ。\r\n彼らの血を飲むことは時そのものを飲むということだ」\r\n―狼王"
+      "en": "\"As the Ezomytes of Myr prospered, they\r\nneeded more and spreading lands. Queen\r\nLysanda led the ongoing campaign to\r\nslaughter every last creature of darkness.\"",
+      "kr": "\"번영한 미어의 에조마이트인들에게는\r\n더 넓은 땅이 더 많이 필요했다. 라이산다 여왕은\r\n어둠의 생물을 마지막 하나까지 몰살하기 위해\r\n계속되던 원정의 선두에 섰다.\"",
+      "tw": "\"隨著米爾的艾茲麥人走向繁榮，\r\n他們需要更多且更廣闊的土地。\r\n萊珊德菈女王領導著持續進行的征討，\r\n誓要屠盡最後一隻黑暗生物。\"",
+      "ru": "«Процветая, эзомиты из Мир стали нуждаться\r\nв большем количестве земель. Царица Лисанда\r\nстала во главе продолжающейся кампании по\r\nизбавлению от всех оставшихся созданий тьмы».",
+      "jp": "「ミアのエゾマイトたちの繁栄が進むと、\r\n彼らにはより多くの土地が必要になった。\r\nリサンダ女王は闇の生き物を一匹残らず\r\n殺すための遠征を率いていった。」"
     },
     "implicits": [
       {
@@ -2407,22 +2080,6 @@
               "tw": "增加 8~12% 最大生命",
               "ru": "8~12% увеличение максимума здоровья",
               "jp": "最大ライフが8~12%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -2451,11 +2108,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The Empire hides lies and falsehoods\r\nBehind a mask of politeness and civility.\r\nThe First Ones teach us to look through the lies,\r\nAnd that no beast can truly cover their tracks.\r\n- The Wolven King",
-      "kr": "제국은 예의와 정중함의 가면 뒤에\r\n거짓과 허위를 숨긴다.\r\n최초의 존재들은 우리에게 거짓말을 간파할 것을\r\n그리고 어떤 짐승도 완전히 자취를 감출 수 없다는 것을 가르쳐 주었다.\r\n- 늑대왕",
-      "tw": "帝國一直藏著謊言和誤導\r\n藏在文明禮儀的面具後面\r\n初代教會我們看穿那謊言\r\n沒有誰能完全抹滅其蹤跡\r\n- 狼王",
-      "ru": "Империя скрывает ложь и притворство\r\nЗа маской вежливости и любезности.\r\nПервые учат нас смотреть сквозь обман,\r\nЧтоб ни один зверь не скрыл своих следов.\r\n- Волчий король",
-      "jp": "「帝国は嘘と欺瞞を\r\n礼儀と丁重さの仮面で隠している。\r\n最初のものたちは嘘を見抜くことを教える\r\nどんな獣でも完全に痕跡を隠すことはできないことも」\r\n―狼王"
+      "en": "\"Each new valley, each new grove, held new\r\ndangers. Many Knights paid the price. Lysanda\r\nhad never been known for her beauty, but she\r\nbore a new scar each season, earned gladly.\"",
+      "kr": "\"새로운 계곡, 새로운 숲마다 새로운 위험이\r\n도사리고 있었다. 많은 기사들이 대가를 치렀다.\r\n라이산다는 미모로 명성을 떨친 적은 없었지만, 계절마다 새로운\r\n흉터를 얻었고 그것을 기꺼이 받아들였다.\"",
+      "tw": "\"每一個新的山谷、每一片新的樹林，都潛藏著\r\n新的危險。許多騎士為此付出了代價。萊珊德菈\r\n從不以美貌聞名，但她每個季節都會\r\n增添一道新的傷疤，且承受得心甘情願。\"",
+      "ru": "«Каждая новая долина, каждая новая роща таила\r\nновые опасности. Много Рыцарей поплатилось. Лисанда\r\nникогда не отличалась красотой, но каждый сезон\r\nу неё появлялся новый шрам, охотно заработанный».",
+      "jp": "「新たな谷、新たな木立の全ては新たな\r\n危険を伴った。多くの騎士たちが代償を支払った。\r\nリサンダが美貌で評価されたことはなかったが、\r\n彼女は季節が変わるごとに新たな傷を喜んで負っていた。」"
     },
     "implicits": [
       {
@@ -2470,22 +2127,6 @@
               "tw": "投射物穿透 2 個額外目標",
               "ru": "Снаряды пронзают 2 дополнительных цели(-ей)",
               "jp": "投射物は対象を追加で2体貫通する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -2514,11 +2155,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "We Ezomytes are beasts of burden\r\nbearing wealth of an empire on our backs,\r\ngrowing lean and strong\r\nwhile our masters grow fat and weak.\r\n- The Wolven King",
-      "kr": "우리 에조미어인은 등에 제국의 부를 진\r\n동물과 같다.\r\n주인들이 살이 오르고 허약해지는 동안\r\n우리는 군살 없이 강해지고 있다.\r\n- 늑대왕",
-      "tw": "身為負重高手的艾茲麥族人\r\n為帝國的人們背著他們的財富\r\n因此能越加成長越加精壯\r\n而有錢的主人越來越虛弱肥胖\r\n- 狼王",
-      "ru": "Эзомиты впряжены в Империю\r\nсловно скот, что тянет за собой\r\nвечных, жирных телом и душой.\r\nТем сильнее станут дети севера.\r\n- Волчий король",
-      "jp": "「我らエゾマイトは駄獣だ\r\n背には帝国の富を背負い、\r\n体は引き締まり強くなる\r\n一方で我らの主人は肥え太り弱くなる」\r\n―狼王"
+      "en": "\"Romance never interested Queen Lysanda,\r\nbut her advisors insisted heirs were needed.\r\nTo spite them, she took the Hag's only son as\r\nher Consort - a quiet, pale, and strange man.\"",
+      "kr": "\"라이산다 여왕은 사랑에 무관심했지만,\r\n그녀의 조언자들은 후계자가 필요하다고 주장했다.\r\n심술이 난 그녀는 마녀의 외아들을 배우자로 맞이했는데,\r\n그는 조용하고 창백하며 이상한 사내였다.\"",
+      "tw": "\"萊珊德菈女王對浪漫情愛從未感過興趣，\r\n但她的顧問們堅持需要繼承人。\r\n為了氣他們，她娶了巫婆唯一的兒子\r\n作為她的王夫——一個沉默、蒼白且古怪的男人。\"",
+      "ru": "«Романтика никогда не интересовала царицу Лисанду,\r\nно её советники настаивали на нужде в наследниках.\r\nНазло им она взяла в спутники единственного сына\r\nВедьмы – тихого, бледного и странного человека».",
+      "jp": "「リサンダ女王は恋愛に興味はなかったが、\r\n相談役たちは後継者が必要だと言い張った。\r\n彼らを困らせるため、彼女は妖婆の\r\n一人息子を配偶者とした……静かで、色白で、妙な男だった。」"
     },
     "implicits": [
       {
@@ -2533,22 +2174,6 @@
               "tw": "12~18% 持續傷害加成",
               "ru": "12~18% к множителю постепенного урона",
               "jp": "継続ダメージ倍率 12~18%"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -2577,11 +2202,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "When we free ourselves from the shackles\r\nof civilised existence\r\nwe learn to feed and run and breathe\r\nas the First Ones have always done.\r\n- The Wolven King",
-      "kr": "문명화된 존재의\r\n족쇄에서 벗어날 때\r\n우리는 최초의 존재들이 항상 그랬듯\r\n먹고 달리고 숨 쉬는 법을 배울 수 있다.\r\n- 늑대왕",
-      "tw": "當我們將自己\r\n從文民的枷鎖解放時\r\n我們學會了疾跑、呼吸，和獵食\r\n就像是初代們的所作所為一樣\r\n- 狼王",
-      "ru": "Лишь только стряхнув оковы\r\nкультуры и быта муть,\r\nмы бегать научимся снова,\r\nкак Первые, жизнь вдохнув.\r\n- Волчий король",
-      "jp": "「我らが文明の枷から\r\n自らを解き放つ時、\r\n我らは最初のものたちがしてきたように\r\n喰い、走り、息をすることを学ぶのだ」\r\n―狼王"
+      "en": "\"Queen Lysanda's spiteful choice of Consort\r\nspited only herself. Alasdair was unlike any\r\nman she had ever met. It was not long before\r\nthe trumpets sounded for the Royal Wedding.\"",
+      "kr": "\"라이산다 여왕의 심술궂은 배우자 선택은\r\n자신만을 해칠 뿐이었다. 알라스데어는 그녀가 만났던\r\n어떤 남자와도 달랐다. 오래지 않아 왕실\r\n결혼식을 알리는 나팔 소리가 울려 퍼졌다.\"",
+      "tw": "\"萊珊德菈女王出於惡意挑選王夫的決定，\r\n最終只氣到了她自己。阿拉斯代爾與她\r\n見過的任何男人都不同。沒過多久，\r\n宣告皇家婚禮的號角便吹響了。\"",
+      "ru": "«Язвительный выбор спутника Лисандой уязвил\r\nтолько её саму. Аласдайр был непохож ни на\r\nкакого другого встреченного ею мужчину. Уже\r\nскоро трубы возвестили о царской помолвке».",
+      "jp": "「リサンダ女王の皆を困らせるための配偶者の選択が\r\n困らせたのは彼女だけだった。アラスデールはこれまでに\r\n会ったどんな男とも違っていた。女王の結婚式の\r\nラッパが鳴るまでそう長くはかからなかった。」"
     },
     "implicits": [
       {
@@ -2596,22 +2221,6 @@
               "tw": "增加 12~16% 所有屬性",
               "ru": "12~16% увеличение характеристик",
               "jp": "能力値が12~16%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -2640,11 +2249,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "The first ones marked their hunting grounds\r\nwith blood and piss.\r\nWe have tried to paint our future in words.\r\nNow we shall paint with inks of savagery.\r\n- The Wolven King",
-      "kr": "최초의 존재들은 자기 사냥터를\r\n피와 소변으로 표시했다.\r\n우리는 언어로 우리의 미래를 그리려고 했다.\r\n이제 우리 역시 야만의 물감으로 그려낼 것이다.\r\n- 늑대왕",
-      "tw": "初代們用血和尿液\r\n標下了屬於自己的狩獵區\r\n我們曾嘗試用文字畫出未來\r\n現在我們必須用野性的墨水來嘗試\r\n- 狼王",
-      "ru": "Если Первые метят свой край,\r\nони щедро льют кровь и мочу.\r\nМы словами пытались ваять\r\nто, что должно чертить по мечу.\r\n- Волчий король",
-      "jp": "「最初のものたちは血と尿で\r\n狩場に印を付けてきた。\r\n我らは言葉で未来を描こうとしてきた。\r\nこれからは野生の墨で描こう」\r\n―狼王"
+      "en": "\"The Royal Wedding of Lysanda of Myr\r\nlasted for a full month. The hunts were\r\nvigorous, and the meat and drink flowed\r\nfreely for all. There was much rejoicing.\"",
+      "kr": "\"미어의 라이산다의 왕실 결혼식은\r\n한 달 내내 이어졌다. 사냥은 치열했고, 모두가\r\n고기와 술을 양껏, 넘치도록 즐겼다.\r\n온통 기쁨이 가득했다.\"",
+      "tw": "\"米爾的萊珊德菈的皇家婚禮足足持續\r\n了一整個月。狩獵活動熱烈地進行著，\r\n肉品與美酒對所有人無限供應。\r\n到處都充滿了歡慶的氣氛。\"",
+      "ru": "«Царское бракосочетание Лисанды из Мир\r\nдлилось целый месяц. Охота была усердной,\r\nот мяса ломился стол, и питьё лилось рекою\r\nдля всех. Было много радости».",
+      "jp": "「リサンダ・ド・ミア女王の結婚式は\r\nまる一ヶ月続いた。狩りは盛んに行われ、\r\n肉と酒は皆に無償で振る舞われた。\r\n盛大な祝いが行われた。」"
     },
     "implicits": [
       {
@@ -2659,22 +2268,6 @@
               "tw": "增加 5~8% 範圍效果",
               "ru": "5~8% увеличение области действия",
               "jp": "効果範囲が5~8%増加する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -2703,11 +2296,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "We grew contemptuous of our past.\r\nDismissed the first ones as ignorant and wild.\r\nWe were fools and naive children\r\nto turn our backs on our inheritance.\r\n- The Wolven King",
-      "kr": "그동안의 과거를 경멸했었다.\r\n최초의 존재들을 무지하고 야만적이라고 무시했었다.\r\n물려받은 힘에 등을 돌린 것은\r\n어리석고 순진한 아이 같은 행동이었다.\r\n- 늑대왕",
-      "tw": "我們開始對過去感到鄙視\r\n視初代為野蠻和原始並背棄了他\r\n然後我們其實只是愚笨天真的孩子\r\n與我們天生的本性背道而馳\r\n- 狼王",
-      "ru": "Высокомерно отвергнув былое,\r\nмы окрестили Первых зверями.\r\nГлупое племя мы, молодое,\r\nраз отвернулись от прошлого сами.\r\n- Волчий король",
-      "jp": "「我らは過去を軽んじるようになった。\r\n最初のものたちを無知で野蛮なものだと片付けた。\r\n我らは愚かで物を知らぬ子供だった\r\n遺産に背を向けてしまうとは」\r\n―狼王"
+      "en": "\"But there were some who could not forget\r\nthe horrors of the Winter Curse, and of the\r\nHag that had sent it. Alasdair dropped his\r\nwine goblet, and fell to the ground, choking.\"",
+      "kr": "\"그러나 겨울의 저주와 그것을 보낸\r\n마녀의 두려움을 잊지 못한 이들도 있었다.\r\n알라스데어는 술잔을 떨어뜨리고 땅에 쓰러져\r\n질식했다.\"",
+      "tw": "\"但有些人依舊無法忘記凜冬詛咒\r\n的恐怖，以及降下這場詛咒\r\n的巫婆。阿拉斯代爾掉下了他的\r\n酒杯，倒在地上，痛苦地窒息著。\"",
+      "ru": "«Но были те, кто не мог забыть ужасов\r\nПроклятия Зимы, и Ведьмы, которая наслала\r\nего. Аласдайр выронил свой винный кубок\r\nи рухнул наземь, задыхаясь».",
+      "jp": "「だが、冬の呪いとそれを引き起こした\r\n妖婆の恐怖を忘れられぬ者たちもいた。\r\nアラスデールはワインの杯を落とし、\r\n息を詰まらせ倒れた。」"
     },
     "implicits": [
       {
@@ -2722,22 +2315,6 @@
               "tw": "4~6% 額外物理傷害減免",
               "ru": "4~6% дополнительного уменьшения получаемого физического урона",
               "jp": "物理ダメージ軽減率が4~6%される"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -2766,11 +2343,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "Death met with the First Ones\r\nand demanded they hunt with mercy.\r\nFor while pain might delight the mind,\r\nit does not fill the belly.\r\n- The Wolven King",
-      "kr": "죽음이 최초의 존재들을 조우했을 때\r\n자비로운 사냥을 요청해 왔다.\r\n고통으로 마음을 즐겁게 할 수는 있지만\r\n배를 채우지는 못하기 때문이다.\r\n- 늑대왕",
-      "tw": "當死亡遇上了初代時\r\n要求他們狩獵時手下留情\r\n僅管製造痛苦能讓人快樂\r\n但卻無法填飽肚子\r\n- 狼王",
-      "ru": "Навестила Смерть как-то Первых,\r\nнаказала бить дичь без боли.\r\nБоль добычи лишь разум тешит,\r\nно живот она не наполнит.\r\n- Волчий король",
-      "jp": "「死は最初のものたちに合い、\r\n慈悲を持って狩るよう求めた。\r\n苦痛は精神を悦ばせることはあるが、\r\n腹は満たさぬからだ」\r\nー狼王"
+      "en": "\"There followed a time of fear and fire.\r\nNone would speak against their fellows.\r\nNone would say who had poisoned him.\r\nLysanda's justice was swift and brutal.\"",
+      "kr": "\"그리고 공포와 불의 시대가 찾아왔다.\r\n누구도 동료를 고발하지 않았고,\r\n누구도 그를 독살한 자를 밝히지 않았다.\r\n라이산다의 심판은 빠르고 잔혹했다.\"",
+      "tw": "\"隨之而來的是一段充斥著恐懼\r\n與烈火的時期。沒有人願意指控\r\n自己的同胞，也沒有人願意說出\r\n是誰毒殺了他。萊珊德菈的審判迅速且殘暴。\"",
+      "ru": "«Последовало время страха и огня.\r\nНикто не выдал своих. Никто не сказал,\r\nкто отравил его. Правосудие Лисанды\r\nбыло быстрым и жестоким».",
+      "jp": "「続いたのは恐怖と炎の時代だった。\r\n同胞を糾弾する者はいなかった。\r\n誰が毒を持ったのかを喋る者はいなかった。\r\nリサンダの裁きは素早く残酷なものだった。」"
     },
     "implicits": [
       {
@@ -2788,22 +2365,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2829,11 +2390,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "Look not upon me with fear, my men.\r\nThough I seem strange, even monstrous,\r\nwere you to see with the eyes of your forebears,\r\nyour hearts would be filled with wonder.\r\n- The Wolven King",
-      "kr": "동족이여, 그리 두려운 눈으로 쳐다보지 말라.\r\n내가 기묘하고 괴물처럼 보이겠지만\r\n만약 그대들이 선조의 눈으로 나를 보았다면\r\n경이로움으로 가득 찼을 것이니.\r\n- 늑대왕",
-      "tw": "別用畏懼的眼神看著我，人類\r\n我或許長得奇怪，甚至如怪物般\r\n若你見著先祖們的眼睛\r\n你的心將會充滿更多的好奇\r\n- 狼王",
-      "ru": "Не смотрите вы со страхом, соплеменники.\r\nПусть в глазах людских я странен и чудовищен,\r\nно увидь меня глазами славных предков вы -\r\nвмиг сердца свои наполнили бы радостью.\r\n- Волчий король",
-      "jp": "「我が民よ、我を見る目に畏怖を込めるなかれ。\r\n我は奇妙で怪物のように映るかもしれぬが、\r\n其方らが先祖の目を通して我を見られたならば\r\n其方らの心には驚きが満ちるだろう」\r\n―狼王"
+      "en": "\"In the years that followed, Queen Lysanda\r\npoured herself into the long and brutal task\r\nof securing the lands of the Ezomytes of Myr.\r\nEvery fell beast, every creature, had to die.\"",
+      "kr": "\"그 후 몇 년 동안 라이산다 여왕은\r\n미어의 에조마이트인들의 땅을 확보하는\r\n길고 잔혹한 과업에 전념했다.\r\n고약한 짐승, 괴물은 모조리 죽어야 했다.\"",
+      "tw": "\"在隨後的幾年裡，萊珊德菈女王全心\r\n投入於鞏固米爾艾茲麥人領土\r\n這項漫長且殘酷的任務中。\r\n每隻凶猛的巨獸、每種生物，都必須死。\"",
+      "ru": "«В последующие годы царица Лисанда с головой\r\nушла в долгую и жестокую задачу обеспечения\r\nбезопасности земель эзомитов из Мир. Каждый\r\nзлобный зверь, каждая тварь, должны умереть».",
+      "jp": "「続く年々、リサンダ女王はミアの\r\nエゾマイトのために安全な土地を確保するという\r\n長く辛い仕事に身を捧げた。全ての邪悪な獣、\r\n全ての化物を殺さねばならなかった。」"
     },
     "implicits": [
       {
@@ -2851,22 +2412,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2892,11 +2437,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "Look not upon me with fear, my men.\r\nThough I seem strange, even monstrous,\r\nwere you to see with the eyes of your forebears,\r\nyour hearts would be filled with wonder.\r\n- The Wolven King",
-      "kr": "동족이여, 그리 두려운 눈으로 쳐다보지 말라.\r\n내가 기묘하고 괴물처럼 보이겠지만\r\n만약 그대들이 선조의 눈으로 나를 보았다면\r\n경이로움으로 가득 찼을 것이니.\r\n- 늑대왕",
-      "tw": "別用畏懼的眼神看著我，人類\r\n我或許長得奇怪，甚至如怪物般\r\n若你見著先祖們的眼睛\r\n你的心將會充滿更多的好奇\r\n- 狼王",
-      "ru": "Не смотрите вы со страхом, соплеменники.\r\nПусть в глазах людских я странен и чудовищен,\r\nно увидь меня глазами славных предков вы -\r\nвмиг сердца свои наполнили бы радостью.\r\n- Волчий король",
-      "jp": "「我が民よ、我を見る目に畏怖を込めるなかれ。\r\n我は奇妙で怪物のように映るかもしれぬが、\r\n其方らが先祖の目を通して我を見られたならば\r\n其方らの心には驚きが満ちるだろう」\r\n―狼王"
+      "en": "\"In the years that followed, Queen Lysanda\r\npoured herself into the long and brutal task\r\nof securing the lands of the Ezomytes of Myr.\r\nEvery fell beast, every creature, had to die.\"",
+      "kr": "\"그 후 몇 년 동안 라이산다 여왕은\r\n미어의 에조마이트인들의 땅을 확보하는\r\n길고 잔혹한 과업에 전념했다.\r\n고약한 짐승, 괴물은 모조리 죽어야 했다.\"",
+      "tw": "\"在隨後的幾年裡，萊珊德菈女王全心\r\n投入於鞏固米爾艾茲麥人領土\r\n這項漫長且殘酷的任務中。\r\n每隻凶猛的巨獸、每種生物，都必須死。\"",
+      "ru": "«В последующие годы царица Лисанда с головой\r\nушла в долгую и жестокую задачу обеспечения\r\nбезопасности земель эзомитов из Мир. Каждый\r\nзлобный зверь, каждая тварь, должны умереть».",
+      "jp": "「続く年々、リサンダ女王はミアの\r\nエゾマイトのために安全な土地を確保するという\r\n長く辛い仕事に身を捧げた。全ての邪悪な獣、\r\n全ての化物を殺さねばならなかった。」"
     },
     "implicits": [
       {
@@ -2914,22 +2459,6 @@
             }
           }
         ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
-            }
-          }
-        ]
       }
     ],
     "image": null
@@ -2955,11 +2484,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "Look not upon me with fear, my men.\r\nThough I seem strange, even monstrous,\r\nwere you to see with the eyes of your forebears,\r\nyour hearts would be filled with wonder.\r\n- The Wolven King",
-      "kr": "동족이여, 그리 두려운 눈으로 쳐다보지 말라.\r\n내가 기묘하고 괴물처럼 보이겠지만\r\n만약 그대들이 선조의 눈으로 나를 보았다면\r\n경이로움으로 가득 찼을 것이니.\r\n- 늑대왕",
-      "tw": "別用畏懼的眼神看著我，人類\r\n我或許長得奇怪，甚至如怪物般\r\n若你見著先祖們的眼睛\r\n你的心將會充滿更多的好奇\r\n- 狼王",
-      "ru": "Не смотрите вы со страхом, соплеменники.\r\nПусть в глазах людских я странен и чудовищен,\r\nно увидь меня глазами славных предков вы -\r\nвмиг сердца свои наполнили бы радостью.\r\n- Волчий король",
-      "jp": "「我が民よ、我を見る目に畏怖を込めるなかれ。\r\n我は奇妙で怪物のように映るかもしれぬが、\r\n其方らが先祖の目を通して我を見られたならば\r\n其方らの心には驚きが満ちるだろう」\r\n―狼王"
+      "en": "\"In the years that followed, Queen Lysanda\r\npoured herself into the long and brutal task\r\nof securing the lands of the Ezomytes of Myr.\r\nEvery fell beast, every creature, had to die.\"",
+      "kr": "\"그 후 몇 년 동안 라이산다 여왕은\r\n미어의 에조마이트인들의 땅을 확보하는\r\n길고 잔혹한 과업에 전념했다.\r\n고약한 짐승, 괴물은 모조리 죽어야 했다.\"",
+      "tw": "\"在隨後的幾年裡，萊珊德菈女王全心\r\n投入於鞏固米爾艾茲麥人領土\r\n這項漫長且殘酷的任務中。\r\n每隻凶猛的巨獸、每種生物，都必須死。\"",
+      "ru": "«В последующие годы царица Лисанда с головой\r\nушла в долгую и жестокую задачу обеспечения\r\nбезопасности земель эзомитов из Мир. Каждый\r\nзлобный зверь, каждая тварь, должны умереть».",
+      "jp": "「続く年々、リサンダ女王はミアの\r\nエゾマイトのために安全な土地を確保するという\r\n長く辛い仕事に身を捧げた。全ての邪悪な獣、\r\n全ての化物を殺さねばならなかった。」"
     },
     "implicits": [
       {
@@ -2974,22 +2503,6 @@
               "tw": "10% 機率擊殺時獲得 1 顆耐力球",
               "ru": "10% шанс получить заряд выносливости при убийстве",
               "jp": "敵を倒した時に10%の確率でエンデュランスチャージを1個獲得する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -3018,11 +2531,11 @@
     "spec": null,
     "currency": null,
     "flavour": {
-      "en": "We breed thoughts of single mind,\r\nfashion tools of single purpose.\r\nWhile the First Ones bring to bear\r\nanything that the wildlands provide.\r\n- The Wolven King",
-      "kr": "우리는 한 가지 뜻에서 나온 생각만 하고\r\n한 가지 목적을 가진 도구를 만들 뿐이다.\r\n반면 최초의 존재들은\r\n황무지에서 나는 것은 무엇이든 활용해 낸다.\r\n- 늑대왕",
-      "tw": "我們孕育出個體的心智\r\n創造單一功能的器具\r\n而初代卻能將廢土中\r\n任何的事物加以運用\r\n- 狼王",
-      "ru": "Мы думаем, но каждый за себя.\r\nГотовим скарб для всяких личных целей.\r\nНо Первые, хоть и в глуши живя,\r\nнесут нам всё, что сами заимели.\r\n - Волчий король",
-      "jp": "「我らは一念の心を育み、\r\n専用の道具を作る。\r\n一方で最初のものたちが生み出すのは\r\n自然の与えるもの全てだ」\r\n―狼王"
+      "en": "\"The Blue Knight stood against the swarm,\r\nicy and unassailable. His identity was not\r\nknown, and he never removed his helmet.\r\nGlimpses were caught of piercing blue eyes.\"",
+      "kr": "\"푸른 기사는 얼음처럼 차갑고 난공불락인\r\n무리에 맞서 싸웠다. 그의 정체는 알려지지 않았고,\r\n그는 결코 투구를 벗지 않았다. 오직 꿰뚫는 듯한\r\n푸른 눈빛만이 엿보일 뿐이었다.\"",
+      "tw": "\"藍色騎士隻身對抗著巢群，冰冷\r\n且堅不可摧。他的身分無人知曉，\r\n也從不摘下頭盔。人們偶爾只能\r\n隱約看見那雙銳利的藍色眼睛。\"",
+      "ru": "«Синий Рыцарь вышел против вражьих туч,\r\nледяной и неприступный. Кто он, никто\r\nне знал, и он никогда не снимал шлема.\r\nТолько мелькали пронзительные синие глаза».",
+      "jp": "「氷のように冷たく難攻不落な青の騎士は\r\n群れに立ちはだかった。彼の正体は不明で、\r\n彼は決して兜を脱がなかった。時折見えたのは\r\n射抜くような青い目だけだった。」"
     },
     "implicits": [
       {
@@ -3037,22 +2550,6 @@
               "tw": "獲得等同 6~12% 物理傷害的一個隨機元素傷害",
               "ru": "Дарует 6~12% физического урона в виде дополнительного урона от случайной стихии",
               "jp": "物理ダメージの6~12%をランダムな元素属性の追加ダメージとして獲得する"
-            }
-          }
-        ]
-      },
-      {
-        "modId": "TalismanCanBePickedUpByMonster",
-        "lines": [
-          {
-            "stat": "local_stat_monsters_pick_up_item",
-            "value": "1",
-            "text": {
-              "en": null,
-              "kr": null,
-              "tw": null,
-              "ru": null,
-              "jp": null
             }
           }
         ]
@@ -3086,6 +2583,1296 @@
       "tw": "狼在滿月的月光下\r\n像王表示了敬意\r\n狼獻出了野性的力量\r\n而王獻出了他的血",
       "ru": "Повстречал старший волк короля\r\nв свете полной, большой луны.\r\nСилу диких земель даря,\r\nкровь монарха взамен испил.",
       "jp": "中秋の名月の明かりの下で\r\n狼は王を迎えた。\r\n狼は野生の力を与え、\r\n王は血で支払った。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "chieftain-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Chieftain Talisman",
+      "kr": "족장 부적",
+      "tw": "酋長魔符",
+      "ru": "Талисман вожака",
+      "jp": "チーフテンのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"I know where we found our belief in\r\nthe First Ones. I see it every time I walk\r\nthe untouched forests and hills. The\r\nprimordial world is still here. With us.\"",
+      "kr": "\"나는 최초의 존재들에 대한 우리의 믿음이\r\n무엇을 근거로 하는지 안다. 손길이 닿지 않은 숲과\r\n언덕을 걸을 때마다 그것을 본다. 태고의 세계는\r\n여전히 여기, 우리와 함께 있다.\"",
+      "tw": "\"我知道我們對初始者的信仰源自何處。\r\n每當我走在未受侵擾的森林與山丘間，\r\n我都能看見它。那原始的世界\r\n依然存在。與我們同在。\"",
+      "ru": "«Я знаю, откуда взялась наша вера в\r\nПервых. Я вижу её всякий раз, когда\r\nгуляю по нетронутым лесам и холмам.\r\nПервобытный мир по-прежнему здесь. С нами».",
+      "jp": "「最初のものたちへの信仰心がどこで\r\n育まれたものなのかはわかっている。\r\n人の手を免れし森や丘を歩む度に見ている。\r\n原始の世界は未だここにある。我らと共に。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "gargantuan-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Gargantuan Talisman",
+      "kr": "가르강튀아 부적",
+      "tw": "龐然魔符",
+      "ru": "Талисман громадины",
+      "jp": "ガルガンチュアのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"We held our trust in the First Ones long\r\nbefore we learned runes. Long before we\r\nwere shown the ways of cities and roads.\"",
+      "kr": "\"우리는 룬을 배우기 훨씬 전부터\r\n최초의 존재들을 신뢰했다. 도시와 길의\r\n방식을 보고 배우기 훨씬 전부터.\"",
+      "tw": "\"早在我們學會符文之前，我們就對初始者\r\n抱持著信任。早在我們被指引城市\r\n與道路的運作方式之前，便是如此。\"",
+      "ru": "«Мы верили в Первых задолго до того,\r\nкак узнали о рунах. Задолго до того, как\r\nнас научили строить города и дороги».",
+      "jp": "「我らはルーンを学ぶよりも遥か以前から\r\n最初のものたちを信頼していた。我らが\r\n都市や道の在り方を見せられるよりも遥か以前から。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "goliath-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Goliath Talisman",
+      "kr": "골리앗 부적",
+      "tw": "巨人魔符",
+      "ru": "Талисман исполина",
+      "jp": "ゴリアスのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"This land was always harsh and brutal,\r\never seeking ways to kill and maim us.\r\nWe had to grow and change to survive,\r\nbut each clan had its own ideas how...\"",
+      "kr": "\"이 땅은 언제나 거칠고 가혹했으며,\r\n끊임없이 우리를 죽이고 망가뜨릴 방법을 찾았다.\r\n우리는 살아남기 위해 성장하고 변화해야 했지만,\r\n그에 관해 혈족들은 저마다 다른 방법을 생각하고 있었다...\"",
+      "tw": "\"這片土地向來嚴酷而殘暴，無時無刻\r\n不在尋找殺戮與殘害我們的機會。為了\r\n生存，我們必須成長與改變，但每個\r\n氏族對於如何改變，都有各自的想法……\"",
+      "ru": "«Этот край всегда был суров и жесток,\r\nвсегда искал способов убить и покалечить\r\nнас. Нам пришлось расти и меняться, чтобы\r\nвыжить, но каждый клан делал это по-своему...»",
+      "jp": "「この地はずっと厳しく残酷で、\r\n常に我らを殺し傷つける方法を探していた。\r\n我らは生き残るために成長し変わらねばならなかったが、\r\nその方法は氏族によって異なっていた。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rhoa-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Rhoa Talisman",
+      "kr": "로아 부적",
+      "tw": "恐喙鳥魔符",
+      "ru": "Талисман роа",
+      "jp": "ロアのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"A great rift formed, between clans,\r\nbetween families. Those that remained\r\nresolved to endure times of struggle,\r\nif it meant we could keep our ways.\"",
+      "kr": "\"혈족들 사이에, 가족들 사이에,\r\n거대한 균열이 생겼다. 남은 이들은 우리의\r\n방식을 지킬 수 있다면 고난의 시기를\r\n견뎌내겠노라고 결심했다.\"",
+      "tw": "\"一條巨大的裂痕在氏族之間、在家族\r\n之間形成。那些留下來的人決心忍受\r\n掙扎的歲月，只要這意味著我們能\r\n保留自己的生活方式。\"",
+      "ru": "«Возник большой разрыв между кланами, между\r\nсемьями. Те, кто остался, решили перетерпеть\r\nвремена раздора, если это означало, что мы\r\nсможем и дальше жить так, как привыкли».",
+      "jp": "「大きな隔たりが氏族の間に、\r\n家族の間に生まれた。残った者たちは\r\n困難の時を耐えることを決意した。\r\nそれで在り方を守ることができるのならば。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "blood-viper-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Blood Viper Talisman",
+      "kr": "피 독사 부적",
+      "tw": "血蛇魔符",
+      "ru": "Талисман кровавой гадюки",
+      "jp": "ブラッドヴァイパーのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Those that departed sought the way of\r\ncities and roads. Theirs would be a path\r\nfraught with danger and hardship, as they\r\nset out to find and build a new home.\"",
+      "kr": "\"떠난 이들은 도시와 길의\r\n방식을 좇았다. 새로운 보금자리를 찾고\r\n세우기 위해 나아가는 그들의 길은,\r\n위험과 고난으로 가득할 것이었다.\"",
+      "tw": "\"而那些離開的人，則去追尋了城市\r\n與道路的道路。當他們出發去尋找\r\n並建立新家園時，他們的旅途\r\n將充滿危險與艱辛。\"",
+      "ru": "«Те, кто ушёл, пошли по пути городов\r\nи дорог. Их маршрут был полон опасностей\r\nи тягот, ведь они отправились искать\r\nместо, где можно построить новый дом».",
+      "jp": "「去った者たちは都市や道の在り方を\r\n求めた。新たな故郷を見つけ築こうと\r\n出ていった彼らの道は危険と困難に満ちた\r\nものとなるだろう。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "chimeral-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Chimeral Talisman",
+      "kr": "키메랄 부적",
+      "tw": "龍蜥魔符",
+      "ru": "Талисман ящера",
+      "jp": "キメラルのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"When they set out to find and build\r\nEzomyr, they encountered creatures of\r\ndeadly variety and intent. Many died,\r\nfor none yet knew how to fight back.\"",
+      "kr": "\"에조미어를 찾고 건설하고자 떠났을 때,\r\n그들은 무시무시한 다양성과 의도를 지닌 생물들과\r\n마주쳤다. 맞서 싸우는 방법을 아직 누구도 몰랐기에,\r\n많은 이들이 목숨을 잃었다.\"",
+      "tw": "\"當他們出發尋找並建立艾茲麥時，\r\n他們遭遇了各式各樣帶有致命意圖\r\n的生物。許多人因此喪生，因為\r\n當時還沒有人知道該如何反擊。\"",
+      "ru": "«Отправившись искать место для возведения\r\nЭзомира, они столкнулись с тварями смертоносных\r\nвидов и намерений. Многие умерли, ведь ещё\r\nникто не знал, как отбиваться от них».",
+      "jp": "「彼らがエゾミアを見つけ築こうと\r\n出ていった時、彼らは恐ろしい\r\n種と意図の生物に出会った。まだ\r\n反撃の術を知らなかった彼らの多くは死んだ。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "squid-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Squid Talisman",
+      "kr": "오징어 부적",
+      "tw": "烏賊魔符",
+      "ru": "Талисман кальмара",
+      "jp": "イカのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Lysanda of Myr was but a girl on that exodus.\r\nEzomyr almost met its end before it began...\r\nbut she could not hear that deadly lure. She\r\ntook the Siren's head with her bare hands.\"",
+      "kr": "\"미어의 라이산다는 그 대탈출 당시 아직 소녀에 불과했다.\r\n에조미어는 시작되기도 전에 끝을 맞을 위기에 처했지만...\r\n그녀에게는 그 치명적인 유혹이 들리지 않았다.\r\n그녀는 맨손으로 사이렌의 머리를 뜯어냈다.\"",
+      "tw": "\"在內遷的旅途中，米爾的萊珊德菈\r\n還只是個女孩。艾茲麥甚至在建立之前\r\n就差點迎來終結……但她對那魅惑的歌聲\r\n置若罔聞。她徒手摘下了海妖的頭顱。\"",
+      "ru": "«Лисанда из Мир была обычной девушкой в том исходе.\r\nЭзомир едва не встретил конец, даже не начавшись...\r\nНо она не могла слышать той смертоносной приманки.\r\nОна забрала голову сирены голыми руками».",
+      "jp": "「リサンダ・ド・ミアはその大移住の時、少女に\r\n過ぎなかった。エゾミアは始まる前から終わりそうに\r\nなっていた……だが彼女にはその危険な誘いは\r\n聞こえなかった。彼女は素手でセイレーンの首を取った。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sand-spitter-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Sand Spitter Talisman",
+      "kr": "모래 전갈 부적",
+      "tw": "噴砂爪蟹魔符",
+      "ru": "Талисман песчаного плевуна",
+      "jp": "サンドスピッターのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"It turned out, Lysanda made for an excellent\r\nvanguard - a light, evasive girl who could scout\r\nand lead the way. The people came to see her\r\nas their guide, their hope, and then... their leader.\"",
+      "kr": "\"라이산다 드 미어는 훌륭한 선봉이 되었다.\r\n가볍고 날랜 그녀는 정찰하며 길을 이끌 수 있었다.\r\n사람들은 그녀를 안내인이자, 희망으로...\r\n그리고 마침내 지도자로 받아들였다.\"",
+      "tw": "\"事實證明，萊珊德菈成了極其優秀的前鋒—\r\n一個身手輕盈、擅長閃躲的女孩，能負責\r\n偵察並在前引路。人們開始將她視為他們的\r\n嚮導、他們的希望，接著……成為他們的領袖。\"",
+      "ru": "«Оказалось, что Лисанда отлично годилась в авангард –\r\nлёгкая и быстрая девушка, которая могла разведывать\r\nнаперёд и прокладывать путь. Люди стали видеть в ней\r\nсвоего проводника, надежду, а затем... и своего лидера».",
+      "jp": "「リサンダは先陣として素晴らしかった。偵察し、\r\n皆を導くことができる体の軽い、逃げ足の早い\r\n少女だった。人々は彼女を導き手として、希望として、\r\nそして……リーダーとして見るようになった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "shield-crab-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Shield Crab Talisman",
+      "kr": "방패게 부적",
+      "tw": "盾螯魔符",
+      "ru": "Талисман крепкого краба",
+      "jp": "シールドクラブのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Those that swore loyalty to Lysanda, that\r\nforged ahead with her to clear the way.\r\nbecame known as the first Knights...\r\narmoured, battered, and courageous.\"",
+      "kr": "\"라이산다에게 충성을 맹세하고\r\n그녀와 함께 길을 만든 이들은 갑옷을 입고,\r\n상처를 겪고, 용기 있었던...\r\n최초의 기사들로 알려지게 되었다.\"",
+      "tw": "\"那些向萊珊德菈效忠、與她一同\r\n前行開路的追隨者，後來被稱為\r\n第一批騎士……他們身披盔甲、\r\n飽受摧殘卻無所畏懼。\"",
+      "ru": "«Те, кто поклялся в верности Лисанде, кто\r\nпробивался вперёд вместе с ней, расчищая\r\nпуть, стали известны как первые Рыцари...\r\nодоспешенные, потрёпанные и храбрые».",
+      "jp": "「リサンダに忠誠を誓い、彼女と共に\r\n道を切り開くために前進した者たち。\r\n彼らは最初の『騎士』と呼ばれるようになった……\r\n鎧を纏い、ぼろぼろになった、勇敢な者たち。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "goatman-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Goatman Talisman",
+      "kr": "염소인간 부적",
+      "tw": "羊人魔符",
+      "ru": "Талисман козерога",
+      "jp": "ゴートマンのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Lysanda and her Knights brought the\r\nsettling clans to what would become\r\nEzomyr... but there was one beast against\r\nwhich even they could not stand.\"",
+      "kr": "\"라이산다와 그녀의 기사들은\r\n정착한 혈족들을 이끌어 훗날 에조미어가\r\n될 곳으로 데려갔다... 그러나 그들조차 맞설 수 없는\r\n한 마리의 짐승이 그곳에 있었다.\"",
+      "tw": "\"萊珊德菈和她的騎士們帶著前來\r\n定居的氏族來到了未來的艾茲麥……\r\n但那裡存在著一隻巨獸，\r\n一隻連他們也無法抗衡的巨獸。\"",
+      "ru": "«Лисанда и её Рыцари привели оседлые\r\nкланы к тому, что позже стало Эзомиром...\r\nно была одна зверюга, против которой\r\nдаже они не могли выстоять».",
+      "jp": "「リサンダと騎士たちは移住する\r\n氏族たちを後のエゾミアへと連れてきた……\r\nだが一匹だけ、彼女たちでも\r\n勝ち目のない獣がいた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "devourer-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Devourer Talisman",
+      "kr": "포식자 부적",
+      "tw": "吞噬者魔符",
+      "ru": "Талисман пожирателя",
+      "jp": "デヴァウアーのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"A great headless monstrosity with arms like\r\nteeth stalked the lands they hoped to settle.\r\nNo other weapon would find purchase. They\r\nsurrounded it with fire, burning it for days.\"",
+      "kr": "\"이빨 같은 팔이 달린 머리 없는 거대한 괴물이\r\n그들이 정착하려는 땅을 배회했다. 다른 어떤 무기도\r\n통하지 않았기에, 그들은 불로 괴물을 포위해\r\n며칠 동안 태웠다.\"",
+      "tw": "\"一隻巨大的無頭怪物，長著如牙齒般的手臂，\r\n在他們希望定居的土地上遊蕩。其他武器\r\n都無法對它造成傷害。於是他們用烈火\r\n將其包圍，足足焚燒了數日之久。\"",
+      "ru": "«Огромное безголовое чудище с руками, похожими\r\nна зубы, охотилось в землях, где они надеялись\r\nосесть. Никакое другое оружие его не брало;\r\nчудище окружили огнём и жгли дни напролёт».",
+      "jp": "「歯のような腕を持つ、巨大な首無しの怪物が\r\n彼らが住み着こうとする地を徘徊していた。\r\n他の武器では歯が立たなかった。彼らはそれを\r\n炎で囲み、何日もそれを焼き続けた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "plagued-arachnid-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Plagued Arachnid Talisman",
+      "kr": "역병 걸린 거미류 부적",
+      "tw": "瘟疫毒蛛魔符",
+      "ru": "Талисман чумного арахнида",
+      "jp": "プレイグアラクニドのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"With the headless beast incinerated, the\r\nsettlers rejoiced, and began building homes.\r\nThey would soon find that this hostile land\r\nhad more insidious ways of rejecting them.\"",
+      "kr": "\"머리 없는 괴물이 불태워지자, 정착민들은\r\n환호하며 집을 짓기 시작했다. 그러나 그들은 곧\r\n이 혹독한 땅이 더 교묘한 방식으로\r\n그들을 거부함을 알게 되었다.\"",
+      "tw": "\"隨著無頭巨獸被燒成灰燼，\r\n定居者們歡欣鼓舞，並開始建造家園。\r\n但他們很快就會發現，這片充滿敵意\r\n的土地，有著更隱蔽的方法來排斥他們。\"",
+      "ru": "«Предав безголовое чудище огню, поселенцы\r\nвозрадовались и начали строить дома. Вскоре\r\nим пришлось выяснить, что у этой враждебной\r\nземли есть более коварные способы отвергнуть их».",
+      "jp": "「首なしの獣が燃やされ、移住者たちは\r\n喜び、家を建て始めた。すぐに彼らはこの\r\n敵意に満ちた地が更に陰湿な方法で\r\n彼らを排除しようとすることに気づくだろう。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "watcher-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Watcher Talisman",
+      "kr": "감시자 부적",
+      "tw": "觀察者魔符",
+      "ru": "Талисман смотрителя",
+      "jp": "ウォッチャーのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The clans had travelled to their new home\r\nunited, and they did love Lysanda, but some\r\nmen must go their own way. Those that braved\r\nthe inland sea settled the Isles of Skothe.\"",
+      "kr": "\"혈족들은 새로운 터전으로 함께 떠났고,\r\n라이산다를 사랑했음에도 일부는 자신만의 길을 가야 했다.\r\n과감히 내해로 건너간 이들은\r\n스코테 군도에 정착했다.\"",
+      "tw": "\"各氏族團結一致地遷徙到了他們的新家園，\r\n他們也確實愛戴萊珊德菈，但有些人註定\r\n得走自己的路。那些勇闖內海的人，\r\n最終在斯科提群島定居了下來。\"",
+      "ru": "«Кланы отправились в свой новый дом вместе,\r\nи они действительно любили Лисанду, но кто-то\r\nдолжен ступать своей дорогой. Те, кто преодолел\r\nвнутреннее море, осели на Скофийских островах».",
+      "jp": "「氏族たちは団結して新たな故郷を見つけ、\r\nリサンダを愛してもいたが、袂が分かたれることも\r\nあった。内海を冒険した者たちは\r\nスコース諸島に住み着いた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "savage-crab-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Savage Crab Talisman",
+      "kr": "사나운 게 부적",
+      "tw": "殘暴蟹魔符",
+      "ru": "Талисман свирепого краба",
+      "jp": "サベージクラブのタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The journey was over, the land was being\r\nsecured, and the foundations for the first city\r\nhad been laid. Winter hit them with horrible\r\nfury, sent not by nature, but by a curse.\"",
+      "kr": "\"여정은 끝났고, 땅은 확보되었으며,\r\n첫 도시의 기틀이 세워졌다. 그러나 겨울은 끔찍한 분노로\r\n그들을 덮쳤는데, 그것은 자연이 아니라\r\n저주에서 비롯된 것이었다.",
+      "tw": "\"旅程已經結束，土地正逐步被掌控，\r\n第一座城市的基石也已奠定。然而，\r\n冬季卻以可怕的狂暴之姿席捲而來—\r\n那並非源自大自然，而是來自一場詛咒。\"",
+      "ru": "«Путешествие закончилось, земли были\r\nограждены от опасностей, и заложен фундамент\r\nпервого города. Лютая зима ударила по ним с\r\nяростью, насланная не природой, а проклятием».",
+      "jp": "「旅は終わり、土地は確保されており、\r\n最初の都市の基盤は完成していた。\r\n恐ろしい怒りを持って襲いかかった冬は、\r\n自然ではなく呪いにより到来したものだった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "flame-hellion-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Flame Hellion Talisman",
+      "kr": "화염 헬리온 부적",
+      "tw": "烈炎地獄犬魔符",
+      "ru": "Талисман огненного адского льва",
+      "jp": "フレイムヘリオンのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Against the Winter Curse, only the forges of\r\nrunesmiths could stand. The people huddled,\r\nshoulder to shoulder, while those within were\r\npressed against the fires, screaming in agony.\"",
+      "kr": "\"겨울의 저주를 견딜 수 있었던 것은\r\n룬 대장장이들의 용광로뿐이었다. 사람들은 어깨를\r\n맞대고 웅크렸으며, 안쪽에 있던 이들은\r\n불길에 닿아 고통스러운 비명을 질렀다.\"",
+      "tw": "\"面對凜冬詛咒，唯有符文鐵匠的鍛爐\r\n得以抗衡。人們肩並肩地擠在一起，\r\n而留守在內的人則緊貼著烈火，\r\n在痛苦中痛苦哀號。\"",
+      "ru": "«Против Проклятия Зимы могли выстоять\r\nтолько кузни рунодельцев. Люди теснились\r\nплечом к плечу, а тех, кто был в центре,\r\nприжимали к огню, и они кричали от боли».",
+      "jp": "「『冬の呪い』に立ち向かえたのは\r\nルーン鍛冶の鍛冶場だけだった。人々は\r\n集まって肩を寄せ合い、内側の者たちは\r\n炎に身を押し付けられ、苦悶の叫びを上げた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "frost-hellion-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Frost Hellion Talisman",
+      "kr": "서리 헬리온 부적",
+      "tw": "冰霜犬魔符",
+      "ru": "Талисман морозного адского льва",
+      "jp": "フロストヘリオンのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"And still the Winter Curse raged in through\r\nevery window and every door. The fathers\r\nand mothers of those within let themselves\r\nfreeze solid, sealing the gaps with their lives.\"",
+      "kr": "\"겨울의 저주는 여전히 모든 창과\r\n문으로 들이닥쳤다. 안에 있던 이들의\r\n부모들은, 스스로 꽁꽁 얼어붙어\r\n목숨으로 틈새를 막았다.\"",
+      "tw": "\"而凜冬詛咒依舊穿透每扇窗戶\r\n與每道門戶瘋狂肆虐。屋內為人\r\n父母者任由自己凍成冰雕，\r\n用他們的生命封死所有的縫隙。\"",
+      "ru": "«И всё равно Проклятие Зимы прорывалось в\r\nкаждое окно и каждую дверь. Отцы и матери\r\nтех, кто был внутри, дали себе замёрзнуть\r\nнасмерть, закрывая телами промежутки и щели».",
+      "jp": "「それでも冬の呪いは全ての窓、\r\n全ての扉から吹き込んだ。中の者たちの\r\n父や母たちは自らが凍りつくことにより、\r\n命を持って隙間を塞いだ。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "lynx-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Lynx Talisman",
+      "kr": "스라소니 부적",
+      "tw": "山貓魔符",
+      "ru": "Талисман рыси",
+      "jp": "リンクスのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The night refused to end, and the Winter Curse\r\nhowled. The people wailed, and Lysanda raged.\r\nIt was then that the sky tore open, unleashing\r\na saviour fury... at the behest of the Druids.\"",
+      "kr": "\"밤은 좀처럼 끝나지 않고, 겨울의 저주는 울부짖었다.\r\n사람들은 통곡했고, 라이산다는 분노했다.\r\n그때 하늘이 갈라지며 드루이드들의 뜻에 따라...\r\n구원의 분노가 쏟아져 내렸다.\"",
+      "tw": "\"黑夜拒絕結束，凜冬詛咒在狂風中咆哮。\r\n人們哀慟哭求，而萊珊德菈盛怒無比。\r\n就在那時，天空被撕裂開來，\r\n在德魯伊的請求下，釋放出了救世主的憤怒。\"",
+      "ru": "«Ночь не желала прекращаться, и Проклятие\r\nЗимы выло снаружи. Люди стенали, и Лисанда\r\nбыла в гневе. Именно тогда небо разверзлось,\r\nвысвобождая ярость спасителя... по воле друидов».",
+      "jp": "「夜は終わらず、冬の呪いは唸った。\r\n人々は嘆き、リサンダは怒った。\r\nその時、空が引き裂かれ、救済の怒りが\r\n解き放たれた……ドルイドたちの手によって。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ape-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Ape Talisman",
+      "kr": "유인원 부적",
+      "tw": "靈猴魔符",
+      "ru": "Талисман примата",
+      "jp": "エイプのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The Druids emerged from the forests to greet\r\nand warn the new settlers. This was an ancient\r\nland full of mysteries and dangers. Lysanda sent\r\nher best men to study and learn with them.\"",
+      "kr": "\"드루이드들은 숲에서 나와 새로운 정착민들을\r\n맞이하고 경고했다. 이곳은 신비와 위험이 수없이 도사리는\r\n고대의 땅이었다. 라이산다는 최고의 인재들을 보내\r\n그들과 함께 배우고 익히게 했다.\"",
+      "tw": "\"德魯伊從森林中現身，前來迎接並警告\r\n新定居者。這是一片充滿未知謎團與危險\r\n的古老土地。萊珊德菈派出了她最優秀\r\n的人手，前去與他們一同研究並學習。\"",
+      "ru": "«Друиды явились из лесов, чтобы приветствовать\r\nи предупредить новых поселенцев. Это был древний\r\nкрай, полный загадок и опасностей. Лисанда послала\r\nсвоих лучших людей учиться мудрости друидов».",
+      "jp": "「ドルイドたちは新参者たちを歓迎し\r\n警告するため森からやってきた。ここは\r\n秘密や危険の多い古い地であると。リサンダは\r\n最も有能な者たちを彼らの下へと送り出し学ばせた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "wolf-alpha-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Wolf Alpha Talisman",
+      "kr": "늑대 우두머리 부적",
+      "tw": "狼王魔符",
+      "ru": "Талисман волка-альфа",
+      "jp": "ウルフアルファのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"With the Winter Curse held at bay, Lysanda\r\nand her Knights pursued the fell power that\r\nhad sent it... a Hag who made her lair in a\r\nTower that was ancient beyond ancient.\"",
+      "kr": "\"겨울의 저주를 막아낸 뒤, 라이산다와 그녀의\r\n기사들은 그것을 보낸 사악한 힘의 뒤를\r\n쫓았다. 그것은 고대 이전의 고대에 지어진\r\n탑에 은신하는 마녀였다.\"",
+      "tw": "\"隨著凜冬詛咒被成功遏制，萊珊德菈\r\n和她的騎士們開始追獵降下這股\r\n邪惡力量的源頭……那是一名將\r\n巢穴築在極其古老之塔中的巫婆。\"",
+      "ru": "«Сдержав Проклятие Зимы, Лисанда и её Рыцари\r\nпогнались за злобной силой, наложившей его...\r\nВедьмой, устроившей своё логово в башне,\r\nкоторая была древнее древнего».",
+      "jp": "「『冬の呪い』を押し留め、リサンダと騎士たちは\r\nそれをかけた邪悪な力を追った……それは古と言っても\r\n足りぬほど古き塔に住み着いた妖婆だった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "magma-hound-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Magma Hound Talisman",
+      "kr": "마그마 사냥개 부적",
+      "tw": "熔犬魔符",
+      "ru": "Талисман магмовой гончей",
+      "jp": "マグマハウンドのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"They bound the Hag of the Winter Curse\r\nand set her alight, to no avail. Her cackle\r\nwas gleeful and wicked. Even if they slew\r\nher, she boasted, she had many daughters...\"\r\n",
+      "kr": "\"그들은 겨울의 저주를 내린 마녀를 묶고\r\n불태웠지만, 아무 소용이 없었다. 마녀의 웃음소리는\r\n명랑하고 사악했다. 설령 자기를 죽이더라도,\r\n자기에게는 많은 딸이 있다며 자랑했다...\"",
+      "tw": "\"他們捆綁了降下凜冬詛咒的巫婆\r\n並將她點燃，卻無濟於事。她的笑聲\r\n充滿了幸災樂禍與邪惡。她狂妄地宣稱，\r\n即便他們殺了她，她還有無數個女兒……\"",
+      "ru": "«Они связали Ведьму Проклятия Зимы и подожгли\r\nеё, безрезультатно. Её хохот был полон веселья\r\nи злобы. Даже если они убьют её, хвалилась она,\r\nу неё было много дочерей...».",
+      "jp": "「彼らは『冬の呪い』の妖婆を縛り火を放ったが、\r\n効果はなかった。彼女は上機嫌で邪悪な笑い声を上げた。\r\n彼女は言った、彼女を殺したとしても、何人もの\r\n娘たちがいると……」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "pitbull-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Pitbull Talisman",
+      "kr": "투견 부적",
+      "tw": "鬥牛犬魔符",
+      "ru": "Талисман пса",
+      "jp": "ピットブルのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Lysanda roared, and hacked the Hag apart\r\nlimb by limb, not stopping until the deed\r\nwas done. Her daughters, however, were\r\nspared... and tasked with service and duty.\"",
+      "kr": "\"라이산다는 고함을 지르며 마녀의 사지가\r\n모두 잘려 나갈 때까지 베기를 멈추지 않았다.\r\n그러나 그녀의 딸들은 살려 주고...\r\n봉사와 노역을 명했다.\"",
+      "tw": "\"萊珊德菈怒吼著，將巫婆斬首並將其\r\n肢解，直到大功告成才停下手來。\r\n然而，巫婆的女兒們卻得以倖免……\r\n並被賦予了服侍與盡忠的職責。\"",
+      "ru": "«Лисанда взревела и рассекла Ведьму на части,\r\nчлен за членом, не останавливаясь до тех пор,\r\nпока дело не было сделано. Её дочерей, однако,\r\nпощадили... и велели служить и помогать».",
+      "jp": "「リサンダは咆哮を上げ、妖婆をばらばらに\r\n切り刻み、事が終わるまで止まることはなかった。\r\nだが彼女の娘たちは見逃され……奉仕と義務を\r\n任せられた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "ursa-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Ursa Talisman",
+      "kr": "곰 부적",
+      "tw": "墮落之爪魔符",
+      "ru": "Талисман медведя",
+      "jp": "ウルサのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"With the Hag's daughters easing the climate,\r\nan age of plenty and bounty began. Lysanda\r\nrevived the Phaaryl tradition of the hunt,\r\nso the people never forgot their roots.\"",
+      "kr": "\"마녀의 딸들이 기후를 온화하게 만들자,\r\n풍요와 번영의 시대가 시작되었다.\r\n라이산다는 사람들이 자신들의 근본을 잊지 않도록\r\n파아릴의 사냥 전통을 되살렸다.\"",
+      "tw": "\"隨著巫婆的女兒們讓氣候變得溫和，\r\n一個富足與豐收的時代拉開了序幕。\r\n萊桑達復興了法瑞爾的狩獵傳統，\r\n好讓人民永遠不忘自己的根。\"",
+      "ru": "«Когда дочери Ведьмы поправили климат,\r\nнаступила эпоха изобилия и блага. Лисанда\r\nвозродила фаарильскую традицию охоты,\r\nчтобы люди не забывали о своих корнях».",
+      "jp": "「妖婆の娘たちが気候を和らげたことにより、\r\n豊作と恵みの時代が始まった。民が自分たちの\r\n起源を忘れぬよう、リサンダはファーリルの\r\n狩りの伝統を復活させた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "taurus-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Taurus Talisman",
+      "kr": "황소자리 부적",
+      "tw": "金牛人魔符",
+      "ru": "Талисман тельца",
+      "jp": "タウラスのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The first city was completed, and others sprouted.\r\nThe clans came together to declare Lysanda of Myr\r\nthe Queen. Henceforth, they became known as the\r\nEzomytes of Myr, and their numbers swelled.\"",
+      "kr": "\"첫 번째 도시가 완공되었고, 다른 도시들이 잇달아\r\n세워졌다. 혈족들은 함께 모여 미어의 라이산다를 여왕으로\r\n선포했다. 그때부터 그들은 미어의 에조마이트인이라\r\n불리게 되었고, 그들의 수는 금세 불어났다.\"",
+      "tw": "\"第一座城市完工了，其他城市也如雨後春筍\r\n般湧現。各氏族聚集在一起，宣布\r\n米爾的萊珊德菈為女王。從此以後，\r\n他們被稱為米爾的艾茲麥人，人口也隨之暴增。\"",
+      "ru": "«Первый город был закончен, и появились ростки других.\r\nКланы собрались вместе, чтобы провозгласить Лисанду\r\nиз Мир царицей. С тех пор они стали известны как\r\nэзомиты из Мир, и их численность выросла».",
+      "jp": "「最初の都市が完成し、他の都市も芽吹いた。\r\n氏族たちは集まり、リサンダ・ド・ミアを\r\n女王とすると宣言した。彼らはミアのエゾマイト\r\nと呼ばれるようになり、その数は膨れ上がった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "retch-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Retch Talisman",
+      "kr": "레치 부적",
+      "tw": "反芻鳥魔符",
+      "ru": "Талисман рыгателя",
+      "jp": "レッチのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"As the Ezomytes of Myr prospered, they\r\nneeded more and spreading lands. Queen\r\nLysanda led the ongoing campaign to\r\nslaughter every last creature of darkness.\"",
+      "kr": "\"번영한 미어의 에조마이트인들에게는\r\n더 넓은 땅이 더 많이 필요했다. 라이산다 여왕은\r\n어둠의 생물을 마지막 하나까지 몰살하기 위해\r\n계속되던 원정의 선두에 섰다.\"",
+      "tw": "\"隨著米爾的艾茲麥人走向繁榮，\r\n他們需要更多且更廣闊的土地。\r\n萊珊德菈女王領導著持續進行的征討，\r\n誓要屠盡最後一隻黑暗生物。\"",
+      "ru": "«Процветая, эзомиты из Мир стали нуждаться\r\nв большем количестве земель. Царица Лисанда\r\nстала во главе продолжающейся кампании по\r\nизбавлению от всех оставшихся созданий тьмы».",
+      "jp": "「ミアのエゾマイトたちの繁栄が進むと、\r\n彼らにはより多くの土地が必要になった。\r\nリサンダ女王は闇の生き物を一匹残らず\r\n殺すための遠征を率いていった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "cobra-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Cobra Talisman",
+      "kr": "코브라 부적",
+      "tw": "眼鏡蛇魔符",
+      "ru": "Талисман кобры",
+      "jp": "コブラのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Each new valley, each new grove, held new\r\ndangers. Many Knights paid the price. Lysanda\r\nhad never been known for her beauty, but she\r\nbore a new scar each season, earned gladly.\"",
+      "kr": "\"새로운 계곡, 새로운 숲마다 새로운 위험이\r\n도사리고 있었다. 많은 기사들이 대가를 치렀다.\r\n라이산다는 미모로 명성을 떨친 적은 없었지만, 계절마다 새로운\r\n흉터를 얻었고 그것을 기꺼이 받아들였다.\"",
+      "tw": "\"每一個新的山谷、每一片新的樹林，都潛藏著\r\n新的危險。許多騎士為此付出了代價。萊珊德菈\r\n從不以美貌聞名，但她每個季節都會\r\n增添一道新的傷疤，且承受得心甘情願。\"",
+      "ru": "«Каждая новая долина, каждая новая роща таила\r\nновые опасности. Много Рыцарей поплатилось. Лисанда\r\nникогда не отличалась красотой, но каждый сезон\r\nу неё появлялся новый шрам, охотно заработанный».",
+      "jp": "「新たな谷、新たな木立の全ては新たな\r\n危険を伴った。多くの騎士たちが代償を支払った。\r\nリサンダが美貌で評価されたことはなかったが、\r\n彼女は季節が変わるごとに新たな傷を喜んで負っていた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "carrion-queen-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Carrion Queen Talisman",
+      "kr": "부패하는 여왕 부적",
+      "tw": "食腐蟲后魔符",
+      "ru": "Талисман матки трупоедов",
+      "jp": "キャリオンクイーンのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Romance never interested Queen Lysanda,\r\nbut her advisors insisted heirs were needed.\r\nTo spite them, she took the Hag's only son as\r\nher Consort - a quiet, pale, and strange man.\"",
+      "kr": "\"라이산다 여왕은 사랑에 무관심했지만,\r\n그녀의 조언자들은 후계자가 필요하다고 주장했다.\r\n심술이 난 그녀는 마녀의 외아들을 배우자로 맞이했는데,\r\n그는 조용하고 창백하며 이상한 사내였다.\"",
+      "tw": "\"萊珊德菈女王對浪漫情愛從未感過興趣，\r\n但她的顧問們堅持需要繼承人。\r\n為了氣他們，她娶了巫婆唯一的兒子\r\n作為她的王夫——一個沉默、蒼白且古怪的男人。\"",
+      "ru": "«Романтика никогда не интересовала царицу Лисанду,\r\nно её советники настаивали на нужде в наследниках.\r\nНазло им она взяла в спутники единственного сына\r\nВедьмы – тихого, бледного и странного человека».",
+      "jp": "「リサンダ女王は恋愛に興味はなかったが、\r\n相談役たちは後継者が必要だと言い張った。\r\n彼らを困らせるため、彼女は妖婆の\r\n一人息子を配偶者とした……静かで、色白で、妙な男だった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "scrabbler-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Scrabbler Talisman",
+      "kr": "넝마주이 부적",
+      "tw": "搗亂者魔符",
+      "ru": "Талисман норовика",
+      "jp": "スクラブラーのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Queen Lysanda's spiteful choice of Consort\r\nspited only herself. Alasdair was unlike any\r\nman she had ever met. It was not long before\r\nthe trumpets sounded for the Royal Wedding.\"",
+      "kr": "\"라이산다 여왕의 심술궂은 배우자 선택은\r\n자신만을 해칠 뿐이었다. 알라스데어는 그녀가 만났던\r\n어떤 남자와도 달랐다. 오래지 않아 왕실\r\n결혼식을 알리는 나팔 소리가 울려 퍼졌다.\"",
+      "tw": "\"萊珊德菈女王出於惡意挑選王夫的決定，\r\n最終只氣到了她自己。阿拉斯代爾與她\r\n見過的任何男人都不同。沒過多久，\r\n宣告皇家婚禮的號角便吹響了。\"",
+      "ru": "«Язвительный выбор спутника Лисандой уязвил\r\nтолько её саму. Аласдайр был непохож ни на\r\nкакого другого встреченного ею мужчину. Уже\r\nскоро трубы возвестили о царской помолвке».",
+      "jp": "「リサンダ女王の皆を困らせるための配偶者の選択が\r\n困らせたのは彼女だけだった。アラスデールはこれまでに\r\n会ったどんな男とも違っていた。女王の結婚式の\r\nラッパが鳴るまでそう長くはかからなかった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "black-widow-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Black Widow Talisman",
+      "kr": "검은 과부 부적",
+      "tw": "黑寡婦魔符",
+      "ru": "Талисман чёрной вдовы",
+      "jp": "ブラックウィドウのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The Royal Wedding of Lysanda of Myr\r\nlasted for a full month. The hunts were\r\nvigorous, and the meat and drink flowed\r\nfreely for all. There was much rejoicing.\"",
+      "kr": "\"미어의 라이산다의 왕실 결혼식은\r\n한 달 내내 이어졌다. 사냥은 치열했고, 모두가\r\n고기와 술을 양껏, 넘치도록 즐겼다.\r\n온통 기쁨이 가득했다.\"",
+      "tw": "\"米爾的萊珊德菈的皇家婚禮足足持續\r\n了一整個月。狩獵活動熱烈地進行著，\r\n肉品與美酒對所有人無限供應。\r\n到處都充滿了歡慶的氣氛。\"",
+      "ru": "«Царское бракосочетание Лисанды из Мир\r\nдлилось целый месяц. Охота была усердной,\r\nот мяса ломился стол, и питьё лилось рекою\r\nдля всех. Было много радости».",
+      "jp": "「リサンダ・ド・ミア女王の結婚式は\r\nまる一ヶ月続いた。狩りは盛んに行われ、\r\n肉と酒は皆に無償で振る舞われた。\r\n盛大な祝いが行われた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "scorpion-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Scorpion Talisman",
+      "kr": "전갈 부적",
+      "tw": "毒蠍魔符",
+      "ru": "Талисман скорпиона",
+      "jp": "スコーピオンのタリスマン"
+    },
+    "dropLevel": 28,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"But there were some who could not forget\r\nthe horrors of the Winter Curse, and of the\r\nHag that had sent it. Alasdair dropped his\r\nwine goblet, and fell to the ground, choking.\"",
+      "kr": "\"그러나 겨울의 저주와 그것을 보낸\r\n마녀의 두려움을 잊지 못한 이들도 있었다.\r\n알라스데어는 술잔을 떨어뜨리고 땅에 쓰러져\r\n질식했다.\"",
+      "tw": "\"但有些人依舊無法忘記凜冬詛咒\r\n的恐怖，以及降下這場詛咒\r\n的巫婆。阿拉斯代爾掉下了他的\r\n酒杯，倒在地上，痛苦地窒息著。\"",
+      "ru": "«Но были те, кто не мог забыть ужасов\r\nПроклятия Зимы, и Ведьмы, которая наслала\r\nего. Аласдайр выронил свой винный кубок\r\nи рухнул наземь, задыхаясь».",
+      "jp": "「だが、冬の呪いとそれを引き起こした\r\n妖婆の恐怖を忘れられぬ者たちもいた。\r\nアラスデールはワインの杯を落とし、\r\n息を詰まらせ倒れた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "tiger-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Tiger Talisman",
+      "kr": "호랑이 부적",
+      "tw": "猛虎魔符",
+      "ru": "Талисман тигра",
+      "jp": "タイガーのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"There followed a time of fear and fire.\r\nNone would speak against their fellows.\r\nNone would say who had poisoned him.\r\nLysanda's justice was swift and brutal.\"",
+      "kr": "\"그리고 공포와 불의 시대가 찾아왔다.\r\n누구도 동료를 고발하지 않았고,\r\n누구도 그를 독살한 자를 밝히지 않았다.\r\n라이산다의 심판은 빠르고 잔혹했다.\"",
+      "tw": "\"隨之而來的是一段充斥著恐懼\r\n與烈火的時期。沒有人願意指控\r\n自己的同胞，也沒有人願意說出\r\n是誰毒殺了他。萊珊德菈的審判迅速且殘暴。\"",
+      "ru": "«Последовало время страха и огня.\r\nНикто не выдал своих. Никто не сказал,\r\nкто отравил его. Правосудие Лисанды\r\nбыло быстрым и жестоким».",
+      "jp": "「続いたのは恐怖と炎の時代だった。\r\n同胞を糾弾する者はいなかった。\r\n誰が毒を持ったのかを喋る者はいなかった。\r\nリサンダの裁きは素早く残酷なものだった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "vulture-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Vulture Talisman",
+      "kr": "시체매 부적",
+      "tw": "禿鷹魔符",
+      "ru": "Талисман стервятника",
+      "jp": "バルチャーのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"In the years that followed, Queen Lysanda\r\npoured herself into the long and brutal task\r\nof securing the lands of the Ezomytes of Myr.\r\nEvery fell beast, every creature, had to die.\"",
+      "kr": "\"그 후 몇 년 동안 라이산다 여왕은\r\n미어의 에조마이트인들의 땅을 확보하는\r\n길고 잔혹한 과업에 전념했다.\r\n고약한 짐승, 괴물은 모조리 죽어야 했다.\"",
+      "tw": "\"在隨後的幾年裡，萊珊德菈女王全心\r\n投入於鞏固米爾艾茲麥人領土\r\n這項漫長且殘酷的任務中。\r\n每隻凶猛的巨獸、每種生物，都必須死。\"",
+      "ru": "«В последующие годы царица Лисанда с головой\r\nушла в долгую и жестокую задачу обеспечения\r\nбезопасности земель эзомитов из Мир. Каждый\r\nзлобный зверь, каждая тварь, должны умереть».",
+      "jp": "「続く年々、リサンダ女王はミアの\r\nエゾマイトのために安全な土地を確保するという\r\n長く辛い仕事に身を捧げた。全ての邪悪な獣、\r\n全ての化物を殺さねばならなかった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "rhex-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Rhex Talisman",
+      "kr": "렉스 부적",
+      "tw": "雛鳥魔符",
+      "ru": "Талисман рекса",
+      "jp": "レックスのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"There began an eternal summer, as the\r\ndaughters of the Hag perfected their mastery\r\nof the Tower. The forests became as gardens.\r\nThe hungry had only to pick a fruit and eat.\"",
+      "kr": "\"마녀의 딸들이 탑을 지배하는 능력에\r\n통달하자, 영원한 여름이 시작되었다. 숲은 정원처럼\r\n변했다. 굶주린 자들은 그저 열매를\r\n따서 먹기만 하면 되었다.\"",
+      "tw": "\"一場永恆的夏天就此展開，因為巫婆\r\n的女兒們完美地掌握了那座古塔\r\n的控制權。森林變得如同花園一般。\r\n飢餓的人只需摘下果實便能享用。\"",
+      "ru": "«Наступило вечное лето, поскольку дочери\r\nВедьмы в совершенстве овладели управлением\r\nбашней. Леса стали будто сады. Голодным\r\nдостаточно было только выбрать фрукт и есть».",
+      "jp": "「妖婆の娘たちが塔の力を完全に\r\n制御できるようになると、永遠の夏が始まった。\r\n森は庭園のようになった。空腹な者は\r\n果実を摘み、食すだけで良くなった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "hybrid-arachnid-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Hybrid Arachnid Talisman",
+      "kr": "잡종 거미류 부적",
+      "tw": "混血蜘蛛魔符",
+      "ru": "Талисман гибридного арахнида",
+      "jp": "ハイブリッドアラクニドのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Twenty-two years into Lysanda's reign, the\r\nSpiders swarmed from out of the dark. Her\r\nKnights were ill-equipped for this foe, and\r\nthe people fled in droves, seeking safety.\"",
+      "kr": "\"라이산다의 통치가 22년째를 맞이하던 해에,\r\n거미들이 어둠 속에서 몰려나왔다. 그녀의 기사들은\r\n이 적에 제대로 대비하지 못했고, 사람들은\r\n안전한 곳을 찾아 무리 지어 도망쳤다.\"",
+      "tw": "\"在萊珊德菈統治的第二十二年，\r\n蜘蛛從黑暗中成群湧出。她的騎士\r\n們對這種敵人缺乏應對手段，\r\n人民紛紛成群逃竄，尋求避難所。\"",
+      "ru": "«На двадцать втором году правления Лисанды\r\nиз темноты нахлынули пауки. Её Рыцари были\r\nплохо подготовлены к такому врагу, и народ\r\nпустился в массовое бегство, ища спасения».",
+      "jp": "「リサンダの統治が始まって二十二年、\r\n闇から蜘蛛たちが這い出してきた。\r\n騎士たちはこの敵に有効な武器を持たず、\r\n人々は安全を求め集団となって逃げ出した。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "octopus-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Octopus Talisman",
+      "kr": "문어 부적",
+      "tw": "章魚魔符",
+      "ru": "Талисман осьминога",
+      "jp": "タコのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The Blue Knight stood against the swarm,\r\nicy and unassailable. His identity was not\r\nknown, and he never removed his helmet.\r\nGlimpses were caught of piercing blue eyes.\"",
+      "kr": "\"푸른 기사는 얼음처럼 차갑고 난공불락인\r\n무리에 맞서 싸웠다. 그의 정체는 알려지지 않았고,\r\n그는 결코 투구를 벗지 않았다. 오직 꿰뚫는 듯한\r\n푸른 눈빛만이 엿보일 뿐이었다.\"",
+      "tw": "\"藍色騎士隻身對抗著巢群，冰冷\r\n且堅不可摧。他的身分無人知曉，\r\n也從不摘下頭盔。人們偶爾只能\r\n隱約看見那雙銳利的藍色眼睛。\"",
+      "ru": "«Синий Рыцарь вышел против вражьих туч,\r\nледяной и неприступный. Кто он, никто\r\nне знал, и он никогда не снимал шлема.\r\nТолько мелькали пронзительные синие глаза».",
+      "jp": "「氷のように冷たく難攻不落な青の騎士は\r\n群れに立ちはだかった。彼の正体は不明で、\r\n彼は決して兜を脱がなかった。時折見えたのは\r\n射抜くような青い目だけだった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spider-crab-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Spider Crab Talisman",
+      "kr": "거미게 부적",
+      "tw": "蛛蛛蟹魔符",
+      "ru": "Талисман краба-паука",
+      "jp": "スパイダークラブのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"As deadly and dangerous creatures were\r\nculled, the Queen chose to leave those\r\nthat were docile or beauteous. Tide pools\r\nbecame known as places of wonder.\"",
+      "kr": "\"치명적이고 위험한 생물들은 제거되었지만,\r\n여왕은 온순하거나 아름다운 존재들은\r\n남겨 두었다. 파도 웅덩이는 경이로운 장소로\r\n그 이름을 알리게 되었다.\"",
+      "tw": "\"隨著致命且危險的生物被捕殺殆盡，\r\n女王選擇留下那些溫馴或美麗的物種。\r\n潮間帶也因此成為了令人驚嘆的奇景勝地。\"",
+      "ru": "«Когда смертоносные и опасные создания\r\nбыли перебиты, царица решила оставить тех, \r\nчто были покладистыми или прелестными.\r\nВодоёмы прославились как места чудес».",
+      "jp": "「危険な生き物たちの数が減ると、\r\n女王は大人しいものや美しいものを\r\n見逃すことにした。潮溜まりは\r\n神秘的な場所として知られるようになった。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "great-maw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Great Maw Talisman",
+      "kr": "거대 큰턱개구리 부적",
+      "tw": "巨口魔符",
+      "ru": "Талисман громадной пасти",
+      "jp": "グレートモーのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Decades into Lysanda's reign, the\r\nlands of the Ezomytes of Myr slowly\r\nbecame known as Ezo De Myr, and\r\nthen simply Ezomyr. And so it was.\"",
+      "kr": "\"라이산다의 통치가 수십 년에 이르자,\r\n미어의 에조마이트인들의 땅은 차츰\r\n에조 드 미어라 불리게 되었고,\r\n곧 단순히 에조미어라는 이름으로 굳어졌다.\"",
+      "tw": "\"在萊珊德菈統治數十年後，米爾艾茲麥人\r\n的土地漸漸被稱為埃茲．德．米爾，\r\n接著便簡稱為艾茲麥。事情就此定調。\"",
+      "ru": "«Спустя десятилетия правления Лисанды\r\nземли эзомитов из Мир постепенно стали\r\nзваться Эзо де Миром, а позже просто\r\nЭзомиром. Так всё и сложилось».",
+      "jp": "「リサンダの統治がはじまり数十年、\r\nミアのエゾマイトの地はやがて\r\nエゾ・デ・ミア、そして単にエゾミア\r\nと呼ばれるようになった。こうしてエゾミアが生まれた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "croaker-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Croaker Talisman",
+      "kr": "물렁이 부적",
+      "tw": "鳴蛙魔符",
+      "ru": "Талисман квакуна",
+      "jp": "クローカーのタリスマン"
+    },
+    "dropLevel": 36,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Ezomyr grew on a foundation of\r\nchoice. Its climate was chosen. Its\r\nanimals were chosen. For once,\r\nWraeclast was not harsh, but kind.\"",
+      "kr": "\"에조미어는 선택의 토대 위에\r\n성장했다. 기후는 선택되었고, 동물들도\r\n선택되었다. 모처럼, 레이클라스트가\r\n혹독하지 않고 다정했다.\"",
+      "tw": "\"艾茲麥建立在\"選擇\"的基石之上。\r\n它的氣候是經過選擇的，它的動物\r\n也是經過選擇的。瓦爾克拉斯\r\n破天荒地不再嚴酷，而是展現出溫柔的一面。\"",
+      "ru": "«Эзомир вырос на основе выбора.\r\nЕго климат был выбран. Его животные\r\nбыли выбраны. В кои-то веки Рэкласт\r\nбыл не суров, а дружелюбен».",
+      "jp": "「エゾミアは選択という基盤の下に\r\n繁栄した。その気候は選択されたものだった。\r\nその動物たちも選択されたものだった。\r\n初めて、レイクラストは厳しくなく、優しさを見せた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "craicic-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Craicic Talisman",
+      "kr": "크라칸 부적",
+      "tw": "奎爾珊魔符",
+      "ru": "Талисман Краценна",
+      "jp": "クライシアンのタリスマン"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The sea calmed, and contact was\r\nrenewed with the Isles of Skothe.\r\nIt was said that Craiceann had\r\ngiven a blessing to the people.\"",
+      "kr": "\"바다는 잔잔해졌고, 스코테\r\n군도와의 왕래가 다시 시작되었다.\r\n크라칸이 사람들에게 축복을\r\n내렸다는 이야기가 돌았다.\"",
+      "tw": "\"大海恢復了平靜，與斯科提群島\r\n的聯繫也得以重啟。\r\n據說，奎爾珊向人民賜予了祝福。\"",
+      "ru": "«Море утихло, и возобновился контакт\r\nсо Скофийскими островами. Говорили,\r\nбудто Краценн благословил людей».",
+      "jp": "「海は静まり、スコース諸島との\r\n連絡が再開した。クライシアンが\r\n人々を祝福したのだと言われた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "fenumal-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Fenumal Talisman",
+      "kr": "페누무스 부적",
+      "tw": "菲恩絲魔符",
+      "ru": "Талисман Фенумы",
+      "jp": "フェヌムスのタリスマン"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The Spiders that had been driven\r\nback by the Blue Knight now sought\r\npeace and cooperation. It was said\r\nthat Fenumus had commanded it.\"",
+      "kr": "\"푸른 기사들이 몰아냈던\r\n거미들은 이제 평화와 협력을\r\n추구했다. 그것을 명한 자는\r\n페누무스라는 이야기가 돌았다.\"",
+      "tw": "\"那些曾被藍色騎士擊退的蜘蛛，\r\n如今開始尋求和平與合作。\r\n據說，這是菲恩絲所下達的旨意。\"",
+      "ru": "«Пауки, которых оттеснил Синий\r\nРыцарь, теперь стремились к миру\r\nи содействию. Говорили, будто\r\nФенума так повелела».",
+      "jp": "「青の騎士が追い返した蜘蛛たちは\r\n和平と協調を求めるようになった。\r\nフェヌムスがそう命じたのだと\r\n言われた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "saqawine-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Saqawine Talisman",
+      "kr": "사카왈 부적",
+      "tw": "斯卡沃魔符",
+      "ru": "Талисман Сакаваля",
+      "jp": "サカワルのタリスマン"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"The skies were clear and blue, yet\r\nbrought rains when needed. It was\r\nsaid that the people had proven\r\nthemselves to Saqawal and his flocks.\"",
+      "kr": "\"하늘은 맑고 푸르렀으며,\r\n필요할 때 비를 뿌려주었다.\r\n사람들이 사카왈과 그 무리에게\r\n자격을 증명했다는 이야기가 돌았다.\"",
+      "tw": "\"天空晴朗蔚藍，卻能在需要時\r\n降下甘霖。據說，人民已經向\r\n斯卡沃及其羽族證明了自己。\"",
+      "ru": "«Небеса были чистыми и голубыми,\r\nно приносили дожди, когда нужно.\r\nГоворили, будто люди показали себя\r\nперед Сакавалем и его стаями».",
+      "jp": "「空は青く晴れ渡ったが、\r\n必要な時は雨をもたらした。\r\n人々がサクァワルとその群れに\r\n価値を示したのだと言われた。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "farric-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Farric Talisman",
+      "kr": "페룰 부적",
+      "tw": "費爾羅魔符",
+      "ru": "Талисман Фаррул",
+      "jp": "ファルウルのタリスマン"
+    },
+    "dropLevel": 45,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"Forty-six years into her reign, Lysanda\r\nslew the last deadly creature. She smiled,\r\ntook a wineskin, and rode off into the forest.\r\nOne last hunt, it was said. Farrul would stalk\r\nby her side, in this life... and the next.\"",
+      "kr": "\"통치가 46년째를 맞이하던 해, 라이산다는 마지막\r\n무시무시한 괴물을 죽였다. 그녀는 미소 지으며 포도주 가죽 부대를 들고\r\n숲으로 말을 몰았다. 이것이 마지막 사냥이었다고 한다.\r\n페룰이 그녀의 곁에서,\r\n이 생에서도... 다음 생에서도 나란히 걸을 것이었다.\"",
+      "tw": "\"在統治的第四十六年，萊珊德菈擊殺了\r\n最後一隻致命生物。她微微一笑，帶上\r\n一皮囊的酒，騎馬奔向森林深處。\r\n據說，那是最後一次狩獵。費爾羅將\r\n在她身旁隨行，不論在今生……還是來世。\"",
+      "ru": "«На сорок шестом году своего правления Лисанда\r\nубила последнее смертоносное создание. Она\r\nулыбнулась, взяла бурдюк и поехала верхом в лес.\r\nГоворят, на последнюю охоту. Фаррул ступала\r\nвместе с ней, в этой жизни... и в следующей».",
+      "jp": "「統治を開始して四十六年、リサンダは\r\nついに最後の危険な生き物を倒した。彼女は\r\n微笑み、ワイン袋を持ち、馬と共に森へ入っていった。\r\n最後の狩りだ、と言われた。ファルウルが彼女と\r\n共に歩むのだ、この生……そして次の生でも。」"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "greatwolf-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Greatwolf Talisman",
+      "kr": "위대한 늑대 부적",
+      "tw": "巨狼魔符",
+      "ru": "Талисман Великого волка",
+      "jp": "大狼のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "The wolf greeted the king,\r\nIn the light of the harvest moon.\r\nThe wolf offered the strength of the wild,\r\nAnd the king paid for it in blood.",
+      "kr": "추수의 달 아래\r\n늑대는 왕을 맞이했다.\r\n늑대는 야생의 힘을 제시했고\r\n왕은 피로써 대가를 치렀다.",
+      "tw": "狼在滿月的月光下\r\n像王表示了敬意\r\n狼獻出了野性的力量\r\n而王獻出了他的血",
+      "ru": "Повстречал старший волк короля\r\nв свете полной, большой луны.\r\nСилу диких земель даря,\r\nкровь монарха взамен испил.",
+      "jp": "中秋の名月の明かりの下で\r\n狼は王を迎えた。\r\n狼は野生の力を与え、\r\n王は血で支払った。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "black-maw-talisman",
+    "classId": "Amulet",
+    "className": {
+      "en": "Amulets",
+      "kr": "목걸이",
+      "tw": "項鍊",
+      "ru": "Амулеты",
+      "jp": "アミュレット"
+    },
+    "name": {
+      "en": "Black Maw Talisman",
+      "kr": "검은 턱 부적",
+      "tw": "黯牙魔符",
+      "ru": "Талисман чёрной пасти",
+      "jp": "黒い口のタリスマン"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "\"There are some stories that may never\r\nbe known, never be heard. But to history,\r\nI say, let it be known the the Ezomytes\r\nof Myr persevered... and built a home.\"",
+      "kr": "\"결코 알려지지 않고, 결코 들리지 않을 이야기도 있다.\r\n그러나 나는 역사에\r\n전하노니, 미어의 에조마이트들은 끝내 견뎌내었다...\r\n그리고 터전을 세웠다.\"",
+      "tw": "\"有些故事或許永遠不會為人所知、\r\n永遠不會被聽聞。但對於歷史，\r\n我說，讓世人知道米爾的艾茲麥人\r\n堅持了下來……並建立了一個家園。\"",
+      "ru": "«Есть истории, которые никто не узнает,\r\nникто не расскажет. Но для преданий,\r\nговорю я, да будет известно, что эзомиты\r\nиз Мир выстояли... и построили дом».",
+      "jp": "「決して知られること、聞かれることのない\r\n物語がある。だが歴史に残そう、\r\nミアのエゾマイトたちは生き延び……\r\n故郷を作ったのだと。」"
     },
     "implicits": null,
     "image": null

@@ -402,17 +402,17 @@
     "flavour": null,
     "implicits": [
       {
-        "modId": "IncreasedEnergyShieldImplicitRing1",
+        "modId": "IncreasedCastSpeedImplicitRing1",
         "lines": [
           {
-            "stat": "base_maximum_energy_shield",
-            "value": "15~25",
+            "stat": "base_cast_speed_+%",
+            "value": "7~10",
             "text": {
-              "en": "15~25 to maximum Energy Shield",
-              "kr": "에너지 보호막 최대치 15~25",
-              "tw": "15~25 最大能量護盾",
-              "ru": "15~25 к максимуму энергетического щита",
-              "jp": "最大エナジーシールド 15~25"
+              "en": "7~10% increased Cast Speed",
+              "kr": "시전 속도 7~10% 증가",
+              "tw": "增加 7~10% 施放速度",
+              "ru": "7~10% повышение скорости сотворения чар",
+              "jp": "キャストスピードが7~10%増加する"
             }
           }
         ]

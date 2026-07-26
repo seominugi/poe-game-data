@@ -13,19 +13,19 @@
   ],
   "counts": {
     "prefix": 37,
-    "suffix": 70,
-    "total": 107
+    "suffix": 65,
+    "total": 102
   },
   "bucketCounts": {
     "normal": {
       "prefix": 37,
-      "suffix": 70,
-      "total": 107
+      "suffix": 65,
+      "total": 102
     },
     "corrupted": {
-      "prefix": 16,
+      "prefix": 13,
       "suffix": 0,
-      "total": 16
+      "total": 13
     }
   },
   "buckets": {
@@ -50,7 +50,7 @@
             "kr": "낚싯줄 강도 (20-40)% 증가"
           },
           "group": [
-            697
+            700
           ],
           "weight": 1000,
           "stats": [
@@ -91,7 +91,7 @@
             "kr": "로아 깃털 루어"
           },
           "group": [
-            701
+            704
           ],
           "weight": 1000,
           "stats": [
@@ -132,7 +132,7 @@
             "kr": "어장 소비 (-30--15)% 감소"
           },
           "group": [
-            700
+            703
           ],
           "weight": 1000,
           "stats": [
@@ -1828,7 +1828,7 @@
             "kr": "낚시 거리 (30-50)% 증가"
           },
           "group": [
-            696
+            699
           ],
           "weight": 1000,
           "stats": [
@@ -1869,7 +1869,7 @@
             "kr": "카루이 돌 낚싯바늘"
           },
           "group": [
-            702
+            705
           ],
           "weight": 1000,
           "stats": [
@@ -1910,7 +1910,7 @@
             "kr": "포획하는 물고기 수 (15-20)% 증가"
           },
           "group": [
-            698
+            701
           ],
           "weight": 1000,
           "stats": [
@@ -1951,7 +1951,7 @@
             "kr": "포획하는 물고기 희귀도 (25-40)% 증가"
           },
           "group": [
-            699
+            702
           ],
           "weight": 1000,
           "stats": [
@@ -2220,47 +2220,6 @@
           ]
         },
         {
-          "id": "StunDuration1",
-          "affixType": "suffix",
-          "tier": 5,
-          "valueRanges": [
-            [
-              11,
-              15
-            ]
-          ],
-          "name": {
-            "en": "of Impact",
-            "kr": "- 충격"
-          },
-          "effect": {
-            "en": "(11-15)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    11,
-                    15
-                  ]
-                }
-              ],
-              "value": "11~15",
-              "text": {
-                "en": "(11-15)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
-              }
-            }
-          ]
-        },
-        {
           "id": "LifeGainPerTargetLocal1",
           "affixType": "suffix",
           "tier": 8,
@@ -2365,7 +2324,7 @@
             "kr": "시야 반경 5% 증가\n일반 정확도 (9-11)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -2508,7 +2467,7 @@
             "kr": "시야 반경 10% 증가\n일반 정확도 (12-15)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -2542,47 +2501,6 @@
               "text": {
                 "en": "(12-15)% increased Global Accuracy Rating",
                 "kr": "일반 정확도 (12-15)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration2",
-          "affixType": "suffix",
-          "tier": 18,
-          "valueRanges": [
-            [
-              16,
-              20
-            ]
-          ],
-          "name": {
-            "en": "of Dazing",
-            "kr": "- 혼미"
-          },
-          "effect": {
-            "en": "(16-20)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    16,
-                    20
-                  ]
-                }
-              ],
-              "value": "16~20",
-              "text": {
-                "en": "(16-20)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
               }
             }
           ]
@@ -3102,7 +3020,7 @@
             "kr": "시야 반경 15% 증가\n일반 정확도 (16-20)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -3141,47 +3059,6 @@
           ]
         },
         {
-          "id": "StunDuration3",
-          "affixType": "suffix",
-          "tier": 30,
-          "valueRanges": [
-            [
-              21,
-              25
-            ]
-          ],
-          "name": {
-            "en": "of Stunning",
-            "kr": "- 기절"
-          },
-          "effect": {
-            "en": "(21-25)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    21,
-                    25
-                  ]
-                }
-              ],
-              "value": "21~25",
-              "text": {
-                "en": "(21-25)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
-              }
-            }
-          ]
-        },
-        {
           "id": "ReducedLocalAttributeRequirements1",
           "affixType": "suffix",
           "tier": 36,
@@ -3200,7 +3077,7 @@
             "kr": "능력치 요구사항 -18% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -3446,7 +3323,7 @@
             "kr": "지속 피해 배율 (16-21)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -3546,47 +3423,6 @@
               "text": {
                 "en": "(25-29)% increased Critical Strike Chance",
                 "kr": "치명타 확률 (25-29)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration4",
-          "affixType": "suffix",
-          "tier": 44,
-          "valueRanges": [
-            [
-              26,
-              30
-            ]
-          ],
-          "name": {
-            "en": "of Slamming",
-            "kr": "- 강타"
-          },
-          "effect": {
-            "en": "(26-30)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    26,
-                    30
-                  ]
-                }
-              ],
-              "value": "26~30",
-              "text": {
-                "en": "(26-30)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
               }
             }
           ]
@@ -3856,7 +3692,7 @@
             "kr": "지속 피해 배율 (24-29)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -3874,47 +3710,6 @@
               "text": {
                 "en": "(24-29)% to Damage over Time Multiplier",
                 "kr": "지속 피해 배율 (24-29)%"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration5",
-          "affixType": "suffix",
-          "tier": 58,
-          "valueRanges": [
-            [
-              31,
-              35
-            ]
-          ],
-          "name": {
-            "en": "of Staggering",
-            "kr": "- 비틀거림"
-          },
-          "effect": {
-            "en": "(31-35)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    31,
-                    35
-                  ]
-                }
-              ],
-              "value": "31~35",
-              "text": {
-                "en": "(31-35)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
               }
             }
           ]
@@ -4143,7 +3938,7 @@
             "kr": "능력치 요구사항 -32% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -4266,7 +4061,7 @@
             "kr": "지속 피해 배율 (31-35)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -4512,7 +4307,7 @@
             "kr": "지속 피해 배율 (36-40)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -4717,7 +4512,7 @@
             "kr": "지속 피해 배율 (41-45)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -4844,7 +4639,7 @@
             "kr": "포획하는 물고기 수 (5-10)% 증가"
           },
           "group": [
-            698
+            701
           ],
           "weight": 1000,
           "stats": [
@@ -4885,7 +4680,7 @@
             "kr": "포획하는 물고기 희귀도 (5-10)% 증가"
           },
           "group": [
-            699
+            702
           ],
           "weight": 1000,
           "stats": [
@@ -4903,6 +4698,47 @@
               "text": {
                 "en": "(5-10)% increased Rarity of Fish Caught",
                 "kr": "포획하는 물고기 희귀도 (5-10)% 증가"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2GemQualityCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-10)% to Quality of Socketed Gems",
+            "kr": "장착된 젬 퀄리티 (5-10)%"
+          },
+          "group": [
+            3405
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_gem_quality_+",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Quality of Socketed Gems",
+                "kr": "장착된 젬 퀄리티 (5-10)%"
               }
             }
           ]
@@ -4926,7 +4762,7 @@
             "kr": "효과 범위 (25-30)% 증가"
           },
           "group": [
-            141
+            142
           ],
           "weight": 1000,
           "stats": [
@@ -4944,99 +4780,6 @@
               "text": {
                 "en": "(25-30)% increased Area of Effect",
                 "kr": "효과 범위 (25-30)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "V2LocalAddedPhysicalDamage2hCorrupted1",
-          "affixType": "corrupted",
-          "tier": 1,
-          "valueRanges": [
-            [
-              1,
-              1
-            ],
-            [
-              2,
-              3
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null
-          },
-          "effect": {
-            "en": "Adds 1 to (2-3) Physical Damage",
-            "kr": "물리 피해 1~(2-3) 추가"
-          },
-          "group": [
-            6
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_minimum_added_physical_damage",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                },
-                {
-                  "stat": "local_maximum_added_physical_damage",
-                  "valueRange": [
-                    2,
-                    3
-                  ]
-                }
-              ],
-              "value": "1, 2~3",
-              "text": {
-                "en": "Adds 1 to (2-3) Physical Damage",
-                "kr": "물리 피해 1~(2-3) 추가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "V2LocalMeleeWeaponRangeCorrupted",
-          "affixType": "corrupted",
-          "tier": 1,
-          "valueRanges": [
-            [
-              1,
-              2
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null
-          },
-          "effect": {
-            "en": "(1-2) metres to Weapon Range",
-            "kr": "무기 공격 범위 (1-2)미터"
-          },
-          "group": [
-            597
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_weapon_range_+",
-                  "valueRange": [
-                    1,
-                    2
-                  ]
-                }
-              ],
-              "value": "1~2",
-              "text": {
-                "en": "(1-2) metres to Weapon Range",
-                "kr": "무기 공격 범위 (1-2)미터"
               }
             }
           ]
@@ -5060,7 +4803,7 @@
             "kr": "장착된 젬에 10레벨 정확도 추가 보조 효과 적용"
           },
           "group": [
-            1044
+            1049
           ],
           "weight": 1000,
           "stats": [
@@ -5101,7 +4844,7 @@
             "kr": "장착된 젬에 1레벨 생명력 전환 보조 효과 적용"
           },
           "group": [
-            1160
+            1172
           ],
           "weight": 1000,
           "stats": [
@@ -5142,7 +4885,7 @@
             "kr": "장착된 젬에 10레벨 방어 상승 보조 효과 적용"
           },
           "group": [
-            3098
+            3138
           ],
           "weight": 1000,
           "stats": [
@@ -5183,7 +4926,7 @@
             "kr": "장착된 젬에 10레벨 명중 시 생명력 획득 보조 효과 적용"
           },
           "group": [
-            3099
+            3139
           ],
           "weight": 1000,
           "stats": [
@@ -5224,7 +4967,7 @@
             "kr": "장착된 젬에 10레벨 기세 보조 효과 적용"
           },
           "group": [
-            3100
+            3140
           ],
           "weight": 1000,
           "stats": [
@@ -5265,7 +5008,7 @@
             "kr": "장착된 젬에 10레벨 영감 보조 효과 적용"
           },
           "group": [
-            3101
+            3141
           ],
           "weight": 1000,
           "stats": [
@@ -5283,58 +5026,6 @@
               "text": {
                 "en": "Socketed Gems are Supported by Level 10 Inspiration",
                 "kr": "장착된 젬에 10레벨 영감 보조 효과 적용"
-              }
-            }
-          ]
-        },
-        {
-          "id": "V2LocalAddedPhysicalDamage2hCorrupted2__",
-          "affixType": "corrupted",
-          "tier": 31,
-          "valueRanges": [
-            [
-              4,
-              5
-            ],
-            [
-              6,
-              8
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null
-          },
-          "effect": {
-            "en": "Adds (4-5) to (6-8) Physical Damage",
-            "kr": "물리 피해 (4-5)~(6-8) 추가"
-          },
-          "group": [
-            6
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_minimum_added_physical_damage",
-                  "valueRange": [
-                    4,
-                    5
-                  ]
-                },
-                {
-                  "stat": "local_maximum_added_physical_damage",
-                  "valueRange": [
-                    6,
-                    8
-                  ]
-                }
-              ],
-              "value": "4~5, 6~8",
-              "text": {
-                "en": "Adds (4-5) to (6-8) Physical Damage",
-                "kr": "물리 피해 (4-5)~(6-8) 추가"
               }
             }
           ]
@@ -5376,58 +5067,6 @@
               "text": {
                 "en": "(5-7)% increased Attack Speed",
                 "kr": "공격 속도 (5-7)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "V2LocalAddedPhysicalDamage2hCorrupted3",
-          "affixType": "corrupted",
-          "tier": 84,
-          "valueRanges": [
-            [
-              8,
-              9
-            ],
-            [
-              11,
-              13
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null
-          },
-          "effect": {
-            "en": "Adds (8-9) to (11-13) Physical Damage",
-            "kr": "물리 피해 (8-9)~(11-13) 추가"
-          },
-          "group": [
-            6
-          ],
-          "weight": 250,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_minimum_added_physical_damage",
-                  "valueRange": [
-                    8,
-                    9
-                  ]
-                },
-                {
-                  "stat": "local_maximum_added_physical_damage",
-                  "valueRange": [
-                    11,
-                    13
-                  ]
-                }
-              ],
-              "value": "8~9, 11~13",
-              "text": {
-                "en": "Adds (8-9) to (11-13) Physical Damage",
-                "kr": "물리 피해 (8-9)~(11-13) 추가"
               }
             }
           ]

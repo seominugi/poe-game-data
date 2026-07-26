@@ -13,19 +13,19 @@
   ],
   "counts": {
     "prefix": 124,
-    "suffix": 112,
-    "total": 236
+    "suffix": 107,
+    "total": 231
   },
   "bucketCounts": {
     "normal": {
       "prefix": 124,
-      "suffix": 112,
-      "total": 236
+      "suffix": 107,
+      "total": 231
     },
     "corrupted": {
-      "prefix": 20,
+      "prefix": 27,
       "suffix": 0,
-      "total": 20
+      "total": 27
     },
     "essence": {
       "prefix": 25,
@@ -238,7 +238,7 @@
           "valueRanges": [
             [
               1,
-              1
+              2
             ],
             [
               2,
@@ -250,11 +250,11 @@
             "kr": "서리 내린"
           },
           "effect": {
-            "en": "Adds 1 to (2-3) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 1~(2-3) 추가"
+            "en": "Adds (1-2) to (2-3) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (1-2)~(2-3) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -264,7 +264,7 @@
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
                     1,
-                    1
+                    2
                   ]
                 },
                 {
@@ -275,10 +275,10 @@
                   ]
                 }
               ],
-              "value": "1, 2~3",
+              "value": "1~2, 2~3",
               "text": {
-                "en": "Adds 1 to (2-3) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 1~(2-3) 추가"
+                "en": "Adds (1-2) to (2-3) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (1-2)~(2-3) 추가"
               }
             }
           ]
@@ -306,7 +306,7 @@
             "kr": "주문 시전 시 화염 피해 (1-2)~(3-4) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -358,7 +358,7 @@
             "kr": "주문 시전 시 번개 피해 1~(4-5) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -702,8 +702,8 @@
           "tier": 2,
           "valueRanges": [
             [
-              5,
-              9
+              8,
+              12
             ],
             [
               17,
@@ -715,8 +715,8 @@
             "kr": "시전자의"
           },
           "effect": {
-            "en": "(5-9)% increased Spell Damage\n(17-20) to maximum Mana",
-            "kr": "주문 피해 (5-9)% 증가\n마나 최대치 (17-20)"
+            "en": "(8-12)% increased Spell Damage\n(17-20) to maximum Mana",
+            "kr": "주문 피해 (8-12)% 증가\n마나 최대치 (17-20)"
           },
           "group": [
             122
@@ -728,15 +728,15 @@
                 {
                   "stat": "spell_damage_+%",
                   "valueRange": [
-                    5,
-                    9
+                    8,
+                    12
                   ]
                 }
               ],
-              "value": "5~9",
+              "value": "8~12",
               "text": {
-                "en": "(5-9)% increased Spell Damage",
-                "kr": "주문 피해 (5-9)% 증가"
+                "en": "(8-12)% increased Spell Damage",
+                "kr": "주문 피해 (8-12)% 증가"
               }
             },
             {
@@ -776,7 +776,7 @@
             "kr": "주문 피해 (10-19)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
           "weight": 1500,
           "stats": [
@@ -1137,8 +1137,8 @@
               7
             ],
             [
-              10,
-              12
+              11,
+              13
             ]
           ],
           "name": {
@@ -1146,11 +1146,11 @@
             "kr": "냉각된"
           },
           "effect": {
-            "en": "Adds (5-7) to (10-12) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (5-7)~(10-12) 추가"
+            "en": "Adds (5-7) to (11-13) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (5-7)~(11-13) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -1166,15 +1166,15 @@
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    10,
-                    12
+                    11,
+                    13
                   ]
                 }
               ],
-              "value": "5~7, 10~12",
+              "value": "5~7, 11~13",
               "text": {
-                "en": "Adds (5-7) to (10-12) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (5-7)~(10-12) 추가"
+                "en": "Adds (5-7) to (11-13) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (5-7)~(11-13) 추가"
               }
             }
           ]
@@ -1189,8 +1189,8 @@
               8
             ],
             [
-              12,
-              14
+              13,
+              15
             ]
           ],
           "name": {
@@ -1198,11 +1198,11 @@
             "kr": "그을린"
           },
           "effect": {
-            "en": "Adds (6-8) to (12-14) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (6-8)~(12-14) 추가"
+            "en": "Adds (6-8) to (13-15) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (6-8)~(13-15) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -1218,15 +1218,15 @@
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    12,
-                    14
+                    13,
+                    15
                   ]
                 }
               ],
-              "value": "6~8, 12~14",
+              "value": "6~8, 13~15",
               "text": {
-                "en": "Adds (6-8) to (12-14) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (6-8)~(12-14) 추가"
+                "en": "Adds (6-8) to (13-15) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (6-8)~(13-15) 추가"
               }
             }
           ]
@@ -1241,8 +1241,8 @@
               2
             ],
             [
-              21,
-              22
+              22,
+              23
             ]
           ],
           "name": {
@@ -1250,11 +1250,11 @@
             "kr": "웅웅대는"
           },
           "effect": {
-            "en": "Adds (1-2) to (21-22) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (1-2)~(21-22) 추가"
+            "en": "Adds (1-2) to (22-23) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (1-2)~(22-23) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -1270,15 +1270,15 @@
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    21,
-                    22
+                    22,
+                    23
                   ]
                 }
               ],
-              "value": "1~2, 21~22",
+              "value": "1~2, 22~23",
               "text": {
-                "en": "Adds (1-2) to (21-22) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (1-2)~(21-22) 추가"
+                "en": "Adds (1-2) to (22-23) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (1-2)~(22-23) 추가"
               }
             }
           ]
@@ -1289,8 +1289,8 @@
           "tier": 11,
           "valueRanges": [
             [
-              10,
-              14
+              13,
+              18
             ],
             [
               21,
@@ -1302,8 +1302,8 @@
             "kr": "요술사의"
           },
           "effect": {
-            "en": "(10-14)% increased Spell Damage\n(21-24) to maximum Mana",
-            "kr": "주문 피해 (10-14)% 증가\n마나 최대치 (21-24)"
+            "en": "(13-18)% increased Spell Damage\n(21-24) to maximum Mana",
+            "kr": "주문 피해 (13-18)% 증가\n마나 최대치 (21-24)"
           },
           "group": [
             122
@@ -1315,15 +1315,15 @@
                 {
                   "stat": "spell_damage_+%",
                   "valueRange": [
-                    10,
-                    14
+                    13,
+                    18
                   ]
                 }
               ],
-              "value": "10~14",
+              "value": "13~18",
               "text": {
-                "en": "(10-14)% increased Spell Damage",
-                "kr": "주문 피해 (10-14)% 증가"
+                "en": "(13-18)% increased Spell Damage",
+                "kr": "주문 피해 (13-18)% 증가"
               }
             },
             {
@@ -1363,7 +1363,7 @@
             "kr": "주문 피해 (20-29)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
           "weight": 1500,
           "stats": [
@@ -1681,12 +1681,12 @@
           "tier": 18,
           "valueRanges": [
             [
-              8,
-              10
+              9,
+              11
             ],
             [
-              16,
-              18
+              17,
+              20
             ]
           ],
           "name": {
@@ -1694,11 +1694,11 @@
             "kr": "얼음 같은"
           },
           "effect": {
-            "en": "Adds (8-10) to (16-18) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (8-10)~(16-18) 추가"
+            "en": "Adds (9-11) to (17-20) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (9-11)~(17-20) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -1707,22 +1707,22 @@
                 {
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
-                    8,
-                    10
+                    9,
+                    11
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    16,
-                    18
+                    17,
+                    20
                   ]
                 }
               ],
-              "value": "8~10, 16~18",
+              "value": "9~11, 17~20",
               "text": {
-                "en": "Adds (8-10) to (16-18) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (8-10)~(16-18) 추가"
+                "en": "Adds (9-11) to (17-20) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (9-11)~(17-20) 추가"
               }
             }
           ]
@@ -1733,12 +1733,12 @@
           "tier": 18,
           "valueRanges": [
             [
-              10,
-              12
+              11,
+              13
             ],
             [
-              19,
-              23
+              21,
+              25
             ]
           ],
           "name": {
@@ -1746,11 +1746,11 @@
             "kr": "연기 나는"
           },
           "effect": {
-            "en": "Adds (10-12) to (19-23) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (10-12)~(19-23) 추가"
+            "en": "Adds (11-13) to (21-25) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (11-13)~(21-25) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -1759,22 +1759,22 @@
                 {
                   "stat": "spell_minimum_added_fire_damage",
                   "valueRange": [
-                    10,
-                    12
+                    11,
+                    13
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    19,
-                    23
+                    21,
+                    25
                   ]
                 }
               ],
-              "value": "10~12, 19~23",
+              "value": "11~13, 21~25",
               "text": {
-                "en": "Adds (10-12) to (19-23) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (10-12)~(19-23) 추가"
+                "en": "Adds (11-13) to (21-25) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (11-13)~(21-25) 추가"
               }
             }
           ]
@@ -1789,8 +1789,8 @@
               2
             ],
             [
-              33,
-              35
+              36,
+              38
             ]
           ],
           "name": {
@@ -1798,11 +1798,11 @@
             "kr": "타닥대는"
           },
           "effect": {
-            "en": "Adds (1-2) to (33-35) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (1-2)~(33-35) 추가"
+            "en": "Adds (1-2) to (36-38) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (1-2)~(36-38) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -1818,15 +1818,15 @@
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    33,
-                    35
+                    36,
+                    38
                   ]
                 }
               ],
-              "value": "1~2, 33~35",
+              "value": "1~2, 36~38",
               "text": {
-                "en": "Adds (1-2) to (33-35) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (1-2)~(33-35) 추가"
+                "en": "Adds (1-2) to (36-38) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (1-2)~(36-38) 추가"
               }
             }
           ]
@@ -2136,8 +2136,8 @@
           "tier": 23,
           "valueRanges": [
             [
-              15,
-              19
+              19,
+              24
             ],
             [
               25,
@@ -2149,8 +2149,8 @@
             "kr": "마술사의"
           },
           "effect": {
-            "en": "(15-19)% increased Spell Damage\n(25-28) to maximum Mana",
-            "kr": "주문 피해 (15-19)% 증가\n마나 최대치 (25-28)"
+            "en": "(19-24)% increased Spell Damage\n(25-28) to maximum Mana",
+            "kr": "주문 피해 (19-24)% 증가\n마나 최대치 (25-28)"
           },
           "group": [
             122
@@ -2162,15 +2162,15 @@
                 {
                   "stat": "spell_damage_+%",
                   "valueRange": [
-                    15,
-                    19
+                    19,
+                    24
                   ]
                 }
               ],
-              "value": "15~19",
+              "value": "19~24",
               "text": {
-                "en": "(15-19)% increased Spell Damage",
-                "kr": "주문 피해 (15-19)% 증가"
+                "en": "(19-24)% increased Spell Damage",
+                "kr": "주문 피해 (19-24)% 증가"
               }
             },
             {
@@ -2210,7 +2210,7 @@
             "kr": "주문 피해 (30-39)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
           "weight": 1500,
           "stats": [
@@ -2290,12 +2290,12 @@
           "tier": 26,
           "valueRanges": [
             [
-              11,
-              15
+              12,
+              17
             ],
             [
-              22,
-              25
+              25,
+              28
             ]
           ],
           "name": {
@@ -2303,11 +2303,11 @@
             "kr": "차디찬"
           },
           "effect": {
-            "en": "Adds (11-15) to (22-25) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (11-15)~(22-25) 추가"
+            "en": "Adds (12-17) to (25-28) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (12-17)~(25-28) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -2316,22 +2316,22 @@
                 {
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
-                    11,
-                    15
+                    12,
+                    17
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    22,
-                    25
+                    25,
+                    28
                   ]
                 }
               ],
-              "value": "11~15, 22~25",
+              "value": "12~17, 25~28",
               "text": {
-                "en": "Adds (11-15) to (22-25) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (11-15)~(22-25) 추가"
+                "en": "Adds (12-17) to (25-28) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (12-17)~(25-28) 추가"
               }
             }
           ]
@@ -2342,12 +2342,12 @@
           "tier": 26,
           "valueRanges": [
             [
-              13,
-              18
+              15,
+              20
             ],
             [
-              27,
-              31
+              30,
+              35
             ]
           ],
           "name": {
@@ -2355,11 +2355,11 @@
             "kr": "불타는"
           },
           "effect": {
-            "en": "Adds (13-18) to (27-31) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (13-18)~(27-31) 추가"
+            "en": "Adds (15-20) to (30-35) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (15-20)~(30-35) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -2368,22 +2368,22 @@
                 {
                   "stat": "spell_minimum_added_fire_damage",
                   "valueRange": [
-                    13,
-                    18
+                    15,
+                    20
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    27,
-                    31
+                    30,
+                    35
                   ]
                 }
               ],
-              "value": "13~18, 27~31",
+              "value": "15~20, 30~35",
               "text": {
-                "en": "Adds (13-18) to (27-31) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (13-18)~(27-31) 추가"
+                "en": "Adds (15-20) to (30-35) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (15-20)~(30-35) 추가"
               }
             }
           ]
@@ -2398,8 +2398,8 @@
               4
             ],
             [
-              46,
-              48
+              52,
+              54
             ]
           ],
           "name": {
@@ -2407,11 +2407,11 @@
             "kr": "치직대는"
           },
           "effect": {
-            "en": "Adds (1-4) to (46-48) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (1-4)~(46-48) 추가"
+            "en": "Adds (1-4) to (52-54) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (1-4)~(52-54) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -2427,15 +2427,15 @@
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    46,
-                    48
+                    52,
+                    54
                   ]
                 }
               ],
-              "value": "1~4, 46~48",
+              "value": "1~4, 52~54",
               "text": {
-                "en": "Adds (1-4) to (46-48) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (1-4)~(46-48) 추가"
+                "en": "Adds (1-4) to (52-54) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (1-4)~(52-54) 추가"
               }
             }
           ]
@@ -2736,12 +2736,12 @@
           "tier": 33,
           "valueRanges": [
             [
-              16,
-              20
+              18,
+              23
             ],
             [
-              30,
-              36
+              35,
+              41
             ]
           ],
           "name": {
@@ -2749,11 +2749,11 @@
             "kr": "동결의"
           },
           "effect": {
-            "en": "Adds (16-20) to (30-36) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (16-20)~(30-36) 추가"
+            "en": "Adds (18-23) to (35-41) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (18-23)~(35-41) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -2762,22 +2762,22 @@
                 {
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
-                    16,
-                    20
+                    18,
+                    23
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    30,
-                    36
+                    35,
+                    41
                   ]
                 }
               ],
-              "value": "16~20, 30~36",
+              "value": "18~23, 35~41",
               "text": {
-                "en": "Adds (16-20) to (30-36) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (16-20)~(30-36) 추가"
+                "en": "Adds (18-23) to (35-41) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (18-23)~(35-41) 추가"
               }
             }
           ]
@@ -2788,12 +2788,12 @@
           "tier": 33,
           "valueRanges": [
             [
-              19,
-              25
+              22,
+              29
             ],
             [
-              37,
-              44
+              43,
+              51
             ]
           ],
           "name": {
@@ -2801,11 +2801,11 @@
             "kr": "불을 뿜는"
           },
           "effect": {
-            "en": "Adds (19-25) to (37-44) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (19-25)~(37-44) 추가"
+            "en": "Adds (22-29) to (43-51) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (22-29)~(43-51) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -2814,22 +2814,22 @@
                 {
                   "stat": "spell_minimum_added_fire_damage",
                   "valueRange": [
-                    19,
-                    25
+                    22,
+                    29
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    37,
-                    44
+                    43,
+                    51
                   ]
                 }
               ],
-              "value": "19~25, 37~44",
+              "value": "22~29, 43~51",
               "text": {
-                "en": "Adds (19-25) to (37-44) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (19-25)~(37-44) 추가"
+                "en": "Adds (22-29) to (43-51) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (22-29)~(43-51) 추가"
               }
             }
           ]
@@ -2841,11 +2841,11 @@
           "valueRanges": [
             [
               2,
-              5
+              6
             ],
             [
-              64,
-              68
+              74,
+              78
             ]
           ],
           "name": {
@@ -2853,11 +2853,11 @@
             "kr": "전기불꽃의"
           },
           "effect": {
-            "en": "Adds (2-5) to (64-68) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (2-5)~(64-68) 추가"
+            "en": "Adds (2-6) to (74-78) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (2-6)~(74-78) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -2867,21 +2867,21 @@
                   "stat": "spell_minimum_added_lightning_damage",
                   "valueRange": [
                     2,
-                    5
+                    6
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    64,
-                    68
+                    74,
+                    78
                   ]
                 }
               ],
-              "value": "2~5, 64~68",
+              "value": "2~6, 74~78",
               "text": {
-                "en": "Adds (2-5) to (64-68) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (2-5)~(64-68) 추가"
+                "en": "Adds (2-6) to (74-78) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (2-6)~(74-78) 추가"
               }
             }
           ]
@@ -3139,8 +3139,8 @@
           "tier": 35,
           "valueRanges": [
             [
-              20,
-              24
+              25,
+              30
             ],
             [
               29,
@@ -3152,8 +3152,8 @@
             "kr": "흑마법사의"
           },
           "effect": {
-            "en": "(20-24)% increased Spell Damage\n(29-33) to maximum Mana",
-            "kr": "주문 피해 (20-24)% 증가\n마나 최대치 (29-33)"
+            "en": "(25-30)% increased Spell Damage\n(29-33) to maximum Mana",
+            "kr": "주문 피해 (25-30)% 증가\n마나 최대치 (29-33)"
           },
           "group": [
             122
@@ -3165,15 +3165,15 @@
                 {
                   "stat": "spell_damage_+%",
                   "valueRange": [
-                    20,
-                    24
+                    25,
+                    30
                   ]
                 }
               ],
-              "value": "20~24",
+              "value": "25~30",
               "text": {
-                "en": "(20-24)% increased Spell Damage",
-                "kr": "주문 피해 (20-24)% 증가"
+                "en": "(25-30)% increased Spell Damage",
+                "kr": "주문 피해 (25-30)% 증가"
               }
             },
             {
@@ -3213,9 +3213,9 @@
             "kr": "주문 피해 (40-54)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
-          "weight": 600,
+          "weight": 1500,
           "stats": [
             {
               "stats": [
@@ -3438,12 +3438,12 @@
           "tier": 42,
           "valueRanges": [
             [
-              20,
-              26
+              24,
+              31
             ],
             [
-              40,
-              46
+              47,
+              54
             ]
           ],
           "name": {
@@ -3451,11 +3451,11 @@
             "kr": "얼어붙은"
           },
           "effect": {
-            "en": "Adds (20-26) to (40-46) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (20-26)~(40-46) 추가"
+            "en": "Adds (24-31) to (47-54) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (24-31)~(47-54) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -3464,22 +3464,22 @@
                 {
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
-                    20,
-                    26
+                    24,
+                    31
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    40,
-                    46
+                    47,
+                    54
                   ]
                 }
               ],
-              "value": "20~26, 40~46",
+              "value": "24~31, 47~54",
               "text": {
-                "en": "Adds (20-26) to (40-46) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (20-26)~(40-46) 추가"
+                "en": "Adds (24-31) to (47-54) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (24-31)~(47-54) 추가"
               }
             }
           ]
@@ -3490,12 +3490,12 @@
           "tier": 42,
           "valueRanges": [
             [
-              24,
-              33
+              28,
+              39
             ],
             [
-              48,
-              57
+              57,
+              67
             ]
           ],
           "name": {
@@ -3503,11 +3503,11 @@
             "kr": "작열하는"
           },
           "effect": {
-            "en": "Adds (24-33) to (48-57) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (24-33)~(48-57) 추가"
+            "en": "Adds (28-39) to (57-67) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (28-39)~(57-67) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -3516,22 +3516,22 @@
                 {
                   "stat": "spell_minimum_added_fire_damage",
                   "valueRange": [
-                    24,
-                    33
+                    28,
+                    39
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    48,
-                    57
+                    57,
+                    67
                   ]
                 }
               ],
-              "value": "24~33, 48~57",
+              "value": "28~39, 57~67",
               "text": {
-                "en": "Adds (24-33) to (48-57) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (24-33)~(48-57) 추가"
+                "en": "Adds (28-39) to (57-67) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (28-39)~(57-67) 추가"
               }
             }
           ]
@@ -3543,11 +3543,11 @@
           "valueRanges": [
             [
               2,
-              7
+              8
             ],
             [
-              84,
-              88
+              99,
+              104
             ]
           ],
           "name": {
@@ -3555,11 +3555,11 @@
             "kr": "전호의"
           },
           "effect": {
-            "en": "Adds (2-7) to (84-88) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (2-7)~(84-88) 추가"
+            "en": "Adds (2-8) to (99-104) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (2-8)~(99-104) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -3569,21 +3569,21 @@
                   "stat": "spell_minimum_added_lightning_damage",
                   "valueRange": [
                     2,
-                    7
+                    8
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    84,
-                    88
+                    99,
+                    104
                   ]
                 }
               ],
-              "value": "2~7, 84~88",
+              "value": "2~8, 99~104",
               "text": {
-                "en": "Adds (2-7) to (84-88) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (2-7)~(84-88) 추가"
+                "en": "Adds (2-8) to (99-104) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (2-8)~(99-104) 추가"
               }
             }
           ]
@@ -3800,8 +3800,8 @@
           "tier": 46,
           "valueRanges": [
             [
-              25,
-              29
+              31,
+              36
             ],
             [
               34,
@@ -3813,8 +3813,8 @@
             "kr": "마법사의"
           },
           "effect": {
-            "en": "(25-29)% increased Spell Damage\n(34-37) to maximum Mana",
-            "kr": "주문 피해 (25-29)% 증가\n마나 최대치 (34-37)"
+            "en": "(31-36)% increased Spell Damage\n(34-37) to maximum Mana",
+            "kr": "주문 피해 (31-36)% 증가\n마나 최대치 (34-37)"
           },
           "group": [
             122
@@ -3826,15 +3826,15 @@
                 {
                   "stat": "spell_damage_+%",
                   "valueRange": [
-                    25,
-                    29
+                    31,
+                    36
                   ]
                 }
               ],
-              "value": "25~29",
+              "value": "31~36",
               "text": {
-                "en": "(25-29)% increased Spell Damage",
-                "kr": "주문 피해 (25-29)% 증가"
+                "en": "(31-36)% increased Spell Damage",
+                "kr": "주문 피해 (31-36)% 증가"
               }
             },
             {
@@ -3874,9 +3874,9 @@
             "kr": "주문 피해 (55-69)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
-          "weight": 300,
+          "weight": 1500,
           "stats": [
             {
               "stats": [
@@ -4047,12 +4047,12 @@
           "tier": 51,
           "valueRanges": [
             [
-              26,
-              35
+              31,
+              42
             ],
             [
-              51,
-              60
+              62,
+              73
             ]
           ],
           "name": {
@@ -4060,11 +4060,11 @@
             "kr": "빙하의"
           },
           "effect": {
-            "en": "Adds (26-35) to (51-60) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (26-35)~(51-60) 추가"
+            "en": "Adds (31-42) to (62-73) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (31-42)~(62-73) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -4073,22 +4073,22 @@
                 {
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
-                    26,
-                    35
+                    31,
+                    42
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    51,
-                    60
+                    62,
+                    73
                   ]
                 }
               ],
-              "value": "26~35, 51~60",
+              "value": "31~42, 62~73",
               "text": {
-                "en": "Adds (26-35) to (51-60) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (26-35)~(51-60) 추가"
+                "en": "Adds (31-42) to (62-73) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (31-42)~(62-73) 추가"
               }
             }
           ]
@@ -4099,12 +4099,12 @@
           "tier": 51,
           "valueRanges": [
             [
-              31,
-              42
+              38,
+              51
             ],
             [
-              64,
-              73
+              77,
+              88
             ]
           ],
           "name": {
@@ -4112,11 +4112,11 @@
             "kr": "소각하는"
           },
           "effect": {
-            "en": "Adds (31-42) to (64-73) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (31-42)~(64-73) 추가"
+            "en": "Adds (38-51) to (77-88) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (38-51)~(77-88) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -4125,22 +4125,22 @@
                 {
                   "stat": "spell_minimum_added_fire_damage",
                   "valueRange": [
-                    31,
-                    42
+                    38,
+                    51
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    64,
-                    73
+                    77,
+                    88
                   ]
                 }
               ],
-              "value": "31~42, 64~73",
+              "value": "38~51, 77~88",
               "text": {
-                "en": "Adds (31-42) to (64-73) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (31-42)~(64-73) 추가"
+                "en": "Adds (38-51) to (77-88) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (38-51)~(77-88) 추가"
               }
             }
           ]
@@ -4152,11 +4152,11 @@
           "valueRanges": [
             [
               2,
-              9
+              11
             ],
             [
-              109,
-              115
+              132,
+              139
             ]
           ],
           "name": {
@@ -4164,11 +4164,11 @@
             "kr": "감전의"
           },
           "effect": {
-            "en": "Adds (2-9) to (109-115) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (2-9)~(109-115) 추가"
+            "en": "Adds (2-11) to (132-139) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (2-11)~(132-139) 추가"
           },
           "group": [
-            1493
+            1528
           ],
           "weight": 800,
           "stats": [
@@ -4178,21 +4178,21 @@
                   "stat": "spell_minimum_added_lightning_damage",
                   "valueRange": [
                     2,
-                    9
+                    11
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    109,
-                    115
+                    132,
+                    139
                   ]
                 }
               ],
-              "value": "2~9, 109~115",
+              "value": "2~11, 132~139",
               "text": {
-                "en": "Adds (2-9) to (109-115) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (2-9)~(109-115) 추가"
+                "en": "Adds (2-11) to (132-139) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (2-11)~(132-139) 추가"
               }
             }
           ]
@@ -4348,8 +4348,8 @@
           "tier": 58,
           "valueRanges": [
             [
-              30,
-              34
+              37,
+              43
             ],
             [
               38,
@@ -4361,8 +4361,8 @@
             "kr": "대마법사의"
           },
           "effect": {
-            "en": "(30-34)% increased Spell Damage\n(38-41) to maximum Mana",
-            "kr": "주문 피해 (30-34)% 증가\n마나 최대치 (38-41)"
+            "en": "(37-43)% increased Spell Damage\n(38-41) to maximum Mana",
+            "kr": "주문 피해 (37-43)% 증가\n마나 최대치 (38-41)"
           },
           "group": [
             122
@@ -4374,15 +4374,15 @@
                 {
                   "stat": "spell_damage_+%",
                   "valueRange": [
-                    30,
-                    34
+                    37,
+                    43
                   ]
                 }
               ],
-              "value": "30~34",
+              "value": "37~43",
               "text": {
-                "en": "(30-34)% increased Spell Damage",
-                "kr": "주문 피해 (30-34)% 증가"
+                "en": "(37-43)% increased Spell Damage",
+                "kr": "주문 피해 (37-43)% 증가"
               }
             },
             {
@@ -4422,9 +4422,9 @@
             "kr": "주문 피해 (70-84)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
-          "weight": 150,
+          "weight": 500,
           "stats": [
             {
               "stats": [
@@ -4686,12 +4686,12 @@
           "tier": 62,
           "valueRanges": [
             [
-              33,
-              43
+              41,
+              53
             ],
             [
-              64,
-              75
+              79,
+              93
             ]
           ],
           "name": {
@@ -4699,35 +4699,35 @@
             "kr": "극지의"
           },
           "effect": {
-            "en": "Adds (33-43) to (64-75) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (33-43)~(64-75) 추가"
+            "en": "Adds (41-53) to (79-93) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (41-53)~(79-93) 추가"
           },
           "group": [
-            1493
+            1528
           ],
-          "weight": 800,
+          "weight": 250,
           "stats": [
             {
               "stats": [
                 {
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
-                    33,
-                    43
+                    41,
+                    53
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    64,
-                    75
+                    79,
+                    93
                   ]
                 }
               ],
-              "value": "33~43, 64~75",
+              "value": "41~53, 79~93",
               "text": {
-                "en": "Adds (33-43) to (64-75) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (33-43)~(64-75) 추가"
+                "en": "Adds (41-53) to (79-93) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (41-53)~(79-93) 추가"
               }
             }
           ]
@@ -4738,12 +4738,12 @@
           "tier": 62,
           "valueRanges": [
             [
-              40,
-              52
+              50,
+              64
             ],
             [
-              79,
-              91
+              98,
+              113
             ]
           ],
           "name": {
@@ -4751,35 +4751,35 @@
             "kr": "폭발하는"
           },
           "effect": {
-            "en": "Adds (40-52) to (79-91) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (40-52)~(79-91) 추가"
+            "en": "Adds (50-64) to (98-113) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (50-64)~(98-113) 추가"
           },
           "group": [
-            1493
+            1528
           ],
-          "weight": 800,
+          "weight": 250,
           "stats": [
             {
               "stats": [
                 {
                   "stat": "spell_minimum_added_fire_damage",
                   "valueRange": [
-                    40,
-                    52
+                    50,
+                    64
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    79,
-                    91
+                    98,
+                    113
                   ]
                 }
               ],
-              "value": "40~52, 79~91",
+              "value": "50~64, 98~113",
               "text": {
-                "en": "Adds (40-52) to (79-91) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (40-52)~(79-91) 추가"
+                "en": "Adds (50-64) to (98-113) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (50-64)~(98-113) 추가"
               }
             }
           ]
@@ -4790,12 +4790,12 @@
           "tier": 62,
           "valueRanges": [
             [
-              4,
-              11
+              5,
+              14
             ],
             [
-              136,
-              144
+              169,
+              179
             ]
           ],
           "name": {
@@ -4803,35 +4803,35 @@
             "kr": "방전의"
           },
           "effect": {
-            "en": "Adds (4-11) to (136-144) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (4-11)~(136-144) 추가"
+            "en": "Adds (5-14) to (169-179) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (5-14)~(169-179) 추가"
           },
           "group": [
-            1493
+            1528
           ],
-          "weight": 800,
+          "weight": 250,
           "stats": [
             {
               "stats": [
                 {
                   "stat": "spell_minimum_added_lightning_damage",
                   "valueRange": [
-                    4,
-                    11
+                    5,
+                    14
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    136,
-                    144
+                    169,
+                    179
                   ]
                 }
               ],
-              "value": "4~11, 136~144",
+              "value": "5~14, 169~179",
               "text": {
-                "en": "Adds (4-11) to (136-144) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (4-11)~(136-144) 추가"
+                "en": "Adds (5-14) to (169-179) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (5-14)~(169-179) 추가"
               }
             }
           ]
@@ -5000,9 +5000,9 @@
             "kr": "주문 피해 (85-99)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
-          "weight": 80,
+          "weight": 150,
           "stats": [
             {
               "stats": [
@@ -5327,12 +5327,12 @@
           "tier": 74,
           "valueRanges": [
             [
-              41,
-              54
+              52,
+              69
             ],
             [
-              81,
-              93
+              103,
+              118
             ]
           ],
           "name": {
@@ -5340,35 +5340,35 @@
             "kr": "얼음 무덤의"
           },
           "effect": {
-            "en": "Adds (41-54) to (81-93) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (41-54)~(81-93) 추가"
+            "en": "Adds (52-69) to (103-118) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (52-69)~(103-118) 추가"
           },
           "group": [
-            1493
+            1528
           ],
-          "weight": 800,
+          "weight": 50,
           "stats": [
             {
               "stats": [
                 {
                   "stat": "spell_minimum_added_cold_damage",
                   "valueRange": [
-                    41,
-                    54
+                    52,
+                    69
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_cold_damage",
                   "valueRange": [
-                    81,
-                    93
+                    103,
+                    118
                   ]
                 }
               ],
-              "value": "41~54, 81~93",
+              "value": "52~69, 103~118",
               "text": {
-                "en": "Adds (41-54) to (81-93) Cold Damage to Spells",
-                "kr": "주문 시전 시 냉기 피해 (41-54)~(81-93) 추가"
+                "en": "Adds (52-69) to (103-118) Cold Damage to Spells",
+                "kr": "주문 시전 시 냉기 피해 (52-69)~(103-118) 추가"
               }
             }
           ]
@@ -5379,12 +5379,12 @@
           "tier": 74,
           "valueRanges": [
             [
-              49,
-              66
+              62,
+              84
             ],
             [
-              98,
-              115
+              124,
+              146
             ]
           ],
           "name": {
@@ -5392,35 +5392,35 @@
             "kr": "화장하는"
           },
           "effect": {
-            "en": "Adds (49-66) to (98-115) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (49-66)~(98-115) 추가"
+            "en": "Adds (62-84) to (124-146) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (62-84)~(124-146) 추가"
           },
           "group": [
-            1493
+            1528
           ],
-          "weight": 800,
+          "weight": 50,
           "stats": [
             {
               "stats": [
                 {
                   "stat": "spell_minimum_added_fire_damage",
                   "valueRange": [
-                    49,
-                    66
+                    62,
+                    84
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_fire_damage",
                   "valueRange": [
-                    98,
-                    115
+                    124,
+                    146
                   ]
                 }
               ],
-              "value": "49~66, 98~115",
+              "value": "62~84, 124~146",
               "text": {
-                "en": "Adds (49-66) to (98-115) Fire Damage to Spells",
-                "kr": "주문 시전 시 화염 피해 (49-66)~(98-115) 추가"
+                "en": "Adds (62-84) to (124-146) Fire Damage to Spells",
+                "kr": "주문 시전 시 화염 피해 (62-84)~(124-146) 추가"
               }
             }
           ]
@@ -5431,12 +5431,12 @@
           "tier": 74,
           "valueRanges": [
             [
-              4,
-              14
+              5,
+              18
             ],
             [
-              170,
-              179
+              216,
+              227
             ]
           ],
           "name": {
@@ -5444,35 +5444,35 @@
             "kr": "전기 처형의"
           },
           "effect": {
-            "en": "Adds (4-14) to (170-179) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (4-14)~(170-179) 추가"
+            "en": "Adds (5-18) to (216-227) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (5-18)~(216-227) 추가"
           },
           "group": [
-            1493
+            1528
           ],
-          "weight": 800,
+          "weight": 60,
           "stats": [
             {
               "stats": [
                 {
                   "stat": "spell_minimum_added_lightning_damage",
                   "valueRange": [
-                    4,
-                    14
+                    5,
+                    18
                   ]
                 },
                 {
                   "stat": "spell_maximum_added_lightning_damage",
                   "valueRange": [
-                    170,
-                    179
+                    216,
+                    227
                   ]
                 }
               ],
-              "value": "4~14, 170~179",
+              "value": "5~18, 216~227",
               "text": {
-                "en": "Adds (4-14) to (170-179) Lightning Damage to Spells",
-                "kr": "주문 시전 시 번개 피해 (4-14)~(170-179) 추가"
+                "en": "Adds (5-18) to (216-227) Lightning Damage to Spells",
+                "kr": "주문 시전 시 번개 피해 (5-18)~(216-227) 추가"
               }
             }
           ]
@@ -5628,8 +5628,8 @@
           "tier": 80,
           "valueRanges": [
             [
-              35,
-              39
+              44,
+              49
             ],
             [
               42,
@@ -5641,8 +5641,8 @@
             "kr": "리치의"
           },
           "effect": {
-            "en": "(35-39)% increased Spell Damage\n(42-45) to maximum Mana",
-            "kr": "주문 피해 (35-39)% 증가\n마나 최대치 (42-45)"
+            "en": "(44-49)% increased Spell Damage\n(42-45) to maximum Mana",
+            "kr": "주문 피해 (44-49)% 증가\n마나 최대치 (42-45)"
           },
           "group": [
             122
@@ -5654,15 +5654,15 @@
                 {
                   "stat": "spell_damage_+%",
                   "valueRange": [
-                    35,
-                    39
+                    44,
+                    49
                   ]
                 }
               ],
-              "value": "35~39",
+              "value": "44~49",
               "text": {
-                "en": "(35-39)% increased Spell Damage",
-                "kr": "주문 피해 (35-39)% 증가"
+                "en": "(44-49)% increased Spell Damage",
+                "kr": "주문 피해 (44-49)% 증가"
               }
             },
             {
@@ -5944,7 +5944,7 @@
             "kr": "카오스 피해 (56-87)~(105-160) 추가"
           },
           "group": [
-            655
+            658
           ],
           "weight": 600,
           "stats": [
@@ -6094,7 +6094,7 @@
             "kr": "주문 피해 (100-109)% 증가"
           },
           "group": [
-            2571
+            2609
           ],
           "weight": 40,
           "stats": [
@@ -6547,7 +6547,7 @@
             "kr": "지속 카오스 피해 배율 (14-18)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 400,
           "stats": [
@@ -6588,7 +6588,7 @@
             "kr": "지속 냉기 피해 배율 (14-18)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 300,
           "stats": [
@@ -6647,47 +6647,6 @@
               "text": {
                 "en": "(15-25)% increased Attack Speed",
                 "kr": "공격 속도 (15-25)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration1",
-          "affixType": "suffix",
-          "tier": 5,
-          "valueRanges": [
-            [
-              11,
-              15
-            ]
-          ],
-          "name": {
-            "en": "of Impact",
-            "kr": "- 충격"
-          },
-          "effect": {
-            "en": "(11-15)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    11,
-                    15
-                  ]
-                }
-              ],
-              "value": "11~15",
-              "text": {
-                "en": "(11-15)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
               }
             }
           ]
@@ -6797,7 +6756,7 @@
             "kr": "시야 반경 5% 증가\n일반 정확도 (9-11)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -6964,8 +6923,8 @@
           "tier": 11,
           "valueRanges": [
             [
-              10,
-              19
+              40,
+              49
             ]
           ],
           "name": {
@@ -6973,8 +6932,8 @@
             "kr": "- 위험"
           },
           "effect": {
-            "en": "(10-19)% increased Spell Critical Strike Chance",
-            "kr": "주문 치명타 확률 (10-19)% 증가"
+            "en": "(40-49)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (40-49)% 증가"
           },
           "group": [
             78
@@ -6986,15 +6945,15 @@
                 {
                   "stat": "spell_critical_strike_chance_+%",
                   "valueRange": [
-                    10,
-                    19
+                    40,
+                    49
                   ]
                 }
               ],
-              "value": "10~19",
+              "value": "40~49",
               "text": {
-                "en": "(10-19)% increased Spell Critical Strike Chance",
-                "kr": "주문 치명타 확률 (10-19)% 증가"
+                "en": "(40-49)% increased Spell Critical Strike Chance",
+                "kr": "주문 치명타 확률 (40-49)% 증가"
               }
             }
           ]
@@ -7018,7 +6977,7 @@
             "kr": "지속 카오스 피해 배율 (19-23)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 300,
           "stats": [
@@ -7059,7 +7018,7 @@
             "kr": "지속 냉기 피해 배율 (19-23)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 220,
           "stats": [
@@ -7145,7 +7104,7 @@
             "kr": "시야 반경 10% 증가\n일반 정확도 (12-15)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -7220,47 +7179,6 @@
               "text": {
                 "en": "(20-29)% increased Mana Regeneration Rate",
                 "kr": "마나 재생 속도 (20-29)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration2",
-          "affixType": "suffix",
-          "tier": 18,
-          "valueRanges": [
-            [
-              16,
-              20
-            ]
-          ],
-          "name": {
-            "en": "of Dazing",
-            "kr": "- 혼미"
-          },
-          "effect": {
-            "en": "(16-20)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    16,
-                    20
-                  ]
-                }
-              ],
-              "value": "16~20",
-              "text": {
-                "en": "(16-20)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
               }
             }
           ]
@@ -7476,8 +7394,8 @@
           "tier": 21,
           "valueRanges": [
             [
-              20,
-              39
+              50,
+              59
             ]
           ],
           "name": {
@@ -7485,8 +7403,8 @@
             "kr": "- 혼란"
           },
           "effect": {
-            "en": "(20-39)% increased Spell Critical Strike Chance",
-            "kr": "주문 치명타 확률 (20-39)% 증가"
+            "en": "(50-59)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (50-59)% 증가"
           },
           "group": [
             78
@@ -7498,15 +7416,15 @@
                 {
                   "stat": "spell_critical_strike_chance_+%",
                   "valueRange": [
-                    20,
-                    39
+                    50,
+                    59
                   ]
                 }
               ],
-              "value": "20~39",
+              "value": "50~59",
               "text": {
-                "en": "(20-39)% increased Spell Critical Strike Chance",
-                "kr": "주문 치명타 확률 (20-39)% 증가"
+                "en": "(50-59)% increased Spell Critical Strike Chance",
+                "kr": "주문 치명타 확률 (50-59)% 증가"
               }
             }
           ]
@@ -7722,8 +7640,8 @@
           "tier": 28,
           "valueRanges": [
             [
-              40,
-              59
+              60,
+              69
             ]
           ],
           "name": {
@@ -7731,8 +7649,8 @@
             "kr": "- 재난"
           },
           "effect": {
-            "en": "(40-59)% increased Spell Critical Strike Chance",
-            "kr": "주문 치명타 확률 (40-59)% 증가"
+            "en": "(60-69)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (60-69)% 증가"
           },
           "group": [
             78
@@ -7744,15 +7662,15 @@
                 {
                   "stat": "spell_critical_strike_chance_+%",
                   "valueRange": [
-                    40,
-                    59
+                    60,
+                    69
                   ]
                 }
               ],
-              "value": "40~59",
+              "value": "60~69",
               "text": {
-                "en": "(40-59)% increased Spell Critical Strike Chance",
-                "kr": "주문 치명타 확률 (40-59)% 증가"
+                "en": "(60-69)% increased Spell Critical Strike Chance",
+                "kr": "주문 치명타 확률 (60-69)% 증가"
               }
             }
           ]
@@ -8026,7 +7944,7 @@
             "kr": "시야 반경 15% 증가\n일반 정확도 (16-20)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -8060,47 +7978,6 @@
               "text": {
                 "en": "(16-20)% increased Global Accuracy Rating",
                 "kr": "일반 정확도 (16-20)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration3",
-          "affixType": "suffix",
-          "tier": 30,
-          "valueRanges": [
-            [
-              21,
-              25
-            ]
-          ],
-          "name": {
-            "en": "of Stunning",
-            "kr": "- 기절"
-          },
-          "effect": {
-            "en": "(21-25)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    21,
-                    25
-                  ]
-                }
-              ],
-              "value": "21~25",
-              "text": {
-                "en": "(21-25)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
               }
             }
           ]
@@ -8206,7 +8083,7 @@
             "kr": "지속 카오스 피해 배율 (24-28)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 200,
           "stats": [
@@ -8247,7 +8124,7 @@
             "kr": "지속 냉기 피해 배율 (24-28)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 140,
           "stats": [
@@ -8288,7 +8165,7 @@
             "kr": "능력치 요구사항 -18% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -8562,7 +8439,7 @@
           "tier": 41,
           "valueRanges": [
             [
-              60,
+              70,
               79
             ]
           ],
@@ -8571,8 +8448,8 @@
             "kr": "- 대재난"
           },
           "effect": {
-            "en": "(60-79)% increased Spell Critical Strike Chance",
-            "kr": "주문 치명타 확률 (60-79)% 증가"
+            "en": "(70-79)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (70-79)% 증가"
           },
           "group": [
             78
@@ -8584,15 +8461,15 @@
                 {
                   "stat": "spell_critical_strike_chance_+%",
                   "valueRange": [
-                    60,
+                    70,
                     79
                   ]
                 }
               ],
-              "value": "60~79",
+              "value": "70~79",
               "text": {
-                "en": "(60-79)% increased Spell Critical Strike Chance",
-                "kr": "주문 치명타 확률 (60-79)% 증가"
+                "en": "(70-79)% increased Spell Critical Strike Chance",
+                "kr": "주문 치명타 확률 (70-79)% 증가"
               }
             }
           ]
@@ -8698,7 +8575,7 @@
             "kr": "지속 피해 배율 (7-11)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -8839,47 +8716,6 @@
               "text": {
                 "en": "(25-29)% increased Critical Strike Chance",
                 "kr": "치명타 확률 (25-29)% 증가"
-              }
-            }
-          ]
-        },
-        {
-          "id": "StunDuration4",
-          "affixType": "suffix",
-          "tier": 44,
-          "valueRanges": [
-            [
-              26,
-              30
-            ]
-          ],
-          "name": {
-            "en": "of Slamming",
-            "kr": "- 강타"
-          },
-          "effect": {
-            "en": "(26-30)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    26,
-                    30
-                  ]
-                }
-              ],
-              "value": "26~30",
-              "text": {
-                "en": "(26-30)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
               }
             }
           ]
@@ -9190,7 +9026,7 @@
             "kr": "지속 피해 배율 (12-15)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -9336,47 +9172,6 @@
           ]
         },
         {
-          "id": "StunDuration5",
-          "affixType": "suffix",
-          "tier": 58,
-          "valueRanges": [
-            [
-              31,
-              35
-            ]
-          ],
-          "name": {
-            "en": "of Staggering",
-            "kr": "- 비틀거림"
-          },
-          "effect": {
-            "en": "(31-35)% increased Stun Duration on Enemies",
-            "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
-          },
-          "group": [
-            35
-          ],
-          "weight": 1000,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "base_stun_duration_+%",
-                  "valueRange": [
-                    31,
-                    35
-                  ]
-                }
-              ],
-              "value": "31~35",
-              "text": {
-                "en": "(31-35)% increased Stun Duration on Enemies",
-                "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
-              }
-            }
-          ]
-        },
-        {
           "id": "LocalCriticalMultiplier5",
           "affixType": "suffix",
           "tier": 59,
@@ -9465,7 +9260,7 @@
           "valueRanges": [
             [
               80,
-              99
+              89
             ]
           ],
           "name": {
@@ -9473,8 +9268,8 @@
             "kr": "- 폐허"
           },
           "effect": {
-            "en": "(80-99)% increased Spell Critical Strike Chance",
-            "kr": "주문 치명타 확률 (80-99)% 증가"
+            "en": "(80-89)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (80-89)% 증가"
           },
           "group": [
             78
@@ -9487,14 +9282,14 @@
                   "stat": "spell_critical_strike_chance_+%",
                   "valueRange": [
                     80,
-                    99
+                    89
                   ]
                 }
               ],
-              "value": "80~99",
+              "value": "80~89",
               "text": {
-                "en": "(80-99)% increased Spell Critical Strike Chance",
-                "kr": "주문 치명타 확률 (80-99)% 증가"
+                "en": "(80-89)% increased Spell Critical Strike Chance",
+                "kr": "주문 치명타 확률 (80-89)% 증가"
               }
             }
           ]
@@ -9641,7 +9436,7 @@
             "kr": "능력치 요구사항 -32% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -9682,7 +9477,7 @@
             "kr": "지속 카오스 피해 배율 (29-33)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 100,
           "stats": [
@@ -9723,7 +9518,7 @@
             "kr": "지속 냉기 피해 배율 (29-33)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 70,
           "stats": [
@@ -9928,7 +9723,7 @@
             "kr": "지속 피해 배율 (16-19)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -10053,7 +9848,7 @@
           "group": [
             28
           ],
-          "weight": 500,
+          "weight": 1000,
           "stats": [
             {
               "stats": [
@@ -10297,7 +10092,7 @@
             "kr": "지속 피해 배율 (20-23)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -10325,7 +10120,7 @@
           "tier": 76,
           "valueRanges": [
             [
-              100,
+              90,
               109
             ]
           ],
@@ -10334,8 +10129,8 @@
             "kr": "- 멸망"
           },
           "effect": {
-            "en": "(100-109)% increased Spell Critical Strike Chance",
-            "kr": "주문 치명타 확률 (100-109)% 증가"
+            "en": "(90-109)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (90-109)% 증가"
           },
           "group": [
             78
@@ -10347,15 +10142,15 @@
                 {
                   "stat": "spell_critical_strike_chance_+%",
                   "valueRange": [
-                    100,
+                    90,
                     109
                   ]
                 }
               ],
-              "value": "100~109",
+              "value": "90~109",
               "text": {
-                "en": "(100-109)% increased Spell Critical Strike Chance",
-                "kr": "주문 치명타 확률 (100-109)% 증가"
+                "en": "(90-109)% increased Spell Critical Strike Chance",
+                "kr": "주문 치명타 확률 (90-109)% 증가"
               }
             }
           ]
@@ -10420,7 +10215,7 @@
             "kr": "지속 카오스 피해 배율 (34-38)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 50,
           "stats": [
@@ -10461,7 +10256,7 @@
             "kr": "지속 냉기 피해 배율 (34-38)%"
           },
           "group": [
-            3381
+            3424
           ],
           "weight": 35,
           "stats": [
@@ -10707,7 +10502,7 @@
             "kr": "지속 피해 배율 (24-26)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -10791,7 +10586,7 @@
           "group": [
             28
           ],
-          "weight": 250,
+          "weight": 1000,
           "stats": [
             {
               "stats": [
@@ -10834,7 +10629,7 @@
             "kr": "처치 시 (9-11)%의 확률로 격분 충전 획득"
           },
           "group": [
-            600
+            603
           ],
           "weight": 1000,
           "stats": [
@@ -10875,7 +10670,7 @@
             "kr": "치명타 명중 시 (5-7)%의 확률로 권능 충전 획득"
           },
           "group": [
-            1625
+            1660
           ],
           "weight": 1000,
           "stats": [
@@ -10893,6 +10688,47 @@
               "text": {
                 "en": "(5-7)% chance to gain a Power Charge on Critical Strike",
                 "kr": "치명타 명중 시 (5-7)%의 확률로 권능 충전 획득"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2GemQualityCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-10)% to Quality of Socketed Gems",
+            "kr": "장착된 젬 퀄리티 (5-10)%"
+          },
+          "group": [
+            3405
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_gem_quality_+",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Quality of Socketed Gems",
+                "kr": "장착된 젬 퀄리티 (5-10)%"
               }
             }
           ]
@@ -10939,6 +10775,211 @@
           ]
         },
         {
+          "id": "V2GlobalIncreaseChaosSpellSkillGemLevelCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "1 to Level of all Chaos Spell Skill Gems",
+            "kr": "모든 카오스 주문 스킬 젬 레벨 1"
+          },
+          "group": [
+            116
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "chaos_spell_skill_gem_level_+",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1 to Level of all Chaos Spell Skill Gems",
+                "kr": "모든 카오스 주문 스킬 젬 레벨 1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2GlobalIncreaseColdSpellSkillGemLevelCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "1 to Level of all Cold Spell Skill Gems",
+            "kr": "모든 냉기 주문 스킬 젬 레벨 1"
+          },
+          "group": [
+            116
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_spell_skill_gem_level_+",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1 to Level of all Cold Spell Skill Gems",
+                "kr": "모든 냉기 주문 스킬 젬 레벨 1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2GlobalIncreaseLightningSpellSkillGemLevelCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "1 to Level of all Lightning Spell Skill Gems",
+            "kr": "모든 번개 주문 스킬 젬 레벨 1"
+          },
+          "group": [
+            116
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "lightning_spell_skill_gem_level_+",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1 to Level of all Lightning Spell Skill Gems",
+                "kr": "모든 번개 주문 스킬 젬 레벨 1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2GlobalIncreasePhysicalSpellSkillGemLevelCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "1 to Level of all Physical Spell Skill Gems",
+            "kr": "모든 물리 주문 스킬 젬 레벨 1"
+          },
+          "group": [
+            116
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_spell_skill_gem_level_+",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1 to Level of all Physical Spell Skill Gems",
+                "kr": "모든 물리 주문 스킬 젬 레벨 1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2IncreasedCastSpeedCorrupted__",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              14,
+              18
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(14-18)% increased Cast Speed",
+            "kr": "시전 속도 (14-18)% 증가"
+          },
+          "group": [
+            28
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    14,
+                    18
+                  ]
+                }
+              ],
+              "value": "14~18",
+              "text": {
+                "en": "(14-18)% increased Cast Speed",
+                "kr": "시전 속도 (14-18)% 증가"
+              }
+            }
+          ]
+        },
+        {
           "id": "V2IncreasedDamageOverTimeCorrupted_",
           "affixType": "corrupted",
           "tier": 1,
@@ -10957,7 +10998,7 @@
             "kr": "지속 피해 (50-60)% 증가"
           },
           "group": [
-            3088
+            3128
           ],
           "weight": 1000,
           "stats": [
@@ -11043,7 +11084,7 @@
             "kr": "카오스 피해 (1-2)~(3-5) 추가"
           },
           "group": [
-            655
+            658
           ],
           "weight": 1000,
           "stats": [
@@ -11329,7 +11370,7 @@
             "kr": "처치 시 (10-15)%의 확률로 3초 동안 불경한 힘 획득"
           },
           "group": [
-            1675
+            1710
           ],
           "weight": 1000,
           "stats": [
@@ -11374,7 +11415,7 @@
             "kr": "카오스 피해 (6-8)~(11-13) 추가"
           },
           "group": [
-            655
+            658
           ],
           "weight": 1000,
           "stats": [
@@ -11560,6 +11601,47 @@
           ]
         },
         {
+          "id": "V2PhysicalExplodeCorrupted",
+          "affixType": "corrupted",
+          "tier": 80,
+          "valueRanges": [
+            [
+              10,
+              15
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Enemies you Kill have a (10-15)% chance to Explode, dealing a tenth of their maximum Life as Physical Damage",
+            "kr": "자신이 처치한 적이 (10-15)%의 확률로 폭발하여, 최대 생명력의 1/10을 물리 피해로 줌"
+          },
+          "group": [
+            681
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "explode_enemies_for_10%_life_as_physical_on_kill_chance_%",
+                  "valueRange": [
+                    10,
+                    15
+                  ]
+                }
+              ],
+              "value": "10~15",
+              "text": {
+                "en": "Enemies you Kill have a (10-15)% chance to Explode, dealing a tenth of their maximum Life as Physical Damage",
+                "kr": "자신이 처치한 적이 (10-15)%의 확률로 폭발하여, 최대 생명력의 1/10을 물리 피해로 줌"
+              }
+            }
+          ]
+        },
+        {
           "id": "V2LocalAddedChaosDamage1hCorrupted3",
           "affixType": "corrupted",
           "tier": 84,
@@ -11582,7 +11664,7 @@
             "kr": "카오스 피해 (8-11)~(19-23) 추가"
           },
           "group": [
-            655
+            658
           ],
           "weight": 250,
           "stats": [
@@ -11839,32 +11921,32 @@
           "corrupted": false,
           "stat": "spell_minimum_added_fire_damage",
           "effect": {
-            "en": "Adds (49-66) to (98-115) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (49-66)~(98-115) 추가"
+            "en": "Adds (62-84) to (124-146) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (62-84)~(124-146) 추가"
           },
           "tier": 4,
           "tierValues": [
             [
-              24,
-              33
+              28,
+              39
             ],
             [
-              31,
-              42
+              38,
+              51
             ],
             [
-              40,
-              52
+              50,
+              64
             ],
             [
-              49,
-              66
+              62,
+              84
             ]
           ],
           "valueRanges": [
             [
-              24,
-              66
+              28,
+              84
             ]
           ]
         },
@@ -12530,10 +12612,10 @@
           "tierValues": [
             [
               80,
-              99
+              89
             ],
             [
-              100,
+              90,
               109
             ],
             [
@@ -12659,36 +12741,36 @@
           "corrupted": false,
           "stat": "spell_minimum_added_cold_damage",
           "effect": {
-            "en": "Adds (41-54) to (81-93) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (41-54)~(81-93) 추가"
+            "en": "Adds (52-69) to (103-118) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (52-69)~(103-118) 추가"
           },
           "tier": 5,
           "tierValues": [
             [
-              11,
-              15
+              12,
+              17
             ],
             [
-              20,
-              26
+              24,
+              31
             ],
             [
-              26,
-              35
-            ],
-            [
-              33,
-              43
+              31,
+              42
             ],
             [
               41,
-              54
+              53
+            ],
+            [
+              52,
+              69
             ]
           ],
           "valueRanges": [
             [
-              11,
-              54
+              12,
+              69
             ]
           ]
         },
@@ -12707,8 +12789,8 @@
           "corrupted": false,
           "stat": "spell_minimum_added_lightning_damage",
           "effect": {
-            "en": "Adds (4-14) to (170-179) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (4-14)~(170-179) 추가"
+            "en": "Adds (5-18) to (216-227) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (5-18)~(216-227) 추가"
           },
           "tier": 6,
           "tierValues": [
@@ -12722,25 +12804,25 @@
             ],
             [
               2,
-              7
+              8
             ],
             [
               2,
-              9
-            ],
-            [
-              4,
               11
             ],
             [
-              4,
+              5,
               14
+            ],
+            [
+              5,
+              18
             ]
           ],
           "valueRanges": [
             [
               1,
-              14
+              18
             ]
           ]
         },

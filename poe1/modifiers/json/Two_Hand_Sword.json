@@ -23,9 +23,9 @@
       "total": 153
     },
     "corrupted": {
-      "prefix": 11,
+      "prefix": 15,
       "suffix": 0,
-      "total": 11
+      "total": 15
     },
     "essence": {
       "prefix": 25,
@@ -3129,7 +3129,7 @@
             "kr": "카오스 피해 (98-149)~(183-280) 추가"
           },
           "group": [
-            655
+            658
           ],
           "weight": 600,
           "stats": [
@@ -3818,7 +3818,7 @@
             "kr": "시야 반경 5% 증가\n일반 정확도 (9-11)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -4002,7 +4002,7 @@
             "kr": "시야 반경 10% 증가\n일반 정확도 (12-15)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -4719,7 +4719,7 @@
             "kr": "시야 반경 15% 증가\n일반 정확도 (16-20)% 증가"
           },
           "group": [
-            545
+            548
           ],
           "weight": 500,
           "stats": [
@@ -4940,7 +4940,7 @@
             "kr": "능력치 요구사항 -18% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -5227,7 +5227,7 @@
             "kr": "지속 피해 배율 (16-21)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -5760,7 +5760,7 @@
             "kr": "지속 피해 배율 (24-29)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -6129,7 +6129,7 @@
             "kr": "능력치 요구사항 -32% 감소"
           },
           "group": [
-            544
+            546
           ],
           "weight": 1000,
           "stats": [
@@ -6334,7 +6334,7 @@
             "kr": "지속 피해 배율 (31-35)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -6662,7 +6662,7 @@
             "kr": "지속 피해 배율 (36-40)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -6908,7 +6908,7 @@
             "kr": "지속 피해 배율 (41-45)%"
           },
           "group": [
-            3674
+            3718
           ],
           "weight": 300,
           "stats": [
@@ -6976,6 +6976,47 @@
     "corrupted": {
       "prefix": [
         {
+          "id": "V2GemQualityCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(5-10)% to Quality of Socketed Gems",
+            "kr": "장착된 젬 퀄리티 (5-10)%"
+          },
+          "group": [
+            3405
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_gem_quality_+",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% to Quality of Socketed Gems",
+                "kr": "장착된 젬 퀄리티 (5-10)%"
+              }
+            }
+          ]
+        },
+        {
           "id": "V2IncreasedAreaOfEffect2hCorrupted_",
           "affixType": "corrupted",
           "tier": 1,
@@ -6994,7 +7035,7 @@
             "kr": "효과 범위 (25-30)% 증가"
           },
           "group": [
-            141
+            142
           ],
           "weight": 1000,
           "stats": [
@@ -7110,6 +7151,47 @@
           ]
         },
         {
+          "id": "V2LocalMeleeWeaponRangeCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              4
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "(2-4) metres to Weapon Range",
+            "kr": "무기 공격 범위 (2-4)미터"
+          },
+          "group": [
+            600
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_weapon_range_+",
+                  "valueRange": [
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "value": "2~4",
+              "text": {
+                "en": "(2-4) metres to Weapon Range",
+                "kr": "무기 공격 범위 (2-4)미터"
+              }
+            }
+          ]
+        },
+        {
           "id": "V2SupportedByAccuracyCorrupted__",
           "affixType": "corrupted",
           "tier": 1,
@@ -7128,7 +7210,7 @@
             "kr": "장착된 젬에 10레벨 정확도 추가 보조 효과 적용"
           },
           "group": [
-            1044
+            1049
           ],
           "weight": 1000,
           "stats": [
@@ -7146,6 +7228,47 @@
               "text": {
                 "en": "Socketed Gems are supported by Level 10 Additional Accuracy",
                 "kr": "장착된 젬에 10레벨 정확도 추가 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByAddedChaosDamageCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              17,
+              17
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are Supported by Level 17 Added Chaos Damage",
+            "kr": "장착된 젬에 17레벨 카오스 피해 추가 보조 효과 적용"
+          },
+          "group": [
+            431
+          ],
+          "weight": 500,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_get_added_chaos_damage_level",
+                  "valueRange": [
+                    17,
+                    17
+                  ]
+                }
+              ],
+              "value": "17",
+              "text": {
+                "en": "Socketed Gems are Supported by Level 17 Added Chaos Damage",
+                "kr": "장착된 젬에 17레벨 카오스 피해 추가 보조 효과 적용"
               }
             }
           ]
@@ -7169,7 +7292,7 @@
             "kr": "장착된 젬에 10레벨 방어 상승 보조 효과 적용"
           },
           "group": [
-            3098
+            3138
           ],
           "weight": 1000,
           "stats": [
@@ -7187,6 +7310,47 @@
               "text": {
                 "en": "Socketed Gems are Supported by Level 10 Fortify",
                 "kr": "장착된 젬에 10레벨 방어 상승 보조 효과 적용"
+              }
+            }
+          ]
+        },
+        {
+          "id": "V2SupportedByImpaleCorrupted",
+          "affixType": "corrupted",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              10
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null
+          },
+          "effect": {
+            "en": "Socketed Gems are Supported by Level 10 Impale",
+            "kr": "장착된 젬에 10레벨 꿰뚫기 보조 효과 적용"
+          },
+          "group": [
+            1063
+          ],
+          "weight": 1000,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_display_socketed_gems_supported_by_level_x_impale",
+                  "valueRange": [
+                    10,
+                    10
+                  ]
+                }
+              ],
+              "value": "10",
+              "text": {
+                "en": "Socketed Gems are Supported by Level 10 Impale",
+                "kr": "장착된 젬에 10레벨 꿰뚫기 보조 효과 적용"
               }
             }
           ]
@@ -7210,7 +7374,7 @@
             "kr": "장착된 젬에 10레벨 기세 보조 효과 적용"
           },
           "group": [
-            3100
+            3140
           ],
           "weight": 1000,
           "stats": [
@@ -7303,7 +7467,7 @@
             "kr": "확고한 기술"
           },
           "group": [
-            148
+            149
           ],
           "weight": 1000,
           "stats": [
@@ -7369,7 +7533,7 @@
         {
           "id": "V2LocalAddedPhysicalDamage2hCorrupted3",
           "affixType": "corrupted",
-          "tier": 84,
+          "tier": 82,
           "valueRanges": [
             [
               8,
@@ -7531,32 +7695,32 @@
           "corrupted": false,
           "stat": "spell_minimum_added_fire_damage",
           "effect": {
-            "en": "Adds (66-88) to (132-155) Fire Damage to Spells",
-            "kr": "주문 시전 시 화염 피해 (66-88)~(132-155) 추가"
+            "en": "Adds (105-140) to (210-246) Fire Damage to Spells",
+            "kr": "주문 시전 시 화염 피해 (105-140)~(210-246) 추가"
           },
           "tier": 4,
           "tierValues": [
             [
-              32,
-              44
+              48,
+              65
             ],
             [
-              42,
-              56
+              64,
+              85
             ],
             [
-              53,
-              70
+              83,
+              109
             ],
             [
-              66,
-              88
+              105,
+              140
             ]
           ],
           "valueRanges": [
             [
-              32,
-              88
+              48,
+              140
             ]
           ]
         },
@@ -8201,7 +8365,7 @@
           ]
         },
         {
-          "id": "SpellCriticalStrikeChanceEssence7",
+          "id": "SpellCriticalStrikeChanceTwoHandEssence7",
           "affixType": "essence",
           "essenceType": "Scorn",
           "essenceName": {
@@ -8215,28 +8379,28 @@
           "corrupted": false,
           "stat": "spell_critical_strike_chance_+%",
           "effect": {
-            "en": "(80-119)% increased Spell Critical Strike Chance",
-            "kr": "주문 치명타 확률 (80-119)% 증가"
+            "en": "(80-179)% increased Spell Critical Strike Chance",
+            "kr": "주문 치명타 확률 (80-179)% 증가"
           },
           "tier": 3,
           "tierValues": [
             [
               80,
-              99
+              89
             ],
             [
-              100,
+              90,
               109
             ],
             [
-              110,
-              119
+              165,
+              179
             ]
           ],
           "valueRanges": [
             [
               80,
-              119
+              179
             ]
           ]
         },
@@ -8351,36 +8515,36 @@
           "corrupted": false,
           "stat": "spell_minimum_added_cold_damage",
           "effect": {
-            "en": "Adds (61-81) to (120-140) Cold Damage to Spells",
-            "kr": "주문 시전 시 냉기 피해 (61-81)~(120-140) 추가"
+            "en": "Adds (96-129) to (190-223) Cold Damage to Spells",
+            "kr": "주문 시전 시 냉기 피해 (96-129)~(190-223) 추가"
           },
           "tier": 5,
           "tierValues": [
             [
-              16,
-              22
+              23,
+              31
             ],
             [
-              30,
-              40
+              44,
+              59
             ],
             [
-              39,
-              52
+              59,
+              79
             ],
             [
-              49,
-              64
+              76,
+              99
             ],
             [
-              61,
-              81
+              96,
+              129
             ]
           ],
           "valueRanges": [
             [
-              16,
-              81
+              23,
+              129
             ]
           ]
         },
@@ -8399,40 +8563,40 @@
           "corrupted": false,
           "stat": "spell_minimum_added_lightning_damage",
           "effect": {
-            "en": "Adds (7-20) to (255-270) Lightning Damage to Spells",
-            "kr": "주문 시전 시 번개 피해 (7-20)~(255-270) 추가"
+            "en": "Adds (11-31) to (405-429) Lightning Damage to Spells",
+            "kr": "주문 시전 시 번개 피해 (11-31)~(405-429) 추가"
           },
           "tier": 6,
           "tierValues": [
             [
               1,
-              3
-            ],
-            [
-              2,
-              5
+              4
             ],
             [
               3,
-              10
+              8
             ],
             [
               5,
-              12
+              15
             ],
             [
-              5,
-              17
+              8,
+              19
             ],
             [
-              7,
-              20
+              8,
+              26
+            ],
+            [
+              11,
+              31
             ]
           ],
           "valueRanges": [
             [
               1,
-              20
+              31
             ]
           ]
         },
@@ -8451,44 +8615,44 @@
           "corrupted": false,
           "stat": "spell_damage_+%",
           "effect": {
-            "en": "(15-144)% increased Spell Damage",
-            "kr": "주문 피해 (15-144)% 증가"
+            "en": "(18-165)% increased Spell Damage",
+            "kr": "주문 피해 (18-165)% 증가"
           },
           "tier": 7,
           "tierValues": [
             [
-              15,
-              29
+              18,
+              34
             ],
             [
-              30,
-              44
+              35,
+              52
             ],
             [
-              45,
-              59
+              53,
+              69
             ],
             [
-              60,
-              84
+              70,
+              95
             ],
             [
-              85,
-              106
+              88,
+              116
             ],
             [
-              107,
-              122
-            ],
-            [
-              123,
+              117,
               144
+            ],
+            [
+              145,
+              165
             ]
           ],
           "valueRanges": [
             [
-              15,
-              144
+              18,
+              165
             ]
           ]
         },

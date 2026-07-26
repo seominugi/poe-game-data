@@ -1662,6 +1662,66 @@
     "image": null
   },
   {
+    "id": "allflame",
+    "classId": "QuestItem",
+    "className": {
+      "en": "Quest Items",
+      "kr": "퀘스트 아이템",
+      "tw": "任務物品",
+      "ru": "Вещи для заданий",
+      "jp": "クエストアイテム"
+    },
+    "name": {
+      "en": "Allflame",
+      "kr": "올플레임",
+      "tw": "不滅之火",
+      "ru": "Всепламень",
+      "jp": "オールフレイム"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Distilled from naked ambition and unfettered obsession,\r\nthe Allflame emanates a silvern warmth like no other, \r\nand engulfs those moths fool enough to embrace it.",
+      "kr": "드러난 야망과 방해받지 않는 집착으로부터 증류된\r\n올플레임은 독특한 은빛 온기를 발산하며\r\n그 온기를 받아들일 만큼 멍청한 나방들을 집어삼킨다.",
+      "tw": "淬鍊自純粹的執著和野望，\r\n不滅之火同樣溫暖，投射銀白光芒\r\n撲火飛蛾依舊會自取滅亡。",
+      "ru": "Средоточие гордых стремлений и необузданных маний,\r\nВсепламень необоримо влечет серебристым светом тех, \r\nкто достаточно глуп для полета к его огню.",
+      "jp": "飾らぬ野望と縛られぬ妄執から蒸留されたオールフレイムは\r\n他では見られぬ銀色のぬくもりを発し、\r\nそれを抱こうとする愚かな蛾を飲み込んでしまう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "velkas-allflame",
+    "classId": "QuestItem",
+    "className": {
+      "en": "Quest Items",
+      "kr": "퀘스트 아이템",
+      "tw": "任務物品",
+      "ru": "Вещи для заданий",
+      "jp": "クエストアイテム"
+    },
+    "name": {
+      "en": "Velka's Allflame",
+      "kr": "벨카의 올플레임",
+      "tw": "維爾卡的不滅之火",
+      "ru": "Всепламень Велки",
+      "jp": "ヴェルカのオールフレイム"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Bright as her ambition, cold as the bitter deep.",
+      "kr": "그녀의 야심만큼이나 찬란하고, 혹독한 심해처럼 차갑다.",
+      "tw": "明亮如她的野心，冰冷如苦寒深海。",
+      "ru": "Bright as her ambition, cold as the bitter deep.",
+      "jp": "彼女の野望のように燃え、厳しき深海のように冷たい。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
     "id": "aliras-amulet",
     "classId": "QuestItem",
     "className": {
@@ -7428,7 +7488,7 @@
       "kr": "문명이 통째로 삼켜지나 죽지는 않는\r\n우주의 위장 속에서 무한한 허기가 기다린다.",
       "tw": "無限飢餓在消化整個文明的\r\n浩瀚宇宙中等待著—但不要死。",
       "ru": "Неутолимый голод дожидается в космическом желудке, где\r\nпожранные им цивилизации перевариваются, но не умирают.",
-      "jp": "果てなき渇望が宇宙の胃袋の中で待ち受けている。\r\nそこでは文明すべてが消化され、しかし死ぬことはない"
+      "jp": "インフィニット・ハンガーが宇宙の胃袋の中で待ち受けている。\r\nそこでは文明すべてが消化され、しかし死ぬことはない"
     },
     "implicits": null,
     "image": null
@@ -7458,7 +7518,7 @@
       "kr": "갈퀴의 심장부에서 세계 포식자가\r\n아틀라스를 장악하려 손을 뻗는다.",
       "tw": "吞噬天地從纏結的中心\r\n伸出手來控制輿圖。",
       "ru": "Из самого сердца Переплетения, Пожиратель миров\r\nтянется к господству над Атласом.",
-      "jp": "タングルの中心から\r\n世界を喰らうものが\r\nアトラスを支配しようと手を伸ばす"
+      "jp": "タングルの中心から\r\nイーター・オブ・ワールズが\r\nアトラスを支配しようと手を伸ばす"
     },
     "implicits": null,
     "image": null
@@ -7488,7 +7548,7 @@
       "kr": "검은 별의 손아귀 안에 들어가면\r\n빠져나갈 길은 없다.",
       "tw": "一旦落入黯星的掌控之中，\r\n就無法逃脫。",
       "ru": "Угодив в горизонт Чёрного солнца,\r\nспастись уже не сумеешь.",
-      "jp": "一度黒き星に捕まれば、\r\n逃げ場はない。"
+      "jp": "一度ブラック・スターに捕まれば、\r\n逃げ場はない。"
     },
     "implicits": null,
     "image": null
@@ -7518,7 +7578,7 @@
       "kr": "고대 별의 광환에서,\r\n작열의 총주교가 아틀라스를 지배하려 한다.",
       "tw": "從一顆古老恆星的日冕中，\r\n灼烙總督試圖掌握輿圖。",
       "ru": "Из ореола древней звезды\r\nПламенный экзарх стремится править Атласом.",
-      "jp": "古代の星の光冠から、\r\n灼熱の代行者がアトラスを支配しようとしている。"
+      "jp": "古代の星の光冠から、\r\nシアリング・エグザークがアトラスを支配しようとしている。"
     },
     "implicits": null,
     "image": null
@@ -7639,6 +7699,156 @@
       "tw": "在我寫下這段文字的時候，我知道我的話語將使我\r\n失去永恆的靈魂。我必須相信，我的新神並不像\r\n他聲稱的那樣神聖...",
       "ru": "Hoc sciendo scribo ut verba mea perdant animam\r\nmeam eternam. Mihi credendum est quod novus\r\ndeus meus non sit tam divinus quam ipse petit...",
       "jp": "Hoc sciendo scribo ut verba mea perdant animam\r\nmeam eternam. Mihi credendum est quod novus\r\ndeus meus non sit tam divinus quam ipse petit..."
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "deadcaller-bellows",
+    "classId": "QuestItem",
+    "className": {
+      "en": "Quest Items",
+      "kr": "퀘스트 아이템",
+      "tw": "任務物品",
+      "ru": "Вещи для заданий",
+      "jp": "クエストアイテム"
+    },
+    "name": {
+      "en": "Deadcaller Bellows",
+      "kr": "죽음부름 풀무",
+      "tw": "喚亡者風箱",
+      "ru": "Набат мертвеца",
+      "jp": "死人呼びのふいご"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Breathe life into dying embers. Turn not from their emerald hue.",
+      "kr": "꺼져 가는 불씨에 생명을 불어넣고, 그 에메랄드빛을 외면하지 마라.",
+      "tw": "為即將熄滅的餘燼注入生命。\r\n千萬別將視線從那抹翡翠色澤上移開。",
+      "ru": "Breathe life into dying embers. Turn not from their emerald hue.",
+      "jp": "死にゆく残り火に命を吹き込め。そのエメラルドの色彩から目を逸らすな。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "sulphur-purifier",
+    "classId": "QuestItem",
+    "className": {
+      "en": "Quest Items",
+      "kr": "퀘스트 아이템",
+      "tw": "任務物品",
+      "ru": "Вещи для заданий",
+      "jp": "クエストアイテム"
+    },
+    "name": {
+      "en": "Sulphur Purifier",
+      "kr": "유황 정화제",
+      "tw": "硫磺提純器",
+      "ru": "Очиститель серы",
+      "jp": "硫黄精製装置"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Life springs eternal in the darkest depths of the ocean.",
+      "kr": "가장 어두운 심해에서도 생명은 영원토록 솟아난다.",
+      "tw": "在海洋最深邃的黑暗處，生命泉源永生不死。",
+      "ru": "Life springs eternal in the darkest depths of the ocean.",
+      "jp": "海の最も暗い深淵で、命は永遠に湧き出している。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "spectral-infuser",
+    "classId": "QuestItem",
+    "className": {
+      "en": "Quest Items",
+      "kr": "퀘스트 아이템",
+      "tw": "任務物品",
+      "ru": "Вещи для заданий",
+      "jp": "クエストアイテム"
+    },
+    "name": {
+      "en": "Spectral Infuser",
+      "kr": "영체 주입제",
+      "tw": "靈體灌注器",
+      "ru": "Призрачный нагнетатель",
+      "jp": "霊体注入器"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Restore that which was lost. Watch it burn anew.",
+      "kr": "잃어버린 것을 되살려, 다시 타오르는 모습을 보라.",
+      "tw": "復原那些曾經逝去的事物。注視著它重新燃燒。",
+      "ru": "Restore that which was lost. Watch it burn anew.",
+      "jp": "失われしものを復元せよ。それは新たに燃えるだろう。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "alchemical-exchange",
+    "classId": "QuestItem",
+    "className": {
+      "en": "Quest Items",
+      "kr": "퀘스트 아이템",
+      "tw": "任務物品",
+      "ru": "Вещи для заданий",
+      "jp": "クエストアイテム"
+    },
+    "name": {
+      "en": "Alchemical Exchange",
+      "kr": "연금술 교환체",
+      "tw": "鍊金轉換儀",
+      "ru": "Алхимический обменник",
+      "jp": "錬金術の交換機"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Essence of undeath, refined and distilled.",
+      "kr": "정제하고 증류된 불사의 정수.",
+      "tw": "不死之精華，歷經淬鍊與蒸餾。",
+      "ru": "Essence of undeath, refined and distilled.",
+      "jp": "精製され蒸留された、不死の精髄。"
+    },
+    "implicits": null,
+    "image": null
+  },
+  {
+    "id": "forbidden-scripture",
+    "classId": "QuestItem",
+    "className": {
+      "en": "Quest Items",
+      "kr": "퀘스트 아이템",
+      "tw": "任務物品",
+      "ru": "Вещи для заданий",
+      "jp": "クエストアイテム"
+    },
+    "name": {
+      "en": "Forbidden Scripture",
+      "kr": "금단의 성서",
+      "tw": "禁忌經卷",
+      "ru": "Запретные записи",
+      "jp": "禁忌の聖句"
+    },
+    "dropLevel": 1,
+    "spec": null,
+    "currency": null,
+    "flavour": {
+      "en": "Secrets from below... now yours to do with as you will.",
+      "kr": "저 아래의 비밀... 이제 네 뜻대로 쓰이리라.",
+      "tw": "來自下方的祕密……現在由你隨心所欲地處置。",
+      "ru": "Secrets from below... now yours to do with as you will.",
+      "jp": "深みからの秘密が……今やお前の自由になる。"
     },
     "implicits": null,
     "image": null
