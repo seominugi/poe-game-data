@@ -65,7 +65,7 @@ export interface Skill {
  * 킹스마치(Settlers) 분해 먼지 **계수**. 최종 먼지량이 아니다.
  * 아이템 레벨 84 기준 먼지 = `value * 2000`, 퀄리티는 1당 +2%(20% -> *1.4).
  *   dustAtIlvl84 = value * 2000 * (1 + quality * 0.02)
- * ilvl 84 외 레벨의 곡선은 게임 데이터(dat)에 없어 미확정이다 — 84 기준으로만 쓴다.
+ * **ilvl 84 기준 참고값**이다 — 다른 레벨의 곡선은 dat 에 없다(2026-07-27 결정, 실측은 범위 밖).
  * poe1 전용. 분해 대상이 아닌 소수 유니크는 null.
  */
 export interface UniqueDust {
