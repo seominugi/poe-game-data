@@ -61,6 +61,19 @@ export interface Skill {
   description: LocalizedString;
   image: string | null;
 }
+/**
+ * 킹스마치(Settlers) 분해 먼지 **계수**. 최종 먼지량이 아니다.
+ * 아이템 레벨 84 기준 먼지 = `value * 2000`, 퀄리티는 1당 +2%(20% -> *1.4).
+ *   dustAtIlvl84 = value * 2000 * (1 + quality * 0.02)
+ * ilvl 84 외 레벨의 곡선은 게임 데이터(dat)에 없어 미확정이다 — 84 기준으로만 쓴다.
+ * poe1 전용. 분해 대상이 아닌 소수 유니크는 null.
+ */
+export interface UniqueDust {
+  /** 일반 리그 계수 */
+  value: number;
+  /** 무자비(Ruthless) 리그 계수 */
+  ruthless: number;
+}
 export interface Unique {
   id: string;
   name: LocalizedString;
@@ -69,4 +82,6 @@ export interface Unique {
   image: string | null;
   flavour: LocalizedString | null;
   mods: unknown | null;
+  /** poe1 전용 — poe2 배출본에는 이 필드가 없다 */
+  dust?: UniqueDust | null;
 }
