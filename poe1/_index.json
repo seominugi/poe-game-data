@@ -8,7 +8,7 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-08-03T14:48:57.318Z",
+  "generated": "2026-08-03T19:28:41.997Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -1276,6 +1276,25 @@
       "totalCount": 80,
       "buckets": [
         "normal"
+      ]
+    },
+    "Map": {
+      "jsonPath": "modifiers/json/Map.json",
+      "className": {
+        "en": "Maps",
+        "kr": "지도"
+      },
+      "prefixCount": 127,
+      "suffixCount": 130,
+      "totalCount": 257,
+      "buckets": [
+        "uber_tier_map",
+        "top_tier_map",
+        "mid_tier_map",
+        "low_tier_map",
+        "default",
+        "has_uber_map_suffix",
+        "has_uber_map_prefix "
       ]
     },
     "One_Hand_Axe": {
