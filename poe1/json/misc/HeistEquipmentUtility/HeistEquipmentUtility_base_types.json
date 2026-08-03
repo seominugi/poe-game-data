@@ -1,29 +1,5 @@
 [
   {
-    "id": "unused-heist-test-utility-equipment",
-    "classId": "HeistEquipmentUtility",
-    "className": {
-      "en": "Heist Cloaks",
-      "kr": "강탈 망토",
-      "tw": "劫盜披風",
-      "ru": "Разбойничьи накидки",
-      "jp": "ハイストクローク"
-    },
-    "name": {
-      "en": "[UNUSED] Heist Test Utility Equipment",
-      "kr": "[UNUSED] Heist Test Utility Equipment",
-      "tw": "[UNUSED] Heist Test Utility Equipment",
-      "ru": "[UNUSED] Heist Test Utility Equipment",
-      "jp": "[UNUSED] Heist Test Utility Equipment"
-    },
-    "dropLevel": 1,
-    "spec": null,
-    "currency": null,
-    "flavour": null,
-    "implicits": null,
-    "image": null
-  },
-  {
     "id": "torn-cloak",
     "classId": "HeistEquipmentUtility",
     "className": {
@@ -62,6 +38,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_utility"
+    ],
+    "gem": null,
     "image": null
   },
   {
@@ -103,6 +83,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_utility"
+    ],
+    "gem": null,
     "image": null
   },
   {
@@ -144,6 +128,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_utility"
+    ],
+    "gem": null,
     "image": null
   },
   {
@@ -185,6 +173,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_utility"
+    ],
+    "gem": null,
     "image": null
   }
 ]

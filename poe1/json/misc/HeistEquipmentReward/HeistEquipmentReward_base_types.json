@@ -1,29 +1,5 @@
 [
   {
-    "id": "unused-heist-test-reward-equipment",
-    "classId": "HeistEquipmentReward",
-    "className": {
-      "en": "Heist Brooches",
-      "kr": "강탈 브로치",
-      "tw": "劫盜胸針",
-      "ru": "Разбойничьи броши",
-      "jp": "ハイストブローチ"
-    },
-    "name": {
-      "en": "[UNUSED] Heist Test Reward Equipment",
-      "kr": "[UNUSED] Heist Test Reward Equipment",
-      "tw": "[UNUSED] Heist Test Reward Equipment",
-      "ru": "[UNUSED] Heist Test Reward Equipment",
-      "jp": "[UNUSED] Heist Test Reward Equipment"
-    },
-    "dropLevel": 1,
-    "spec": null,
-    "currency": null,
-    "flavour": null,
-    "implicits": null,
-    "image": null
-  },
-  {
     "id": "silver-brooch",
     "classId": "HeistEquipmentReward",
     "className": {
@@ -62,6 +38,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_reward"
+    ],
+    "gem": null,
     "image": null
   },
   {
@@ -103,6 +83,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_reward"
+    ],
+    "gem": null,
     "image": null
   },
   {
@@ -144,6 +128,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_reward"
+    ],
+    "gem": null,
     "image": null
   },
   {
@@ -185,6 +173,10 @@
         ]
       }
     ],
+    "tags": [
+      "heist_equipment_reward"
+    ],
+    "gem": null,
     "image": null
   }
 ]

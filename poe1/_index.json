@@ -1,5 +1,5 @@
 {
-  "gamePatch": "3.29.0.2.3",
+  "gamePatch": "3.29.1.2.2",
   "langs": [
     "en",
     "kr",
@@ -8,7 +8,7 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-07-29T15:59:44.859Z",
+  "generated": "2026-08-03T14:48:57.318Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -355,7 +355,7 @@
     "gems": {
       "Active_Skill_Gem": {
         "jsonPath": "json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json",
-        "count": 534,
+        "count": 524,
         "sampleName": "Spectral Shield Throw",
         "className": {
           "en": "Skill Gems",
@@ -367,7 +367,7 @@
       },
       "Support_Skill_Gem": {
         "jsonPath": "json/gems/Support_Skill_Gem/Support_Skill_Gem_base_types.json",
-        "count": 313,
+        "count": 311,
         "sampleName": "Added Fire Damage Support",
         "className": {
           "en": "Support Gems",
@@ -625,7 +625,7 @@
       },
       "MapFragment": {
         "jsonPath": "json/currency/MapFragment/MapFragment_base_types.json",
-        "count": 300,
+        "count": 299,
         "sampleName": "Sacrifice at Midnight",
         "className": {
           "en": "Map Fragments",
@@ -661,8 +661,8 @@
       },
       "Relic": {
         "jsonPath": "json/currency/Relic/Relic_base_types.json",
-        "count": 14,
-        "sampleName": "[DO NOT USE] Censer Relic",
+        "count": 7,
+        "sampleName": "Censer Relic",
         "className": {
           "en": "Relics",
           "kr": "유물",
@@ -685,7 +685,7 @@
       },
       "StackableCurrency": {
         "jsonPath": "json/currency/StackableCurrency/StackableCurrency_base_types.json",
-        "count": 662,
+        "count": 658,
         "sampleName": "Blacksmith's Whetstone",
         "className": {
           "en": "Stackable Currency",
@@ -819,8 +819,8 @@
       },
       "HeistEquipmentReward": {
         "jsonPath": "json/misc/HeistEquipmentReward/HeistEquipmentReward_base_types.json",
-        "count": 5,
-        "sampleName": "[UNUSED] Heist Test Reward Equipment",
+        "count": 4,
+        "sampleName": "Silver Brooch",
         "className": {
           "en": "Heist Brooches",
           "kr": "강탈 브로치",
@@ -831,8 +831,8 @@
       },
       "HeistEquipmentTool": {
         "jsonPath": "json/misc/HeistEquipmentTool/HeistEquipmentTool_base_types.json",
-        "count": 37,
-        "sampleName": "[UNUSED] Heist Test Tool",
+        "count": 36,
+        "sampleName": "Simple Lockpick",
         "className": {
           "en": "Heist Tools",
           "kr": "강탈 도구",
@@ -843,8 +843,8 @@
       },
       "HeistEquipmentUtility": {
         "jsonPath": "json/misc/HeistEquipmentUtility/HeistEquipmentUtility_base_types.json",
-        "count": 5,
-        "sampleName": "[UNUSED] Heist Test Utility Equipment",
+        "count": 4,
+        "sampleName": "Torn Cloak",
         "className": {
           "en": "Heist Cloaks",
           "kr": "강탈 망토",
@@ -855,8 +855,8 @@
       },
       "HeistEquipmentWeapon": {
         "jsonPath": "json/misc/HeistEquipmentWeapon/HeistEquipmentWeapon_base_types.json",
-        "count": 13,
-        "sampleName": "[UNUSED] Heist Test Weapon",
+        "count": 12,
+        "sampleName": "Rough Sharpening Stone",
         "className": {
           "en": "Heist Gear",
           "kr": "강탈 장비",
@@ -1061,7 +1061,7 @@
   },
   "uniques": {
     "jsonPath": "uniques/json/uniques.json",
-    "count": 1428
+    "count": 1429
   },
   "modifiers": {
     "AbyssJewel": {

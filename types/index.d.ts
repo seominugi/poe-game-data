@@ -53,6 +53,10 @@ export interface BaseItem {
   currency: unknown | null;
   flavour: LocalizedString | null;
   implicits: unknown | null;
+  /** GGPK Tags.Id 목록 (예: "str_armour"). 태그가 없으면 빈 배열 — poe1 5,213개 중 2,992개 보유 */
+  tags?: string[];
+  /** 젬 계열만 non-null (poe1 835개). 그 외 아이템은 null */
+  gem?: { colour: string; isSupport: boolean; isVaal: boolean } | null;
 }
 export interface Skill {
   id: string;
