@@ -1,5 +1,5 @@
 {
-  "gamePatch": "4.5.4.3",
+  "gamePatch": "4.5.4.8",
   "langs": [
     "en",
     "kr",
@@ -8,7 +8,7 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-07-10T12:04:01.294Z",
+  "generated": "2026-08-03T15:03:05.290Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -49,7 +49,7 @@
       },
       "Dagger": {
         "jsonPath": "json/weapons/Dagger/Dagger_base_types.json",
-        "count": 22,
+        "count": 14,
         "sampleName": "Ethereal Blade",
         "className": {
           "en": "Daggers",
@@ -61,7 +61,7 @@
       },
       "Flail": {
         "jsonPath": "json/weapons/Flail/Flail_base_types.json",
-        "count": 21,
+        "count": 13,
         "sampleName": "Splintered Flail",
         "className": {
           "en": "Flails",
@@ -73,7 +73,7 @@
       },
       "One_Hand_Axe": {
         "jsonPath": "json/weapons/One_Hand_Axe/One_Hand_Axe_base_types.json",
-        "count": 21,
+        "count": 13,
         "sampleName": "Dull Hatchet",
         "className": {
           "en": "One Hand Axes",
@@ -97,7 +97,7 @@
       },
       "One_Hand_Sword": {
         "jsonPath": "json/weapons/One_Hand_Sword/One_Hand_Sword_base_types.json",
-        "count": 24,
+        "count": 16,
         "sampleName": "Golden Blade",
         "className": {
           "en": "One Hand Swords",
@@ -133,7 +133,7 @@
       },
       "Staff": {
         "jsonPath": "json/weapons/Staff/Staff_base_types.json",
-        "count": 19,
+        "count": 17,
         "sampleName": "Ashen Staff",
         "className": {
           "en": "Staves",
@@ -145,7 +145,7 @@
       },
       "Two_Hand_Axe": {
         "jsonPath": "json/weapons/Two_Hand_Axe/Two_Hand_Axe_base_types.json",
-        "count": 21,
+        "count": 13,
         "sampleName": "Splitting Greataxe",
         "className": {
           "en": "Two Hand Axes",
@@ -169,7 +169,7 @@
       },
       "Two_Hand_Sword": {
         "jsonPath": "json/weapons/Two_Hand_Sword/Two_Hand_Sword_base_types.json",
-        "count": 23,
+        "count": 15,
         "sampleName": "Keyblade",
         "className": {
           "en": "Two Hand Swords",
@@ -291,7 +291,7 @@
       },
       "Shield": {
         "jsonPath": "json/armour/Shield/Shield_base_types.json",
-        "count": 151,
+        "count": 150,
         "sampleName": "Golden Flame",
         "className": {
           "en": "Shields",
@@ -343,7 +343,7 @@
     "gems": {
       "Active_Skill_Gem": {
         "jsonPath": "json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json",
-        "count": 505,
+        "count": 456,
         "sampleName": "Ice Nova",
         "className": {
           "en": "Skill Gems",
@@ -355,7 +355,7 @@
       },
       "Meta_Skill_Gem": {
         "jsonPath": "json/gems/Meta_Skill_Gem/Meta_Skill_Gem_base_types.json",
-        "count": 44,
+        "count": 39,
         "sampleName": "Blasphemy",
         "className": {
           "en": "",
@@ -365,21 +365,9 @@
           "jp": ""
         }
       },
-      "SkillGemToken": {
-        "jsonPath": "json/gems/SkillGemToken/SkillGemToken_base_types.json",
-        "count": 1,
-        "sampleName": "[DNT-UNUSED] Bind Spectre Token",
-        "className": {
-          "en": "Currency",
-          "kr": "화폐",
-          "tw": "通貨",
-          "ru": "Вещи на обмен",
-          "jp": "カレンシー"
-        }
-      },
       "Support_Skill_Gem": {
         "jsonPath": "json/gems/Support_Skill_Gem/Support_Skill_Gem_base_types.json",
-        "count": 642,
+        "count": 625,
         "sampleName": "Close Combat I",
         "className": {
           "en": "Support Gems",
@@ -601,7 +589,7 @@
       },
       "SoulCore": {
         "jsonPath": "json/currency/SoulCore/SoulCore_base_types.json",
-        "count": 295,
+        "count": 287,
         "sampleName": "Desert Rune",
         "className": {
           "en": "Augment",
@@ -613,7 +601,7 @@
       },
       "StackableCurrency": {
         "jsonPath": "json/currency/StackableCurrency/StackableCurrency_base_types.json",
-        "count": 448,
+        "count": 441,
         "sampleName": "Blacksmith's Whetstone",
         "className": {
           "en": "Stackable Currency",
@@ -795,8 +783,8 @@
       },
       "HeistEquipmentReward": {
         "jsonPath": "json/misc/HeistEquipmentReward/HeistEquipmentReward_base_types.json",
-        "count": 5,
-        "sampleName": "[UNUSED] Heist Test Reward Equipment",
+        "count": 4,
+        "sampleName": "Silver Brooch",
         "className": {
           "en": "Heist Brooches",
           "kr": "강탈 브로치",
@@ -807,8 +795,8 @@
       },
       "HeistEquipmentTool": {
         "jsonPath": "json/misc/HeistEquipmentTool/HeistEquipmentTool_base_types.json",
-        "count": 37,
-        "sampleName": "[UNUSED] Heist Test Tool",
+        "count": 36,
+        "sampleName": "Simple Lockpick",
         "className": {
           "en": "Heist Tools",
           "kr": "강탈 도구",
@@ -819,8 +807,8 @@
       },
       "HeistEquipmentUtility": {
         "jsonPath": "json/misc/HeistEquipmentUtility/HeistEquipmentUtility_base_types.json",
-        "count": 5,
-        "sampleName": "[UNUSED] Heist Test Utility Equipment",
+        "count": 4,
+        "sampleName": "Torn Cloak",
         "className": {
           "en": "Heist Cloaks",
           "kr": "강탈 망토",
@@ -831,8 +819,8 @@
       },
       "HeistEquipmentWeapon": {
         "jsonPath": "json/misc/HeistEquipmentWeapon/HeistEquipmentWeapon_base_types.json",
-        "count": 13,
-        "sampleName": "[UNUSED] Heist Test Weapon",
+        "count": 12,
+        "sampleName": "Rough Sharpening Stone",
         "className": {
           "en": "Heist Gear",
           "kr": "강탈 장비",
@@ -927,7 +915,7 @@
       },
       "InstanceLocalItem": {
         "jsonPath": "json/misc/InstanceLocalItem/InstanceLocalItem_base_types.json",
-        "count": 20,
+        "count": 15,
         "sampleName": "Small Soul Core",
         "className": {
           "en": "Instance Local Items",
@@ -999,7 +987,7 @@
       },
       "QuestItem": {
         "jsonPath": "json/misc/QuestItem/QuestItem_base_types.json",
-        "count": 375,
+        "count": 349,
         "sampleName": "Shaper's Orb (Tier 1)",
         "className": {
           "en": "Quest Items",
@@ -1061,7 +1049,7 @@
   },
   "skills": {
     "jsonPath": "skills/json/ActiveSkills.json",
-    "count": 920
+    "count": 811
   },
   "uniques": {
     "jsonPath": "uniques/json/uniques.json",

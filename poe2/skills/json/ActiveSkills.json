@@ -38,44 +38,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-vaal-ground-slam",
-    "grantedEffect": "VaalDistanceScaledGroundSlam",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Ground Slam",
-      "kr": "바알 대지 강타",
-      "tw": "瓦爾．裂地之擊 ",
-      "ru": "[DNT-UNUSED] Сотрясение ваал",
-      "jp": "[DNT-UNUSED] Vaal Ground Slam"
-    },
-    "description": {
-      "en": "DNT-UNUSED Slams the ground in front of you, creating a wave that travels in all directions that damages enemies with an increased chance to stun. The wave deals more damage to closer enemies.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Герой с силой бьёт по земле перед собой и создаёт волны, которые движутся во всех направлениях, наносят урон врагам и имеют повышенный шанс оглушения. Волна наносит больше урона врагам поблизости. Можно использовать с топорами, булавами, скипетрами, посохами или без оружия.",
-      "jp": "前方の地面を叩きつけ、周囲に衝撃波を放つ。衝撃波は敵にダメージを与え、高いスタン確率を持つ。近くの敵に対してはダメージが上昇する。使用するには斧、メイス、セプターまたはスタッフを装備するか素手状態である必要がある。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-cleave",
-    "grantedEffect": "CleavePlayer",
-    "name": {
-      "en": "[DNT-UNUSED] Cleave",
-      "kr": "회전베기",
-      "tw": "劈砍 ",
-      "ru": "[DNT-UNUSED] Рассечение",
-      "jp": "[DNT-UNUSED] Cleave"
-    },
-    "description": {
-      "en": "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Only works with Axes and Swords.",
-      "kr": "무기(쌍수일 경우 2개 모두)를 크게 휘둘러 범위 내 몬스터들에게 피해를 줍니다. 도끼와 검으로만 사용할 수 있습니다.",
-      "tw": "角色以弧狀揮動武器（雙持時則揮動兩把武器），並同時對多名敵人造成傷害。限定斧與劍。",
-      "ru": "Герой взмахивает своим оружием (или двумя, если носит два одноручных оружия), описывая дугу и нанося урон врагам в области перед собой. Умение требует топоры и/или мечи.",
-      "jp": "武器 (二刀流の場合は両方の武器 )を弧を描くように振り、前方範囲内のモンスターにダメージを与える。使用するには斧または剣を装備する必要がある。"
-    },
-    "image": null
-  },
-  {
     "id": "table-charge",
     "grantedEffect": "TableCharge",
     "name": {
@@ -243,44 +205,6 @@
       "tw": "使用近戰武器對著目標進行兩次快速的攻擊。",
       "ru": "Герой дважды быстро атакует оружием ближнего боя.",
       "jp": "近接武器を使って素早い強打を2回行う。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-vaal-double-strike",
-    "grantedEffect": "VaalDoubleStrikeTwo",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Double Strike",
-      "kr": "바알 이중 타격",
-      "tw": "瓦爾．雙重打擊 ",
-      "ru": "[DNT-UNUSED] Двойной удар ваал",
-      "jp": "[DNT-UNUSED] Vaal Double Strike"
-    },
-    "description": {
-      "en": "DNT-UNUSED Performs two fast strikes with a melee weapon, each of which summons a double of you for a duration to continuously attack monsters in this fashion.",
-      "kr": "근접 무기로 두 번의 재빠른 타격을 가합니다. 각각의 공격은 일정 시간 동안 시전자의 복사체를 소환하여 동일한 방식으로 끊임없이 몬스터들을 공격합니다.",
-      "tw": "使用近戰武器對著目標進行兩次快速的攻擊，每擊都會召喚你的影分身持續使用雙重打擊攻擊敵人一段時間。 ",
-      "ru": "DNT-UNUSED Герой дважды быстро атакует оружием ближнего боя. Атаки создадут двойников, которые продолжат атаковать врагов этим умением в течение некоторого времени.",
-      "jp": "近接武器を使って素早い強打を2回行う。強打はそれぞれ使用者の分身を召喚し、分身は持続時間中、同じく2回強打を行い敵を攻撃し続ける。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-elemental-hit",
-    "grantedEffect": "ElementalHitPlayer",
-    "name": {
-      "en": "[DNT-UNUSED] Elemental Hit",
-      "kr": "원소의 일격",
-      "tw": "元素打擊",
-      "ru": "[DNT-UNUSED] Удар стихии",
-      "jp": "[DNT-UNUSED] Elemental Hit"
-    },
-    "description": {
-      "en": "DNT-UNUSED Each attack with this skill will choose an element at random, and will only be able to deal damage of that element. If the attack hits an enemy, it will also deal damage in an area around them, with the radius being larger if that enemy is suffering from an ailment of the chosen element. It will avoid choosing the same element twice in a row.",
-      "kr": "스킬 사용 시 매 공격마다 무작위로 속성이 부여되며, 해당 속성 피해를 줍니다. 공격 적중 시 범위 피해를 주며 해당 적이 선택된 속성의 상태 이상에 걸려있는 경우 범위와 피해가 증폭됩니다. 연속해서 같은 속성이 부여되지 않습니다.",
-      "tw": "每次使用此技能攻擊將會隨機選擇 1 種元素，並只會使用該元素造成傷害。若攻擊擊中敵人，也會對附近的敵人造成傷害，若被攻擊的敵人已經受到被選中元素的異常狀態，半徑會更大。不會連續選擇到相同的元素。",
-      "ru": "DNT-UNUSED Каждая атака этим умением случайно выбирает стихию и наносит урон только от этой стихии. При нанесении удара этой атакой по врагу, урон также будет нанесён и в области вокруг него, при этом радиус поражения будет больше, если на врага действует состояние от выбранной умением стихии. Умение будет пытаться не использовать одну и ту же стихию два раза подряд.",
-      "jp": "攻撃のたびに元素が一種ランダムに選ばれ、その元素ダメージしか与えることができない。攻撃が敵にヒットすると、その敵の周囲に範囲ダメージを与える。攻撃がヒットした敵が選択された元素の状態異常を負っていればその範囲は拡大する。同じ元素が二度連続で選ばれることはない。"
     },
     "image": null
   },
@@ -1406,25 +1330,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-vaal-lightning-strike",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Lightning Strike",
-      "kr": "바알 번개 타격",
-      "tw": "瓦爾．閃電打擊 ",
-      "ru": "[DNT-UNUSED] Удар молнии ваал",
-      "jp": "[DNT-UNUSED] Vaal Lightning Strike"
-    },
-    "description": {
-      "en": "DNT-UNUSED Infuses your melee weapon with electrical energies as you swing. In addition to converting some of your physical damage to lightning damage, the stored energy becomes an orb attached to the enemy you hit, or the ground if you don't hit an enemy. The orb will periodically fire projectiles at other nearby enemies for a duration, which will also damage the enemy the orb is attached to.",
-      "kr": "무기를 휘두를 때 근접 무기에 전기 에너지를 주입합니다. 물리 피해의 일부를 번개 피해로 전환하는 동시에, 공격 시 저장된 에너지는 구슬 형태로 바뀝니다. 이는 명중한 적에게 부착되거나 빗나갈 경우 바닥에 부착됩니다. 구슬은 지속시간 동안 주기적으로 주변의 다른 적에게 투사체를 발사하며, 구체가 부착된 적에게도 피해를 주는 효과가 있습니다.",
-      "tw": "凝聚閃電之力，轉換一部分的物理傷害為閃電傷害以重擊目標。凝聚之力會變成一顆球附著在你擊中的敵人身上，若你沒擊中敵人則會產生於地面上。這顆球會在一段時間內持續的發射投射物攻擊附近的敵人，也會對球體附著的敵人造成傷害。 ",
-      "ru": "DNT-UNUSED Герой наполняет оружие ближнего боя энергией молний. При ударах часть физического урона становится уроном от молний. Кроме того, при ударах вложенная в оружие энергия становится сферой, которая прикрепляется ко врагу, которому вы нанесли удар, или остается на земле, если вы не задели врага. В течение некоторого времени сфера периодически будет выпускать снаряды в других ближайших врагов, при этом враг с прикрепленной на него сферой будет также получать урон.",
-      "jp": "近接武器を振りかぶり電気エネルギーを注入する。物理ダメージの一部が雷ダメージに変換された後、蓄えられたエネルギーは敵にヒットした場合敵に付着するオーブとなり、敵にヒットできなければ地面に付着するオーブとなる。オーブは持続時間中周囲の敵に周期的に投射物を放つとともに、付着している敵にもダメージを与える。"
-    },
-    "image": null
-  },
-  {
     "id": "tempest-shield",
     "grantedEffect": "TempestShieldPlayer",
     "name": {
@@ -2052,25 +1957,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-incinerate",
-    "grantedEffect": "ExpandingFireCone",
-    "name": {
-      "en": "[DNT-UNUSED] Incinerate",
-      "kr": "소각",
-      "tw": "燒毀 ",
-      "ru": "[DNT-UNUSED] Испепеление",
-      "jp": "[DNT-UNUSED] Incinerate"
-    },
-    "description": {
-      "en": "DNT-UNUSED Continuously launches a torrent of fire from your hand, repeatedly damaging enemies. As you channel this spell longer, the flames spread wider close to you and spread longer directly in front of you. When you stop channelling you release a wave of fire damage over a wide and long area that will apply a powerful Ignite.",
-      "kr": "불길을 내뿜어 범위 내 적들에게 지속적인 피해를 줍니다. 집중 유지를 오래할수록 불꽃이 더 넓게 퍼지고, 더 멀리 번집니다. 집중 유지를 중단하면 화염 파도를 방출하여 광범위한 지역에 강력한 화염 피해를 주고 점화 시킵니다.",
-      "tw": "持續從手中散發出火焰之柱，持續對敵人造成傷害。你引導施放此技能越久，火焰會在你面前擴散更廣更遠。當你停止引導施放時，你會對廣大的範圍釋放一道火焰造成強大的點燃。 ",
-      "ru": "DNT-UNUSED Герой выпускает из ладони поток огня, который несколько раз наносит урон врагам. Чем дольше герой поддерживает эти чары, тем дальше и шире от него будет распространяться поток огня. При прекращении поддержания, умение выпустит волну огненного урона в большой и широкой области, которая будет накладывать сильный поджог.",
-      "jp": "DNT手から火を大量に連続的に放ち、敵に連続ダメージを与える。長い間このスペルをチャネリングするほど、炎は周囲のより広い範囲に広がり、使用者の前方のより遠くまで届くようになる。チャネリングを止めると、幅が広く長い範囲に火ダメージの波が放出され、強力な発火を付与する。"
-    },
-    "image": null
-  },
-  {
     "id": "vaal-cyclone",
     "grantedEffect": "",
     "name": {
@@ -2105,44 +1991,6 @@
       "tw": "引導施放此技能，在旋轉的同時，一邊向目標地點前進。當引導施放此技能時，你不會被擊退。",
       "ru": "При поддержании умения герой отправляется в указанное место, непрерывно вращаясь. Во время поддержания этого умения героя нельзя отбросить.",
       "jp": "このスキルをチャネリングし、回転しながら対象とした地点に移動する。このスキルをチャネリング中はノックバックを受けることがない。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-reave",
-    "grantedEffect": "ReavePlayer",
-    "name": {
-      "en": "[DNT-UNUSED] Reave",
-      "kr": "약탈",
-      "tw": "衝擊波 ",
-      "ru": "[DNT-UNUSED] Опустошение",
-      "jp": "[DNT-UNUSED] Reave"
-    },
-    "description": {
-      "en": "DNT-UNUSED Attacks a small area in front of you. Each Reave that hits an enemy grants stages, which you will begin to lose after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords.",
-      "kr": "전방의 작은 범위를 공격합니다. 약탈로 적을 명중시킬 때마다 단계를 형성하며, 아무것도 명중시키지 못한 경우, 잠시 후에 단계를 상실하기 시작합니다. 단검, 클로, 한손 검으로만 사용할 수 있습니다.",
-      "tw": "對前方一小塊區域進行攻擊，每擊中一名敵人將會使衝擊波的範圍增大。若是一段時間內沒有使用衝擊波擊中敵人或是使用了其他技能，此範圍將會還原。限定匕首、爪、單手劍。 ",
-      "ru": "DNT-UNUSED Герой атакует небольшую область перед собой. Каждое попадание Опустошением по врагу дарует стадии, которые герой вскоре начинает терять, если не наносит новых ударов. Умение работает только с кинжалами, когтями и одноручными мечами.",
-      "jp": "前方の小範囲を攻撃する。リーヴで敵をヒットするたびにステージが付与されるが、ヒットを新たに行うことがなければ短時間でそのステージは減り始める。使用するには短剣、鉤爪または片手剣を装備する必要がある。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-vaal-reave",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Reave",
-      "kr": "바알 약탈",
-      "tw": "瓦爾．衝擊波 ",
-      "ru": "[DNT-UNUSED] Опустошение ваал",
-      "jp": "[DNT-UNUSED] Vaal Reave"
-    },
-    "description": {
-      "en": "DNT-UNUSED Repeatedly attacks a large area in different directions. Each Vaal Reave that hits an enemy grants stages, which you will begin to lose after a short period without hitting anything. Only works with Daggers, Claws, and One-Handed Swords.",
-      "kr": "서로 다른 방향의 넓은 범위를 반복적으로 공격합니다. 각각의 바알 약탈로 적을 명중시킬 때마다 단계를 획득하며, 아무것도 명중시키지 못한 경우, 잠시 후에 단계를 상실하기 시작합니다. 단검, 클로, 한손 검으로만 사용할 수 있습니다.",
-      "tw": "重複對不同方向進行範圍攻擊。每擊中一名敵人將會使瓦爾．衝擊波的範圍增大。若是一段時間內沒有使用瓦爾．衝擊波擊中敵人或是使用了其他技能，此範圍將會還原。限定匕首、爪、單手劍。 ",
-      "ru": "DNT-UNUSED Герой многократно атакует большую область в разных направлениях. Каждое попадание по врагу дарует стадии, которые герой вскоре начинает терять, если не наносит новых ударов. Умение работает с только кинжалами, когтями и одноручными мечами.",
-      "jp": "様々な方向の広範囲を繰り返し攻撃する。ヴァールリーヴで敵をヒットするたびにステージが付与されるが、ヒットを新たに行うことがなければ短時間でそのステージは減る。使用するには短剣、鉤爪または片手剣を装備する必要がある。"
     },
     "image": null
   },
@@ -2831,25 +2679,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-lightning-tendrils",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Lightning Tendrils",
-      "kr": "덩굴 번개",
-      "tw": "電能釋放 ",
-      "ru": "[DNT-UNUSED] Побеги молний",
-      "jp": "[DNT-UNUSED] Lightning Tendrils"
-    },
-    "description": {
-      "en": "DNT-UNUSED While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a semicircular area in front of you.",
-      "kr": "집중 유지하는 동안 고동치는 전기 에너지가 방출됩니다. 전방 반원 지역에 번개 피해를 줍니다.",
-      "tw": "你引導施放此技能時，技能釋放電能脈衝，對你面前弧狀區域內的所有敵人造成傷害。 ",
-      "ru": "DNT-UNUSED При поддержании умения герой выпускает разряды молнии, которые поражают врагов в области перед ним.",
-      "jp": "このスキルをチャネリングすると、電気エネルギーのパルスが放たれ、前方の半円状の範囲に雷ダメージを与える。"
-    },
-    "image": null
-  },
-  {
     "id": "kinetic-blast",
     "grantedEffect": "ClusterBurst",
     "name": {
@@ -3154,25 +2983,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-piety-reverse-cleave",
-    "grantedEffect": "PietyReverseCleave",
-    "name": {
-      "en": "[DNT-UNUSED] Piety Reverse Cleave",
-      "kr": "파이어티 역회전베기",
-      "tw": "派蒂反向劈砍",
-      "ru": "[DNT-UNUSED] Piety Reverse Cleave",
-      "jp": "[DNT-UNUSED] Piety Reverse Cleave"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "bladefall",
     "grantedEffect": "Bladefall",
     "name": {
@@ -3344,44 +3154,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-vaal-earthquake",
-    "grantedEffect": "VaalEarthquake",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Earthquake",
-      "kr": "바알 지진",
-      "tw": "瓦爾．震地 ",
-      "ru": "[DNT-UNUSED] Землетрясение ваал",
-      "jp": "[DNT-UNUSED] Vaal Earthquake"
-    },
-    "description": {
-      "en": "DNT-UNUSED",
-      "kr": "지면을 강타해 범위 내에 피해를 주고 대지에 균열을 생성합니다. 잠시 후 균열은 여진을 일으킵니다. 이 스킬을 사용한 후 시전자의 걸음은 범위 피해를 주며, 이전의 여진이 끝난 경우 다시 균열을 생성합니다. 별도의 지속시간이 경과하거나 최대 여진 횟수에 도달하면 효과가 종료됩니다. 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
-      "tw": " ",
-      "ru": "DNT-UNUSED",
-      "jp": "DNT-UNUSED"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-vaal-earthquake",
-    "grantedEffect": "VaalEarthquakeFootstep",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Earthquake",
-      "kr": "바알 지진",
-      "tw": "瓦爾．震地 ",
-      "ru": "[DNT-UNUSED] Землетрясение ваал",
-      "jp": "[DNT-UNUSED] Vaal Earthquake"
-    },
-    "description": {
-      "en": "DNT-UNUSED Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. After using this skill, your steps will deal damage around you, cracking the earth if the previous cracks have erupted. This effect ends after a secondary duration, or after a maximum number of aftershocks.",
-      "kr": "지면을 강타해 범위 내에 피해를 주고 대지에 균열을 생성합니다. 잠시 후 균열은 여진을 일으킵니다. 이 스킬을 사용한 후 시전자의 걸음은 범위 피해를 주며, 이전의 여진이 끝난 경우 다시 균열을 생성합니다. 별도의 지속시간이 경과하거나 최대 여진 횟수에 도달하면 효과가 종료됩니다.",
-      "tw": "重擊地面，對周圍造成大量傷害，並在多處地面上留下裂痕。在一小段時間後裂痕會爆發成餘震。你的腳步會使先前已爆發裂痕的地面碎裂，對你附近造成傷害持續一段時間。此效果在第二階段持續時間後結束，或在最大次餘震後結束。 ",
-      "ru": "DNT-UNUSED Герой сотрясает землю, нанося урон в области и оставляя разлом в земле. После короткого промежутка времени разлом взрывается, выпуская мощную остаточную волну. После использования этого умения с каждым шагом герой будет наносить урон по области вокруг себя, оставляя на земле новые разломы, если предыдущие успели взорваться. Этот эффект завершается по истечении вторичного времени действия, или при достижении максимального количества остаточных волн.",
-      "jp": "地面を叩きつけ、範囲ダメージを与えるとともに地面に亀裂を入れる。この亀裂は短い持続時間の後に強力な余震を起こして爆発する。このスキルを使用した後にプレーヤーが移動すると、地面に亀裂を入れてプレーヤーの周囲に範囲ダメージを与える。直前に作った亀裂が爆破していなければ新たな亀裂の爆破は起きない。この効果は短い副次的持続時間の後か余震の最大発生数に達した後に終了する。"
-    },
-    "image": null
-  },
-  {
     "id": "contagion",
     "grantedEffect": "Contagion",
     "name": {
@@ -3534,82 +3306,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-blight",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Blight",
-      "kr": "황폐",
-      "tw": "萎滅 ",
-      "ru": "[DNT-UNUSED] Мор",
-      "jp": "[DNT-UNUSED] Blight"
-    },
-    "description": {
-      "en": "DNT-UNUSED Apply a debuff to enemies in front of you which deals chaos damage over time. Enemies who aren't already debuffed by Blight are also hindered for a shorter secondary duration, slowing their movement. Continued channelling adds layers of damage to the debuff, each with their own duration.",
-      "kr": "전방의 적들에게 디버프를 걸어 지속 카오스 피해를 줍니다. 기존에 황폐 디버프에 걸리지 않은 적들은 이보다 짧은 별도의 지속시간 동안 이동 방해를 받아 이동이 느려집니다. 집중 유지를 계속하면 디버프가 중첩되어 지속 피해가 단계적으로 증가하며, 각각 별도의 지속시간을 갖습니다.",
-      "tw": "引導（持續施放）時對所有扇形範圍中的敵人疊加減益效果，沒受到萎滅減益效果的敵人也會被二階較短持續時間的阻礙影響，減少它們的移動速度。持續引導施放會增加減益效果疊層傷害。每層減益效果各自存在持續時間。 ",
-      "ru": "DNT-UNUSED Стоящие впереди героя враги получают отрицательный эффект, наносящий постепенный урон хаосом. Как только Мор начинает действовать на ещё не поражённых Мором врагов, на них накладываетя эффект Скованности, замедляющий скорость их передвижения в течение короткого вторичного промежутка времени. Поддержание умения позволяет накладывать слои постепенного урона, у каждого слоя своя собственная длительность.",
-      "jp": "目の前の敵に混沌継続ダメージを与えるデバフを付与する。ブライトのデバフを受けていない敵は短い副次的持続時間阻害のデバフを受け、移動スピードが遅くなる。チャネリングをし続けると、デバフのスタックが新たに追加される。スタックごとにそれぞれの持続時間を持つ。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-vaal-blight",
-    "grantedEffect": "VaalBlight",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Blight",
-      "kr": "바알 황폐",
-      "tw": "瓦爾．萎滅 ",
-      "ru": "[DNT-UNUSED] Мор ваал",
-      "jp": "[DNT-UNUSED] Vaal Blight"
-    },
-    "description": {
-      "en": "DNT-UNUSED Apply a powerful debuff to enemies around you which deals chaos damage over time. Then applies two additional layers in a larger area, growing greatly in size each time. Enemies are also substantially hindered for a shorter secondary duration, slowing their movement.",
-      "kr": "시전자 주변에 디버프를 걸어 지속 카오스 피해를 줍니다. 그 후 더 큰 범위로 2번의 디버프를 걸며 단계별로 범위가 크게 넓어집니다. 적들은 별도의 짧은 지속시간 동안 상당한 이동 방해를 받아 이동이 느려지게 됩니다.",
-      "tw": "引導施放時對所有扇形範圍中的敵人疊加強力的減益效果，每層減益效果各自存在持續時間，並造成混沌持續傷害。敵人會持續受到較短的二階阻礙效果，減少他們的移動速度。 ",
-      "ru": "DNT-UNUSED Враги вокруг героя получают мощный отрицательный эффект, наносящий постепенный урон хаосом. Затем умение накладывает два дополнительных слоя в большей области, которая каждый раз становится значительно шире. Враги также получают эффект Скованности, замедляющий скорость их передвижения в течение короткого вторичного промежутка времени. ",
-      "jp": "周囲の敵に混沌継続ダメージを与える強力なデバフを付与する。その後、広範囲に2スタックのデバフを追加で付与し、それぞれ付与するたびに効果範囲が広くなっていく。敵はまた副次的持続時間阻害のデバフも受け、ムーブメントスピードが遅くなる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-blade-flurry",
-    "grantedEffect": "ChargedAttack",
-    "name": {
-      "en": "[DNT-UNUSED] Blade Flurry",
-      "kr": "질풍의 칼날",
-      "tw": "刀鋒亂舞 ",
-      "ru": "[DNT-UNUSED] Порыв клинков",
-      "jp": "[DNT-UNUSED] Blade Flurry"
-    },
-    "description": {
-      "en": "DNT-UNUSED Repeatedly hit enemies in a circle in front of you while channelling, dealing damage to and around the enemy. The damage is continually boosted while channelling. You unleash an additional hit for each stage reached once the channelling ends.",
-      "kr": "집중 유지 동안 전방의 원형 범위 내의 적들에게 피해를 줍니다. 집중 유지를 지속하는 동안 피해는 점차 증가합니다. 집중 유지가 끝나면 각 단계에 따라 추가로 적에게 피해를 줍니다.",
-      "tw": "引導施放時對面前圓形範圍中敵人進行攻擊，每一擊皆對目標與附近造成傷害。持續引導時增加傷害。結束引導後釋放等同引導時所達層數的額外攻擊次數。 ",
-      "ru": "DNT-UNUSED При поддержании многократно поражает врагов в круге перед героем, нанося урон задетым врагам и в области вокруг них. При поддержании урон постепенно увеличивается. Герой выпускает дополнительный удар за каждую стадию при прекращении поддержания умения.",
-      "jp": "チャネリング中、前方にいる敵を攻撃し、その敵とその周囲の敵にダメージを与える。チャネリング中ダメージはブーストされ続ける。チャネリングを終えると獲得したステージごとに追加の攻撃を放つ。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-vaal-blade-flurry",
-    "grantedEffect": "ChargedAttack",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Blade Flurry",
-      "kr": "바알 질풍의 칼날",
-      "tw": "瓦爾．刀鋒亂舞 ",
-      "ru": "[DNT-UNUSED] Порыв клинков ваал",
-      "jp": "[DNT-UNUSED] Vaal Blade Flurry"
-    },
-    "description": {
-      "en": "DNT-UNUSED Channel to create an expanding circle area around you that blinds enemies within it. When you stop channelling, deals damage in a smaller area around each enemy in the circle.",
-      "kr": "집중 유지하여 플레이어 주변에 점점 넓어지는 원 모양의 지역을 생성하고, 그 안의 적을 실명시킵니다. 집중 유지를 중단하면 원 안에 있는 각각의 적 주위의 더 작은 지역에 범위 피해를 줍니다.",
-      "tw": "引導施放一個在你附近擴張的環形範圍，並致盲範圍內的敵人。當你引導施放時對環形中的每個敵人造成小範圍的傷害。 ",
-      "ru": "DNT-UNUSED При поддержании создаёт расширяющийся круг вокруг героя, который ослепляет находящихся внутри него врагов. При прекращении поддержания наносит урон по меньшей области вокруг каждого врага в пределах круга.",
-      "jp": "チャネリングにより自身の周囲に拡大する円形の領域を作り、その中にいる敵に盲目を付与する。チャネリングを止めた時に、領域内にいる敵の周囲に小さな範囲にダメージを与える。"
-    },
-    "image": null
-  },
-  {
     "id": "face-last-target",
     "grantedEffect": "",
     "name": {
@@ -3701,6 +3397,25 @@
       "tw": "犧牲一個召喚物的生命，對其周圍範圍內造成混沌傷害。如果你沒有召喚物，則改為犧牲你自己的生命。",
       "ru": "Герой жертвует здоровьем приспешника, чтобы нанести урон хаосом по области вокруг него. Если у героя нет приспешников, жертвуется его собственное здоровье.",
       "jp": "復活するミニオンのライフを犠牲にし、その周囲のエリアに混沌ダメージを与える。ミニオンがいない場合、代わりにプレイヤー自身のライフを犠牲にする。"
+    },
+    "image": null
+  },
+  {
+    "id": "abyssal-pact",
+    "grantedEffect": "SkeletalChains",
+    "name": {
+      "en": "Abyssal Pact",
+      "kr": "심연의 맹약",
+      "tw": "深淵冥約\r\n",
+      "ru": "Договор Бездны",
+      "jp": "アビサルパクト"
+    },
+    "description": {
+      "en": "Sacrifice some of a damageable Minion's life to deal Physical damage in an area around it.",
+      "kr": "피해를 받을 수 있는 소환수의 생명력을 일부 희생하여 소환수 주변의 일정 범위에 물리 피해를 줍니다.",
+      "tw": "獻祭可受傷的召喚物的部分生命，對其周圍造成範圍物理傷害。",
+      "ru": "Герой жертвует частью здоровья приспешника, которому можно нанести урон, чтобы нанести физический урон по области вокруг него.",
+      "jp": "ダメージを受けることができるミニオンのライフの一部を捧げ、その周囲の範囲に物理ダメージを与える。"
     },
     "image": null
   },
@@ -4009,25 +3724,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-charged-dash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Charged Dash",
-      "kr": "충전 질주",
-      "tw": "雷霆衝鋒 ",
-      "ru": "[DNT-UNUSED] Заряженный рывок",
-      "jp": "[DNT-UNUSED] Charged Dash"
-    },
-    "description": {
-      "en": "DNT-UNUSED Channel to project an illusion which you steer. You gain stages while it moves, until it stops at a maximum total distance. Waves of area damage frequently pulse along its path, based on your attack speed. Stop channelling to teleport to the illusion, dealing a final wave of damage.",
-      "kr": "집중 유지로 플레이어가 조종하는 환상을 투영합니다. 최대 거리에 도달해 멈출 때까지, 환상이 움직이는 동안 단계를 획득합니다. 공격 속도에 비례해, 경로를 따라 범위 피해의 파도가 수시로 파동을 치게 됩니다. 집중 유지를 멈추면 환상이 있는 곳으로 순간이동하며, 마지막으로 피해의 파도를 방출합니다.",
-      "tw": "引導一個你駕馭的幻象。當它移動時你獲得層數，直到到達最大距離。你和幻影之間會根據你的攻擊速度不斷釋放脈衝傷害。停止引導後將會傳送至幻影位置，並造成最後一波傷害。 ",
-      "ru": "DNT-UNUSED Создаёт управляемую иллюзию при поддержании. Пока иллюзия движется, герой получает заряды, до достижения ею максимального расстояния. На пути её движения регулярно наносится урон волнами, с частотой, зависящей от скорости атаки героя. При прекращении поддержания переносит героя к иллюзии, нанося финальную волну урона.",
-      "jp": "チャネリングをして操作できる幻影を投影する。幻影が動いて最大距離に到達するまでの間、ステージを獲得する。使用者のアタックスピードに応じた頻度で幻影の通り道に範囲ダメージのパルスが発生する。チャネリングをやめると、幻影の位置に使用者がテレポートし最後にダメージの波動を与える。"
-    },
-    "image": null
-  },
-  {
     "id": "corrupted-cry",
     "grantedEffect": "",
     "name": {
@@ -4294,63 +3990,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-smite",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Smite",
-      "kr": "징벌",
-      "tw": "雷鳴重擊 ",
-      "ru": "[DNT-UNUSED] Кара",
-      "jp": "[DNT-UNUSED] Smite"
-    },
-    "description": {
-      "en": "DNT-UNUSED Performs a melee attack, and causes lightning to strike a targeted location or nearby enemy, dealing damage in an area. Each target can only be hit once by this skill. Hitting an enemy grants an aura, giving you and your allies additional lightning damage for a duration.",
-      "kr": "근접 공격으로 대상 지점이나 주변의 적에게 벼락을 떨어트려 범위 피해를 줍니다. 이 스킬은 대상마다 한 번씩만 명중할 수 있습니다. 적 명중 시 오라를 획득하여 플레이어와 동료들이 일정 시간 동안 추가 번개 피해를 줍니다.",
-      "tw": "使用近戰攻擊，使閃電擊中指定地點或附近 1 名敵人，造成範圍傷害。每個目標只能被此技能擊中一次。擊擊中敵人時，你會獲得一個光環效果，使你和友方獲得額外閃電傷害，此光環會持續一段時間。 ",
-      "ru": "DNT-UNUSED Герой совершает атаку ближнего боя, вызывая удар молнии в указанном месте или в ближайшего врага, наносящий урон по области. Каждую цель это умение может поразить только один раз. Попадание по врагу на некоторое время дарует ауру, дающую ему и союзникам дополнительный урон от молнии.",
-      "jp": "近接攻撃を行い、指定位置または近くの敵に稲妻を落とし範囲ダメージを与える。各対象は1度のみこのスキルがヒットする。もしこのスキルが敵に命中すれば、プレイヤーにオーラを付与し、プレイヤーおよび味方に追加の雷ダメージを持続時間の間付与する。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-vaal-smite",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Smite",
-      "kr": "바알 징벌",
-      "tw": "瓦爾．雷鳴重擊 ",
-      "ru": "[DNT-UNUSED] Кара ваал",
-      "jp": "[DNT-UNUSED] Vaal Smite"
-    },
-    "description": {
-      "en": "DNT-UNUSED Calls lightning down to infuse your weapon, then performs a melee attack and causes lightning to strike nearby enemies, dealing damage in an area around each. Hitting an enemy grants an aura, giving you and your allies additional lightning damage for a duration, and additional lightning bolts with Smite.",
-      "kr": "벼락을 소환하여 무기에 주입한 후, 근접 공격으로 주변의 적에게 벼락을 떨어트려 각 적의 주위에 범위 피해를 줍니다. 적 명중 시 오라를 획득하여 플레이어와 동료들이 일정 시간 동안 추가 번개 피해를 주고, 징벌로 벼락을 추가로 떨어트립니다.",
-      "tw": "呼喚雷電注入你的武器，進行近戰攻擊並使雷擊攻擊附近的敵人，對每個敵人的周圍造成範圍傷害。擊中敵人會賦予你一個光環，使你和友方在一段時間內獲得額外閃電傷害，並在使用雷鳴重擊時附加更多雷擊。 ",
-      "ru": "DNT-UNUSED Герой усиливает своё оружие ударом молнии и совершает атаку ближнего боя, вызывая удар молнии в ближайших врагов, наносящий урон по области вокруг каждого из них. Попадание по врагу на некоторое время дарует ауру, дающую герою и союзникам дополнительный урон от молнии и дополнительные удары молнией от Кары.",
-      "jp": "雷を呼び寄せ武器にまとって近接攻撃を行い、周囲の敵およびその周囲にダメージを与える稲妻を降らせる。敵に当たるとオーラを付与し、プレイヤーと味方に追加の雷ダメージを持続時間の間付与し、スマイトで追加の稲妻を降らせる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-scourge-arrow",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Scourge Arrow",
-      "kr": "재앙의 화살",
-      "tw": "天譴之箭 ",
-      "ru": "[DNT-UNUSED] Стрела скверны",
-      "jp": "[DNT-UNUSED] Scourge Arrow"
-    },
-    "description": {
-      "en": "DNT-UNUSED Channel to infuse an arrow with chaos, gaining stages while it is held. Release to fire it, leaving spore pods in its wake. Each spore pod blooms, firing thorn arrows, which travel for a short time before dissipating. Modifiers that cause additional projectiles to be fired will only apply to the initial arrows, and the spore pods will be split between those arrows.",
-      "kr": "집중 유지로 화살에 카오스의 힘을 주입한 뒤 겨누고 있는 동안 단계를 획득합니다. 화살을 발사하면 지나가는 경로에 포자 주머니를 남깁니다. 포자 주머니는 개별적으로 만개함과 동시에, 가시 화살을 발사하며 잠시 동안 날아가다 소멸합니다. 추가 투사체 발사 속성 부여는 최초의 화살에만 적용되며, 포자 주머니는 해당 화살들에 분할됩니다.",
-      "tw": "引導施放此技能拉弓並注入混沌之力，將弓拉住時會累積層數。發射後在它行進的路途掉下黴孢，黴孢將會依據引導施放時的層數。每個黴孢都會爆裂，發射星形荊棘箭矢，在消逝前會飛行一段距離。有額外投射物的詞綴影響第一發箭矢，黴孢分裂在這些箭矢之間。 ",
-      "ru": "DNT-UNUSED При поддержании герой готовит стрелу, наполняя ее хаосом, и набирает стадии. При прекращении поддержания герой выпускает стрелу, и во время полёта она сбрасывает стручки со спорами. Каждый стручок распускается, выпуская кольцо колючих стрел на небольшое расстояние. Пролетев его, стрелы исчезают. Модификаторы дополнительных снарядов добавляют стрелы только первоначальному выстрелу, и стручки спор будут разделены между этими стрелами.",
-      "jp": "このスキルをチャネリングすることで弓に混沌の力を宿らせ、矢を引いている間ステージを獲得する。チャネリングをやめると棘の矢を放ち、矢の通り道に胞子嚢を生成する。それぞれの胞子嚢は開花するとトゲの矢を放つ。棘の矢は短い間飛んだ後に消滅する。投射物を追加するモッドは最初の矢にのみ適応され、毒の花は両方の投射物に分配されて生成されるようになる。"
-    },
-    "image": null
-  },
-  {
     "id": "toxic-rain",
     "grantedEffect": "",
     "name": {
@@ -4560,25 +4199,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-storm-brand",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Storm Brand",
-      "kr": "폭풍의 낙인",
-      "tw": "風暴烙印",
-      "ru": "[DNT-UNUSED] Клеймо бури",
-      "jp": "[DNT-UNUSED] Storm Brand"
-    },
-    "description": {
-      "en": "DNT-UNUSED Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, firing beams which deal damage to nearby enemies and those around them. The brand will detach if the enemy dies.",
-      "kr": "주변의 적에게 자동 부착되는 마법의 낙인을 생성합니다. 낙인은 부착된 동안 활성화되어 주변의 적들에게 광선을 발사하여 번개 피해를 줍니다. 낙인이 부착된 적 사망 시 낙인은 자동 분리됩니다.",
-      "tw": "製造一個可以附著於附近敵人的魔法烙印。當附著時，會定期發動向附近敵人和他們周圍發射光束造成傷害。當敵人死亡時烙印會掉落。",
-      "ru": "DNT-UNUSED Герой создаёт магическое клеймо, которое может прикрепиться к врагу поблизости. Прикреплённое клеймо периодически активируется, выпуская лучи, которые наносят урон как врагам поблизости, так и врагам вокруг них. Клеймо открепляется при смерти заклеймённого врага.",
-      "jp": "DNT近くの敵に取り付けることのできる魔法のブランドを生成する。付着状態の間、定期的に発動し付着している敵とその周囲の敵にダメージを与えるビームを放つ。ブランドは敵が死ぬと取り外される。"
-    },
-    "image": null
-  },
-  {
     "id": "feast-of-flesh",
     "grantedEffect": "FeastOfFlesh",
     "name": {
@@ -4594,25 +4214,6 @@
       "tw": "消耗你附近的屍體。每消耗一具屍體，會在一小段時間內恢復生命和魔力。",
       "ru": "Поглощает трупы рядом с героем, кратковременно восстанавливая ему здоровье и ману за каждый поглощённый труп.",
       "jp": "プレイヤーの近くの死体を消費し、消費した死体の数ごとにライフとマナを短い時間かけて自動回復させる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-armageddon-brand",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Armageddon Brand",
-      "kr": "종말의 낙인",
-      "tw": "末日烙印",
-      "ru": "[DNT-UNUSED] Клеймо Армагеддона",
-      "jp": "[DNT-UNUSED] Armageddon Brand"
-    },
-    "description": {
-      "en": "DNT-UNUSED Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, causing a fiery meteor to fall from the sky. The brand will detach if the enemy dies.",
-      "kr": "근접한 적에게 자동 부착되는 마법의 낙인을 생성합니다. 낙인은 부착된 동안 활성화되어 하늘에서 불타는 유성을 떨어트립니다. 낙인이 부착된 적 사망 시 낙인은 자동 분리됩니다.",
-      "tw": "製造一個可以附著於附近敵人的魔法烙印。當附著時，會定期發動從天上落下熾炎的流星。當敵人死亡時烙印會掉落。",
-      "ru": "DNT-UNUSED Герой создаёт магическое клеймо, которое может прикрепиться к врагу поблизости. Прикреплённое клеймо периодически активируется, обрушивая на землю пылающий метеор. Клеймо открепляется при смерти заклеймённого врага.",
-      "jp": "DNT近くの敵に取り付けることのできる魔法のブランドを生成する。付着状態の間、定期的に発動し燃え盛る隕石を空から降らせる。ブランドは敵が死ぬと取り外される。"
     },
     "image": null
   },
@@ -4769,25 +4370,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-blood-and-sand",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Blood and Sand",
-      "kr": "피와 모래",
-      "tw": "血腥沙戮",
-      "ru": "[DNT-UNUSED] Кровь и песок",
-      "jp": "[DNT-UNUSED] Blood and Sand"
-    },
-    "description": {
-      "en": "DNT-UNUSED Casts a buff that grants different bonuses to melee skills depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.",
-      "kr": "시전자의 태세에 따라 스킬이 효과 및 형태가 변경되는 버프를 시전합니다. 스킬을 다시 시전하면 핏빛 태세와 모래 태세를 전환할 수 있습니다.",
-      "tw": "根據你的姿態獲得不同的近戰技能加成效果。再次使用技能可以切換血腥姿態和沙戮姿態。",
-      "ru": "DNT-UNUSED Герой накладывает на себя положительный эффект, дарующий различные бонусы умениям ближнего боя в зависимости от стойки. При повторном использовании переключает стойки между стойкой крови и стойкой песка.",
-      "jp": "DNT使用者のスタンスに応じて近接スキルに異なる効果を付与するバフを纏う。このスキルを再度唱えるとブラッドスタンスとサンドスタンスを切り替えることができる。"
-    },
-    "image": null
-  },
-  {
     "id": "perforate",
     "grantedEffect": "",
     "name": {
@@ -4864,44 +4446,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-flesh-and-stone",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Flesh and Stone",
-      "kr": "육체와 돌",
-      "tw": "血肉骸骨",
-      "ru": "[DNT-UNUSED] Камень и плоть",
-      "jp": "[DNT-UNUSED] Flesh and Stone"
-    },
-    "description": {
-      "en": "DNT-UNUSED Casts an aura that affects you and nearby enemies differently depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.",
-      "kr": "시전자의 태세에 기반해 시전자와 근접한 적들에게 서로 다른 효과를 주는 오라를 시전합니다. 스킬을 다시 사용하면 핏빛 태세와 모래 태세를 번갈아 취하게 됩니다.",
-      "tw": "施放一個光環根據你不同的姿態來影響你和附近的敵人。再次使用技能可以切換血腥姿態和沙戮姿態。",
-      "ru": "DNT-UNUSED Герой окружает себя аурой, по-разному влияющей на него и врагов в зависимости от его стойки. При повторном использовании переключает стойки между стойкой крови и стойкой песка.",
-      "jp": "DNT使用者と近くの敵に対しての効果がスタンスによって変わるオーラを纏う。スキルをもう一度使うとブラッドスタンスとサンドスタンスを切り替えることができる。"
-    },
-    "image": null
-  },
-  {
-    "id": "unused-slice-and-dice-not-currently-used",
-    "grantedEffect": "",
-    "name": {
-      "en": "[UNUSED] Slice and Dice (NOT CURRENTLY USED)",
-      "kr": "난도질",
-      "tw": "[UNUSED] Slice and Dice (NOT CURRENTLY USED)",
-      "ru": "[DNT] Slice and Dice (NOT CURRENTLY USED)",
-      "jp": "[UNUSED] Slice and Dice (NOT CURRENTLY USED)"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "pride",
     "grantedEffect": "",
     "name": {
@@ -4955,44 +4499,6 @@
       "tw": "套用靈巧和提供迷蹤的增益效果。當你有此增益效果，怪物進入你附近會受到凋零。使用技能或是失去靈巧效果將結束此技能效果。與其他閃現技能共享冷卻間。靈巧時不能使用。",
       "ru": "Дарует герою Неуловимость и положительный эффект, дающий Форму призрака. Пока на героя действует этот эффект, истощает ближайших врагов. Использование любого умения или потеря Неуловимости снимают эффекты умения. Имеет общее время перезарядки с другими умениями Скачка. Нельзя использовать, уже находясь в состоянии Неуловимости.",
       "jp": "身躱しと透明化を付与するバフを与える。このバフがある間は範囲に侵入した敵は衰弱のデバフを受ける。他のスキルを使うか、身躱しのバフの効果時間が終わるとこのスキルの効果時間も終わる。他のブリンクスキルとクールダウンを共有する。すでに身躱しがある場合は使用できない。"
-    },
-    "image": null
-  },
-  {
-    "id": "unused-discontinued",
-    "grantedEffect": "",
-    "name": {
-      "en": "[UNUSED] DISCONTINUED",
-      "kr": "[DNT-UNUSED] DISCONTINUED",
-      "tw": "[UNUSED] DISCONTINUED",
-      "ru": "[DNT] DISCONTINUED",
-      "jp": "[UNUSED] DISCONTINUED"
-    },
-    "description": {
-      "en": "UNUSED Attack an enemy, teleporting a short distance behind them if they're not in range. On hit, summon a serpent that replicates the attack.",
-      "kr": "DNT-UNUSED Attack an enemy, teleporting a short distance behind them if they're not in range. On hit, summon a serpent that replicates the attack.",
-      "tw": "UNUSED Attack an enemy, teleporting a short distance behind them if they're not in range. On hit, summon a serpent that replicates the attack.",
-      "ru": "DNT Attack an enemy, teleporting a short distance behind them if they're not in range. On hit, summon a serpent that replicates the attack.",
-      "jp": "UNUSED Attack an enemy, teleporting a short distance behind them if they're not in range. On hit, summon a serpent that replicates the attack."
-    },
-    "image": null
-  },
-  {
-    "id": "unused-discontinued",
-    "grantedEffect": "",
-    "name": {
-      "en": "[UNUSED] DISCONTINUED",
-      "kr": "[DNT-UNUSED] DISCONTINUED",
-      "tw": "[UNUSED] DISCONTINUED",
-      "ru": "[DNT] DISCONTINUED",
-      "jp": "[UNUSED] DISCONTINUED"
-    },
-    "description": {
-      "en": "UNUSED Fling out projectiles in front of you. Every third attack fires a single, piercing, more powerful projectile at the center, and you dash forward with it.",
-      "kr": "DNT-UNUSED Fling out projectiles in front of you. Every third attack fires a single, piercing, more powerful projectile at the center, and you dash forward with it.",
-      "tw": "UNUSED Fling out projectiles in front of you. Every third attack fires a single, piercing, more powerful projectile at the center, and you dash forward with it.",
-      "ru": "DNT Fling out projectiles in front of you. Every third attack fires a single, piercing, more powerful projectile at the center, and you dash forward with it.",
-      "jp": "UNUSED Fling out projectiles in front of you. Every third attack fires a single, piercing, more powerful projectile at the center, and you dash forward with it."
     },
     "image": null
   },
@@ -5168,25 +4674,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-arcanist-brand",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Arcanist Brand",
-      "kr": "신비학자 낙인",
-      "tw": "奧術烙印",
-      "ru": "[DNT-UNUSED] Клеймо чаротворца",
-      "jp": "[DNT-UNUSED] Arcanist Brand"
-    },
-    "description": {
-      "en": "DNT-UNUSED Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, triggering linked spells. The brand will detach if the enemy dies.",
-      "kr": "주변의 적에게 자동 부착되는 마법의 낙인을 생성합니다. 낙인은 부착된 동안 활성화되어 연결된 주문을 발동시킵니다. 낙인이 부착된 적 사망 시 낙인은 자동 분리됩니다.",
-      "tw": "製造 1 個可以附著附近敵人的魔幻烙印。當附著時會定期啟動，觸發連結的法術。當敵人死亡時烙印會分離。",
-      "ru": "DNT-UNUSED Герой создаёт магическое клеймо, которое может прикрепиться к ближайшему врагу. Прикреплённое клеймо периодически активируется, вызывая срабатывание связанных чар. Клеймо открепляется при смерти врага.",
-      "jp": "DNT近くの敵に取り付けることのできる魔法のブランドを生成する。付着状態の時に定期的に発動し、リンクしているスペルをトリガーする。敵が死ぬとブランドは取り外される。"
-    },
-    "image": null
-  },
-  {
     "id": "infernal-cry",
     "grantedEffect": "AbyssalCry",
     "name": {
@@ -5202,25 +4689,6 @@
       "tw": "如果附近有敵人，使用戰吼會強化接下來的攻擊。戰吼範圍內的敵人會變得不穩定，並會在死亡時觸發戰燃。消耗耐力球可略過此技能的冷卻時間。",
       "ru": "Герой издаёт боевой клич, улучшающий последующие атаки ближнего боя, если поблизости есть противники. Враги в области действия клича дестабилизируются и Сжигаются при смерти. Умение можно мгновенно перезарядить, потратив заряд выносливости.",
       "jp": "ウォークライを行い、もし近くに敵がいれば使用者のその後の近接アタックを強化する。ウォークライの範囲内の敵は弱体化を受け、死亡時にコンバストを行う。このスキルのクールダウンはエンデュランスチャージを使用することでバイパス可能である。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-brandsurge",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Brandsurge",
-      "kr": "낙인 쇄도",
-      "tw": "烙印波動",
-      "ru": "[DNT-UNUSED] Перегрузка клейм",
-      "jp": "[DNT-UNUSED] Brandsurge"
-    },
-    "description": {
-      "en": "DNT-UNUSED Overcharges your brands near the targeted area, causing them to accelerate how quickly they activate and expire. Deals damage in an area around each overcharged brand when it expires.",
-      "kr": "목표 지역 주변에 있는 플레이어의 낙인들을 과충전하여, 활성화 속도와 만료 속도를 가속합니다. 과충전된 낙인은 만료 시에 주변 지역에 피해를 줍니다.",
-      "tw": "超載目標地區附近的烙印，使他們加速啟動和失效。當它失效時對範圍內每個超載的烙印造成傷害。",
-      "ru": "DNT-UNUSED Перегружает клейма героя в указанной области, заставляя их ускорять частоту активации и уменьшая время их существования. Наносит урон по области вокруг каждого перегруженного клейма, когда истекает время его существования.",
-      "jp": "DNT指定位置の周囲のブランドをオーバーチャージ状態にして、ブランドのアクティベート頻度を上げ、効果が切れる時間を早める。オーバーチャージ状態のブランドの効果時間が切れるとその周囲に範囲ダメージを与える。"
     },
     "image": null
   },
@@ -5301,44 +4769,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-penance-brand",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Penance Brand",
-      "kr": "속죄의 낙인",
-      "tw": "贖罪烙印",
-      "ru": "[DNT-UNUSED] Клеймо покаяния",
-      "jp": "[DNT-UNUSED] Penance Brand"
-    },
-    "description": {
-      "en": "DNT-UNUSED Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, adding energy to the branded enemy. Each activation, energy spreads from each energised enemy to an enemy in range which is not energised by the brand. If the branded enemy has 20 energy, each activation will instead deal a pulse of area damage. Energy explodes when the energised enemy dies or the brand is removed, dealing damage in an area.",
-      "kr": "주변의 적에게 자동 부착되는 마법의 낙인을 생성합니다. 낙인은 부착된 동안 활성화되어 낙인이 부착된 적에게 에너지를 부여합니다. 활성화될 때마다 에너지를 부여받는 각각의 적에게서 낙인으로 에너지가 부여되지 않은 범위 내의 적에게 에너지가 옮겨 갑니다. 낙인이 부착된 적이 에너지 20을 가지고 있는 경우, 활성화될 때마다 에너지가 옮겨 가지 않고 범위 피해를 줍니다. 에너지가 부여된 적이 사망하거나 낙인이 제거되면 에너지가 폭발하며 주변에 피해를 줍니다.",
-      "tw": "製造 1 個可以附著附近敵人的魔幻烙印。當附著時會定期啟動，對附著的敵人附加能量。每次啟動時，能量會在範圍內從充能的敵人擴散至未被烙印充能的敵人。若被烙印的敵人有 20 層能量時，每次啟動時改為使用脈衝對範圍造成傷害。當充能的敵人死亡或烙印被移除時，能量會爆炸並造成範圍傷害。",
-      "ru": "DNT-UNUSED Герой создаёт магическое клеймо, которое может прикрепиться к ближайшему врагу. Прикреплённое клеймо периодически активируется, накапливая энергию на заклеймённой цели. При каждой активации энергия распространяется от каждого заряженного врага на незаряженных врагов в радиусе. Если на заклеймённом враге накапливается 20 единиц энергии, то вместо дальнейшего накопления каждая активация клейма излучает импульс урона по области. При смерти заряженного врага или откреплении клейма энергия высвобождается со взрывом, нанося урон по области.",
-      "jp": "DNT周囲の敵に取り付けることのできる魔法のブランドを生成する。付着している間定期的に発動し、ブランドの付着している敵にエネルギーを注入する。発動のたびに、エネルギーの注入を受けた敵から範囲内の注入を受けていない敵にエネルギーが広がる。ブランドの付着している敵のエネルギーが20スタックになると、発動のたびにエネルギーを注入する代わりに範囲ダメージのパルスを放つ。エネルギーを帯びている敵が死ぬか、ブランドが別の敵に移されるとエネルギーの爆発が起き、範囲ダメージを与える。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-wintertide-brand",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Wintertide Brand",
-      "kr": "겨울의 낙인",
-      "tw": "冬潮烙印",
-      "ru": "[DNT-UNUSED] Клеймо зимы",
-      "jp": "[DNT-UNUSED] Wintertide Brand"
-    },
-    "description": {
-      "en": "DNT-UNUSED Creates a magical brand which can attach to a nearby enemy, dealing cold damage over time and chilling them. It periodically activates while attached, gaining stages that raise the damage. When removed, a short-duration debuff dealing the same damage over time and chill is applied to each nearby enemy. The brand keeps its charges while detached.",
-      "kr": "주변의 적에게 자동 부착되는 마법의 낙인을 생성합니다. 낙인은 적에게 지속 냉기 피해를 주며 냉각시키고, 부착된 동안 활성화되어 피해가 단계적으로 증가합니다. 낙인이 제거되면 주변의 모든 적에게 짧은 시간 동안 같은 지속 피해를 주고 냉각을 부여하는 디버프가 적용됩니다.  낙인은 분리되어도 획득한 충전 수를 유지합니다.",
-      "tw": "製造 1 個可以附著附近敵人的魔幻烙印，並造成冰冷持續傷害和冰緩他們。當附著時會定期啟動，獲得疊層提高傷害。當被移除時，會對附近每個敵人套用短暫的減益效果，造成相同的持續傷害和冰緩。",
-      "ru": "DNT-UNUSED Герой создаёт магическое клеймо, которое может прикрепиться к ближайшему врагу, нанося постепенный урон от холода и охлаждая противника. Прикреплённое клеймо периодически активируется, накапливая стадии, повышающие урон. При откреплении на всех врагов поблизости накладываются кратковременный отрицательный эффект, наносящий такой же постепенный урон, и охлаждение. При откреплении клеймо сохраняет накопленные стадии.",
-      "jp": "DNT近くの敵に取り付けることのできる魔法のブランドを生成し、冷気継続ダメージを与え敵に冷却の状態異常を与える。付着している間、定期的に発動しステージを獲得し、ステージごとにダメージが上がる。ブランドが取り除かれると、ブランドが付着した敵に与えたのと同量の継続ダメージを与え、冷却の状態異常を与える持続時間の短いデバフを周囲の敵に与える。取り外されてる間もブランドはチャージを維持する。"
-    },
-    "image": null
-  },
-  {
     "id": "earthshatter",
     "grantedEffect": "",
     "name": {
@@ -5358,7 +4788,7 @@
     "image": null
   },
   {
-    "id": "skill-454",
+    "id": "skill-455",
     "grantedEffect": "",
     "name": {
       "en": "???",
@@ -5449,25 +4879,6 @@
       "tw": "在角色面前製造一道火焰之牆，點燃其範圍內的所有事物。任何由你和友方發射的投射物穿過牆壁時，會附加火焰傷害。情況許可時，會消耗一道閃電灌注，同時為該投射物附加閃電傷害。",
       "ru": "Герой создаёт стену огня перед собой, которая поджигает всё в области действия. Любой пущенный героем или его союзниками снаряд, пролетевший сквозь стену, наносит дополнительный урон от огня. Поглощает насыщение молнией, если возможно, чтобы также добавить снарядам урон от молнии. ",
       "jp": "キャラクターの前方に炎の壁を生成し、範囲内の全ての敵を発火させる。プレイヤーおよびその味方が放ち壁を通り抜けた投射物は追加の火ダメージを与える。もし可能ならば、ライト二ングインフュージョンを消費し、その投射物に雷ダメージを追加するようになる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-call-of-steel",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Call of Steel",
-      "kr": "강철의 부름",
-      "tw": "鋼之呼喚",
-      "ru": "[DNT-UNUSED] Зов стали",
-      "jp": "[DNT-UNUSED] Call of Steel"
-    },
-    "description": {
-      "en": "DNT-UNUSED Calls impale debuffs from enemies, alive or dead, in a large area around you to gain steel shards. Deals reflected damage in a smaller area around each such enemy based on the impales removed from them. Continues to grant shards over time until you reach maximum or spend them.",
-      "kr": "주변의 넓은 지역에서 적의 생사 여부와 관계없이 적에게 중첩된 꿰뚫기 디버프를 불러 강철 조각을 얻습니다. 각 적에게서 제거한 꿰뚫기에 비례하여 해당 적 주변의 좁은 지역에 반사 피해를 줍니다. 강철 조각은 조각이 최대치에 도달하거나 플레이어가 조각을 소모할 때까지 지속적으로 획득하게 됩니다.",
-      "tw": "在你附近大範圍內呼喚活著或死亡敵人身上的穿刺減益效果，使你獲得鋼鐵碎片。並根據移除穿刺敵人的位置造成小範圍的反射範圍傷害。你會持續獲得碎片直到最大上限，或是消耗它們時。",
-      "ru": "DNT-UNUSED Герой снимает отрицательные эффекты Прокола с живых и мёртвых противников в большом радиусе вокруг себя и получает стальные осколки. Умение наносит отражённый урон в меньшем радиусе вокруг каждого такого врага в зависимости от снятых Проколов. Продолжает даровать осколки с течением времени, пока герой не накопит максимум или не начнёт их тратить.",
-      "jp": "DNTプレーヤーの周囲の広い範囲の敵 (生死にかかわらず )から串刺しのデバフを呼び寄せ、鋼鉄の破片を獲得する。敵から取り除かれた串刺しのデバフの効果に応じてその敵の周囲の狭い範囲に反射ダメージを与える。最大数に達するか、全て使い果たすまで、時間経過とともに破片を付与し続ける。"
     },
     "image": null
   },
@@ -5601,25 +5012,6 @@
       "tw": "消耗 3 個耐力球呼喚一個蘊含靈魂戰士的圖騰。每一名戰士都會在使用插槽中的錘技能一次後消失。無法使用引導技能或有冷卻時間的技能。",
       "ru": "Герой поглощает 3 заряда выносливости и устанавливает тотем, призывающий духовных воинов. Каждый воин однократно использует размещённое умение булав и затем исчезает. Не может использовать поддерживаемые умения и умения с перезарядкой.",
       "jp": "エンデュランスチャージを3個消費し、スピリットウォーリアーを呼び出すトーテムを立てる。それぞれのウォーリアーはソケットされたメイススキルを一度だけ使用した後消滅する。チャネリングスキルまたはクールダウンを持つスキルは使用できない。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-summon-slam-totem",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Summon Slam Totem",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Summon Slam Totem",
-      "jp": "[DNT-UNUSED] Summon Slam Totem"
-    },
-    "description": {
-      "en": "DNT-UNUSED Summons a totem which uses the socketed axes attacks.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Summons a totem which uses the socketed axes attacks.",
-      "jp": "DNT-UNUSED Summons a totem which uses the socketed axes attacks."
     },
     "image": null
   },
@@ -5833,25 +5225,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-rage-vortex",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Rage Vortex",
-      "kr": "격노 소용돌이",
-      "tw": "盛怒漩渦",
-      "ru": "[DNT-UNUSED] Свирепый вихрь",
-      "jp": "レイジヴォーテックス"
-    },
-    "description": {
-      "en": "DNT-UNUSED Spin with a sword or axe to deal damage in an area around you. Sacrifices some rage to send a ragestorm forward. While enemies are inside it, the ragestorm will slow its movement and repeatedly deal attack damage based on your attack speed.",
-      "kr": "검 또는 도끼를 들고 빙글빙글 돌아 주위 지역에 피해를 줍니다. 격노를 일부 소모하여 전방으로 격노 폭풍을 내보냅니다. 적들이 폭풍에 휘말리면, 폭풍은 속도가 느려지고 플레이어의 공격 속도에 따라 반복적으로 공격 피해를 줍니다.",
-      "tw": "用劍或斧頭旋轉以在你附近的區域造成傷害。犧牲一些盛怒來向前發送盛怒風暴。當敵人在範圍內時，盛怒風暴會減慢它的移動速度，並根據你的攻擊速度持續造成攻擊傷害。",
-      "ru": "DNT-UNUSED Герой раскручивает меч или топор, нанося урон вокруг себя. Расходуется часть свирепости, и вихрь направляется вперёд. Пока внутри него есть враги, свирепый вихрь замедляется и периодически наносит урон от атак в зависимости от скорости атаки героя.",
-      "jp": "DNT剣または斧と共に回転し周囲の敵にダメージを与える。憤怒を消費することによりレイジストームを前方に放つ。このレイジストーム内に敵がいる場合、レイジストームの動きが遅くなり、プレイヤーのアタックスピードに基づいて繰り返しダメージを与える。"
-    },
-    "image": null
-  },
-  {
     "id": "battlemages-cry",
     "grantedEffect": "",
     "name": {
@@ -5905,25 +5278,6 @@
       "tw": "投擲一個陷阱，一旦觸發，就會將你裝備的匕首、爪或單手劍的兩個複製體圍繞它旋轉成一個圓圈，每個複製體都會持續對它們旋轉穿過的敵人造成傷害。",
       "ru": "Герой бросает в указанное место ловушку, которая при срабатывании проворачивает две копии используемых героем кинжала, когтей или одноручного меча по кругу, многократно нанося урон по врагам, сквозь которых она проходит.",
       "jp": "作動すると使用者の装備中の短剣、鉤爪または片手剣のコピーを2個を作り円状に回転させ、周囲の敵に繰り返しダメージを与えるトラップを投げる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-forbidden-rite",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Forbidden Rite",
-      "kr": "금단의 의식",
-      "tw": "禁忌儀式 ",
-      "ru": "[DNT-UNUSED] Запретный ритуал",
-      "jp": "[DNT-UNUSED] Forbidden Rite"
-    },
-    "description": {
-      "en": "DNT-UNUSED Lobs an exploding Projectile near the targeted location, and extra Projectiles toward enemies around you. The Projectiles deal Chaos damage based on your life and Energy Shield. Casting this Spell damages you.",
-      "kr": "대상 지점 근처에 폭발하는 투사체를 던지고, 주위의 적들에게는 추가 투사체를 던집니다. 투사체는 플레이어의 생명력과 에너지 보호막에 따라 카오스 피해를 줍니다. 이 주문을 시전하면 플레이어 자신이 피해를 받습니다.",
-      "tw": "在目標位置附近發射一個爆炸投射物，並向你附近的敵人發射額外投射物。 投射物會根據你的生命和能量護盾造成混沌傷害。 施放此法術會對你造成傷害。 ",
-      "ru": "DNT-UNUSED Герой выпускает взрывающийся снаряд в указанное место и дополнительные снаряды во врагов вокруг себя. Снаряды наносят урон хаосом в зависимости от здоровья и энергетического щита героя. Сотворение этих чар наносит герою урон.",
-      "jp": "指定地点付近に向けて爆発する投射物とともに、使用者の周囲から敵に向けて追加の投射物を放つ。この投射物は使用者のライフとエナジーシールドに基づいて混沌ダメージを与える。このスペルを使用するとプレイヤーはダメージを受ける。"
     },
     "image": null
   },
@@ -6346,25 +5700,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-vaal-cleave",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Vaal Cleave",
-      "kr": "바알 회전베기",
-      "tw": "瓦爾．劈砍 ",
-      "ru": "[DNT-UNUSED] Рассечение ваал",
-      "jp": "[DNT-UNUSED] Vaal Cleave"
-    },
-    "description": {
-      "en": "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Killing Blows on Rare or Unique enemies grant a buff that improves Cleave for a duration. Killing Blows on Rare Enemies also steal their modifiers for a secondary duration. Only works with Axes and Swords.",
-      "kr": "무기(쌍수일 경우 2개 모두)를 크게 휘둘러 범위 내 몬스터들에게 피해를 줍니다. 희귀 또는 고유 적을 상대로 최후의 일격 시, 버프를 부여하여 일정 시간 동안 회전베기를 향상시킵니다. 또한 희귀 적을 상대로 최후의 일격 시, 2차 지속시간 동안 그들의 속성을 훔칩니다. 도끼와 검으로만 사용할 수 있습니다.",
-      "tw": "在身體前方以弧狀揮動武器（雙持時則揮動兩把武器），對前方區域的怪物造成傷害。對西有或傳奇敵人的致命一擊會給予一個增益效果，在一段時間內優化劈砍。對稀有敵人的致命一擊會偷取他們的詞綴。限定斧與劍。",
-      "ru": "Герой взмахивает своим оружием (или двумя, если носит два одноручных оружия), описывая дугу и нанося урон врагам в области перед собой. Смертельные удары по редким или уникальным врагам даруют положительный эффект, временно усиливающий Рассечение. Смертельные удары по редким врагов также похищают их свойства на вторичный промежуток времени. Умение требует топоры и/или мечи.",
-      "jp": "キャラクターが持つ武器 (二刀流中は両方の武器 )を円弧状に振り、その正面の範囲の敵にダメージを与える。レアまたはユニークの敵をキリングブロウで倒した場合、一定時間クリーヴを強化するバフを得る。加えてレアの敵をキリングブロウで倒した際に副次的持続時間その敵のモッドを盗む。使用するには斧または剣を装備する必要がある。"
-    },
-    "image": null
-  },
-  {
     "id": "rapid-assault",
     "grantedEffect": "",
     "name": {
@@ -6456,25 +5791,6 @@
       "tw": "施展環形斬並在你周圍引起一陣旋風，緩速和致盲效果範圍內的敵人。離開區域會使風暴消散，造成傷害和擊退。",
       "ru": "Герой выполняет круговой секущий удар, который поднимает вихрь вокруг героя, замедляющий и ослепляющий врагов в области действия. Выход из области заставляет вихрь схлопнуться, нанося урон и отбрасывая врагов.",
       "jp": "円形の斬撃を行い、周囲に風と塵のワールウィンドを巻き上げ、範囲内の敵を減速させ、盲目にする。その場から離れるとワールウィンドが崩壊し、ダメージを与え、敵をノックバックする。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-whirlwind-spear",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Whirlwind Spear",
-      "kr": "와류 창",
-      "tw": "旋風長矛 ",
-      "ru": "[DNT-UNUSED] Кружащееся копьё",
-      "jp": "[DNT-UNUSED] Whirlwind Spear"
-    },
-    "description": {
-      "en": "DNT-UNUSED A two-swing attack, swiping to one side, then the other. Struck enemies are knocked in front of the user.",
-      "kr": "무기를 한쪽 방향, 이후 다른 방향으로 총 2번 휘둘러 공격합니다. 적중당한 적들은 사용자 전방에서 뒤로 밀려납니다.",
-      "tw": "施展一次兩段攻擊，揮掃其中一側，再揮掃另一側。遭擊中的敵人會被掃擊至施展者前方。 ",
-      "ru": "DNT-UNUSED Герой выполняет атаку двумя взмахами сперва в одну сторону, затем в другую. Поражённые враги отбрасываются в зону перед героем.",
-      "jp": "一方から振り、その後反対方向から振る二連撃。攻撃を受けた敵は使用者の前方にノックバックする。"
     },
     "image": null
   },
@@ -6674,7 +5990,7 @@
     "name": {
       "en": "Explosive Shot",
       "kr": "폭발성 사격",
-      "tw": "爆炸矢",
+      "tw": "爆炸箭矢",
       "ru": "Взрывной выстрел",
       "jp": "エクスプローシブショット"
     },
@@ -6693,7 +6009,7 @@
     "name": {
       "en": "Load Explosive Shot",
       "kr": "폭발성 사격 장전",
-      "tw": "裝填爆炸矢",
+      "tw": "裝填爆炸箭矢",
       "ru": "Зарядить взрывной выстрел",
       "jp": "エクスプローシブショット装填"
     },
@@ -6935,44 +6251,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-axe-chop",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Axe Chop",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Axe Chop",
-      "jp": "[DNT-UNUSED] Axe Chop"
-    },
-    "description": {
-      "en": "DNT-UNUSED Bring your axe down in a sweeping slash, creating a slash along a line in the ground, with a chance to cause bleeding.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Bring your axe down in a sweeping slash, creating a slash along a line in the ground, with a chance to cause bleeding.",
-      "jp": "DNT-UNUSED Bring your axe down in a sweeping slash, creating a slash along a line in the ground, with a chance to cause bleeding."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-axe-slash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Axe Slash",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Axe Slash",
-      "jp": "[DNT-UNUSED] Axe Slash"
-    },
-    "description": {
-      "en": "DNT-UNUSED Step forward and swing your axe, knocking enemies back to drag them with your attack.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Step forward and swing your axe, knocking enemies back to drag them with your attack.",
-      "jp": "DNT-UNUSED Step forward and swing your axe, knocking enemies back to drag them with your attack."
-    },
-    "image": null
-  },
-  {
     "id": "whirling-assault",
     "grantedEffect": "",
     "name": {
@@ -7030,25 +6308,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-energy-release",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Energy Release",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Energy Release",
-      "jp": "[DNT-UNUSED] Energy Release"
-    },
-    "description": {
-      "en": "DNT-UNUSED Lightning hits all the Socked Enemies",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Lightning hits all the Socked Enemies",
-      "jp": "DNT-UNUSED Lightning hits all the Socked Enemies"
-    },
-    "image": null
-  },
-  {
     "id": "supercharged-slam",
     "grantedEffect": "",
     "name": {
@@ -7083,82 +6342,6 @@
       "tw": "揮擊時產生一道強風，打擊範圍內的敵人，依據與敵人之間的距離使其目眩並擊退。",
       "ru": "Герой поражает врагов на расстоянии, создавая порыв ветра при взмахах оружием. Враги впадут в оцепенение и будут отброшены в зависимости от их близости к герою.",
       "jp": "武器を振り突風を起こして広い範囲の敵に攻撃する。敵は眩暈を受け、使用者との距離に基づいてノックバックを受ける。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-evasive-strike",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Evasive Strike",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Evasive Strike",
-      "jp": "[DNT-UNUSED] Evasive Strike"
-    },
-    "description": {
-      "en": "DNT-UNUSED Leap back before dashing forward, taking out enemies in a path.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Leap back before dashing forward, taking out enemies in a path.",
-      "jp": "DNT-UNUSED Leap back before dashing forward, taking out enemies in a path."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-blade-dance",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Blade Dance",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Blade Dance",
-      "jp": "[DNT-UNUSED] Blade Dance"
-    },
-    "description": {
-      "en": "DNT-UNUSED Perform a slashing attack that moves you through the battlefield, slicing all around you.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Perform a slashing attack that moves you through the battlefield, slicing all around you.",
-      "jp": "DNT-UNUSED Perform a slashing attack that moves you through the battlefield, slicing all around you."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-claw-rake",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Claw Rake",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Claw Rake",
-      "jp": "[DNT-UNUSED] Claw Rake"
-    },
-    "description": {
-      "en": "DNT-UNUSED Perform two upwards slashes, causing massive claw marks in the ground.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Perform two upwards slashes, causing massive claw marks in the ground.",
-      "jp": "DNT-UNUSED Perform two upwards slashes, causing massive claw marks in the ground."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-spinning-flail",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Spinning Flail",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Spinning Flail",
-      "jp": "[DNT-UNUSED] Spinning Flail"
-    },
-    "description": {
-      "en": "DNT-UNUSED Advance forward, striking enemies around you with whirling swings of your flail.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Advance forward, striking enemies around you with whirling swings of your flail.",
-      "jp": "DNT-UNUSED Advance forward, striking enemies around you with whirling swings of your flail."
     },
     "image": null
   },
@@ -7220,25 +6403,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-axe-execute",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Axe Execute",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Axe Execute",
-      "jp": "[DNT-UNUSED] Axe Execute"
-    },
-    "description": {
-      "en": "DNT-UNUSED Perform a heavy melee attack, dealing massive damage to enemies on low life.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Perform a heavy melee attack, dealing massive damage to enemies on low life.",
-      "jp": "DNT-UNUSED Perform a heavy melee attack, dealing massive damage to enemies on low life."
-    },
-    "image": null
-  },
-  {
     "id": "vaal-volcanic-fissure",
     "grantedEffect": "",
     "name": {
@@ -7296,25 +6460,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-stance-swap",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Stance Swap",
-      "kr": "태세 전환",
-      "tw": "姿態轉換",
-      "ru": "[DNT-UNUSED] Смена стойки",
-      "jp": "スタンススワップ"
-    },
-    "description": {
-      "en": "DNT-UNUSED Casts a buff that grants different bonuses to attack skills depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.",
-      "kr": "시전자의 태세에 따라 공격 스킬의 효과 및 형태가 변경되는 버프를 시전합니다. 스킬을 다시 사용하면 핏빛 태세와 모래 태세를 번갈아 취합니다.",
-      "tw": "施放一個增益效果，根據你的姿態給予攻擊技能不同加成。再次使用技能會在血腥姿態和沙戮姿態中切換。",
-      "ru": "DNT-UNUSED Герой накладывает на себя положительный эффект, дарующий различные бонусы умениям атак в зависимости от стойки. При повторном использовании переключает стойки между стойкой крови и стойкой песка.",
-      "jp": "DNTスタンスに応じてアタックスキルに異なるボーナスを付与するバフを纏う。このスキルを再度使うとブラッドスタンスとサンドスタンスを切り替える。"
-    },
-    "image": null
-  },
-  {
     "id": "summon-barrel",
     "grantedEffect": "",
     "name": {
@@ -7349,82 +6494,6 @@
       "tw": "執行一系列快速的傳送，朝向指定位置，如果會與怪物或地形重疊則停止。如果使用「原地攻擊」選項，則方向相反。與其他閃現技能共用冷卻時間。不能被輔助。",
       "ru": "Герой выполняет серию быстрых перемещений к выбранной точке, останавливаясь при столкновении с монстрами или препятствием. При использовании \"атаки с места\" выбирается противоположное направление. Имеет общее время перезарядки с другими умениями Скачка. Нельзя усиливать.",
       "jp": "対象地点に向けて、モンスターまたは地形と重なった際に止まる素早いテレポートを繰り返す。「その場で攻撃」オプションをオンにしている場合、移動方向が逆になる。他のブリンクスキルとクールダウンを共有する。サポートすることができない。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-axe-leaping-chop",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Axe Leaping Chop",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Axe Leaping Chop",
-      "jp": "[DNT-UNUSED] Axe Leaping Chop"
-    },
-    "description": {
-      "en": "DNT-UNUSED Leap forward, dealing massive damage at the end of the attack.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Leap forward, dealing massive damage at the end of the attack.",
-      "jp": "DNT-UNUSED Leap forward, dealing massive damage at the end of the attack."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-axe-whirling-slash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Axe Whirling Slash",
-      "kr": "WIP",
-      "tw": "旋風斬",
-      "ru": "[DNT-UNUSED] Cyclone",
-      "jp": "[DNT-UNUSED] Axe Whirling Slash"
-    },
-    "description": {
-      "en": "DNT-UNUSED Ready your axe then spin, dealing high damage to enemies and causing them to bleed.",
-      "kr": "WIP",
-      "tw": "用你的劍或斧開轉。",
-      "ru": "DNT-UNUSED Spin to win with your Sword or Axe.",
-      "jp": "DNT-UNUSED Ready your axe then spin, dealing high damage to enemies and causing them to bleed."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-axe-raised-chop",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Axe Raised Chop",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Axe Raised Chop",
-      "jp": "[DNT-UNUSED] Axe Raised Chop"
-    },
-    "description": {
-      "en": "DNT-UNUSED Raise your weapon and channel rage into it, before slashing downwards and dealing massive damage to enemies the path of the attack.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Raise your weapon and channel rage into it, before slashing downwards and dealing massive damage to enemies the path of the attack.",
-      "jp": "DNT-UNUSED Raise your weapon and channel rage into it, before slashing downwards and dealing massive damage to enemies the path of the attack."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-axe-heavy-cleave",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Axe Heavy Cleave",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Axe Heavy Cleave",
-      "jp": "[DNT-UNUSED] Axe Heavy Cleave"
-    },
-    "description": {
-      "en": "DNT-UNUSED Ready your axe as it charges with flame, then swing in a massive flaming arc, sending out a slow wave of fire.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Ready your axe as it charges with flame, then swing in a massive flaming arc, sending out a slow wave of fire.",
-      "jp": "DNT-UNUSED Ready your axe as it charges with flame, then swing in a massive flaming arc, sending out a slow wave of fire."
     },
     "image": null
   },
@@ -7524,25 +6593,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-palm-strike",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Palm Strike",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Palm Strike",
-      "jp": "[DNT-UNUSED] Palm Strike"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "glacial-cascade",
     "grantedEffect": "GlacialCascadeAttack",
     "name": {
@@ -7562,44 +6612,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-storm-blade",
-    "grantedEffect": "GlacialCascadeAttack",
-    "name": {
-      "en": "[DNT-UNUSED] Storm Blade",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Storm Blade",
-      "jp": "[DNT-UNUSED] Storm Blade"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-a-placeholder-self-buff",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] A placeholder self-buff",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] A placeholder self-buff",
-      "jp": "[DNT-UNUSED] A placeholder self-buff"
-    },
-    "description": {
-      "en": "DNT-UNUSED A placeholder self-buff",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED A placeholder self-buff",
-      "jp": "DNT-UNUSED A placeholder self-buff"
-    },
-    "image": null
-  },
-  {
     "id": "wave-of-frost",
     "grantedEffect": "",
     "name": {
@@ -7615,25 +6627,6 @@
       "tw": "向後翻並朝你前方釋放一道冰凍波，將可冰凍的敵人立即冰凍。",
       "ru": "Герой отпрыгивает назад и посылает вперёд замораживающую волну, немедленно замораживающую врагов, готовых к заморозке.",
       "jp": "凍結の波を前方に放ちながら後方にジャンプする。凍結寸前の敵を即座に凍結状態にする。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-sword-lunge",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Sword Lunge",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Sword Lunge",
-      "jp": "[DNT-UNUSED] Sword Lunge"
-    },
-    "description": {
-      "en": "DNT-UNUSED Sword Lunge",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Sword Lunge",
-      "jp": "DNT-UNUSED Sword Lunge"
     },
     "image": null
   },
@@ -7980,25 +6973,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-storm-strike",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Storm Strike",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Storm Strike",
-      "jp": "[DNT-UNUSED] Storm Strike"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "ice-strike",
     "grantedEffect": "",
     "name": {
@@ -8056,82 +7030,6 @@
     "image": null
   },
   {
-    "id": "dnt-crushing-earth",
-    "grantedEffect": "CometPlayer",
-    "name": {
-      "en": "[DNT] Crushing Earth",
-      "kr": "[DNT] Crushing Earth",
-      "tw": "[DNT] Crushing Earth",
-      "ru": "[DNT] Crushing Earth",
-      "jp": "[DNT] Crushing Earth"
-    },
-    "description": {
-      "en": "DNT Convene the surrounding earth into an immense boulder to crash down, dealing high damage at the targeted location after a short delay. ",
-      "kr": "DNT Convene the surrounding earth into an immense boulder to crash down, dealing high damage at the targeted location after a short delay. ",
-      "tw": "DNT Convene the surrounding earth into an immense boulder to crash down, dealing high damage at the targeted location after a short delay. ",
-      "ru": "DNT Convene the surrounding earth into an immense boulder to crash down, dealing high damage at the targeted location after a short delay. ",
-      "jp": "DNT Convene the surrounding earth into an immense boulder to crash down, dealing high damage at the targeted location after a short delay. "
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-fungal-terrain",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Fungal Terrain",
-      "kr": "[DNT] Fungal Terrain",
-      "tw": "[DNT] Fungal Terrain",
-      "ru": "[DNT] Fungal Terrain",
-      "jp": "[DNT] Fungal Terrain"
-    },
-    "description": {
-      "en": "DNT Conjure a field of hazardous mushrooms that explode when enemies make contact. The explosion deals Physical damage and leaves a spore cloud that deals Chaos damage over time to enemies that enter the space.",
-      "kr": "DNT Conjure a field of hazardous mushrooms that explode when enemies make contact. The explosion deals Physical damage and leaves a spore cloud that deals Chaos damage over time to enemies that enter the space.",
-      "tw": "DNT Conjure a field of hazardous mushrooms that explode when enemies make contact. The explosion deals Physical damage and leaves a spore cloud that deals Chaos damage over time to enemies that enter the space.",
-      "ru": "DNT Conjure a field of hazardous mushrooms that explode when enemies make contact. The explosion deals Physical damage and leaves a spore cloud that deals Chaos damage over time to enemies that enter the space.",
-      "jp": "DNT Conjure a field of hazardous mushrooms that explode when enemies make contact. The explosion deals Physical damage and leaves a spore cloud that deals Chaos damage over time to enemies that enter the space."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-flame-slice",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Flame Slice",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Flame Slice",
-      "jp": "[DNT-UNUSED] Flame Slice"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-ring-of-blades",
-    "grantedEffect": "RingOfBlades",
-    "name": {
-      "en": "[DNT-UNUSED] Ring of Blades",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Ring of Blades",
-      "jp": "[DNT-UNUSED] Ring of Blades"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "lightning-strike",
     "grantedEffect": "",
     "name": {
@@ -8147,101 +7045,6 @@
       "tw": "在你揮舞近戰武器時凝聚閃電之力。除了轉換一部分物理傷害為閃電傷害，儲存的能量會在你揮舞時從武器釋放投射物，襲擊遠方的敵人。若近戰攻擊擊中目標，投射物不能被躲避。",
       "ru": "Герой наполняет оружие ближнего боя энергией молний. При ударах часть физического урона становится уроном от молний. Кроме того, при ударах вложенная в оружие энергия становится снарядами, которые летят вперед и поражают врагов, стоящих поодаль. Если удар достиг цели, созданные им снаряды тоже не промахиваются.",
       "jp": "武器を振りかぶり近接武器に電気エネルギーを注入する。物理ダメージの一部が雷ダメージに変換され、攻撃をする際に武器に蓄えられたエネルギーが投射物として放たれ、遠くの敵に飛んでいく。近接攻撃が対象に命中した場合、投射物も対象を外すことはない。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-triple-slash-combo",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Triple Slash Combo",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Triple Slash Combo",
-      "jp": "[DNT-UNUSED] Triple Slash Combo"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-combo-knife-throw",
-    "grantedEffect": "ComboKnifeThrow",
-    "name": {
-      "en": "[DNT-UNUSED] Combo Knife Throw",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Combo Knife Throw",
-      "jp": "[DNT-UNUSED] Combo Knife Throw"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-hyper-slash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Hyper Slash",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Hyper Slash",
-      "jp": "[DNT-UNUSED] Hyper Slash"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-shadow-dash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Shadow Dash",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Shadow Dash",
-      "jp": "[DNT-UNUSED] Shadow Dash"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-shadow-ambush",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Shadow Ambush",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Shadow Ambush",
-      "jp": "[DNT-UNUSED] Shadow Ambush"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
     },
     "image": null
   },
@@ -8280,25 +7083,6 @@
       "tw": "佈署一個砲塔 圖騰，該圖騰會降下一輪會造成 釘身和 癱瘓的齊射弩箭。",
       "ru": "Герой устанавливает тотем-баллисту, который поливает врагов залпами пригвождающих изувечивающих болтов.",
       "jp": "バリスタトーテムを召喚し、敵に重傷を与える足止めのボルトをサルヴォを放たせる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-shield-bash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Shield Bash",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Shield Bash",
-      "jp": "[DNT-UNUSED] Shield Bash"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
     },
     "image": null
   },
@@ -8356,25 +7140,6 @@
       "tw": "啟動時，召喚一道會隨時間增強的寒冰屏障。當屏障處於增強階段時，擊中你的近戰攻擊會移除一個階段，引發冰霜爆發，對攻擊者造成冰冷法術傷害。",
       "ru": "Пока активно, умение создаёт ледяную преграду, которая постепенно накапливает стадии. Пока у преграды есть стадии, попавшие по герою атаки ближнего боя будут снимать по одной стадии и вызывать взрыв льда, который наносит урон чарами холода атакующему.",
       "jp": "時間経過でステージを獲得する氷のバリアを呼び出す。バリアにステージがある間、プレイヤーをヒットした近接アタックはステージを取り除き、冷気スペルダメージを攻撃者に与える氷のバーストを起こす。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-lightning-tendrils",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Lightning Tendrils",
-      "kr": "덩굴 번개",
-      "tw": "電能釋放 ",
-      "ru": "[DNT-UNUSED] Побеги молний",
-      "jp": "[DNT-UNUSED] Lightning Tendrils"
-    },
-    "description": {
-      "en": "DNT-UNUSED While you channel this skill, it releases pulses of electrical energy, dealing lightning damage.",
-      "kr": "집중 유지하는 동안 고동치는 전기 에너지가 방출되어 번개 피해를 줍니다.",
-      "tw": "你引導施放此技能時，釋放電能脈衝並造成閃電傷害。 ",
-      "ru": "DNT-UNUSED При поддержании умения герой выпускает электрические разряды, которые наносят урон от молнии.",
-      "jp": "このスキルをチャネリング中、電気エネルギーのパルスを放ち、雷ダメージを与える。"
     },
     "image": null
   },
@@ -8493,44 +7258,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-blood-rage",
-    "grantedEffect": "NewBloodRage",
-    "name": {
-      "en": "[DNT-UNUSED] Blood Rage",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Blood Rage",
-      "jp": "[DNT-UNUSED] Blood Rage"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-spinning-throw",
-    "grantedEffect": "SpinningThrow",
-    "name": {
-      "en": "[DNT-UNUSED] Spinning Throw",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Spinning Throw",
-      "jp": "[DNT-UNUSED] Spinning Throw"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "shattering-palm",
     "grantedEffect": "",
     "name": {
@@ -8565,25 +7292,6 @@
       "tw": "為你的弓裝填大量的附魔箭矢，並在你向前方旋轉前進時以環形射出，在可能的情況下會直接朝著目標射擊。消耗狂怒球可使箭矢造成更多傷害，並且連鎖攻擊其他目標。每一目標只能擊中一次。",
       "ru": "Герой заряжает лук залпом заколдованных стрел и выпускает их по кругу, одновременно кружась вперёд, стреляя прямо во врагов, если возможно. Поглощает заряды ярости с тем, чтобы стрелы наносили больше урона и поражали других врагов по цепи. Каждую цель можно поразить только раз.",
       "jp": "弓に魔力をかけられた矢を複数発装填し、それを放射状に放つと共に、前方に回転する。もし可能ならば敵に向かって直接矢を放つ。フレンジーチャージを消費し、矢のダメージを上昇させるとともに、他の敵に連鎖するようにする。それぞれの対象に一度だけヒットを与えることができる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-pestilent-slash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Pestilent Slash",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Pestilent Slash",
-      "jp": "[DNT-UNUSED] Pestilent Slash"
-    },
-    "description": {
-      "en": "Attacks with your weapon, inflicting a debuff on enemies hit by the strike. If a debuffed enemy dies while poisoned, Pestilent Strike inflicts a secondary chaos damage over time debuff on enemies around them, based on the poisons on the slain enemy. This damage is not affected by your damage modifiers.",
-      "kr": "무기로 공격하여 타격에 명중당한 적들에게 디버프를 겁니다. 디버프에 걸린 적이 중독된 상태에서 죽을 경우, 전염성 일격이 그 주변의 적들에게 2차로 지속 카오스 피해 디버프를 겁니다. 이 디버프는 죽은 적의 중독 상태에 따라 위력이 달라집니다. 이 피해는 시전자의 피해 속성에는 영향을 받지 않습니다.",
-      "tw": "使用你的武器進行攻擊，打擊時對敵人造成一個減益效果。若持有減益效果的敵人在中毒時死亡，瘟疫打擊會根據該名被擊殺的敵人身上的中毒效果，對其周圍的敵人施加一個額外的混沌持續傷害減益效果。此傷害不受你的傷害詞綴影響。",
-      "ru": "Герой совершает атаку оружием, накладывая на попавших под удар врагов отрицательный эффект. Если враг с отрицательным эффектом умрёт, будучи отравленным, Моровой удар наложит второстепенный отрицательный эффект постепенного урона хаосом на врагов вокруг, в зависимости от яда на убитом враге. На этот урон не влияют модификаторы урона героя.",
-      "jp": "武器で攻撃し、ストライクでヒットを受けた敵にデバフを付与する。デバフを受けた敵が毒状態で死亡した時に、ペスティレントストライクは倒した敵が持つ毒に基づいた副次的混沌継続ダメージ与えるデバフをその周囲に付与する。このダメージは使用者のダメージモッドの影響を受けない。"
     },
     "image": null
   },
@@ -8641,139 +7349,6 @@
       "tw": null,
       "ru": null,
       "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-ice-path",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Ice Path",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Ice Path",
-      "jp": "[DNT-UNUSED] Ice Path"
-    },
-    "description": {
-      "en": "Make path. Slide on path. Movement skill cancel slide. Cast any other skill while sliding.",
-      "kr": "길을 만들고 길 위에서 미끄러집니다. 이동 스킬을 사용하면 미끄러짐이 취소됩니다. 미끄러지는 중에 다른 스킬을 시전할 수 있습니다.",
-      "tw": "產生一道路徑並沿該路徑滑動。移動技能會取消滑動。在滑動期間施展任何其他技能。",
-      "ru": "Make path. Slide on path. Movement skill cancel slide. Cast any other skill while sliding.",
-      "jp": "道を作りその上を滑走する。移動スキルは滑走をキャンセルする。滑走中に他のスキルをキャストする。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-shadow-thief-slash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Shadow Thief Slash",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Shadow Thief Slash",
-      "jp": "[DNT-UNUSED] Shadow Thief Slash"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-leaping-axe-catch",
-    "grantedEffect": "LeapingAxeCatch",
-    "name": {
-      "en": "[DNT-UNUSED] Leaping Axe Catch",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Leaping Axe Catch",
-      "jp": "[DNT-UNUSED] Leaping Axe Catch"
-    },
-    "description": {
-      "en": "DNT-UNUSED Leap, Catch, ???, Profit",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Leap, Catch, ???, Profit",
-      "jp": "DNT-UNUSED Leap, Catch, ???, Profit"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-plunging-blade",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Plunging Blade",
-      "kr": "분출",
-      "tw": "刀刃噴湧",
-      "ru": "Извержение",
-      "jp": "エラプション"
-    },
-    "description": {
-      "en": "DNT-UNUSED Make alot of fire",
-      "kr": "여러 개의 균열을 내보내고, 각 균열의 끝 지점에서 매장된 칼날을 발동합니다. 집중 유지를 끝내면 모든 매장된 칼날이 폭발하고, 무기 도포 상태라면 추가 효과가 적용됩니다. 이 스킬에 계속 집중을 유지하면 매장된 칼날의 폭발이 강화됩니다.",
-      "tw": "使多道裂縫蔓延而出，並在尾端觸發埋藏之刃。所有埋藏之刃會在你引導結束後爆炸，並根據你武器的塗層獲得額外效果。持續引導此技能會強化來自埋藏之刃的爆炸。",
-      "ru": "Герой создаёт несколько расселин, которые в конце вызывают срабатывание Вкопанного клинка. Все Вкопанные клинки взрываются после прекращения поддержания, с дополнительными эффектами, если оружие героя имело покрытие. Продолжительное поддержание этого умения усиливает взрывы от Вкопанных клинков.",
-      "jp": "複数の亀裂を放ち、それらが終端に達するとバリードブレードをトリガーする。チャネリング終了後、すべてのバリードブレードが爆発し、武器がコーティングされていた場合は追加効果を得る。このスキルのチャネリングを継続すると、バリードブレードによる爆発が強化される。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-howl",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Howl",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Howl",
-      "jp": "[DNT-UNUSED] Howl"
-    },
-    "description": {
-      "en": "DNT-UNUSED Loud noise",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Loud noise",
-      "jp": "DNT-UNUSED Loud noise"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-spiral-throw",
-    "grantedEffect": "SpiralThrow",
-    "name": {
-      "en": "[DNT-UNUSED] Spiral Throw",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Spiral Throw",
-      "jp": "[DNT-UNUSED] Spiral Throw"
-    },
-    "description": {
-      "en": "DNT-UNUSED Throw Spirally",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Throw Spirally",
-      "jp": "DNT-UNUSED Throw Spirally"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-heat-seeking-arrow",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Heat Seeking Arrow",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Heat Seeking Arrow",
-      "jp": "[DNT-UNUSED] Heat Seeking Arrow"
-    },
-    "description": {
-      "en": "DNT-UNUSED Not actually heat seeking, but homing some how",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Not actually heat seeking, but homing some how",
-      "jp": "DNT-UNUSED Not actually heat seeking, but homing some how"
     },
     "image": null
   },
@@ -8850,25 +7425,6 @@
       "tw": "用強大的攻擊擊倒敵人。",
       "ru": "Герой наносит обычный удар.",
       "jp": "強力な一撃で敵を打ち倒す。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-electric-fence-arrow",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Electric Fence Arrow",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Electric Fence Arrow",
-      "jp": "[DNT-UNUSED] Electric Fence Arrow"
-    },
-    "description": {
-      "en": "DNT-UNUSED Arrows make fence",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Arrows make fence",
-      "jp": "DNT-UNUSED Arrows make fence"
     },
     "image": null
   },
@@ -9329,82 +7885,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-shield-phalanx",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Shield Phalanx",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Shield Phalanx",
-      "jp": "[DNT-UNUSED] Shield Phalanx"
-    },
-    "description": {
-      "en": "DNT-UNUSED Create some statues to defend you.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Create some statues to defend you.",
-      "jp": "DNT-UNUSED Create some statues to defend you."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-shield-phalanx-bash",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Shield Phalanx Bash",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Shield Phalanx Bash",
-      "jp": "[DNT-UNUSED] Shield Phalanx Bash"
-    },
-    "description": {
-      "en": "DNT-UNUSED Bash a cone infront of you.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Bash a cone infront of you.",
-      "jp": "DNT-UNUSED Bash a cone infront of you."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-dominating-aura",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Dominating Aura",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Dominating Aura",
-      "jp": "[DNT-UNUSED] Dominating Aura"
-    },
-    "description": {
-      "en": "DNT-UNUSED Zoomancer :D",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Zoomancer :D",
-      "jp": "DNT-UNUSED Zoomancer :D"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-shroud",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Shroud",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Shroud",
-      "jp": "[DNT-UNUSED] Shroud"
-    },
-    "description": {
-      "en": "Gain Stealth after not using Skills or being Hit for a short time.",
-      "kr": "잠시 동안 스킬을 사용하거나 피격당하지 않으면 은신 효과를 얻습니다.",
-      "tw": "在一小段時間未使用技能或受到攻擊後，獲得匿蹤。",
-      "ru": "Дарует Скрытность, если в течение короткого времени не использовать умения и не получать удары.",
-      "jp": "短時間スキルを使用しなかった、または攻撃を受けなかった場合にステルスを獲得する。"
-    },
-    "image": null
-  },
-  {
     "id": "basic-bolt",
     "grantedEffect": "",
     "name": {
@@ -9629,44 +8109,6 @@
       "tw": "用骨刺穿透一具骷髏，使附近的召喚物進入狂暴狀態，只要骨刺存在，它們的技能就會更快且傷害更高。骨刺本身也被視為召喚物。如果它死亡，效果就會立即結束。",
       "ru": "Герой насаживает скелета на костяной шип, приводя ближайших приспешников в бешенство, пока шип остаётся на поле, из-за чего они используют умения быстрее и наносят больше урона. Костяной шип сам по себе является приспешником. Если он будет уничтожен, эффект немедленно прервётся.",
       "jp": "骨のスパイクでスケルトンを串刺しにすることでスパイクが残っている間近くのミニオンを狂乱状態にし、そのスキル使用を素早くし、ダメージを上昇させる。骨のスパイク自体もミニオンで、もし、スパイクが死亡した場合、その効果はすぐに終了する。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-dark-offering",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Dark Offering",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Dark Offering",
-      "jp": "[DNT-UNUSED] Dark Offering"
-    },
-    "description": {
-      "en": "DNT-UNUSED Offer a minion to deal chaos damage in an area around them.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Offer a minion to deal chaos damage in an area around them.",
-      "jp": "DNT-UNUSED Offer a minion to deal chaos damage in an area around them."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-grave-offering",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Grave Offering",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Grave Offering",
-      "jp": "[DNT-UNUSED] Grave Offering"
-    },
-    "description": {
-      "en": "DNT-UNUSED Offer a minion to revive all other minions and buff their attacks.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Offer a minion to revive all other minions and buff their attacks.",
-      "jp": "DNT-UNUSED Offer a minion to revive all other minions and buff their attacks."
     },
     "image": null
   },
@@ -11210,25 +9652,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-enforced-walking",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] enforced_walking",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] enforced_walking",
-      "jp": "[DNT-UNUSED] enforced_walking"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "twister",
     "grantedEffect": "",
     "name": {
@@ -11286,25 +9709,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-spear-wind-vortex",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Spear Wind Vortex",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Spear Wind Vortex",
-      "jp": "[DNT-UNUSED] Spear Wind Vortex"
-    },
-    "description": {
-      "en": "DNT-UNUSED Performs a sweeping Spear Attack which draws Enemies in range closer to you.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Performs a sweeping Spear Attack which draws Enemies in range closer to you.",
-      "jp": "DNT-UNUSED Performs a sweeping Spear Attack which draws Enemies in range closer to you."
-    },
-    "image": null
-  },
-  {
     "id": "elemental-siphon",
     "grantedEffect": "",
     "name": {
@@ -11356,7 +9760,7 @@
       "en": "While active, periodically grants stages of a buff that gives you more Evasion per stage. Being Hit by an Enemy while you have this buff consumes all stages to damage and Knock Back enemies around you.",
       "kr": "활성화된 동안, 단계의 수에 따라 회피를 증폭시키는 버프의 단계를 부여합니다. 이 버프가 부여된 상태에서 적에게 명중당하면 모든 단계를 소모하여 주변의 적들에게 피해를 주고 뒤로 밀어냅니다.",
       "tw": "啟動時，週期性地賦予多層增益效果，每層增益效果使你獲得更多閃避值。在此增益效果期間遭敵人擊中時會消耗所有層數，對周圍敵人造成傷害並將其擊退。",
-      "ru": "Пока активно, умение периодически дарует стадии положительного эффекта, дающий герою больше уклонения за каждую стадию. Получение удара от врага, пока на героя действует этот эффект, расходует все стадии, наносит урон и отбрасывает врагов вокруг.",
+      "ru": "Пока активно, умение периодически дарует стадии положительного эффекта, дающего герою больше уклонения за каждую стадию. Получение удара от врага, пока на героя действует этот эффект, расходует все стадии, наносит урон и отбрасывает врагов вокруг.",
       "jp": "ステージごとに回避力が上昇するバフを付与する。このバフを持っている時に近接アタックでヒットを受けると、すべてのステージを消費して周囲の敵にダメージを与えてノックバックする。"
     },
     "image": null
@@ -11818,25 +10222,6 @@
     "image": null
   },
   {
-    "id": "dnt-hammer-of-ngamahu",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Hammer of Ngamahu",
-      "kr": "[DNT] Hammer of Ngamahu",
-      "tw": "[DNT] Hammer of Ngamahu",
-      "ru": "[DNT] Hammer of Ngamahu",
-      "jp": "[DNT] Hammer of Ngamahu"
-    },
-    "description": {
-      "en": "DNT Build Glory by Break Armour and Igniting enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon.",
-      "kr": "DNT Build Glory by Break Armour and Igniting enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon.",
-      "tw": "DNT Build Glory by Break Armour and Igniting enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon.",
-      "ru": "DNT Build Glory by Break Armour and Igniting enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon.",
-      "jp": "DNT Build Glory by Break Armour and Igniting enemies. When you have maximum Glory you may entreat the Ancestors to crush your enemies, manifesting a massive hammer that falls from the sky onto your target, Slamming into the ground after a short duration and dealing immense damage based on your weapon."
-    },
-    "image": null
-  },
-  {
     "id": "living-bomb",
     "grantedEffect": "",
     "name": {
@@ -11852,6 +10237,25 @@
       "tw": "在敵人體內植入火焰種子。對敵人造成足夠傷害，或是直接擊殺時，會使得種子爆炸，對一定範圍造成傷害，並留下一道火焰灌注痕跡。",
       "ru": "Герой помещает огненное семя внутри противника. Нанесение достаточного урона этому противнику или его убийство заставляет семя взорваться, нанести урон по области и оставить после себя насыщающий огнём сгусток.",
       "jp": "敵の体内に一定時間で成長する火の種を植える。その敵に十分なダメージを与えるか、その敵をキルすると、種は爆発し、範囲内にダメージを与え、ファイヤーインフュージョンのレムナントを残す。"
+    },
+    "image": null
+  },
+  {
+    "id": "untether",
+    "grantedEffect": "",
+    "name": {
+      "en": "Untether",
+      "kr": "연 끊기",
+      "tw": "解脫",
+      "ru": "Развязка",
+      "jp": "アンテザー"
+    },
+    "description": {
+      "en": "Plant a seed of Abyssal Energy on the enemy's heart. Dealing enough damage to the enemy, or killing it outright, causes their heart to explode, dealing Physical damage in an area.\r\n",
+      "kr": "적의 심장에 심연 에너지의 씨앗을 심습니다. 적에게 일정량 이상 피해를 주거나 적을 바로 처치하면 적의 심장이 폭발하며 범위 내에 물리 피해를 줍니다.",
+      "tw": "在敵人的心臟種下一顆深淵能量種子。對敵人造成足夠傷害或擊殺時會引爆其心臟，在範圍內造成物理傷害。",
+      "ru": "Герой помещает семя энергии Бездны в сердце противника. Нанесение достаточного урона этому противнику или его убийство заставляет его сердце взорваться, нанося физический урон по области.",
+      "jp": "敵の心臓にアビサルエネルギーの種を植える。敵に十分なダメージを与えるか、その敵を倒すと、その心臓が爆発し、範囲内に物理ダメージを与える"
     },
     "image": null
   },
@@ -12369,25 +10773,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-witch-hunter-mark",
-    "grantedEffect": "WitchHunterMarkPlayer",
-    "name": {
-      "en": "[DNT-UNUSED] Witch Hunter Mark",
-      "kr": "[DNT-UNUSED] Witch Hunter Mark",
-      "tw": "[DNT-UNUSED] Witch Hunter Mark",
-      "ru": "[DNT-UNUSED] Witch Hunter Mark",
-      "jp": "[DNT-UNUSED] Witch Hunter Mark"
-    },
-    "description": {
-      "en": "DNT-UNUSED Hunt em down",
-      "kr": "DNT-UNUSED Hunt em down",
-      "tw": "DNT-UNUSED Hunt em down",
-      "ru": "DNT-UNUSED Hunt em down",
-      "jp": "DNT-UNUSED Hunt em down"
-    },
-    "image": null
-  },
-  {
     "id": "unbound-avatar",
     "grantedEffect": "",
     "name": {
@@ -12422,25 +10807,6 @@
       "tw": "衝向一名敵人並對其進行打擊，觸發插槽中的印記且強化其效果，並施加插槽中的詛咒，且其持續時間增加。",
       "ru": "Герой совершает рывок к врагу и ударяет его, вызывая срабатывание размещённых меток с повышенной эффективностью и накладывая размещённые проклятия с увеличенной длительностью.",
       "jp": "敵に向かってダッシュし、ストライクし、効果の増加したソケットされた呪印を付与し、または持続時間の増加したソケットされた呪いを付与する。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-freezing-word",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Freezing Word",
-      "kr": "동결의 어휘",
-      "tw": "冰凍之語",
-      "ru": "[DNT-UNUSED] Слово стужи",
-      "jp": "[DNT-UNUSED]フリージングワード"
-    },
-    "description": {
-      "en": "DNT-UNUSED Manifest words of power that freeze the air around you, coating nearby enemies in shards of ice. Dealing enough damage to these enemies will shatter the shards, causing an icy explosion that deals Attack damage which is not based on your Weapon.",
-      "kr": "주변의 공기를 얼리는 힘의 어휘를 발현하여 주변의 적들을 얼음 파편으로 뒤덮습니다. 해당 적들에게 충분한 피해를 주면 파편이 산산이 조각나며 얼음 폭발이 일어나 공격 피해를 주지만, 무기의 피해를 사용하지는 않습니다.",
-      "tw": "唸出帶有力量、能使周圍空氣凍結的咒文，將附近的敵人包裹在寒冰碎片之中。對這些敵人造成足夠的傷害會擊破碎片，造成一次不基於武器傷害的攻擊傷害寒冰爆炸。",
-      "ru": "DNT-UNUSED Герой воплощает слова силы, которые замораживают воздух вокруг него, покрывая ближайших противников осколками льда. Когда эти противники получат достаточно урона, лёд расколется и вызовет взрыв, наносящий урон от атак, но не учитывающий урон от оружия героя.",
-      "jp": "DNT-UNUSED力の言葉を出現させ、プレイヤーの周囲の空気を凍らせ、近くの敵を氷のシャードで覆う。その敵に十分なダメージを与えると、シャードが粉砕され、アタックダメージを与える氷の爆発を起こす。このアタックダメージはプレイヤーの武器ダメージを使用しない。"
     },
     "image": null
   },
@@ -12996,44 +11362,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-gas-cloud",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Gas Cloud",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Gas Cloud",
-      "jp": "[DNT-UNUSED] Gas Cloud"
-    },
-    "description": {
-      "en": "DNT-UNUSED Creates a Poison cloud. Burning effects or Detonator skills will cause the cloud to explode in a fiery blast. (Wording copied from Toxic Grenade.)",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Creates a Poison cloud. Burning effects or Detonator skills will cause the cloud to explode in a fiery blast. (Wording copied from Toxic Grenade.)",
-      "jp": "DNT-UNUSED Creates a Poison cloud. Burning effects or Detonator skills will cause the cloud to explode in a fiery blast. (Wording copied from Toxic Grenade.)"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-detonation",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Detonation",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Detonation",
-      "jp": "[DNT-UNUSED] Detonation"
-    },
-    "description": {
-      "en": "DNT-UNUSED Detonates stuff.",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Detonates stuff.",
-      "jp": "DNT-UNUSED Detonates stuff."
-    },
-    "image": null
-  },
-  {
     "id": "berserk",
     "grantedEffect": "",
     "name": {
@@ -13395,82 +11723,6 @@
     "image": null
   },
   {
-    "id": "dnt-ranged-attack-on-ignite",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Ranged Attack on Ignite",
-      "kr": "[DNT] Ranged Attack on Ignite",
-      "tw": "[DNT] Ranged Attack on Ignite",
-      "ru": "[DNT] Ranged Attack on Ignite",
-      "jp": "[DNT] Ranged Attack on Ignite"
-    },
-    "description": {
-      "en": "DNT Burn, shoot",
-      "kr": "DNT Burn, shoot",
-      "tw": "DNT Burn, shoot",
-      "ru": "DNT Burn, shoot",
-      "jp": "DNT Burn, shoot"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-ranged-attack-on-shock",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Ranged Attack on Shock",
-      "kr": "[DNT] Ranged Attack on Shock",
-      "tw": "[DNT] Ranged Attack on Shock",
-      "ru": "[DNT] Ranged Attack on Shock",
-      "jp": "[DNT] Ranged Attack on Shock"
-    },
-    "description": {
-      "en": "DNT Zap, shoot",
-      "kr": "DNT Zap, shoot",
-      "tw": "DNT Zap, shoot",
-      "ru": "DNT Zap, shoot",
-      "jp": "DNT Zap, shoot"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-ranged-attack-on-freeze",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Ranged Attack on Freeze",
-      "kr": "[DNT] Ranged Attack on Freeze",
-      "tw": "[DNT] Ranged Attack on Freeze",
-      "ru": "[DNT] Ranged Attack on Freeze",
-      "jp": "[DNT] Ranged Attack on Freeze"
-    },
-    "description": {
-      "en": "DNT Freeze, shoot",
-      "kr": "DNT Freeze, shoot",
-      "tw": "DNT Freeze, shoot",
-      "ru": "DNT Freeze, shoot",
-      "jp": "DNT Freeze, shoot"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-arcane-archery",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Arcane Archery",
-      "kr": "[DNT-UNUSED] Arcane Archery",
-      "tw": "[DNT-UNUSED] Arcane Archery",
-      "ru": "[DNT-UNUSED] Arcane Archery",
-      "jp": "[DNT-UNUSED] Arcane Archery"
-    },
-    "description": {
-      "en": "DNT-UNUSED Pew pew spell",
-      "kr": "DNT-UNUSED Pew pew spell",
-      "tw": "DNT-UNUSED Pew pew spell",
-      "ru": "DNT-UNUSED Pew pew spell",
-      "jp": "DNT-UNUSED Pew pew spell"
-    },
-    "image": null
-  },
-  {
     "id": "called-shots",
     "grantedEffect": "",
     "name": {
@@ -13604,25 +11856,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-titanic-arrows",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Titanic Arrows",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Titanic Arrows",
-      "jp": "[DNT-UNUSED] Titanic Arrows"
-    },
-    "description": {
-      "en": "DNT-UNUSED Fill me in",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Fill me in",
-      "jp": "DNT-UNUSED Fill me in"
-    },
-    "image": null
-  },
-  {
     "id": "volcanic-eruption",
     "grantedEffect": "",
     "name": {
@@ -13675,7 +11908,7 @@
       "kr": "대상에게 정전기 감전을 부착합니다. 정전기 감전은 대상과 주변 적들에게 고동치는 번개 피해를 방출합니다. 한 대상에게는 정전기 감전이 최대 1개 부착되어 있을 수 있습니다.",
       "tw": "將靜電震盪附著至目標身上，向目標和周遭敵人釋放閃電脈衝。目標僅能被一個靜電震盪附著。",
       "ru": "Прикрепляет к цели статический шок, который пульсирует уроном от молнии в саму цель и ближайших врагов. К цели может быть прикреплён максимум один статический шок.",
-      "jp": "対象にスタティックショックを付着させる。これは付着した対象と近くの敵に{lightning|雷]ダメージのパルスを与える。対象に一度に付着できるスタティックショックは1スタックだけである。"
+      "jp": "対象にスタティックショックを付着させる。これは付着した対象と近くの敵に雷ダメージのパルスを与える。対象に一度に付着できるスタティックショックは1スタックだけである。"
     },
     "image": null
   },
@@ -13870,25 +12103,6 @@
     "image": null
   },
   {
-    "id": "dnt-red-queens-visage",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Red Queen's Visage",
-      "kr": "[DNT] Red Queen's Visage",
-      "tw": "[DNT] Red Queen's Visage",
-      "ru": "[DNT] Red Queen's Visage",
-      "jp": "[DNT] Red Queen's Visage"
-    },
-    "description": {
-      "en": "DNT A host of crimson souls erupt from Atziri's Mirror when you Parry, which travel outward to enemies in front of you applying the Parried Debuff and Scar of the Red Queen.",
-      "kr": "DNT A host of crimson souls erupt from Atziri's Mirror when you Parry, which travel outward to enemies in front of you applying the Parried Debuff and Scar of the Red Queen.",
-      "tw": "DNT A host of crimson souls erupt from Atziri's Mirror when you Parry, which travel outward to enemies in front of you applying the Parried Debuff and Scar of the Red Queen.",
-      "ru": "DNT A host of crimson souls erupt from Atziri's Mirror when you Parry, which travel outward to enemies in front of you applying the Parried Debuff and Scar of the Red Queen.",
-      "jp": "DNT A host of crimson souls erupt from Atziri's Mirror when you Parry, which travel outward to enemies in front of you applying the Parried Debuff and Scar of the Red Queen."
-    },
-    "image": null
-  },
-  {
     "id": "fangs-of-frost",
     "grantedEffect": "",
     "name": {
@@ -13942,25 +12156,6 @@
       "tw": "召喚一個能在戰鬥中協助你的復甦野獸盟友。",
       "ru": "Призывает возрождающегося звериного компаньона, который помогает вам в битве.",
       "jp": "復活する獣のコンパニオンを召喚し、戦闘でプレイヤーの味方として戦わせる。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-frozen-vortex",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] Frozen Vortex",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] Frozen Vortex",
-      "jp": "ヴォーテックス"
-    },
-    "description": {
-      "en": "DNT-UNUSED Fill this in",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED Fill this in",
-      "jp": "DNT-UNUSED Fill this in"
     },
     "image": null
   },
@@ -14155,25 +12350,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-triggered-hoarfrost",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] triggered_hoarfrost",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "[DNT-UNUSED] triggered_hoarfrost",
-      "jp": "トリガードホアフロスト"
-    },
-    "description": {
-      "en": "DNT-UNUSED triggered_hoarfrost",
-      "kr": "WIP",
-      "tw": "WIP",
-      "ru": "DNT-UNUSED triggered_hoarfrost",
-      "jp": "DNT-UNUSED triggered_hoarfrost"
-    },
-    "image": null
-  },
-  {
     "id": "manifest-weapon",
     "grantedEffect": "",
     "name": {
@@ -14360,25 +12536,6 @@
       "tw": "賦予你的武器波動。該武器的非近戰投射物攻擊會消耗波動，使得射出的投射物在抵達飛行終點時爆炸。",
       "ru": "Дарует вашему оружию всплески. Атаки снарядами не в ближнем бою с этим оружием поглощают всплески и заставляют выпущенные снаряды взрываться в конце полёта.",
       "jp": "武器にサージを付与する。その武器による近接以外の投射物アタックはサージを消費し、飛び終わった時に爆発するようにする。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-whip",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Whip",
-      "kr": "[DNT] Whip",
-      "tw": "[DNT] Whip",
-      "ru": "[DNT] Whip",
-      "jp": "[DNT] Whip"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
     },
     "image": null
   },
@@ -15162,25 +13319,6 @@
     "image": null
   },
   {
-    "id": "dnt-from-the-grave-ice-fragment",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] From the Grave Ice Fragment",
-      "kr": "[DNT] From the Grave Ice Fragment",
-      "tw": "[DNT] From the Grave Ice Fragment",
-      "ru": "[DNT] From the Grave Ice Fragment",
-      "jp": "[DNT] From the Grave Ice Fragment"
-    },
-    "description": {
-      "en": "DNT From the Grave Ice Fragment",
-      "kr": "DNT From the Grave Ice Fragment",
-      "tw": "DNT From the Grave Ice Fragment",
-      "ru": "DNT From the Grave Ice Fragment",
-      "jp": "DNT From the Grave Ice Fragment"
-    },
-    "image": null
-  },
-  {
     "id": "ice-fragments",
     "grantedEffect": "",
     "name": {
@@ -15272,25 +13410,6 @@
       "tw": "以被輔助的技能落地時會製造數道裂縫。",
       "ru": "Создаёт несколько расселин при приземлении с усиленным умением.",
       "jp": "サポートされたスキルにより着地した時に、複数の亀裂を生成する。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-small-bell",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Small Bell",
-      "kr": "[DNT] Small Bell",
-      "tw": "[DNT] Small Bell",
-      "ru": "[DNT] Small Bell",
-      "jp": "[DNT] Small Bell"
-    },
-    "description": {
-      "en": "DNT Ring Ring but small",
-      "kr": "DNT Ring Ring but small",
-      "tw": "DNT Ring Ring but small",
-      "ru": "DNT Ring Ring but small",
-      "jp": "DNT Ring Ring but small"
     },
     "image": null
   },
@@ -15443,25 +13562,6 @@
       "tw": null,
       "ru": null,
       "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-dark-visions",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Dark Visions",
-      "kr": "[DNT] Dark Visions",
-      "tw": "[DNT] Dark Visions",
-      "ru": "[DNT] Dark Visions",
-      "jp": "[DNT] Dark Visions"
-    },
-    "description": {
-      "en": "DNT It looks at you menacingly",
-      "kr": "DNT It looks at you menacingly",
-      "tw": "DNT It looks at you menacingly",
-      "ru": "DNT It looks at you menacingly",
-      "jp": "DNT It looks at you menacingly"
     },
     "image": null
   },
@@ -15656,25 +13756,6 @@
     "image": null
   },
   {
-    "id": "dnt-unused-the-flawed-edict",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] The Flawed Edict",
-      "kr": "[DNT-UNUSED] The Flawed Edict",
-      "tw": "[DNT-UNUSED] The Flawed Edict",
-      "ru": "[DNT-UNUSED] The Flawed Edict",
-      "jp": "[DNT-UNUSED] The Flawed Edict"
-    },
-    "description": {
-      "en": "DNT-UNUSED An Edict, but flawed.",
-      "kr": "DNT-UNUSED An Edict, but flawed.",
-      "tw": "DNT-UNUSED An Edict, but flawed.",
-      "ru": "DNT-UNUSED An Edict, but flawed.",
-      "jp": "DNT-UNUSED An Edict, but flawed."
-    },
-    "image": null
-  },
-  {
     "id": "ice-armour",
     "grantedEffect": "",
     "name": {
@@ -15789,25 +13870,6 @@
     "image": null
   },
   {
-    "id": "dnt-companion-0",
-    "grantedEffect": "SummonUndeadCompanionPlayer",
-    "name": {
-      "en": "[DNT] Companion: {0}",
-      "kr": "[DNT] Companion: {0}",
-      "tw": "[DNT] Companion: {0}",
-      "ru": "[DNT] Companion: {0}",
-      "jp": "[DNT] Companion: {0}"
-    },
-    "description": {
-      "en": "Summon a Reviving Undead Companion to aid you in combat.",
-      "kr": "부활 능력이 있는 언데드 반려수를 소환하여 전투를 돕게 합니다.",
-      "tw": "召喚一個能在戰鬥中協助你的復甦不死盟友。",
-      "ru": "Призывает возрождающегося компаньона-нежить, который помогает вам в битве.",
-      "jp": "復活するアンデッドコンパニオンを召喚し、戦闘に加勢させる。"
-    },
-    "image": null
-  },
-  {
     "id": "abyssal-apparition",
     "grantedEffect": "",
     "name": {
@@ -15827,44 +13889,6 @@
     "image": null
   },
   {
-    "id": "dnt-landslide",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Landslide",
-      "kr": "[DNT] Landslide",
-      "tw": "[DNT] Landslide",
-      "ru": "[DNT] Landslide",
-      "jp": "[DNT] Landslide"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-primal-quadrilla-slam",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Primal Quadrilla Slam",
-      "kr": "[DNT] Primal Quadrilla Slam",
-      "tw": "[DNT] Primal Quadrilla Slam",
-      "ru": "[DNT] Primal Quadrilla Slam",
-      "jp": "[DNT] Primal Quadrilla Slam"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "creeping-chill",
     "grantedEffect": "",
     "name": {
@@ -15880,25 +13904,6 @@
       "tw": "在被輔助的技能所創造的冰晶周圍製造會散播的冰緩地面。",
       "ru": "Создаёт растущую область замёрзшей земли вокруг ледяных кристаллов, созданных усиленными умениями.",
       "jp": "サポートされたスキルにより生成された氷の結晶の周りに拡張していく冷却領域を生成する。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-atziris-storm",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Atziri's Storm",
-      "kr": "[DNT] Atziri's Storm",
-      "tw": "[DNT] Atziri's Storm",
-      "ru": "[DNT] Atziri's Storm",
-      "jp": "[DNT] Atziri's Storm"
-    },
-    "description": {
-      "en": "DNT Fill me in",
-      "kr": "DNT Fill me in",
-      "tw": "DNT Fill me in",
-      "ru": "DNT Fill me in",
-      "jp": "DNT Fill me in"
     },
     "image": null
   },
@@ -16321,25 +14326,6 @@
     "image": null
   },
   {
-    "id": "dnt-savage-snare",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Savage Snare",
-      "kr": "[DNT] Savage Snare",
-      "tw": "[DNT] Savage Snare",
-      "ru": "[DNT] Savage Snare",
-      "jp": "[DNT] Savage Snare"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
-    },
-    "image": null
-  },
-  {
     "id": "deadly-resolve",
     "grantedEffect": "",
     "name": {
@@ -16355,25 +14341,6 @@
       "tw": "朝目標創造一枚致命的斬擊，造成不基於武器傷害的攻擊傷害",
       "ru": "Создаёт смертоносный удар в сторону цели, урон от атак, не основанный на оружии героя.",
       "jp": "対象に向かってデッドリースラッシュを行い、武器ダメージを参照しないアタックダメージを与える。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-totemic-aegis",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED]  totemic aegis",
-      "kr": "[DNT-UNUSED]  totemic aegis",
-      "tw": "圖騰聖盾",
-      "ru": "[DNT-UNUSED]  totemic aegis",
-      "jp": "[DNT-UNUSED]  totemic aegis"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
     },
     "image": null
   },
@@ -16545,25 +14512,6 @@
       "tw": "啟動時，在擊殺受元素異常狀態影響的敵人、或擊中受元素異常狀態影響的稀有和傳奇敵人時，會召喚短暫存活的阿茲莫里群落。這些群集為無法被指定的召喚物，且會追捕並攻擊周遭的敵人，在擊中時施加仙靈之火。",
       "ru": "Пока умение активно, герой ненадолго призывает рои азмири, когда убивает врагов под действием стихийных состояний или наносит удар по редким или уникальным врагам под действием стихийных состояний. Рои являются приспешниками, которых нельзя выбрать в качестве цели и которые преследуют и атакуют и ближайших врагов, накладывая волшебный огонь при ударе.",
       "jp": "アクティブ中、元素系状態異常の影響を受けている敵を倒すか元素系状態異常の影響を受けているレアまたはユニークの敵にヒットを与えると、短命のアズメリ・スウォームを召喚する。このスウォームは敵から攻撃の対象にされないミニオンで、近くの敵を追跡しアタックを行い、ヒット時にフェアリーファイヤーを付与する。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-unused-mist-raven-companion-swoop",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT-UNUSED] mist_raven_companion_swoop",
-      "kr": "[DNT-UNUSED] mist_raven_companion_swoop",
-      "tw": "霧鴉swoop",
-      "ru": "[DNT-UNUSED] mist_raven_companion_swoop",
-      "jp": "[DNT-UNUSED] mist_raven_companion_swoop"
-    },
-    "description": {
-      "en": null,
-      "kr": null,
-      "tw": null,
-      "ru": null,
-      "jp": null
     },
     "image": null
   },
@@ -16826,10 +14774,10 @@
     },
     "description": {
       "en": "Unleash a wave of volatile ice that feeds on flames. While the wave doesn't deal damage, the ice latches onto Ignited enemies, refreshing the duration of their active Ignite and rapidly Freezing them but preventing them from being Ignited further until the Ignite expires.",
-      "kr": "불꽃에서 힘을 얻는 폭발성 얼음 파도를 방출합니다. 파도는 피해를 주지 않지만, 얼음은 점화된 적들에게 달라붙어 활성화된 점화의 지속시간을 초기화하고 적들을 빠르게 동결시키되, 점화가 만료될 때까지 적이 추가로 점화되지는 않게 합니다.",
-      "tw": "釋放一道易變、可吞噬火焰的寒冰波浪。雖然波浪本身不會造成傷害，冰晶將會附著於被點燃的敵人，刷新點燃的持續時間並高速的累積冰凍；但會使其在當前點燃持續時間結束前無法再次被點燃。",
-      "ru": "Герой выпускает волну нестабильного льда, который подпитывается пламенем. Хотя волна не наносит урона, лёд прикрепляется к подожжённым врагам, обновляя длительность действующего на них поджога и стремительно замораживая их, но не допускает дальнейшие поджоги до окончания действия текущего поджога.",
-      "jp": "炎を糧とする不安定な氷の波動を解き放つ。その波動自体はダメージを与えないが、発火状態の敵に氷がまとわりつき、アクティブな発火の持続時間を更新し、その敵を瞬時に凍結させる。だが、その敵の発火の効果が切れるまで他の発火を付与できなくなる。"
+      "kr": "룬 수호를 소모하여 불꽃에서 힘을 얻는 폭발성 얼음 파도를 방출합니다. 파도는 피해를 주지 않지만, 얼음은 점화된 적들에게 달라붙어 활성화된 점화의 지속시간을 초기화하고 적들을 빠르게 동결시키되, 점화가 만료될 때까지 적이 추가로 점화되지는 않게 합니다.",
+      "tw": "消耗符文保護以釋放一道易變、可吞噬火焰的寒冰波浪。雖然波浪本身不會造成傷害，冰晶將會附著於被點燃的敵人，刷新點燃的持續時間並高速的累積冰凍；但會使其在當前點燃持續時間結束前無法再次被點燃。",
+      "ru": "Герой расходует рунический барьер на высвобождение волны нестабильного льда, которая подпитывается пламенем. Хотя волна не наносит урона, лёд прикрепляется к подожжённым врагам, обновляя длительность действующего на них поджога и стремительно замораживая их, но не допускает дальнейшие поджоги до окончания действия текущего поджога.",
+      "jp": "ルーンワードを使用し、炎を糧とする不安定な氷の波動を解き放つ。その波動自体はダメージを与えないが、発火状態の敵に氷がまとわりつき、アクティブな発火の持続時間を更新し、その敵を瞬時に凍結させる。だが、その敵の発火の効果が切れるまで他の発火を付与できなくなる。"
     },
     "image": null
   },
@@ -16940,10 +14888,10 @@
     },
     "description": {
       "en": "Spends all your Ward to gain a short-duration Buff that causes you to Block all Blockable Hits and apply Parried to enemies from which you've Blocked a Hit. This Buff is removed if you are Heavy Stunned. While this Buff is active, you cannot be Light Stunned, but Blocking too much damage may Heavy Stun you.",
-      "kr": "수호를 모두 소모하여 지속시간이 짧은 버프를 획득합니다. 이 버프가 있는 동안 막을 수 있는 명중을 모두 막고, 명중을 막아낸 적들에게 흘려보내기를 적용합니다. 강력 기절 상태가 되면 이 버프가 제거됩니다. 이 버프가 활성화된 동안에는 약한 기절을 하지 않지만, 너무 많은 피해를 막아낼 경우 강한 기절을 할 수도 있습니다.",
-      "tw": "消耗你所有的保護以獲得一個短暫的增益效果，使你格擋所有可格擋的擊中，並對你曾格擋擊中來源的敵人施加受招架。若你被沉重暈眩，此增益效果將會解除。此增益效果生效期間，你不會被輕微暈眩，但格擋過多傷害可能使你沉重暈眩。",
-      "ru": "Герой расходует весь свой барьер, получая кратковременный положительный эффект, под действием которого блокирует все удары, которые можно заблокировать, и накладывает отрицательный эффект парирования на врагов, чей удар был заблокирован. Этот положительный эффект снимается, если герой сильно оглушён. Пока положительный эффект действует, герой не может получить лёгкое оглушение, но блокирование слишком большого количества урона может сильно оглушить его.",
-      "jp": "ルーンワードを全て使用し、全てのブロック可能なヒットをブロックする短時間だけ有効なバフを獲得する。プレイヤーがブロックしたヒットを与えてきた敵に対してパリィのデバフを付与する。このバフはヘビースタンを受けると取り除かれる。"
+      "kr": "룬 수호를 모두 소모하여 지속시간이 짧은 버프를 획득합니다. 이 버프가 있는 동안 막을 수 있는 명중을 모두 막고, 명중을 막아낸 적들에게 흘려보내기를 적용합니다. 강력 기절 상태가 되면 이 버프가 제거됩니다. 이 버프가 활성화된 동안에는 약한 기절을 하지 않지만, 너무 많은 피해를 막아낼 경우 강한 기절을 할 수도 있습니다.",
+      "tw": "消耗你所有的符文保護以獲得一個短暫的增益效果，使你格擋所有可格擋的擊中，並對你曾格擋擊中來源的敵人施加受招架。若你被沉重暈眩，此增益效果將會解除。此增益效果生效期間，你不會被輕微暈眩，但格擋過多傷害可能使你沉重暈眩。",
+      "ru": "Герой расходует весь свой рунический барьер, получая кратковременный положительный эффект, под действием которого блокирует все блокируемые удары и накладывает отрицательный эффект парирования на врагов, чей удар был заблокирован. Этот положительный эффект снимается, если герой сильно оглушён. Пока положительный эффект действует, герой не может получить лёгкое оглушение, но блокирование слишком большого количества урона может сильно оглушить его.",
+      "jp": "ルーンワードを全て使用し、全てのブロック可能なヒットをブロックする短時間だけ有効なバフを獲得する。プレイヤーがブロックしたヒットを与えてきた敵に対してパリィのデバフを付与する。バフがアクティブな間、ライトスタンすることはないが、あまりにたくさんのダメージをブロックするとプレイヤーがヘビースタンすることがある。"
     },
     "image": null
   },
@@ -16959,10 +14907,10 @@
     },
     "description": {
       "en": "Target an area and Curse enemies within with a Verisium Rune, inflicting them with Fragility. Hitting these enemies causes the Curse to Trigger an explosion to deal damage in an area and apply significant Knockback to other enemies near the Cursed target, with more Stun buildup based on the Fragility on the target Hit.",
-      "kr": "일정 범위를 대상으로 지정해, 그 안의 적들에게 베리시움 룬으로 저주를 걸어 허약을 유발합니다. 해당 적을 명중시키면 저주로부터 일정 범위에 피해를 주는 폭발이 발동하고 저주받은 대상 근처의 다른 적들을 강하게 밀어냅니다. 이때 명중당한 대상에게 걸려 있는 허약에 따라 적용되는 기절 축적이 증폭됩니다.",
-      "tw": "鎖定一個區域並以維里西姆符文詛咒範圍內的敵人，對其施加易碎。擊中這些敵人會使詛咒觸發爆炸，在範圍內造成傷害，並對受詛咒目標附近的其他敵人施加強力擊退，依據目標被擊中時的易碎程度累積更多暈眩。",
-      "ru": "Герой выбирает область и проклинает врагов в ней веризиевой руной, накладывая на них хрупкость. Нанесение удара по этим врагам заставляет проклятие вызвать взрыв с уроном по области и значительно отбросить других врагов вблизи проклятой цели, накопив тем больше оглушения, чем больше хрупкости на поражённой цели.",
-      "jp": "範囲を指定し、範囲内の敵をヴェリシウムルーンで呪い、虚弱を付与する。これらの敵にヒットを与えると、呪いが爆発をトリガーし、範囲内にダメージを与え、呪いを付与された対象の近くにいる他の敵に大きなノックバックを与える。対象へのヒット時に付与されていた虚弱に基づき、スタン蓄積が上昇する。"
+      "kr": "룬 수호를 소모하여 적들에게 베리시움 룬으로 저주를 걸어 허약을 유발합니다. 해당 적을 명중시키면 저주가 제거되며 폭발이 발동하며, 주변 적들을 밀어내고 명중당한 대상에게 걸려 있는 허약에 따라 더 많은 기절 축적을 유발합니다.",
+      "tw": "消耗符文保護以鎖定一個區域並以維里西姆符文詛咒範圍內的敵人，對其施加易碎。擊中這些敵人會使詛咒觸發爆炸，在範圍內造成傷害，並對受詛咒目標附近的其他敵人施加強力擊退，依據目標被擊中時的易碎程度累積更多暈眩。",
+      "ru": "Герой расходует рунический барьер и проклинает врагов веризиевой руной, накладывая на них хрупкость. Нанесение удара по этим врагам снимает проклятие и вызывает взрыв, отбрасывающий врагов поблизости и накапливающий тем больше оглушения, чем больше хрупкости на поражённой цели.",
+      "jp": "範囲を指定し、範囲内の敵をヴェリシウムルーンで呪い、虚弱を付与する。これらの敵にヒットを与えると、呪いが取り除かれ爆発をトリガーし、呪いを付与された対象の近くにいる他の敵に大きなノックバックを与える。対象へのヒット時に付与されていた虚弱に基づき、スタン蓄積が上昇する。"
     },
     "image": null
   },
@@ -16997,48 +14945,10 @@
     },
     "description": {
       "en": "Tap into the power of the Triskelion Flame to Empower the next Cascadable Spell you cast. The Empowered Spell becomes centred on your location, and Cascades to six areas around you in a Triskelion pattern.",
-      "kr": "트리스켈리온의 불길의 힘을 빌려, 다음으로 시전하는 연속 가능 주문을 강화합니다. 강화된 주문은 플레이어의 위치를 중심으로 하며, 트리스켈리온 문양을 따라 플레이어 주위의 범위 6개로 연속됩니다.",
-      "tw": "借助三曲烈焰的力量以強化你施放的下一個可爆發法術。強化的法術會以你的位置為中心，並以三曲的形狀同時以6個額外區域為目標爆發。",
-      "ru": "Герой получает крупицу силы Пламени Трискелиона и улучшает следующие сотворённые им каскадные чары. Улучшенные чары центрируются по местоположению героя и каскадно поражают шесть областей вокруг него в форме трискелиона.",
-      "jp": "トリスケリオンの炎の力を取り込み、次にプレイヤーがキャストするカスケード可能スペルを強化する。強化されたスペルはプレイヤーの位置を中心にして発動し、プレイヤーの周囲6エリアにトリスケリオンのパターンでカスケードする。"
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-internecine-draw",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Internecine Draw",
-      "kr": "[DNT] Internecine Draw",
-      "tw": "[DNT] Internecine Draw",
-      "ru": "[DNT] Internecine Draw",
-      "jp": "[DNT] Internecine Draw"
-    },
-    "description": {
-      "en": "DNT Gain stack of cleansed and corrupted forms when attacking with a bow.",
-      "kr": "DNT Gain stack of cleansed and corrupted forms when attacking with a bow.",
-      "tw": "DNT Gain stack of cleansed and corrupted forms when attacking with a bow.",
-      "ru": "DNT Gain stack of cleansed and corrupted forms when attacking with a bow.",
-      "jp": "DNT Gain stack of cleansed and corrupted forms when attacking with a bow."
-    },
-    "image": null
-  },
-  {
-    "id": "dnt-cycle-conflict",
-    "grantedEffect": "",
-    "name": {
-      "en": "[DNT] Cycle Conflict",
-      "kr": "[DNT] Cycle Conflict",
-      "tw": "[DNT] Cycle Conflict",
-      "ru": "[DNT] Cycle Conflict",
-      "jp": "[DNT] Cycle Conflict"
-    },
-    "description": {
-      "en": "{DNT] Swap the currently dominant form of the Cradle of Conflict.",
-      "kr": "{DNT] Swap the currently dominant form of the Cradle of Conflict.",
-      "tw": "切換當前主導的衝突搖籃型態。",
-      "ru": "{DNT] Swap the currently dominant form of the Cradle of Conflict.",
-      "jp": "{DNT] Swap the currently dominant form of the Cradle of Conflict."
+      "kr": "트리스켈리온의 불길의 힘을 빌려, 다음으로 룬 수호를 소모하여 시전하는 연속 가능 주문을 강화합니다. 강화된 주문은 플레이어의 위치를 중심으로 하며, 트리스켈리온 문양을 따라 플레이어 주위의 범위 6개로 연속됩니다.",
+      "tw": "消耗符文保護並借助三曲烈焰的力量以強化你施放的下一個可爆發法術。強化的法術會以你的位置為中心，並以三曲的形狀同時以6個額外區域為目標爆發。",
+      "ru": "Герой получает крупицу силы Пламени Трискелиона и улучшает следующие сотворённые им каскадные чары ценой рунического барьера. Улучшенные чары центрируются по местоположению героя и каскадно поражают шесть областей вокруг него в форме трискелиона.",
+      "jp": "トリスケリオンの炎の力を取り込み、ルーンワードをコストとして、次にプレイヤーがキャストするカスケード可能スペルを強化する。強化されたスペルはプレイヤーの位置を中心にして発動し、プレイヤーの周囲6個のエリアにトリスケリオンの模様上にカスケードする。"
     },
     "image": null
   },
@@ -17073,10 +14983,10 @@
     },
     "description": {
       "en": "Hit an enemy under the Culling Strike Threshold, causing them to violently explode, damaging surrounding enemies. Highlights enemies under the Culling Strike Threshold.",
-      "kr": "마무리 타격 한계치 미만의 적을 명중시키면 맹렬한 폭발이 일어나 주위 적들에게 피해를 줍니다. 마무리 타격 한계치 미만인 적들이 강조 표시됩니다.",
-      "tw": "擊中一名低於撲殺門檻的敵人，使其劇烈爆炸，對周遭敵人造成傷害。會高亮處於撲殺門檻的敵人。",
-      "ru": "Попадание по врагу, здоровье которого находится ниже порога добивания, вызывает его взрыв, наносящий урон окружающим врагам. Умение подсвечивает врагов, которых можно добить.",
-      "jp": "カリングストライク閾値を下回る敵にヒットを与え、その敵を激しく爆発させて周囲の敵にダメージを与える。カリングストライク閾値を下回る敵をハイライトする。"
+      "kr": "룬 수호를 소모하여 마무리 타격 한계치 미만의 적에 대한 명중을 불안정하게 하여, 맹렬하게 폭발하게 합니다. 마무리 타격 한계치 미만인 적들이 강조 표시됩니다.",
+      "tw": "消耗符文保護並擊中一名低於撲殺門檻的敵人，使其劇烈爆炸，對周遭敵人造成傷害。會高亮處於撲殺門檻的敵人。",
+      "ru": "Герой расходует рунический барьер, нанося дестабилизирующий удар по врагу со здоровьем ниже порога добивания, и вызывает его взрыв. Умение подсвечивает врагов, которых можно добить.",
+      "jp": "ルーンワードを使用し、カリングストライク閾値を下回る敵へのヒットを不安定化させ、その敵を激しく爆発させて周囲の敵にダメージを与える。カリングストライク閾値を下回る敵をハイライトする。"
     },
     "image": null
   },
@@ -17111,9 +15021,9 @@
     },
     "description": {
       "en": "Spend Ward and target an area, transforming Corpses into bitter cores that seek out enemies and Chill enemies near them. The cores explode at the end of their duration, creating runes which deal additional Cold damage over time.",
-      "kr": "수호를 소모하고 일정 범위를 대상으로 지정하여, 시신을 원통한 핵으로 변화시킵니다. 원통한 핵은 적들을 찾아가서 그 근처의 적들을 냉각시킵니다. 핵은 지속시간이 끝나면 폭발하며, 추가 냉기 지속 피해를 주는 룬을 생성합니다.",
-      "tw": "消耗保護並以一片區域為目標，將屍體轉化為會追蹤並冰緩周遭敵人的苦澀核心。核心會在持續時間結束時爆炸，創造會造成額外冰冷持續傷害的符文。",
-      "ru": "Герой расходует барьер и выбирает область, превращая трупы в стылые основы, которые выискивают врагов и охлаждают противников рядом с собой. В конце действия основы взрываются, создавая руны, которые наносят дополнительный постепенный урон от холода.",
+      "kr": "룬 수호를 소모하고 일정 범위를 대상으로 지정하여, 시신을 원통한 핵으로 변화시킵니다. 원통한 핵은 적들을 찾아가서 그 근처의 적들을 냉각시킵니다. 핵은 지속시간이 끝나면 폭발하며, 추가 냉기 지속 피해를 주는 룬을 생성합니다.",
+      "tw": "消耗符文保護並以一片區域為目標，將屍體轉化為會追蹤並冰緩周遭敵人的苦澀核心。核心會在持續時間結束時爆炸，創造會造成額外冰冷持續傷害的符文。",
+      "ru": "Герой расходует рунический барьер и выбирает область, превращая трупы в стылые основы, которые выискивают врагов и охлаждают противников рядом с собой. В конце действия основы взрываются, создавая руны, которые наносят дополнительный постепенный урон от холода.",
       "jp": "ルーンワードを使用し、範囲を対象とし、死体をビターコアに変化させる。ビターコアは敵を探し出し、その近くの敵を冷却させる。コアは持続時間が終わったら爆発し、追加の冷気継続ダメージを与えるルーンを生成する。"
     },
     "image": null
@@ -17265,8 +15175,8 @@
       "en": "Spend Runic Ward to create a number of Hazardous Runes in a cone in front of you, which arm after a time. After arming, these Runes will activate when enemies step on them, exploding to deal Attack damage that is not based on your Weapon's damage and apply Electrocution buildup.",
       "kr": "룬 수호를 사용해 전방의 부채꼴 범위에 여러 위해 요소 룬을 생성합니다. 이 룬들은 일정 시간이 흐르면 무장되고, 무장 후 적이 밟으면 작동해 폭발합니다. 폭발 시 무기의 피해에 기반하지 않은 공격 피해를 주고 전기 처형 축적을 적용합니다.",
       "tw": "消耗符文保護以在你正前方的錐形區域內創造數個危險符文，這些符文需要一段時間才能武裝。武裝後，當敵人踩上這些符文時會使其啟動並爆炸，造成不基於你武器傷害的攻擊傷害並施加觸電累積。",
-      "ru": "Герой тратит рунический барьер, чтобы создать несколько рун-помех в конусе перед собой, которые взводятся через некоторое время. После взведения руны активируются при наступании врагов на них, взрываясь уроном от атак и накапливая электризацию.",
-      "jp": "ルーンワードを消費し、自身の前方の扇状範囲に複数のハザードのルーンを生成する。ルーンは一定時間後に作動可能状態になる。作動可能状態になった後、敵が踏むとこれらのルーンが起動し、爆発してアタックダメージを与え、麻痺蓄積を付与する。"
+      "ru": "Герой тратит рунический барьер, чтобы создать несколько рун-помех в конусе перед собой, которые взводятся через некоторое время. После взведения руны активируются при наступании врагов на них, взрываясь уроном от атак, который не основан на уроне оружия героя, и накапливая электризацию.",
+      "jp": "ルーンワードを消費し、自身の前方の扇状範囲に複数のハザードのルーンを生成する。ルーンは一定時間後に作動可能状態になる。作動可能状態になった後、敵が踏むとこれらのルーンが起動し、爆発してマーシャル武器のダメージに基づかないアタックダメージを与え、麻痺蓄積を付与する。"
     },
     "image": null
   },
@@ -17358,10 +15268,10 @@
     },
     "description": {
       "en": "Raise a pair of electrified pylons in front of you which project a wall of electricity between them, damaging and Electrocuting enemies caught between them. Projectiles you fire through the wall become energised, and discharge that energy on Hit as Chaining Lightning beams.",
-      "kr": "앞에 전기를 띤 탑 두 개를 세웁니다. 탑 사이에 전기의 벽이 투영되어, 그 사이에 있는 적들에게 피해를 주고 전기 처형을 유발합니다. 플레이어가 그 벽을 통과해 발사하는 투사체는 에너지를 띠고, 명중 시 그 에너지를 연쇄되는 번개 광선에 방출합니다.",
-      "tw": "使一組電塔在你面前升起，在電塔之間架起一座雷電之牆，對其中的敵人造成傷害並使其觸電。你發射的投射物在穿透牆體時會被充能，並在擊中敵人時以連鎖閃電光束的形式釋放能量。",
-      "ru": "Герой устанавливает перед собой пару электрических пилонов, которые создают стену из электричества между ними. Стена наносит урон и наэлектризовывает врагов, оказавшихся между пилонами. Выпущенные героем сквозь стену снаряды становятся заряженными и разряжают эту энергию при попадании в виде цепной молнии. ",
-      "jp": "前方に帯電したパイロンを一対立て、その間に電気の壁を投射し、壁に巻き込まれた敵にダメージを与えて麻痺させる。自身が壁を通して放った投射物はエネルギーを帯び、ヒット時にそのエネルギーを連鎖する雷ビームとして放出する。"
+      "kr": "룬 수호를 소모하여 앞에 전기를 띤 탑 두 개를 세웁니다. 탑 사이에 전기의 벽이 투영되어, 그 사이에 있는 적들에게 피해를 주고 전기 처형을 유발합니다. 플레이어가 그 벽을 통과해 발사하는 투사체는 에너지를 띠고, 명중 시 그 에너지를 연쇄되는 번개 광선에 방출합니다.",
+      "tw": "消耗符文保護使一組電塔在你面前升起，在電塔之間架起一座雷電之牆，對其中的敵人造成傷害並使其觸電。你發射的投射物在穿透牆體時會被充能，並在擊中敵人時以連鎖閃電光束的形式釋放能量。",
+      "ru": "Герой расходует рунический барьер и устанавливает перед собой пару электрических пилонов, которые создают стену из электричества между ними. Стена наносит урон и наэлектризовывает врагов, оказавшихся между пилонами. Выпущенные героем сквозь стену снаряды становятся заряженными и разряжают эту энергию при попадании в виде цепной молнии. ",
+      "jp": "ルーンワードを使用し、前方に帯電したパイロンを一対立て、その間に電気の壁を投射し、壁に巻き込まれた敵にダメージを与えて麻痺させる。自身が壁を通して放った投射物はエネルギーを帯び、ヒット時にそのエネルギーを連鎖する雷ビームとして放出する。"
     },
     "image": null
   },
@@ -17476,6 +15386,25 @@
       "tw": "足以使敵人沉重暈眩的打擊會在敵人周圍範圍內迴響，並大幅破壞護甲。",
       "ru": "Удары достаточной силы, чтобы сильно оглушить врага, раздаются по области вокруг него и серьёзно разрушают броню.",
       "jp": "敵をヘビースタンさせるほど強力な打撃は、その敵の周囲に反響し、激しくアーマーを破壊する。"
+    },
+    "image": null
+  },
+  {
+    "id": "queens-procession",
+    "grantedEffect": "",
+    "name": {
+      "en": "Queen's Procession",
+      "kr": "여왕의 행진",
+      "tw": "女王進軍",
+      "ru": "Процессия царицы",
+      "jp": "クイーンズプロセッション"
+    },
+    "description": {
+      "en": "While active, Sprinting turns you into a locust swarm which deals Physical Attack damage, which is not based on your Weapon's damage, in an area around you. You take damage and gain Heavy Stun buildup if this Hits any targets, but damage you take from other sources while sprinting will not apply Heavy Stun or interrupt your sprinting.",
+      "kr": "활성화된 동안 달리면 메뚜기 떼로 변신해, 주변 지역에 무기의 피해에 기반하지 않은 물리 공격 피해를 줍니다. 이것으로 명중시키는 대상이 있을 경우 플레이어가 피해를 받고 강력 기절 축적을 획득하지만, 달리는 동안 다른 요인으로 받는 피해는 강력 기절을 적용하거나 달리기를 중단시키지 않습니다.",
+      "tw": "啟動時，衝刺會使你成為一陣蝗蟲群，在你周遭的區域內造成不基於武器傷害的物理攻擊傷害。若此擊中任何目標，你會承受傷害並累積沉重暈眩，但你衝刺期間不會受到來自其他來源的沉重暈眩累積或被中斷衝刺。",
+      "ru": "Пока умение активно, во время спринта герой превращается в рой саранчи, который наносит физический урон от атак в области вокруг, не основанный на уроне оружия героя. Герой получает урон и накапливает сильное оглушение, если  это умение попадёт по любой цели, но получаемый во время спринта урон из других источников не вызовет сильное оглушение и не прервёт спринт.",
+      "jp": "アクティブ中、スプリントするとプレイヤーがイナゴの群れに変化し、武器ダメージに基づかない物理アタックダメージを与える。いずれかの敵にヒットを与えると、プレイヤーはダメージを受け、ヘビースタンが蓄積する。しかし、スプリント中に他のソースからダメージを受けてもヘビースタンは蓄積せず、スプリントが妨害されることもなくなる。"
     },
     "image": null
   }
