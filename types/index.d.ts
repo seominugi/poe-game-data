@@ -104,16 +104,20 @@ export interface MercenaryMeta {
   hashKey: string;
   counts: { builds: number; skills: number; supports: number };
   /**
-   * **GGPK 추출값이 아니라 인게임 실측 추정치다.** `MercenarySupportCounts` 는 등급 문자열만
-   * 담고 실제 슬롯 개수는 클라이언트 하드코딩이라 dat 에 없다. `samples` 로 신뢰도를 판단할 것
-   * (Medium 은 표본 1건, High 는 4~5 로 갈리며 조건 미확인).
+   * **GGPK 추출값이 아니라 거래 매물 실측치다.** `MercenarySupportCounts` 는 등급 문자열만 담고
+   * 실제 슬롯 개수는 클라이언트 하드코딩이라 dat 에 없다.
+   *
+   * **`max` 는 상한이지 개수가 아니다** — Medium 의 32% · High 의 27% 가 최빈값보다 적게 채워져
+   * 있었고, 같은 용병 안에서도 스킬마다 달랐다(스킬 단위 개체차). "이 등급이면 N개"라는 기대값으로
+   * 쓰면 안 된다. 실제 분포는 `observed`(슬롯 수 → 건수)를 볼 것.
    */
   supportCountSlots: {
     source: 'observed-estimate';
+    semantics: 'upper-bound';
     note: string;
     observedAt: string;
     observedFrom: string;
-    values: Record<string, { slots: [number, number]; samples: number }>;
+    values: Record<string, { max: number; mode: number; observed: Record<string, number> }>;
   };
 }
 /** `mercenaries/skills.json` · `supports.json` — 키는 해시(문자열화된 정수) */

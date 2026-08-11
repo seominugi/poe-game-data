@@ -1,6 +1,6 @@
 {
   "gamePatch": "3.29.1.2.2",
-  "generated": "2026-08-11T02:20:38.916Z",
+  "generated": "2026-08-11T05:20:58.934Z",
   "langs": [
     "en",
     "kr",
@@ -17,37 +17,43 @@
   },
   "supportCountSlots": {
     "source": "observed-estimate",
-    "note": "MercenarySupportCounts 는 등급 문자열(Low/Medium/High/None)만 담고 실제 슬롯 개수는 dat 에 없다(클라이언트 하드코딩). 아래는 인게임 고용 화면 실측이지 GGPK 추출값이 아니다 — High 가 4 와 5 로 갈리는 조건은 미확인이다.",
+    "semantics": "upper-bound",
+    "note": "MercenarySupportCounts 는 등급 문자열(Low/Medium/High/None)만 담고 실제 슬롯 개수는 dat 에 없다(클라이언트 하드코딩). 아래는 거래 매물 실측이지 GGPK 추출값이 아니다. **개수는 상한이고 실제로는 그 이하가 채워진다** — Medium 의 32% · High 의 27% 가 최빈값보다 적었다. 같은 용병 안에서도 스킬마다 다르므로(레벨이나 용병 전역 속성이 아닌 스킬 단위 개체차) \"이 등급이면 N개\"라는 기대값으로 쓰면 안 된다.",
     "observedAt": "2026-08-11",
-    "observedFrom": "poe-loot-overlay/docs/2026-08-11-용병-데이터-추출과-시세-검색-설계.md §3.2 (용병 3명 20슬롯)",
+    "observedFrom": "poe-loot-overlay/docs/2026-08-11-용병-데이터-추출과-시세-검색-설계.md §3.2 (거래 매물 357건 · 스킬 슬롯 2,140개)",
     "values": {
       "None": {
-        "slots": [
-          0,
-          0
-        ],
-        "samples": 5
+        "max": 0,
+        "mode": 0,
+        "observed": {
+          "0": 583
+        }
       },
       "Low": {
-        "slots": [
-          2,
-          2
-        ],
-        "samples": 6
+        "max": 2,
+        "mode": 2,
+        "observed": {
+          "1": 14,
+          "2": 504
+        }
       },
       "Medium": {
-        "slots": [
-          3,
-          3
-        ],
-        "samples": 1
+        "max": 3,
+        "mode": 3,
+        "observed": {
+          "2": 61,
+          "3": 132
+        }
       },
       "High": {
-        "slots": [
-          4,
-          5
-        ],
-        "samples": 8
+        "max": 5,
+        "mode": 5,
+        "observed": {
+          "2": 3,
+          "3": 20,
+          "4": 224,
+          "5": 599
+        }
       }
     }
   }

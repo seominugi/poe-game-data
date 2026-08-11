@@ -85,9 +85,11 @@ builds['Manyshot'].skillPools.skill1     // [11495, 58425] — 이 빌드는 항
 - **`supports[].family`**: 한 스킬에 같은 계열이 두 번 붙지 않는다. 아트가 달라도 계열이 같으면 배타다
   (`Multiple Projectiles` I ↔ `Greater Multiple Projectiles` III). 후보를 셀 때 아트가 아니라 계열로 센다.
 - **`gemIcon` 은 GGPK 내부 경로 문자열**이다 — 이미지는 저작권상 배포하지 않는다.
-- **`_meta.supportCountSlots` 는 GGPK 값이 아니다.** `MercenarySupportCounts` 는 등급 문자열
-  (`Low`/`Medium`/`High`/`None`)만 담고 실제 슬롯 개수는 클라이언트 하드코딩이라 dat 에 없다.
-  실린 값은 인게임 실측 추정치이며 `samples` 로 신뢰도를 판단한다(Medium 표본 1건, High 는 4~5 미확정).
+- **`_meta.supportCountSlots` 는 GGPK 값이 아니고, `max` 는 개수가 아니라 상한이다.**
+  `MercenarySupportCounts` 는 등급 문자열(`Low`/`Medium`/`High`/`None`)만 담고 실제 슬롯 개수는
+  클라이언트 하드코딩이라 dat 에 없다. 거래 매물 357건·슬롯 2,140개 실측에서 **Medium 의 32% ·
+  High 의 27% 가 최빈값보다 적게** 채워져 있었고, 같은 용병 안에서도 스킬마다 달랐다(스킬 단위 개체차).
+  "이 등급이면 N개"라는 기대값으로 쓰지 말고 `observed`(슬롯 수 → 건수) 분포를 볼 것.
 
 ## 데이터 범위 / 한계
 - **poe2**: 베이스 5,038 · 스킬 920 · modifier 7,292 · 고유 449 (텍스트, 5언어)
