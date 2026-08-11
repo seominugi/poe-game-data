@@ -1,0 +1,2609 @@
+{
+  "Bastion": {
+    "archetype": "PhysicalDuelistShields",
+    "hash": 17404,
+    "name": {
+      "en": "Bastion",
+      "kr": "보루",
+      "tw": "堅堡",
+      "ru": "Бастион",
+      "jp": "バスティオン"
+    },
+    "class": "PhysicalDuelist",
+    "attribute": "StrDex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        21201,
+        22850
+      ],
+      "skill2": [
+        41834,
+        58855,
+        52494
+      ],
+      "skill3": [
+        52845,
+        60723,
+        38311,
+        17015,
+        45615
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Sword",
+      "One Hand Axe",
+      "Shield",
+      "One Hand Mace",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Blade Ambusher": {
+    "archetype": "TrapsMinesShadowAttack",
+    "hash": 33100,
+    "name": {
+      "en": "Blade Ambusher",
+      "kr": "칼날 매복자",
+      "tw": "刀鋒伏擊者",
+      "ru": "Ловчий с клинком",
+      "jp": "ブレードアンブッシャー"
+    },
+    "class": "TrapsMinesShadow",
+    "attribute": "DexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        11054,
+        38072
+      ],
+      "skill2": [
+        62393,
+        28988
+      ],
+      "skill3": [
+        64528,
+        56180,
+        2792,
+        44296,
+        13711
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Claw",
+      "Rune Dagger",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Bladebitter": {
+    "archetype": "Crit1HShadowPoison",
+    "hash": 23200,
+    "name": {
+      "en": "Bladebitter",
+      "kr": "쓰라린검",
+      "tw": "刀刃噬咬者",
+      "ru": "Мучительный клинок",
+      "jp": "ブレードビッター"
+    },
+    "class": "Crit1HShadow",
+    "attribute": "DexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        22227,
+        14992
+      ],
+      "skill2": [
+        59831,
+        36446,
+        16896,
+        12262
+      ],
+      "skill3": [
+        10823,
+        60723,
+        1516,
+        10320,
+        2792
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Claw",
+      "Rune Dagger",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Bladecaster": {
+    "archetype": "Crit1HShadowPhysSpell",
+    "hash": 18440,
+    "name": {
+      "en": "Bladecaster",
+      "kr": "칼날시전자",
+      "tw": "刀刃術者",
+      "ru": "Колдовской клинок",
+      "jp": "ブレードキャスター"
+    },
+    "class": "Crit1HShadow",
+    "attribute": "DexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        26057,
+        22724
+      ],
+      "skill2": [
+        17198,
+        37202,
+        25718,
+        50999,
+        59477
+      ],
+      "skill3": [
+        60723,
+        2792,
+        56180,
+        19417,
+        57491
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Rune Dagger",
+      "Wand",
+      "Shield"
+    ]
+  },
+  "Bladereach": {
+    "archetype": "Crit1HShadowSpectral",
+    "hash": 1556,
+    "name": {
+      "en": "Bladereach",
+      "kr": "칼날잡이",
+      "tw": "刀鋒",
+      "ru": "Долгий клинок",
+      "jp": "ブレードリーチ"
+    },
+    "class": "Crit1HShadow",
+    "attribute": "DexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        51031
+      ],
+      "skill2": [],
+      "skill3": [],
+      "pick2": 0,
+      "pick3": 0
+    },
+    "wieldableTypes": []
+  },
+  "Bloodletter": {
+    "archetype": "PhysicalDuelistBleed",
+    "hash": 37584,
+    "name": {
+      "en": "Bloodletter",
+      "kr": "사혈자",
+      "tw": "放血者",
+      "ru": "Кровопускатель",
+      "jp": "ブラッドレター"
+    },
+    "class": "PhysicalDuelist",
+    "attribute": "StrDex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        60880,
+        26931,
+        8136
+      ],
+      "skill2": [
+        12357,
+        54006
+      ],
+      "skill3": [
+        2135,
+        60723,
+        52845,
+        19268
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Axe",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Cardinal": {
+    "archetype": "AurasMinionsTemplarStaff",
+    "hash": 36751,
+    "name": {
+      "en": "Cardinal",
+      "kr": "추기경",
+      "tw": "紅衣主教",
+      "ru": "Кардинал",
+      "jp": "カーディナル"
+    },
+    "class": "AurasMinionsTemplar",
+    "attribute": "StrInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        28506,
+        38655
+      ],
+      "skill2": [
+        7395,
+        53518,
+        3093
+      ],
+      "skill3": [
+        63233,
+        56180,
+        34212,
+        38326
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  },
+  "Combatant": {
+    "archetype": "MeleeAOEStrikeDuelistRangeStrikes",
+    "hash": 28843,
+    "name": {
+      "en": "Combatant",
+      "kr": "전투원",
+      "tw": "戰鬥者",
+      "ru": "Боец",
+      "jp": "コンバッタント"
+    },
+    "class": "MeleeAOEStrikeDuelist",
+    "attribute": "StrDex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        65473,
+        32807
+      ],
+      "skill2": [
+        22105,
+        40957,
+        37916,
+        24931
+      ],
+      "skill3": [
+        38326,
+        60723,
+        40470,
+        13693
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Claw",
+      "One Hand Sword",
+      "One Hand Axe",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Cruel Mistress": {
+    "archetype": "ChaosMinionWitchChaosHit",
+    "hash": 51598,
+    "name": {
+      "en": "Cruel Mistress",
+      "kr": "잔혹한 여주인",
+      "tw": "殘忍女王",
+      "ru": "Жестокая хозяйка",
+      "jp": "クルーエルミストレス"
+    },
+    "class": "ChaosMinionWitch",
+    "attribute": "Int",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        56742,
+        52783
+      ],
+      "skill2": [
+        35371,
+        52144,
+        10742,
+        29071,
+        54144,
+        51539
+      ],
+      "skill3": [
+        14498,
+        28757,
+        40470,
+        56180,
+        17515
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  },
+  "Earthshaker": {
+    "archetype": "MeleeAOEMarauderPhysSlam",
+    "hash": 32159,
+    "name": {
+      "en": "Earthshaker",
+      "kr": "경천지동",
+      "tw": "裂地者",
+      "ru": "Сотрясающий землю",
+      "jp": "アースシェイカー"
+    },
+    "class": "MeleeAOEMarauder",
+    "attribute": "Str",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        38311,
+        2135
+      ],
+      "skill2": [
+        10712,
+        53728,
+        41346,
+        40527,
+        17654
+      ],
+      "skill3": [
+        52845,
+        21036,
+        31440,
+        57171,
+        14889
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Two Hand Mace",
+      "Two Hand Axe"
+    ]
+  },
+  "Eruptor": {
+    "archetype": "MeleeAOEMarauderFireSlam",
+    "hash": 17483,
+    "name": {
+      "en": "Eruptor",
+      "kr": "분출자",
+      "tw": "爆發者",
+      "ru": "Извергатель",
+      "jp": "エラプター"
+    },
+    "class": "MeleeAOEMarauder",
+    "attribute": "Str",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        59259,
+        2135,
+        18149
+      ],
+      "skill2": [
+        53235,
+        3093,
+        6228,
+        42361
+      ],
+      "skill3": [
+        21036,
+        52845,
+        33728,
+        44334,
+        47364
+      ],
+      "pick2": 2,
+      "pick3": 1
+    },
+    "wieldableTypes": [
+      "Two Hand Axe",
+      "Two Hand Mace"
+    ]
+  },
+  "Fallen Reverend": {
+    "archetype": "AurasMinionsTemplarSpectres",
+    "hash": 41496,
+    "name": {
+      "en": "Fallen Reverend",
+      "kr": "몰락한 목사",
+      "tw": "墮落教士",
+      "ru": "Падший преподобный",
+      "jp": "フォールンレヴァレンド"
+    },
+    "class": "AurasMinionsTemplar",
+    "attribute": "StrInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        15611,
+        50349,
+        21523
+      ],
+      "skill2": [
+        4383,
+        61523,
+        53527
+      ],
+      "skill3": [
+        38326,
+        14498,
+        37344,
+        56180,
+        40470
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Sceptre",
+      "Shield"
+    ]
+  },
+  "Flamehand": {
+    "archetype": "ElementalWitchFire",
+    "hash": 52411,
+    "name": {
+      "en": "Flamehand",
+      "kr": "화염손길",
+      "tw": "火炎之手",
+      "ru": "Рука пламени",
+      "jp": "フレイムハンド"
+    },
+    "class": "ElementalWitch",
+    "attribute": "Int",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        57450,
+        40521
+      ],
+      "skill2": [
+        24099,
+        6446,
+        29426,
+        324,
+        37821,
+        30130,
+        8801
+      ],
+      "skill3": [
+        28757,
+        40470,
+        33728,
+        13235,
+        50414
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield",
+      "Rune Dagger",
+      "Sceptre"
+    ]
+  },
+  "Flamequiver": {
+    "archetype": "EleBowRangerFire",
+    "hash": 1967,
+    "name": {
+      "en": "Flamequiver",
+      "kr": "화염화살통",
+      "tw": "炎鏃",
+      "ru": "Пламенный колчан",
+      "jp": "フレイムクィーバー"
+    },
+    "class": "EleBowRanger",
+    "attribute": "Dex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        34665,
+        24179
+      ],
+      "skill2": [
+        23512,
+        59200,
+        35610,
+        36298,
+        18004,
+        21962
+      ],
+      "skill3": [
+        2792,
+        10722,
+        60723,
+        39298
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Flaming Charlatan": {
+    "archetype": "PhysConvertTemplarFire",
+    "hash": 39466,
+    "name": {
+      "en": "Flaming Charlatan",
+      "kr": "불을 뿜는 사기꾼",
+      "tw": "烈火詐欺者",
+      "ru": "Пылающий шарлатан",
+      "jp": "フレイミングチャラタン"
+    },
+    "class": "PhysConvertTemplar",
+    "attribute": "StrInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        47949,
+        17763
+      ],
+      "skill2": [
+        1577,
+        4286,
+        47293,
+        40723
+      ],
+      "skill3": [
+        28757,
+        56180,
+        44334,
+        13235
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Sceptre",
+      "Wand"
+    ]
+  },
+  "Frost Ambusher": {
+    "archetype": "TrapsMinesShadowCold",
+    "hash": 14950,
+    "name": {
+      "en": "Frost Ambusher",
+      "kr": "서리 매복자",
+      "tw": "冰霜伏擊者",
+      "ru": "Морозный ловчий",
+      "jp": "フロストアンブッシャー"
+    },
+    "class": "TrapsMinesShadow",
+    "attribute": "DexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        57491,
+        3493
+      ],
+      "skill2": [
+        62997,
+        9321
+      ],
+      "skill3": [
+        44296,
+        56180,
+        40470,
+        2792,
+        55367,
+        44455
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Rune Dagger",
+      "Wand",
+      "Shield",
+      "Sceptre"
+    ]
+  },
+  "Frosthand": {
+    "archetype": "ElementalWitchCold",
+    "hash": 34653,
+    "name": {
+      "en": "Frosthand",
+      "kr": "서리손길",
+      "tw": "冰霜之手",
+      "ru": "Рука хлада",
+      "jp": "フロストハンド"
+    },
+    "class": "ElementalWitch",
+    "attribute": "Int",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        10557,
+        6479
+      ],
+      "skill2": [
+        50009,
+        57063,
+        31928,
+        33663,
+        61497,
+        61471,
+        28637
+      ],
+      "skill3": [
+        28757,
+        40470,
+        56180,
+        13693,
+        21708
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield",
+      "Rune Dagger",
+      "Sceptre"
+    ]
+  },
+  "Infamous Bastion": {
+    "archetype": "PhysicalDuelistShieldsNoble",
+    "hash": 46351,
+    "name": {
+      "en": "Infamous Bastion",
+      "kr": "악명 높은 보루",
+      "tw": "萬惡堅堡",
+      "ru": "Знаменитый бастион",
+      "jp": "悪名高きバスティオン"
+    },
+    "class": "PhysicalDuelist",
+    "attribute": "StrDex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        21201,
+        22850
+      ],
+      "skill2": [
+        41834,
+        58855,
+        52494
+      ],
+      "skill3": [
+        52845,
+        60723,
+        38311,
+        17015,
+        45615
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Sword",
+      "One Hand Axe",
+      "Shield",
+      "One Hand Mace",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Infamous Blade Ambusher": {
+    "archetype": "TrapsMinesShadowAttackNoble",
+    "hash": 57984,
+    "name": {
+      "en": "Infamous Blade Ambusher",
+      "kr": "악명 높은 칼날 매복자",
+      "tw": "萬惡刀鋒伏擊者",
+      "ru": "Знаменитый ловчий с клинком",
+      "jp": "悪名高きブレードアンブッシャー"
+    },
+    "class": "TrapsMinesShadow",
+    "attribute": "DexInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        11054,
+        38072
+      ],
+      "skill2": [
+        62393,
+        28988
+      ],
+      "skill3": [
+        64528,
+        56180,
+        2792,
+        44296,
+        13711
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Claw",
+      "Rune Dagger",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Infamous Bladebitter": {
+    "archetype": "Crit1HShadowPoisonNoble",
+    "hash": 43290,
+    "name": {
+      "en": "Infamous Bladebitter",
+      "kr": "악명 높은 쓰라린검",
+      "tw": "萬惡刀刃噬咬者",
+      "ru": "Знаменитый мучительный клинок",
+      "jp": "悪名高きブレードビッター"
+    },
+    "class": "Crit1HShadow",
+    "attribute": "DexInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        22227,
+        14992
+      ],
+      "skill2": [
+        59831,
+        36446,
+        16896,
+        12262
+      ],
+      "skill3": [
+        10823,
+        60723,
+        1516,
+        10320,
+        2792
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Claw",
+      "Rune Dagger",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Infamous Bladecaster": {
+    "archetype": "Crit1HShadowPhysSpellNoble",
+    "hash": 39356,
+    "name": {
+      "en": "Infamous Bladecaster",
+      "kr": "악명 높은 칼날시전자",
+      "tw": "萬惡刀刃術者",
+      "ru": "Знаменитый колдовской клинок",
+      "jp": "悪名高きブレードキャスター"
+    },
+    "class": "Crit1HShadow",
+    "attribute": "DexInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        26057,
+        22724
+      ],
+      "skill2": [
+        17198,
+        37202,
+        25718,
+        50999,
+        59477
+      ],
+      "skill3": [
+        60723,
+        2792,
+        56180,
+        19417,
+        57491
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Rune Dagger",
+      "Wand",
+      "Shield"
+    ]
+  },
+  "Infamous Bloodletter": {
+    "archetype": "PhysicalDuelistBleedNoble",
+    "hash": 57872,
+    "name": {
+      "en": "Infamous Bloodletter",
+      "kr": "악명 높은 사혈자",
+      "tw": "萬惡放血者",
+      "ru": "Знаменитый кровопускатель",
+      "jp": "悪名高きブラッドレター"
+    },
+    "class": "PhysicalDuelist",
+    "attribute": "StrDex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        60880,
+        26931,
+        8136
+      ],
+      "skill2": [
+        12357,
+        54006
+      ],
+      "skill3": [
+        2135,
+        60723,
+        52845,
+        19268
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Axe",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Infamous Cardinal": {
+    "archetype": "AurasMinionsTemplarStaffNoble",
+    "hash": 62547,
+    "name": {
+      "en": "Infamous Cardinal",
+      "kr": "악명 높은 추기경",
+      "tw": "萬惡紅衣主教",
+      "ru": "Знаменитый кардинал",
+      "jp": "悪名高いカーディナル"
+    },
+    "class": "AurasMinionsTemplar",
+    "attribute": "StrInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        28506,
+        38655
+      ],
+      "skill2": [
+        7395,
+        53518,
+        3093
+      ],
+      "skill3": [
+        63233,
+        56180,
+        34212,
+        38326
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  },
+  "Infamous Combatant": {
+    "archetype": "MeleeAOEStrikeDuelistRangeStrikesNoble",
+    "hash": 4167,
+    "name": {
+      "en": "Infamous Combatant",
+      "kr": "악명 높은 전투원",
+      "tw": "萬惡戰鬥者",
+      "ru": "Знаменитый боец",
+      "jp": "悪名高きコンバッタント"
+    },
+    "class": "MeleeAOEStrikeDuelist",
+    "attribute": "StrDex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        65473,
+        32807
+      ],
+      "skill2": [
+        22105,
+        40957,
+        37916,
+        24931
+      ],
+      "skill3": [
+        38326,
+        60723,
+        40470,
+        13693
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Claw",
+      "One Hand Sword",
+      "One Hand Axe",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Infamous Cruel Mistress": {
+    "archetype": "ChaosMinionWitchChaosHitNoble",
+    "hash": 16025,
+    "name": {
+      "en": "Infamous Cruel Mistress",
+      "kr": "악명 높은 잔혹한 여주인",
+      "tw": "萬惡殘忍女王",
+      "ru": "Знаменитая жестокая хозяйка",
+      "jp": "悪名高きクルーエルミストレス"
+    },
+    "class": "ChaosMinionWitch",
+    "attribute": "Int",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        56742,
+        52783
+      ],
+      "skill2": [
+        35371,
+        52144,
+        10742,
+        29071,
+        54144,
+        51539
+      ],
+      "skill3": [
+        14498,
+        28757,
+        40470,
+        56180,
+        17515
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  },
+  "Infamous Earthshaker": {
+    "archetype": "MeleeAOEMarauderPhysSlamNoble",
+    "hash": 52392,
+    "name": {
+      "en": "Infamous Earthshaker",
+      "kr": "악명 높은 경천지동",
+      "tw": "萬惡裂地者",
+      "ru": "Знаменитый сотрясающий землю",
+      "jp": "悪名高きアースシェイカー"
+    },
+    "class": "MeleeAOEMarauder",
+    "attribute": "Str",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        38311,
+        2135
+      ],
+      "skill2": [
+        10712,
+        53728,
+        41346,
+        40527,
+        17654
+      ],
+      "skill3": [
+        52845,
+        21036,
+        31440,
+        57171,
+        14889
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Two Hand Mace",
+      "Two Hand Axe"
+    ]
+  },
+  "Infamous Eruptor": {
+    "archetype": "MeleeAOEMarauderFireSlamNoble",
+    "hash": 16147,
+    "name": {
+      "en": "Infamous Eruptor",
+      "kr": "악명 높은 분출자",
+      "tw": "萬惡爆發者",
+      "ru": "Знаменитый извергатель",
+      "jp": "悪名高きエラプター"
+    },
+    "class": "MeleeAOEMarauder",
+    "attribute": "Str",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        59259,
+        2135,
+        18149
+      ],
+      "skill2": [
+        53235,
+        3093,
+        6228,
+        42361
+      ],
+      "skill3": [
+        21036,
+        52845,
+        33728,
+        44334,
+        47364
+      ],
+      "pick2": 2,
+      "pick3": 1
+    },
+    "wieldableTypes": [
+      "Two Hand Axe",
+      "Two Hand Mace"
+    ]
+  },
+  "Infamous Fallen Reverend": {
+    "archetype": "AurasMinionsTemplarSpectresNoble",
+    "hash": 26531,
+    "name": {
+      "en": "Infamous Fallen Reverend",
+      "kr": "악명 높은 몰락한 목사",
+      "tw": "萬惡墮落教士",
+      "ru": "Знаменитый падший преподобный",
+      "jp": "悪名高きフォールンレヴァレンド"
+    },
+    "class": "AurasMinionsTemplar",
+    "attribute": "StrInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        15611,
+        50349,
+        21523
+      ],
+      "skill2": [
+        4383,
+        61523,
+        53527
+      ],
+      "skill3": [
+        38326,
+        14498,
+        37344,
+        56180,
+        40470
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Sceptre",
+      "Shield"
+    ]
+  },
+  "Infamous Flamequiver": {
+    "archetype": "EleBowRangerFireNoble",
+    "hash": 51585,
+    "name": {
+      "en": "Infamous Flamequiver",
+      "kr": "악명 높은 화염화살통",
+      "tw": "萬惡炎鏃",
+      "ru": "Знаменитый пламенный колчан",
+      "jp": "悪名高きフレイムクィーバー"
+    },
+    "class": "EleBowRanger",
+    "attribute": "Dex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        34665,
+        24179
+      ],
+      "skill2": [
+        23512,
+        59200,
+        35610,
+        36298,
+        18004,
+        21962
+      ],
+      "skill3": [
+        2792,
+        10722,
+        60723,
+        39298
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Infamous Frosthand": {
+    "archetype": "ElementalWitchColdNoble",
+    "hash": 64793,
+    "name": {
+      "en": "Infamous Frosthand",
+      "kr": "악명 높은 서리손길",
+      "tw": "萬惡冰霜之手",
+      "ru": "Знаменитая рука хлада",
+      "jp": "悪名高きフロストハンド"
+    },
+    "class": "ElementalWitch",
+    "attribute": "Int",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        10557,
+        6479
+      ],
+      "skill2": [
+        50009,
+        57063,
+        31928,
+        33663,
+        61497,
+        61471,
+        28637
+      ],
+      "skill3": [
+        28757,
+        40470,
+        56180,
+        13693,
+        21708
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield",
+      "Rune Dagger",
+      "Sceptre"
+    ]
+  },
+  "Infamous Kineticist": {
+    "archetype": "MiscScionWandAttacksNoble",
+    "hash": 54383,
+    "name": {
+      "en": "Infamous Kineticist",
+      "kr": "악명 높은 역학술사",
+      "tw": "萬惡動能師",
+      "ru": "Знаменитый кинетик",
+      "jp": "悪名高きキネティシスト"
+    },
+    "class": "MiscScion",
+    "attribute": "StrDexInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        5689,
+        57450
+      ],
+      "skill2": [
+        12583,
+        26705,
+        1356,
+        44258,
+        16356,
+        32089
+      ],
+      "skill3": [
+        56180,
+        40470,
+        52155,
+        65473
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield"
+    ]
+  },
+  "Infamous Manyshot": {
+    "archetype": "EleBowRangerClonesNoble",
+    "hash": 4124,
+    "name": {
+      "en": "Infamous Manyshot",
+      "kr": "악명 높은 사격난무",
+      "tw": "萬惡暴射者",
+      "ru": "Знаменитая застрельщица",
+      "jp": "悪名高きメニーショット"
+    },
+    "class": "EleBowRanger",
+    "attribute": "Dex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        11495,
+        58425
+      ],
+      "skill2": [
+        16381,
+        18232,
+        24409,
+        65447
+      ],
+      "skill3": [
+        24482,
+        10557,
+        2792,
+        60723,
+        10722
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Infamous Mysterious Diver": {
+    "archetype": "DivingDuelistNoble",
+    "hash": 33084,
+    "name": {
+      "en": "Infamous Mysterious Diver",
+      "kr": "악명 높은 수수께끼의 잠수부",
+      "tw": "萬惡秘潛者",
+      "ru": "Знаменитый таинственный ныряльщик",
+      "jp": "悪名高き謎のダイバー"
+    },
+    "class": "MeleeAOEStrikeDuelist",
+    "attribute": "StrDex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        8708,
+        10557
+      ],
+      "skill2": [
+        22105,
+        40957,
+        32807
+      ],
+      "skill3": [
+        24482,
+        13693,
+        40470,
+        60723
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Claw",
+      "One Hand Sword",
+      "One Hand Axe",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Infamous Reanimator": {
+    "archetype": "ChaosMinionWitchInstabilityNoble",
+    "hash": 3604,
+    "name": {
+      "en": "Infamous Reanimator",
+      "kr": "악명 높은 소생술사",
+      "tw": "萬惡復生師",
+      "ru": "Знаменитый реаниматор",
+      "jp": "悪名高きリアニメーター"
+    },
+    "class": "ChaosMinionWitch",
+    "attribute": "Int",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        52491,
+        21523
+      ],
+      "skill2": [
+        57377,
+        17409,
+        61730,
+        44467,
+        19108
+      ],
+      "skill3": [
+        28757,
+        40470,
+        56180,
+        26391,
+        62758
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield",
+      "Rune Dagger",
+      "Sceptre"
+    ]
+  },
+  "Infamous Ripper": {
+    "archetype": "MeleeAOEMarauderNonSlamNoble",
+    "hash": 17136,
+    "name": {
+      "en": "Infamous Ripper",
+      "kr": "악명 높은 거열자",
+      "tw": "萬惡撕裂者",
+      "ru": "Знаменитый разрыватель",
+      "jp": "悪名高きリッパー"
+    },
+    "class": "MeleeAOEMarauder",
+    "attribute": "Str",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        52105,
+        62530
+      ],
+      "skill2": [
+        8445,
+        12723,
+        19808,
+        7182,
+        41915
+      ],
+      "skill3": [
+        21036,
+        52845,
+        2135,
+        40419
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Axe",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Infamous Sanguimancer": {
+    "archetype": "MiscScionPhysDotNoble",
+    "hash": 36701,
+    "name": {
+      "en": "Infamous Sanguimancer",
+      "kr": "악명 높은 혈액술사",
+      "tw": "萬惡腥紅術師",
+      "ru": "Знаменитый кровомант",
+      "jp": "悪名高きサングイマンサー"
+    },
+    "class": "MiscScion",
+    "attribute": "StrDexInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        44422,
+        2187,
+        4927
+      ],
+      "skill2": [
+        40439,
+        1185,
+        14064,
+        8958
+      ],
+      "skill3": [
+        56180,
+        28757,
+        18793,
+        16018,
+        14889
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Rune Dagger"
+    ]
+  },
+  "Infamous Shock Ambusher": {
+    "archetype": "TrapsMinesShadowLightningNoble",
+    "hash": 36090,
+    "name": {
+      "en": "Infamous Shock Ambusher",
+      "kr": "악명 높은 감전 매복자",
+      "tw": "萬惡電襲伏擊者",
+      "ru": "Знаменитый грозовой ловчий",
+      "jp": "悪名高きショックアンブッシャー"
+    },
+    "class": "TrapsMinesShadow",
+    "attribute": "DexInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        41484,
+        25149
+      ],
+      "skill2": [
+        17037,
+        8075,
+        37561,
+        5247
+      ],
+      "skill3": [
+        56180,
+        40470,
+        64528,
+        44296,
+        14498
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Rune Dagger",
+      "Wand",
+      "Sceptre"
+    ]
+  },
+  "Infamous Sniper": {
+    "archetype": "NonEleBowRangerPhysNoble",
+    "hash": 1570,
+    "name": {
+      "en": "Infamous Sniper",
+      "kr": "악명 높은 저격수",
+      "tw": "萬惡狙擊手",
+      "ru": "Знаменитый снайпер",
+      "jp": "悪名高きスナイパー"
+    },
+    "class": "NonEleBowRanger",
+    "attribute": "Dex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        12667,
+        27805
+      ],
+      "skill2": [
+        8546,
+        40759,
+        8030,
+        61903,
+        12260,
+        44144,
+        43202,
+        30431
+      ],
+      "skill3": [
+        2792,
+        10722,
+        60723,
+        58592,
+        52155
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Infamous Stormhand": {
+    "archetype": "ElementalWitchLightningNoble",
+    "hash": 45712,
+    "name": {
+      "en": "Infamous Stormhand",
+      "kr": "악명 높은 태풍손길",
+      "tw": "萬惡風暴之手",
+      "ru": "Знаменитая рука бури",
+      "jp": "悪名高きストームハンド"
+    },
+    "class": "ElementalWitch",
+    "attribute": "Int",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        41484,
+        33661
+      ],
+      "skill2": [
+        5893,
+        29533,
+        59005,
+        30663,
+        3148,
+        50290,
+        11879,
+        7549
+      ],
+      "skill3": [
+        28757,
+        40470,
+        56180,
+        38326,
+        63233,
+        16018
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield",
+      "Rune Dagger",
+      "Sceptre"
+    ]
+  },
+  "Infamous Storming Zealot": {
+    "archetype": "PhysConvertTemplarLightningNoble",
+    "hash": 49599,
+    "name": {
+      "en": "Infamous Storming Zealot",
+      "kr": "악명 높은 몰아치는 맹신자",
+      "tw": "萬惡風暴狂熱者",
+      "ru": "Знаменитый грозовой адепт",
+      "jp": "悪名高きストーミングゼーロット"
+    },
+    "class": "PhysConvertTemplar",
+    "attribute": "StrInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        19034,
+        14732
+      ],
+      "skill2": [
+        45226,
+        23225,
+        24685,
+        6651
+      ],
+      "skill3": [
+        5673,
+        38326,
+        28757,
+        56180
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  },
+  "Infamous Striker": {
+    "archetype": "MeleeStrikesMaraduerPhysNoble",
+    "hash": 21915,
+    "name": {
+      "en": "Infamous Striker",
+      "kr": "악명 높은 타격자",
+      "tw": "萬惡襲擊者",
+      "ru": "Знаменитый сокрушитель",
+      "jp": "悪名高きストライカー"
+    },
+    "class": "MeleeStrikesMarauder",
+    "attribute": "Str",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        4988,
+        20973,
+        17015
+      ],
+      "skill2": [
+        64565,
+        22696,
+        10235
+      ],
+      "skill3": [
+        52845,
+        2135,
+        21036,
+        40419,
+        38521,
+        38104
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Mace",
+      "One Hand Axe"
+    ]
+  },
+  "Infamous Swiftblade": {
+    "archetype": "MeleeAOEStrikeDuelistCycloneNoble",
+    "hash": 59945,
+    "name": {
+      "en": "Infamous Swiftblade",
+      "kr": "악명 높은 빠른칼날",
+      "tw": "萬惡迅刃",
+      "ru": "Знаменитый стремительный клинок",
+      "jp": "悪名高きスウィフトブレード"
+    },
+    "class": "MeleeAOEStrikeDuelist",
+    "attribute": "StrDex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        46739,
+        39265,
+        28026
+      ],
+      "skill2": [
+        61669,
+        37132
+      ],
+      "skill3": [
+        18793,
+        2135,
+        59409,
+        60723,
+        17105
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Two Hand Sword",
+      "Two Hand Axe"
+    ]
+  },
+  "Infamous Toxicologist": {
+    "archetype": "NonEleBowRangerChaosNoble",
+    "hash": 18312,
+    "name": {
+      "en": "Infamous Toxicologist",
+      "kr": "악명 높은 독성학자",
+      "tw": "萬惡毒師",
+      "ru": "Знаменитый токсиколог",
+      "jp": "悪名高きトキシコロジスト"
+    },
+    "class": "NonEleBowRanger",
+    "attribute": "Dex",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        10320,
+        26913,
+        18986
+      ],
+      "skill2": [
+        36274,
+        38628,
+        28502,
+        58174
+      ],
+      "skill3": [
+        2792,
+        10722,
+        60723,
+        1516,
+        38072
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Infamous Warpriest": {
+    "archetype": "AurasMinionsTemplarSmiteNoble",
+    "hash": 54254,
+    "name": {
+      "en": "Infamous Warpriest",
+      "kr": "악명 높은 전쟁사제",
+      "tw": "萬惡戰爭牧師",
+      "ru": "Знаменитый жрец войны",
+      "jp": "悪名高きウォープリースト"
+    },
+    "class": "AurasMinionsTemplar",
+    "attribute": "StrInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        40812,
+        55917
+      ],
+      "skill2": [
+        50866,
+        43742,
+        47078,
+        39732
+      ],
+      "skill3": [
+        63233,
+        56180,
+        34212
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Sceptre",
+      "Shield",
+      "One Hand Mace"
+    ]
+  },
+  "Infamous Warpriest of the Ruckus": {
+    "archetype": "AurasMinionsTemplarSmiteRuckusNoble",
+    "hash": 8619,
+    "name": {
+      "en": "Infamous Warpriest of the Ruckus",
+      "kr": "수라장의 악명 높은 전쟁사제",
+      "tw": "萬惡盧庫斯戰爭牧師",
+      "ru": "Знаменитый жрец войны-дебошир",
+      "jp": "悪名高き騒乱のウォープリースト"
+    },
+    "class": "AurasMinionsTemplar",
+    "attribute": "StrInt",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        40812,
+        55917
+      ],
+      "skill2": [
+        50866,
+        43742,
+        47078,
+        39732
+      ],
+      "skill3": [
+        63233,
+        56180,
+        34212
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Sceptre",
+      "Shield",
+      "One Hand Mace"
+    ]
+  },
+  "Infamous Withertouch": {
+    "archetype": "ChaosMinionWitchDotNoble",
+    "hash": 31247,
+    "name": {
+      "en": "Infamous Withertouch",
+      "kr": "악명 높은 고사의 손길",
+      "tw": "萬惡凋靈之觸",
+      "ru": "Знаменитый мастер хворей",
+      "jp": "悪名高きウィザータッチ"
+    },
+    "class": "ChaosMinionWitch",
+    "attribute": "Int",
+    "infamous": true,
+    "skillPools": {
+      "skill1": [
+        63468,
+        7383
+      ],
+      "skill2": [
+        11671,
+        13441,
+        8450,
+        39669,
+        50670
+      ],
+      "skill3": [
+        1516,
+        28757,
+        40470,
+        56180,
+        28785,
+        10320,
+        1911
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  },
+  "Kineticist": {
+    "archetype": "MiscScionWandAttacks",
+    "hash": 45992,
+    "name": {
+      "en": "Kineticist",
+      "kr": "역학술사",
+      "tw": "動能師",
+      "ru": "Кинетик",
+      "jp": "キネティシスト"
+    },
+    "class": "MiscScion",
+    "attribute": "StrDexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        5689,
+        57450
+      ],
+      "skill2": [
+        12583,
+        26705,
+        1356,
+        44258,
+        16356,
+        32089
+      ],
+      "skill3": [
+        56180,
+        40470,
+        52155,
+        65473
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield"
+    ]
+  },
+  "Manyshot": {
+    "archetype": "EleBowRangerClones",
+    "hash": 61428,
+    "name": {
+      "en": "Manyshot",
+      "kr": "사격난무",
+      "tw": "暴射者",
+      "ru": "Застрельщица",
+      "jp": "メニーショット"
+    },
+    "class": "EleBowRanger",
+    "attribute": "Dex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        11495,
+        58425
+      ],
+      "skill2": [
+        16381,
+        18232,
+        24409,
+        65447
+      ],
+      "skill3": [
+        24482,
+        10557,
+        2792,
+        60723,
+        10722
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Mysterious Diver": {
+    "archetype": "DivingDuelist",
+    "hash": 64848,
+    "name": {
+      "en": "Mysterious Diver",
+      "kr": "수수께끼의 잠수부",
+      "tw": "秘潛者",
+      "ru": "Таинственный ныряльщик",
+      "jp": "謎のダイバー"
+    },
+    "class": "MeleeAOEStrikeDuelist",
+    "attribute": "StrDex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        8708,
+        10557
+      ],
+      "skill2": [
+        22105,
+        40957,
+        32807
+      ],
+      "skill3": [
+        24482,
+        13693,
+        40470,
+        60723
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Claw",
+      "One Hand Sword",
+      "One Hand Axe",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Reanimator": {
+    "archetype": "ChaosMinionWitchInstability",
+    "hash": 7452,
+    "name": {
+      "en": "Reanimator",
+      "kr": "소생술사",
+      "tw": "復生師",
+      "ru": "Реаниматор",
+      "jp": "リアニメーター"
+    },
+    "class": "ChaosMinionWitch",
+    "attribute": "Int",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        52491,
+        21523
+      ],
+      "skill2": [
+        57377,
+        17409,
+        61730,
+        44467,
+        19108
+      ],
+      "skill3": [
+        28757,
+        40470,
+        56180,
+        26391,
+        62758
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield",
+      "Rune Dagger",
+      "Sceptre"
+    ]
+  },
+  "Ripper": {
+    "archetype": "MeleeAOEMarauderNonSlam",
+    "hash": 57617,
+    "name": {
+      "en": "Ripper",
+      "kr": "거열자",
+      "tw": "撕裂者",
+      "ru": "Разрыватель",
+      "jp": "リッパー"
+    },
+    "class": "MeleeAOEMarauder",
+    "attribute": "Str",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        52105,
+        62530
+      ],
+      "skill2": [
+        8445,
+        12723,
+        19808,
+        7182,
+        41915
+      ],
+      "skill3": [
+        21036,
+        52845,
+        2135,
+        40419
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Axe",
+      "One Hand Sword",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Sanguimancer": {
+    "archetype": "MiscScionPhysDot",
+    "hash": 35686,
+    "name": {
+      "en": "Sanguimancer",
+      "kr": "혈액술사",
+      "tw": "腥紅術師",
+      "ru": "Кровомант",
+      "jp": "サングイマンサー"
+    },
+    "class": "MiscScion",
+    "attribute": "StrDexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        44422,
+        2187,
+        4927
+      ],
+      "skill2": [
+        40439,
+        1185,
+        14064,
+        8958
+      ],
+      "skill3": [
+        56180,
+        28757,
+        18793,
+        16018,
+        14889
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Rune Dagger"
+    ]
+  },
+  "Shattersword": {
+    "archetype": "PhysicalDuelistSteel",
+    "hash": 40900,
+    "name": {
+      "en": "Shattersword",
+      "kr": "검파괴자",
+      "tw": "碎鋒之劍",
+      "ru": "Расколотый меч",
+      "jp": "シャッターソード"
+    },
+    "class": "PhysicalDuelist",
+    "attribute": "StrDex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        46131,
+        39265,
+        28026
+      ],
+      "skill2": [
+        12729,
+        28511,
+        43812
+      ],
+      "skill3": [
+        60723,
+        10823,
+        2792,
+        27763
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Sword",
+      "One Hand Axe",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Shock Ambusher": {
+    "archetype": "TrapsMinesShadowLightning",
+    "hash": 5145,
+    "name": {
+      "en": "Shock Ambusher",
+      "kr": "감전 매복자",
+      "tw": "電襲伏擊者",
+      "ru": "Грозовой ловчий",
+      "jp": "ショックアンブッシャー"
+    },
+    "class": "TrapsMinesShadow",
+    "attribute": "DexInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        41484,
+        25149
+      ],
+      "skill2": [
+        17037,
+        8075,
+        37561,
+        5247
+      ],
+      "skill3": [
+        56180,
+        40470,
+        64528,
+        44296,
+        14498
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Dagger",
+      "Rune Dagger",
+      "Wand",
+      "Sceptre"
+    ]
+  },
+  "Smoulderstrike": {
+    "archetype": "MeleeStrikesMarauderFire",
+    "hash": 54140,
+    "name": {
+      "en": "Smoulderstrike",
+      "kr": "타오르는 타격",
+      "tw": "熔炎之擊",
+      "ru": "Тлеющий удар",
+      "jp": "スモルダーストライク"
+    },
+    "class": "MeleeStrikesMarauder",
+    "attribute": "Str",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        32391,
+        8295
+      ],
+      "skill2": [
+        42219,
+        17147,
+        899,
+        19178
+      ],
+      "skill3": [
+        13235,
+        2135,
+        21036,
+        50414,
+        59259
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Axe",
+      "Shield",
+      "One Hand Sword",
+      "One Hand Mace",
+      "Thrusting One Hand Sword"
+    ]
+  },
+  "Sniper": {
+    "archetype": "NonEleBowRangerPhys",
+    "hash": 44391,
+    "name": {
+      "en": "Sniper",
+      "kr": "저격수",
+      "tw": "狙擊手",
+      "ru": "Снайпер",
+      "jp": "スナイパー"
+    },
+    "class": "NonEleBowRanger",
+    "attribute": "Dex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        12667,
+        27805
+      ],
+      "skill2": [
+        8546,
+        40759,
+        8030,
+        61903,
+        12260,
+        44144,
+        43202,
+        30431
+      ],
+      "skill3": [
+        2792,
+        10722,
+        60723,
+        58592,
+        52155
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Stormhand": {
+    "archetype": "ElementalWitchLightning",
+    "hash": 26688,
+    "name": {
+      "en": "Stormhand",
+      "kr": "태풍손길",
+      "tw": "風暴之手",
+      "ru": "Рука бури",
+      "jp": "ストームハンド"
+    },
+    "class": "ElementalWitch",
+    "attribute": "Int",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        41484,
+        33661
+      ],
+      "skill2": [
+        5893,
+        29533,
+        59005,
+        30663,
+        3148,
+        50290,
+        11879,
+        7549
+      ],
+      "skill3": [
+        28757,
+        40470,
+        56180,
+        38326,
+        63233,
+        16018
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Wand",
+      "Shield",
+      "Rune Dagger",
+      "Sceptre"
+    ]
+  },
+  "Storming Zealot": {
+    "archetype": "PhysConvertTemplarLightning",
+    "hash": 37789,
+    "name": {
+      "en": "Storming Zealot",
+      "kr": "몰아치는 맹신자",
+      "tw": "風暴狂熱者",
+      "ru": "Грозовой адепт",
+      "jp": "ストーミングゼーロット"
+    },
+    "class": "PhysConvertTemplar",
+    "attribute": "StrInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        19034,
+        14732
+      ],
+      "skill2": [
+        45226,
+        23225,
+        24685,
+        6651
+      ],
+      "skill3": [
+        5673,
+        38326,
+        28757,
+        56180
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  },
+  "Striker": {
+    "archetype": "MeleeStrikesMaraduerPhys",
+    "hash": 23889,
+    "name": {
+      "en": "Striker",
+      "kr": "타격자",
+      "tw": "襲擊者",
+      "ru": "Сокрушитель",
+      "jp": "ストライカー"
+    },
+    "class": "MeleeStrikesMarauder",
+    "attribute": "Str",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        4988,
+        20973,
+        17015
+      ],
+      "skill2": [
+        64565,
+        22696,
+        10235
+      ],
+      "skill3": [
+        52845,
+        2135,
+        21036,
+        40419,
+        38521,
+        38104
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "One Hand Mace",
+      "One Hand Axe"
+    ]
+  },
+  "Swiftblade": {
+    "archetype": "MeleeAOEStrikeDuelistCyclone",
+    "hash": 57213,
+    "name": {
+      "en": "Swiftblade",
+      "kr": "빠른칼날",
+      "tw": "迅刃",
+      "ru": "Стремительный клинок",
+      "jp": "スウィフトブレード"
+    },
+    "class": "MeleeAOEStrikeDuelist",
+    "attribute": "StrDex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        46739,
+        39265,
+        28026
+      ],
+      "skill2": [
+        61669,
+        37132
+      ],
+      "skill3": [
+        18793,
+        2135,
+        59409,
+        60723,
+        17105
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Two Hand Sword",
+      "Two Hand Axe"
+    ]
+  },
+  "Thunderquiver": {
+    "archetype": "EleBowRangerLightning",
+    "hash": 51927,
+    "name": {
+      "en": "Thunderquiver",
+      "kr": "천둥화살통",
+      "tw": "雷鏃",
+      "ru": "Громовой колчан",
+      "jp": "サンダークィーバー"
+    },
+    "class": "EleBowRanger",
+    "attribute": "Dex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        41051,
+        47406
+      ],
+      "skill2": [
+        27165,
+        38993,
+        22000,
+        17216
+      ],
+      "skill3": [
+        38326,
+        10722,
+        38072,
+        36279,
+        60723
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Toxicologist": {
+    "archetype": "NonEleBowRangerChaos",
+    "hash": 27959,
+    "name": {
+      "en": "Toxicologist",
+      "kr": "독성학자",
+      "tw": "毒師",
+      "ru": "Токсиколог",
+      "jp": "トキシコロジスト"
+    },
+    "class": "NonEleBowRanger",
+    "attribute": "Dex",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        10320,
+        26913,
+        18986
+      ],
+      "skill2": [
+        36274,
+        38628,
+        28502,
+        58174
+      ],
+      "skill3": [
+        2792,
+        10722,
+        60723,
+        1516,
+        38072
+      ],
+      "pick2": 1,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Bow",
+      "Quiver"
+    ]
+  },
+  "Warpriest": {
+    "archetype": "AurasMinionsTemplarSmite",
+    "hash": 30019,
+    "name": {
+      "en": "Warpriest",
+      "kr": "전쟁사제",
+      "tw": "戰爭牧師",
+      "ru": "Жрец войны",
+      "jp": "ウォープリースト"
+    },
+    "class": "AurasMinionsTemplar",
+    "attribute": "StrInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        40812,
+        55917
+      ],
+      "skill2": [
+        50866,
+        43742,
+        47078,
+        39732
+      ],
+      "skill3": [
+        63233,
+        56180,
+        34212
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Sceptre",
+      "Shield",
+      "One Hand Mace"
+    ]
+  },
+  "Winter Deacon": {
+    "archetype": "PhysConvertTemplarCold",
+    "hash": 60686,
+    "name": {
+      "en": "Winter Deacon",
+      "kr": "겨울 집사",
+      "tw": "冬之助祭",
+      "ru": "Дьякон стужи",
+      "jp": "ウィンターディーコン"
+    },
+    "class": "PhysConvertTemplar",
+    "attribute": "StrInt",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        57491,
+        47031
+      ],
+      "skill2": [
+        11018,
+        53217,
+        14816,
+        38103
+      ],
+      "skill3": [
+        24482,
+        40470,
+        10557,
+        55367,
+        13693
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff",
+      "Two Hand Mace"
+    ]
+  },
+  "Withertouch": {
+    "archetype": "ChaosMinionWitchDot",
+    "hash": 2894,
+    "name": {
+      "en": "Withertouch",
+      "kr": "고사의 손길",
+      "tw": "凋靈之觸",
+      "ru": "Мастер хворей",
+      "jp": "ウィザータッチ"
+    },
+    "class": "ChaosMinionWitch",
+    "attribute": "Int",
+    "infamous": false,
+    "skillPools": {
+      "skill1": [
+        63468,
+        7383
+      ],
+      "skill2": [
+        11671,
+        13441,
+        8450,
+        39669,
+        50670
+      ],
+      "skill3": [
+        1516,
+        28757,
+        40470,
+        56180,
+        28785,
+        10320,
+        1911
+      ],
+      "pick2": 2,
+      "pick3": 2
+    },
+    "wieldableTypes": [
+      "Staff",
+      "Warstaff"
+    ]
+  }
+}

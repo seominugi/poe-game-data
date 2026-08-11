@@ -1,0 +1,5416 @@
+{
+  "230": {
+    "id": "TotemDefencesLow",
+    "name": {
+      "en": "Lesser Ironwood",
+      "kr": "하위 철목",
+      "tw": "低階鐵木",
+      "ru": "Малое железное дерево",
+      "jp": "レッサー鉄木"
+    },
+    "tier": 1,
+    "family": "TotemDefences",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "totem_additional_physical_damage_reduction_%",
+        "value": 10
+      },
+      {
+        "id": "totem_elemental_resistance_%",
+        "value": 30
+      }
+    ]
+  },
+  "812": {
+    "id": "StrikeRangeHigh",
+    "name": {
+      "en": "Greater Strike Distance",
+      "kr": "상위 타격 거리",
+      "tw": "高階打擊距離",
+      "ru": "Большая дистанция удара",
+      "jp": "グレーターストライク距離"
+    },
+    "tier": 3,
+    "family": "StrikeRange",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrSupportGem.dds",
+    "stats": [
+      {
+        "id": "melee_range_+",
+        "value": 6
+      }
+    ]
+  },
+  "819": {
+    "id": "TrapTriggerRadiusMid",
+    "name": {
+      "en": "Trigger Radius",
+      "kr": "발동 반경",
+      "tw": "觸發範圍",
+      "ru": "Радиус срабатывания",
+      "jp": "トリガー半径"
+    },
+    "tier": 2,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "trap_trigger_radius_+%",
+        "value": 40
+      }
+    ]
+  },
+  "834": {
+    "id": "DamageOverTimeReduceDurationLow",
+    "name": {
+      "en": "Lesser Swift Affliction",
+      "kr": "하위 고통 격화",
+      "tw": "低階極速苦痛",
+      "ru": "Слабый стремительный недуг",
+      "jp": "レッサースウィフトアフリクション"
+    },
+    "tier": 1,
+    "family": "DOTReducedDuration",
+    "gemIcon": "Art/2DItems/Gems/Support/SupportRapidDecayGem.dds",
+    "stats": [
+      {
+        "id": "support_rapid_decay_damage_over_time_+%_final",
+        "value": 15
+      },
+      {
+        "id": "support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final",
+        "value": -20
+      }
+    ]
+  },
+  "987": {
+    "id": "AttackSpeedMid",
+    "name": {
+      "en": "Faster Attacks",
+      "kr": "공격 속도 증가",
+      "tw": "快速攻擊",
+      "ru": "Ускорение атак",
+      "jp": "アタックスピード増加"
+    },
+    "tier": 2,
+    "family": "AttackSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterAttacks.dds",
+    "stats": [
+      {
+        "id": "attack_speed_+%",
+        "value": 25
+      }
+    ]
+  },
+  "1075": {
+    "id": "BladeFallSpecificAddedVolleysHigh",
+    "name": {
+      "en": "Gilded Volleys",
+      "kr": "도금된 사격 공세",
+      "tw": "鍍金齊射",
+      "ru": "Позолоченный: Залп",
+      "jp": "金色のボレー"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "bladefall_number_of_volleys",
+        "value": 2
+      }
+    ]
+  },
+  "1227": {
+    "id": "TotemDefencesHigh",
+    "name": {
+      "en": "Greater Ironwood",
+      "kr": "상위 철목",
+      "tw": "高階鐵木",
+      "ru": "Большое железное дерево",
+      "jp": "グレーター鉄木"
+    },
+    "tier": 3,
+    "family": "TotemDefences",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "totem_additional_physical_damage_reduction_%",
+        "value": 30
+      },
+      {
+        "id": "totem_elemental_resistance_%",
+        "value": 60
+      }
+    ]
+  },
+  "1751": {
+    "id": "SpellCascadeHigh",
+    "name": {
+      "en": "Spell Cascade",
+      "kr": "연속 주문",
+      "tw": "秘能爆發",
+      "ru": "Каскад чар",
+      "jp": "スペルカスケード"
+    },
+    "tier": 3,
+    "family": "SpellCascade",
+    "gemIcon": "Art/2DItems/Gems/Support/SpellCascade.dds",
+    "stats": [
+      {
+        "id": "support_spell_cascade_number_of_cascades_per_side",
+        "value": 2
+      }
+    ]
+  },
+  "1864": {
+    "id": "PoisonChanceLow",
+    "name": {
+      "en": "Lesser Chance to Poison",
+      "kr": "하위 중독 확률",
+      "tw": "低階中毒機率",
+      "ru": "Малый шанс отравить",
+      "jp": "レッサー毒付与"
+    },
+    "tier": 1,
+    "family": "PoisonChance",
+    "gemIcon": "Art/2DItems/Gems/Support/Poison.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_poison_on_hit_%",
+        "value": 20
+      }
+    ]
+  },
+  "2205": {
+    "id": "MoltenStrikeSpecificExtraProjHigh",
+    "name": {
+      "en": "Gilded Molten Eruption",
+      "kr": "도금된 녹아내린 분출",
+      "tw": "鍍金熔岩爆發",
+      "ru": "Позолоченный: Расплавленное извержение",
+      "jp": "金色の溶岩噴出"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "molten_strike_every_5th_attack_fire_X_additional_projectiles",
+        "value": 5
+      }
+    ]
+  },
+  "2210": {
+    "id": "ReducedProjSpeedMid",
+    "name": {
+      "en": "Slower Projectiles",
+      "kr": "투사체 감속",
+      "tw": "投射物減速",
+      "ru": "Замедленные снаряды",
+      "jp": "投射物低速化"
+    },
+    "tier": 2,
+    "family": "ProjectileSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/SlowerProjectiles.dds",
+    "stats": [
+      {
+        "id": "base_projectile_speed_+%",
+        "value": -30
+      }
+    ]
+  },
+  "2555": {
+    "id": "MultiTrapHigh",
+    "name": {
+      "en": "Multiple Traps",
+      "kr": "다중 덫",
+      "tw": "複數陷阱",
+      "ru": "Дополнительные ловушки",
+      "jp": "マルチトラップ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MultiTrap.dds",
+    "stats": [
+      {
+        "id": "number_of_additional_traps_to_throw",
+        "value": 2
+      }
+    ]
+  },
+  "2602": {
+    "id": "IncreaseDurationLow",
+    "name": {
+      "en": "Lesser More Duration",
+      "kr": "하위 지속시간 증폭",
+      "tw": "低階更多持續時間",
+      "ru": "Малое продление",
+      "jp": "レッサー持続時間上昇"
+    },
+    "tier": 1,
+    "family": "Duration",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedDuration.dds",
+    "stats": [
+      {
+        "id": "support_more_duration_skill_effect_duration_+%_final",
+        "value": 15
+      }
+    ]
+  },
+  "3180": {
+    "id": "BlightSpecificSecondaryDurationHigh",
+    "name": {
+      "en": "Gilded Hinder Duration",
+      "kr": "도금된 이동 방해 지속시간",
+      "tw": "鍍金阻礙持續時間",
+      "ru": "Позолоченный: Длительность скованности",
+      "jp": "金色の妨害持続時間"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "blight_secondary_skill_effect_duration_+%",
+        "value": 80
+      }
+    ]
+  },
+  "3194": {
+    "id": "HeavyStrikeSpecificMoreMaxPhysHigh",
+    "name": {
+      "en": "Gilded Heft",
+      "kr": "도금된 중량",
+      "tw": "鍍金分量",
+      "ru": "Позолоченный: Тяжесть",
+      "jp": "金色の重量"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "unique_ryuslathas_clutches_maximum_physical_attack_damage_+%_final",
+        "value": 40
+      }
+    ]
+  },
+  "3240": {
+    "id": "LeechMid",
+    "name": {
+      "en": "Leech",
+      "kr": "흡수",
+      "tw": "偷取",
+      "ru": "Похищение",
+      "jp": "リーチ"
+    },
+    "tier": 2,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/LifeLeech.dds",
+    "stats": [
+      {
+        "id": "life_leech_from_any_damage_permyriad",
+        "value": 400
+      }
+    ]
+  },
+  "3263": {
+    "id": "CurseEffectHigh",
+    "name": {
+      "en": "Greater Curse Effect",
+      "kr": "상위 저주 효과",
+      "tw": "高階詛咒效果",
+      "ru": "Сильный эффект проклятий",
+      "jp": "グレーター呪い効果"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "curse_effect_+%",
+        "value": 20
+      }
+    ]
+  },
+  "3465": {
+    "id": "TrapMineThrowSpeedMid",
+    "name": {
+      "en": "Throwing Speed",
+      "kr": "투척 속도",
+      "tw": "投擲速度",
+      "ru": "Ускорение броска",
+      "jp": "投擲スピード"
+    },
+    "tier": 2,
+    "family": "TrapThrowSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "trap_throwing_speed_+%",
+        "value": 30
+      },
+      {
+        "id": "mine_laying_speed_+%",
+        "value": 30
+      }
+    ]
+  },
+  "3609": {
+    "id": "VolcanicFissureSpecificRepeatHigh",
+    "name": {
+      "en": "Gilded Additional Fissures",
+      "kr": "도금된 추가 균열",
+      "tw": "鍍金額外裂縫",
+      "ru": "Позолоченный: Дополнительные разломы",
+      "jp": "金色の亀裂追加"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "vaal_volcanic_fissure_crack_repeat_count",
+        "value": 1
+      }
+    ]
+  },
+  "3756": {
+    "id": "WildStrikeSpecificEleWeakOnHitHigh",
+    "name": {
+      "en": "Gilded Elemental Weakness on Hit",
+      "kr": "도금된 명중 시 원소 약화 적용",
+      "tw": "鍍金擊中時附加元素要害",
+      "ru": "Позолоченный: Уязвимость к стихиям при ударе",
+      "jp": "金色のヒット時エレメンタルウィークネス"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "curse_on_hit_%_elemental_weakness",
+        "value": 50
+      }
+    ]
+  },
+  "4006": {
+    "id": "SunderAltSpecificAdditionalChainHigh",
+    "name": {
+      "en": "Gilded Snaking",
+      "kr": "도금된 구불거림",
+      "tw": "鍍金蜿蜒",
+      "ru": "Позолоченный: Петляние",
+      "jp": "金色の蛇"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "sunder_number_of_fake_chains",
+        "value": 1
+      }
+    ]
+  },
+  "4032": {
+    "id": "HolyFlameTotemSpecificConcBlockHigh",
+    "name": {
+      "en": "Gilded Divine Shield",
+      "kr": "도금된 신성한 방패",
+      "tw": "鍍金聖盾",
+      "ru": "Позолоченный: Божественный щит",
+      "jp": "金色の神聖な盾"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "additional_block_%_while_on_consecrated_ground",
+        "value": 35
+      }
+    ]
+  },
+  "4351": {
+    "id": "IgnoreEnemyPhysMitMid",
+    "name": {
+      "en": "Mitigation Ignore",
+      "kr": "완화 무시",
+      "tw": "無視減輕",
+      "ru": "Игнорирование ослаблений",
+      "jp": "軽減無視"
+    },
+    "tier": 2,
+    "family": "IgnorePhysMit",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrDexSupportGem.dds",
+    "stats": [
+      {
+        "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+        "value": 25
+      }
+    ]
+  },
+  "5081": {
+    "id": "TrapChargeGenHigh",
+    "name": {
+      "en": "Charged Traps",
+      "kr": "충전된 덫",
+      "tw": "充能陷阱",
+      "ru": "Заряженные ловушки",
+      "jp": "チャージドトラップ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/PowerFrenzyCharge.dds",
+    "stats": [
+      {
+        "id": "%_chance_to_gain_frenzy_charge_on_trap_triggered_by_an_enemy",
+        "value": 40
+      }
+    ]
+  },
+  "5293": {
+    "id": "ProjectilesReturnHigh",
+    "name": {
+      "en": "Return",
+      "kr": "돌아옴",
+      "tw": "返回",
+      "ru": "Возвращение",
+      "jp": "回帰"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/ReturnProjectiles.dds",
+    "stats": [
+      {
+        "id": "projectiles_return",
+        "value": 1
+      }
+    ]
+  },
+  "6040": {
+    "id": "PierceLow",
+    "name": {
+      "en": "Lesser Pierce",
+      "kr": "하위 관통",
+      "tw": "低階穿透",
+      "ru": "Малое пронзание",
+      "jp": "レッサー貫通"
+    },
+    "tier": 1,
+    "family": "Pierce",
+    "gemIcon": "Art/2DItems/Gems/Support/Pierce.dds",
+    "stats": [
+      {
+        "id": "projectile_base_number_of_targets_to_pierce",
+        "value": 1
+      }
+    ]
+  },
+  "6109": {
+    "id": "HolyHammersSpecificPowerChargeHigh",
+    "name": {
+      "en": "Gilded Power Charge on Critical Strike",
+      "kr": "치명타 명중 시 도금된 권능 충전",
+      "tw": "鍍金暴擊獲得暴擊球",
+      "ru": "Позолоченный: Заряд энергии при критическом ударе",
+      "jp": "金色のクリティカル時パワーチャージ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "add_power_charge_on_critical_strike_%",
+        "value": 100
+      }
+    ]
+  },
+  "6121": {
+    "id": "AddedFireHigh",
+    "name": {
+      "en": "Greater Added Fire",
+      "kr": "상위 화염 추가",
+      "tw": "高階附加火焰",
+      "ru": "Большой урон огнём",
+      "jp": "グレーター火追加"
+    },
+    "tier": 3,
+    "family": "AddedFire",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedFireDamage.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_fire",
+        "value": 30
+      }
+    ]
+  },
+  "6667": {
+    "id": "TotemDefencesMid",
+    "name": {
+      "en": "Ironwood",
+      "kr": "철목",
+      "tw": "鐵木",
+      "ru": "Железное дерево",
+      "jp": "鉄木"
+    },
+    "tier": 2,
+    "family": "TotemDefences",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "totem_additional_physical_damage_reduction_%",
+        "value": 20
+      },
+      {
+        "id": "totem_elemental_resistance_%",
+        "value": 40
+      }
+    ]
+  },
+  "6927": {
+    "id": "DotMultiMid",
+    "name": {
+      "en": "DoT Multiplier",
+      "kr": "지속 피해 배율",
+      "tw": "持續傷害加成",
+      "ru": "Множитель постепенного урона",
+      "jp": "DoT倍率"
+    },
+    "tier": 2,
+    "family": "DotMulti",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "dot_multiplier_+",
+        "value": 25
+      }
+    ]
+  },
+  "8607": {
+    "id": "CastSpeedHigh",
+    "name": {
+      "en": "Greater Faster Casting",
+      "kr": "상위 시전 속도 증가",
+      "tw": "高階快速施放",
+      "ru": "Большое ускорение сотворения чар",
+      "jp": "グレーターキャストスピード"
+    },
+    "tier": 3,
+    "family": "CastSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterCast.dds",
+    "stats": [
+      {
+        "id": "base_cast_speed_+%",
+        "value": 35
+      }
+    ]
+  },
+  "8617": {
+    "id": "ExcommunicateHigh",
+    "name": {
+      "en": "Greater Excommunicate",
+      "kr": "상위 제명",
+      "tw": "高階放逐",
+      "ru": "Большое отлучение",
+      "jp": "グレーター破門"
+    },
+    "tier": 3,
+    "family": "Excommunicate",
+    "gemIcon": "Art/2DItems/Gems/Support/Excommunicate.dds",
+    "stats": [
+      {
+        "id": "support_excommunicate_on_melee_attack_hit_for_X_ms",
+        "value": 3000
+      },
+      {
+        "id": "physical_damage_%_to_add_as_lightning",
+        "value": 20
+      },
+      {
+        "id": "physical_damage_%_to_add_as_fire",
+        "value": 20
+      }
+    ]
+  },
+  "8720": {
+    "id": "HolyStrikesSpecificAdditionalMinionHigh",
+    "name": {
+      "en": "Gilded Extra Armaments",
+      "kr": "도금된 추가 병기",
+      "tw": "鍍金額外軍備",
+      "ru": "Позолоченный: Дополнительное оружие",
+      "jp": "金色の追加武装"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_holy_strike_maximum_number_of_animated_weapons",
+        "value": 2
+      }
+    ]
+  },
+  "8821": {
+    "id": "MinionDamageLow",
+    "name": {
+      "en": "Lesser Minion Damage",
+      "kr": "하위 소환수 피해:",
+      "tw": "低階召喚物傷害",
+      "ru": "Малый урон приспешников",
+      "jp": "レッサーミニオンダメージ"
+    },
+    "tier": 1,
+    "family": "MinionDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/MinionDamage.dds",
+    "stats": [
+      {
+        "id": "support_minion_damage_minion_life_+%_final",
+        "value": -25
+      },
+      {
+        "id": "support_minion_damage_+%_final",
+        "value": 15
+      }
+    ]
+  },
+  "9300": {
+    "id": "BodySwapSpecificDamageFromLifeHigh",
+    "name": {
+      "en": "Gilded Damage from Life",
+      "kr": "도금된 생명력에서 피해",
+      "tw": "鍍金生命傷害",
+      "ru": "Позолоченный: Урон от здоровья",
+      "jp": "金色のライフからのダメージ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "spell_base_fire_damage_%_maximum_life",
+        "value": 2
+      }
+    ]
+  },
+  "9460": {
+    "id": "PerforateSpecificSpikesHigh",
+    "name": {
+      "en": "Gilded Maximum Spikes",
+      "kr": "도금된 가시 최대치",
+      "tw": "鍍金尖刺上限",
+      "ru": "Позолоченный: Максимум шипов",
+      "jp": "金色の最大トゲ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "blood_spears_base_number_of_spears",
+        "value": 2
+      }
+    ]
+  },
+  "9585": {
+    "id": "PoisonChanceHigh",
+    "name": {
+      "en": "Greater Chance to Poison",
+      "kr": "상위 중독 확률",
+      "tw": "高階中毒機率",
+      "ru": "Большой шанс отравить",
+      "jp": "グレーター毒付与"
+    },
+    "tier": 3,
+    "family": "PoisonChance",
+    "gemIcon": "Art/2DItems/Gems/Support/Poison.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_poison_on_hit_%",
+        "value": 50
+      }
+    ]
+  },
+  "9607": {
+    "id": "AilmentDamageMid",
+    "name": {
+      "en": "Ailment Damage",
+      "kr": "상태 이상 피해",
+      "tw": "異常狀態傷害",
+      "ru": "Урон от состояний",
+      "jp": "状態異常ダメージ"
+    },
+    "tier": 2,
+    "family": "AilmentDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/DeadlyAilments.dds",
+    "stats": [
+      {
+        "id": "support_better_ailments_ailment_damage_+%_final",
+        "value": 20
+      },
+      {
+        "id": "support_better_ailments_hit_damage_+%_final",
+        "value": -30
+      }
+    ]
+  },
+  "9710": {
+    "id": "ShockChanceLow",
+    "name": {
+      "en": "Lesser Shock Chance",
+      "kr": "하위 감전 확률",
+      "tw": "低階感電機率",
+      "ru": "Малый шанс шока",
+      "jp": "レッサー感電付与"
+    },
+    "tier": 1,
+    "family": "ShockChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_shock_%",
+        "value": 20
+      }
+    ]
+  },
+  "10482": {
+    "id": "BurningArrowSpecificAlwaysPierceHigh",
+    "name": {
+      "en": "Gilded Pierce",
+      "kr": "도금된 관통",
+      "tw": "鍍金穿透",
+      "ru": "Позолоченный: Пронзание",
+      "jp": "金色の貫通"
+    },
+    "tier": 3,
+    "family": "Pierce",
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "always_pierce",
+        "value": 1
+      }
+    ]
+  },
+  "10608": {
+    "id": "CooldownSpeedHigh",
+    "name": {
+      "en": "Greater Cooldown Recovery",
+      "kr": "상위 재사용 대기시간 회복",
+      "tw": "高階冷卻時間恢復",
+      "ru": "Большое ускорение перезарядки",
+      "jp": "グレータークールダウン解消"
+    },
+    "tier": 3,
+    "family": "Cooldown",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_cooldown_speed_+%",
+        "value": 40
+      }
+    ]
+  },
+  "10682": {
+    "id": "BladestormSpecificAdditionalStormHigh",
+    "name": {
+      "en": "Gilded Maximum Storms",
+      "kr": "도금된 최대 폭풍",
+      "tw": "鍍金風暴上限",
+      "ru": "Позолоченный: Максимум ураганов",
+      "jp": "金色の最大ストーム"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "bladestorm_maximum_number_of_storms_allowed",
+        "value": 1
+      }
+    ]
+  },
+  "10782": {
+    "id": "ConsecratedPathSpecificDamageGainHigh",
+    "name": {
+      "en": "Gilded Consecration",
+      "kr": "도금된 신성화",
+      "tw": "鍍金奉獻",
+      "ru": "Позолоченный: Освящение",
+      "jp": "金色の神聖"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "your_consecrated_ground_grants_damage_+%",
+        "value": 40
+      }
+    ]
+  },
+  "10997": {
+    "id": "IgniteChanceHigh",
+    "name": {
+      "en": "Greater Ignite Chance",
+      "kr": "상위 점화 확률",
+      "tw": "高階點燃機率",
+      "ru": "Большой шанс поджечь",
+      "jp": "グレーター発火付与"
+    },
+    "tier": 3,
+    "family": "IgniteChance",
+    "gemIcon": "Art/2DItems/Gems/Support/ChancetoIgnite.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_ignite_%",
+        "value": 60
+      }
+    ]
+  },
+  "11052": {
+    "id": "VaalLightningArrowSpecificRedirectHigh",
+    "name": {
+      "en": "Gilded Uncertainty",
+      "kr": "도금된 불확실성",
+      "tw": "鍍金未知",
+      "ru": "Позолоченный: Изменчивость",
+      "jp": "金色の不確実性"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "vaal_lightning_arrow_number_of_redirects",
+        "value": 3
+      }
+    ]
+  },
+  "11497": {
+    "id": "ImpaleChanceMid",
+    "name": {
+      "en": "Impale Chance",
+      "kr": "꿰뚫기 확률",
+      "tw": "穿刺機率",
+      "ru": "Шанс проколоть",
+      "jp": "串刺し付与"
+    },
+    "tier": 2,
+    "family": "ImpaleChance",
+    "gemIcon": "Art/2DItems/Gems/Support/impale.dds",
+    "stats": [
+      {
+        "id": "impale_on_hit_%_chance",
+        "value": 40
+      }
+    ]
+  },
+  "11914": {
+    "id": "AddedChaosHigh",
+    "name": {
+      "en": "Greater Added Chaos",
+      "kr": "상위 카오스 추가",
+      "tw": "高階附加混沌",
+      "ru": "Большой урон хаосом",
+      "jp": "グレーター混沌追加"
+    },
+    "tier": 3,
+    "family": "AddedChaos",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedChaosDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_chaos_damage",
+        "value": 73
+      },
+      {
+        "id": "global_maximum_added_chaos_damage",
+        "value": 109
+      }
+    ]
+  },
+  "12054": {
+    "id": "MultipleProjectilesLow",
+    "name": {
+      "en": "Multiple Projectiles",
+      "kr": "다중 투사체",
+      "tw": "多重投射物",
+      "ru": "Дополнительные снаряды",
+      "jp": "投射物追加"
+    },
+    "tier": 1,
+    "family": "MultipleProjectiles",
+    "gemIcon": "Art/2DItems/Gems/Support/LesserMultipleProjectiles.dds",
+    "stats": [
+      {
+        "id": "number_of_additional_projectiles",
+        "value": 2
+      }
+    ]
+  },
+  "12347": {
+    "id": "FistOfWarHigh",
+    "name": {
+      "en": "Fist of War",
+      "kr": "전쟁의 주먹",
+      "tw": "拳霸",
+      "ru": "Кулак войны",
+      "jp": "フィストオブウォー"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/FistOfWarGem.dds",
+    "stats": [
+      {
+        "id": "support_ancestral_slam_big_hit_max_count",
+        "value": 1
+      },
+      {
+        "id": "support_ancestral_slam_big_hit_damage_with_hits_and_ailments_+%_final",
+        "value": 20
+      },
+      {
+        "id": "support_ancestral_slam_big_hit_area_+%",
+        "value": 60
+      },
+      {
+        "id": "ancestral_slam_interval_duration",
+        "value": 1760
+      }
+    ]
+  },
+  "12387": {
+    "id": "FreezeChanceHigh",
+    "name": {
+      "en": "Greater Freeze Chance",
+      "kr": "상위 동결 확률",
+      "tw": "高階冰凍機率",
+      "ru": "Большой шанс заморозить",
+      "jp": "グレーター凍結付与"
+    },
+    "tier": 3,
+    "family": "FreezeChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_freeze_%",
+        "value": 60
+      }
+    ]
+  },
+  "12388": {
+    "id": "NonDamagingAilmentEffectLow",
+    "name": {
+      "en": "Lesser Ailment Effect",
+      "kr": "하위 상태 이상 효과",
+      "tw": "低階異常狀態效果",
+      "ru": "Слабый эффект состояний",
+      "jp": "レッサー状態異常効果"
+    },
+    "tier": 1,
+    "family": "NonDamagingAilmentEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/UnboundAilments.dds",
+    "stats": [
+      {
+        "id": "non_damaging_ailment_effect_+%",
+        "value": 30
+      }
+    ]
+  },
+  "12569": {
+    "id": "VoidSphereSpecificTickRateHigh",
+    "name": {
+      "en": "Gilded Sphere Frequency",
+      "kr": "도금된 구체 빈도",
+      "tw": "鍍金球體頻率",
+      "ru": "Позолоченный: Частота сфер",
+      "jp": "金色のスフィア頻度"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "blackhole_pulse_frequency_+%",
+        "value": 35
+      }
+    ]
+  },
+  "13016": {
+    "id": "MinionChaosCloudHigh",
+    "name": {
+      "en": "Minion Caustic Death",
+      "kr": "소환수 부식성 사망",
+      "tw": "召喚物腐蝕死亡",
+      "ru": "Едкая смерть приспешников",
+      "jp": "ミニオンコースティックデス"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "minion_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%",
+        "value": 150
+      }
+    ]
+  },
+  "13069": {
+    "id": "AddedColdLow",
+    "name": {
+      "en": "Lesser Added Cold",
+      "kr": "하위 냉기 추가",
+      "tw": "低階附加冰冷",
+      "ru": "Малый урон холодом",
+      "jp": "レッサー冷気追加"
+    },
+    "tier": 1,
+    "family": "AddedCold",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedColdDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_cold_damage",
+        "value": 10
+      },
+      {
+        "id": "global_maximum_added_cold_damage",
+        "value": 16
+      }
+    ]
+  },
+  "13568": {
+    "id": "DivineIreSpecificWidthHigh",
+    "name": {
+      "en": "Gilded Beam Width",
+      "kr": "도금된 광선 폭",
+      "tw": "鍍金射線寬度",
+      "ru": "Позолоченный: Ширина луча",
+      "jp": "金色のビーム幅"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "divine_tempest_beam_width_+%",
+        "value": 40
+      }
+    ]
+  },
+  "13784": {
+    "id": "WarcryRageHigh",
+    "name": {
+      "en": "Greater Raging Cry",
+      "kr": "상위 격노하는 함성",
+      "tw": "高階憤怒戰吼",
+      "ru": "Сильный свирепый клич",
+      "jp": "グレーターレイジングクライ"
+    },
+    "tier": 3,
+    "family": "RageWarcry",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrSupportGem.dds",
+    "stats": [
+      {
+        "id": "gain_rage_when_you_use_a_warcry",
+        "value": 20
+      }
+    ]
+  },
+  "14317": {
+    "id": "AdditionalChainsLow",
+    "name": {
+      "en": "Lesser Chain",
+      "kr": "하위 연쇄",
+      "tw": "低階連鎖",
+      "ru": "Малая цепь",
+      "jp": "レッサー連鎖"
+    },
+    "tier": 1,
+    "family": "AdditionalChains",
+    "gemIcon": "Art/2DItems/Gems/Support/chain.dds",
+    "stats": [
+      {
+        "id": "number_of_chains",
+        "value": 1
+      }
+    ]
+  },
+  "14517": {
+    "id": "IncreasedProjSpeedHigh",
+    "name": {
+      "en": "Greater Faster Projectiles",
+      "kr": "상위 투사체 속도 증가",
+      "tw": "高階投射物加速",
+      "ru": "Большое ускорение снарядов",
+      "jp": "グレーター投射物高速化"
+    },
+    "tier": 3,
+    "family": "ProjectileSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterProjectiles.dds",
+    "stats": [
+      {
+        "id": "base_projectile_speed_+%",
+        "value": 40
+      }
+    ]
+  },
+  "14557": {
+    "id": "TrapTriggerArcaneSurgeHigh",
+    "name": {
+      "en": "Arcane Traps",
+      "kr": "비전 덫",
+      "tw": "秘能陷阱",
+      "ru": "Колдовские ловушки",
+      "jp": "アーケイントラップ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "gain_arcane_surge_when_trap_triggered_by_an_enemy",
+        "value": 1
+      }
+    ]
+  },
+  "15235": {
+    "id": "WitherOnHitMid",
+    "name": {
+      "en": "Wither on Hit",
+      "kr": "명중 시 위축",
+      "tw": "擊中時凋零",
+      "ru": "Истощение при ударе",
+      "jp": "ヒット時衰弱"
+    },
+    "tier": 2,
+    "family": "WitherOnHit",
+    "gemIcon": "Art/2DItems/Gems/Support/WitherGemSupport.dds",
+    "stats": [
+      {
+        "id": "withered_on_hit_chance_%",
+        "value": 30
+      }
+    ]
+  },
+  "15866": {
+    "id": "ReducedProjSpeedLow",
+    "name": {
+      "en": "Lesser Slower Projectiles",
+      "kr": "하위 투사체 감속",
+      "tw": "低階投射物減速",
+      "ru": "Слабо замедленные снаряды",
+      "jp": "レッサー投射物低速化"
+    },
+    "tier": 1,
+    "family": "ProjectileSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/SlowerProjectiles.dds",
+    "stats": [
+      {
+        "id": "base_projectile_speed_+%",
+        "value": -15
+      }
+    ]
+  },
+  "16261": {
+    "id": "IgnoreEnemyPhysMitLow",
+    "name": {
+      "en": "Lesser Mitigation Ignore",
+      "kr": "하위 완화 무시",
+      "tw": "低階無視減輕",
+      "ru": "Слабое игнорирование ослаблений",
+      "jp": "レッサー軽減無視"
+    },
+    "tier": 1,
+    "family": "IgnorePhysMit",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrDexSupportGem.dds",
+    "stats": [
+      {
+        "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+        "value": 20
+      }
+    ]
+  },
+  "17097": {
+    "id": "MultiTotemHigh",
+    "name": {
+      "en": "Multiple Totems",
+      "kr": "다중 토템",
+      "tw": "複數圖騰",
+      "ru": "Множество тотемов",
+      "jp": "マルチトーテム"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MultipleTotems.dds",
+    "stats": [
+      {
+        "id": "summon_2_totems",
+        "value": 1
+      },
+      {
+        "id": "base_number_of_totems_allowed",
+        "value": 2
+      }
+    ]
+  },
+  "17178": {
+    "id": "CycloneSpecificMoveSpeedHigh",
+    "name": {
+      "en": "Gilded Faster Cyclone",
+      "kr": "도금된 회오리바람 속도 증가",
+      "tw": "鍍金旋風斬加快",
+      "ru": "Позолоченный: Ускоренный вихрь",
+      "jp": "金色の高速サイクロン"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "cyclone_movement_speed_+%_final",
+        "value": 35
+      }
+    ]
+  },
+  "17213": {
+    "id": "IceNovaSpecificFirePerChillHigh",
+    "name": {
+      "en": "Gilded Freezer Burn",
+      "kr": "도금된 동결 화상",
+      "tw": "鍍金冰凍燃燒",
+      "ru": "Позолоченный: Морозный ожог",
+      "jp": "金色の凍結焼け"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "cold_damage_%_to_add_as_fire",
+        "value": 30
+      }
+    ]
+  },
+  "17946": {
+    "id": "VoltaxicBurstSpecificConvertLightningToChaosHigh",
+    "name": {
+      "en": "Gilded Voltaxic Conversion",
+      "kr": "도금된 전도성 전환",
+      "tw": "鍍金魔痕轉換",
+      "ru": "Позолоченный: Вольтаксовое превращение",
+      "jp": "金色のボルタキシック変換"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "skill_lightning_damage_%_to_convert_to_chaos",
+        "value": 40
+      }
+    ]
+  },
+  "18499": {
+    "id": "TornadoShotSpecificSecondaryProjHigh",
+    "name": {
+      "en": "Gilded Secondary Shots",
+      "kr": "도금된 부가 사격",
+      "tw": "鍍金二次射擊",
+      "ru": "Позолоченный: Вторичные снаряды",
+      "jp": "金色の副次的投射物"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "tornado_shot_num_of_secondary_projectiles",
+        "value": 2
+      }
+    ]
+  },
+  "19004": {
+    "id": "FireballAltSpecificChanceToScorchHigh",
+    "name": {
+      "en": "Gilded Scorch Chance",
+      "kr": "도금된 그을림 확률",
+      "tw": "鍍金焦灼機率",
+      "ru": "Позолоченный: Шанс Опалить",
+      "jp": "金色の焦げ付与"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "chance_to_scorch_%",
+        "value": 50
+      }
+    ]
+  },
+  "19113": {
+    "id": "IncreaseAreaOfEffectHigh",
+    "name": {
+      "en": "Greater Area of Effect",
+      "kr": "상위 효과 범위 증가",
+      "tw": "高階效果範圍",
+      "ru": "Большое расширение области действия",
+      "jp": "グレーター効果範囲増加"
+    },
+    "tier": 3,
+    "family": "IncreaseAreaOfEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedAOE.dds",
+    "stats": [
+      {
+        "id": "base_skill_area_of_effect_+%",
+        "value": 60
+      }
+    ]
+  },
+  "20568": {
+    "id": "ScourgeArrowAltSpecificPodCountHigh",
+    "name": {
+      "en": "Gilded Additional Pods",
+      "kr": "도금된 추가 주머니",
+      "tw": "鍍金額外黴孢",
+      "ru": "Позолоченный: Дополнительные стручки",
+      "jp": "金色の追加胞子嚢"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "scourge_arrow_X_pods_per_projectile",
+        "value": 1
+      }
+    ]
+  },
+  "20579": {
+    "id": "MinionLifeMid",
+    "name": {
+      "en": "Minion Life",
+      "kr": "소환수 생명력",
+      "tw": "召喚物生命",
+      "ru": "Здоровье приспешников",
+      "jp": "ミニオンライフ"
+    },
+    "tier": 2,
+    "family": "MinionLife",
+    "gemIcon": "Art/2DItems/Gems/Support/MinionDamage.dds",
+    "stats": [
+      {
+        "id": "support_minion_maximum_life_+%_final",
+        "value": 40
+      }
+    ]
+  },
+  "21276": {
+    "id": "BoneshatterSpecificTraumaDurationHigh",
+    "name": {
+      "en": "Gilded Trauma Duration",
+      "kr": "도금된 외상 지속시간",
+      "tw": "鍍金創傷持續時間",
+      "ru": "Позолоченный: Длительность травмы",
+      "jp": "金色のトラウマ持続時間"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "boneshatter_trauma_base_duration_ms",
+        "value": 2000
+      }
+    ]
+  },
+  "21489": {
+    "id": "ConcentratedEffectMid",
+    "name": {
+      "en": "Concentrated Effect",
+      "kr": "효과 집중",
+      "tw": "集中效果",
+      "ru": "Средоточие",
+      "jp": "範囲ダメージ集中"
+    },
+    "tier": 2,
+    "family": "ConcEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/ConcentratedAOE.dds",
+    "stats": [
+      {
+        "id": "support_concentrated_effect_skill_area_of_effect_+%_final",
+        "value": -30
+      },
+      {
+        "id": "support_area_concentrate_area_damage_+%_final",
+        "value": 30
+      }
+    ]
+  },
+  "21678": {
+    "id": "GigaShockNovaSpecificAOEHigh",
+    "name": {
+      "en": "Gilded Inhibitor",
+      "kr": "도금된 억제자",
+      "tw": "鍍金抑制劑",
+      "ru": "Позолоченный: Ингибитор",
+      "jp": "金色の抑制"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "enemies_you_shock_cast_speed_+%",
+        "value": -25
+      }
+    ]
+  },
+  "22587": {
+    "id": "StormCallSpecificResCritHigh",
+    "name": {
+      "en": "Gilded Voltage",
+      "kr": "도금된 전압",
+      "tw": "鍍金電壓",
+      "ru": "Позолоченный: Напряжение",
+      "jp": "金色の電圧"
+    },
+    "tier": 3,
+    "family": "CritChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "critical_strike_chance_increased_by_overcapped_lightning_resistance",
+        "value": 1
+      }
+    ]
+  },
+  "22670": {
+    "id": "IncreaseAreaOfEffectLow",
+    "name": {
+      "en": "Lesser Increased Area of Effect",
+      "kr": "하위 효과 범위 증가",
+      "tw": "低階增加效果範圍",
+      "ru": "Малое расширение области действия",
+      "jp": "レッサー効果範囲増加"
+    },
+    "tier": 1,
+    "family": "IncreaseAreaOfEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedAOE.dds",
+    "stats": [
+      {
+        "id": "base_skill_area_of_effect_+%",
+        "value": 20
+      }
+    ]
+  },
+  "22977": {
+    "id": "DotMultiLow",
+    "name": {
+      "en": "Lesser DoT Multiplier",
+      "kr": "하위 지속 피해 배율",
+      "tw": "低階持續傷害加成",
+      "ru": "Малый множитель постепенного урона",
+      "jp": "レッサーDoT倍率"
+    },
+    "tier": 1,
+    "family": "DotMulti",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "dot_multiplier_+",
+        "value": 15
+      }
+    ]
+  },
+  "23209": {
+    "id": "CriticalStrikeLow",
+    "name": {
+      "en": "Lesser Critical Chance",
+      "kr": "하위 치명타 확률",
+      "tw": "低階暴擊率",
+      "ru": "Малый шанс критического удара",
+      "jp": "レッサークリティカル率"
+    },
+    "tier": 1,
+    "family": "CritChance",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedCriticalStrikes.dds",
+    "stats": [
+      {
+        "id": "critical_strike_chance_+%",
+        "value": 80
+      }
+    ]
+  },
+  "23582": {
+    "id": "MinionLifeLow",
+    "name": {
+      "en": "Lesser Minion Life",
+      "kr": "하위 소환수 생명력",
+      "tw": "低階召喚物生命",
+      "ru": "Малое здоровье приспешников",
+      "jp": "レッサーミニオンライフ"
+    },
+    "tier": 1,
+    "family": "MinionLife",
+    "gemIcon": "Art/2DItems/Gems/Support/MinionDamage.dds",
+    "stats": [
+      {
+        "id": "support_minion_maximum_life_+%_final",
+        "value": 25
+      }
+    ]
+  },
+  "24343": {
+    "id": "LightningDamageLuckyHigh",
+    "name": {
+      "en": "Greater Lucky Lightning Damage",
+      "kr": "상위 번개 피해에 행운 적용",
+      "tw": "高階幸運閃電傷害",
+      "ru": "Большой удачливый урон от молнии",
+      "jp": "グレーター雷ダメージ幸運"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "extra_damage_rolls_with_lightning_damage_on_non_critical_hits",
+        "value": 1
+      }
+    ]
+  },
+  "25001": {
+    "id": "ArtilleryBallistaSpecificOnslaughtHigh",
+    "name": {
+      "en": "Gilded Totemic Onslaught",
+      "kr": "도금된 토템 맹공",
+      "tw": "鍍金圖騰猛攻",
+      "ru": "Позолоченный: Тотемный раж",
+      "jp": "金色の猛攻トーテム"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "has_onslaught_if_totem_summoned_recently",
+        "value": 1
+      }
+    ]
+  },
+  "25199": {
+    "id": "IncreasedProjSpeedLow",
+    "name": {
+      "en": "Lesser Faster Projectiles",
+      "kr": "하위 투사체 속도 증가",
+      "tw": "低階投射物加速",
+      "ru": "Малое ускорение снарядов",
+      "jp": "レッサー投射物高速化"
+    },
+    "tier": 1,
+    "family": "ProjectileSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterProjectiles.dds",
+    "stats": [
+      {
+        "id": "base_projectile_speed_+%",
+        "value": 15
+      }
+    ]
+  },
+  "25565": {
+    "id": "EnsnaringArrowSpecificEffectHigh",
+    "name": {
+      "en": "Gilded Ensnare Effect",
+      "kr": "도금된 올가미 효과",
+      "tw": "鍍金誘捕效果",
+      "ru": "Позолоченный: Эффект сетей",
+      "jp": "金色のエンスネア効果"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "tethered_enemies_take_attack_projectile_damage_taken_+%",
+        "value": 10
+      }
+    ]
+  },
+  "25880": {
+    "id": "ChaosPenLow",
+    "name": {
+      "en": "Lesser Chaos Penetration",
+      "kr": "하위 카오스 관통",
+      "tw": "低階混沌穿透",
+      "ru": "Слабый пронизывающий хаос",
+      "jp": "レッサー混沌耐性貫通"
+    },
+    "tier": 1,
+    "family": "ChaosPen",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "reduce_enemy_chaos_resistance_%",
+        "value": 10
+      }
+    ]
+  },
+  "25885": {
+    "id": "LightningSpireSpecificBeamsHigh",
+    "name": {
+      "en": "Gilded Reactor",
+      "kr": "도금된 반응로",
+      "tw": "鍍金反應爐",
+      "ru": "Позолоченный: Конденсатор",
+      "jp": "金色の反応炉"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "lightning_tower_trap_additional_number_of_beams",
+        "value": 10
+      },
+      {
+        "id": "damage_+%",
+        "value": -80
+      }
+    ]
+  },
+  "25973": {
+    "id": "MultistrikeHigh",
+    "name": {
+      "en": "Greater Multistrike",
+      "kr": "상위 연속타격",
+      "tw": "高階多重打擊",
+      "ru": "Большой град ударов",
+      "jp": "グレーターマルチストライク"
+    },
+    "tier": 3,
+    "family": "Multistrike",
+    "gemIcon": "Art/2DItems/Gems/Support/multipleattacks.dds",
+    "stats": [
+      {
+        "id": "base_melee_attack_repeat_count",
+        "value": 2
+      },
+      {
+        "id": "support_multiple_attacks_melee_attack_speed_+%_final",
+        "value": 15
+      },
+      {
+        "id": "support_multiple_attack_damage_+%_final",
+        "value": -15
+      }
+    ]
+  },
+  "26094": {
+    "id": "ColdPenetrationHigh",
+    "name": {
+      "en": "Greater Cold Penetration",
+      "kr": "상위 냉기 관통",
+      "tw": "高階冰冷穿透",
+      "ru": "Сильный пронизывающий холод",
+      "jp": "グレーター冷気耐性貫通"
+    },
+    "tier": 3,
+    "family": "ColdPenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/ColdPenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_cold_resistance_%",
+        "value": 12
+      }
+    ]
+  },
+  "26146": {
+    "id": "HypothermiaLow",
+    "name": {
+      "en": "Lesser Hypothermia",
+      "kr": "하위 체온저하",
+      "tw": "低階急凍",
+      "ru": "Слабое переохлаждение",
+      "jp": "レッサーハイポサーミア"
+    },
+    "tier": 1,
+    "family": "Hypothermia",
+    "gemIcon": "Art/2DItems/Gems/Support/DamageAgainstChilled.dds",
+    "stats": [
+      {
+        "id": "support_hypothermia_damage_+%_vs_chilled_enemies_final",
+        "value": 15
+      },
+      {
+        "id": "support_hypothermia_cold_damage_over_time_+%_final",
+        "value": 15
+      }
+    ]
+  },
+  "26568": {
+    "id": "IncreaseDurationHigh",
+    "name": {
+      "en": "Greater More Duration",
+      "kr": "상위 지속시간 증폭",
+      "tw": "高階更多持續時間",
+      "ru": "Большое продление",
+      "jp": "グレーター持続時間上昇"
+    },
+    "tier": 3,
+    "family": "Duration",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedDuration.dds",
+    "stats": [
+      {
+        "id": "support_more_duration_skill_effect_duration_+%_final",
+        "value": 40
+      }
+    ]
+  },
+  "26618": {
+    "id": "VaalGroundSlamSpecificStunDurationHigh",
+    "name": {
+      "en": "Gilded Stun Duration",
+      "kr": "도금된 기절 지속시간",
+      "tw": "鍍金暈眩持續時間",
+      "ru": "Позолоченный: Длительность оглушения",
+      "jp": "金色のスタン持続時間"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_stun_duration_+%",
+        "value": 30
+      }
+    ]
+  },
+  "26713": {
+    "id": "LightningTrapSpecificShockSlowHigh",
+    "name": {
+      "en": "Gilded Electrocuting",
+      "kr": "도금된 전기 처형",
+      "tw": "鍍金觸電",
+      "ru": "Позолоченный: Электризация",
+      "jp": "金色の麻痺"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "enemies_you_shock_movement_speed_+%",
+        "value": -50
+      }
+    ]
+  },
+  "26792": {
+    "id": "MoltenShellSpecificPDRHigh",
+    "name": {
+      "en": "Gilded Physical Damage Reduction",
+      "kr": "도금된 물리 피해 감소",
+      "tw": "鍍金物理傷害減免",
+      "ru": "Позолоченный: Уменьшение физического урона",
+      "jp": "金色の物理ダメージ軽減"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "additional_physical_damage_reduction_%_while_affected_by_guard_skill",
+        "value": 15
+      }
+    ]
+  },
+  "26815": {
+    "id": "LightningPenetrationHigh",
+    "name": {
+      "en": "Greater Lightning Penetration",
+      "kr": "상위 번개 관통",
+      "tw": "高階閃電穿透",
+      "ru": "Сильные пронизывающие молнии",
+      "jp": "グレーター雷耐性貫通"
+    },
+    "tier": 3,
+    "family": "LightPenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/LightningPenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_lightning_resistance_%",
+        "value": 12
+      }
+    ]
+  },
+  "27458": {
+    "id": "FreezeChanceMid",
+    "name": {
+      "en": "Freeze Chance",
+      "kr": "동결 확률",
+      "tw": "冰凍機率",
+      "ru": "Шанс заморозить",
+      "jp": "凍結付与"
+    },
+    "tier": 2,
+    "family": "FreezeChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_freeze_%",
+        "value": 40
+      }
+    ]
+  },
+  "27970": {
+    "id": "PierceHigh",
+    "name": {
+      "en": "Greater Pierce",
+      "kr": "상위 관통",
+      "tw": "高階穿透",
+      "ru": "Большое пронзание",
+      "jp": "グレーター貫通"
+    },
+    "tier": 3,
+    "family": "Pierce",
+    "gemIcon": "Art/2DItems/Gems/Support/Pierce.dds",
+    "stats": [
+      {
+        "id": "projectile_base_number_of_targets_to_pierce",
+        "value": 5
+      }
+    ]
+  },
+  "28037": {
+    "id": "PhysGainAsRandomLow",
+    "name": {
+      "en": "Lesser Physical as Extra",
+      "kr": "하위 물리를 추가로",
+      "tw": "低階物理轉化為額外",
+      "ru": "Малый физический урон в виде урона от стихии",
+      "jp": "レッサー物理の一部を追加元素"
+    },
+    "tier": 1,
+    "family": "PhysGainAs",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_random_element",
+        "value": 10
+      }
+    ]
+  },
+  "28387": {
+    "id": "RollingMagmaAOEPerProjHigh",
+    "name": {
+      "en": "Gilded Area per Projectile",
+      "kr": "도금된 투사체당 범위",
+      "tw": "鍍金每個投射物範圍",
+      "ru": "Позолоченный: Область за снаряд",
+      "jp": "金色の投射物ごとの効果範囲"
+    },
+    "tier": 3,
+    "family": "IncreaseAreaOfEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "active_skill_has_skill_area_of_effect_+%_final_per_additional_projectile",
+        "value": 5
+      }
+    ]
+  },
+  "28416": {
+    "id": "EleDamageWithAttacksHigh",
+    "name": {
+      "en": "Greater Elemental Damage with Attacks",
+      "kr": "상위 공격 시 원소 피해",
+      "tw": "高階元素攻擊傷害",
+      "ru": "Большой урон от стихий атаками",
+      "jp": "グレーターアタック元素ダメージ"
+    },
+    "tier": 3,
+    "family": "WED",
+    "gemIcon": "Art/2DItems/Gems/Support/WeaponElementalDamage.dds",
+    "stats": [
+      {
+        "id": "support_attack_skills_elemental_damage_+%_final",
+        "value": 30
+      }
+    ]
+  },
+  "28579": {
+    "id": "MinionDamageMid",
+    "name": {
+      "en": "Minion Damage",
+      "kr": "소환수 피해",
+      "tw": "召喚物傷害",
+      "ru": "Урон приспешников",
+      "jp": "ミニオンダメージ"
+    },
+    "tier": 2,
+    "family": "MinionDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/MinionDamage.dds",
+    "stats": [
+      {
+        "id": "support_minion_damage_minion_life_+%_final",
+        "value": -25
+      },
+      {
+        "id": "support_minion_damage_+%_final",
+        "value": 20
+      }
+    ]
+  },
+  "29166": {
+    "id": "IceCrashSpecificTertiaryRadiusHigh",
+    "name": {
+      "en": "Gilded Icecrash Radius",
+      "kr": "도금된 얼음충격 반경",
+      "tw": "鍍金寒冰衝擊範圍",
+      "ru": "Позолоченный: Радиус ледяного сокрушения",
+      "jp": "金色のアイスクラッシュ半径"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "active_skill_base_tertiary_area_of_effect_radius",
+        "value": 5
+      }
+    ]
+  },
+  "29562": {
+    "id": "GiantZombieSpecificSlowZombieHigh",
+    "name": {
+      "en": "Gilded Lumbering Dead",
+      "kr": "도금된 굼뜬 시체",
+      "tw": "鍍金戕伐亡靈",
+      "ru": "Позолоченный: Шатающиеся мертвецы",
+      "jp": "金色の鈍重の使者"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "minion_attack_speed_+%",
+        "value": 50
+      },
+      {
+        "id": "minion_movement_speed_+%",
+        "value": -30
+      }
+    ]
+  },
+  "29720": {
+    "id": "ImpaleChanceHigh",
+    "name": {
+      "en": "Greater Impale Chance",
+      "kr": "상위 꿰뚫기 확률",
+      "tw": "高階穿刺機率",
+      "ru": "Большой шанс проколоть",
+      "jp": "グレーター串刺し付与"
+    },
+    "tier": 3,
+    "family": "ImpaleChance",
+    "gemIcon": "Art/2DItems/Gems/Support/impale.dds",
+    "stats": [
+      {
+        "id": "impale_on_hit_%_chance",
+        "value": 60
+      }
+    ]
+  },
+  "29922": {
+    "id": "ExcommunicateLow",
+    "name": {
+      "en": "Lesser Excommunicate",
+      "kr": "하위 제명",
+      "tw": "低階放逐",
+      "ru": "Малое отлучение",
+      "jp": "レッサー破門"
+    },
+    "tier": 1,
+    "family": "Excommunicate",
+    "gemIcon": "Art/2DItems/Gems/Support/Excommunicate.dds",
+    "stats": [
+      {
+        "id": "support_excommunicate_on_melee_attack_hit_for_X_ms",
+        "value": 3000
+      },
+      {
+        "id": "physical_damage_%_to_add_as_lightning",
+        "value": 10
+      },
+      {
+        "id": "physical_damage_%_to_add_as_fire",
+        "value": 10
+      }
+    ]
+  },
+  "30359": {
+    "id": "EleFocusLow",
+    "name": {
+      "en": "Lesser Elemental Focus",
+      "kr": "하위 원소 집중",
+      "tw": "低階元素專注",
+      "ru": "Малая концентрация стихий",
+      "jp": "レッサー元素ダメージ集中"
+    },
+    "tier": 1,
+    "family": "EleFocus",
+    "gemIcon": "Art/2DItems/Gems/Support/ElementalFocus.dds",
+    "stats": [
+      {
+        "id": "support_gem_elemental_damage_+%_final",
+        "value": 15
+      },
+      {
+        "id": "cannot_inflict_status_ailments",
+        "value": 1
+      }
+    ]
+  },
+  "30389": {
+    "id": "StrikeRangeLow",
+    "name": {
+      "en": "Lesser Strike Distance",
+      "kr": "하위 타격 거리",
+      "tw": "低階打擊距離",
+      "ru": "Малая дистанция удара",
+      "jp": "レッサーストライク距離"
+    },
+    "tier": 1,
+    "family": "StrikeRange",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrSupportGem.dds",
+    "stats": [
+      {
+        "id": "melee_range_+",
+        "value": 2
+      }
+    ]
+  },
+  "30406": {
+    "id": "ShieldCrushSpecificAttackDamageFromShieldHigh",
+    "name": {
+      "en": "Gilded Shield Damage",
+      "kr": "도금된 방패 피해",
+      "tw": "鍍金盾牌傷害",
+      "ru": "Позолоченный: Урон щитом",
+      "jp": "金色の盾ダメージ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "attack_damage_+%_per_75_armour_or_evasion_on_shield",
+        "value": 3
+      }
+    ]
+  },
+  "30688": {
+    "id": "CritDamageLow",
+    "name": {
+      "en": "Lesser Critical Damage",
+      "kr": "하위 치명타 피해",
+      "tw": "低階暴擊傷害",
+      "ru": "Малый критический урон",
+      "jp": "レッサークリティカルダメージ"
+    },
+    "tier": 1,
+    "family": "CritDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedCriticalDamage.dds",
+    "stats": [
+      {
+        "id": "base_critical_strike_multiplier_+",
+        "value": 30
+      }
+    ]
+  },
+  "30722": {
+    "id": "StormRainSpecificNumberOfBurstsHigh",
+    "name": {
+      "en": "Gilded Additional Pulses",
+      "kr": "도금된 추가 파동",
+      "tw": "鍍金額外脈衝",
+      "ru": "Позолоченный: Дополнительные разряды",
+      "jp": "金色のパルス追加"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "storm_rain_pulse_count",
+        "value": 2
+      }
+    ]
+  },
+  "30881": {
+    "id": "CooldownSpeedLow",
+    "name": {
+      "en": "Lesser Cooldown Recovery",
+      "kr": "하위 재사용 대기시간 회복",
+      "tw": "低階冷卻時間恢復",
+      "ru": "Малое ускорение перезарядки",
+      "jp": "レッサークールダウン解消"
+    },
+    "tier": 1,
+    "family": "Cooldown",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_cooldown_speed_+%",
+        "value": 20
+      }
+    ]
+  },
+  "31052": {
+    "id": "AdditionalChainsMid",
+    "name": {
+      "en": "Chain",
+      "kr": "연쇄",
+      "tw": "連鎖",
+      "ru": "Цепь",
+      "jp": "連鎖"
+    },
+    "tier": 2,
+    "family": "AdditionalChains",
+    "gemIcon": "Art/2DItems/Gems/Support/chain.dds",
+    "stats": [
+      {
+        "id": "number_of_chains",
+        "value": 3
+      }
+    ]
+  },
+  "31171": {
+    "id": "TrapMineDamageMid",
+    "name": {
+      "en": "Trap and Mine Damage",
+      "kr": "덫과 지뢰 피해",
+      "tw": "陷阱和地雷傷害",
+      "ru": "Урон ловушек и мин",
+      "jp": "トラップ・マインダメージ"
+    },
+    "tier": 2,
+    "family": "TrapMineDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/TrapAndMineDamage.dds",
+    "stats": [
+      {
+        "id": "support_trap_and_mine_damage_+%_final",
+        "value": 20
+      },
+      {
+        "id": "support_trap_and_mine_damage_trap_throwing_speed_+%_final",
+        "value": -25
+      }
+    ]
+  },
+  "31430": {
+    "id": "AddedChaosMid",
+    "name": {
+      "en": "Added Chaos",
+      "kr": "카오스 추가",
+      "tw": "附加混沌",
+      "ru": "Урон хаосом",
+      "jp": "混沌追加"
+    },
+    "tier": 2,
+    "family": "AddedChaos",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedChaosDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_chaos_damage",
+        "value": 33
+      },
+      {
+        "id": "global_maximum_added_chaos_damage",
+        "value": 49
+      }
+    ]
+  },
+  "31439": {
+    "id": "BleedHigh",
+    "name": {
+      "en": "Greater Chance to Bleed",
+      "kr": "상위 출혈 확률",
+      "tw": "高階流血機率",
+      "ru": "Большой шанс кровотечения",
+      "jp": "グレーター出血付与"
+    },
+    "tier": 3,
+    "family": "Bleed",
+    "gemIcon": "Art/2DItems/Gems/Support/ChanceToBleed.dds",
+    "stats": [
+      {
+        "id": "bleed_on_hit_with_attacks_%",
+        "value": 50
+      },
+      {
+        "id": "base_bleed_duration_+%",
+        "value": 40
+      }
+    ]
+  },
+  "31571": {
+    "id": "ArcSpecificDistanceHigh",
+    "name": {
+      "en": "Gilded Chain Distance",
+      "kr": "도금된 연쇄 거리",
+      "tw": "鍍金連鎖距離",
+      "ru": "Позолоченный: Дальность удара по цепи",
+      "jp": "金色の連鎖距離"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "arc_damage_+%_final_for_each_remaining_chain",
+        "value": 10
+      }
+    ]
+  },
+  "31600": {
+    "id": "EleFocusHigh",
+    "name": {
+      "en": "Greater Elemental Focus",
+      "kr": "상위 원소 집중",
+      "tw": "高階元素專注",
+      "ru": "Большая концентрация стихий",
+      "jp": "グレーター元素ダメージ集中"
+    },
+    "tier": 3,
+    "family": "EleFocus",
+    "gemIcon": "Art/2DItems/Gems/Support/ElementalFocus.dds",
+    "stats": [
+      {
+        "id": "support_gem_elemental_damage_+%_final",
+        "value": 30
+      },
+      {
+        "id": "cannot_inflict_status_ailments",
+        "value": 1
+      }
+    ]
+  },
+  "31664": {
+    "id": "FortifyHigh",
+    "name": {
+      "en": "Greater Fortify",
+      "kr": "상위 방어 상승",
+      "tw": "高階護體",
+      "ru": "Большое укрепление",
+      "jp": "グレーター堅牢化"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/FortifyGem.dds",
+    "stats": [
+      {
+        "id": "fortify_on_hit",
+        "value": 1
+      }
+    ]
+  },
+  "31863": {
+    "id": "MinionLifeHigh",
+    "name": {
+      "en": "Greater Minion Life",
+      "kr": "상위 소환수 생명력",
+      "tw": "高階召喚物生命",
+      "ru": "Большое здоровье приспешников",
+      "jp": "グレーターミニオンライフ"
+    },
+    "tier": 3,
+    "family": "MinionLife",
+    "gemIcon": "Art/2DItems/Gems/Support/MinionDamage.dds",
+    "stats": [
+      {
+        "id": "support_minion_maximum_life_+%_final",
+        "value": 60
+      }
+    ]
+  },
+  "32052": {
+    "id": "ForkHigh",
+    "name": {
+      "en": "Greater Fork",
+      "kr": "상위 갈래",
+      "tw": "高階分裂",
+      "ru": "Большое разветвление",
+      "jp": "グレーター分岐"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/Fork.dds",
+    "stats": [
+      {
+        "id": "projectiles_fork",
+        "value": 1
+      }
+    ]
+  },
+  "32130": {
+    "id": "LeechLow",
+    "name": {
+      "en": "Lesser Leech",
+      "kr": "하위 흡수",
+      "tw": "低階偷取",
+      "ru": "Малое похищение",
+      "jp": "レッサーリーチ"
+    },
+    "tier": 1,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/LifeLeech.dds",
+    "stats": [
+      {
+        "id": "life_leech_from_any_damage_permyriad",
+        "value": 200
+      }
+    ]
+  },
+  "32189": {
+    "id": "CritDamageMid",
+    "name": {
+      "en": "Critical Damage",
+      "kr": "치명타 피해",
+      "tw": "暴擊傷害",
+      "ru": "Критический урон",
+      "jp": "クリティカルダメージ"
+    },
+    "tier": 2,
+    "family": "CritDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedCriticalDamage.dds",
+    "stats": [
+      {
+        "id": "base_critical_strike_multiplier_+",
+        "value": 45
+      }
+    ]
+  },
+  "32260": {
+    "id": "TrapMineThrowSpeedLow",
+    "name": {
+      "en": "Lesser Throwing Speed",
+      "kr": "하위 투척 속도",
+      "tw": "低階投擲速度",
+      "ru": "Малое ускорение броска",
+      "jp": "レッサー投擲スピード"
+    },
+    "tier": 1,
+    "family": "TrapThrowSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "trap_throwing_speed_+%",
+        "value": 15
+      },
+      {
+        "id": "mine_laying_speed_+%",
+        "value": 15
+      }
+    ]
+  },
+  "32361": {
+    "id": "ToxicRainSpecificGraspingVinesHigh",
+    "name": {
+      "en": "Gilded Grasp",
+      "kr": "도금된 장악",
+      "tw": "鍍金魂掌",
+      "ru": "Позолоченный: Хватка",
+      "jp": "金色の束縛"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "add_x_grasping_vines_on_hit",
+        "value": 1
+      }
+    ]
+  },
+  "32431": {
+    "id": "GlacialCascadeSpecificNumberOfSpikesHigh",
+    "name": {
+      "en": "Gilded Cascade Count",
+      "kr": "도금된 폭포 수",
+      "tw": "鍍金連擊次數",
+      "ru": "Позолоченный: Число взрывов",
+      "jp": "金色のカスケードカウント"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "upheaval_number_of_spikes",
+        "value": 2
+      }
+    ]
+  },
+  "33272": {
+    "id": "NonDamagingAilmentEffectHigh",
+    "name": {
+      "en": "Greater Ailment Effect",
+      "kr": "상위 상태 이상 효과",
+      "tw": "高階異常狀態效果",
+      "ru": "Сильный эффект состояний",
+      "jp": "グレーター状態異常効果"
+    },
+    "tier": 3,
+    "family": "NonDamagingAilmentEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/UnboundAilments.dds",
+    "stats": [
+      {
+        "id": "non_damaging_ailment_effect_+%",
+        "value": 50
+      }
+    ]
+  },
+  "33557": {
+    "id": "IgnoreEnemyPhysMitHigh",
+    "name": {
+      "en": "Greater Mitigation Ignore",
+      "kr": "상위 완화 무시",
+      "tw": "高階無視減輕",
+      "ru": "Сильное игнорирование ослаблений",
+      "jp": "グレーター軽減無視"
+    },
+    "tier": 3,
+    "family": "IgnorePhysMit",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrDexSupportGem.dds",
+    "stats": [
+      {
+        "id": "hits_ignore_enemy_monster_physical_damage_reduction_%_chance",
+        "value": 30
+      }
+    ]
+  },
+  "33975": {
+    "id": "ChaosPenMid",
+    "name": {
+      "en": "Chaos Penetration",
+      "kr": "카오스 관통",
+      "tw": "混沌穿透",
+      "ru": "Пронизывающий хаос",
+      "jp": "混沌耐性貫通"
+    },
+    "tier": 2,
+    "family": "ChaosPen",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "reduce_enemy_chaos_resistance_%",
+        "value": 15
+      }
+    ]
+  },
+  "34226": {
+    "id": "FreezeChanceLow",
+    "name": {
+      "en": "Lesser Freeze Chance",
+      "kr": "하위 동결 확률",
+      "tw": "低階冰凍機率",
+      "ru": "Малый шанс заморозить",
+      "jp": "レッサー凍結付与"
+    },
+    "tier": 1,
+    "family": "FreezeChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_freeze_%",
+        "value": 20
+      }
+    ]
+  },
+  "34697": {
+    "id": "ChannelSkillDamageReductionMid",
+    "name": {
+      "en": "Infused Channelling",
+      "kr": "깊어지는 집중 유지",
+      "tw": "灌注引導",
+      "ru": "Усиленное поддержание",
+      "jp": "チャネリング注入"
+    },
+    "tier": 2,
+    "family": "ChannelSkillDamageReduction",
+    "gemIcon": "Art/2DItems/Gems/Support/StormBarrier.dds",
+    "stats": [
+      {
+        "id": "support_storm_barrier_damage_taken_when_hit_+%_final_while_channelling",
+        "value": -8
+      }
+    ]
+  },
+  "35435": {
+    "id": "GenerosityMid",
+    "name": {
+      "en": "Generosity",
+      "kr": "관대함",
+      "tw": "和善",
+      "ru": "Щедрость",
+      "jp": "寛大"
+    },
+    "tier": 2,
+    "family": "Generosity",
+    "gemIcon": "Art/2DItems/Gems/Support/GenerositySupport.dds",
+    "stats": [
+      {
+        "id": "aura_cannot_affect_self",
+        "value": 1
+      },
+      {
+        "id": "non_curse_aura_effect_+%",
+        "value": 20
+      }
+    ]
+  },
+  "35729": {
+    "id": "PulveriseLow",
+    "name": {
+      "en": "Lesser Pulverise",
+      "kr": "하위 분쇄",
+      "tw": "低階磨鍊",
+      "ru": "Малое распыление",
+      "jp": "レッサー強打"
+    },
+    "tier": 1,
+    "family": "Pulverise",
+    "gemIcon": "Art/2DItems/Gems/Support/Pulverize.dds",
+    "stats": [
+      {
+        "id": "support_pulverise_attack_speed_+%_final",
+        "value": -15
+      },
+      {
+        "id": "support_pulverise_melee_area_damage_+%_final",
+        "value": 15
+      },
+      {
+        "id": "base_skill_area_of_effect_+%",
+        "value": 15
+      }
+    ]
+  },
+  "36350": {
+    "id": "FlameLinkSpecificAddedFlatHigh",
+    "name": {
+      "en": "Gilded Empowered Link",
+      "kr": "도금된 강화된 연결",
+      "tw": "鍍金強化連結",
+      "ru": "Позолоченный: Усиленная связь",
+      "jp": "金色の強化リンク"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "flame_link_minimum_fire_damage",
+        "value": 38
+      },
+      {
+        "id": "flame_link_maximum_fire_damage",
+        "value": 56
+      }
+    ]
+  },
+  "36496": {
+    "id": "WarcryRageMid",
+    "name": {
+      "en": "Raging Cry",
+      "kr": "격노하는 함성",
+      "tw": "憤怒戰吼",
+      "ru": "Свирепый клич",
+      "jp": "レイジングクライ"
+    },
+    "tier": 2,
+    "family": "RageWarcry",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrSupportGem.dds",
+    "stats": [
+      {
+        "id": "gain_rage_when_you_use_a_warcry",
+        "value": 15
+      }
+    ]
+  },
+  "36665": {
+    "id": "AddedLightningLow",
+    "name": {
+      "en": "Lesser Added Lightning",
+      "kr": "하위 번개 추가",
+      "tw": "低階附加閃電",
+      "ru": "Малый урон молнией",
+      "jp": "レッサー雷追加"
+    },
+    "tier": 1,
+    "family": "AddedLightning",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedLightningDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_lightning_damage",
+        "value": 1
+      },
+      {
+        "id": "global_maximum_added_lightning_damage",
+        "value": 23
+      }
+    ]
+  },
+  "37259": {
+    "id": "SmiteSpecificAdditionalTargetHigh",
+    "name": {
+      "en": "Gilded Extra Targets",
+      "kr": "도금된 추가 대상",
+      "tw": "鍍金額外目標",
+      "ru": "Позолоченный: Дополнительные цели",
+      "jp": "金色の追加対象"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "smite_chance_for_lighting_to_strike_extra_target_%",
+        "value": 100
+      }
+    ]
+  },
+  "37275": {
+    "id": "HolyMortarSpecificCoverInAshHigh",
+    "name": {
+      "en": "Gilded Ash",
+      "kr": "도금된 재",
+      "tw": "鍍金灰燼",
+      "ru": "Позолоченный: Пепел",
+      "jp": "金色の灰"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "cover_in_ash_on_hit_%",
+        "value": 50
+      }
+    ]
+  },
+  "37388": {
+    "id": "EleFocusMid",
+    "name": {
+      "en": "Elemental Focus",
+      "kr": "원소 집중",
+      "tw": "元素專注",
+      "ru": "Концентрация стихий",
+      "jp": "元素ダメージ集中"
+    },
+    "tier": 2,
+    "family": "EleFocus",
+    "gemIcon": "Art/2DItems/Gems/Support/ElementalFocus.dds",
+    "stats": [
+      {
+        "id": "support_gem_elemental_damage_+%_final",
+        "value": 20
+      },
+      {
+        "id": "cannot_inflict_status_ailments",
+        "value": 1
+      }
+    ]
+  },
+  "37460": {
+    "id": "DotMultiHigh",
+    "name": {
+      "en": "Greater DoT Multiplier",
+      "kr": "상위 지속 피해 배율",
+      "tw": "高階持續傷害加成",
+      "ru": "Большой множитель постепенного урона",
+      "jp": "グレーターDoT倍率"
+    },
+    "tier": 3,
+    "family": "DotMulti",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "dot_multiplier_+",
+        "value": 35
+      }
+    ]
+  },
+  "37727": {
+    "id": "MirageArcherHigh",
+    "name": {
+      "en": "Mirage Archer",
+      "kr": "신기루 궁수",
+      "tw": "幻影射手",
+      "ru": "Призрачный лучник",
+      "jp": "ミラージュアーチャー"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MirageArcher.dds",
+    "stats": [
+      {
+        "id": "skill_can_own_mirage_archers",
+        "value": 1
+      },
+      {
+        "id": "summon_mirage_archer_on_hit",
+        "value": 1
+      },
+      {
+        "id": "disable_skill_if_weapon_not_bow",
+        "value": 1
+      },
+      {
+        "id": "support_mirage_archer_base_duration",
+        "value": 4000
+      },
+      {
+        "id": "support_mirage_archer_attack_speed_+%_final",
+        "value": -60
+      },
+      {
+        "id": "mirage_archer_projectile_additional_height_offset",
+        "value": -138
+      }
+    ]
+  },
+  "37739": {
+    "id": "LightningPenetrationLow",
+    "name": {
+      "en": "Lesser Lightning Penetration",
+      "kr": "하위 번개 관통",
+      "tw": "低階閃電穿透",
+      "ru": "Слабые пронизывающие молнии",
+      "jp": "レッサー雷耐性貫通"
+    },
+    "tier": 1,
+    "family": "LightPenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/LightningPenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_lightning_resistance_%",
+        "value": 8
+      }
+    ]
+  },
+  "38046": {
+    "id": "ShockChanceHigh",
+    "name": {
+      "en": "Greater Shock Chance",
+      "kr": "상위 감전 확률",
+      "tw": "高階感電機率",
+      "ru": "Большой шанс шока",
+      "jp": "グレーター感電付与"
+    },
+    "tier": 3,
+    "family": "ShockChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_shock_%",
+        "value": 60
+      }
+    ]
+  },
+  "38317": {
+    "id": "SoulrendAltSpecificChaosChillHigh",
+    "name": {
+      "en": "Gilded Hopelessness",
+      "kr": "도금된 절망",
+      "tw": "鍍金無望",
+      "ru": "Позолоченный: Безнадёжность",
+      "jp": "金色の絶望"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "chaos_damage_can_chill",
+        "value": 1
+      }
+    ]
+  },
+  "38571": {
+    "id": "HypothermiaMid",
+    "name": {
+      "en": "Hypothermia",
+      "kr": "체온저하",
+      "tw": "急凍",
+      "ru": "Переохлаждение",
+      "jp": "ハイポサーミア"
+    },
+    "tier": 2,
+    "family": "Hypothermia",
+    "gemIcon": "Art/2DItems/Gems/Support/DamageAgainstChilled.dds",
+    "stats": [
+      {
+        "id": "support_hypothermia_damage_+%_vs_chilled_enemies_final",
+        "value": 20
+      },
+      {
+        "id": "support_hypothermia_cold_damage_over_time_+%_final",
+        "value": 20
+      }
+    ]
+  },
+  "38851": {
+    "id": "CastSpeedMid",
+    "name": {
+      "en": "Faster Casting",
+      "kr": "시전 속도 증가",
+      "tw": "快速施放",
+      "ru": "Ускорение сотворения чар",
+      "jp": "キャストスピード"
+    },
+    "tier": 2,
+    "family": "CastSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterCast.dds",
+    "stats": [
+      {
+        "id": "base_cast_speed_+%",
+        "value": 25
+      }
+    ]
+  },
+  "38948": {
+    "id": "BleedMid",
+    "name": {
+      "en": "Chance to Bleed",
+      "kr": "출혈 확률",
+      "tw": "流血機率",
+      "ru": "Шанс кровотечения",
+      "jp": "出血付与"
+    },
+    "tier": 2,
+    "family": "Bleed",
+    "gemIcon": "Art/2DItems/Gems/Support/ChanceToBleed.dds",
+    "stats": [
+      {
+        "id": "bleed_on_hit_with_attacks_%",
+        "value": 35
+      },
+      {
+        "id": "base_bleed_duration_+%",
+        "value": 20
+      }
+    ]
+  },
+  "39050": {
+    "id": "GroundSlamSpecificAngleHigh",
+    "name": {
+      "en": "Gilded Increased Angle",
+      "kr": "도금된 각도 증가",
+      "tw": "鍍金增加角度",
+      "ru": "Позолоченный: Расширенный угол",
+      "jp": "金色の角度増加"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "ground_slam_angle_+%",
+        "value": 40
+      }
+    ]
+  },
+  "39101": {
+    "id": "CausticArrowSpecificChaosConvertHigh",
+    "name": {
+      "en": "Gilded Caustic Conversion",
+      "kr": "도금된 부식성 전환",
+      "tw": "鍍金腐蝕轉換",
+      "ru": "Позолоченный: Едкое превращение",
+      "jp": "金色のコースティック変換"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "skill_physical_damage_%_to_convert_to_chaos",
+        "value": 40
+      }
+    ]
+  },
+  "39307": {
+    "id": "ShieldChargeSpecificCrushOnHitHigh",
+    "name": {
+      "en": "Gilded Crush",
+      "kr": "도금된 타쇄",
+      "tw": "鍍金潰擊",
+      "ru": "Позолоченный: Сокрушение",
+      "jp": "金色のクラッシュ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "chance_to_crush_on_hit_%",
+        "value": 50
+      }
+    ]
+  },
+  "39342": {
+    "id": "PhysGainAsRandomMid",
+    "name": {
+      "en": "Physical as Extra",
+      "kr": "물리를 추가로",
+      "tw": "物理轉化為額外",
+      "ru": "Физический урон в виде урона от стихии",
+      "jp": "物理の一部を追加元素"
+    },
+    "tier": 2,
+    "family": "PhysGainAs",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_random_element",
+        "value": 20
+      }
+    ]
+  },
+  "39984": {
+    "id": "ChaosPenHigh",
+    "name": {
+      "en": "Greater Chaos Penetration",
+      "kr": "상위 카오스 관통",
+      "tw": "高階混沌穿透",
+      "ru": "Сильный пронизывающий хаос",
+      "jp": "グレーター混沌耐性貫通"
+    },
+    "tier": 3,
+    "family": "ChaosPen",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "reduce_enemy_chaos_resistance_%",
+        "value": 20
+      }
+    ]
+  },
+  "40212": {
+    "id": "OrbOfStormsSpecificShockCritKnockHigh",
+    "name": {
+      "en": "Gilded Jolt",
+      "kr": "도금된 경악",
+      "tw": "鍍金震動",
+      "ru": "Позолоченный: Встряска",
+      "jp": "金色の衝撃"
+    },
+    "tier": 3,
+    "family": "CritChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "critical_strikes_always_knockback_shocked_enemies",
+        "value": 1
+      },
+      {
+        "id": "base_spell_critical_strike_chance",
+        "value": 1000
+      }
+    ]
+  },
+  "40446": {
+    "id": "TrapTriggerRadiusLow",
+    "name": {
+      "en": "Lesser Trigger Radius",
+      "kr": "하위 발동 반경",
+      "tw": "低階觸發範圍",
+      "ru": "Малый радиус срабатывания",
+      "jp": "レッサートリガー半径"
+    },
+    "tier": 1,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "trap_trigger_radius_+%",
+        "value": 20
+      }
+    ]
+  },
+  "40533": {
+    "id": "AddedLightningHigh",
+    "name": {
+      "en": "Greater Added Lightning",
+      "kr": "상위 번개 추가",
+      "tw": "高階附加閃電",
+      "ru": "Большой урон молнией",
+      "jp": "グレーター雷追加"
+    },
+    "tier": 3,
+    "family": "AddedLightning",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedLightningDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_lightning_damage",
+        "value": 9
+      },
+      {
+        "id": "global_maximum_added_lightning_damage",
+        "value": 168
+      }
+    ]
+  },
+  "40565": {
+    "id": "ColdPenetrationLow",
+    "name": {
+      "en": "Lesser Cold Penetration",
+      "kr": "하위 냉기 관통",
+      "tw": "低階冰冷穿透",
+      "ru": "Слабый пронизывающий холод",
+      "jp": "レッサー冷気耐性貫通"
+    },
+    "tier": 1,
+    "family": "ColdPenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/ColdPenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_cold_resistance_%",
+        "value": 8
+      }
+    ]
+  },
+  "40660": {
+    "id": "MeleeSplashHigh",
+    "name": {
+      "en": "Melee Splash",
+      "kr": "근접 범위 피해",
+      "tw": "近戰擴散",
+      "ru": "Раскатистый удар",
+      "jp": "近接スプラッシュ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/Splash.dds",
+    "stats": [
+      {
+        "id": "melee_splash_area_of_effect_+%_final",
+        "value": 35
+      },
+      {
+        "id": "melee_splash",
+        "value": 1
+      },
+      {
+        "id": "support_melee_splash_damage_+%_final_for_splash",
+        "value": -30
+      }
+    ]
+  },
+  "40676": {
+    "id": "SRSSpecificShrinesHigh",
+    "name": {
+      "en": "Gilded Devotion",
+      "kr": "도금된 헌신",
+      "tw": "鍍金奉獻",
+      "ru": "Позолоченный: Служение",
+      "jp": "金色の献身"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "summoned_raging_spirits_have_diamond_and_massive_shrine_buff",
+        "value": 1
+      }
+    ]
+  },
+  "41118": {
+    "id": "ShockwaveTotemSpecificAstralHigh",
+    "name": {
+      "en": "Gilded Astral Totem",
+      "kr": "도금된 우주의 토템",
+      "tw": "鍍金星際圖騰",
+      "ru": "Позолоченный: Звёздный тотем",
+      "jp": "金色のアストラルトーテム"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "nova_spells_cast_at_target_location",
+        "value": 1
+      }
+    ]
+  },
+  "41256": {
+    "id": "LightningPenetrationMid",
+    "name": {
+      "en": "Lightning Penetration",
+      "kr": "번개 관통",
+      "tw": "閃電穿透",
+      "ru": "Пронизывающие молнии",
+      "jp": "雷耐性貫通"
+    },
+    "tier": 2,
+    "family": "LightPenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/LightningPenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_lightning_resistance_%",
+        "value": 10
+      }
+    ]
+  },
+  "41756": {
+    "id": "LeechHigh",
+    "name": {
+      "en": "Greater Leech",
+      "kr": "상위 흡수",
+      "tw": "高階偷取",
+      "ru": "Большое похищение",
+      "jp": "グレーターリーチ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/LifeLeech.dds",
+    "stats": [
+      {
+        "id": "life_leech_from_any_damage_permyriad",
+        "value": 600
+      }
+    ]
+  },
+  "42140": {
+    "id": "CleaveSpecificCullHigh",
+    "name": {
+      "en": "Gilded Cull",
+      "kr": "도금된 마무리 타격",
+      "tw": "鍍金撲殺",
+      "ru": "Позолоченный: Добивание",
+      "jp": "金色のカリングストライク"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "kill_enemy_on_hit_if_under_10%_life",
+        "value": 1
+      }
+    ]
+  },
+  "42155": {
+    "id": "SparkSpecificNovaHigh",
+    "name": {
+      "en": "Gilded Nova",
+      "kr": "도금된 폭발",
+      "tw": "鍍金新星",
+      "ru": "Позолоченный: Кольцо",
+      "jp": "金色のノヴァ"
+    },
+    "tier": 3,
+    "family": "MultipleProjectiles",
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "projectiles_nova",
+        "value": 1
+      }
+    ]
+  },
+  "42600": {
+    "id": "BleedLow",
+    "name": {
+      "en": "Lesser Chance to Bleed",
+      "kr": "하위 출혈 확률",
+      "tw": "低階流血機率",
+      "ru": "Малый шанс кровотечения",
+      "jp": "レッサー出血付与"
+    },
+    "tier": 1,
+    "family": "Bleed",
+    "gemIcon": "Art/2DItems/Gems/Support/ChanceToBleed.dds",
+    "stats": [
+      {
+        "id": "bleed_on_hit_with_attacks_%",
+        "value": 20
+      },
+      {
+        "id": "base_bleed_duration_+%",
+        "value": 20
+      }
+    ]
+  },
+  "42698": {
+    "id": "ConcentratedEffectLow",
+    "name": {
+      "en": "Lesser Concentrated Effect",
+      "kr": "하위 효과 집중",
+      "tw": "低階集中效果",
+      "ru": "Малое средоточие",
+      "jp": "レッサー範囲ダメージ集中"
+    },
+    "tier": 1,
+    "family": "ConcEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/ConcentratedAOE.dds",
+    "stats": [
+      {
+        "id": "support_concentrated_effect_skill_area_of_effect_+%_final",
+        "value": -30
+      },
+      {
+        "id": "support_area_concentrate_area_damage_+%_final",
+        "value": 20
+      }
+    ]
+  },
+  "42966": {
+    "id": "ExplosiveArrowSpecificMaxHigh",
+    "name": {
+      "en": "Gilded Maximum Explosions",
+      "kr": "도금된 최대 폭발",
+      "tw": "鍍金爆炸上限",
+      "ru": "Позолоченный: Максимум взрывов",
+      "jp": "金色の最大爆発"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "explosive_arrow_stack_limit",
+        "value": 2
+      }
+    ]
+  },
+  "42977": {
+    "id": "AddedFireLow",
+    "name": {
+      "en": "Lesser Added Fire",
+      "kr": "하위 화염 추가",
+      "tw": "低階附加火焰",
+      "ru": "Малый урон огнём",
+      "jp": "レッサー火追加"
+    },
+    "tier": 1,
+    "family": "AddedFire",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedFireDamage.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_fire",
+        "value": 10
+      }
+    ]
+  },
+  "43469": {
+    "id": "CastSpeedLow",
+    "name": {
+      "en": "Lesser Faster Casting",
+      "kr": "하위 시전 속도 증가",
+      "tw": "低階快速施放",
+      "ru": "Малое ускорение сотворения чар",
+      "jp": "レッサーキャストスピード"
+    },
+    "tier": 1,
+    "family": "CastSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterCast.dds",
+    "stats": [
+      {
+        "id": "base_cast_speed_+%",
+        "value": 15
+      }
+    ]
+  },
+  "44238": {
+    "id": "HolyRelicSpecificRegenHigh",
+    "name": {
+      "en": "Gilded Relic Recovery",
+      "kr": "도금된 유물 회복",
+      "tw": "鍍金聖物恢復",
+      "ru": "Позолоченный: Восстановление от реликвии",
+      "jp": "金色のレリック回復"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "holy_relic_nova_life_regeneration_rate_per_minute",
+        "value": 1500
+      }
+    ]
+  },
+  "44527": {
+    "id": "AilmentDamageLow",
+    "name": {
+      "en": "Lesser Ailment Damage",
+      "kr": "하위 상태 이상 피해",
+      "tw": "低階異常狀態傷害",
+      "ru": "Малый урон от состояний",
+      "jp": "レッサー状態異常ダメージ"
+    },
+    "tier": 1,
+    "family": "AilmentDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/DeadlyAilments.dds",
+    "stats": [
+      {
+        "id": "support_better_ailments_ailment_damage_+%_final",
+        "value": 15
+      },
+      {
+        "id": "support_better_ailments_hit_damage_+%_final",
+        "value": -30
+      }
+    ]
+  },
+  "44886": {
+    "id": "EleDamageWithAttacksMid",
+    "name": {
+      "en": "Elemental Damage with Attacks",
+      "kr": "공격 시 원소 피해",
+      "tw": "元素攻擊傷害",
+      "ru": "Урон от стихий атаками",
+      "jp": "アタック元素ダメージ"
+    },
+    "tier": 2,
+    "family": "WED",
+    "gemIcon": "Art/2DItems/Gems/Support/WeaponElementalDamage.dds",
+    "stats": [
+      {
+        "id": "support_attack_skills_elemental_damage_+%_final",
+        "value": 20
+      }
+    ]
+  },
+  "44952": {
+    "id": "ReducedProjSpeedHigh",
+    "name": {
+      "en": "Greater Slower Projectiles",
+      "kr": "상위 투사체 감속",
+      "tw": "高階投射物減速",
+      "ru": "Сильно замедленные снаряды",
+      "jp": "グレーター投射物低速化"
+    },
+    "tier": 3,
+    "family": "ProjectileSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/SlowerProjectiles.dds",
+    "stats": [
+      {
+        "id": "base_projectile_speed_+%",
+        "value": -40
+      }
+    ]
+  },
+  "45050": {
+    "id": "PhysGainAsRandomHigh",
+    "name": {
+      "en": "Greater Physical as Extra",
+      "kr": "상위 물리를 추가로",
+      "tw": "高階物理轉化為額外",
+      "ru": "Большой физический урон в виде урона от стихии",
+      "jp": "グレーター物理の一部を追加元素"
+    },
+    "tier": 3,
+    "family": "PhysGainAs",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_random_element",
+        "value": 35
+      }
+    ]
+  },
+  "45284": {
+    "id": "AddedChaosLow",
+    "name": {
+      "en": "Lesser Added Chaos",
+      "kr": "하위 카오스 추가",
+      "tw": "低階附加混沌",
+      "ru": "Малый урон хаосом",
+      "jp": "レッサー混沌追加"
+    },
+    "tier": 1,
+    "family": "AddedChaos",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedChaosDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_chaos_damage",
+        "value": 10
+      },
+      {
+        "id": "global_maximum_added_chaos_damage",
+        "value": 16
+      }
+    ]
+  },
+  "45433": {
+    "id": "ExcommunicateMid",
+    "name": {
+      "en": "Excommunicate",
+      "kr": "제명",
+      "tw": "放逐",
+      "ru": "Отлучение",
+      "jp": "破門"
+    },
+    "tier": 2,
+    "family": "Excommunicate",
+    "gemIcon": "Art/2DItems/Gems/Support/Excommunicate.dds",
+    "stats": [
+      {
+        "id": "support_excommunicate_on_melee_attack_hit_for_X_ms",
+        "value": 3000
+      },
+      {
+        "id": "physical_damage_%_to_add_as_lightning",
+        "value": 15
+      },
+      {
+        "id": "physical_damage_%_to_add_as_fire",
+        "value": 15
+      }
+    ]
+  },
+  "45439": {
+    "id": "AddedFireMid",
+    "name": {
+      "en": "Added Fire",
+      "kr": "화염 추가",
+      "tw": "附加火焰",
+      "ru": "Урон огнём",
+      "jp": "火追加"
+    },
+    "tier": 2,
+    "family": "AddedFire",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedFireDamage.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_fire",
+        "value": 20
+      }
+    ]
+  },
+  "45969": {
+    "id": "SacredWispsHigh",
+    "name": {
+      "en": "Greater Sacred Wisps",
+      "kr": "상위 신성한 도깨비불",
+      "tw": "高階神聖妖精",
+      "ru": "Много священных огоньков",
+      "jp": "グレーター聖なるウィスプ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/WandWispSupport.dds",
+    "stats": [
+      {
+        "id": "summon_sacred_wisps_on_hit",
+        "value": 1
+      }
+    ]
+  },
+  "46010": {
+    "id": "FirePenetrationLow",
+    "name": {
+      "en": "Lesser Fire Penetration",
+      "kr": "하위 화염 관통",
+      "tw": "低階火焰穿透",
+      "ru": "Слабый пронизывающий жар",
+      "jp": "レッサー火耐性貫通"
+    },
+    "tier": 1,
+    "family": "FirePenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/FirePenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_fire_resistance_%",
+        "value": 8
+      }
+    ]
+  },
+  "47477": {
+    "id": "WarcrySpeedMid",
+    "name": {
+      "en": "Warcry Speed",
+      "kr": "함성 속도",
+      "tw": "戰吼速度",
+      "ru": "Ускорение боевых кличей",
+      "jp": "ウォークライスピード"
+    },
+    "tier": 2,
+    "family": "WarcrySpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/UrgentOrdersSupport.dds",
+    "stats": [
+      {
+        "id": "warcry_speed_+%",
+        "value": 50
+      }
+    ]
+  },
+  "48614": {
+    "id": "FlameblastSpecificStagesHigh",
+    "name": {
+      "en": "Gilded Maximum Stages",
+      "kr": "도금된 최대 단계",
+      "tw": "鍍金疊層上限",
+      "ru": "Позолоченный: Максимум стадий",
+      "jp": "金色の最大ステージ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "flameblast_maximum_stages",
+        "value": 3
+      }
+    ]
+  },
+  "48738": {
+    "id": "LeapSlamSpecificFrenzyOnHitHigh",
+    "name": {
+      "en": "Gilded Frenzy",
+      "kr": "도금된 격분",
+      "tw": "鍍金狂怒",
+      "ru": "Позолоченный: Бешенство",
+      "jp": "金色のフレンジー"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "add_frenzy_charge_on_skill_hit_%",
+        "value": 100
+      }
+    ]
+  },
+  "48875": {
+    "id": "CooldownSpeedMid",
+    "name": {
+      "en": "Cooldown Recovery",
+      "kr": "재사용 대기시간 회복",
+      "tw": "冷卻時間恢復",
+      "ru": "Ускорение перезарядки",
+      "jp": "クールダウン解消"
+    },
+    "tier": 2,
+    "family": "Cooldown",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_cooldown_speed_+%",
+        "value": 30
+      }
+    ]
+  },
+  "48949": {
+    "id": "DarkPactSpecificMaledictionOnHitHigh",
+    "name": {
+      "en": "Gilded Malediction",
+      "kr": "도금된 악담",
+      "tw": "鍍金惡語術",
+      "ru": "Позолоченный: Злословие",
+      "jp": "金色の呪詛"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "malediction_on_hit",
+        "value": 1
+      }
+    ]
+  },
+  "49189": {
+    "id": "BlastRainAltSpecificExtraBlastHigh",
+    "name": {
+      "en": "Gilded Blasting",
+      "kr": "도금된 폭발 위력",
+      "tw": "鍍金爆破",
+      "ru": "Позолоченный: Взрывы",
+      "jp": "金色の爆裂"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "blast_rain_%_chance_for_additional_blast",
+        "value": 50
+      }
+    ]
+  },
+  "49237": {
+    "id": "WarcryRageLow",
+    "name": {
+      "en": "Lesser Raging Cry",
+      "kr": "하위 격노하는 함성",
+      "tw": "低階憤怒戰吼",
+      "ru": "Слабый свирепый клич",
+      "jp": "レッサーレイジングクライ"
+    },
+    "tier": 1,
+    "family": "RageWarcry",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrSupportGem.dds",
+    "stats": [
+      {
+        "id": "gain_rage_when_you_use_a_warcry",
+        "value": 10
+      }
+    ]
+  },
+  "49419": {
+    "id": "MultipleProjectilesHigh",
+    "name": {
+      "en": "Greater Multiple Projectiles",
+      "kr": "상위 다중 투사체",
+      "tw": "高階多重投射物",
+      "ru": "Много дополнительных снарядов",
+      "jp": "グレーター投射物追加"
+    },
+    "tier": 3,
+    "family": "MultipleProjectiles",
+    "gemIcon": "Art/2DItems/Gems/Support/GreaterMultipleProjectiles.dds",
+    "stats": [
+      {
+        "id": "number_of_additional_projectiles",
+        "value": 3
+      }
+    ]
+  },
+  "49954": {
+    "id": "TrapMineDamageLow",
+    "name": {
+      "en": "Lesser Trap and Mine Damage",
+      "kr": "하위 덫과 지뢰 피해",
+      "tw": "低階陷阱和地雷傷害",
+      "ru": "Малый урон ловушек и мин",
+      "jp": "レッサートラップ・マインダメージ"
+    },
+    "tier": 1,
+    "family": "TrapMineDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/TrapAndMineDamage.dds",
+    "stats": [
+      {
+        "id": "support_trap_and_mine_damage_+%_final",
+        "value": 15
+      },
+      {
+        "id": "support_trap_and_mine_damage_trap_throwing_speed_+%_final",
+        "value": -25
+      }
+    ]
+  },
+  "50222": {
+    "id": "IncreaseDurationMid",
+    "name": {
+      "en": "More Duration",
+      "kr": "지속시간 증폭",
+      "tw": "更多持續時間",
+      "ru": "Продление",
+      "jp": "持続時間上昇"
+    },
+    "tier": 2,
+    "family": "Duration",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedDuration.dds",
+    "stats": [
+      {
+        "id": "support_more_duration_skill_effect_duration_+%_final",
+        "value": 25
+      }
+    ]
+  },
+  "50273": {
+    "id": "VaalReapSpecificFireDebuffHigh",
+    "name": {
+      "en": "Gilded Searing Agony",
+      "kr": "도금된 이글거리는 고통",
+      "tw": "鍍金灼熱苦難",
+      "ru": "Позолоченный: Жгучая агония",
+      "jp": "金色の灼ける苦悶"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "reap_debuff_deals_fire_damage_instead_of_physical_damage",
+        "value": 1
+      }
+    ]
+  },
+  "50303": {
+    "id": "IgniteChanceMid",
+    "name": {
+      "en": "Ignite Chance",
+      "kr": "점화 확률",
+      "tw": "點燃機率",
+      "ru": "Шанс поджечь",
+      "jp": "発火付与"
+    },
+    "tier": 2,
+    "family": "IgniteChance",
+    "gemIcon": "Art/2DItems/Gems/Support/ChancetoIgnite.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_ignite_%",
+        "value": 40
+      }
+    ]
+  },
+  "50475": {
+    "id": "AddedCooldownCountHigh",
+    "name": {
+      "en": "Second Wind",
+      "kr": "새로운 활력",
+      "tw": "恢復",
+      "ru": "Второе дыхание",
+      "jp": "セカンドウィンド"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/SecondWindSupport.dds",
+    "stats": [
+      {
+        "id": "support_added_cooldown_count_if_not_instant",
+        "value": 1
+      }
+    ]
+  },
+  "50485": {
+    "id": "AttackSpeedHigh",
+    "name": {
+      "en": "Greater Faster Attacks",
+      "kr": "상위 공격 속도 증가",
+      "tw": "高階快速攻擊",
+      "ru": "Большое ускорение атак",
+      "jp": "グレーターアタックスピード増加"
+    },
+    "tier": 3,
+    "family": "AttackSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterAttacks.dds",
+    "stats": [
+      {
+        "id": "attack_speed_+%",
+        "value": 35
+      }
+    ]
+  },
+  "50741": {
+    "id": "HolyMoltenStrikeSpecificLightningExposureHigh",
+    "name": {
+      "en": "Gilded Exposure on Hit",
+      "kr": "도금된 명중 시 노출 유발",
+      "tw": "鍍金擊中時曝曬",
+      "ru": "Позолоченный: Восприимчивость при ударе",
+      "jp": "金色のヒット時曝露"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_inflict_lightning_exposure_on_hit_%_chance",
+        "value": 30
+      }
+    ]
+  },
+  "51009": {
+    "id": "PhysGainAsChaosMid",
+    "name": {
+      "en": "Physical as Extra Chaos",
+      "kr": "물리를 추가 카오스로 전환",
+      "tw": "物理轉化為額外混沌",
+      "ru": "Физический урон в виде урона хаосом",
+      "jp": "物理の一部を追加混沌"
+    },
+    "tier": 2,
+    "family": "PhysGainAs",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_chaos",
+        "value": 15
+      }
+    ]
+  },
+  "51806": {
+    "id": "ConcentratedEffectHigh",
+    "name": {
+      "en": "Greater Concentrated Effect",
+      "kr": "상위 효과 집중",
+      "tw": "高階集中效果",
+      "ru": "Большое средоточие",
+      "jp": "グレーター範囲ダメージ集中"
+    },
+    "tier": 3,
+    "family": "ConcEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/ConcentratedAOE.dds",
+    "stats": [
+      {
+        "id": "support_concentrated_effect_skill_area_of_effect_+%_final",
+        "value": -30
+      },
+      {
+        "id": "support_area_concentrate_area_damage_+%_final",
+        "value": 40
+      }
+    ]
+  },
+  "51944": {
+    "id": "CobraLashSpecificPoisonRegenHigh",
+    "name": {
+      "en": "Gilded Bitterwound",
+      "kr": "도금된 쓰라린 상처",
+      "tw": "鍍金苦痛傷痕",
+      "ru": "Позолоченный: Едкая рана",
+      "jp": "金色の苦い傷"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "enemy_life_regeneration_rate_+%_for_4_seconds_on_hit",
+        "value": -50
+      }
+    ]
+  },
+  "52142": {
+    "id": "WarcrySpeedHigh",
+    "name": {
+      "en": "Greater Warcry Speed",
+      "kr": "상위 함성 속도",
+      "tw": "高階戰吼速度",
+      "ru": "Большое ускорение боевых кличей",
+      "jp": "グレーターウォークライスピード"
+    },
+    "tier": 3,
+    "family": "WarcrySpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/UrgentOrdersSupport.dds",
+    "stats": [
+      {
+        "id": "warcry_speed_+%",
+        "value": 75
+      }
+    ]
+  },
+  "52335": {
+    "id": "IgniteChanceLow",
+    "name": {
+      "en": "Lesser Ignite Chance",
+      "kr": "하위 점화 확률",
+      "tw": "低階點燃機率",
+      "ru": "Малый шанс поджечь",
+      "jp": "レッサー発火付与"
+    },
+    "tier": 1,
+    "family": "IgniteChance",
+    "gemIcon": "Art/2DItems/Gems/Support/ChancetoIgnite.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_ignite_%",
+        "value": 20
+      }
+    ]
+  },
+  "52378": {
+    "id": "SummonSkeletonsSpecificArchersHigh",
+    "name": {
+      "en": "Gilded Archers",
+      "kr": "도금된 궁수",
+      "tw": "鍍金射手",
+      "ru": "Позолоченный: Лучники",
+      "jp": "金色の弓兵"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "chance_for_melee_skeletons_to_summon_as_archer_skeletons_%",
+        "value": 100
+      }
+    ]
+  },
+  "52383": {
+    "id": "FlickerStrikeSpecificConsumeAllImpalesHigh",
+    "name": {
+      "en": "Gilded Impale Extraction",
+      "kr": "도금된 꿰뚫기 추출",
+      "tw": "鍍金穿刺提取",
+      "ru": "Позолоченный: Извлечение Проколов",
+      "jp": "金色の串刺し抽出"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "consume_all_impales_remaining_hits_on_hit_%_chance",
+        "value": 50
+      }
+    ]
+  },
+  "52432": {
+    "id": "EnduringCrySpecificOnslaughtGainHigh",
+    "name": {
+      "en": "Gilded Onslaught on Cry",
+      "kr": "도금된 함성 시 맹공",
+      "tw": "鍍金戰吼時猛攻",
+      "ru": "Позолоченный: Боевой раж при кличе",
+      "jp": "金色のクライ時猛攻"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "you_and_nearby_allys_gain_onslaught_for_4_seconds_on_warcry",
+        "value": 1
+      }
+    ]
+  },
+  "52447": {
+    "id": "AttackSpeedLow",
+    "name": {
+      "en": "Lesser Faster Attacks",
+      "kr": "하위 공격 속도 증가",
+      "tw": "低階快速攻擊",
+      "ru": "Малое ускорение атак",
+      "jp": "レッサーアタックスピード増加"
+    },
+    "tier": 1,
+    "family": "AttackSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterAttacks.dds",
+    "stats": [
+      {
+        "id": "attack_speed_+%",
+        "value": 15
+      }
+    ]
+  },
+  "52472": {
+    "id": "MinionDamageHigh",
+    "name": {
+      "en": "Greater Minion Damage",
+      "kr": "상위 소환수 피해",
+      "tw": "高階召喚物傷害",
+      "ru": "Большой урон приспешников",
+      "jp": "グレーターミニオンダメージ"
+    },
+    "tier": 3,
+    "family": "MinionDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/MinionDamage.dds",
+    "stats": [
+      {
+        "id": "support_minion_damage_minion_life_+%_final",
+        "value": -25
+      },
+      {
+        "id": "support_minion_damage_+%_final",
+        "value": 30
+      }
+    ]
+  },
+  "52758": {
+    "id": "AddedColdMid",
+    "name": {
+      "en": "Added Cold",
+      "kr": "냉기 추가",
+      "tw": "附加冰冷",
+      "ru": "Урон холодом",
+      "jp": "冷気追加"
+    },
+    "tier": 2,
+    "family": "AddedCold",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedColdDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_cold_damage",
+        "value": 33
+      },
+      {
+        "id": "global_maximum_added_cold_damage",
+        "value": 49
+      }
+    ]
+  },
+  "53145": {
+    "id": "HypothermiaHigh",
+    "name": {
+      "en": "Greater Hypothermia",
+      "kr": "상위 체온저하",
+      "tw": "高階急凍",
+      "ru": "Сильное переохлаждение",
+      "jp": "グレーターハイポサーミア"
+    },
+    "tier": 3,
+    "family": "Hypothermia",
+    "gemIcon": "Art/2DItems/Gems/Support/DamageAgainstChilled.dds",
+    "stats": [
+      {
+        "id": "support_hypothermia_damage_+%_vs_chilled_enemies_final",
+        "value": 30
+      },
+      {
+        "id": "support_hypothermia_cold_damage_over_time_+%_final",
+        "value": 30
+      }
+    ]
+  },
+  "53342": {
+    "id": "IncreaseAreaOfEffectMid",
+    "name": {
+      "en": "Increased Area of Effect",
+      "kr": "효과 범위 증가",
+      "tw": "增加效果範圍",
+      "ru": "Расширение области действия",
+      "jp": "効果範囲増加"
+    },
+    "tier": 2,
+    "family": "IncreaseAreaOfEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedAOE.dds",
+    "stats": [
+      {
+        "id": "base_skill_area_of_effect_+%",
+        "value": 40
+      }
+    ]
+  },
+  "53367": {
+    "id": "GenerosityHigh",
+    "name": {
+      "en": "Greater Generosity",
+      "kr": "상위 관대함",
+      "tw": "高階和善",
+      "ru": "Большая щедрость",
+      "jp": "グレーター寛大"
+    },
+    "tier": 3,
+    "family": "Generosity",
+    "gemIcon": "Art/2DItems/Gems/Support/GenerositySupport.dds",
+    "stats": [
+      {
+        "id": "aura_cannot_affect_self",
+        "value": 1
+      },
+      {
+        "id": "non_curse_aura_effect_+%",
+        "value": 30
+      }
+    ]
+  },
+  "53516": {
+    "id": "MeleePhysMid",
+    "name": {
+      "en": "Melee Physical Damage",
+      "kr": "근접 물리 피해",
+      "tw": "近戰物理傷害",
+      "ru": "Физический урон ближнего боя",
+      "jp": "近接物理ダメージ"
+    },
+    "tier": 2,
+    "family": "MeleePhys",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedPhysicalDamage.dds",
+    "stats": [
+      {
+        "id": "support_melee_physical_damage_+%_final",
+        "value": 15
+      },
+      {
+        "id": "support_melee_physical_damage_poison_and_bleeding_damage_+%_final_from_melee_hits",
+        "value": 15
+      }
+    ]
+  },
+  "53673": {
+    "id": "WitherOnHitLow",
+    "name": {
+      "en": "Lesser Wither on Hit",
+      "kr": "하위 명중 시 위축",
+      "tw": "低階擊中時凋零",
+      "ru": "Слабое истощение при ударе",
+      "jp": "レッサーヒット時衰弱"
+    },
+    "tier": 1,
+    "family": "WitherOnHit",
+    "gemIcon": "Art/2DItems/Gems/Support/WitherGemSupport.dds",
+    "stats": [
+      {
+        "id": "withered_on_hit_chance_%",
+        "value": 15
+      }
+    ]
+  },
+  "54156": {
+    "id": "TrapTriggerRadiusHigh",
+    "name": {
+      "en": "Greater Trigger Radius",
+      "kr": "상위 발동 반경",
+      "tw": "高階觸發範圍",
+      "ru": "Большой радиус срабатывания",
+      "jp": "グレータートリガー半径"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "trap_trigger_radius_+%",
+        "value": 60
+      }
+    ]
+  },
+  "54252": {
+    "id": "ImpaleChanceLow",
+    "name": {
+      "en": "Lesser Impale Chance",
+      "kr": "하위 꿰뚫기 확률",
+      "tw": "低階穿刺機率",
+      "ru": "Малый шанс проколоть",
+      "jp": "レッサー串刺し付与"
+    },
+    "tier": 1,
+    "family": "ImpaleChance",
+    "gemIcon": "Art/2DItems/Gems/Support/impale.dds",
+    "stats": [
+      {
+        "id": "impale_on_hit_%_chance",
+        "value": 20
+      }
+    ]
+  },
+  "54494": {
+    "id": "FirePenetrationHigh",
+    "name": {
+      "en": "Greater Fire Penetration",
+      "kr": "상위 화염 관통",
+      "tw": "高階火焰穿透",
+      "ru": "Сильный пронизывающий жар",
+      "jp": "グレーター火耐性貫通"
+    },
+    "tier": 3,
+    "family": "FirePenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/FirePenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_fire_resistance_%",
+        "value": 12
+      }
+    ]
+  },
+  "54628": {
+    "id": "ColdPenetrationMid",
+    "name": {
+      "en": "Cold Penetration",
+      "kr": "냉기 관통",
+      "tw": "冰冷穿透",
+      "ru": "Пронизывающий холод",
+      "jp": "冷気耐性貫通"
+    },
+    "tier": 2,
+    "family": "ColdPenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/ColdPenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_cold_resistance_%",
+        "value": 10
+      }
+    ]
+  },
+  "54768": {
+    "id": "ReduceDurationLow",
+    "name": {
+      "en": "Lesser Less Duration",
+      "kr": "하위 지속시간 감폭",
+      "tw": "低階更少持續時間",
+      "ru": "Малое сокращение",
+      "jp": "レッサー持続時間低下"
+    },
+    "tier": 1,
+    "family": "Duration",
+    "gemIcon": "Art/2DItems/Gems/Support/ReduceDuration.dds",
+    "stats": [
+      {
+        "id": "support_more_duration_skill_effect_duration_+%_final",
+        "value": -15
+      }
+    ]
+  },
+  "54837": {
+    "id": "BrittleChanceHigh",
+    "name": {
+      "en": "Brittle Chance",
+      "kr": "허약 유발 확률",
+      "tw": "易碎機率",
+      "ru": "Шанс наложить Хрупкость",
+      "jp": "脆弱付与"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "chance_to_inflict_frostburn_%",
+        "value": 30
+      }
+    ]
+  },
+  "55249": {
+    "id": "RageOnMeleeHitLow",
+    "name": {
+      "en": "Lesser Rage on Hit",
+      "kr": "하위 명중 시 격노",
+      "tw": "低階擊中時獲得盛怒",
+      "ru": "Малая свирепость при ударе",
+      "jp": "レッサーヒット時憤怒"
+    },
+    "tier": 1,
+    "family": "RageOnHit",
+    "gemIcon": "Art/2DItems/Gems/Support/RageSupport.dds",
+    "stats": [
+      {
+        "id": "gain_x_rage_on_melee_hit",
+        "value": 2
+      }
+    ]
+  },
+  "55470": {
+    "id": "WarcrySpeedLow",
+    "name": {
+      "en": "Lesser Warcry Speed",
+      "kr": "하위 함성 속도",
+      "tw": "低階戰吼速度",
+      "ru": "Малое ускорение боевых кличей",
+      "jp": "レッサーウォークライスピード"
+    },
+    "tier": 1,
+    "family": "WarcrySpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/UrgentOrdersSupport.dds",
+    "stats": [
+      {
+        "id": "warcry_speed_+%",
+        "value": 35
+      }
+    ]
+  },
+  "55659": {
+    "id": "CritDamageHigh",
+    "name": {
+      "en": "Greater Critical Damage",
+      "kr": "상위 치명타 피해",
+      "tw": "高階暴擊傷害",
+      "ru": "Большой критический урон",
+      "jp": "グレータークリティカルダメージ"
+    },
+    "tier": 3,
+    "family": "CritDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedCriticalDamage.dds",
+    "stats": [
+      {
+        "id": "base_critical_strike_multiplier_+",
+        "value": 70
+      }
+    ]
+  },
+  "55807": {
+    "id": "BrutalityLow",
+    "name": {
+      "en": "Lesser Brutality",
+      "kr": "하위 포악함",
+      "tw": "低階野性殘暴",
+      "ru": "Малая жестокость",
+      "jp": "レッサーブルータリティ"
+    },
+    "tier": 1,
+    "family": "Brutality",
+    "gemIcon": "Art/2DItems/Gems/Support/Brutality.dds",
+    "stats": [
+      {
+        "id": "deal_no_elemental_damage",
+        "value": 1
+      },
+      {
+        "id": "base_deal_no_chaos_damage",
+        "value": 1
+      },
+      {
+        "id": "support_brutality_physical_damage_+%_final",
+        "value": 15
+      }
+    ]
+  },
+  "55952": {
+    "id": "WitheringStepSpecificWitherStacksHigh",
+    "name": {
+      "en": "Gilded Wither Stacks",
+      "kr": "도금된 위축 중첩",
+      "tw": "鍍金凋零疊層",
+      "ru": "Позолоченный: Заряды истощения",
+      "jp": "金色の衰弱スタック"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "slither_wither_stacks",
+        "value": 5
+      }
+    ]
+  },
+  "55998": {
+    "id": "SoulrendSpecificBaseDurationHigh",
+    "name": {
+      "en": "Gilded Additional Duration",
+      "kr": "도금된 추가 지속시간",
+      "tw": "鍍金額外持續時間",
+      "ru": "Позолоченный: Дополнительная длительность",
+      "jp": "金色の追加持続時間"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_skill_effect_duration",
+        "value": 1000
+      }
+    ]
+  },
+  "56144": {
+    "id": "PurifyingFlameSpecificConsecratedGroundEffectHigh",
+    "name": {
+      "en": "Gilded Purified Ground",
+      "kr": "도금된 정화된 지대",
+      "tw": "鍍金淨化地面",
+      "ru": "Позолоченный: Очищенная земля",
+      "jp": "金色の神聖領域"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "consecrated_ground_effect_+%",
+        "value": 30
+      }
+    ]
+  },
+  "56233": {
+    "id": "HallowHigh",
+    "name": {
+      "en": "Hallow",
+      "kr": "거룩함",
+      "tw": "聖徒",
+      "ru": "Благодать",
+      "jp": "聖別"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/HallowingFlame.dds",
+    "stats": [
+      {
+        "id": "support_hallow_inflict_hallowing_flame_on_melee_hit",
+        "value": 1
+      },
+      {
+        "id": "hallowing_flame_duration_ms",
+        "value": 6000
+      }
+    ]
+  },
+  "56267": {
+    "id": "PierceMid",
+    "name": {
+      "en": "Pierce",
+      "kr": "관통",
+      "tw": "穿透",
+      "ru": "Пронзание",
+      "jp": "貫通"
+    },
+    "tier": 2,
+    "family": "Pierce",
+    "gemIcon": "Art/2DItems/Gems/Support/Pierce.dds",
+    "stats": [
+      {
+        "id": "projectile_base_number_of_targets_to_pierce",
+        "value": 3
+      }
+    ]
+  },
+  "56315": {
+    "id": "VaalDoubleStrikeSpecificCloneSpeedHigh",
+    "name": {
+      "en": "Gilded Clone Speed",
+      "kr": "도금된 분신 속도",
+      "tw": "鍍金複製體速度",
+      "ru": "Позолоченный: Скорость двойников",
+      "jp": "金色のクローンスピード"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "doubles_have_movement_speed_+%",
+        "value": 40
+      }
+    ]
+  },
+  "56389": {
+    "id": "MaimOnHitHigh",
+    "name": {
+      "en": "Maim",
+      "kr": "힘줄 절단",
+      "tw": "癱瘓",
+      "ru": "Увечье",
+      "jp": "重傷"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/Maim.dds",
+    "stats": [
+      {
+        "id": "global_maim_on_hit",
+        "value": 1
+      },
+      {
+        "id": "support_maimed_enemies_physical_damage_taken_+%",
+        "value": 10
+      }
+    ]
+  },
+  "56511": {
+    "id": "AltEssenceDrainSpecificLeechHigh",
+    "name": {
+      "en": "Gilded Additional Leech",
+      "kr": "도금된 추가 흡수",
+      "tw": "鍍金額外偷取",
+      "ru": "Позолоченный: Дополнительное похищение",
+      "jp": "金色の追加リーチ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "siphon_life_leech_from_damage_permyriad",
+        "value": 3000
+      }
+    ]
+  },
+  "57644": {
+    "id": "IncreasedProjSpeedMid",
+    "name": {
+      "en": "Faster Projectiles",
+      "kr": "투사체 속도 증가",
+      "tw": "投射物加速",
+      "ru": "Ускорение снарядов",
+      "jp": "投射物高速化"
+    },
+    "tier": 2,
+    "family": "ProjectileSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/FasterProjectiles.dds",
+    "stats": [
+      {
+        "id": "base_projectile_speed_+%",
+        "value": 30
+      }
+    ]
+  },
+  "57658": {
+    "id": "RageOnMeleeHitHigh",
+    "name": {
+      "en": "Greater Rage on Hit",
+      "kr": "상위 명중 시 격노",
+      "tw": "高階擊中時獲得盛怒",
+      "ru": "Большая свирепость при ударе",
+      "jp": "グレーターヒット時憤怒"
+    },
+    "tier": 3,
+    "family": "RageOnHit",
+    "gemIcon": "Art/2DItems/Gems/Support/RageSupport.dds",
+    "stats": [
+      {
+        "id": "gain_x_rage_on_melee_hit",
+        "value": 6
+      }
+    ]
+  },
+  "58214": {
+    "id": "PhysGainAsChaosHigh",
+    "name": {
+      "en": "Greater Physical as Extra Chaos",
+      "kr": "상위 물리를 추가 카오스로 전환",
+      "tw": "高階物理轉化為額外混沌",
+      "ru": "Большой физический урон в виде урона хаосом",
+      "jp": "グレーター物理の一部を追加混沌"
+    },
+    "tier": 3,
+    "family": "PhysGainAs",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "physical_damage_%_to_add_as_chaos",
+        "value": 30
+      }
+    ]
+  },
+  "58384": {
+    "id": "PoisonChanceMid",
+    "name": {
+      "en": "Chance to Poison",
+      "kr": "중독 확률",
+      "tw": "中毒機率",
+      "ru": "Шанс отравить",
+      "jp": "毒付与"
+    },
+    "tier": 2,
+    "family": "PoisonChance",
+    "gemIcon": "Art/2DItems/Gems/Support/Poison.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_poison_on_hit_%",
+        "value": 35
+      }
+    ]
+  },
+  "58429": {
+    "id": "ArrowNovaHigh",
+    "name": {
+      "en": "Arrow Nova",
+      "kr": "화살 산개",
+      "tw": "箭矢新星",
+      "ru": "Кольцо стрел",
+      "jp": "アローノヴァ"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/GreenRainSupportGem.dds",
+    "stats": [
+      {
+        "id": "projectiles_nova",
+        "value": 1
+      },
+      {
+        "id": "projectiles_rain",
+        "value": 1
+      },
+      {
+        "id": "skill_can_only_use_bow",
+        "value": 1
+      },
+      {
+        "id": "skill_is_rain_skill",
+        "value": 1
+      },
+      {
+        "id": "number_of_additional_projectiles",
+        "value": 3
+      }
+    ]
+  },
+  "58471": {
+    "id": "LightningArrowSpecificAddedTargetsHigh",
+    "name": {
+      "en": "Gilded Extra Targets",
+      "kr": "도금된 추가 대상",
+      "tw": "鍍金額外目標",
+      "ru": "Позолоченный: Дополнительные цели",
+      "jp": "金色の追加対象"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "lightning_arrow_maximum_number_of_extra_targets",
+        "value": 2
+      }
+    ]
+  },
+  "58581": {
+    "id": "CombustionHigh",
+    "name": {
+      "en": "Combustion",
+      "kr": "연소",
+      "tw": "燃燒",
+      "ru": "Воспламенение",
+      "jp": "燃焼促進"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/ChancetoIgnite.dds",
+    "stats": [
+      {
+        "id": "ignites_apply_fire_resistance_+",
+        "value": -10
+      }
+    ]
+  },
+  "58938": {
+    "id": "TrapMineThrowSpeedHigh",
+    "name": {
+      "en": "Greater Throwing Speed",
+      "kr": "상위 투척 속도",
+      "tw": "高階投擲速度",
+      "ru": "Большое ускорение броска",
+      "jp": "グレーター投擲スピード"
+    },
+    "tier": 3,
+    "family": "TrapThrowSpeed",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverDexIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "trap_throwing_speed_+%",
+        "value": 40
+      },
+      {
+        "id": "mine_laying_speed_+%",
+        "value": 40
+      }
+    ]
+  },
+  "59079": {
+    "id": "TrapMineDamageHigh",
+    "name": {
+      "en": "Greater Trap and Mine Damage",
+      "kr": "상위 덫과 지뢰 피해",
+      "tw": "高階陷阱和地雷傷害",
+      "ru": "Большой урон ловушек и мин",
+      "jp": "グレータートラップ・マインダメージ"
+    },
+    "tier": 3,
+    "family": "TrapMineDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/TrapAndMineDamage.dds",
+    "stats": [
+      {
+        "id": "support_trap_and_mine_damage_+%_final",
+        "value": 30
+      },
+      {
+        "id": "support_trap_and_mine_damage_trap_throwing_speed_+%_final",
+        "value": -25
+      }
+    ]
+  },
+  "59345": {
+    "id": "BrutalityHigh",
+    "name": {
+      "en": "Greater Brutality",
+      "kr": "상위 포악함",
+      "tw": "高階野性殘暴",
+      "ru": "Большая жестокость",
+      "jp": "グレーターブルータリティ"
+    },
+    "tier": 3,
+    "family": "Brutality",
+    "gemIcon": "Art/2DItems/Gems/Support/Brutality.dds",
+    "stats": [
+      {
+        "id": "deal_no_elemental_damage",
+        "value": 1
+      },
+      {
+        "id": "base_deal_no_chaos_damage",
+        "value": 1
+      },
+      {
+        "id": "support_brutality_physical_damage_+%_final",
+        "value": 30
+      }
+    ]
+  },
+  "59349": {
+    "id": "GenerosityLow",
+    "name": {
+      "en": "Lesser Generosity",
+      "kr": "하위 관대함",
+      "tw": "低階和善",
+      "ru": "Малая щедрость",
+      "jp": "レッサー寛大"
+    },
+    "tier": 1,
+    "family": "Generosity",
+    "gemIcon": "Art/2DItems/Gems/Support/GenerositySupport.dds",
+    "stats": [
+      {
+        "id": "aura_cannot_affect_self",
+        "value": 1
+      },
+      {
+        "id": "non_curse_aura_effect_+%",
+        "value": 10
+      }
+    ]
+  },
+  "59468": {
+    "id": "ScorchingRayTotemSpecificLengthHigh",
+    "name": {
+      "en": "Gilded Conflagrant",
+      "kr": "도금된 타오름",
+      "tw": "鍍金速燃",
+      "ru": "Позолоченный: Поджиг",
+      "jp": "金色の炎上"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "fire_beam_length_+%",
+        "value": 100
+      }
+    ]
+  },
+  "59712": {
+    "id": "EleDamageWithAttacksLow",
+    "name": {
+      "en": "Lesser Elemental Damage with Attacks",
+      "kr": "하위 공격 시 원소 피해",
+      "tw": "低階元素攻擊傷害",
+      "ru": "Малый урон от стихий атаками",
+      "jp": "レッサーアタック元素ダメージ"
+    },
+    "tier": 1,
+    "family": "WED",
+    "gemIcon": "Art/2DItems/Gems/Support/WeaponElementalDamage.dds",
+    "stats": [
+      {
+        "id": "support_attack_skills_elemental_damage_+%_final",
+        "value": 15
+      }
+    ]
+  },
+  "59784": {
+    "id": "StrikeRangeMid",
+    "name": {
+      "en": "Strike Distance",
+      "kr": "타격 거리",
+      "tw": "打擊距離",
+      "ru": "Дистанция удара",
+      "jp": "ストライク距離"
+    },
+    "tier": 2,
+    "family": "StrikeRange",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverStrSupportGem.dds",
+    "stats": [
+      {
+        "id": "melee_range_+",
+        "value": 4
+      }
+    ]
+  },
+  "59986": {
+    "id": "ChannelSkillDamageReductionLow",
+    "name": {
+      "en": "Lesser Infused Channelling",
+      "kr": "하위 깊어지는 집중 유지",
+      "tw": "低階灌注引導",
+      "ru": "Малое усиленное поддержание",
+      "jp": "レッサーチャネリング注入"
+    },
+    "tier": 1,
+    "family": "ChannelSkillDamageReduction",
+    "gemIcon": "Art/2DItems/Gems/Support/StormBarrier.dds",
+    "stats": [
+      {
+        "id": "support_storm_barrier_damage_taken_when_hit_+%_final_while_channelling",
+        "value": -5
+      }
+    ]
+  },
+  "60094": {
+    "id": "AddedColdHigh",
+    "name": {
+      "en": "Greater Added Cold",
+      "kr": "상위 냉기 추가",
+      "tw": "高階附加冰冷",
+      "ru": "Большой урон холодом",
+      "jp": "グレーター冷気追加"
+    },
+    "tier": 3,
+    "family": "AddedCold",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedColdDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_cold_damage",
+        "value": 73
+      },
+      {
+        "id": "global_maximum_added_cold_damage",
+        "value": 109
+      }
+    ]
+  },
+  "60910": {
+    "id": "VigilantStrikeSpecificShareFortifyHigh",
+    "name": {
+      "en": "Gilded Fortification",
+      "kr": "도금된 방어 상승",
+      "tw": "鍍金護體",
+      "ru": "Позолоченный: Укрепление",
+      "jp": "金色の堅牢化"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "fortify_applies_to_nearby_allies_for_X_seconds",
+        "value": 8
+      }
+    ]
+  },
+  "60983": {
+    "id": "LancingSteelSpecificRandomProjHigh",
+    "name": {
+      "en": "Gilded Scattershot",
+      "kr": "도금된 난사",
+      "tw": "鍍金散射",
+      "ru": "Позолоченный: Залповый огонь",
+      "jp": "金色の乱射"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "random_projectile_direction",
+        "value": 1
+      },
+      {
+        "id": "number_of_additional_projectiles",
+        "value": 4
+      }
+    ]
+  },
+  "61471": {
+    "id": "CriticalStrikeMid",
+    "name": {
+      "en": "Critical Chance",
+      "kr": "치명타 확률",
+      "tw": "暴擊率",
+      "ru": "Шанс критического удара",
+      "jp": "クリティカル率"
+    },
+    "tier": 2,
+    "family": "CritChance",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedCriticalStrikes.dds",
+    "stats": [
+      {
+        "id": "critical_strike_chance_+%",
+        "value": 120
+      }
+    ]
+  },
+  "61510": {
+    "id": "WitherOnHitHigh",
+    "name": {
+      "en": "Greater Wither on Hit",
+      "kr": "상위 명중 시 위축",
+      "tw": "高階擊中時凋零",
+      "ru": "Сильное истощение при ударе",
+      "jp": "グレーターヒット時衰弱"
+    },
+    "tier": 3,
+    "family": "WitherOnHit",
+    "gemIcon": "Art/2DItems/Gems/Support/WitherGemSupport.dds",
+    "stats": [
+      {
+        "id": "withered_on_hit_chance_%",
+        "value": 45
+      }
+    ]
+  },
+  "61947": {
+    "id": "ReduceDurationHigh",
+    "name": {
+      "en": "Greater Less Duration",
+      "kr": "상위 지속시간 감폭",
+      "tw": "高階更少持續時間",
+      "ru": "Большое сокращение",
+      "jp": "グレーター持続時間低下"
+    },
+    "tier": 3,
+    "family": "Duration",
+    "gemIcon": "Art/2DItems/Gems/Support/ReduceDuration.dds",
+    "stats": [
+      {
+        "id": "support_more_duration_skill_effect_duration_+%_final",
+        "value": -40
+      }
+    ]
+  },
+  "61972": {
+    "id": "NonDamagingAilmentEffectMid",
+    "name": {
+      "en": "Ailment Effect",
+      "kr": "상태 이상 효과",
+      "tw": "異常狀態效果",
+      "ru": "Эффект состояний",
+      "jp": "状態異常効果"
+    },
+    "tier": 2,
+    "family": "NonDamagingAilmentEffect",
+    "gemIcon": "Art/2DItems/Gems/Support/UnboundAilments.dds",
+    "stats": [
+      {
+        "id": "non_damaging_ailment_effect_+%",
+        "value": 40
+      }
+    ]
+  },
+  "62171": {
+    "id": "ConflagrationSpecificInvertResistancesHigh",
+    "name": {
+      "en": "Gilded Inversion",
+      "kr": "도금된 반전",
+      "tw": "鍍金規則逆反",
+      "ru": "Позолоченный: Инверсия",
+      "jp": "金色の反転"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercGoldSupportGem.dds",
+    "stats": [
+      {
+        "id": "treat_enemy_resistances_as_negated_on_elemental_damage_hit_%_chance",
+        "value": 35
+      }
+    ]
+  },
+  "62220": {
+    "id": "CriticalStrikeHigh",
+    "name": {
+      "en": "Greater Critical Chance",
+      "kr": "상위 치명타 확률",
+      "tw": "高階暴擊率",
+      "ru": "Большой шанс критического удара",
+      "jp": "グレータークリティカル率"
+    },
+    "tier": 3,
+    "family": "CritChance",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedCriticalStrikes.dds",
+    "stats": [
+      {
+        "id": "critical_strike_chance_+%",
+        "value": 200
+      }
+    ]
+  },
+  "62638": {
+    "id": "MultistrikeMid",
+    "name": {
+      "en": "Multistrike",
+      "kr": "연속타격",
+      "tw": "多重打擊",
+      "ru": "Град ударов",
+      "jp": "マルチストライク"
+    },
+    "tier": 2,
+    "family": "Multistrike",
+    "gemIcon": "Art/2DItems/Gems/Support/multipleattacks.dds",
+    "stats": [
+      {
+        "id": "base_melee_attack_repeat_count",
+        "value": 1
+      },
+      {
+        "id": "support_multiple_attacks_melee_attack_speed_+%_final",
+        "value": 15
+      },
+      {
+        "id": "support_multiple_attack_damage_+%_final",
+        "value": -15
+      }
+    ]
+  },
+  "62885": {
+    "id": "FirePenetrationMid",
+    "name": {
+      "en": "Fire Penetration",
+      "kr": "화염 관통",
+      "tw": "火焰穿透",
+      "ru": "Пронизывающий жар",
+      "jp": "火耐性貫通"
+    },
+    "tier": 2,
+    "family": "FirePenetration",
+    "gemIcon": "Art/2DItems/Gems/Support/FirePenetration.dds",
+    "stats": [
+      {
+        "id": "base_reduce_enemy_fire_resistance_%",
+        "value": 10
+      }
+    ]
+  },
+  "63104": {
+    "id": "ChannelSkillDamageReductionHigh",
+    "name": {
+      "en": "Greater Infused Channelling",
+      "kr": "상위 깊어지는 집중 유지",
+      "tw": "高階灌注引導",
+      "ru": "Большое усиленное поддержание",
+      "jp": "グレーターチャネリング注入"
+    },
+    "tier": 3,
+    "family": "ChannelSkillDamageReduction",
+    "gemIcon": "Art/2DItems/Gems/Support/StormBarrier.dds",
+    "stats": [
+      {
+        "id": "support_storm_barrier_damage_taken_when_hit_+%_final_while_channelling",
+        "value": -10
+      }
+    ]
+  },
+  "63342": {
+    "id": "MeleePhysHigh",
+    "name": {
+      "en": "Greater Melee Physical Damage",
+      "kr": "상위 근접 물리 피해",
+      "tw": "高階近戰物理傷害",
+      "ru": "Большой физический урон ближнего боя",
+      "jp": "グレーター近接物理ダメージ"
+    },
+    "tier": 3,
+    "family": "MeleePhys",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedPhysicalDamage.dds",
+    "stats": [
+      {
+        "id": "support_melee_physical_damage_+%_final",
+        "value": 20
+      },
+      {
+        "id": "support_melee_physical_damage_poison_and_bleeding_damage_+%_final_from_melee_hits",
+        "value": 20
+      }
+    ]
+  },
+  "64271": {
+    "id": "BrutalityMid",
+    "name": {
+      "en": "Brutality",
+      "kr": "포악함",
+      "tw": "野性殘暴",
+      "ru": "Жестокость",
+      "jp": "ブルータリティ"
+    },
+    "tier": 2,
+    "family": "Brutality",
+    "gemIcon": "Art/2DItems/Gems/Support/Brutality.dds",
+    "stats": [
+      {
+        "id": "deal_no_elemental_damage",
+        "value": 1
+      },
+      {
+        "id": "base_deal_no_chaos_damage",
+        "value": 1
+      },
+      {
+        "id": "support_brutality_physical_damage_+%_final",
+        "value": 20
+      }
+    ]
+  },
+  "64281": {
+    "id": "DamageOverTimeReduceDurationMid",
+    "name": {
+      "en": "Swift Affliction",
+      "kr": "고통 격화",
+      "tw": "極速苦痛",
+      "ru": "Стремительный недуг",
+      "jp": "スウィフトアフリクション"
+    },
+    "tier": 2,
+    "family": "DOTReducedDuration",
+    "gemIcon": "Art/2DItems/Gems/Support/SupportRapidDecayGem.dds",
+    "stats": [
+      {
+        "id": "support_rapid_decay_damage_over_time_+%_final",
+        "value": 20
+      },
+      {
+        "id": "support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final",
+        "value": -20
+      }
+    ]
+  },
+  "64283": {
+    "id": "AddedLightningMid",
+    "name": {
+      "en": "Added Lightning",
+      "kr": "번개 추가",
+      "tw": "附加閃電",
+      "ru": "Урон молнией",
+      "jp": "雷追加"
+    },
+    "tier": 2,
+    "family": "AddedLightning",
+    "gemIcon": "Art/2DItems/Gems/Support/AddedLightningDamage.dds",
+    "stats": [
+      {
+        "id": "global_minimum_added_lightning_damage",
+        "value": 4
+      },
+      {
+        "id": "global_maximum_added_lightning_damage",
+        "value": 75
+      }
+    ]
+  },
+  "64416": {
+    "id": "PulveriseHigh",
+    "name": {
+      "en": "Greater Pulverise",
+      "kr": "상위 분쇄",
+      "tw": "高階磨鍊",
+      "ru": "Большое распыление",
+      "jp": "グレーター強打"
+    },
+    "tier": 3,
+    "family": "Pulverise",
+    "gemIcon": "Art/2DItems/Gems/Support/Pulverize.dds",
+    "stats": [
+      {
+        "id": "support_pulverise_attack_speed_+%_final",
+        "value": -15
+      },
+      {
+        "id": "support_pulverise_melee_area_damage_+%_final",
+        "value": 30
+      },
+      {
+        "id": "base_skill_area_of_effect_+%",
+        "value": 40
+      }
+    ]
+  },
+  "64717": {
+    "id": "PulveriseMid",
+    "name": {
+      "en": "Pulverise",
+      "kr": "분쇄",
+      "tw": "磨鍊",
+      "ru": "Распыление",
+      "jp": "強打"
+    },
+    "tier": 2,
+    "family": "Pulverise",
+    "gemIcon": "Art/2DItems/Gems/Support/Pulverize.dds",
+    "stats": [
+      {
+        "id": "support_pulverise_attack_speed_+%_final",
+        "value": -15
+      },
+      {
+        "id": "support_pulverise_melee_area_damage_+%_final",
+        "value": 20
+      },
+      {
+        "id": "base_skill_area_of_effect_+%",
+        "value": 30
+      }
+    ]
+  },
+  "64801": {
+    "id": "MaxShockHigh",
+    "name": {
+      "en": "Maximum Shock Effect",
+      "kr": "최대 감전 효과",
+      "tw": "最大感電效果",
+      "ru": "Максимальный эффект шока",
+      "jp": "最大感電効果"
+    },
+    "tier": 3,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "shock_maximum_magnitude_+",
+        "value": 10
+      }
+    ]
+  },
+  "64846": {
+    "id": "ShockChanceMid",
+    "name": {
+      "en": "Shock Chance",
+      "kr": "감전 확률",
+      "tw": "感電機率",
+      "ru": "Шанс шока",
+      "jp": "感電付与"
+    },
+    "tier": 2,
+    "family": "ShockChance",
+    "gemIcon": "Art/2DItems/Gems/Support/MercSilverIntSupportGem.dds",
+    "stats": [
+      {
+        "id": "base_chance_to_shock_%",
+        "value": 40
+      }
+    ]
+  },
+  "64940": {
+    "id": "MeleePhysLow",
+    "name": {
+      "en": "Lesser Melee Physical Damage",
+      "kr": "하위 근접 물리 피해",
+      "tw": "低階近戰物理傷害",
+      "ru": "Малый физический урон ближнего боя",
+      "jp": "レッサー近接物理ダメージ"
+    },
+    "tier": 1,
+    "family": "MeleePhys",
+    "gemIcon": "Art/2DItems/Gems/Support/IncreasedPhysicalDamage.dds",
+    "stats": [
+      {
+        "id": "support_melee_physical_damage_+%_final",
+        "value": 10
+      },
+      {
+        "id": "support_melee_physical_damage_poison_and_bleeding_damage_+%_final_from_melee_hits",
+        "value": 10
+      }
+    ]
+  },
+  "64986": {
+    "id": "RageOnMeleeHitMid",
+    "name": {
+      "en": "Rage on Hit",
+      "kr": "명중 시 격노",
+      "tw": "擊中時獲得盛怒",
+      "ru": "Свирепость при ударе",
+      "jp": "ヒット時憤怒"
+    },
+    "tier": 2,
+    "family": "RageOnHit",
+    "gemIcon": "Art/2DItems/Gems/Support/RageSupport.dds",
+    "stats": [
+      {
+        "id": "gain_x_rage_on_melee_hit",
+        "value": 4
+      }
+    ]
+  },
+  "65002": {
+    "id": "KnockbackLow",
+    "name": {
+      "en": "Knockback",
+      "kr": "밀어내기",
+      "tw": "擊退",
+      "ru": "Отбрасывание",
+      "jp": "ノックバック"
+    },
+    "tier": 1,
+    "family": null,
+    "gemIcon": "Art/2DItems/Gems/Support/Knockback.dds",
+    "stats": [
+      {
+        "id": "global_knockback",
+        "value": 1
+      },
+      {
+        "id": "knockback_distance_+%",
+        "value": 40
+      }
+    ]
+  },
+  "65114": {
+    "id": "ReduceDurationMid",
+    "name": {
+      "en": "Less Duration",
+      "kr": "지속시간 감폭",
+      "tw": "更少持續時間",
+      "ru": "Сокращение",
+      "jp": "持続時間低下"
+    },
+    "tier": 2,
+    "family": "Duration",
+    "gemIcon": "Art/2DItems/Gems/Support/ReduceDuration.dds",
+    "stats": [
+      {
+        "id": "support_more_duration_skill_effect_duration_+%_final",
+        "value": -25
+      }
+    ]
+  },
+  "65120": {
+    "id": "SpellCascadeLow",
+    "name": {
+      "en": "Lesser Spell Cascade",
+      "kr": "하위 연속 주문",
+      "tw": "低階秘能爆發",
+      "ru": "Малый каскад чар",
+      "jp": "レッサースペルカスケード"
+    },
+    "tier": 1,
+    "family": "SpellCascade",
+    "gemIcon": "Art/2DItems/Gems/Support/SpellCascade.dds",
+    "stats": [
+      {
+        "id": "support_spell_cascade_number_of_cascades_per_side",
+        "value": 1
+      }
+    ]
+  },
+  "65240": {
+    "id": "DamageOverTimeReduceDurationHigh",
+    "name": {
+      "en": "Greater Swift Affliction",
+      "kr": "상위 고통 격화",
+      "tw": "高階極速苦痛",
+      "ru": "Сильный стремительный недуг",
+      "jp": "グレータースウィフトアフリクション"
+    },
+    "tier": 3,
+    "family": "DOTReducedDuration",
+    "gemIcon": "Art/2DItems/Gems/Support/SupportRapidDecayGem.dds",
+    "stats": [
+      {
+        "id": "support_rapid_decay_damage_over_time_+%_final",
+        "value": 30
+      },
+      {
+        "id": "support_swift_affliction_skill_effect_and_damaging_ailment_duration_+%_final",
+        "value": -20
+      }
+    ]
+  },
+  "65362": {
+    "id": "AilmentDamageHigh",
+    "name": {
+      "en": "Greater Ailment Damage",
+      "kr": "상위 상태 이상 피해",
+      "tw": "高階異常狀態傷害",
+      "ru": "Большой урон от состояний",
+      "jp": "グレーター状態異常ダメージ"
+    },
+    "tier": 3,
+    "family": "AilmentDamage",
+    "gemIcon": "Art/2DItems/Gems/Support/DeadlyAilments.dds",
+    "stats": [
+      {
+        "id": "support_better_ailments_ailment_damage_+%_final",
+        "value": 30
+      },
+      {
+        "id": "support_better_ailments_hit_damage_+%_final",
+        "value": -30
+      }
+    ]
+  }
+}

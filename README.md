@@ -17,6 +17,7 @@ poe1/                  # 현재 베이스 아이템만 (skills/uniques/modifiers
   _index.json          # { gamePatch, langs, imageStrategy, generated, groups }
   json/<group>/<class>/*.json   # 베이스 아이템 (5언어)
 <game>/names/<lang>.json        # 파생: 영문명 -> 표시명 사전 (kr/tw/ru/jp) — dict/ 와 같이 경로 규약
+poe1/mercenaries/*.json         # 용병 해시 -> 이름 사전 (poe1 전용) — 경로 규약
 types/index.d.ts
 ```
 
@@ -59,6 +60,35 @@ belt.dust ?? '분해 대상 아님'  // 1,428개 중 2개는 null
 - 출처는 GGPK `VillageUniqueDisenchantValues` 로, **현행 패치 기준**이다. 널리 쓰이는 커뮤니티 목록은
   3.25 스냅샷이라 일부 값이 낡았다(예: Kaom's Primacy 6.74 → 32.35).
 
+### poe1 용병 해시 사전 (`mercenaries/`)
+
+거래 API 는 용병 매물의 스킬·보조젬을 **해시로만** 준다. 이 사전이 그 해시를 이름으로 되돌린다.
+`dict/`·`names/` 와 같이 `_index.json` 에 등록되지 않는 **경로 규약**이다.
+
+```js
+const M = `${DATA}/poe1/mercenaries`
+const [skills, supports, builds] = await Promise.all(
+  ['skills', 'supports', 'builds'].map(f => fetch(`${M}/${f}.json`).then(r => r.json())))
+
+// 거래 응답: {"Build":"Manyshot", "mercenarySkills":[{"hash":11495,"supports":[{"hash":28416,"tier":3}]}]}
+skills[11495].name.kr                    // '얼음 화살'
+supports[28416].name.kr                  // '상위 공격 시 원소 피해'
+supports[28416].tier                     // 3 — 거래의 tier 와 같은 값
+builds['Manyshot'].skillPools.skill1     // [11495, 58425] — 이 빌드는 항상 이 스킬을 받는다
+```
+
+- **키의 근거**: GGPK `MercenarySkills.HASH16`/`MercenarySupports.HASH16` 이 GGG 거래 stat id 와 1:1 이고
+  (스킬 272/272 · 보조 266/266 유일), `MercenarySupports.Variant` 가 곧 거래의 `tier` 다. `builds.json` 의
+  키는 매물의 `Build` 속성값(영문 `BuildName`)이다.
+- **`skillPools`**: `skill1` 은 항상 전부 부여되고 `skill2`/`skill3` 에서 `pick2`/`pick3` 개씩 뽑는다.
+  65개 중 63개가 합계 6이고 예외는 `Frost Ambusher`(5)·`Bladereach`(1) 뿐이다.
+- **`supports[].family`**: 한 스킬에 같은 계열이 두 번 붙지 않는다. 아트가 달라도 계열이 같으면 배타다
+  (`Multiple Projectiles` I ↔ `Greater Multiple Projectiles` III). 후보를 셀 때 아트가 아니라 계열로 센다.
+- **`gemIcon` 은 GGPK 내부 경로 문자열**이다 — 이미지는 저작권상 배포하지 않는다.
+- **`_meta.supportCountSlots` 는 GGPK 값이 아니다.** `MercenarySupportCounts` 는 등급 문자열
+  (`Low`/`Medium`/`High`/`None`)만 담고 실제 슬롯 개수는 클라이언트 하드코딩이라 dat 에 없다.
+  실린 값은 인게임 실측 추정치이며 `samples` 로 신뢰도를 판단한다(Medium 표본 1건, High 는 4~5 미확정).
+
 ## 데이터 범위 / 한계
 - **poe2**: 베이스 5,038 · 스킬 920 · modifier 7,292 · 고유 449 (텍스트, 5언어)
 - **poe1**: 베이스 4,921 (텍스트, 5언어). 고유·modifier·스킬은 후속. 무기 spec은 `attackTime`(초),
@@ -70,3 +100,6 @@ belt.dust ?? '분해 대상 아님'  // 1,428개 중 2개는 null
 - `names/`: 베이스+스킬의 영문명 기준 파생 사전(poe1 4,415 · poe2 4,968 고유명). 같은 영문명에 다른
   언어값을 가진 레거시·변형 행(poe1 18 · poe2 86)은 **`groups` 순회 순서상 처음 것이 이긴다**.
   데이터 갱신 후 poe-ggpk-extractor 에서 `npm run build:names` · `build:names:poe1` 로 재생성한다(멱등).
+- `mercenaries/` (poe1 전용): 빌드 65 · 스킬 272 · 보조젬 266, 5언어. `_meta.supportCountSlots` 만
+  GGPK 가 아닌 **인게임 실측 추정치**다(위 참조). 재생성은 poe-ggpk-extractor 에서
+  `npm run extract:poe1:merc` → `npm run build:merc:poe1`.
