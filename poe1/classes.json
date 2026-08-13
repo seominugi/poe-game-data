@@ -1,0 +1,314 @@
+{
+  "game": "poe1",
+  "gamePatch": "3.29.1.2.2",
+  "langs": [
+    "en",
+    "kr",
+    "tw",
+    "ru",
+    "jp"
+  ],
+  "classes": [
+    {
+      "id": "Metadata/Characters/Str/Str",
+      "integerId": 1,
+      "name": {
+        "en": "Marauder",
+        "kr": "머라우더",
+        "tw": "野蠻人",
+        "ru": "Дикарь",
+        "jp": "マローダー"
+      },
+      "ascendancies": [
+        {
+          "id": "Juggernaut",
+          "name": {
+            "en": "Juggernaut",
+            "kr": "저거넛",
+            "tw": "勇士",
+            "ru": "Покоритель",
+            "jp": "ジャガーノート"
+          }
+        },
+        {
+          "id": "Berserker",
+          "name": {
+            "en": "Berserker",
+            "kr": "버서커",
+            "tw": "暴徒",
+            "ru": "Берсерк",
+            "jp": "バーサーカー"
+          }
+        },
+        {
+          "id": "Chieftain",
+          "name": {
+            "en": "Chieftain",
+            "kr": "치프틴",
+            "tw": "酋長",
+            "ru": "Вождь",
+            "jp": "チーフテン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/Int/Int",
+      "integerId": 3,
+      "name": {
+        "en": "Witch",
+        "kr": "위치",
+        "tw": "女巫",
+        "ru": "Ведьма",
+        "jp": "ウィッチ"
+      },
+      "ascendancies": [
+        {
+          "id": "Occultist",
+          "name": {
+            "en": "Occultist",
+            "kr": "오컬티스트",
+            "tw": "秘術家",
+            "ru": "Оккультист",
+            "jp": "オカルティスト"
+          }
+        },
+        {
+          "id": "Elementalist",
+          "name": {
+            "en": "Elementalist",
+            "kr": "엘리멘탈리스트",
+            "tw": "元素使",
+            "ru": "Маг стихий",
+            "jp": "エレメンタリスト"
+          }
+        },
+        {
+          "id": "Necromancer",
+          "name": {
+            "en": "Necromancer",
+            "kr": "네크로맨서",
+            "tw": "死靈師",
+            "ru": "Некромант",
+            "jp": "ネクロマンサー"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/StrDexInt/StrDexInt",
+      "integerId": 0,
+      "name": {
+        "en": "Scion",
+        "kr": "사이온",
+        "tw": "貴族",
+        "ru": "Дворянка",
+        "jp": "サイオン"
+      },
+      "ascendancies": [
+        {
+          "id": "Ascendant",
+          "name": {
+            "en": "Ascendant",
+            "kr": "어센던트",
+            "tw": "昇華使徒",
+            "ru": "Вознесшаяся",
+            "jp": "アセンダント"
+          }
+        },
+        {
+          "id": "Reliquarian",
+          "name": {
+            "en": "Reliquarian",
+            "kr": "렐리쿼리언",
+            "tw": "遺守使徒",
+            "ru": "Реликварианка",
+            "jp": "レリクアリアン"
+          }
+        },
+        {
+          "id": "Luminary",
+          "name": {
+            "en": "Luminary",
+            "kr": "루미너리",
+            "tw": "輝耀使徒",
+            "ru": "Светоч",
+            "jp": "ルミナリー"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/Dex/Dex",
+      "integerId": 2,
+      "name": {
+        "en": "Ranger",
+        "kr": "레인저",
+        "tw": "遊俠",
+        "ru": "Охотница",
+        "jp": "レンジャー"
+      },
+      "ascendancies": [
+        {
+          "id": "Raider",
+          "name": {
+            "en": "Warden",
+            "kr": "워든",
+            "tw": "守林人",
+            "ru": "Хранитель",
+            "jp": "ウォーデン"
+          }
+        },
+        {
+          "id": "Deadeye",
+          "name": {
+            "en": "Deadeye",
+            "kr": "데드아이",
+            "tw": "銳眼",
+            "ru": "Снайпер",
+            "jp": "デッドアイ"
+          }
+        },
+        {
+          "id": "Pathfinder",
+          "name": {
+            "en": "Pathfinder",
+            "kr": "패스파인더",
+            "tw": "追獵者",
+            "ru": "Следопыт",
+            "jp": "パスファインダー"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/StrDex/StrDex",
+      "integerId": 4,
+      "name": {
+        "en": "Duelist",
+        "kr": "듀얼리스트",
+        "tw": "決鬥者",
+        "ru": "Дуэлянт",
+        "jp": "デュエリスト"
+      },
+      "ascendancies": [
+        {
+          "id": "Slayer",
+          "name": {
+            "en": "Slayer",
+            "kr": "슬레이어",
+            "tw": "處刑者",
+            "ru": "Рубака",
+            "jp": "スレイヤー"
+          }
+        },
+        {
+          "id": "Gladiator",
+          "name": {
+            "en": "Gladiator",
+            "kr": "글래디에이터",
+            "tw": "衛士",
+            "ru": "Гладиатор",
+            "jp": "グラディエーター"
+          }
+        },
+        {
+          "id": "Champion",
+          "name": {
+            "en": "Champion",
+            "kr": "챔피언",
+            "tw": "冠軍",
+            "ru": "Чемпион",
+            "jp": "チャンピオン"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/DexInt/DexInt",
+      "integerId": 6,
+      "name": {
+        "en": "Shadow",
+        "kr": "쉐도우",
+        "tw": "暗影刺客",
+        "ru": "Бандит",
+        "jp": "シャドウ"
+      },
+      "ascendancies": [
+        {
+          "id": "Assassin",
+          "name": {
+            "en": "Assassin",
+            "kr": "어쌔신",
+            "tw": "刺客",
+            "ru": "Убийца",
+            "jp": "アサシン"
+          }
+        },
+        {
+          "id": "Trickster",
+          "name": {
+            "en": "Trickster",
+            "kr": "트릭스터",
+            "tw": "詐欺師",
+            "ru": "Плут",
+            "jp": "トリックスター"
+          }
+        },
+        {
+          "id": "Saboteur",
+          "name": {
+            "en": "Saboteur",
+            "kr": "사보추어",
+            "tw": "破壞者",
+            "ru": "Диверсант",
+            "jp": "サボター"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/StrInt/StrInt",
+      "integerId": 5,
+      "name": {
+        "en": "Templar",
+        "kr": "템플러",
+        "tw": "聖堂武僧",
+        "ru": "Жрец",
+        "jp": "テンプラー"
+      },
+      "ascendancies": [
+        {
+          "id": "Inquisitor",
+          "name": {
+            "en": "Inquisitor",
+            "kr": "인퀴지터",
+            "tw": "判官",
+            "ru": "Инквизитор",
+            "jp": "インクイジター"
+          }
+        },
+        {
+          "id": "Hierophant",
+          "name": {
+            "en": "Hierophant",
+            "kr": "하이로펀트",
+            "tw": "聖宗",
+            "ru": "Иерофант",
+            "jp": "ハイロファント"
+          }
+        },
+        {
+          "id": "Guardian",
+          "name": {
+            "en": "Guardian",
+            "kr": "가디언",
+            "tw": "守護者",
+            "ru": "Защитник",
+            "jp": "ガーディアン"
+          }
+        }
+      ]
+    }
+  ]
+}
