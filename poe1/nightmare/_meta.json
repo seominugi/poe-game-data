@@ -1,0 +1,47 @@
+{
+  "gamePatch": "3.29.1.2.2",
+  "generated": "2026-08-16T14:28:17.226Z",
+  "langs": [
+    "en",
+    "kr",
+    "tw",
+    "ru",
+    "jp"
+  ],
+  "source": "GGPK WorldAreas/MapDeviceRecipes/AtlasNode (poe-ggpk-extractor: npm run extract:poe1:maps && npm run build:nightmare:poe1)",
+  "nightmareMapItem": {
+    "metadataId": "Metadata/Items/Maps/MapKeyNightmareBoss",
+    "name": {
+      "en": "Nightmare Map",
+      "kr": "악몽 지도",
+      "tw": "夢魘地圖",
+      "ru": "Карта кошмара",
+      "jp": "ナイトメアマップ"
+    },
+    "tags": [
+      "high_level_map",
+      "not_for_sale",
+      "top_tier_map",
+      "uber_tier_map",
+      "cannot_be_twinned",
+      "map_force_6_mods"
+    ]
+  },
+  "fragmentDrops": {
+    "source": "in-game observation",
+    "note": "지역→조각 배분은 GGPK 에 없다(드랍 테이블은 서버사이드, 조각 태그도 비어 있음). areas[].fragmentsConfidence 가 \"observed\" 인 지역만 실측 확인분이고 \"inferred\" 는 아틀라스 인접 기반 추정이다. atlasLinked 는 방증일 뿐 드랍 근거가 아니다 — 일반 지도도 핀나클 노드에 인접하고(사막↔카타리나), 성역의 고독·외상은 3홉 떨어져 있다.",
+    "observed": [
+      "MapWorldsSanctuary",
+      "MapWorldsCitadel",
+      "MapWorldsAbomination",
+      "MapWorldsZiggurat"
+    ],
+    "inferred": [
+      "MapWorldsFortress"
+    ]
+  },
+  "counts": {
+    "areas": 5,
+    "fragments": 10
+  }
+}

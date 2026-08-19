@@ -1,0 +1,389 @@
+{
+  "MapWorldsSanctuary": {
+    "name": {
+      "en": "Sanctuary",
+      "kr": "성역",
+      "tw": "庇護聖所",
+      "ru": "<if:gen>{Святилища}<else>{Святилище}",
+      "jp": "聖域"
+    },
+    "areaLevel": 84,
+    "mapItem": {
+      "metadataId": "Metadata/Items/Maps/MapWorldsSanctuary",
+      "name": {
+        "en": "Sanctuary Map",
+        "kr": "성역 지도",
+        "tw": "聖所地圖",
+        "ru": "Карта святилища",
+        "jp": "聖域のマップ"
+      },
+      "tier": 17
+    },
+    "bosses": [
+      {
+        "monsterId": "Metadata/Monsters/LeagueSanctum/Boss/Lycia2BossMap",
+        "name": {
+          "en": "Nightmare of Lycia",
+          "kr": "리키아의 악몽",
+          "tw": "利希亞之夢魘",
+          "ru": "Кошмар Люции",
+          "jp": "リシアの悪夢"
+        }
+      }
+    ],
+    "fragments": [
+      "Benevolence",
+      "Ignorance",
+      "Anger"
+    ],
+    "fragmentsConfidence": "observed",
+    "fragmentsObservedAt": "2026-08-16",
+    "atlasLinked": [
+      {
+        "nodeId": "BenevolenceBoss",
+        "areaId": "MapWorldsMemoryBoss3_Uber",
+        "name": {
+          "en": "Moment of Reverence",
+          "kr": "숭배의 순간",
+          "tw": "敬畏時刻",
+          "ru": "<if:gen>{Момента почитания}<else>{Момент почитания}",
+          "jp": "畏敬の瞬間"
+        },
+        "pinnacleFragments": [
+          "Benevolence"
+        ]
+      }
+    ]
+  },
+  "MapWorldsCitadel": {
+    "name": {
+      "en": "Citadel",
+      "kr": "성채",
+      "tw": "壁壘",
+      "ru": "<if:gen>{Цитадели}<else>{Цитадель}",
+      "jp": "城塞"
+    },
+    "areaLevel": 84,
+    "mapItem": {
+      "metadataId": "Metadata/Items/Maps/MapWorldsCitadel",
+      "name": {
+        "en": "Citadel Map",
+        "kr": "성채 지도",
+        "tw": "壁壘地圖",
+        "ru": "Карта цитадели",
+        "jp": "城塞のマップ"
+      },
+      "tier": 17
+    },
+    "bosses": [
+      {
+        "monsterId": "Metadata/Monsters/LeagueExpedition/ApparitionBoss/ApparitionExpeditionMap",
+        "name": {
+          "en": "Nightmare of Uhtred",
+          "kr": "우트레드의 악몽",
+          "tw": "烏特雷之夢魘",
+          "ru": "Кошмар Утреда",
+          "jp": "ウートレッドの悪夢"
+        }
+      }
+    ],
+    "fragments": [
+      "Shaper",
+      "Cortex"
+    ],
+    "fragmentsConfidence": "observed",
+    "fragmentsObservedAt": "2026-08-16",
+    "atlasLinked": [
+      {
+        "nodeId": "ShaperBoss",
+        "areaId": "MapWorldsShapersRealm",
+        "name": {
+          "en": "The Shaper's Realm",
+          "kr": "쉐이퍼의 영역",
+          "tw": "塑者之界",
+          "ru": "<if:gen>{Владений Создателя}<else>{Владения Создателя}",
+          "jp": "シェイパーの領域"
+        },
+        "pinnacleFragments": [
+          "Shaper"
+        ]
+      },
+      {
+        "nodeId": "Synthesis_MapBoss",
+        "areaId": "Synthesis_MapBoss",
+        "name": {
+          "en": "Cortex",
+          "kr": "코텍스",
+          "tw": "深沉記憶",
+          "ru": "Кора",
+          "jp": "コーテクス"
+        },
+        "pinnacleFragments": [
+          "Cortex"
+        ]
+      },
+      {
+        "nodeId": "UberCortexBoss",
+        "areaId": "Synthesis_MapBoss",
+        "name": {
+          "en": "Cortex",
+          "kr": "코텍스",
+          "tw": "深沉記憶",
+          "ru": "Кора",
+          "jp": "コーテクス"
+        },
+        "pinnacleFragments": [
+          "Cortex"
+        ]
+      }
+    ]
+  },
+  "MapWorldsFortress": {
+    "name": {
+      "en": "Fortress",
+      "kr": "요새",
+      "tw": "堡壘",
+      "ru": "<if:gen>{Крепости}<else>{Крепость}",
+      "jp": "要塞"
+    },
+    "areaLevel": 84,
+    "mapItem": {
+      "metadataId": "Metadata/Items/Maps/MapWorldsFortress",
+      "name": {
+        "en": "Fortress Map",
+        "kr": "요새 지도",
+        "tw": "堡壘地圖",
+        "ru": "Карта крепости",
+        "jp": "要塞のマップ"
+      },
+      "tier": 17
+    },
+    "bosses": [
+      {
+        "monsterId": "Metadata/Monsters/LeagueHeist/Boss/UnbreakableMk1Map",
+        "name": {
+          "en": "Nightmare of the Unbreakable",
+          "kr": "파괴 불가능한 존재의 악몽",
+          "tw": "不破之靈之夢魘",
+          "ru": "Кошмар Нерушимого",
+          "jp": "破壊しえない機械の悪夢"
+        }
+      }
+    ],
+    "fragments": [
+      "Cortex",
+      "UberElder"
+    ],
+    "fragmentsConfidence": "inferred",
+    "atlasLinked": [
+      {
+        "nodeId": "Synthesis_MapBoss",
+        "areaId": "Synthesis_MapBoss",
+        "name": {
+          "en": "Cortex",
+          "kr": "코텍스",
+          "tw": "深沉記憶",
+          "ru": "Кора",
+          "jp": "コーテクス"
+        },
+        "pinnacleFragments": [
+          "Cortex"
+        ]
+      },
+      {
+        "nodeId": "ElderBoss",
+        "areaId": "MapWorldsElderArena",
+        "name": {
+          "en": "Absence of Value and Meaning",
+          "kr": "가치와 의미의 부재",
+          "tw": "飄渺虛境",
+          "ru": "<if:gen>{Отсутствия значимости и смысла}<else>{Отсутствие значимости и смысла}",
+          "jp": "価値と意味の欠如"
+        },
+        "pinnacleFragments": []
+      },
+      {
+        "nodeId": "UberCortexBoss",
+        "areaId": "Synthesis_MapBoss",
+        "name": {
+          "en": "Cortex",
+          "kr": "코텍스",
+          "tw": "深沉記憶",
+          "ru": "Кора",
+          "jp": "コーテクス"
+        },
+        "pinnacleFragments": [
+          "Cortex"
+        ]
+      }
+    ]
+  },
+  "MapWorldsAbomination": {
+    "name": {
+      "en": "Abomination",
+      "kr": "흉물",
+      "tw": "憎惡",
+      "ru": "<if:gen>{Гнезда отродий}<else>{Гнездо отродий}",
+      "jp": "アボミネーション"
+    },
+    "areaLevel": 84,
+    "mapItem": {
+      "metadataId": "Metadata/Items/Maps/MapWorldsAbomination",
+      "name": {
+        "en": "Abomination Map",
+        "kr": "흉물 지도",
+        "tw": "憎惡地圖",
+        "ru": "Карта гнезда отродий",
+        "jp": "アボミネーションのマップ"
+      },
+      "tier": 17
+    },
+    "bosses": [
+      {
+        "monsterId": "Metadata/Monsters/Maligaro/MaligaroBoss2MapUber",
+        "name": {
+          "en": "Nightmare of Maligaro",
+          "kr": "말리가로의 악몽",
+          "tw": "馬雷葛蘿之夢魘",
+          "ru": "Кошмар Малигаро",
+          "jp": "マリガロの悪夢"
+        }
+      },
+      {
+        "monsterId": "Metadata/Monsters/Shavronne/ShavronneTowerMapUber_",
+        "name": {
+          "en": "Nightmare of Shavronne",
+          "kr": "샤브론의 악몽",
+          "tw": "薛朗之夢魘",
+          "ru": "Кошмар Шавронн",
+          "jp": "シャヴロンの悪夢"
+        }
+      },
+      {
+        "monsterId": "Metadata/Monsters/Doedre/DoedreSewersMapUber",
+        "name": {
+          "en": "Nightmare of Doedre",
+          "kr": "도이드리의 악몽",
+          "tw": "德瑞之夢魘",
+          "ru": "Кошмар Доэдрэ",
+          "jp": "ドードリの悪夢"
+        }
+      },
+      {
+        "monsterId": "Metadata/Monsters/UnholyTrio/UnholyTrioMapUber",
+        "name": {
+          "en": "Nightmare of the Depraved Trinity",
+          "kr": "타락한 삼위일체의 악몽",
+          "tw": "墮道三巨頭之夢魘",
+          "ru": "Кошмар Порочной троицы",
+          "jp": "邪悪なトリニティの悪夢"
+        }
+      }
+    ],
+    "fragments": [
+      "Maven",
+      "Sirus"
+    ],
+    "fragmentsConfidence": "observed",
+    "fragmentsObservedAt": "2026-08-16",
+    "atlasLinked": [
+      {
+        "nodeId": "MavenBoss",
+        "areaId": "MavenBoss",
+        "name": {
+          "en": "Absence of Mercy and Empathy",
+          "kr": "자비와 공감의 부재",
+          "tw": "無悲憫與同情之地",
+          "ru": "<if:gen>{Отсутствия сострадания и сочувствия}<else>{Отсутствие сострадания и сочувствия}",
+          "jp": "慈悲と共感の欠如"
+        },
+        "pinnacleFragments": [
+          "Maven"
+        ]
+      },
+      {
+        "nodeId": "SirusBoss",
+        "areaId": "AtlasExilesBoss5",
+        "name": {
+          "en": "Eye of the Storm",
+          "kr": "태풍의 눈",
+          "tw": "暴風之眼",
+          "ru": "<if:gen>{Ока Шторма}<else>{Око Шторма}",
+          "jp": "嵐の中心"
+        },
+        "pinnacleFragments": [
+          "Sirus"
+        ]
+      }
+    ]
+  },
+  "MapWorldsZiggurat": {
+    "name": {
+      "en": "Ziggurat",
+      "kr": "지구라트",
+      "tw": "高地神塔",
+      "ru": "<if:gen>{Зиккурата}<else>{Зиккурат}",
+      "jp": "ジッグラト"
+    },
+    "areaLevel": 84,
+    "mapItem": {
+      "metadataId": "Metadata/Items/Maps/MapWorldsZiggurat",
+      "name": {
+        "en": "Ziggurat Map",
+        "kr": "지구라트 지도",
+        "tw": "高地神塔地圖",
+        "ru": "Карта зиккурата",
+        "jp": "ジッグラトのマップ"
+      },
+      "tier": 17
+    },
+    "bosses": [
+      {
+        "monsterId": "Metadata/Monsters/LeagueBetrayal/BetrayalCatarinaMapBoss",
+        "name": {
+          "en": "Nightmare of Catarina",
+          "kr": "카타리나의 악몽",
+          "tw": "卡塔莉娜之夢魘",
+          "ru": "Кошмар Катарины",
+          "jp": "カタリナの悪夢"
+        }
+      }
+    ],
+    "fragments": [
+      "Eater",
+      "Exarch"
+    ],
+    "fragmentsConfidence": "observed",
+    "fragmentsObservedAt": "2026-08-16",
+    "atlasLinked": [
+      {
+        "nodeId": "SearingExarchBoss",
+        "areaId": "MapWorldsPrimordialBoss3",
+        "name": {
+          "en": "Absence of Patience and Wisdom",
+          "kr": "인내와 지혜의 부재",
+          "tw": "躁動失智之地",
+          "ru": "<if:gen>{Отсутствия терпения и мудрости}<else>{Отсутствие терпения и мудрости}",
+          "jp": "忍耐と英知の欠如"
+        },
+        "pinnacleFragments": [
+          "Exarch"
+        ]
+      },
+      {
+        "nodeId": "EaterOfWorldsBoss",
+        "areaId": "MapWorldsPrimordialBoss4",
+        "name": {
+          "en": "Absence of Symmetry and Harmony",
+          "kr": "대칭과 조화의 부재",
+          "tw": "扭曲不諧之地",
+          "ru": "<if:gen>{Отсутствия симметрии и гармонии}<else>{Отсутствие симметрии и гармонии}",
+          "jp": "対称と調和の欠如"
+        },
+        "pinnacleFragments": [
+          "Eater"
+        ]
+      }
+    ]
+  }
+}

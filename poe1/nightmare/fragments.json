@@ -1,0 +1,232 @@
+{
+  "Shaper": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyShaper",
+    "name": {
+      "en": "Cosmic Fragment",
+      "kr": "별나라의 조각",
+      "tw": "宇宙碎片",
+      "ru": "Космический фрагмент",
+      "jp": "宇宙のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossShaper",
+      "count": 4,
+      "areaId": "MapWorldsShapersRealm",
+      "areaName": {
+        "en": "The Shaper's Realm",
+        "kr": "쉐이퍼의 영역",
+        "tw": "塑者之界",
+        "ru": "<if:gen>{Владений Создателя}<else>{Владения Создателя}",
+        "jp": "シェイパーの領域"
+      },
+      "areaLevel": 85
+    }
+  },
+  "UberElder": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyUberElder",
+    "name": {
+      "en": "Decaying Fragment",
+      "kr": "쇠퇴의 조각",
+      "tw": "腐朽碎片",
+      "ru": "Разлагающий фрагмент",
+      "jp": "腐敗のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossUberElder",
+      "count": 4,
+      "areaId": "MapWorldsElderArenaUber",
+      "areaName": {
+        "en": "The Shaper's Realm",
+        "kr": "쉐이퍼의 영역",
+        "tw": "塑者之域",
+        "ru": "<if:gen>{Владений Создателя}<else>{Владения Создателя}",
+        "jp": "シェイパーの領域"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Sirus": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeySirus",
+    "name": {
+      "en": "Awakening Fragment",
+      "kr": "각성의 조각",
+      "tw": "覺醒碎片",
+      "ru": "Пробуждающий фрагмент",
+      "jp": "覚醒のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossSirus",
+      "count": 4,
+      "areaId": "AtlasExilesBoss5",
+      "areaName": {
+        "en": "Eye of the Storm",
+        "kr": "태풍의 눈",
+        "tw": "暴風之眼",
+        "ru": "<if:gen>{Ока Шторма}<else>{Око Шторма}",
+        "jp": "嵐の中心"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Cortex": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyCortex",
+    "name": {
+      "en": "Synthesising Fragment",
+      "kr": "결합의 조각",
+      "tw": "追憶碎片",
+      "ru": "Синтезирующий фрагмент",
+      "jp": "合成のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossCortex",
+      "count": 4,
+      "areaId": "Synthesis_MapBoss",
+      "areaName": {
+        "en": "Cortex",
+        "kr": "코텍스",
+        "tw": "深沉記憶",
+        "ru": "Кора",
+        "jp": "コーテクス"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Maven": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyMaven",
+    "name": {
+      "en": "Reality Fragment",
+      "kr": "현실의 조각",
+      "tw": "現實碎片",
+      "ru": "Фрагмент реальности",
+      "jp": "実在のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossMaven",
+      "count": 4,
+      "areaId": "MavenBoss",
+      "areaName": {
+        "en": "Absence of Mercy and Empathy",
+        "kr": "자비와 공감의 부재",
+        "tw": "無悲憫與同情之地",
+        "ru": "<if:gen>{Отсутствия сострадания и сочувствия}<else>{Отсутствие сострадания и сочувствия}",
+        "jp": "慈悲と共感の欠如"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Eater": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyEater",
+    "name": {
+      "en": "Devouring Fragment",
+      "kr": "포식의 조각",
+      "tw": "吞噬碎片",
+      "ru": "Пожирающий фрагмент",
+      "jp": "貪りのフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossEater",
+      "count": 4,
+      "areaId": "MapWorldsPrimordialBoss4",
+      "areaName": {
+        "en": "Absence of Symmetry and Harmony",
+        "kr": "대칭과 조화의 부재",
+        "tw": "扭曲不諧之地",
+        "ru": "<if:gen>{Отсутствия симметрии и гармонии}<else>{Отсутствие симметрии и гармонии}",
+        "jp": "対称と調和の欠如"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Exarch": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyExarch",
+    "name": {
+      "en": "Blazing Fragment",
+      "kr": "불길의 조각",
+      "tw": "熾熱碎片",
+      "ru": "Пылающий фрагмент",
+      "jp": "灼熱のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossExarch",
+      "count": 4,
+      "areaId": "MapWorldsPrimordialBoss3",
+      "areaName": {
+        "en": "Absence of Patience and Wisdom",
+        "kr": "인내와 지혜의 부재",
+        "tw": "躁動失智之地",
+        "ru": "<if:gen>{Отсутствия терпения и мудрости}<else>{Отсутствие терпения и мудрости}",
+        "jp": "忍耐と英知の欠如"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Anger": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyAnger",
+    "name": {
+      "en": "Traumatic Fragment",
+      "kr": "외상의 조각",
+      "tw": "創傷碎片",
+      "ru": "Фрагмент травмы",
+      "jp": "トラウマのフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossAnger",
+      "count": 4,
+      "areaId": "MapWorldsMemoryBoss1_Uber",
+      "areaName": {
+        "en": "Moment of Trauma",
+        "kr": "외상의 순간",
+        "tw": "創傷時刻",
+        "ru": "<if:gen>{Момента травмы}<else>{Момент травмы}",
+        "jp": "トラウマの瞬間"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Benevolence": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyBenevolence",
+    "name": {
+      "en": "Reverent Fragment",
+      "kr": "숭배의 조각",
+      "tw": "敬畏碎片",
+      "ru": "Фрагмент почитания",
+      "jp": "畏敬のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossBenevolence",
+      "count": 4,
+      "areaId": "MapWorldsMemoryBoss3_Uber",
+      "areaName": {
+        "en": "Moment of Reverence",
+        "kr": "숭배의 순간",
+        "tw": "敬畏時刻",
+        "ru": "<if:gen>{Момента почитания}<else>{Момент почитания}",
+        "jp": "畏敬の瞬間"
+      },
+      "areaLevel": 85
+    }
+  },
+  "Ignorance": {
+    "metadataId": "Metadata/Items/MapFragments/CurrencyUberBossKeyIgnorance",
+    "name": {
+      "en": "Lonely Fragment",
+      "kr": "고독의 조각",
+      "tw": "孤獨碎片",
+      "ru": "Фрагмент одиночества",
+      "jp": "孤独のフラグメント"
+    },
+    "opens": {
+      "recipeId": "UberBossIgnorance",
+      "count": 4,
+      "areaId": "MapWorldsMemoryBoss2_Uber",
+      "areaName": {
+        "en": "Moment of Loneliness",
+        "kr": "고독의 순간",
+        "tw": "孤獨時刻",
+        "ru": "<if:gen>{Момента одиночества}<else>{Момент одиночества}",
+        "jp": "孤独の瞬間"
+      },
+      "areaLevel": 85
+    }
+  }
+}
