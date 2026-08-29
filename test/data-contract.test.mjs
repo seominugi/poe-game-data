@@ -63,7 +63,10 @@ test('알두르의 영웅담과 고대 액체 절망 관계를 서로 다른 원
 test('PoE2 아이콘 매니페스트는 완전하고 PNG 바이너리는 Git에 포함하지 않는다', () => {
   const index = readJson('poe2/_index.json');
   const manifest = readJson(path.join('poe2', index.itemIcons.manifestPath));
-  assert.equal(index.imageStrategy, 'release-asset');
+  assert.equal(index.imageStrategy, 'derived-features');
+  assert.equal(index.itemIcons.source, 'local-ggpk-build');
+  assert.equal(index.itemIcons.distribution, 'poe-loot-overlay-derived-only');
+  assert.equal('releaseAssetPattern' in index.itemIcons, false);
   assert.deepEqual(index.itemIcons.audience, ['poe-loot-overlay']);
   assert.deepEqual(manifest.summary, {
     totalItems: 4_872,
