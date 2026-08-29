@@ -5,6 +5,8 @@ export interface RootIndex {
   schemaVersion: string;
   games: string[];
   generatedAt: string;
+  /** PoE1·PoE2 및 모든 파생 데이터가 함께 고정되는 단일 전역 태그 */
+  snapshot: string;
 }
 
 export interface ClassEntry { jsonPath: string; count: number; sampleName: string; className?: LocalizedString; }
@@ -17,16 +19,63 @@ export interface ModifierEntry {
   totalCount: number;
   buckets: string[];
 }
+export interface ItemIconSummary {
+  totalItems: number;
+  ready: number;
+  noVisualIdentity: number;
+  noDds: number;
+  decodeFailed: number;
+  uniqueAssets: number;
+}
+export interface ItemIconIndexEntry {
+  manifestPath: string;
+  releaseAssetPattern: 'poe2-item-icons-{tag}.zip';
+  /** 제품 배선 정책이며 공개 저장소의 다운로드 접근 제어가 아니다. */
+  audience: ['poe-loot-overlay'];
+  summary: ItemIconSummary;
+}
 export interface GameIndex {
   gamePatch: string;
   langs: Lang[];
-  imageStrategy: 'none' | 'cdn' | 'bundled';
+  /** 루트와 반드시 같은 PoE1·PoE2 공통 snapshot */
+  snapshot: string;
+  imageStrategy: 'none' | 'cdn' | 'bundled' | 'release-asset';
   generated: string;
   groups: Record<string, Record<string, ClassEntry>>;
   // Optional — a game may ship base items only for now (e.g. poe1 currently omits these).
   skills?: FlatEntry;
+  supportGems?: FlatEntry;
   uniques?: FlatEntry;
   modifiers?: Record<string, ModifierEntry>;
+  /** poe2 전용. PNG는 같은 snapshot 태그의 GitHub Release asset에만 있다. */
+  itemIcons?: ItemIconIndexEntry;
+}
+
+export type ItemIconStatus = 'ready' | 'no-visual-identity' | 'no-dds' | 'decode-failed';
+export interface ItemIconRelation {
+  itemId: string;
+  metadataId: string;
+  visualIdentityId: string | null;
+  names: { en: string; kr: string | null };
+  sourceDds: string | null;
+  assetSha256: string | null;
+  status: ItemIconStatus;
+}
+export interface ItemIconAsset {
+  path: string;
+  sha256: string;
+  width: number;
+  height: number;
+  bytes: number;
+}
+export interface Poe2ItemIconManifest {
+  schemaVersion: 1;
+  game: 'poe2';
+  audience: ['poe-loot-overlay'];
+  gamePatch: string;
+  summary: ItemIconSummary;
+  items: ItemIconRelation[];
+  assets: Record<string, ItemIconAsset>;
 }
 
 /**
@@ -128,6 +177,10 @@ export type MercenaryBuildDictionary = Record<string, MercenaryBuildEntry>;
 
 export interface BaseItem {
   id: string;
+  /** poe2 base item에 보존되는 BaseItemTypes.Id. poe1에는 아직 없을 수 있다. */
+  metadataId?: string;
+  /** poe2 base item의 ItemVisualIdentity.Id. 연결이 없으면 null. */
+  visualIdentityId?: string | null;
   classId: string;
   className: LocalizedString;
   name: LocalizedString;
