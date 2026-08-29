@@ -7,8 +7,8 @@
     "ru",
     "jp"
   ],
-  "imageStrategy": "none",
-  "generated": "2026-08-12T23:44:19.723Z",
+  "imageStrategy": "release-asset",
+  "generated": "2026-08-29T18:48:36.688Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -1047,6 +1047,7 @@
       }
     }
   },
+  "snapshot": "v2026.08.30",
   "skills": {
     "jsonPath": "skills/json/ActiveSkills.json",
     "count": 810
@@ -1694,6 +1695,21 @@
         "essence",
         "unique"
       ]
+    }
+  },
+  "itemIcons": {
+    "manifestPath": "assets/item-icons-manifest.json",
+    "releaseAssetPattern": "poe2-item-icons-{tag}.zip",
+    "audience": [
+      "poe-loot-overlay"
+    ],
+    "summary": {
+      "totalItems": 4872,
+      "ready": 4872,
+      "noVisualIdentity": 0,
+      "noDds": 0,
+      "decodeFailed": 0,
+      "uniqueAssets": 2615
     }
   }
 }

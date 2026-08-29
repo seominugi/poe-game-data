@@ -6,15 +6,16 @@ GGPK 원본에서 추출한 **Path of Exile 게임 데이터(JSON)**. 게임 버
 
 ## 구조
 ```
-_index.json            # { schemaVersion, games, generatedAt }
+_index.json            # { schemaVersion, games, generatedAt, snapshot }
 poe2/
-  _index.json          # { gamePatch, langs, imageStrategy, generated, groups/skills/uniques/modifiers }
+  _index.json          # { gamePatch, langs, snapshot, imageStrategy, generated, groups/.../itemIcons }
+  assets/item-icons-manifest.json   # base item -> visual identity -> release PNG 관계
   json/<group>/<class>/*.json   # 베이스 아이템 (5언어)
   skills/json/ActiveSkills.json
   uniques/json/uniques.json
   modifiers/json/<class>.json
-poe1/                  # 현재 베이스 아이템만 (skills/uniques/modifiers 는 후속)
-  _index.json          # { gamePatch, langs, imageStrategy, generated, groups }
+poe1/
+  _index.json          # { gamePatch, langs, snapshot, imageStrategy, generated, groups/skills/uniques/modifiers }
   json/<group>/<class>/*.json   # 베이스 아이템 (5언어)
 <game>/names/<lang>.json        # 파생: 영문명 -> 표시명 사전 (kr/tw/ru/jp) — dict/ 와 같이 경로 규약
 poe1/mercenaries/*.json         # 용병 해시 -> 이름 사전 (poe1 전용) — 경로 규약
@@ -28,6 +29,21 @@ const idx = await fetch(`${DATA}/poe2/_index.json`).then(r => r.json())
 const wands = await fetch(`${DATA}/poe2/${idx.groups.weapons.Wand.jsonPath}`).then(r => r.json())
 const name = wands[0].name[locale] ?? wands[0].name.en   // uniques는 en/kr만 — 폴백 필요
 ```
+
+모든 발행은 **PoE1·PoE2를 한 스냅샷 태그로 함께 고정**한다. 게임별 태그는 만들지 않으며,
+`_index.json.snapshot`과 jsDelivr의 `<tag>`는 같아야 한다. 한 게임의 생성·검증이 실패하면 데이터 교체,
+태그, Release asset, 소비자 갱신을 모두 중단한다.
+
+### PoE2 아이템 아이콘 매니페스트
+
+PoE2 전체 base item의 `metadataId`와 `visualIdentityId`, 원본 DDS, 정규화 PNG의 SHA-256 관계는
+`poe2/assets/item-icons-manifest.json`에 있다. PNG 자체는 Git/jsDelivr에 커밋하지 않고 같은 태그의
+GitHub Release asset `poe2-item-icons-<tag>.zip`으로만 제공한다. ZIP 안의 `manifest.json`은 Git의
+매니페스트와 바이트 단위로 같으며, PNG 경로·해시·크기·해제 용량 검증 후 사용해야 한다.
+
+`audience: ["poe-loot-overlay"]`는 오버레이 빌드에서만 연결한다는 제품 정책 선언이다. 공개 Release의
+다운로드 자체를 기술적으로 제한하는 접근 제어는 아니므로 다른 소비자에는 이미지 URL이나 다운로드
+코드를 연결하지 않는다. 설치된 오버레이에는 원본 PNG 묶음 대신 파생 임베딩만 포함한다.
 
 **이름만 필요하면 클래스 JSON 대신 `names/` 사전을 쓴다** (poe1 6MB·poe2 5MB → 언어 파일 1개 ≈ 62KB gzip).
 `dict/` 와 마찬가지로 `_index.json` 에 등록되지 않는 **경로 규약**이다 — 언어 목록은 `idx.langs` 로 얻는다:
@@ -92,10 +108,12 @@ builds['Manyshot'].skillPools.skill1     // [11495, 58425] — 이 빌드는 항
   "이 등급이면 N개"라는 기대값으로 쓰지 말고 `observed`(슬롯 수 → 건수) 분포를 볼 것.
 
 ## 데이터 범위 / 한계
-- **poe2**: 베이스 5,038 · 스킬 920 · modifier 7,292 · 고유 449 (텍스트, 5언어)
-- **poe1**: 베이스 4,921 (텍스트, 5언어). 고유·modifier·스킬은 후속. 무기 spec은 `attackTime`(초),
+- **poe2**: 베이스 4,872 · 스킬 735 · 보조젬 611 · 고유 449, 아이콘 관계 4,872/4,872
+  (내용 중복 제거 자산 2,615개, 텍스트 5언어)
+- **poe1**: 베이스 5,213 · 스킬 997 · 고유 1,429 · modifier 32클래스. 무기 spec은 `attackTime`(초),
   방어구는 `{min,max}` 범위(poe1 dat 구조 차이).
-- **이미지 미포함** — `image` 필드는 `null`(향후 확장 자리). 저작권상 GGG 아트는 재호스팅하지 않음.
+- **JSON/Git에는 이미지 미포함** — `image` 필드는 계속 `null`. PoE2 아이콘 PNG는 위의 동일 태그
+  Release asset으로만 제공하며 데이터 저작권과 비제휴 고지는 그대로 적용된다.
 - uniques: **en/kr만**, explicit mods·다국어는 향후 보강.
 - **`dust` (poe1 uniques 전용)**: 킹스마치 분해 먼지 **계수**이지 최종 먼지량이 아니다. 1,428개 중
   1,426개 보유(분해 대상 아닌 2개는 `null`), poe2 배출본엔 필드 자체가 없다. 환산은 아래 참조.
