@@ -7,7 +7,7 @@
     "ru",
     "jp"
   ],
-  "imageStrategy": "release-asset",
+  "imageStrategy": "derived-features",
   "generated": "2026-08-29T18:48:36.688Z",
   "groups": {
     "weapons": {
@@ -1047,7 +1047,7 @@
       }
     }
   },
-  "snapshot": "v2026.08.30",
+  "snapshot": "v2026.08.30.1",
   "skills": {
     "jsonPath": "skills/json/ActiveSkills.json",
     "count": 810
@@ -1699,7 +1699,8 @@
   },
   "itemIcons": {
     "manifestPath": "assets/item-icons-manifest.json",
-    "releaseAssetPattern": "poe2-item-icons-{tag}.zip",
+    "source": "local-ggpk-build",
+    "distribution": "poe-loot-overlay-derived-only",
     "audience": [
       "poe-loot-overlay"
     ],

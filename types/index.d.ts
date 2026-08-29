@@ -29,8 +29,10 @@ export interface ItemIconSummary {
 }
 export interface ItemIconIndexEntry {
   manifestPath: string;
-  releaseAssetPattern: 'poe2-item-icons-{tag}.zip';
-  /** 제품 배선 정책이며 공개 저장소의 다운로드 접근 제어가 아니다. */
+  /** 원본 아이콘은 extractor의 로컬 빌드 작업공간에서만 생성한다. */
+  source: 'local-ggpk-build';
+  /** 공개 저장소에는 관계/해시만 두고 오버레이에는 파생 특징만 번들한다. */
+  distribution: 'poe-loot-overlay-derived-only';
   audience: ['poe-loot-overlay'];
   summary: ItemIconSummary;
 }
@@ -39,7 +41,7 @@ export interface GameIndex {
   langs: Lang[];
   /** 루트와 반드시 같은 PoE1·PoE2 공통 snapshot */
   snapshot: string;
-  imageStrategy: 'none' | 'cdn' | 'bundled' | 'release-asset';
+  imageStrategy: 'none' | 'cdn' | 'bundled' | 'derived-features';
   generated: string;
   groups: Record<string, Record<string, ClassEntry>>;
   // Optional — a game may ship base items only for now (e.g. poe1 currently omits these).
@@ -47,7 +49,7 @@ export interface GameIndex {
   supportGems?: FlatEntry;
   uniques?: FlatEntry;
   modifiers?: Record<string, ModifierEntry>;
-  /** poe2 전용. PNG는 같은 snapshot 태그의 GitHub Release asset에만 있다. */
+  /** poe2 전용. 원본 PNG는 로컬 생성물이고 공개 데이터에는 관계/해시만 있다. */
   itemIcons?: ItemIconIndexEntry;
 }
 
