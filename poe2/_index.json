@@ -1,5 +1,5 @@
 {
-  "gamePatch": "4.5.4.8",
+  "gamePatch": "4.5.5.1",
   "langs": [
     "en",
     "kr",
@@ -8,7 +8,7 @@
     "jp"
   ],
   "imageStrategy": "derived-features",
-  "generated": "2026-08-29T18:48:36.688Z",
+  "generated": "2026-09-05T00:33:01.386Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -467,6 +467,18 @@
       }
     },
     "currency": {
+      "AtlasCurrency": {
+        "jsonPath": "json/currency/AtlasCurrency/AtlasCurrency_base_types.json",
+        "count": 2,
+        "sampleName": "Simulacrum",
+        "className": {
+          "en": "Map Fragments",
+          "kr": "지도 조각",
+          "tw": "地圖碎片",
+          "ru": "Обрывки карт",
+          "jp": "マップフラグメント"
+        }
+      },
       "Breachstone": {
         "jsonPath": "json/currency/Breachstone/Breachstone_base_types.json",
         "count": 26,
@@ -529,14 +541,14 @@
       },
       "MapFragment": {
         "jsonPath": "json/currency/MapFragment/MapFragment_base_types.json",
-        "count": 149,
+        "count": 148,
         "sampleName": "Head of the King",
         "className": {
           "en": "Map Fragments",
           "kr": "지도 조각",
           "tw": "地圖碎片",
           "ru": "Обрывки карт",
-          "jp": "マップのフラグメント"
+          "jp": "マップフラグメント"
         }
       },
       "MiscMapItem": {
@@ -589,7 +601,7 @@
       },
       "SoulCore": {
         "jsonPath": "json/currency/SoulCore/SoulCore_base_types.json",
-        "count": 287,
+        "count": 305,
         "sampleName": "Desert Rune",
         "className": {
           "en": "Augment",
@@ -1023,7 +1035,7 @@
       },
       "UltimatumKey": {
         "jsonPath": "json/misc/UltimatumKey/UltimatumKey_base_types.json",
-        "count": 4,
+        "count": 5,
         "sampleName": "Inscribed Ultimatum",
         "className": {
           "en": "Inscribed Ultimatum",
@@ -1047,10 +1059,10 @@
       }
     }
   },
-  "snapshot": "v2026.08.30.1",
+  "snapshot": "v2026.09.05.1",
   "skills": {
     "jsonPath": "skills/json/ActiveSkills.json",
-    "count": 810
+    "count": 808
   },
   "supportGems": {
     "jsonPath": "skills/json/SupportGems.json",
@@ -1087,9 +1099,9 @@
         "ru": "Амулеты",
         "jp": "アミュレット"
       },
-      "prefixCount": 122,
+      "prefixCount": 123,
       "suffixCount": 128,
-      "totalCount": 250,
+      "totalCount": 251,
       "buckets": [
         "normal",
         "corrupted",
@@ -1106,9 +1118,9 @@
         "ru": "Пояса",
         "jp": "ベルト"
       },
-      "prefixCount": 94,
+      "prefixCount": 95,
       "suffixCount": 82,
-      "totalCount": 176,
+      "totalCount": 177,
       "buckets": [
         "normal",
         "corrupted",
@@ -1125,9 +1137,9 @@
         "ru": "Нательные доспехи",
         "jp": "鎧"
       },
-      "prefixCount": 252,
+      "prefixCount": 253,
       "suffixCount": 110,
-      "totalCount": 362,
+      "totalCount": 363,
       "buckets": [
         "normal",
         "corrupted",
@@ -1144,9 +1156,9 @@
         "ru": "Обувь",
         "jp": "靴"
       },
-      "prefixCount": 190,
+      "prefixCount": 191,
       "suffixCount": 107,
-      "totalCount": 297,
+      "totalCount": 298,
       "buckets": [
         "normal",
         "corrupted",
@@ -1163,9 +1175,9 @@
         "ru": "Луки",
         "jp": "弓"
       },
-      "prefixCount": 111,
+      "prefixCount": 112,
       "suffixCount": 88,
-      "totalCount": 199,
+      "totalCount": 200,
       "buckets": [
         "normal",
         "corrupted",
@@ -1182,9 +1194,9 @@
         "ru": "Баклеры",
         "jp": "バックラー"
       },
-      "prefixCount": 97,
+      "prefixCount": 98,
       "suffixCount": 92,
-      "totalCount": 189,
+      "totalCount": 190,
       "buckets": [
         "normal",
         "corrupted",
@@ -1201,9 +1213,9 @@
         "ru": "Когти",
         "jp": "鉤爪"
       },
-      "prefixCount": 105,
+      "prefixCount": 106,
       "suffixCount": 80,
-      "totalCount": 185,
+      "totalCount": 186,
       "buckets": [
         "normal",
         "corrupted",
@@ -1220,9 +1232,9 @@
         "ru": "Самострелы",
         "jp": "クロスボウ"
       },
-      "prefixCount": 111,
+      "prefixCount": 112,
       "suffixCount": 102,
-      "totalCount": 213,
+      "totalCount": 214,
       "buckets": [
         "normal",
         "corrupted",
@@ -1239,9 +1251,9 @@
         "ru": "Кинжалы",
         "jp": "短剣"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 88,
-      "totalCount": 201,
+      "totalCount": 202,
       "buckets": [
         "normal",
         "corrupted",
@@ -1258,9 +1270,9 @@
         "ru": "Кистени",
         "jp": "フレイル"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 88,
-      "totalCount": 201,
+      "totalCount": 202,
       "buckets": [
         "normal",
         "corrupted",
@@ -1277,9 +1289,9 @@
         "ru": "Фокусы",
         "jp": "フォーカス"
       },
-      "prefixCount": 95,
+      "prefixCount": 96,
       "suffixCount": 70,
-      "totalCount": 165,
+      "totalCount": 166,
       "buckets": [
         "normal",
         "corrupted",
@@ -1296,9 +1308,9 @@
         "ru": "Перчатки",
         "jp": "手袋"
       },
-      "prefixCount": 227,
+      "prefixCount": 228,
       "suffixCount": 113,
-      "totalCount": 340,
+      "totalCount": 341,
       "buckets": [
         "normal",
         "corrupted",
@@ -1315,9 +1327,9 @@
         "ru": "Шлемы",
         "jp": "兜"
       },
-      "prefixCount": 238,
+      "prefixCount": 239,
       "suffixCount": 92,
-      "totalCount": 330,
+      "totalCount": 331,
       "buckets": [
         "normal",
         "corrupted",
@@ -1404,9 +1416,9 @@
         "ru": "Одноручные топоры",
         "jp": "片手斧"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 80,
-      "totalCount": 193,
+      "totalCount": 194,
       "buckets": [
         "normal",
         "corrupted",
@@ -1423,9 +1435,9 @@
         "ru": "Одноручные булавы",
         "jp": "片手メイス"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 80,
-      "totalCount": 193,
+      "totalCount": 194,
       "buckets": [
         "normal",
         "corrupted",
@@ -1442,9 +1454,9 @@
         "ru": "Одноручные мечи",
         "jp": "片手剣"
       },
-      "prefixCount": 115,
+      "prefixCount": 116,
       "suffixCount": 88,
-      "totalCount": 203,
+      "totalCount": 204,
       "buckets": [
         "normal",
         "corrupted",
@@ -1461,9 +1473,9 @@
         "ru": "Колчаны",
         "jp": "矢筒"
       },
-      "prefixCount": 91,
+      "prefixCount": 92,
       "suffixCount": 44,
-      "totalCount": 135,
+      "totalCount": 136,
       "buckets": [
         "normal",
         "corrupted",
@@ -1480,9 +1492,9 @@
         "ru": "Кольца",
         "jp": "指輪"
       },
-      "prefixCount": 141,
+      "prefixCount": 142,
       "suffixCount": 103,
-      "totalCount": 244,
+      "totalCount": 245,
       "buckets": [
         "normal",
         "corrupted",
@@ -1499,9 +1511,9 @@
         "ru": "Скипетры",
         "jp": "セプター"
       },
-      "prefixCount": 155,
+      "prefixCount": 156,
       "suffixCount": 147,
-      "totalCount": 302,
+      "totalCount": 303,
       "buckets": [
         "normal",
         "corrupted",
@@ -1518,9 +1530,9 @@
         "ru": "Щиты",
         "jp": "盾"
       },
-      "prefixCount": 119,
+      "prefixCount": 120,
       "suffixCount": 114,
-      "totalCount": 233,
+      "totalCount": 234,
       "buckets": [
         "normal",
         "corrupted",
@@ -1537,9 +1549,9 @@
         "ru": "Копья",
         "jp": "スピア"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 92,
-      "totalCount": 205,
+      "totalCount": 206,
       "buckets": [
         "normal",
         "corrupted",
@@ -1556,9 +1568,9 @@
         "ru": "Посохи",
         "jp": "スタッフ"
       },
-      "prefixCount": 185,
+      "prefixCount": 186,
       "suffixCount": 152,
-      "totalCount": 337,
+      "totalCount": 338,
       "buckets": [
         "normal",
         "corrupted",
@@ -1575,9 +1587,9 @@
         "ru": "Талисманы",
         "jp": "タリスマン"
       },
-      "prefixCount": 152,
+      "prefixCount": 153,
       "suffixCount": 128,
-      "totalCount": 280,
+      "totalCount": 281,
       "buckets": [
         "normal",
         "corrupted",
@@ -1594,9 +1606,9 @@
         "ru": "Двуручные топоры",
         "jp": "両手斧"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 80,
-      "totalCount": 193,
+      "totalCount": 194,
       "buckets": [
         "normal",
         "corrupted",
@@ -1613,9 +1625,9 @@
         "ru": "Двуручные булавы",
         "jp": "両手メイス"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 80,
-      "totalCount": 193,
+      "totalCount": 194,
       "buckets": [
         "normal",
         "corrupted",
@@ -1632,9 +1644,9 @@
         "ru": "Двуручные мечи",
         "jp": "両手剣"
       },
-      "prefixCount": 115,
+      "prefixCount": 116,
       "suffixCount": 88,
-      "totalCount": 203,
+      "totalCount": 204,
       "buckets": [
         "normal",
         "corrupted",
@@ -1667,9 +1679,9 @@
         "ru": "Жезлы",
         "jp": "ワンド"
       },
-      "prefixCount": 185,
+      "prefixCount": 186,
       "suffixCount": 152,
-      "totalCount": 337,
+      "totalCount": 338,
       "buckets": [
         "normal",
         "corrupted",
@@ -1686,9 +1698,9 @@
         "ru": "Боевые посохи",
         "jp": "クォータースタッフ"
       },
-      "prefixCount": 113,
+      "prefixCount": 114,
       "suffixCount": 88,
-      "totalCount": 201,
+      "totalCount": 202,
       "buckets": [
         "normal",
         "corrupted",
@@ -1705,12 +1717,12 @@
       "poe-loot-overlay"
     ],
     "summary": {
-      "totalItems": 4872,
-      "ready": 4872,
+      "totalItems": 4892,
+      "ready": 4892,
       "noVisualIdentity": 0,
       "noDds": 0,
       "decodeFailed": 0,
-      "uniqueAssets": 2615
+      "uniqueAssets": 2633
     }
   }
 }

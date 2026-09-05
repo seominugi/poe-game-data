@@ -1,0 +1,104 @@
+[
+  {
+    "id": "simulacrum",
+    "metadataId": "Metadata/Items/MapFragments/CurrencyAfflictionFragment",
+    "visualIdentityId": "AfflictionFragment",
+    "classId": "AtlasCurrency",
+    "className": {
+      "en": "Map Fragments",
+      "kr": "지도 조각",
+      "tw": "地圖碎片",
+      "ru": "Обрывки карт",
+      "jp": "マップフラグメント"
+    },
+    "name": {
+      "en": "Simulacrum",
+      "kr": "복제된 영토",
+      "tw": "幻像異界",
+      "ru": "Симулякр",
+      "jp": "シミュラクラム"
+    },
+    "dropLevel": 75,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds the Simulacrum to a Map",
+        "kr": "지도에 복제된 영토를 추가합니다.",
+        "tw": "為一張地圖添加異界幻象",
+        "ru": "Добавляет Симулякр на карту",
+        "jp": "マップにシミュラクラムを追加する。"
+      },
+      "directions": {
+        "en": "Right click this item then left click an Endgame World Area affected by at least 100% Delirousness to apply it.",
+        "kr": "해당 아이템을 우클릭한 뒤, 환영이 100% 이상인 엔드게임 세계 지역을 좌클릭해 적용할 수 있습니다.",
+        "tw": "右鍵點擊此物品，並左鍵點擊一個至少100%譫妄的終局世界區域以施加。",
+        "ru": "Щёлкните правой кнопкой мыши по этому предмету и затем левой по высокоуровневой области под влиянием как минимум 100% бредовости, чтобы использовать.",
+        "jp": "このアイテムを右クリックした後、最低100%のせん妄度の影響を受けているエンドゲームワールドエリアを左クリックして適用する。"
+      }
+    },
+    "flavour": {
+      "en": "How do you defeat that which dwells within you?",
+      "kr": "내면에 깃든 존재를 어찌 이길 수 있으랴.",
+      "tw": "你該如何打倒住在你內心的心魔呢？",
+      "ru": "Как ты победишь то, что живёт внутри тебя?",
+      "jp": "己の内に巣食うものをどうやって倒すのだ？"
+    },
+    "implicits": null,
+    "tags": [
+      "affliction_splinter"
+    ],
+    "image": null
+  },
+  {
+    "id": "sacred-bloom",
+    "metadataId": "Metadata/Items/MapFragments/CurrencyWildwoodFragment",
+    "visualIdentityId": "WildwoodAtlasFragment",
+    "classId": "AtlasCurrency",
+    "className": {
+      "en": "Map Fragments",
+      "kr": "지도 조각",
+      "tw": "地圖碎片",
+      "ru": "Обрывки карт",
+      "jp": "マップフラグメント"
+    },
+    "name": {
+      "en": "Sacred Bloom",
+      "kr": "신성한 꽃",
+      "tw": "聖綻之花",
+      "ru": "Священное соцветие",
+      "jp": "聖なる花"
+    },
+    "dropLevel": 65,
+    "spec": null,
+    "currency": {
+      "stackSize": 1,
+      "description": {
+        "en": "Adds a Viridian Wildwood to a Map and all Maps connected to it",
+        "kr": "지도에 취록의 야생림을 추가합니다.",
+        "tw": "為一張地圖添加翠綠荒林",
+        "ru": "Добавляет Диколесье Вириди на карту",
+        "jp": "マップにヴィリジアン・ワイルドウッドを追加する"
+      },
+      "directions": {
+        "en": "Right click this item then left click an Endgame World Area to apply it.",
+        "kr": "해당 아이템을 우클릭한 뒤, 엔드게임 세계 지역을 좌클릭해 적용할 수 있습니다.",
+        "tw": "右鍵點擊此物品，再左鍵點擊一個終局世界區域以施加它。",
+        "ru": "Щёлкните правой кнопкой мыши по этому предмету и затем левой по высокоуровневой области в мире игры, чтобы использовать.",
+        "jp": "このアイテムを右クリックした後、エンドゲームのワールドエリアを左クリックして適用します。"
+      }
+    },
+    "flavour": {
+      "en": "It neither blooms nor withers.",
+      "kr": "꽃을 피우지도, 시들지도 않는다.",
+      "tw": "既不盛放，也不凋零。",
+      "ru": "И не цветёт, и не увядает.",
+      "jp": "それは開花もしなければ萎れることもない。"
+    },
+    "implicits": null,
+    "tags": [
+      "not_for_sale"
+    ],
+    "image": null
+  }
+]

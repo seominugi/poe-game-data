@@ -29,9 +29,9 @@
       "total": 12
     },
     "essence": {
-      "prefix": 10,
+      "prefix": 11,
       "suffix": 0,
-      "total": 10
+      "total": 11
     },
     "unique": {
       "prefix": 19,
@@ -71,7 +71,7 @@
             "jp": "(1-2)から(3-4)の物理棘ダメージ"
           },
           "group": [
-            5593
+            5603
           ],
           "weight": 1,
           "stats": [
@@ -532,7 +532,7 @@
             "jp": "(5-7)から(7-10)の物理棘ダメージ"
           },
           "group": [
-            5593
+            5603
           ],
           "weight": 1,
           "stats": [
@@ -893,7 +893,7 @@
             "jp": "(11-16)から(17-23)の物理棘ダメージ"
           },
           "group": [
-            5593
+            5603
           ],
           "weight": 1,
           "stats": [
@@ -1454,7 +1454,7 @@
             "jp": "(24-35)から(36-53)の物理棘ダメージ"
           },
           "group": [
-            5593
+            5603
           ],
           "weight": 1,
           "stats": [
@@ -1865,7 +1865,7 @@
             "jp": "(40-60)から(61-92)の物理棘ダメージ"
           },
           "group": [
-            5593
+            5603
           ],
           "weight": 1,
           "stats": [
@@ -2326,7 +2326,7 @@
             "jp": "(64-97)から(98-145)の物理棘ダメージ"
           },
           "group": [
-            5593
+            5603
           ],
           "weight": 1,
           "stats": [
@@ -2587,7 +2587,7 @@
             "jp": "(101-151)から(152-220)の物理棘ダメージ"
           },
           "group": [
-            5593
+            5603
           ],
           "weight": 1,
           "stats": [
@@ -7505,7 +7505,7 @@
             "jp": "0 を割り当てる"
           },
           "group": [
-            5671
+            5682
           ],
           "weight": 0,
           "stats": [
@@ -7763,7 +7763,7 @@
             "jp": "プレイヤーレベルごとに回避力 3を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ"
           },
           "group": [
-            5909
+            5921
           ],
           "weight": 0,
           "stats": [
@@ -7863,7 +7863,7 @@
             "jp": "プレイヤーレベルごとに回避力 2を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ\nプレイヤーレベルごとに最大ルーンワード 1を持つ"
           },
           "group": [
-            5909
+            5921
           ],
           "weight": 0,
           "stats": [
@@ -7970,7 +7970,7 @@
             "jp": null
           },
           "group": [
-            5909
+            5921
           ],
           "weight": 0,
           "stats": [
@@ -7985,6 +7985,56 @@
                 }
               ],
               "value": "0",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "Obliterated",
+          "affixType": "essence",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            6096
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_display_is_obliterated",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
               "text": {
                 "en": null,
                 "kr": null,
