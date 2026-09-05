@@ -1055,11 +1055,11 @@
     "currency": {
       "stackSize": 10,
       "description": {
-        "en": "While this item is active in your inventory the next\nPossessed monster you kill will release its Azmeri Spirit",
+        "en": "While this item is active in your inventory the next\nPossessed monster you kill will Release and manifest all Azmeri Spirits",
         "kr": "이 아이템이 소지품에서 활성화되어 있는 동안\n다음으로 처치하는 사로잡힌 몬스터가 아즈메리 혼백을 내보냅니다.",
-        "tw": "當這個物品在背包中生效時，你擊殺的下一個\n受附身怪物會釋放阿茲莫里魂靈",
-        "ru": "Пока этот предмет активен в вашем инвентаре, следующий\nубитый вами одержимый монстр выпустит своего духа азмири",
-        "jp": "インベントリ内でアクティブ状態の時\n次に倒す憑依されたモンスターはアズメリの精霊を解放する。"
+        "tw": "此物品在你的背包中生效時，你擊殺的下一個\n受附身怪物會釋放阿茲莫里魂靈",
+        "ru": "Пока этот предмет активен в вашем инвентаре, следующий\nубитый вами одержимый монстр выпустит и воплотит всех духов азмири",
+        "jp": "インベントリ内でアクティブ状態の時\n次に倒す憑依されたモンスターはアズメリの精霊をReleaseAzmeriSpirits|解放]し、全てのアズメリの精霊が顕現する"
       },
       "directions": {
         "en": "Right click this item in your inventory to set it to be active. This item is consumed when triggered. Only one Omen can be triggered from combat in each instance.",
@@ -1229,7 +1229,7 @@
       "description": {
         "en": "While this item is active in your inventory your next\nGamble purchase will have a 50% chance of costing no Gold\nand not consuming this Omen",
         "kr": "이 아이템이 소지품에서 활성화되어 있을 때\n도박을 구매하면 50% 확률로 골드 비용이 들지 않고\n이 징조가 소모되지 않습니다.",
-        "tw": "此物品在你的背包中生效時，你下一次\n購買賭博時有 50% 機率不消耗金幣\n且不消耗此徵兆",
+        "tw": "此物品在你的背包中生效時，你下一次\n購買賭博時有 50% 機率不消耗金幣\n且不消耗此預兆",
         "ru": "Пока этот предмет активен в вашем инвентаре, следующая случайная\nпокупка с 50% шансом не будет стоить золота\nи не израсходует это предзнаменование",
         "jp": "インベントリ内でアクティブ状態の時\n次回行うギャンブルの購入は\n50%の確率でゴールドを消費せずこのお告げを消費しない"
       },
@@ -1685,10 +1685,10 @@
       "stackSize": 10,
       "description": {
         "en": "While this item is active in your inventory your next\nPerfect or Corrupted Essence will remove only Suffix modifiers",
-        "kr": "이 아이템이 소지품에서 활성화되어 있을 때 합금,\n완벽한 또는 타락한 에센스가 접미어 속성만 제거합니다.",
+        "kr": "이 아이템이 소지품에서 활성화되어 있을 때\n완벽한 또는 타락한 에센스가 접미어 속성만 제거합니다.",
         "tw": "此物品在你的背包中生效時，你的下一個\n熔劑、完美或腐化精髓只會移除後綴",
-        "ru": "Пока этот предмет активен в вашем инвентаре, следующий использованный\nсплав, совершенная или осквернённая Сущность удалит только свойства-суффиксы",
-        "jp": "インベントリ内でアクティブ状態の時\n次回使用する合金、パーフェクトまたはコラプトエッセンスはサフィックスモッドだけを取り除く"
+        "ru": "Пока этот предмет активен в вашем инвентаре, следующая использованная\nсовершенная или осквернённая Сущность удалит только свойства-суффиксы",
+        "jp": "インベントリ内でアクティブ状態の時\n次回使用するパーフェクトまたはコラプトエッセンスはサフィックスモッドだけを取り除く"
       },
       "directions": {
         "en": "Right click this item in your inventory to set it to be active. This item is consumed when triggered.",
@@ -1728,10 +1728,10 @@
       "stackSize": 10,
       "description": {
         "en": "While this item is active in your inventory your next\nPerfect or Corrupted Essence will remove only Prefix modifiers",
-        "kr": "이 아이템이 소지품에서 활성화되어 있을 때 합금,\n완벽한 또는 타락한 에센스가 접두어 속성만 제거합니다.",
+        "kr": "이 아이템이 소지품에서 활성화되어 있을 때\n완벽한 또는 타락한 에센스가 접두어 속성만 제거합니다.",
         "tw": "此物品在你的背包中生效時，你的下一個\n熔劑、完美或腐化精髓只會移除前綴",
-        "ru": "Пока этот предмет активен в вашем инвентаре, следующий использованный\nсплав, совершенная или осквернённая Сущность удалит только свойства-префиксы",
-        "jp": "インベントリ内でアクティブ状態の時\n次回使用する合金、パーフェクトまたはコラプトエッセンスはプレフィックスモッドだけを取り除く"
+        "ru": "Пока этот предмет активен в вашем инвентаре, следующая использованная\nсовершенная или осквернённая Сущность удалит только свойства-префиксы",
+        "jp": "インベントリ内でアクティブ状態の時\n次回使用するパーフェクトまたはコラプトエッセンスはプレフィックスモッドだけを取り除く"
       },
       "directions": {
         "en": "Right click this item in your inventory to set it to be active. This item is consumed when triggered.",

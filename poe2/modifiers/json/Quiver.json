@@ -29,9 +29,9 @@
       "total": 9
     },
     "essence": {
-      "prefix": 10,
+      "prefix": 11,
       "suffix": 0,
-      "total": 10
+      "total": 11
     },
     "unique": {
       "prefix": 16,
@@ -5519,7 +5519,7 @@
             "jp": "投射物は(10-20)%の確率で地形から追加で1回連鎖する"
           },
           "group": [
-            5547
+            5557
           ],
           "weight": 1,
           "stats": [
@@ -5924,7 +5924,7 @@
             "jp": "0 を割り当てる"
           },
           "group": [
-            5671
+            5682
           ],
           "weight": 0,
           "stats": [
@@ -6182,7 +6182,7 @@
             "jp": "プレイヤーレベルごとに回避力 3を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ"
           },
           "group": [
-            5909
+            5921
           ],
           "weight": 0,
           "stats": [
@@ -6282,7 +6282,7 @@
             "jp": "プレイヤーレベルごとに回避力 2を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ\nプレイヤーレベルごとに最大ルーンワード 1を持つ"
           },
           "group": [
-            5909
+            5921
           ],
           "weight": 0,
           "stats": [
@@ -6389,7 +6389,7 @@
             "jp": null
           },
           "group": [
-            5909
+            5921
           ],
           "weight": 0,
           "stats": [
@@ -6404,6 +6404,56 @@
                 }
               ],
               "value": "0",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            }
+          ]
+        },
+        {
+          "id": "Obliterated",
+          "affixType": "essence",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "effect": {
+            "en": null,
+            "kr": null,
+            "tw": null,
+            "ru": null,
+            "jp": null
+          },
+          "group": [
+            6096
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dummy_display_is_obliterated",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
               "text": {
                 "en": null,
                 "kr": null,
@@ -6594,7 +6644,7 @@
             "jp": "投射物は(25-40)%の確率で地形から追加で1回連鎖する"
           },
           "group": [
-            5547
+            5557
           ],
           "weight": 1,
           "stats": [

@@ -4,14 +4,14 @@
   "audience": [
     "poe-loot-overlay"
   ],
-  "gamePatch": "4.5.4.8",
+  "gamePatch": "4.5.5.1",
   "summary": {
-    "totalItems": 4872,
-    "ready": 4872,
+    "totalItems": 4892,
+    "ready": 4892,
     "noVisualIdentity": 0,
     "noDds": 0,
     "decodeFailed": 0,
-    "uniqueAssets": 2615
+    "uniqueAssets": 2633
   },
   "items": [
     {
@@ -20108,7 +20108,7 @@
       "visualIdentityId": "CurrencyIncursionMutateCorruptionEnchantArmour",
       "names": {
         "en": "Kopec's Orb of Sacrifice",
-        "kr": "강화된 희생의 오브"
+        "kr": "코펙의 희생의 오브"
       },
       "sourceDds": "Art/2DItems/Currency/IncursionCraftingOrbs/IncursionCorruptionOrb2.dds",
       "assetSha256": "aa926b5d2ccf297aa36b8a7995f24180a8788f5be27302d4d525ae988c8dfedb",
@@ -20120,7 +20120,7 @@
       "visualIdentityId": "CurrencyIncursionMutateCorruptionEnchantJewel",
       "names": {
         "en": "Yugul's Orb of Sacrifice",
-        "kr": "왕실 희생의 오브"
+        "kr": "유굴의 희생의 오브"
       },
       "sourceDds": "Art/2DItems/Currency/IncursionCraftingOrbs/IncursionCorruptionOrb4.dds",
       "assetSha256": "af16a0eef75dbc7bd67dcf191d041ca73510cc68004f9d3139b3966d61bb6d94",
@@ -20132,7 +20132,7 @@
       "visualIdentityId": "CurrencyIncursionMutateCorruptionEnchantJewellery",
       "names": {
         "en": "Kamasa's Orb of Sacrifice",
-        "kr": "부정한 희생의 오브"
+        "kr": "카마사의 희생의 오브"
       },
       "sourceDds": "Art/2DItems/Currency/IncursionCraftingOrbs/IncursionCorruptionOrb3.dds",
       "assetSha256": "9612749cd6cbda64425659e85db6aa37ee1e8d6c37f5eb6dae1b5fd9d0b2781c",
@@ -20144,7 +20144,7 @@
       "visualIdentityId": "CurrencyIncursionMutateCorruptionEnchantWeapon",
       "names": {
         "en": "Yaomac's Orb of Sacrifice",
-        "kr": "잔인한 희생의 오브"
+        "kr": "야오맥의 희생의 오브"
       },
       "sourceDds": "Art/2DItems/Currency/IncursionCraftingOrbs/IncursionCorruptionOrb1.dds",
       "assetSha256": "54cb4ce41665672531186b1b8c466263b3e454ef340295542ed4a7a54015268d",
@@ -24668,7 +24668,7 @@
       "visualIdentityId": "SkillGemAbyssalLivingBomb",
       "names": {
         "en": "Untether",
-        "kr": "심연의 살아있는 폭탄"
+        "kr": "연 끊기"
       },
       "sourceDds": "Art/2DItems/Gems/New/BlankGem.dds",
       "assetSha256": "e291a336c0e291a11a618255f09c16f281037656a317c150b20b710cb46b49f9",
@@ -42183,6 +42183,18 @@
       "status": "ready"
     },
     {
+      "itemId": "sacred-bloom",
+      "metadataId": "Metadata/Items/MapFragments/CurrencyWildwoodFragment",
+      "visualIdentityId": "WildwoodAtlasFragment",
+      "names": {
+        "en": "Sacred Bloom",
+        "kr": "신성한 꽃"
+      },
+      "sourceDds": "Art/2DItems/Currency/Harvest/SacredLifeforce.dds",
+      "assetSha256": "333783f6b89ba512665480616877d867850c8bc29d2d520b1b96f9b79403452f",
+      "status": "ready"
+    },
+    {
       "itemId": "divine-vessel",
       "metadataId": "Metadata/Items/MapFragments/FragmentPantheonFlask",
       "visualIdentityId": "FragmentPantheonFlask",
@@ -50731,7 +50743,7 @@
       "metadataId": "Metadata/Items/SoulCores/RuneOlrothsLegacyEdyrnsTusks",
       "visualIdentityId": "OlrothsLegacyEdyrnsTusks",
       "names": {
-        "en": "Legacy of Edyrns Tusks",
+        "en": "Legacy of Edyrn's Tusks",
         "kr": "에디른의 엄니의 유산"
       },
       "sourceDds": "Art/2DItems/Currency/Expedition2/GameWarpRuneUniqueFragment.dds",
@@ -52323,6 +52335,54 @@
       "status": "ready"
     },
     {
+      "itemId": "jiquanis-soul-core-of-automation",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial16",
+      "visualIdentityId": "SoulCoreSpecial16",
+      "names": {
+        "en": "Jiquani's Soul Core of Automation",
+        "kr": "지콰니의 자동화 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreTotems.dds",
+      "assetSha256": "a5ec60f2ac1316759af8c8a475417138754a0c947818730de95ddf871b705d38",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-malediction",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial17",
+      "visualIdentityId": "SoulCoreSpecial17_",
+      "names": {
+        "en": "Jiquani's Soul Core of Malediction",
+        "kr": "지콰니의 악담 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreCurses.dds",
+      "assetSha256": "fb1aec0bcf7aa1c6159ff3b6b8eaa8a2bca3dfd0c122172ebb389f40e6b2d492",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-targeting",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial18",
+      "visualIdentityId": "SoulCoreSpecial18",
+      "names": {
+        "en": "Jiquani's Soul Core of Targeting",
+        "kr": "지콰니의 대상 지정 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreMarks.dds",
+      "assetSha256": "939e24803a551963d5a3bcb369b7b8833fd717c740a64e1b9cc10dc5590464fe",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-rallying",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial19",
+      "visualIdentityId": "SoulCoreSpecial19",
+      "names": {
+        "en": "Jiquani's Soul Core of Rallying",
+        "kr": "지콰니의 재집결 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreWarcries.dds",
+      "assetSha256": "c94044f5ced8797e447ceddfb040abf8b217568374dafcc236e089c4b81301dd",
+      "status": "ready"
+    },
+    {
       "itemId": "zalatls-soul-core-of-insulation",
       "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial2",
       "visualIdentityId": "SoulCoreSpecial2",
@@ -52335,6 +52395,126 @@
       "status": "ready"
     },
     {
+      "itemId": "jiquanis-soul-core-of-radiance",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial20",
+      "visualIdentityId": "SoulCoreSpecial20_",
+      "names": {
+        "en": "Jiquani's Soul Core of Radiance",
+        "kr": "지콰니의 광휘 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreHeralds.dds",
+      "assetSha256": "a557463de8ef3d2f5730f3c4e6303a2680dfdeb2f6a8ac12cefa56f9c2d5c6b1",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-severing",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial21",
+      "visualIdentityId": "SoulCoreSpecial21_",
+      "names": {
+        "en": "Jiquani's Soul Core of Severing",
+        "kr": "지콰니의 단절 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreStrikes.dds",
+      "assetSha256": "7466ae46873e5306651c761f3f865ee50dc97a30e35859d6639a529acbc3d2a5",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-rippling",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial22",
+      "visualIdentityId": "SoulCoreSpecial22",
+      "names": {
+        "en": "Jiquani's Soul Core of Rippling",
+        "kr": "지콰니의 물결 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreNovas.dds",
+      "assetSha256": "39f7023aeac8b4ebc4120cc2c3200134f6586f3e1fd7db625c0c4dd8be19b77f",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-quaking",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial23",
+      "visualIdentityId": "SoulCoreSpecial23_",
+      "names": {
+        "en": "Jiquani's Soul Core of Quaking",
+        "kr": "지콰니의 진동 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreSlams.dds",
+      "assetSha256": "728e841286d69fa43ec549dc57b4302a148367988f3e603e822c2f67c3ccfcc8",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-munitions",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial24",
+      "visualIdentityId": "SoulCoreSpecial24_",
+      "names": {
+        "en": "Jiquani's Soul Core of Munitions",
+        "kr": "지콰니의 군수품 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreGrenades.dds",
+      "assetSha256": "e322a5380cddc887e4fe11efd0889f86feba2dde45020909158a9a407740b785",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-snares",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial25",
+      "visualIdentityId": "SoulCoreSpecial25",
+      "names": {
+        "en": "Jiquani's Soul Core of Snares",
+        "kr": "지콰니의 올가미 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreHazards.dds",
+      "assetSha256": "a6f89c7a66abecb36fc6c9e9ee0bfe8f89475a39cc2959262cab947670203045",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-abundance",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial26",
+      "visualIdentityId": "SoulCoreSpecial26_",
+      "names": {
+        "en": "Jiquani's Soul Core of Abundance",
+        "kr": "지콰니의 풍부 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCorePlants.dds",
+      "assetSha256": "08826dbe3bdd3ede58f7862ebfdae6fc39a5e2b676ab21b17b9785b534f9a612",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-squalls",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial27",
+      "visualIdentityId": "SoulCoreSpecial27",
+      "names": {
+        "en": "Jiquani's Soul Core of Squalls",
+        "kr": "지콰니의 돌풍 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreWind.dds",
+      "assetSha256": "f8ea0c78277594a83ef5d873af7266a3f66e54c65a702c54ce263023ab6f6b32",
+      "status": "ready"
+    },
+    {
+      "itemId": "jiquanis-soul-core-of-thundering",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial28",
+      "visualIdentityId": "SoulCoreSpecial28",
+      "names": {
+        "en": "Jiquani's Soul Core of Thundering",
+        "kr": "지콰니의 천둥 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/RareSoulCoreStorms.dds",
+      "assetSha256": "a31dd9447328c028441daeee119186b3b284ee4b28d0da4f70e781927a56e235",
+      "status": "ready"
+    },
+    {
+      "itemId": "atziris-soul-core-of-devotion",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial29",
+      "visualIdentityId": "SoulCoreSpecial29__",
+      "names": {
+        "en": "Atziri's Soul Core of Devotion",
+        "kr": "앗지리의 헌신 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/SoulCoreSpecialHelmet.dds",
+      "assetSha256": "1b03c09c03d7eba40738c849dee46083e4b575ef5d8af8d74bf8593ddc2688e5",
+      "status": "ready"
+    },
+    {
       "itemId": "topotantes-soul-core-of-dampening",
       "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial3",
       "visualIdentityId": "SoulCoreSpecial3",
@@ -52344,6 +52524,42 @@
       },
       "sourceDds": "Art/2DItems/Currency/SoulCores/NewSoulCoreFire.dds",
       "assetSha256": "20a2fca932654da3f281815ddca62dc0e9639b903c073fd3680049e441ed8480",
+      "status": "ready"
+    },
+    {
+      "itemId": "atziris-soul-core-of-vitality",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial30",
+      "visualIdentityId": "SoulCoreSpecial30_",
+      "names": {
+        "en": "Atziri's Soul Core of Vitality",
+        "kr": "앗지리의 활력 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/SoulCoreSpecialBodyArmour.dds",
+      "assetSha256": "8a456bf21f449a0063410c0e30024d2710d69b60ebb02a13d7cb283200c01cff",
+      "status": "ready"
+    },
+    {
+      "itemId": "atziris-soul-core-of-alacrity",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial31",
+      "visualIdentityId": "SoulCoreSpecial31",
+      "names": {
+        "en": "Atziri's Soul Core of Alacrity",
+        "kr": "앗지리의 기민성 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/SoulCoreSpecialGloves.dds",
+      "assetSha256": "876a30651d8e02efe86b464f30d1e4f89826796643eaac04f176140367e2625f",
+      "status": "ready"
+    },
+    {
+      "itemId": "atziris-soul-core-of-inoculation",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreSpecial32",
+      "visualIdentityId": "SoulCoreSpecial32",
+      "names": {
+        "en": "Atziri's Soul Core of Inoculation",
+        "kr": "앗지리의 접종 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/SoulCoreSpecialBoots.dds",
+      "assetSha256": "72cf85e0a0003f70ff1e1d678d5ce337533c4d1e41111eb79dbfc131526c67d2",
       "status": "ready"
     },
     {
@@ -52440,6 +52656,18 @@
       },
       "sourceDds": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreStrength.dds",
       "assetSha256": "d0587714f21d44d1d7dbbcddd96623a30fe09ac662d1c5f9332af95f3da0d091",
+      "status": "ready"
+    },
+    {
+      "itemId": "soul-core-of-vizoma",
+      "metadataId": "Metadata/Items/SoulCores/SoulCoreVision",
+      "visualIdentityId": "SoulCoreVision",
+      "names": {
+        "en": "Soul Core of Vizoma",
+        "kr": "비조마의 영혼 핵"
+      },
+      "sourceDds": "Art/2DItems/Currency/SoulCores/GreaterSoulCoreVision.dds",
+      "assetSha256": "c66ec82e74d10a54bad5facc71b2d7b167d94444d5d1561af10ba8945cf83f1f",
       "status": "ready"
     },
     {
@@ -52872,6 +53100,18 @@
       },
       "sourceDds": "Art/2DItems/Currency/SoulCores/TrialmasterKey3.dds",
       "assetSha256": "72dcb8c84770147d5e17c7a99e01c2c3327d80ba3d65aeb5da8e648b7ff02031",
+      "status": "ready"
+    },
+    {
+      "itemId": "inscribed-ultimatum",
+      "metadataId": "Metadata/Items/Ultimatum/UltimatumKeyInProgress",
+      "visualIdentityId": "UltimatumKey",
+      "names": {
+        "en": "Inscribed Ultimatum",
+        "kr": "새겨진 결전"
+      },
+      "sourceDds": "Art/2DItems/Maps/UltimatumTrialItem.dds",
+      "assetSha256": "0a1b33aeacc830a67b0b65640624eb213668741e05de7eda95fe27950358da70",
       "status": "ready"
     },
     {
@@ -55904,7 +56144,7 @@
       "visualIdentityId": "FourBow3",
       "names": {
         "en": "Runeforged Warden Bow",
-        "kr": "Runeforged Warden Bow"
+        "kr": "룬벼림 간수 활"
       },
       "sourceDds": "Art/2DItems/Weapons/TwoHandWeapons/Bows/Basetypes/Bow03.dds",
       "assetSha256": "3adef9d72ba4391401b1d05ffaf112515bd15484044563c7ab86aaef88c7b042",
@@ -58970,6 +59210,13 @@
       "height": 80,
       "bytes": 9258
     },
+    "08826dbe3bdd3ede58f7862ebfdae6fc39a5e2b676ab21b17b9785b534f9a612": {
+      "path": "item-icons/08826dbe3bdd3ede58f7862ebfdae6fc39a5e2b676ab21b17b9785b534f9a612.png",
+      "sha256": "08826dbe3bdd3ede58f7862ebfdae6fc39a5e2b676ab21b17b9785b534f9a612",
+      "width": 108,
+      "height": 108,
+      "bytes": 18128
+    },
     "08a3246978046785d9b76b5946431441fa8cbe0089d8ff3b15d16fbb71247e00": {
       "path": "item-icons/08a3246978046785d9b76b5946431441fa8cbe0089d8ff3b15d16fbb71247e00.png",
       "sha256": "08a3246978046785d9b76b5946431441fa8cbe0089d8ff3b15d16fbb71247e00",
@@ -60250,6 +60497,13 @@
       "width": 80,
       "height": 80,
       "bytes": 7515
+    },
+    "1b03c09c03d7eba40738c849dee46083e4b575ef5d8af8d74bf8593ddc2688e5": {
+      "path": "item-icons/1b03c09c03d7eba40738c849dee46083e4b575ef5d8af8d74bf8593ddc2688e5.png",
+      "sha256": "1b03c09c03d7eba40738c849dee46083e4b575ef5d8af8d74bf8593ddc2688e5",
+      "width": 108,
+      "height": 108,
+      "bytes": 25097
     },
     "1b141760eb8a6e5605b8af6b5c36beb4701fc0919354bc04cee4fdf3661194f5": {
       "path": "item-icons/1b141760eb8a6e5605b8af6b5c36beb4701fc0919354bc04cee4fdf3661194f5.png",
@@ -62448,6 +62702,13 @@
       "width": 80,
       "height": 80,
       "bytes": 12808
+    },
+    "39f7023aeac8b4ebc4120cc2c3200134f6586f3e1fd7db625c0c4dd8be19b77f": {
+      "path": "item-icons/39f7023aeac8b4ebc4120cc2c3200134f6586f3e1fd7db625c0c4dd8be19b77f.png",
+      "sha256": "39f7023aeac8b4ebc4120cc2c3200134f6586f3e1fd7db625c0c4dd8be19b77f",
+      "width": 108,
+      "height": 108,
+      "bytes": 17349
     },
     "3a13100e72b93f713fab27782896d9ee2c346c6403cf3fd4d9cd3029bafa2415": {
       "path": "item-icons/3a13100e72b93f713fab27782896d9ee2c346c6403cf3fd4d9cd3029bafa2415.png",
@@ -66306,6 +66567,13 @@
       "height": 108,
       "bytes": 25863
     },
+    "728e841286d69fa43ec549dc57b4302a148367988f3e603e822c2f67c3ccfcc8": {
+      "path": "item-icons/728e841286d69fa43ec549dc57b4302a148367988f3e603e822c2f67c3ccfcc8.png",
+      "sha256": "728e841286d69fa43ec549dc57b4302a148367988f3e603e822c2f67c3ccfcc8",
+      "width": 108,
+      "height": 108,
+      "bytes": 21729
+    },
     "72904e4799b0bfbeb37fc9518db2c9fc4ccf1931bdc7c22ead8a2fb6f579e87c": {
       "path": "item-icons/72904e4799b0bfbeb37fc9518db2c9fc4ccf1931bdc7c22ead8a2fb6f579e87c.png",
       "sha256": "72904e4799b0bfbeb37fc9518db2c9fc4ccf1931bdc7c22ead8a2fb6f579e87c",
@@ -66340,6 +66608,13 @@
       "width": 80,
       "height": 80,
       "bytes": 9313
+    },
+    "72cf85e0a0003f70ff1e1d678d5ce337533c4d1e41111eb79dbfc131526c67d2": {
+      "path": "item-icons/72cf85e0a0003f70ff1e1d678d5ce337533c4d1e41111eb79dbfc131526c67d2.png",
+      "sha256": "72cf85e0a0003f70ff1e1d678d5ce337533c4d1e41111eb79dbfc131526c67d2",
+      "width": 108,
+      "height": 108,
+      "bytes": 25037
     },
     "72dcb8c84770147d5e17c7a99e01c2c3327d80ba3d65aeb5da8e648b7ff02031": {
       "path": "item-icons/72dcb8c84770147d5e17c7a99e01c2c3327d80ba3d65aeb5da8e648b7ff02031.png",
@@ -66438,6 +66713,13 @@
       "width": 156,
       "height": 72,
       "bytes": 16154
+    },
+    "7466ae46873e5306651c761f3f865ee50dc97a30e35859d6639a529acbc3d2a5": {
+      "path": "item-icons/7466ae46873e5306651c761f3f865ee50dc97a30e35859d6639a529acbc3d2a5.png",
+      "sha256": "7466ae46873e5306651c761f3f865ee50dc97a30e35859d6639a529acbc3d2a5",
+      "width": 108,
+      "height": 108,
+      "bytes": 19626
     },
     "7476297da7ad91ad92cd870af1f6133f84115edf5a9c7113495270c5244ea9cf": {
       "path": "item-icons/7476297da7ad91ad92cd870af1f6133f84115edf5a9c7113495270c5244ea9cf.png",
@@ -68007,6 +68289,13 @@
       "height": 108,
       "bytes": 23896
     },
+    "876a30651d8e02efe86b464f30d1e4f89826796643eaac04f176140367e2625f": {
+      "path": "item-icons/876a30651d8e02efe86b464f30d1e4f89826796643eaac04f176140367e2625f.png",
+      "sha256": "876a30651d8e02efe86b464f30d1e4f89826796643eaac04f176140367e2625f",
+      "width": 108,
+      "height": 108,
+      "bytes": 24472
+    },
     "87a6257c73b36d9cccdc820979c2db45ff0a4324badadcf1bafe0ad9e417821f": {
       "path": "item-icons/87a6257c73b36d9cccdc820979c2db45ff0a4324badadcf1bafe0ad9e417821f.png",
       "sha256": "87a6257c73b36d9cccdc820979c2db45ff0a4324badadcf1bafe0ad9e417821f",
@@ -68209,6 +68498,13 @@
       "width": 212,
       "height": 316,
       "bytes": 91465
+    },
+    "8a456bf21f449a0063410c0e30024d2710d69b60ebb02a13d7cb283200c01cff": {
+      "path": "item-icons/8a456bf21f449a0063410c0e30024d2710d69b60ebb02a13d7cb283200c01cff.png",
+      "sha256": "8a456bf21f449a0063410c0e30024d2710d69b60ebb02a13d7cb283200c01cff",
+      "width": 108,
+      "height": 108,
+      "bytes": 24241
     },
     "8a6bcc020b02af7987800ed7459969bdf52ca11b44d27b3e2b86c997ae202ba6": {
       "path": "item-icons/8a6bcc020b02af7987800ed7459969bdf52ca11b44d27b3e2b86c997ae202ba6.png",
@@ -68881,6 +69177,13 @@
       "width": 108,
       "height": 108,
       "bytes": 18031
+    },
+    "939e24803a551963d5a3bcb369b7b8833fd717c740a64e1b9cc10dc5590464fe": {
+      "path": "item-icons/939e24803a551963d5a3bcb369b7b8833fd717c740a64e1b9cc10dc5590464fe.png",
+      "sha256": "939e24803a551963d5a3bcb369b7b8833fd717c740a64e1b9cc10dc5590464fe",
+      "width": 108,
+      "height": 108,
+      "bytes": 19137
     },
     "93adb41a394796cba7b8dde7da9db73f231d21f765ab7d655268c0c1255ab40e": {
       "path": "item-icons/93adb41a394796cba7b8dde7da9db73f231d21f765ab7d655268c0c1255ab40e.png",
@@ -69974,6 +70277,13 @@
       "height": 80,
       "bytes": 9383
     },
+    "a31dd9447328c028441daeee119186b3b284ee4b28d0da4f70e781927a56e235": {
+      "path": "item-icons/a31dd9447328c028441daeee119186b3b284ee4b28d0da4f70e781927a56e235.png",
+      "sha256": "a31dd9447328c028441daeee119186b3b284ee4b28d0da4f70e781927a56e235",
+      "width": 108,
+      "height": 108,
+      "bytes": 20185
+    },
     "a3252b6b288d7165c14240441596e0b4145c7f5622381e7a089c7c10d6a1c2fb": {
       "path": "item-icons/a3252b6b288d7165c14240441596e0b4145c7f5622381e7a089c7c10d6a1c2fb.png",
       "sha256": "a3252b6b288d7165c14240441596e0b4145c7f5622381e7a089c7c10d6a1c2fb",
@@ -70107,6 +70417,13 @@
       "height": 212,
       "bytes": 58843
     },
+    "a557463de8ef3d2f5730f3c4e6303a2680dfdeb2f6a8ac12cefa56f9c2d5c6b1": {
+      "path": "item-icons/a557463de8ef3d2f5730f3c4e6303a2680dfdeb2f6a8ac12cefa56f9c2d5c6b1.png",
+      "sha256": "a557463de8ef3d2f5730f3c4e6303a2680dfdeb2f6a8ac12cefa56f9c2d5c6b1",
+      "width": 108,
+      "height": 108,
+      "bytes": 21028
+    },
     "a55cc04491e20db97a62f3384fcc23a4e27478df57dd9a1c427fd3c7130e75f0": {
       "path": "item-icons/a55cc04491e20db97a62f3384fcc23a4e27478df57dd9a1c427fd3c7130e75f0.png",
       "sha256": "a55cc04491e20db97a62f3384fcc23a4e27478df57dd9a1c427fd3c7130e75f0",
@@ -70198,6 +70515,13 @@
       "height": 80,
       "bytes": 10281
     },
+    "a5ec60f2ac1316759af8c8a475417138754a0c947818730de95ddf871b705d38": {
+      "path": "item-icons/a5ec60f2ac1316759af8c8a475417138754a0c947818730de95ddf871b705d38.png",
+      "sha256": "a5ec60f2ac1316759af8c8a475417138754a0c947818730de95ddf871b705d38",
+      "width": 108,
+      "height": 108,
+      "bytes": 17948
+    },
     "a5f5b1493964dcf33c3096f1544462c4f068a5292b85c236e63249597acc69ee": {
       "path": "item-icons/a5f5b1493964dcf33c3096f1544462c4f068a5292b85c236e63249597acc69ee.png",
       "sha256": "a5f5b1493964dcf33c3096f1544462c4f068a5292b85c236e63249597acc69ee",
@@ -70260,6 +70584,13 @@
       "width": 108,
       "height": 108,
       "bytes": 25332
+    },
+    "a6f89c7a66abecb36fc6c9e9ee0bfe8f89475a39cc2959262cab947670203045": {
+      "path": "item-icons/a6f89c7a66abecb36fc6c9e9ee0bfe8f89475a39cc2959262cab947670203045.png",
+      "sha256": "a6f89c7a66abecb36fc6c9e9ee0bfe8f89475a39cc2959262cab947670203045",
+      "width": 108,
+      "height": 108,
+      "bytes": 19339
     },
     "a700d8230d3fe52c502dd64438bb800f59892a3c7c5b79f91cf9dec07af99377": {
       "path": "item-icons/a700d8230d3fe52c502dd64438bb800f59892a3c7c5b79f91cf9dec07af99377.png",
@@ -72669,6 +73000,13 @@
       "height": 316,
       "bytes": 24946
     },
+    "c66ec82e74d10a54bad5facc71b2d7b167d94444d5d1561af10ba8945cf83f1f": {
+      "path": "item-icons/c66ec82e74d10a54bad5facc71b2d7b167d94444d5d1561af10ba8945cf83f1f.png",
+      "sha256": "c66ec82e74d10a54bad5facc71b2d7b167d94444d5d1561af10ba8945cf83f1f",
+      "width": 108,
+      "height": 108,
+      "bytes": 16439
+    },
     "c680e4e6e1df5c9b539a53dd9486c57d2db7a248eb7060dde919f20ab837cd5d": {
       "path": "item-icons/c680e4e6e1df5c9b539a53dd9486c57d2db7a248eb7060dde919f20ab837cd5d.png",
       "sha256": "c680e4e6e1df5c9b539a53dd9486c57d2db7a248eb7060dde919f20ab837cd5d",
@@ -72892,6 +73230,13 @@
       "width": 108,
       "height": 108,
       "bytes": 18824
+    },
+    "c94044f5ced8797e447ceddfb040abf8b217568374dafcc236e089c4b81301dd": {
+      "path": "item-icons/c94044f5ced8797e447ceddfb040abf8b217568374dafcc236e089c4b81301dd.png",
+      "sha256": "c94044f5ced8797e447ceddfb040abf8b217568374dafcc236e089c4b81301dd",
+      "width": 108,
+      "height": 108,
+      "bytes": 18524
     },
     "c969206243252099015fe5456013f2b4a04f46346705da0b54f4eb59a93a6db6": {
       "path": "item-icons/c969206243252099015fe5456013f2b4a04f46346705da0b54f4eb59a93a6db6.png",
@@ -74790,6 +75135,13 @@
       "height": 108,
       "bytes": 22159
     },
+    "e322a5380cddc887e4fe11efd0889f86feba2dde45020909158a9a407740b785": {
+      "path": "item-icons/e322a5380cddc887e4fe11efd0889f86feba2dde45020909158a9a407740b785.png",
+      "sha256": "e322a5380cddc887e4fe11efd0889f86feba2dde45020909158a9a407740b785",
+      "width": 108,
+      "height": 108,
+      "bytes": 20868
+    },
     "e355a877e369e87a6d9198741b9d6f91411e4df462c0b9c8d30072a8888e05f2": {
       "path": "item-icons/e355a877e369e87a6d9198741b9d6f91411e4df462c0b9c8d30072a8888e05f2.png",
       "sha256": "e355a877e369e87a6d9198741b9d6f91411e4df462c0b9c8d30072a8888e05f2",
@@ -76288,6 +76640,13 @@
       "height": 80,
       "bytes": 6984
     },
+    "f8ea0c78277594a83ef5d873af7266a3f66e54c65a702c54ce263023ab6f6b32": {
+      "path": "item-icons/f8ea0c78277594a83ef5d873af7266a3f66e54c65a702c54ce263023ab6f6b32.png",
+      "sha256": "f8ea0c78277594a83ef5d873af7266a3f66e54c65a702c54ce263023ab6f6b32",
+      "width": 108,
+      "height": 108,
+      "bytes": 21998
+    },
     "f91fc4a7272c6ec3392b77f460628b99f64ab635b89b144617a3bbbc81a3e0ad": {
       "path": "item-icons/f91fc4a7272c6ec3392b77f460628b99f64ab635b89b144617a3bbbc81a3e0ad.png",
       "sha256": "f91fc4a7272c6ec3392b77f460628b99f64ab635b89b144617a3bbbc81a3e0ad",
@@ -76518,6 +76877,13 @@
       "width": 80,
       "height": 80,
       "bytes": 8222
+    },
+    "fb1aec0bcf7aa1c6159ff3b6b8eaa8a2bca3dfd0c122172ebb389f40e6b2d492": {
+      "path": "item-icons/fb1aec0bcf7aa1c6159ff3b6b8eaa8a2bca3dfd0c122172ebb389f40e6b2d492.png",
+      "sha256": "fb1aec0bcf7aa1c6159ff3b6b8eaa8a2bca3dfd0c122172ebb389f40e6b2d492",
+      "width": 108,
+      "height": 108,
+      "bytes": 21193
     },
     "fb9a31b40896b7769fbd0d56e10ab3927995a9868dfc1493009fd17bacd0d124": {
       "path": "item-icons/fb9a31b40896b7769fbd0d56e10ab3927995a9868dfc1493009fd17bacd0d124.png",
