@@ -36,9 +36,19 @@
       "total": 9
     },
     "essence": {
-      "prefix": 11,
-      "suffix": 0,
-      "total": 11
+      "prefix": 14,
+      "suffix": 22,
+      "total": 36
+    },
+    "alloy": {
+      "prefix": 1,
+      "suffix": 2,
+      "total": 3
+    },
+    "desecrated": {
+      "prefix": 0,
+      "suffix": 21,
+      "total": 21
     },
     "unique": {
       "prefix": 16,
@@ -78,7 +88,7 @@
             "jp": "(1-2)から(3-4)の物理棘ダメージ"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -135,7 +145,7 @@
             "jp": "最大ライフ (10-19)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -189,7 +199,7 @@
             "jp": "アーマー (9-16)\n最大エナジーシールド (5-8)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -262,7 +272,7 @@
             "jp": "アーマー (9-16)\n回避力 (6-10)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -331,7 +341,7 @@
             "jp": "ブロック率が(15-19)%増加する"
           },
           "group": [
-            18
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1,
           "stats": [
@@ -381,7 +391,7 @@
             "jp": "アーマー (16-27)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -431,7 +441,7 @@
             "jp": "アーマーおよびエナジーシールドが(15-26)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -481,7 +491,7 @@
             "jp": "アーマーおよび回避力が(15-26)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -531,7 +541,7 @@
             "jp": "アーマーが(15-26)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -581,7 +591,7 @@
             "jp": "最大ライフ (20-29)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -631,7 +641,7 @@
             "jp": "アーマー (28-56)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -685,7 +695,7 @@
             "jp": "(5-7)から(7-10)の物理棘ダメージ"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -746,7 +756,7 @@
             "jp": "アーマーおよびエナジーシールドが(6-13)%増加する\nスタン閾値 (8-13)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -819,7 +829,7 @@
             "jp": "アーマーおよび回避力が(6-13)%増加する\nスタン閾値 (8-13)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -892,7 +902,7 @@
             "jp": "アーマーが(6-13)%増加する\nスタン閾値 (8-13)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -961,7 +971,7 @@
             "jp": "最大ライフ (30-39)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -1015,7 +1025,7 @@
             "jp": "アーマー (17-46)\n最大エナジーシールド (9-15)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1088,7 +1098,7 @@
             "jp": "アーマー (17-46)\n回避力 (11-41)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1157,7 +1167,7 @@
             "jp": "アーマーおよびエナジーシールドが(27-42)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1207,7 +1217,7 @@
             "jp": "アーマーおよび回避力が(27-42)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1257,7 +1267,7 @@
             "jp": "アーマー (57-77)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1307,7 +1317,7 @@
             "jp": "アーマーが(27-42)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1361,7 +1371,7 @@
             "jp": "(11-16)から(17-23)の物理棘ダメージ"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -1422,7 +1432,7 @@
             "jp": "アーマーおよびエナジーシールドが(14-20)%増加する\nスタン閾値 (14-24)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -1495,7 +1505,7 @@
             "jp": "アーマーおよび回避力が(14-20)%増加する\nスタン閾値 (14-24)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -1568,7 +1578,7 @@
             "jp": "アーマーが(14-20)%増加する\nスタン閾値 (14-24)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -1637,7 +1647,7 @@
             "jp": "最大ライフ (40-59)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -1687,7 +1697,7 @@
             "jp": "アーマー (78-98)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1737,7 +1747,7 @@
             "jp": "最大ライフ (60-69)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -1791,7 +1801,7 @@
             "jp": "アーマー (47-71)\n最大エナジーシールド (16-21)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1864,7 +1874,7 @@
             "jp": "アーマー (47-71)\n回避力 (42-64)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1933,7 +1943,7 @@
             "jp": "ブロック率が(20-24)%増加する"
           },
           "group": [
-            18
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1,
           "stats": [
@@ -1983,7 +1993,7 @@
             "jp": "アーマーおよびエナジーシールドが(43-55)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2033,7 +2043,7 @@
             "jp": "アーマーおよび回避力が(43-55)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2083,7 +2093,7 @@
             "jp": "アーマー (99-127)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -2133,7 +2143,7 @@
             "jp": "アーマーが(43-55)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2187,7 +2197,7 @@
             "jp": "(24-35)から(36-53)の物理棘ダメージ"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -2244,7 +2254,7 @@
             "jp": "最大ライフ (70-84)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -2298,7 +2308,7 @@
             "jp": "アーマーおよびエナジーシールドが(21-26)%増加する\nスタン閾値 (25-40)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -2371,7 +2381,7 @@
             "jp": "アーマーおよび回避力が(21-26)%増加する\nスタン閾値 (25-40)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -2444,7 +2454,7 @@
             "jp": "アーマーが(21-26)%増加する\nスタン閾値 (25-40)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -2513,7 +2523,7 @@
             "jp": "最大ライフ (85-99)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -2567,7 +2577,7 @@
             "jp": "アーマー (72-85)\n最大エナジーシールド (22-25)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -2640,7 +2650,7 @@
             "jp": "アーマー (72-85)\n回避力 (65-78)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -2709,7 +2719,7 @@
             "jp": "アーマーおよびエナジーシールドが(56-67)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2759,7 +2769,7 @@
             "jp": "アーマーおよび回避力が(56-67)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2809,7 +2819,7 @@
             "jp": "アーマー (128-159)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -2859,7 +2869,7 @@
             "jp": "アーマーが(56-67)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2913,7 +2923,7 @@
             "jp": "(40-60)から(61-92)の物理棘ダメージ"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -2974,7 +2984,7 @@
             "jp": "アーマーおよびエナジーシールドが(27-32)%増加する\nスタン閾値 (41-63)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -3047,7 +3057,7 @@
             "jp": "アーマーおよび回避力が(27-32)%増加する\nスタン閾値 (41-63)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -3120,7 +3130,7 @@
             "jp": "アーマーが(27-32)%増加する\nスタン閾値 (41-63)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -3189,7 +3199,7 @@
             "jp": "最大ライフ (100-119)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -3243,7 +3253,7 @@
             "jp": "アーマー (86-102)\n最大エナジーシールド (26-29)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3316,7 +3326,7 @@
             "jp": "アーマー (86-102)\n回避力 (79-94)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3385,7 +3395,7 @@
             "jp": "アーマーおよびエナジーシールドが(68-79)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3435,7 +3445,7 @@
             "jp": "アーマーおよび回避力が(68-79)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3485,7 +3495,7 @@
             "jp": "アーマー (160-190)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3535,7 +3545,7 @@
             "jp": "アーマーが(68-79)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3585,7 +3595,7 @@
             "jp": "最大ライフ (120-149)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -3639,7 +3649,7 @@
             "jp": "アーマー (103-127)\n最大エナジーシールド (30-36)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3712,7 +3722,7 @@
             "jp": "アーマー (103-127)\n回避力 (95-119)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3781,7 +3791,7 @@
             "jp": "アーマーおよびエナジーシールドが(80-91)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3831,7 +3841,7 @@
             "jp": "アーマーおよび回避力が(80-91)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3881,7 +3891,7 @@
             "jp": "アーマー (191-221)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3931,7 +3941,7 @@
             "jp": "アーマーが(80-91)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3985,7 +3995,7 @@
             "jp": "(64-97)から(98-145)の物理棘ダメージ"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -4046,7 +4056,7 @@
             "jp": "アーマーおよびエナジーシールドが(33-38)%増加する\nスタン閾値 (64-94)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -4119,7 +4129,7 @@
             "jp": "アーマーおよび回避力が(33-38)%増加する\nスタン閾値 (64-94)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -4192,7 +4202,7 @@
             "jp": "アーマーが(33-38)%増加する\nスタン閾値 (64-94)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -4261,7 +4271,7 @@
             "jp": "最大ライフ (150-174)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -4315,7 +4325,7 @@
             "jp": "アーマー (128-149)\n最大エナジーシールド (37-42)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -4388,7 +4398,7 @@
             "jp": "アーマー (128-149)\n回避力 (120-141)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -4457,7 +4467,7 @@
             "jp": "ブロック率が(25-30)%増加する"
           },
           "group": [
-            18
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1,
           "stats": [
@@ -4507,7 +4517,7 @@
             "jp": "アーマーおよびエナジーシールドが(92-100)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -4557,7 +4567,7 @@
             "jp": "アーマーおよび回避力が(92-100)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -4607,7 +4617,7 @@
             "jp": "アーマー (222-248)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -4657,7 +4667,7 @@
             "jp": "アーマーが(92-100)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -4707,7 +4717,7 @@
             "jp": "最大ライフ (175-189)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1,
           "stats": [
@@ -4761,7 +4771,7 @@
             "jp": "(101-151)から(152-220)の物理棘ダメージ"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -4822,7 +4832,7 @@
             "jp": "アーマーおよびエナジーシールドが(39-42)%増加する\nスタン閾値 (95-136)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -4895,7 +4905,7 @@
             "jp": "アーマーおよび回避力が(39-42)%増加する\nスタン閾値 (95-136)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -4968,7 +4978,7 @@
             "jp": "アーマーが(39-42)%増加する\nスタン閾値 (95-136)"
           },
           "group": [
-            1241
+            "DefencesPercentAndStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -5037,7 +5047,7 @@
             "jp": "アーマー (249-277)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -5089,7 +5099,7 @@
             "jp": "アーマーの(14-19)%が元素ダメージにも適用される"
           },
           "group": [
-            4268
+            "ArmourAppliesToElementalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5139,7 +5149,7 @@
             "jp": "冷気耐性 (6-10)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5189,7 +5199,7 @@
             "jp": "器用さ (5-8)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -5239,7 +5249,7 @@
             "jp": "回避力の(8-11)%と同量の受け流し力を獲得する"
           },
           "group": [
-            4271
+            "EvasionAppliesToDeflection"
           ],
           "weight": 1,
           "stats": [
@@ -5289,7 +5299,7 @@
             "jp": "火耐性 (6-10)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5339,7 +5349,7 @@
             "jp": "知性 (5-8)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -5389,7 +5399,7 @@
             "jp": "雷耐性 (6-10)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5439,7 +5449,7 @@
             "jp": "筋力 (5-8)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -5489,7 +5499,7 @@
             "jp": "スタン閾値 (6-11)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -5539,7 +5549,7 @@
             "jp": "スタン閾値 (12-29)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -5589,7 +5599,7 @@
             "jp": "器用さ (9-12)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -5639,7 +5649,7 @@
             "jp": "知性 (9-12)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -5689,7 +5699,7 @@
             "jp": "筋力 (9-12)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -5739,7 +5749,7 @@
             "jp": "全ての元素耐性 (3-5)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -5789,7 +5799,7 @@
             "jp": "火耐性 (11-15)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5839,7 +5849,7 @@
             "jp": "雷耐性 (11-15)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5889,7 +5899,7 @@
             "jp": "冷気耐性 (11-15)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5939,7 +5949,7 @@
             "jp": "スタン閾値 (30-49)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -5989,7 +5999,7 @@
             "jp": "アーマーの(20-25)%が元素ダメージにも適用される"
           },
           "group": [
-            4268
+            "ArmourAppliesToElementalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6039,7 +6049,7 @@
             "jp": "混沌耐性 (4-7)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6089,7 +6099,7 @@
             "jp": "回避力の(12-14)%と同量の受け流し力を獲得する"
           },
           "group": [
-            4271
+            "EvasionAppliesToDeflection"
           ],
           "weight": 1,
           "stats": [
@@ -6139,7 +6149,7 @@
             "jp": "器用さ (13-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -6189,7 +6199,7 @@
             "jp": "知性 (13-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -6239,7 +6249,7 @@
             "jp": "筋力 (13-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -6289,7 +6299,7 @@
             "jp": "スタン閾値 (50-72)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -6339,7 +6349,7 @@
             "jp": "火耐性 (16-20)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6389,7 +6399,7 @@
             "jp": "要求能力値が-15%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -6439,7 +6449,7 @@
             "jp": "雷耐性 (16-20)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6489,7 +6499,7 @@
             "jp": "全ての元素耐性 (6-8)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -6539,7 +6549,7 @@
             "jp": "冷気耐性 (16-20)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6589,7 +6599,7 @@
             "jp": "スタン閾値 (73-97)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -6639,7 +6649,7 @@
             "jp": "混沌耐性 (8-11)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6689,7 +6699,7 @@
             "jp": "物理ダメージ軽減率が4%される"
           },
           "group": [
-            1787
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1,
           "stats": [
@@ -6739,7 +6749,7 @@
             "jp": "要求能力値が-20%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -6789,7 +6799,7 @@
             "jp": "器用さ (17-20)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -6839,7 +6849,7 @@
             "jp": "知性 (17-20)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -6889,7 +6899,7 @@
             "jp": "プレイヤーに対するヒットはクリティカルダメージボーナスが(21-27)%減少する"
           },
           "group": [
-            3126
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1,
           "stats": [
@@ -6939,7 +6949,7 @@
             "jp": "筋力 (17-20)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -6989,7 +6999,7 @@
             "jp": "アーマーの(26-31)%が元素ダメージにも適用される"
           },
           "group": [
-            4268
+            "ArmourAppliesToElementalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -7039,7 +7049,7 @@
             "jp": "回避力の(15-17)%と同量の受け流し力を獲得する"
           },
           "group": [
-            4271
+            "EvasionAppliesToDeflection"
           ],
           "weight": 1,
           "stats": [
@@ -7089,7 +7099,7 @@
             "jp": "火耐性 (21-25)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7139,7 +7149,7 @@
             "jp": "スタン閾値 (98-124)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -7189,7 +7199,7 @@
             "jp": "雷耐性 (21-25)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7239,7 +7249,7 @@
             "jp": "冷気耐性 (21-25)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7289,7 +7299,7 @@
             "jp": "全ての元素耐性 (9-11)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -7339,7 +7349,7 @@
             "jp": "要求能力値が-25%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -7389,7 +7399,7 @@
             "jp": "物理ダメージ軽減率が5%される"
           },
           "group": [
-            1787
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1,
           "stats": [
@@ -7439,7 +7449,7 @@
             "jp": "混沌耐性 (12-15)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7489,7 +7499,7 @@
             "jp": "器用さ (21-24)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -7539,7 +7549,7 @@
             "jp": "知性 (21-24)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -7589,7 +7599,7 @@
             "jp": "筋力 (21-24)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -7639,7 +7649,7 @@
             "jp": "プレイヤーに対するヒットはクリティカルダメージボーナスが(28-34)%減少する"
           },
           "group": [
-            3126
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1,
           "stats": [
@@ -7689,7 +7699,7 @@
             "jp": "スタン閾値 (125-163)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -7739,7 +7749,7 @@
             "jp": "アーマーの(32-37)%が元素ダメージにも適用される"
           },
           "group": [
-            4268
+            "ArmourAppliesToElementalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -7789,7 +7799,7 @@
             "jp": "エナジーシールドリチャージレートが(16-19)%増加する"
           },
           "group": [
-            44
+            "EnergyShieldRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -7839,7 +7849,7 @@
             "jp": "回避力の(18-20)%と同量の受け流し力を獲得する"
           },
           "group": [
-            4271
+            "EvasionAppliesToDeflection"
           ],
           "weight": 1,
           "stats": [
@@ -7889,7 +7899,7 @@
             "jp": "火耐性 (26-30)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7939,7 +7949,7 @@
             "jp": "雷耐性 (26-30)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7989,7 +7999,7 @@
             "jp": "冷気耐性 (26-30)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8039,7 +8049,7 @@
             "jp": "要求能力値が-30%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -8089,7 +8099,7 @@
             "jp": "物理ダメージ軽減率が6%される"
           },
           "group": [
-            1787
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1,
           "stats": [
@@ -8139,7 +8149,7 @@
             "jp": "全ての元素耐性 (12-14)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -8189,7 +8199,7 @@
             "jp": "スタン閾値 (164-206)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -8239,7 +8249,7 @@
             "jp": "器用さ (25-27)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -8289,7 +8299,7 @@
             "jp": "知性 (25-27)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -8339,7 +8349,7 @@
             "jp": "筋力 (25-27)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -8389,7 +8399,7 @@
             "jp": "混沌耐性 (16-19)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8439,7 +8449,7 @@
             "jp": "プレイヤーに対するヒットはクリティカルダメージボーナスが(35-41)%減少する"
           },
           "group": [
-            3126
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1,
           "stats": [
@@ -8489,7 +8499,7 @@
             "jp": "冷気耐性 (31-35)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8539,7 +8549,7 @@
             "jp": "火耐性 (31-35)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8589,7 +8599,7 @@
             "jp": "雷耐性 (31-35)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8639,7 +8649,7 @@
             "jp": "要求能力値が-35%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -8689,7 +8699,7 @@
             "jp": "スタン閾値 (207-253)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -8739,7 +8749,7 @@
             "jp": "物理ダメージ軽減率が7%される"
           },
           "group": [
-            1787
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1,
           "stats": [
@@ -8789,7 +8799,7 @@
             "jp": "アーマーの(38-43)%が元素ダメージにも適用される"
           },
           "group": [
-            4268
+            "ArmourAppliesToElementalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -8839,7 +8849,7 @@
             "jp": "器用さ (28-30)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -8889,7 +8899,7 @@
             "jp": "エナジーシールドリチャージレートが(20-23)%増加する"
           },
           "group": [
-            44
+            "EnergyShieldRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -8939,7 +8949,7 @@
             "jp": "回避力の(21-23)%と同量の受け流し力を獲得する"
           },
           "group": [
-            4271
+            "EvasionAppliesToDeflection"
           ],
           "weight": 1,
           "stats": [
@@ -8989,7 +8999,7 @@
             "jp": "知性 (28-30)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -9039,7 +9049,7 @@
             "jp": "筋力 (28-30)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -9089,7 +9099,7 @@
             "jp": "全ての元素耐性 (15-16)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -9139,7 +9149,7 @@
             "jp": "混沌耐性 (20-23)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -9189,7 +9199,7 @@
             "jp": "混沌耐性の最大値 1%"
           },
           "group": [
-            1345
+            "MaximumChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -9239,7 +9249,7 @@
             "jp": "冷気耐性の最大値 1%"
           },
           "group": [
-            255
+            "MaximumColdResist"
           ],
           "weight": 1,
           "stats": [
@@ -9289,7 +9299,7 @@
             "jp": "火耐性の最大値 1%"
           },
           "group": [
-            569
+            "MaximumFireResist"
           ],
           "weight": 1,
           "stats": [
@@ -9339,7 +9349,7 @@
             "jp": "雷耐性の最大値 1%"
           },
           "group": [
-            1344
+            "MaximumLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -9389,7 +9399,7 @@
             "jp": "プレイヤーに対するヒットはクリティカルダメージボーナスが(42-47)%減少する"
           },
           "group": [
-            3126
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1,
           "stats": [
@@ -9439,7 +9449,7 @@
             "jp": "冷気耐性 (36-40)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -9489,7 +9499,7 @@
             "jp": "火耐性 (36-40)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -9539,7 +9549,7 @@
             "jp": "雷耐性 (36-40)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -9589,7 +9599,7 @@
             "jp": "スタン閾値 (254-304)"
           },
           "group": [
-            5409
+            "StunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -9639,7 +9649,7 @@
             "jp": "器用さ (31-33)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -9689,7 +9699,7 @@
             "jp": "知性 (31-33)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -9739,7 +9749,7 @@
             "jp": "筋力 (31-33)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -9789,7 +9799,7 @@
             "jp": "混沌耐性の最大値 2%"
           },
           "group": [
-            1345
+            "MaximumChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -9839,7 +9849,7 @@
             "jp": "冷気耐性の最大値 2%"
           },
           "group": [
-            255
+            "MaximumColdResist"
           ],
           "weight": 1,
           "stats": [
@@ -9889,7 +9899,7 @@
             "jp": "全ての元素耐性の最大値 1%"
           },
           "group": [
-            319
+            "MaximumResistances"
           ],
           "weight": 1,
           "stats": [
@@ -9939,7 +9949,7 @@
             "jp": "火耐性の最大値 2%"
           },
           "group": [
-            569
+            "MaximumFireResist"
           ],
           "weight": 1,
           "stats": [
@@ -9989,7 +9999,7 @@
             "jp": "雷耐性の最大値 2%"
           },
           "group": [
-            1344
+            "MaximumLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10039,7 +10049,7 @@
             "jp": "物理ダメージ軽減率が8%される"
           },
           "group": [
-            1787
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1,
           "stats": [
@@ -10089,7 +10099,7 @@
             "jp": "全ての元素耐性 (17-18)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -10139,7 +10149,7 @@
             "jp": "アーマーの(44-50)%が元素ダメージにも適用される"
           },
           "group": [
-            4268
+            "ArmourAppliesToElementalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -10189,7 +10199,7 @@
             "jp": "混沌耐性 (24-27)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10239,7 +10249,7 @@
             "jp": "エナジーシールドリチャージレートが(24-27)%増加する"
           },
           "group": [
-            44
+            "EnergyShieldRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -10289,7 +10299,7 @@
             "jp": "回避力の(24-26)%と同量の受け流し力を獲得する"
           },
           "group": [
-            4271
+            "EvasionAppliesToDeflection"
           ],
           "weight": 1,
           "stats": [
@@ -10339,7 +10349,7 @@
             "jp": "混沌耐性の最大値 3%"
           },
           "group": [
-            1345
+            "MaximumChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10389,7 +10399,7 @@
             "jp": "冷気耐性の最大値 3%"
           },
           "group": [
-            255
+            "MaximumColdResist"
           ],
           "weight": 1,
           "stats": [
@@ -10439,7 +10449,7 @@
             "jp": "全ての元素耐性の最大値 2%"
           },
           "group": [
-            319
+            "MaximumResistances"
           ],
           "weight": 1,
           "stats": [
@@ -10489,7 +10499,7 @@
             "jp": "火耐性の最大値 3%"
           },
           "group": [
-            569
+            "MaximumFireResist"
           ],
           "weight": 1,
           "stats": [
@@ -10539,7 +10549,7 @@
             "jp": "雷耐性の最大値 3%"
           },
           "group": [
-            1344
+            "MaximumLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10589,7 +10599,7 @@
             "jp": "プレイヤーに対するヒットはクリティカルダメージボーナスが(48-54)%減少する"
           },
           "group": [
-            3126
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1,
           "stats": [
@@ -10639,7 +10649,7 @@
             "jp": "冷気耐性 (41-45)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10689,7 +10699,7 @@
             "jp": "火耐性 (41-45)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10739,7 +10749,7 @@
             "jp": "雷耐性 (41-45)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10793,7 +10803,7 @@
             "jp": "ブロック時に(20-25)のライフを獲得する"
           },
           "group": [
-            686
+            "GainLifeOnBlock"
           ],
           "weight": 1,
           "stats": [
@@ -10843,7 +10853,7 @@
             "jp": "ブロック時に(10-15)のマナを獲得する"
           },
           "group": [
-            687
+            "GainManaOnBlock"
           ],
           "weight": 1,
           "stats": [
@@ -10893,7 +10903,7 @@
             "jp": "ブロック率が(10-15)%増加する"
           },
           "group": [
-            18
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1,
           "stats": [
@@ -10943,7 +10953,7 @@
             "jp": "アーマーおよびエナジーシールドが(15-25)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -10993,7 +11003,7 @@
             "jp": "アーマーおよび回避力が(15-25)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -11043,7 +11053,7 @@
             "jp": "アーマーが(15-25)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -11093,7 +11103,7 @@
             "jp": "ブロック率の最大値 3%"
           },
           "group": [
-            732
+            "MaximumBlockChance"
           ],
           "weight": 1,
           "stats": [
@@ -11143,7 +11153,7 @@
             "jp": "要求能力値が(-20--10)%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -11193,7 +11203,7 @@
             "jp": "棘ダメージが(40-50)%増加する"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -11224,523 +11234,8 @@
     "essence": {
       "prefix": [
         {
-          "id": "EssenceGrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": "Essence's",
-            "kr": "에센스의",
-            "tw": "精髓的",
-            "ru": "Сущностный",
-            "jp": "エッセンスの"
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            5682
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_essence",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive2",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_2",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_3",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive4",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_4",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionAndEnergyShieldPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              3,
-              3
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 3 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level",
-            "kr": "플레이어 레벨 1당 회피 3\n플레이어 레벨 1당 에너지 보호막 최대치 1",
-            "tw": "每一玩家等級3閃避值\n每一玩家等級1最大能量護盾",
-            "ru": "3 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 3を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    3,
-                    3
-                  ]
-                }
-              ],
-              "value": "3",
-              "text": {
-                "en": "Has 3 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 3",
-                "tw": "每一玩家等級3閃避值",
-                "ru": "3 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 3を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionEnergyShieldAndWardPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              2,
-              2
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 2 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level\nHas 1 to maximum Runic Ward per player level",
-            "kr": "플레이어 레벨 1당 회피 2\n플레이어 레벨 1당 에너지 보호막 최대치 1\n플레이어 레벨 1당 룬 수호 최대치 1",
-            "tw": "每一玩家等級2閃避值\n每一玩家等級1最大能量護盾\n每一玩家等級擁有1最大符文保護",
-            "ru": "2 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока\nПолучает 1 к максимуму рунического барьера за уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 2を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ\nプレイヤーレベルごとに最大ルーンワード 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "value": "2",
-              "text": {
-                "en": "Has 2 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 2",
-                "tw": "每一玩家等級2閃避值",
-                "ru": "2 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 2を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_ward_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Runic Ward per player level",
-                "kr": "플레이어 레벨 1당 룬 수호 최대치 1",
-                "tw": "每一玩家等級擁有1最大符文保護",
-                "ru": "Получает 1 к максимуму рунического барьера за уровень игрока",
-                "jp": "プレイヤーレベルごとに最大ルーンワード 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalCopyPlayerLevelValue",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_player_level_to_use",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "Obliterated",
-          "affixType": "essence",
+          "id": "EssenceAbyssPrefix",
+          "affixType": "prefix",
           "tier": 1,
           "valueRanges": [
             [
@@ -11749,28 +11244,28 @@
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Abyssal",
+            "kr": "심연의",
+            "tw": "深淵的",
+            "ru": "Подземный",
+            "jp": "アビサル"
           },
           "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
           },
           "group": [
-            6096
+            "EssenceAbyss"
           ],
           "weight": 0,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "dummy_display_is_obliterated",
+                  "stat": "essence_abyss_guaranteed_pick",
                   "valueRange": [
                     1,
                     1
@@ -11779,117 +11274,3474 @@
               ],
               "value": "1",
               "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueDamageRemovedFromManaBeforeLife3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "IncreasedLife3",
+          "affixType": "prefix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              30,
+              39
+            ]
+          ],
+          "name": {
+            "en": "Sanguine",
+            "kr": "혈액 과다의",
+            "tw": "樂觀的",
+            "ru": "Здравый",
+            "jp": "血色良い"
+          },
+          "effect": {
+            "en": "(30-39) to maximum Life",
+            "kr": "생명력 최대치 (30-39)",
+            "tw": "(30-39)最大生命",
+            "ru": "(30-39) к максимуму здоровья",
+            "jp": "最大ライフ (30-39)"
+          },
+          "group": [
+            "IncreasedLife"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    30,
+                    39
+                  ]
+                }
+              ],
+              "value": "30~39",
+              "text": {
+                "en": "(30-39) to maximum Life",
+                "kr": "생명력 최대치 (30-39)",
+                "tw": "(30-39)最大生命",
+                "ru": "(30-39) к максимуму здоровья",
+                "jp": "最大ライフ (30-39)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceLife",
+              "name": {
+                "en": "Lesser Essence of the Body",
+                "kr": "하위 육신의 에센스",
+                "tw": "低階肉體精髓",
+                "ru": "Малая сущность тела",
+                "jp": "肉体のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedArmourAndEnergyShield2",
+          "affixType": "prefix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              27,
+              42
+            ]
+          ],
+          "name": {
+            "en": "Ingrained",
+            "kr": "물든",
+            "tw": "紮根的",
+            "ru": "Крепкий",
+            "jp": "教導されし"
+          },
+          "effect": {
+            "en": "(27-42)% increased Armour and Energy Shield",
+            "kr": "방어도 및 에너지 보호막 (27-42)% 증가",
+            "tw": "增加(27-42)%護甲值和能量護盾",
+            "ru": "(27-42)% повышение брони и энергетического щита",
+            "jp": "アーマーおよびエナジーシールドが(27-42)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_armour_and_energy_shield_+%",
+                  "valueRange": [
+                    27,
+                    42
+                  ]
+                }
+              ],
+              "value": "27~42",
+              "text": {
+                "en": "(27-42)% increased Armour and Energy Shield",
+                "kr": "방어도 및 에너지 보호막 (27-42)% 증가",
+                "tw": "增加(27-42)%護甲值和能量護盾",
+                "ru": "(27-42)% повышение брони и энергетического щита",
+                "jp": "アーマーおよびエナジーシールドが(27-42)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceDefences",
+              "name": {
+                "en": "Lesser Essence of Enhancement",
+                "kr": "하위 강화의 에센스",
+                "tw": "低階強化精髓",
+                "ru": "Малая сущность улучшения",
+                "jp": "強化のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedArmourAndEvasion2",
+          "affixType": "prefix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              27,
+              42
+            ]
+          ],
+          "name": {
+            "en": "Brawler's",
+            "kr": "싸움꾼의",
+            "tw": "打鬥者的",
+            "ru": "Воинственный",
+            "jp": "喧嘩屋の"
+          },
+          "effect": {
+            "en": "(27-42)% increased Armour and Evasion",
+            "kr": "방어도 및 회피 (27-42)% 증가",
+            "tw": "增加(27-42)%護甲值和閃避",
+            "ru": "(27-42)% повышение брони и уклонения",
+            "jp": "アーマーおよび回避力が(27-42)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_armour_and_evasion_+%",
+                  "valueRange": [
+                    27,
+                    42
+                  ]
+                }
+              ],
+              "value": "27~42",
+              "text": {
+                "en": "(27-42)% increased Armour and Evasion",
+                "kr": "방어도 및 회피 (27-42)% 증가",
+                "tw": "增加(27-42)%護甲值和閃避",
+                "ru": "(27-42)% повышение брони и уклонения",
+                "jp": "アーマーおよび回避力が(27-42)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceDefences",
+              "name": {
+                "en": "Lesser Essence of Enhancement",
+                "kr": "하위 강화의 에센스",
+                "tw": "低階強化精髓",
+                "ru": "Малая сущность улучшения",
+                "jp": "強化のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamageReductionRatingPercent2",
+          "affixType": "prefix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              27,
+              42
+            ]
+          ],
+          "name": {
+            "en": "Layered",
+            "kr": "겹겹의",
+            "tw": "分層的",
+            "ru": "Слоистый",
+            "jp": "多層の"
+          },
+          "effect": {
+            "en": "(27-42)% increased Armour",
+            "kr": "방어도 (27-42)% 증가",
+            "tw": "增加(27-42)%護甲值",
+            "ru": "(27-42)% повышение брони",
+            "jp": "アーマーが(27-42)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    27,
+                    42
+                  ]
+                }
+              ],
+              "value": "27~42",
+              "text": {
+                "en": "(27-42)% increased Armour",
+                "kr": "방어도 (27-42)% 증가",
+                "tw": "增加(27-42)%護甲值",
+                "ru": "(27-42)% повышение брони",
+                "jp": "アーマーが(27-42)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceDefences",
+              "name": {
+                "en": "Lesser Essence of Enhancement",
+                "kr": "하위 강화의 에센스",
+                "tw": "低階強化精髓",
+                "ru": "Малая сущность улучшения",
+                "jp": "強化のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalBlockChance2",
+          "affixType": "prefix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              20,
+              24
+            ]
+          ],
+          "name": {
+            "en": "Unrelenting",
+            "kr": "가차없는",
+            "tw": "不屈不撓的",
+            "ru": "Неуступчивый",
+            "jp": "不休の"
+          },
+          "effect": {
+            "en": "(20-24)% increased Block chance",
+            "kr": "막기 확률 (20-24)% 증가",
+            "tw": "增加(20-24)%格擋率",
+            "ru": "(20-24)% увеличение шанса блока",
+            "jp": "ブロック率が(20-24)%増加する"
+          },
+          "group": [
+            "IncreasedShieldBlockPercentage"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_block_chance_+%",
+                  "valueRange": [
+                    20,
+                    24
+                  ]
+                }
+              ],
+              "value": "20~24",
+              "text": {
+                "en": "(20-24)% increased Block chance",
+                "kr": "막기 확률 (20-24)% 증가",
+                "tw": "增加(20-24)%格擋率",
+                "ru": "(20-24)% увеличение шанса блока",
+                "jp": "ブロック率が(20-24)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceHysteria",
+              "name": {
+                "en": "Essence of Hysteria",
+                "kr": "발작의 에센스",
+                "tw": "浮誇精髓",
+                "ru": "Сущность истерии",
+                "jp": "ヒステリーのエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife7",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              85,
+              99
+            ]
+          ],
+          "name": {
+            "en": "Rotund",
+            "kr": "퉁퉁한",
+            "tw": "豐腴的",
+            "ru": "Массивный",
+            "jp": "丸々とした"
+          },
+          "effect": {
+            "en": "(85-99) to maximum Life",
+            "kr": "생명력 최대치 (85-99)",
+            "tw": "(85-99)最大生命",
+            "ru": "(85-99) к максимуму здоровья",
+            "jp": "最大ライフ (85-99)"
+          },
+          "group": [
+            "IncreasedLife"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_life",
+                  "valueRange": [
+                    85,
+                    99
+                  ]
+                }
+              ],
+              "value": "85~99",
+              "text": {
+                "en": "(85-99) to maximum Life",
+                "kr": "생명력 최대치 (85-99)",
+                "tw": "(85-99)最大生命",
+                "ru": "(85-99) к максимуму здоровья",
+                "jp": "最大ライフ (85-99)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceLife",
+              "name": {
+                "en": "Essence of the Body",
+                "kr": "육신의 에센스",
+                "tw": "肉體精髓",
+                "ru": "Сущность тела",
+                "jp": "肉体のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedArmourAndEnergyShield4",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              56,
+              67
+            ]
+          ],
+          "name": {
+            "en": "Infused",
+            "kr": "주입된",
+            "tw": "灌注的",
+            "ru": "Умащённый",
+            "jp": "教諭されし"
+          },
+          "effect": {
+            "en": "(56-67)% increased Armour and Energy Shield",
+            "kr": "방어도 및 에너지 보호막 (56-67)% 증가",
+            "tw": "增加(56-67)%護甲值和能量護盾",
+            "ru": "(56-67)% повышение брони и энергетического щита",
+            "jp": "アーマーおよびエナジーシールドが(56-67)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_armour_and_energy_shield_+%",
+                  "valueRange": [
+                    56,
+                    67
+                  ]
+                }
+              ],
+              "value": "56~67",
+              "text": {
+                "en": "(56-67)% increased Armour and Energy Shield",
+                "kr": "방어도 및 에너지 보호막 (56-67)% 증가",
+                "tw": "增加(56-67)%護甲值和能量護盾",
+                "ru": "(56-67)% повышение брони и энергетического щита",
+                "jp": "アーマーおよびエナジーシールドが(56-67)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceDefences",
+              "name": {
+                "en": "Essence of Enhancement",
+                "kr": "강화의 에센스",
+                "tw": "強化精髓",
+                "ru": "Сущность улучшения",
+                "jp": "強化のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedArmourAndEvasion4",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              56,
+              67
+            ]
+          ],
+          "name": {
+            "en": "Gladiator's",
+            "kr": "검투사의",
+            "tw": "角鬥士的",
+            "ru": "Гладиаторский",
+            "jp": "剣闘士の"
+          },
+          "effect": {
+            "en": "(56-67)% increased Armour and Evasion",
+            "kr": "방어도 및 회피 (56-67)% 증가",
+            "tw": "增加(56-67)%護甲值和閃避",
+            "ru": "(56-67)% повышение брони и уклонения",
+            "jp": "アーマーおよび回避力が(56-67)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_armour_and_evasion_+%",
+                  "valueRange": [
+                    56,
+                    67
+                  ]
+                }
+              ],
+              "value": "56~67",
+              "text": {
+                "en": "(56-67)% increased Armour and Evasion",
+                "kr": "방어도 및 회피 (56-67)% 증가",
+                "tw": "增加(56-67)%護甲值和閃避",
+                "ru": "(56-67)% повышение брони и уклонения",
+                "jp": "アーマーおよび回避力が(56-67)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceDefences",
+              "name": {
+                "en": "Essence of Enhancement",
+                "kr": "강화의 에센스",
+                "tw": "強化精髓",
+                "ru": "Сущность улучшения",
+                "jp": "強化のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamageReductionRatingPercent4",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              56,
+              67
+            ]
+          ],
+          "name": {
+            "en": "Buttressed",
+            "kr": "지탱의",
+            "tw": "支持的",
+            "ru": "Чешуйчатый",
+            "jp": "強固な"
+          },
+          "effect": {
+            "en": "(56-67)% increased Armour",
+            "kr": "방어도 (56-67)% 증가",
+            "tw": "增加(56-67)%護甲值",
+            "ru": "(56-67)% повышение брони",
+            "jp": "アーマーが(56-67)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    56,
+                    67
+                  ]
+                }
+              ],
+              "value": "56~67",
+              "text": {
+                "en": "(56-67)% increased Armour",
+                "kr": "방어도 (56-67)% 증가",
+                "tw": "增加(56-67)%護甲值",
+                "ru": "(56-67)% повышение брони",
+                "jp": "アーマーが(56-67)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceDefences",
+              "name": {
+                "en": "Essence of Enhancement",
+                "kr": "강화의 에센스",
+                "tw": "強化精髓",
+                "ru": "Сущность улучшения",
+                "jp": "強化のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife8",
+          "affixType": "prefix",
+          "tier": 54,
           "valueRanges": [
             [
               100,
-              100
+              119
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Virile",
+            "kr": "강건한",
+            "tw": "陽剛的",
+            "ru": "Могучий",
+            "jp": "雄健な"
           },
           "effect": {
-            "en": "100% of Damage is taken from Mana before Life",
-            "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-            "tw": "生命值所受的100%傷害由魔力扣除",
-            "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-            "jp": "ダメージの100%をライフより先にマナで受ける"
+            "en": "(100-119) to maximum Life",
+            "kr": "생명력 최대치 (100-119)",
+            "tw": "(100-119)最大生命",
+            "ru": "(100-119) к максимуму здоровья",
+            "jp": "最大ライフ (100-119)"
           },
           "group": [
-            760
+            "IncreasedLife"
           ],
-          "weight": 0,
+          "weight": 1,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "base_damage_removed_from_mana_before_life_%",
+                  "stat": "base_maximum_life",
                   "valueRange": [
                     100,
-                    100
+                    119
                   ]
                 }
               ],
-              "value": "100",
+              "value": "100~119",
               "text": {
-                "en": "100% of Damage is taken from Mana before Life",
-                "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-                "tw": "生命值所受的100%傷害由魔力扣除",
-                "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-                "jp": "ダメージの100%をライフより先にマナで受ける"
+                "en": "(100-119) to maximum Life",
+                "kr": "생명력 최대치 (100-119)",
+                "tw": "(100-119)最大生命",
+                "ru": "(100-119) к максимуму здоровья",
+                "jp": "最大ライフ (100-119)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceLife",
+              "name": {
+                "en": "Greater Essence of the Body",
+                "kr": "상위 육신의 에센스",
+                "tw": "高階肉體精髓",
+                "ru": "Большая сущность тела",
+                "jp": "肉体のグレーターエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueJewelGrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "LocalIncreasedArmourAndEnergyShield5",
+          "affixType": "prefix",
+          "tier": 54,
           "valueRanges": [
             [
-              0,
-              0
+              68,
+              79
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Inculcated",
+            "kr": "심어진",
+            "tw": "重灌的",
+            "ru": "Оберегающий",
+            "jp": "教授されし"
           },
           "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
+            "en": "(68-79)% increased Armour and Energy Shield",
+            "kr": "방어도 및 에너지 보호막 (68-79)% 증가",
+            "tw": "增加(68-79)%護甲值和能量護盾",
+            "ru": "(68-79)% повышение брони и энергетического щита",
+            "jp": "アーマーおよびエナジーシールドが(68-79)%増加する"
           },
           "group": [
-            3610
+            "DefencesPercent"
           ],
-          "weight": 0,
+          "weight": 1,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "unique_jewel_grants_notable_hash_3",
+                  "stat": "local_armour_and_energy_shield_+%",
                   "valueRange": [
-                    0,
-                    0
+                    68,
+                    79
                   ]
                 }
               ],
-              "value": "0",
+              "value": "68~79",
               "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
+                "en": "(68-79)% increased Armour and Energy Shield",
+                "kr": "방어도 및 에너지 보호막 (68-79)% 증가",
+                "tw": "增加(68-79)%護甲值和能量護盾",
+                "ru": "(68-79)% повышение брони и энергетического щита",
+                "jp": "アーマーおよびエナジーシールドが(68-79)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceDefences",
+              "name": {
+                "en": "Greater Essence of Enhancement",
+                "kr": "상위 강화의 에센스",
+                "tw": "高階強化精髓",
+                "ru": "Большая сущность улучшения",
+                "jp": "強化のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedArmourAndEvasion5",
+          "affixType": "prefix",
+          "tier": 54,
+          "valueRanges": [
+            [
+              68,
+              79
+            ]
+          ],
+          "name": {
+            "en": "Duelist's",
+            "kr": "듀얼리스트의",
+            "tw": "決鬥的",
+            "ru": "Дуэлянтский",
+            "jp": "デュエリストの"
+          },
+          "effect": {
+            "en": "(68-79)% increased Armour and Evasion",
+            "kr": "방어도 및 회피 (68-79)% 증가",
+            "tw": "增加(68-79)%護甲值和閃避",
+            "ru": "(68-79)% повышение брони и уклонения",
+            "jp": "アーマーおよび回避力が(68-79)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_armour_and_evasion_+%",
+                  "valueRange": [
+                    68,
+                    79
+                  ]
+                }
+              ],
+              "value": "68~79",
+              "text": {
+                "en": "(68-79)% increased Armour and Evasion",
+                "kr": "방어도 및 회피 (68-79)% 증가",
+                "tw": "增加(68-79)%護甲值和閃避",
+                "ru": "(68-79)% повышение брони и уклонения",
+                "jp": "アーマーおよび回避力が(68-79)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceDefences",
+              "name": {
+                "en": "Greater Essence of Enhancement",
+                "kr": "상위 강화의 에센스",
+                "tw": "高階強化精髓",
+                "ru": "Большая сущность улучшения",
+                "jp": "強化のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedPhysicalDamageReductionRatingPercent5",
+          "affixType": "prefix",
+          "tier": 54,
+          "valueRanges": [
+            [
+              68,
+              79
+            ]
+          ],
+          "name": {
+            "en": "Thickened",
+            "kr": "두터움의",
+            "tw": "加厚的",
+            "ru": "Утолщённый",
+            "jp": "分厚い"
+          },
+          "effect": {
+            "en": "(68-79)% increased Armour",
+            "kr": "방어도 (68-79)% 증가",
+            "tw": "增加(68-79)%護甲值",
+            "ru": "(68-79)% повышение брони",
+            "jp": "アーマーが(68-79)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    68,
+                    79
+                  ]
+                }
+              ],
+              "value": "68~79",
+              "text": {
+                "en": "(68-79)% increased Armour",
+                "kr": "방어도 (68-79)% 증가",
+                "tw": "增加(68-79)%護甲值",
+                "ru": "(68-79)% повышение брони",
+                "jp": "アーマーが(68-79)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceDefences",
+              "name": {
+                "en": "Greater Essence of Enhancement",
+                "kr": "상위 강화의 에센스",
+                "tw": "高階強化精髓",
+                "ru": "Большая сущность улучшения",
+                "jp": "強化のグレーターエッセンス"
               }
             }
           ]
         }
       ],
-      "suffix": []
+      "suffix": [
+        {
+          "id": "EssenceAbyssSuffix",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of the Abyss",
+            "kr": "- 심연",
+            "tw": "深淵之",
+            "ru": "Бездны",
+            "jp": "アビスの"
+          },
+          "effect": {
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
+          },
+          "group": [
+            "EssenceAbyss"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "essence_abyss_guaranteed_pick",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Lynx",
+            "kr": "- 스라소니",
+            "tw": "山貓之",
+            "ru": "рыси",
+            "jp": "リンクスの"
+          },
+          "effect": {
+            "en": "(9-12) to Dexterity",
+            "kr": "민첩 (9-12)",
+            "tw": "(9-12)點敏捷",
+            "ru": "(9-12) к ловкости",
+            "jp": "器用さ (9-12)"
+          },
+          "group": [
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12) to Dexterity",
+                "kr": "민첩 (9-12)",
+                "tw": "(9-12)點敏捷",
+                "ru": "(9-12) к ловкости",
+                "jp": "器用さ (9-12)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAttribute",
+              "name": {
+                "en": "Lesser Essence of the Infinite",
+                "kr": "하위 무한의 에센스",
+                "tw": "低階無限精髓",
+                "ru": "Малая сущность бесконечности",
+                "jp": "無限のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Student",
+            "kr": "- 학생",
+            "tw": "學徒之",
+            "ru": "слушателя",
+            "jp": "学徒の"
+          },
+          "effect": {
+            "en": "(9-12) to Intelligence",
+            "kr": "지능 (9-12)",
+            "tw": "(9-12)點智慧",
+            "ru": "(9-12) к интеллекту",
+            "jp": "知性 (9-12)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12) to Intelligence",
+                "kr": "지능 (9-12)",
+                "tw": "(9-12)點智慧",
+                "ru": "(9-12) к интеллекту",
+                "jp": "知性 (9-12)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAttribute",
+              "name": {
+                "en": "Lesser Essence of the Infinite",
+                "kr": "하위 무한의 에센스",
+                "tw": "低階無限精髓",
+                "ru": "Малая сущность бесконечности",
+                "jp": "無限のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Strength2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Wrestler",
+            "kr": "- 씨름꾼",
+            "tw": "摔角手之",
+            "ru": "борца",
+            "jp": "レスラーの"
+          },
+          "effect": {
+            "en": "(9-12) to Strength",
+            "kr": "힘 (9-12)",
+            "tw": "(9-12)點力量",
+            "ru": "(9-12) к силе",
+            "jp": "筋力 (9-12)"
+          },
+          "group": [
+            "Strength"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12) to Strength",
+                "kr": "힘 (9-12)",
+                "tw": "(9-12)點力量",
+                "ru": "(9-12) к силе",
+                "jp": "筋力 (9-12)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAttribute",
+              "name": {
+                "en": "Lesser Essence of the Infinite",
+                "kr": "하위 무한의 에센스",
+                "tw": "低階無限精髓",
+                "ru": "Малая сущность бесконечности",
+                "jp": "無限のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist2",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Salamander",
+            "kr": "- 불도마뱀",
+            "tw": "火蜥蜴之",
+            "ru": "саламандры",
+            "jp": "サラマンダーの"
+          },
+          "effect": {
+            "en": "(11-15)% to Fire Resistance",
+            "kr": "화염 저항 (11-15)%",
+            "tw": "(11-15)%火焰抗性",
+            "ru": "(11-15)% к сопротивлению огню",
+            "jp": "火耐性 (11-15)%"
+          },
+          "group": [
+            "FireResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% to Fire Resistance",
+                "kr": "화염 저항 (11-15)%",
+                "tw": "(11-15)%火焰抗性",
+                "ru": "(11-15)% к сопротивлению огню",
+                "jp": "火耐性 (11-15)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceFireResist",
+              "name": {
+                "en": "Lesser Essence of Insulation",
+                "kr": "하위 절연의 에센스",
+                "tw": "低階隔絕精髓",
+                "ru": "Малая сущность изоляции",
+                "jp": "断熱のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist2",
+          "affixType": "suffix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Squall",
+            "kr": "- 돌풍",
+            "tw": "冰雹之",
+            "ru": "шквала",
+            "jp": "スコールの"
+          },
+          "effect": {
+            "en": "(11-15)% to Lightning Resistance",
+            "kr": "번개 저항 (11-15)%",
+            "tw": "(11-15)%閃電抗性",
+            "ru": "(11-15)% к сопротивлению молнии",
+            "jp": "雷耐性 (11-15)%"
+          },
+          "group": [
+            "LightningResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% to Lightning Resistance",
+                "kr": "번개 저항 (11-15)%",
+                "tw": "(11-15)%閃電抗性",
+                "ru": "(11-15)% к сопротивлению молнии",
+                "jp": "雷耐性 (11-15)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceLightningResist",
+              "name": {
+                "en": "Lesser Essence of Grounding",
+                "kr": "하위 접지의 에센스",
+                "tw": "低階接地精髓",
+                "ru": "Малая сущность заземления",
+                "jp": "接地のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist2",
+          "affixType": "suffix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Penguin",
+            "kr": "- 펭귄",
+            "tw": "企鵝之",
+            "ru": "пингвина",
+            "jp": "ペンギンの"
+          },
+          "effect": {
+            "en": "(11-15)% to Cold Resistance",
+            "kr": "냉기 저항 (11-15)%",
+            "tw": "(11-15)%冰冷抗性",
+            "ru": "(11-15)% к сопротивлению холоду",
+            "jp": "冷気耐性 (11-15)%"
+          },
+          "group": [
+            "ColdResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% to Cold Resistance",
+                "kr": "냉기 저항 (11-15)%",
+                "tw": "(11-15)%冰冷抗性",
+                "ru": "(11-15)% к сопротивлению холоду",
+                "jp": "冷気耐性 (11-15)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceColdResist",
+              "name": {
+                "en": "Lesser Essence of Thawing",
+                "kr": "하위 해동의 에센스",
+                "tw": "低階解凍精髓",
+                "ru": "Малая сущность таяния",
+                "jp": "解凍のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist1",
+          "affixType": "suffix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              4,
+              7
+            ]
+          ],
+          "name": {
+            "en": "of the Lost",
+            "kr": "- 상실",
+            "tw": "失落之",
+            "ru": "заблудшего",
+            "jp": "迷い子の"
+          },
+          "effect": {
+            "en": "(4-7)% to Chaos Resistance",
+            "kr": "카오스 저항 (4-7)%",
+            "tw": "(4-7)%混沌抗性",
+            "ru": "(4-7)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (4-7)%"
+          },
+          "group": [
+            "ChaosResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    4,
+                    7
+                  ]
+                }
+              ],
+              "value": "4~7",
+              "text": {
+                "en": "(4-7)% to Chaos Resistance",
+                "kr": "카오스 저항 (4-7)%",
+                "tw": "(4-7)%混沌抗性",
+                "ru": "(4-7)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (4-7)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceChaos",
+              "name": {
+                "en": "Lesser Essence of Ruin",
+                "kr": "하위 폐허의 에센스",
+                "tw": "低階毀滅精髓",
+                "ru": "Малая сущность гибели",
+                "jp": "破滅のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist2",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              8,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Banishment",
+            "kr": "- 추방",
+            "tw": "放逐之",
+            "ru": "лишённого",
+            "jp": "流刑の"
+          },
+          "effect": {
+            "en": "(8-11)% to Chaos Resistance",
+            "kr": "카오스 저항 (8-11)%",
+            "tw": "(8-11)%混沌抗性",
+            "ru": "(8-11)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (8-11)%"
+          },
+          "group": [
+            "ChaosResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    8,
+                    11
+                  ]
+                }
+              ],
+              "value": "8~11",
+              "text": {
+                "en": "(8-11)% to Chaos Resistance",
+                "kr": "카오스 저항 (8-11)%",
+                "tw": "(8-11)%混沌抗性",
+                "ru": "(8-11)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (8-11)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceChaos",
+              "name": {
+                "en": "Essence of Ruin",
+                "kr": "폐허의 에센스",
+                "tw": "毀滅精髓",
+                "ru": "Сущность гибели",
+                "jp": "破滅のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Falcon",
+            "kr": "- 매",
+            "tw": "獵鷹之",
+            "ru": "сокола",
+            "jp": "隼の"
+          },
+          "effect": {
+            "en": "(17-20) to Dexterity",
+            "kr": "민첩 (17-20)",
+            "tw": "(17-20)點敏捷",
+            "ru": "(17-20) к ловкости",
+            "jp": "器用さ (17-20)"
+          },
+          "group": [
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20) to Dexterity",
+                "kr": "민첩 (17-20)",
+                "tw": "(17-20)點敏捷",
+                "ru": "(17-20) к ловкости",
+                "jp": "器用さ (17-20)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAttribute",
+              "name": {
+                "en": "Essence of the Infinite",
+                "kr": "무한의 에센스",
+                "tw": "無限精髓",
+                "ru": "Сущность бесконечности",
+                "jp": "無限のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Augur",
+            "kr": "- 점술가",
+            "tw": "預言之",
+            "ru": "авгура",
+            "jp": "占師の"
+          },
+          "effect": {
+            "en": "(17-20) to Intelligence",
+            "kr": "지능 (17-20)",
+            "tw": "(17-20)點智慧",
+            "ru": "(17-20) к интеллекту",
+            "jp": "知性 (17-20)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20) to Intelligence",
+                "kr": "지능 (17-20)",
+                "tw": "(17-20)點智慧",
+                "ru": "(17-20) к интеллекту",
+                "jp": "知性 (17-20)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAttribute",
+              "name": {
+                "en": "Essence of the Infinite",
+                "kr": "무한의 에센스",
+                "tw": "無限精髓",
+                "ru": "Сущность бесконечности",
+                "jp": "無限のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Strength4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Lion",
+            "kr": "- 사자",
+            "tw": "獅子之",
+            "ru": "льва",
+            "jp": "ライオンの"
+          },
+          "effect": {
+            "en": "(17-20) to Strength",
+            "kr": "힘 (17-20)",
+            "tw": "(17-20)點力量",
+            "ru": "(17-20) к силе",
+            "jp": "筋力 (17-20)"
+          },
+          "group": [
+            "Strength"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20) to Strength",
+                "kr": "힘 (17-20)",
+                "tw": "(17-20)點力量",
+                "ru": "(17-20) к силе",
+                "jp": "筋力 (17-20)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAttribute",
+              "name": {
+                "en": "Essence of the Infinite",
+                "kr": "무한의 에센스",
+                "tw": "無限精髓",
+                "ru": "Сущность бесконечности",
+                "jp": "無限のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist4",
+          "affixType": "suffix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Kiln",
+            "kr": "- 가마",
+            "tw": "窯爐之",
+            "ru": "печи",
+            "jp": "窯の"
+          },
+          "effect": {
+            "en": "(21-25)% to Fire Resistance",
+            "kr": "화염 저항 (21-25)%",
+            "tw": "(21-25)%火焰抗性",
+            "ru": "(21-25)% к сопротивлению огню",
+            "jp": "火耐性 (21-25)%"
+          },
+          "group": [
+            "FireResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% to Fire Resistance",
+                "kr": "화염 저항 (21-25)%",
+                "tw": "(21-25)%火焰抗性",
+                "ru": "(21-25)% к сопротивлению огню",
+                "jp": "火耐性 (21-25)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceFireResist",
+              "name": {
+                "en": "Essence of Insulation",
+                "kr": "절연의 에센스",
+                "tw": "隔絕精髓",
+                "ru": "Сущность изоляции",
+                "jp": "断熱のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist4",
+          "affixType": "suffix",
+          "tier": 37,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Thunderhead",
+            "kr": "- 뇌운",
+            "tw": "積雨雲之",
+            "ru": "грозовой тучи",
+            "jp": "雷雲の"
+          },
+          "effect": {
+            "en": "(21-25)% to Lightning Resistance",
+            "kr": "번개 저항 (21-25)%",
+            "tw": "(21-25)%閃電抗性",
+            "ru": "(21-25)% к сопротивлению молнии",
+            "jp": "雷耐性 (21-25)%"
+          },
+          "group": [
+            "LightningResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% to Lightning Resistance",
+                "kr": "번개 저항 (21-25)%",
+                "tw": "(21-25)%閃電抗性",
+                "ru": "(21-25)% к сопротивлению молнии",
+                "jp": "雷耐性 (21-25)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceLightningResist",
+              "name": {
+                "en": "Essence of Grounding",
+                "kr": "접지의 에센스",
+                "tw": "接地精髓",
+                "ru": "Сущность заземления",
+                "jp": "接地のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist4",
+          "affixType": "suffix",
+          "tier": 38,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Yeti",
+            "kr": "- 설인",
+            "tw": "雪人之",
+            "ru": "йети",
+            "jp": "イエティの"
+          },
+          "effect": {
+            "en": "(21-25)% to Cold Resistance",
+            "kr": "냉기 저항 (21-25)%",
+            "tw": "(21-25)%冰冷抗性",
+            "ru": "(21-25)% к сопротивлению холоду",
+            "jp": "冷気耐性 (21-25)%"
+          },
+          "group": [
+            "ColdResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% to Cold Resistance",
+                "kr": "냉기 저항 (21-25)%",
+                "tw": "(21-25)%冰冷抗性",
+                "ru": "(21-25)% к сопротивлению холоду",
+                "jp": "冷気耐性 (21-25)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceColdResist",
+              "name": {
+                "en": "Essence of Thawing",
+                "kr": "해동의 에센스",
+                "tw": "解凍精髓",
+                "ru": "Сущность таяния",
+                "jp": "解凍のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Leopard",
+            "kr": "- 표범",
+            "tw": "花豹之",
+            "ru": "леопарда",
+            "jp": "豹の"
+          },
+          "effect": {
+            "en": "(25-27) to Dexterity",
+            "kr": "민첩 (25-27)",
+            "tw": "(25-27)點敏捷",
+            "ru": "(25-27) к ловкости",
+            "jp": "器用さ (25-27)"
+          },
+          "group": [
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27) to Dexterity",
+                "kr": "민첩 (25-27)",
+                "tw": "(25-27)點敏捷",
+                "ru": "(25-27) к ловкости",
+                "jp": "器用さ (25-27)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute",
+              "name": {
+                "en": "Greater Essence of the Infinite",
+                "kr": "상위 무한의 에센스",
+                "tw": "高階無限精髓",
+                "ru": "Большая сущность бесконечности",
+                "jp": "無限のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Sage",
+            "kr": "- 현자",
+            "tw": "聖人之",
+            "ru": "мудреца",
+            "jp": "賢者の"
+          },
+          "effect": {
+            "en": "(25-27) to Intelligence",
+            "kr": "지능 (25-27)",
+            "tw": "(25-27)點智慧",
+            "ru": "(25-27) к интеллекту",
+            "jp": "知性 (25-27)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27) to Intelligence",
+                "kr": "지능 (25-27)",
+                "tw": "(25-27)點智慧",
+                "ru": "(25-27) к интеллекту",
+                "jp": "知性 (25-27)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute",
+              "name": {
+                "en": "Greater Essence of the Infinite",
+                "kr": "상위 무한의 에센스",
+                "tw": "高階無限精髓",
+                "ru": "Большая сущность бесконечности",
+                "jp": "無限のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Strength6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Goliath",
+            "kr": "- 골리앗",
+            "tw": "巨人之",
+            "ru": "голиафа",
+            "jp": "巨躯の"
+          },
+          "effect": {
+            "en": "(25-27) to Strength",
+            "kr": "힘 (25-27)",
+            "tw": "(25-27)點力量",
+            "ru": "(25-27) к силе",
+            "jp": "筋力 (25-27)"
+          },
+          "group": [
+            "Strength"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27) to Strength",
+                "kr": "힘 (25-27)",
+                "tw": "(25-27)點力量",
+                "ru": "(25-27) к силе",
+                "jp": "筋力 (25-27)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute",
+              "name": {
+                "en": "Greater Essence of the Infinite",
+                "kr": "상위 무한의 에센스",
+                "tw": "高階無限精髓",
+                "ru": "Большая сущность бесконечности",
+                "jp": "無限のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist4",
+          "affixType": "suffix",
+          "tier": 56,
+          "valueRanges": [
+            [
+              16,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Expulsion",
+            "kr": "- 축출",
+            "tw": "出境之",
+            "ru": "ссыльного",
+            "jp": "排除の"
+          },
+          "effect": {
+            "en": "(16-19)% to Chaos Resistance",
+            "kr": "카오스 저항 (16-19)%",
+            "tw": "(16-19)%混沌抗性",
+            "ru": "(16-19)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (16-19)%"
+          },
+          "group": [
+            "ChaosResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    16,
+                    19
+                  ]
+                }
+              ],
+              "value": "16~19",
+              "text": {
+                "en": "(16-19)% to Chaos Resistance",
+                "kr": "카오스 저항 (16-19)%",
+                "tw": "(16-19)%混沌抗性",
+                "ru": "(16-19)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (16-19)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceChaos",
+              "name": {
+                "en": "Greater Essence of Ruin",
+                "kr": "상위 폐허의 에센스",
+                "tw": "高階毀滅精髓",
+                "ru": "Большая сущность гибели",
+                "jp": "破滅のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Polar Bear",
+            "kr": "- 북극곰",
+            "tw": "北極熊之",
+            "ru": "белого медведя",
+            "jp": "ホッキョクグマの"
+          },
+          "effect": {
+            "en": "(31-35)% to Cold Resistance",
+            "kr": "냉기 저항 (31-35)%",
+            "tw": "(31-35)%冰冷抗性",
+            "ru": "(31-35)% к сопротивлению холоду",
+            "jp": "冷気耐性 (31-35)%"
+          },
+          "group": [
+            "ColdResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Cold Resistance",
+                "kr": "냉기 저항 (31-35)%",
+                "tw": "(31-35)%冰冷抗性",
+                "ru": "(31-35)% к сопротивлению холоду",
+                "jp": "冷気耐性 (31-35)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceColdResist",
+              "name": {
+                "en": "Greater Essence of Thawing",
+                "kr": "상위 해동의 에센스",
+                "tw": "高階解凍精髓",
+                "ru": "Большая сущность таяния",
+                "jp": "解凍のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Volcano",
+            "kr": "- 화산",
+            "tw": "火山之",
+            "ru": "вулкана",
+            "jp": "火山の"
+          },
+          "effect": {
+            "en": "(31-35)% to Fire Resistance",
+            "kr": "화염 저항 (31-35)%",
+            "tw": "(31-35)%火焰抗性",
+            "ru": "(31-35)% к сопротивлению огню",
+            "jp": "火耐性 (31-35)%"
+          },
+          "group": [
+            "FireResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Fire Resistance",
+                "kr": "화염 저항 (31-35)%",
+                "tw": "(31-35)%火焰抗性",
+                "ru": "(31-35)% к сопротивлению огню",
+                "jp": "火耐性 (31-35)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceFireResist",
+              "name": {
+                "en": "Greater Essence of Insulation",
+                "kr": "상위 절연의 에센스",
+                "tw": "高階隔絕精髓",
+                "ru": "Большая сущность изоляции",
+                "jp": "断熱のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Maelstrom",
+            "kr": "- 큰 소용돌이",
+            "tw": "颱風之",
+            "ru": "вихря",
+            "jp": "大渦の"
+          },
+          "effect": {
+            "en": "(31-35)% to Lightning Resistance",
+            "kr": "번개 저항 (31-35)%",
+            "tw": "(31-35)%閃電抗性",
+            "ru": "(31-35)% к сопротивлению молнии",
+            "jp": "雷耐性 (31-35)%"
+          },
+          "group": [
+            "LightningResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Lightning Resistance",
+                "kr": "번개 저항 (31-35)%",
+                "tw": "(31-35)%閃電抗性",
+                "ru": "(31-35)% к сопротивлению молнии",
+                "jp": "雷耐性 (31-35)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceLightningResist",
+              "name": {
+                "en": "Greater Essence of Grounding",
+                "kr": "상위 접지의 에센스",
+                "tw": "高階接地精髓",
+                "ru": "Большая сущность заземления",
+                "jp": "接地のグレーターエッセンス"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "alloy": {
+      "prefix": [
+        {
+          "id": "AlloyLocalWardIncreasePercent1",
+          "affixType": "prefix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              24,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Verisium",
+            "kr": "베리시움",
+            "tw": "維里西姆",
+            "ru": "Веризиевый",
+            "jp": "ヴェリシウムの"
+          },
+          "effect": {
+            "en": "(24-30)% increased Runic Ward",
+            "kr": "룬 수호 (24-30)% 증가",
+            "tw": "增加(24-30)%符文保護",
+            "ru": "(24-30)% увеличение рунического барьера",
+            "jp": "ルーンワードが(24-30)%増加する"
+          },
+          "group": [
+            "LocalRunicWardPercent"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_ward_+%",
+                  "valueRange": [
+                    24,
+                    30
+                  ]
+                }
+              ],
+              "value": "24~30",
+              "text": {
+                "en": "(24-30)% increased Runic Ward",
+                "kr": "룬 수호 (24-30)% 증가",
+                "tw": "增加(24-30)%符文保護",
+                "ru": "(24-30)% увеличение рунического барьера",
+                "jp": "ルーンワードが(24-30)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy9",
+              "name": {
+                "en": "Sovereign Alloy",
+                "kr": "군왕의 합금",
+                "tw": "君主合金",
+                "ru": "Державный сплав",
+                "jp": "王権の合金"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "AlloyRunicWardOnBlock1",
+          "affixType": "suffix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              10,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "Recover (10-15) Runic Ward when you Block",
+            "kr": "막아낼 시 룬 수호 (10-15) 회복",
+            "tw": "你格擋時回復(10-15)點符文保護",
+            "ru": "Восстанавливает (10-15) рунического барьера когда вы блокируете удар",
+            "jp": "ブロック時に(10-15)のルーンワードを回復する"
+          },
+          "group": [
+            "GainFlatLifeOnBlock"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "recover_X_ward_on_block",
+                  "valueRange": [
+                    10,
+                    15
+                  ]
+                }
+              ],
+              "value": "10~15",
+              "text": {
+                "en": "Recover (10-15) Runic Ward when you Block",
+                "kr": "막아낼 시 룬 수호 (10-15) 회복",
+                "tw": "你格擋時回復(10-15)點符文保護",
+                "ru": "Восстанавливает (10-15) рунического барьера когда вы блокируете удар",
+                "jp": "ブロック時に(10-15)のルーンワードを回復する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy3",
+              "name": {
+                "en": "Protective Alloy",
+                "kr": "보호의 합금",
+                "tw": "防護合金",
+                "ru": "Защитный сплав",
+                "jp": "保護の合金"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AlloyTotemPlacementSpeed1",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              30,
+              49
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "(30-49)% increased Totem Placement speed",
+            "kr": "토템 설치 속도 (30-49)% 증가",
+            "tw": "增加(30-49)%圖騰設置速度",
+            "ru": "(30-49)% повышение скорости установки тотемов",
+            "jp": "トーテム設置スピードが(30-49)%増加する"
+          },
+          "group": [
+            "SummonTotemCastSpeed"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "summon_totem_cast_speed_+%",
+                  "valueRange": [
+                    30,
+                    49
+                  ]
+                }
+              ],
+              "value": "30~49",
+              "text": {
+                "en": "(30-49)% increased Totem Placement speed",
+                "kr": "토템 설치 속도 (30-49)% 증가",
+                "tw": "增加(30-49)%圖騰設置速度",
+                "ru": "(30-49)% повышение скорости установки тотемов",
+                "jp": "トーテム設置スピードが(30-49)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy5",
+              "name": {
+                "en": "Swift Alloy",
+                "kr": "재빠른 합금",
+                "tw": "迅捷合金",
+                "ru": "Лёгкий сплав",
+                "jp": "迅速の合金"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "desecrated": {
+      "prefix": [],
+      "suffix": [
+        {
+          "id": "AbyssModArmourJewelleryAmanamuSuffixFireChaosResistance",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              13,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(13-17)% to Fire and Chaos Resistances",
+            "kr": "화염 및 카오스 저항 (13-17)%",
+            "tw": "(13-17)%火焰和混沌抗性",
+            "ru": "(13-17)% к сопротивлениям огню и хаосу",
+            "jp": "火および混沌耐性 (13-17)%"
+          },
+          "group": [
+            "FireAndChaosDamageResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_and_chaos_damage_resistance_%",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                }
+              ],
+              "value": "13~17",
+              "text": {
+                "en": "(13-17)% to Fire and Chaos Resistances",
+                "kr": "화염 및 카오스 저항 (13-17)%",
+                "tw": "(13-17)%火焰和混沌抗性",
+                "ru": "(13-17)% к сопротивлениям огню и хаосу",
+                "jp": "火および混沌耐性 (13-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryAmanamuSuffixStrengthAndIntelligence",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              9,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(9-15) to Strength and Intelligence",
+            "kr": "힘 및 지능 (9-15)",
+            "tw": "(9-15)點力量與智慧",
+            "ru": "(9-15) к силе и интеллекту",
+            "jp": "筋力および知性 (9-15)"
+          },
+          "group": [
+            "Strength",
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength_and_intelligence",
+                  "valueRange": [
+                    9,
+                    15
+                  ]
+                }
+              ],
+              "value": "9~15",
+              "text": {
+                "en": "(9-15) to Strength and Intelligence",
+                "kr": "힘 및 지능 (9-15)",
+                "tw": "(9-15)點力量與智慧",
+                "ru": "(9-15) к силе и интеллекту",
+                "jp": "筋力および知性 (9-15)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryKurgalSuffixColdChaosResistance",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              13,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(13-17)% to Cold and Chaos Resistances",
+            "kr": "냉기 및 카오스 저항 (13-17)%",
+            "tw": "(13-17)%冰冷和混沌抗性",
+            "ru": "(13-17)% к сопротивлениям холоду и хаосу",
+            "jp": "冷気と混沌耐性 (13-17)%"
+          },
+          "group": [
+            "ColdAndChaosDamageResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_and_chaos_damage_resistance_%",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                }
+              ],
+              "value": "13~17",
+              "text": {
+                "en": "(13-17)% to Cold and Chaos Resistances",
+                "kr": "냉기 및 카오스 저항 (13-17)%",
+                "tw": "(13-17)%冰冷和混沌抗性",
+                "ru": "(13-17)% к сопротивлениям холоду и хаосу",
+                "jp": "冷気と混沌耐性 (13-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryKurgalSuffixDexterityAndIntelligence",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              9,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(9-15) to Dexterity and Intelligence",
+            "kr": "민첩 및 지능 (9-15)",
+            "tw": "(9-15)點敏捷與智慧",
+            "ru": "(9-15) к ловкости и интеллекту",
+            "jp": "器用さおよび知性 (9-15)"
+          },
+          "group": [
+            "Dexterity",
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity_and_intelligence",
+                  "valueRange": [
+                    9,
+                    15
+                  ]
+                }
+              ],
+              "value": "9~15",
+              "text": {
+                "en": "(9-15) to Dexterity and Intelligence",
+                "kr": "민첩 및 지능 (9-15)",
+                "tw": "(9-15)點敏捷與智慧",
+                "ru": "(9-15) к ловкости и интеллекту",
+                "jp": "器用さおよび知性 (9-15)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              13,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(13-17)% to Lightning and Chaos Resistances",
+            "kr": "번개 및 카오스 저항 (13-17)%",
+            "tw": "(13-17)%閃電和混沌抗性",
+            "ru": "(13-17)% к сопротивлениям молнии и хаосу",
+            "jp": "雷および混沌耐性 (13-17)%"
+          },
+          "group": [
+            "LightningAndChaosDamageResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "lightning_and_chaos_damage_resistance_%",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                }
+              ],
+              "value": "13~17",
+              "text": {
+                "en": "(13-17)% to Lightning and Chaos Resistances",
+                "kr": "번개 및 카오스 저항 (13-17)%",
+                "tw": "(13-17)%閃電和混沌抗性",
+                "ru": "(13-17)% к сопротивлениям молнии и хаосу",
+                "jp": "雷および混沌耐性 (13-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryUlamanSuffixStrengthAndDexterity",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              9,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(9-15) to Strength and Dexterity",
+            "kr": "힘 및 민첩 (9-15)",
+            "tw": "(9-15)點力量與敏捷",
+            "ru": "(9-15) к силе и ловкости",
+            "jp": "筋力および器用さ (9-15)"
+          },
+          "group": [
+            "Strength",
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength_and_dexterity",
+                  "valueRange": [
+                    9,
+                    15
+                  ]
+                }
+              ],
+              "value": "9~15",
+              "text": {
+                "en": "(9-15) to Strength and Dexterity",
+                "kr": "힘 및 민첩 (9-15)",
+                "tw": "(9-15)點力量與敏捷",
+                "ru": "(9-15) к силе и ловкости",
+                "jp": "筋力および器用さ (9-15)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModBodyShieldAmanamuSuffixLifeRecoup",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(10-20)% of Damage taken Recouped as Life",
+            "kr": "받은 피해의 (10-20)%를 생명력으로 회생",
+            "tw": "承受的(10-20)%傷害補償為生命",
+            "ru": "(10-20)% полученного урона восполняется в виде здоровья",
+            "jp": "受けたダメージの(10-20)%をライフとして回収する"
+          },
+          "group": [
+            "DamageTakenGainedAsLife"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_taken_goes_to_life_over_4_seconds_%",
+                  "valueRange": [
+                    10,
+                    20
+                  ]
+                }
+              ],
+              "value": "10~20",
+              "text": {
+                "en": "(10-20)% of Damage taken Recouped as Life",
+                "kr": "받은 피해의 (10-20)%를 생명력으로 회생",
+                "tw": "承受的(10-20)%傷害補償為生命",
+                "ru": "(10-20)% полученного урона восполняется в виде здоровья",
+                "jp": "受けたダメージの(10-20)%をライフとして回収する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModBodyShieldAmanamuSuffixReducedCursedEffectSelf",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              -35,
+              -25
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(-35--25)% reduced effect of Curses on you",
+            "kr": "플레이어에게 적용되는 저주 효과 (-35--25)% 감소",
+            "tw": "減少(-35--25)%你身上的詛咒效果",
+            "ru": "(-35--25)% ослабление эффекта проклятий на вас",
+            "jp": "プレイヤーに対する呪いの効果が(-35--25)%減少する"
+          },
+          "group": [
+            "ReducedCurseEffect"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "curse_effect_on_self_+%",
+                  "valueRange": [
+                    -35,
+                    -25
+                  ]
+                }
+              ],
+              "value": "-35~-25",
+              "text": {
+                "en": "(-35--25)% reduced effect of Curses on you",
+                "kr": "플레이어에게 적용되는 저주 효과 (-35--25)% 감소",
+                "tw": "減少(-35--25)%你身上的詛咒效果",
+                "ru": "(-35--25)% ослабление эффекта проклятий на вас",
+                "jp": "プレイヤーに対する呪いの効果が(-35--25)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModBodyShieldKurgalSuffixArmourAppliesToChaosDamage",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              23,
+              31
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(23-31)% of Armour also applies to Chaos Damage",
+            "kr": "방어도의 (23-31)%가 카오스 피해에도 적용",
+            "tw": "(23-31)%的護甲值也會套用至混沌傷害",
+            "ru": "(23-31)% брони также применяется к получаемому урону хаосом",
+            "jp": "アーマーの(23-31)%が混沌ダメージにも適用される"
+          },
+          "group": [
+            "ArmourAppliesToChaosDamage"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_armour_%_applies_to_chaos_damage",
+                  "valueRange": [
+                    23,
+                    31
+                  ]
+                }
+              ],
+              "value": "23~31",
+              "text": {
+                "en": "(23-31)% of Armour also applies to Chaos Damage",
+                "kr": "방어도의 (23-31)%가 카오스 피해에도 적용",
+                "tw": "(23-31)%的護甲值也會套用至混沌傷害",
+                "ru": "(23-31)% брони также применяется к получаемому урону хаосом",
+                "jp": "アーマーの(23-31)%が混沌ダメージにも適用される"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModBodyShieldKurgalSuffixElementalEnergyShieldRecoup",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(10-20)% of Elemental Damage taken Recouped as Energy Shield",
+            "kr": "받은 원소 피해의 (10-20)%를 에너지 보호막으로 회생",
+            "tw": "承受元素傷害的(10-20)%補償為能量護盾",
+            "ru": "(10-20)% получаемого урона от стихий восполняется в виде энергетического щита",
+            "jp": "受けた元素ダメージの(10-20)%をエナジーシールドとして回収する"
+          },
+          "group": [
+            "ElementalDamageTakenRecoupedAsEnergyShield"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "recoup_%_elemental_damage_as_energy_shield",
+                  "valueRange": [
+                    10,
+                    20
+                  ]
+                }
+              ],
+              "value": "10~20",
+              "text": {
+                "en": "(10-20)% of Elemental Damage taken Recouped as Energy Shield",
+                "kr": "받은 원소 피해의 (10-20)%를 에너지 보호막으로 회생",
+                "tw": "承受元素傷害的(10-20)%補償為能量護盾",
+                "ru": "(10-20)% получаемого урона от стихий восполняется в виде энергетического щита",
+                "jp": "受けた元素ダメージの(10-20)%をエナジーシールドとして回収する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModBodyShieldKurgalSuffixManaRecoup",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(10-20)% of Damage taken Recouped as Mana",
+            "kr": "받은 피해의 (10-20)%를 마나로 회생",
+            "tw": "承受的(10-20)%傷害補償為魔力",
+            "ru": "(10-20)% полученного урона восполняется в виде маны",
+            "jp": "受けたダメージの(10-20)%をマナとして回収する"
+          },
+          "group": [
+            "PercentDamageGoesToMana"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_taken_goes_to_mana_%",
+                  "valueRange": [
+                    10,
+                    20
+                  ]
+                }
+              ],
+              "value": "10~20",
+              "text": {
+                "en": "(10-20)% of Damage taken Recouped as Mana",
+                "kr": "받은 피해의 (10-20)%를 마나로 회생",
+                "tw": "承受的(10-20)%傷害補償為魔力",
+                "ru": "(10-20)% полученного урона восполняется в виде маны",
+                "jp": "受けたダメージの(10-20)%をマナとして回収する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModBodyShieldUlamanSuffixHitsAgainstYouReducedCriticalDamage",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              -25,
+              -17
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "Hits have (-25--17)% reduced Critical Hit Chance against you",
+            "kr": "플레이어에 대한 명중의 치명타 명중 확률 (-25--17)% 감소",
+            "tw": "對你的擊中減少(-25--17)%暴擊率",
+            "ru": "(-25--17)% уменьшение шанса критического удара ударами по вам",
+            "jp": "プレイヤーに対するヒットはクリティカルヒット率が(-25--17)%減少する"
+          },
+          "group": [
+            "ChanceToTakeCriticalStrike"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_enemy_critical_strike_chance_+%_against_self",
+                  "valueRange": [
+                    -25,
+                    -17
+                  ]
+                }
+              ],
+              "value": "-25~-17",
+              "text": {
+                "en": "Hits have (-25--17)% reduced Critical Hit Chance against you",
+                "kr": "플레이어에 대한 명중의 치명타 명중 확률 (-25--17)% 감소",
+                "tw": "對你的擊中減少(-25--17)%暴擊率",
+                "ru": "(-25--17)% уменьшение шанса критического удара ударами по вам",
+                "jp": "プレイヤーに対するヒットはクリティカルヒット率が(-25--17)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldAmanamuSuffixAllMaximumResistances",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "1% to all maximum Resistances",
+            "kr": "모든 저항 최대치 1%",
+            "tw": "1%最大全部抗性",
+            "ru": "1% к максимуму всех сопротивлений",
+            "jp": "全ての耐性の最大値 1%"
+          },
+          "group": [
+            "MaximumResistances"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_maximum_all_resistances_%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% to all maximum Resistances",
+                "kr": "모든 저항 최대치 1%",
+                "tw": "1%最大全部抗性",
+                "ru": "1% к максимуму всех сопротивлений",
+                "jp": "全ての耐性の最大値 1%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldAmanamuSuffixHeavyStunDecaySelf",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              30,
+              40
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "Your Heavy Stun buildup empties (30-40)% faster",
+            "kr": "강력 기절 축적이 떨어지는 속도 (30-40)% 가속",
+            "tw": "你的沉重暈眩累積消退速度加快(30-40)%",
+            "ru": "Ваша шкала накопления сильного оглушения опустошается на (30-40)% быстрее",
+            "jp": "プレイヤーのヘビースタン蓄積の消失が(30-40)%速くなる"
+          },
+          "group": [
+            "HeavyStunDecayRate"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "heavy_stun_poise_decay_rate_+%",
+                  "valueRange": [
+                    30,
+                    40
+                  ]
+                }
+              ],
+              "value": "30~40",
+              "text": {
+                "en": "Your Heavy Stun buildup empties (30-40)% faster",
+                "kr": "강력 기절 축적이 떨어지는 속도 (30-40)% 가속",
+                "tw": "你的沉重暈眩累積消退速度加快(30-40)%",
+                "ru": "Ваша шкала накопления сильного оглушения опустошается на (30-40)% быстрее",
+                "jp": "プレイヤーのヘビースタン蓄積の消失が(30-40)%速くなる"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldAmanamuSuffixShieldSkillsFullyBreakArmourOnHeavyStun",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "Shield Skills fully Break Armour when they Heavy Stun targets",
+            "kr": "Shield Skills fully Break Armour when they Heavy Stun targets",
+            "tw": "Shield Skills fully Break Armour when they Heavy Stun targets",
+            "ru": "Shield Skills fully Break Armour when they Heavy Stun targets",
+            "jp": "Shield Skills fully Break Armour when they Heavy Stun targets"
+          },
+          "group": [
+            "ShieldSkillsStunningAlsoFullyBreaksArmour"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fully_break_enemies_armour_on_heavy_stun_with_shield_skills",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Shield Skills fully Break Armour when they Heavy Stun targets",
+                "kr": "Shield Skills fully Break Armour when they Heavy Stun targets",
+                "tw": "Shield Skills fully Break Armour when they Heavy Stun targets",
+                "ru": "Shield Skills fully Break Armour when they Heavy Stun targets",
+                "jp": "Shield Skills fully Break Armour when they Heavy Stun targets"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldKurgalSuffixEnergyShieldRechargeRateBlockedRecently",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              40,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(40-50)% increased Energy Shield Recharge Rate if you've Blocked Recently",
+            "kr": "최근 4초 이내 막은 경우 에너지 보호막 재충전 속도 (40-50)% 증가",
+            "tw": "若你近期格擋過，增加(40-50)%能量護盾充能率",
+            "ru": "(40-50)% повышение скорости перезарядки энергетического щита, если недавно вы блокировали удар",
+            "jp": "直近ブロックしていればエナジーシールドリチャージレートが(40-50)%増加する"
+          },
+          "group": [
+            "EnergyShieldRechargeRateIfBlockedRecently"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "energy_shield_recharge_rate_+%_if_blocked_recently",
+                  "valueRange": [
+                    40,
+                    50
+                  ]
+                }
+              ],
+              "value": "40~50",
+              "text": {
+                "en": "(40-50)% increased Energy Shield Recharge Rate if you've Blocked Recently",
+                "kr": "최근 4초 이내 막은 경우 에너지 보호막 재충전 속도 (40-50)% 증가",
+                "tw": "若你近期格擋過，增加(40-50)%能量護盾充能率",
+                "ru": "(40-50)% повышение скорости перезарядки энергетического щита, если недавно вы блокировали удар",
+                "jp": "直近ブロックしていればエナジーシールドリチャージレートが(40-50)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldKurgalSuffixFlatManaGainedOnBlock",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              6,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(6-12) Mana gained when you Block",
+            "kr": "막아낼 시 마나 (6-12) 획득",
+            "tw": "你格擋時獲得(6-12)魔力",
+            "ru": "Дает (6-12) маны, когда вы блокируете удар",
+            "jp": "ブロック時に(6-12)のマナを獲得する"
+          },
+          "group": [
+            "GainManaOnBlock"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "mana_gained_on_block",
+                  "valueRange": [
+                    6,
+                    12
+                  ]
+                }
+              ],
+              "value": "6~12",
+              "text": {
+                "en": "(6-12) Mana gained when you Block",
+                "kr": "막아낼 시 마나 (6-12) 획득",
+                "tw": "你格擋時獲得(6-12)魔力",
+                "ru": "Дает (6-12) маны, когда вы блокируете удар",
+                "jp": "ブロック時に(6-12)のマナを獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldUlamanSuffixLightningTakenAsPhysAndGlancingWhileActiveBlocking",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              30,
+              40
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(30-40)% of Physical Damage taken as Lightning while your Shield is raised\nYou take (8-15)% of damage from Blocked Hits with a raised Shield",
+            "kr": "방패를 올린 동안 물리 피해의 (30-40)%를 번개 피해로 받음\n방패를 올린 동안 막은 명중 피해의 (8-15)%를 받음",
+            "tw": "當你舉起盾牌時，你承受的(30-40)%物理傷害視為閃電傷害\n你僅承受舉起盾牌格檔的(8-15)%擊中傷害。",
+            "ru": "(30-40)% получаемого физического урона становится уроном от молнии, пока поднят ваш щит\nВы получаете (8-15)% урона от заблокированных ударов при поднятом щите",
+            "jp": "盾を掲げている間物理ダメージの(30-40)%を雷ダメージとして受ける\n盾を掲げてブロックしたヒットからダメージの(8-15)%を受ける"
+          },
+          "group": [
+            "PhysicalDamageTakenAsLightningWhileActiveBlocking",
+            "BlockDamageTakenWhileActiveBlocking"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_hit_and_dot_damage_%_taken_as_lightning_while_active_blocking",
+                  "valueRange": [
+                    30,
+                    40
+                  ]
+                }
+              ],
+              "value": "30~40",
+              "text": {
+                "en": "(30-40)% of Physical Damage taken as Lightning while your Shield is raised",
+                "kr": "방패를 올린 동안 물리 피해의 (30-40)%를 번개 피해로 받음",
+                "tw": "當你舉起盾牌時，你承受的(30-40)%物理傷害視為閃電傷害",
+                "ru": "(30-40)% получаемого физического урона становится уроном от молнии, пока поднят ваш щит",
+                "jp": "盾を掲げている間物理ダメージの(30-40)%を雷ダメージとして受ける"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "block_%_damage_taken_while_active_blocking",
+                  "valueRange": [
+                    8,
+                    15
+                  ]
+                }
+              ],
+              "value": "8~15",
+              "text": {
+                "en": "You take (8-15)% of damage from Blocked Hits with a raised Shield",
+                "kr": "방패를 올린 동안 막은 명중 피해의 (8-15)%를 받음",
+                "tw": "你僅承受舉起盾牌格檔的(8-15)%擊中傷害。",
+                "ru": "Вы получаете (8-15)% урона от заблокированных ударов при поднятом щите",
+                "jp": "盾を掲げてブロックしたヒットからダメージの(8-15)%を受ける"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldUlamanSuffixMaximumBlockChance",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(1-2)% to maximum Block chance",
+            "kr": "최대 막기 확률 (1-2)%",
+            "tw": "(1-2)%至最大格擋機率",
+            "ru": "(1-2)% к максимуму шанса блока",
+            "jp": "ブロック率の最大値 (1-2)%"
+          },
+          "group": [
+            "MaximumBlockChance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_maximum_block_%",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": "(1-2)% to maximum Block chance",
+                "kr": "최대 막기 확률 (1-2)%",
+                "tw": "(1-2)%至最大格擋機率",
+                "ru": "(1-2)% к максимуму шанса блока",
+                "jp": "ブロック率の最大値 (1-2)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldUlamanSuffixParryDebuffDuration",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              25,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(25-35)% increased Parried Debuff Duration",
+            "kr": "흘려보내기 디버프 지속시간 (25-35)% 증가",
+            "tw": "增加(25-35)%受招架減益效果持續時間",
+            "ru": "(25-35)% увеличение длительности эффекта Парирован",
+            "jp": "パリィのデバフの持続時間が(25-35)%増加する"
+          },
+          "group": [
+            "ParriedDebuff"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "parry_skill_effect_duration_+%",
+                  "valueRange": [
+                    25,
+                    35
+                  ]
+                }
+              ],
+              "value": "25~35",
+              "text": {
+                "en": "(25-35)% increased Parried Debuff Duration",
+                "kr": "흘려보내기 디버프 지속시간 (25-35)% 증가",
+                "tw": "增加(25-35)%受招架減益效果持續時間",
+                "ru": "(25-35)% увеличение длительности эффекта Парирован",
+                "jp": "パリィのデバフの持続時間が(25-35)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModShieldUlamanSuffixParryDebuffMagnitude",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              20,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(20-30)% increased Parried Debuff Magnitude",
+            "kr": "흘려보내기 디버프 강도 (20-30)% 증가",
+            "tw": "增加(20-30)%受招架減益效果的幅度",
+            "ru": "(20-30)% увеличение силы отрицательного эффекта Парирован",
+            "jp": "パリィのデバフの強度が(20-30)%増加する"
+          },
+          "group": [
+            "ParriedDebuff"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "parried_magnitude_+%",
+                  "valueRange": [
+                    20,
+                    30
+                  ]
+                }
+              ],
+              "value": "20~30",
+              "text": {
+                "en": "(20-30)% increased Parried Debuff Magnitude",
+                "kr": "흘려보내기 디버프 강도 (20-30)% 증가",
+                "tw": "增加(20-30)%受招架減益效果的幅度",
+                "ru": "(20-30)% увеличение силы отрицательного эффекта Парирован",
+                "jp": "パリィのデバフの強度が(20-30)%増加する"
+              }
+            }
+          ]
+        }
+      ]
     },
     "unique": {
       "prefix": [
@@ -11918,7 +14770,7 @@
             "jp": "ブロック時に(40-55)のライフを獲得する"
           },
           "group": [
-            686
+            "GainLifeOnBlock"
           ],
           "weight": 1,
           "stats": [
@@ -11968,7 +14820,7 @@
             "jp": "ブロック時に(20-30)のマナを獲得する"
           },
           "group": [
-            687
+            "GainManaOnBlock"
           ],
           "weight": 1,
           "stats": [
@@ -12018,7 +14870,7 @@
             "jp": "混沌耐性 (10-13)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -12068,7 +14920,7 @@
             "jp": "冷気耐性 (15-20)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -12118,7 +14970,7 @@
             "jp": "器用さ (14-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -12168,7 +15020,7 @@
             "jp": "火耐性 (15-20)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -12218,7 +15070,7 @@
             "jp": "知性 (14-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -12268,7 +15120,7 @@
             "jp": "雷耐性 (15-20)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -12318,7 +15170,7 @@
             "jp": "筋力 (14-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -12368,7 +15220,7 @@
             "jp": "ブロック率が(20-30)%増加する"
           },
           "group": [
-            18
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1,
           "stats": [
@@ -12418,7 +15270,7 @@
             "jp": "アーマーおよびエナジーシールドが(40-60)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -12468,7 +15320,7 @@
             "jp": "アーマーおよび回避力が(40-60)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -12518,7 +15370,7 @@
             "jp": "アーマーが(40-60)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -12568,7 +15420,7 @@
             "jp": "ブロック率の最大値 (4-5)%"
           },
           "group": [
-            732
+            "MaximumBlockChance"
           ],
           "weight": 1,
           "stats": [
@@ -12618,7 +15470,7 @@
             "jp": "要求能力値が(-50--30)%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -12668,7 +15520,7 @@
             "jp": "棘ダメージが(100-150)%増加する"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [

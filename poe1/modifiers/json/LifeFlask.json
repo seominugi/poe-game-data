@@ -48,7 +48,7 @@
             "kr": "회복량 (41-46)% 증가\n회복 속도 -33% 감소"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -105,7 +105,7 @@
             "kr": "회복 속도 (41-46)% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -146,7 +146,7 @@
             "kr": "충전 최대치 (16-19)"
           },
           "group": [
-            92
+            "FlaskNumCharges"
           ],
           "weight": 600,
           "stats": [
@@ -187,7 +187,7 @@
             "kr": "충전 회복 (16-20)% 증가"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -236,7 +236,7 @@
             "kr": "회복량의 50%를 즉시 회복\n회복량 (-55--52)% 감소\n회복 속도 135% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -309,7 +309,7 @@
             "kr": "낮은 생명력 상태일 때 사용 시 회복 (101-106)% 증폭"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -354,7 +354,7 @@
             "kr": "즉시 회복\n회복량 -66% 감소"
           },
           "group": [
-            93
+            "FlaskBuffWhileHealing"
           ],
           "weight": 3000,
           "stats": [
@@ -411,7 +411,7 @@
             "kr": "치명타 명중 시 (11-15)%의 확률로 플라스크 1 충전"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -456,7 +456,7 @@
             "kr": "낮은 생명력 상태일 때 즉시 회복\n회복량 (-30--27)% 감소"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -517,7 +517,7 @@
             "kr": "회복량 (21-26)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
           },
           "group": [
-            100
+            "FlaskIncreasedHealingCharges"
           ],
           "weight": 600,
           "stats": [
@@ -578,7 +578,7 @@
             "kr": "생명력 회복 (35-39)% 증가\n사용 시 마나에서 회복한 생명력의 10% 제거"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -635,7 +635,7 @@
             "kr": "사용 1회당 충전 소모량 (-16--14)% 감소"
           },
           "group": [
-            97
+            "FlaskChargesUsed"
           ],
           "weight": 600,
           "stats": [
@@ -680,7 +680,7 @@
             "kr": "회복량 (47-52)% 증가\n회복 속도 -33% 감소"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -737,7 +737,7 @@
             "kr": "회복 속도 (47-52)% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -778,7 +778,7 @@
             "kr": "충전 최대치 (20-23)"
           },
           "group": [
-            92
+            "FlaskNumCharges"
           ],
           "weight": 600,
           "stats": [
@@ -827,7 +827,7 @@
             "kr": "회복량의 50%를 즉시 회복\n회복량 (-51--48)% 감소\n회복 속도 135% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -900,7 +900,7 @@
             "kr": "충전 회복 (21-25)% 증가"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -941,7 +941,7 @@
             "kr": "낮은 생명력 상태일 때 사용 시 회복 (107-112)% 증폭"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -982,7 +982,7 @@
             "kr": "치명타 명중 시 (16-20)%의 확률로 플라스크 1 충전"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -1027,7 +1027,7 @@
             "kr": "낮은 생명력 상태일 때 즉시 회복\n회복량 (-26--23)% 감소"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -1088,7 +1088,7 @@
             "kr": "회복량 (27-32)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
           },
           "group": [
-            100
+            "FlaskIncreasedHealingCharges"
           ],
           "weight": 600,
           "stats": [
@@ -1145,7 +1145,7 @@
             "kr": "적에게 피격 시 충전 1 획득"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -1190,7 +1190,7 @@
             "kr": "생명력 회복 (40-44)% 증가\n사용 시 마나에서 회복한 생명력의 10% 제거"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -1247,7 +1247,7 @@
             "kr": "사용 1회당 충전 소모량 (-19--17)% 감소"
           },
           "group": [
-            97
+            "FlaskChargesUsed"
           ],
           "weight": 600,
           "stats": [
@@ -1292,7 +1292,7 @@
             "kr": "회복량 (53-58)% 증가\n회복 속도 -33% 감소"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -1349,7 +1349,7 @@
             "kr": "회복 속도 (53-58)% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -1398,7 +1398,7 @@
             "kr": "회복량의 50%를 즉시 회복\n회복량 (-47--44)% 감소\n회복 속도 135% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -1471,7 +1471,7 @@
             "kr": "충전 최대치 (24-27)"
           },
           "group": [
-            92
+            "FlaskNumCharges"
           ],
           "weight": 600,
           "stats": [
@@ -1512,7 +1512,7 @@
             "kr": "충전 회복 (26-30)% 증가"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -1553,7 +1553,7 @@
             "kr": "치명타 명중 시 (21-25)%의 확률로 플라스크 1 충전"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -1594,7 +1594,7 @@
             "kr": "낮은 생명력 상태일 때 사용 시 회복 (113-118)% 증폭"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -1639,7 +1639,7 @@
             "kr": "낮은 생명력 상태일 때 즉시 회복\n회복량 (-22--19)% 감소"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -1700,7 +1700,7 @@
             "kr": "회복량 (33-38)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
           },
           "group": [
-            100
+            "FlaskIncreasedHealingCharges"
           ],
           "weight": 600,
           "stats": [
@@ -1761,7 +1761,7 @@
             "kr": "생명력 회복 (46-50)% 증가\n사용 시 마나에서 회복한 생명력의 10% 제거"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -1818,7 +1818,7 @@
             "kr": "사용 1회당 충전 소모량 (-22--20)% 감소"
           },
           "group": [
-            97
+            "FlaskChargesUsed"
           ],
           "weight": 600,
           "stats": [
@@ -1867,7 +1867,7 @@
             "kr": "회복량의 50%를 즉시 회복\n회복량 (-43--40)% 감소\n회복 속도 135% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -1944,7 +1944,7 @@
             "kr": "회복량 (59-64)% 증가\n회복 속도 -33% 감소"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -2001,7 +2001,7 @@
             "kr": "회복 속도 (59-64)% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -2042,7 +2042,7 @@
             "kr": "치명타 명중 시 (26-30)%의 확률로 플라스크 1 충전"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -2083,7 +2083,7 @@
             "kr": "충전 최대치 (28-31)"
           },
           "group": [
-            92
+            "FlaskNumCharges"
           ],
           "weight": 600,
           "stats": [
@@ -2124,7 +2124,7 @@
             "kr": "충전 회복 (31-45)% 증가"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -2165,7 +2165,7 @@
             "kr": "적에게 피격 시 충전 2 획득"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -2206,7 +2206,7 @@
             "kr": "낮은 생명력 상태일 때 사용 시 회복 (119-124)% 증폭"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -2251,7 +2251,7 @@
             "kr": "낮은 생명력 상태일 때 즉시 회복\n회복량 (-18--15)% 감소"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -2312,7 +2312,7 @@
             "kr": "생명력 회복 (51-55)% 증가\n사용 시 마나에서 회복한 생명력의 10% 제거"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -2373,7 +2373,7 @@
             "kr": "회복량 (39-44)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
           },
           "group": [
-            100
+            "FlaskIncreasedHealingCharges"
           ],
           "weight": 600,
           "stats": [
@@ -2430,7 +2430,7 @@
             "kr": "사용 1회당 충전 소모량 (-25--23)% 감소"
           },
           "group": [
-            97
+            "FlaskChargesUsed"
           ],
           "weight": 600,
           "stats": [
@@ -2479,7 +2479,7 @@
             "kr": "회복량의 50%를 즉시 회복\n회복량 (-39--36)% 감소\n회복 속도 135% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -2552,7 +2552,7 @@
             "kr": "치명타 명중 시 (31-35)%의 확률로 플라스크 1 충전"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -2593,7 +2593,7 @@
             "kr": "적에게 피격 시 충전 3 획득"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -2638,7 +2638,7 @@
             "kr": "생명력 회복 (56-60)% 증가\n사용 시 마나에서 회복한 생명력의 10% 제거"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -2699,7 +2699,7 @@
             "kr": "회복량 (65-70)% 증가\n회복 속도 -33% 감소"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -2756,7 +2756,7 @@
             "kr": "회복 속도 (65-70)% 증가"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -2801,7 +2801,7 @@
             "kr": "낮은 생명력 상태일 때 즉시 회복\n회복량 (-14--11)% 감소"
           },
           "group": [
-            87
+            "FlaskRecoverySpeed"
           ],
           "weight": 600,
           "stats": [
@@ -2858,7 +2858,7 @@
             "kr": "사용 1회당 충전 소모량 (-28--26)% 감소"
           },
           "group": [
-            97
+            "FlaskChargesUsed"
           ],
           "weight": 600,
           "stats": [
@@ -2899,7 +2899,7 @@
             "kr": "충전 최대치 (32-35)"
           },
           "group": [
-            92
+            "FlaskNumCharges"
           ],
           "weight": 600,
           "stats": [
@@ -2944,7 +2944,7 @@
             "kr": "회복량 (45-50)% 증가\n사용 1회당 충전 소모량 (20-25)% 증가"
           },
           "group": [
-            100
+            "FlaskIncreasedHealingCharges"
           ],
           "weight": 600,
           "stats": [
@@ -3001,7 +3001,7 @@
             "kr": "낮은 생명력 상태일 때 사용 시 회복 (125-130)% 증폭"
           },
           "group": [
-            86
+            "FlaskRecoveryAmount"
           ],
           "weight": 600,
           "stats": [
@@ -3042,7 +3042,7 @@
             "kr": "충전 회복 (46-50)% 증가"
           },
           "group": [
-            94
+            "FlaskRechargeRate"
           ],
           "weight": 600,
           "stats": [
@@ -3085,7 +3085,7 @@
             "kr": "냉각 상태에서 사용 시 (6-8)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (6-8)초 동안 동결 면역 부여"
           },
           "group": [
-            90
+            "FlaskDispellChill"
           ],
           "weight": 750,
           "stats": [
@@ -3126,7 +3126,7 @@
             "kr": "점화 상태에서 사용 시 (6-8)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
           },
           "group": [
-            91
+            "FlaskDispellBurning"
           ],
           "weight": 750,
           "stats": [
@@ -3167,7 +3167,7 @@
             "kr": "감전 상태에서 사용 시 (6-8)초 동안 감전 면역 부여"
           },
           "group": [
-            553
+            "FlaskRemovesShock"
           ],
           "weight": 750,
           "stats": [
@@ -3208,7 +3208,7 @@
             "kr": "출혈 상태에서 사용 시 (6-8)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (6-8)초 동안 타락한 피 면역 부여"
           },
           "group": [
-            552
+            "FlaskRemovesBleeding"
           ],
           "weight": 750,
           "stats": [
@@ -3249,7 +3249,7 @@
             "kr": "소환수의 생명력 회복 (100-119)%"
           },
           "group": [
-            95
+            "FlaskHealsOthers"
           ],
           "weight": 600,
           "stats": [
@@ -3290,7 +3290,7 @@
             "kr": "중독 상태에서 사용 시 (6-8)초 동안 중독 면역 부여"
           },
           "group": [
-            96
+            "FlaskDispellPoison"
           ],
           "weight": 750,
           "stats": [
@@ -3335,7 +3335,7 @@
             "kr": "이동 방해 상태에서 사용 시 (6-8)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (6-8)초 동안 힘줄 절단 면역 부여"
           },
           "group": [
-            5010
+            "LocalFlaskImmuneToHinder"
           ],
           "weight": 750,
           "stats": [
@@ -3392,7 +3392,7 @@
             "kr": "사용 시 저주 제거"
           },
           "group": [
-            3080
+            "FlaskCurseImmunity"
           ],
           "weight": 3000,
           "stats": [
@@ -3433,7 +3433,7 @@
             "kr": "최대 생명력이 아닐 때 사용 시 10초에 걸쳐 플라스크의 생명력 회복량의 (11-16)% 추가 회복"
           },
           "group": [
-            5012
+            "LocalLifeFlaskAdditionalLifeRecovery"
           ],
           "weight": 600,
           "stats": [
@@ -3474,7 +3474,7 @@
             "kr": "냉각 상태에서 사용 시 (9-11)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (9-11)초 동안 동결 면역 부여"
           },
           "group": [
-            90
+            "FlaskDispellChill"
           ],
           "weight": 750,
           "stats": [
@@ -3515,7 +3515,7 @@
             "kr": "소환수의 생명력 회복 (120-139)%"
           },
           "group": [
-            95
+            "FlaskHealsOthers"
           ],
           "weight": 600,
           "stats": [
@@ -3556,7 +3556,7 @@
             "kr": "점화 상태에서 사용 시 (9-11)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
           },
           "group": [
-            91
+            "FlaskDispellBurning"
           ],
           "weight": 750,
           "stats": [
@@ -3597,7 +3597,7 @@
             "kr": "감전 상태에서 사용 시 (9-11)초 동안 감전 면역 부여"
           },
           "group": [
-            553
+            "FlaskRemovesShock"
           ],
           "weight": 750,
           "stats": [
@@ -3638,7 +3638,7 @@
             "kr": "생명력이 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (17-22)% 감소"
           },
           "group": [
-            5009
+            "LocalManaFlaskHinderNearbyEnemies"
           ],
           "weight": 750,
           "stats": [
@@ -3679,7 +3679,7 @@
             "kr": "출혈 상태에서 사용 시 (9-11)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (9-11)초 동안 타락한 피 면역 부여"
           },
           "group": [
-            552
+            "FlaskRemovesBleeding"
           ],
           "weight": 750,
           "stats": [
@@ -3720,7 +3720,7 @@
             "kr": "중독 상태에서 사용 시 (9-11)초 동안 중독 면역 부여"
           },
           "group": [
-            96
+            "FlaskDispellPoison"
           ],
           "weight": 750,
           "stats": [
@@ -3765,7 +3765,7 @@
             "kr": "이동 방해 상태에서 사용 시 (9-11)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (9-11)초 동안 힘줄 절단 면역 부여"
           },
           "group": [
-            5010
+            "LocalFlaskImmuneToHinder"
           ],
           "weight": 750,
           "stats": [
@@ -3822,7 +3822,7 @@
             "kr": "최대 생명력이 아닐 때 사용 시 10초에 걸쳐 플라스크의 생명력 회복량의 (17-22)% 추가 회복"
           },
           "group": [
-            5012
+            "LocalLifeFlaskAdditionalLifeRecovery"
           ],
           "weight": 600,
           "stats": [
@@ -3863,7 +3863,7 @@
             "kr": "소환수의 생명력 회복 (140-159)%"
           },
           "group": [
-            95
+            "FlaskHealsOthers"
           ],
           "weight": 600,
           "stats": [
@@ -3904,7 +3904,7 @@
             "kr": "생명력이 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (23-28)% 감소"
           },
           "group": [
-            5009
+            "LocalManaFlaskHinderNearbyEnemies"
           ],
           "weight": 750,
           "stats": [
@@ -3945,7 +3945,7 @@
             "kr": "냉각 상태에서 사용 시 (12-14)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (12-14)초 동안 동결 면역 부여"
           },
           "group": [
-            90
+            "FlaskDispellChill"
           ],
           "weight": 750,
           "stats": [
@@ -3986,7 +3986,7 @@
             "kr": "최대 생명력이 아닐 때 사용 시 10초에 걸쳐 플라스크의 생명력 회복량의 (23-28)% 추가 회복"
           },
           "group": [
-            5012
+            "LocalLifeFlaskAdditionalLifeRecovery"
           ],
           "weight": 600,
           "stats": [
@@ -4027,7 +4027,7 @@
             "kr": "점화 상태에서 사용 시 (12-14)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
           },
           "group": [
-            91
+            "FlaskDispellBurning"
           ],
           "weight": 750,
           "stats": [
@@ -4068,7 +4068,7 @@
             "kr": "감전 상태에서 사용 시 (12-14)초 동안 감전 면역 부여"
           },
           "group": [
-            553
+            "FlaskRemovesShock"
           ],
           "weight": 750,
           "stats": [
@@ -4109,7 +4109,7 @@
             "kr": "출혈 상태에서 사용 시 (12-14)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (12-14)초 동안 타락한 피 면역 부여"
           },
           "group": [
-            552
+            "FlaskRemovesBleeding"
           ],
           "weight": 750,
           "stats": [
@@ -4150,7 +4150,7 @@
             "kr": "중독 상태에서 사용 시 (12-14)초 동안 중독 면역 부여"
           },
           "group": [
-            96
+            "FlaskDispellPoison"
           ],
           "weight": 750,
           "stats": [
@@ -4195,7 +4195,7 @@
             "kr": "이동 방해 상태에서 사용 시 (12-14)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (12-14)초 동안 힘줄 절단 면역 부여"
           },
           "group": [
-            5010
+            "LocalFlaskImmuneToHinder"
           ],
           "weight": 750,
           "stats": [
@@ -4252,7 +4252,7 @@
             "kr": "소환수의 생명력 회복 (160-179)%"
           },
           "group": [
-            95
+            "FlaskHealsOthers"
           ],
           "weight": 600,
           "stats": [
@@ -4293,7 +4293,7 @@
             "kr": "생명력이 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (29-34)% 감소"
           },
           "group": [
-            5009
+            "LocalManaFlaskHinderNearbyEnemies"
           ],
           "weight": 750,
           "stats": [
@@ -4334,7 +4334,7 @@
             "kr": "최대 생명력이 아닐 때 사용 시 10초에 걸쳐 플라스크의 생명력 회복량의 (29-34)% 추가 회복"
           },
           "group": [
-            5012
+            "LocalLifeFlaskAdditionalLifeRecovery"
           ],
           "weight": 600,
           "stats": [
@@ -4375,7 +4375,7 @@
             "kr": "냉각 상태에서 사용 시 (15-17)초 동안 냉각 면역 부여\\n동결 상태에서 사용 시 (15-17)초 동안 동결 면역 부여"
           },
           "group": [
-            90
+            "FlaskDispellChill"
           ],
           "weight": 750,
           "stats": [
@@ -4416,7 +4416,7 @@
             "kr": "점화 상태에서 사용 시 (15-17)초 동안 점화 면역 부여\\n사용 시 모든 화상 제거"
           },
           "group": [
-            91
+            "FlaskDispellBurning"
           ],
           "weight": 750,
           "stats": [
@@ -4457,7 +4457,7 @@
             "kr": "감전 상태에서 사용 시 (15-17)초 동안 감전 면역 부여"
           },
           "group": [
-            553
+            "FlaskRemovesShock"
           ],
           "weight": 750,
           "stats": [
@@ -4498,7 +4498,7 @@
             "kr": "출혈 상태에서 사용 시 (15-17)초 동안 출혈 면역 부여\\n타락한 피의 영향을 받는 동안 사용 시 (15-17)초 동안 타락한 피 면역 부여"
           },
           "group": [
-            552
+            "FlaskRemovesBleeding"
           ],
           "weight": 750,
           "stats": [
@@ -4539,7 +4539,7 @@
             "kr": "최대 생명력이 아닐 때 사용 시 10초에 걸쳐 플라스크의 생명력 회복량의 (35-40)% 추가 회복"
           },
           "group": [
-            5012
+            "LocalLifeFlaskAdditionalLifeRecovery"
           ],
           "weight": 600,
           "stats": [
@@ -4580,7 +4580,7 @@
             "kr": "소환수의 생명력 회복 (180-200)%"
           },
           "group": [
-            95
+            "FlaskHealsOthers"
           ],
           "weight": 600,
           "stats": [
@@ -4621,7 +4621,7 @@
             "kr": "중독 상태에서 사용 시 (15-17)초 동안 중독 면역 부여"
           },
           "group": [
-            96
+            "FlaskDispellPoison"
           ],
           "weight": 750,
           "stats": [
@@ -4666,7 +4666,7 @@
             "kr": "이동 방해 상태에서 사용 시 (15-17)초 동안 이동 방해 면역 부여\n힘줄 절단 상태에서 사용 시 (15-17)초 동안 힘줄 절단 면역 부여"
           },
           "group": [
-            5010
+            "LocalFlaskImmuneToHinder"
           ],
           "weight": 750,
           "stats": [
@@ -4723,7 +4723,7 @@
             "kr": "생명력이 최대가 아닐 때 사용 시 주변의 적을 이동 방해하여 적의 이동 속도 (35-40)% 감소"
           },
           "group": [
-            5009
+            "LocalManaFlaskHinderNearbyEnemies"
           ],
           "weight": 750,
           "stats": [

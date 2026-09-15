@@ -37,9 +37,19 @@
       "total": 14
     },
     "essence": {
-      "prefix": 11,
-      "suffix": 0,
-      "total": 11
+      "prefix": 4,
+      "suffix": 8,
+      "total": 12
+    },
+    "alloy": {
+      "prefix": 1,
+      "suffix": 5,
+      "total": 6
+    },
+    "desecrated": {
+      "prefix": 3,
+      "suffix": 3,
+      "total": 6
     },
     "unique": {
       "prefix": 21,
@@ -75,7 +85,7 @@
             "jp": "最大マナ (10-14)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -129,7 +139,7 @@
             "jp": "(1-2)から(4-5)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -186,7 +196,7 @@
             "jp": "物理ダメージが(40-49)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -236,7 +246,7 @@
             "jp": "スピリットが(20-26)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -290,7 +300,7 @@
             "jp": "プレイヤーの存在下にいる味方は(1-2)から(3-4)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -351,7 +361,7 @@
             "jp": "プレイヤーの存在下にいる味方は(1-2)から(3-4)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -412,7 +422,7 @@
             "jp": "プレイヤーの存在下にいる味方は1から(5-7)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -473,7 +483,7 @@
             "jp": "プレイヤーの存在下で味方は(1-2)から(3-4)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -530,7 +540,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(25-34)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -584,7 +594,7 @@
             "jp": "スピリットが(10-14)%増加する\n最大マナ (17-20)"
           },
           "group": [
-            57
+            "LocalIncreasedSpiritAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -653,7 +663,7 @@
             "jp": "アタックスキルによる元素ダメージが(19-35)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -703,7 +713,7 @@
             "jp": "最大マナ (15-24)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -757,7 +767,7 @@
             "jp": "(4-6)から(7-11)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -814,7 +824,7 @@
             "jp": "命中力 (11-32)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -864,7 +874,7 @@
             "jp": "物理ダメージが(50-64)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -918,7 +928,7 @@
             "jp": "物理ダメージが(15-19)%増加する\n命中力 (16-20)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -987,7 +997,7 @@
             "jp": "スピリットが(27-32)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1041,7 +1051,7 @@
             "jp": "プレイヤーの存在下にいる味方は(3-4)から(5-8)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1102,7 +1112,7 @@
             "jp": "プレイヤーの存在下にいる味方は(3-5)から(6-9)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1163,7 +1173,7 @@
             "jp": "プレイヤーの存在下にいる味方は1から(10-15)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1224,7 +1234,7 @@
             "jp": "プレイヤーの存在下で味方は(2-3)から(4-6)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1281,7 +1291,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(35-44)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1335,7 +1345,7 @@
             "jp": "スピリットが(15-18)%増加する\n最大マナ (21-24)"
           },
           "group": [
-            57
+            "LocalIncreasedSpiritAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -1404,7 +1414,7 @@
             "jp": "命中力 (33-60)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -1458,7 +1468,7 @@
             "jp": "物理ダメージが(20-24)%増加する\n命中力 (21-46)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -1527,7 +1537,7 @@
             "jp": "最大マナ (25-34)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -1581,7 +1591,7 @@
             "jp": "(6-9)から(11-16)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1638,7 +1648,7 @@
             "jp": "物理ダメージが(65-84)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -1688,7 +1698,7 @@
             "jp": "スピリットが(33-38)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1742,7 +1752,7 @@
             "jp": "プレイヤーの存在下にいる味方は(5-6)から(9-11)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1803,7 +1813,7 @@
             "jp": "プレイヤーの存在下にいる味方は(6-8)から(10-13)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1864,7 +1874,7 @@
             "jp": "プレイヤーの存在下にいる味方は1から(16-22)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1925,7 +1935,7 @@
             "jp": "プレイヤーの存在下で味方は(2-4)から(5-8)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1982,7 +1992,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(45-54)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2032,7 +2042,7 @@
             "jp": "アタックスキルによる元素ダメージが(36-52)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -2082,7 +2092,7 @@
             "jp": "命中力 (61-84)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -2136,7 +2146,7 @@
             "jp": "物理ダメージが(25-34)%増加する\n命中力 (47-72)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -2205,7 +2215,7 @@
             "jp": "最大マナ (35-54)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -2255,7 +2265,7 @@
             "jp": "命中力 (85-123)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -2309,7 +2319,7 @@
             "jp": "スピリットが(19-22)%増加する\n最大マナ (25-28)"
           },
           "group": [
-            57
+            "LocalIncreasedSpiritAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -2378,7 +2388,7 @@
             "jp": "最大マナ (55-64)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -2432,7 +2442,7 @@
             "jp": "(8-12)から(14-21)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2489,7 +2499,7 @@
             "jp": "物理ダメージが(85-109)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -2539,7 +2549,7 @@
             "jp": "スピリットが(39-44)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2593,7 +2603,7 @@
             "jp": "プレイヤーの存在下にいる味方は(7-8)から(12-14)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2654,7 +2664,7 @@
             "jp": "プレイヤーの存在下にいる味方は(9-11)から(14-17)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2715,7 +2725,7 @@
             "jp": "プレイヤーの存在下にいる味方は1から(23-27)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2776,7 +2786,7 @@
             "jp": "プレイヤーの存在下で味方は(4-6)から(8-11)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2833,7 +2843,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(55-64)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2883,7 +2893,7 @@
             "jp": "アタックスキルによる元素ダメージが(53-62)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -2933,7 +2943,7 @@
             "jp": "命中力 (124-167)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -2987,7 +2997,7 @@
             "jp": "スピリットが(23-26)%増加する\n最大マナ (29-33)"
           },
           "group": [
-            57
+            "LocalIncreasedSpiritAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -3056,7 +3066,7 @@
             "jp": "最大マナ (65-79)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -3110,7 +3120,7 @@
             "jp": "物理ダメージが(35-44)%増加する\n命中力 (73-97)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -3179,7 +3189,7 @@
             "jp": "最大マナ (80-89)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -3233,7 +3243,7 @@
             "jp": "(10-15)から(18-26)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3290,7 +3300,7 @@
             "jp": "物理ダメージが(110-134)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -3340,7 +3350,7 @@
             "jp": "スピリットが(45-50)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3394,7 +3404,7 @@
             "jp": "プレイヤーの存在下にいる味方は(9-10)から(15-17)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3455,7 +3465,7 @@
             "jp": "プレイヤーの存在下にいる味方は(12-13)から(18-20)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3516,7 +3526,7 @@
             "jp": "プレイヤーの存在下にいる味方は1から(28-32)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3577,7 +3587,7 @@
             "jp": "プレイヤーの存在下で味方は(5-7)から(9-13)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3634,7 +3644,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(65-74)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3684,7 +3694,7 @@
             "jp": "アタックスキルによる元素ダメージが(63-72)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -3734,7 +3744,7 @@
             "jp": "命中力 (168-236)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -3788,7 +3798,7 @@
             "jp": "スピリットが(27-30)%増加する\n最大マナ (34-37)"
           },
           "group": [
-            57
+            "LocalIncreasedSpiritAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -3857,7 +3867,7 @@
             "jp": "最大マナ (90-104)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -3911,7 +3921,7 @@
             "jp": "(13-20)から(23-35)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3972,7 +3982,7 @@
             "jp": "物理ダメージが(45-54)%増加する\n命中力 (98-123)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -4045,7 +4055,7 @@
             "jp": "プレイヤーの存在下にいる味方は(11-13)から(18-21)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4106,7 +4116,7 @@
             "jp": "プレイヤーの存在下にいる味方は(14-16)から(21-26)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4167,7 +4177,7 @@
             "jp": "プレイヤーの存在下にいる味方は(1-2)から(33-40)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4228,7 +4238,7 @@
             "jp": "プレイヤーの存在下で味方は(6-10)から(12-17)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4285,7 +4295,7 @@
             "jp": "命中力 (237-346)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -4339,7 +4349,7 @@
             "jp": "スピリットが(31-34)%増加する\n最大マナ (38-41)"
           },
           "group": [
-            57
+            "LocalIncreasedSpiritAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -4408,7 +4418,7 @@
             "jp": "最大マナ (105-124)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -4462,7 +4472,7 @@
             "jp": "(16-24)から(28-42)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4519,7 +4529,7 @@
             "jp": "物理ダメージが(135-154)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -4569,7 +4579,7 @@
             "jp": "スピリットが(51-55)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -4623,7 +4633,7 @@
             "jp": "プレイヤーの存在下にいる味方は(14-15)から(22-24)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4684,7 +4694,7 @@
             "jp": "プレイヤーの存在下にいる味方は(17-19)から(27-30)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4745,7 +4755,7 @@
             "jp": "プレイヤーの存在下にいる味方は(1-2)から(41-47)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4806,7 +4816,7 @@
             "jp": "プレイヤーの存在下で味方は(7-11)から(14-20)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4863,7 +4873,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(75-89)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4913,7 +4923,7 @@
             "jp": "アタックスキルによる元素ダメージが(73-86)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -4963,7 +4973,7 @@
             "jp": "最大マナ (125-149)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -5017,7 +5027,7 @@
             "jp": "(21-31)から(36-53)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5078,7 +5088,7 @@
             "jp": "物理ダメージが(55-64)%増加する\n命中力 (124-149)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -5151,7 +5161,7 @@
             "jp": "プレイヤーの存在下にいる味方は(16-20)から(25-31)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5212,7 +5222,7 @@
             "jp": "プレイヤーの存在下にいる味方は(20-24)から(31-38)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5273,7 +5283,7 @@
             "jp": "プレイヤーの存在下にいる味方は(1-3)から(48-59)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5334,7 +5344,7 @@
             "jp": "プレイヤーの存在下で味方は(10-15)から(18-26)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5391,7 +5401,7 @@
             "jp": "命中力 (347-450)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -5441,7 +5451,7 @@
             "jp": "最大マナ (150-164)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -5495,7 +5505,7 @@
             "jp": "物理ダメージが(65-74)%増加する\n命中力 (150-174)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -5568,7 +5578,7 @@
             "jp": "スピリットが(35-38)%増加する\n最大マナ (42-45)"
           },
           "group": [
-            57
+            "LocalIncreasedSpiritAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -5637,7 +5647,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(90-104)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5691,7 +5701,7 @@
             "jp": "(26-39)から(44-66)の物理ダメージを追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5748,7 +5758,7 @@
             "jp": "物理ダメージが(155-169)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -5798,7 +5808,7 @@
             "jp": "スピリットが(56-60)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -5852,7 +5862,7 @@
             "jp": "プレイヤーの存在下にいる味方は(21-24)から(32-37)の追加アタック冷気ダメージを与える"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5913,7 +5923,7 @@
             "jp": "プレイヤーの存在下にいる味方は(25-29)から(39-45)の追加アタック火ダメージを与える"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5974,7 +5984,7 @@
             "jp": "プレイヤーの存在下にいる味方は(1-4)から(60-71)の追加アタック雷ダメージを与える"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6035,7 +6045,7 @@
             "jp": "プレイヤーの存在下で味方は(12-19)から(22-32)の追加アタック物理ダメージ"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6092,7 +6102,7 @@
             "jp": "命中力 (451-550)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -6146,7 +6156,7 @@
             "jp": "物理ダメージが(75-79)%増加する\n命中力 (175-200)"
           },
           "group": [
-            10
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -6215,7 +6225,7 @@
             "jp": "アタックスキルによる元素ダメージが(87-100)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -6265,7 +6275,7 @@
             "jp": "物理ダメージが(170-179)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -6315,7 +6325,7 @@
             "jp": "スピリットが(61-65)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -6365,7 +6375,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(105-119)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6417,7 +6427,7 @@
             "jp": "知性 (5-8)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -6467,7 +6477,7 @@
             "jp": "倒した敵1体ごとに(4-6)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -6517,7 +6527,7 @@
             "jp": "クリティカルヒット率 (101-150)%"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -6567,7 +6577,7 @@
             "jp": "アタックスピードが(5-7)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -6617,7 +6627,7 @@
             "jp": "倒した敵1体ごとに(2-3)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -6667,7 +6677,7 @@
             "jp": "マナ自動回復レートが(10-19)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -6717,7 +6727,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(60-120)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -6767,7 +6777,7 @@
             "jp": "筋力 (5-8)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -6817,7 +6827,7 @@
             "jp": "全てのミニオンスキルのレベル 1"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -6867,7 +6877,7 @@
             "jp": "ミニオンの最大ライフが(21-25)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -6917,7 +6927,7 @@
             "jp": "プレイヤーの存在下にいる味方はアタックスピードが(5-7)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -6967,7 +6977,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(126-180)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -7017,7 +7027,7 @@
             "jp": "引き起こすスタン蓄積が(21-30)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -7067,7 +7077,7 @@
             "jp": "スタン持続時間が(11-13)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -7117,7 +7127,7 @@
             "jp": "プレイヤーの存在下にいる味方はキャストスピードが(5-8)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -7167,7 +7177,7 @@
             "jp": "ヒットされた敵1体ごとに2のライフを付与する"
           },
           "group": [
-            108
+            "LifeGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -7221,7 +7231,7 @@
             "jp": "光半径が5%増加する\nマナ自動回復レートが(8-12)%増加する"
           },
           "group": [
-            609
+            "LightRadiusAndManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -7290,7 +7300,7 @@
             "jp": "クリティカルダメージボーナス (10-11)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -7344,7 +7354,7 @@
             "jp": "光半径が5%増加する\n命中力 (10-20)"
           },
           "group": [
-            608
+            "LightRadiusAndAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -7413,7 +7423,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(10-14)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -7463,7 +7473,7 @@
             "jp": "知性 (9-12)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -7513,7 +7523,7 @@
             "jp": "倒した敵1体ごとに(7-9)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -7563,7 +7573,7 @@
             "jp": "アタックスピードが(8-10)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -7613,7 +7623,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルヒット率が(10-14)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -7663,7 +7673,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(186-240)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -7713,7 +7723,7 @@
             "jp": "筋力 (9-12)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -7763,7 +7773,7 @@
             "jp": "倒した敵1体ごとに(4-5)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -7813,7 +7823,7 @@
             "jp": "プレイヤーの存在下にいる味方は元素耐性 (3-5)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -7867,7 +7877,7 @@
             "jp": "光半径が10%増加する\nマナ自動回復レートが(13-17)%増加する"
           },
           "group": [
-            609
+            "LightRadiusAndManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -7940,7 +7950,7 @@
             "jp": "光半径が10%増加する\n命中力 (21-40)"
           },
           "group": [
-            608
+            "LightRadiusAndAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -8009,7 +8019,7 @@
             "jp": "ミニオンの最大ライフが(26-30)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -8059,7 +8069,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(246-360)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -8109,7 +8119,7 @@
             "jp": "全ての近接スキルのレベル 1"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -8159,7 +8169,7 @@
             "jp": "マナ自動回復レートが(20-29)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -8209,7 +8219,7 @@
             "jp": "スタン持続時間が(14-16)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -8259,7 +8269,7 @@
             "jp": "ヒットされた敵1体ごとに3のライフを付与する"
           },
           "group": [
-            108
+            "LifeGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -8309,7 +8319,7 @@
             "jp": "クリティカルヒット率 (151-210)%"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -8359,7 +8369,7 @@
             "jp": "プレイヤーの存在下にいる味方はアタックスピードが(8-10)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -8409,7 +8419,7 @@
             "jp": "引き起こすスタン蓄積が(31-40)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -8459,7 +8469,7 @@
             "jp": "物理ダメージの(600-690)%をライフとしてリーチする"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -8509,7 +8519,7 @@
             "jp": "クリティカルダメージボーナス (12-13)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -8559,7 +8569,7 @@
             "jp": "物理ダメージの(500-590)%をマナとしてリーチする"
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -8609,7 +8619,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(15-19)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -8659,7 +8669,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルヒット率が(15-19)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -8709,7 +8719,7 @@
             "jp": "プレイヤーの存在下にいる味方はキャストスピードが(9-12)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -8759,7 +8769,7 @@
             "jp": "知性 (13-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -8809,7 +8819,7 @@
             "jp": "倒した敵1体ごとに(10-18)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -8859,7 +8869,7 @@
             "jp": "アタックスピードが(11-13)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -8909,7 +8919,7 @@
             "jp": "筋力 (13-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -8959,7 +8969,7 @@
             "jp": "倒した敵1体ごとに(6-9)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -9009,7 +9019,7 @@
             "jp": "存在下の効果範囲が(36-45)%増加する"
           },
           "group": [
-            5400
+            "PresenceRadius"
           ],
           "weight": 1,
           "stats": [
@@ -9059,7 +9069,7 @@
             "jp": "要求能力値が-15%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -9109,7 +9119,7 @@
             "jp": "全てのミニオンスキルのレベル 2"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -9159,7 +9169,7 @@
             "jp": "プレイヤーの存在下にいる味方は元素耐性 (6-8)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -9209,7 +9219,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(366-540)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -9259,7 +9269,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルヒット率が(20-24)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -9309,7 +9319,7 @@
             "jp": "マナ自動回復レートが(30-39)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -9359,7 +9369,7 @@
             "jp": "ヒットされた敵1体ごとに4のライフを付与する"
           },
           "group": [
-            108
+            "LifeGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -9413,7 +9423,7 @@
             "jp": "光半径が15%増加する\nマナ自動回復レートが(18-22)%増加する"
           },
           "group": [
-            609
+            "LightRadiusAndManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -9482,7 +9492,7 @@
             "jp": "クリティカルダメージボーナス (14-16)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -9532,7 +9542,7 @@
             "jp": "クリティカルヒット率 (211-270)%"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -9582,7 +9592,7 @@
             "jp": "アタックスピードが(14-16)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -9636,7 +9646,7 @@
             "jp": "光半径が15%増加する\n命中力 (41-60)"
           },
           "group": [
-            608
+            "LightRadiusAndAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -9705,7 +9715,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(20-24)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -9755,7 +9765,7 @@
             "jp": "引き起こすスタン蓄積が(41-50)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -9805,7 +9815,7 @@
             "jp": "スタン持続時間が(17-19)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -9855,7 +9865,7 @@
             "jp": "ミニオンの最大ライフが(31-35)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -9905,7 +9915,7 @@
             "jp": "要求能力値が-20%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -9955,7 +9965,7 @@
             "jp": "知性 (17-20)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -10005,7 +10015,7 @@
             "jp": "倒した敵1体ごとに(19-28)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -10055,7 +10065,7 @@
             "jp": "筋力 (17-20)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -10105,7 +10115,7 @@
             "jp": "倒した敵1体ごとに(10-14)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -10155,7 +10165,7 @@
             "jp": "プレイヤーの存在下にいる味方はアタックスピードが(11-13)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -10205,7 +10215,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(546-780)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -10255,7 +10265,7 @@
             "jp": "全ての近接スキルのレベル 2"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -10305,7 +10315,7 @@
             "jp": "プレイヤーの存在下にいる味方はキャストスピードが(13-16)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -10355,7 +10365,7 @@
             "jp": "アタックスピードが(17-19)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -10405,7 +10415,7 @@
             "jp": "物理ダメージの(700-790)%をライフとしてリーチする"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -10455,7 +10465,7 @@
             "jp": "物理ダメージの(600-690)%をマナとしてリーチする"
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -10505,7 +10515,7 @@
             "jp": "ヒットされた敵1体ごとに5のライフを付与する"
           },
           "group": [
-            108
+            "LifeGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -10555,7 +10565,7 @@
             "jp": "プレイヤーの存在下にいる味方は元素耐性 (9-11)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -10605,7 +10615,7 @@
             "jp": "存在下の効果範囲が(46-55)%増加する"
           },
           "group": [
-            5400
+            "PresenceRadius"
           ],
           "weight": 1,
           "stats": [
@@ -10655,7 +10665,7 @@
             "jp": "要求能力値が-25%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -10705,7 +10715,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルヒット率が(25-29)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -10755,7 +10765,7 @@
             "jp": "マナ自動回復レートが(40-49)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -10805,7 +10815,7 @@
             "jp": "知性 (21-24)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -10855,7 +10865,7 @@
             "jp": "倒した敵1体ごとに(29-40)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -10905,7 +10915,7 @@
             "jp": "クリティカルダメージボーナス (17-19)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -10955,7 +10965,7 @@
             "jp": "クリティカルヒット率 (311-380)%"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -11005,7 +11015,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(25-29)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -11055,7 +11065,7 @@
             "jp": "筋力 (21-24)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -11105,7 +11115,7 @@
             "jp": "引き起こすスタン蓄積が(51-60)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -11155,7 +11165,7 @@
             "jp": "スタン持続時間が(20-22)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -11205,7 +11215,7 @@
             "jp": "アタックスピードが(20-22)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -11255,7 +11265,7 @@
             "jp": "倒した敵1体ごとに(15-20)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -11305,7 +11315,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(786-1080)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -11355,7 +11365,7 @@
             "jp": "ミニオンの最大ライフが(36-40)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -11405,7 +11415,7 @@
             "jp": "要求能力値が-30%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -11455,7 +11465,7 @@
             "jp": "物理ダメージの(800-890)%をライフとしてリーチする"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -11505,7 +11515,7 @@
             "jp": "物理ダメージの(700-790)%をマナとしてリーチする"
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -11555,7 +11565,7 @@
             "jp": "プレイヤーの存在下にいる味方は元素耐性 (12-14)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -11605,7 +11615,7 @@
             "jp": "全ての近接スキルのレベル 3"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -11655,7 +11665,7 @@
             "jp": "全てのミニオンスキルのレベル 3"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -11705,7 +11715,7 @@
             "jp": "知性 (25-27)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -11755,7 +11765,7 @@
             "jp": "倒した敵1体ごとに(41-53)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -11805,7 +11815,7 @@
             "jp": "マナ自動回復レートが(50-59)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -11855,7 +11865,7 @@
             "jp": "プレイヤーの存在下にいる味方はアタックスピードが(14-16)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -11905,7 +11915,7 @@
             "jp": "筋力 (25-27)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -11955,7 +11965,7 @@
             "jp": "倒した敵1体ごとに(21-27)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -12005,7 +12015,7 @@
             "jp": "プレイヤーの存在下にいる味方はキャストスピードが(17-20)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -12055,7 +12065,7 @@
             "jp": "存在下の効果範囲が(56-65)%増加する"
           },
           "group": [
-            5400
+            "PresenceRadius"
           ],
           "weight": 1,
           "stats": [
@@ -12105,7 +12115,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(1086-1380)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -12155,7 +12165,7 @@
             "jp": "引き起こすスタン蓄積が(61-70)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -12205,7 +12215,7 @@
             "jp": "スタン持続時間が(23-26)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -12255,7 +12265,7 @@
             "jp": "クリティカルダメージボーナス (20-22)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -12305,7 +12315,7 @@
             "jp": "クリティカルヒット率 (381-440)%"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -12355,7 +12365,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(30-34)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -12405,7 +12415,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルヒット率が(30-34)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -12455,7 +12465,7 @@
             "jp": "アタックスピードが(23-25)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -12505,7 +12515,7 @@
             "jp": "要求能力値が-35%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -12555,7 +12565,7 @@
             "jp": "ミニオンの最大ライフが(41-45)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -12605,7 +12615,7 @@
             "jp": "物理ダメージの(900-990)%をライフとしてリーチする"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -12655,7 +12665,7 @@
             "jp": "物理ダメージの(800-890)%をマナとしてリーチする"
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -12705,7 +12715,7 @@
             "jp": "知性 (28-30)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -12755,7 +12765,7 @@
             "jp": "倒した敵1体ごとに(54-68)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -12805,7 +12815,7 @@
             "jp": "筋力 (28-30)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -12855,7 +12865,7 @@
             "jp": "倒した敵1体ごとに(28-35)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -12905,7 +12915,7 @@
             "jp": "プレイヤーの存在下にいる味方は元素耐性 (15-16)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -12955,7 +12965,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(1386-1740)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -13005,7 +13015,7 @@
             "jp": "スタン持続時間が(27-30)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -13055,7 +13065,7 @@
             "jp": "存在下の効果範囲が(66-80)%増加する"
           },
           "group": [
-            5400
+            "PresenceRadius"
           ],
           "weight": 1,
           "stats": [
@@ -13105,7 +13115,7 @@
             "jp": "クリティカルダメージボーナス (23-25)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -13155,7 +13165,7 @@
             "jp": "クリティカルヒット率 (441-500)%"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -13205,7 +13215,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(35-39)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -13255,7 +13265,7 @@
             "jp": "知性 (31-33)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -13305,7 +13315,7 @@
             "jp": "筋力 (31-33)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -13355,7 +13365,7 @@
             "jp": "引き起こすスタン蓄積が(71-80)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -13405,7 +13415,7 @@
             "jp": "プレイヤーの存在下にいる味方は毎秒(1746-1980)のライフを自動回復する"
           },
           "group": [
-            41
+            "LifeRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -13455,7 +13465,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルヒット率が(35-38)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -13505,7 +13515,7 @@
             "jp": "倒した敵1体ごとに(69-84)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -13555,7 +13565,7 @@
             "jp": "アタックスピードが(26-28)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -13605,7 +13615,7 @@
             "jp": "全てのミニオンスキルのレベル 4"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -13655,7 +13665,7 @@
             "jp": "倒した敵1体ごとに(36-45)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -13705,7 +13715,7 @@
             "jp": "マナ自動回復レートが(60-69)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -13755,7 +13765,7 @@
             "jp": "ミニオンの最大ライフが(46-50)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -13805,7 +13815,7 @@
             "jp": "プレイヤーの存在下にいる味方は元素耐性 (17-18)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -13855,7 +13865,7 @@
             "jp": "全ての近接スキルのレベル 4"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -13909,7 +13919,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(20-30)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -13959,7 +13969,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(10-15)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -14009,7 +14019,7 @@
             "jp": "プレイヤーの存在下にいる味方はアタックスピードが(5-10)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -14059,7 +14069,7 @@
             "jp": "プレイヤーの存在下にいる味方はキャストスピードが(5-10)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -14113,7 +14123,7 @@
             "jp": "(7-11)から(12-18)の混沌ダメージを追加する"
           },
           "group": [
-            721
+            "LocalChaosDamage"
           ],
           "weight": 1,
           "stats": [
@@ -14174,7 +14184,7 @@
             "jp": "(8-12)から(13-19)の冷気ダメージを追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -14235,7 +14245,7 @@
             "jp": "(9-14)から(15-22)の火ダメージを追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -14296,7 +14306,7 @@
             "jp": "(1-2)から(29-43)の雷ダメージを追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -14353,7 +14363,7 @@
             "jp": "クリティカルダメージボーナス (5-10)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -14403,7 +14413,7 @@
             "jp": "アタックスピードが(6-8)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -14453,7 +14463,7 @@
             "jp": "物理ダメージが(15-25)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -14503,7 +14513,7 @@
             "jp": "スピリットが(15-25)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -14553,7 +14563,7 @@
             "jp": "要求能力値が(-20--10)%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -14603,7 +14613,7 @@
             "jp": "アタックスキルによる元素ダメージが(20-30)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -14634,523 +14644,8 @@
     "essence": {
       "prefix": [
         {
-          "id": "EssenceGrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": "Essence's",
-            "kr": "에센스의",
-            "tw": "精髓的",
-            "ru": "Сущностный",
-            "jp": "エッセンスの"
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            5682
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_essence",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive2",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_2",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_3",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive4",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_4",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionAndEnergyShieldPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              3,
-              3
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 3 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level",
-            "kr": "플레이어 레벨 1당 회피 3\n플레이어 레벨 1당 에너지 보호막 최대치 1",
-            "tw": "每一玩家等級3閃避值\n每一玩家等級1最大能量護盾",
-            "ru": "3 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 3を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    3,
-                    3
-                  ]
-                }
-              ],
-              "value": "3",
-              "text": {
-                "en": "Has 3 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 3",
-                "tw": "每一玩家等級3閃避值",
-                "ru": "3 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 3を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionEnergyShieldAndWardPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              2,
-              2
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 2 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level\nHas 1 to maximum Runic Ward per player level",
-            "kr": "플레이어 레벨 1당 회피 2\n플레이어 레벨 1당 에너지 보호막 최대치 1\n플레이어 레벨 1당 룬 수호 최대치 1",
-            "tw": "每一玩家等級2閃避值\n每一玩家等級1最大能量護盾\n每一玩家等級擁有1最大符文保護",
-            "ru": "2 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока\nПолучает 1 к максимуму рунического барьера за уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 2を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ\nプレイヤーレベルごとに最大ルーンワード 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "value": "2",
-              "text": {
-                "en": "Has 2 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 2",
-                "tw": "每一玩家等級2閃避值",
-                "ru": "2 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 2を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_ward_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Runic Ward per player level",
-                "kr": "플레이어 레벨 1당 룬 수호 최대치 1",
-                "tw": "每一玩家等級擁有1最大符文保護",
-                "ru": "Получает 1 к максимуму рунического барьера за уровень игрока",
-                "jp": "プレイヤーレベルごとに最大ルーンワード 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalCopyPlayerLevelValue",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_player_level_to_use",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "Obliterated",
-          "affixType": "essence",
+          "id": "EssenceAbyssPrefix",
+          "affixType": "prefix",
           "tier": 1,
           "valueRanges": [
             [
@@ -15159,28 +14654,28 @@
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Abyssal",
+            "kr": "심연의",
+            "tw": "深淵的",
+            "ru": "Подземный",
+            "jp": "アビサル"
           },
           "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
           },
           "group": [
-            6096
+            "EssenceAbyss"
           ],
           "weight": 0,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "dummy_display_is_obliterated",
+                  "stat": "essence_abyss_guaranteed_pick",
                   "valueRange": [
                     1,
                     1
@@ -15189,117 +14684,1396 @@
               ],
               "value": "1",
               "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueDamageRemovedFromManaBeforeLife3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "NearbyAlliesAllDamage2",
+          "affixType": "prefix",
+          "tier": 8,
           "valueRanges": [
             [
-              100,
-              100
+              35,
+              44
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Agitative",
+            "kr": "동요의",
+            "tw": "躁動",
+            "ru": "Агитирующий",
+            "jp": "焚き付ける"
           },
           "effect": {
-            "en": "100% of Damage is taken from Mana before Life",
-            "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-            "tw": "生命值所受的100%傷害由魔力扣除",
-            "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-            "jp": "ダメージの100%をライフより先にマナで受ける"
+            "en": "Allies in your Presence deal (35-44)% increased Damage",
+            "kr": "접근해 있는 동료가 주는 피해 (35-44)% 증가",
+            "tw": "增加(35-44)%處於你存在範圍中的友方所造成的傷害",
+            "ru": "Союзники в вашем присутствии наносят увеличенный на (35-44)% урон",
+            "jp": "プレイヤーの存在下にいる味方はダメージが(35-44)%増加する"
           },
           "group": [
-            760
+            "AllDamage"
           ],
-          "weight": 0,
+          "weight": 1,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "base_damage_removed_from_mana_before_life_%",
+                  "stat": "allies_in_presence_damage_+%",
                   "valueRange": [
-                    100,
-                    100
+                    35,
+                    44
                   ]
                 }
               ],
-              "value": "100",
+              "value": "35~44",
               "text": {
-                "en": "100% of Damage is taken from Mana before Life",
-                "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-                "tw": "生命值所受的100%傷害由魔力扣除",
-                "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-                "jp": "ダメージの100%をライフより先にマナで受ける"
+                "en": "Allies in your Presence deal (35-44)% increased Damage",
+                "kr": "접근해 있는 동료가 주는 피해 (35-44)% 증가",
+                "tw": "增加(35-44)%處於你存在範圍中的友方所造成的傷害",
+                "ru": "Союзники в вашем присутствии наносят увеличенный на (35-44)% урон",
+                "jp": "プレイヤーの存在下にいる味方はダメージが(35-44)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAlly",
+              "name": {
+                "en": "Lesser Essence of Command",
+                "kr": "하위 지휘의 에센스",
+                "tw": "低階命令精髓",
+                "ru": "Малая сущность повеления",
+                "jp": "命令のレッサーエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueJewelGrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "NearbyAlliesAllDamage4",
+          "affixType": "prefix",
+          "tier": 33,
           "valueRanges": [
             [
-              0,
-              0
+              55,
+              64
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Provocative",
+            "kr": "촉발의",
+            "tw": "挑釁",
+            "ru": "Провоцирующий",
+            "jp": "先導する"
           },
           "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
+            "en": "Allies in your Presence deal (55-64)% increased Damage",
+            "kr": "접근해 있는 동료가 주는 피해 (55-64)% 증가",
+            "tw": "增加(55-64)%處於你存在範圍中的友方所造成的傷害",
+            "ru": "Союзники в вашем присутствии наносят увеличенный на (55-64)% урон",
+            "jp": "プレイヤーの存在下にいる味方はダメージが(55-64)%増加する"
           },
           "group": [
-            3610
+            "AllDamage"
           ],
-          "weight": 0,
+          "weight": 1,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "unique_jewel_grants_notable_hash_3",
+                  "stat": "allies_in_presence_damage_+%",
                   "valueRange": [
-                    0,
-                    0
+                    55,
+                    64
                   ]
                 }
               ],
-              "value": "0",
+              "value": "55~64",
               "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
+                "en": "Allies in your Presence deal (55-64)% increased Damage",
+                "kr": "접근해 있는 동료가 주는 피해 (55-64)% 증가",
+                "tw": "增加(55-64)%處於你存在範圍中的友方所造成的傷害",
+                "ru": "Союзники в вашем присутствии наносят увеличенный на (55-64)% урон",
+                "jp": "プレイヤーの存在下にいる味方はダメージが(55-64)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAlly",
+              "name": {
+                "en": "Essence of Command",
+                "kr": "지휘의 에센스",
+                "tw": "命令精髓",
+                "ru": "Сущность повеления",
+                "jp": "命令のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "NearbyAlliesAllDamage6",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              75,
+              89
+            ]
+          ],
+          "name": {
+            "en": "Motivating",
+            "kr": "고취하는",
+            "tw": "激勵人的",
+            "ru": "Поощряющий",
+            "jp": "奮起させる"
+          },
+          "effect": {
+            "en": "Allies in your Presence deal (75-89)% increased Damage",
+            "kr": "접근해 있는 동료가 주는 피해 (75-89)% 증가",
+            "tw": "增加(75-89)%處於你存在範圍中的友方所造成的傷害",
+            "ru": "Союзники в вашем присутствии наносят увеличенный на (75-89)% урон",
+            "jp": "プレイヤーの存在下にいる味方はダメージが(75-89)%増加する"
+          },
+          "group": [
+            "AllDamage"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "allies_in_presence_damage_+%",
+                  "valueRange": [
+                    75,
+                    89
+                  ]
+                }
+              ],
+              "value": "75~89",
+              "text": {
+                "en": "Allies in your Presence deal (75-89)% increased Damage",
+                "kr": "접근해 있는 동료가 주는 피해 (75-89)% 증가",
+                "tw": "增加(75-89)%處於你存在範圍中的友方所造成的傷害",
+                "ru": "Союзники в вашем присутствии наносят увеличенный на (75-89)% урон",
+                "jp": "プレイヤーの存在下にいる味方はダメージが(75-89)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAlly",
+              "name": {
+                "en": "Greater Essence of Command",
+                "kr": "상위 지휘의 에센스",
+                "tw": "高階命令精髓",
+                "ru": "Большая сущность повеления",
+                "jp": "命令のグレーターエッセンス"
               }
             }
           ]
         }
       ],
-      "suffix": []
+      "suffix": [
+        {
+          "id": "EssenceAbyssSuffix",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of the Abyss",
+            "kr": "- 심연",
+            "tw": "深淵之",
+            "ru": "Бездны",
+            "jp": "アビスの"
+          },
+          "effect": {
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
+          },
+          "group": [
+            "EssenceAbyss"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "essence_abyss_guaranteed_pick",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Student",
+            "kr": "- 학생",
+            "tw": "學徒之",
+            "ru": "слушателя",
+            "jp": "学徒の"
+          },
+          "effect": {
+            "en": "(9-12) to Intelligence",
+            "kr": "지능 (9-12)",
+            "tw": "(9-12)點智慧",
+            "ru": "(9-12) к интеллекту",
+            "jp": "知性 (9-12)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12) to Intelligence",
+                "kr": "지능 (9-12)",
+                "tw": "(9-12)點智慧",
+                "ru": "(9-12) к интеллекту",
+                "jp": "知性 (9-12)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAttribute",
+              "name": {
+                "en": "Lesser Essence of the Infinite",
+                "kr": "하위 무한의 에센스",
+                "tw": "低階無限精髓",
+                "ru": "Малая сущность бесконечности",
+                "jp": "無限のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Strength2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Wrestler",
+            "kr": "- 씨름꾼",
+            "tw": "摔角手之",
+            "ru": "борца",
+            "jp": "レスラーの"
+          },
+          "effect": {
+            "en": "(9-12) to Strength",
+            "kr": "힘 (9-12)",
+            "tw": "(9-12)點力量",
+            "ru": "(9-12) к силе",
+            "jp": "筋力 (9-12)"
+          },
+          "group": [
+            "Strength"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12) to Strength",
+                "kr": "힘 (9-12)",
+                "tw": "(9-12)點力量",
+                "ru": "(9-12) к силе",
+                "jp": "筋力 (9-12)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAttribute",
+              "name": {
+                "en": "Lesser Essence of the Infinite",
+                "kr": "하위 무한의 에센스",
+                "tw": "低階無限精髓",
+                "ru": "Малая сущность бесконечности",
+                "jp": "無限のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Augur",
+            "kr": "- 점술가",
+            "tw": "預言之",
+            "ru": "авгура",
+            "jp": "占師の"
+          },
+          "effect": {
+            "en": "(17-20) to Intelligence",
+            "kr": "지능 (17-20)",
+            "tw": "(17-20)點智慧",
+            "ru": "(17-20) к интеллекту",
+            "jp": "知性 (17-20)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20) to Intelligence",
+                "kr": "지능 (17-20)",
+                "tw": "(17-20)點智慧",
+                "ru": "(17-20) к интеллекту",
+                "jp": "知性 (17-20)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAttribute",
+              "name": {
+                "en": "Essence of the Infinite",
+                "kr": "무한의 에센스",
+                "tw": "無限精髓",
+                "ru": "Сущность бесконечности",
+                "jp": "無限のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Strength4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Lion",
+            "kr": "- 사자",
+            "tw": "獅子之",
+            "ru": "льва",
+            "jp": "ライオンの"
+          },
+          "effect": {
+            "en": "(17-20) to Strength",
+            "kr": "힘 (17-20)",
+            "tw": "(17-20)點力量",
+            "ru": "(17-20) к силе",
+            "jp": "筋力 (17-20)"
+          },
+          "group": [
+            "Strength"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20) to Strength",
+                "kr": "힘 (17-20)",
+                "tw": "(17-20)點力量",
+                "ru": "(17-20) к силе",
+                "jp": "筋力 (17-20)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAttribute",
+              "name": {
+                "en": "Essence of the Infinite",
+                "kr": "무한의 에센스",
+                "tw": "無限精髓",
+                "ru": "Сущность бесконечности",
+                "jp": "無限のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Sage",
+            "kr": "- 현자",
+            "tw": "聖人之",
+            "ru": "мудреца",
+            "jp": "賢者の"
+          },
+          "effect": {
+            "en": "(25-27) to Intelligence",
+            "kr": "지능 (25-27)",
+            "tw": "(25-27)點智慧",
+            "ru": "(25-27) к интеллекту",
+            "jp": "知性 (25-27)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27) to Intelligence",
+                "kr": "지능 (25-27)",
+                "tw": "(25-27)點智慧",
+                "ru": "(25-27) к интеллекту",
+                "jp": "知性 (25-27)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute",
+              "name": {
+                "en": "Greater Essence of the Infinite",
+                "kr": "상위 무한의 에센스",
+                "tw": "高階無限精髓",
+                "ru": "Большая сущность бесконечности",
+                "jp": "無限のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Strength6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Goliath",
+            "kr": "- 골리앗",
+            "tw": "巨人之",
+            "ru": "голиафа",
+            "jp": "巨躯の"
+          },
+          "effect": {
+            "en": "(25-27) to Strength",
+            "kr": "힘 (25-27)",
+            "tw": "(25-27)點力量",
+            "ru": "(25-27) к силе",
+            "jp": "筋力 (25-27)"
+          },
+          "group": [
+            "Strength"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27) to Strength",
+                "kr": "힘 (25-27)",
+                "tw": "(25-27)點力量",
+                "ru": "(25-27) к силе",
+                "jp": "筋力 (25-27)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute",
+              "name": {
+                "en": "Greater Essence of the Infinite",
+                "kr": "상위 무한의 에센스",
+                "tw": "高階無限精髓",
+                "ru": "Большая сущность бесконечности",
+                "jp": "無限のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "EssenceAuraEffect1",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              15,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Essence",
+            "kr": "- 에센스",
+            "tw": "精髓之",
+            "ru": "сущности",
+            "jp": "エッセンスの"
+          },
+          "effect": {
+            "en": "Aura Skills have (15-20)% increased Magnitudes",
+            "kr": "오라 스킬의 강도 (15-20)% 증가",
+            "tw": "光環技能增加(15-20)%幅度",
+            "ru": "(15-20)% увеличение силы умений аур",
+            "jp": "オーラスキルは強度が(15-20)%増加する"
+          },
+          "group": [
+            "AuraEffect"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "aura_effect_+%",
+                  "valueRange": [
+                    15,
+                    20
+                  ]
+                }
+              ],
+              "value": "15~20",
+              "text": {
+                "en": "Aura Skills have (15-20)% increased Magnitudes",
+                "kr": "오라 스킬의 강도 (15-20)% 증가",
+                "tw": "光環技能增加(15-20)%幅度",
+                "ru": "(15-20)% увеличение силы умений аур",
+                "jp": "オーラスキルは強度が(15-20)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyPerfectEssenceAlly",
+              "name": {
+                "en": "Perfect Essence of Command",
+                "kr": "완벽한 지휘의 에센스",
+                "tw": "完美命令精髓",
+                "ru": "Совершенная сущность повеления",
+                "jp": "命令のパーフェクトエッセンス"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "alloy": {
+      "prefix": [
+        {
+          "id": "AlloyPuppetMasterChance1",
+          "affixType": "prefix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              30,
+              50
+            ]
+          ],
+          "name": {
+            "en": "Verisium",
+            "kr": "베리시움",
+            "tw": "維里西姆",
+            "ru": "Веризиевый",
+            "jp": "ヴェリシウムの"
+          },
+          "effect": {
+            "en": "(30-50)% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill",
+            "kr": "명령 스킬을 사용할 때마다 (30-50)%의 초과 확률로 인형사 중첩 획득",
+            "tw": "每當你使用號令技能時，有(30-50)%滿溢機率獲得一層傀儡大師",
+            "ru": "(30-50)% к превосходящему шансу получить заряд Кукловода, когда вы используете умение-приказ",
+            "jp": "コマンドスキルを使用した時に(30-50)%の超過可能確率でパペットマスターのスタックを1獲得する"
+          },
+          "group": [
+            "MinionGainPuppetMasterOnCommand"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "surpassing_chance_%_to_gain_1_puppeteer_stack_on_using_command_skill",
+                  "valueRange": [
+                    30,
+                    50
+                  ]
+                }
+              ],
+              "value": "30~50",
+              "text": {
+                "en": "(30-50)% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill",
+                "kr": "명령 스킬을 사용할 때마다 (30-50)%의 초과 확률로 인형사 중첩 획득",
+                "tw": "每當你使用號令技能時，有(30-50)%滿溢機率獲得一層傀儡大師",
+                "ru": "(30-50)% к превосходящему шансу получить заряд Кукловода, когда вы используете умение-приказ",
+                "jp": "コマンドスキルを使用した時に(30-50)%の超過可能確率でパペットマスターのスタックを1獲得する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy2",
+              "name": {
+                "en": "Adaptive Alloy",
+                "kr": "적응형 합금",
+                "tw": "適應合金",
+                "ru": "Адаптивный сплав",
+                "jp": "適応の合金"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "AlloyMaximumRunicWardWeapon1",
+          "affixType": "suffix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              51,
+              74
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "(51-74) to maximum Runic Ward",
+            "kr": "최대 룬 수호 (51-74)",
+            "tw": "(51-74)最大符文保護",
+            "ru": "(51-74) к максимуму рунического барьера",
+            "jp": "最大ルーンワード (51-74)"
+          },
+          "group": [
+            "BaseRunicWard"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_maximum_ward",
+                  "valueRange": [
+                    51,
+                    74
+                  ]
+                }
+              ],
+              "value": "51~74",
+              "text": {
+                "en": "(51-74) to maximum Runic Ward",
+                "kr": "최대 룬 수호 (51-74)",
+                "tw": "(51-74)最大符文保護",
+                "ru": "(51-74) к максимуму рунического барьера",
+                "jp": "最大ルーンワード (51-74)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy3",
+              "name": {
+                "en": "Protective Alloy",
+                "kr": "보호의 합금",
+                "tw": "防護合金",
+                "ru": "Защитный сплав",
+                "jp": "保護の合金"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AlloyMaximumElementalInfusions1",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "1 to maximum number of Elemental Infusions",
+            "kr": "원소 주입 수치 최대치 1",
+            "tw": "1最大元素灌注數量",
+            "ru": "1 к максимальному количеству стихийных насыщений",
+            "jp": "エレメンタルインフュージョンの最大数 1"
+          },
+          "group": [
+            "ElementalInfusion"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_maximum_infusion_stacks",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1 to maximum number of Elemental Infusions",
+                "kr": "원소 주입 수치 최대치 1",
+                "tw": "1最大元素灌注數量",
+                "ru": "1 к максимальному количеству стихийных насыщений",
+                "jp": "エレメンタルインフュージョンの最大数 1"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy8",
+              "name": {
+                "en": "Mystic Alloy",
+                "kr": "신비한 합금",
+                "tw": "秘能合金",
+                "ru": "Мистический сплав",
+                "jp": "神秘の合金"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AlloyMinionDamagingAilmentMagnitude1",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              40,
+              49
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "Minions have (40-49)% increased Magnitude of Damaging Ailments",
+            "kr": "소환수의 피해를 주는 상태 이상의 강도 (40-49)% 증가",
+            "tw": "增加(40-49)%召喚物所施加之傷害型異常狀態的幅度",
+            "ru": "Приспешники имеют (40-49)% увеличение силы наносящих урон состояний",
+            "jp": "ミニオンはダメージ性状態異常の強度が(40-49)%増加する"
+          },
+          "group": [
+            "MinionDamagingAilments"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "minion_base_damaging_ailment_effect_+%",
+                  "valueRange": [
+                    40,
+                    49
+                  ]
+                }
+              ],
+              "value": "40~49",
+              "text": {
+                "en": "Minions have (40-49)% increased Magnitude of Damaging Ailments",
+                "kr": "소환수의 피해를 주는 상태 이상의 강도 (40-49)% 증가",
+                "tw": "增加(40-49)%召喚物所施加之傷害型異常狀態的幅度",
+                "ru": "Приспешники имеют (40-49)% увеличение силы наносящих урон состояний",
+                "jp": "ミニオンはダメージ性状態異常の強度が(40-49)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy7",
+              "name": {
+                "en": "Prismatic Alloy",
+                "kr": "분광 합금",
+                "tw": "煥彩合金",
+                "ru": "Радужный сплав",
+                "jp": "プリズム合金"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AlloyEffectOfSocketedAugments1",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              20,
+              30
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "(20-30)% increased effect of Socketed Augment Items",
+            "kr": "장착된 아이템의 효과 (20-30)% 증가",
+            "tw": "鑲嵌的物品增加(20-30)%效果",
+            "ru": "(20-30)% усиление эффекта размещенных предметов",
+            "jp": "ソケットされているアイテムの効果が(20-30)%増加する"
+          },
+          "group": [
+            "SoulCore"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_socketed_items_effect_+%",
+                  "valueRange": [
+                    20,
+                    30
+                  ]
+                }
+              ],
+              "value": "20~30",
+              "text": {
+                "en": "(20-30)% increased effect of Socketed Augment Items",
+                "kr": "장착된 아이템의 효과 (20-30)% 증가",
+                "tw": "鑲嵌的物品增加(20-30)%效果",
+                "ru": "(20-30)% усиление эффекта размещенных предметов",
+                "jp": "ソケットされているアイテムの効果が(20-30)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy9",
+              "name": {
+                "en": "Sovereign Alloy",
+                "kr": "군왕의 합금",
+                "tw": "君主合金",
+                "ru": "Державный сплав",
+                "jp": "王権の合金"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AlloyPuppeteerStacks1",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              4,
+              5
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "+(4-5) maximum stacks of Puppet Master",
+            "kr": "인형사 최대 중첩 +(4-5)",
+            "tw": "+(4-5)最大魁儡大師層數",
+            "ru": "+(4-5) к максимуму зарядов Кукловода",
+            "jp": "パペットマスターの最大スタック数 +(4-5)"
+          },
+          "group": [
+            "MaximumPuppeteerStacks"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "max_puppet_master_stacks_+",
+                  "valueRange": [
+                    4,
+                    5
+                  ]
+                }
+              ],
+              "value": "4~5",
+              "text": {
+                "en": "+(4-5) maximum stacks of Puppet Master",
+                "kr": "인형사 최대 중첩 +(4-5)",
+                "tw": "+(4-5)最大魁儡大師層數",
+                "ru": "+(4-5) к максимуму зарядов Кукловода",
+                "jp": "パペットマスターの最大スタック数 +(4-5)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy12",
+              "name": {
+                "en": "The Runebinder's Alloy",
+                "kr": "룬 결속사의 합금",
+                "tw": "符文縛者的合金",
+                "ru": "Сплав Повелителя рун",
+                "jp": "ルーンバインダーの合金"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "desecrated": {
+      "prefix": [
+        {
+          "id": "AbyssModGenWeaponAmanamuPrefixFirePenetration",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              15,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Amanamu's",
+            "kr": "아마나무의",
+            "tw": "阿姆那姆的",
+            "ru": "Усиленный Аманаму",
+            "jp": "アマナムによる"
+          },
+          "effect": {
+            "en": "Attacks with this Weapon Penetrate (15-25)% Fire Resistance",
+            "kr": "이 무기로 공격 시 (15-25)%의 화염 저항 관통",
+            "tw": "此武器的攻擊穿透(15-25)%的火焰抗性",
+            "ru": "Атаки этим оружием пробивают (15-25)% сопротивления огню",
+            "jp": "この武器によるアタックは(15-25)%の火耐性を貫通する"
+          },
+          "group": [
+            "FireResistancePenetration"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_fire_penetration_%",
+                  "valueRange": [
+                    15,
+                    25
+                  ]
+                }
+              ],
+              "value": "15~25",
+              "text": {
+                "en": "Attacks with this Weapon Penetrate (15-25)% Fire Resistance",
+                "kr": "이 무기로 공격 시 (15-25)%의 화염 저항 관통",
+                "tw": "此武器的攻擊穿透(15-25)%的火焰抗性",
+                "ru": "Атаки этим оружием пробивают (15-25)% сопротивления огню",
+                "jp": "この武器によるアタックは(15-25)%の火耐性を貫通する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModGenWeaponKurgalPrefixColdPenetration",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              15,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Kurgal's",
+            "kr": "쿠르갈의",
+            "tw": "柯戈的",
+            "ru": "Усиленный Каргалом",
+            "jp": "クルガルによる"
+          },
+          "effect": {
+            "en": "Attacks with this Weapon Penetrate (15-25)% Cold Resistance",
+            "kr": "이 무기로 공격 시 (15-25)%의 냉기 저항 관통",
+            "tw": "此武器的攻擊穿透(15-25)%的冰冷抗性",
+            "ru": "Атаки этим оружием пробивают (15-25)% сопротивления холоду",
+            "jp": "この武器によるアタックは(15-25)%の冷気耐性を貫通する"
+          },
+          "group": [
+            "ColdResistancePenetration"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_cold_penetration_%",
+                  "valueRange": [
+                    15,
+                    25
+                  ]
+                }
+              ],
+              "value": "15~25",
+              "text": {
+                "en": "Attacks with this Weapon Penetrate (15-25)% Cold Resistance",
+                "kr": "이 무기로 공격 시 (15-25)%의 냉기 저항 관통",
+                "tw": "此武器的攻擊穿透(15-25)%的冰冷抗性",
+                "ru": "Атаки этим оружием пробивают (15-25)% сопротивления холоду",
+                "jp": "この武器によるアタックは(15-25)%の冷気耐性を貫通する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModGenWeaponUlamanPrefixLightningPenetration",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              15,
+              25
+            ]
+          ],
+          "name": {
+            "en": "Ulaman's",
+            "kr": "울라만의",
+            "tw": "烏拉曼的",
+            "ru": "Усиленный Уламаном",
+            "jp": "ウラマンによる"
+          },
+          "effect": {
+            "en": "Attacks with this Weapon Penetrate (15-25)% Lightning Resistance",
+            "kr": "이 무기로 공격 시 (15-25)%의 번개 저항 관통",
+            "tw": "此武器的攻擊穿透(15-25)%的閃電抗性",
+            "ru": "Атаки этим оружием пробивают (15-25)% сопротивления молнии",
+            "jp": "この武器によるアタックは(15-25)%の雷耐性を貫通する"
+          },
+          "group": [
+            "LightningResistancePenetration"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_lightning_penetration_%",
+                  "valueRange": [
+                    15,
+                    25
+                  ]
+                }
+              ],
+              "value": "15~25",
+              "text": {
+                "en": "Attacks with this Weapon Penetrate (15-25)% Lightning Resistance",
+                "kr": "이 무기로 공격 시 (15-25)%의 번개 저항 관통",
+                "tw": "此武器的攻擊穿透(15-25)%的閃電抗性",
+                "ru": "Атаки этим оружием пробивают (15-25)% сопротивления молнии",
+                "jp": "この武器によるアタックは(15-25)%の雷耐性を貫通する"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "AbyssModGenWeaponAmanamuSuffixSpiritReservationEfficiency",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(5-10)% increased Spirit Reservation Efficiency of Skills",
+            "kr": "스킬의 정신력 점유 효율 (5-10)% 증가",
+            "tw": "技能增加(5-10)%精魂保留效率",
+            "ru": "(5-10)% увеличение эффективности удержания духа умениями",
+            "jp": "スキルのスピリットリザーブ効率が(5-10)%増加する"
+          },
+          "group": [
+            "SpiritReservationEfficiency"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_spirit_reservation_efficiency_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Spirit Reservation Efficiency of Skills",
+                "kr": "스킬의 정신력 점유 효율 (5-10)% 증가",
+                "tw": "技能增加(5-10)%精魂保留效率",
+                "ru": "(5-10)% увеличение эффективности удержания духа умениями",
+                "jp": "スキルのスピリットリザーブ効率が(5-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModGenWeaponKurgalSuffixAttackCostEfficiency",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              8,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(8-15)% increased Cost Efficiency of Attacks",
+            "kr": "공격의 소모 효율 (8-15)% 증가",
+            "tw": "增加(8-15)%攻擊消耗效率",
+            "ru": "(8-15)% увеличение эффективности расхода ресурсов атаками",
+            "jp": "アタックのコスト効率が(8-15)%増加する"
+          },
+          "group": [
+            "ManaCostEfficiency"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_attack_skill_cost_efficiency_+%",
+                  "valueRange": [
+                    8,
+                    15
+                  ]
+                }
+              ],
+              "value": "8~15",
+              "text": {
+                "en": "(8-15)% increased Cost Efficiency of Attacks",
+                "kr": "공격의 소모 효율 (8-15)% 증가",
+                "tw": "增加(8-15)%攻擊消耗效率",
+                "ru": "(8-15)% увеличение эффективности расхода ресурсов атаками",
+                "jp": "アタックのコスト効率が(8-15)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModGenWeaponUlamanSuffixSkillCostConvertedToLife",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              15,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(15-20)% of Skill Mana Costs Converted to Life Costs",
+            "kr": "스킬의 마나 소모의 (15-20)%가 생명력 소모로 전환",
+            "tw": "(15-20)%技能魔力消耗轉換為生命消耗",
+            "ru": "(15-20)% стоимости умений в мане берется из здоровья",
+            "jp": "スキルのマナコストの(15-20)%がライフコストに変換される"
+          },
+          "group": [
+            "LifeCost"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_skill_cost_life_instead_of_mana_%",
+                  "valueRange": [
+                    15,
+                    20
+                  ]
+                }
+              ],
+              "value": "15~20",
+              "text": {
+                "en": "(15-20)% of Skill Mana Costs Converted to Life Costs",
+                "kr": "스킬의 마나 소모의 (15-20)%가 생명력 소모로 전환",
+                "tw": "(15-20)%技能魔力消耗轉換為生命消耗",
+                "ru": "(15-20)% стоимости умений в мане берется из здоровья",
+                "jp": "スキルのマナコストの(15-20)%がライフコストに変換される"
+              }
+            }
+          ]
+        }
+      ]
     },
     "unique": {
       "prefix": [
@@ -15328,7 +16102,7 @@
             "jp": "プレイヤーの存在下にいる味方はダメージが(50-75)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -15378,7 +16152,7 @@
             "jp": "プレイヤーの存在下にいる味方はクリティカルダメージボーナスが(30-45)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -15428,7 +16202,7 @@
             "jp": "プレイヤーの存在下にいる味方はアタックスピードが(15-25)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -15478,7 +16252,7 @@
             "jp": "プレイヤーの存在下にいる味方はキャストスピードが(15-25)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -15528,7 +16302,7 @@
             "jp": "混沌耐性 (10-13)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -15578,7 +16352,7 @@
             "jp": "冷気耐性 (15-20)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -15628,7 +16402,7 @@
             "jp": "器用さ (14-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -15678,7 +16452,7 @@
             "jp": "火耐性 (15-20)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -15728,7 +16502,7 @@
             "jp": "知性 (14-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -15778,7 +16552,7 @@
             "jp": "雷耐性 (15-20)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -15828,7 +16602,7 @@
             "jp": "筋力 (14-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -15882,7 +16656,7 @@
             "jp": "(27-31)から(42-48)の混沌ダメージを追加する"
           },
           "group": [
-            721
+            "LocalChaosDamage"
           ],
           "weight": 1,
           "stats": [
@@ -15943,7 +16717,7 @@
             "jp": "(28-42)から(53-69)の冷気ダメージを追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -16004,7 +16778,7 @@
             "jp": "(30-44)から(55-72)の火ダメージを追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -16065,7 +16839,7 @@
             "jp": "(1-2)から(79-103)の雷ダメージを追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -16122,7 +16896,7 @@
             "jp": "クリティカルダメージボーナス (15-25)%"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -16172,7 +16946,7 @@
             "jp": "アタックスピードが(12-16)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -16222,7 +16996,7 @@
             "jp": "物理ダメージが(40-60)%増加する"
           },
           "group": [
-            87
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -16272,7 +17046,7 @@
             "jp": "スピリットが(35-45)%増加する"
           },
           "group": [
-            56
+            "LocalIncreasedSpiritPercent"
           ],
           "weight": 1,
           "stats": [
@@ -16322,7 +17096,7 @@
             "jp": "要求能力値が(-50--30)%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -16372,7 +17146,7 @@
             "jp": "アタックスキルによる元素ダメージが(60-90)%増加する"
           },
           "group": [
-            109
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [

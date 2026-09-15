@@ -35,6 +35,11 @@
       "suffix": 0,
       "total": 11
     },
+    "desecrated": {
+      "prefix": 35,
+      "suffix": 9,
+      "total": 44
+    },
     "unique": {
       "prefix": 115,
       "suffix": 0,
@@ -69,7 +74,7 @@
             "jp": "グローバル命中力が(5-10)%増加する"
           },
           "group": [
-            105
+            "IncreasedAccuracyPercent"
           ],
           "weight": 1,
           "stats": [
@@ -119,7 +124,7 @@
             "jp": "プレイヤーが付与した状態異常の強度が(5-15)%増加する"
           },
           "group": [
-            5546
+            "AilmentEffect"
           ],
           "weight": 1,
           "stats": [
@@ -169,7 +174,7 @@
             "jp": "効果範囲が(4-6)%増加する"
           },
           "group": [
-            175
+            "AreaOfEffect"
           ],
           "weight": 1,
           "stats": [
@@ -219,7 +224,7 @@
             "jp": "アーマーが(10-20)%増加する"
           },
           "group": [
-            84
+            "IncreasedPhysicalDamageReductionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -269,7 +274,7 @@
             "jp": "アーマー破壊するアーマー量が(5-15)%増加する"
           },
           "group": [
-            5554
+            "ArmourBreak"
           ],
           "weight": 1,
           "stats": [
@@ -319,7 +324,7 @@
             "jp": "アタックダメージが(5-15)%増加する"
           },
           "group": [
-            1527
+            "AttackDamage"
           ],
           "weight": 1,
           "stats": [
@@ -369,7 +374,7 @@
             "jp": "バナースキルの効果範囲が(6-16)%増加する"
           },
           "group": [
-            5677
+            "BannerArea"
           ],
           "weight": 1,
           "stats": [
@@ -419,7 +424,7 @@
             "jp": "ヒット時に(3-7)%の確率で出血を付与する"
           },
           "group": [
-            5404
+            "BleedChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -469,7 +474,7 @@
             "jp": "プレイヤーが付与した出血の強度が(5-15)%増加する"
           },
           "group": [
-            2626
+            "BleedingDamage"
           ],
           "weight": 1,
           "stats": [
@@ -519,7 +524,7 @@
             "jp": "盲目の効果が(5-10)%増加する"
           },
           "group": [
-            4714
+            "BlindEffect"
           ],
           "weight": 1,
           "stats": [
@@ -569,7 +574,7 @@
             "jp": "ブロック率が(3-7)%増加する"
           },
           "group": [
-            1310
+            "IncreasedBlockChance"
           ],
           "weight": 1,
           "stats": [
@@ -619,7 +624,7 @@
             "jp": "弓の命中力が(5-15)%増加する"
           },
           "group": [
-            1441
+            "SpecificWeaponAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -669,7 +674,7 @@
             "jp": "弓によるダメージが(6-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -719,7 +724,7 @@
             "jp": "混沌ダメージが(7-13)%増加する"
           },
           "group": [
-            1184
+            "IncreasedChaosDamage"
           ],
           "weight": 1,
           "stats": [
@@ -769,7 +774,7 @@
             "jp": "チャームがアクティブな間ダメージが(10-20)%増加する"
           },
           "group": [
-            5560
+            "CharmDamageWhileUsing"
           ],
           "weight": 1,
           "stats": [
@@ -819,7 +824,7 @@
             "jp": "冷気ダメージが(5-15)%増加する"
           },
           "group": [
-            70
+            "ColdDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -869,7 +874,7 @@
             "jp": "ダメージは(5-10)%の冷気耐性を貫通する"
           },
           "group": [
-            1624
+            "ColdResistancePenetration"
           ],
           "weight": 1,
           "stats": [
@@ -919,7 +924,7 @@
             "jp": "コンパニオンのダメージが(10-20)%増加する"
           },
           "group": [
-            5670
+            "CompanionDamage"
           ],
           "weight": 1,
           "stats": [
@@ -969,7 +974,7 @@
             "jp": "コンパニオンの最大ライフが(10-20)%増加する"
           },
           "group": [
-            5672
+            "CompanionLife"
           ],
           "weight": 1,
           "stats": [
@@ -1019,7 +1024,7 @@
             "jp": "直近死体を消費していればダメージが(10-20)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1069,7 +1074,7 @@
             "jp": "プレイヤーがクリティカルヒットで付与したダメージ性状態異常の強度が(10-20)%増加する"
           },
           "group": [
-            5561
+            "CriticalAilmentEffect"
           ],
           "weight": 1,
           "stats": [
@@ -1119,7 +1124,7 @@
             "jp": "クロスボウのダメージが(6-16)%増加する"
           },
           "group": [
-            5563
+            "CrossbowDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1169,7 +1174,7 @@
             "jp": "呪いの効果範囲が(8-12)%増加する"
           },
           "group": [
-            1004
+            "CurseAreaOfEffect"
           ],
           "weight": 1,
           "stats": [
@@ -1219,7 +1224,7 @@
             "jp": "呪いの強度が(2-4)%増加する"
           },
           "group": [
-            1460
+            "CurseEffectiveness"
           ],
           "weight": 1,
           "stats": [
@@ -1269,7 +1274,7 @@
             "jp": "完全アーマー破壊状態の敵に対するダメージが(15-25)%増加する"
           },
           "group": [
-            5569
+            "DamagevsArmourBrokenEnemies"
           ],
           "weight": 1,
           "stats": [
@@ -1319,7 +1324,7 @@
             "jp": "レアまたはユニークの敵に対するヒットダメージが(10-20)%増加する"
           },
           "group": [
-            5556
+            "DamageVsRareOrUnique"
           ],
           "weight": 1,
           "stats": [
@@ -1369,7 +1374,7 @@
             "jp": "元素ダメージが(5-15)%増加する"
           },
           "group": [
-            156
+            "ElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -1419,7 +1424,7 @@
             "jp": "強化されたアタックはダメージが(10-20)%増加する"
           },
           "group": [
-            3832
+            "ExertedAttackDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1469,7 +1474,7 @@
             "jp": "最大エナジーシールドが(10-20)%増加する"
           },
           "group": [
-            85
+            "EnergyShieldPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1519,7 +1524,7 @@
             "jp": "エナジーシールドのリチャージが(10-15)%速く始まる"
           },
           "group": [
-            67
+            "EnergyShieldDelay"
           ],
           "weight": 1,
           "stats": [
@@ -1569,7 +1574,7 @@
             "jp": "回避力が(10-20)%増加する"
           },
           "group": [
-            86
+            "EvasionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1619,7 +1624,7 @@
             "jp": "火ダメージが(5-15)%増加する"
           },
           "group": [
-            68
+            "FireDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -1669,7 +1674,7 @@
             "jp": "ダメージは(5-10)%の火耐性を貫通する"
           },
           "group": [
-            1623
+            "FireResistancePenetration"
           ],
           "weight": 1,
           "stats": [
@@ -1719,7 +1724,7 @@
             "jp": "装備中のフォーカスから得られるエナジーシールドが(30-50)%増加する"
           },
           "group": [
-            5579
+            "FocusEnergyShield"
           ],
           "weight": 1,
           "stats": [
@@ -1769,7 +1774,7 @@
             "jp": "ハザードのダメージが(10-20)%増加する"
           },
           "group": [
-            5673
+            "HazardDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1819,7 +1824,7 @@
             "jp": "ヘラルドスキルのダメージが(15-25)%増加する"
           },
           "group": [
-            5583
+            "HeraldDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1869,7 +1874,7 @@
             "jp": "発火の強度が(5-15)%増加する"
           },
           "group": [
-            5410
+            "IgniteEffect"
           ],
           "weight": 1,
           "stats": [
@@ -1919,7 +1924,7 @@
             "jp": "アタックヒットは(15-25)%の確率で1スタックの切開を付与する"
           },
           "group": [
-            5675
+            "IncisionChance"
           ],
           "weight": 1,
           "stats": [
@@ -1969,7 +1974,7 @@
             "jp": "雷ダメージが(5-15)%増加する"
           },
           "group": [
-            72
+            "LightningDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -2019,7 +2024,7 @@
             "jp": "ダメージは(5-10)%の雷耐性を貫通する"
           },
           "group": [
-            1257
+            "LightningResistancePenetration"
           ],
           "weight": 1,
           "stats": [
@@ -2069,7 +2074,7 @@
             "jp": "メイスのダメージが(6-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2119,7 +2124,7 @@
             "jp": "プレイヤーの呪印スキルの効果が(4-8)%増加する"
           },
           "group": [
-            1460
+            "CurseEffectiveness"
           ],
           "weight": 1,
           "stats": [
@@ -2169,7 +2174,7 @@
             "jp": "憤怒の最大数 (1-2)"
           },
           "group": [
-            3836
+            "MaximumRage"
           ],
           "weight": 1,
           "stats": [
@@ -2219,7 +2224,7 @@
             "jp": "近接ダメージが(5-15)%増加する"
           },
           "group": [
-            736
+            "MeleeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2269,7 +2274,7 @@
             "jp": "過去8秒間にプレイヤーが投射物アタックヒットを与えていれば近接ダメージが(10-20)%増加する"
           },
           "group": [
-            5667
+            "MeleeDamageIfProjectileHitRecently"
           ],
           "weight": 1,
           "stats": [
@@ -2319,7 +2324,7 @@
             "jp": "ミニオンの効果範囲が(5-8)%増加する"
           },
           "group": [
-            1356
+            "MinionAreaOfEffect"
           ],
           "weight": 1,
           "stats": [
@@ -2369,7 +2374,7 @@
             "jp": "ミニオンのダメージが(5-15)%増加する"
           },
           "group": [
-            189
+            "MinionDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2419,7 +2424,7 @@
             "jp": "ミニオンの最大ライフが(5-15)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -2469,7 +2474,7 @@
             "jp": "オファリングは最大ライフが(15-25)%増加する"
           },
           "group": [
-            5593
+            "OfferingLife"
           ],
           "weight": 1,
           "stats": [
@@ -2519,7 +2524,7 @@
             "jp": "パリィダメージが(15-25)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2569,7 +2574,7 @@
             "jp": "グローバル物理ダメージが(5-15)%増加する"
           },
           "group": [
-            90
+            "PhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -2619,7 +2624,7 @@
             "jp": "プラントスキルのダメージが(5-15)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -2669,7 +2674,7 @@
             "jp": "プレイヤーが付与した毒の強度が(5-15)%増加する"
           },
           "group": [
-            5595
+            "PoisonEffect"
           ],
           "weight": 1,
           "stats": [
@@ -2719,7 +2724,7 @@
             "jp": "存在下の効果範囲が(15-25)%増加する"
           },
           "group": [
-            5400
+            "PresenceRadius"
           ],
           "weight": 1,
           "stats": [
@@ -2769,7 +2774,7 @@
             "jp": "投射物ダメージが(5-15)%増加する"
           },
           "group": [
-            650
+            "ProjectileDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2819,7 +2824,7 @@
             "jp": "過去8秒間にプレイヤーが近接ヒットを与えていれば投射物ダメージが(10-20)%増加する"
           },
           "group": [
-            5666
+            "ProjectileDamageIfMeleeHitRecently"
           ],
           "weight": 1,
           "stats": [
@@ -2869,7 +2874,7 @@
             "jp": "投射物スピードが(4-8)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -2919,7 +2924,7 @@
             "jp": "クォータースタッフによるダメージが(6-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2969,7 +2974,7 @@
             "jp": "装備中の矢筒から得られるボーナスが(4-6)%増加する"
           },
           "group": [
-            5359
+            "EquipmentModifierEffect"
           ],
           "weight": 1,
           "stats": [
@@ -3019,7 +3024,7 @@
             "jp": "グローバル命中力が(1-2)%増加する"
           },
           "group": [
-            105
+            "IncreasedAccuracyPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3069,7 +3074,7 @@
             "jp": "プレイヤーが付与した状態異常の強度が(3-7)%増加する"
           },
           "group": [
-            5546
+            "AilmentEffect"
           ],
           "weight": 1,
           "stats": [
@@ -3119,7 +3124,7 @@
             "jp": "効果範囲が(2-3)%増加する"
           },
           "group": [
-            175
+            "AreaOfEffect"
           ],
           "weight": 1,
           "stats": [
@@ -3169,7 +3174,7 @@
             "jp": "アーマーが(2-3)%増加する"
           },
           "group": [
-            84
+            "IncreasedPhysicalDamageReductionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3219,7 +3224,7 @@
             "jp": "アーマー破壊するアーマー量が(1-2)%増加する"
           },
           "group": [
-            5554
+            "ArmourBreak"
           ],
           "weight": 1,
           "stats": [
@@ -3269,7 +3274,7 @@
             "jp": "アタックダメージが(1-2)%増加する"
           },
           "group": [
-            1527
+            "AttackDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3319,7 +3324,7 @@
             "jp": "バナースキルの効果範囲が(2-3)%増加する"
           },
           "group": [
-            5677
+            "BannerArea"
           ],
           "weight": 1,
           "stats": [
@@ -3369,7 +3374,7 @@
             "jp": "ヒット時に1%の確率で出血を付与する"
           },
           "group": [
-            5404
+            "BleedChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -3419,7 +3424,7 @@
             "jp": "プレイヤーが付与した出血の強度が(3-7)%増加する"
           },
           "group": [
-            2626
+            "BleedingDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3469,7 +3474,7 @@
             "jp": "盲目の効果が(3-5)%増加する"
           },
           "group": [
-            4714
+            "BlindEffect"
           ],
           "weight": 1,
           "stats": [
@@ -3519,7 +3524,7 @@
             "jp": "ブロック率が(1-3)%増加する"
           },
           "group": [
-            1310
+            "IncreasedBlockChance"
           ],
           "weight": 1,
           "stats": [
@@ -3569,7 +3574,7 @@
             "jp": "弓の命中力が(1-2)%増加する"
           },
           "group": [
-            1441
+            "SpecificWeaponAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -3619,7 +3624,7 @@
             "jp": "弓によるダメージが(2-3)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3669,7 +3674,7 @@
             "jp": "混沌ダメージが(1-2)%増加する"
           },
           "group": [
-            1184
+            "IncreasedChaosDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3719,7 +3724,7 @@
             "jp": "チャームがアクティブな間ダメージが(2-3)%増加する"
           },
           "group": [
-            5560
+            "CharmDamageWhileUsing"
           ],
           "weight": 1,
           "stats": [
@@ -3769,7 +3774,7 @@
             "jp": "冷気ダメージが(1-2)%増加する"
           },
           "group": [
-            70
+            "ColdDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -3819,7 +3824,7 @@
             "jp": "ダメージは(1-2)%の冷気耐性を貫通する"
           },
           "group": [
-            1624
+            "ColdResistancePenetration"
           ],
           "weight": 1,
           "stats": [
@@ -3869,7 +3874,7 @@
             "jp": "コンパニオンのダメージが(2-3)%増加する"
           },
           "group": [
-            5670
+            "CompanionDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3919,7 +3924,7 @@
             "jp": "コンパニオンの最大ライフが(2-3)%増加する"
           },
           "group": [
-            5672
+            "CompanionLife"
           ],
           "weight": 1,
           "stats": [
@@ -3969,7 +3974,7 @@
             "jp": "直近死体を消費していればダメージが(2-3)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4019,7 +4024,7 @@
             "jp": "プレイヤーがクリティカルヒットで付与したダメージ性状態異常の強度が(5-10)%増加する"
           },
           "group": [
-            5561
+            "CriticalAilmentEffect"
           ],
           "weight": 1,
           "stats": [
@@ -4069,7 +4074,7 @@
             "jp": "クロスボウのダメージが(2-3)%増加する"
           },
           "group": [
-            5563
+            "CrossbowDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4119,7 +4124,7 @@
             "jp": "呪いの効果範囲が(3-6)%増加する"
           },
           "group": [
-            1004
+            "CurseAreaOfEffect"
           ],
           "weight": 1,
           "stats": [
@@ -4169,7 +4174,7 @@
             "jp": "呪いの強度が1%増加する"
           },
           "group": [
-            1460
+            "CurseEffectiveness"
           ],
           "weight": 1,
           "stats": [
@@ -4219,7 +4224,7 @@
             "jp": "完全アーマー破壊状態の敵に対するダメージが(2-4)%増加する"
           },
           "group": [
-            5569
+            "DamagevsArmourBrokenEnemies"
           ],
           "weight": 1,
           "stats": [
@@ -4269,7 +4274,7 @@
             "jp": "レアまたはユニークの敵に対するヒットダメージが(2-3)%増加する"
           },
           "group": [
-            5556
+            "DamageVsRareOrUnique"
           ],
           "weight": 1,
           "stats": [
@@ -4319,7 +4324,7 @@
             "jp": "元素ダメージが(1-2)%増加する"
           },
           "group": [
-            156
+            "ElementalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -4369,7 +4374,7 @@
             "jp": "強化されたアタックはダメージが(2-3)%増加する"
           },
           "group": [
-            3832
+            "ExertedAttackDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4419,7 +4424,7 @@
             "jp": "最大エナジーシールドが(2-3)%増加する"
           },
           "group": [
-            85
+            "EnergyShieldPercent"
           ],
           "weight": 1,
           "stats": [
@@ -4469,7 +4474,7 @@
             "jp": "エナジーシールドのリチャージが(5-7)%速く始まる"
           },
           "group": [
-            67
+            "EnergyShieldDelay"
           ],
           "weight": 1,
           "stats": [
@@ -4519,7 +4524,7 @@
             "jp": "回避力が(2-3)%増加する"
           },
           "group": [
-            86
+            "EvasionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -4569,7 +4574,7 @@
             "jp": "火ダメージが(1-2)%増加する"
           },
           "group": [
-            68
+            "FireDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -4619,7 +4624,7 @@
             "jp": "ダメージは(1-2)%の火耐性を貫通する"
           },
           "group": [
-            1623
+            "FireResistancePenetration"
           ],
           "weight": 1,
           "stats": [
@@ -4669,7 +4674,7 @@
             "jp": "装備中のフォーカスから得られるエナジーシールドが(15-25)%増加する"
           },
           "group": [
-            5579
+            "FocusEnergyShield"
           ],
           "weight": 1,
           "stats": [
@@ -4719,7 +4724,7 @@
             "jp": "ハザードのダメージが(2-3)%増加する"
           },
           "group": [
-            5673
+            "HazardDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4769,7 +4774,7 @@
             "jp": "ヘラルドスキルのダメージが(2-4)%増加する"
           },
           "group": [
-            5583
+            "HeraldDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4819,7 +4824,7 @@
             "jp": "発火の強度が(3-7)%増加する"
           },
           "group": [
-            5410
+            "IgniteEffect"
           ],
           "weight": 1,
           "stats": [
@@ -4869,7 +4874,7 @@
             "jp": "アタックヒットは(3-5)%の確率で1スタックの切開を付与する"
           },
           "group": [
-            5675
+            "IncisionChance"
           ],
           "weight": 1,
           "stats": [
@@ -4923,7 +4928,7 @@
             "jp": "半径を大範囲にアップグレードする"
           },
           "group": [
-            5642
+            "JewelRadiusLargerRadius"
           ],
           "weight": 1,
           "stats": [
@@ -4992,7 +4997,7 @@
             "jp": "雷ダメージが(1-2)%増加する"
           },
           "group": [
-            72
+            "LightningDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -5042,7 +5047,7 @@
             "jp": "ダメージは(1-2)%の雷耐性を貫通する"
           },
           "group": [
-            1257
+            "LightningResistancePenetration"
           ],
           "weight": 1,
           "stats": [
@@ -5092,7 +5097,7 @@
             "jp": "メイスのダメージが(1-2)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5142,7 +5147,7 @@
             "jp": "プレイヤーの呪印スキルの効果が(2-3)%増加する"
           },
           "group": [
-            1460
+            "CurseEffectiveness"
           ],
           "weight": 1,
           "stats": [
@@ -5192,7 +5197,7 @@
             "jp": "憤怒の最大数 1"
           },
           "group": [
-            3836
+            "MaximumRage"
           ],
           "weight": 1,
           "stats": [
@@ -5246,7 +5251,7 @@
             "jp": "半径を中範囲にアップグレードする"
           },
           "group": [
-            5642
+            "JewelRadiusLargerRadius"
           ],
           "weight": 1,
           "stats": [
@@ -5315,7 +5320,7 @@
             "jp": "近接ダメージが(1-2)%増加する"
           },
           "group": [
-            736
+            "MeleeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5365,7 +5370,7 @@
             "jp": "過去8秒間にプレイヤーが投射物アタックヒットを与えていれば近接ダメージが(2-3)%増加する"
           },
           "group": [
-            5667
+            "MeleeDamageIfProjectileHitRecently"
           ],
           "weight": 1,
           "stats": [
@@ -5415,7 +5420,7 @@
             "jp": "ミニオンの効果範囲が(3-5)%増加する"
           },
           "group": [
-            1356
+            "MinionAreaOfEffect"
           ],
           "weight": 1,
           "stats": [
@@ -5465,7 +5470,7 @@
             "jp": "ミニオンのダメージが(1-2)%増加する"
           },
           "group": [
-            189
+            "MinionDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5515,7 +5520,7 @@
             "jp": "ミニオンの最大ライフが(1-2)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -5565,7 +5570,7 @@
             "jp": "オファリングは最大ライフが(2-3)%増加する"
           },
           "group": [
-            5593
+            "OfferingLife"
           ],
           "weight": 1,
           "stats": [
@@ -5615,7 +5620,7 @@
             "jp": "パリィダメージが(2-3)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5665,7 +5670,7 @@
             "jp": "グローバル物理ダメージが(1-2)%増加する"
           },
           "group": [
-            90
+            "PhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -5715,7 +5720,7 @@
             "jp": "プラントスキルのダメージが(1-2)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -5765,7 +5770,7 @@
             "jp": "プレイヤーが付与した毒の強度が(3-7)%増加する"
           },
           "group": [
-            5595
+            "PoisonEffect"
           ],
           "weight": 1,
           "stats": [
@@ -5815,7 +5820,7 @@
             "jp": "存在下の効果範囲が(8-12)%増加する"
           },
           "group": [
-            5400
+            "PresenceRadius"
           ],
           "weight": 1,
           "stats": [
@@ -5865,7 +5870,7 @@
             "jp": "投射物ダメージが(1-2)%増加する"
           },
           "group": [
-            650
+            "ProjectileDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5915,7 +5920,7 @@
             "jp": "過去8秒間にプレイヤーが近接ヒットを与えていれば投射物ダメージが(2-3)%増加する"
           },
           "group": [
-            5666
+            "ProjectileDamageIfMeleeHitRecently"
           ],
           "weight": 1,
           "stats": [
@@ -5965,7 +5970,7 @@
             "jp": "投射物スピードが(2-3)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -6015,7 +6020,7 @@
             "jp": "クォータースタッフによるダメージが(1-2)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6065,7 +6070,7 @@
             "jp": "装備中の矢筒から得られるボーナスが(2-3)%増加する"
           },
           "group": [
-            5359
+            "EquipmentModifierEffect"
           ],
           "weight": 1,
           "stats": [
@@ -6115,7 +6120,7 @@
             "jp": "シェープシフト状態の間ダメージが(1-2)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -6165,7 +6170,7 @@
             "jp": "装備中の盾から得られるアーマー、回避力およびエナジーシールドが(8-15)%増加する"
           },
           "group": [
-            16
+            "ShieldArmourIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -6215,7 +6220,7 @@
             "jp": "プレイヤーが付与した感電の強度が(5-7)%増加する"
           },
           "group": [
-            2694
+            "ShockEffect"
           ],
           "weight": 1,
           "stats": [
@@ -6265,7 +6270,7 @@
             "jp": "スピアのダメージが(1-2)%増加する"
           },
           "group": [
-            5600
+            "SpearDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6315,7 +6320,7 @@
             "jp": "スペルダメージが(1-2)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -6365,7 +6370,7 @@
             "jp": "棘ダメージが(2-3)%増加する"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -6415,7 +6420,7 @@
             "jp": "トーテムダメージが(2-3)%増加する"
           },
           "group": [
-            1453
+            "TotemDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6465,7 +6470,7 @@
             "jp": "トーテムのライフが(2-3)%増加する"
           },
           "group": [
-            592
+            "IncreasedTotemLife"
           ],
           "weight": 1,
           "stats": [
@@ -6515,7 +6520,7 @@
             "jp": "トリガーで発動したスペルのスペルダメージが(2-3)%増加する"
           },
           "group": [
-            3442
+            "DamageWithTriggeredSpells"
           ],
           "weight": 1,
           "stats": [
@@ -6565,7 +6570,7 @@
             "jp": "ウォークライのダメージが(2-3)%増加する"
           },
           "group": [
-            5610
+            "WarcryDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6615,7 +6620,7 @@
             "jp": "衰弱の強度が(3-5)%増加する"
           },
           "group": [
-            5612
+            "WitheredEffect"
           ],
           "weight": 1,
           "stats": [
@@ -6665,7 +6670,7 @@
             "jp": "シェープシフト状態の間ダメージが(5-15)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -6715,7 +6720,7 @@
             "jp": "装備中の盾から得られるアーマー、回避力およびエナジーシールドが(18-32)%増加する"
           },
           "group": [
-            16
+            "ShieldArmourIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -6765,7 +6770,7 @@
             "jp": "プレイヤーが付与した感電の強度が(10-15)%増加する"
           },
           "group": [
-            2694
+            "ShockEffect"
           ],
           "weight": 1,
           "stats": [
@@ -6815,7 +6820,7 @@
             "jp": "スピアのダメージが(6-16)%増加する"
           },
           "group": [
-            5600
+            "SpearDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6865,7 +6870,7 @@
             "jp": "スペルダメージが(5-15)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -6915,7 +6920,7 @@
             "jp": "棘ダメージが(10-20)%増加する"
           },
           "group": [
-            5603
+            "Thorns"
           ],
           "weight": 1,
           "stats": [
@@ -6965,7 +6970,7 @@
             "jp": "トーテムダメージが(10-18)%増加する"
           },
           "group": [
-            1453
+            "TotemDamage"
           ],
           "weight": 1,
           "stats": [
@@ -7015,7 +7020,7 @@
             "jp": "トーテムのライフが(10-20)%増加する"
           },
           "group": [
-            592
+            "IncreasedTotemLife"
           ],
           "weight": 1,
           "stats": [
@@ -7065,7 +7070,7 @@
             "jp": "トリガーで発動したスペルのスペルダメージが(10-18)%増加する"
           },
           "group": [
-            3442
+            "DamageWithTriggeredSpells"
           ],
           "weight": 1,
           "stats": [
@@ -7115,7 +7120,7 @@
             "jp": "ウォークライのダメージが(10-20)%増加する"
           },
           "group": [
-            5610
+            "WarcryDamage"
           ],
           "weight": 1,
           "stats": [
@@ -7165,7 +7170,7 @@
             "jp": "衰弱の強度が(5-10)%増加する"
           },
           "group": [
-            5612
+            "WitheredEffect"
           ],
           "weight": 1,
           "stats": [
@@ -7217,7 +7222,7 @@
             "jp": "状態異常を付与する確率が(5-15)%増加する"
           },
           "group": [
-            5423
+            "AilmentChance"
           ],
           "weight": 1,
           "stats": [
@@ -7267,7 +7272,7 @@
             "jp": "元素系状態異常閾値が(10-20)%増加する"
           },
           "group": [
-            5419
+            "AilmentThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -7317,7 +7322,7 @@
             "jp": "最大エナジーシールドの(5-15)%と同量の追加状態異常閾値を獲得する"
           },
           "group": [
-            5602
+            "AilmentThresholdfromEnergyShield"
           ],
           "weight": 1,
           "stats": [
@@ -7367,7 +7372,7 @@
             "jp": "アーマー破壊の持続時間が(10-20)%増加する"
           },
           "group": [
-            5555
+            "ArmourBreakDuration"
           ],
           "weight": 1,
           "stats": [
@@ -7417,7 +7422,7 @@
             "jp": "アタックのクリティカルヒット率が(6-16)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -7467,7 +7472,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(10-20)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -7517,7 +7522,7 @@
             "jp": "アタックスピードが(2-4)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -7567,7 +7572,7 @@
             "jp": "バナースキルの持続時間が(15-25)%増加する"
           },
           "group": [
-            5678
+            "BannerDuration"
           ],
           "weight": 1,
           "stats": [
@@ -7617,7 +7622,7 @@
             "jp": "バナースキルのグローリー生成量が(15-20)%増加する"
           },
           "group": [
-            5676
+            "BannerValourGained"
           ],
           "weight": 1,
           "stats": [
@@ -7667,7 +7672,7 @@
             "jp": "出血持続時間が(5-10)%増加する"
           },
           "group": [
-            2312
+            "BleedDuration"
           ],
           "weight": 1,
           "stats": [
@@ -7717,7 +7722,7 @@
             "jp": "アタックによるヒット時に(3-7)%の確率で敵を盲目にする"
           },
           "group": [
-            2748
+            "BlindOnHit"
           ],
           "weight": 1,
           "stats": [
@@ -7767,7 +7772,7 @@
             "jp": "弓のアタックスピードが(2-4)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -7817,7 +7822,7 @@
             "jp": "キャストスピードが(2-4)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -7867,7 +7872,7 @@
             "jp": "投射物は(3-5)%の確率で地形から追加で1回連鎖する"
           },
           "group": [
-            5557
+            "ChainFromTerrain"
           ],
           "weight": 1,
           "stats": [
@@ -7917,7 +7922,7 @@
             "jp": "チャームの獲得チャージが(5-15)%増加する"
           },
           "group": [
-            5559
+            "CharmChargesGained"
           ],
           "weight": 1,
           "stats": [
@@ -7967,7 +7972,7 @@
             "jp": "チャームの効果持続時間が(5-15)%増加する"
           },
           "group": [
-            5558
+            "CharmDuration"
           ],
           "weight": 1,
           "stats": [
@@ -8017,7 +8022,7 @@
             "jp": "敵に対する冷却の持続時間が(15-25)%増加する"
           },
           "group": [
-            225
+            "IncreasedChillDuration"
           ],
           "weight": 1,
           "stats": [
@@ -8067,7 +8072,7 @@
             "jp": "クールダウン解消レートが(3-5)%増加する"
           },
           "group": [
-            2689
+            "CooldownRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -8117,7 +8122,7 @@
             "jp": "クリティカルヒット率が(5-15)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -8167,7 +8172,7 @@
             "jp": "クリティカルダメージボーナスが(10-20)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -8217,7 +8222,7 @@
             "jp": "クロスボウのリロードスピードが(10-15)%増加する"
           },
           "group": [
-            5565
+            "CrossbowReloadSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -8267,7 +8272,7 @@
             "jp": "クロスボウのアタックスピードが(2-4)%増加する"
           },
           "group": [
-            5566
+            "CrossbowSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -8317,7 +8322,7 @@
             "jp": "呪いのアクティベーションが(-15--5)%速くなる"
           },
           "group": [
-            5567
+            "CurseDelay"
           ],
           "weight": 1,
           "stats": [
@@ -8367,7 +8372,7 @@
             "jp": "呪いの持続時間が(15-25)%増加する"
           },
           "group": [
-            5568
+            "BaseCurseDuration"
           ],
           "weight": 1,
           "stats": [
@@ -8417,7 +8422,7 @@
             "jp": "ダメージの(2-4)%をライフより先にマナで受ける"
           },
           "group": [
-            760
+            "DamageRemovedFromManaBeforeLife"
           ],
           "weight": 1,
           "stats": [
@@ -8467,7 +8472,7 @@
             "jp": "敵に付与したダメージ性状態異常の持続時間が(5-10)%増加する"
           },
           "group": [
-            5570
+            "DamagingAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -8517,7 +8522,7 @@
             "jp": "ヒット時に(5-10)%の確率で眩暈を付与する"
           },
           "group": [
-            5571
+            "DazeBuildup"
           ],
           "weight": 1,
           "stats": [
@@ -8567,7 +8572,7 @@
             "jp": "プレイヤーに対するデバフは(5-10)%速く消える"
           },
           "group": [
-            2690
+            "DebuffTime"
           ],
           "weight": 1,
           "stats": [
@@ -8617,7 +8622,7 @@
             "jp": "敵に付与した発火、感電および冷却の持続時間が(5-10)%増加する"
           },
           "group": [
-            5574
+            "ElementalAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -8667,7 +8672,7 @@
             "jp": "メタスキルの獲得エネルギーが(4-8)%増加する"
           },
           "group": [
-            5575
+            "Energy"
           ],
           "weight": 1,
           "stats": [
@@ -8717,7 +8722,7 @@
             "jp": "ダメージ性状態異常がダメージを与える速度が(3-7)%速くなる"
           },
           "group": [
-            4585
+            "FasterAilmentDamage"
           ],
           "weight": 1,
           "stats": [
@@ -8767,7 +8772,7 @@
             "jp": "獲得フラスコチャージが(5-10)%増加する"
           },
           "group": [
-            207
+            "BeltFlaskChargesGained"
           ],
           "weight": 1,
           "stats": [
@@ -8817,7 +8822,7 @@
             "jp": "フラスコ効果持続時間が(5-10)%増加する"
           },
           "group": [
-            125
+            "FlaskDuration"
           ],
           "weight": 1,
           "stats": [
@@ -8867,7 +8872,7 @@
             "jp": "投射物は分岐する時に(10-15)%の確率で追加の投射物を放つ"
           },
           "group": [
-            5580
+            "ForkingProjectiles"
           ],
           "weight": 1,
           "stats": [
@@ -8917,7 +8922,7 @@
             "jp": "凍結蓄積が(10-20)%増加する"
           },
           "group": [
-            5406
+            "FreezeDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -8967,7 +8972,7 @@
             "jp": "凍結閾値が(18-32)%増加する"
           },
           "group": [
-            5581
+            "FreezeThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -9017,7 +9022,7 @@
             "jp": "可燃性の強度が(10-20)%増加する"
           },
           "group": [
-            5402
+            "IgniteChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -9067,7 +9072,7 @@
             "jp": "スキル効果持続時間が(5-10)%増加する"
           },
           "group": [
-            573
+            "SkillEffectDuration"
           ],
           "weight": 1,
           "stats": [
@@ -9117,7 +9122,7 @@
             "jp": "ノックバック距離が(5-15)%増加する"
           },
           "group": [
-            13
+            "Knockback"
           ],
           "weight": 1,
           "stats": [
@@ -9167,7 +9172,7 @@
             "jp": "スキルのマナコストの(4-6)%がライフコストに変換される"
           },
           "group": [
-            5585
+            "LifeCost"
           ],
           "weight": 1,
           "stats": [
@@ -9217,7 +9222,7 @@
             "jp": "ライフフラスコの獲得チャージが(10-20)%増加する"
           },
           "group": [
-            5436
+            "FlaskChargeGenerationPercent"
           ],
           "weight": 1,
           "stats": [
@@ -9267,7 +9272,7 @@
             "jp": "フラスコによるライフ回復量が(5-15)%増加する"
           },
           "group": [
-            216
+            "FlaskLifeRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -9317,7 +9322,7 @@
             "jp": "ライフリーチ量が(5-15)%増加する"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -9367,7 +9372,7 @@
             "jp": "敵を倒した時にライフの(1-2)%を回復する"
           },
           "group": [
-            1745
+            "MaximumLifeOnKillPercent"
           ],
           "weight": 1,
           "stats": [
@@ -9417,7 +9422,7 @@
             "jp": "受けたダメージの(2-3)%をライフとして回収する"
           },
           "group": [
-            3531
+            "DamageTakenGainedAsLife"
           ],
           "weight": 1,
           "stats": [
@@ -9467,7 +9472,7 @@
             "jp": "ライフ自動回復レートが(5-10)%増加する"
           },
           "group": [
-            955
+            "LifeRegenerationRate"
           ],
           "weight": 1,
           "stats": [
@@ -9517,7 +9522,7 @@
             "jp": "メイスによるスタン蓄積が(15-25)%増加する"
           },
           "group": [
-            5586
+            "MaceStun"
           ],
           "weight": 1,
           "stats": [
@@ -9567,7 +9572,7 @@
             "jp": "獲得マナフラスコチャージが(10-20)%増加する"
           },
           "group": [
-            5436
+            "FlaskChargeGenerationPercent"
           ],
           "weight": 1,
           "stats": [
@@ -9617,7 +9622,7 @@
             "jp": "フラスコによるマナ回復量が(5-15)%増加する"
           },
           "group": [
-            217
+            "FlaskManaRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -9667,7 +9672,7 @@
             "jp": "マナリーチ量が(5-15)%増加する"
           },
           "group": [
-            5587
+            "ManaLeechAmount"
           ],
           "weight": 1,
           "stats": [
@@ -9717,7 +9722,7 @@
             "jp": "敵を倒した時にマナの(1-2)%を回復する"
           },
           "group": [
-            1538
+            "ManaGainedOnKillPercentage"
           ],
           "weight": 1,
           "stats": [
@@ -9767,7 +9772,7 @@
             "jp": "マナ自動回復レートが(5-15)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -9817,7 +9822,7 @@
             "jp": "呪印スキルのキャストスピードが(5-15)%増加する"
           },
           "group": [
-            1431
+            "CurseCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -9867,7 +9872,7 @@
             "jp": "呪印スキルのスキル効果持続時間が(18-32)%増加する"
           },
           "group": [
-            5588
+            "MarkDuration"
           ],
           "weight": 1,
           "stats": [
@@ -9917,7 +9922,7 @@
             "jp": "冷気耐性の最大値 1%"
           },
           "group": [
-            255
+            "MaximumColdResist"
           ],
           "weight": 1,
           "stats": [
@@ -9967,7 +9972,7 @@
             "jp": "火耐性の最大値 1%"
           },
           "group": [
-            569
+            "MaximumFireResist"
           ],
           "weight": 1,
           "stats": [
@@ -10017,7 +10022,7 @@
             "jp": "雷耐性の最大値 1%"
           },
           "group": [
-            1344
+            "MaximumLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10067,7 +10072,7 @@
             "jp": "ミニオンのアタックスピードおよびキャストスピードが(2-4)%増加する"
           },
           "group": [
-            2769
+            "MinionAttackSpeedAndCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -10117,7 +10122,7 @@
             "jp": "ミニオンの混沌耐性 (7-13)%"
           },
           "group": [
-            191
+            "MinionChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -10167,7 +10172,7 @@
             "jp": "ミニオンのクリティカルヒット率が(10-20)%増加する"
           },
           "group": [
-            4278
+            "MinionCriticalStrikeChance"
           ],
           "weight": 1,
           "stats": [
@@ -10217,7 +10222,7 @@
             "jp": "ミニオンのクリティカルダメージボーナスが(15-25)%増える"
           },
           "group": [
-            4602
+            "MinionCriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -10267,7 +10272,7 @@
             "jp": "ミニオンは(6-16)%の追加物理ダメージ軽減率を持つ"
           },
           "group": [
-            2226
+            "MinionPhysicalDamageReduction"
           ],
           "weight": 1,
           "stats": [
@@ -10317,7 +10322,7 @@
             "jp": "ミニオンの全ての元素耐性 (5-10)%"
           },
           "group": [
-            1452
+            "MinionElementalResistances"
           ],
           "weight": 1,
           "stats": [
@@ -10367,7 +10372,7 @@
             "jp": "移動スピードが(1-2)%増加する"
           },
           "group": [
-            64
+            "MovementVelocity"
           ],
           "weight": 1,
           "stats": [
@@ -10417,7 +10422,7 @@
             "jp": "オファリングスキルの持続時間が(15-25)%増加する"
           },
           "group": [
-            3627
+            "OfferingDuration"
           ],
           "weight": 1,
           "stats": [
@@ -10467,7 +10472,7 @@
             "jp": "パリィのデバフの持続時間が(10-15)%増加する"
           },
           "group": [
-            5428
+            "ParriedDebuff"
           ],
           "weight": 1,
           "stats": [
@@ -10517,7 +10522,7 @@
             "jp": "(10-20)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -10567,7 +10572,7 @@
             "jp": "足止め蓄積が(10-20)%増加する"
           },
           "group": [
-            5594
+            "PinBuildup"
           ],
           "weight": 1,
           "stats": [
@@ -10617,7 +10622,7 @@
             "jp": "ヒット時に(5-10)%の確率で毒を付与する"
           },
           "group": [
-            5405
+            "PoisonChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -10667,7 +10672,7 @@
             "jp": "毒持続時間が(5-10)%増加する"
           },
           "group": [
-            2050
+            "PoisonDuration"
           ],
           "weight": 1,
           "stats": [
@@ -10717,7 +10722,7 @@
             "jp": "クォータースタッフによる凍結蓄積が(10-20)%増加する"
           },
           "group": [
-            5596
+            "QuarterstaffFreezeBuildup"
           ],
           "weight": 1,
           "stats": [
@@ -10767,7 +10772,7 @@
             "jp": "クォータースタッフのアタックスピードが(2-4)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -10817,7 +10822,7 @@
             "jp": "状態異常を付与する確率が(3-7)%増加する"
           },
           "group": [
-            5423
+            "AilmentChance"
           ],
           "weight": 1,
           "stats": [
@@ -10867,7 +10872,7 @@
             "jp": "元素系状態異常閾値が(2-3)%増加する"
           },
           "group": [
-            5419
+            "AilmentThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -10917,7 +10922,7 @@
             "jp": "最大エナジーシールドの(1-2)%と同量の追加状態異常閾値を獲得する"
           },
           "group": [
-            5602
+            "AilmentThresholdfromEnergyShield"
           ],
           "weight": 1,
           "stats": [
@@ -10967,7 +10972,7 @@
             "jp": "アーマー破壊の持続時間が(5-10)%増加する"
           },
           "group": [
-            5555
+            "ArmourBreakDuration"
           ],
           "weight": 1,
           "stats": [
@@ -11017,7 +11022,7 @@
             "jp": "アタックのクリティカルヒット率が(3-7)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -11067,7 +11072,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(5-10)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -11117,7 +11122,7 @@
             "jp": "アタックスピードが(1-2)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -11167,7 +11172,7 @@
             "jp": "バナースキルの持続時間が(3-4)%増加する"
           },
           "group": [
-            5678
+            "BannerDuration"
           ],
           "weight": 1,
           "stats": [
@@ -11217,7 +11222,7 @@
             "jp": "バナースキルのグローリー生成量が(8-12)%増加する"
           },
           "group": [
-            5676
+            "BannerValourGained"
           ],
           "weight": 1,
           "stats": [
@@ -11267,7 +11272,7 @@
             "jp": "出血持続時間が(3-7)%増加する"
           },
           "group": [
-            2312
+            "BleedDuration"
           ],
           "weight": 1,
           "stats": [
@@ -11317,7 +11322,7 @@
             "jp": "アタックによるヒット時に1%の確率で敵を盲目にする"
           },
           "group": [
-            2748
+            "BlindOnHit"
           ],
           "weight": 1,
           "stats": [
@@ -11367,7 +11372,7 @@
             "jp": "弓のアタックスピードが(1-2)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -11417,7 +11422,7 @@
             "jp": "キャストスピードが(1-2)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -11467,7 +11472,7 @@
             "jp": "投射物は(1-2)%の確率で地形から追加で1回連鎖する"
           },
           "group": [
-            5557
+            "ChainFromTerrain"
           ],
           "weight": 1,
           "stats": [
@@ -11517,7 +11522,7 @@
             "jp": "チャームの獲得チャージが(3-7)%増加する"
           },
           "group": [
-            5559
+            "CharmChargesGained"
           ],
           "weight": 1,
           "stats": [
@@ -11567,7 +11572,7 @@
             "jp": "チャームの効果持続時間が(1-2)%増加する"
           },
           "group": [
-            5558
+            "CharmDuration"
           ],
           "weight": 1,
           "stats": [
@@ -11617,7 +11622,7 @@
             "jp": "敵に対する冷却の持続時間が(6-12)%増加する"
           },
           "group": [
-            225
+            "IncreasedChillDuration"
           ],
           "weight": 1,
           "stats": [
@@ -11667,7 +11672,7 @@
             "jp": "クールダウン解消レートが(1-3)%増加する"
           },
           "group": [
-            2689
+            "CooldownRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -11717,7 +11722,7 @@
             "jp": "クリティカルヒット率が(3-7)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -11767,7 +11772,7 @@
             "jp": "クリティカルダメージボーナスが(5-10)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -11817,7 +11822,7 @@
             "jp": "クロスボウのリロードスピードが(5-7)%増加する"
           },
           "group": [
-            5565
+            "CrossbowReloadSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -11867,7 +11872,7 @@
             "jp": "クロスボウのアタックスピードが(1-2)%増加する"
           },
           "group": [
-            5566
+            "CrossbowSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -11917,7 +11922,7 @@
             "jp": "呪いの持続時間が(2-4)%増加する"
           },
           "group": [
-            5568
+            "BaseCurseDuration"
           ],
           "weight": 1,
           "stats": [
@@ -11967,7 +11972,7 @@
             "jp": "ダメージの1%をライフより先にマナで受ける"
           },
           "group": [
-            760
+            "DamageRemovedFromManaBeforeLife"
           ],
           "weight": 1,
           "stats": [
@@ -12017,7 +12022,7 @@
             "jp": "敵に付与したダメージ性状態異常の持続時間が(3-5)%増加する"
           },
           "group": [
-            5570
+            "DamagingAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -12067,7 +12072,7 @@
             "jp": "ヒット時に1%の確率で眩暈を付与する"
           },
           "group": [
-            5571
+            "DazeBuildup"
           ],
           "weight": 1,
           "stats": [
@@ -12117,7 +12122,7 @@
             "jp": "プレイヤーに対するデバフは(3-5)%速く消える"
           },
           "group": [
-            2690
+            "DebuffTime"
           ],
           "weight": 1,
           "stats": [
@@ -12167,7 +12172,7 @@
             "jp": "敵に付与した発火、感電および冷却の持続時間が(3-5)%増加する"
           },
           "group": [
-            5574
+            "ElementalAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -12217,7 +12222,7 @@
             "jp": "メタスキルの獲得エネルギーが(2-4)%増加する"
           },
           "group": [
-            5575
+            "Energy"
           ],
           "weight": 1,
           "stats": [
@@ -12267,7 +12272,7 @@
             "jp": "ダメージ性状態異常がダメージを与える速度が(2-3)%速くなる"
           },
           "group": [
-            4585
+            "FasterAilmentDamage"
           ],
           "weight": 1,
           "stats": [
@@ -12317,7 +12322,7 @@
             "jp": "獲得フラスコチャージが(3-5)%増加する"
           },
           "group": [
-            207
+            "BeltFlaskChargesGained"
           ],
           "weight": 1,
           "stats": [
@@ -12367,7 +12372,7 @@
             "jp": "フラスコ効果持続時間が(1-2)%増加する"
           },
           "group": [
-            125
+            "FlaskDuration"
           ],
           "weight": 1,
           "stats": [
@@ -12417,7 +12422,7 @@
             "jp": "投射物は分岐する時に(5-7)%の確率で追加の投射物を放つ"
           },
           "group": [
-            5580
+            "ForkingProjectiles"
           ],
           "weight": 1,
           "stats": [
@@ -12467,7 +12472,7 @@
             "jp": "凍結蓄積が(5-10)%増加する"
           },
           "group": [
-            5406
+            "FreezeDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -12517,7 +12522,7 @@
             "jp": "凍結閾値が(2-4)%増加する"
           },
           "group": [
-            5581
+            "FreezeThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -12567,7 +12572,7 @@
             "jp": "可燃性の強度が(2-3)%増加する"
           },
           "group": [
-            5402
+            "IgniteChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -12617,7 +12622,7 @@
             "jp": "スキル効果持続時間が(3-5)%増加する"
           },
           "group": [
-            573
+            "SkillEffectDuration"
           ],
           "weight": 1,
           "stats": [
@@ -12667,7 +12672,7 @@
             "jp": "ノックバック距離が(3-7)%増加する"
           },
           "group": [
-            13
+            "Knockback"
           ],
           "weight": 1,
           "stats": [
@@ -12717,7 +12722,7 @@
             "jp": "スキルのマナコストの(2-3)%がライフコストに変換される"
           },
           "group": [
-            5585
+            "LifeCost"
           ],
           "weight": 1,
           "stats": [
@@ -12767,7 +12772,7 @@
             "jp": "ライフフラスコの獲得チャージが(5-10)%増加する"
           },
           "group": [
-            5436
+            "FlaskChargeGenerationPercent"
           ],
           "weight": 1,
           "stats": [
@@ -12817,7 +12822,7 @@
             "jp": "フラスコによるライフ回復量が(2-3)%増加する"
           },
           "group": [
-            216
+            "FlaskLifeRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -12867,7 +12872,7 @@
             "jp": "ライフリーチ量が(2-3)%増加する"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -12917,7 +12922,7 @@
             "jp": "敵を倒した時にライフの1%を回復する"
           },
           "group": [
-            1745
+            "MaximumLifeOnKillPercent"
           ],
           "weight": 1,
           "stats": [
@@ -12967,7 +12972,7 @@
             "jp": "受けたダメージの1%をライフとして回収する"
           },
           "group": [
-            3531
+            "DamageTakenGainedAsLife"
           ],
           "weight": 1,
           "stats": [
@@ -13017,7 +13022,7 @@
             "jp": "ライフ自動回復レートが(3-5)%増加する"
           },
           "group": [
-            955
+            "LifeRegenerationRate"
           ],
           "weight": 1,
           "stats": [
@@ -13067,7 +13072,7 @@
             "jp": "メイスによるスタン蓄積が(6-12)%増加する"
           },
           "group": [
-            5586
+            "MaceStun"
           ],
           "weight": 1,
           "stats": [
@@ -13117,7 +13122,7 @@
             "jp": "獲得マナフラスコチャージが(5-10)%増加する"
           },
           "group": [
-            5436
+            "FlaskChargeGenerationPercent"
           ],
           "weight": 1,
           "stats": [
@@ -13167,7 +13172,7 @@
             "jp": "フラスコによるマナ回復量が(1-2)%増加する"
           },
           "group": [
-            217
+            "FlaskManaRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -13217,7 +13222,7 @@
             "jp": "マナリーチ量が(1-2)%増加する"
           },
           "group": [
-            5587
+            "ManaLeechAmount"
           ],
           "weight": 1,
           "stats": [
@@ -13267,7 +13272,7 @@
             "jp": "敵を倒した時にマナの1%を回復する"
           },
           "group": [
-            1538
+            "ManaGainedOnKillPercentage"
           ],
           "weight": 1,
           "stats": [
@@ -13317,7 +13322,7 @@
             "jp": "マナ自動回復レートが(1-2)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -13367,7 +13372,7 @@
             "jp": "呪印スキルのキャストスピードが(2-3)%増加する"
           },
           "group": [
-            1431
+            "CurseCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -13417,7 +13422,7 @@
             "jp": "呪印スキルのスキル効果持続時間が(3-4)%増加する"
           },
           "group": [
-            5588
+            "MarkDuration"
           ],
           "weight": 1,
           "stats": [
@@ -13467,7 +13472,7 @@
             "jp": "ミニオンのアタックスピードおよびキャストスピードが(1-2)%増加する"
           },
           "group": [
-            2769
+            "MinionAttackSpeedAndCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -13517,7 +13522,7 @@
             "jp": "ミニオンの混沌耐性 (1-2)%"
           },
           "group": [
-            191
+            "MinionChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -13567,7 +13572,7 @@
             "jp": "ミニオンのクリティカルヒット率が(5-10)%増加する"
           },
           "group": [
-            4278
+            "MinionCriticalStrikeChance"
           ],
           "weight": 1,
           "stats": [
@@ -13617,7 +13622,7 @@
             "jp": "ミニオンのクリティカルダメージボーナスが(6-12)%増える"
           },
           "group": [
-            4602
+            "MinionCriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -13667,7 +13672,7 @@
             "jp": "ミニオンは(1-2)%の追加物理ダメージ軽減率を持つ"
           },
           "group": [
-            2226
+            "MinionPhysicalDamageReduction"
           ],
           "weight": 1,
           "stats": [
@@ -13717,7 +13722,7 @@
             "jp": "ミニオンの全ての元素耐性 (1-2)%"
           },
           "group": [
-            1452
+            "MinionElementalResistances"
           ],
           "weight": 1,
           "stats": [
@@ -13767,7 +13772,7 @@
             "jp": "移動スピードが1%増加する"
           },
           "group": [
-            64
+            "MovementVelocity"
           ],
           "weight": 1,
           "stats": [
@@ -13817,7 +13822,7 @@
             "jp": "範囲内のノータブルパッシブスキルの効果が(15-25)%増加する"
           },
           "group": [
-            5644
+            "JewelRadiusNotableEffect"
           ],
           "weight": 1,
           "stats": [
@@ -13867,7 +13872,7 @@
             "jp": "オファリングスキルの持続時間が(6-12)%増加する"
           },
           "group": [
-            3627
+            "OfferingDuration"
           ],
           "weight": 1,
           "stats": [
@@ -13917,7 +13922,7 @@
             "jp": "パリィのデバフの持続時間が(5-10)%増加する"
           },
           "group": [
-            5428
+            "ParriedDebuff"
           ],
           "weight": 1,
           "stats": [
@@ -13967,7 +13972,7 @@
             "jp": "(5-10)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -14017,7 +14022,7 @@
             "jp": "足止め蓄積が(5-10)%増加する"
           },
           "group": [
-            5594
+            "PinBuildup"
           ],
           "weight": 1,
           "stats": [
@@ -14067,7 +14072,7 @@
             "jp": "ヒット時に1%の確率で毒を付与する"
           },
           "group": [
-            5405
+            "PoisonChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -14117,7 +14122,7 @@
             "jp": "毒持続時間が(3-7)%増加する"
           },
           "group": [
-            2050
+            "PoisonDuration"
           ],
           "weight": 1,
           "stats": [
@@ -14167,7 +14172,7 @@
             "jp": "クォータースタッフによる凍結蓄積が(5-10)%増加する"
           },
           "group": [
-            5596
+            "QuarterstaffFreezeBuildup"
           ],
           "weight": 1,
           "stats": [
@@ -14217,7 +14222,7 @@
             "jp": "クォータースタッフのアタックスピードが(1-2)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -14267,7 +14272,7 @@
             "jp": "近接ヒット時に憤怒を1獲得する"
           },
           "group": [
-            4692
+            "RageOnHit"
           ],
           "weight": 1,
           "stats": [
@@ -14317,7 +14322,7 @@
             "jp": "敵によるヒットを受けた時に憤怒を(1-2)獲得する"
           },
           "group": [
-            5418
+            "GainRage"
           ],
           "weight": 1,
           "stats": [
@@ -14367,7 +14372,7 @@
             "jp": "シェープシフト状態の間スキルスピードが(1-2)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -14417,7 +14422,7 @@
             "jp": "感電付与確率が(2-3)%増加する"
           },
           "group": [
-            5403
+            "ShockChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -14467,7 +14472,7 @@
             "jp": "感電持続時間が(2-3)%増加する"
           },
           "group": [
-            601
+            "ShockDuration"
           ],
           "weight": 1,
           "stats": [
@@ -14517,7 +14522,7 @@
             "jp": "プレイヤーに対する減速のデバフのポテンシャルが(-5--2)%減少する"
           },
           "group": [
-            5439
+            "SlowPotency"
           ],
           "weight": 1,
           "stats": [
@@ -14567,7 +14572,7 @@
             "jp": "範囲内のスモールパッシブスキルの効果が(15-25)%増加する"
           },
           "group": [
-            5643
+            "JewelRadiusSmallNodeEffect"
           ],
           "weight": 1,
           "stats": [
@@ -14617,7 +14622,7 @@
             "jp": "スピアのアタックスピードが(1-2)%増加する"
           },
           "group": [
-            5598
+            "SpearAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -14667,7 +14672,7 @@
             "jp": "スピアのクリティカルダメージボーナスが(5-10)%増加する"
           },
           "group": [
-            5599
+            "SpearCriticalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -14717,7 +14722,7 @@
             "jp": "スペルのクリティカルヒット率が(3-7)%増加する"
           },
           "group": [
-            102
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -14767,7 +14772,7 @@
             "jp": "スペルクリティカルダメージボーナスが(5-10)%増加する"
           },
           "group": [
-            1449
+            "FormCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -14817,7 +14822,7 @@
             "jp": "スタン蓄積が(5-10)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -14867,7 +14872,7 @@
             "jp": "スタン閾値が(1-2)%増加する"
           },
           "group": [
-            1696
+            "IncreasedStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -14917,7 +14922,7 @@
             "jp": "パリィしている間スタン閾値が(8-12)%増加する"
           },
           "group": [
-            5668
+            "StunThresholdDuringParry"
           ],
           "weight": 1,
           "stats": [
@@ -14967,7 +14972,7 @@
             "jp": "最大エナジーシールドの(1-2)%と同量の追加スタン閾値を獲得する"
           },
           "group": [
-            5601
+            "StunThresholdfromEnergyShield"
           ],
           "weight": 1,
           "stats": [
@@ -15017,7 +15022,7 @@
             "jp": "直近プレイヤーがスタンを受けていなければスタン閾値が(2-3)%増加する"
           },
           "group": [
-            1697
+            "IncreasedStunThresholdIfNoRecentStun"
           ],
           "weight": 1,
           "stats": [
@@ -15067,7 +15072,7 @@
             "jp": "トーテム設置スピードが(2-3)%増加する"
           },
           "group": [
-            1551
+            "SummonTotemCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -15117,7 +15122,7 @@
             "jp": "ウォークライクールダウン解消レートが(3-7)%増加する"
           },
           "group": [
-            2378
+            "WarcryCooldownSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -15167,7 +15172,7 @@
             "jp": "ウォークライスピードが(2-3)%増加する"
           },
           "group": [
-            3829
+            "WarcrySpeed"
           ],
           "weight": 1,
           "stats": [
@@ -15217,7 +15222,7 @@
             "jp": "近接ヒット時に憤怒を1獲得する"
           },
           "group": [
-            4692
+            "RageOnHit"
           ],
           "weight": 1,
           "stats": [
@@ -15267,7 +15272,7 @@
             "jp": "敵によるヒットを受けた時に憤怒を(1-3)獲得する"
           },
           "group": [
-            5418
+            "GainRage"
           ],
           "weight": 1,
           "stats": [
@@ -15317,7 +15322,7 @@
             "jp": "シェープシフト状態の間スキルスピードが(2-4)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -15367,7 +15372,7 @@
             "jp": "感電付与確率が(10-20)%増加する"
           },
           "group": [
-            5403
+            "ShockChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -15417,7 +15422,7 @@
             "jp": "感電持続時間が(15-25)%増加する"
           },
           "group": [
-            601
+            "ShockDuration"
           ],
           "weight": 1,
           "stats": [
@@ -15467,7 +15472,7 @@
             "jp": "プレイヤーに対する減速のデバフのポテンシャルが(-10--5)%減少する"
           },
           "group": [
-            5439
+            "SlowPotency"
           ],
           "weight": 1,
           "stats": [
@@ -15517,7 +15522,7 @@
             "jp": "スピアのアタックスピードが(2-4)%増加する"
           },
           "group": [
-            5598
+            "SpearAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -15567,7 +15572,7 @@
             "jp": "スピアのクリティカルダメージボーナスが(10-20)%増加する"
           },
           "group": [
-            5599
+            "SpearCriticalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -15617,7 +15622,7 @@
             "jp": "スペルのクリティカルヒット率が(5-15)%増加する"
           },
           "group": [
-            102
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -15667,7 +15672,7 @@
             "jp": "スペルクリティカルダメージボーナスが(10-20)%増加する"
           },
           "group": [
-            1449
+            "FormCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -15717,7 +15722,7 @@
             "jp": "スタン蓄積が(10-20)%増加する"
           },
           "group": [
-            5407
+            "StunDamageIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -15767,7 +15772,7 @@
             "jp": "スタン閾値が(6-16)%増加する"
           },
           "group": [
-            1696
+            "IncreasedStunThreshold"
           ],
           "weight": 1,
           "stats": [
@@ -15817,7 +15822,7 @@
             "jp": "パリィしている間スタン閾値が(15-25)%増加する"
           },
           "group": [
-            5668
+            "StunThresholdDuringParry"
           ],
           "weight": 1,
           "stats": [
@@ -15867,7 +15872,7 @@
             "jp": "最大エナジーシールドの(5-15)%と同量の追加スタン閾値を獲得する"
           },
           "group": [
-            5601
+            "StunThresholdfromEnergyShield"
           ],
           "weight": 1,
           "stats": [
@@ -15917,7 +15922,7 @@
             "jp": "直近プレイヤーがスタンを受けていなければスタン閾値が(15-25)%増加する"
           },
           "group": [
-            1697
+            "IncreasedStunThresholdIfNoRecentStun"
           ],
           "weight": 1,
           "stats": [
@@ -15967,7 +15972,7 @@
             "jp": "トーテム設置スピードが(10-20)%増加する"
           },
           "group": [
-            1551
+            "SummonTotemCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -16017,7 +16022,7 @@
             "jp": "ウォークライクールダウン解消レートが(5-15)%増加する"
           },
           "group": [
-            2378
+            "WarcryCooldownSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -16067,7 +16072,7 @@
             "jp": "ウォークライスピードが(10-20)%増加する"
           },
           "group": [
-            3829
+            "WarcrySpeed"
           ],
           "weight": 1,
           "stats": [
@@ -16121,7 +16126,7 @@
             "jp": "盲目になることがない"
           },
           "group": [
-            1207
+            "ImmunityToBlind"
           ],
           "weight": 1,
           "stats": [
@@ -16171,7 +16176,7 @@
             "jp": "混沌耐性 (3-7)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -16221,7 +16226,7 @@
             "jp": "冷気耐性 (5-10)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -16271,7 +16276,7 @@
             "jp": "穢れた血を付与されることがなくなる"
           },
           "group": [
-            3157
+            "CorruptedBlood"
           ],
           "weight": 1,
           "stats": [
@@ -16321,7 +16326,7 @@
             "jp": "器用さ (4-6)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -16371,7 +16376,7 @@
             "jp": "火耐性 (5-10)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -16421,7 +16426,7 @@
             "jp": "プレイヤーは阻害を受けることがない"
           },
           "group": [
-            2686
+            "YouCannotBeHindered"
           ],
           "weight": 1,
           "stats": [
@@ -16471,7 +16476,7 @@
             "jp": "知性 (4-6)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -16521,7 +16526,7 @@
             "jp": "雷耐性 (5-10)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -16571,7 +16576,7 @@
             "jp": "重傷に対する完全耐性を獲得する"
           },
           "group": [
-            2687
+            "ImmuneToMaim"
           ],
           "weight": 1,
           "stats": [
@@ -16621,7 +16626,7 @@
             "jp": "筋力 (4-6)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -16648,6 +16653,2833 @@
         }
       ],
       "suffix": []
+    },
+    "desecrated": {
+      "prefix": [
+        {
+          "id": "AbyssModJewelPrefixAbyssalWastingEffect",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(10-20)% increased Magnitude of Abyssal Wasting you inflict",
+            "kr": "플레이어가 유발하는 심연의 소진의 강도 (10-20)% 증가",
+            "tw": "你造成深淵耗損時，增加(10-20)%其幅度",
+            "ru": "(10-20)% увеличение силы накладываемого вамиИстощения Бездны",
+            "jp": "プレイヤーが付与するアビスの消耗の強度が(10-20)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "abyssal_wasting_effect_+%",
+                  "valueRange": [
+                    10,
+                    20
+                  ]
+                }
+              ],
+              "value": "10~20",
+              "text": {
+                "en": "(10-20)% increased Magnitude of Abyssal Wasting you inflict",
+                "kr": "플레이어가 유발하는 심연의 소진의 강도 (10-20)% 증가",
+                "tw": "你造成深淵耗損時，增加(10-20)%其幅度",
+                "ru": "(10-20)% увеличение силы накладываемого вамиИстощения Бездны",
+                "jp": "プレイヤーが付与するアビスの消耗の強度が(10-20)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixAttackDamageArmour",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Armour\n(4-8)% increased Attack Damage",
+            "kr": "방어도 (5-10)% 증가\n공격 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%護甲值\n增加(4-8)%攻擊傷害",
+            "ru": "(5-10)% повышение брони\n(4-8)% увеличение урона от атак",
+            "jp": "アーマーが(5-10)%増加する\nアタックダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Armour",
+                "kr": "방어도 (5-10)% 증가",
+                "tw": "增加(5-10)%護甲值",
+                "ru": "(5-10)% повышение брони",
+                "jp": "アーマーが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "attack_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Attack Damage",
+                "kr": "공격 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%攻擊傷害",
+                "ru": "(4-8)% увеличение урона от атак",
+                "jp": "アタックダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixAttackDamageEnergyShield",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased maximum Energy Shield\n(4-8)% increased Attack Damage",
+            "kr": "에너지 보호막 최대치 (5-10)% 증가\n공격 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%最大能量護盾\n增加(4-8)%攻擊傷害",
+            "ru": "(5-10)% увеличение максимума энергетического щита\n(4-8)% увеличение урона от атак",
+            "jp": "最大エナジーシールドが(5-10)%増加する\nアタックダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_energy_shield_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased maximum Energy Shield",
+                "kr": "에너지 보호막 최대치 (5-10)% 증가",
+                "tw": "增加(5-10)%最大能量護盾",
+                "ru": "(5-10)% увеличение максимума энергетического щита",
+                "jp": "最大エナジーシールドが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "attack_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Attack Damage",
+                "kr": "공격 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%攻擊傷害",
+                "ru": "(4-8)% увеличение урона от атак",
+                "jp": "アタックダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixAttackDamageEvasion",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Evasion Rating\n(4-8)% increased Attack Damage",
+            "kr": "회피 (5-10)% 증가\n공격 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%閃避值\n增加(4-8)%攻擊傷害",
+            "ru": "(5-10)% увеличение уклонения\n(4-8)% увеличение урона от атак",
+            "jp": "回避力が(5-10)%増加する\nアタックダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "evasion_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Evasion Rating",
+                "kr": "회피 (5-10)% 증가",
+                "tw": "增加(5-10)%閃避值",
+                "ru": "(5-10)% увеличение уклонения",
+                "jp": "回避力が(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "attack_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Attack Damage",
+                "kr": "공격 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%攻擊傷害",
+                "ru": "(4-8)% увеличение урона от атак",
+                "jp": "アタックダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixAuraSkillEffectPresenceAreaOfEffect",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              4
+            ],
+            [
+              8,
+              15
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Aura Skills have (2-4)% increased Magnitudes\n(8-15)% increased Presence Area of Effect",
+            "kr": "오라 스킬의 강도 (2-4)% 증가\n접근 효과 범위 (8-15)% 증가",
+            "tw": "光環技能增加(2-4)%幅度\n增加(8-15)%存在範圍的範圍效果",
+            "ru": "(2-4)% увеличение силы умений аур\n(8-15)% увеличение области действия присутствия",
+            "jp": "オーラスキルは強度が(2-4)%増加する\n存在下の効果範囲が(8-15)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "aura_effect_+%",
+                  "valueRange": [
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "value": "2~4",
+              "text": {
+                "en": "Aura Skills have (2-4)% increased Magnitudes",
+                "kr": "오라 스킬의 강도 (2-4)% 증가",
+                "tw": "光環技能增加(2-4)%幅度",
+                "ru": "(2-4)% увеличение силы умений аур",
+                "jp": "オーラスキルは強度が(2-4)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "presence_area_+%",
+                  "valueRange": [
+                    8,
+                    15
+                  ]
+                }
+              ],
+              "value": "8~15",
+              "text": {
+                "en": "(8-15)% increased Presence Area of Effect",
+                "kr": "접근 효과 범위 (8-15)% 증가",
+                "tw": "增加(8-15)%存在範圍的範圍效果",
+                "ru": "(8-15)% увеличение области действия присутствия",
+                "jp": "存在下の効果範囲が(8-15)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixBleedChanceAndMagnitude",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              15,
+              15
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "15% increased chance to inflict Bleeding\n(5-10)% increased Magnitude of Bleeding you inflict",
+            "kr": "출혈 유발 확률 15% 증가\n플레이어가 유발하는 출혈의 강도 (5-10)% 증가",
+            "tw": "增加15%造成流血的機率\n增加(5-10)%你所施加之流血的幅度",
+            "ru": "15% увеличение шанса наложения кровотечения\n(5-10)% увеличение силы накладываемого вами кровотечения",
+            "jp": "出血付与確率が15%増加する\nプレイヤーが付与した出血の強度が(5-10)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "bleed_chance_+%",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "15% increased chance to inflict Bleeding",
+                "kr": "출혈 유발 확률 15% 증가",
+                "tw": "增加15%造成流血的機率",
+                "ru": "15% увеличение шанса наложения кровотечения",
+                "jp": "出血付与確率が15%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "base_bleeding_effect_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Magnitude of Bleeding you inflict",
+                "kr": "플레이어가 유발하는 출혈의 강도 (5-10)% 증가",
+                "tw": "增加(5-10)%你所施加之流血的幅度",
+                "ru": "(5-10)% увеличение силы накладываемого вами кровотечения",
+                "jp": "プレイヤーが付与した出血の強度が(5-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixChaosDamageWitherEffect",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Chaos Damage\n(3-6)% increased Withered Magnitude",
+            "kr": "카오스 피해 (4-8)% 증가\n위축 강도 (3-6)% 증가",
+            "tw": "增加(4-8)%混沌傷害\n增加(3-6)%凋零幅度",
+            "ru": "(4-8)% увеличение урона хаосом\n(3-6)% увеличение силы истощения",
+            "jp": "混沌ダメージが(4-8)%増加する\n衰弱の強度が(3-6)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "chaos_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Chaos Damage",
+                "kr": "카오스 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%混沌傷害",
+                "ru": "(4-8)% увеличение урона хаосом",
+                "jp": "混沌ダメージが(4-8)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "withered_magnitude_+%",
+                  "valueRange": [
+                    3,
+                    6
+                  ]
+                }
+              ],
+              "value": "3~6",
+              "text": {
+                "en": "(3-6)% increased Withered Magnitude",
+                "kr": "위축 강도 (3-6)% 증가",
+                "tw": "增加(3-6)%凋零幅度",
+                "ru": "(3-6)% увеличение силы истощения",
+                "jp": "衰弱の強度が(3-6)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixColdDamageAndPen",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Cold Damage\nDamage Penetrates (4-7)% Cold Resistance",
+            "kr": "냉기 피해 (4-8)% 증가\n피해가 냉기 저항 (4-7)% 관통",
+            "tw": "增加(4-8)%冰冷傷害\n傷害穿透(4-7)%冰冷抗性",
+            "ru": "(4-8)% увеличение урона от холода\nУрон пробивает (4-7)% сопротивления холоду",
+            "jp": "冷気ダメージが(4-8)%増加する\nダメージは(4-7)%の冷気耐性を貫通する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Cold Damage",
+                "kr": "냉기 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%冰冷傷害",
+                "ru": "(4-8)% увеличение урона от холода",
+                "jp": "冷気ダメージが(4-8)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "base_reduce_enemy_cold_resistance_%",
+                  "valueRange": [
+                    4,
+                    7
+                  ]
+                }
+              ],
+              "value": "4~7",
+              "text": {
+                "en": "Damage Penetrates (4-7)% Cold Resistance",
+                "kr": "피해가 냉기 저항 (4-7)% 관통",
+                "tw": "傷害穿透(4-7)%冰冷抗性",
+                "ru": "Урон пробивает (4-7)% сопротивления холоду",
+                "jp": "ダメージは(4-7)%の冷気耐性を貫通する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixCompanionLifeAndDamage",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Companions have (5-10)% increased maximum Life\nCompanions deal (5-10)% increased Damage",
+            "kr": "반려수의 최대 생명력 (5-10)% 증가\n반려수가 주는 피해 (5-10)% 증가",
+            "tw": "增加(5-10)%盟友的最大生命\n增加(5-10)%盟友造成的傷害",
+            "ru": "(5-10)% увеличение максимума здоровья компаньонов\nКомпаньоны наносят увеличенный на (5-10)% урон",
+            "jp": "コンパニオンの最大ライフが(5-10)%増加する\nコンパニオンのダメージが(5-10)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "companion_maximum_life_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "Companions have (5-10)% increased maximum Life",
+                "kr": "반려수의 최대 생명력 (5-10)% 증가",
+                "tw": "增加(5-10)%盟友的最大生命",
+                "ru": "(5-10)% увеличение максимума здоровья компаньонов",
+                "jp": "コンパニオンの最大ライフが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "companion_damage_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "Companions deal (5-10)% increased Damage",
+                "kr": "반려수가 주는 피해 (5-10)% 증가",
+                "tw": "增加(5-10)%盟友造成的傷害",
+                "ru": "Компаньоны наносят увеличенный на (5-10)% урон",
+                "jp": "コンパニオンのダメージが(5-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixElementalDamageAilmentMagnitude",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Elemental Damage\n(4-8)% increased Magnitude of Ailments you inflict",
+            "kr": "원소 피해 (4-8)% 증가\n플레이어가 유발하는 상태 이상의 강도 (4-8)% 증가",
+            "tw": "增加(4-8)%元素傷害\n增加(4-8)%你所施加之異常狀態的幅度",
+            "ru": "(4-8)% увеличение урона от стихий\n(4-8)% увеличение силы накладываемых вами состояний",
+            "jp": "元素ダメージが(4-8)%増加する\nプレイヤーが付与した状態異常の強度が(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "elemental_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Elemental Damage",
+                "kr": "원소 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%元素傷害",
+                "ru": "(4-8)% увеличение урона от стихий",
+                "jp": "元素ダメージが(4-8)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "ailment_effect_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Magnitude of Ailments you inflict",
+                "kr": "플레이어가 유발하는 상태 이상의 강도 (4-8)% 증가",
+                "tw": "增加(4-8)%你所施加之異常狀態的幅度",
+                "ru": "(4-8)% увеличение силы накладываемых вами состояний",
+                "jp": "プレイヤーが付与した状態異常の強度が(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixElementalExposureEffect",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Exposure Effect",
+            "kr": "노출 효과 (4-8)% 증가",
+            "tw": "增加(4-8)%曝曬效果",
+            "ru": "(4-8)% усиление эффекта восприимчивости",
+            "jp": "曝露の効果が(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "exposure_effect_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Exposure Effect",
+                "kr": "노출 효과 (4-8)% 증가",
+                "tw": "增加(4-8)%曝曬效果",
+                "ru": "(4-8)% усиление эффекта восприимчивости",
+                "jp": "曝露の効果が(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixFireDamageAndPen",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Fire Damage\nDamage Penetrates (4-7)% Fire Resistance",
+            "kr": "화염 피해 (4-8)% 증가\n피해가 화염 저항 (4-7)% 관통",
+            "tw": "增加(4-8)%火焰傷害\n傷害穿透(4-7)%火焰抗性",
+            "ru": "(4-8)% увеличение урона от огня\nУрон пробивает (4-7)% сопротивления огню",
+            "jp": "火ダメージが(4-8)%増加する\nダメージは(4-7)%の火耐性を貫通する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Fire Damage",
+                "kr": "화염 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%火焰傷害",
+                "ru": "(4-8)% увеличение урона от огня",
+                "jp": "火ダメージが(4-8)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "base_reduce_enemy_fire_resistance_%",
+                  "valueRange": [
+                    4,
+                    7
+                  ]
+                }
+              ],
+              "value": "4~7",
+              "text": {
+                "en": "Damage Penetrates (4-7)% Fire Resistance",
+                "kr": "피해가 화염 저항 (4-7)% 관통",
+                "tw": "傷害穿透(4-7)%火焰抗性",
+                "ru": "Урон пробивает (4-7)% сопротивления огню",
+                "jp": "ダメージは(4-7)%の火耐性を貫通する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixGlobalPhysicalDamageArmourBreak",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Global Physical Damage\nBreak (4-8)% increased Armour",
+            "kr": "일반 물리 피해 (4-8)% 증가\n파괴되는 방어구 (4-8)% 증가",
+            "tw": "增加(4-8)%全域物理傷害\n增加(4-8)%護甲值破壞",
+            "ru": "(4-8)% увеличение глобального физического урона\n(4-8)% увеличение количества разрушаемой брони",
+            "jp": "グローバル物理ダメージが(4-8)%増加する\nアーマー破壊するアーマー量が(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Global Physical Damage",
+                "kr": "일반 물리 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%全域物理傷害",
+                "ru": "(4-8)% увеличение глобального физического урона",
+                "jp": "グローバル物理ダメージが(4-8)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "armour_break_amount_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "Break (4-8)% increased Armour",
+                "kr": "파괴되는 방어구 (4-8)% 증가",
+                "tw": "增加(4-8)%護甲值破壞",
+                "ru": "(4-8)% увеличение количества разрушаемой брони",
+                "jp": "アーマー破壊するアーマー量が(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixLightningDamageAndPen",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Lightning Damage\nDamage Penetrates (4-7)% Lightning Resistance",
+            "kr": "번개 피해 (4-8)% 증가\n피해가 번개 저항 (4-7)% 관통",
+            "tw": "增加(4-8)%閃電傷害\n傷害穿透(4-7)%閃電抗性",
+            "ru": "(4-8)% увеличение урона от молнии\nУрон пробивает (4-7)% сопротивления молнии",
+            "jp": "雷ダメージが(4-8)%増加する\nダメージは(4-7)%の雷耐性を貫通する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "lightning_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Lightning Damage",
+                "kr": "번개 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%閃電傷害",
+                "ru": "(4-8)% увеличение урона от молнии",
+                "jp": "雷ダメージが(4-8)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "base_reduce_enemy_lightning_resistance_%",
+                  "valueRange": [
+                    4,
+                    7
+                  ]
+                }
+              ],
+              "value": "4~7",
+              "text": {
+                "en": "Damage Penetrates (4-7)% Lightning Resistance",
+                "kr": "피해가 번개 저항 (4-7)% 관통",
+                "tw": "傷害穿透(4-7)%閃電抗性",
+                "ru": "Урон пробивает (4-7)% сопротивления молнии",
+                "jp": "ダメージは(4-7)%の雷耐性を貫通する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixMinionAreaAndLife",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Minions have (4-8)% increased maximum Life",
+            "kr": "소환수 최대 생명력 (4-8)% 증가",
+            "tw": "召喚物增加(4-8)%最大生命",
+            "ru": "Приспешники имеют (4-8)% увеличение максимума здоровья",
+            "jp": "ミニオンの最大ライフが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "minion_area_of_effect_+%",
+                  "valueRange": [
+                    3,
+                    6
+                  ]
+                }
+              ],
+              "value": "3~6",
+              "text": {
+                "en": null,
+                "kr": null,
+                "tw": null,
+                "ru": null,
+                "jp": null
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "minion_maximum_life_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "Minions have (4-8)% increased maximum Life",
+                "kr": "소환수 최대 생명력 (4-8)% 증가",
+                "tw": "召喚物增加(4-8)%最大生命",
+                "ru": "Приспешники имеют (4-8)% увеличение максимума здоровья",
+                "jp": "ミニオンの最大ライフが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixMinionDamageArmour",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Armour\nMinions deal (4-8)% increased Damage",
+            "kr": "방어도 (5-10)% 증가\n소환수가 주는 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%護甲值\n增加(4-8)%召喚物造成的傷害",
+            "ru": "(5-10)% повышение брони\nПриспешники имеют (4-8)% увеличение урона",
+            "jp": "アーマーが(5-10)%増加する\nミニオンのダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Armour",
+                "kr": "방어도 (5-10)% 증가",
+                "tw": "增加(5-10)%護甲值",
+                "ru": "(5-10)% повышение брони",
+                "jp": "アーマーが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "minion_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "Minions deal (4-8)% increased Damage",
+                "kr": "소환수가 주는 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%召喚物造成的傷害",
+                "ru": "Приспешники имеют (4-8)% увеличение урона",
+                "jp": "ミニオンのダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixMinionDamageEnergyShield",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased maximum Energy Shield\nMinions deal (4-8)% increased Damage",
+            "kr": "에너지 보호막 최대치 (5-10)% 증가\n소환수가 주는 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%最大能量護盾\n增加(4-8)%召喚物造成的傷害",
+            "ru": "(5-10)% увеличение максимума энергетического щита\nПриспешники имеют (4-8)% увеличение урона",
+            "jp": "最大エナジーシールドが(5-10)%増加する\nミニオンのダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_energy_shield_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased maximum Energy Shield",
+                "kr": "에너지 보호막 최대치 (5-10)% 증가",
+                "tw": "增加(5-10)%最大能量護盾",
+                "ru": "(5-10)% увеличение максимума энергетического щита",
+                "jp": "最大エナジーシールドが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "minion_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "Minions deal (4-8)% increased Damage",
+                "kr": "소환수가 주는 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%召喚物造成的傷害",
+                "ru": "Приспешники имеют (4-8)% увеличение урона",
+                "jp": "ミニオンのダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixMinionDamageEvasion",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Evasion Rating\nMinions deal (4-8)% increased Damage",
+            "kr": "회피 (5-10)% 증가\n소환수가 주는 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%閃避值\n增加(4-8)%召喚物造成的傷害",
+            "ru": "(5-10)% увеличение уклонения\nПриспешники имеют (4-8)% увеличение урона",
+            "jp": "回避力が(5-10)%増加する\nミニオンのダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "evasion_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Evasion Rating",
+                "kr": "회피 (5-10)% 증가",
+                "tw": "增加(5-10)%閃避值",
+                "ru": "(5-10)% увеличение уклонения",
+                "jp": "回避力が(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "minion_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "Minions deal (4-8)% increased Damage",
+                "kr": "소환수가 주는 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%召喚物造成的傷害",
+                "ru": "Приспешники имеют (4-8)% увеличение урона",
+                "jp": "ミニオンのダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixPoisonChanceAndMagnitude",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              15,
+              15
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "15% increased chance to Poison\n(5-10)% increased Magnitude of Poison you inflict",
+            "kr": "중독 확률 15% 증가\n플레이어가 유발하는 중독의 강도 (5-10)% 증가",
+            "tw": "增加15%中毒機率\n增加(5-10)%你所施加之中毒的幅度",
+            "ru": "15% увеличение шанса отравить\n(5-10)% увеличение силы накладываемого вами отравления",
+            "jp": "毒付与確率が15%増加する\nプレイヤーが付与した毒の強度が(5-10)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "poison_chance_+%",
+                  "valueRange": [
+                    15,
+                    15
+                  ]
+                }
+              ],
+              "value": "15",
+              "text": {
+                "en": "15% increased chance to Poison",
+                "kr": "중독 확률 15% 증가",
+                "tw": "增加15%中毒機率",
+                "ru": "15% увеличение шанса отравить",
+                "jp": "毒付与確率が15%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "base_poison_effect_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Magnitude of Poison you inflict",
+                "kr": "플레이어가 유발하는 중독의 강도 (5-10)% 증가",
+                "tw": "增加(5-10)%你所施加之中毒的幅度",
+                "ru": "(5-10)% увеличение силы накладываемого вами отравления",
+                "jp": "プレイヤーが付与した毒の強度が(5-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixSpellDamageArmour",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Armour\n(4-8)% increased Spell Damage",
+            "kr": "방어도 (5-10)% 증가\n주문 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%護甲值\n增加(4-8)%法術傷害",
+            "ru": "(5-10)% повышение брони\n(4-8)% увеличение урона от чар",
+            "jp": "アーマーが(5-10)%増加する\nスペルダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Armour",
+                "kr": "방어도 (5-10)% 증가",
+                "tw": "增加(5-10)%護甲值",
+                "ru": "(5-10)% повышение брони",
+                "jp": "アーマーが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Spell Damage",
+                "kr": "주문 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%法術傷害",
+                "ru": "(4-8)% увеличение урона от чар",
+                "jp": "スペルダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixSpellDamageEnergyShield",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased maximum Energy Shield\n(4-8)% increased Spell Damage",
+            "kr": "에너지 보호막 최대치 (5-10)% 증가\n주문 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%最大能量護盾\n增加(4-8)%法術傷害",
+            "ru": "(5-10)% увеличение максимума энергетического щита\n(4-8)% увеличение урона от чар",
+            "jp": "最大エナジーシールドが(5-10)%増加する\nスペルダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_energy_shield_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased maximum Energy Shield",
+                "kr": "에너지 보호막 최대치 (5-10)% 증가",
+                "tw": "增加(5-10)%最大能量護盾",
+                "ru": "(5-10)% увеличение максимума энергетического щита",
+                "jp": "最大エナジーシールドが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Spell Damage",
+                "kr": "주문 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%法術傷害",
+                "ru": "(4-8)% увеличение урона от чар",
+                "jp": "スペルダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixSpellDamageEvasion",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Evasion Rating\n(4-8)% increased Spell Damage",
+            "kr": "회피 (5-10)% 증가\n주문 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%閃避值\n增加(4-8)%法術傷害",
+            "ru": "(5-10)% увеличение уклонения\n(4-8)% увеличение урона от чар",
+            "jp": "回避力が(5-10)%増加する\nスペルダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "evasion_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Evasion Rating",
+                "kr": "회피 (5-10)% 증가",
+                "tw": "增加(5-10)%閃避值",
+                "ru": "(5-10)% увеличение уклонения",
+                "jp": "回避力が(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Spell Damage",
+                "kr": "주문 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%法術傷害",
+                "ru": "(4-8)% увеличение урона от чар",
+                "jp": "スペルダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixThornsDamageArmour",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Armour\n(4-8)% increased Thorns damage",
+            "kr": "방어도 (5-10)% 증가\n가시 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%護甲值\n增加(4-8)%荊棘傷害",
+            "ru": "(5-10)% повышение брони\n(4-8)% увеличение урона шипами",
+            "jp": "アーマーが(5-10)%増加する\n棘ダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Armour",
+                "kr": "방어도 (5-10)% 증가",
+                "tw": "增加(5-10)%護甲值",
+                "ru": "(5-10)% повышение брони",
+                "jp": "アーマーが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "thorns_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Thorns damage",
+                "kr": "가시 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%荊棘傷害",
+                "ru": "(4-8)% увеличение урона шипами",
+                "jp": "棘ダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixThornsDamageEnergyShield",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased maximum Energy Shield\n(4-8)% increased Thorns damage",
+            "kr": "에너지 보호막 최대치 (5-10)% 증가\n가시 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%最大能量護盾\n增加(4-8)%荊棘傷害",
+            "ru": "(5-10)% увеличение максимума энергетического щита\n(4-8)% увеличение урона шипами",
+            "jp": "最大エナジーシールドが(5-10)%増加する\n棘ダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_energy_shield_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased maximum Energy Shield",
+                "kr": "에너지 보호막 최대치 (5-10)% 증가",
+                "tw": "增加(5-10)%最大能量護盾",
+                "ru": "(5-10)% увеличение максимума энергетического щита",
+                "jp": "最大エナジーシールドが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "thorns_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Thorns damage",
+                "kr": "가시 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%荊棘傷害",
+                "ru": "(4-8)% увеличение урона шипами",
+                "jp": "棘ダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixThornsDamageEvasion",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Evasion Rating\n(4-8)% increased Thorns damage",
+            "kr": "회피 (5-10)% 증가\n가시 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%閃避值\n增加(4-8)%荊棘傷害",
+            "ru": "(5-10)% увеличение уклонения\n(4-8)% увеличение урона шипами",
+            "jp": "回避力が(5-10)%増加する\n棘ダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "evasion_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Evasion Rating",
+                "kr": "회피 (5-10)% 증가",
+                "tw": "增加(5-10)%閃避值",
+                "ru": "(5-10)% увеличение уклонения",
+                "jp": "回避力が(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "thorns_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Thorns damage",
+                "kr": "가시 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%荊棘傷害",
+                "ru": "(4-8)% увеличение урона шипами",
+                "jp": "棘ダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixTotemDamageArmour",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Armour\n(4-8)% increased Totem Damage",
+            "kr": "방어도 (5-10)% 증가\n토템 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%護甲值\n增加(4-8)%圖騰傷害",
+            "ru": "(5-10)% повышение брони\n(4-8)% увеличение урона тотемов",
+            "jp": "アーマーが(5-10)%増加する\nトーテムダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "physical_damage_reduction_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Armour",
+                "kr": "방어도 (5-10)% 증가",
+                "tw": "增加(5-10)%護甲值",
+                "ru": "(5-10)% повышение брони",
+                "jp": "アーマーが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "totem_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Totem Damage",
+                "kr": "토템 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%圖騰傷害",
+                "ru": "(4-8)% увеличение урона тотемов",
+                "jp": "トーテムダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixTotemDamageEnergyShield",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased maximum Energy Shield\n(4-8)% increased Totem Damage",
+            "kr": "에너지 보호막 최대치 (5-10)% 증가\n토템 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%最大能量護盾\n增加(4-8)%圖騰傷害",
+            "ru": "(5-10)% увеличение максимума энергетического щита\n(4-8)% увеличение урона тотемов",
+            "jp": "最大エナジーシールドが(5-10)%増加する\nトーテムダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_energy_shield_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased maximum Energy Shield",
+                "kr": "에너지 보호막 최대치 (5-10)% 증가",
+                "tw": "增加(5-10)%最大能量護盾",
+                "ru": "(5-10)% увеличение максимума энергетического щита",
+                "jp": "最大エナジーシールドが(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "totem_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Totem Damage",
+                "kr": "토템 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%圖騰傷害",
+                "ru": "(4-8)% увеличение урона тотемов",
+                "jp": "トーテムダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixTotemDamageEvasion",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              5,
+              10
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(5-10)% increased Evasion Rating\n(4-8)% increased Totem Damage",
+            "kr": "회피 (5-10)% 증가\n토템 피해 (4-8)% 증가",
+            "tw": "增加(5-10)%閃避值\n增加(4-8)%圖騰傷害",
+            "ru": "(5-10)% увеличение уклонения\n(4-8)% увеличение урона тотемов",
+            "jp": "回避力が(5-10)%増加する\nトーテムダメージが(4-8)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "evasion_rating_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Evasion Rating",
+                "kr": "회피 (5-10)% 증가",
+                "tw": "增加(5-10)%閃避值",
+                "ru": "(5-10)% увеличение уклонения",
+                "jp": "回避力が(5-10)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "totem_damage_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Totem Damage",
+                "kr": "토템 피해 (4-8)% 증가",
+                "tw": "增加(4-8)%圖騰傷害",
+                "ru": "(4-8)% увеличение урона тотемов",
+                "jp": "トーテムダメージが(4-8)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelPrefixWarcryBuffEffectAndDamage",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              4,
+              8
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(4-8)% increased Warcry Buff Effect\n(5-10)% increased Damage with Warcries",
+            "kr": "함성 버프 효과 (4-8)% 증가\n함성 사용 시 피해 (5-10)% 증가",
+            "tw": "增加(4-8)%戰吼增益效果\n增加(5-10)%戰吼傷害",
+            "ru": "(4-8)% усиление положительного эффекта боевого клича\n(5-10)% увеличение урона боевыми кличами",
+            "jp": "ウォークライのバフの効果が(4-8)%増加する\nウォークライのダメージが(5-10)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "warcry_buff_effect_+%",
+                  "valueRange": [
+                    4,
+                    8
+                  ]
+                }
+              ],
+              "value": "4~8",
+              "text": {
+                "en": "(4-8)% increased Warcry Buff Effect",
+                "kr": "함성 버프 효과 (4-8)% 증가",
+                "tw": "增加(4-8)%戰吼增益效果",
+                "ru": "(4-8)% усиление положительного эффекта боевого клича",
+                "jp": "ウォークライのバフの効果が(4-8)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "warcry_damage_+%",
+                  "valueRange": [
+                    5,
+                    10
+                  ]
+                }
+              ],
+              "value": "5~10",
+              "text": {
+                "en": "(5-10)% increased Damage with Warcries",
+                "kr": "함성 사용 시 피해 (5-10)% 증가",
+                "tw": "增加(5-10)%戰吼傷害",
+                "ru": "(5-10)% увеличение урона боевыми кличами",
+                "jp": "ウォークライのダメージが(5-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixDamageTakenFromManaBeforeLife",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "1% of Damage is taken from Mana before Life",
+            "kr": "받는 피해의 1%를 생명력 대신 마나로 소모",
+            "tw": "生命值所受的1%傷害由魔力扣除",
+            "ru": "1% от получаемого урона берется сначала из маны вместо здоровья",
+            "jp": "ダメージの1%をライフより先にマナで受ける"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_damage_removed_from_mana_before_life_%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% of Damage is taken from Mana before Life",
+                "kr": "받는 피해의 1%를 생명력 대신 마나로 소모",
+                "tw": "生命值所受的1%傷害由魔力扣除",
+                "ru": "1% от получаемого урона берется сначала из маны вместо здоровья",
+                "jp": "ダメージの1%をライフより先にマナで受ける"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixDamageTakenRecoupLife",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "1% of Damage taken Recouped as Life",
+            "kr": "받은 피해의 1%를 생명력으로 회생",
+            "tw": "承受的1%傷害補償為生命",
+            "ru": "1% полученного урона восполняется в виде здоровья",
+            "jp": "受けたダメージの1%をライフとして回収する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_taken_goes_to_life_over_4_seconds_%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% of Damage taken Recouped as Life",
+                "kr": "받은 피해의 1%를 생명력으로 회생",
+                "tw": "承受的1%傷害補償為生命",
+                "ru": "1% полученного урона восполняется в виде здоровья",
+                "jp": "受けたダメージの1%をライフとして回収する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixDamageTakenRecoupMana",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "1% of Damage taken Recouped as Mana",
+            "kr": "받은 피해의 1%를 마나로 회생",
+            "tw": "承受的1%傷害補償為魔力",
+            "ru": "1% полученного урона восполняется в виде маны",
+            "jp": "受けたダメージの1%をマナとして回収する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "damage_taken_goes_to_mana_%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% of Damage taken Recouped as Mana",
+                "kr": "받은 피해의 1%를 마나로 회생",
+                "tw": "承受的1%傷害補償為魔力",
+                "ru": "1% полученного урона восполняется в виде маны",
+                "jp": "受けたダメージの1%をマナとして回収する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixGlobalDefences",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(2-3)% increased Global Armour, Evasion and Energy Shield",
+            "kr": "일반 방어도, 회피, 에너지 보호막 (2-3)% 증가",
+            "tw": "增加(2-3)%全域護甲、閃避、和能量護盾",
+            "ru": "(2-3)% увеличение глобальной брони, уклонения и энергетического щита",
+            "jp": "グローバルアーマー、回避力およびエナジーシールドが(2-3)%増加する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "global_armour_evasion_energy_shield_+%",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "value": "2~3",
+              "text": {
+                "en": "(2-3)% increased Global Armour, Evasion and Energy Shield",
+                "kr": "일반 방어도, 회피, 에너지 보호막 (2-3)% 증가",
+                "tw": "增加(2-3)%全域護甲、閃避、和能量護盾",
+                "ru": "(2-3)% увеличение глобальной брони, уклонения и энергетического щита",
+                "jp": "グローバルアーマー、回避力およびエナジーシールドが(2-3)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixPercentMaximumLife",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "1% increased maximum Life",
+            "kr": "최대 생명력 1% 증가",
+            "tw": "增加1%最大生命",
+            "ru": "1% увеличение максимума здоровья",
+            "jp": "最大ライフが1%増加する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_life_+%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% increased maximum Life",
+                "kr": "최대 생명력 1% 증가",
+                "tw": "增加1%最大生命",
+                "ru": "1% увеличение максимума здоровья",
+                "jp": "最大ライフが1%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixPercentMaximumMana",
+          "affixType": "prefix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "1% increased maximum Mana",
+            "kr": "최대 마나 1% 증가",
+            "tw": "增加1%最大魔力",
+            "ru": "1% увеличение максимума маны",
+            "jp": "最大マナが1%増加する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "maximum_mana_+%",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "1% increased maximum Mana",
+                "kr": "최대 마나 1% 증가",
+                "tw": "增加1%最大魔力",
+                "ru": "1% увеличение максимума маны",
+                "jp": "最大マナが1%増加する"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "AbyssModJewelSuffixIncreasedDexterity",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "of the Abyss",
+            "kr": "- 심연",
+            "tw": "深淵之",
+            "ru": "Бездны",
+            "jp": "アビスの"
+          },
+          "effect": {
+            "en": "(1-2)% increased Dexterity",
+            "kr": "민첩 (1-2)% 증가",
+            "tw": "增加(1-2)%敏捷",
+            "ru": "(1-2)% повышение ловкости",
+            "jp": "器用さが(1-2)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "dexterity_+%",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": "(1-2)% increased Dexterity",
+                "kr": "민첩 (1-2)% 증가",
+                "tw": "增加(1-2)%敏捷",
+                "ru": "(1-2)% повышение ловкости",
+                "jp": "器用さが(1-2)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelSuffixIncreasedIntelligence",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "of the Abyss",
+            "kr": "- 심연",
+            "tw": "深淵之",
+            "ru": "Бездны",
+            "jp": "アビスの"
+          },
+          "effect": {
+            "en": "(1-2)% increased Intelligence",
+            "kr": "지능 (1-2)% 증가",
+            "tw": "增加(1-2)%智慧",
+            "ru": "(1-2)% повышение интеллекта",
+            "jp": "知性が(1-2)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "intelligence_+%",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": "(1-2)% increased Intelligence",
+                "kr": "지능 (1-2)% 증가",
+                "tw": "增加(1-2)%智慧",
+                "ru": "(1-2)% повышение интеллекта",
+                "jp": "知性が(1-2)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModJewelSuffixIncreasedStrength",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "of the Abyss",
+            "kr": "- 심연",
+            "tw": "深淵之",
+            "ru": "Бездны",
+            "jp": "アビスの"
+          },
+          "effect": {
+            "en": "(1-2)% increased Strength",
+            "kr": "힘 (1-2)% 증가",
+            "tw": "增加(1-2)%力量",
+            "ru": "(1-2)% повышение силы",
+            "jp": "筋力が(1-2)%増加する"
+          },
+          "group": [
+            "AbyssJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "strength_+%",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": "(1-2)% increased Strength",
+                "kr": "힘 (1-2)% 증가",
+                "tw": "增加(1-2)%力量",
+                "ru": "(1-2)% повышение силы",
+                "jp": "筋力が(1-2)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixCharmChargesPerSecond",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Charms gain 6 charges per Second",
+            "kr": "호신부가 1초마다 충전 6 획득",
+            "tw": "護符每秒獲得6充能",
+            "ru": "Обереги получают зарядов в секунду: 6",
+            "jp": "チャームは毎秒6のチャージを獲得する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "generate_x_charges_for_charms_per_minute",
+                  "valueRange": [
+                    6,
+                    6
+                  ]
+                }
+              ],
+              "value": "6",
+              "text": {
+                "en": "Charms gain 6 charges per Second",
+                "kr": "호신부가 1초마다 충전 6 획득",
+                "tw": "護符每秒獲得6充能",
+                "ru": "Обереги получают зарядов в секунду: 6",
+                "jp": "チャームは毎秒6のチャージを獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixLifeFlaskChargesPerSecond",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Life Flasks gain 6 charges per Second",
+            "kr": "생명력 플라스크가 1초마다 충전 6 획득",
+            "tw": "生命藥劑每秒獲得6充能",
+            "ru": "Флаконы здоровья получают зарядов в секунду: 6",
+            "jp": "ライフフラスコは毎秒6のチャージを獲得する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "generate_x_charges_for_life_flasks_per_minute",
+                  "valueRange": [
+                    6,
+                    6
+                  ]
+                }
+              ],
+              "value": "6",
+              "text": {
+                "en": "Life Flasks gain 6 charges per Second",
+                "kr": "생명력 플라스크가 1초마다 충전 6 획득",
+                "tw": "生命藥劑每秒獲得6充能",
+                "ru": "Флаконы здоровья получают зарядов в секунду: 6",
+                "jp": "ライフフラスコは毎秒6のチャージを獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixManaCostEfficiency",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              3
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "(2-3)% increased Mana Cost Efficiency",
+            "kr": "마나 소모 효율 (2-3)% 증가",
+            "tw": "增加(2-3)%魔力消耗效率",
+            "ru": "(2-3)% увеличение эффективности расхода маны",
+            "jp": "マナコスト効率が(2-3)%増加する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_cost_efficiency_+%",
+                  "valueRange": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "value": "2~3",
+              "text": {
+                "en": "(2-3)% increased Mana Cost Efficiency",
+                "kr": "마나 소모 효율 (2-3)% 증가",
+                "tw": "增加(2-3)%魔力消耗效率",
+                "ru": "(2-3)% увеличение эффективности расхода маны",
+                "jp": "マナコスト効率が(2-3)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixManaFlaskChargesPerSecond",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              6,
+              6
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Mana Flasks gain 6 charges per Second",
+            "kr": "마나 플라스크가 1초마다 충전 6 획득",
+            "tw": "魔力藥劑每秒獲得6充能",
+            "ru": "Флаконы маны получают зарядов в секунду: 6",
+            "jp": "マナフラスコは毎秒6のチャージを獲得する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "generate_x_charges_for_mana_flasks_per_minute",
+                  "valueRange": [
+                    6,
+                    6
+                  ]
+                }
+              ],
+              "value": "6",
+              "text": {
+                "en": "Mana Flasks gain 6 charges per Second",
+                "kr": "마나 플라스크가 1초마다 충전 6 획득",
+                "tw": "魔力藥劑每秒獲得6充能",
+                "ru": "Флаконы маны получают зарядов в секунду: 6",
+                "jp": "マナフラスコは毎秒6のチャージを獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixReducedCriticalHitChanceAgainstYou",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              -5,
+              -3
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Hits have (-5--3)% reduced Critical Hit Chance against you",
+            "kr": "플레이어에 대한 명중의 치명타 명중 확률 (-5--3)% 감소",
+            "tw": "對你的擊中減少(-5--3)%暴擊率",
+            "ru": "(-5--3)% уменьшение шанса критического удара ударами по вам",
+            "jp": "プレイヤーに対するヒットはクリティカルヒット率が(-5--3)%減少する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_enemy_critical_strike_chance_+%_against_self",
+                  "valueRange": [
+                    -5,
+                    -3
+                  ]
+                }
+              ],
+              "value": "-5~-3",
+              "text": {
+                "en": "Hits have (-5--3)% reduced Critical Hit Chance against you",
+                "kr": "플레이어에 대한 명중의 치명타 명중 확률 (-5--3)% 감소",
+                "tw": "對你的擊中減少(-5--3)%暴擊率",
+                "ru": "(-5--3)% уменьшение шанса критического удара ударами по вам",
+                "jp": "プレイヤーに対するヒットはクリティカルヒット率が(-5--3)%減少する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModRadiusJewelPrefixRegeneratePercentLifePerSecond",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              2,
+              4
+            ]
+          ],
+          "name": {
+            "en": "Lightless",
+            "kr": "무광의",
+            "tw": "黯光的",
+            "ru": "Бессветный",
+            "jp": "ライトレス"
+          },
+          "effect": {
+            "en": "Regenerate (2-4)% of maximum Life per second",
+            "kr": "1초마다 생명력의 (2-4)% 재생",
+            "tw": "每秒回復(2-4)%生命",
+            "ru": "Регенерация (2-4)% здоровья в секунду",
+            "jp": "毎秒ライフの(2-4)%を自動回復する"
+          },
+          "group": [
+            "AbyssRadiusJewelMod"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "life_regeneration_rate_per_minute_%",
+                  "valueRange": [
+                    2,
+                    4
+                  ]
+                }
+              ],
+              "value": "2~4",
+              "text": {
+                "en": "Regenerate (2-4)% of maximum Life per second",
+                "kr": "1초마다 생명력의 (2-4)% 재생",
+                "tw": "每秒回復(2-4)%生命",
+                "ru": "Регенерация (2-4)% здоровья в секунду",
+                "jp": "毎秒ライフの(2-4)%を自動回復する"
+              }
+            }
+          ]
+        }
+      ]
     },
     "unique": {
       "prefix": [
@@ -16680,7 +19512,7 @@
             "jp": "グローバル命中力が(6-10)%増加する\nクリティカルヒット率が(6-10)%増加する"
           },
           "group": [
-            106
+            "AccuracyAndCrits"
           ],
           "weight": 1,
           "stats": [
@@ -16749,7 +19581,7 @@
             "jp": "全ての能力値 (6-8)"
           },
           "group": [
-            150
+            "AllAttributes"
           ],
           "weight": 1,
           "stats": [
@@ -16799,7 +19631,7 @@
             "jp": "全ての元素耐性 (8-10)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -16849,7 +19681,7 @@
             "jp": "範囲ダメージが(10-12)%増加する"
           },
           "group": [
-            541
+            "AreaDamage"
           ],
           "weight": 1,
           "stats": [
@@ -16899,7 +19731,7 @@
             "jp": "アタックスピードおよびキャストスピードが(2-4)%増加する"
           },
           "group": [
-            1430
+            "AttackCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -16949,7 +19781,7 @@
             "jp": "アタックスピードが(3-5)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -17003,7 +19835,7 @@
             "jp": "アタックは(3-5)%の確率で出血を付与する\n出血持続時間が(12-16)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -17072,7 +19904,7 @@
             "jp": null
           },
           "group": [
-            2626
+            "BleedingDamage"
           ],
           "weight": 1,
           "stats": [
@@ -17122,7 +19954,7 @@
             "jp": "プレイヤー自身に対する出血の持続時間が(-35--30)%減少する"
           },
           "group": [
-            27
+            "ReducedAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -17172,7 +20004,7 @@
             "jp": "二刀流中のアタックブロック率 1%"
           },
           "group": [
-            1450
+            "FormBlock"
           ],
           "weight": 1,
           "stats": [
@@ -17222,7 +20054,7 @@
             "jp": "盾装備中のアタックブロック率 1%"
           },
           "group": [
-            1450
+            "FormBlock"
           ],
           "weight": 1,
           "stats": [
@@ -17272,7 +20104,7 @@
             "jp": "弓のアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -17322,7 +20154,7 @@
             "jp": "弓によるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -17372,7 +20204,7 @@
             "jp": "燃焼ダメージが(16-20)%増加する"
           },
           "group": [
-            178
+            "BurnDamage"
           ],
           "weight": 1,
           "stats": [
@@ -17422,7 +20254,7 @@
             "jp": "キャストスピードが(2-4)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -17472,7 +20304,7 @@
             "jp": "混沌ダメージが(9-13)%増加する"
           },
           "group": [
-            170
+            "ChaosDamage"
           ],
           "weight": 1,
           "stats": [
@@ -17522,7 +20354,7 @@
             "jp": "混沌耐性 (7-13)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -17572,7 +20404,7 @@
             "jp": "プレイヤーに対する冷却の効果が(-35--30)%減少する"
           },
           "group": [
-            1312
+            "ChillEffectivenessOnSelf"
           ],
           "weight": 1,
           "stats": [
@@ -17622,7 +20454,7 @@
             "jp": "鉤爪のアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -17672,7 +20504,7 @@
             "jp": "鉤爪によるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -17722,7 +20554,7 @@
             "jp": "冷気スキルのクリティカルヒット率が(14-18)%増加する"
           },
           "group": [
-            1480
+            "ColdCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -17772,7 +20604,7 @@
             "jp": "冷気スキルのクリティカルダメージボーナス (15-18)%"
           },
           "group": [
-            1485
+            "ColdCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -17822,7 +20654,7 @@
             "jp": "冷気ダメージが(14-16)%増加する"
           },
           "group": [
-            70
+            "ColdDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -17872,7 +20704,7 @@
             "jp": "冷気スキルのキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1424
+            "ColdCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -17922,7 +20754,7 @@
             "jp": "冷気および雷耐性 (10-12)%"
           },
           "group": [
-            809
+            "ColdAndLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -17972,7 +20804,7 @@
             "jp": "冷気耐性 (12-15)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -18022,7 +20854,7 @@
             "jp": "クリティカルヒット率が(8-12)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -18072,7 +20904,7 @@
             "jp": "クリティカルダメージボーナスが(9-12)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -18122,7 +20954,7 @@
             "jp": "プレイヤーに対する呪いの効果が(-30--25)%減少する"
           },
           "group": [
-            619
+            "ReducedCurseEffect"
           ],
           "weight": 1,
           "stats": [
@@ -18172,7 +21004,7 @@
             "jp": "短剣のアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -18222,7 +21054,7 @@
             "jp": "短剣によるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -18272,7 +21104,7 @@
             "jp": "ダメージが(8-10)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -18322,7 +21154,7 @@
             "jp": "継続ダメージが(10-12)%増加する"
           },
           "group": [
-            985
+            "DegenerationDamage"
           ],
           "weight": 1,
           "stats": [
@@ -18372,7 +21204,7 @@
             "jp": "器用さおよび知性 (8-10)"
           },
           "group": [
-            1434
+            "DexterityIntelligence"
           ],
           "weight": 1,
           "stats": [
@@ -18422,7 +21254,7 @@
             "jp": "器用さ (12-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -18472,7 +21304,7 @@
             "jp": "二刀流中はアタックスピードが(4-6)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -18522,7 +21354,7 @@
             "jp": "二刀流中はキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -18572,7 +21404,7 @@
             "jp": null
           },
           "group": [
-            1455
+            "FormSpellBlock"
           ],
           "weight": 1,
           "stats": [
@@ -18622,7 +21454,7 @@
             "jp": "二刀流中はスペルダメージが(14-16)%増加する"
           },
           "group": [
-            1420
+            "SpellTypeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -18672,7 +21504,7 @@
             "jp": "元素スキルのクリティカルヒット率が(10-14)%増加する"
           },
           "group": [
-            1482
+            "ElementalCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -18722,7 +21554,7 @@
             "jp": "元素スキルのクリティカルダメージボーナス (12-15)%"
           },
           "group": [
-            1487
+            "ElementalCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -18772,7 +21604,7 @@
             "jp": "エナジーシールドのリチャージが(4-6)%速く始まる"
           },
           "group": [
-            67
+            "EnergyShieldDelay"
           ],
           "weight": 1,
           "stats": [
@@ -18822,7 +21654,7 @@
             "jp": "最大エナジーシールドが(6-8)%増加する"
           },
           "group": [
-            85
+            "EnergyShieldPercent"
           ],
           "weight": 1,
           "stats": [
@@ -18872,7 +21704,7 @@
             "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のエナジーシールドを獲得する"
           },
           "group": [
-            1435
+            "EnergyShieldGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -18922,7 +21754,7 @@
             "jp": "ダメージ性状態異常がダメージを与える速度が(4-6)%速くなる"
           },
           "group": [
-            4585
+            "FasterAilmentDamage"
           ],
           "weight": 1,
           "stats": [
@@ -18972,7 +21804,7 @@
             "jp": "火および冷気耐性 (10-12)%"
           },
           "group": [
-            807
+            "FireAndColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -19022,7 +21854,7 @@
             "jp": "火スキルのクリティカルヒット率が(14-18)%増加する"
           },
           "group": [
-            1479
+            "FireCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -19072,7 +21904,7 @@
             "jp": "火スキルのクリティカルダメージボーナス (15-18)%"
           },
           "group": [
-            1484
+            "FireCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -19122,7 +21954,7 @@
             "jp": "火ダメージが(14-16)%増加する"
           },
           "group": [
-            68
+            "FireDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -19172,7 +22004,7 @@
             "jp": "火スキルのキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1423
+            "FireCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -19222,7 +22054,7 @@
             "jp": "火および雷耐性 (10-12)%"
           },
           "group": [
-            808
+            "FireAndLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -19272,7 +22104,7 @@
             "jp": "火耐性 (12-15)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -19322,7 +22154,7 @@
             "jp": "フラスコ効果持続時間が(6-10)%増加する"
           },
           "group": [
-            211
+            "BeltFlaskDuration"
           ],
           "weight": 1,
           "stats": [
@@ -19376,7 +22208,7 @@
             "jp": "(3-5)%の確率で敵を凍結させる\n敵に対する凍結の持続時間が(12-16)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -19449,7 +22281,7 @@
             "jp": "敵に対する発火の持続時間が(6-8)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -19518,7 +22350,7 @@
             "jp": "受ける発火の持続時間が(30-35)%減少する"
           },
           "group": [
-            4591
+            "ReducedSelfIgniteDuration"
           ],
           "weight": 1,
           "stats": [
@@ -19568,7 +22400,7 @@
             "jp": "アタックによるヒット時に(5-7)%の確率で敵を串刺しにする"
           },
           "group": [
-            3455
+            "ImpaleOnHit"
           ],
           "weight": 1,
           "stats": [
@@ -19618,7 +22450,7 @@
             "jp": "アーマーが(14-18)%増加する"
           },
           "group": [
-            84
+            "IncreasedPhysicalDamageReductionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -19668,7 +22500,7 @@
             "jp": "回避力が(14-18)%増加する"
           },
           "group": [
-            86
+            "EvasionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -19718,7 +22550,7 @@
             "jp": "マナ自動回復レートが(12-15)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -19768,7 +22600,7 @@
             "jp": "知性 (12-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -19818,7 +22650,7 @@
             "jp": "見つかるアイテムのレアリティが(4-6)%増加する"
           },
           "group": [
-            66
+            "ItemFoundRarityIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -19868,7 +22700,7 @@
             "jp": "ヒット時に(4-6)%の確率で敵をノックバックする"
           },
           "group": [
-            13
+            "Knockback"
           ],
           "weight": 1,
           "stats": [
@@ -19918,7 +22750,7 @@
             "jp": null
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -19968,7 +22800,7 @@
             "jp": "物理アタックダメージの(20-40)%をライフとしてリーチする"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -20018,7 +22850,7 @@
             "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のライフを獲得する"
           },
           "group": [
-            108
+            "LifeGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -20068,7 +22900,7 @@
             "jp": "受けたダメージの(4-6)%をライフとして回収する"
           },
           "group": [
-            3531
+            "DamageTakenGainedAsLife"
           ],
           "weight": 1,
           "stats": [
@@ -20118,7 +22950,7 @@
             "jp": "雷スキルのクリティカルヒット率が(14-18)%増加する"
           },
           "group": [
-            1481
+            "LightningCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -20168,7 +23000,7 @@
             "jp": "雷スキルのクリティカルダメージボーナス (15-18)%"
           },
           "group": [
-            1486
+            "LightningCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -20218,7 +23050,7 @@
             "jp": "雷ダメージが(14-16)%増加する"
           },
           "group": [
-            72
+            "LightningDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -20268,7 +23100,7 @@
             "jp": "雷スキルのキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1425
+            "LightningCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -20318,7 +23150,7 @@
             "jp": "雷耐性 (12-15)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -20368,7 +23200,7 @@
             "jp": "メイスまたはセプターのアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -20418,7 +23250,7 @@
             "jp": "メイスのダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -20468,7 +23300,7 @@
             "jp": "スキルのマナコストが(3-5)%減少する"
           },
           "group": [
-            180
+            "ManaCostReduction"
           ],
           "weight": 1,
           "stats": [
@@ -20518,7 +23350,7 @@
             "jp": null
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -20568,7 +23400,7 @@
             "jp": "物理アタックダメージの(20-40)%をマナとしてリーチする"
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -20618,7 +23450,7 @@
             "jp": "アタックでヒットを与えた敵1体ごとに(1-2)のマナを獲得する"
           },
           "group": [
-            620
+            "ManaGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -20668,7 +23500,7 @@
             "jp": "スキルのマナリザーブ効率が(2-3)%増加する"
           },
           "group": [
-            568
+            "ReducedManaReservationsCost"
           ],
           "weight": 1,
           "stats": [
@@ -20718,7 +23550,7 @@
             "jp": "ミニオンの命中力が(22-26)%増加する"
           },
           "group": [
-            2223
+            "MinionAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -20768,7 +23600,7 @@
             "jp": "ミニオンのダメージが(14-16)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -20818,7 +23650,7 @@
             "jp": "ミニオンの全ての元素耐性 (11-15)%"
           },
           "group": [
-            1452
+            "MinionElementalResistances"
           ],
           "weight": 1,
           "stats": [
@@ -20868,7 +23700,7 @@
             "jp": "ミニオンの最大ライフが(8-12)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -20918,7 +23750,7 @@
             "jp": "グローバル命中力が(10-14)%増加する"
           },
           "group": [
-            105
+            "IncreasedAccuracyPercent"
           ],
           "weight": 1,
           "stats": [
@@ -20968,7 +23800,7 @@
             "jp": "最大ライフが(5-7)%増加する"
           },
           "group": [
-            81
+            "MaximumLifeIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -21018,7 +23850,7 @@
             "jp": "最大マナが(8-10)%増加する"
           },
           "group": [
-            174
+            "MaximumManaIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -21068,7 +23900,7 @@
             "jp": "グローバル物理ダメージが(14-16)%増加する"
           },
           "group": [
-            90
+            "PhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -21122,7 +23954,7 @@
             "jp": "ヒット時に(3-5)%の確率で毒を付与する\n毒持続時間が(6-8)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -21191,7 +24023,7 @@
             "jp": null
           },
           "group": [
-            2094
+            "PoisonDamage"
           ],
           "weight": 1,
           "stats": [
@@ -21241,7 +24073,7 @@
             "jp": "プレイヤー自身に対する毒の持続時間が(-35--30)%減少する"
           },
           "group": [
-            27
+            "ReducedAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -21291,7 +24123,7 @@
             "jp": "投射物ダメージが(10-12)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -21341,7 +24173,7 @@
             "jp": "投射物スピードが(6-8)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -21391,7 +24223,7 @@
             "jp": "盾装備中はアタックスピードが(4-6)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -21441,7 +24273,7 @@
             "jp": "盾装備中はキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -21491,7 +24323,7 @@
             "jp": null
           },
           "group": [
-            1455
+            "FormSpellBlock"
           ],
           "weight": 1,
           "stats": [
@@ -21541,7 +24373,7 @@
             "jp": "盾装備中はスペルダメージが(14-16)%増加する"
           },
           "group": [
-            1420
+            "SpellTypeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -21595,7 +24427,7 @@
             "jp": "(3-5)%の確率で敵を感電させる\n感電持続時間が(12-16)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -21664,7 +24496,7 @@
             "jp": "プレイヤーに対する感電の効果が(-35--30)%減少する"
           },
           "group": [
-            2694
+            "ShockEffect"
           ],
           "weight": 1,
           "stats": [
@@ -21714,7 +24546,7 @@
             "jp": "スペルのクリティカルヒット率が(10-14)%増加する"
           },
           "group": [
-            1448
+            "FormCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -21764,7 +24596,7 @@
             "jp": "スペルクリティカルダメージボーナスが(12-15)%増加する"
           },
           "group": [
-            1449
+            "FormCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -21814,7 +24646,7 @@
             "jp": "スペルダメージが(10-12)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -21864,7 +24696,7 @@
             "jp": "クォータースタッフのアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -21914,7 +24746,7 @@
             "jp": "スタッフ装備中はキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -21964,7 +24796,7 @@
             "jp": "クォータースタッフによるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -22014,7 +24846,7 @@
             "jp": "スタッフ装備中はスペルダメージが(14-16)%増加する"
           },
           "group": [
-            1420
+            "SpellTypeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -22064,7 +24896,7 @@
             "jp": "筋力および器用さ (8-10)"
           },
           "group": [
-            1432
+            "StrengthDexterity"
           ],
           "weight": 1,
           "stats": [
@@ -22114,7 +24946,7 @@
             "jp": "筋力および知性 (8-10)"
           },
           "group": [
-            1433
+            "StrengthIntelligence"
           ],
           "weight": 1,
           "stats": [
@@ -22164,7 +24996,7 @@
             "jp": "筋力 (12-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -22214,7 +25046,7 @@
             "jp": "敵に対するスタンの持続時間が(10-14)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -22264,7 +25096,7 @@
             "jp": "スタン復帰が(25-35)%増加する"
           },
           "group": [
-            48
+            "StunRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -22314,7 +25146,7 @@
             "jp": "トーテムダメージが(12-16)%増加する"
           },
           "group": [
-            1453
+            "TotemDamage"
           ],
           "weight": 1,
           "stats": [
@@ -22364,7 +25196,7 @@
             "jp": "トーテムは全ての元素耐性が(6-10)%される"
           },
           "group": [
-            1454
+            "TotemElementalResistances"
           ],
           "weight": 1,
           "stats": [
@@ -22414,7 +25246,7 @@
             "jp": "トーテムのライフが(8-12)%増加する"
           },
           "group": [
-            592
+            "IncreasedTotemLife"
           ],
           "weight": 1,
           "stats": [
@@ -22464,7 +25296,7 @@
             "jp": "ワンドのアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -22514,7 +25346,7 @@
             "jp": "ワンドによるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [

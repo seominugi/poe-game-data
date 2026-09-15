@@ -70,7 +70,7 @@
             "kr": "근접 공격자에게 (1-4)의 물리 피해 반사"
           },
           "group": [
-            1701
+            "AttackerTakesDamageNoRange"
           ],
           "weight": 1000,
           "stats": [
@@ -127,7 +127,7 @@
             "kr": "생명력 최대치 (3-9)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -168,7 +168,7 @@
             "kr": "마나 최대치 (15-19)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -213,7 +213,7 @@
             "kr": "방어도 (5-9)\n에너지 보호막 최대치 (3-4)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -274,7 +274,7 @@
             "kr": "방어도 (5-9)\n회피 (5-9)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -335,7 +335,7 @@
             "kr": "회피 (5-9)\n에너지 보호막 최대치 (3-4)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -392,7 +392,7 @@
             "kr": "회피 (6-12)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -433,7 +433,7 @@
             "kr": "방어도 (6-12)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -478,7 +478,7 @@
             "kr": "방어도 (6-13)% 증가\n기절 및 막기 회복 (6-7)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -535,7 +535,7 @@
             "kr": "냉기 피해 (10-19)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -576,7 +576,7 @@
             "kr": "화염 피해 (10-19)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -617,7 +617,7 @@
             "kr": "모든 카오스 주문 스킬 젬 레벨 1"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 200,
           "stats": [
@@ -658,7 +658,7 @@
             "kr": "모든 냉기 주문 스킬 젬 레벨 1"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 250,
           "stats": [
@@ -699,7 +699,7 @@
             "kr": "모든 화염 주문 스킬 젬 레벨 1"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 250,
           "stats": [
@@ -740,7 +740,7 @@
             "kr": "모든 번개 주문 스킬 젬 레벨 1"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 250,
           "stats": [
@@ -781,7 +781,7 @@
             "kr": "모든 물리 주문 스킬 젬 레벨 1"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 200,
           "stats": [
@@ -822,7 +822,7 @@
             "kr": "번개 피해 (10-19)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -867,7 +867,7 @@
             "kr": "방어도 및 에너지 보호막 (6-13)% 증가\n기절 및 막기 회복 (6-7)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -928,7 +928,7 @@
             "kr": "방어도 및 회피 (6-13)% 증가\n기절 및 막기 회복 (6-7)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -985,7 +985,7 @@
             "kr": "막기 확률 (40-45)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -1030,7 +1030,7 @@
             "kr": "회피 및 에너지 보호막 (6-13)% 증가\n기절 및 막기 회복 (6-7)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -1091,7 +1091,7 @@
             "kr": "회피 (6-13)% 증가\n기절 및 막기 회복 (6-7)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -1148,7 +1148,7 @@
             "kr": "주문 피해 (10-19)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -1189,7 +1189,7 @@
             "kr": "방어도 및 에너지 보호막 (15-26)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -1230,7 +1230,7 @@
             "kr": "방어도 및 회피 (15-26)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -1271,7 +1271,7 @@
             "kr": "에너지 보호막 최대치 (3-5)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -1312,7 +1312,7 @@
             "kr": "에너지 보호막 (11-28)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -1357,7 +1357,7 @@
             "kr": "에너지 보호막 (6-13)% 증가\n기절 및 막기 회복 (6-7)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -1414,7 +1414,7 @@
             "kr": "회피 및 에너지 보호막 (15-26)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -1455,7 +1455,7 @@
             "kr": "회피 (15-26)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -1496,7 +1496,7 @@
             "kr": "방어도 (15-26)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -1537,7 +1537,7 @@
             "kr": "생명력 최대치 (10-24)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1582,7 +1582,7 @@
             "kr": "근접 공격자에게 (5-10)의 물리 피해 반사"
           },
           "group": [
-            1701
+            "AttackerTakesDamageNoRange"
           ],
           "weight": 1000,
           "stats": [
@@ -1639,7 +1639,7 @@
             "kr": "냉기 피해 (20-29)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -1680,7 +1680,7 @@
             "kr": "화염 피해 (20-29)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -1721,7 +1721,7 @@
             "kr": "생명력 최대치 (25-39)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1762,7 +1762,7 @@
             "kr": "마나 최대치 (20-24)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1803,7 +1803,7 @@
             "kr": "번개 피해 (20-29)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -1844,7 +1844,7 @@
             "kr": "에너지 보호막 최대치 (6-11)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -1885,7 +1885,7 @@
             "kr": "회피 (13-35)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -1926,7 +1926,7 @@
             "kr": "방어도 (13-35)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -1967,7 +1967,7 @@
             "kr": "주문 피해 (20-29)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -2008,7 +2008,7 @@
             "kr": "막기 확률 (46-51)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -2049,7 +2049,7 @@
             "kr": "(4-5)%의 확률로 주문 피해를 막아냄"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 500,
           "stats": [
@@ -2090,7 +2090,7 @@
             "kr": "마나 최대치 (25-29)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2131,7 +2131,7 @@
             "kr": "에너지 보호막 최대치 (12-16)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -2172,7 +2172,7 @@
             "kr": "회피 (36-63)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -2213,7 +2213,7 @@
             "kr": "방어도 (36-63)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -2254,7 +2254,7 @@
             "kr": "방어도 (27-42)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -2299,7 +2299,7 @@
             "kr": "방어도 (14-20)% 증가\n기절 및 막기 회복 (8-9)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -2356,7 +2356,7 @@
             "kr": "생명력 최대치 (40-54)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -2401,7 +2401,7 @@
             "kr": "방어도 (10-27)\n에너지 보호막 최대치 (5-12)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -2462,7 +2462,7 @@
             "kr": "방어도 (10-27)\n회피 (10-27)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -2523,7 +2523,7 @@
             "kr": "회피 (10-27)\n에너지 보호막 최대치 (5-12)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -2580,7 +2580,7 @@
             "kr": "에너지 보호막 (27-42)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -2625,7 +2625,7 @@
             "kr": "에너지 보호막 (14-20)% 증가\n기절 및 막기 회복 (8-9)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -2682,7 +2682,7 @@
             "kr": "방어도 및 에너지 보호막 (27-42)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -2727,7 +2727,7 @@
             "kr": "방어도 및 에너지 보호막 (14-20)% 증가\n기절 및 막기 회복 (8-9)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -2784,7 +2784,7 @@
             "kr": "방어도 및 회피 (27-42)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -2829,7 +2829,7 @@
             "kr": "방어도 및 회피 (14-20)% 증가\n기절 및 막기 회복 (8-9)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -2886,7 +2886,7 @@
             "kr": "회피 및 에너지 보호막 (27-42)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -2931,7 +2931,7 @@
             "kr": "회피 및 에너지 보호막 (14-20)% 증가\n기절 및 막기 회복 (8-9)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -2988,7 +2988,7 @@
             "kr": "회피 (27-42)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -3033,7 +3033,7 @@
             "kr": "회피 (14-20)% 증가\n기절 및 막기 회복 (8-9)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -3094,7 +3094,7 @@
             "kr": "근접 공격자에게 (11-24)의 물리 피해 반사"
           },
           "group": [
-            1701
+            "AttackerTakesDamageNoRange"
           ],
           "weight": 1000,
           "stats": [
@@ -3151,7 +3151,7 @@
             "kr": "냉기 피해 (30-39)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -3192,7 +3192,7 @@
             "kr": "화염 피해 (30-39)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -3233,7 +3233,7 @@
             "kr": "마나 최대치 (30-34)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3274,7 +3274,7 @@
             "kr": "번개 피해 (30-39)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -3315,7 +3315,7 @@
             "kr": "에너지 보호막 최대치 (17-23)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3356,7 +3356,7 @@
             "kr": "회피 (64-82)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3397,7 +3397,7 @@
             "kr": "방어도 (64-82)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3438,7 +3438,7 @@
             "kr": "주문 피해 (30-39)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -3479,7 +3479,7 @@
             "kr": "생명력 최대치 (55-69)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -3520,7 +3520,7 @@
             "kr": "(6-7)%의 확률로 주문 피해를 막아냄"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 500,
           "stats": [
@@ -3561,7 +3561,7 @@
             "kr": "마나 최대치 (35-39)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3602,7 +3602,7 @@
             "kr": "에너지 보호막 최대치 (24-30)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3643,7 +3643,7 @@
             "kr": "회피 (83-101)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3684,7 +3684,7 @@
             "kr": "방어도 (83-101)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3725,7 +3725,7 @@
             "kr": "방어도 (43-55)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -3770,7 +3770,7 @@
             "kr": "방어도 (21-26)% 증가\n기절 및 막기 회복 (10-11)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -3827,7 +3827,7 @@
             "kr": "생명력 최대치 (70-84)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -3872,7 +3872,7 @@
             "kr": "방어도 (28-48)\n에너지 보호막 최대치 (13-22)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3933,7 +3933,7 @@
             "kr": "방어도 (28-48)\n회피 (28-48)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -3994,7 +3994,7 @@
             "kr": "방어도 (20-32)\n생명력 최대치 (18-23)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -4055,7 +4055,7 @@
             "kr": "에너지 보호막 최대치 (8-10)\n생명력 최대치 (18-23)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -4116,7 +4116,7 @@
             "kr": "에너지 보호막 최대치 (8-10)\n마나 최대치 (11-15)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -4177,7 +4177,7 @@
             "kr": "회피 (28-48)\n에너지 보호막 최대치 (13-22)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -4238,7 +4238,7 @@
             "kr": "회피 (14-20)\n생명력 최대치 (18-23)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -4295,7 +4295,7 @@
             "kr": "방어도 및 에너지 보호막 (43-55)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -4340,7 +4340,7 @@
             "kr": "방어도 및 에너지 보호막 (21-26)% 증가\n기절 및 막기 회복 (10-11)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -4397,7 +4397,7 @@
             "kr": "방어도 및 회피 (43-55)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -4442,7 +4442,7 @@
             "kr": "방어도 및 회피 (21-26)% 증가\n기절 및 막기 회복 (10-11)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -4499,7 +4499,7 @@
             "kr": "에너지 보호막 (43-55)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -4544,7 +4544,7 @@
             "kr": "에너지 보호막 (21-26)% 증가\n기절 및 막기 회복 (10-11)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -4601,7 +4601,7 @@
             "kr": "회피 및 에너지 보호막 (43-55)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -4646,7 +4646,7 @@
             "kr": "회피 및 에너지 보호막 (21-26)% 증가\n기절 및 막기 회복 (10-11)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -4703,7 +4703,7 @@
             "kr": "회피 (43-55)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -4748,7 +4748,7 @@
             "kr": "회피 (21-26)% 증가\n기절 및 막기 회복 (10-11)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -4809,7 +4809,7 @@
             "kr": "근접 공격자에게 (25-50)의 물리 피해 반사"
           },
           "group": [
-            1701
+            "AttackerTakesDamageNoRange"
           ],
           "weight": 1000,
           "stats": [
@@ -4866,7 +4866,7 @@
             "kr": "냉기 피해 (40-54)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -4907,7 +4907,7 @@
             "kr": "화염 피해 (40-54)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -4948,7 +4948,7 @@
             "kr": "마나 최대치 (40-44)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -4989,7 +4989,7 @@
             "kr": "번개 피해 (40-54)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -5030,7 +5030,7 @@
             "kr": "막기 확률 (52-57)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -5071,7 +5071,7 @@
             "kr": "에너지 보호막 최대치 (31-38)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5112,7 +5112,7 @@
             "kr": "회피 (102-120)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5153,7 +5153,7 @@
             "kr": "방어도 (102-120)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5194,7 +5194,7 @@
             "kr": "주문 피해 (40-54)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -5235,7 +5235,7 @@
             "kr": "생명력 최대치 (85-99)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -5280,7 +5280,7 @@
             "kr": "방어도 (49-85)\n에너지 보호막 최대치 (23-28)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5341,7 +5341,7 @@
             "kr": "방어도 (49-85)\n회피 (49-85)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5402,7 +5402,7 @@
             "kr": "회피 (49-85)\n에너지 보호막 최대치 (23-28)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5459,7 +5459,7 @@
             "kr": "(8-9)%의 확률로 주문 피해를 막아냄"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 500,
           "stats": [
@@ -5500,7 +5500,7 @@
             "kr": "마나 최대치 (45-49)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -5541,7 +5541,7 @@
             "kr": "방어도 (56-67)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -5586,7 +5586,7 @@
             "kr": "방어도 (27-32)% 증가\n기절 및 막기 회복 (12-13)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -5643,7 +5643,7 @@
             "kr": "에너지 보호막 최대치 (39-49)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5684,7 +5684,7 @@
             "kr": "회피 (121-150)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5725,7 +5725,7 @@
             "kr": "방어도 (121-150)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -5766,7 +5766,7 @@
             "kr": "생명력 최대치 (100-114)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -5807,7 +5807,7 @@
             "kr": "방어도 및 에너지 보호막 (56-67)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -5852,7 +5852,7 @@
             "kr": "방어도 및 에너지 보호막 (27-32)% 증가\n기절 및 막기 회복 (12-13)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -5909,7 +5909,7 @@
             "kr": "방어도 및 회피 (56-67)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -5954,7 +5954,7 @@
             "kr": "방어도 및 회피 (27-32)% 증가\n기절 및 막기 회복 (12-13)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -6011,7 +6011,7 @@
             "kr": "에너지 보호막 (56-67)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -6056,7 +6056,7 @@
             "kr": "에너지 보호막 (27-32)% 증가\n기절 및 막기 회복 (12-13)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -6113,7 +6113,7 @@
             "kr": "회피 및 에너지 보호막 (56-67)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -6158,7 +6158,7 @@
             "kr": "회피 및 에너지 보호막 (27-32)% 증가\n기절 및 막기 회복 (12-13)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -6215,7 +6215,7 @@
             "kr": "회피 (56-67)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -6260,7 +6260,7 @@
             "kr": "회피 (27-32)% 증가\n기절 및 막기 회복 (12-13)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -6317,7 +6317,7 @@
             "kr": "냉기 피해 (55-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -6358,7 +6358,7 @@
             "kr": "화염 피해 (55-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -6399,7 +6399,7 @@
             "kr": "번개 피해 (55-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -6444,7 +6444,7 @@
             "kr": "방어도 (86-145)\n에너지 보호막 최대치 (29-48)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -6505,7 +6505,7 @@
             "kr": "방어도 (86-145)\n회피 (86-145)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -6566,7 +6566,7 @@
             "kr": "방어도 (33-48)\n생명력 최대치 (24-28)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -6627,7 +6627,7 @@
             "kr": "에너지 보호막 최대치 (11-15)\n생명력 최대치 (24-28)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -6688,7 +6688,7 @@
             "kr": "에너지 보호막 최대치 (11-15)\n마나 최대치 (16-19)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -6749,7 +6749,7 @@
             "kr": "회피 (86-145)\n에너지 보호막 최대치 (29-48)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -6810,7 +6810,7 @@
             "kr": "회피 (21-42)\n생명력 최대치 (24-28)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -6867,7 +6867,7 @@
             "kr": "주문 피해 (55-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -6908,7 +6908,7 @@
             "kr": "막기 확률 (58-63)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -6949,7 +6949,7 @@
             "kr": "마나 최대치 (50-54)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -6990,7 +6990,7 @@
             "kr": "에너지 보호막 최대치 (50-61)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -7031,7 +7031,7 @@
             "kr": "회피 (151-200)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -7072,7 +7072,7 @@
             "kr": "방어도 (151-200)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -7113,7 +7113,7 @@
             "kr": "생명력 최대치 (115-129)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -7154,7 +7154,7 @@
             "kr": "(10-11)%의 확률로 주문 피해를 막아냄"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 500,
           "stats": [
@@ -7195,7 +7195,7 @@
             "kr": "냉기 피해 (70-84)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -7236,7 +7236,7 @@
             "kr": "화염 피해 (70-84)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -7277,7 +7277,7 @@
             "kr": "번개 피해 (70-84)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -7322,7 +7322,7 @@
             "kr": "방어도 (146-220)\n에너지 보호막 최대치 (49-60)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -7383,7 +7383,7 @@
             "kr": "방어도 (146-220)\n회피 (146-220)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -7444,7 +7444,7 @@
             "kr": "회피 (146-220)\n에너지 보호막 최대치 (49-60)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -7501,7 +7501,7 @@
             "kr": "주문 피해 (70-84)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -7542,7 +7542,7 @@
             "kr": "마나 최대치 (55-59)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -7583,7 +7583,7 @@
             "kr": "방어도 및 에너지 보호막 (68-79)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -7628,7 +7628,7 @@
             "kr": "방어도 및 에너지 보호막 (33-38)% 증가\n기절 및 막기 회복 (14-15)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -7685,7 +7685,7 @@
             "kr": "방어도 및 회피 (68-79)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -7730,7 +7730,7 @@
             "kr": "방어도 및 회피 (33-38)% 증가\n기절 및 막기 회복 (14-15)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -7787,7 +7787,7 @@
             "kr": "에너지 보호막 최대치 (62-76)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -7828,7 +7828,7 @@
             "kr": "에너지 보호막 (68-79)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -7873,7 +7873,7 @@
             "kr": "에너지 보호막 (33-38)% 증가\n기절 및 막기 회복 (14-15)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -7930,7 +7930,7 @@
             "kr": "회피 및 에너지 보호막 (68-79)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -7975,7 +7975,7 @@
             "kr": "회피 및 에너지 보호막 (33-38)% 증가\n기절 및 막기 회복 (14-15)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -8032,7 +8032,7 @@
             "kr": "회피 (201-300)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -8073,7 +8073,7 @@
             "kr": "회피 (68-79)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -8118,7 +8118,7 @@
             "kr": "회피 (33-38)% 증가\n기절 및 막기 회복 (14-15)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -8175,7 +8175,7 @@
             "kr": "방어도 (201-300)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -8216,7 +8216,7 @@
             "kr": "방어도 (68-79)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -8261,7 +8261,7 @@
             "kr": "방어도 (33-38)% 증가\n기절 및 막기 회복 (14-15)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -8318,7 +8318,7 @@
             "kr": "막기 확률 (64-69)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -8363,7 +8363,7 @@
             "kr": "방어도 (49-96)\n생명력 최대치 (29-33)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -8424,7 +8424,7 @@
             "kr": "에너지 보호막 최대치 (16-25)\n생명력 최대치 (29-33)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -8485,7 +8485,7 @@
             "kr": "에너지 보호막 최대치 (16-25)\n마나 최대치 (20-22)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -8546,7 +8546,7 @@
             "kr": "회피 (43-95)\n생명력 최대치 (29-33)"
           },
           "group": [
-            2605
+            "BaseLocalDefencesAndLife"
           ],
           "weight": 1000,
           "stats": [
@@ -8603,7 +8603,7 @@
             "kr": "냉기 피해 (85-99)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -8644,7 +8644,7 @@
             "kr": "화염 피해 (85-99)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -8685,7 +8685,7 @@
             "kr": "생명력 최대치 (130-144)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -8726,7 +8726,7 @@
             "kr": "번개 피해 (85-99)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -8767,7 +8767,7 @@
             "kr": "주문 피해 (85-99)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -8808,7 +8808,7 @@
             "kr": "(12-13)%의 확률로 주문 피해를 막아냄"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 500,
           "stats": [
@@ -8849,7 +8849,7 @@
             "kr": "마나 최대치 (60-64)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -8894,7 +8894,7 @@
             "kr": "방어도 (221-300)\n에너지 보호막 최대치 (61-72)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -8955,7 +8955,7 @@
             "kr": "방어도 (221-300)\n회피 (221-300)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -9016,7 +9016,7 @@
             "kr": "회피 (221-300)\n에너지 보호막 최대치 (61-72)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -9073,7 +9073,7 @@
             "kr": "에너지 보호막 최대치 (77-90)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -9114,7 +9114,7 @@
             "kr": "회피 (301-400)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -9155,7 +9155,7 @@
             "kr": "방어도 (301-400)"
           },
           "group": [
-            2604
+            "BaseLocalDefences"
           ],
           "weight": 1000,
           "stats": [
@@ -9196,7 +9196,7 @@
             "kr": "방어도 및 에너지 보호막 (80-91)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -9237,7 +9237,7 @@
             "kr": "방어도 및 회피 (80-91)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -9278,7 +9278,7 @@
             "kr": "에너지 보호막 (80-91)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -9319,7 +9319,7 @@
             "kr": "회피 및 에너지 보호막 (80-91)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -9360,7 +9360,7 @@
             "kr": "회피 (80-91)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -9401,7 +9401,7 @@
             "kr": "방어도 (80-91)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -9442,7 +9442,7 @@
             "kr": "생명력 최대치 (145-159)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -9483,7 +9483,7 @@
             "kr": "마나 최대치 (65-68)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -9524,7 +9524,7 @@
             "kr": "막기 확률 (70-75)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -9565,7 +9565,7 @@
             "kr": "(14-15)%의 확률로 주문 피해를 막아냄"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 500,
           "stats": [
@@ -9610,7 +9610,7 @@
             "kr": "방어도 및 에너지 보호막 (39-42)% 증가\n기절 및 막기 회복 (16-17)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -9671,7 +9671,7 @@
             "kr": "방어도 및 회피 (39-42)% 증가\n기절 및 막기 회복 (16-17)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -9732,7 +9732,7 @@
             "kr": "에너지 보호막 (39-42)% 증가\n기절 및 막기 회복 (16-17)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -9793,7 +9793,7 @@
             "kr": "회피 및 에너지 보호막 (39-42)% 증가\n기절 및 막기 회복 (16-17)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -9854,7 +9854,7 @@
             "kr": "회피 (39-42)% 증가\n기절 및 막기 회복 (16-17)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -9915,7 +9915,7 @@
             "kr": "방어도 (39-42)% 증가\n기절 및 막기 회복 (16-17)% 증가"
           },
           "group": [
-            1174
+            "DefencesPercentAndStunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -9972,7 +9972,7 @@
             "kr": "마나 최대치 (69-73)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -10013,7 +10013,7 @@
             "kr": "냉기 피해 (100-109)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 12,
           "stats": [
@@ -10054,7 +10054,7 @@
             "kr": "화염 피해 (100-109)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 12,
           "stats": [
@@ -10095,7 +10095,7 @@
             "kr": "번개 피해 (100-109)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 12,
           "stats": [
@@ -10136,7 +10136,7 @@
             "kr": "방어도 및 에너지 보호막 (92-100)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -10177,7 +10177,7 @@
             "kr": "방어도 및 회피 (92-100)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -10218,7 +10218,7 @@
             "kr": "에너지 보호막 (92-100)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -10259,7 +10259,7 @@
             "kr": "회피 및 에너지 보호막 (92-100)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -10300,7 +10300,7 @@
             "kr": "회피 (92-100)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -10341,7 +10341,7 @@
             "kr": "방어도 (92-100)% 증가"
           },
           "group": [
-            1173
+            "DefencesPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -10382,7 +10382,7 @@
             "kr": "주문 피해 (100-109)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -10423,7 +10423,7 @@
             "kr": "막기 확률 (76-81)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -10466,7 +10466,7 @@
             "kr": "냉기 저항 (6-11)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -10507,7 +10507,7 @@
             "kr": "민첩 (8-12)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -10548,7 +10548,7 @@
             "kr": "화염 저항 (6-11)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -10589,7 +10589,7 @@
             "kr": "정확도 (50-100)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 600,
           "stats": [
@@ -10630,7 +10630,7 @@
             "kr": "공격 속도 (5-7)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -10671,7 +10671,7 @@
             "kr": "지능 (8-12)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -10712,7 +10712,7 @@
             "kr": "1초마다 생명력 (60-120) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -10753,7 +10753,7 @@
             "kr": "번개 저항 (6-11)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -10794,7 +10794,7 @@
             "kr": "힘 (8-12)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -10835,7 +10835,7 @@
             "kr": "기절 및 막기 회복 (11-13)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -10876,7 +10876,7 @@
             "kr": "마나 재생 속도 (10-19)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -10917,7 +10917,7 @@
             "kr": "공격 속도 (8-15)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -10958,7 +10958,7 @@
             "kr": "시전 속도 (8-15)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -10999,7 +10999,7 @@
             "kr": "1초마다 생명력 (126-480) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -11040,7 +11040,7 @@
             "kr": "민첩 (13-17)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -11081,7 +11081,7 @@
             "kr": "공격 속도 (8-10)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -11122,7 +11122,7 @@
             "kr": "지능 (13-17)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -11163,7 +11163,7 @@
             "kr": "주문 치명타 확률 (40-49)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -11204,7 +11204,7 @@
             "kr": "힘 (13-17)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -11245,7 +11245,7 @@
             "kr": "모든 원소 저항 (3-5)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -11286,7 +11286,7 @@
             "kr": "화염 저항 (12-17)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -11327,7 +11327,7 @@
             "kr": "번개 저항 (12-17)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -11368,7 +11368,7 @@
             "kr": "냉기 저항 (12-17)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -11409,7 +11409,7 @@
             "kr": "카오스 저항 (5-10)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -11450,7 +11450,7 @@
             "kr": "기절 및 막기 회복 (14-16)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -11491,7 +11491,7 @@
             "kr": "마나 재생 속도 (20-29)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -11532,7 +11532,7 @@
             "kr": "1초마다 생명력 (486-960) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -11573,7 +11573,7 @@
             "kr": "정확도 (100-165)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -11614,7 +11614,7 @@
             "kr": "주문 치명타 확률 (50-59)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -11655,7 +11655,7 @@
             "kr": "민첩 (18-22)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -11696,7 +11696,7 @@
             "kr": "공격 속도 (11-13)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -11737,7 +11737,7 @@
             "kr": "지능 (18-22)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -11778,7 +11778,7 @@
             "kr": "힘 (18-22)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -11819,7 +11819,7 @@
             "kr": "(16-20)%의 확률로 원소 상태 이상 긴급회피"
           },
           "group": [
-            1344
+            "AvoidElementalStatusAilments"
           ],
           "weight": 1000,
           "stats": [
@@ -11860,7 +11860,7 @@
             "kr": "모든 원소 저항 (6-8)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -11901,7 +11901,7 @@
             "kr": "화염 저항 (18-23)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -11942,7 +11942,7 @@
             "kr": "번개 저항 (18-23)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -11983,7 +11983,7 @@
             "kr": "냉기 저항 (18-23)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -12024,7 +12024,7 @@
             "kr": "주문 치명타 확률 (60-69)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -12065,7 +12065,7 @@
             "kr": "기절 및 막기 회복 (17-19)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -12106,7 +12106,7 @@
             "kr": "마나 재생 속도 (30-39)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -12147,7 +12147,7 @@
             "kr": "카오스 저항 (11-15)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -12188,7 +12188,7 @@
             "kr": "1초마다 생명력 (966-1440) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -12229,7 +12229,7 @@
             "kr": "민첩 (23-27)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -12270,7 +12270,7 @@
             "kr": "지능 (23-27)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -12311,7 +12311,7 @@
             "kr": "치명타로 받는 추가 피해 (21-30)% 감소"
           },
           "group": [
-            3136
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1000,
           "stats": [
@@ -12352,7 +12352,7 @@
             "kr": "힘 (23-27)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -12393,7 +12393,7 @@
             "kr": "모든 원소 저항 (9-11)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -12434,7 +12434,7 @@
             "kr": "화염 저항 (24-29)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -12475,7 +12475,7 @@
             "kr": "능력치 요구사항 -18% 감소"
           },
           "group": [
-            546
+            "LocalAttributeRequirements"
           ],
           "weight": 750,
           "stats": [
@@ -12516,7 +12516,7 @@
             "kr": "번개 저항 (24-29)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -12557,7 +12557,7 @@
             "kr": "냉기 저항 (24-29)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -12598,7 +12598,7 @@
             "kr": "정확도 (166-250)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -12639,7 +12639,7 @@
             "kr": "(21-25)%의 확률로 원소 상태 이상 긴급회피"
           },
           "group": [
-            1344
+            "AvoidElementalStatusAilments"
           ],
           "weight": 1000,
           "stats": [
@@ -12680,7 +12680,7 @@
             "kr": "주문 치명타 확률 (70-79)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -12721,7 +12721,7 @@
             "kr": "마나 재생 속도 (40-49)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -12762,7 +12762,7 @@
             "kr": "기절 및 막기 회복 (20-22)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -12803,7 +12803,7 @@
             "kr": "카오스 저항 (16-20)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -12844,7 +12844,7 @@
             "kr": "민첩 (28-32)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -12885,7 +12885,7 @@
             "kr": "지능 (28-32)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -12926,7 +12926,7 @@
             "kr": "1초마다 생명력 (1446-1920) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -12967,7 +12967,7 @@
             "kr": "힘 (28-32)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -13008,7 +13008,7 @@
             "kr": "받는 물리 피해 4% 추가 감소"
           },
           "group": [
-            1753
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1000,
           "stats": [
@@ -13049,7 +13049,7 @@
             "kr": "주문 피해 억제 확률 (8-10)%"
           },
           "group": [
-            895
+            "ChanceToSuppressSpells"
           ],
           "weight": 1000,
           "stats": [
@@ -13090,7 +13090,7 @@
             "kr": "에너지 보호막 재충전 시작 속도 (27-34)% 가속"
           },
           "group": [
-            49
+            "EnergyShieldDelay"
           ],
           "weight": 1000,
           "stats": [
@@ -13131,7 +13131,7 @@
             "kr": "치명타로 받는 추가 피해 (31-40)% 감소"
           },
           "group": [
-            3136
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1000,
           "stats": [
@@ -13172,7 +13172,7 @@
             "kr": "모든 원소 저항 (12-14)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -13213,7 +13213,7 @@
             "kr": "화염 저항 (30-35)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -13254,7 +13254,7 @@
             "kr": "번개 저항 (30-35)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -13295,7 +13295,7 @@
             "kr": "냉기 저항 (30-35)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -13336,7 +13336,7 @@
             "kr": "민첩 (33-37)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -13377,7 +13377,7 @@
             "kr": "지능 (33-37)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -13418,7 +13418,7 @@
             "kr": "1초마다 생명력 (1926-2880) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -13459,7 +13459,7 @@
             "kr": "마나 재생 속도 (50-59)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -13500,7 +13500,7 @@
             "kr": "힘 (33-37)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -13541,7 +13541,7 @@
             "kr": "카오스 저항 (21-25)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -13582,7 +13582,7 @@
             "kr": "기절 및 막기 회복 (23-25)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -13623,7 +13623,7 @@
             "kr": "(26-30)%의 확률로 원소 상태 이상 긴급회피"
           },
           "group": [
-            1344
+            "AvoidElementalStatusAilments"
           ],
           "weight": 1000,
           "stats": [
@@ -13664,7 +13664,7 @@
             "kr": "받는 물리 피해 5% 추가 감소"
           },
           "group": [
-            1753
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1000,
           "stats": [
@@ -13705,7 +13705,7 @@
             "kr": "주문 피해 억제 확률 (11-13)%"
           },
           "group": [
-            895
+            "ChanceToSuppressSpells"
           ],
           "weight": 1000,
           "stats": [
@@ -13746,7 +13746,7 @@
             "kr": "에너지 보호막 재충전 시작 속도 (35-42)% 가속"
           },
           "group": [
-            49
+            "EnergyShieldDelay"
           ],
           "weight": 1000,
           "stats": [
@@ -13787,7 +13787,7 @@
             "kr": "주문 치명타 확률 (80-89)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -13828,7 +13828,7 @@
             "kr": "모든 원소 저항 (15-16)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -13869,7 +13869,7 @@
             "kr": "냉기 저항 (36-41)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -13910,7 +13910,7 @@
             "kr": "화염 저항 (36-41)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -13951,7 +13951,7 @@
             "kr": "정확도 (251-350)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -13992,7 +13992,7 @@
             "kr": "번개 저항 (36-41)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -14033,7 +14033,7 @@
             "kr": "능력치 요구사항 -32% 감소"
           },
           "group": [
-            546
+            "LocalAttributeRequirements"
           ],
           "weight": 750,
           "stats": [
@@ -14074,7 +14074,7 @@
             "kr": "카오스 저항 (26-30)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -14115,7 +14115,7 @@
             "kr": "민첩 (38-42)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -14156,7 +14156,7 @@
             "kr": "지능 (38-42)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -14197,7 +14197,7 @@
             "kr": "힘 (38-42)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -14238,7 +14238,7 @@
             "kr": "받는 물리 피해 6% 추가 감소"
           },
           "group": [
-            1753
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1000,
           "stats": [
@@ -14279,7 +14279,7 @@
             "kr": "주문 피해 억제 확률 (14-16)%"
           },
           "group": [
-            895
+            "ChanceToSuppressSpells"
           ],
           "weight": 1000,
           "stats": [
@@ -14320,7 +14320,7 @@
             "kr": "에너지 보호막 재충전 시작 속도 (43-50)% 가속"
           },
           "group": [
-            49
+            "EnergyShieldDelay"
           ],
           "weight": 1000,
           "stats": [
@@ -14361,7 +14361,7 @@
             "kr": "치명타로 받는 추가 피해 (41-50)% 감소"
           },
           "group": [
-            3136
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1000,
           "stats": [
@@ -14402,7 +14402,7 @@
             "kr": "1초마다 생명력 (2886-3840) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -14443,7 +14443,7 @@
             "kr": "카오스 저항 최대치 1%"
           },
           "group": [
-            1279
+            "MaximumChaosResistance"
           ],
           "weight": 125,
           "stats": [
@@ -14484,7 +14484,7 @@
             "kr": "냉기 저항 최대치 1%"
           },
           "group": [
-            211
+            "MaximumColdResist"
           ],
           "weight": 250,
           "stats": [
@@ -14525,7 +14525,7 @@
             "kr": "화염 저항 최대치 1%"
           },
           "group": [
-            509
+            "MaximumFireResist"
           ],
           "weight": 250,
           "stats": [
@@ -14566,7 +14566,7 @@
             "kr": "번개 저항 최대치 1%"
           },
           "group": [
-            1278
+            "MaximumLightningResistance"
           ],
           "weight": 250,
           "stats": [
@@ -14607,7 +14607,7 @@
             "kr": "냉기 저항 (42-45)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -14648,7 +14648,7 @@
             "kr": "화염 저항 (42-45)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -14689,7 +14689,7 @@
             "kr": "번개 저항 (42-45)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -14730,7 +14730,7 @@
             "kr": "(31-35)%의 확률로 원소 상태 이상 긴급회피"
           },
           "group": [
-            1344
+            "AvoidElementalStatusAilments"
           ],
           "weight": 1000,
           "stats": [
@@ -14771,7 +14771,7 @@
             "kr": "민첩 (43-50)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -14812,7 +14812,7 @@
             "kr": "지능 (43-50)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -14853,7 +14853,7 @@
             "kr": "1초마다 생명력 (3846-5760) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -14894,7 +14894,7 @@
             "kr": "힘 (43-50)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -14935,7 +14935,7 @@
             "kr": "정확도 (351-480)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -14976,7 +14976,7 @@
             "kr": "모든 저항 최대치 1%"
           },
           "group": [
-            274
+            "MaximumResistances"
           ],
           "weight": 125,
           "stats": [
@@ -15017,7 +15017,7 @@
             "kr": "카오스 저항 최대치 2%"
           },
           "group": [
-            1279
+            "MaximumChaosResistance"
           ],
           "weight": 125,
           "stats": [
@@ -15058,7 +15058,7 @@
             "kr": "냉기 저항 최대치 2%"
           },
           "group": [
-            211
+            "MaximumColdResist"
           ],
           "weight": 250,
           "stats": [
@@ -15099,7 +15099,7 @@
             "kr": "화염 저항 최대치 2%"
           },
           "group": [
-            509
+            "MaximumFireResist"
           ],
           "weight": 250,
           "stats": [
@@ -15140,7 +15140,7 @@
             "kr": "번개 저항 최대치 2%"
           },
           "group": [
-            1278
+            "MaximumLightningResistance"
           ],
           "weight": 250,
           "stats": [
@@ -15181,7 +15181,7 @@
             "kr": "공격 속도 (14-16)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -15222,7 +15222,7 @@
             "kr": "주문 치명타 확률 (90-109)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -15263,7 +15263,7 @@
             "kr": "받는 물리 피해 7% 추가 감소"
           },
           "group": [
-            1753
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1000,
           "stats": [
@@ -15304,7 +15304,7 @@
             "kr": "주문 피해 억제 확률 (17-19)%"
           },
           "group": [
-            895
+            "ChanceToSuppressSpells"
           ],
           "weight": 1000,
           "stats": [
@@ -15345,7 +15345,7 @@
             "kr": "에너지 보호막 재충전 시작 속도 (51-58)% 가속"
           },
           "group": [
-            49
+            "EnergyShieldDelay"
           ],
           "weight": 1000,
           "stats": [
@@ -15386,7 +15386,7 @@
             "kr": "1초마다 생명력 (5766-7680) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -15427,7 +15427,7 @@
             "kr": "치명타로 받는 추가 피해 (51-60)% 감소"
           },
           "group": [
-            3136
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1000,
           "stats": [
@@ -15468,7 +15468,7 @@
             "kr": "마나 재생 속도 (60-69)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -15509,7 +15509,7 @@
             "kr": "기절 및 막기 회복 (26-28)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -15550,7 +15550,7 @@
             "kr": "카오스 저항 (31-35)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -15591,7 +15591,7 @@
             "kr": "모든 저항 최대치 2%"
           },
           "group": [
-            274
+            "MaximumResistances"
           ],
           "weight": 125,
           "stats": [
@@ -15632,7 +15632,7 @@
             "kr": "카오스 저항 최대치 3%"
           },
           "group": [
-            1279
+            "MaximumChaosResistance"
           ],
           "weight": 125,
           "stats": [
@@ -15673,7 +15673,7 @@
             "kr": "냉기 저항 최대치 3%"
           },
           "group": [
-            211
+            "MaximumColdResist"
           ],
           "weight": 250,
           "stats": [
@@ -15714,7 +15714,7 @@
             "kr": "화염 저항 최대치 3%"
           },
           "group": [
-            509
+            "MaximumFireResist"
           ],
           "weight": 250,
           "stats": [
@@ -15755,7 +15755,7 @@
             "kr": "번개 저항 최대치 3%"
           },
           "group": [
-            1278
+            "MaximumLightningResistance"
           ],
           "weight": 250,
           "stats": [
@@ -15796,7 +15796,7 @@
             "kr": "민첩 (51-55)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -15837,7 +15837,7 @@
             "kr": "지능 (51-55)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -15878,7 +15878,7 @@
             "kr": "힘 (51-55)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -15919,7 +15919,7 @@
             "kr": "1초마다 생명력 (7686-9120) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -15960,7 +15960,7 @@
             "kr": "냉기 저항 (46-48)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -16001,7 +16001,7 @@
             "kr": "화염 저항 (46-48)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -16042,7 +16042,7 @@
             "kr": "번개 저항 (46-48)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -16083,7 +16083,7 @@
             "kr": "모든 원소 저항 (17-18)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -16124,7 +16124,7 @@
             "kr": "받는 물리 피해 8% 추가 감소"
           },
           "group": [
-            1753
+            "ReducedPhysicalDamageTaken"
           ],
           "weight": 1000,
           "stats": [
@@ -16165,7 +16165,7 @@
             "kr": "주문 피해 억제 확률 (20-22)%"
           },
           "group": [
-            895
+            "ChanceToSuppressSpells"
           ],
           "weight": 1000,
           "stats": [
@@ -16206,7 +16206,7 @@
             "kr": "에너지 보호막 재충전 시작 속도 (59-66)% 가속"
           },
           "group": [
-            49
+            "EnergyShieldDelay"
           ],
           "weight": 1000,
           "stats": [
@@ -16251,7 +16251,7 @@
             "kr": "모든 원소 저항 (14-16)%"
           },
           "group": [
-            3158
+            "AllResistancesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -16292,7 +16292,7 @@
             "kr": "카오스 저항 (19-29)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 500,
           "stats": [
@@ -16333,7 +16333,7 @@
             "kr": "장착된 젬 레벨 1"
           },
           "group": [
-            115
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16374,7 +16374,7 @@
             "kr": "장착된 젬 퀄리티 (5-10)%"
           },
           "group": [
-            3405
+            "SocketedGemQuality"
           ],
           "weight": 1000,
           "stats": [
@@ -16415,7 +16415,7 @@
             "kr": "에너지 보호막 최대치 (4-6)% 증가"
           },
           "group": [
-            3142
+            "MaximumEnergyShieldPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -16456,7 +16456,7 @@
             "kr": "최대 생명력 (4-6)% 증가"
           },
           "group": [
-            63
+            "MaximumLifeIncreasePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -16497,7 +16497,7 @@
             "kr": "막기 확률 (20-30)% 증가"
           },
           "group": [
-            16
+            "IncreasedShieldBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -16538,7 +16538,7 @@
             "kr": "(4-5)%의 확률로 주문 피해를 막아냄"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -16579,7 +16579,7 @@
             "kr": "치명타로 받는 추가 피해 (20-30)% 감소"
           },
           "group": [
-            3136
+            "ReducedExtraDamageFromCrits"
           ],
           "weight": 1000,
           "stats": [
@@ -16620,7 +16620,7 @@
             "kr": "장착된 효과 범위 젬 레벨 2"
           },
           "group": [
-            3178
+            "IncreasedSocketedAoEGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16661,7 +16661,7 @@
             "kr": "장착된 오라 젬 레벨 2"
           },
           "group": [
-            3179
+            "IncreaseSocketedAuraGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16702,7 +16702,7 @@
             "kr": "장착된 저주 젬 레벨 2"
           },
           "group": [
-            3180
+            "IncreaseSocketedCurseGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16743,7 +16743,7 @@
             "kr": "장착된 지속시간 젬 레벨 2"
           },
           "group": [
-            3177
+            "IncreaseSocketedDurationGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16784,7 +16784,7 @@
             "kr": "장착된 소환수 젬 레벨 2"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16825,7 +16825,7 @@
             "kr": "장착된 투사체 젬 레벨 2"
           },
           "group": [
-            3181
+            "IncreaseSocketedProjectileGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16866,7 +16866,7 @@
             "kr": "장착된 덫 또는 지뢰 젬 레벨 2"
           },
           "group": [
-            3176
+            "IncreasedSocketedTrapOrMineGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16907,7 +16907,7 @@
             "kr": "장착된 함성 젬 레벨 2"
           },
           "group": [
-            1555
+            "LocalSocketedWarcryGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -16948,7 +16948,7 @@
             "kr": "비껴내기"
           },
           "group": [
-            149
+            "Keystone"
           ],
           "weight": 1000,
           "stats": [
@@ -16989,7 +16989,7 @@
             "kr": "최소 인내 충전 1"
           },
           "group": [
-            3413
+            "MinimumEnduranceCharges"
           ],
           "weight": 1000,
           "stats": [
@@ -17030,7 +17030,7 @@
             "kr": "최소 격분 충전 1"
           },
           "group": [
-            3415
+            "MinimumFrenzyCharges"
           ],
           "weight": 1000,
           "stats": [
@@ -17071,7 +17071,7 @@
             "kr": "최소 격분 충전 1"
           },
           "group": [
-            3415
+            "MinimumFrenzyCharges"
           ],
           "weight": 1000,
           "stats": [
@@ -17112,7 +17112,7 @@
             "kr": "유연한 전투원"
           },
           "group": [
-            149
+            "Keystone"
           ],
           "weight": 1000,
           "stats": [
@@ -17153,7 +17153,7 @@
             "kr": "냉기 저항 최대치 2%"
           },
           "group": [
-            211
+            "MaximumColdResist"
           ],
           "weight": 1000,
           "stats": [
@@ -17194,7 +17194,7 @@
             "kr": "화염 저항 최대치 2%"
           },
           "group": [
-            509
+            "MaximumFireResist"
           ],
           "weight": 1000,
           "stats": [
@@ -17235,7 +17235,7 @@
             "kr": "번개 저항 최대치 2%"
           },
           "group": [
-            1278
+            "MaximumLightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -17276,7 +17276,7 @@
             "kr": "공격 피해 막기 확률 최대치 1%"
           },
           "group": [
-            669
+            "MaximumBlockChance"
           ],
           "weight": 1000,
           "stats": [
@@ -17317,7 +17317,7 @@
             "kr": "모든 저항 최대치 1%"
           },
           "group": [
-            274
+            "MaximumResistances"
           ],
           "weight": 1000,
           "stats": [

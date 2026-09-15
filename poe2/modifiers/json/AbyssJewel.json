@@ -58,7 +58,7 @@
             "jp": "盲目になることがない"
           },
           "group": [
-            1207
+            "ImmunityToBlind"
           ],
           "weight": 1,
           "stats": [
@@ -108,7 +108,7 @@
             "jp": "混沌耐性 (3-7)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -158,7 +158,7 @@
             "jp": "冷気耐性 (5-10)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -208,7 +208,7 @@
             "jp": "穢れた血を付与されることがなくなる"
           },
           "group": [
-            3157
+            "CorruptedBlood"
           ],
           "weight": 1,
           "stats": [
@@ -258,7 +258,7 @@
             "jp": "器用さ (4-6)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -308,7 +308,7 @@
             "jp": "火耐性 (5-10)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -358,7 +358,7 @@
             "jp": "プレイヤーは阻害を受けることがない"
           },
           "group": [
-            2686
+            "YouCannotBeHindered"
           ],
           "weight": 1,
           "stats": [
@@ -408,7 +408,7 @@
             "jp": "知性 (4-6)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -458,7 +458,7 @@
             "jp": "雷耐性 (5-10)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -508,7 +508,7 @@
             "jp": "重傷に対する完全耐性を獲得する"
           },
           "group": [
-            2687
+            "ImmuneToMaim"
           ],
           "weight": 1,
           "stats": [
@@ -558,7 +558,7 @@
             "jp": "筋力 (4-6)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -617,7 +617,7 @@
             "jp": "グローバル命中力が(6-10)%増加する\nクリティカルヒット率が(6-10)%増加する"
           },
           "group": [
-            106
+            "AccuracyAndCrits"
           ],
           "weight": 1,
           "stats": [
@@ -686,7 +686,7 @@
             "jp": "全ての能力値 (6-8)"
           },
           "group": [
-            150
+            "AllAttributes"
           ],
           "weight": 1,
           "stats": [
@@ -736,7 +736,7 @@
             "jp": "全ての元素耐性 (8-10)%"
           },
           "group": [
-            61
+            "AllResistances"
           ],
           "weight": 1,
           "stats": [
@@ -786,7 +786,7 @@
             "jp": "範囲ダメージが(10-12)%増加する"
           },
           "group": [
-            541
+            "AreaDamage"
           ],
           "weight": 1,
           "stats": [
@@ -836,7 +836,7 @@
             "jp": "アタックスピードおよびキャストスピードが(2-4)%増加する"
           },
           "group": [
-            1430
+            "AttackCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -886,7 +886,7 @@
             "jp": "アタックスピードが(3-5)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -940,7 +940,7 @@
             "jp": "アタックは(3-5)%の確率で出血を付与する\n出血持続時間が(12-16)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -1009,7 +1009,7 @@
             "jp": null
           },
           "group": [
-            2626
+            "BleedingDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1059,7 +1059,7 @@
             "jp": "プレイヤー自身に対する出血の持続時間が(-35--30)%減少する"
           },
           "group": [
-            27
+            "ReducedAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -1109,7 +1109,7 @@
             "jp": "二刀流中のアタックブロック率 1%"
           },
           "group": [
-            1450
+            "FormBlock"
           ],
           "weight": 1,
           "stats": [
@@ -1159,7 +1159,7 @@
             "jp": "盾装備中のアタックブロック率 1%"
           },
           "group": [
-            1450
+            "FormBlock"
           ],
           "weight": 1,
           "stats": [
@@ -1209,7 +1209,7 @@
             "jp": "弓のアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -1259,7 +1259,7 @@
             "jp": "弓によるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1309,7 +1309,7 @@
             "jp": "燃焼ダメージが(16-20)%増加する"
           },
           "group": [
-            178
+            "BurnDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1359,7 +1359,7 @@
             "jp": "キャストスピードが(2-4)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -1409,7 +1409,7 @@
             "jp": "混沌ダメージが(9-13)%増加する"
           },
           "group": [
-            170
+            "ChaosDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1459,7 +1459,7 @@
             "jp": "混沌耐性 (7-13)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -1509,7 +1509,7 @@
             "jp": "プレイヤーに対する冷却の効果が(-35--30)%減少する"
           },
           "group": [
-            1312
+            "ChillEffectivenessOnSelf"
           ],
           "weight": 1,
           "stats": [
@@ -1559,7 +1559,7 @@
             "jp": "鉤爪のアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -1609,7 +1609,7 @@
             "jp": "鉤爪によるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1659,7 +1659,7 @@
             "jp": "冷気スキルのクリティカルヒット率が(14-18)%増加する"
           },
           "group": [
-            1480
+            "ColdCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -1709,7 +1709,7 @@
             "jp": "冷気スキルのクリティカルダメージボーナス (15-18)%"
           },
           "group": [
-            1485
+            "ColdCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -1759,7 +1759,7 @@
             "jp": "冷気ダメージが(14-16)%増加する"
           },
           "group": [
-            70
+            "ColdDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -1809,7 +1809,7 @@
             "jp": "冷気スキルのキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1424
+            "ColdCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -1859,7 +1859,7 @@
             "jp": "冷気および雷耐性 (10-12)%"
           },
           "group": [
-            809
+            "ColdAndLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -1909,7 +1909,7 @@
             "jp": "冷気耐性 (12-15)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -1959,7 +1959,7 @@
             "jp": "クリティカルヒット率が(8-12)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -2009,7 +2009,7 @@
             "jp": "クリティカルダメージボーナスが(9-12)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -2059,7 +2059,7 @@
             "jp": "プレイヤーに対する呪いの効果が(-30--25)%減少する"
           },
           "group": [
-            619
+            "ReducedCurseEffect"
           ],
           "weight": 1,
           "stats": [
@@ -2109,7 +2109,7 @@
             "jp": "短剣のアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -2159,7 +2159,7 @@
             "jp": "短剣によるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2209,7 +2209,7 @@
             "jp": "ダメージが(8-10)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -2259,7 +2259,7 @@
             "jp": "継続ダメージが(10-12)%増加する"
           },
           "group": [
-            985
+            "DegenerationDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2309,7 +2309,7 @@
             "jp": "器用さおよび知性 (8-10)"
           },
           "group": [
-            1434
+            "DexterityIntelligence"
           ],
           "weight": 1,
           "stats": [
@@ -2359,7 +2359,7 @@
             "jp": "器用さ (12-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -2409,7 +2409,7 @@
             "jp": "二刀流中はアタックスピードが(4-6)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -2459,7 +2459,7 @@
             "jp": "二刀流中はキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -2509,7 +2509,7 @@
             "jp": null
           },
           "group": [
-            1455
+            "FormSpellBlock"
           ],
           "weight": 1,
           "stats": [
@@ -2559,7 +2559,7 @@
             "jp": "二刀流中はスペルダメージが(14-16)%増加する"
           },
           "group": [
-            1420
+            "SpellTypeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2609,7 +2609,7 @@
             "jp": "元素スキルのクリティカルヒット率が(10-14)%増加する"
           },
           "group": [
-            1482
+            "ElementalCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -2659,7 +2659,7 @@
             "jp": "元素スキルのクリティカルダメージボーナス (12-15)%"
           },
           "group": [
-            1487
+            "ElementalCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -2709,7 +2709,7 @@
             "jp": "エナジーシールドのリチャージが(4-6)%速く始まる"
           },
           "group": [
-            67
+            "EnergyShieldDelay"
           ],
           "weight": 1,
           "stats": [
@@ -2759,7 +2759,7 @@
             "jp": "最大エナジーシールドが(6-8)%増加する"
           },
           "group": [
-            85
+            "EnergyShieldPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2809,7 +2809,7 @@
             "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のエナジーシールドを獲得する"
           },
           "group": [
-            1435
+            "EnergyShieldGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -2859,7 +2859,7 @@
             "jp": "ダメージ性状態異常がダメージを与える速度が(4-6)%速くなる"
           },
           "group": [
-            4585
+            "FasterAilmentDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2909,7 +2909,7 @@
             "jp": "火および冷気耐性 (10-12)%"
           },
           "group": [
-            807
+            "FireAndColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -2959,7 +2959,7 @@
             "jp": "火スキルのクリティカルヒット率が(14-18)%増加する"
           },
           "group": [
-            1479
+            "FireCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -3009,7 +3009,7 @@
             "jp": "火スキルのクリティカルダメージボーナス (15-18)%"
           },
           "group": [
-            1484
+            "FireCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -3059,7 +3059,7 @@
             "jp": "火ダメージが(14-16)%増加する"
           },
           "group": [
-            68
+            "FireDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -3109,7 +3109,7 @@
             "jp": "火スキルのキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1423
+            "FireCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -3159,7 +3159,7 @@
             "jp": "火および雷耐性 (10-12)%"
           },
           "group": [
-            808
+            "FireAndLightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -3209,7 +3209,7 @@
             "jp": "火耐性 (12-15)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -3259,7 +3259,7 @@
             "jp": "フラスコ効果持続時間が(6-10)%増加する"
           },
           "group": [
-            211
+            "BeltFlaskDuration"
           ],
           "weight": 1,
           "stats": [
@@ -3313,7 +3313,7 @@
             "jp": "(3-5)%の確率で敵を凍結させる\n敵に対する凍結の持続時間が(12-16)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -3386,7 +3386,7 @@
             "jp": "敵に対する発火の持続時間が(6-8)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -3455,7 +3455,7 @@
             "jp": "受ける発火の持続時間が(30-35)%減少する"
           },
           "group": [
-            4591
+            "ReducedSelfIgniteDuration"
           ],
           "weight": 1,
           "stats": [
@@ -3505,7 +3505,7 @@
             "jp": "アタックによるヒット時に(5-7)%の確率で敵を串刺しにする"
           },
           "group": [
-            3455
+            "ImpaleOnHit"
           ],
           "weight": 1,
           "stats": [
@@ -3555,7 +3555,7 @@
             "jp": "アーマーが(14-18)%増加する"
           },
           "group": [
-            84
+            "IncreasedPhysicalDamageReductionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3605,7 +3605,7 @@
             "jp": "回避力が(14-18)%増加する"
           },
           "group": [
-            86
+            "EvasionRatingPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3655,7 +3655,7 @@
             "jp": "マナ自動回復レートが(12-15)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -3705,7 +3705,7 @@
             "jp": "知性 (12-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -3755,7 +3755,7 @@
             "jp": "見つかるアイテムのレアリティが(4-6)%増加する"
           },
           "group": [
-            66
+            "ItemFoundRarityIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -3805,7 +3805,7 @@
             "jp": "ヒット時に(4-6)%の確率で敵をノックバックする"
           },
           "group": [
-            13
+            "Knockback"
           ],
           "weight": 1,
           "stats": [
@@ -3855,7 +3855,7 @@
             "jp": null
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -3905,7 +3905,7 @@
             "jp": "物理アタックダメージの(20-40)%をライフとしてリーチする"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1,
           "stats": [
@@ -3955,7 +3955,7 @@
             "jp": "アタックでヒットを与えた敵1体ごとに(2-3)のライフを獲得する"
           },
           "group": [
-            108
+            "LifeGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -4005,7 +4005,7 @@
             "jp": "受けたダメージの(4-6)%をライフとして回収する"
           },
           "group": [
-            3531
+            "DamageTakenGainedAsLife"
           ],
           "weight": 1,
           "stats": [
@@ -4055,7 +4055,7 @@
             "jp": "雷スキルのクリティカルヒット率が(14-18)%増加する"
           },
           "group": [
-            1481
+            "LightningCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -4105,7 +4105,7 @@
             "jp": "雷スキルのクリティカルダメージボーナス (15-18)%"
           },
           "group": [
-            1486
+            "LightningCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -4155,7 +4155,7 @@
             "jp": "雷ダメージが(14-16)%増加する"
           },
           "group": [
-            72
+            "LightningDamagePercentage"
           ],
           "weight": 1,
           "stats": [
@@ -4205,7 +4205,7 @@
             "jp": "雷スキルのキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1425
+            "LightningCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -4255,7 +4255,7 @@
             "jp": "雷耐性 (12-15)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4305,7 +4305,7 @@
             "jp": "メイスまたはセプターのアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -4355,7 +4355,7 @@
             "jp": "メイスのダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -4405,7 +4405,7 @@
             "jp": "スキルのマナコストが(3-5)%減少する"
           },
           "group": [
-            180
+            "ManaCostReduction"
           ],
           "weight": 1,
           "stats": [
@@ -4455,7 +4455,7 @@
             "jp": null
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -4505,7 +4505,7 @@
             "jp": "物理アタックダメージの(20-40)%をマナとしてリーチする"
           },
           "group": [
-            9
+            "ManaLeech"
           ],
           "weight": 1,
           "stats": [
@@ -4555,7 +4555,7 @@
             "jp": "アタックでヒットを与えた敵1体ごとに(1-2)のマナを獲得する"
           },
           "group": [
-            620
+            "ManaGainPerTarget"
           ],
           "weight": 1,
           "stats": [
@@ -4605,7 +4605,7 @@
             "jp": "スキルのマナリザーブ効率が(2-3)%増加する"
           },
           "group": [
-            568
+            "ReducedManaReservationsCost"
           ],
           "weight": 1,
           "stats": [
@@ -4655,7 +4655,7 @@
             "jp": "ミニオンの命中力が(22-26)%増加する"
           },
           "group": [
-            2223
+            "MinionAccuracyRating"
           ],
           "weight": 1,
           "stats": [
@@ -4705,7 +4705,7 @@
             "jp": "ミニオンのダメージが(14-16)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -4755,7 +4755,7 @@
             "jp": "ミニオンの全ての元素耐性 (11-15)%"
           },
           "group": [
-            1452
+            "MinionElementalResistances"
           ],
           "weight": 1,
           "stats": [
@@ -4805,7 +4805,7 @@
             "jp": "ミニオンの最大ライフが(8-12)%増加する"
           },
           "group": [
-            188
+            "MinionLife"
           ],
           "weight": 1,
           "stats": [
@@ -4855,7 +4855,7 @@
             "jp": "グローバル命中力が(10-14)%増加する"
           },
           "group": [
-            105
+            "IncreasedAccuracyPercent"
           ],
           "weight": 1,
           "stats": [
@@ -4905,7 +4905,7 @@
             "jp": "最大ライフが(5-7)%増加する"
           },
           "group": [
-            81
+            "MaximumLifeIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -4955,7 +4955,7 @@
             "jp": "最大マナが(8-10)%増加する"
           },
           "group": [
-            174
+            "MaximumManaIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -5005,7 +5005,7 @@
             "jp": "グローバル物理ダメージが(14-16)%増加する"
           },
           "group": [
-            90
+            "PhysicalDamagePercent"
           ],
           "weight": 1,
           "stats": [
@@ -5059,7 +5059,7 @@
             "jp": "ヒット時に(3-5)%の確率で毒を付与する\n毒持続時間が(6-8)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -5128,7 +5128,7 @@
             "jp": null
           },
           "group": [
-            2094
+            "PoisonDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5178,7 +5178,7 @@
             "jp": "プレイヤー自身に対する毒の持続時間が(-35--30)%減少する"
           },
           "group": [
-            27
+            "ReducedAilmentDuration"
           ],
           "weight": 1,
           "stats": [
@@ -5228,7 +5228,7 @@
             "jp": "投射物ダメージが(10-12)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -5278,7 +5278,7 @@
             "jp": "投射物スピードが(6-8)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5328,7 +5328,7 @@
             "jp": "盾装備中はアタックスピードが(4-6)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5378,7 +5378,7 @@
             "jp": "盾装備中はキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5428,7 +5428,7 @@
             "jp": null
           },
           "group": [
-            1455
+            "FormSpellBlock"
           ],
           "weight": 1,
           "stats": [
@@ -5478,7 +5478,7 @@
             "jp": "盾装備中はスペルダメージが(14-16)%増加する"
           },
           "group": [
-            1420
+            "SpellTypeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5532,7 +5532,7 @@
             "jp": "(3-5)%の確率で敵を感電させる\n感電持続時間が(12-16)%増加する"
           },
           "group": [
-            471
+            "AilmentChanceAndDuration"
           ],
           "weight": 1,
           "stats": [
@@ -5601,7 +5601,7 @@
             "jp": "プレイヤーに対する感電の効果が(-35--30)%減少する"
           },
           "group": [
-            2694
+            "ShockEffect"
           ],
           "weight": 1,
           "stats": [
@@ -5651,7 +5651,7 @@
             "jp": "スペルのクリティカルヒット率が(10-14)%増加する"
           },
           "group": [
-            1448
+            "FormCritChance"
           ],
           "weight": 1,
           "stats": [
@@ -5701,7 +5701,7 @@
             "jp": "スペルクリティカルダメージボーナスが(12-15)%増加する"
           },
           "group": [
-            1449
+            "FormCritMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -5751,7 +5751,7 @@
             "jp": "スペルダメージが(10-12)%増加する"
           },
           "group": [
-            1419
+            "DamageForm"
           ],
           "weight": 1,
           "stats": [
@@ -5801,7 +5801,7 @@
             "jp": "クォータースタッフのアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5851,7 +5851,7 @@
             "jp": "スタッフ装備中はキャストスピードが(3-5)%増加する"
           },
           "group": [
-            1422
+            "MeleeTypeSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5901,7 +5901,7 @@
             "jp": "クォータースタッフによるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5951,7 +5951,7 @@
             "jp": "スタッフ装備中はスペルダメージが(14-16)%増加する"
           },
           "group": [
-            1420
+            "SpellTypeDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6001,7 +6001,7 @@
             "jp": "筋力および器用さ (8-10)"
           },
           "group": [
-            1432
+            "StrengthDexterity"
           ],
           "weight": 1,
           "stats": [
@@ -6051,7 +6051,7 @@
             "jp": "筋力および知性 (8-10)"
           },
           "group": [
-            1433
+            "StrengthIntelligence"
           ],
           "weight": 1,
           "stats": [
@@ -6101,7 +6101,7 @@
             "jp": "筋力 (12-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -6151,7 +6151,7 @@
             "jp": "敵に対するスタンの持続時間が(10-14)%増加する"
           },
           "group": [
-            46
+            "StunDurationIncreasePercent"
           ],
           "weight": 1,
           "stats": [
@@ -6201,7 +6201,7 @@
             "jp": "スタン復帰が(25-35)%増加する"
           },
           "group": [
-            48
+            "StunRecovery"
           ],
           "weight": 1,
           "stats": [
@@ -6251,7 +6251,7 @@
             "jp": "トーテムダメージが(12-16)%増加する"
           },
           "group": [
-            1453
+            "TotemDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6301,7 +6301,7 @@
             "jp": "トーテムは全ての元素耐性が(6-10)%される"
           },
           "group": [
-            1454
+            "TotemElementalResistances"
           ],
           "weight": 1,
           "stats": [
@@ -6351,7 +6351,7 @@
             "jp": "トーテムのライフが(8-12)%増加する"
           },
           "group": [
-            592
+            "IncreasedTotemLife"
           ],
           "weight": 1,
           "stats": [
@@ -6401,7 +6401,7 @@
             "jp": "ワンドのアタックスピードが(6-8)%増加する"
           },
           "group": [
-            1421
+            "SpecificWeaponSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -6451,7 +6451,7 @@
             "jp": "ワンドによるダメージが(14-16)%増加する"
           },
           "group": [
-            1417
+            "SpecificWeaponDamage"
           ],
           "weight": 1,
           "stats": [

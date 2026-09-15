@@ -29,9 +29,19 @@
       "total": 9
     },
     "essence": {
-      "prefix": 11,
-      "suffix": 0,
-      "total": 11
+      "prefix": 3,
+      "suffix": 4,
+      "total": 7
+    },
+    "alloy": {
+      "prefix": 0,
+      "suffix": 1,
+      "total": 1
+    },
+    "desecrated": {
+      "prefix": 3,
+      "suffix": 5,
+      "total": 8
     },
     "unique": {
       "prefix": 16,
@@ -71,7 +81,7 @@
             "jp": "1から(2-3)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -132,7 +142,7 @@
             "jp": "(1-2)から3の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -193,7 +203,7 @@
             "jp": "1から(4-6)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -254,7 +264,7 @@
             "jp": "(1-2)から3の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -311,7 +321,7 @@
             "jp": "弓スキルのダメージが{}%増加する"
           },
           "group": [
-            83
+            "DamageWithWeaponTypeSkill"
           ],
           "weight": 1,
           "stats": [
@@ -361,7 +371,7 @@
             "jp": "命中力 (11-32)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -415,7 +425,7 @@
             "jp": "(3-4)から(5-8)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -476,7 +486,7 @@
             "jp": "(3-5)から(6-9)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -537,7 +547,7 @@
             "jp": "1から(10-15)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -598,7 +608,7 @@
             "jp": "(2-3)から(4-6)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -655,7 +665,7 @@
             "jp": "命中力 (33-60)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -705,7 +715,7 @@
             "jp": "投射物スピードが(10-17)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -759,7 +769,7 @@
             "jp": "(5-6)から(9-11)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -820,7 +830,7 @@
             "jp": "(6-8)から(10-13)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -881,7 +891,7 @@
             "jp": "1から(16-22)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -942,7 +952,7 @@
             "jp": "(2-4)から(5-8)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -999,7 +1009,7 @@
             "jp": "弓スキルのダメージが{}%増加する"
           },
           "group": [
-            83
+            "DamageWithWeaponTypeSkill"
           ],
           "weight": 1,
           "stats": [
@@ -1049,7 +1059,7 @@
             "jp": "命中力 (61-84)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -1099,7 +1109,7 @@
             "jp": "命中力 (85-123)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -1149,7 +1159,7 @@
             "jp": "投射物スピードが(18-25)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -1203,7 +1213,7 @@
             "jp": "(7-8)から(12-14)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1264,7 +1274,7 @@
             "jp": "(9-11)から(14-17)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1325,7 +1335,7 @@
             "jp": "1から(23-27)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1386,7 +1396,7 @@
             "jp": "(4-6)から(8-11)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1443,7 +1453,7 @@
             "jp": "弓スキルのダメージが{}%増加する"
           },
           "group": [
-            83
+            "DamageWithWeaponTypeSkill"
           ],
           "weight": 1,
           "stats": [
@@ -1493,7 +1503,7 @@
             "jp": "命中力 (124-167)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -1543,7 +1553,7 @@
             "jp": "投射物スピードが(26-33)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -1597,7 +1607,7 @@
             "jp": "(9-10)から(15-17)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1658,7 +1668,7 @@
             "jp": "(12-13)から(18-20)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1719,7 +1729,7 @@
             "jp": "1から(28-32)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1780,7 +1790,7 @@
             "jp": "(5-7)から(9-13)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -1837,7 +1847,7 @@
             "jp": "弓スキルのダメージが{}%増加する"
           },
           "group": [
-            83
+            "DamageWithWeaponTypeSkill"
           ],
           "weight": 1,
           "stats": [
@@ -1887,7 +1897,7 @@
             "jp": "命中力 (168-236)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -1941,7 +1951,7 @@
             "jp": "(11-13)から(18-21)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2002,7 +2012,7 @@
             "jp": "(11-16)から(21-26)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2063,7 +2073,7 @@
             "jp": "(1-2)から(33-40)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2124,7 +2134,7 @@
             "jp": "(6-10)から(12-17)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2181,7 +2191,7 @@
             "jp": "投射物スピードが(34-41)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -2231,7 +2241,7 @@
             "jp": "命中力 (237-346)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -2285,7 +2295,7 @@
             "jp": "(14-15)から(22-24)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2346,7 +2356,7 @@
             "jp": "(13-19)から(27-32)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2407,7 +2417,7 @@
             "jp": "(1-2)から(41-47)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2468,7 +2478,7 @@
             "jp": "(7-11)から(14-20)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2525,7 +2535,7 @@
             "jp": "弓スキルのダメージが{}%増加する"
           },
           "group": [
-            83
+            "DamageWithWeaponTypeSkill"
           ],
           "weight": 1,
           "stats": [
@@ -2579,7 +2589,7 @@
             "jp": "(16-20)から(25-31)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2640,7 +2650,7 @@
             "jp": "(20-24)から(33-36)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2701,7 +2711,7 @@
             "jp": "(1-3)から(48-59)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2762,7 +2772,7 @@
             "jp": "(10-15)から(18-26)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2819,7 +2829,7 @@
             "jp": "命中力 (347-450)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -2873,7 +2883,7 @@
             "jp": "(21-24)から(32-37)の冷気ダメージをアタックに追加する"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2934,7 +2944,7 @@
             "jp": "(25-29)から(37-45)の火ダメージをアタックに追加する"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1,
           "stats": [
@@ -2995,7 +3005,7 @@
             "jp": "(1-4)から(60-71)の雷ダメージをアタックに追加する"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3056,7 +3066,7 @@
             "jp": "(12-19)から(22-32)の物理ダメージをアタックに追加する"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1,
           "stats": [
@@ -3113,7 +3123,7 @@
             "jp": "命中力 (451-550)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -3163,7 +3173,7 @@
             "jp": "弓スキルのダメージが{}%増加する"
           },
           "group": [
-            83
+            "DamageWithWeaponTypeSkill"
           ],
           "weight": 1,
           "stats": [
@@ -3213,7 +3223,7 @@
             "jp": "投射物スピードが(42-46)%増加する"
           },
           "group": [
-            104
+            "ProjectileSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -3265,7 +3275,7 @@
             "jp": "器用さ (5-8)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -3315,7 +3325,7 @@
             "jp": "アタックスピードが(5-7)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -3365,7 +3375,7 @@
             "jp": "倒した敵1体ごとに(4-6)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -3415,7 +3425,7 @@
             "jp": "倒した敵1体ごとに(2-3)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -3465,7 +3475,7 @@
             "jp": "アタックのクリティカルヒット率が(10-14)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -3515,7 +3525,7 @@
             "jp": "全ての投射物スキルのレベル 1"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -3565,7 +3575,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(10-14)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -3615,7 +3625,7 @@
             "jp": "(12-14)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -3665,7 +3675,7 @@
             "jp": "器用さ (9-12)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -3715,7 +3725,7 @@
             "jp": "倒した敵1体ごとに(7-9)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -3765,7 +3775,7 @@
             "jp": "倒した敵1体ごとに(4-5)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -3815,7 +3825,7 @@
             "jp": "アタックのクリティカルヒット率が(15-19)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -3865,7 +3875,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(15-19)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -3915,7 +3925,7 @@
             "jp": "器用さ (13-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -3965,7 +3975,7 @@
             "jp": "アタックスピードが(8-10)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -4015,7 +4025,7 @@
             "jp": "倒した敵1体ごとに(10-18)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4065,7 +4075,7 @@
             "jp": "倒した敵1体ごとに(6-9)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4115,7 +4125,7 @@
             "jp": "(15-17)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -4165,7 +4175,7 @@
             "jp": "アタックのクリティカルヒット率が(20-24)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -4215,7 +4225,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(20-24)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -4265,7 +4275,7 @@
             "jp": "器用さ (17-20)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -4315,7 +4325,7 @@
             "jp": "倒した敵1体ごとに(19-28)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4365,7 +4375,7 @@
             "jp": "倒した敵1体ごとに(10-14)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4415,7 +4425,7 @@
             "jp": "アタックスピードが(11-13)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -4465,7 +4475,7 @@
             "jp": "(18-20)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -4515,7 +4525,7 @@
             "jp": "アタックのクリティカルヒット率が(25-29)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -4565,7 +4575,7 @@
             "jp": "器用さ (21-24)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -4615,7 +4625,7 @@
             "jp": "倒した敵1体ごとに(29-40)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4665,7 +4675,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(25-29)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -4715,7 +4725,7 @@
             "jp": "倒した敵1体ごとに(15-20)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4765,7 +4775,7 @@
             "jp": "矢を追加で1個放つ超過可能確率 (25-40)%"
           },
           "group": [
-            11
+            "AdditionalArrows"
           ],
           "weight": 1,
           "stats": [
@@ -4815,7 +4825,7 @@
             "jp": "器用さ (25-27)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -4865,7 +4875,7 @@
             "jp": "倒した敵1体ごとに(41-53)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4915,7 +4925,7 @@
             "jp": "倒した敵1体ごとに(21-27)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -4965,7 +4975,7 @@
             "jp": "アタックのクリティカルヒット率が(30-34)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -5015,7 +5025,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(30-34)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -5065,7 +5075,7 @@
             "jp": "アタックスピードが(14-16)%増加する"
           },
           "group": [
-            38
+            "IncreasedAttackSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5115,7 +5125,7 @@
             "jp": "(21-23)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -5165,7 +5175,7 @@
             "jp": "器用さ (28-30)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -5215,7 +5225,7 @@
             "jp": "アタックのクリティカルヒット率が(35-38)%増加する"
           },
           "group": [
-            93
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -5265,7 +5275,7 @@
             "jp": "アタックダメージのクリティカルダメージボーナスが(35-39)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -5315,7 +5325,7 @@
             "jp": "器用さ (31-33)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -5365,7 +5375,7 @@
             "jp": "(24-26)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -5415,7 +5425,7 @@
             "jp": "矢を追加で1個放つ超過可能確率 (41-60)%"
           },
           "group": [
-            11
+            "AdditionalArrows"
           ],
           "weight": 1,
           "stats": [
@@ -5469,7 +5479,7 @@
             "jp": "ダメージが(20-30)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -5519,7 +5529,7 @@
             "jp": "投射物は(10-20)%の確率で地形から追加で1回連鎖する"
           },
           "group": [
-            5557
+            "ChainFromTerrain"
           ],
           "weight": 1,
           "stats": [
@@ -5569,7 +5579,7 @@
             "jp": "(20-30)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -5619,7 +5629,7 @@
             "jp": "クリティカルダメージボーナスが(15-20)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -5669,7 +5679,7 @@
             "jp": "命中力 (50-100)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -5719,7 +5729,7 @@
             "jp": "最大マナ (20-25)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -5769,7 +5779,7 @@
             "jp": "スキルスピードが(4-6)%増加する"
           },
           "group": [
-            5424
+            "IncreasedSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5819,7 +5829,7 @@
             "jp": "倒した敵1体ごとに(20-25)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -5869,7 +5879,7 @@
             "jp": "倒した敵1体ごとに(10-15)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -5900,523 +5910,8 @@
     "essence": {
       "prefix": [
         {
-          "id": "EssenceGrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": "Essence's",
-            "kr": "에센스의",
-            "tw": "精髓的",
-            "ru": "Сущностный",
-            "jp": "エッセンスの"
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            5682
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_essence",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive2",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_2",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_3",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive4",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_4",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionAndEnergyShieldPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              3,
-              3
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 3 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level",
-            "kr": "플레이어 레벨 1당 회피 3\n플레이어 레벨 1당 에너지 보호막 최대치 1",
-            "tw": "每一玩家等級3閃避值\n每一玩家等級1最大能量護盾",
-            "ru": "3 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 3を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    3,
-                    3
-                  ]
-                }
-              ],
-              "value": "3",
-              "text": {
-                "en": "Has 3 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 3",
-                "tw": "每一玩家等級3閃避值",
-                "ru": "3 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 3を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionEnergyShieldAndWardPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              2,
-              2
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 2 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level\nHas 1 to maximum Runic Ward per player level",
-            "kr": "플레이어 레벨 1당 회피 2\n플레이어 레벨 1당 에너지 보호막 최대치 1\n플레이어 레벨 1당 룬 수호 최대치 1",
-            "tw": "每一玩家等級2閃避值\n每一玩家等級1最大能量護盾\n每一玩家等級擁有1最大符文保護",
-            "ru": "2 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока\nПолучает 1 к максимуму рунического барьера за уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 2を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ\nプレイヤーレベルごとに最大ルーンワード 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "value": "2",
-              "text": {
-                "en": "Has 2 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 2",
-                "tw": "每一玩家等級2閃避值",
-                "ru": "2 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 2を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_ward_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Runic Ward per player level",
-                "kr": "플레이어 레벨 1당 룬 수호 최대치 1",
-                "tw": "每一玩家等級擁有1最大符文保護",
-                "ru": "Получает 1 к максимуму рунического барьера за уровень игрока",
-                "jp": "プレイヤーレベルごとに最大ルーンワード 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalCopyPlayerLevelValue",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_player_level_to_use",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "Obliterated",
-          "affixType": "essence",
+          "id": "EssenceAbyssPrefix",
+          "affixType": "prefix",
           "tier": 1,
           "valueRanges": [
             [
@@ -6425,28 +5920,28 @@
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Abyssal",
+            "kr": "심연의",
+            "tw": "深淵的",
+            "ru": "Подземный",
+            "jp": "アビサル"
           },
           "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
           },
           "group": [
-            6096
+            "EssenceAbyss"
           ],
           "weight": 0,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "dummy_display_is_obliterated",
+                  "stat": "essence_abyss_guaranteed_pick",
                   "valueRange": [
                     1,
                     1
@@ -6455,117 +5950,875 @@
               ],
               "value": "1",
               "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueDamageRemovedFromManaBeforeLife3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "IncreasedAccuracy7",
+          "affixType": "prefix",
+          "tier": 58,
           "valueRanges": [
             [
-              100,
-              100
+              237,
+              346
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Hunter's",
+            "kr": "사냥꾼의",
+            "tw": "狩獵者的",
+            "ru": "Охотничий",
+            "jp": "狩人の"
           },
           "effect": {
-            "en": "100% of Damage is taken from Mana before Life",
-            "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-            "tw": "生命值所受的100%傷害由魔力扣除",
-            "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-            "jp": "ダメージの100%をライフより先にマナで受ける"
+            "en": "(237-346) to Accuracy Rating",
+            "kr": "정확도 (237-346)",
+            "tw": "(237-346)命中值",
+            "ru": "(237-346) к меткости",
+            "jp": "命中力 (237-346)"
           },
           "group": [
-            760
+            "IncreasedAccuracy"
           ],
-          "weight": 0,
+          "weight": 1,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "base_damage_removed_from_mana_before_life_%",
+                  "stat": "accuracy_rating",
                   "valueRange": [
-                    100,
-                    100
+                    237,
+                    346
                   ]
                 }
               ],
-              "value": "100",
+              "value": "237~346",
               "text": {
-                "en": "100% of Damage is taken from Mana before Life",
-                "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-                "tw": "生命值所受的100%傷害由魔力扣除",
-                "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-                "jp": "ダメージの100%をライフより先にマナで受ける"
+                "en": "(237-346) to Accuracy Rating",
+                "kr": "정확도 (237-346)",
+                "tw": "(237-346)命中值",
+                "ru": "(237-346) к меткости",
+                "jp": "命中力 (237-346)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttack",
+              "name": {
+                "en": "Greater Essence of Battle",
+                "kr": "상위 전투의 에센스",
+                "tw": "高階戰鬥精髓",
+                "ru": "Большая сущность битвы",
+                "jp": "戦闘のグレーターエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueJewelGrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "DamageWithBows5",
+          "affixType": "prefix",
+          "tier": 60,
           "valueRanges": [
             [
-              0,
-              0
+              43,
+              50
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Lacerating",
+            "kr": "짓찢는",
+            "tw": "撕裂的",
+            "ru": "Раздирающий",
+            "jp": "切り裂く"
           },
           "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
+            "en": "{}% increased Damage with Bow Skills",
+            "kr": "활 스킬로 주는 피해 {}% 증가",
+            "tw": "增加{}%弓技能的傷害",
+            "ru": "{}% увеличение урона умениями лука",
+            "jp": "弓スキルのダメージが{}%増加する"
           },
           "group": [
-            3610
+            "DamageWithWeaponTypeSkill"
           ],
-          "weight": 0,
+          "weight": 1,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "unique_jewel_grants_notable_hash_3",
+                  "stat": "damage_+%_with_bow_skills",
                   "valueRange": [
-                    0,
-                    0
+                    43,
+                    50
                   ]
                 }
               ],
-              "value": "0",
+              "value": "43~50",
               "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
+                "en": "{}% increased Damage with Bow Skills",
+                "kr": "활 스킬로 주는 피해 {}% 증가",
+                "tw": "增加{}%弓技能的傷害",
+                "ru": "{}% увеличение урона умениями лука",
+                "jp": "弓スキルのダメージが{}%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceHysteria",
+              "name": {
+                "en": "Essence of Hysteria",
+                "kr": "발작의 에센스",
+                "tw": "浮誇精髓",
+                "ru": "Сущность истерии",
+                "jp": "ヒステリーのエッセンス"
               }
             }
           ]
         }
       ],
-      "suffix": []
+      "suffix": [
+        {
+          "id": "EssenceAbyssSuffix",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of the Abyss",
+            "kr": "- 심연",
+            "tw": "深淵之",
+            "ru": "Бездны",
+            "jp": "アビスの"
+          },
+          "effect": {
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
+          },
+          "group": [
+            "EssenceAbyss"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "essence_abyss_guaranteed_pick",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Lynx",
+            "kr": "- 스라소니",
+            "tw": "山貓之",
+            "ru": "рыси",
+            "jp": "リンクスの"
+          },
+          "effect": {
+            "en": "(9-12) to Dexterity",
+            "kr": "민첩 (9-12)",
+            "tw": "(9-12)點敏捷",
+            "ru": "(9-12) к ловкости",
+            "jp": "器用さ (9-12)"
+          },
+          "group": [
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12) to Dexterity",
+                "kr": "민첩 (9-12)",
+                "tw": "(9-12)點敏捷",
+                "ru": "(9-12) к ловкости",
+                "jp": "器用さ (9-12)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAttribute",
+              "name": {
+                "en": "Lesser Essence of the Infinite",
+                "kr": "하위 무한의 에센스",
+                "tw": "低階無限精髓",
+                "ru": "Малая сущность бесконечности",
+                "jp": "無限のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Falcon",
+            "kr": "- 매",
+            "tw": "獵鷹之",
+            "ru": "сокола",
+            "jp": "隼の"
+          },
+          "effect": {
+            "en": "(17-20) to Dexterity",
+            "kr": "민첩 (17-20)",
+            "tw": "(17-20)點敏捷",
+            "ru": "(17-20) к ловкости",
+            "jp": "器用さ (17-20)"
+          },
+          "group": [
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20) to Dexterity",
+                "kr": "민첩 (17-20)",
+                "tw": "(17-20)點敏捷",
+                "ru": "(17-20) к ловкости",
+                "jp": "器用さ (17-20)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAttribute",
+              "name": {
+                "en": "Essence of the Infinite",
+                "kr": "무한의 에센스",
+                "tw": "無限精髓",
+                "ru": "Сущность бесконечности",
+                "jp": "無限のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Dexterity6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Leopard",
+            "kr": "- 표범",
+            "tw": "花豹之",
+            "ru": "леопарда",
+            "jp": "豹の"
+          },
+          "effect": {
+            "en": "(25-27) to Dexterity",
+            "kr": "민첩 (25-27)",
+            "tw": "(25-27)點敏捷",
+            "ru": "(25-27) к ловкости",
+            "jp": "器用さ (25-27)"
+          },
+          "group": [
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27) to Dexterity",
+                "kr": "민첩 (25-27)",
+                "tw": "(25-27)點敏捷",
+                "ru": "(25-27) к ловкости",
+                "jp": "器用さ (25-27)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute",
+              "name": {
+                "en": "Greater Essence of the Infinite",
+                "kr": "상위 무한의 에센스",
+                "tw": "高階無限精髓",
+                "ru": "Большая сущность бесконечности",
+                "jp": "無限のグレーターエッセンス"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "alloy": {
+      "prefix": [],
+      "suffix": [
+        {
+          "id": "AlloyChanceToChain1",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              25,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "(25-35)% chance to Chain an additional time",
+            "kr": "(25-35)%의 확률로 1회 추가 연쇄",
+            "tw": "有(25-35)%機率額外連鎖一次",
+            "ru": "(25-35)% шанс нанести дополнительный удар по цепи",
+            "jp": "(25-35)%の確率で追加で1回連鎖する"
+          },
+          "group": [
+            "Chain"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_additional_attack_chain_chance_%",
+                  "valueRange": [
+                    25,
+                    35
+                  ]
+                }
+              ],
+              "value": "25~35",
+              "text": {
+                "en": "(25-35)% chance to Chain an additional time",
+                "kr": "(25-35)%의 확률로 1회 추가 연쇄",
+                "tw": "有(25-35)%機率額外連鎖一次",
+                "ru": "(25-35)% шанс нанести дополнительный удар по цепи",
+                "jp": "(25-35)%の確率で追加で1回連鎖する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy8",
+              "name": {
+                "en": "Mystic Alloy",
+                "kr": "신비한 합금",
+                "tw": "秘能合金",
+                "ru": "Мистический сплав",
+                "jp": "神秘の合金"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "desecrated": {
+      "prefix": [
+        {
+          "id": "AbyssModQuiverAmanamuPrefixProjectileDamageCloseRange",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              20,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Amanamu's",
+            "kr": "아마나무의",
+            "tw": "阿姆那姆的",
+            "ru": "Усиленный Аманаму",
+            "jp": "アマナムによる"
+          },
+          "effect": {
+            "en": "Projectiles deal (20-30)% increased Damage with Hits against Enemies within 2m",
+            "kr": "투사체가 2미터 내에 있는 적에게 주는 명중 피해 (20-30)% 증가",
+            "tw": "增加(20-30)%投射物對距離2公尺內的敵人造成的擊中傷害",
+            "ru": "Снаряды наносят увеличенный на (20-30)% урон от ударов по врагам на расстоянии менее 2 м",
+            "jp": "投射物は2mより近くにいる敵に対するヒットダメージが(20-30)%増加する"
+          },
+          "group": [
+            "ProjectileDamage"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "projectile_damage_+%_vs_enemies_within_2m_distance",
+                  "valueRange": [
+                    20,
+                    30
+                  ]
+                }
+              ],
+              "value": "20~30",
+              "text": {
+                "en": "Projectiles deal (20-30)% increased Damage with Hits against Enemies within 2m",
+                "kr": "투사체가 2미터 내에 있는 적에게 주는 명중 피해 (20-30)% 증가",
+                "tw": "增加(20-30)%投射物對距離2公尺內的敵人造成的擊中傷害",
+                "ru": "Снаряды наносят увеличенный на (20-30)% урон от ударов по врагам на расстоянии менее 2 м",
+                "jp": "投射物は2mより近くにいる敵に対するヒットダメージが(20-30)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModQuiverKurgalPrefixProjectileDamageFar",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              20,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Kurgal's",
+            "kr": "쿠르갈의",
+            "tw": "柯戈的",
+            "ru": "Усиленный Каргалом",
+            "jp": "クルガルによる"
+          },
+          "effect": {
+            "en": "Projectiles deal (20-30)% increased Damage with Hits against Enemies further than 6m",
+            "kr": "투사체가 6미터보다 멀리 있는 적에게 주는 명중 피해 (20-30)% 증가",
+            "tw": "增加(20-30)%投射物對距離超過6公尺的敵人造成的擊中傷害",
+            "ru": "Снаряды наносят увеличенный на (20-30)% урон от ударов по врагам на расстоянии более 6 м",
+            "jp": "投射物は6mより遠くにいる敵に対するヒットダメージが(20-30)%増加する"
+          },
+          "group": [
+            "ProjectileDamage"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "projectile_damage_+%_vs_enemies_further_than_6m_distance",
+                  "valueRange": [
+                    20,
+                    30
+                  ]
+                }
+              ],
+              "value": "20~30",
+              "text": {
+                "en": "Projectiles deal (20-30)% increased Damage with Hits against Enemies further than 6m",
+                "kr": "투사체가 6미터보다 멀리 있는 적에게 주는 명중 피해 (20-30)% 증가",
+                "tw": "增加(20-30)%投射物對距離超過6公尺的敵人造成的擊中傷害",
+                "ru": "Снаряды наносят увеличенный на (20-30)% урон от ударов по врагам на расстоянии более 6 м",
+                "jp": "投射物は6mより遠くにいる敵に対するヒットダメージが(20-30)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModQuiverUlamanPrefixIncreasesToProjectileSpeedApplyToDamage",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Ulaman's",
+            "kr": "울라만의",
+            "tw": "烏拉曼的",
+            "ru": "Усиленный Уламаном",
+            "jp": "ウラマンによる"
+          },
+          "effect": {
+            "en": "Increases and Reductions to Projectile Speed also apply to Damage with Bows",
+            "kr": "투사체 속도 증가와 감소가 활 피해에도 적용",
+            "tw": "投射物速度增減也會套用於弓的傷害",
+            "ru": "Увеличения и уменьшения скорости снарядов также применяются к урону луками",
+            "jp": "投射物スピードの増減のモッドは弓のダメージにも適用される"
+          },
+          "group": [
+            "ProjectileDamage"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "arrow_speed_additive_modifiers_also_apply_to_bow_damage",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Increases and Reductions to Projectile Speed also apply to Damage with Bows",
+                "kr": "투사체 속도 증가와 감소가 활 피해에도 적용",
+                "tw": "投射物速度增減也會套用於弓的傷害",
+                "ru": "Увеличения и уменьшения скорости снарядов также применяются к урону луками",
+                "jp": "投射物スピードの増減のモッドは弓のダメージにも適用される"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "AbyssModFourCatKurgalSuffixManaCostEfficiency",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              6,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(6-10)% increased Mana Cost Efficiency",
+            "kr": "마나 소모 효율 (6-10)% 증가",
+            "tw": "增加(6-10)%魔力消耗效率",
+            "ru": "(6-10)% увеличение эффективности расхода маны",
+            "jp": "マナコスト効率が(6-10)%増加する"
+          },
+          "group": [
+            "ManaCostEfficiency"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_cost_efficiency_+%",
+                  "valueRange": [
+                    6,
+                    10
+                  ]
+                }
+              ],
+              "value": "6~10",
+              "text": {
+                "en": "(6-10)% increased Mana Cost Efficiency",
+                "kr": "마나 소모 효율 (6-10)% 증가",
+                "tw": "增加(6-10)%魔力消耗效率",
+                "ru": "(6-10)% увеличение эффективности расхода маны",
+                "jp": "マナコスト効率が(6-10)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModQuiverAmanamuSuffixProjectileCriticalHitDamageCloseRange",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              18,
+              26
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "Projectiles have (18-26)% increased Critical Damage Bonus against Enemies within 2m",
+            "kr": "2미터 내의 적들에 대한 투사체의 치명타 피해 보너스 (18-26)% 증가",
+            "tw": "增加(18-26)%投射物對2公尺內敵人的暴擊傷害加成",
+            "ru": "(18-26)% увеличение бонуса к критическому урону снарядами по врагам на расстоянии меньше 2 м",
+            "jp": "投射物は2m以内にいる敵に対するクリティカルダメージボーナスが(18-26)%増加する"
+          },
+          "group": [
+            "CriticalStrikeMultiplier"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "critical_hit_damage_bonus_+%_vs_enemies_within_2m_distance",
+                  "valueRange": [
+                    18,
+                    26
+                  ]
+                }
+              ],
+              "value": "18~26",
+              "text": {
+                "en": "Projectiles have (18-26)% increased Critical Damage Bonus against Enemies within 2m",
+                "kr": "2미터 내의 적들에 대한 투사체의 치명타 피해 보너스 (18-26)% 증가",
+                "tw": "增加(18-26)%投射物對2公尺內敵人的暴擊傷害加成",
+                "ru": "(18-26)% увеличение бонуса к критическому урону снарядами по врагам на расстоянии меньше 2 м",
+                "jp": "投射物は2m以内にいる敵に対するクリティカルダメージボーナスが(18-26)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModQuiverKurgalSuffixProjectileCriticalHitChanceFar",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              18,
+              26
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "Projectiles have (18-26)% increased Critical Hit Chance against Enemies further than 6m",
+            "kr": "6미터보다 멀리 있는 적에 대한 투사체의 치명타 명중 확률 (18-26)% 증가",
+            "tw": "增加(18-26)%投射物對距離超過6公尺的敵人暴擊機率",
+            "ru": "(18-26)% увеличение шанса критического удара снарядами по врагам на расстоянии более 6 м",
+            "jp": "投射物は6mより遠くにいる敵に対するクリティカルヒット率が(18-26)%増加する"
+          },
+          "group": [
+            "CriticalStrikeChanceIncrease"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "critical_strike_chance_+%_vs_enemies_further_than_6m_distance",
+                  "valueRange": [
+                    18,
+                    26
+                  ]
+                }
+              ],
+              "value": "18~26",
+              "text": {
+                "en": "Projectiles have (18-26)% increased Critical Hit Chance against Enemies further than 6m",
+                "kr": "6미터보다 멀리 있는 적에 대한 투사체의 치명타 명중 확률 (18-26)% 증가",
+                "tw": "增加(18-26)%投射物對距離超過6公尺的敵人暴擊機率",
+                "ru": "(18-26)% увеличение шанса критического удара снарядами по врагам на расстоянии более 6 м",
+                "jp": "投射物は6mより遠くにいる敵に対するクリティカルヒット率が(18-26)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModQuiverUlamanSuffixAttackCostConvertedToLifeCost",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              10,
+              14
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(10-14)% of Skill Mana Costs Converted to Life Costs",
+            "kr": "스킬의 마나 소모의 (10-14)%가 생명력 소모로 전환",
+            "tw": "(10-14)%技能魔力消耗轉換為生命消耗",
+            "ru": "(10-14)% стоимости умений в мане берется из здоровья",
+            "jp": "スキルのマナコストの(10-14)%がライフコストに変換される"
+          },
+          "group": [
+            "LifeCost"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_skill_cost_life_instead_of_mana_%",
+                  "valueRange": [
+                    10,
+                    14
+                  ]
+                }
+              ],
+              "value": "10~14",
+              "text": {
+                "en": "(10-14)% of Skill Mana Costs Converted to Life Costs",
+                "kr": "스킬의 마나 소모의 (10-14)%가 생명력 소모로 전환",
+                "tw": "(10-14)%技能魔力消耗轉換為生命消耗",
+                "ru": "(10-14)% стоимости умений в мане берется из здоровья",
+                "jp": "スキルのマナコストの(10-14)%がライフコストに変換される"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModQuiverUlamanSuffixChanceForExtraProjectilesWhileMoving",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              8,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "Projectile Attacks have a (8-12)% chance to fire two additional Projectiles while moving",
+            "kr": "이동 중 투사체 공격 시 (8-12)% 확률로 투사체 2개 추가 발사",
+            "tw": "移動時，投射物攻擊有(8-12)%機率發射2個額外投射物",
+            "ru": "Атаки снарядами с (8-12)% шансом могут выпустить два дополнительных снаряда при передвижении",
+            "jp": "投射物アタックは移動中に(8-12)%の確率で投射物を追加で2個放つ"
+          },
+          "group": [
+            "AdditionalProjectiles"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "projectile_attacks_%_chance_to_fire_2_additional_projectiles_while_moving",
+                  "valueRange": [
+                    8,
+                    12
+                  ]
+                }
+              ],
+              "value": "8~12",
+              "text": {
+                "en": "Projectile Attacks have a (8-12)% chance to fire two additional Projectiles while moving",
+                "kr": "이동 중 투사체 공격 시 (8-12)% 확률로 투사체 2개 추가 발사",
+                "tw": "移動時，投射物攻擊有(8-12)%機率發射2個額外投射物",
+                "ru": "Атаки снарядами с (8-12)% шансом могут выпустить два дополнительных снаряда при передвижении",
+                "jp": "投射物アタックは移動中に(8-12)%の確率で投射物を追加で2個放つ"
+              }
+            }
+          ]
+        }
+      ]
     },
     "unique": {
       "prefix": [
@@ -6594,7 +6847,7 @@
             "jp": "ダメージが(40-60)%増加する"
           },
           "group": [
-            543
+            "AllDamage"
           ],
           "weight": 1,
           "stats": [
@@ -6644,7 +6897,7 @@
             "jp": "投射物は(25-40)%の確率で地形から追加で1回連鎖する"
           },
           "group": [
-            5557
+            "ChainFromTerrain"
           ],
           "weight": 1,
           "stats": [
@@ -6694,7 +6947,7 @@
             "jp": "(50-75)%の確率で敵を貫通する"
           },
           "group": [
-            47
+            "ChanceToPierce"
           ],
           "weight": 1,
           "stats": [
@@ -6744,7 +6997,7 @@
             "jp": "クリティカルダメージボーナスが(30-50)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -6794,7 +7047,7 @@
             "jp": "命中力 (150-300)"
           },
           "group": [
-            39
+            "IncreasedAccuracy"
           ],
           "weight": 1,
           "stats": [
@@ -6844,7 +7097,7 @@
             "jp": "最大マナ (80-100)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -6894,7 +7147,7 @@
             "jp": "スキルスピードが(8-16)%増加する"
           },
           "group": [
-            5424
+            "IncreasedSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -6944,7 +7197,7 @@
             "jp": "混沌耐性 (10-13)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6994,7 +7247,7 @@
             "jp": "冷気耐性 (15-20)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7044,7 +7297,7 @@
             "jp": "器用さ (14-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -7094,7 +7347,7 @@
             "jp": "火耐性 (15-20)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7144,7 +7397,7 @@
             "jp": "知性 (14-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -7194,7 +7447,7 @@
             "jp": "雷耐性 (15-20)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7244,7 +7497,7 @@
             "jp": "筋力 (14-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -7294,7 +7547,7 @@
             "jp": "倒した敵1体ごとに(40-55)のライフを獲得する"
           },
           "group": [
-            140
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [
@@ -7344,7 +7597,7 @@
             "jp": "倒した敵1体ごとに(20-30)のマナを獲得する"
           },
           "group": [
-            141
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 1,
           "stats": [

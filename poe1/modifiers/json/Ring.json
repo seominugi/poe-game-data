@@ -59,7 +59,7 @@
             "kr": "공격 시 화염 피해 1~2 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 500,
           "stats": [
@@ -107,7 +107,7 @@
             "kr": "회피 (3-10)"
           },
           "group": [
-            17
+            "IncreasedEvasionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -148,7 +148,7 @@
             "kr": "생명력 최대치 (3-9)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -189,7 +189,7 @@
             "kr": "마나 최대치 (15-19)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -234,7 +234,7 @@
             "kr": "공격 시 냉기 피해 1~2 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 500,
           "stats": [
@@ -282,7 +282,7 @@
             "kr": "장착된 젬 레벨 1"
           },
           "group": [
-            115
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -327,7 +327,7 @@
             "kr": "공격 시 번개 피해 1~5 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 500,
           "stats": [
@@ -375,7 +375,7 @@
             "kr": "에너지 보호막 최대치 (1-3)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -416,7 +416,7 @@
             "kr": "공격 스킬의 원소 피해 (5-10)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -461,7 +461,7 @@
             "kr": "공격 시 물리 피해 1~2 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -509,7 +509,7 @@
             "kr": "생명력 최대치 (10-24)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -550,7 +550,7 @@
             "kr": "에너지 보호막 최대치 (4-8)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -591,7 +591,7 @@
             "kr": "생명력 최대치 (25-39)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -632,7 +632,7 @@
             "kr": "마나 최대치 (20-24)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -677,7 +677,7 @@
             "kr": "공격 시 화염 피해 (3-5)~(7-8) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 500,
           "stats": [
@@ -729,7 +729,7 @@
             "kr": "공격 시 냉기 피해 (3-4)~(7-8) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 500,
           "stats": [
@@ -781,7 +781,7 @@
             "kr": "공격 시 번개 피해 1~(14-15) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 500,
           "stats": [
@@ -833,7 +833,7 @@
             "kr": "공격 시 물리 피해 (2-3)~(4-5) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -881,7 +881,7 @@
             "kr": "공격 스킬의 원소 피해 (11-20)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -922,7 +922,7 @@
             "kr": "에너지 보호막 최대치 (9-12)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -963,7 +963,7 @@
             "kr": "마나 최대치 (25-29)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1004,7 +1004,7 @@
             "kr": "회피 (11-35)"
           },
           "group": [
-            17
+            "IncreasedEvasionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -1045,7 +1045,7 @@
             "kr": "생명력 최대치 (40-54)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1090,7 +1090,7 @@
             "kr": "공격 시 물리 피해 (3-4)~(6-7) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -1142,7 +1142,7 @@
             "kr": "공격 시 화염 피해 (5-7)~(11-13) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1190,7 +1190,7 @@
             "kr": "발견하는 아이템 희귀도 (8-12)% 증가"
           },
           "group": [
-            473
+            "ItemFoundRarityIncreasePrefix"
           ],
           "weight": 1000,
           "stats": [
@@ -1235,7 +1235,7 @@
             "kr": "공격 시 냉기 피해 (5-7)~(10-12) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1287,7 +1287,7 @@
             "kr": "공격 시 번개 피해 (1-2)~(22-23) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1335,7 +1335,7 @@
             "kr": "에너지 보호막 최대치 (13-15)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -1376,7 +1376,7 @@
             "kr": "마나 최대치 (30-34)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1417,7 +1417,7 @@
             "kr": "생명력 최대치 (55-69)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1462,7 +1462,7 @@
             "kr": "공격 시 화염 피해 (7-10)~(15-18) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1514,7 +1514,7 @@
             "kr": "공격 시 번개 피해 (1-2)~(27-28) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1566,7 +1566,7 @@
             "kr": "공격 시 물리 피해 (4-6)~(9-10) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -1618,7 +1618,7 @@
             "kr": "공격 시 냉기 피해 (6-9)~(13-16) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1666,7 +1666,7 @@
             "kr": "에너지 보호막 최대치 (16-19)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -1707,7 +1707,7 @@
             "kr": "회피 (36-60)"
           },
           "group": [
-            17
+            "IncreasedEvasionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -1748,7 +1748,7 @@
             "kr": "마나 최대치 (35-39)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1789,7 +1789,7 @@
             "kr": "생명력 최대치 (70-84)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1830,7 +1830,7 @@
             "kr": "공격 스킬의 원소 피해 (21-30)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -1875,7 +1875,7 @@
             "kr": "공격 시 화염 피해 (9-12)~(19-22) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1927,7 +1927,7 @@
             "kr": "공격 시 번개 피해 (1-3)~(33-34) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 500,
           "stats": [
@@ -1979,7 +1979,7 @@
             "kr": "공격 시 물리 피해 (5-7)~(11-12) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -2027,7 +2027,7 @@
             "kr": "에너지 보호막 최대치 (20-22)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -2068,7 +2068,7 @@
             "kr": "마나 최대치 (40-44)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2113,7 +2113,7 @@
             "kr": "공격 시 냉기 피해 (8-11)~(16-19) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 500,
           "stats": [
@@ -2161,7 +2161,7 @@
             "kr": "생명력 최대치 (85-99)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -2202,7 +2202,7 @@
             "kr": "발견하는 아이템 희귀도 (13-18)% 증가"
           },
           "group": [
-            473
+            "ItemFoundRarityIncreasePrefix"
           ],
           "weight": 1000,
           "stats": [
@@ -2243,7 +2243,7 @@
             "kr": "에너지 보호막 최대치 (23-26)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -2284,7 +2284,7 @@
             "kr": "회피 (61-80)"
           },
           "group": [
-            17
+            "IncreasedEvasionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -2325,7 +2325,7 @@
             "kr": "마나 최대치 (45-49)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2370,7 +2370,7 @@
             "kr": "공격 시 화염 피해 (11-15)~(23-27) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 500,
           "stats": [
@@ -2422,7 +2422,7 @@
             "kr": "공격 시 번개 피해 (1-4)~(40-43) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 500,
           "stats": [
@@ -2474,7 +2474,7 @@
             "kr": "공격 시 물리 피해 (6-9)~(13-15) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -2522,7 +2522,7 @@
             "kr": "생명력 최대치 (100-114)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -2567,7 +2567,7 @@
             "kr": "공격 시 냉기 피해 (10-13)~(20-24) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 500,
           "stats": [
@@ -2615,7 +2615,7 @@
             "kr": "에너지 보호막 최대치 (27-31)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -2656,7 +2656,7 @@
             "kr": "장착된 젬 레벨 2"
           },
           "group": [
-            115
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -2697,7 +2697,7 @@
             "kr": "마나 최대치 (50-54)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2742,7 +2742,7 @@
             "kr": "공격 시 화염 피해 (13-18)~(27-31) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 100,
           "stats": [
@@ -2794,7 +2794,7 @@
             "kr": "공격 시 번개 피해 (2-5)~(47-50) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 100,
           "stats": [
@@ -2846,7 +2846,7 @@
             "kr": "공격 시 냉기 피해 (12-16)~(24-28) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 100,
           "stats": [
@@ -2894,7 +2894,7 @@
             "kr": "회피 (81-120)"
           },
           "group": [
-            17
+            "IncreasedEvasionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -2935,7 +2935,7 @@
             "kr": "에너지 보호막 최대치 (32-37)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -2976,7 +2976,7 @@
             "kr": "마나 최대치 (55-59)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3017,7 +3017,7 @@
             "kr": "공격 스킬의 원소 피해 (31-36)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -3058,7 +3058,7 @@
             "kr": "발견하는 아이템 희귀도 (19-24)% 증가"
           },
           "group": [
-            473
+            "ItemFoundRarityIncreasePrefix"
           ],
           "weight": 1000,
           "stats": [
@@ -3103,7 +3103,7 @@
             "kr": "공격 시 화염 피해 (16-22)~(32-38) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 100,
           "stats": [
@@ -3155,7 +3155,7 @@
             "kr": "공격 시 번개 피해 (3-6)~(57-61) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 100,
           "stats": [
@@ -3207,7 +3207,7 @@
             "kr": "공격 시 냉기 피해 (14-19)~(29-34) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 100,
           "stats": [
@@ -3255,7 +3255,7 @@
             "kr": "에너지 보호막 최대치 (38-43)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -3296,7 +3296,7 @@
             "kr": "마나 최대치 (60-64)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3337,7 +3337,7 @@
             "kr": "회피 (121-150)"
           },
           "group": [
-            17
+            "IncreasedEvasionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -3378,7 +3378,7 @@
             "kr": "에너지 보호막 최대치 (44-47)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -3419,7 +3419,7 @@
             "kr": "마나 최대치 (65-68)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3464,7 +3464,7 @@
             "kr": "공격 시 화염 피해 (19-25)~(39-45) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 50,
           "stats": [
@@ -3516,7 +3516,7 @@
             "kr": "공격 시 번개 피해 (3-7)~(68-72) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 50,
           "stats": [
@@ -3564,7 +3564,7 @@
             "kr": "장착된 젬 레벨 3"
           },
           "group": [
-            115
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 250,
           "stats": [
@@ -3609,7 +3609,7 @@
             "kr": "공격 시 냉기 피해 (17-22)~(34-40) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 50,
           "stats": [
@@ -3657,7 +3657,7 @@
             "kr": "마나 최대치 (69-73)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3698,7 +3698,7 @@
             "kr": "공격 스킬의 원소 피해 (37-42)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -3739,7 +3739,7 @@
             "kr": "회피 (151-170)"
           },
           "group": [
-            17
+            "IncreasedEvasionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -3780,7 +3780,7 @@
             "kr": "발견하는 아이템 희귀도 (25-28)% 증가"
           },
           "group": [
-            473
+            "ItemFoundRarityIncreasePrefix"
           ],
           "weight": 1000,
           "stats": [
@@ -3821,7 +3821,7 @@
             "kr": "마나 최대치 (74-78)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3864,7 +3864,7 @@
             "kr": "모든 능력치 (1-4)"
           },
           "group": [
-            121
+            "AllAttributes"
           ],
           "weight": 400,
           "stats": [
@@ -3905,7 +3905,7 @@
             "kr": "냉기 저항 (6-11)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -3946,7 +3946,7 @@
             "kr": "민첩 (8-12)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -3987,7 +3987,7 @@
             "kr": "화염 저항 (6-11)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4028,7 +4028,7 @@
             "kr": "정확도 (50-100)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 600,
           "stats": [
@@ -4069,7 +4069,7 @@
             "kr": "공격 속도 (5-7)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -4110,7 +4110,7 @@
             "kr": "지능 (8-12)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -4151,7 +4151,7 @@
             "kr": "처치한 적 하나당 생명력 (7-10) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -4192,7 +4192,7 @@
             "kr": "1초마다 생명력 (60-120) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -4233,7 +4233,7 @@
             "kr": "번개 저항 (6-11)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4274,7 +4274,7 @@
             "kr": "처치한 적 하나당 마나 (4-6) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -4315,7 +4315,7 @@
             "kr": "힘 (8-12)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -4356,7 +4356,7 @@
             "kr": "시전 속도 (5-8)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 800,
           "stats": [
@@ -4397,7 +4397,7 @@
             "kr": "마나 재생 속도 (10-19)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -4438,7 +4438,7 @@
             "kr": "발견하는 아이템 희귀도 (6-10)% 증가"
           },
           "group": [
-            48
+            "ItemFoundRarityIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -4479,7 +4479,7 @@
             "kr": "1초마다 생명력 (126-480) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -4520,7 +4520,7 @@
             "kr": "화염 피해 (10-12)% 증가"
           },
           "group": [
-            50
+            "FireDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -4561,7 +4561,7 @@
             "kr": "공격으로 명중한 적 하나당 생명력 2 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 1000,
           "stats": [
@@ -4606,7 +4606,7 @@
             "kr": "시야 반경 5% 증가\n일반 정확도 (9-11)% 증가"
           },
           "group": [
-            548
+            "LightRadiusAndAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -4663,7 +4663,7 @@
             "kr": "번개 피해 (10-12)% 증가"
           },
           "group": [
-            54
+            "LightningDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -4704,7 +4704,7 @@
             "kr": "모든 능력치 (5-8)"
           },
           "group": [
-            121
+            "AllAttributes"
           ],
           "weight": 400,
           "stats": [
@@ -4745,7 +4745,7 @@
             "kr": "민첩 (13-17)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -4786,7 +4786,7 @@
             "kr": "지능 (13-17)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -4827,7 +4827,7 @@
             "kr": "힘 (13-17)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -4868,7 +4868,7 @@
             "kr": "모든 원소 저항 (3-5)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -4909,7 +4909,7 @@
             "kr": "냉기 피해 (10-12)% 증가"
           },
           "group": [
-            52
+            "ColdDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -4950,7 +4950,7 @@
             "kr": "화염 저항 (12-17)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4991,7 +4991,7 @@
             "kr": "번개 저항 (12-17)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5032,7 +5032,7 @@
             "kr": "냉기 저항 (12-17)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5073,7 +5073,7 @@
             "kr": "시전 속도 (9-12)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 800,
           "stats": [
@@ -5118,7 +5118,7 @@
             "kr": "시야 반경 10% 증가\n일반 정확도 (12-15)% 증가"
           },
           "group": [
-            548
+            "LightRadiusAndAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -5175,7 +5175,7 @@
             "kr": "카오스 저항 (5-10)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -5216,7 +5216,7 @@
             "kr": "마나 재생 속도 (20-29)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -5257,7 +5257,7 @@
             "kr": "1초마다 생명력 (486-960) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -5298,7 +5298,7 @@
             "kr": "정확도 (100-165)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -5339,7 +5339,7 @@
             "kr": "모든 능력치 (9-12)"
           },
           "group": [
-            121
+            "AllAttributes"
           ],
           "weight": 400,
           "stats": [
@@ -5380,7 +5380,7 @@
             "kr": "민첩 (18-22)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -5421,7 +5421,7 @@
             "kr": "화염 피해 (13-15)% 증가"
           },
           "group": [
-            50
+            "FireDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -5462,7 +5462,7 @@
             "kr": "지능 (18-22)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -5503,7 +5503,7 @@
             "kr": "힘 (18-22)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -5544,7 +5544,7 @@
             "kr": "처치한 적 하나당 생명력 (12-18) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -5585,7 +5585,7 @@
             "kr": "번개 피해 (13-15)% 증가"
           },
           "group": [
-            54
+            "LightningDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -5626,7 +5626,7 @@
             "kr": "모든 원소 저항 (6-8)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -5667,7 +5667,7 @@
             "kr": "냉기 피해 (13-15)% 증가"
           },
           "group": [
-            52
+            "ColdDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -5708,7 +5708,7 @@
             "kr": "화염 저항 (18-23)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5749,7 +5749,7 @@
             "kr": "처치한 적 하나당 마나 (7-10) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -5790,7 +5790,7 @@
             "kr": "번개 저항 (18-23)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5831,7 +5831,7 @@
             "kr": "냉기 저항 (18-23)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5872,7 +5872,7 @@
             "kr": "마나 재생 속도 (30-39)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -5913,7 +5913,7 @@
             "kr": "카오스 저항 (11-15)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -5954,7 +5954,7 @@
             "kr": "시전 속도 (13-16)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 800,
           "stats": [
@@ -5995,7 +5995,7 @@
             "kr": "발견하는 아이템 희귀도 (11-14)% 증가"
           },
           "group": [
-            48
+            "ItemFoundRarityIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -6040,7 +6040,7 @@
             "kr": "시야 반경 15% 증가\n일반 정확도 (16-20)% 증가"
           },
           "group": [
-            548
+            "LightRadiusAndAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -6097,7 +6097,7 @@
             "kr": "1초마다 생명력 (966-1440) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -6138,7 +6138,7 @@
             "kr": "모든 능력치 (13-16)"
           },
           "group": [
-            121
+            "AllAttributes"
           ],
           "weight": 400,
           "stats": [
@@ -6179,7 +6179,7 @@
             "kr": "민첩 (23-27)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -6220,7 +6220,7 @@
             "kr": "지능 (23-27)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -6261,7 +6261,7 @@
             "kr": "힘 (23-27)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -6302,7 +6302,7 @@
             "kr": "모든 원소 저항 (9-11)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -6343,7 +6343,7 @@
             "kr": "냉기 피해 (16-18)% 증가"
           },
           "group": [
-            52
+            "ColdDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -6384,7 +6384,7 @@
             "kr": "화염 피해 (16-18)% 증가"
           },
           "group": [
-            50
+            "FireDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -6425,7 +6425,7 @@
             "kr": "화염 저항 (24-29)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -6466,7 +6466,7 @@
             "kr": "번개 피해 (16-18)% 증가"
           },
           "group": [
-            54
+            "LightningDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -6507,7 +6507,7 @@
             "kr": "번개 저항 (24-29)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -6548,7 +6548,7 @@
             "kr": "냉기 저항 (24-29)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -6589,7 +6589,7 @@
             "kr": "정확도 (166-250)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -6630,7 +6630,7 @@
             "kr": "처치한 적 하나당 생명력 (24-32) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -6671,7 +6671,7 @@
             "kr": "처치한 적 하나당 마나 (11-15) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -6712,7 +6712,7 @@
             "kr": "마나 재생 속도 (40-49)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -6753,7 +6753,7 @@
             "kr": "카오스 저항 (16-20)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -6794,7 +6794,7 @@
             "kr": "받은 피해의 (4-6)%를 생명력으로 회생"
           },
           "group": [
-            3539
+            "DamageTakenGainedAsLife"
           ],
           "weight": 500,
           "stats": [
@@ -6835,7 +6835,7 @@
             "kr": "민첩 (28-32)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -6876,7 +6876,7 @@
             "kr": "지능 (28-32)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -6917,7 +6917,7 @@
             "kr": "1초마다 생명력 (1446-1920) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -6958,7 +6958,7 @@
             "kr": "힘 (28-32)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -6999,7 +6999,7 @@
             "kr": "모든 원소 저항 (12-14)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -7040,7 +7040,7 @@
             "kr": "화염 저항 (30-35)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -7081,7 +7081,7 @@
             "kr": "번개 저항 (30-35)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -7122,7 +7122,7 @@
             "kr": "냉기 피해 (19-22)% 증가"
           },
           "group": [
-            52
+            "ColdDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -7163,7 +7163,7 @@
             "kr": "냉기 저항 (30-35)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -7204,7 +7204,7 @@
             "kr": "화염 피해 (19-22)% 증가"
           },
           "group": [
-            50
+            "FireDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -7245,7 +7245,7 @@
             "kr": "물리 공격 피해의 (20-40)%를 생명력으로 흡수"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1000,
           "stats": [
@@ -7286,7 +7286,7 @@
             "kr": "번개 피해 (19-22)% 증가"
           },
           "group": [
-            54
+            "LightningDamagePercentage"
           ],
           "weight": 500,
           "stats": [
@@ -7327,7 +7327,7 @@
             "kr": "물리 공격 피해의 (20-40)%를 마나로 흡수"
           },
           "group": [
-            8
+            "ManaLeech"
           ],
           "weight": 1000,
           "stats": [
@@ -7368,7 +7368,7 @@
             "kr": "처치한 적 하나당 생명력 (35-44) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -7409,7 +7409,7 @@
             "kr": "처치한 적 하나당 마나 (16-25) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -7450,7 +7450,7 @@
             "kr": "발견하는 아이템 희귀도 (15-20)% 증가"
           },
           "group": [
-            48
+            "ItemFoundRarityIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -7491,7 +7491,7 @@
             "kr": "민첩 (33-37)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -7532,7 +7532,7 @@
             "kr": "지능 (33-37)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -7573,7 +7573,7 @@
             "kr": "1초마다 생명력 (1926-2880) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -7614,7 +7614,7 @@
             "kr": "마나 재생 속도 (50-59)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -7655,7 +7655,7 @@
             "kr": "힘 (33-37)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -7696,7 +7696,7 @@
             "kr": "카오스 저항 (21-25)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -7737,7 +7737,7 @@
             "kr": "받은 피해의 (7-9)%를 생명력으로 회생"
           },
           "group": [
-            3539
+            "DamageTakenGainedAsLife"
           ],
           "weight": 500,
           "stats": [
@@ -7778,7 +7778,7 @@
             "kr": "모든 원소 저항 (15-16)%"
           },
           "group": [
-            43
+            "AllResistances"
           ],
           "weight": 1000,
           "stats": [
@@ -7819,7 +7819,7 @@
             "kr": "냉기 저항 (36-41)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -7860,7 +7860,7 @@
             "kr": "화염 저항 (36-41)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -7901,7 +7901,7 @@
             "kr": "정확도 (251-350)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -7942,7 +7942,7 @@
             "kr": "번개 저항 (36-41)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -7983,7 +7983,7 @@
             "kr": "카오스 저항 (26-30)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -8024,7 +8024,7 @@
             "kr": "민첩 (38-42)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -8065,7 +8065,7 @@
             "kr": "지능 (38-42)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -8106,7 +8106,7 @@
             "kr": "처치한 적 하나당 생명력 (56-72) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -8147,7 +8147,7 @@
             "kr": "처치한 적 하나당 마나 (26-37) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -8188,7 +8188,7 @@
             "kr": "힘 (38-42)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -8229,7 +8229,7 @@
             "kr": "받은 피해의 (10-12)%를 생명력으로 회생"
           },
           "group": [
-            3539
+            "DamageTakenGainedAsLife"
           ],
           "weight": 500,
           "stats": [
@@ -8270,7 +8270,7 @@
             "kr": "1초마다 생명력 (2886-3840) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -8311,7 +8311,7 @@
             "kr": "냉기 저항 (42-45)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -8352,7 +8352,7 @@
             "kr": "화염 저항 (42-45)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -8393,7 +8393,7 @@
             "kr": "번개 저항 (42-45)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -8434,7 +8434,7 @@
             "kr": "민첩 (43-50)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -8475,7 +8475,7 @@
             "kr": "지능 (43-50)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -8516,7 +8516,7 @@
             "kr": "힘 (43-50)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -8557,7 +8557,7 @@
             "kr": "정확도 (351-480)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -8598,7 +8598,7 @@
             "kr": "발견하는 아이템 희귀도 (21-26)% 증가"
           },
           "group": [
-            48
+            "ItemFoundRarityIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -8639,7 +8639,7 @@
             "kr": "받은 피해의 (13-15)%를 생명력으로 회생"
           },
           "group": [
-            3539
+            "DamageTakenGainedAsLife"
           ],
           "weight": 500,
           "stats": [
@@ -8680,7 +8680,7 @@
             "kr": "마나 재생 속도 (60-69)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -8721,7 +8721,7 @@
             "kr": "카오스 저항 (31-35)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -8762,7 +8762,7 @@
             "kr": "처치한 적 하나당 생명력 (84-110) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -8803,7 +8803,7 @@
             "kr": "처치한 적 하나당 마나 (38-50) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -8844,7 +8844,7 @@
             "kr": "민첩 (51-55)"
           },
           "group": [
-            119
+            "Dexterity"
           ],
           "weight": 1000,
           "stats": [
@@ -8885,7 +8885,7 @@
             "kr": "지능 (51-55)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 1000,
           "stats": [
@@ -8926,7 +8926,7 @@
             "kr": "힘 (51-55)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -8967,7 +8967,7 @@
             "kr": "냉기 저항 (46-48)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -9008,7 +9008,7 @@
             "kr": "화염 저항 (46-48)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -9049,7 +9049,7 @@
             "kr": "번개 저항 (46-48)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -9098,7 +9098,7 @@
             "kr": "주문 및 공격 시 냉기 피해 (3-4)~(7-8) 추가"
           },
           "group": [
-            1773
+            "AddedColdDamageToSpellsAndAttacks"
           ],
           "weight": 1000,
           "stats": [
@@ -9150,7 +9150,7 @@
             "kr": "주문 및 공격 시 화염 피해 (3-5)~(7-8) 추가"
           },
           "group": [
-            1578
+            "AddedFireDamageSpellsAndAttacks"
           ],
           "weight": 1000,
           "stats": [
@@ -9202,7 +9202,7 @@
             "kr": "주문 및 공격 시 번개 피해 1~(14-15) 추가"
           },
           "group": [
-            1577
+            "AddedLightningDamageSpellsAndAttacks"
           ],
           "weight": 1000,
           "stats": [
@@ -9250,7 +9250,7 @@
             "kr": "모든 원소 저항 (14-16)%"
           },
           "group": [
-            3158
+            "AllResistancesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -9291,7 +9291,7 @@
             "kr": "카오스 저항 (19-29)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 500,
           "stats": [
@@ -9332,7 +9332,7 @@
             "kr": "일반 치명타 피해 배율 (15-20)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -9373,7 +9373,7 @@
             "kr": "능력치 (3-5)% 증가"
           },
           "group": [
-            1637
+            "PercentageAllAttributes"
           ],
           "weight": 1000,
           "stats": [
@@ -9414,7 +9414,7 @@
             "kr": "공격 속도 (8-10)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -9455,7 +9455,7 @@
             "kr": "시전 속도 (8-10)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 500,
           "stats": [
@@ -9500,7 +9500,7 @@
             "kr": "민첩 (4-6)% 증가\n힘 (4-6)% 증가"
           },
           "group": [
-            3157
+            "IncreasedAttributesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -9557,7 +9557,7 @@
             "kr": "피해 (15-25)% 증가"
           },
           "group": [
-            3129
+            "IncreasedDamage"
           ],
           "weight": 500,
           "stats": [
@@ -9602,7 +9602,7 @@
             "kr": "지능 (4-6)% 증가\n민첩 (4-6)% 증가"
           },
           "group": [
-            3157
+            "IncreasedAttributesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -9659,7 +9659,7 @@
             "kr": null
           },
           "group": [
-            4783
+            "CostEfficiency"
           ],
           "weight": 1000,
           "stats": [
@@ -9704,7 +9704,7 @@
             "kr": "힘 (4-6)% 증가\n지능 (4-6)% 증가"
           },
           "group": [
-            3157
+            "IncreasedAttributesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -9765,7 +9765,7 @@
             "kr": "주문 및 공격 시 냉기 피해 (6-9)~(13-16) 추가"
           },
           "group": [
-            1773
+            "AddedColdDamageToSpellsAndAttacks"
           ],
           "weight": 1000,
           "stats": [
@@ -9817,7 +9817,7 @@
             "kr": "주문 및 공격 시 화염 피해 (7-10)~(15-18) 추가"
           },
           "group": [
-            1578
+            "AddedFireDamageSpellsAndAttacks"
           ],
           "weight": 1000,
           "stats": [
@@ -9869,7 +9869,7 @@
             "kr": "주문 및 공격 시 번개 피해 (1-2)~(27-28) 추가"
           },
           "group": [
-            1577
+            "AddedLightningDamageSpellsAndAttacks"
           ],
           "weight": 1000,
           "stats": [
@@ -9917,7 +9917,7 @@
             "kr": "점화될 수 없음"
           },
           "group": [
-            186
+            "CannotBeIgnited"
           ],
           "weight": 1000,
           "stats": [
@@ -9958,7 +9958,7 @@
             "kr": "중독될 수 없음"
           },
           "group": [
-            1813
+            "CannotBePoisoned"
           ],
           "weight": 1000,
           "stats": [
@@ -9999,7 +9999,7 @@
             "kr": "지속 피해 배율 (10-15)%"
           },
           "group": [
-            3718
+            "GlobalDamageOverTimeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -10040,7 +10040,7 @@
             "kr": "공격으로 명중한 적 하나당 마나 (4-6) 획득"
           },
           "group": [
-            557
+            "ManaGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -10081,7 +10081,7 @@
             "kr": "분노의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10122,7 +10122,7 @@
             "kr": "결의의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10163,7 +10163,7 @@
             "kr": "단련의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10204,7 +10204,7 @@
             "kr": "은총의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10245,7 +10245,7 @@
             "kr": "증오의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10286,7 +10286,7 @@
             "kr": "악의의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10327,7 +10327,7 @@
             "kr": "자부심의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10368,7 +10368,7 @@
             "kr": "원소의 순수함의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10409,7 +10409,7 @@
             "kr": "진노의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10450,7 +10450,7 @@
             "kr": "열광의 마나 점유 효율 (20-30)% 증가"
           },
           "group": [
-            508
+            "ReducedManaReservationsCost"
           ],
           "weight": 1000,
           "stats": [
@@ -10491,7 +10491,7 @@
             "kr": "출혈이 플레이어에게 유발될 수 없음"
           },
           "group": [
-            2012
+            "BleedingImmunity"
           ],
           "weight": 1000,
           "stats": [
@@ -10532,7 +10532,7 @@
             "kr": "발견하는 아이템 희귀도 (20-30)% 증가"
           },
           "group": [
-            1457
+            "IncreasedItemRarity"
           ],
           "weight": 1000,
           "stats": [
@@ -10573,7 +10573,7 @@
             "kr": "격분 충전 최대치 1"
           },
           "group": [
-            524
+            "MaximumFrenzyCharges"
           ],
           "weight": 200,
           "stats": [
@@ -10614,7 +10614,7 @@
             "kr": "인내 충전 최대치 1"
           },
           "group": [
-            138
+            "MaximumEnduranceCharges"
           ],
           "weight": 200,
           "stats": [
@@ -10655,7 +10655,7 @@
             "kr": "권능 충전 최대치 1"
           },
           "group": [
-            575
+            "IncreasedMaximumPowerCharges"
           ],
           "weight": 200,
           "stats": [
@@ -10700,7 +10700,7 @@
             "kr": "주문 및 공격 시 냉기 피해 (12-16)~(24-28) 추가"
           },
           "group": [
-            1773
+            "AddedColdDamageToSpellsAndAttacks"
           ],
           "weight": 250,
           "stats": [
@@ -10752,7 +10752,7 @@
             "kr": "주문 및 공격 시 화염 피해 (13-18)~(28-33) 추가"
           },
           "group": [
-            1578
+            "AddedFireDamageSpellsAndAttacks"
           ],
           "weight": 250,
           "stats": [
@@ -10804,7 +10804,7 @@
             "kr": "주문 및 공격 시 번개 피해 (1-5)~(50-52) 추가"
           },
           "group": [
-            1577
+            "AddedLightningDamageSpellsAndAttacks"
           ],
           "weight": 250,
           "stats": [
