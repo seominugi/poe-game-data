@@ -57,7 +57,7 @@
             "kr": "마나 최대치 (40-49)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -102,7 +102,7 @@
             "kr": "화염 피해 (3-5)~(6-7) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 600,
           "stats": [
@@ -150,7 +150,7 @@
             "kr": "물리 피해 (40-49)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -195,7 +195,7 @@
             "kr": "물리 피해 (15-19)% 증가\n정확도 (16-20)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1000,
           "stats": [
@@ -256,7 +256,7 @@
             "kr": "주문 시전 시 냉기 피해 (1-3)~(4-5) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -308,7 +308,7 @@
             "kr": "주문 시전 시 화염 피해 (1-3)~(5-6) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -360,7 +360,7 @@
             "kr": "주문 시전 시 번개 피해 1~(8-9) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -408,7 +408,7 @@
             "kr": "냉기 피해 (18-34)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -449,7 +449,7 @@
             "kr": "화염 피해 (18-34)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -490,7 +490,7 @@
             "kr": "모든 카오스 주문 스킬 젬 레벨 2"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 750,
           "stats": [
@@ -531,7 +531,7 @@
             "kr": "모든 냉기 주문 스킬 젬 레벨 2"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -572,7 +572,7 @@
             "kr": "모든 화염 주문 스킬 젬 레벨 2"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -613,7 +613,7 @@
             "kr": "모든 번개 주문 스킬 젬 레벨 2"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -654,7 +654,7 @@
             "kr": "모든 물리 주문 스킬 젬 레벨 2"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 750,
           "stats": [
@@ -695,7 +695,7 @@
             "kr": "모든 주문 스킬 젬 레벨 1"
           },
           "group": [
-            115
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -736,7 +736,7 @@
             "kr": "번개 피해 (18-34)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -781,7 +781,7 @@
             "kr": "냉기 피해 (2-3)~(6-7) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 600,
           "stats": [
@@ -833,7 +833,7 @@
             "kr": "물리 피해 2~(4-5) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -885,7 +885,7 @@
             "kr": "주문 피해 (14-22)% 증가\n마나 최대치 (26-30)"
           },
           "group": [
-            122
+            "SpellDamageAndMana"
           ],
           "weight": 1500,
           "stats": [
@@ -942,7 +942,7 @@
             "kr": "주문 피해 (18-34)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -987,7 +987,7 @@
             "kr": "번개 피해 2~(10-11) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 600,
           "stats": [
@@ -1035,7 +1035,7 @@
             "kr": "공격 스킬의 원소 피해 (19-34)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -1076,7 +1076,7 @@
             "kr": "장착된 근접 젬 레벨 1"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -1117,7 +1117,7 @@
             "kr": "냉기 피해 (35-52)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -1158,7 +1158,7 @@
             "kr": "화염 피해 (35-52)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -1199,7 +1199,7 @@
             "kr": "마나 최대치 (50-59)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1240,7 +1240,7 @@
             "kr": "번개 피해 (35-52)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -1285,7 +1285,7 @@
             "kr": "화염 피해 (14-20)~(29-33) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 600,
           "stats": [
@@ -1333,7 +1333,7 @@
             "kr": "물리 피해 (50-64)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -1378,7 +1378,7 @@
             "kr": "물리 피해 (20-24)% 증가\n정확도 (21-46)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1000,
           "stats": [
@@ -1439,7 +1439,7 @@
             "kr": "주문 시전 시 냉기 피해 (10-14)~(20-24) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -1491,7 +1491,7 @@
             "kr": "주문 시전 시 화염 피해 (10-15)~(23-25) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -1543,7 +1543,7 @@
             "kr": "주문 시전 시 번개 피해 (1-4)~(43-45) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -1595,7 +1595,7 @@
             "kr": "주문 피해 (23-32)% 증가\n마나 최대치 (31-35)"
           },
           "group": [
-            122
+            "SpellDamageAndMana"
           ],
           "weight": 1500,
           "stats": [
@@ -1652,7 +1652,7 @@
             "kr": "주문 피해 (35-52)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -1697,7 +1697,7 @@
             "kr": "냉기 피해 (12-17)~(26-30) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 600,
           "stats": [
@@ -1749,7 +1749,7 @@
             "kr": "번개 피해 3~(46-53) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 600,
           "stats": [
@@ -1801,7 +1801,7 @@
             "kr": "물리 피해 (6-8)~(12-15) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -1849,7 +1849,7 @@
             "kr": "공격 스킬의 원소 피해 (36-51)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -1890,7 +1890,7 @@
             "kr": "마나 최대치 (60-69)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1935,7 +1935,7 @@
             "kr": "화염 피해 (23-31)~(47-54) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 600,
           "stats": [
@@ -1987,7 +1987,7 @@
             "kr": "주문 시전 시 냉기 피해 (16-20)~(31-39) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -2039,7 +2039,7 @@
             "kr": "주문 시전 시 화염 피해 (18-24)~(35-40) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -2091,7 +2091,7 @@
             "kr": "주문 시전 시 번개 피해 (1-5)~(66-71) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -2143,7 +2143,7 @@
             "kr": "냉기 피해 (21-28)~(42-48) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 600,
           "stats": [
@@ -2195,7 +2195,7 @@
             "kr": "번개 피해 (4-5)~(76-88) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 600,
           "stats": [
@@ -2247,7 +2247,7 @@
             "kr": "물리 피해 (10-13)~(21-25) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -2295,7 +2295,7 @@
             "kr": "냉기 피해 (53-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -2336,7 +2336,7 @@
             "kr": "화염 피해 (53-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -2377,7 +2377,7 @@
             "kr": "마나 최대치 (70-79)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2418,7 +2418,7 @@
             "kr": "번개 피해 (53-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -2459,7 +2459,7 @@
             "kr": "물리 피해 (65-84)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -2504,7 +2504,7 @@
             "kr": "물리 피해 (25-34)% 증가\n정확도 (47-72)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 1000,
           "stats": [
@@ -2565,7 +2565,7 @@
             "kr": "주문 피해 (33-43)% 증가\n마나 최대치 (36-41)"
           },
           "group": [
-            122
+            "SpellDamageAndMana"
           ],
           "weight": 1500,
           "stats": [
@@ -2622,7 +2622,7 @@
             "kr": "주문 피해 (53-69)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -2667,7 +2667,7 @@
             "kr": "화염 피해 (32-44)~(65-76) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 600,
           "stats": [
@@ -2719,7 +2719,7 @@
             "kr": "주문 시전 시 냉기 피해 (23-31)~(46-54) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -2771,7 +2771,7 @@
             "kr": "주문 시전 시 화염 피해 (25-33)~(50-59) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -2823,7 +2823,7 @@
             "kr": "주문 시전 시 번개 피해 (3-8)~(96-103) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -2875,7 +2875,7 @@
             "kr": "냉기 피해 (29-40)~(58-68) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 600,
           "stats": [
@@ -2923,7 +2923,7 @@
             "kr": "마나 최대치 (80-89)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2968,7 +2968,7 @@
             "kr": "물리 피해 (13-17)~(28-32) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -3016,7 +3016,7 @@
             "kr": "공격 스킬의 원소 피해 (53-61)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -3061,7 +3061,7 @@
             "kr": "번개 피해 (5-8)~(106-123) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 600,
           "stats": [
@@ -3113,7 +3113,7 @@
             "kr": "화염 피해 (45-61)~(91-106) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 600,
           "stats": [
@@ -3165,7 +3165,7 @@
             "kr": "주문 시전 시 냉기 피해 (35-44)~(65-76) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -3217,7 +3217,7 @@
             "kr": "주문 시전 시 화염 피해 (36-48)~(73-85) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -3269,7 +3269,7 @@
             "kr": "주문 시전 시 번개 피해 (3-11)~(140-146) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -3321,7 +3321,7 @@
             "kr": "냉기 피해 (41-55)~(81-95) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 600,
           "stats": [
@@ -3373,7 +3373,7 @@
             "kr": "번개 피해 (8-10)~(148-173) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 600,
           "stats": [
@@ -3421,7 +3421,7 @@
             "kr": "냉기 피해 (70-95)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -3462,7 +3462,7 @@
             "kr": "화염 피해 (70-95)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -3503,7 +3503,7 @@
             "kr": "모든 카오스 주문 스킬 젬 레벨 3"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 750,
           "stats": [
@@ -3544,7 +3544,7 @@
             "kr": "모든 냉기 주문 스킬 젬 레벨 3"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -3585,7 +3585,7 @@
             "kr": "모든 화염 주문 스킬 젬 레벨 3"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -3626,7 +3626,7 @@
             "kr": "모든 번개 주문 스킬 젬 레벨 3"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -3667,7 +3667,7 @@
             "kr": "모든 물리 주문 스킬 젬 레벨 3"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 750,
           "stats": [
@@ -3708,7 +3708,7 @@
             "kr": "마나 최대치 (90-99)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -3749,7 +3749,7 @@
             "kr": "번개 피해 (70-95)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -3790,7 +3790,7 @@
             "kr": "물리 피해 (85-109)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 400,
           "stats": [
@@ -3835,7 +3835,7 @@
             "kr": "물리 피해 (35-44)% 증가\n정확도 (73-97)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 400,
           "stats": [
@@ -3896,7 +3896,7 @@
             "kr": "주문 피해 (44-53)% 증가\n마나 최대치 (42-47)"
           },
           "group": [
-            122
+            "SpellDamageAndMana"
           ],
           "weight": 600,
           "stats": [
@@ -3953,7 +3953,7 @@
             "kr": "주문 피해 (70-95)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -3998,7 +3998,7 @@
             "kr": "물리 피해 (16-22)~(35-40) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -4046,7 +4046,7 @@
             "kr": "마나 최대치 (100-119)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -4091,7 +4091,7 @@
             "kr": "화염 피해 (63-85)~(128-148) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 600,
           "stats": [
@@ -4143,7 +4143,7 @@
             "kr": "번개 피해 (11-14)~(208-242) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 600,
           "stats": [
@@ -4195,7 +4195,7 @@
             "kr": "주문 시전 시 냉기 피해 (44-59)~(88-101) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -4247,7 +4247,7 @@
             "kr": "주문 시전 시 화염 피해 (48-65)~(96-113) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -4299,7 +4299,7 @@
             "kr": "주문 시전 시 번개 피해 (5-15)~(186-196) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -4351,7 +4351,7 @@
             "kr": "냉기 피해 (57-77)~(114-132) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 600,
           "stats": [
@@ -4399,7 +4399,7 @@
             "kr": "냉기 피해 (96-120)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -4440,7 +4440,7 @@
             "kr": "화염 피해 (96-120)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -4481,7 +4481,7 @@
             "kr": "번개 피해 (96-120)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -4526,7 +4526,7 @@
             "kr": "물리 피해 (20-28)~(43-51) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -4574,7 +4574,7 @@
             "kr": "물리 피해 (110-134)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 200,
           "stats": [
@@ -4619,7 +4619,7 @@
             "kr": "물리 피해 (45-54)% 증가\n정확도 (98-123)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 200,
           "stats": [
@@ -4680,7 +4680,7 @@
             "kr": "주문 피해 (54-63)% 증가\n마나 최대치 (48-53)"
           },
           "group": [
-            122
+            "SpellDamageAndMana"
           ],
           "weight": 300,
           "stats": [
@@ -4737,7 +4737,7 @@
             "kr": "주문 피해 (96-120)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1500,
           "stats": [
@@ -4778,7 +4778,7 @@
             "kr": "마나 최대치 (120-139)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -4823,7 +4823,7 @@
             "kr": "화염 피해 (85-115)~(172-200) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 600,
           "stats": [
@@ -4875,7 +4875,7 @@
             "kr": "번개 피해 (14-20)~(281-327) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 600,
           "stats": [
@@ -4927,7 +4927,7 @@
             "kr": "주문 시전 시 냉기 피해 (59-79)~(116-136) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -4979,7 +4979,7 @@
             "kr": "주문 시전 시 화염 피해 (64-85)~(129-150) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -5031,7 +5031,7 @@
             "kr": "주문 시전 시 번개 피해 (8-19)~(248-261) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 800,
           "stats": [
@@ -5083,7 +5083,7 @@
             "kr": "냉기 피해 (77-104)~(154-178) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 600,
           "stats": [
@@ -5135,7 +5135,7 @@
             "kr": "물리 피해 (25-33)~(52-61) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 600,
           "stats": [
@@ -5183,7 +5183,7 @@
             "kr": "모든 주문 스킬 젬 레벨 2"
           },
           "group": [
-            115
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 250,
           "stats": [
@@ -5224,7 +5224,7 @@
             "kr": "냉기 피해 (121-149)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -5265,7 +5265,7 @@
             "kr": "화염 피해 (121-149)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -5306,7 +5306,7 @@
             "kr": "번개 피해 (121-149)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -5351,7 +5351,7 @@
             "kr": "주문 피해 (64-76)% 증가\n마나 최대치 (54-59)"
           },
           "group": [
-            122
+            "SpellDamageAndMana"
           ],
           "weight": 150,
           "stats": [
@@ -5408,7 +5408,7 @@
             "kr": "주문 피해 (121-149)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 500,
           "stats": [
@@ -5449,7 +5449,7 @@
             "kr": "마나 최대치 (140-159)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -5490,7 +5490,7 @@
             "kr": "물리 피해 (135-154)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 100,
           "stats": [
@@ -5535,7 +5535,7 @@
             "kr": "물리 피해 (55-64)% 증가\n정확도 (124-149)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 100,
           "stats": [
@@ -5592,7 +5592,7 @@
             "kr": "공격 스킬의 원소 피해 (63-71)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -5637,7 +5637,7 @@
             "kr": "화염 피해 (110-150)~(223-260) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 480,
           "stats": [
@@ -5689,7 +5689,7 @@
             "kr": "주문 시전 시 냉기 피해 (76-99)~(149-175) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 250,
           "stats": [
@@ -5741,7 +5741,7 @@
             "kr": "주문 시전 시 화염 피해 (83-109)~(166-191) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 250,
           "stats": [
@@ -5793,7 +5793,7 @@
             "kr": "주문 시전 시 번개 피해 (8-26)~(316-335) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 250,
           "stats": [
@@ -5845,7 +5845,7 @@
             "kr": "냉기 피해 (99-136)~(200-232) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 480,
           "stats": [
@@ -5897,7 +5897,7 @@
             "kr": "번개 피해 (19-25)~(366-425) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 480,
           "stats": [
@@ -5945,7 +5945,7 @@
             "kr": "장착된 근접 젬 레벨 2"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -5990,7 +5990,7 @@
             "kr": "물리 피해 (30-40)~(63-73) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 400,
           "stats": [
@@ -6038,7 +6038,7 @@
             "kr": "마나 최대치 (160-179)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 800,
           "stats": [
@@ -6079,7 +6079,7 @@
             "kr": "물리 피해 (155-169)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 50,
           "stats": [
@@ -6124,7 +6124,7 @@
             "kr": "물리 피해 (65-74)% 증가\n정확도 (150-174)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 50,
           "stats": [
@@ -6185,7 +6185,7 @@
             "kr": "화염 피해 (137-188)~(279-325) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 210,
           "stats": [
@@ -6237,7 +6237,7 @@
             "kr": "번개 피해 (23-32)~(458-531) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 210,
           "stats": [
@@ -6289,7 +6289,7 @@
             "kr": "주문 시전 시 냉기 피해 (96-129)~(190-223) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 60,
           "stats": [
@@ -6341,7 +6341,7 @@
             "kr": "주문 시전 시 화염 피해 (105-140)~(210-246) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 60,
           "stats": [
@@ -6393,7 +6393,7 @@
             "kr": "주문 시전 시 번개 피해 (11-31)~(405-429) 추가"
           },
           "group": [
-            1528
+            "SpellAddedElementalDamage"
           ],
           "weight": 60,
           "stats": [
@@ -6441,7 +6441,7 @@
             "kr": "마나 최대치 (180-199)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 600,
           "stats": [
@@ -6486,7 +6486,7 @@
             "kr": "냉기 피해 (124-170)~(250-290) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 210,
           "stats": [
@@ -6534,7 +6534,7 @@
             "kr": "모든 카오스 주문 스킬 젬 레벨 4"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 100,
           "stats": [
@@ -6575,7 +6575,7 @@
             "kr": "모든 냉기 주문 스킬 젬 레벨 4"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 125,
           "stats": [
@@ -6616,7 +6616,7 @@
             "kr": "모든 화염 주문 스킬 젬 레벨 4"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 125,
           "stats": [
@@ -6657,7 +6657,7 @@
             "kr": "모든 번개 주문 스킬 젬 레벨 4"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 125,
           "stats": [
@@ -6698,7 +6698,7 @@
             "kr": "모든 물리 주문 스킬 젬 레벨 4"
           },
           "group": [
-            116
+            "IncreaseSpecificSocketedGemLevel"
           ],
           "weight": 100,
           "stats": [
@@ -6743,7 +6743,7 @@
             "kr": "물리 피해 (34-47)~(72-84) 추가"
           },
           "group": [
-            6
+            "PhysicalDamage"
           ],
           "weight": 200,
           "stats": [
@@ -6791,7 +6791,7 @@
             "kr": "냉기 피해 (150-174)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -6832,7 +6832,7 @@
             "kr": "화염 피해 (150-174)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -6873,7 +6873,7 @@
             "kr": "번개 피해 (150-174)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -6914,7 +6914,7 @@
             "kr": "주문 피해 (150-174)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 150,
           "stats": [
@@ -6959,7 +6959,7 @@
             "kr": "주문 피해 (77-86)% 증가\n마나 최대치 (60-64)"
           },
           "group": [
-            122
+            "SpellDamageAndMana"
           ],
           "weight": 75,
           "stats": [
@@ -7016,7 +7016,7 @@
             "kr": "마나 최대치 (200-229)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 400,
           "stats": [
@@ -7057,7 +7057,7 @@
             "kr": "공격 스킬의 원소 피해 (73-85)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -7102,7 +7102,7 @@
             "kr": "냉기 피해 (149-204)~(300-348) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 54,
           "stats": [
@@ -7154,7 +7154,7 @@
             "kr": "화염 피해 (165-225)~(335-390) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 54,
           "stats": [
@@ -7206,7 +7206,7 @@
             "kr": "번개 피해 (28-38)~(549-638) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 54,
           "stats": [
@@ -7258,7 +7258,7 @@
             "kr": "카오스 피해 (98-149)~(183-280) 추가"
           },
           "group": [
-            658
+            "LocalChaosDamage"
           ],
           "weight": 300,
           "stats": [
@@ -7306,7 +7306,7 @@
             "kr": "물리 피해 (170-179)% 증가"
           },
           "group": [
-            69
+            "LocalPhysicalDamagePercent"
           ],
           "weight": 25,
           "stats": [
@@ -7351,7 +7351,7 @@
             "kr": "물리 피해 (75-79)% 증가\n정확도 (175-200)"
           },
           "group": [
-            9
+            "LocalIncreasedPhysicalDamagePercentAndAccuracyRating"
           ],
           "weight": 25,
           "stats": [
@@ -7408,7 +7408,7 @@
             "kr": "냉기 피해 (175-200)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 13,
           "stats": [
@@ -7449,7 +7449,7 @@
             "kr": "화염 피해 (175-200)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 13,
           "stats": [
@@ -7490,7 +7490,7 @@
             "kr": "번개 피해 (175-200)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 13,
           "stats": [
@@ -7531,7 +7531,7 @@
             "kr": "주문 피해 (175-200)% 증가"
           },
           "group": [
-            2609
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 40,
           "stats": [
@@ -7572,7 +7572,7 @@
             "kr": "공격 스킬의 원소 피해 (87-100)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -7615,7 +7615,7 @@
             "kr": "지능 (8-12)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -7656,7 +7656,7 @@
             "kr": "처치한 적 하나당 생명력 (7-10) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -7697,7 +7697,7 @@
             "kr": "치명타 확률 (10-14)% 증가"
           },
           "group": [
-            74
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -7738,7 +7738,7 @@
             "kr": "정확도 (80-130)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -7779,7 +7779,7 @@
             "kr": "공격 속도 (5-7)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -7820,7 +7820,7 @@
             "kr": "처치한 적 하나당 마나 (4-6) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -7861,7 +7861,7 @@
             "kr": "힘 (8-12)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -7902,7 +7902,7 @@
             "kr": "시전 속도 (8-13)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -7943,7 +7943,7 @@
             "kr": "마나 재생 속도 (20-32)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -7984,7 +7984,7 @@
             "kr": "지속 카오스 피해 배율 (26-35)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 400,
           "stats": [
@@ -8025,7 +8025,7 @@
             "kr": "지속 냉기 피해 배율 (26-35)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 400,
           "stats": [
@@ -8066,7 +8066,7 @@
             "kr": "지속 화염 피해 배율 (26-35)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 400,
           "stats": [
@@ -8107,7 +8107,7 @@
             "kr": "공격 속도 (15-25)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -8148,7 +8148,7 @@
             "kr": "지속 물리 피해 배율 (26-35)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 400,
           "stats": [
@@ -8189,7 +8189,7 @@
             "kr": "명중한 적 하나당 생명력 (2-3) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -8230,7 +8230,7 @@
             "kr": "일반 치명타 피해 배율 (10-14)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -8275,7 +8275,7 @@
             "kr": "시야 반경 5% 증가\n일반 정확도 (9-11)% 증가"
           },
           "group": [
-            548
+            "LightRadiusAndAccuracy"
           ],
           "weight": 500,
           "stats": [
@@ -8332,7 +8332,7 @@
             "kr": "지능 (13-17)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -8373,7 +8373,7 @@
             "kr": "공격 속도 (8-10)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -8414,7 +8414,7 @@
             "kr": "주문 치명타 확률 (60-74)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -8455,7 +8455,7 @@
             "kr": "힘 (13-17)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -8496,7 +8496,7 @@
             "kr": "지속 카오스 피해 배율 (36-45)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -8537,7 +8537,7 @@
             "kr": "지속 냉기 피해 배율 (36-45)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -8578,7 +8578,7 @@
             "kr": "지속 화염 피해 배율 (36-45)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -8619,7 +8619,7 @@
             "kr": "지속 물리 피해 배율 (36-45)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -8660,7 +8660,7 @@
             "kr": "시전 속도 (14-19)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -8705,7 +8705,7 @@
             "kr": "시야 반경 10% 증가\n일반 정확도 (12-15)% 증가"
           },
           "group": [
-            548
+            "LightRadiusAndAccuracy"
           ],
           "weight": 500,
           "stats": [
@@ -8762,7 +8762,7 @@
             "kr": "(25-32)%의 확률로 동결 유발"
           },
           "group": [
-            427
+            "ChanceToFreeze"
           ],
           "weight": 1000,
           "stats": [
@@ -8803,7 +8803,7 @@
             "kr": "(25-32)%의 확률로 점화 유발"
           },
           "group": [
-            409
+            "ChanceToIgnite"
           ],
           "weight": 1000,
           "stats": [
@@ -8844,7 +8844,7 @@
             "kr": "(25-32)%의 확률로 감전 유발"
           },
           "group": [
-            698
+            "ChanceToShock"
           ],
           "weight": 1000,
           "stats": [
@@ -8885,7 +8885,7 @@
             "kr": "공격 피해 막기 확률 (8-9)%"
           },
           "group": [
-            417
+            "AdditionalBlock"
           ],
           "weight": 500,
           "stats": [
@@ -8926,7 +8926,7 @@
             "kr": "주문 피해 막기 확률 (8-9)%"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -8967,7 +8967,7 @@
             "kr": "마나 재생 속도 (33-45)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -9008,7 +9008,7 @@
             "kr": "명중한 적 하나당 생명력 (4-6) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -9049,7 +9049,7 @@
             "kr": "물리 공격 피해의 (200-240)%를 생명력으로 흡수"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 1000,
           "stats": [
@@ -9090,7 +9090,7 @@
             "kr": "치명타 확률 (15-19)% 증가"
           },
           "group": [
-            74
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -9131,7 +9131,7 @@
             "kr": "정확도 (131-215)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -9172,7 +9172,7 @@
             "kr": "일반 치명타 피해 배율 (15-19)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -9213,7 +9213,7 @@
             "kr": "주문 치명타 확률 (75-89)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -9254,7 +9254,7 @@
             "kr": "지능 (18-22)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -9295,7 +9295,7 @@
             "kr": "공격 속도 (11-13)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -9336,7 +9336,7 @@
             "kr": "힘 (18-22)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -9377,7 +9377,7 @@
             "kr": "처치한 적 하나당 생명력 (12-18) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -9418,7 +9418,7 @@
             "kr": "처치한 적 하나당 마나 (7-10) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -9459,7 +9459,7 @@
             "kr": "주문 치명타 확률 (90-104)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -9500,7 +9500,7 @@
             "kr": "공격 피해 막기 확률 (10-11)%"
           },
           "group": [
-            417
+            "AdditionalBlock"
           ],
           "weight": 500,
           "stats": [
@@ -9541,7 +9541,7 @@
             "kr": "주문 피해 막기 확률 (10-11)%"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -9582,7 +9582,7 @@
             "kr": "마나 재생 속도 (46-58)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -9623,7 +9623,7 @@
             "kr": "시전 속도 (20-25)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -9664,7 +9664,7 @@
             "kr": "명중한 적 하나당 생명력 (7-10) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -9705,7 +9705,7 @@
             "kr": "일반 치명타 피해 배율 (20-24)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -9746,7 +9746,7 @@
             "kr": "치명타 확률 (20-24)% 증가"
           },
           "group": [
-            74
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -9787,7 +9787,7 @@
             "kr": "공격 속도 (14-16)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -9832,7 +9832,7 @@
             "kr": "시야 반경 15% 증가\n일반 정확도 (16-20)% 증가"
           },
           "group": [
-            548
+            "LightRadiusAndAccuracy"
           ],
           "weight": 500,
           "stats": [
@@ -9889,7 +9889,7 @@
             "kr": "지능 (23-27)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -9930,7 +9930,7 @@
             "kr": "힘 (23-27)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -9971,7 +9971,7 @@
             "kr": "지속 카오스 피해 배율 (46-55)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 200,
           "stats": [
@@ -10012,7 +10012,7 @@
             "kr": "지속 냉기 피해 배율 (46-55)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 200,
           "stats": [
@@ -10053,7 +10053,7 @@
             "kr": "지속 화염 피해 배율 (46-55)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 200,
           "stats": [
@@ -10094,7 +10094,7 @@
             "kr": "지속 물리 피해 배율 (46-55)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 200,
           "stats": [
@@ -10135,7 +10135,7 @@
             "kr": "능력치 요구사항 -18% 감소"
           },
           "group": [
-            546
+            "LocalAttributeRequirements"
           ],
           "weight": 1000,
           "stats": [
@@ -10176,7 +10176,7 @@
             "kr": "공격 속도 (17-19)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -10217,7 +10217,7 @@
             "kr": "시전 속도 (26-31)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -10258,7 +10258,7 @@
             "kr": "처치한 적 하나당 생명력 (24-32) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -10299,7 +10299,7 @@
             "kr": "명중한 적 하나당 생명력 (11-14) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -10340,7 +10340,7 @@
             "kr": "정확도 (216-325)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -10381,7 +10381,7 @@
             "kr": "처치한 적 하나당 마나 (11-15) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -10422,7 +10422,7 @@
             "kr": "공격 피해 막기 확률 (12-13)%"
           },
           "group": [
-            417
+            "AdditionalBlock"
           ],
           "weight": 500,
           "stats": [
@@ -10463,7 +10463,7 @@
             "kr": "주문 피해 막기 확률 (12-13)%"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -10504,7 +10504,7 @@
             "kr": "주문 치명타 확률 (105-119)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -10545,7 +10545,7 @@
             "kr": "마나 재생 속도 (59-72)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -10586,7 +10586,7 @@
             "kr": "지속 피해 배율 (16-21)%"
           },
           "group": [
-            3718
+            "GlobalDamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -10627,7 +10627,7 @@
             "kr": "지능 (28-32)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -10668,7 +10668,7 @@
             "kr": "일반 치명타 피해 배율 (25-29)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -10709,7 +10709,7 @@
             "kr": "치명타 확률 (25-29)% 증가"
           },
           "group": [
-            74
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -10750,7 +10750,7 @@
             "kr": "힘 (28-32)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -10791,7 +10791,7 @@
             "kr": "물리 공격 피해의 (260-320)%를 생명력으로 흡수"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 500,
           "stats": [
@@ -10832,7 +10832,7 @@
             "kr": "공격 속도 (20-22)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -10873,7 +10873,7 @@
             "kr": "(33-42)%의 확률로 동결 유발"
           },
           "group": [
-            427
+            "ChanceToFreeze"
           ],
           "weight": 1000,
           "stats": [
@@ -10914,7 +10914,7 @@
             "kr": "(33-42)%의 확률로 점화 유발"
           },
           "group": [
-            409
+            "ChanceToIgnite"
           ],
           "weight": 1000,
           "stats": [
@@ -10955,7 +10955,7 @@
             "kr": "(33-42)%의 확률로 감전 유발"
           },
           "group": [
-            698
+            "ChanceToShock"
           ],
           "weight": 1000,
           "stats": [
@@ -10996,7 +10996,7 @@
             "kr": "명중한 적 하나당 생명력 (15-18) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -11037,7 +11037,7 @@
             "kr": "물리 공격 피해의 (260-320)%를 마나로 흡수"
           },
           "group": [
-            8
+            "ManaLeech"
           ],
           "weight": 1000,
           "stats": [
@@ -11078,7 +11078,7 @@
             "kr": "처치한 적 하나당 생명력 (35-44) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -11119,7 +11119,7 @@
             "kr": "처치한 적 하나당 마나 (16-25) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -11160,7 +11160,7 @@
             "kr": "지속 피해 배율 (24-29)%"
           },
           "group": [
-            3718
+            "GlobalDamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -11201,7 +11201,7 @@
             "kr": "시전 속도 (32-37)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -11242,7 +11242,7 @@
             "kr": "지능 (33-37)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -11283,7 +11283,7 @@
             "kr": "마나 재생 속도 (73-85)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -11324,7 +11324,7 @@
             "kr": "공격 피해 막기 확률 (14-15)%"
           },
           "group": [
-            417
+            "AdditionalBlock"
           ],
           "weight": 500,
           "stats": [
@@ -11365,7 +11365,7 @@
             "kr": "주문 피해 막기 확률 (14-15)%"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -11406,7 +11406,7 @@
             "kr": "힘 (33-37)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -11447,7 +11447,7 @@
             "kr": "일반 치명타 피해 배율 (30-34)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -11488,7 +11488,7 @@
             "kr": "치명타 확률 (30-34)% 증가"
           },
           "group": [
-            74
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -11529,7 +11529,7 @@
             "kr": "주문 치명타 확률 (120-134)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -11570,7 +11570,7 @@
             "kr": "명중한 적 하나당 생명력 (19-22) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -11611,7 +11611,7 @@
             "kr": "정확도 (326-455)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -11652,7 +11652,7 @@
             "kr": "공격 속도 (23-25)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -11693,7 +11693,7 @@
             "kr": "능력치 요구사항 -32% 감소"
           },
           "group": [
-            546
+            "LocalAttributeRequirements"
           ],
           "weight": 1000,
           "stats": [
@@ -11734,7 +11734,7 @@
             "kr": "지속 카오스 피해 배율 (56-65)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 100,
           "stats": [
@@ -11775,7 +11775,7 @@
             "kr": "지속 냉기 피해 배율 (56-65)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 100,
           "stats": [
@@ -11816,7 +11816,7 @@
             "kr": "지속 화염 피해 배율 (56-65)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 100,
           "stats": [
@@ -11857,7 +11857,7 @@
             "kr": "지속 물리 피해 배율 (56-65)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 100,
           "stats": [
@@ -11898,7 +11898,7 @@
             "kr": "지능 (38-42)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -11939,7 +11939,7 @@
             "kr": "처치한 적 하나당 생명력 (56-72) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -11980,7 +11980,7 @@
             "kr": "처치한 적 하나당 마나 (26-37) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -12021,7 +12021,7 @@
             "kr": "공격 피해 막기 확률 (16-17)%"
           },
           "group": [
-            417
+            "AdditionalBlock"
           ],
           "weight": 500,
           "stats": [
@@ -12062,7 +12062,7 @@
             "kr": "주문 피해 막기 확률 (16-17)%"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -12103,7 +12103,7 @@
             "kr": "힘 (38-42)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -12144,7 +12144,7 @@
             "kr": "지속 피해 배율 (31-35)%"
           },
           "group": [
-            3718
+            "GlobalDamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -12185,7 +12185,7 @@
             "kr": "명중한 적 하나당 생명력 (23-26) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -12226,7 +12226,7 @@
             "kr": "물리 공격 피해의 (350-450)%를 생명력으로 흡수"
           },
           "group": [
-            7
+            "LifeLeech"
           ],
           "weight": 250,
           "stats": [
@@ -12267,7 +12267,7 @@
             "kr": "시전 속도 (38-43)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -12308,7 +12308,7 @@
             "kr": "일반 치명타 피해 배율 (35-38)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -12349,7 +12349,7 @@
             "kr": "치명타 확률 (35-38)% 증가"
           },
           "group": [
-            74
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -12390,7 +12390,7 @@
             "kr": "지능 (43-50)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -12431,7 +12431,7 @@
             "kr": "힘 (43-50)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -12472,7 +12472,7 @@
             "kr": "정확도 (456-624)"
           },
           "group": [
-            30
+            "IncreasedAccuracy"
           ],
           "weight": 1000,
           "stats": [
@@ -12513,7 +12513,7 @@
             "kr": "(43-55)%의 확률로 동결 유발"
           },
           "group": [
-            427
+            "ChanceToFreeze"
           ],
           "weight": 500,
           "stats": [
@@ -12554,7 +12554,7 @@
             "kr": "(43-55)%의 확률로 점화 유발"
           },
           "group": [
-            409
+            "ChanceToIgnite"
           ],
           "weight": 500,
           "stats": [
@@ -12595,7 +12595,7 @@
             "kr": "(43-55)%의 확률로 감전 유발"
           },
           "group": [
-            698
+            "ChanceToShock"
           ],
           "weight": 500,
           "stats": [
@@ -12636,7 +12636,7 @@
             "kr": "지속 피해 배율 (36-40)%"
           },
           "group": [
-            3718
+            "GlobalDamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -12677,7 +12677,7 @@
             "kr": "주문 치명타 확률 (135-164)% 증가"
           },
           "group": [
-            78
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -12718,7 +12718,7 @@
             "kr": "공격 속도 (26-27)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -12759,7 +12759,7 @@
             "kr": "공격 피해 막기 확률 (18-20)%"
           },
           "group": [
-            417
+            "AdditionalBlock"
           ],
           "weight": 500,
           "stats": [
@@ -12800,7 +12800,7 @@
             "kr": "주문 피해 막기 확률 (18-20)%"
           },
           "group": [
-            1000
+            "SpellBlockPercentage"
           ],
           "weight": 1000,
           "stats": [
@@ -12841,7 +12841,7 @@
             "kr": "지속 카오스 피해 배율 (66-75)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 50,
           "stats": [
@@ -12882,7 +12882,7 @@
             "kr": "지속 냉기 피해 배율 (66-75)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 50,
           "stats": [
@@ -12923,7 +12923,7 @@
             "kr": "지속 화염 피해 배율 (66-75)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 50,
           "stats": [
@@ -12964,7 +12964,7 @@
             "kr": "지속 물리 피해 배율 (66-75)%"
           },
           "group": [
-            3424
+            "DamageOverTimeMultiplier"
           ],
           "weight": 50,
           "stats": [
@@ -13005,7 +13005,7 @@
             "kr": "마나 재생 속도 (86-105)% 증가"
           },
           "group": [
-            32
+            "ManaRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -13046,7 +13046,7 @@
             "kr": "명중한 적 하나당 생명력 (27-30) 획득"
           },
           "group": [
-            84
+            "LifeGainPerTarget"
           ],
           "weight": 500,
           "stats": [
@@ -13087,7 +13087,7 @@
             "kr": "처치한 적 하나당 생명력 (84-110) 획득"
           },
           "group": [
-            112
+            "LifeGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -13128,7 +13128,7 @@
             "kr": "처치한 적 하나당 마나 (38-50) 획득"
           },
           "group": [
-            113
+            "ManaGainedFromEnemyDeath"
           ],
           "weight": 500,
           "stats": [
@@ -13169,7 +13169,7 @@
             "kr": "지속 피해 배율 (41-45)%"
           },
           "group": [
-            3718
+            "GlobalDamageOverTimeMultiplier"
           ],
           "weight": 300,
           "stats": [
@@ -13210,7 +13210,7 @@
             "kr": "지능 (51-55)"
           },
           "group": [
-            120
+            "Intelligence"
           ],
           "weight": 500,
           "stats": [
@@ -13251,7 +13251,7 @@
             "kr": "힘 (51-55)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 500,
           "stats": [
@@ -13292,7 +13292,7 @@
             "kr": "시전 속도 (44-49)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -13337,7 +13337,7 @@
             "kr": "적 기절 시 (5-7)%의 확률로 인내 충전 획득"
           },
           "group": [
-            2899
+            "GainEnduranceChargeOnStunChance"
           ],
           "weight": 1000,
           "stats": [
@@ -13378,7 +13378,7 @@
             "kr": "치명타 명중 시 (5-7)%의 확률로 권능 충전 획득"
           },
           "group": [
-            1660
+            "PowerChargeOnCriticalStrikeChance"
           ],
           "weight": 1000,
           "stats": [
@@ -13419,7 +13419,7 @@
             "kr": "장착된 젬 퀄리티 (5-10)%"
           },
           "group": [
-            3405
+            "SocketedGemQuality"
           ],
           "weight": 1000,
           "stats": [
@@ -13460,7 +13460,7 @@
             "kr": "일반 치명타 피해 배율 (35-50)%"
           },
           "group": [
-            77
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1000,
           "stats": [
@@ -13501,7 +13501,7 @@
             "kr": "효과 범위 (25-30)% 증가"
           },
           "group": [
-            142
+            "AreaOfEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -13542,7 +13542,7 @@
             "kr": "시전 속도 (22-28)% 증가"
           },
           "group": [
-            28
+            "IncreasedCastSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -13583,7 +13583,7 @@
             "kr": "주문 피해 (70-90)% 증가"
           },
           "group": [
-            19
+            "SpellDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -13624,7 +13624,7 @@
             "kr": "장착된 카오스 속성 젬 레벨 2"
           },
           "group": [
-            3186
+            "IncreaseSocketedChaosGemLevel"
           ],
           "weight": 500,
           "stats": [
@@ -13665,7 +13665,7 @@
             "kr": "장착된 냉기 속성 젬 레벨 2"
           },
           "group": [
-            3183
+            "IncreaseSocketedColdGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -13706,7 +13706,7 @@
             "kr": "장착된 화염 속성 젬 레벨 2"
           },
           "group": [
-            3182
+            "IncreaseSocketedFireGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -13747,7 +13747,7 @@
             "kr": "장착된 번개 속성 젬 레벨 2"
           },
           "group": [
-            3184
+            "IncreaseSocketedLightningGemLevel"
           ],
           "weight": 1000,
           "stats": [
@@ -13788,7 +13788,7 @@
             "kr": null
           },
           "group": [
-            3185
+            "IncreaseSocketedPhysicalGemLevel"
           ],
           "weight": 750,
           "stats": [
@@ -13833,7 +13833,7 @@
             "kr": "냉기 피해 (9-13)~(20-23) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -13885,7 +13885,7 @@
             "kr": "화염 피해 (12-17)~(23-27) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -13937,7 +13937,7 @@
             "kr": "번개 피해 (2-3)~(35-39) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -13985,7 +13985,7 @@
             "kr": "치명타 확률 (14-18)% 증가"
           },
           "group": [
-            74
+            "CriticalStrikeChanceIncrease"
           ],
           "weight": 1000,
           "stats": [
@@ -14026,7 +14026,7 @@
             "kr": "장착된 젬에 10레벨 효과 범위 증가 보조 효과 적용"
           },
           "group": [
-            1060
+            "SupportedByAreaOfEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -14067,7 +14067,7 @@
             "kr": "장착된 젬에 10레벨 원소 관통 보조 효과 적용"
           },
           "group": [
-            1059
+            "SupportedByElementalPenetration"
           ],
           "weight": 1000,
           "stats": [
@@ -14108,7 +14108,7 @@
             "kr": "장착된 젬에 10레벨 다중 투사체 보조 효과 적용"
           },
           "group": [
-            1058
+            "SupportedByMultipleProjectiles"
           ],
           "weight": 1000,
           "stats": [
@@ -14153,7 +14153,7 @@
             "kr": "냉기 피해 (22-27)~(36-44) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -14205,7 +14205,7 @@
             "kr": "화염 피해 (27-31)~(39-50) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -14257,7 +14257,7 @@
             "kr": "번개 피해 (3-7)~(73-84) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 1000,
           "stats": [
@@ -14305,7 +14305,7 @@
             "kr": "장착된 젬에 10레벨 잔혹 보조 효과 적용"
           },
           "group": [
-            1062
+            "SupportedByCruelty"
           ],
           "weight": 1000,
           "stats": [
@@ -14346,7 +14346,7 @@
             "kr": "공격 속도 (5-7)% 증가"
           },
           "group": [
-            29
+            "IncreasedAttackSpeed"
           ],
           "weight": 1000,
           "stats": [
@@ -14387,7 +14387,7 @@
             "kr": "자신이 처치한 적이 (20-25)%의 확률로 폭발하여, 최대 생명력의 1/10을 물리 피해로 줌"
           },
           "group": [
-            681
+            "EnemiesExplodeOnDeath"
           ],
           "weight": 250,
           "stats": [
@@ -14432,7 +14432,7 @@
             "kr": "냉기 피해 (26-32)~(45-55) 추가"
           },
           "group": [
-            4
+            "ColdDamage"
           ],
           "weight": 250,
           "stats": [
@@ -14484,7 +14484,7 @@
             "kr": "화염 피해 (31-39)~(52-61) 추가"
           },
           "group": [
-            3
+            "FireDamage"
           ],
           "weight": 250,
           "stats": [
@@ -14536,7 +14536,7 @@
             "kr": "번개 피해 (5-9)~(103-107) 추가"
           },
           "group": [
-            5
+            "LightningDamage"
           ],
           "weight": 250,
           "stats": [

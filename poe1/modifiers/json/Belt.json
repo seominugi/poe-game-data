@@ -57,7 +57,7 @@
             "kr": "근접 공격자에게 (1-4)의 물리 피해 반사"
           },
           "group": [
-            1701
+            "AttackerTakesDamageNoRange"
           ],
           "weight": 1000,
           "stats": [
@@ -114,7 +114,7 @@
             "kr": "생명력 최대치 (3-9)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -155,7 +155,7 @@
             "kr": "마나 최대치 (15-19)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -196,7 +196,7 @@
             "kr": "방어도 (3-10)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -237,7 +237,7 @@
             "kr": "에너지 보호막 최대치 (1-3)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -278,7 +278,7 @@
             "kr": "공격 스킬의 원소 피해 (5-10)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -319,7 +319,7 @@
             "kr": "플라스크로 얻는 생명력 회복 속도 (5-10)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -360,7 +360,7 @@
             "kr": "플라스크로 얻는 마나 회복 속도 (5-10)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -401,7 +401,7 @@
             "kr": "생명력 최대치 (10-24)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -446,7 +446,7 @@
             "kr": "근접 공격자에게 (5-10)의 물리 피해 반사"
           },
           "group": [
-            1701
+            "AttackerTakesDamageNoRange"
           ],
           "weight": 1000,
           "stats": [
@@ -503,7 +503,7 @@
             "kr": "에너지 보호막 최대치 (4-8)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -544,7 +544,7 @@
             "kr": "생명력 최대치 (25-39)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -585,7 +585,7 @@
             "kr": "마나 최대치 (20-24)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -626,7 +626,7 @@
             "kr": "공격 스킬의 원소 피해 (11-20)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -667,7 +667,7 @@
             "kr": "에너지 보호막 최대치 (9-12)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -708,7 +708,7 @@
             "kr": "마나 최대치 (25-29)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -749,7 +749,7 @@
             "kr": "생명력 최대치 (40-54)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -790,7 +790,7 @@
             "kr": "방어도 (11-35)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -831,7 +831,7 @@
             "kr": "플라스크로 얻는 생명력 회복 속도 (11-16)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -872,7 +872,7 @@
             "kr": "플라스크로 얻는 마나 회복 속도 (11-16)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -913,7 +913,7 @@
             "kr": "에너지 보호막 최대치 (13-15)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -954,7 +954,7 @@
             "kr": "마나 최대치 (30-34)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -995,7 +995,7 @@
             "kr": "생명력 최대치 (55-69)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1036,7 +1036,7 @@
             "kr": "에너지 보호막 최대치 (16-19)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -1077,7 +1077,7 @@
             "kr": "마나 최대치 (35-39)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1118,7 +1118,7 @@
             "kr": "생명력 최대치 (70-84)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1159,7 +1159,7 @@
             "kr": "방어도 (36-60)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -1200,7 +1200,7 @@
             "kr": "공격 스킬의 원소 피해 (21-30)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -1241,7 +1241,7 @@
             "kr": "플라스크로 얻는 생명력 회복 속도 (17-22)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -1282,7 +1282,7 @@
             "kr": "플라스크로 얻는 마나 회복 속도 (17-22)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -1323,7 +1323,7 @@
             "kr": "에너지 보호막 최대치 (20-22)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -1364,7 +1364,7 @@
             "kr": "마나 최대치 (40-44)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1405,7 +1405,7 @@
             "kr": "생명력 최대치 (85-99)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1446,7 +1446,7 @@
             "kr": "에너지 보호막 최대치 (23-26)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -1487,7 +1487,7 @@
             "kr": "마나 최대치 (45-49)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1528,7 +1528,7 @@
             "kr": "생명력 최대치 (100-114)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1569,7 +1569,7 @@
             "kr": "방어도 (61-138)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -1610,7 +1610,7 @@
             "kr": "자신에게 적용된 플라스크의 효과 (4-6)% 증가"
           },
           "group": [
-            1495
+            "FlaskEffect"
           ],
           "weight": 250,
           "stats": [
@@ -1651,7 +1651,7 @@
             "kr": "플라스크로 얻는 생명력 회복 속도 (23-28)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -1692,7 +1692,7 @@
             "kr": "플라스크로 얻는 마나 회복 속도 (23-28)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -1733,7 +1733,7 @@
             "kr": "에너지 보호막 최대치 (27-31)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -1774,7 +1774,7 @@
             "kr": "마나 최대치 (50-54)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1815,7 +1815,7 @@
             "kr": "생명력 최대치 (115-129)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -1856,7 +1856,7 @@
             "kr": "방어도 (139-322)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -1897,7 +1897,7 @@
             "kr": "에너지 보호막 최대치 (32-37)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -1938,7 +1938,7 @@
             "kr": "마나 최대치 (55-59)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -1979,7 +1979,7 @@
             "kr": "공격 스킬의 원소 피해 (31-36)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -2020,7 +2020,7 @@
             "kr": "플라스크로 얻는 생명력 회복 속도 (29-34)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -2061,7 +2061,7 @@
             "kr": "플라스크로 얻는 마나 회복 속도 (29-34)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -2102,7 +2102,7 @@
             "kr": "생명력 최대치 (130-144)"
           },
           "group": [
-            0
+            "IncreasedLife"
           ],
           "weight": 1000,
           "stats": [
@@ -2143,7 +2143,7 @@
             "kr": "자신에게 적용된 플라스크의 효과 (7-9)% 증가"
           },
           "group": [
-            1495
+            "FlaskEffect"
           ],
           "weight": 250,
           "stats": [
@@ -2184,7 +2184,7 @@
             "kr": "에너지 보호막 최대치 (38-43)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -2225,7 +2225,7 @@
             "kr": "마나 최대치 (60-64)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2266,7 +2266,7 @@
             "kr": "방어도 (323-400)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -2307,7 +2307,7 @@
             "kr": "에너지 보호막 최대치 (44-47)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -2348,7 +2348,7 @@
             "kr": "마나 최대치 (65-68)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1000,
           "stats": [
@@ -2389,7 +2389,7 @@
             "kr": "플라스크로 얻는 생명력 회복 속도 (35-40)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -2430,7 +2430,7 @@
             "kr": "플라스크로 얻는 마나 회복 속도 (35-40)% 증가"
           },
           "group": [
-            172
+            "BeltFlaskRecoveryRate"
           ],
           "weight": 500,
           "stats": [
@@ -2471,7 +2471,7 @@
             "kr": "에너지 보호막 최대치 (48-51)"
           },
           "group": [
-            2
+            "IncreasedEnergyShield"
           ],
           "weight": 1000,
           "stats": [
@@ -2512,7 +2512,7 @@
             "kr": "공격 스킬의 원소 피해 (37-42)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -2553,7 +2553,7 @@
             "kr": "방어도 (401-460)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -2594,7 +2594,7 @@
             "kr": "자신에게 적용된 플라스크의 효과 (10-12)% 증가"
           },
           "group": [
-            1495
+            "FlaskEffect"
           ],
           "weight": 250,
           "stats": [
@@ -2635,7 +2635,7 @@
             "kr": "방어도 (461-540)"
           },
           "group": [
-            18
+            "IncreasedPhysicalDamageReductionRating"
           ],
           "weight": 1000,
           "stats": [
@@ -2676,7 +2676,7 @@
             "kr": "공격 스킬의 원소 피해 (43-50)% 증가"
           },
           "group": [
-            85
+            "IncreasedWeaponElementalDamagePercent"
           ],
           "weight": 300,
           "stats": [
@@ -2719,7 +2719,7 @@
             "kr": "냉기 저항 (6-11)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -2760,7 +2760,7 @@
             "kr": "화염 저항 (6-11)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -2801,7 +2801,7 @@
             "kr": "1초마다 생명력 (60-120) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -2842,7 +2842,7 @@
             "kr": "번개 저항 (6-11)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -2883,7 +2883,7 @@
             "kr": "힘 (8-12)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -2924,7 +2924,7 @@
             "kr": "기절 및 막기 회복 (11-13)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -2965,7 +2965,7 @@
             "kr": "플라스크 충전량 (5-10)% 증가"
           },
           "group": [
-            170
+            "BeltFlaskCharges"
           ],
           "weight": 500,
           "stats": [
@@ -3006,7 +3006,7 @@
             "kr": "플라스크 충전 소모량 (-20--10)% 감소"
           },
           "group": [
-            170
+            "BeltFlaskCharges"
           ],
           "weight": 1000,
           "stats": [
@@ -3047,7 +3047,7 @@
             "kr": "적에게 적용되는 기절 지속시간 (11-15)% 증가"
           },
           "group": [
-            35
+            "StunDurationIncreasePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -3088,7 +3088,7 @@
             "kr": "적 기절 한계치 (5-7)% 감소"
           },
           "group": [
-            73
+            "StunThresholdReduction"
           ],
           "weight": 1000,
           "stats": [
@@ -3129,7 +3129,7 @@
             "kr": "1초마다 생명력 (126-480) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -3170,7 +3170,7 @@
             "kr": "플라스크 효과 지속시간 (4-9)% 증가"
           },
           "group": [
-            171
+            "BeltFlaskDuration"
           ],
           "weight": 500,
           "stats": [
@@ -3211,7 +3211,7 @@
             "kr": "힘 (13-17)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -3252,7 +3252,7 @@
             "kr": "화염 저항 (12-17)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -3293,7 +3293,7 @@
             "kr": "번개 저항 (12-17)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -3334,7 +3334,7 @@
             "kr": "냉기 저항 (12-17)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -3375,7 +3375,7 @@
             "kr": "플라스크 충전량 (11-16)% 증가"
           },
           "group": [
-            170
+            "BeltFlaskCharges"
           ],
           "weight": 500,
           "stats": [
@@ -3416,7 +3416,7 @@
             "kr": "카오스 저항 (5-10)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -3457,7 +3457,7 @@
             "kr": "기절 및 막기 회복 (14-16)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -3498,7 +3498,7 @@
             "kr": "적에게 적용되는 기절 지속시간 (16-20)% 증가"
           },
           "group": [
-            35
+            "StunDurationIncreasePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -3539,7 +3539,7 @@
             "kr": "1초마다 생명력 (486-960) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -3580,7 +3580,7 @@
             "kr": "적 기절 한계치 (8-9)% 감소"
           },
           "group": [
-            73
+            "StunThresholdReduction"
           ],
           "weight": 1000,
           "stats": [
@@ -3621,7 +3621,7 @@
             "kr": "힘 (18-22)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -3662,7 +3662,7 @@
             "kr": "화염 저항 (18-23)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -3703,7 +3703,7 @@
             "kr": "번개 저항 (18-23)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -3744,7 +3744,7 @@
             "kr": "냉기 저항 (18-23)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -3785,7 +3785,7 @@
             "kr": "기절 및 막기 회복 (17-19)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -3826,7 +3826,7 @@
             "kr": "카오스 저항 (11-15)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -3867,7 +3867,7 @@
             "kr": "적에게 적용되는 기절 지속시간 (21-25)% 증가"
           },
           "group": [
-            35
+            "StunDurationIncreasePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -3908,7 +3908,7 @@
             "kr": "적 기절 한계치 (10-11)% 감소"
           },
           "group": [
-            73
+            "StunThresholdReduction"
           ],
           "weight": 1000,
           "stats": [
@@ -3949,7 +3949,7 @@
             "kr": "1초마다 생명력 (966-1440) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -3990,7 +3990,7 @@
             "kr": "플라스크 충전량 (17-22)% 증가"
           },
           "group": [
-            170
+            "BeltFlaskCharges"
           ],
           "weight": 500,
           "stats": [
@@ -4031,7 +4031,7 @@
             "kr": "힘 (23-27)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -4072,7 +4072,7 @@
             "kr": "플라스크 효과 지속시간 (10-15)% 증가"
           },
           "group": [
-            171
+            "BeltFlaskDuration"
           ],
           "weight": 500,
           "stats": [
@@ -4113,7 +4113,7 @@
             "kr": "화염 저항 (24-29)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4154,7 +4154,7 @@
             "kr": "번개 저항 (24-29)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4195,7 +4195,7 @@
             "kr": "냉기 저항 (24-29)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4236,7 +4236,7 @@
             "kr": "기절 및 막기 회복 (20-22)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -4277,7 +4277,7 @@
             "kr": "카오스 저항 (16-20)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -4318,7 +4318,7 @@
             "kr": "1초마다 생명력 (1446-1920) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -4359,7 +4359,7 @@
             "kr": "힘 (28-32)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -4400,7 +4400,7 @@
             "kr": "적에게 적용되는 기절 지속시간 (26-30)% 증가"
           },
           "group": [
-            35
+            "StunDurationIncreasePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -4441,7 +4441,7 @@
             "kr": "적 기절 한계치 (12-13)% 감소"
           },
           "group": [
-            73
+            "StunThresholdReduction"
           ],
           "weight": 1000,
           "stats": [
@@ -4482,7 +4482,7 @@
             "kr": "플라스크 충전량 (23-28)% 증가"
           },
           "group": [
-            170
+            "BeltFlaskCharges"
           ],
           "weight": 500,
           "stats": [
@@ -4523,7 +4523,7 @@
             "kr": "화염 저항 (30-35)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4564,7 +4564,7 @@
             "kr": "번개 저항 (30-35)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4605,7 +4605,7 @@
             "kr": "플라스크 효과 지속시간 (16-21)% 증가"
           },
           "group": [
-            171
+            "BeltFlaskDuration"
           ],
           "weight": 500,
           "stats": [
@@ -4646,7 +4646,7 @@
             "kr": "냉기 저항 (30-35)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4687,7 +4687,7 @@
             "kr": "1초마다 생명력 (1926-2880) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -4728,7 +4728,7 @@
             "kr": "힘 (33-37)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -4769,7 +4769,7 @@
             "kr": "카오스 저항 (21-25)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -4810,7 +4810,7 @@
             "kr": "기절 및 막기 회복 (23-25)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -4851,7 +4851,7 @@
             "kr": "적에게 적용되는 기절 지속시간 (31-35)% 증가"
           },
           "group": [
-            35
+            "StunDurationIncreasePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -4892,7 +4892,7 @@
             "kr": "적 기절 한계치 (14-15)% 감소"
           },
           "group": [
-            73
+            "StunThresholdReduction"
           ],
           "weight": 1000,
           "stats": [
@@ -4933,7 +4933,7 @@
             "kr": "냉기 저항 (36-41)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -4974,7 +4974,7 @@
             "kr": "화염 저항 (36-41)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5015,7 +5015,7 @@
             "kr": "번개 저항 (36-41)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5056,7 +5056,7 @@
             "kr": "카오스 저항 (26-30)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -5097,7 +5097,7 @@
             "kr": "플라스크 효과 지속시간 (22-27)% 증가"
           },
           "group": [
-            171
+            "BeltFlaskDuration"
           ],
           "weight": 500,
           "stats": [
@@ -5138,7 +5138,7 @@
             "kr": "힘 (38-42)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -5179,7 +5179,7 @@
             "kr": "1초마다 생명력 (2886-3840) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -5220,7 +5220,7 @@
             "kr": "플라스크 충전량 (29-34)% 증가"
           },
           "group": [
-            170
+            "BeltFlaskCharges"
           ],
           "weight": 500,
           "stats": [
@@ -5261,7 +5261,7 @@
             "kr": "냉기 저항 (42-45)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5302,7 +5302,7 @@
             "kr": "화염 저항 (42-45)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5343,7 +5343,7 @@
             "kr": "번개 저항 (42-45)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5384,7 +5384,7 @@
             "kr": "1초마다 생명력 (3846-5760) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -5425,7 +5425,7 @@
             "kr": "힘 (43-50)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -5466,7 +5466,7 @@
             "kr": "1초마다 생명력 (5766-7680) 재생"
           },
           "group": [
-            31
+            "LifeRegeneration"
           ],
           "weight": 1000,
           "stats": [
@@ -5507,7 +5507,7 @@
             "kr": "기절 및 막기 회복 (26-28)% 증가"
           },
           "group": [
-            36
+            "StunRecovery"
           ],
           "weight": 1000,
           "stats": [
@@ -5548,7 +5548,7 @@
             "kr": "카오스 저항 (31-35)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 250,
           "stats": [
@@ -5589,7 +5589,7 @@
             "kr": "플라스크 효과 지속시간 (28-33)% 증가"
           },
           "group": [
-            171
+            "BeltFlaskDuration"
           ],
           "weight": 500,
           "stats": [
@@ -5630,7 +5630,7 @@
             "kr": "힘 (51-55)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -5671,7 +5671,7 @@
             "kr": "플라스크 충전량 (35-40)% 증가"
           },
           "group": [
-            170
+            "BeltFlaskCharges"
           ],
           "weight": 500,
           "stats": [
@@ -5712,7 +5712,7 @@
             "kr": "냉기 저항 (46-48)%"
           },
           "group": [
-            38
+            "ColdResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5753,7 +5753,7 @@
             "kr": "화염 저항 (46-48)%"
           },
           "group": [
-            37
+            "FireResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5794,7 +5794,7 @@
             "kr": "번개 저항 (46-48)%"
           },
           "group": [
-            39
+            "LightningResistance"
           ],
           "weight": 1000,
           "stats": [
@@ -5835,7 +5835,7 @@
             "kr": "힘 (56-60)"
           },
           "group": [
-            118
+            "Strength"
           ],
           "weight": 1000,
           "stats": [
@@ -5880,7 +5880,7 @@
             "kr": "효과 범위 (8-10)% 증가"
           },
           "group": [
-            142
+            "AreaOfEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -5921,7 +5921,7 @@
             "kr": "모든 원소 저항 (14-16)%"
           },
           "group": [
-            3158
+            "AllResistancesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -5962,7 +5962,7 @@
             "kr": "카오스 저항 (19-29)%"
           },
           "group": [
-            75
+            "ChaosResistance"
           ],
           "weight": 500,
           "stats": [
@@ -6003,7 +6003,7 @@
             "kr": "능력치 (3-5)% 증가"
           },
           "group": [
-            1637
+            "PercentageAllAttributes"
           ],
           "weight": 1000,
           "stats": [
@@ -6044,7 +6044,7 @@
             "kr": "아무 플라스크나 효과를 받는 동안 치명타 확률 (35-40)% 증가"
           },
           "group": [
-            3172
+            "IncreasedCriticalStrikeUnderFlaskEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -6089,7 +6089,7 @@
             "kr": "민첩 (4-6)% 증가\n힘 (4-6)% 증가"
           },
           "group": [
-            3157
+            "IncreasedAttributesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -6146,7 +6146,7 @@
             "kr": "스킬 효과 지속시간 (12-15)% 증가"
           },
           "group": [
-            513
+            "SkillEffectDuration"
           ],
           "weight": 1000,
           "stats": [
@@ -6187,7 +6187,7 @@
             "kr": "에너지 보호막 최대치 (8-10)% 증가"
           },
           "group": [
-            67
+            "EnergyShieldPercent"
           ],
           "weight": 1000,
           "stats": [
@@ -6232,7 +6232,7 @@
             "kr": "지능 (4-6)% 증가\n민첩 (4-6)% 증가"
           },
           "group": [
-            3157
+            "IncreasedAttributesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -6289,7 +6289,7 @@
             "kr": "최대 생명력 (6-10)% 증가"
           },
           "group": [
-            63
+            "MaximumLifeIncreasePercent"
           ],
           "weight": 1000,
           "stats": [
@@ -6334,7 +6334,7 @@
             "kr": "힘 (4-6)% 증가\n지능 (4-6)% 증가"
           },
           "group": [
-            3157
+            "IncreasedAttributesCorrupted"
           ],
           "weight": 1000,
           "stats": [
@@ -6391,7 +6391,7 @@
             "kr": "점화될 수 없음"
           },
           "group": [
-            186
+            "CannotBeIgnited"
           ],
           "weight": 1000,
           "stats": [
@@ -6432,7 +6432,7 @@
             "kr": "중독될 수 없음"
           },
           "group": [
-            1813
+            "CannotBePoisoned"
           ],
           "weight": 1000,
           "stats": [
@@ -6473,7 +6473,7 @@
             "kr": "아무 플라스크나 효과를 받는 동안 치명타 피해 배율 (20-25)%"
           },
           "group": [
-            3166
+            "AdditionalCriticalStrikeMultiplierUnderFlaskEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -6514,7 +6514,7 @@
             "kr": "출혈이 플레이어에게 유발될 수 없음"
           },
           "group": [
-            2012
+            "BleedingImmunity"
           ],
           "weight": 1000,
           "stats": [
@@ -6555,7 +6555,7 @@
             "kr": "아무 플라스크나 효과를 받는 동안 공격 속도 (8-12)% 증가"
           },
           "group": [
-            2887
+            "SpeedDuringFlaskEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -6596,7 +6596,7 @@
             "kr": "아무 플라스크나 효과를 받는 동안 시전 속도 (8-12)% 증가"
           },
           "group": [
-            2887
+            "SpeedDuringFlaskEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -6637,7 +6637,7 @@
             "kr": "아무 플라스크나 효과를 받는 동안 이동 속도 (8-12)% 증가"
           },
           "group": [
-            1649
+            "MovementSpeedDuringFlaskEffect"
           ],
           "weight": 1000,
           "stats": [
@@ -6678,7 +6678,7 @@
             "kr": "발견하는 아이템 희귀도 (20-30)% 증가"
           },
           "group": [
-            1457
+            "IncreasedItemRarity"
           ],
           "weight": 1000,
           "stats": [

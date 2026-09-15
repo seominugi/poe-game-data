@@ -31,9 +31,19 @@
       "total": 4
     },
     "essence": {
-      "prefix": 11,
-      "suffix": 0,
-      "total": 11
+      "prefix": 8,
+      "suffix": 24,
+      "total": 32
+    },
+    "alloy": {
+      "prefix": 1,
+      "suffix": 3,
+      "total": 4
+    },
+    "desecrated": {
+      "prefix": 6,
+      "suffix": 12,
+      "total": 18
     },
     "unique": {
       "prefix": 11,
@@ -69,7 +79,7 @@
             "jp": "最大マナ (10-14)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -119,7 +129,7 @@
             "jp": "最大エナジーシールド (10-17)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -169,7 +179,7 @@
             "jp": "スペルダメージが(25-34)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -219,7 +229,7 @@
             "jp": "混沌ダメージが(25-34)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -269,7 +279,7 @@
             "jp": "冷気ダメージが(25-34)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -319,7 +329,7 @@
             "jp": "火ダメージが(25-34)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -369,7 +379,7 @@
             "jp": "雷ダメージが(25-34)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -419,7 +429,7 @@
             "jp": "エナジーシールドが(15-26)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -469,7 +479,7 @@
             "jp": "スペル物理ダメージが(25-34)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -519,7 +529,7 @@
             "jp": "最大マナ (15-24)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -569,7 +579,7 @@
             "jp": "混沌ダメージが(35-44)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -619,7 +629,7 @@
             "jp": "冷気ダメージが(35-44)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -669,7 +679,7 @@
             "jp": "火ダメージが(35-44)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -719,7 +729,7 @@
             "jp": "雷ダメージが(35-44)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -769,7 +779,7 @@
             "jp": "最大エナジーシールド (18-24)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -823,7 +833,7 @@
             "jp": "エナジーシールドが(6-13)%増加する\n最大マナ (6-8)"
           },
           "group": [
-            2620
+            "BaseLocalDefencesAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -892,7 +902,7 @@
             "jp": "スペル物理ダメージが(35-44)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -942,7 +952,7 @@
             "jp": "スペルダメージが(35-44)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -992,7 +1002,7 @@
             "jp": "混沌ダメージが(45-54)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1042,7 +1052,7 @@
             "jp": "冷気ダメージが(45-54)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1092,7 +1102,7 @@
             "jp": "火ダメージが(45-54)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1142,7 +1152,7 @@
             "jp": "最大マナ (25-34)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -1192,7 +1202,7 @@
             "jp": "雷ダメージが(45-54)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1242,7 +1252,7 @@
             "jp": "最大エナジーシールド (25-30)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1296,7 +1306,7 @@
             "jp": "エナジーシールドが(14-20)%増加する\n最大マナ (9-16)"
           },
           "group": [
-            2620
+            "BaseLocalDefencesAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -1365,7 +1375,7 @@
             "jp": "エナジーシールドが(27-42)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -1415,7 +1425,7 @@
             "jp": "スペル物理ダメージが(45-54)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1465,7 +1475,7 @@
             "jp": "スペルダメージが(45-54)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1515,7 +1525,7 @@
             "jp": "最大マナ (35-54)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -1565,7 +1575,7 @@
             "jp": "最大エナジーシールド (31-35)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1615,7 +1625,7 @@
             "jp": "混沌ダメージが(55-64)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1665,7 +1675,7 @@
             "jp": "冷気ダメージが(55-64)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1715,7 +1725,7 @@
             "jp": "火ダメージが(55-64)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1765,7 +1775,7 @@
             "jp": "最大マナ (55-64)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -1815,7 +1825,7 @@
             "jp": "雷ダメージが(55-64)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -1865,7 +1875,7 @@
             "jp": "最大エナジーシールド (36-41)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -1919,7 +1929,7 @@
             "jp": "エナジーシールドが(21-26)%増加する\n最大マナ (17-20)"
           },
           "group": [
-            2620
+            "BaseLocalDefencesAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -1988,7 +1998,7 @@
             "jp": "エナジーシールドが(43-55)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2038,7 +2048,7 @@
             "jp": "スペル物理ダメージが(55-64)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2088,7 +2098,7 @@
             "jp": "スペルダメージが(55-64)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2138,7 +2148,7 @@
             "jp": "最大マナ (65-79)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -2188,7 +2198,7 @@
             "jp": "混沌ダメージが(65-74)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2238,7 +2248,7 @@
             "jp": "冷気ダメージが(65-74)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2288,7 +2298,7 @@
             "jp": "火ダメージが(65-74)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2338,7 +2348,7 @@
             "jp": "最大マナ (80-89)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -2388,7 +2398,7 @@
             "jp": "雷ダメージが(65-74)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2438,7 +2448,7 @@
             "jp": "最大エナジーシールド (42-47)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -2492,7 +2502,7 @@
             "jp": "エナジーシールドが(27-32)%増加する\n最大マナ (21-26)"
           },
           "group": [
-            2620
+            "BaseLocalDefencesAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -2561,7 +2571,7 @@
             "jp": "エナジーシールドが(56-67)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2611,7 +2621,7 @@
             "jp": "スペル物理ダメージが(65-74)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2661,7 +2671,7 @@
             "jp": "スペルダメージが(65-74)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2711,7 +2721,7 @@
             "jp": "最大マナ (90-104)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -2761,7 +2771,7 @@
             "jp": "最大エナジーシールド (48-60)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -2811,7 +2821,7 @@
             "jp": "エナジーシールドが(68-79)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -2861,7 +2871,7 @@
             "jp": "混沌ダメージが(75-89)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2911,7 +2921,7 @@
             "jp": "冷気ダメージが(75-89)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -2961,7 +2971,7 @@
             "jp": "火ダメージが(75-89)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -3011,7 +3021,7 @@
             "jp": "最大マナ (105-124)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -3061,7 +3071,7 @@
             "jp": "雷ダメージが(75-89)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -3111,7 +3121,7 @@
             "jp": "最大エナジーシールド (61-73)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3165,7 +3175,7 @@
             "jp": "エナジーシールドが(33-38)%増加する\n最大マナ (27-32)"
           },
           "group": [
-            2620
+            "BaseLocalDefencesAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -3234,7 +3244,7 @@
             "jp": "エナジーシールドが(80-91)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3284,7 +3294,7 @@
             "jp": "スペル物理ダメージが(75-89)%増加する"
           },
           "group": [
-            2624
+            "WeaponDamageTypePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -3334,7 +3344,7 @@
             "jp": "スペルダメージが(75-89)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -3384,7 +3394,7 @@
             "jp": "最大マナ (125-149)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -3434,7 +3444,7 @@
             "jp": "最大エナジーシールド (74-80)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3484,7 +3494,7 @@
             "jp": "エナジーシールドが(92-100)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -3534,7 +3544,7 @@
             "jp": "最大マナ (150-164)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -3584,7 +3594,7 @@
             "jp": "最大エナジーシールド (81-90)"
           },
           "group": [
-            2618
+            "BaseLocalDefences"
           ],
           "weight": 1,
           "stats": [
@@ -3638,7 +3648,7 @@
             "jp": "エナジーシールドが(39-42)%増加する\n最大マナ (33-39)"
           },
           "group": [
-            2620
+            "BaseLocalDefencesAndMana"
           ],
           "weight": 1,
           "stats": [
@@ -3709,7 +3719,7 @@
             "jp": "冷気耐性 (6-10)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -3759,7 +3769,7 @@
             "jp": "火耐性 (6-10)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -3809,7 +3819,7 @@
             "jp": "キャストスピードが(9-12)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -3859,7 +3869,7 @@
             "jp": "知性 (5-8)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -3909,7 +3919,7 @@
             "jp": "雷耐性 (6-10)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -3959,7 +3969,7 @@
             "jp": "マナ自動回復レートが(10-19)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -4009,7 +4019,7 @@
             "jp": "スペルクリティカルダメージボーナスが(10-14)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -4059,7 +4069,7 @@
             "jp": "全てのスペルスキルのレベル 1"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -4109,7 +4119,7 @@
             "jp": "知性 (9-12)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -4159,7 +4169,7 @@
             "jp": "スペルのクリティカルヒット率が(27-33)%増加する"
           },
           "group": [
-            102
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -4209,7 +4219,7 @@
             "jp": "火耐性 (11-15)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4259,7 +4269,7 @@
             "jp": "雷耐性 (11-15)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4309,7 +4319,7 @@
             "jp": "冷気耐性 (11-15)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4359,7 +4369,7 @@
             "jp": "キャストスピードが(13-16)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -4409,7 +4419,7 @@
             "jp": "混沌耐性 (4-7)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4459,7 +4469,7 @@
             "jp": "マナ自動回復レートが(20-29)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -4509,7 +4519,7 @@
             "jp": "スペルのクリティカルヒット率が(34-39)%増加する"
           },
           "group": [
-            102
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -4559,7 +4569,7 @@
             "jp": "スペルクリティカルダメージボーナスが(15-19)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -4609,7 +4619,7 @@
             "jp": "知性 (13-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -4659,7 +4669,7 @@
             "jp": "火耐性 (16-20)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4709,7 +4719,7 @@
             "jp": "要求能力値が-15%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -4759,7 +4769,7 @@
             "jp": "雷耐性 (16-20)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4809,7 +4819,7 @@
             "jp": "冷気耐性 (16-20)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -4859,7 +4869,7 @@
             "jp": "スペルのクリティカルヒット率が(40-46)%増加する"
           },
           "group": [
-            102
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -4909,7 +4919,7 @@
             "jp": "マナ自動回復レートが(30-39)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -4959,7 +4969,7 @@
             "jp": "混沌耐性 (8-11)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5009,7 +5019,7 @@
             "jp": "キャストスピードが(17-20)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5059,7 +5069,7 @@
             "jp": "スペルクリティカルダメージボーナスが(20-24)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -5109,7 +5119,7 @@
             "jp": "要求能力値が-20%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -5159,7 +5169,7 @@
             "jp": "知性 (17-20)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -5209,7 +5219,7 @@
             "jp": "火耐性 (21-25)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5259,7 +5269,7 @@
             "jp": "雷耐性 (21-25)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5309,7 +5319,7 @@
             "jp": "冷気耐性 (21-25)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5359,7 +5369,7 @@
             "jp": "要求能力値が-25%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -5409,7 +5419,7 @@
             "jp": "全てのスペルスキルのレベル 2"
           },
           "group": [
-            144
+            "IncreaseSocketedGemLevel"
           ],
           "weight": 1,
           "stats": [
@@ -5459,7 +5469,7 @@
             "jp": "スペルのクリティカルヒット率が(47-53)%増加する"
           },
           "group": [
-            102
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -5509,7 +5519,7 @@
             "jp": "マナ自動回復レートが(40-49)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -5559,7 +5569,7 @@
             "jp": "混沌耐性 (12-15)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5609,7 +5619,7 @@
             "jp": "知性 (21-24)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -5659,7 +5669,7 @@
             "jp": "スペルクリティカルダメージボーナスが(25-29)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -5709,7 +5719,7 @@
             "jp": "キャストスピードが(21-24)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -5759,7 +5769,7 @@
             "jp": "エナジーシールドリチャージレートが(16-19)%増加する"
           },
           "group": [
-            44
+            "EnergyShieldRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -5809,7 +5819,7 @@
             "jp": "火耐性 (26-30)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5859,7 +5869,7 @@
             "jp": "雷耐性 (26-30)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5909,7 +5919,7 @@
             "jp": "冷気耐性 (26-30)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -5959,7 +5969,7 @@
             "jp": "要求能力値が-30%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -6009,7 +6019,7 @@
             "jp": "知性 (25-27)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -6059,7 +6069,7 @@
             "jp": "マナ自動回復レートが(50-59)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -6109,7 +6119,7 @@
             "jp": "混沌耐性 (16-19)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6159,7 +6169,7 @@
             "jp": "スペルのクリティカルヒット率が(54-59)%増加する"
           },
           "group": [
-            102
+            "SpellCriticalStrikeChanceIncrease"
           ],
           "weight": 1,
           "stats": [
@@ -6209,7 +6219,7 @@
             "jp": "スペルクリティカルダメージボーナスが(30-34)%増加する"
           },
           "group": [
-            96
+            "CriticalStrikeMultiplier"
           ],
           "weight": 1,
           "stats": [
@@ -6259,7 +6269,7 @@
             "jp": "冷気耐性 (31-35)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6309,7 +6319,7 @@
             "jp": "火耐性 (31-35)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6359,7 +6369,7 @@
             "jp": "キャストスピードが(25-28)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -6409,7 +6419,7 @@
             "jp": "雷耐性 (31-35)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6459,7 +6469,7 @@
             "jp": "要求能力値が-35%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -6509,7 +6519,7 @@
             "jp": "エナジーシールドリチャージレートが(20-23)%増加する"
           },
           "group": [
-            44
+            "EnergyShieldRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -6559,7 +6569,7 @@
             "jp": "知性 (28-30)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -6609,7 +6619,7 @@
             "jp": "混沌耐性 (20-23)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6659,7 +6669,7 @@
             "jp": "キャストスピードが(29-32)%増加する"
           },
           "group": [
-            36
+            "IncreasedCastSpeed"
           ],
           "weight": 1,
           "stats": [
@@ -6709,7 +6719,7 @@
             "jp": "冷気耐性 (36-40)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6759,7 +6769,7 @@
             "jp": "火耐性 (36-40)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6809,7 +6819,7 @@
             "jp": "雷耐性 (36-40)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -6859,7 +6869,7 @@
             "jp": "知性 (31-33)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -6909,7 +6919,7 @@
             "jp": "マナ自動回復レートが(60-69)%増加する"
           },
           "group": [
-            42
+            "ManaRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -6959,7 +6969,7 @@
             "jp": "混沌耐性 (24-27)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7009,7 +7019,7 @@
             "jp": "エナジーシールドリチャージレートが(24-27)%増加する"
           },
           "group": [
-            44
+            "EnergyShieldRegeneration"
           ],
           "weight": 1,
           "stats": [
@@ -7059,7 +7069,7 @@
             "jp": "冷気耐性 (41-45)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7109,7 +7119,7 @@
             "jp": "火耐性 (41-45)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7159,7 +7169,7 @@
             "jp": "雷耐性 (41-45)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -7213,7 +7223,7 @@
             "jp": "最大マナ (20-25)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -7263,7 +7273,7 @@
             "jp": "エナジーシールドが(15-25)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -7313,7 +7323,7 @@
             "jp": "要求能力値が(-20--10)%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -7363,7 +7373,7 @@
             "jp": "スペルダメージが(20-30)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
@@ -7394,523 +7404,8 @@
     "essence": {
       "prefix": [
         {
-          "id": "EssenceGrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": "Essence's",
-            "kr": "에센스의",
-            "tw": "精髓的",
-            "ru": "Сущностный",
-            "jp": "エッセンスの"
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            5682
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_essence",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive2",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_2",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_3",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "GrantedPassive4",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
-          },
-          "group": [
-            3610
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "mod_granted_passive_hash_4",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionAndEnergyShieldPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              3,
-              3
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 3 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level",
-            "kr": "플레이어 레벨 1당 회피 3\n플레이어 레벨 1당 에너지 보호막 최대치 1",
-            "tw": "每一玩家等級3閃避值\n每一玩家等級1最大能量護盾",
-            "ru": "3 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 3を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    3,
-                    3
-                  ]
-                }
-              ],
-              "value": "3",
-              "text": {
-                "en": "Has 3 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 3",
-                "tw": "每一玩家等級3閃避值",
-                "ru": "3 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 3を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalBaseEvasionEnergyShieldAndWardPerLevel",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              2,
-              2
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ],
-            [
-              1,
-              1
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": "Has 2 to Evasion Rating per player level\nHas 1 to maximum Energy Shield per player level\nHas 1 to maximum Runic Ward per player level",
-            "kr": "플레이어 레벨 1당 회피 2\n플레이어 레벨 1당 에너지 보호막 최대치 1\n플레이어 레벨 1당 룬 수호 최대치 1",
-            "tw": "每一玩家等級2閃避值\n每一玩家等級1最大能量護盾\n每一玩家等級擁有1最大符文保護",
-            "ru": "2 к уклонению за каждый уровень игрока\n1 к максимуму энергетического щита за каждый уровень игрока\nПолучает 1 к максимуму рунического барьера за уровень игрока",
-            "jp": "プレイヤーレベルごとに回避力 2を持つ\nプレイヤーレベルごとに最大エナジーシールド 1を持つ\nプレイヤーレベルごとに最大ルーンワード 1を持つ"
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_evasion_rating_per_level",
-                  "valueRange": [
-                    2,
-                    2
-                  ]
-                }
-              ],
-              "value": "2",
-              "text": {
-                "en": "Has 2 to Evasion Rating per player level",
-                "kr": "플레이어 레벨 1당 회피 2",
-                "tw": "每一玩家等級2閃避值",
-                "ru": "2 к уклонению за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに回避力 2を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_energy_shield_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Energy Shield per player level",
-                "kr": "플레이어 레벨 1당 에너지 보호막 최대치 1",
-                "tw": "每一玩家等級1最大能量護盾",
-                "ru": "1 к максимуму энергетического щита за каждый уровень игрока",
-                "jp": "プレイヤーレベルごとに最大エナジーシールド 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_ward_per_level",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": "Has 1 to maximum Runic Ward per player level",
-                "kr": "플레이어 레벨 1당 룬 수호 최대치 1",
-                "tw": "每一玩家等級擁有1最大符文保護",
-                "ru": "Получает 1 к максимуму рунического барьера за уровень игрока",
-                "jp": "プレイヤーレベルごとに最大ルーンワード 1を持つ"
-              }
-            },
-            {
-              "stats": [
-                {
-                  "stat": "local_level_requirement_override",
-                  "valueRange": [
-                    1,
-                    1
-                  ]
-                }
-              ],
-              "value": "1",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "HandWrapsImplicitLocalCopyPlayerLevelValue",
-          "affixType": "essence",
-          "tier": 1,
-          "valueRanges": [
-            [
-              0,
-              0
-            ]
-          ],
-          "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
-          },
-          "group": [
-            5921
-          ],
-          "weight": 0,
-          "stats": [
-            {
-              "stats": [
-                {
-                  "stat": "local_hand_wraps_player_level_to_use",
-                  "valueRange": [
-                    0,
-                    0
-                  ]
-                }
-              ],
-              "value": "0",
-              "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
-              }
-            }
-          ]
-        },
-        {
-          "id": "Obliterated",
-          "affixType": "essence",
+          "id": "EssenceAbyssPrefix",
+          "affixType": "prefix",
           "tier": 1,
           "valueRanges": [
             [
@@ -7919,28 +7414,28 @@
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Abyssal",
+            "kr": "심연의",
+            "tw": "深淵的",
+            "ru": "Подземный",
+            "jp": "アビサル"
           },
           "effect": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
           },
           "group": [
-            6096
+            "EssenceAbyss"
           ],
           "weight": 0,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "dummy_display_is_obliterated",
+                  "stat": "essence_abyss_guaranteed_pick",
                   "valueRange": [
                     1,
                     1
@@ -7949,117 +7444,3138 @@
               ],
               "value": "1",
               "text": {
-                "en": null,
-                "kr": null,
-                "tw": null,
-                "ru": null,
-                "jp": null
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueDamageRemovedFromManaBeforeLife3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "SpellDamageOnWeapon2",
+          "affixType": "prefix",
+          "tier": 8,
           "valueRanges": [
             [
-              100,
-              100
+              35,
+              44
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Adept's",
+            "kr": "숙련자의",
+            "tw": "嫻熟的",
+            "ru": "Заколдованный",
+            "jp": "達人の"
           },
           "effect": {
-            "en": "100% of Damage is taken from Mana before Life",
-            "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-            "tw": "生命值所受的100%傷害由魔力扣除",
-            "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-            "jp": "ダメージの100%をライフより先にマナで受ける"
+            "en": "(35-44)% increased Spell Damage",
+            "kr": "주문 피해 (35-44)% 증가",
+            "tw": "增加(35-44)%法術傷害",
+            "ru": "(35-44)% увеличение урона от чар",
+            "jp": "スペルダメージが(35-44)%増加する"
           },
           "group": [
-            760
+            "WeaponCasterDamagePrefix"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%",
+                  "valueRange": [
+                    35,
+                    44
+                  ]
+                }
+              ],
+              "value": "35~44",
+              "text": {
+                "en": "(35-44)% increased Spell Damage",
+                "kr": "주문 피해 (35-44)% 증가",
+                "tw": "增加(35-44)%法術傷害",
+                "ru": "(35-44)% увеличение урона от чар",
+                "jp": "スペルダメージが(35-44)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceCaster",
+              "name": {
+                "en": "Lesser Essence of Sorcery",
+                "kr": "하위 마술의 에센스",
+                "tw": "低階巫術精髓",
+                "ru": "Малая сущность колдовства",
+                "jp": "魔法のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedLife3",
+          "affixType": "prefix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              30,
+              39
+            ]
+          ],
+          "name": {
+            "en": "Sanguine",
+            "kr": "혈액 과다의",
+            "tw": "樂觀的",
+            "ru": "Здравый",
+            "jp": "血色良い"
+          },
+          "effect": {
+            "en": "(30-39) to maximum Life",
+            "kr": "생명력 최대치 (30-39)",
+            "tw": "(30-39)最大生命",
+            "ru": "(30-39) к максимуму здоровья",
+            "jp": "最大ライフ (30-39)"
+          },
+          "group": [
+            "IncreasedLife"
           ],
           "weight": 0,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "base_damage_removed_from_mana_before_life_%",
+                  "stat": "base_maximum_life",
                   "valueRange": [
-                    100,
-                    100
+                    30,
+                    39
                   ]
                 }
               ],
-              "value": "100",
+              "value": "30~39",
               "text": {
-                "en": "100% of Damage is taken from Mana before Life",
-                "kr": "받는 피해의 100%를 생명력 대신 마나로 소모",
-                "tw": "生命值所受的100%傷害由魔力扣除",
-                "ru": "100% от получаемого урона берется сначала из маны вместо здоровья",
-                "jp": "ダメージの100%をライフより先にマナで受ける"
+                "en": "(30-39) to maximum Life",
+                "kr": "생명력 최대치 (30-39)",
+                "tw": "(30-39)最大生命",
+                "ru": "(30-39) к максимуму здоровья",
+                "jp": "最大ライフ (30-39)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceLife",
+              "name": {
+                "en": "Lesser Essence of the Body",
+                "kr": "하위 육신의 에센스",
+                "tw": "低階肉體精髓",
+                "ru": "Малая сущность тела",
+                "jp": "肉体のレッサーエッセンス"
               }
             }
           ]
         },
         {
-          "id": "UniqueJewelGrantedPassive3",
-          "affixType": "essence",
-          "tier": 1,
+          "id": "LocalIncreasedEnergyShieldPercent2",
+          "affixType": "prefix",
+          "tier": 16,
           "valueRanges": [
             [
-              0,
-              0
+              27,
+              42
             ]
           ],
           "name": {
-            "en": null,
-            "kr": null,
-            "tw": null,
-            "ru": null,
-            "jp": null
+            "en": "Strong-Willed",
+            "kr": "확고한",
+            "tw": "意志堅強的",
+            "ru": "Волевой",
+            "jp": "強き意志の"
           },
           "effect": {
-            "en": "Allocates 0",
-            "kr": "할당 0",
-            "tw": "配置0",
-            "ru": "Активирует 0",
-            "jp": "0 を割り当てる"
+            "en": "(27-42)% increased Energy Shield",
+            "kr": "에너지 보호막 (27-42)% 증가",
+            "tw": "增加(27-42)%能量護盾",
+            "ru": "(27-42)% увеличение энергетического щита",
+            "jp": "エナジーシールドが(27-42)%増加する"
           },
           "group": [
-            3610
+            "DefencesPercent"
           ],
-          "weight": 0,
+          "weight": 1,
           "stats": [
             {
               "stats": [
                 {
-                  "stat": "unique_jewel_grants_notable_hash_3",
+                  "stat": "local_energy_shield_+%",
                   "valueRange": [
-                    0,
-                    0
+                    27,
+                    42
                   ]
                 }
               ],
-              "value": "0",
+              "value": "27~42",
               "text": {
-                "en": "Allocates 0",
-                "kr": "할당 0",
-                "tw": "配置0",
-                "ru": "Активирует 0",
-                "jp": "0 を割り当てる"
+                "en": "(27-42)% increased Energy Shield",
+                "kr": "에너지 보호막 (27-42)% 증가",
+                "tw": "增加(27-42)%能量護盾",
+                "ru": "(27-42)% увеличение энергетического щита",
+                "jp": "エナジーシールドが(27-42)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceDefences",
+              "name": {
+                "en": "Lesser Essence of Enhancement",
+                "kr": "하위 강화의 에센스",
+                "tw": "低階強化精髓",
+                "ru": "Малая сущность улучшения",
+                "jp": "強化のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellDamageOnWeapon4",
+          "affixType": "prefix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              55,
+              64
+            ]
+          ],
+          "name": {
+            "en": "Professor's",
+            "kr": "교수의",
+            "tw": "教授的",
+            "ru": "Профессорский",
+            "jp": "教授の"
+          },
+          "effect": {
+            "en": "(55-64)% increased Spell Damage",
+            "kr": "주문 피해 (55-64)% 증가",
+            "tw": "增加(55-64)%法術傷害",
+            "ru": "(55-64)% увеличение урона от чар",
+            "jp": "スペルダメージが(55-64)%増加する"
+          },
+          "group": [
+            "WeaponCasterDamagePrefix"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%",
+                  "valueRange": [
+                    55,
+                    64
+                  ]
+                }
+              ],
+              "value": "55~64",
+              "text": {
+                "en": "(55-64)% increased Spell Damage",
+                "kr": "주문 피해 (55-64)% 증가",
+                "tw": "增加(55-64)%法術傷害",
+                "ru": "(55-64)% увеличение урона от чар",
+                "jp": "スペルダメージが(55-64)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceCaster",
+              "name": {
+                "en": "Essence of Sorcery",
+                "kr": "마술의 에센스",
+                "tw": "巫術精髓",
+                "ru": "Сущность колдовства",
+                "jp": "魔法のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedEnergyShieldPercent4",
+          "affixType": "prefix",
+          "tier": 46,
+          "valueRanges": [
+            [
+              56,
+              67
+            ]
+          ],
+          "name": {
+            "en": "Fearless",
+            "kr": "용맹한",
+            "tw": "無懼的",
+            "ru": "Бесстрашный",
+            "jp": "恐れ知らずな"
+          },
+          "effect": {
+            "en": "(56-67)% increased Energy Shield",
+            "kr": "에너지 보호막 (56-67)% 증가",
+            "tw": "增加(56-67)%能量護盾",
+            "ru": "(56-67)% увеличение энергетического щита",
+            "jp": "エナジーシールドが(56-67)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_energy_shield_+%",
+                  "valueRange": [
+                    56,
+                    67
+                  ]
+                }
+              ],
+              "value": "56~67",
+              "text": {
+                "en": "(56-67)% increased Energy Shield",
+                "kr": "에너지 보호막 (56-67)% 증가",
+                "tw": "增加(56-67)%能量護盾",
+                "ru": "(56-67)% увеличение энергетического щита",
+                "jp": "エナジーシールドが(56-67)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceDefences",
+              "name": {
+                "en": "Essence of Enhancement",
+                "kr": "강화의 에센스",
+                "tw": "強化精髓",
+                "ru": "Сущность улучшения",
+                "jp": "強化のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LocalIncreasedEnergyShieldPercent5",
+          "affixType": "prefix",
+          "tier": 54,
+          "valueRanges": [
+            [
+              68,
+              79
+            ]
+          ],
+          "name": {
+            "en": "Dauntless",
+            "kr": "대담한",
+            "tw": "無畏的",
+            "ru": "Неустрашимый",
+            "jp": "恐れ知らずな"
+          },
+          "effect": {
+            "en": "(68-79)% increased Energy Shield",
+            "kr": "에너지 보호막 (68-79)% 증가",
+            "tw": "增加(68-79)%能量護盾",
+            "ru": "(68-79)% увеличение энергетического щита",
+            "jp": "エナジーシールドが(68-79)%増加する"
+          },
+          "group": [
+            "DefencesPercent"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_energy_shield_+%",
+                  "valueRange": [
+                    68,
+                    79
+                  ]
+                }
+              ],
+              "value": "68~79",
+              "text": {
+                "en": "(68-79)% increased Energy Shield",
+                "kr": "에너지 보호막 (68-79)% 증가",
+                "tw": "增加(68-79)%能量護盾",
+                "ru": "(68-79)% увеличение энергетического щита",
+                "jp": "エナジーシールドが(68-79)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceDefences",
+              "name": {
+                "en": "Greater Essence of Enhancement",
+                "kr": "상위 강화의 에센스",
+                "tw": "高階強化精髓",
+                "ru": "Большая сущность улучшения",
+                "jp": "強化のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellDamageOnWeapon6",
+          "affixType": "prefix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              75,
+              89
+            ]
+          ],
+          "name": {
+            "en": "Incanter's",
+            "kr": "주문술사의",
+            "tw": "魔咒師的",
+            "ru": "Чернокнижный",
+            "jp": "呪術師の"
+          },
+          "effect": {
+            "en": "(75-89)% increased Spell Damage",
+            "kr": "주문 피해 (75-89)% 증가",
+            "tw": "增加(75-89)%法術傷害",
+            "ru": "(75-89)% увеличение урона от чар",
+            "jp": "スペルダメージが(75-89)%増加する"
+          },
+          "group": [
+            "WeaponCasterDamagePrefix"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%",
+                  "valueRange": [
+                    75,
+                    89
+                  ]
+                }
+              ],
+              "value": "75~89",
+              "text": {
+                "en": "(75-89)% increased Spell Damage",
+                "kr": "주문 피해 (75-89)% 증가",
+                "tw": "增加(75-89)%法術傷害",
+                "ru": "(75-89)% увеличение урона от чар",
+                "jp": "スペルダメージが(75-89)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceCaster",
+              "name": {
+                "en": "Greater Essence of Sorcery",
+                "kr": "상위 마술의 에센스",
+                "tw": "高階巫術精髓",
+                "ru": "Большая сущность колдовства",
+                "jp": "魔法のグレーターエッセンス"
               }
             }
           ]
         }
       ],
-      "suffix": []
+      "suffix": [
+        {
+          "id": "EssenceAbyssSuffix",
+          "affixType": "suffix",
+          "tier": 1,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "of the Abyss",
+            "kr": "- 심연",
+            "tw": "深淵之",
+            "ru": "Бездны",
+            "jp": "アビスの"
+          },
+          "effect": {
+            "en": "Bears the Mark of the Abyssal Lord",
+            "kr": "심연의 군주의 징표가 찍힘",
+            "tw": "帶有深淵領主印記",
+            "ru": "Носит Метку Владыки Бездны",
+            "jp": "アビサルロードの紋章を身につけている"
+          },
+          "group": [
+            "EssenceAbyss"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "essence_abyss_guaranteed_pick",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Bears the Mark of the Abyssal Lord",
+                "kr": "심연의 군주의 징표가 찍힘",
+                "tw": "帶有深淵領主印記",
+                "ru": "Носит Метку Владыки Бездны",
+                "jp": "アビサルロードの紋章を身につけている"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
+              "name": {
+                "en": "Essence of the Abyss",
+                "kr": "심연의 에센스",
+                "tw": "深淵精髓",
+                "ru": "Сущность Бездны",
+                "jp": "アビスのエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence2",
+          "affixType": "suffix",
+          "tier": 11,
+          "valueRanges": [
+            [
+              9,
+              12
+            ]
+          ],
+          "name": {
+            "en": "of the Student",
+            "kr": "- 학생",
+            "tw": "學徒之",
+            "ru": "слушателя",
+            "jp": "学徒の"
+          },
+          "effect": {
+            "en": "(9-12) to Intelligence",
+            "kr": "지능 (9-12)",
+            "tw": "(9-12)點智慧",
+            "ru": "(9-12) к интеллекту",
+            "jp": "知性 (9-12)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    9,
+                    12
+                  ]
+                }
+              ],
+              "value": "9~12",
+              "text": {
+                "en": "(9-12) to Intelligence",
+                "kr": "지능 (9-12)",
+                "tw": "(9-12)點智慧",
+                "ru": "(9-12) к интеллекту",
+                "jp": "知性 (9-12)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceAttribute",
+              "name": {
+                "en": "Lesser Essence of the Infinite",
+                "kr": "하위 무한의 에센스",
+                "tw": "低階無限精髓",
+                "ru": "Малая сущность бесконечности",
+                "jp": "無限のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist2",
+          "affixType": "suffix",
+          "tier": 12,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Salamander",
+            "kr": "- 불도마뱀",
+            "tw": "火蜥蜴之",
+            "ru": "саламандры",
+            "jp": "サラマンダーの"
+          },
+          "effect": {
+            "en": "(11-15)% to Fire Resistance",
+            "kr": "화염 저항 (11-15)%",
+            "tw": "(11-15)%火焰抗性",
+            "ru": "(11-15)% к сопротивлению огню",
+            "jp": "火耐性 (11-15)%"
+          },
+          "group": [
+            "FireResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% to Fire Resistance",
+                "kr": "화염 저항 (11-15)%",
+                "tw": "(11-15)%火焰抗性",
+                "ru": "(11-15)% к сопротивлению огню",
+                "jp": "火耐性 (11-15)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceFireResist",
+              "name": {
+                "en": "Lesser Essence of Insulation",
+                "kr": "하위 절연의 에센스",
+                "tw": "低階隔絕精髓",
+                "ru": "Малая сущность изоляции",
+                "jp": "断熱のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist2",
+          "affixType": "suffix",
+          "tier": 13,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Squall",
+            "kr": "- 돌풍",
+            "tw": "冰雹之",
+            "ru": "шквала",
+            "jp": "スコールの"
+          },
+          "effect": {
+            "en": "(11-15)% to Lightning Resistance",
+            "kr": "번개 저항 (11-15)%",
+            "tw": "(11-15)%閃電抗性",
+            "ru": "(11-15)% к сопротивлению молнии",
+            "jp": "雷耐性 (11-15)%"
+          },
+          "group": [
+            "LightningResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% to Lightning Resistance",
+                "kr": "번개 저항 (11-15)%",
+                "tw": "(11-15)%閃電抗性",
+                "ru": "(11-15)% к сопротивлению молнии",
+                "jp": "雷耐性 (11-15)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceLightningResist",
+              "name": {
+                "en": "Lesser Essence of Grounding",
+                "kr": "하위 접지의 에센스",
+                "tw": "低階接地精髓",
+                "ru": "Малая сущность заземления",
+                "jp": "接地のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist2",
+          "affixType": "suffix",
+          "tier": 14,
+          "valueRanges": [
+            [
+              11,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of the Penguin",
+            "kr": "- 펭귄",
+            "tw": "企鵝之",
+            "ru": "пингвина",
+            "jp": "ペンギンの"
+          },
+          "effect": {
+            "en": "(11-15)% to Cold Resistance",
+            "kr": "냉기 저항 (11-15)%",
+            "tw": "(11-15)%冰冷抗性",
+            "ru": "(11-15)% к сопротивлению холоду",
+            "jp": "冷気耐性 (11-15)%"
+          },
+          "group": [
+            "ColdResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    11,
+                    15
+                  ]
+                }
+              ],
+              "value": "11~15",
+              "text": {
+                "en": "(11-15)% to Cold Resistance",
+                "kr": "냉기 저항 (11-15)%",
+                "tw": "(11-15)%冰冷抗性",
+                "ru": "(11-15)% к сопротивлению холоду",
+                "jp": "冷気耐性 (11-15)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceColdResist",
+              "name": {
+                "en": "Lesser Essence of Thawing",
+                "kr": "하위 해동의 에센스",
+                "tw": "低階解凍精髓",
+                "ru": "Малая сущность таяния",
+                "jp": "解凍のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedCastSpeed2",
+          "affixType": "suffix",
+          "tier": 15,
+          "valueRanges": [
+            [
+              13,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Nimbleness",
+            "kr": "- 기민함",
+            "tw": "靈活應變之",
+            "ru": "сноровки",
+            "jp": "軽快さの"
+          },
+          "effect": {
+            "en": "(13-16)% increased Cast Speed",
+            "kr": "시전 속도 (13-16)% 증가",
+            "tw": "增加(13-16)%施放速度",
+            "ru": "(13-16)% повышение скорости сотворения чар",
+            "jp": "キャストスピードが(13-16)%増加する"
+          },
+          "group": [
+            "IncreasedCastSpeed"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    13,
+                    16
+                  ]
+                }
+              ],
+              "value": "13~16",
+              "text": {
+                "en": "(13-16)% increased Cast Speed",
+                "kr": "시전 속도 (13-16)% 증가",
+                "tw": "增加(13-16)%施放速度",
+                "ru": "(13-16)% повышение скорости сотворения чар",
+                "jp": "キャストスピードが(13-16)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceSpeedCaster",
+              "name": {
+                "en": "Lesser Essence of Alacrity",
+                "kr": "하위 기민성의 에센스",
+                "tw": "低階輕快精髓",
+                "ru": "Малая сущность живости",
+                "jp": "敏速のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist1",
+          "affixType": "suffix",
+          "tier": 16,
+          "valueRanges": [
+            [
+              4,
+              7
+            ]
+          ],
+          "name": {
+            "en": "of the Lost",
+            "kr": "- 상실",
+            "tw": "失落之",
+            "ru": "заблудшего",
+            "jp": "迷い子の"
+          },
+          "effect": {
+            "en": "(4-7)% to Chaos Resistance",
+            "kr": "카오스 저항 (4-7)%",
+            "tw": "(4-7)%混沌抗性",
+            "ru": "(4-7)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (4-7)%"
+          },
+          "group": [
+            "ChaosResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    4,
+                    7
+                  ]
+                }
+              ],
+              "value": "4~7",
+              "text": {
+                "en": "(4-7)% to Chaos Resistance",
+                "kr": "카오스 저항 (4-7)%",
+                "tw": "(4-7)%混沌抗性",
+                "ru": "(4-7)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (4-7)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceChaos",
+              "name": {
+                "en": "Lesser Essence of Ruin",
+                "kr": "하위 폐허의 에센스",
+                "tw": "低階毀滅精髓",
+                "ru": "Малая сущность гибели",
+                "jp": "破滅のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellCriticalStrikeChance2",
+          "affixType": "suffix",
+          "tier": 21,
+          "valueRanges": [
+            [
+              34,
+              39
+            ]
+          ],
+          "name": {
+            "en": "of Havoc",
+            "kr": "- 혼란",
+            "tw": "浩劫之",
+            "ru": "погрома",
+            "jp": "致命的な"
+          },
+          "effect": {
+            "en": "(34-39)% increased Critical Hit Chance for Spells",
+            "kr": "주문 치명타 명중 확률 (34-39)% 증가",
+            "tw": "增加(34-39)%法術暴擊率",
+            "ru": "(34-39)% повышение шанса критического удара для чар",
+            "jp": "スペルのクリティカルヒット率が(34-39)%増加する"
+          },
+          "group": [
+            "SpellCriticalStrikeChanceIncrease"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_critical_strike_chance_+%",
+                  "valueRange": [
+                    34,
+                    39
+                  ]
+                }
+              ],
+              "value": "34~39",
+              "text": {
+                "en": "(34-39)% increased Critical Hit Chance for Spells",
+                "kr": "주문 치명타 명중 확률 (34-39)% 증가",
+                "tw": "增加(34-39)%法術暴擊率",
+                "ru": "(34-39)% повышение шанса критического удара для чар",
+                "jp": "スペルのクリティカルヒット率が(34-39)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyLesserEssenceCritical",
+              "name": {
+                "en": "Lesser Essence of Seeking",
+                "kr": "하위 추구의 에센스",
+                "tw": "低階探尋精髓",
+                "ru": "Малая сущность искания",
+                "jp": "探求のレッサーエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellCriticalStrikeChance3",
+          "affixType": "suffix",
+          "tier": 28,
+          "valueRanges": [
+            [
+              40,
+              46
+            ]
+          ],
+          "name": {
+            "en": "of Disaster",
+            "kr": "- 재난",
+            "tw": "災害之",
+            "ru": "разрухи",
+            "jp": "災害の"
+          },
+          "effect": {
+            "en": "(40-46)% increased Critical Hit Chance for Spells",
+            "kr": "주문 치명타 명중 확률 (40-46)% 증가",
+            "tw": "增加(40-46)%法術暴擊率",
+            "ru": "(40-46)% повышение шанса критического удара для чар",
+            "jp": "スペルのクリティカルヒット率が(40-46)%増加する"
+          },
+          "group": [
+            "SpellCriticalStrikeChanceIncrease"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_critical_strike_chance_+%",
+                  "valueRange": [
+                    40,
+                    46
+                  ]
+                }
+              ],
+              "value": "40~46",
+              "text": {
+                "en": "(40-46)% increased Critical Hit Chance for Spells",
+                "kr": "주문 치명타 명중 확률 (40-46)% 증가",
+                "tw": "增加(40-46)%法術暴擊率",
+                "ru": "(40-46)% повышение шанса критического удара для чар",
+                "jp": "スペルのクリティカルヒット率が(40-46)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceCritical",
+              "name": {
+                "en": "Essence of Seeking",
+                "kr": "추구의 에센스",
+                "tw": "探尋精髓",
+                "ru": "Сущность искания",
+                "jp": "探求のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist2",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              8,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of Banishment",
+            "kr": "- 추방",
+            "tw": "放逐之",
+            "ru": "лишённого",
+            "jp": "流刑の"
+          },
+          "effect": {
+            "en": "(8-11)% to Chaos Resistance",
+            "kr": "카오스 저항 (8-11)%",
+            "tw": "(8-11)%混沌抗性",
+            "ru": "(8-11)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (8-11)%"
+          },
+          "group": [
+            "ChaosResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    8,
+                    11
+                  ]
+                }
+              ],
+              "value": "8~11",
+              "text": {
+                "en": "(8-11)% to Chaos Resistance",
+                "kr": "카오스 저항 (8-11)%",
+                "tw": "(8-11)%混沌抗性",
+                "ru": "(8-11)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (8-11)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceChaos",
+              "name": {
+                "en": "Essence of Ruin",
+                "kr": "폐허의 에센스",
+                "tw": "毀滅精髓",
+                "ru": "Сущность гибели",
+                "jp": "破滅のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedCastSpeed3",
+          "affixType": "suffix",
+          "tier": 30,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Expertise",
+            "kr": "- 전문 지식",
+            "tw": "有經驗之",
+            "ru": "умения",
+            "jp": "専門性の"
+          },
+          "effect": {
+            "en": "(17-20)% increased Cast Speed",
+            "kr": "시전 속도 (17-20)% 증가",
+            "tw": "增加(17-20)%施放速度",
+            "ru": "(17-20)% повышение скорости сотворения чар",
+            "jp": "キャストスピードが(17-20)%増加する"
+          },
+          "group": [
+            "IncreasedCastSpeed"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20)% increased Cast Speed",
+                "kr": "시전 속도 (17-20)% 증가",
+                "tw": "增加(17-20)%施放速度",
+                "ru": "(17-20)% повышение скорости сотворения чар",
+                "jp": "キャストスピードが(17-20)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceSpeedCaster",
+              "name": {
+                "en": "Essence of Alacrity",
+                "kr": "기민성의 에센스",
+                "tw": "輕快精髓",
+                "ru": "Сущность живости",
+                "jp": "敏速のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence4",
+          "affixType": "suffix",
+          "tier": 33,
+          "valueRanges": [
+            [
+              17,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Augur",
+            "kr": "- 점술가",
+            "tw": "預言之",
+            "ru": "авгура",
+            "jp": "占師の"
+          },
+          "effect": {
+            "en": "(17-20) to Intelligence",
+            "kr": "지능 (17-20)",
+            "tw": "(17-20)點智慧",
+            "ru": "(17-20) к интеллекту",
+            "jp": "知性 (17-20)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    17,
+                    20
+                  ]
+                }
+              ],
+              "value": "17~20",
+              "text": {
+                "en": "(17-20) to Intelligence",
+                "kr": "지능 (17-20)",
+                "tw": "(17-20)點智慧",
+                "ru": "(17-20) к интеллекту",
+                "jp": "知性 (17-20)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceAttribute",
+              "name": {
+                "en": "Essence of the Infinite",
+                "kr": "무한의 에센스",
+                "tw": "無限精髓",
+                "ru": "Сущность бесконечности",
+                "jp": "無限のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist4",
+          "affixType": "suffix",
+          "tier": 36,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Kiln",
+            "kr": "- 가마",
+            "tw": "窯爐之",
+            "ru": "печи",
+            "jp": "窯の"
+          },
+          "effect": {
+            "en": "(21-25)% to Fire Resistance",
+            "kr": "화염 저항 (21-25)%",
+            "tw": "(21-25)%火焰抗性",
+            "ru": "(21-25)% к сопротивлению огню",
+            "jp": "火耐性 (21-25)%"
+          },
+          "group": [
+            "FireResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% to Fire Resistance",
+                "kr": "화염 저항 (21-25)%",
+                "tw": "(21-25)%火焰抗性",
+                "ru": "(21-25)% к сопротивлению огню",
+                "jp": "火耐性 (21-25)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceFireResist",
+              "name": {
+                "en": "Essence of Insulation",
+                "kr": "절연의 에센스",
+                "tw": "隔絕精髓",
+                "ru": "Сущность изоляции",
+                "jp": "断熱のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist4",
+          "affixType": "suffix",
+          "tier": 37,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Thunderhead",
+            "kr": "- 뇌운",
+            "tw": "積雨雲之",
+            "ru": "грозовой тучи",
+            "jp": "雷雲の"
+          },
+          "effect": {
+            "en": "(21-25)% to Lightning Resistance",
+            "kr": "번개 저항 (21-25)%",
+            "tw": "(21-25)%閃電抗性",
+            "ru": "(21-25)% к сопротивлению молнии",
+            "jp": "雷耐性 (21-25)%"
+          },
+          "group": [
+            "LightningResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% to Lightning Resistance",
+                "kr": "번개 저항 (21-25)%",
+                "tw": "(21-25)%閃電抗性",
+                "ru": "(21-25)% к сопротивлению молнии",
+                "jp": "雷耐性 (21-25)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceLightningResist",
+              "name": {
+                "en": "Essence of Grounding",
+                "kr": "접지의 에센스",
+                "tw": "接地精髓",
+                "ru": "Сущность заземления",
+                "jp": "接地のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist4",
+          "affixType": "suffix",
+          "tier": 38,
+          "valueRanges": [
+            [
+              21,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of the Yeti",
+            "kr": "- 설인",
+            "tw": "雪人之",
+            "ru": "йети",
+            "jp": "イエティの"
+          },
+          "effect": {
+            "en": "(21-25)% to Cold Resistance",
+            "kr": "냉기 저항 (21-25)%",
+            "tw": "(21-25)%冰冷抗性",
+            "ru": "(21-25)% к сопротивлению холоду",
+            "jp": "冷気耐性 (21-25)%"
+          },
+          "group": [
+            "ColdResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    21,
+                    25
+                  ]
+                }
+              ],
+              "value": "21~25",
+              "text": {
+                "en": "(21-25)% to Cold Resistance",
+                "kr": "냉기 저항 (21-25)%",
+                "tw": "(21-25)%冰冷抗性",
+                "ru": "(21-25)% к сопротивлению холоду",
+                "jp": "冷気耐性 (21-25)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyEssenceColdResist",
+              "name": {
+                "en": "Essence of Thawing",
+                "kr": "해동의 에센스",
+                "tw": "解凍精髓",
+                "ru": "Сущность таяния",
+                "jp": "解凍のエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "SpellCriticalStrikeChance4",
+          "affixType": "suffix",
+          "tier": 41,
+          "valueRanges": [
+            [
+              47,
+              53
+            ]
+          ],
+          "name": {
+            "en": "of Calamity",
+            "kr": "- 대재난",
+            "tw": "血禍之",
+            "ru": "бедствия",
+            "jp": "厄災の"
+          },
+          "effect": {
+            "en": "(47-53)% increased Critical Hit Chance for Spells",
+            "kr": "주문 치명타 명중 확률 (47-53)% 증가",
+            "tw": "增加(47-53)%法術暴擊率",
+            "ru": "(47-53)% повышение шанса критического удара для чар",
+            "jp": "スペルのクリティカルヒット率が(47-53)%増加する"
+          },
+          "group": [
+            "SpellCriticalStrikeChanceIncrease"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_critical_strike_chance_+%",
+                  "valueRange": [
+                    47,
+                    53
+                  ]
+                }
+              ],
+              "value": "47~53",
+              "text": {
+                "en": "(47-53)% increased Critical Hit Chance for Spells",
+                "kr": "주문 치명타 명중 확률 (47-53)% 증가",
+                "tw": "增加(47-53)%法術暴擊率",
+                "ru": "(47-53)% повышение шанса критического удара для чар",
+                "jp": "スペルのクリティカルヒット率が(47-53)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceCritical",
+              "name": {
+                "en": "Greater Essence of Seeking",
+                "kr": "상위 추구의 에센스",
+                "tw": "高階探尋精髓",
+                "ru": "Большая сущность искания",
+                "jp": "探求のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "Intelligence6",
+          "affixType": "suffix",
+          "tier": 55,
+          "valueRanges": [
+            [
+              25,
+              27
+            ]
+          ],
+          "name": {
+            "en": "of the Sage",
+            "kr": "- 현자",
+            "tw": "聖人之",
+            "ru": "мудреца",
+            "jp": "賢者の"
+          },
+          "effect": {
+            "en": "(25-27) to Intelligence",
+            "kr": "지능 (25-27)",
+            "tw": "(25-27)點智慧",
+            "ru": "(25-27) к интеллекту",
+            "jp": "知性 (25-27)"
+          },
+          "group": [
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_intelligence",
+                  "valueRange": [
+                    25,
+                    27
+                  ]
+                }
+              ],
+              "value": "25~27",
+              "text": {
+                "en": "(25-27) to Intelligence",
+                "kr": "지능 (25-27)",
+                "tw": "(25-27)點智慧",
+                "ru": "(25-27) к интеллекту",
+                "jp": "知性 (25-27)"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute",
+              "name": {
+                "en": "Greater Essence of the Infinite",
+                "kr": "상위 무한의 에센스",
+                "tw": "高階無限精髓",
+                "ru": "Большая сущность бесконечности",
+                "jp": "無限のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ChaosResist4",
+          "affixType": "suffix",
+          "tier": 56,
+          "valueRanges": [
+            [
+              16,
+              19
+            ]
+          ],
+          "name": {
+            "en": "of Expulsion",
+            "kr": "- 축출",
+            "tw": "出境之",
+            "ru": "ссыльного",
+            "jp": "排除の"
+          },
+          "effect": {
+            "en": "(16-19)% to Chaos Resistance",
+            "kr": "카오스 저항 (16-19)%",
+            "tw": "(16-19)%混沌抗性",
+            "ru": "(16-19)% к сопротивлению хаосу",
+            "jp": "混沌耐性 (16-19)%"
+          },
+          "group": [
+            "ChaosResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_chaos_damage_resistance_%",
+                  "valueRange": [
+                    16,
+                    19
+                  ]
+                }
+              ],
+              "value": "16~19",
+              "text": {
+                "en": "(16-19)% to Chaos Resistance",
+                "kr": "카오스 저항 (16-19)%",
+                "tw": "(16-19)%混沌抗性",
+                "ru": "(16-19)% к сопротивлению хаосу",
+                "jp": "混沌耐性 (16-19)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceChaos",
+              "name": {
+                "en": "Greater Essence of Ruin",
+                "kr": "상위 폐허의 에센스",
+                "tw": "高階毀滅精髓",
+                "ru": "Большая сущность гибели",
+                "jp": "破滅のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ColdResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Polar Bear",
+            "kr": "- 북극곰",
+            "tw": "北極熊之",
+            "ru": "белого медведя",
+            "jp": "ホッキョクグマの"
+          },
+          "effect": {
+            "en": "(31-35)% to Cold Resistance",
+            "kr": "냉기 저항 (31-35)%",
+            "tw": "(31-35)%冰冷抗性",
+            "ru": "(31-35)% к сопротивлению холоду",
+            "jp": "冷気耐性 (31-35)%"
+          },
+          "group": [
+            "ColdResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cold_damage_resistance_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Cold Resistance",
+                "kr": "냉기 저항 (31-35)%",
+                "tw": "(31-35)%冰冷抗性",
+                "ru": "(31-35)% к сопротивлению холоду",
+                "jp": "冷気耐性 (31-35)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceColdResist",
+              "name": {
+                "en": "Greater Essence of Thawing",
+                "kr": "상위 해동의 에센스",
+                "tw": "高階解凍精髓",
+                "ru": "Большая сущность таяния",
+                "jp": "解凍のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "FireResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Volcano",
+            "kr": "- 화산",
+            "tw": "火山之",
+            "ru": "вулкана",
+            "jp": "火山の"
+          },
+          "effect": {
+            "en": "(31-35)% to Fire Resistance",
+            "kr": "화염 저항 (31-35)%",
+            "tw": "(31-35)%火焰抗性",
+            "ru": "(31-35)% к сопротивлению огню",
+            "jp": "火耐性 (31-35)%"
+          },
+          "group": [
+            "FireResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_fire_damage_resistance_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Fire Resistance",
+                "kr": "화염 저항 (31-35)%",
+                "tw": "(31-35)%火焰抗性",
+                "ru": "(31-35)% к сопротивлению огню",
+                "jp": "火耐性 (31-35)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceFireResist",
+              "name": {
+                "en": "Greater Essence of Insulation",
+                "kr": "상위 절연의 에센스",
+                "tw": "高階隔絕精髓",
+                "ru": "Большая сущность изоляции",
+                "jp": "断熱のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "IncreasedCastSpeed5",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              25,
+              28
+            ]
+          ],
+          "name": {
+            "en": "of Legerdemain",
+            "kr": "- 빠른 손재주",
+            "tw": "戲法之",
+            "ru": "боевого мага",
+            "jp": "誤魔化しの"
+          },
+          "effect": {
+            "en": "(25-28)% increased Cast Speed",
+            "kr": "시전 속도 (25-28)% 증가",
+            "tw": "增加(25-28)%施放速度",
+            "ru": "(25-28)% повышение скорости сотворения чар",
+            "jp": "キャストスピードが(25-28)%増加する"
+          },
+          "group": [
+            "IncreasedCastSpeed"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    25,
+                    28
+                  ]
+                }
+              ],
+              "value": "25~28",
+              "text": {
+                "en": "(25-28)% increased Cast Speed",
+                "kr": "시전 속도 (25-28)% 증가",
+                "tw": "增加(25-28)%施放速度",
+                "ru": "(25-28)% повышение скорости сотворения чар",
+                "jp": "キャストスピードが(25-28)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceSpeedCaster",
+              "name": {
+                "en": "Greater Essence of Alacrity",
+                "kr": "상위 기민성의 에센스",
+                "tw": "高階輕快精髓",
+                "ru": "Большая сущность живости",
+                "jp": "敏速のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "LightningResist6",
+          "affixType": "suffix",
+          "tier": 60,
+          "valueRanges": [
+            [
+              31,
+              35
+            ]
+          ],
+          "name": {
+            "en": "of the Maelstrom",
+            "kr": "- 큰 소용돌이",
+            "tw": "颱風之",
+            "ru": "вихря",
+            "jp": "大渦の"
+          },
+          "effect": {
+            "en": "(31-35)% to Lightning Resistance",
+            "kr": "번개 저항 (31-35)%",
+            "tw": "(31-35)%閃電抗性",
+            "ru": "(31-35)% к сопротивлению молнии",
+            "jp": "雷耐性 (31-35)%"
+          },
+          "group": [
+            "LightningResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_lightning_damage_resistance_%",
+                  "valueRange": [
+                    31,
+                    35
+                  ]
+                }
+              ],
+              "value": "31~35",
+              "text": {
+                "en": "(31-35)% to Lightning Resistance",
+                "kr": "번개 저항 (31-35)%",
+                "tw": "(31-35)%閃電抗性",
+                "ru": "(31-35)% к сопротивлению молнии",
+                "jp": "雷耐性 (31-35)%"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyGreaterEssenceLightningResist",
+              "name": {
+                "en": "Greater Essence of Grounding",
+                "kr": "상위 접지의 에센스",
+                "tw": "高階接地精髓",
+                "ru": "Большая сущность заземления",
+                "jp": "接地のグレーターエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "EnergyShieldRechargeRate5______",
+          "affixType": "suffix",
+          "tier": 66,
+          "valueRanges": [
+            [
+              20,
+              23
+            ]
+          ],
+          "name": {
+            "en": "of Ardour",
+            "kr": "- 열의",
+            "tw": "熱情之",
+            "ru": "запала",
+            "jp": "気勢の"
+          },
+          "effect": {
+            "en": "(20-23)% increased Energy Shield Recharge Rate",
+            "kr": "에너지 보호막 재충전 속도 (20-23)% 증가",
+            "tw": "增加(20-23)%能量護盾充能率",
+            "ru": "(20-23)% повышение скорости перезарядки энергетического щита",
+            "jp": "エナジーシールドリチャージレートが(20-23)%増加する"
+          },
+          "group": [
+            "EnergyShieldRegeneration"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "energy_shield_recharge_rate_+%",
+                  "valueRange": [
+                    20,
+                    23
+                  ]
+                }
+              ],
+              "value": "20~23",
+              "text": {
+                "en": "(20-23)% increased Energy Shield Recharge Rate",
+                "kr": "에너지 보호막 재충전 속도 (20-23)% 증가",
+                "tw": "增加(20-23)%能量護盾充能率",
+                "ru": "(20-23)% повышение скорости перезарядки энергетического щита",
+                "jp": "エナジーシールドリチャージレートが(20-23)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyCorruptedEssenceHysteria",
+              "name": {
+                "en": "Essence of Hysteria",
+                "kr": "발작의 에센스",
+                "tw": "浮誇精髓",
+                "ru": "Сущность истерии",
+                "jp": "ヒステリーのエッセンス"
+              }
+            }
+          ]
+        },
+        {
+          "id": "EssenceManaCostReduction",
+          "affixType": "suffix",
+          "tier": 72,
+          "valueRanges": [
+            [
+              18,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of the Essence",
+            "kr": "- 에센스",
+            "tw": "精髓之",
+            "ru": "сущности",
+            "jp": "エッセンスの"
+          },
+          "effect": {
+            "en": "(18-20)% increased Mana Cost Efficiency",
+            "kr": "마나 소모 효율 (18-20)% 증가",
+            "tw": "增加(18-20)%魔力消耗效率",
+            "ru": "(18-20)% увеличение эффективности расхода маны",
+            "jp": "マナコスト効率が(18-20)%増加する"
+          },
+          "group": [
+            "ManaCostEfficiency"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_cost_efficiency_+%",
+                  "valueRange": [
+                    18,
+                    20
+                  ]
+                }
+              ],
+              "value": "18~20",
+              "text": {
+                "en": "(18-20)% increased Mana Cost Efficiency",
+                "kr": "마나 소모 효율 (18-20)% 증가",
+                "tw": "增加(18-20)%魔力消耗效率",
+                "ru": "(18-20)% увеличение эффективности расхода маны",
+                "jp": "マナコスト効率が(18-20)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyPerfectEssenceSpeedCaster",
+              "name": {
+                "en": "Perfect Essence of Alacrity",
+                "kr": "완벽한 기민성의 에센스",
+                "tw": "完美輕快精髓",
+                "ru": "Совершенная сущность живости",
+                "jp": "敏速のパーフェクトエッセンス"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "alloy": {
+      "prefix": [
+        {
+          "id": "AlloyLocalWardIncreasePercent1",
+          "affixType": "prefix",
+          "tier": 25,
+          "valueRanges": [
+            [
+              24,
+              30
+            ]
+          ],
+          "name": {
+            "en": "Verisium",
+            "kr": "베리시움",
+            "tw": "維里西姆",
+            "ru": "Веризиевый",
+            "jp": "ヴェリシウムの"
+          },
+          "effect": {
+            "en": "(24-30)% increased Runic Ward",
+            "kr": "룬 수호 (24-30)% 증가",
+            "tw": "增加(24-30)%符文保護",
+            "ru": "(24-30)% увеличение рунического барьера",
+            "jp": "ルーンワードが(24-30)%増加する"
+          },
+          "group": [
+            "LocalRunicWardPercent"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "local_ward_+%",
+                  "valueRange": [
+                    24,
+                    30
+                  ]
+                }
+              ],
+              "value": "24~30",
+              "text": {
+                "en": "(24-30)% increased Runic Ward",
+                "kr": "룬 수호 (24-30)% 증가",
+                "tw": "增加(24-30)%符文保護",
+                "ru": "(24-30)% увеличение рунического барьера",
+                "jp": "ルーンワードが(24-30)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy9",
+              "name": {
+                "en": "Sovereign Alloy",
+                "kr": "군왕의 합금",
+                "tw": "君主合金",
+                "ru": "Державный сплав",
+                "jp": "王権の合金"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "AlloyExposureEffect1",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              40,
+              50
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "(40-50)% increased Exposure Effect",
+            "kr": "노출 효과 (40-50)% 증가",
+            "tw": "增加(40-50)%曝曬效果",
+            "ru": "(40-50)% усиление эффекта восприимчивости",
+            "jp": "曝露の効果が(40-50)%増加する"
+          },
+          "group": [
+            "ExposureEffect"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "exposure_effect_+%",
+                  "valueRange": [
+                    40,
+                    50
+                  ]
+                }
+              ],
+              "value": "40~50",
+              "text": {
+                "en": "(40-50)% increased Exposure Effect",
+                "kr": "노출 효과 (40-50)% 증가",
+                "tw": "增加(40-50)%曝曬效果",
+                "ru": "(40-50)% усиление эффекта восприимчивости",
+                "jp": "曝露の効果が(40-50)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy7",
+              "name": {
+                "en": "Prismatic Alloy",
+                "kr": "분광 합금",
+                "tw": "煥彩合金",
+                "ru": "Радужный сплав",
+                "jp": "プリズム合金"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AlloyTotemPlacementSpeed1",
+          "affixType": "suffix",
+          "tier": 45,
+          "valueRanges": [
+            [
+              30,
+              49
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "(30-49)% increased Totem Placement speed",
+            "kr": "토템 설치 속도 (30-49)% 증가",
+            "tw": "增加(30-49)%圖騰設置速度",
+            "ru": "(30-49)% повышение скорости установки тотемов",
+            "jp": "トーテム設置スピードが(30-49)%増加する"
+          },
+          "group": [
+            "SummonTotemCastSpeed"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "summon_totem_cast_speed_+%",
+                  "valueRange": [
+                    30,
+                    49
+                  ]
+                }
+              ],
+              "value": "30~49",
+              "text": {
+                "en": "(30-49)% increased Totem Placement speed",
+                "kr": "토템 설치 속도 (30-49)% 증가",
+                "tw": "增加(30-49)%圖騰設置速度",
+                "ru": "(30-49)% повышение скорости установки тотемов",
+                "jp": "トーテム設置スピードが(30-49)%増加する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy5",
+              "name": {
+                "en": "Swift Alloy",
+                "kr": "재빠른 합금",
+                "tw": "迅捷合金",
+                "ru": "Лёгкий сплав",
+                "jp": "迅速の合金"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AlloyCastSpeedDamageAsExtraColdHybridOneHand1",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              26,
+              31
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "name": {
+            "en": "of the Stars",
+            "kr": "- 별",
+            "tw": "星辰之",
+            "ru": "звёзд",
+            "jp": "星々の"
+          },
+          "effect": {
+            "en": "(26-31)% increased Cast Speed\nGain (7-11)% of Elemental Damage as Extra Cold Damage",
+            "kr": "시전 속도 (26-31)% 증가\n원소 피해의 (7-11)%를 추가 냉기 피해로 획득",
+            "tw": "增加(26-31)%施放速度\n獲得等同於(7-11)%元素傷害的額外冰冷傷害",
+            "ru": "(26-31)% повышение скорости сотворения чар\nДарует (7-11)% урона от стихий в виде дополнительного урона от холода",
+            "jp": "キャストスピードが(26-31)%増加する\n元素ダメージの(7-11)%を追加冷気ダメージとして獲得する"
+          },
+          "group": [
+            "IncreasedCastSpeed"
+          ],
+          "weight": 0,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_cast_speed_+%",
+                  "valueRange": [
+                    26,
+                    31
+                  ]
+                }
+              ],
+              "value": "26~31",
+              "text": {
+                "en": "(26-31)% increased Cast Speed",
+                "kr": "시전 속도 (26-31)% 증가",
+                "tw": "增加(26-31)%施放速度",
+                "ru": "(26-31)% повышение скорости сотворения чар",
+                "jp": "キャストスピードが(26-31)%増加する"
+              }
+            },
+            {
+              "stats": [
+                {
+                  "stat": "non_skill_base_elemental_damage_%_to_gain_as_cold",
+                  "valueRange": [
+                    7,
+                    11
+                  ]
+                }
+              ],
+              "value": "7~11",
+              "text": {
+                "en": "Gain (7-11)% of Elemental Damage as Extra Cold Damage",
+                "kr": "원소 피해의 (7-11)%를 추가 냉기 피해로 획득",
+                "tw": "獲得等同於(7-11)%元素傷害的額外冰冷傷害",
+                "ru": "Дарует (7-11)% урона от стихий в виде дополнительного урона от холода",
+                "jp": "元素ダメージの(7-11)%を追加冷気ダメージとして獲得する"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "id": "Metadata/Items/Currency/CurrencyVerisiumAlloy11",
+              "name": {
+                "en": "Transcendent Alloy",
+                "kr": "초월의 합금",
+                "tw": "超凡合金",
+                "ru": "Возвышенный сплав",
+                "jp": "超越の合金"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "desecrated": {
+      "prefix": [
+        {
+          "id": "AbyssModFocusAmanamuPrefixCurseMagnitude",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              8,
+              16
+            ]
+          ],
+          "name": {
+            "en": "Amanamu's",
+            "kr": "아마나무의",
+            "tw": "阿姆那姆的",
+            "ru": "Усиленный Аманаму",
+            "jp": "アマナムによる"
+          },
+          "effect": {
+            "en": "(8-16)% increased Curse Magnitudes",
+            "kr": "저주 강도 (8-16)% 증가",
+            "tw": "增加(8-16)%詛咒幅度",
+            "ru": "(8-16)% увеличение силы проклятий",
+            "jp": "呪いの強度が(8-16)%増加する"
+          },
+          "group": [
+            "CurseEffectiveness"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "curse_effect_+%",
+                  "valueRange": [
+                    8,
+                    16
+                  ]
+                }
+              ],
+              "value": "8~16",
+              "text": {
+                "en": "(8-16)% increased Curse Magnitudes",
+                "kr": "저주 강도 (8-16)% 증가",
+                "tw": "增加(8-16)%詛咒幅度",
+                "ru": "(8-16)% увеличение силы проклятий",
+                "jp": "呪いの強度が(8-16)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusAmanamuPrefixOfferingBuffEffect",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              12,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Amanamu's",
+            "kr": "아마나무의",
+            "tw": "阿姆那姆的",
+            "ru": "Усиленный Аманаму",
+            "jp": "アマナムによる"
+          },
+          "effect": {
+            "en": "Offering Skills have (12-20)% increased Buff effect",
+            "kr": "공물 스킬의 버프 효과 (12-20)% 증가",
+            "tw": "增加(12-20)%奉獻效果",
+            "ru": "(12-20)% усиление эффекта Подношений",
+            "jp": "オファリングのバフ効果が(12-20)%増加する"
+          },
+          "group": [
+            "OfferingEffect"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "offering_spells_effect_+%",
+                  "valueRange": [
+                    12,
+                    20
+                  ]
+                }
+              ],
+              "value": "12~20",
+              "text": {
+                "en": "Offering Skills have (12-20)% increased Buff effect",
+                "kr": "공물 스킬의 버프 효과 (12-20)% 증가",
+                "tw": "增加(12-20)%奉獻效果",
+                "ru": "(12-20)% усиление эффекта Подношений",
+                "jp": "オファリングのバフ効果が(12-20)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusKurgalPrefixInvocationSpellDamage",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              61,
+              79
+            ]
+          ],
+          "name": {
+            "en": "Kurgal's",
+            "kr": "쿠르갈의",
+            "tw": "柯戈的",
+            "ru": "Усиленный Каргалом",
+            "jp": "クルガルによる"
+          },
+          "effect": {
+            "en": "Invocated Spells deal (61-79)% increased Damage",
+            "kr": "기원 주문으로 주는 피해 (61-79)% 증가",
+            "tw": "祈願法術增加(61-79)%造成的傷害",
+            "ru": "Вызываемые чары наносят увеличенный на (61-79)% урон",
+            "jp": "インヴォケーションされるスペルのダメージが(61-79)%増加する"
+          },
+          "group": [
+            "WeaponCasterDamagePrefix"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "invocation_spell_damage_+%",
+                  "valueRange": [
+                    61,
+                    79
+                  ]
+                }
+              ],
+              "value": "61~79",
+              "text": {
+                "en": "Invocated Spells deal (61-79)% increased Damage",
+                "kr": "기원 주문으로 주는 피해 (61-79)% 증가",
+                "tw": "祈願法術增加(61-79)%造成的傷害",
+                "ru": "Вызываемые чары наносят увеличенный на (61-79)% урон",
+                "jp": "インヴォケーションされるスペルのダメージが(61-79)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusKurgalPrefixSpellAreaOfEffect",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "name": {
+            "en": "Kurgal's",
+            "kr": "쿠르갈의",
+            "tw": "柯戈的",
+            "ru": "Усиленный Каргалом",
+            "jp": "クルガルによる"
+          },
+          "effect": {
+            "en": "Spell Skills have (10-20)% increased Area of Effect",
+            "kr": "주문 스킬의 효과 범위 (10-20)% 증가",
+            "tw": "法術技能增加(10-20)%範圍效果",
+            "ru": "(10-20)% увеличение области действия умений чар",
+            "jp": "スペルスキルの効果範囲が(10-20)%増加する"
+          },
+          "group": [
+            "SpellAreaOfEffect"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_area_of_effect_+%",
+                  "valueRange": [
+                    10,
+                    20
+                  ]
+                }
+              ],
+              "value": "10~20",
+              "text": {
+                "en": "Spell Skills have (10-20)% increased Area of Effect",
+                "kr": "주문 스킬의 효과 범위 (10-20)% 증가",
+                "tw": "法術技能增加(10-20)%範圍效果",
+                "ru": "(10-20)% увеличение области действия умений чар",
+                "jp": "スペルスキルの効果範囲が(10-20)%増加する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusUlamanPrefixMaximumSpellTotems",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              1,
+              1
+            ]
+          ],
+          "name": {
+            "en": "Ulaman's",
+            "kr": "울라만의",
+            "tw": "烏拉曼的",
+            "ru": "Усиленный Уламаном",
+            "jp": "ウラマンによる"
+          },
+          "effect": {
+            "en": "Spell Skills have 1 to maximum number of Summoned Totems",
+            "kr": "주문 스킬의 소환 가능한 토템 최대치 1",
+            "tw": "法術技能1召喚圖騰的最大數量",
+            "ru": "Умения чар имеют 1 к максимальному количеству призываемых тотемов",
+            "jp": "スペルスキルはトーテムの最大召喚数 1"
+          },
+          "group": [
+            "AdditionalSpellTotem"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_skills_additional_totems_allowed",
+                  "valueRange": [
+                    1,
+                    1
+                  ]
+                }
+              ],
+              "value": "1",
+              "text": {
+                "en": "Spell Skills have 1 to maximum number of Summoned Totems",
+                "kr": "주문 스킬의 소환 가능한 토템 최대치 1",
+                "tw": "法術技能1召喚圖騰的最大數量",
+                "ru": "Умения чар имеют 1 к максимальному количеству призываемых тотемов",
+                "jp": "スペルスキルはトーテムの最大召喚数 1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusUlamanPrefixSpellDamageWhileWieldingMeleeWeapon",
+          "affixType": "prefix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              61,
+              79
+            ]
+          ],
+          "name": {
+            "en": "Ulaman's",
+            "kr": "울라만의",
+            "tw": "烏拉曼的",
+            "ru": "Усиленный Уламаном",
+            "jp": "ウラマンによる"
+          },
+          "effect": {
+            "en": "(61-79)% increased Spell Damage while wielding a Melee Weapon",
+            "kr": "근접 무기 장착 시 주문 피해 (61-79)% 증가",
+            "tw": "使用近戰武器時，增加(61-79)%法術傷害",
+            "ru": "(61-79)% увеличение урона от чар с оружием ближнего боя в руках",
+            "jp": "近接武器を装備中のスペルダメージが(61-79)%増加する"
+          },
+          "group": [
+            "SpellDamage"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_damage_+%_while_wielding_melee_weapon",
+                  "valueRange": [
+                    61,
+                    79
+                  ]
+                }
+              ],
+              "value": "61~79",
+              "text": {
+                "en": "(61-79)% increased Spell Damage while wielding a Melee Weapon",
+                "kr": "근접 무기 장착 시 주문 피해 (61-79)% 증가",
+                "tw": "使用近戰武器時，增加(61-79)%法術傷害",
+                "ru": "(61-79)% увеличение урона от чар с оружием ближнего боя в руках",
+                "jp": "近接武器を装備中のスペルダメージが(61-79)%増加する"
+              }
+            }
+          ]
+        }
+      ],
+      "suffix": [
+        {
+          "id": "AbyssModArmourJewelleryAmanamuSuffixFireChaosResistance",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              13,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(13-17)% to Fire and Chaos Resistances",
+            "kr": "화염 및 카오스 저항 (13-17)%",
+            "tw": "(13-17)%火焰和混沌抗性",
+            "ru": "(13-17)% к сопротивлениям огню и хаосу",
+            "jp": "火および混沌耐性 (13-17)%"
+          },
+          "group": [
+            "FireAndChaosDamageResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "fire_and_chaos_damage_resistance_%",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                }
+              ],
+              "value": "13~17",
+              "text": {
+                "en": "(13-17)% to Fire and Chaos Resistances",
+                "kr": "화염 및 카오스 저항 (13-17)%",
+                "tw": "(13-17)%火焰和混沌抗性",
+                "ru": "(13-17)% к сопротивлениям огню и хаосу",
+                "jp": "火および混沌耐性 (13-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryAmanamuSuffixStrengthAndIntelligence",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              9,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(9-15) to Strength and Intelligence",
+            "kr": "힘 및 지능 (9-15)",
+            "tw": "(9-15)點力量與智慧",
+            "ru": "(9-15) к силе и интеллекту",
+            "jp": "筋力および知性 (9-15)"
+          },
+          "group": [
+            "Strength",
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength_and_intelligence",
+                  "valueRange": [
+                    9,
+                    15
+                  ]
+                }
+              ],
+              "value": "9~15",
+              "text": {
+                "en": "(9-15) to Strength and Intelligence",
+                "kr": "힘 및 지능 (9-15)",
+                "tw": "(9-15)點力量與智慧",
+                "ru": "(9-15) к силе и интеллекту",
+                "jp": "筋力および知性 (9-15)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryKurgalSuffixColdChaosResistance",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              13,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(13-17)% to Cold and Chaos Resistances",
+            "kr": "냉기 및 카오스 저항 (13-17)%",
+            "tw": "(13-17)%冰冷和混沌抗性",
+            "ru": "(13-17)% к сопротивлениям холоду и хаосу",
+            "jp": "冷気と混沌耐性 (13-17)%"
+          },
+          "group": [
+            "ColdAndChaosDamageResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "cold_and_chaos_damage_resistance_%",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                }
+              ],
+              "value": "13~17",
+              "text": {
+                "en": "(13-17)% to Cold and Chaos Resistances",
+                "kr": "냉기 및 카오스 저항 (13-17)%",
+                "tw": "(13-17)%冰冷和混沌抗性",
+                "ru": "(13-17)% к сопротивлениям холоду и хаосу",
+                "jp": "冷気と混沌耐性 (13-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryKurgalSuffixDexterityAndIntelligence",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              9,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(9-15) to Dexterity and Intelligence",
+            "kr": "민첩 및 지능 (9-15)",
+            "tw": "(9-15)點敏捷與智慧",
+            "ru": "(9-15) к ловкости и интеллекту",
+            "jp": "器用さおよび知性 (9-15)"
+          },
+          "group": [
+            "Dexterity",
+            "Intelligence"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_dexterity_and_intelligence",
+                  "valueRange": [
+                    9,
+                    15
+                  ]
+                }
+              ],
+              "value": "9~15",
+              "text": {
+                "en": "(9-15) to Dexterity and Intelligence",
+                "kr": "민첩 및 지능 (9-15)",
+                "tw": "(9-15)點敏捷與智慧",
+                "ru": "(9-15) к ловкости и интеллекту",
+                "jp": "器用さおよび知性 (9-15)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              13,
+              17
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(13-17)% to Lightning and Chaos Resistances",
+            "kr": "번개 및 카오스 저항 (13-17)%",
+            "tw": "(13-17)%閃電和混沌抗性",
+            "ru": "(13-17)% к сопротивлениям молнии и хаосу",
+            "jp": "雷および混沌耐性 (13-17)%"
+          },
+          "group": [
+            "LightningAndChaosDamageResistance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "lightning_and_chaos_damage_resistance_%",
+                  "valueRange": [
+                    13,
+                    17
+                  ]
+                }
+              ],
+              "value": "13~17",
+              "text": {
+                "en": "(13-17)% to Lightning and Chaos Resistances",
+                "kr": "번개 및 카오스 저항 (13-17)%",
+                "tw": "(13-17)%閃電和混沌抗性",
+                "ru": "(13-17)% к сопротивлениям молнии и хаосу",
+                "jp": "雷および混沌耐性 (13-17)%"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModArmourJewelleryUlamanSuffixStrengthAndDexterity",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              9,
+              15
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(9-15) to Strength and Dexterity",
+            "kr": "힘 및 민첩 (9-15)",
+            "tw": "(9-15)點力量與敏捷",
+            "ru": "(9-15) к силе и ловкости",
+            "jp": "筋力および器用さ (9-15)"
+          },
+          "group": [
+            "Strength",
+            "Dexterity"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_strength_and_dexterity",
+                  "valueRange": [
+                    9,
+                    15
+                  ]
+                }
+              ],
+              "value": "9~15",
+              "text": {
+                "en": "(9-15) to Strength and Dexterity",
+                "kr": "힘 및 민첩 (9-15)",
+                "tw": "(9-15)點力量與敏捷",
+                "ru": "(9-15) к силе и ловкости",
+                "jp": "筋力および器用さ (9-15)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusAmanamuSuffixFasterCurseActivation",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              -20,
+              -10
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(-20--10)% faster Curse Activation",
+            "kr": "저주 활성화 속도 (-20--10)% 가속",
+            "tw": "詛咒啟動速度加快(-20--10)%",
+            "ru": "На (-20--10)% быстрее активация проклятия",
+            "jp": "呪いのアクティベーションが(-20--10)%速くなる"
+          },
+          "group": [
+            "CurseDelay"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "curse_delay_+%",
+                  "valueRange": [
+                    -20,
+                    -10
+                  ]
+                }
+              ],
+              "value": "-20~-10",
+              "text": {
+                "en": "(-20--10)% faster Curse Activation",
+                "kr": "저주 활성화 속도 (-20--10)% 가속",
+                "tw": "詛咒啟動速度加快(-20--10)%",
+                "ru": "На (-20--10)% быстрее активация проклятия",
+                "jp": "呪いのアクティベーションが(-20--10)%速くなる"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusAmanamuSuffixGlobalMinionSkillLevels",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              1,
+              2
+            ]
+          ],
+          "name": {
+            "en": "of Amanamu",
+            "kr": "- 아마나무",
+            "tw": "阿姆那姆之",
+            "ru": "Аманаму",
+            "jp": "アマナムの"
+          },
+          "effect": {
+            "en": "(1-2) to Level of all Minion Skills",
+            "kr": "모든 소환수 스킬 레벨 (1-2)",
+            "tw": "全部召喚物技能等級(1-2)",
+            "ru": "(1-2) к уровню всех камней умений приспешников",
+            "jp": "全てのミニオンスキルのレベル (1-2)"
+          },
+          "group": [
+            "IncreaseSocketedGemLevel"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "minion_skill_gem_level_+",
+                  "valueRange": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "value": "1~2",
+              "text": {
+                "en": "(1-2) to Level of all Minion Skills",
+                "kr": "모든 소환수 스킬 레벨 (1-2)",
+                "tw": "全部召喚物技能等級(1-2)",
+                "ru": "(1-2) к уровню всех камней умений приспешников",
+                "jp": "全てのミニオンスキルのレベル (1-2)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusKurgalSuffixChanceForAdditionalInfusion",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              15,
+              25
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(15-25)% chance when collecting an Elemental Infusion to gain an\\nadditional Elemental Infusion of the same type",
+            "kr": "원소 주입 획득 시 (15-25)% 확률로\\n같은 유형의 원소 주입 1개를 추가로 획득",
+            "tw": "拾取元素灌注時，有(15-25)%機率獲得額外一個同類型的元素灌注",
+            "ru": "(15-25)% шанс при подборе стихийного насыщения получить дополнительное стихийное насыщение того же типа",
+            "jp": "エレメンタルインフュージョンを拾った時に(15-25)%の確率で同じ属性のエレメンタルインフュージョンを追加で1個獲得する"
+          },
+          "group": [
+            "ChanceToGainAnAdditionalInfusion"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "additional_infusion_gain_chance_%",
+                  "valueRange": [
+                    15,
+                    25
+                  ]
+                }
+              ],
+              "value": "15~25",
+              "text": {
+                "en": "(15-25)% chance when collecting an Elemental Infusion to gain an\\nadditional Elemental Infusion of the same type",
+                "kr": "원소 주입 획득 시 (15-25)% 확률로\\n같은 유형의 원소 주입 1개를 추가로 획득",
+                "tw": "拾取元素灌注時，有(15-25)%機率獲得額外一個同類型的元素灌注",
+                "ru": "(15-25)% шанс при подборе стихийного насыщения получить дополнительное стихийное насыщение того же типа",
+                "jp": "エレメンタルインフュージョンを拾った時に(15-25)%の確率で同じ属性のエレメンタルインフュージョンを追加で1個獲得する"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusUlamanSuffixChanceForTwoAdditionalSpellProjectiles",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              10,
+              16
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(10-16)% chance for Spell Skills to fire 2 additional Projectiles",
+            "kr": "주문 스킬이 (10-16)%의 확률로 투사체 2개 추가 발사",
+            "tw": "法術技能有(10-16)%機率發射額外2個投射物",
+            "ru": "Умения чар с (10-16)% шансом могут выпустить 2 дополнительных снаряда",
+            "jp": "(10-16)%の確率でスペルスキルは投射物を追加で2個放つ"
+          },
+          "group": [
+            "SpellsFire2AdditionalProjectileChance"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spell_skills_fire_2_additional_projectiles_final_chance_%",
+                  "valueRange": [
+                    10,
+                    16
+                  ]
+                }
+              ],
+              "value": "10~16",
+              "text": {
+                "en": "(10-16)% chance for Spell Skills to fire 2 additional Projectiles",
+                "kr": "주문 스킬이 (10-16)%의 확률로 투사체 2개 추가 발사",
+                "tw": "法術技能有(10-16)%機率發射額外2個投射物",
+                "ru": "Умения чар с (10-16)% шансом могут выпустить 2 дополнительных снаряда",
+                "jp": "(10-16)%の確率でスペルスキルは投射物を追加で2個放つ"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFocusUlamanSuffixSpellManaCostConvertedToLifeCost",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              10,
+              20
+            ]
+          ],
+          "name": {
+            "en": "of Ulaman",
+            "kr": "- 울라만",
+            "tw": "烏拉曼之",
+            "ru": "Уламана",
+            "jp": "ウラマンの"
+          },
+          "effect": {
+            "en": "(10-20)% of Spell Mana Cost Converted to Life Cost",
+            "kr": "주문의 마나 소모의 (10-20)%가 생명력 소모로 전환",
+            "tw": "(10-20)%法術魔力消耗轉換為生命消耗",
+            "ru": "(10-20)% стоимости чар в мане берется из здоровья",
+            "jp": "スペルのマナコストの(10-20)%がライフコストに変換される"
+          },
+          "group": [
+            "SkillLifeCost"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "spells_cost_life_instead_of_mana_%",
+                  "valueRange": [
+                    10,
+                    20
+                  ]
+                }
+              ],
+              "value": "10~20",
+              "text": {
+                "en": "(10-20)% of Spell Mana Cost Converted to Life Cost",
+                "kr": "주문의 마나 소모의 (10-20)%가 생명력 소모로 전환",
+                "tw": "(10-20)%法術魔力消耗轉換為生命消耗",
+                "ru": "(10-20)% стоимости чар в мане берется из здоровья",
+                "jp": "スペルのマナコストの(10-20)%がライフコストに変換される"
+              }
+            }
+          ]
+        },
+        {
+          "id": "AbyssModFourCatKurgalSuffixManaCostEfficiency",
+          "affixType": "suffix",
+          "tier": 65,
+          "valueRanges": [
+            [
+              6,
+              10
+            ]
+          ],
+          "name": {
+            "en": "of Kurgal",
+            "kr": "- 쿠르갈",
+            "tw": "柯戈之",
+            "ru": "Каргала",
+            "jp": "クルガルの"
+          },
+          "effect": {
+            "en": "(6-10)% increased Mana Cost Efficiency",
+            "kr": "마나 소모 효율 (6-10)% 증가",
+            "tw": "增加(6-10)%魔力消耗效率",
+            "ru": "(6-10)% увеличение эффективности расхода маны",
+            "jp": "マナコスト効率が(6-10)%増加する"
+          },
+          "group": [
+            "ManaCostEfficiency"
+          ],
+          "weight": 1,
+          "stats": [
+            {
+              "stats": [
+                {
+                  "stat": "base_mana_cost_efficiency_+%",
+                  "valueRange": [
+                    6,
+                    10
+                  ]
+                }
+              ],
+              "value": "6~10",
+              "text": {
+                "en": "(6-10)% increased Mana Cost Efficiency",
+                "kr": "마나 소모 효율 (6-10)% 증가",
+                "tw": "增加(6-10)%魔力消耗效率",
+                "ru": "(6-10)% увеличение эффективности расхода маны",
+                "jp": "マナコスト効率が(6-10)%増加する"
+              }
+            }
+          ]
+        }
+      ]
     },
     "unique": {
       "prefix": [
@@ -8088,7 +10604,7 @@
             "jp": "最大マナ (80-100)"
           },
           "group": [
-            1
+            "IncreasedMana"
           ],
           "weight": 1,
           "stats": [
@@ -8138,7 +10654,7 @@
             "jp": "混沌耐性 (10-13)%"
           },
           "group": [
-            94
+            "ChaosResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8188,7 +10704,7 @@
             "jp": "冷気耐性 (15-20)%"
           },
           "group": [
-            50
+            "ColdResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8238,7 +10754,7 @@
             "jp": "器用さ (14-16)"
           },
           "group": [
-            148
+            "Dexterity"
           ],
           "weight": 1,
           "stats": [
@@ -8288,7 +10804,7 @@
             "jp": "火耐性 (15-20)%"
           },
           "group": [
-            49
+            "FireResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8338,7 +10854,7 @@
             "jp": "知性 (14-16)"
           },
           "group": [
-            149
+            "Intelligence"
           ],
           "weight": 1,
           "stats": [
@@ -8388,7 +10904,7 @@
             "jp": "雷耐性 (15-20)%"
           },
           "group": [
-            51
+            "LightningResistance"
           ],
           "weight": 1,
           "stats": [
@@ -8438,7 +10954,7 @@
             "jp": "筋力 (14-16)"
           },
           "group": [
-            147
+            "Strength"
           ],
           "weight": 1,
           "stats": [
@@ -8488,7 +11004,7 @@
             "jp": "エナジーシールドが(40-60)%増加する"
           },
           "group": [
-            1239
+            "DefencesPercent"
           ],
           "weight": 1,
           "stats": [
@@ -8538,7 +11054,7 @@
             "jp": "要求能力値が(-50--30)%減少する"
           },
           "group": [
-            606
+            "LocalAttributeRequirements"
           ],
           "weight": 1,
           "stats": [
@@ -8588,7 +11104,7 @@
             "jp": "スペルダメージが(60-90)%増加する"
           },
           "group": [
-            2623
+            "WeaponCasterDamagePrefix"
           ],
           "weight": 1,
           "stats": [
