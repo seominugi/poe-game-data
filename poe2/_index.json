@@ -1059,7 +1059,7 @@
       }
     }
   },
-  "snapshot": "v2026.09.16.9",
+  "snapshot": "v2026.09.16.10",
   "skills": {
     "jsonPath": "skills/json/ActiveSkills.json",
     "count": 808
@@ -1082,12 +1082,11 @@
         "ru": "Самоцветы Бездны",
         "jp": "アビスジュエル"
       },
-      "prefixCount": 126,
+      "prefixCount": 11,
       "suffixCount": 0,
-      "totalCount": 126,
+      "totalCount": 11,
       "buckets": [
-        "corrupted",
-        "unique"
+        "corrupted"
       ]
     },
     "Amulet": {
@@ -1384,14 +1383,13 @@
         "ru": "Самоцветы",
         "jp": "ジュエル"
       },
-      "prefixCount": 303,
+      "prefixCount": 188,
       "suffixCount": 187,
-      "totalCount": 490,
+      "totalCount": 375,
       "buckets": [
         "normal",
         "corrupted",
-        "desecrated",
-        "unique"
+        "desecrated"
       ]
     },
     "LifeFlask": {
@@ -1680,6 +1678,23 @@
         "alloy",
         "desecrated",
         "augment_destruction",
+        "unique"
+      ]
+    },
+    "TowerAugmentation": {
+      "jsonPath": "modifiers/json/TowerAugmentation.json",
+      "className": {
+        "en": "Tablet",
+        "kr": "서판",
+        "tw": "碑牌",
+        "ru": "Плитки",
+        "jp": "石板"
+      },
+      "prefixCount": 14,
+      "suffixCount": 73,
+      "totalCount": 87,
+      "buckets": [
+        "normal",
         "unique"
       ]
     },
