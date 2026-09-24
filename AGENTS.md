@@ -1,6 +1,8 @@
-# poe-game-data — CLAUDE.md
+# poe-game-data — AGENTS.md
 
-전역 지침(`~/.claude/CLAUDE.md`)을 따른다. 본 문서는 프로젝트 특화 최소 선언만 담는다 (2026-07-07 생성, 작업 축적 시 보강).
+> **이 파일이 유일한 프로젝트 지침이다** (Claude Code·Codex 공통, 2026-09-24 `CLAUDE.md` 에서 옮김 — 그 전까지 Codex 는 이 지침을 읽지 못했다). Claude Code(2.1.277+)는 저장소에 `CLAUDE.md` 가 없으면 이 파일을 읽는다 — **`CLAUDE.md` 를 다시 만들지 않는다.**
+
+전역 지침(공통 정본 `D:/github/dev-ref-docs/agent-instructions/AGENTS.md`)을 따른다. 본 문서는 프로젝트 특화 최소 선언만 담는다 (2026-07-07 생성, 작업 축적 시 보강).
 
 ## 브랜치 전략 (BLOCKING)
 
