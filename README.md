@@ -8,14 +8,14 @@ GGPK 원본에서 추출한 **Path of Exile 게임 데이터(JSON)**. 게임 버
 ```
 _index.json            # { schemaVersion, games, generatedAt, snapshot }
 poe2/
-  _index.json          # { gamePatch, langs, snapshot, imageStrategy, generated, groups/.../itemIcons }
+  _index.json          # { gamePatch, langs, snapshot, ggpkIndexSha256, imageStrategy, generated, groups/.../itemIcons }
   assets/item-icons-manifest.json   # base item -> visual identity -> 로컬 원본 자산 해시 관계
   json/<group>/<class>/*.json   # 베이스 아이템 (5언어)
   skills/json/ActiveSkills.json
   uniques/json/uniques.json
   modifiers/json/<class>.json
 poe1/
-  _index.json          # { gamePatch, langs, snapshot, imageStrategy, generated, groups/skills/uniques/modifiers }
+  _index.json          # { gamePatch, langs, snapshot, ggpkIndexSha256, imageStrategy, generated, groups/skills/uniques/modifiers }
   json/<group>/<class>/*.json   # 베이스 아이템 (5언어)
 <game>/names/<lang>.json        # 파생: 영문명 -> 표시명 사전 (kr/tw/ru/jp) — dict/ 와 같이 경로 규약
 poe1/mercenaries/*.json         # 용병 해시 -> 이름 사전 (poe1 전용) — 경로 규약

@@ -25,8 +25,10 @@
 머지하는 것만으로는 소비처에 아무 영향이 없다. 배포는 별도 태그 생성 시점에 일어난다.
 
 **태그는 손으로 붙이지 않는다** — poe-ggpk-extractor `npm run release:tag -- <tag>` 가 세
-`_index.json` snapshot 이 태그와 같은지 보고 붙인다. 개별 빌더(용병·이름 사전 등)가 여기에 직접 쓴
-변경도 `release:all --snapshot <새 태그>` 로 snapshot 을 다시 찍은 뒤 태그한다. `v2026.09.03` 은 이
+`_index.json` snapshot 이 태그와 같은지 보고 붙인다. 스냅샷은 `release:full` 로 만든다(아래 「하나의 기준
+데이터」) — 개별 빌더(용병·이름 사전 등)가 여기에 직접 쓴 변경을 `release:all` 로 다시 찍어 태그하면 그 생성기만
+새 판이 된다(2026-10-13 전까지의 방식). 태그 뒤 `npm run check:consumers -- --expect <tag>` 로 다섯 소비처가 모두
+따라왔는지 본다. `v2026.09.03` 은 이
 규칙 없이 붙어 snapshot 이 `v2026.08.30.1` 로 남은 태그다(2026-10-12 확인) — 소비자 lock 에 쓰지 않고,
 체크아웃이 이 태그에 있으면 사전 저장소·pricer 가 커밋 불일치 경고를 낸다.
 
@@ -47,6 +49,10 @@ README 「단일 snapshot과 소비자 레지스트리」: PoE1·PoE2 를 한 co
 - 스탯 설명은 poe-ggpk-extractor `extract-statdesc --all` 이 출처 표식(GGPK 색인 해시 + 파일별 해시)을 남기고,
   `build-stat-dict` 가 입력이 모두 그 표식과 같을 때만 보조 층(`{game}/stats-extra.json`)과 출처 기록
   (`{game}/stat-source.json`)을 쓴다. 다르면 아무것도 쓰기 전에 멈춘다.
+- **새 스냅샷은 poe-ggpk-extractor `npm run release:full` 로만 만든다**(2026-10-13). 두 게임의 추출·생성 42단계를
+  한 GGPK 에서 차례로 돌리고, GGPK 색인 해시를 단계마다 재확인하고, 이번 실행이 다시 쓰지 않은 옛 파일이 있으면 멈춘다.
+  결과의 게임별 `_index.json` 에 `ggpkIndexSha256` 이 남는다 — 이 값이 없거나 두 게임의 `stat-source.json` 과 다르면
+  하나의 기준 데이터가 아니다. 생성기 하나만 따로 돌려 여기에 쓰고 태그하지 않는다. 전체가 몇 분이다(10-13 실측 2분).
 - 결함은 소비처 층에서 손으로 덮기 전에 이 저장소의 원천(GGPK 재추출·빌더 규칙)에서 고칠 수 있는지 먼저 본다.
 
 ## 멀티 페르소나 도메인 (전역 §14)
