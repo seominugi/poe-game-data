@@ -34,6 +34,11 @@ const name = wands[0].name[locale] ?? wands[0].name.en   // uniques는 en/kr만 
 `_index.json.snapshot`과 jsDelivr의 `<tag>`는 같아야 한다. 한 게임의 생성·검증이 실패하면 데이터 교체,
 태그와 소비자 갱신을 모두 중단한다.
 
+태그는 poe-ggpk-extractor 의 `npm run release:tag -- <tag>` 로만 붙인다 — 세 `_index.json` 의
+snapshot 이 태그와 같은 커밋에만 붙는다. **`v2026.09.03` 은 이 규칙 이전에 손으로 붙은 태그라
+snapshot 이 `v2026.08.30.1` 로 남아 있다**(08.30.1 대비 `poe1/mercenaries` 3파일만 다르다). 태그는
+옮기지 않으므로 소비자 lock 에 쓰지 않는다 — 그 내용은 `v2026.09.15` 이후 태그에 들어 있다.
+
 ### PoE2 아이템 아이콘 매니페스트
 
 PoE2 전체 base item의 `metadataId`와 `visualIdentityId`, 원본 DDS, 정규화 PNG의 SHA-256 관계는
