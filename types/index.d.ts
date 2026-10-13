@@ -43,11 +43,6 @@ export interface GameIndex {
   snapshot: string;
   imageStrategy: 'none' | 'cdn' | 'bundled' | 'derived-features';
   generated: string;
-  /**
-   * 이 게임 데이터를 뽑은 GGPK(Bundles2/_.index.bin sha256). poe-ggpk-extractor release:full 이 넣는다 —
-   * 모든 파일이 이 한 추출에서 나왔다는 표식이다(v2026.10.13.1 부터). 같은 게임의 stat-source.json 과 같은 값이다.
-   */
-  ggpkIndexSha256?: string;
   groups: Record<string, Record<string, ClassEntry>>;
   // Optional — a game may ship base items only for now (e.g. poe1 currently omits these).
   skills?: FlatEntry;
