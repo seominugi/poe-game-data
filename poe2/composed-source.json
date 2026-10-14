@@ -1,0 +1,232 @@
+{
+  "game": "poe2",
+  "ggpkIndexSha256": "264d2f82280c156abf64069f76012fec9709848a14cb94cb4a08e7c4381addf9",
+  "gamePatch": "4.5.5.4.2",
+  "families": [
+    {
+      "handler": "passive_hash",
+      "names": {
+        "file": "poe2/passives.json",
+        "kinds": "notable·keystone·ascendancy·descendancy (개발용·숫자 이름 제외)",
+        "count": 1908
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "One Conquered Notable Passive Skill becomes {0}",
+            "kr": "점거된 주요 패시브 스킬 하나가 {0}(으)로 변경"
+          },
+          "stats": [
+            "local_historic_jewel_override_1_conquored_notable_to_passive_hash_1",
+            "local_historic_jewel_override_1_conquored_notable_to_passive_hash_2"
+          ],
+          "lines": 1900,
+          "alt": 0,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Passives in Radius of {} can be Allocated\\nwithout being connected to your tree",
+            "kr": "반경 {} 내 패시브 스킬이 트리와 연결되지 않아도 할당 가능"
+          },
+          "stats": [
+            "local_unique_jewel_disconnected_passives_can_be_allocated_around_keystone_hash"
+          ],
+          "lines": 1900,
+          "alt": 0,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Allocates {0}",
+            "kr": "할당 {0}"
+          },
+          "stats": [
+            "mod_granted_passive_hash",
+            "mod_granted_passive_hash_2",
+            "mod_granted_passive_hash_3",
+            "mod_granted_passive_hash_4",
+            "mod_granted_passive_hash_essence",
+            "unique_jewel_grants_notable_hash_1",
+            "unique_jewel_grants_notable_hash_2",
+            "unique_jewel_grants_notable_hash_3"
+          ],
+          "lines": 1900,
+          "alt": 0,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Allocates {0} if you have the matching modifier on Forbidden Flesh",
+            "kr": "금단의 살점에 일치하는 속성이 있을 경우 {0} 할당"
+          },
+          "stats": [
+            "unique_jewel_grants_notable_hash_part_1"
+          ],
+          "lines": 1900,
+          "alt": 0,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Allocates {0} if you have the matching modifier on Forbidden Flame",
+            "kr": "금단의 화염에 일치하는 속성이 있을 경우 {0} 할당"
+          },
+          "stats": [
+            "unique_jewel_grants_notable_hash_part_2"
+          ],
+          "lines": 1900,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 40
+    },
+    {
+      "handler": "specific_skill",
+      "names": {
+        "file": "poe2/skills/json/ActiveSkills.json + poe2/json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json + poe2/json/gems/Meta_Skill_Gem/Meta_Skill_Gem_base_types.json",
+        "count": 753
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "+{0} to Level of all {1} Skills",
+            "kr": "모든 {1} 스킬 레벨 +{0}"
+          },
+          "stats": [
+            "unique_jewel_specific_skill_level_+_level",
+            "unique_jewel_specific_skill_level_+_skill"
+          ],
+          "lines": 737,
+          "alt": 6,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "{0} to Level of all {1} Skills",
+            "kr": "모든 {1} 스킬 레벨 {0}"
+          },
+          "stats": [
+            "unique_jewel_specific_skill_level_+_level",
+            "unique_jewel_specific_skill_level_+_skill"
+          ],
+          "lines": 738,
+          "alt": 6,
+          "skipped": 0
+        }
+      ],
+      "variants": 18
+    },
+    {
+      "handler": "ClientStrings:ItemDisplayGrantedSkill",
+      "names": {
+        "file": "poe2/skills/json/ActiveSkills.json + poe2/json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json + poe2/json/gems/Meta_Skill_Gem/Meta_Skill_Gem_base_types.json",
+        "count": 753
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Grants Skill: Level {1} {0}",
+            "kr": "스킬 부여: {1}레벨 {0}"
+          },
+          "stats": [
+            "ClientStrings:ItemDisplayGrantedSkill"
+          ],
+          "lines": 738,
+          "alt": 6,
+          "skipped": 0
+        }
+      ],
+      "variants": 9
+    },
+    {
+      "handler": "ClientStrings:ItemDisplayGrantedSkillNoScaling",
+      "names": {
+        "file": "poe2/skills/json/ActiveSkills.json + poe2/json/gems/Active_Skill_Gem/Active_Skill_Gem_base_types.json + poe2/json/gems/Meta_Skill_Gem/Meta_Skill_Gem_base_types.json",
+        "count": 753
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Grants Skill: {0}",
+            "kr": "스킬 부여: {0}"
+          },
+          "stats": [
+            "ClientStrings:ItemDisplayGrantedSkillNoScaling"
+          ],
+          "lines": 738,
+          "alt": 6,
+          "skipped": 0
+        }
+      ],
+      "variants": 9
+    },
+    {
+      "handler": "GemName:Spectre: {0}",
+      "names": {
+        "file": "poe2/monsters.json",
+        "count": 982
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Spectre: {0}",
+            "kr": "망령: {0}"
+          },
+          "stats": [
+            "BaseItemTypes:Spectre: {0}"
+          ],
+          "lines": 981,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 1
+    },
+    {
+      "handler": "GemName:Companion: {0}",
+      "names": {
+        "file": "poe2/monsters.json",
+        "count": 982
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Companion: {0}",
+            "kr": "반려수: {0}"
+          },
+          "stats": [
+            "BaseItemTypes:Companion: {0}"
+          ],
+          "lines": 981,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 1
+    },
+    {
+      "handler": "GemName:Soul Crystal: {0}",
+      "names": {
+        "file": "poe2/monsters.json",
+        "count": 982
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Soul Crystal: {0}",
+            "kr": "영혼 수정: {0}"
+          },
+          "stats": [
+            "BaseItemTypes:Soul Crystal: {0}"
+          ],
+          "lines": 981,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 1
+    }
+  ]
+}

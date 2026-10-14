@@ -1,0 +1,5913 @@
+{
+  "game": "poe2",
+  "gamePatch": "4.5.5.4.2",
+  "langs": [
+    "en",
+    "kr"
+  ],
+  "source": "GGPK MonsterVarieties (poe-ggpk-extractor: node ggpk-extract.mjs monsters && node build-monster-names.mjs)",
+  "choiceRule": "같은 영문에 한글이 둘 이상: 가장 많은 행의 한글 → 표 순서(미번역 행 제외)",
+  "choices": [
+    {
+      "en": "Courtesan",
+      "kept": "매춘부",
+      "dropped": {
+        "코르티잔": 1
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "name": {
+        "en": "Abyss Fish",
+        "kr": "심연 물고기"
+      }
+    },
+    {
+      "name": {
+        "en": "Abyssal Apparition",
+        "kr": "심연의 유령"
+      }
+    },
+    {
+      "name": {
+        "en": "Abyssal Shambler",
+        "kr": "심연의 도축자"
+      }
+    },
+    {
+      "name": {
+        "en": "Abyssal Strangler",
+        "kr": "심연의 교살자"
+      }
+    },
+    {
+      "name": {
+        "en": "Abyssal Walker",
+        "kr": "심연의 보행자"
+      }
+    },
+    {
+      "name": {
+        "en": "Adelina, Guardian of the Pearl",
+        "kr": "진주의 수호자 아델리나"
+      }
+    },
+    {
+      "name": {
+        "en": "Adorned Beetle",
+        "kr": "치장된 딱정벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Adorned Miscreation",
+        "kr": "치장된 기형물"
+      }
+    },
+    {
+      "name": {
+        "en": "Adorned Scarab",
+        "kr": "치장된 갑충석"
+      }
+    },
+    {
+      "name": {
+        "en": "Adrienne, the Malignant Rose",
+        "kr": "악의 어린 장미 아드리엔"
+      }
+    },
+    {
+      "name": {
+        "en": "Affliction Totem",
+        "kr": "고난 토템"
+      }
+    },
+    {
+      "name": {
+        "en": "Ailith",
+        "kr": "아일리트"
+      }
+    },
+    {
+      "name": {
+        "en": "Akthi, the Final Sting",
+        "kr": "마지막 독침 아크티"
+      }
+    },
+    {
+      "name": {
+        "en": "Albino Rhoa",
+        "kr": "흰 로아"
+      }
+    },
+    {
+      "name": {
+        "en": "Alpha Primate",
+        "kr": "우두머리 영장류"
+      }
+    },
+    {
+      "name": {
+        "en": "Alva",
+        "kr": "알바"
+      }
+    },
+    {
+      "name": {
+        "en": "Amphibious Prowler",
+        "kr": "양서류 배회자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Archer",
+        "kr": "선대의 궁수"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Channeler",
+        "kr": "선대의 주문사"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Guardian",
+        "kr": "선대의 수호자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Headtaker",
+        "kr": "선대의 처형인"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Hornbearer",
+        "kr": "선대의 뿔운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Jade Hulk",
+        "kr": "선대의 비취 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Jadecaster",
+        "kr": "선대의 비취시전자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Mask",
+        "kr": "선대의 가면"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Spirit Turtle",
+        "kr": "선대의 혼백 거북이"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Warhorn",
+        "kr": "선대의 전쟁뿔"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Warrior",
+        "kr": "선대의 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancestral Warrior Spirit",
+        "kr": "선대의 전사 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Ancient Ezomyte",
+        "kr": "고대 에조미어인"
+      }
+    },
+    {
+      "name": {
+        "en": "Ange",
+        "kr": "앤지"
+      }
+    },
+    {
+      "name": {
+        "en": "Angler Maw",
+        "kr": "낚시꾼 큰턱"
+      }
+    },
+    {
+      "name": {
+        "en": "Animated Weapon",
+        "kr": "기동된 무기"
+      }
+    },
+    {
+      "name": {
+        "en": "Antlion Charger",
+        "kr": "개미귀신 돌격자"
+      }
+    },
+    {
+      "name": {
+        "en": "Anub, the Pinata",
+        "kr": "피냐타 아눕"
+      }
+    },
+    {
+      "name": {
+        "en": "Anundr, the Sandworm",
+        "kr": "모래벌레 아눈드르"
+      }
+    },
+    {
+      "name": {
+        "en": "Apparition Orb",
+        "kr": "유령 구슬"
+      }
+    },
+    {
+      "name": {
+        "en": "Archer Transcendent",
+        "kr": "궁수 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ardura Homeguard",
+        "kr": "아르듀라 의용병"
+      }
+    },
+    {
+      "name": {
+        "en": "Areagne, Forgotten Witch",
+        "kr": "잊혀진 마녀 아리아그네"
+      }
+    },
+    {
+      "name": {
+        "en": "Armoured Parasite",
+        "kr": "장갑을 두른 기생충"
+      }
+    },
+    {
+      "name": {
+        "en": "Armoured Rhex",
+        "kr": "장갑을 두른 렉스"
+      }
+    },
+    {
+      "name": {
+        "en": "Artillery Squad",
+        "kr": "포병대"
+      }
+    },
+    {
+      "name": {
+        "en": "Ashar, the Sand Mother",
+        "kr": "모래 어미 아샤르"
+      }
+    },
+    {
+      "name": {
+        "en": "Ashen Arachnid",
+        "kr": "잿빛 거미류"
+      }
+    },
+    {
+      "name": {
+        "en": "Asinia, the Praetor's Consort",
+        "kr": "집정관의 배우자 아시니아"
+      }
+    },
+    {
+      "name": {
+        "en": "Aspect of Divinity",
+        "kr": "신성의 위상"
+      }
+    },
+    {
+      "name": {
+        "en": "Atziri, the Fell Serpent",
+        "kr": "타락한 독사 앗지리"
+      }
+    },
+    {
+      "name": {
+        "en": "Atziri, the Red Queen",
+        "kr": "붉은 여왕 앗지리"
+      }
+    },
+    {
+      "name": {
+        "en": "Aurelian, the Grand Adjudicator",
+        "kr": "대재판관 아우렐리안"
+      }
+    },
+    {
+      "name": {
+        "en": "Avelyne, the Withered Rose",
+        "kr": "말라버린 장미 아벨린"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Brute",
+        "kr": "아자크 냉혈한"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Fledgling",
+        "kr": "아자크 풋내기"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Fleshstabber",
+        "kr": "아자크 살점자객"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Mauler",
+        "kr": "아자크 망치꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Mongrelmaster",
+        "kr": "아자크 잡종개지배자"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Shaman",
+        "kr": "아자크 주술사"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Spearthrower",
+        "kr": "아자크 창투척자"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Stalker",
+        "kr": "아자크 추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Throatcutter",
+        "kr": "아자크 목절단자"
+      }
+    },
+    {
+      "name": {
+        "en": "Azak Torchbearer",
+        "kr": "아자크 횃불운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Azarian, the Forsaken Son",
+        "kr": "버림받은 아들 아자리안"
+      }
+    },
+    {
+      "name": {
+        "en": "Azmadi, the Faridun Prince",
+        "kr": "파리둔 왕자 아즈마디"
+      }
+    },
+    {
+      "name": {
+        "en": "Azmerian Wolf",
+        "kr": "아즈메리 늑대"
+      }
+    },
+    {
+      "name": {
+        "en": "Bahlak, the Sky Seer",
+        "kr": "하늘 예견자 발라크"
+      }
+    },
+    {
+      "name": {
+        "en": "Balbala, the Traitor",
+        "kr": "배반자 발바라"
+      }
+    },
+    {
+      "name": {
+        "en": "Bane Sapling",
+        "kr": "파멸 어린나무"
+      }
+    },
+    {
+      "name": {
+        "en": "Bannerbearing Zealot",
+        "kr": "기수 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bearer of Penitence",
+        "kr": "참회의 운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Beira of the Rotten Pack",
+        "kr": "썩은 무리의 베이라"
+      }
+    },
+    {
+      "name": {
+        "en": "Benedictus, First Herald of Utopia",
+        "kr": "유토피아의 첫 번째 전령, 베네딕투스"
+      }
+    },
+    {
+      "name": {
+        "en": "Bewitching Serpent",
+        "kr": "매혹하는 독사"
+      }
+    },
+    {
+      "name": {
+        "en": "Bitter Core",
+        "kr": "원통한 핵"
+      }
+    },
+    {
+      "name": {
+        "en": "Black Scythe Arbalest",
+        "kr": "검은 낫 석궁병"
+      }
+    },
+    {
+      "name": {
+        "en": "Black Scythe Mercenary",
+        "kr": "검은 낫 용병"
+      }
+    },
+    {
+      "name": {
+        "en": "Black Strider",
+        "kr": "검은 질주자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackbark Demolisher",
+        "kr": "검은껍질 철거자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackblood Remnant",
+        "kr": "검은피 잔류물"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackblood Rune",
+        "kr": "검은피 룬"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackblooded Blisterboil",
+        "kr": "검은 피의 고름물집"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackblooded Cretin",
+        "kr": "검은 피의 백치"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackblooded Elite",
+        "kr": "검은 피의 정예병"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackblooded Proboscite",
+        "kr": "검은 피의 주둥이충"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackblooded Tarhulk",
+        "kr": "검은 피의 타르거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Blackjaw, the Remnant",
+        "kr": "잔류하는 검은턱"
+      }
+    },
+    {
+      "name": {
+        "en": "Bladelash Transcendent",
+        "kr": "칼날채찍 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blasting Transcendent",
+        "kr": "폭발하는 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blightstalker",
+        "kr": "역병추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloated Anchorman",
+        "kr": "불어 터진 진행자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood Carrier",
+        "kr": "피 운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood Collector",
+        "kr": "피 수집가"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood Cretin",
+        "kr": "피 백치"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood Elemental",
+        "kr": "피의 정령"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood Priest",
+        "kr": "피의 사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood Priestess",
+        "kr": "피의 여사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood Zealot",
+        "kr": "피의 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Arsonist",
+        "kr": "피의 열병에 걸린 방화범"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Axeman",
+        "kr": "피의 열병에 걸린 도끼병"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Brew-breather",
+        "kr": "피의 열병에 걸린 술숨결"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Hookman",
+        "kr": "피의 열병에 걸린 갈고리병"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Maceman",
+        "kr": "피의 열병에 걸린 철퇴병"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Plaguespreader",
+        "kr": "피의 열병에 걸린 역병전파자"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Pustule",
+        "kr": "피의 열병에 걸린 농포"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Spearman",
+        "kr": "피의 열병에 걸린 창병"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Tuskbeast",
+        "kr": "피의 열병에 걸린 엄니야수"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Warrior",
+        "kr": "피의 열병에 걸린 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Blood-fevered Wisewoman",
+        "kr": "피의 열병에 걸린 현자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloodbilge",
+        "kr": "피구정물"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloodgulp",
+        "kr": "피 삼키는 자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloodrite Guard",
+        "kr": "피의식 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloodrite Priest",
+        "kr": "피의식 사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloodshaped Volatile",
+        "kr": "피로 빚은 폭발물"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloodthief Queen",
+        "kr": "피도둑 여왕"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloodthief Wasp",
+        "kr": "피도둑 말벌"
+      }
+    },
+    {
+      "name": {
+        "en": "Bloom Serpent",
+        "kr": "꽃 독사"
+      }
+    },
+    {
+      "name": {
+        "en": "Bog Hulk",
+        "kr": "습지대 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Bogfelled Commoner",
+        "kr": "습지대에 쓰러진 평민"
+      }
+    },
+    {
+      "name": {
+        "en": "Bogfelled Slave",
+        "kr": "습지대에 쓰러진 노예"
+      }
+    },
+    {
+      "name": {
+        "en": "Bone Crawler",
+        "kr": "뼈 포복자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bone Stalker",
+        "kr": "뼈 추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bone Wall",
+        "kr": "뼈 방벽"
+      }
+    },
+    {
+      "name": {
+        "en": "Boring",
+        "kr": "지루함"
+      }
+    },
+    {
+      "name": {
+        "en": "Boulder Ant",
+        "kr": "바위 개미"
+      }
+    },
+    {
+      "name": {
+        "en": "Brakka, the Withered Crone",
+        "kr": "말라버린 노파 브라카"
+      }
+    },
+    {
+      "name": {
+        "en": "Brakkus, the Juggernaut",
+        "kr": "거수 브라쿠스"
+      }
+    },
+    {
+      "name": {
+        "en": "Bramble Ape",
+        "kr": "가시나무 유인원"
+      }
+    },
+    {
+      "name": {
+        "en": "Bramble Burrower",
+        "kr": "가시나무 굴착자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bramble Hulk",
+        "kr": "가시나무 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Bramble Rhoa",
+        "kr": "가시나무 로아"
+      }
+    },
+    {
+      "name": {
+        "en": "Brimstone Crab",
+        "kr": "유황 게"
+      }
+    },
+    {
+      "name": {
+        "en": "Brine Maiden",
+        "kr": "염수 처녀"
+      }
+    },
+    {
+      "name": {
+        "en": "Bronnach, the Manhunter",
+        "kr": "인간사냥꾼 브로나크"
+      }
+    },
+    {
+      "name": {
+        "en": "Brughor, the Insatiable",
+        "kr": "만족을 모르는 자 브루고"
+      }
+    },
+    {
+      "name": {
+        "en": "Brutal Transcendent",
+        "kr": "잔인한 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Bulbous Maw",
+        "kr": "볼록한 큰턱"
+      }
+    },
+    {
+      "name": {
+        "en": "Burdened Wretch",
+        "kr": "짐스러운 철면피"
+      }
+    },
+    {
+      "name": {
+        "en": "Burning Dead",
+        "kr": "불타는 시체"
+      }
+    },
+    {
+      "name": {
+        "en": "Cackling Companion",
+        "kr": "하이에나 반려수"
+      }
+    },
+    {
+      "name": {
+        "en": "Caedron, the Hyena Lord",
+        "kr": "하이에나 군주 캐드론"
+      }
+    },
+    {
+      "name": {
+        "en": "Calum, Weeping Child",
+        "kr": "흐느끼는 아이 케일럼"
+      }
+    },
+    {
+      "name": {
+        "en": "Candlemass, the Living Rite",
+        "kr": "살아있는 의례 양초덩어리"
+      }
+    },
+    {
+      "name": {
+        "en": "Cannon Transcendent",
+        "kr": "대포 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Captain Hartlin",
+        "kr": "하틀린 선장"
+      }
+    },
+    {
+      "name": {
+        "en": "Captive Stoneback Rhoa",
+        "kr": "사로잡힌 돌배후 로아"
+      }
+    },
+    {
+      "name": {
+        "en": "Captured Soul",
+        "kr": "포획한 영혼"
+      }
+    },
+    {
+      "name": {
+        "en": "Carrion Gull",
+        "kr": "부패하는 갈매기"
+      }
+    },
+    {
+      "name": {
+        "en": "Carrion Reaper",
+        "kr": "부패하는 수확자"
+      }
+    },
+    {
+      "name": {
+        "en": "Cart Wheel",
+        "kr": "수레 바퀴"
+      }
+    },
+    {
+      "name": {
+        "en": "Caustic Crab",
+        "kr": "부식성 게"
+      }
+    },
+    {
+      "name": {
+        "en": "Cecaelian Angler",
+        "kr": "세칼리안 낚시꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Cecaelian Crab",
+        "kr": "세칼리안 게"
+      }
+    },
+    {
+      "name": {
+        "en": "Cecaelian Ravager",
+        "kr": "세칼리안 유린자"
+      }
+    },
+    {
+      "name": {
+        "en": "Censer",
+        "kr": "향로"
+      }
+    },
+    {
+      "name": {
+        "en": "Cerberic Bat",
+        "kr": "케르베로스 박쥐"
+      }
+    },
+    {
+      "name": {
+        "en": "Chameleon Drake",
+        "kr": "카멜레온 비룡"
+      }
+    },
+    {
+      "name": {
+        "en": "Chaos Zealot",
+        "kr": "혼돈 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Chaotic Zealot",
+        "kr": "혼돈의 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Chaw Mongrel",
+        "kr": "차우 잡종견"
+      }
+    },
+    {
+      "name": {
+        "en": "Chetza, the Feathered Plague",
+        "kr": "깃털 달린 재앙 체차"
+      }
+    },
+    {
+      "name": {
+        "en": "Chilling Volatile Verisium",
+        "kr": "오싹한 폭발성 베리시움"
+      }
+    },
+    {
+      "name": {
+        "en": "Chyme Skitterer",
+        "kr": "미즙 잽싼거미"
+      }
+    },
+    {
+      "name": {
+        "en": "Ciara, the Curse Weaver",
+        "kr": "저주를 엮는 자 시아라"
+      }
+    },
+    {
+      "name": {
+        "en": "Cinderback Crab",
+        "kr": "재투성이등 게"
+      }
+    },
+    {
+      "name": {
+        "en": "Clawcrunch",
+        "kr": "집게분쇄자"
+      }
+    },
+    {
+      "name": {
+        "en": "Clone",
+        "kr": "분신"
+      }
+    },
+    {
+      "name": {
+        "en": "Coconut Crab",
+        "kr": "야자게"
+      }
+    },
+    {
+      "name": {
+        "en": "Colm, the Rancorous",
+        "kr": "앙심을 품은 자 콜름"
+      }
+    },
+    {
+      "name": {
+        "en": "Connal, the Tormented",
+        "kr": "고통받는 자 코날"
+      }
+    },
+    {
+      "name": {
+        "en": "Constricted Shambler",
+        "kr": "수축된 도축자"
+      }
+    },
+    {
+      "name": {
+        "en": "Constricted Spitter",
+        "kr": "수축된 뱉는 자"
+      }
+    },
+    {
+      "name": {
+        "en": "Constructed Monkey",
+        "kr": "만들어진 원숭이"
+      }
+    },
+    {
+      "name": {
+        "en": "Constructed Monkey Head",
+        "kr": "만들어진 원숭이 머리"
+      }
+    },
+    {
+      "name": {
+        "en": "Coral-crowned Skeleton",
+        "kr": "산호왕관 해골"
+      }
+    },
+    {
+      "name": {
+        "en": "Corpse Beetle",
+        "kr": "시신 딱정벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Corrupted Abomination",
+        "kr": "타락한 흉물"
+      }
+    },
+    {
+      "name": {
+        "en": "Corrupted Corpse",
+        "kr": "타락한 시신"
+      }
+    },
+    {
+      "name": {
+        "en": "Count Geonor",
+        "kr": "지오너 백작"
+      }
+    },
+    {
+      "name": {
+        "en": "Court Werewolf",
+        "kr": "궁정 늑대인간"
+      }
+    },
+    {
+      "name": {
+        "en": "Courtesan",
+        "kr": "매춘부"
+      }
+    },
+    {
+      "name": {
+        "en": "Coztic, the Forgehand",
+        "kr": "대장간의 손 코즈틱"
+      }
+    },
+    {
+      "name": {
+        "en": "Crag Leaper",
+        "kr": "바위 뜀박이"
+      }
+    },
+    {
+      "name": {
+        "en": "Crawler Sentinel",
+        "kr": "포복자 파수꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Crazed Guard",
+        "kr": "미쳐버린 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Creeping Fire",
+        "kr": "번지는 불"
+      }
+    },
+    {
+      "name": {
+        "en": "Crested Behemoth",
+        "kr": "벼슬 거대괴수"
+      }
+    },
+    {
+      "name": {
+        "en": "Crone's Curse",
+        "kr": "노파의 저주"
+      }
+    },
+    {
+      "name": {
+        "en": "Cualli, Kamasan Smith",
+        "kr": "카마사의 대장장이 쿠알리"
+      }
+    },
+    {
+      "name": {
+        "en": "Cultist Archer",
+        "kr": "광신자 궁수"
+      }
+    },
+    {
+      "name": {
+        "en": "Cultist Brute",
+        "kr": "광신자 냉혈한"
+      }
+    },
+    {
+      "name": {
+        "en": "Cultist Daggerdancer",
+        "kr": "광신자 단검춤꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Cultist Warrior",
+        "kr": "광신자 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Cultist Witch",
+        "kr": "광신자 마녀"
+      }
+    },
+    {
+      "name": {
+        "en": "Cultivated Grove",
+        "kr": "일군 숲"
+      }
+    },
+    {
+      "name": {
+        "en": "Cyclonic Construct",
+        "kr": "회오리바람 구조물"
+      }
+    },
+    {
+      "name": {
+        "en": "Cyclonic Construct Arms",
+        "kr": "회오리바람 구조물 팔"
+      }
+    },
+    {
+      "name": {
+        "en": "Daemon",
+        "kr": "다이몬"
+      }
+    },
+    {
+      "name": {
+        "en": "Dannig",
+        "kr": "대닉"
+      }
+    },
+    {
+      "name": {
+        "en": "Dark Consequence",
+        "kr": "암울한 결과"
+      }
+    },
+    {
+      "name": {
+        "en": "Death Knight",
+        "kr": "죽음의 기사"
+      }
+    },
+    {
+      "name": {
+        "en": "Decrepit Mercenary",
+        "kr": "노후한 용병"
+      }
+    },
+    {
+      "name": {
+        "en": "Delwyn",
+        "kr": "델윈"
+      }
+    },
+    {
+      "name": {
+        "en": "Demon Beast",
+        "kr": "악마 야수"
+      }
+    },
+    {
+      "name": {
+        "en": "Demon Ghast",
+        "kr": "악마 망령"
+      }
+    },
+    {
+      "name": {
+        "en": "Demon Harpy",
+        "kr": "악마 하피"
+      }
+    },
+    {
+      "name": {
+        "en": "Demon Herder",
+        "kr": "악마 몰이꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Demon Imp",
+        "kr": "악마 임프"
+      }
+    },
+    {
+      "name": {
+        "en": "Demon Magus",
+        "kr": "악마 신관"
+      }
+    },
+    {
+      "name": {
+        "en": "Desert Hulk",
+        "kr": "사막 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Desiccated Lich",
+        "kr": "바싹 마른 리치"
+      }
+    },
+    {
+      "name": {
+        "en": "Desiccated Lich Summoner",
+        "kr": "바싹 마른 리치 소환사"
+      }
+    },
+    {
+      "name": {
+        "en": "Dezzic Bombardier",
+        "kr": "데직 포격수"
+      }
+    },
+    {
+      "name": {
+        "en": "Dezzic Burstbug",
+        "kr": "데직 격발벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Dezzic Nettler",
+        "kr": "데직 쐐기개미"
+      }
+    },
+    {
+      "name": {
+        "en": "Dezzic Soldier",
+        "kr": "데직 병사"
+      }
+    },
+    {
+      "name": {
+        "en": "Diamora, Song of Death",
+        "kr": "죽음의 노래 디아모라"
+      }
+    },
+    {
+      "name": {
+        "en": "Diretusk Boar",
+        "kr": "거대엄니 멧돼지"
+      }
+    },
+    {
+      "name": {
+        "en": "Disgust",
+        "kr": "혐오"
+      }
+    },
+    {
+      "name": {
+        "en": "Doran, the Deft",
+        "kr": "능수능란한 자 도란"
+      }
+    },
+    {
+      "name": {
+        "en": "Doryani",
+        "kr": "도리아니"
+      }
+    },
+    {
+      "name": {
+        "en": "Doryani, Royal Thaumaturge",
+        "kr": "왕실 마석학자 도리아니"
+      }
+    },
+    {
+      "name": {
+        "en": "Doryani's Elite",
+        "kr": "도리아니의 정예병"
+      }
+    },
+    {
+      "name": {
+        "en": "Doryani's Triumph",
+        "kr": "도리아니의 승리"
+      }
+    },
+    {
+      "name": {
+        "en": "Double",
+        "kr": "복제"
+      }
+    },
+    {
+      "name": {
+        "en": "Draven, the Eternal Praetor",
+        "kr": "영원의 집정관 드레이븐"
+      }
+    },
+    {
+      "name": {
+        "en": "Dread Servant",
+        "kr": "공포의 종복"
+      }
+    },
+    {
+      "name": {
+        "en": "Dredge Fiend",
+        "kr": "준설 마귀"
+      }
+    },
+    {
+      "name": {
+        "en": "Drowned",
+        "kr": "익사자"
+      }
+    },
+    {
+      "name": {
+        "en": "Drowned Bearer",
+        "kr": "익사한 운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Drowned Crawler",
+        "kr": "익사한 포복자"
+      }
+    },
+    {
+      "name": {
+        "en": "Drowned Explorer",
+        "kr": "익사한 탐험가"
+      }
+    },
+    {
+      "name": {
+        "en": "Drowned Spectre",
+        "kr": "익사한 망령"
+      }
+    },
+    {
+      "name": {
+        "en": "Drudge Osseodon",
+        "kr": "노역자 오세오돈"
+      }
+    },
+    {
+      "name": {
+        "en": "Druid of the Broken Circle",
+        "kr": "끊어진 원의 드루이드"
+      }
+    },
+    {
+      "name": {
+        "en": "Druidic Familiar",
+        "kr": "드루이드의 사역수"
+      }
+    },
+    {
+      "name": {
+        "en": "Drusian, the Artillerist",
+        "kr": "포병 드루시안"
+      }
+    },
+    {
+      "name": {
+        "en": "Dune Lurker",
+        "kr": "사구 잠복자"
+      }
+    },
+    {
+      "name": {
+        "en": "Eaten Rat",
+        "kr": "먹힌 쥐"
+      }
+    },
+    {
+      "name": {
+        "en": "Ekbab, Ancient Steed",
+        "kr": "고대의 군상 에크밥"
+      }
+    },
+    {
+      "name": {
+        "en": "Elephant Tortoise",
+        "kr": "코끼리 거북이"
+      }
+    },
+    {
+      "name": {
+        "en": "Elvara, the Savage Flame",
+        "kr": "야만의 불길 엘바라"
+      }
+    },
+    {
+      "name": {
+        "en": "Elzarah, the Cobra Lord",
+        "kr": "코브라 군주 엘자라"
+      }
+    },
+    {
+      "name": {
+        "en": "Emal",
+        "kr": "에말"
+      }
+    },
+    {
+      "name": {
+        "en": "Engulfing Volatile Verisium",
+        "kr": "에워싸는 폭발성 베리시움"
+      }
+    },
+    {
+      "name": {
+        "en": "Entrailhome Shambler",
+        "kr": "내장집 도축자"
+      }
+    },
+    {
+      "name": {
+        "en": "Entwined Hulk",
+        "kr": "뒤엉킨 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Essence of Horror",
+        "kr": "경악의 에센스"
+      }
+    },
+    {
+      "name": {
+        "en": "Eternal Guard",
+        "kr": "영원한 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Eternal Knight",
+        "kr": "영원의 기사"
+      }
+    },
+    {
+      "name": {
+        "en": "Eternal Prisoner",
+        "kr": "영원한 죄수"
+      }
+    },
+    {
+      "name": {
+        "en": "Eternal Torturer",
+        "kr": "영원한 고문자"
+      }
+    },
+    {
+      "name": {
+        "en": "Expanding Explodable Death Zone",
+        "kr": "확장하는 폭발성 죽음의 지역"
+      }
+    },
+    {
+      "name": {
+        "en": "Experimental Boar",
+        "kr": "실험적인 멧돼지"
+      }
+    },
+    {
+      "name": {
+        "en": "Experimental Cobra",
+        "kr": "실험적인 코브라"
+      }
+    },
+    {
+      "name": {
+        "en": "Experimental Primate",
+        "kr": "실험적인 영장류"
+      }
+    },
+    {
+      "name": {
+        "en": "Explosive Toad",
+        "kr": "폭발성 두꺼비"
+      }
+    },
+    {
+      "name": {
+        "en": "Faithful Archer",
+        "kr": "충실한 궁수"
+      }
+    },
+    {
+      "name": {
+        "en": "Faithful Warrior",
+        "kr": "충실한 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Fallen Quartermaster",
+        "kr": "몰락한 병참 담당"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Bladedancer",
+        "kr": "파리둔 검의 무희"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Butcher",
+        "kr": "파리둔 도살자"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Corpse Strider",
+        "kr": "파리둔 시신 질주자"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Crawler",
+        "kr": "파리둔 포복자"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Fledgling",
+        "kr": "파리둔 풋내기"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Heavy Infantry",
+        "kr": "파리둔 중보병"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Impaler",
+        "kr": "파리둔 창기병"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Infantry",
+        "kr": "파리둔 보병"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Javelineer",
+        "kr": "파리둔 투창병"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Neophyte",
+        "kr": "파리둔 신참"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Plaguebringer",
+        "kr": "파리둔 역병운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Spearman",
+        "kr": "파리둔 창병"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Spearwoman",
+        "kr": "파리둔 여창병"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Swordsman",
+        "kr": "파리둔 검사"
+      }
+    },
+    {
+      "name": {
+        "en": "Faridun Wind-slicer",
+        "kr": "파리둔 바람절단자"
+      }
+    },
+    {
+      "name": {
+        "en": "Farrow",
+        "kr": "패로우"
+      }
+    },
+    {
+      "name": {
+        "en": "Feral Bat",
+        "kr": "야생 박쥐"
+      }
+    },
+    {
+      "name": {
+        "en": "Feral Kin",
+        "kr": "야생 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Feral Primate",
+        "kr": "야생 영장류"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Grasper",
+        "kr": "족쇄에 묶인 장악자"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Hook",
+        "kr": "족쇄에 묶인 갈고리"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Monstrosity",
+        "kr": "족쇄에 묶인 괴수"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Scythe",
+        "kr": "족쇄에 묶인 낫"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Snake",
+        "kr": "족쇄에 묶인 뱀"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Spider",
+        "kr": "족쇄에 묶인 거미"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Thresher",
+        "kr": "족쇄에 묶인 도리깨"
+      }
+    },
+    {
+      "name": {
+        "en": "Fettered Writher",
+        "kr": "족쇄에 묶인 몸부림꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Fiery Zealot",
+        "kr": "불타는 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Filthy Crone",
+        "kr": "더러운 노파"
+      }
+    },
+    {
+      "name": {
+        "en": "Filthy First-born",
+        "kr": "더러운 맏이"
+      }
+    },
+    {
+      "name": {
+        "en": "Filthy Lobber",
+        "kr": "더러운 투척자"
+      }
+    },
+    {
+      "name": {
+        "en": "Firebreather",
+        "kr": "화염숨결"
+      }
+    },
+    {
+      "name": {
+        "en": "Flame Sentry",
+        "kr": "화염 보초"
+      }
+    },
+    {
+      "name": {
+        "en": "Flame Volatile",
+        "kr": "불길 휘발물"
+      }
+    },
+    {
+      "name": {
+        "en": "Flathead Clubber",
+        "kr": "납작머리 곤봉꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Flathead Warrior",
+        "kr": "납작머리 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Flathead Youngling",
+        "kr": "어린 납작머리"
+      }
+    },
+    {
+      "name": {
+        "en": "Flesh Bell",
+        "kr": "살점 종"
+      }
+    },
+    {
+      "name": {
+        "en": "Flesh Larva",
+        "kr": "살점 유생"
+      }
+    },
+    {
+      "name": {
+        "en": "Flesh Pup",
+        "kr": "살점 새끼"
+      }
+    },
+    {
+      "name": {
+        "en": "Fleshpierce",
+        "kr": "살점 관통자"
+      }
+    },
+    {
+      "name": {
+        "en": "Forael, the Soulkeeper",
+        "kr": "영혼지킴이 포라엘"
+      }
+    },
+    {
+      "name": {
+        "en": "Forgotten Brutaliser",
+        "kr": "잊혀진 잔혹한 자"
+      }
+    },
+    {
+      "name": {
+        "en": "Forgotten Cloven",
+        "kr": "잊혀진 발굽 달린 자"
+      }
+    },
+    {
+      "name": {
+        "en": "Forgotten Crawler",
+        "kr": "잊혀진 포복자"
+      }
+    },
+    {
+      "name": {
+        "en": "Forgotten Mauler",
+        "kr": "잊혀진 망치꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Forgotten Satyr",
+        "kr": "잊혀진 사티루스"
+      }
+    },
+    {
+      "name": {
+        "en": "Forgotten Stag",
+        "kr": "잊혀진 수사슴"
+      }
+    },
+    {
+      "name": {
+        "en": "Forgotten Stalker",
+        "kr": "잊혀진 추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Forsaken Hulk",
+        "kr": "버림받은 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Forsaken Miner",
+        "kr": "버림받은 광부"
+      }
+    },
+    {
+      "name": {
+        "en": "Foul Blacksmith",
+        "kr": "추악한 대장장이"
+      }
+    },
+    {
+      "name": {
+        "en": "Foul Eye",
+        "kr": "추악한 눈"
+      }
+    },
+    {
+      "name": {
+        "en": "Foul Mauler",
+        "kr": "추악한 망치꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Foul Sage",
+        "kr": "추악한 현자"
+      }
+    },
+    {
+      "name": {
+        "en": "Freya Hartlin",
+        "kr": "프레야 하틀린"
+      }
+    },
+    {
+      "name": {
+        "en": "Frost Wraith",
+        "kr": "서리 악령"
+      }
+    },
+    {
+      "name": {
+        "en": "Frozen Mandibles",
+        "kr": "얼어붙은 턱"
+      }
+    },
+    {
+      "name": {
+        "en": "Fungal Artillery",
+        "kr": "곰팡이 포병"
+      }
+    },
+    {
+      "name": {
+        "en": "Fungal Proliferator",
+        "kr": "곰팡이 확산자"
+      }
+    },
+    {
+      "name": {
+        "en": "Fungal Rattler",
+        "kr": "곰팡이 전율가"
+      }
+    },
+    {
+      "name": {
+        "en": "Fungal Reaver",
+        "kr": "곰팡이 강탈자"
+      }
+    },
+    {
+      "name": {
+        "en": "Fungal Wolf",
+        "kr": "곰팡이 늑대"
+      }
+    },
+    {
+      "name": {
+        "en": "Fungal Zombie",
+        "kr": "곰팡이 좀비"
+      }
+    },
+    {
+      "name": {
+        "en": "Fungoid of the Pit",
+        "kr": "구덩이의 진균종"
+      }
+    },
+    {
+      "name": {
+        "en": "Fury",
+        "kr": "광분"
+      }
+    },
+    {
+      "name": {
+        "en": "Fused Swordsman",
+        "kr": "융해된 검사"
+      }
+    },
+    {
+      "name": {
+        "en": "Gargantuan Larva",
+        "kr": "가르강튀아 유생"
+      }
+    },
+    {
+      "name": {
+        "en": "Gargantuan Wasp",
+        "kr": "가르강튀아 말벌"
+      }
+    },
+    {
+      "name": {
+        "en": "Gargoyle Demon",
+        "kr": "가고일 악마"
+      }
+    },
+    {
+      "name": {
+        "en": "Garkam, Ranbu's Maul",
+        "kr": "란부의 망치 가르캄"
+      }
+    },
+    {
+      "name": {
+        "en": "Gelid Zealot",
+        "kr": "극한의 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Gelida, the Frost-Tongue",
+        "kr": "서리혀 겔리다"
+      }
+    },
+    {
+      "name": {
+        "en": "Geonor, the Putrid Wolf",
+        "kr": "악취 나는 늑대 지오너"
+      }
+    },
+    {
+      "name": {
+        "en": "Ghastly Siren",
+        "kr": "무시무시한 사이렌"
+      }
+    },
+    {
+      "name": {
+        "en": "Ghost Cannon",
+        "kr": "유령 대포"
+      }
+    },
+    {
+      "name": {
+        "en": "Ghoul Commander",
+        "kr": "구울 지휘관"
+      }
+    },
+    {
+      "name": {
+        "en": "Giant Maw",
+        "kr": "거대 큰턱"
+      }
+    },
+    {
+      "name": {
+        "en": "Giant Ugly Toad",
+        "kr": "추악한 거대 두꺼비"
+      }
+    },
+    {
+      "name": {
+        "en": "Gilded Beetle",
+        "kr": "도금된 딱정벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Gilded Cobra",
+        "kr": "도금된 코브라"
+      }
+    },
+    {
+      "name": {
+        "en": "Godwin of the Shattered Creed",
+        "kr": "산산이 조각난 신념의 고드윈"
+      }
+    },
+    {
+      "name": {
+        "en": "Gold-melted Blacksmith",
+        "kr": "녹은 금 대장장이"
+      }
+    },
+    {
+      "name": {
+        "en": "Gold-melted Bonemass",
+        "kr": "녹은 금 뼈 덩어리"
+      }
+    },
+    {
+      "name": {
+        "en": "Gold-Melted Sentinel",
+        "kr": "녹은 금 파수꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Gold-Melted Shambler",
+        "kr": "녹은 금 도축자"
+      }
+    },
+    {
+      "name": {
+        "en": "Goliath",
+        "kr": "골리앗"
+      }
+    },
+    {
+      "name": {
+        "en": "Goliath Shrike",
+        "kr": "거인 때까치"
+      }
+    },
+    {
+      "name": {
+        "en": "Goliath Transcendent",
+        "kr": "골리앗 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Gorian, the Moving Earth",
+        "kr": "움직이는 대지 고리안"
+      }
+    },
+    {
+      "name": {
+        "en": "Gozen, Rebellious Rustlord",
+        "kr": "반란의 녹군주 고젠"
+      }
+    },
+    {
+      "name": {
+        "en": "Great White One",
+        "kr": "거대한 백색 괴수"
+      }
+    },
+    {
+      "name": {
+        "en": "Gressor-Kul, the Apex",
+        "kr": "정점의 그레소르쿨"
+      }
+    },
+    {
+      "name": {
+        "en": "Grudgelash, Vile Thorn",
+        "kr": "끔찍한 가시 그러지래시"
+      }
+    },
+    {
+      "name": {
+        "en": "Guardian Lizard",
+        "kr": "수호자 도마뱀"
+      }
+    },
+    {
+      "name": {
+        "en": "Guardian Turtle",
+        "kr": "수호자 거북이"
+      }
+    },
+    {
+      "name": {
+        "en": "Gull Shrike",
+        "kr": "갈매기 때까치"
+      }
+    },
+    {
+      "name": {
+        "en": "Gulzal, the Living Furnace",
+        "kr": "살아있는 용광로 굴잘"
+      }
+    },
+    {
+      "name": {
+        "en": "Gwendolyn Albright",
+        "kr": "그웬돌린 올브라이트"
+      }
+    },
+    {
+      "name": {
+        "en": "Gwennen",
+        "kr": "그위넨"
+      }
+    },
+    {
+      "name": {
+        "en": "Hadi of the Flaming River",
+        "kr": "불타는 강의 하디"
+      }
+    },
+    {
+      "name": {
+        "en": "Harano, the Meat Carver",
+        "kr": "고기 썰이 하라노"
+      }
+    },
+    {
+      "name": {
+        "en": "Hask, the Fallen Son",
+        "kr": "몰락한 아들 하스크"
+      }
+    },
+    {
+      "name": {
+        "en": "Hatchling",
+        "kr": "새끼거미"
+      }
+    },
+    {
+      "name": {
+        "en": "Heldra of the Black Pyre",
+        "kr": "검은 화염의 헬드라"
+      }
+    },
+    {
+      "name": {
+        "en": "Hesperia, the Arcane Tempest",
+        "kr": "비전 폭풍 헤스페리아"
+      }
+    },
+    {
+      "name": {
+        "en": "High Priest",
+        "kr": "고위 사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Hound of the Pit",
+        "kr": "구덩이의 사냥개"
+      }
+    },
+    {
+      "name": {
+        "en": "Huitzil, Royal Blood Priest",
+        "kr": "왕실 피의 사제 호이칠"
+      }
+    },
+    {
+      "name": {
+        "en": "Hunchback Clubber",
+        "kr": "곱사등 곤봉꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Hungering Stalker",
+        "kr": "허기진 추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Hungry Wolf",
+        "kr": "굶주린 늑대"
+      }
+    },
+    {
+      "name": {
+        "en": "Hunin, Storm Caller",
+        "kr": "폭풍 소환사 후닌"
+      }
+    },
+    {
+      "name": {
+        "en": "Hyena Demon",
+        "kr": "하이에나 악마"
+      }
+    },
+    {
+      "name": {
+        "en": "Ice Spike",
+        "kr": "얼음 가시"
+      }
+    },
+    {
+      "name": {
+        "en": "Ignagduk, the Bog Witch",
+        "kr": "습지대 마녀 이그나그두크"
+      }
+    },
+    {
+      "name": {
+        "en": "Ignatia, the Flame-Sworn",
+        "kr": "화염 서약의 이그나티아"
+      }
+    },
+    {
+      "name": {
+        "en": "Igrulog, the Incubator Queen",
+        "kr": "부화기 여왕 이그룰로그"
+      }
+    },
+    {
+      "name": {
+        "en": "Iktab, the Deathlord",
+        "kr": "죽음군주 이크탑"
+      }
+    },
+    {
+      "name": {
+        "en": "Ill-fated Explorer",
+        "kr": "불운의 탐험가"
+      }
+    },
+    {
+      "name": {
+        "en": "Imitation Triumph",
+        "kr": "승리의 모방"
+      }
+    },
+    {
+      "name": {
+        "en": "Impaled Mutineer",
+        "kr": "꿰뚫린 폭도"
+      }
+    },
+    {
+      "name": {
+        "en": "Incarnation of Death",
+        "kr": "죽음의 화신"
+      }
+    },
+    {
+      "name": {
+        "en": "Infernal Hound",
+        "kr": "지옥불 사냥개"
+      }
+    },
+    {
+      "name": {
+        "en": "Infested Anglerfish",
+        "kr": "감염된 아귀"
+      }
+    },
+    {
+      "name": {
+        "en": "Infested Cadaver",
+        "kr": "감염된 사체"
+      }
+    },
+    {
+      "name": {
+        "en": "Infested Manta",
+        "kr": "감염된 가오리"
+      }
+    },
+    {
+      "name": {
+        "en": "Infested Octopus",
+        "kr": "감염된 문어"
+      }
+    },
+    {
+      "name": {
+        "en": "Infested Turtle",
+        "kr": "감염된 거북이"
+      }
+    },
+    {
+      "name": {
+        "en": "Invisible",
+        "kr": "투명"
+      }
+    },
+    {
+      "name": {
+        "en": "Iron Enforcer",
+        "kr": "철 집행자"
+      }
+    },
+    {
+      "name": {
+        "en": "Iron Guard",
+        "kr": "철 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Iron Sharpshooter",
+        "kr": "철 저격수"
+      }
+    },
+    {
+      "name": {
+        "en": "Iron Spearman",
+        "kr": "철 창병"
+      }
+    },
+    {
+      "name": {
+        "en": "Iron Thaumaturgist",
+        "kr": "철 마석학자"
+      }
+    },
+    {
+      "name": {
+        "en": "Isabel, Mourning Wife",
+        "kr": "애도하는 아내 이사벨"
+      }
+    },
+    {
+      "name": {
+        "en": "Ishtaroth, the Perennial",
+        "kr": "영속의 이쉬타로트"
+      }
+    },
+    {
+      "name": {
+        "en": "Isolde of the White Shroud",
+        "kr": "하얀 수의의 이졸데"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Claws",
+        "kr": "할퀴는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Controls",
+        "kr": "통제하는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Crawls",
+        "kr": "기어다니는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Creeps",
+        "kr": "포복하는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Grasps",
+        "kr": "거머쥐는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Guards",
+        "kr": "지키는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Hates",
+        "kr": "증오하는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Hunts",
+        "kr": "사냥하는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Lashes",
+        "kr": "채찍질하는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Shreds",
+        "kr": "찢는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Stalks",
+        "kr": "뒤를 밟는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Suspects",
+        "kr": "의심하는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Was Esh",
+        "kr": "에쉬였던 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Was Tul",
+        "kr": "툴이었던 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "It That Watches",
+        "kr": "보는 그것"
+      }
+    },
+    {
+      "name": {
+        "en": "Izel, Atziri's Chosen",
+        "kr": "앗지리에게 선택받은 자 이젤"
+      }
+    },
+    {
+      "name": {
+        "en": "Jado",
+        "kr": "자도"
+      }
+    },
+    {
+      "name": {
+        "en": "Jaguar Familiar",
+        "kr": "재규어 사역수"
+      }
+    },
+    {
+      "name": {
+        "en": "Jamanra, the Abomination",
+        "kr": "흉물 자만라"
+      }
+    },
+    {
+      "name": {
+        "en": "Jamanra, the Risen King",
+        "kr": "일어난 왕 자만라"
+      }
+    },
+    {
+      "name": {
+        "en": "Kabala, Constrictor Queen",
+        "kr": "위압자 여왕 카발라"
+      }
+    },
+    {
+      "name": {
+        "en": "Karash, The Dune Dweller",
+        "kr": "사구 거주자 카라쉬"
+      }
+    },
+    {
+      "name": {
+        "en": "Kelari, the Tainted Sands",
+        "kr": "더럽혀진 사막 켈라리"
+      }
+    },
+    {
+      "name": {
+        "en": "Ketzuli, High Priest of the Sun",
+        "kr": "태양의 고위 사제 케출리"
+      }
+    },
+    {
+      "name": {
+        "en": "Kinarha",
+        "kr": "키나라"
+      }
+    },
+    {
+      "name": {
+        "en": "King's Attendant",
+        "kr": "왕의 수행원"
+      }
+    },
+    {
+      "name": {
+        "en": "Knight of the Sun",
+        "kr": "태양의 기사"
+      }
+    },
+    {
+      "name": {
+        "en": "Knight-Gaunt",
+        "kr": "수척한 기사"
+      }
+    },
+    {
+      "name": {
+        "en": "Kosis, The Revelation",
+        "kr": "계시자 코시스"
+      }
+    },
+    {
+      "name": {
+        "en": "Krell Fleshgouger",
+        "kr": "크렐 살점파개"
+      }
+    },
+    {
+      "name": {
+        "en": "Krell Skullcrawler",
+        "kr": "크렐 해골벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Krell Throatgnasher",
+        "kr": "크렐 목뜯이"
+      }
+    },
+    {
+      "name": {
+        "en": "Kreth Parasite",
+        "kr": "크레스 기생충"
+      }
+    },
+    {
+      "name": {
+        "en": "Krutog, Lord of Kin",
+        "kr": "혈족의 군주 크루톡"
+      }
+    },
+    {
+      "name": {
+        "en": "Kulka, Vaal Thaumaturge",
+        "kr": "바알 마석학자 쿨카"
+      }
+    },
+    {
+      "name": {
+        "en": "L'im the Impaler",
+        "kr": "꿰뚫는 자 림"
+      }
+    },
+    {
+      "name": {
+        "en": "Lachlann of Endless Lament",
+        "kr": "끝없는 한탄의 라클란"
+      }
+    },
+    {
+      "name": {
+        "en": "Lachlann, Ezomyte Rebel",
+        "kr": "에조미어 반란자 라클란"
+      }
+    },
+    {
+      "name": {
+        "en": "Lady Elswyth",
+        "kr": "여인 엘스위트"
+      }
+    },
+    {
+      "name": {
+        "en": "Left Weapon",
+        "kr": "왼쪽 무기"
+      }
+    },
+    {
+      "name": {
+        "en": "Lich Apparition",
+        "kr": "리치 유령"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightless Abomination",
+        "kr": "무광의 흉물"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightless Moray",
+        "kr": "무광의 곰치"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightless Rune",
+        "kr": "무광의 룬"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightless Serpent",
+        "kr": "무광의 독사"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightless Stalker",
+        "kr": "무광의 추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightless Vengewing",
+        "kr": "무광의 복수날개"
+      }
+    },
+    {
+      "name": {
+        "en": "Lightning Wraith",
+        "kr": "번개 악령"
+      }
+    },
+    {
+      "name": {
+        "en": "Living Crystal",
+        "kr": "살아있는 수정"
+      }
+    },
+    {
+      "name": {
+        "en": "Living Lightning",
+        "kr": "살아 있는 번개"
+      }
+    },
+    {
+      "name": {
+        "en": "Living Sand",
+        "kr": "살아있는 모래"
+      }
+    },
+    {
+      "name": {
+        "en": "Lord of the Pit",
+        "kr": "구덩이의 군주"
+      }
+    },
+    {
+      "name": {
+        "en": "Lost-men Brute",
+        "kr": "잊힌 사람들의 돌격병"
+      }
+    },
+    {
+      "name": {
+        "en": "Lost-men Necromancer",
+        "kr": "잊힌 사람들의 강령술사"
+      }
+    },
+    {
+      "name": {
+        "en": "Lost-men Subjugator",
+        "kr": "잊힌 사람들의 토벌자"
+      }
+    },
+    {
+      "name": {
+        "en": "Lost-men Zealot",
+        "kr": "잊힌 사람들의 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Loyal Jaguar",
+        "kr": "충신 재규어"
+      }
+    },
+    {
+      "name": {
+        "en": "Lumbering Dead",
+        "kr": "굼뜬 시체"
+      }
+    },
+    {
+      "name": {
+        "en": "Luminous Jellyfish",
+        "kr": "빛나는 해파리"
+      }
+    },
+    {
+      "name": {
+        "en": "Luminous Spinefish",
+        "kr": "빛나는 척추물고기"
+      }
+    },
+    {
+      "name": {
+        "en": "Lythara, the Wayward Spear",
+        "kr": "방황하는 창 라이타라"
+      }
+    },
+    {
+      "name": {
+        "en": "Magmanore, the Molten",
+        "kr": "녹아내린 자 마그마노어"
+      }
+    },
+    {
+      "name": {
+        "en": "Makoru",
+        "kr": "마코루"
+      }
+    },
+    {
+      "name": {
+        "en": "Malgor, the Nautilord",
+        "kr": "항해군주 말고르"
+      }
+    },
+    {
+      "name": {
+        "en": "Malice",
+        "kr": "적의"
+      }
+    },
+    {
+      "name": {
+        "en": "Man o' War",
+        "kr": "군함"
+      }
+    },
+    {
+      "name": {
+        "en": "Manassa, the Serpent Queen",
+        "kr": "독사의 여왕 마나사"
+      }
+    },
+    {
+      "name": {
+        "en": "Manifested Demon",
+        "kr": "나타난 악마"
+      }
+    },
+    {
+      "name": {
+        "en": "Manoki, the Chosen",
+        "kr": "선택받은 자 마노키"
+      }
+    },
+    {
+      "name": {
+        "en": "Manoki, the Defiled",
+        "kr": "더럽혀진 자 마노키"
+      }
+    },
+    {
+      "name": {
+        "en": "Manoki, the Fevered",
+        "kr": "흥분한 자 마노키"
+      }
+    },
+    {
+      "name": {
+        "en": "Manshrike",
+        "kr": "숫때까치"
+      }
+    },
+    {
+      "name": {
+        "en": "Mantis Rat",
+        "kr": "사마귀 쥐"
+      }
+    },
+    {
+      "name": {
+        "en": "Mar Acolyte",
+        "kr": "손상된 조수"
+      }
+    },
+    {
+      "name": {
+        "en": "Maraketh Undead",
+        "kr": "마라케스 언데드"
+      }
+    },
+    {
+      "name": {
+        "en": "Maw Demon",
+        "kr": "큰턱 악마"
+      }
+    },
+    {
+      "name": {
+        "en": "Maztli, Flesh-Shaper",
+        "kr": "육체 형성자 마즈틀리"
+      }
+    },
+    {
+      "name": {
+        "en": "Medved, the Fallen Seer",
+        "kr": "몰락한 예견자 메드베드"
+      }
+    },
+    {
+      "name": {
+        "en": "Mektul, the Forgemaster",
+        "kr": "제련 장인 메크툴"
+      }
+    },
+    {
+      "name": {
+        "en": "Meltwax, Mockery of Faith",
+        "kr": "신념의 조롱 멜트왁스"
+      }
+    },
+    {
+      "name": {
+        "en": "Menmek, Guardian Construct",
+        "kr": "수호 구조물 멘메크"
+      }
+    },
+    {
+      "name": {
+        "en": "Mercenary Companion",
+        "kr": "용병 동료"
+      }
+    },
+    {
+      "name": {
+        "en": "Micata, the Remade",
+        "kr": "다시 만들어진 미카타"
+      }
+    },
+    {
+      "name": {
+        "en": "Mighty Silverfist",
+        "kr": "강력한 은빛주먹"
+      }
+    },
+    {
+      "name": {
+        "en": "Mimbok, the Enslaved",
+        "kr": "노예 밈보크"
+      }
+    },
+    {
+      "name": {
+        "en": "Mirage",
+        "kr": "신기루"
+      }
+    },
+    {
+      "name": {
+        "en": "Mirage Saviour",
+        "kr": "신기루 구원자"
+      }
+    },
+    {
+      "name": {
+        "en": "Missionary Lorandis",
+        "kr": "선교사 로란디스"
+      }
+    },
+    {
+      "name": {
+        "en": "Mist Raven",
+        "kr": "연무의 큰까마귀"
+      }
+    },
+    {
+      "name": {
+        "en": "Molten Imp",
+        "kr": "녹아내린 임프"
+      }
+    },
+    {
+      "name": {
+        "en": "Moltenmettle",
+        "kr": "녹아내린 패기"
+      }
+    },
+    {
+      "name": {
+        "en": "Moray Clan",
+        "kr": "곰치 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Mortar Cannon",
+        "kr": "박격포 대포"
+      }
+    },
+    {
+      "name": {
+        "en": "Morvak, the Infernal",
+        "kr": "지옥불 모박"
+      }
+    },
+    {
+      "name": {
+        "en": "Morwyn, the Kinslayer",
+        "kr": "동족 학살자 모르윈"
+      }
+    },
+    {
+      "name": {
+        "en": "Mud Simulacrum",
+        "kr": "진흙 복제"
+      }
+    },
+    {
+      "name": {
+        "en": "Mugin, Frost Bringer",
+        "kr": "서리 인도자 무긴"
+      }
+    },
+    {
+      "name": {
+        "en": "Murtagh, the Engorged",
+        "kr": "부풀어오른 자 무르타그"
+      }
+    },
+    {
+      "name": {
+        "en": "Mystic Fetish",
+        "kr": "신비한 숭배물"
+      }
+    },
+    {
+      "name": {
+        "en": "Nameless Burrower",
+        "kr": "이름 없는 굴착자"
+      }
+    },
+    {
+      "name": {
+        "en": "Nameless Dweller",
+        "kr": "이름 없는 거주자"
+      }
+    },
+    {
+      "name": {
+        "en": "Nameless Horror",
+        "kr": "이름 없는 공포"
+      }
+    },
+    {
+      "name": {
+        "en": "Nameless Hulk",
+        "kr": "이름 없는 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Nameless Imp",
+        "kr": "이름 없는 임프"
+      }
+    },
+    {
+      "name": {
+        "en": "Nameless Lurker",
+        "kr": "이름 없는 잠복자"
+      }
+    },
+    {
+      "name": {
+        "en": "Nameless Vermin",
+        "kr": "이름 없는 역병동물"
+      }
+    },
+    {
+      "name": {
+        "en": "Narag of the Vile Word",
+        "kr": "추악한 말의 나라그"
+      }
+    },
+    {
+      "name": {
+        "en": "Navira, the Last Mirage",
+        "kr": "최후의 신기루 나비라"
+      }
+    },
+    {
+      "name": {
+        "en": "Nettle Ant",
+        "kr": "쐐기풀 개미"
+      }
+    },
+    {
+      "name": {
+        "en": "Ngamahu Ravager",
+        "kr": "나마후 유린자"
+      }
+    },
+    {
+      "name": {
+        "en": "Nisha, the Fierce",
+        "kr": "흉악한 니샤"
+      }
+    },
+    {
+      "name": {
+        "en": "Nyassa, the Flaming Hand",
+        "kr": "불을 뿜는 손 니아사"
+      }
+    },
+    {
+      "name": {
+        "en": "Nymph Wasp",
+        "kr": "님프 말벌"
+      }
+    },
+    {
+      "name": {
+        "en": "Offering Spike",
+        "kr": "공물 가시"
+      }
+    },
+    {
+      "name": {
+        "en": "Oloton, the Remorseless",
+        "kr": "가차 없는 자 올로톤"
+      }
+    },
+    {
+      "name": {
+        "en": "Olroth, Origin of the Fall",
+        "kr": "몰락의 기원 올로스"
+      }
+    },
+    {
+      "name": {
+        "en": "Omniphobia, Fear Manifest",
+        "kr": "두려움의 현신 옴니포비아"
+      }
+    },
+    {
+      "name": {
+        "en": "Omnitect",
+        "kr": "종합체"
+      }
+    },
+    {
+      "name": {
+        "en": "Order Ostiary",
+        "kr": "결사단 수문관"
+      }
+    },
+    {
+      "name": {
+        "en": "Orok Fleshstabber",
+        "kr": "오로크 살점자객"
+      }
+    },
+    {
+      "name": {
+        "en": "Orok Hunter",
+        "kr": "오로크 사냥꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Orok Shaman",
+        "kr": "오로크 주술사"
+      }
+    },
+    {
+      "name": {
+        "en": "Orok Throatcutter",
+        "kr": "오로크 목절단자"
+      }
+    },
+    {
+      "name": {
+        "en": "Oswald",
+        "kr": "오즈월드"
+      }
+    },
+    {
+      "name": {
+        "en": "Oswin, the Dread Warden",
+        "kr": "죽음의 간수 오스윈"
+      }
+    },
+    {
+      "name": {
+        "en": "Pack Werewolf",
+        "kr": "무리 늑대인간"
+      }
+    },
+    {
+      "name": {
+        "en": "Pakteni, Flesh Surgeon",
+        "kr": "살점 의사 파크테니"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Abductor",
+        "kr": "창백한 유괴범"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Angel",
+        "kr": "창백한 천사"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Brinesplitter",
+        "kr": "창백한 소금물 뱉는 자"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Cherubim",
+        "kr": "창백한 지천사"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Seraphim",
+        "kr": "창백한 치천사"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Servitor",
+        "kr": "창백한 종"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Tidecrasher",
+        "kr": "창백한 파도파괴자"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Virtue",
+        "kr": "창백한 미덕"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale Waterwalker",
+        "kr": "창백한 물보행자"
+      }
+    },
+    {
+      "name": {
+        "en": "Pale-stitched Stalker",
+        "kr": "창백한 봉합 추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Petulant Stonemaw",
+        "kr": "심술 부리는 돌아귀"
+      }
+    },
+    {
+      "name": {
+        "en": "Phanos, Last Disciple of Auria",
+        "kr": "아우리아의 마지막 신봉자 파노스"
+      }
+    },
+    {
+      "name": {
+        "en": "Phya, Sentinel of the Cradle",
+        "kr": "요람의 파수꾼 피아"
+      }
+    },
+    {
+      "name": {
+        "en": "Phyx Clone",
+        "kr": "픽스 분신"
+      }
+    },
+    {
+      "name": {
+        "en": "Phyx, Sentinel of the Spark",
+        "kr": "전기불꽃의 파수꾼 픽스"
+      }
+    },
+    {
+      "name": {
+        "en": "Pirasha, the Forgotten Prisoner",
+        "kr": "잊혀진 포로 피라샤"
+      }
+    },
+    {
+      "name": {
+        "en": "Pit Rune",
+        "kr": "구덩이 룬"
+      }
+    },
+    {
+      "name": {
+        "en": "Plague Harvester",
+        "kr": "역병 수확자"
+      }
+    },
+    {
+      "name": {
+        "en": "Plague Nymph",
+        "kr": "역병 님프"
+      }
+    },
+    {
+      "name": {
+        "en": "Plague Swarm",
+        "kr": "역병 무리"
+      }
+    },
+    {
+      "name": {
+        "en": "Plagueling",
+        "kr": "역병 새끼"
+      }
+    },
+    {
+      "name": {
+        "en": "Porcupine Crab",
+        "kr": "호저 게"
+      }
+    },
+    {
+      "name": {
+        "en": "Porcupine Goliath",
+        "kr": "호저 골리앗"
+      }
+    },
+    {
+      "name": {
+        "en": "Powered Zealot",
+        "kr": "강화된 맹신자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Centipede",
+        "kr": "선도자 지네"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Displacer",
+        "kr": "선도자 치환자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Driller",
+        "kr": "선도자 굴착자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Extractor",
+        "kr": "선도자 추출자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Fabricator",
+        "kr": "선도자 제조자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Refiner",
+        "kr": "선도자 정제자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Refractor",
+        "kr": "선도자 굴절자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Relocater",
+        "kr": "선도자 전위자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Separator",
+        "kr": "선도자 분리자"
+      }
+    },
+    {
+      "name": {
+        "en": "Precursor Spherator",
+        "kr": "선도자 구체화자"
+      }
+    },
+    {
+      "name": {
+        "en": "Priest of the Chalice",
+        "kr": "성배단 사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Priest of the Sun",
+        "kr": "태양의 사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Primal Familiar",
+        "kr": "원시 사역수"
+      }
+    },
+    {
+      "name": {
+        "en": "Primal Spirit",
+        "kr": "원시 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Primate Chieftain Spirit",
+        "kr": "영장류 부족장 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Primate Spirit",
+        "kr": "영장류 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Primordium of the Pit",
+        "kr": "구덩이의 원시세포"
+      }
+    },
+    {
+      "name": {
+        "en": "Prospector Kin",
+        "kr": "채광가 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Prowling Chimeral",
+        "kr": "배회하는 키메랄"
+      }
+    },
+    {
+      "name": {
+        "en": "Prowling Shade",
+        "kr": "배회하는 그늘"
+      }
+    },
+    {
+      "name": {
+        "en": "Prowling Skeleton",
+        "kr": "배회하는 해골"
+      }
+    },
+    {
+      "name": {
+        "en": "Pure Disgust",
+        "kr": "순수한 혐오"
+      }
+    },
+    {
+      "name": {
+        "en": "Pure Fury",
+        "kr": "순수한 광분"
+      }
+    },
+    {
+      "name": {
+        "en": "Pure Malice",
+        "kr": "순수한 적의"
+      }
+    },
+    {
+      "name": {
+        "en": "Pure Rage",
+        "kr": "순수한 격노"
+      }
+    },
+    {
+      "name": {
+        "en": "Pure Spite",
+        "kr": "순수한 악의"
+      }
+    },
+    {
+      "name": {
+        "en": "Pyromushroom Cultivator",
+        "kr": "방화버섯 배양가"
+      }
+    },
+    {
+      "name": {
+        "en": "Quadrilla",
+        "kr": "쿼드릴라"
+      }
+    },
+    {
+      "name": {
+        "en": "Quadrilla Sergeant",
+        "kr": "쿼드릴라 병장"
+      }
+    },
+    {
+      "name": {
+        "en": "Quake Golem",
+        "kr": "진동 골렘"
+      }
+    },
+    {
+      "name": {
+        "en": "Queen in the Mists",
+        "kr": "연무 속의 여왕"
+      }
+    },
+    {
+      "name": {
+        "en": "Queen of Filth's Curse",
+        "kr": "오물의 여왕의 저주"
+      }
+    },
+    {
+      "name": {
+        "en": "Quill Crab",
+        "kr": "화살 게"
+      }
+    },
+    {
+      "name": {
+        "en": "Rabid Dog",
+        "kr": "광포한 개"
+      }
+    },
+    {
+      "name": {
+        "en": "Rael, the Frost Hand",
+        "kr": "서리 손 라엘"
+      }
+    },
+    {
+      "name": {
+        "en": "Rafiq of the Frozen Spring",
+        "kr": "얼어붙은 샘의 라피크"
+      }
+    },
+    {
+      "name": {
+        "en": "Rage",
+        "kr": "격노"
+      }
+    },
+    {
+      "name": {
+        "en": "Raging Fire Spirit",
+        "kr": "격노의 화염 정령"
+      }
+    },
+    {
+      "name": {
+        "en": "Raging Spirit",
+        "kr": "격노의 유령"
+      }
+    },
+    {
+      "name": {
+        "en": "Raging Volatile Verisium",
+        "kr": "격노하는 폭발성 베리시움"
+      }
+    },
+    {
+      "name": {
+        "en": "Raised Zombie",
+        "kr": "소환한 좀비"
+      }
+    },
+    {
+      "name": {
+        "en": "Rakkar, the Frozen Talon",
+        "kr": "얼어붙은 발톱 라카르"
+      }
+    },
+    {
+      "name": {
+        "en": "Ranbu the Pale Shaman",
+        "kr": "창백한 주술사 란부"
+      }
+    },
+    {
+      "name": {
+        "en": "Raok, the Bloodthirsty",
+        "kr": "피에 목마른 라오크"
+      }
+    },
+    {
+      "name": {
+        "en": "Rasp Scavenger",
+        "kr": "쇳소리 청소부"
+      }
+    },
+    {
+      "name": {
+        "en": "Rathbreaker",
+        "kr": "토성파괴자"
+      }
+    },
+    {
+      "name": {
+        "en": "Rattlecage, the Earthbreaker",
+        "kr": "대지 분쇄자, 덜컹거리는 창살"
+      }
+    },
+    {
+      "name": {
+        "en": "Rattling Gibbet",
+        "kr": "덜컹대는 교수대"
+      }
+    },
+    {
+      "name": {
+        "en": "Raven Conspiracy",
+        "kr": "큰까마귀 음모"
+      }
+    },
+    {
+      "name": {
+        "en": "Raven Shrike",
+        "kr": "큰까마귀 때까치"
+      }
+    },
+    {
+      "name": {
+        "en": "Ravenous Bloodshaper",
+        "kr": "굶주린 피형성자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ravenous Brute",
+        "kr": "굶주린 돌격병"
+      }
+    },
+    {
+      "name": {
+        "en": "Ravenous Digester",
+        "kr": "굶주린 소화자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ravenous Homunculus",
+        "kr": "굶주린 호문쿨루스"
+      }
+    },
+    {
+      "name": {
+        "en": "Ravenous Macerator",
+        "kr": "굶주린 침연자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ravenous Misshapen",
+        "kr": "굶주린 이형"
+      }
+    },
+    {
+      "name": {
+        "en": "Ravenous Swarm",
+        "kr": "굶주린 무리"
+      }
+    },
+    {
+      "name": {
+        "en": "Reconstructor",
+        "kr": "재건자"
+      }
+    },
+    {
+      "name": {
+        "en": "Regurgitating Vulture",
+        "kr": "게워낸 시체매"
+      }
+    },
+    {
+      "name": {
+        "en": "Revenant",
+        "kr": "원령"
+      }
+    },
+    {
+      "name": {
+        "en": "Rhex",
+        "kr": "렉스"
+      }
+    },
+    {
+      "name": {
+        "en": "Rhoa Companion",
+        "kr": "로아 반려수"
+      }
+    },
+    {
+      "name": {
+        "en": "Ribrattle",
+        "kr": "덜그럭늑골"
+      }
+    },
+    {
+      "name": {
+        "en": "Right Weapon",
+        "kr": "오른쪽 무기"
+      }
+    },
+    {
+      "name": {
+        "en": "Righteous Axewielder",
+        "kr": "정의로운 도끼병"
+      }
+    },
+    {
+      "name": {
+        "en": "Riona, Winter's Cackle",
+        "kr": "겨울의 수다 리오나"
+      }
+    },
+    {
+      "name": {
+        "en": "Riptide",
+        "kr": "역류"
+      }
+    },
+    {
+      "name": {
+        "en": "Risen Arbalest",
+        "kr": "일어난 쇠뇌 사수"
+      }
+    },
+    {
+      "name": {
+        "en": "Risen Farmhand",
+        "kr": "일어난 농장 일꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Risen Magi",
+        "kr": "일어난 마법사"
+      }
+    },
+    {
+      "name": {
+        "en": "Risen Maraketh",
+        "kr": "일어난 마라케스"
+      }
+    },
+    {
+      "name": {
+        "en": "Risen Rattler",
+        "kr": "일어난 전율가"
+      }
+    },
+    {
+      "name": {
+        "en": "Risen Tale-woman",
+        "kr": "일어난 이야기꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Ritual Wisp",
+        "kr": "의식 도깨비불"
+      }
+    },
+    {
+      "name": {
+        "en": "River Drake",
+        "kr": "강 타니와"
+      }
+    },
+    {
+      "name": {
+        "en": "River Hag",
+        "kr": "강 노파"
+      }
+    },
+    {
+      "name": {
+        "en": "Rog",
+        "kr": "로그"
+      }
+    },
+    {
+      "name": {
+        "en": "Rootdredge",
+        "kr": "뿌리준설자"
+      }
+    },
+    {
+      "name": {
+        "en": "Rootgrasp, the Hateful Forest",
+        "kr": "증오에 찬 숲 뿌리손아귀"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotted Rat",
+        "kr": "썩은 쥐"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotten Wolf",
+        "kr": "썩은 늑대"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotting Cannoneer",
+        "kr": "썩어가는 포병"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotting Crow",
+        "kr": "썩어가는 까마귀"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotting Demolitionist",
+        "kr": "썩어가는 폭파 전문가"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotting Grenadier",
+        "kr": "썩어가는 척탄병"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotting Guard",
+        "kr": "썩어가는 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotting Hulk",
+        "kr": "썩어가는 거한"
+      }
+    },
+    {
+      "name": {
+        "en": "Rotting Soulcatcher",
+        "kr": "썩어가는 영혼포획자"
+      }
+    },
+    {
+      "name": {
+        "en": "Royal Acolyte",
+        "kr": "왕실 조수"
+      }
+    },
+    {
+      "name": {
+        "en": "Royal Colossus",
+        "kr": "왕실 거상"
+      }
+    },
+    {
+      "name": {
+        "en": "Royal Sentinel",
+        "kr": "왕실 파수꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Rudja, the Dread Engineer",
+        "kr": "공포의 기술자 룻자"
+      }
+    },
+    {
+      "name": {
+        "en": "Runed Knight",
+        "kr": "룬 기사"
+      }
+    },
+    {
+      "name": {
+        "en": "Rust Skeleton",
+        "kr": "녹의 해골"
+      }
+    },
+    {
+      "name": {
+        "en": "Rusted Dyna Golem",
+        "kr": "녹슨 다이나 골렘"
+      }
+    },
+    {
+      "name": {
+        "en": "Rusted Reconstructor",
+        "kr": "녹슨 재건자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ruzhan, the Blazing Sword",
+        "kr": "불타는 검 루잔"
+      }
+    },
+    {
+      "name": {
+        "en": "Sabre Spider",
+        "kr": "사브르 거미"
+      }
+    },
+    {
+      "name": {
+        "en": "Sand Arm",
+        "kr": "모래 팔"
+      }
+    },
+    {
+      "name": {
+        "en": "Sand Spirit",
+        "kr": "모래 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Sandflesh Mage",
+        "kr": "모래살점 마법사"
+      }
+    },
+    {
+      "name": {
+        "en": "Sandflesh Skeleton",
+        "kr": "모래살점 해골"
+      }
+    },
+    {
+      "name": {
+        "en": "Sandflesh Warrior",
+        "kr": "모래살점 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Sandscoured Dead",
+        "kr": "모래에 휩쓸린 시체"
+      }
+    },
+    {
+      "name": {
+        "en": "Saphira, The Dread Consort",
+        "kr": "공포의 배우자 사피라"
+      }
+    },
+    {
+      "name": {
+        "en": "Saurian Servant",
+        "kr": "사우리안 종복"
+      }
+    },
+    {
+      "name": {
+        "en": "Savage Effigy",
+        "kr": "야만 제웅"
+      }
+    },
+    {
+      "name": {
+        "en": "Scarecrow Beast",
+        "kr": "허수아비 야수"
+      }
+    },
+    {
+      "name": {
+        "en": "Scavenged Skeleton",
+        "kr": "주운 해골"
+      }
+    },
+    {
+      "name": {
+        "en": "Scorpion Monkey",
+        "kr": "전갈 원숭이"
+      }
+    },
+    {
+      "name": {
+        "en": "Scourge of the Skies",
+        "kr": "하늘의 재앙"
+      }
+    },
+    {
+      "name": {
+        "en": "Scute Lizard",
+        "kr": "등딱지 도마뱀"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Avian",
+        "kr": "바다부족 새"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Caster",
+        "kr": "바다부족 시전자"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Daggerbearer",
+        "kr": "바다부족 단검소지자"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Harpooner",
+        "kr": "바다부족 작살꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Pouchbearer",
+        "kr": "바다부족 주머니소지자"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Spearfisher",
+        "kr": "바다부족 창 낚시꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Trapper",
+        "kr": "바다부족 덫사냥꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Vaulter",
+        "kr": "바다부족 금고지기"
+      }
+    },
+    {
+      "name": {
+        "en": "Sea-tribe Villager",
+        "kr": "바다부족 주민"
+      }
+    },
+    {
+      "name": {
+        "en": "Searot Ensnarer",
+        "kr": "바다부패 덫사냥꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Searot Harpooner",
+        "kr": "바다부패 작살꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Searot Skeleton",
+        "kr": "바다부패 해골"
+      }
+    },
+    {
+      "name": {
+        "en": "Searot Sniper",
+        "kr": "바다부패 저격수"
+      }
+    },
+    {
+      "name": {
+        "en": "Sebastian Carroway",
+        "kr": "세바스찬 캐러웨이"
+      }
+    },
+    {
+      "name": {
+        "en": "Sekhema Asala",
+        "kr": "세케마 아살라"
+      }
+    },
+    {
+      "name": {
+        "en": "Serath, the Scaled One",
+        "kr": "비늘 덮힌 자 세라스"
+      }
+    },
+    {
+      "name": {
+        "en": "Serpent Clan",
+        "kr": "독사 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Serpent Shaman",
+        "kr": "독사 주술사"
+      }
+    },
+    {
+      "name": {
+        "en": "Serpentine Familiar",
+        "kr": "구불거리는 사역수"
+      }
+    },
+    {
+      "name": {
+        "en": "Servi",
+        "kr": "세르비"
+      }
+    },
+    {
+      "name": {
+        "en": "Shackled Wraith",
+        "kr": "족쇄 찬 악령"
+      }
+    },
+    {
+      "name": {
+        "en": "Shaman Kin",
+        "kr": "주술사 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Shepherd of the Pit",
+        "kr": "구덩이의 목자"
+      }
+    },
+    {
+      "name": {
+        "en": "Shielded Transcendent",
+        "kr": "방패 방어 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Shockblade Construct",
+        "kr": "충격칼날 구조물"
+      }
+    },
+    {
+      "name": {
+        "en": "Sigbert of the Sullied Oath",
+        "kr": "더럽혀진 서약의 시그버트"
+      }
+    },
+    {
+      "name": {
+        "en": "Siora, Blade of the Mists",
+        "kr": "연무의 칼날 시오라"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Arsonist",
+        "kr": "해골 방화범"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Brute",
+        "kr": "해골 돌격병"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Cleric",
+        "kr": "해골 성직자"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Cobra",
+        "kr": "해골 코브라"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Frost Mage",
+        "kr": "해골 서리 마법사"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Reaver",
+        "kr": "해골 강탈자"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Sniper",
+        "kr": "해골 저격수"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Storm Mage",
+        "kr": "해골 폭풍 마법사"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeletal Warrior",
+        "kr": "해골 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Skeleton Spriggan",
+        "kr": "해골 스프리건"
+      }
+    },
+    {
+      "name": {
+        "en": "Skitter Golem",
+        "kr": "잽싼 골렘"
+      }
+    },
+    {
+      "name": {
+        "en": "Skitter Mine",
+        "kr": "잽싼 지뢰"
+      }
+    },
+    {
+      "name": {
+        "en": "Skittering Jellycrab",
+        "kr": "달리는 해파리게"
+      }
+    },
+    {
+      "name": {
+        "en": "Skittering Stone",
+        "kr": "달리는 돌"
+      }
+    },
+    {
+      "name": {
+        "en": "Skulking Ghoul",
+        "kr": "숨은 구울"
+      }
+    },
+    {
+      "name": {
+        "en": "Skullslinger",
+        "kr": "해골투척병"
+      }
+    },
+    {
+      "name": {
+        "en": "Skulltop Kin",
+        "kr": "두개골머리 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Slimy Stalker",
+        "kr": "물컹한 추적자"
+      }
+    },
+    {
+      "name": {
+        "en": "Slitherspitter",
+        "kr": "미끄럼 뱉는 자"
+      }
+    },
+    {
+      "name": {
+        "en": "Snake",
+        "kr": "뱀"
+      }
+    },
+    {
+      "name": {
+        "en": "Snakethroat Shambler",
+        "kr": "뱀목 도축자"
+      }
+    },
+    {
+      "name": {
+        "en": "Sondar, the Stormbinder",
+        "kr": "폭풍 결속사 손다르"
+      }
+    },
+    {
+      "name": {
+        "en": "Spearbearer Kin",
+        "kr": "창운반자 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Spearfisher",
+        "kr": "창 낚시꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Spiked Ray",
+        "kr": "가시투성이 가오리"
+      }
+    },
+    {
+      "name": {
+        "en": "Spiked Scuttler",
+        "kr": "가시 종종발"
+      }
+    },
+    {
+      "name": {
+        "en": "Spined Necromancer",
+        "kr": "가시 강령술사"
+      }
+    },
+    {
+      "name": {
+        "en": "Spinesnatcher",
+        "kr": "척추강탈꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Spire Burrower",
+        "kr": "첨탑 굴착자"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Base",
+        "kr": "혼백 기본"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit of Balbala",
+        "kr": "발바라의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit of Pirasha",
+        "kr": "피라샤의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Abyss",
+        "kr": "심연의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Bear",
+        "kr": "곰의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Boar",
+        "kr": "멧돼지의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Cat",
+        "kr": "고양이의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Fox",
+        "kr": "여우의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Owl",
+        "kr": "올빼미의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Ox",
+        "kr": "소의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Primate",
+        "kr": "영장류의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Rabbit",
+        "kr": "토끼의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Serpent",
+        "kr": "독사의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Stag",
+        "kr": "수사슴의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Of The Wolf",
+        "kr": "늑대의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Spirit Ox",
+        "kr": "혼백 소"
+      }
+    },
+    {
+      "name": {
+        "en": "Spite",
+        "kr": "악의"
+      }
+    },
+    {
+      "name": {
+        "en": "Sporebearer",
+        "kr": "포자운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Stag Spirit",
+        "kr": "수사슴 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Stardrunk Blacksmith",
+        "kr": "별에 취한 대장장이"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Bladeflesh",
+        "kr": "별빛 칼날살점"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Broodbeetle",
+        "kr": "별빛 영충딱정벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Defiler",
+        "kr": "별빛 모독자"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Faceless",
+        "kr": "별빛 얼굴 없는 자"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Grotesque",
+        "kr": "별빛 괴기물"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Harvester",
+        "kr": "별빛 수확자"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Nymph",
+        "kr": "별빛 님프"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Pincerflesh",
+        "kr": "별빛 집게살점"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Reaperflesh",
+        "kr": "별빛 수확자살점"
+      }
+    },
+    {
+      "name": {
+        "en": "Starlit Statuesque",
+        "kr": "별빛 조각상"
+      }
+    },
+    {
+      "name": {
+        "en": "Starmad Caller",
+        "kr": "별에 미친 소환사"
+      }
+    },
+    {
+      "name": {
+        "en": "Steward of Kulemak",
+        "kr": "쿨레막의 간사"
+      }
+    },
+    {
+      "name": {
+        "en": "Stone Pillar",
+        "kr": "돌기둥"
+      }
+    },
+    {
+      "name": {
+        "en": "Stone Sentinel",
+        "kr": "돌 파수꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Stone Soldier",
+        "kr": "돌 병사"
+      }
+    },
+    {
+      "name": {
+        "en": "Stone Wall",
+        "kr": "돌 방벽"
+      }
+    },
+    {
+      "name": {
+        "en": "Stoneback Rhoa",
+        "kr": "돌배후 로아"
+      }
+    },
+    {
+      "name": {
+        "en": "Stoneclad Gorilla",
+        "kr": "석갑 고릴라"
+      }
+    },
+    {
+      "name": {
+        "en": "Stormgore, the Guardian",
+        "kr": "수호자 폭풍선혈"
+      }
+    },
+    {
+      "name": {
+        "en": "Strider of the Pit",
+        "kr": "구덩이의 질주자"
+      }
+    },
+    {
+      "name": {
+        "en": "Styrn, Fallen Knight of Aldur",
+        "kr": "알두르의 몰락 기사 스티른"
+      }
+    },
+    {
+      "name": {
+        "en": "Subdued Behemoth",
+        "kr": "억제된 거대괴수"
+      }
+    },
+    {
+      "name": {
+        "en": "Subsummation",
+        "kr": "종속체"
+      }
+    },
+    {
+      "name": {
+        "en": "Sulphirox, the Voltaxic",
+        "kr": "전도성 설피록스"
+      }
+    },
+    {
+      "name": {
+        "en": "Sun Clan Scavenger",
+        "kr": "태양 혈족의 청소부"
+      }
+    },
+    {
+      "name": {
+        "en": "Surgical Experimentalist",
+        "kr": "수술 실험주의자"
+      }
+    },
+    {
+      "name": {
+        "en": "Swamp Golem",
+        "kr": "늪 골렘"
+      }
+    },
+    {
+      "name": {
+        "en": "Swarming Wasp",
+        "kr": "몰려드는 말벌"
+      }
+    },
+    {
+      "name": {
+        "en": "Syvora, Daughter of the Deep",
+        "kr": "심해의 딸 시보라"
+      }
+    },
+    {
+      "name": {
+        "en": "Tallwalker Kin",
+        "kr": "키 큰 보행자 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Tangmazu",
+        "kr": "탕마주"
+      }
+    },
+    {
+      "name": {
+        "en": "Tanim",
+        "kr": "타님"
+      }
+    },
+    {
+      "name": {
+        "en": "Tarnished Beetle",
+        "kr": "변색된 딱정벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Tarnished Scarab",
+        "kr": "변색된 갑충석"
+      }
+    },
+    {
+      "name": {
+        "en": "Tasalio Trawler",
+        "kr": "타살리오 고기잡이"
+      }
+    },
+    {
+      "name": {
+        "en": "Tasgul, Swallower of Light",
+        "kr": "빛을 삼키는 자 타스굴"
+      }
+    },
+    {
+      "name": {
+        "en": "Taua, the Ruthless",
+        "kr": "무정한 타우아"
+      }
+    },
+    {
+      "name": {
+        "en": "Tavakai",
+        "kr": "타바카이"
+      }
+    },
+    {
+      "name": {
+        "en": "Tavakai, the Chieftain",
+        "kr": "부족장 타바카이"
+      }
+    },
+    {
+      "name": {
+        "en": "Tavakai, the Consumed",
+        "kr": "삼켜진 자 타바카이"
+      }
+    },
+    {
+      "name": {
+        "en": "Tavakai, the Fallen",
+        "kr": "몰락한 자 타바카이"
+      }
+    },
+    {
+      "name": {
+        "en": "Tawhani, the Ancestral Guardian",
+        "kr": "선대의 수호자 타와니"
+      }
+    },
+    {
+      "name": {
+        "en": "Tawhoa Mystic",
+        "kr": "타호아 신비학자"
+      }
+    },
+    {
+      "name": {
+        "en": "Tawhoa's Boar",
+        "kr": "타호아의 멧돼지"
+      }
+    },
+    {
+      "name": {
+        "en": "Tawhoa's Tuatara",
+        "kr": "타호아의 투아타라"
+      }
+    },
+    {
+      "name": {
+        "en": "Tectonic Golem",
+        "kr": "지층 골렘"
+      }
+    },
+    {
+      "name": {
+        "en": "Temoc, Drill Overseer",
+        "kr": "훈련 감독관 테목"
+      }
+    },
+    {
+      "name": {
+        "en": "Tempest Wraith",
+        "kr": "폭풍 악령"
+      }
+    },
+    {
+      "name": {
+        "en": "Tendril Prowler",
+        "kr": "덩굴 배회자"
+      }
+    },
+    {
+      "name": {
+        "en": "Tendril Sentinel",
+        "kr": "덩굴 파수꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Terracotta Fanatic",
+        "kr": "테라코타 광신도"
+      }
+    },
+    {
+      "name": {
+        "en": "Terracotta Soldier",
+        "kr": "테라코타 병사"
+      }
+    },
+    {
+      "name": {
+        "en": "Tetzcatl, the Blazing Guardian",
+        "kr": "불타는 수호자 테츠카틀"
+      }
+    },
+    {
+      "name": {
+        "en": "Thane Wulfric",
+        "kr": "테인 울프릭"
+      }
+    },
+    {
+      "name": {
+        "en": "Thariel, the Umbral Wraith",
+        "kr": "그늘진 악령 사리엘"
+      }
+    },
+    {
+      "name": {
+        "en": "The Aberration",
+        "kr": "변이"
+      }
+    },
+    {
+      "name": {
+        "en": "The Abominable Yeti",
+        "kr": "흉물스러운 설인"
+      }
+    },
+    {
+      "name": {
+        "en": "The Amalgamite",
+        "kr": "융합암"
+      }
+    },
+    {
+      "name": {
+        "en": "The Arbiter of Ash",
+        "kr": "재의 중재자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Arbiter of Divinity",
+        "kr": "신성의 중재자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Black Crow",
+        "kr": "검은 까마귀"
+      }
+    },
+    {
+      "name": {
+        "en": "The Blind Beast",
+        "kr": "눈먼 짐승"
+      }
+    },
+    {
+      "name": {
+        "en": "The Blind Brute",
+        "kr": "눈먼 냉혈한"
+      }
+    },
+    {
+      "name": {
+        "en": "The Blind Mauler",
+        "kr": "눈먼 망치꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "The Bloated Miller",
+        "kr": "불어 터진 방아꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "The Bodach",
+        "kr": "보닥"
+      }
+    },
+    {
+      "name": {
+        "en": "The Bone Colossus",
+        "kr": "뼈 거상"
+      }
+    },
+    {
+      "name": {
+        "en": "The Brambleghast",
+        "kr": "가시나무망령"
+      }
+    },
+    {
+      "name": {
+        "en": "The Brood Queen",
+        "kr": "영충 여왕"
+      }
+    },
+    {
+      "name": {
+        "en": "The Crowbell",
+        "kr": "까마귀종"
+      }
+    },
+    {
+      "name": {
+        "en": "The Devourer",
+        "kr": "포식자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Eater of Flesh",
+        "kr": "살점 포식자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Executioner",
+        "kr": "사형 집행자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Frostborn Fiend",
+        "kr": "서리 태생 마귀"
+      }
+    },
+    {
+      "name": {
+        "en": "The Fungus Behemoth",
+        "kr": "곰팡이 거대괴수"
+      }
+    },
+    {
+      "name": {
+        "en": "The Hooded One",
+        "kr": "두건 쓴 자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Immured Fury",
+        "kr": "유폐된 광분"
+      }
+    },
+    {
+      "name": {
+        "en": "The Improbable Spawn",
+        "kr": "현실성 없는 유충"
+      }
+    },
+    {
+      "name": {
+        "en": "The King in the Mists",
+        "kr": "연무 속의 왕"
+      }
+    },
+    {
+      "name": {
+        "en": "The Ninth Treasure of Keth",
+        "kr": "케스의 아홉 번째 보물"
+      }
+    },
+    {
+      "name": {
+        "en": "The Noxious Behemoth",
+        "kr": "유독성 거대괴수"
+      }
+    },
+    {
+      "name": {
+        "en": "The Pale Angel",
+        "kr": "창백한 천사"
+      }
+    },
+    {
+      "name": {
+        "en": "The Prisoner",
+        "kr": "포로"
+      }
+    },
+    {
+      "name": {
+        "en": "The Punished",
+        "kr": "벌 받는 자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Queen of Filth",
+        "kr": "오물의 여왕"
+      }
+    },
+    {
+      "name": {
+        "en": "The Rain Festival Beetle",
+        "kr": "비의 축제 딱정벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "The Raven Trickster",
+        "kr": "큰까마귀 협잡꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "The Ravenous Fang",
+        "kr": "탐욕스러운 송곳니"
+      }
+    },
+    {
+      "name": {
+        "en": "The Rotten Druid",
+        "kr": "썩은 드루이드"
+      }
+    },
+    {
+      "name": {
+        "en": "The Rust King",
+        "kr": "녹왕"
+      }
+    },
+    {
+      "name": {
+        "en": "The Sandstrider",
+        "kr": "모래질주자"
+      }
+    },
+    {
+      "name": {
+        "en": "The Shackled Horror",
+        "kr": "족쇄 찬 공포"
+      }
+    },
+    {
+      "name": {
+        "en": "The Skittermind",
+        "kr": "잽싼머리"
+      }
+    },
+    {
+      "name": {
+        "en": "The Trialmaster",
+        "kr": "시련의 대가"
+      }
+    },
+    {
+      "name": {
+        "en": "The Triskelion Flame",
+        "kr": "트리스켈리온의 불길"
+      }
+    },
+    {
+      "name": {
+        "en": "Thraeven, Wing of Winter",
+        "kr": "겨울의 날개 스레이븐"
+      }
+    },
+    {
+      "name": {
+        "en": "Tierney, the Hateful",
+        "kr": "증오에 찬 자 티어니"
+      }
+    },
+    {
+      "name": {
+        "en": "Tombshrieker",
+        "kr": "무덤비명자"
+      }
+    },
+    {
+      "name": {
+        "en": "Tonqui, Seer of the Sun",
+        "kr": "태양의 예견자 톤퀴"
+      }
+    },
+    {
+      "name": {
+        "en": "Tor Gul, the Defiler",
+        "kr": "모독자 토르 굴"
+      }
+    },
+    {
+      "name": {
+        "en": "Torcall, Sobbing Child",
+        "kr": "우는 아이 토크콜"
+      }
+    },
+    {
+      "name": {
+        "en": "Torchbearer Kin",
+        "kr": "횃불운반자 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Tornado",
+        "kr": "회오리"
+      }
+    },
+    {
+      "name": {
+        "en": "Torrek of the Drowned Fleet",
+        "kr": "침몰한 함대의 토렉"
+      }
+    },
+    {
+      "name": {
+        "en": "Torvian, Hand of the Saviour",
+        "kr": "구원자의 손 토르비안"
+      }
+    },
+    {
+      "name": {
+        "en": "Totem",
+        "kr": "토템"
+      }
+    },
+    {
+      "name": {
+        "en": "Training Post",
+        "kr": "훈련용 기둥"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant",
+        "kr": "나무인간"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant Foulspawn",
+        "kr": "나무인간 삿것"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant Fungalreaver",
+        "kr": "나무인간 곰팡이강탈자"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant Hookhorror",
+        "kr": "나무인간 갈고리괴물"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant Mystic",
+        "kr": "나무인간 신비학자"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant Sage",
+        "kr": "나무인간 현자"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant Splitbeast",
+        "kr": "나무인간 분할야수"
+      }
+    },
+    {
+      "name": {
+        "en": "Treant Spriggan",
+        "kr": "나무인간 스프리건"
+      }
+    },
+    {
+      "name": {
+        "en": "Treasure Hunter",
+        "kr": "보물 사냥꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Tujen",
+        "kr": "투젠"
+      }
+    },
+    {
+      "name": {
+        "en": "Turmoil",
+        "kr": "소란"
+      }
+    },
+    {
+      "name": {
+        "en": "Turret",
+        "kr": "포탑"
+      }
+    },
+    {
+      "name": {
+        "en": "Tuskbearer Kin",
+        "kr": "엄니운반자 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Twilight Order Oathsworn",
+        "kr": "황혼의 교단 서약자"
+      }
+    },
+    {
+      "name": {
+        "en": "Twilight Order Officer",
+        "kr": "황혼의 교단 장교"
+      }
+    },
+    {
+      "name": {
+        "en": "Twilight Order Priest",
+        "kr": "황혼의 교단 사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Twilight Order Soldier",
+        "kr": "황혼의 교단 병사"
+      }
+    },
+    {
+      "name": {
+        "en": "Twilight Overseer",
+        "kr": "황혼 감독관"
+      }
+    },
+    {
+      "name": {
+        "en": "Tycho, the Black Praetor",
+        "kr": "검은 집정관 타이초"
+      }
+    },
+    {
+      "name": {
+        "en": "Uhtred, Covetous Traitor",
+        "kr": "갈망하는 배반자 우트레드"
+      }
+    },
+    {
+      "name": {
+        "en": "Uhtred, the Stardrinker",
+        "kr": "별 흡수자 우트레드"
+      }
+    },
+    {
+      "name": {
+        "en": "Ulfred, the Afflicted",
+        "kr": "고통받는 자 울프레드"
+      }
+    },
+    {
+      "name": {
+        "en": "Una",
+        "kr": "우나"
+      }
+    },
+    {
+      "name": {
+        "en": "Unchained Beast",
+        "kr": "사슬에서 풀려난 야수"
+      }
+    },
+    {
+      "name": {
+        "en": "Undead Vaal Bladedancer",
+        "kr": "언데드 바알 검의 무희"
+      }
+    },
+    {
+      "name": {
+        "en": "Undead Vaal Guard",
+        "kr": "언데드 바알 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Undertaker",
+        "kr": "장의사"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Berserker",
+        "kr": "발굴된 광전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Crawler",
+        "kr": "발굴된 벌레"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Icebearer",
+        "kr": "발굴된 얼음 운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Rampager",
+        "kr": "발굴된 광란자"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Runecaster",
+        "kr": "발굴된 룬 시전자"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Skeletal Archer",
+        "kr": "발굴된 해골 궁수"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Skeletal Swordsman",
+        "kr": "발굴된 해골 검사"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Skeletal Warrior",
+        "kr": "발굴된 해골 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Soldier",
+        "kr": "발굴된 병사"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Urchin",
+        "kr": "발굴된 악동"
+      }
+    },
+    {
+      "name": {
+        "en": "Unearthed Zombie",
+        "kr": "발굴된 좀비"
+      }
+    },
+    {
+      "name": {
+        "en": "Urnwalker",
+        "kr": "단지보행자"
+      }
+    },
+    {
+      "name": {
+        "en": "Uxmal, the Beastlord",
+        "kr": "야수군주 욱스말"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Axeman",
+        "kr": "바알 도끼병"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Construct",
+        "kr": "바알 구조물"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Archer",
+        "kr": "바알 미라 궁수"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Axeman",
+        "kr": "바알 미라 도끼병"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Bearer",
+        "kr": "바알 미라 운반자"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Berserker",
+        "kr": "바알 미라 광전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Mage",
+        "kr": "바알 미라 마법사"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Rogue",
+        "kr": "바알 미라 악한"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Spearman",
+        "kr": "바알 미라 창병"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Embalmed Warrior",
+        "kr": "바알 미라 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Enforcer",
+        "kr": "바알 집행자"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Excoriator",
+        "kr": "바알 피박자"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Formshifter",
+        "kr": "바알 형태변형자"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Goliath",
+        "kr": "바알 골리앗"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Guard",
+        "kr": "바알 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Overseer",
+        "kr": "바알 감독관"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Researcher",
+        "kr": "바알 연구자"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Skeletal Archer",
+        "kr": "바알 해골 궁수"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Skeletal Priest",
+        "kr": "바알 해골 사제"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Skeletal Squire",
+        "kr": "바알 해골 종자"
+      }
+    },
+    {
+      "name": {
+        "en": "Vaal Skeletal Warrior",
+        "kr": "바알 해골 전사"
+      }
+    },
+    {
+      "name": {
+        "en": "Vandroth, Blackblooded Enslaver",
+        "kr": "검은 피의 조종자 반드로트"
+      }
+    },
+    {
+      "name": {
+        "en": "Vargir the Feral Mutt",
+        "kr": "야생견 바르기르"
+      }
+    },
+    {
+      "name": {
+        "en": "Varloch, the Ashen Lord",
+        "kr": "잿빛 군주 발로크"
+      }
+    },
+    {
+      "name": {
+        "en": "Vasa, of the Death Akhara",
+        "kr": "죽음 아카라의 바사"
+      }
+    },
+    {
+      "name": {
+        "en": "Vastweld, the Colossal Guardian",
+        "kr": "초대형 수호자 바스트웰드"
+      }
+    },
+    {
+      "name": {
+        "en": "Vault Lurker",
+        "kr": "금고 잠복자"
+      }
+    },
+    {
+      "name": {
+        "en": "Venomous Crab",
+        "kr": "독성 게"
+      }
+    },
+    {
+      "name": {
+        "en": "Venomous Crab Matriarch",
+        "kr": "독성 게 어미"
+      }
+    },
+    {
+      "name": {
+        "en": "Verisium Comet-Spawn",
+        "kr": "베리시움 혜성 태생"
+      }
+    },
+    {
+      "name": {
+        "en": "Verisium Manifestation",
+        "kr": "베리시움 현신"
+      }
+    },
+    {
+      "name": {
+        "en": "Verisium Sentry",
+        "kr": "베리시움 보초"
+      }
+    },
+    {
+      "name": {
+        "en": "Verisium Web",
+        "kr": "베리시움 그물"
+      }
+    },
+    {
+      "name": {
+        "en": "Vesper Bat",
+        "kr": "땅거미 박쥐"
+      }
+    },
+    {
+      "name": {
+        "en": "Vessel of Kulemak",
+        "kr": "쿨레막의 그릇"
+      }
+    },
+    {
+      "name": {
+        "en": "Veynar, the Frostbane",
+        "kr": "서리의 파멸 베이나"
+      }
+    },
+    {
+      "name": {
+        "en": "Vicious Vine",
+        "kr": "포악한 덩굴"
+      }
+    },
+    {
+      "name": {
+        "en": "Vile Hag",
+        "kr": "끔찍한 노파"
+      }
+    },
+    {
+      "name": {
+        "en": "Vile Idol",
+        "kr": "끔찍한 우상"
+      }
+    },
+    {
+      "name": {
+        "en": "Vile Imp",
+        "kr": "끔찍한 임프"
+      }
+    },
+    {
+      "name": {
+        "en": "Vile Vulture",
+        "kr": "끔찍한 시체매"
+      }
+    },
+    {
+      "name": {
+        "en": "Vilespit Gull",
+        "kr": "끔찍한 타액 갈매기"
+      }
+    },
+    {
+      "name": {
+        "en": "Viper Legionnaire",
+        "kr": "독사 군단병"
+      }
+    },
+    {
+      "name": {
+        "en": "Viper Napuatzi",
+        "kr": "바이퍼 나푸앗지"
+      }
+    },
+    {
+      "name": {
+        "en": "Viper Servant",
+        "kr": "독사 종복"
+      }
+    },
+    {
+      "name": {
+        "en": "Vision",
+        "kr": "환영"
+      }
+    },
+    {
+      "name": {
+        "en": "Volatile Boar",
+        "kr": "폭발성 멧돼지"
+      }
+    },
+    {
+      "name": {
+        "en": "Volatile Core",
+        "kr": "폭발성 중심부"
+      }
+    },
+    {
+      "name": {
+        "en": "Volatile Orchard",
+        "kr": "폭발성 과수원"
+      }
+    },
+    {
+      "name": {
+        "en": "Volatile Rock",
+        "kr": "폭발성 바위"
+      }
+    },
+    {
+      "name": {
+        "en": "Volatile Scarab",
+        "kr": "폭발성 갑충석"
+      }
+    },
+    {
+      "name": {
+        "en": "Volatile Spirit Boar",
+        "kr": "폭발성 혼백 멧돼지"
+      }
+    },
+    {
+      "name": {
+        "en": "Volcanic Golem",
+        "kr": "화산 골렘"
+      }
+    },
+    {
+      "name": {
+        "en": "Volkhar, the Emberborn",
+        "kr": "불씨붙이 볼크하르"
+      }
+    },
+    {
+      "name": {
+        "en": "Voracious Werewolf",
+        "kr": "탐욕적인 늑대인간"
+      }
+    },
+    {
+      "name": {
+        "en": "Vorana Volatile",
+        "kr": "보라나 폭발물"
+      }
+    },
+    {
+      "name": {
+        "en": "Vorana, Last to Fall",
+        "kr": "최후의 보루 보라나"
+      }
+    },
+    {
+      "name": {
+        "en": "Vornas, the Fell Flame",
+        "kr": "타락한 불길 보르나스"
+      }
+    },
+    {
+      "name": {
+        "en": "Vorrik, The Infernal Engineer",
+        "kr": "지옥불 기술자 보리크"
+      }
+    },
+    {
+      "name": {
+        "en": "Vril Apparition",
+        "kr": "브릴 유령"
+      }
+    },
+    {
+      "name": {
+        "en": "Vruun, Marshal of Xesht",
+        "kr": "제쉬트의 총사령관 브룬"
+      }
+    },
+    {
+      "name": {
+        "en": "Walking Goliath",
+        "kr": "걷는 골리앗"
+      }
+    },
+    {
+      "name": {
+        "en": "Wardbound Caster",
+        "kr": "수호결속 시전자"
+      }
+    },
+    {
+      "name": {
+        "en": "Wardrum Kin",
+        "kr": "전쟁북 혈족"
+      }
+    },
+    {
+      "name": {
+        "en": "Warrior Spirit",
+        "kr": "전사의 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Warrior Transcendent",
+        "kr": "전사 초월자"
+      }
+    },
+    {
+      "name": {
+        "en": "Wasp",
+        "kr": "말벌"
+      }
+    },
+    {
+      "name": {
+        "en": "Werewolf Prowler",
+        "kr": "늑대인간 배회자"
+      }
+    },
+    {
+      "name": {
+        "en": "Wheelbound Hag",
+        "kr": "바퀴결속 노파"
+      }
+    },
+    {
+      "name": {
+        "en": "Wild Bear Spirit",
+        "kr": "야생 곰 혼백"
+      }
+    },
+    {
+      "name": {
+        "en": "Winged Fiend",
+        "kr": "날개 달린 마귀"
+      }
+    },
+    {
+      "name": {
+        "en": "Winged Horror",
+        "kr": "날개 달린 공포"
+      }
+    },
+    {
+      "name": {
+        "en": "Wolf Companion",
+        "kr": "늑대 반려수"
+      }
+    },
+    {
+      "name": {
+        "en": "Wretched Rattler",
+        "kr": "가련한 전율가"
+      }
+    },
+    {
+      "name": {
+        "en": "Xalapa, Spy Master",
+        "kr": "첩보대장 잘라파"
+      }
+    },
+    {
+      "name": {
+        "en": "Xesht, We That Are One",
+        "kr": "하나인 우리, 제쉬트"
+      }
+    },
+    {
+      "name": {
+        "en": "Xilozoma, the Maw-Beast",
+        "kr": "아귀야수 자일로조마"
+      }
+    },
+    {
+      "name": {
+        "en": "Xipocado, Royal Architect",
+        "kr": "왕실 건축가 지포카도"
+      }
+    },
+    {
+      "name": {
+        "en": "Xolotl, Royal Commander",
+        "kr": "왕실 지휘관 졸로틀"
+      }
+    },
+    {
+      "name": {
+        "en": "Xolotl, the Forgotten",
+        "kr": "잊힌 자 졸로틀"
+      }
+    },
+    {
+      "name": {
+        "en": "Xyclucian, the Chimera",
+        "kr": "키메라 자이클루시언"
+      }
+    },
+    {
+      "name": {
+        "en": "Yama The White",
+        "kr": "하얀 야마"
+      }
+    },
+    {
+      "name": {
+        "en": "Yaota, the Loathsome",
+        "kr": "혐오스러운 자 야오타"
+      }
+    },
+    {
+      "name": {
+        "en": "Ylth Eater",
+        "kr": "일스 포식자"
+      }
+    },
+    {
+      "name": {
+        "en": "Ylth Grabber",
+        "kr": "일스 포박꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Ylth Spewer",
+        "kr": "일스 분출꾼"
+      }
+    },
+    {
+      "name": {
+        "en": "Ytzara, Blood Oracle",
+        "kr": "피의 신탁자 잇자라"
+      }
+    },
+    {
+      "name": {
+        "en": "Zahmir, the Blade Sovereign",
+        "kr": "칼날의 주권자 자미르"
+      }
+    },
+    {
+      "name": {
+        "en": "Zalmarath, the Colossus",
+        "kr": "거상 잘마라트"
+      }
+    },
+    {
+      "name": {
+        "en": "Zar Wali, the Bone Tyrant",
+        "kr": "뼈 폭군 자르 왈리"
+      }
+    },
+    {
+      "name": {
+        "en": "Zarokh, the Temporal",
+        "kr": "시간의 자로크"
+      }
+    },
+    {
+      "name": {
+        "en": "Zealous Courser",
+        "kr": "열띤 추격자"
+      }
+    },
+    {
+      "name": {
+        "en": "Zealous Excavator",
+        "kr": "열띤 발굴자"
+      }
+    },
+    {
+      "name": {
+        "en": "Zealous Guard",
+        "kr": "열띤 수호병"
+      }
+    },
+    {
+      "name": {
+        "en": "Zealous Pillarcrusher",
+        "kr": "열띤 기둥타쇄자"
+      }
+    },
+    {
+      "name": {
+        "en": "Zealous Shockwarden",
+        "kr": "열띤 충격간수"
+      }
+    },
+    {
+      "name": {
+        "en": "Zekoa, the Headcrusher",
+        "kr": "머리박살꾼 제코아"
+      }
+    },
+    {
+      "name": {
+        "en": "Zelina, Blood Priestess",
+        "kr": "피의 여사제 젤리나"
+      }
+    },
+    {
+      "name": {
+        "en": "Zicoatl, Warden of the Core",
+        "kr": "핵의 간수 지코아틀"
+      }
+    },
+    {
+      "name": {
+        "en": "Zolin, Blood Priest",
+        "kr": "피의 사제 졸린"
+      }
+    }
+  ]
+}
