@@ -1,6 +1,40 @@
 {
+  "#% 감폭된 피해를 준 것처럼 적에게 감전 유발": [
+    "Shocks Enemies as though dealing {0}% less Damage"
+  ],
+  "#% 감폭된 피해를 준 것처럼 적을 냉각": [
+    "Chills Enemies as though dealing {0}% less Damage"
+  ],
+  "#% 증폭된 피해를 준 것처럼 적에게 감전 유발": [
+    "Shocks Enemies as though dealing {0}% more Damage"
+  ],
+  "#% 증폭된 피해를 준 것처럼 적을 냉각": [
+    "Chills Enemies as though dealing {0}% more Damage"
+  ],
+  "#% 증폭된 피해를 준 것처럼 적을 동결": [
+    "Freezes enemies as though dealing {0}% more Damage"
+  ],
+  "#%의 확률로 덫이 1회 추가 발동": [
+    "{0}% Chance for Trap to Trigger an additional time"
+  ],
+  "#번 발사": [
+    "Fires {0} times"
+  ],
+  "#의 화염 추가": [
+    "Has {0} Flames"
+  ],
+  "#초 동안 유지되는 저주받은 지대 생성\n저주받은 지대에 있는 적이 이 사술 저주에 걸림\n저주받은 지대는 최대 1개로 제한": [
+    "Creates Cursed Ground for {0} seconds\nEnemies on the Cursed Ground are Cursed with this Hex\nMaximum 1 area of Cursed Ground"
+  ],
+  "#초 동안 지속되는 신성화 지대 생성": [
+    "Create Consecrated Ground lasting {0} seconds"
+  ],
   "#초간 비전 쇄도 지속": [
     "Arcane Surge lasts {0} seconds"
+  ],
+  "#초간 소환수 지속": [
+    "Minions last {0} seconds",
+    "Minions Last {0} seconds"
   ],
   "#초간 신경 자극 지속": [
     "Innervation lasts {0} seconds"
@@ -11,20 +45,38 @@
   "#초마다 광선 발사": [
     "Fires a beam every {0} seconds"
   ],
+  "#초마다 광선이 적 적중": [
+    "Beams Hit Enemies every {0} seconds"
+  ],
   "#초마다 적 타격": [
     "Strikes an Enemy every {0} seconds"
   ],
   "#초마다 칼날비가 떨어져 내림": [
     "A Volley of blades falls every {0} seconds"
   ],
+  "#초마다 투사체 발사": [
+    "Fires projectiles every {0} seconds"
+  ],
   "#초마다 파동": [
     "Pulses every {0} seconds"
+  ],
+  "#초마다 폭풍이 단계 1 획득, 최대 #": [
+    "Storms gain one stage per {0} seconds, up to a maximum of {1}"
   ],
   "#초마다 피해 줌": [
     "Deals Damage every {0} seconds"
   ],
+  "#초마다 한 번만 각 적을 대상으로 지정 가능": [
+    "Can target each enemy only once every {0} seconds"
+  ],
   "#초마다, 그리고 플레이어가 구슬 근처에서 번개 스킬을 사용할 때 타격": [
     "Strikes every {0} seconds, and when you use a Lightning Skill near the Orb"
+  ],
+  "#회 연쇄": [
+    "Chains {0} Times"
+  ],
+  "#회 피격으로 피해를 받거나 지속시간이 만료되면 얼음이 깨짐": [
+    "Ice breaks after you take {0} Damaging Hits or Duration expires"
   ],
   "#회 회전": [
     "Rotates {0} times"
@@ -35,8 +87,41 @@
   "+#회 회전": [
     "Rotates +{0} times"
   ],
+  "1초마다 최대 생명력의 #%를 카오스 피해로 받음": [
+    "You take {0}% of your Maximum Life per second as Chaos Damage"
+  ],
+  "2차 반경 #미터": [
+    "Secondary radius is {0} metres"
+  ],
+  "3차 반경 #미터": [
+    "Tertiary radius is {0} metres"
+  ],
+  "5번째 공격마다 추가 투사체 #개 발사": [
+    "Every fifth Attack fires {0} additional Projectiles"
+  ],
+  "가능할 경우 생명력 플라스크 1개에서 발사한 투사체 하나당 충전 #개 소모": [
+    "Consumes {0} Charges per Projectile Fired from 1 Life Flask, if possible"
+  ],
+  "가능할 경우 생명력 플라스크 1개에서 충전 #개 + 발사한 투사체 하나당 #개 소모": [
+    "Consumes {0} Charges plus {1} per Projectile Fired from 1 Life Flask, if possible"
+  ],
+  "가능할 경우 생명력 플라스크 1개에서 충전 #개 소모": [
+    "Consumes {0} Charges from 1 Life Flask, if possible"
+  ],
+  "가능할 경우 생명력 플라스크 1개와 유황 플라스크 1개에서 충전 #개 소모": [
+    "Consumes {0} Charges from 1 Life Flask and 1 Sulphur Flask, if possible"
+  ],
   "가시 +#개 생성": [
     "Creates +{0} Spikes"
+  ],
+  "가시 최대치 #": [
+    "Maximum {0} Spikes"
+  ],
+  "가시 최대치 +#": [
+    "+{0} Maximum Spikes"
+  ],
+  "각 포자 주머니가 가시 화살 +#개 발사": [
+    "Each Spore Pod fires +{0} Thorn Arrows"
   ],
   "간헐천 #개 생성": [
     "Creates {0} geysers"
@@ -50,6 +135,21 @@
   "거대한 갑충석 #개 추가 등장": [
     "Contains {0} additional Titanic Scarabs"
   ],
+  "격노 폭풍 최대 #개": [
+    "Maximum {0} Ragestorms"
+  ],
+  "격렬함 하나당 광선 폭 +#미터\n격렬함 하나당 갈라지는 각도 33% 감폭": [
+    "+{0} metres to Beam Width Per Intensity\n33% less branching angle per Intensity"
+  ],
+  "격발 기본 반경 #미터": [
+    "Burst Base radius is {0} metres"
+  ],
+  "격발 반경 #미터": [
+    "Burst radius is {0} metres"
+  ],
+  "격분 주입이 #초 동안 유지": [
+    "Feeding Frenzy lasts {0} seconds"
+  ],
   "결전 갑충석 #개 추가 등장": [
     "Contains {0} additional Ultimatum Scarabs"
   ],
@@ -58,6 +158,15 @@
   ],
   "경작지당 농부 최대 #명": [
     "{0} Maximum Farmers per Plot"
+  ],
+  "고르의 굶주림 기본 지속시간 #초": [
+    "Hunger of Ghorr base duration is {0} seconds"
+  ],
+  "고르의 굶주림 지속시간 #초": [
+    "Hunger of Ghorr duration is {0} seconds"
+  ],
+  "고르의 굶주림이 #초마다 살점 난도 발동": [
+    "Hunger of Ghorr triggers Fleshrend every {0} seconds"
   ],
   "고유 몬스터 처치 시 이계 포탈 #개가 추가로 생성됨": [
     "Unique Monsters spawn {0} additional Beyond Portals when Slain"
@@ -71,14 +180,41 @@
   "고통 갑충석 #개 추가 등장": [
     "Contains {0} additional Torment Scarabs"
   ],
+  "공격 속도 #% 감소": [
+    "Grants {0}% reduced Attack Speed"
+  ],
+  "공격 속도 #% 증가": [
+    "Grants {0}% increased Attack Speed"
+  ],
+  "공물 효과 #% 감소": [
+    "{0}% reduced Effect of Offering"
+  ],
+  "공물 효과 #% 증가": [
+    "{0}% increased Effect of Offering"
+  ],
+  "공중에 뜬 투사체 최대 #개": [
+    "Maximum {0} hovering Projectiles"
+  ],
   "공허석에 적용하는 육분의 #회 추가 사용": [
     "Sextants you apply to your Voidstones have {0} additional uses"
   ],
   "광부 최대 #명": [
     "{0} Maximum Miners"
   ],
+  "광선 #회 연쇄": [
+    "Beams Chain {0} Times"
+  ],
+  "광선이 #미터 반경 내의 대상들을 향해 분할": [
+    "Beams Split towards targets within a radius of {0} metres"
+  ],
+  "광선이 #미터의 기본 반경 내의 대상들을 향해 분할": [
+    "Beams Split towards targets within a base radius of {0} metres"
+  ],
   "광선이 #초마다 적 적중": [
     "Beams Hit Enemies every {0} seconds"
+  ],
+  "광선이 추가 대상 #개를 향해 분할": [
+    "Beam Splits towards {0} additional targets"
   ],
   "구슬 근처에서 번개 스킬을 집중 유지하는 동안 #초마다 타격": [
     "Strikes every {0} seconds while Channelling a Lightning Skill near the Orb"
@@ -89,8 +225,22 @@
   "군단 인카운터에 병장 #마리 추가 등장": [
     "Legion Encounters contain {0} additional Sergeants"
   ],
+  "권능 충전을 쓰면 신성한 망치를 추가로 #개 떨어뜨림": [
+    "Call down {0} additional Holy Hammers when expending a Power Charge"
+  ],
+  "균열 #개 생성": [
+    "Creates {0} fissures",
+    "Creates {0} Fissure",
+    "Creates {0} Fissures"
+  ],
+  "균열 +#개 생성": [
+    "Creates +{0} fissures"
+  ],
   "균열 갑충석 #개 추가 등장": [
     "Contains {0} additional Breach Scarabs"
+  ],
+  "근접 명중 시 #초 동안 적 제명": [
+    "Excommunicate Enemies on Melee Hit for {0} seconds"
   ],
   "근접 타격 범위 +#미터": [
     "+{0} metre to Melee Strike Range"
@@ -101,8 +251,65 @@
   "기동된 무기 최대 #개": [
     "Maximum {0} Animated Weapons"
   ],
+  "기동된 무기 최대치 +#개": [
+    "+{0} to maximum number of Animated Weapons"
+  ],
+  "기본 2차 반경 #미터": [
+    "Base secondary radius is {0} metres"
+  ],
+  "기본 3차 반경 #미터": [
+    "Base tertiary radius is {0} metres"
+  ],
+  "기본 내파 반경 #미터": [
+    "Base implosion radius is {0} metres"
+  ],
+  "기본 대상 지정 범위 길이 #미터": [
+    "Base targeting area length is {0} metres"
+  ],
+  "기본 대상 지정 범위 폭 #미터": [
+    "Base targeting area width is {0} metres"
+  ],
+  "기본 망치 충격 반경 #미터": [
+    "Base Hammer impact radius is {0} metres"
+  ],
+  "기본 반경 #미터": [
+    "Base radius is {0} metres"
+  ],
+  "기본 사격 공세 반경 #미터": [
+    "Base Volley radius is {0} metres"
+  ],
+  "기본 오라 반경 #미터": [
+    "Base Aura radius is {0} metres"
+  ],
+  "기본 원 반경 1미터\n단계 하나당 원 반경 +#미터\n총 원 반경이 9미터가 되면 집중 유지 정지": [
+    "Base Circle Radius is 1 metre\n+{0} metres to Circle Radius per Stage\nChannelling stops when Total Circle Radius reaches 9 metres"
+  ],
   "기본 지속시간 #초": [
     "Base duration is {0} seconds"
+  ],
+  "기본 충격 반경 #미터": [
+    "Impact Base radius is {0} metres"
+  ],
+  "기본 칼날 반경 #미터": [
+    "Base Blade radius is {0} metres"
+  ],
+  "기본 파장 길이 #미터": [
+    "Base wave length is {0} metres"
+  ],
+  "기본 파장 폭 #미터": [
+    "Base wave width is {0} metres"
+  ],
+  "기본 폭발 반경 #미터": [
+    "Base explosion radius is {0} metres"
+  ],
+  "기본적으로 사용 불가\n명중을 막아낼 시 #초 동안 한 번 사용 가능": [
+    "Cannot be used by default\nBecomes Usable once for {0} seconds when you Block a Hit"
+  ],
+  "기본적으로 사용 불가\n야만적인 타격에 피격 시 #초 동안 한 번 사용 가능": [
+    "Cannot be used by default\nBecomes Usable once for {0} seconds when you take a Savage Hit"
+  ],
+  "기본적으로 사용 불가\n적에게 여섯 번 피격된 후 #초 동안 한 번 사용 가능": [
+    "Cannot be used by default\nBecomes Usable once for {0} seconds after being Hit six times by Enemies"
   ],
   "기세 하나당 보조 대상 스킬의 공격 속도 #% 감소": [
     "Supported Skills have {0}% reduced Attack Speed per Trauma"
@@ -112,6 +319,27 @@
   ],
   "기타 갑충석 #개 추가 등장": [
     "Contains {0} additional Miscellaneous Scarabs"
+  ],
+  "꽂힌 화살 최대치 #개": [
+    "Maximum {0} stuck arrows"
+  ],
+  "낙인 하나당 손 #개 생성": [
+    "Creates {0} Hands per Brand"
+  ],
+  "날아가는 동안 소용돌이 모양으로 파편 투사체 #개 발사 후 소멸": [
+    "Fires {0} Shard Projectiles in a Spiral while flying, then ends"
+  ],
+  "낮은 생명력 상태의 적에 대한 명중 및 상태 이상 피해 #% 감폭": [
+    "{0}% less Damage with Hits and Ailments against Enemies on Low Life"
+  ],
+  "낮은 생명력 상태의 적에 대한 명중 및 상태 이상 피해 #% 증폭": [
+    "{0}% more Damage with Hits and Ailments against Enemies on Low Life"
+  ],
+  "내파 반경 #미터": [
+    "Implosion radius is {0} metres"
+  ],
+  "냉각 지역 최대 #개 보유 가능": [
+    "Can have up to {0} Chilling Areas"
   ],
   "냉기 피해 #~# 추가": [
     "{0} to {1} Added Cold Damage"
@@ -125,6 +353,43 @@
   "다음 지역에서 플레이어의 이동 속도 #% 증가": [
     "Players in the next Area will have {0}% increased Movement Speed"
   ],
+  "단계 하나당 반경 +#미터": [
+    "+{0} metres to radius per Stage"
+  ],
+  "단계 하나당 반경 +#미터, 최대 +#미터": [
+    "+{0} metres to radius per stage, up to a maximum of +{1} metre",
+    "+{0} metre to radius per stage, up to a maximum of +{1} metres",
+    "+{0} metres to radius per stage, up to a maximum of +{1} metres"
+  ],
+  "단계당 공격 속도 #% 감폭": [
+    "{0}% less Attack Speed for each Stage"
+  ],
+  "단계당 공격 속도 #% 증폭": [
+    "{0}% more Attack Speed for each Stage"
+  ],
+  "대상 지정 범위 길이 #미터": [
+    "Targeting area length is {0} metres"
+  ],
+  "대상 지정 범위 폭 #미터": [
+    "Targeting area width is {0} metres"
+  ],
+  "대상 하나당 빛의 고리 최대 #개": [
+    "Maximum of {0} Rings of Light per target"
+  ],
+  "대상에 근접한 적 최대 #명 추가 명중": [
+    "Hits up to {0} additional enemies near the target"
+  ],
+  "대상을 명중한 폭발 화살 하나당 폭발 반경 +#미터": [
+    "+{0} metres to Explosion Radius per Explosive Arrow on Target"
+  ],
+  "대상을 명중한 폭발 화살 하나당 폭발 반경 +#미터, 최대 +#미터": [
+    "+{0} metres to Explosion Radius per Explosive Arrow on Target, up to a maximum of +{1} metre",
+    "+{0} metre to Explosion Radius per Explosive Arrow on Target, up to a maximum of +{1} metres",
+    "+{0} metres to Explosion Radius per Explosive Arrow on Target, up to a maximum of +{1} metres"
+  ],
+  "더 강한 파동 반경 +#미터": [
+    "Stronger Pulses have +{0} metres to radius"
+  ],
   "덫 지속시간 #% 감소": [
     "{0}% reduced Trap duration"
   ],
@@ -133,6 +398,39 @@
   ],
   "동결 면역": [
     "Cannot be Frozen"
+  ],
+  "동결 불가": [
+    "Cannot Freeze"
+  ],
+  "두 번째 고리 기본 폭발 반경 #미터": [
+    "Second Ring base explosion radius is {0} metres"
+  ],
+  "두 번째 고리 폭발 반경 #미터": [
+    "Second Ring explosion radius is {0} metres"
+  ],
+  "따개비 물어뜯음 기본 반경 #미터": [
+    "Barnacle Snap base radius is {0} metres"
+  ],
+  "따개비 물어뜯음 반경 #미터": [
+    "Barnacle Snap radius is {0} metres"
+  ],
+  "따개비 최대치 #": [
+    "Maximum {0} Barnacles"
+  ],
+  "또한 자신의 양옆 최대 #개 지점에서 투사체 발사": [
+    "Also fires Projectiles from up to {0} points on each side of you"
+  ],
+  "루비, 사파이어, 토파즈 플라스크의 충전 소모 가능\n가능할 경우 종류별 플라스크 1개에서 발사한 투사체 하나당 충전 #개씩 소모": [
+    "Can consume Charges from Ruby, Sapphire, and Topaz Flasks\nConsumes {0} Charges per Projectile Fired from 1 Flask of each valid type, if possible"
+  ],
+  "루비, 사파이어, 토파즈 플라스크의 충전 소모 가능\n가능할 경우 종류별 플라스크 1개에서 충전 #개 + 발사한 투사체 하나당 #개 소모": [
+    "Can consume Charges from Ruby, Sapphire, and Topaz Flasks\nConsumes {0} Charges plus {1} per Projectile Fired from 1 Flask of each valid type, if possible"
+  ],
+  "루비, 사파이어, 토파즈 플라스크의 충전 소모 가능\n가능할 경우 종류별 플라스크 1개에서 충전 #개씩 소모": [
+    "Can consume Charges from Ruby, Sapphire, and Topaz Flasks\nConsumes {0} Charges from 1 Flask of each valid type, if possible"
+  ],
+  "루비, 사파이어, 토파즈, 유황 플라스크의 충전 소모 가능\n가능할 경우 종류별 플라스크 1개에서 충전 #개씩 소모": [
+    "Can consume Charges from Ruby, Sapphire, Topaz, and Sulphur Flasks\nConsumes {0} Charges from 1 Flask of each valid type, if possible"
   ],
   "마법 아이템 #개 추가": [
     "Contains {0} additional Magic Items"
@@ -464,18 +762,58 @@
   "망령 최대치 +#": [
     "+{0} to Maximum number of Spectres"
   ],
+  "망치 낙하 1회당 신성한 망치를 #개 떨어뜨림": [
+    "Call down {0} Holy Hammers per Hammerfall"
+  ],
+  "망치 충격 반경 #미터": [
+    "Hammer impact radius is {0} metres"
+  ],
   "매복 갑충석 #개 추가 등장": [
     "Contains {0} additional Ambush Scarabs"
+  ],
+  "명중 시 #%의 확률로 인내 충전 획득": [
+    "{0}% chance to grant an Endurance Charge on Hit"
   ],
   "명중 시 #%의 확률로 적 실명 유발": [
     "{0}% chance to Blind enemies on hit",
     "{0}% chance to Blind Enemies on Hit"
   ],
+  "명중 시 #%의 확률로 적을 밀어냄": [
+    "{0}% chance to Knock enemies Back on Hit"
+  ],
+  "명중 시 2초 동안 위축 유발": [
+    "Inflicts Withered for 2 seconds on Hit"
+  ],
+  "명중 시 적 실명 유발": [
+    "Blind enemies on hit"
+  ],
+  "명중 시 적을 밀어냄": [
+    "Knocks enemies Back on Hit"
+  ],
+  "명중 시 전투 돌격 획득\n전투 돌격은 #초 혹은 이동 전용 스킬을 쓰기 전까지 지속": [
+    "Grants Combat Rush on Hit\nCombat Rush lasts {0} seconds or until you use a Travel Skill"
+  ],
+  "명중 시 화염, 냉기, 번개 노출 유발": [
+    "Inflicts Fire, Cold, and Lightning Exposure on Hit"
+  ],
+  "명중당한 적 최대 #마리에게 신성한 망치를 떨어뜨림": [
+    "Call down Holy Hammers on up to {0} enemies struck"
+  ],
+  "명중하여 피해를 줄 경우 생명력이 최대인 적을 항상 기절시킴": [
+    "Damaging Hits always Stun Enemies that are on Full Life"
+  ],
   "명중한 적 하나당 마나 # 획득": [
     "Gain {0} Mana per Enemy Hit"
   ],
+  "명중한 적 하나당 생명력 # 상실": [
+    "Lose {0} Life for each Enemy Hit"
+  ],
   "명중한 적 하나당 생명력 # 획득": [
-    "Gain {0} Life per Enemy Hit"
+    "Gain {0} Life per Enemy Hit",
+    "Gain {0} Life for each Enemy Hit"
+  ],
+  "모두 발사할 때까지 한 번에 파편 #개 발사": [
+    "Fires {0} Shards at a time until all fired"
   ],
   "모든 물리 피해를 화염 피해로 전환": [
     "Converts all Physical Damage to Fire Damage"
@@ -516,11 +854,44 @@
   "무리 규모 #% 증가": [
     "{0}% increased Pack size"
   ],
+  "물리 피해의 #%를 무작위 원소 피해로 전환": [
+    "Converts {0}% of Physical Damage to a random Element"
+  ],
+  "물리 피해의 #%를 추가 카오스 피해로 획득": [
+    "Gain {0}% of your Physical Damage as Extra Chaos Damage"
+  ],
+  "물리 피해의 #%를 추가 화염 피해로 획득": [
+    "Gain {0}% of your Physical Damage as Extra Fire Damage"
+  ],
+  "반경 #미터": [
+    "Radius is {0} metres"
+  ],
+  "반경 +#미터": [
+    "+{0} metres to radius"
+  ],
+  "받는 피해 #% 감폭": [
+    "{0}% less Damage taken"
+  ],
+  "받는 피해 #% 증폭": [
+    "{0}% more Damage taken"
+  ],
   "발견하는 1~15등급 지도가 #%의 확률로 1등급 높게 떨어짐": [
     "Tier 1-15 Maps found have {0}% chance to be 1 tier higher"
   ],
+  "방문하는 비전의 선구자 최대 #명": [
+    "Maximum {0} Visiting Harbingers of the Arcane"
+  ],
+  "방문하는 시간의 선구자 최대 #명": [
+    "Maximum {0} Visiting Harbingers of Time"
+  ],
+  "방문하는 집중의 선구자 최대 #명": [
+    "Maximum {0} Visiting Harbingers of Focus"
+  ],
   "배신 갑충석 #개 추가 등장": [
     "Contains {0} additional Betrayal Scarabs"
+  ],
+  "버프 시 3초마다 플라스크 # 충전": [
+    "Buff grants {0} Flask Charges every 3 seconds"
   ],
   "버프 시 추가 꿰뚫기 # 부여": [
     "Buff grants {0} additional Impales"
@@ -531,6 +902,14 @@
   "번개 피해 #~# 추가": [
     "{0} to {1} Added Lightning Damage"
   ],
+  "번개가 #미터 내의 대상 #개 타격": [
+    "Lightning strikes {1} target within {0} metres",
+    "Lightning strikes {1} targets within {0} metre",
+    "Lightning strikes {1} targets within {0} metres"
+  ],
+  "번개가 +#미터 내의 대상 타격": [
+    "Lightning strikes targets within +{0} metres"
+  ],
   "번개가 주입된 분신 #개 생성": [
     "Creates {0} Lightning-Imbued Clones"
   ],
@@ -539,6 +918,12 @@
   ],
   "범위 내 냉각 또는 동결된 추가 대상 최대 #명에게 박격포 발사": [
     "Fires mortars at up to {0} additional Chilled or Frozen targets in range"
+  ],
+  "범위 내 대상 최대 #명에게 사슬 투척": [
+    "Throws Chains at up to {0} targets in range"
+  ],
+  "벽이 투사체 #회 충돌 후 파괴됨": [
+    "Wall is destroyed after {0} Projectile collisions"
   ],
   "보조 대상 공격이 적을 최초 명중할 때 외상 1 획득\n보조 대상 스킬로 인해 외상을 획득하면 외상 하나당 #의 물리 피해를 받음\n외상 #초 지속": [
     "Gain 1 Trauma the first time a Supported Attack Hits an Enemy\nTake {0} Physical Damage per Trauma when you gain Trauma from Supported Skills\nTrauma lasts {1} seconds"
@@ -636,11 +1021,23 @@
   "보조 대상 함성이 #초 동안 지속되는 신성화 지대 생성": [
     "Supported Warcries create Consecrated Ground lasting {0} seconds"
   ],
+  "보조 장비 기본 반경 #미터": [
+    "Off Hand Base radius is {0} metres"
+  ],
+  "보조 장비 반경 #미터": [
+    "Off Hand radius is {0} metres"
+  ],
+  "보주 최대 #개": [
+    "Maximum {0} orbs"
+  ],
   "부가 투사체 #개 발사": [
     "Fires {0} secondary Projectiles"
   ],
   "부가 투사체 +#개 발사": [
     "Fires +{0} secondary Projectiles"
+  ],
+  "붙잡은 투사체 최대 +#개": [
+    "Maximum +{0} caught Projectiles"
   ],
   "비-즉시 시전 보조 대상 스킬의 재사용 횟수 +#회": [
     "Supported Non-Instant Skills have +{0} Cooldown Uses"
@@ -651,24 +1048,90 @@
   "비고정 속성 부여 규모 #% 증가": [
     "{0}% increased explicit modifier magnitudes"
   ],
+  "빛의 고리 최대 #개": [
+    "Maximum {0} Rings of Light"
+  ],
   "뼈 첨탑 #개 생성": [
     "Creates {0} Bone Spires"
   ],
   "뼈 첨탑 최대 #개": [
     "Maximum {0} Bone Spires"
   ],
+  "사격 공세 반경 #미터": [
+    "Volley radius is {0} metres"
+  ],
+  "사냥감에 대한 소환수의 치명타 피해 배율 +#%": [
+    "Minion has +{0}% to Critical Strike Multiplier against the Prey"
+  ],
+  "사냥감에 대한 소환수의 치명타 확률 #% 감소": [
+    "Minion has {0}% reduced Critical Strike Chance against the Prey"
+  ],
+  "사냥감에 대한 소환수의 치명타 확률 #% 증가": [
+    "Minion has {0}% increased Critical Strike Chance against the Prey"
+  ],
+  "사술에 걸린 적 사망 시 보조 대상 스킬로 건 사술이 #미터 내의 모든 적에게 전이": [
+    "Hexes from Supported Skills Transfer to all Enemies within {0} metres when Hexed Enemy dies"
+  ],
   "사용 횟수 #회 남음": [
     "{0} uses remaining"
+  ],
+  "살아 있는 번개 소환수 #마리 소환": [
+    "Summons {0} Living Lightning Minions"
+  ],
+  "살아 있는 번개 소환수가 사라지기 전에 #번 공격": [
+    "Living Lightning Minions Attack {0} times before dissipating"
+  ],
+  "살아 있는 번개 소환수가 사라지기 전에 +#번 공격": [
+    "Living Lightning Minions Attack +{0} times before dissipating"
+  ],
+  "상태 이상 피해 #% 감폭": [
+    "Deals {0}% less Damage with Ailments"
+  ],
+  "상태 이상 피해 #% 증폭": [
+    "Deals {0}% more Damage with Ailments"
   ],
   "생명력 전환 #초간 지속": [
     "Lifetap lasts {0} seconds"
   ],
+  "생성하는 포자 주머니 +#개": [
+    "Creates +{0} Spore Pods"
+  ],
+  "석궁병 #마리 소환": [
+    "Summons {0} Arbalists"
+  ],
   "선박 #척": [
     "{0} Ships"
+  ],
+  "세 번째 고리 기본 폭발 반경 #미터": [
+    "Third Ring base explosion radius is {0} metres"
+  ],
+  "세 번째 고리 폭발 반경 #미터": [
+    "Thrid Ring explosion radius is {0} metres"
+  ],
+  "소규모 폭발 +#회 발생": [
+    "Causes +{0} smaller explosions"
+  ],
+  "소규모 폭발 기본 반경 #미터": [
+    "Base smaller explosion radius is {0} metres"
+  ],
+  "소규모 폭발 반경 #미터": [
+    "Smaller explosion radius is {0} metres"
+  ],
+  "소모한 격노 #당 격노 폭풍 반경 +#미터": [
+    "Ragestorm has +{1} metres to radius per {0} Rage sacrificed"
   ],
   "소환 가능한 좀비 최대치 +#": [
     "+{0} to Maximum Raised Zombies",
     "+{0} to Maximum number of Raised Zombies"
+  ],
+  "소환되는 신기루 구원자 최대치 #": [
+    "Maximum {0} Summoned Mirage Saviours"
+  ],
+  "소환되는 신기루 궁수 최대치 #명": [
+    "Maximum {0} Summoned Mirage Archers"
+  ],
+  "소환되는 신기루 전사 최대치 +#": [
+    "Maximum +{0} Summoned Mirage Warriors"
   ],
   "소환된 격노의 유령 최대치 #": [
     "Maximum {0} Summoned Raging Spirits"
@@ -679,11 +1142,243 @@
   "소환된 공허 유충 최대 #마리": [
     "Maximum {0} Summoned Void Spawns"
   ],
+  "소환된 복제물 최대 #개": [
+    "Maximum {0} Summoned Doubles"
+  ],
   "소환된 수확자 최대 #마리": [
     "Maximum {0} Summoned Reapers"
   ],
+  "소환된 영체 늑대 최대 #마리": [
+    "Maximum {0} Summoned Spectral Wolves"
+  ],
+  "소환된 영체 호랑이 최대 #마리": [
+    "Maximum {0} Summoned Spectral Tigers"
+  ],
   "소환된 해골 최대 #마리": [
     "Maximum {0} Summoned Skeletons"
+  ],
+  "소환수 또한 그들의 양옆 최대 #개 지점에서 투사체 발사": [
+    "Minions fire Projectiles from up to {0} points on each side of them"
+  ],
+  "소환수가 #% 감폭된 추가 피해 획득": [
+    "Minion gains {0}% less Added Damage"
+  ],
+  "소환수가 #% 감폭된 피해를 준 것처럼 적에게 감전 유발": [
+    "Minion Shocks Enemies as though dealing {0}% less Damage"
+  ],
+  "소환수가 #% 증폭된 추가 피해 획득": [
+    "Minion gains {0}% more Added Damage"
+  ],
+  "소환수가 #% 증폭된 피해를 준 것처럼 적에게 감전 유발": [
+    "Minion Shocks Enemies as though dealing {0}% more Damage"
+  ],
+  "소환수가 1초마다 기본 반경 #미터 내의 적에게 해당 소환수의 최대 생명력의 #%와 동일한 화염 피해를 줌": [
+    "Minion deals Fire Damage equal to {1}% of its maximum Life per Second to Enemies in a Base radius of {0} metres"
+  ],
+  "소환수가 1초마다 자신의 최대 생명력의 #%를 화염 피해로 받음": [
+    "Minion takes {0}% of its Maximum Life as Fire Damage per second"
+  ],
+  "소환수가 명중 시 생명력의 #% 회복": [
+    "Minion Recovers {0}% of Life on Hit"
+  ],
+  "소환수가 물리 피해의 #%를 냉기 피해로 전환": [
+    "Minion Converts {0}% of Physical Damage to Cold Damage"
+  ],
+  "소환수가 물리 피해의 #%를 추가 카오스 피해로 획득": [
+    "Minions gain {0}% of their Physical Damage as Extra Chaos Damage"
+  ],
+  "소환수가 물리 피해의 #%를 카오스 피해로 전환": [
+    "Minion Converts {0}% of Physical Damage to Chaos Damage"
+  ],
+  "소환수가 물리 피해의 #%를 화염 피해로 전환": [
+    "Minion Converts {0}% of Physical Damage to Fire Damage"
+  ],
+  "소환수가 발사하는 투사체가 #미터 내의 모든 대상 관통": [
+    "Projectiles Fired by Minions Pierce all Targets within {0} metres"
+  ],
+  "소환수가 사냥감에게 주는 명중 및 상태 이상 피해 #% 감폭": [
+    "Minion deals {0}% less Damage to the Prey with Hits and Ailments"
+  ],
+  "소환수가 사냥감에게 주는 명중 및 상태 이상 피해 #% 증폭": [
+    "Minion deals {0}% more Damage to the Prey with Hits and Ailments"
+  ],
+  "소환수가 소환된 후 #초 동안 피해 면역": [
+    "Minions can't be Damaged for {0} seconds after being Summoned"
+  ],
+  "소환수가 원소 피해의 #%를 생명력으로 흡수": [
+    "Minion Leeches {0}% of Elemental Damage as Life"
+  ],
+  "소환수가 유발하는 상태 이상 지속시간 #% 감소": [
+    "{0}% reduced Duration of Ailments inflicted by Minion"
+  ],
+  "소환수가 유발하는 상태 이상 지속시간 #% 감폭": [
+    "{0}% less Duration of Ailments inflicted by Minion"
+  ],
+  "소환수가 유발하는 상태 이상 지속시간 #% 증가": [
+    "{0}% increased Duration of Ailments inflicted by Minion"
+  ],
+  "소환수가 유발하는 상태 이상 지속시간 #% 증폭": [
+    "{0}% more Duration of Ailments inflicted by Minion"
+  ],
+  "소환수가 유발하는 상태 이상 피해 #%만큼 가속": [
+    "Damaging Ailments inflicted by Minion deal damage {0}% faster"
+  ],
+  "소환수가 유발한 위축의 기본 지속시간 #초": [
+    "Withered inflicted by Minions has a base duration of {0} seconds"
+  ],
+  "소환수가 적 도발 불가": [
+    "Minion cannot Taunt Enemies"
+  ],
+  "소환수가 주는 물리 피해 #% 감폭": [
+    "Minion deals {0}% less Physical Damage"
+  ],
+  "소환수가 주는 물리 피해 #% 증폭": [
+    "Minion deals {0}% more Physical Damage"
+  ],
+  "소환수가 주는 원소 피해 #% 감폭": [
+    "Minion deals {0}% less Elemental Damage"
+  ],
+  "소환수가 주는 원소 피해 #% 증폭": [
+    "Minion deals {0}% more Elemental Damage"
+  ],
+  "소환수가 주는 지속 피해 #% 감소": [
+    "Minion deals {0}% reduced Damage over Time"
+  ],
+  "소환수가 주는 지속 피해 #% 증가": [
+    "Minion deals {0}% increased Damage over Time"
+  ],
+  "소환수가 주는 최대 공격 피해 #% 감폭": [
+    "Minion deals {0}% less Maximum Attack Damage"
+  ],
+  "소환수가 주는 최대 공격 피해 #% 증폭": [
+    "Minion deals {0}% more Maximum Attack Damage"
+  ],
+  "소환수가 주는 최소 공격 피해 #% 감폭": [
+    "Minion deals {0}% less Minimum Attack Damage"
+  ],
+  "소환수가 주는 최소 공격 피해 #% 증폭": [
+    "Minion deals {0}% more Minimum Attack Damage"
+  ],
+  "소환수가 주는 피해 #% 감폭": [
+    "Minion deals {0}% less Damage"
+  ],
+  "소환수가 주는 피해 #% 증폭": [
+    "Minion deals {0}% more Damage"
+  ],
+  "소환수가 주변의 적에게 1초마다 #의 기본 화염 피해를 줌": [
+    "Minion deals {0} Base Fire Damage per second to Enemies near it"
+  ],
+  "소환수가 추가 투사체 #개 발사": [
+    "Minions fire {0} additional Projectiles"
+  ],
+  "소환수가 피해의 #%를 생명력으로 흡수": [
+    "Grants Minions {0}% of Damage Leeched as Life",
+    "Minion Leeches {0}% of Damage as Life"
+  ],
+  "소환수가 항상 사냥감을 대상으로 삼음": [
+    "Minion always targets the Prey if possible"
+  ],
+  "소환수가 희귀 또는 고유 적 명중 시 #%의 확률로 광란 처치 획득": [
+    "{0}% chance to gain a Rampage Kill when Minions Hit a Rare or Unique Enemy"
+  ],
+  "소환수가 희귀 또는 고유 적 명중 시 광란 처치 획득": [
+    "Gain a Rampage Kill when Minions Hit a Rare or Unique Enemy"
+  ],
+  "소환수의 공격 및 시전 속도 #% 감소": [
+    "Minion has {0}% reduced Attack and Cast Speed"
+  ],
+  "소환수의 공격 및 시전 속도 #% 증가": [
+    "Minion has {0}% increased Attack and Cast Speed"
+  ],
+  "소환수의 공격 속도 #% 감소": [
+    "Grants Minions {0}% reduced Attack Speed"
+  ],
+  "소환수의 공격 속도 #% 감폭": [
+    "Minion has {0}% less Attack Speed"
+  ],
+  "소환수의 공격 속도 #% 증가": [
+    "Grants Minions {0}% increased Attack Speed"
+  ],
+  "소환수의 공격 속도 #% 증폭": [
+    "Minion has {0}% more Attack Speed"
+  ],
+  "소환수의 공격 피해 막기 확률 +#%": [
+    "Grants Minions +{0}% Chance to Block Attack Damage"
+  ],
+  "소환수의 근접 타격 범위 +#미터": [
+    "+{0} metres to Minion Melee Strike Range"
+  ],
+  "소환수의 레벨이 플레이어의 레벨과 동일": [
+    "Minion's Level is equal to yours"
+  ],
+  "소환수의 레벨이 플레이어의 레벨과 동일, 최대 #레벨": [
+    "Minion's Level is equal to yours, up to a maximum of {0}"
+  ],
+  "소환수의 스킬로 최근 4초 이내 유발한 점화 하나당 해당 스킬로 주는 점화 피해 #% 감폭": [
+    "Minion's Skills deal {0}% less Damage with Ignite for each Ignite inflicted with that Skill Recently"
+  ],
+  "소환수의 스킬로 최근 4초 이내 유발한 점화 하나당 해당 스킬로 주는 점화 피해 #% 증폭, 최대 #%": [
+    "Minion's Skills deal {0}% more Damage with Ignite for each Ignite inflicted with that Skill Recently, up to a maximum of {1}%"
+  ],
+  "소환수의 스킬로 최근 4초 이내 유발한 점화 하나당 해당 스킬로 주는 피해 #% 감폭, 최대 #%": [
+    "Minion's Skills deal {0}% less Damage for each Ignite inflicted with that Skill Recently, up to a maximum of {1}%"
+  ],
+  "소환수의 스킬로 최근 4초 이내 유발한 점화 하나당 해당 스킬로 주는 피해 #% 증폭": [
+    "Minion's Skills deal {0}% more Damage for each Ignite inflicted with that Skill Recently"
+  ],
+  "소환수의 시전 속도 #% 감소": [
+    "Grants Minions {0}% reduced Cast Speed"
+  ],
+  "소환수의 시전 속도 #% 증가": [
+    "Grants Minions {0}% increased Cast Speed"
+  ],
+  "소환수의 이동 속도 #% 감소": [
+    "Grants Minions {0}% reduced Movement Speed"
+  ],
+  "소환수의 이동 속도 #% 증가": [
+    "Grants Minions {0}% increased Movement Speed"
+  ],
+  "소환수의 주문 피해 막기 확률 +#%": [
+    "Grants Minions +{0}% Chance to Block Spell Damage"
+  ],
+  "소환수의 지속시간 #% 감폭": [
+    "Minion has {0}% less Duration"
+  ],
+  "소환수의 지속시간 #% 증폭": [
+    "Minion has {0}% more Duration"
+  ],
+  "소환수의 최대 생명력 #": [
+    "Minion has {0} Maximum Life"
+  ],
+  "소환수의 최대 생명력 #% 감폭": [
+    "Minions have {0}% less Maximum Life"
+  ],
+  "소환수의 최대 생명력 #% 증폭": [
+    "Minions have {0}% more Maximum Life"
+  ],
+  "소환수의 최후의 일격 시 시체를 소모해 마나 # 회복": [
+    "Minion's Killing Blows Consume corpses to Recover {0} Mana"
+  ],
+  "소환수의 최후의 일격 시 시체를 소모해 생명력 # 및 마나 # 회복": [
+    "Minion's Killing Blows Consume corpses to Recover {0} Life and {1} Mana"
+  ],
+  "소환수의 최후의 일격 시 시체를 소모해 생명력 # 회복": [
+    "Minion's Killing Blows Consume corpses to Recover {0} Life"
+  ],
+  "소환수의 치명타 피해 배율 +#%": [
+    "Grants Minions +{0}% to Critical Strike Multiplier"
+  ],
+  "소환수의 치명타 확률 #% 감소": [
+    "Grants Minions {0}% reduced Critical Strike Chance"
+  ],
+  "소환수의 치명타 확률 #% 증가": [
+    "Grants Minions {0}% increased Critical Strike Chance"
+  ],
+  "소환수의 카오스 저항 +#%": [
+    "Grants Minions +{0}% to Chaos Resistance"
+  ],
+  "소환수의 화상 효과 범위 +#미터": [
+    "Minions have +{0} metres to Radius of their Burning Effect"
   ],
   "소환한 망령 최대 #마리": [
     "Maximum {0} Raised Spectres"
@@ -703,11 +1398,50 @@
   "수확 갑충석 #개 추가 등장": [
     "Contains {0} additional Harvest Scarabs"
   ],
+  "수확자의 영향으로 플레이어의 비-수확자 소환수가 주는 피해 #% 감폭": [
+    "Reaper causes your Non-Reaper Minions to deal {0}% less Damage"
+  ],
+  "수확자의 영향으로 플레이어의 비-수확자 소환수가 주는 피해 #% 증폭": [
+    "Reaper causes your Non-Reaper Minions to deal {0}% more Damage"
+  ],
+  "수확자의 영향으로 플레이어의 비-수확자 소환수의 최대 생명력 #% 감폭": [
+    "Reaper causes your Non-Reaper Minions to have {0}% less Maximum Life"
+  ],
+  "수확자의 영향으로 플레이어의 비-수확자 소환수의 최대 생명력 #% 증폭": [
+    "Reaper causes your Non-Reaper Minions to have {0}% more Maximum Life"
+  ],
   "스컬지의 전령 처치 시 제안 보상 최대 #개 무작위로 복제": [
     "Duplicates up to {0} random Offer Rewards upon defeating the Herald of the Scourge"
   ],
+  "승급한 면죄의 파수꾼 최대 #마리\n승급한 파수꾼은 일반 파수꾼 제한에 미포함": [
+    "Maximum {0} Ascended Sentinels of Absolution\nAscended Sentinels do not count towards the regular limit"
+  ],
+  "승급한 지배의 파수꾼 최대 #마리\n승급한 파수꾼은 일반 파수꾼 제한에 미포함": [
+    "Maximum {0} Ascended Sentinels of Dominance\nAscended Sentinels do not count towards the regular limits"
+  ],
+  "시전 속도 #% 감소": [
+    "Grants {0}% reduced Cast Speed"
+  ],
+  "시전 속도 #% 증가": [
+    "Grants {0}% increased Cast Speed"
+  ],
+  "신성한 망치가 최대 #번 일렬로 나감": [
+    "Holy Hammers cascade up to {0} times"
+  ],
+  "신성한 망치를 추가로 #개 떨어뜨림": [
+    "Call down {0} additional Holy Hammers"
+  ],
+  "신성한 병기 최대치 #개": [
+    "Maximum {0} Holy Armaments"
+  ],
   "신성한 유물 최대 #개 소환": [
     "Maximum {0} Summoned Holy Relics"
+  ],
+  "신성화 지대 반경 +#미터": [
+    "+{0} metres to radius of Consecrated Ground"
+  ],
+  "신체의 껍질 최대 #개": [
+    "Maximum {0} Somatic Shells"
   ],
   "실명 지속시간 #% 감소": [
     "{0}% reduced Blinding duration"
@@ -736,23 +1470,65 @@
   "어부 최대 #명": [
     "{0} Maximum Fishermen"
   ],
+  "얼음 지대 기본 최종 반경 #미터": [
+    "Chilled Ground Base final radius is {0} metres"
+  ],
+  "얼음 지대 기본 최초 반경 #미터": [
+    "Chilled Ground Base initial radius is {0} metres"
+  ],
+  "얼음 지대 최종 반경 #미터": [
+    "Chilled Ground final radius is {0} metres"
+  ],
+  "얼음 지대 최초 반경 #미터": [
+    "Chilled Ground initial radius is {0} metres"
+  ],
+  "에너지 확산 반경 최대 +#미터, 낙인과의 거리에 따라 변경": [
+    "Up to +{0} metres to Energy spread radius, scaled by distance from Brand"
+  ],
   "에센스 갑충석 #개 추가 등장": [
     "Contains {0} additional Essence Scarabs"
   ],
   "역병 갑충석 #개 추가 등장": [
     "Contains {0} additional Blight Scarabs"
   ],
+  "연속 발사 시 첫 번째와 마지막 사격이 추가 투사체 #개를 동시에 발사": [
+    "The first and final shots of the sequence fire {0} additional Projectiles simultaneously"
+  ],
   "영향력 갑충석 #개 추가 등장": [
     "Contains {0} additional Influence Scarabs"
   ],
+  "영향을 받는 적이 피격당하면 확산": [
+    "Spreads when affected Enemy is Hit"
+  ],
+  "오라 내에 #초 이상 머무르는 적에게 불길한 광기 적용": [
+    "Enemies have Malignant Madness if they have been in Aura for more than {0} seconds"
+  ],
+  "오라 반경 #미터": [
+    "Aura radius is {0} metres"
+  ],
+  "오라 효과 #% 감소": [
+    "{0}% reduced effect of Aura"
+  ],
+  "오라 효과 #% 증가": [
+    "{0}% increased effect of Aura"
+  ],
+  "오라 효과를 받는 동안 징벌의 번개 타격 대상 +#": [
+    "Aura makes Smite strike +{0} targets with lightning"
+  ],
   "완성하는 데 #장이 필요한 점술 카드 #장이 들어 있음": [
     "Contains {1} Divination Cards that have a Full Stack number of {0}"
+  ],
+  "원소 피해만 줄 수 있음": [
+    "Deals no Non-Elemental Damage"
   ],
   "원소 화살을 발사하는 분신 최대 #개": [
     "Maximum of {0} Clones that fire Elemental Arrows"
   ],
   "위로 화살을 발사하는 분신 최대 #개": [
     "Maximum of {0} Clones that fire Arrows upwards"
+  ],
+  "유령 대포 #개 출현": [
+    "Manifests {0} Ghost Cannons"
   ],
   "의식 갑충석 #개 추가 등장": [
     "Contains {0} additional Ritual Scarabs"
@@ -762,6 +1538,9 @@
   ],
   "이 공격이 #회 추가 반복": [
     "This Attack Repeats {0} additional times"
+  ],
+  "이 공격이 적을 최초 명중할 때 외상 1 획득\n외상을 획득하면 외상 하나당 #의 물리 피해를 받음\n외상 #초 지속": [
+    "Gain 1 Trauma the first time this Attack Hits an Enemy\nTake {0} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {1} seconds"
   ],
   "이 기생체가 사용하는 낙하하는 수정이 추가 박격포 최대 #회 발사": [
     "Falling Crystals used by this Graft fires up to {0} additional mortars"
@@ -784,8 +1563,29 @@
   "이 기생체로 생성된 간헐천이 플레이어가 함성을 사용할 때 추가 투사체 #개 발사": [
     "Geysers created by this Graft fire {0} additional Projectiles when you Warcry"
   ],
+  "이 스킬의 효과에 마나 대신 생명력을 소모": [
+    "Spend Life instead of Mana for effects of this Skill"
+  ],
+  "이 스킬이 주변 대상 #명을 추가 대상으로 삼음": [
+    "This Skill targets {0} additional nearby Enemies"
+  ],
+  "이 주문 또는 소환수가 유발한 위축의 기본 지속시간 #초": [
+    "Withered inflicted by this Spell or Minions has a base duration of {0} seconds"
+  ],
   "이계 갑충석 #개 추가 등장": [
     "Contains {0} additional Beyond Scarabs"
+  ],
+  "이동 중 회피 #% 감소": [
+    "{0}% reduced Evasion Rating while Moving"
+  ],
+  "이동 중 회피 #% 증가": [
+    "{0}% increased Evasion Rating while Moving"
+  ],
+  "이형 최대 #개": [
+    "Maximum {0} Anomalies"
+  ],
+  "인내 충전 #개 추가 부여": [
+    "Grants {0} additional Endurance Charges"
   ],
   "인접 지역들에 문어 무리 #개 추가 등장": [
     "Adjacent Areas contains {0} additional packs of Octopi"
@@ -806,28 +1606,147 @@
     "Maximum {0} Summoned Normal Sentinels of Dominance"
   ],
   "자신 및 주변 동료들의 이동 속도 #% 감소": [
+    "You and nearby allies gain {0}% reduced Movement Speed",
     "You and nearby Allies have {0}% reduced Movement Speed"
   ],
   "자신 및 주변 동료들의 이동 속도 #% 증가": [
+    "You and nearby allies gain {0}% increased Movement Speed",
     "You and nearby Allies have {0}% increased Movement Speed"
+  ],
+  "자신 및 주변 동료들의 치명타 확률 #% 감소": [
+    "You and nearby allies gain {0}% reduced Critical Strike Chance"
+  ],
+  "자신 및 주변 동료들의 치명타 확률 #% 증가": [
+    "You and nearby allies gain {0}% increased Critical Strike Chance"
+  ],
+  "자신의 생명력을 사용하는 경우 반경 +#미터": [
+    "+{0} metres to Radius if using your Life"
+  ],
+  "잔혹 #초간 지속": [
+    "Cruelty lasts {0} seconds"
   ],
   "잔혹의 기본 지속시간 #초": [
     "Cruelty has a Base Duration of {0} seconds"
   ],
+  "장 최대 #개": [
+    "Maximum {0} Fields"
+  ],
+  "장이 생성될 때 적에게 유발된 감전 효과 10%당 장의 반경 +#미터": [
+    "Field gains +{0} metres to radius per 10% Shock Effect on Enemy when created"
+  ],
   "재사용 횟수 +#회": [
     "+{0} Cooldown Uses"
+  ],
+  "잿빛 기둥 #개 생성": [
+    "Creates {0} Ashen Pillars"
+  ],
+  "저주받은 적 명중 시 플라스크 # 충전, 3초마다 최대 1번 충전": [
+    "Gain {0} Flask Charges when you Hit a Cursed Enemy, no more than once every 3 seconds"
+  ],
+  "저주받은 적이 피격 시 족쇄 찬 환영 #개 생성, 1초마다 최대 1회 생성": [
+    "Cursed Enemies spawn {0} Shackled Phantasms when Hit, no more than once per second."
+  ],
+  "저주받은 지대가 #초마다 터지는 두꺼비 발동": [
+    "Cursed Ground Triggers Bursting Toad every {0} seconds"
+  ],
+  "적 +#명에게 광선 발사": [
+    "Sends beams to +{0} Enemies"
+  ],
+  "적 최대 #명 명중": [
+    "Hits up to {0} Enemies"
+  ],
+  "적 최대 #명에게 낚싯줄을 던짐": [
+    "Casts Lines at up to {0} Enemies"
+  ],
+  "적에게 #번 피해를 줌": [
+    "Damages Enemies {0} times"
+  ],
+  "적에게 꽂히는 번개 화살 최대치 #개": [
+    "{0} Maximum Lightning Arrows stuck in an Enemy"
+  ],
+  "적에게 꽂히는 폭발 화살 최대치 +#개": [
+    "+{0} Maximum Explosive Arrows stuck in an Enemy"
+  ],
+  "적에게 낙인 #개 부착 가능": [
+    "Can have {0} Brands Attached to an Enemy"
+  ],
+  "적에게 적용되는 감전 지속시간 #% 감소": [
+    "{0}% reduced Shock Duration on enemies"
+  ],
+  "적에게 적용되는 감전 지속시간 #% 증가": [
+    "{0}% increased Shock Duration on enemies"
+  ],
+  "적에게 적용되는 기절 지속시간 #% 감소": [
+    "{0}% reduced Stun Duration on enemies"
+  ],
+  "적에게 적용되는 기절 지속시간 #% 증가": [
+    "{0}% increased Stun Duration on enemies"
+  ],
+  "적에게 적용되는 냉각 지속시간 #% 감소": [
+    "{0}% reduced Chill Duration on enemies"
+  ],
+  "적에게 적용되는 냉각 지속시간 #% 증가": [
+    "{0}% increased Chill Duration on enemies"
+  ],
+  "적에게 적용되는 동결 지속시간 #% 감소": [
+    "{0}% reduced Freeze Duration on enemies"
+  ],
+  "적에게 적용되는 동결 지속시간 #% 증가": [
+    "{0}% increased Freeze Duration on enemies"
+  ],
+  "적에게 적용되는 점화 지속시간 #% 감소": [
+    "{0}% reduced Ignite Duration on enemies"
+  ],
+  "적에게 적용되는 점화 지속시간 #% 증가": [
+    "{0}% increased Ignite Duration on enemies"
+  ],
+  "적중 시 4초 동안 맹공 획득": [
+    "gain Onslaught for 4 seconds on Hit"
+  ],
+  "전력 타격이 적 #명을 추가 대상으로 지정": [
+    "Exerted Strikes target {0} additional Enemies"
+  ],
+  "전투 돌격이 근접 전투의 보조를 받지 않는 이동 전용 스킬의 공격 속도를 #% 감폭시킴": [
+    "Combat Rush grants {0}% less Attack Speed to Travel Skills that are not Supported by Close Combat"
+  ],
+  "전투 돌격이 근접 전투의 보조를 받지 않는 이동 전용 스킬의 공격 속도를 #% 증폭시킴": [
+    "Combat Rush grants {0}% more Attack Speed to Travel Skills that are not Supported by Close Combat"
   ],
   "점술 갑충석 #개 추가 등장": [
     "Contains {0} additional Divination Scarabs"
   ],
+  "점화 불가": [
+    "Cannot Ignite"
+  ],
+  "점화 피해 #% 감폭": [
+    "Grants {0}% less Damage with Ignite"
+  ],
+  "점화 피해 #% 증폭": [
+    "Grants {0}% more Damage with Ignite"
+  ],
   "정화의 파수꾼 최대 #명 소환": [
     "Maximum {0} Summoned Sentinels of Purity"
+  ],
+  "제거된 권능 충전 하나당 연속 +#": [
+    "+{0} cascades per Power Charge removed"
   ],
   "제련가 최대 #명": [
     "{0} Maximum Smelters"
   ],
+  "주 무기 기본 반경 #미터": [
+    "Main Hand Base radius is {0} metres"
+  ],
+  "주 무기 반경 #미터": [
+    "Main Hand radius is {0} metres"
+  ],
   "주 투사체 연쇄 +#회": [
     "Primary Projectile Chains +{0} Times"
+  ],
+  "주 투사체가 #회 연쇄": [
+    "Primary Projectile Chains {0} Times"
+  ],
+  "주는 카오스 피해 없음": [
+    "Deals no Chaos Damage"
   ],
   "주는 피해 #% 감폭": [
     "Deals {0}% less Damage"
@@ -835,8 +1754,23 @@
   "주는 피해 #% 증폭": [
     "Deals {0}% more Damage"
   ],
+  "주문 #회 추가 반복": [
+    "Spell Repeats an additional {0} times"
+  ],
+  "주문 1회 추가 반복": [
+    "Spell Repeats an additional time"
+  ],
+  "주문 피해 #% 감폭": [
+    "Grants {0}% less Spell Damage"
+  ],
+  "주문 피해 #% 증폭": [
+    "Grants {0}% more Spell Damage"
+  ],
   "주변 동료들이 주는 피해 #% 증가": [
     "Nearby Allies deal {0}% increased Damage"
+  ],
+  "주변 적 #명을 추가 대상으로 삼음": [
+    "Targets {0} additional nearby Enemies"
   ],
   "주변의 적의 생명력 재생 속도 #% 감소": [
     "Nearby Enemies have {0}% reduced Life Regeneration Rate"
@@ -913,6 +1847,9 @@
   "지뢰 지속시간 #% 증가": [
     "{0}% increased Mine duration"
   ],
+  "지뢰가 플레이어의 #미터 이내에 있는 동안 폭발 불가": [
+    "Mines can't be Detonated while within {0} metres of you"
+  ],
   "지배 갑충석 #개 추가 등장": [
     "Contains {0} additional Domination Scarabs"
   ],
@@ -947,14 +1884,82 @@
   "지역에 지도 보스 4마리로 이루어진 무리 #개 추가 등장": [
     "Area contains {0} additional packs of four Map Bosses"
   ],
+  "집중 유지하는 동안 1초마다 반경 +#미터, 최대 +2미터": [
+    "Gains +{0} metres to radius per second while Channelling, up to a maximum of +2 metres"
+  ],
+  "처음으로 맞히는 적으로부터 #미터 내에 있는 동료로부터 추가 파장 생성": [
+    "Additional waves will be created from Allies within {0} metres of the first Enemy struck"
+  ],
+  "처음으로 맞히는 적으로부터 #미터의 기본 반경 내에 있는\n동료로부터 추가 파장 생성": [
+    "Additional waves will be created from Allies within a Base\nradius of {0} metres of the first Enemy struck"
+  ],
+  "처음으로 범위 내에 들어온 적 하나당 위축 디버프 #개 부여": [
+    "Inflicts {0} Withered Debuffs the first time each Enemy enters the Area"
+  ],
+  "처치한 적이 떨어뜨리는 아이템 수량 #% 감소": [
+    "{0}% reduced Quantity of Items Dropped by Slain enemies"
+  ],
+  "처치한 적이 떨어뜨리는 아이템 수량 #% 증가": [
+    "{0}% increased Quantity of Items Dropped by Slain enemies"
+  ],
+  "처치한 적이 떨어뜨리는 아이템 희귀도 #% 감소": [
+    "{0}% reduced Rarity of Items Dropped by Slain enemies"
+  ],
+  "처치한 적이 떨어뜨리는 아이템 희귀도 #% 증가": [
+    "{0}% increased Rarity of Items Dropped by Slain enemies"
+  ],
+  "첫 낙하 후의 화살들이 #미터 반경 내에 떨어짐": [
+    "Arrows after the first fall within a radius of {0} metres"
+  ],
+  "첫 낙하 후의 화살들이 #미터의 기본 반경 내에 떨어짐": [
+    "Arrows after the first fall within a Base radius of {0} metres"
+  ],
+  "첫 번째 고리 기본 폭발 반경 #미터": [
+    "First Ring base explosion radius is {0} metres"
+  ],
+  "첫 번째 고리 폭발 반경 #미터": [
+    "First Ring explosion radius is {0} metres"
+  ],
+  "최대 #개의 대상에게 촉수를 뻗음": [
+    "Fires tendrils at up to {0} Targets"
+  ],
+  "최대 #개의 대상에게 투사체 발사": [
+    "Fires a Projectile at up to {0} targets"
+  ],
   "최대 #개의 대상에게 투사체 발사\n투사체 개수 속성이 투사체 개수가 아닌 발사되는 대상 수에 적용": [
     "Fires a Projectile at up to {0} targets\nModifiers to number of Projectiles instead apply to number of targets fired at"
+  ],
+  "최대 #단계": [
+    "Maximum {0} Stages",
+    "Maximum {0} Stage"
+  ],
+  "최대 #번 튕김": [
+    "Bounces up to {0} times"
   ],
   "최대 #번 튕김\n속성 부여를 투사체 개수 대신 튕기는 횟수에 적용": [
     "Bounces up to {0} times\nModifiers to number of Projectiles instead apply to the number of Bounces"
   ],
+  "최대 #초마다 1번 피격당함": [
+    "Can only be Hit once every {0} seconds"
+  ],
+  "최대 +#개의 대상에게 촉수를 뻗음": [
+    "Fires tendrils at up to +{0} Targets"
+  ],
+  "최대 격분 충전 상태에서 적 명중 시 모든 격분 충전을 소모하여 소모한 충전 하나당 #초 동안 맹공 획득": [
+    "Consume all Frenzy Charges when you Hit an enemy while at maximum Frenzy Charges to gain Onslaught for {0} seconds per Charge consumed"
+  ],
   "최대 광선 대상 #개": [
     "{0} maximum Beam Targets"
+  ],
+  "최대 단계 +#": [
+    "+{0} Maximum Stages",
+    "+{0} Maximum Stage"
+  ],
+  "최대 연쇄 #회": [
+    "Maximum {0} chains"
+  ],
+  "최대 연쇄 길이 #미터": [
+    "Maximum chain length is {0} metres"
   ],
   "최종 보스가 고대의 오브 #개를 추가로 떨어뜨림": [
     "Final Boss drops {0} additional Ancient Orbs"
@@ -968,17 +1973,95 @@
   "최종 보스가 작열의 총주교 고정 속성이 붙은 아이템 #개를 추가로 떨어뜨림": [
     "Final Boss drops {0} additional Items with a Searing Exarch Implicit Modifier"
   ],
+  "추가 파도 최대치 #개": [
+    "Maximum {0} additional waves"
+  ],
+  "추모 10 소모\n쉐이퍼의 기억이 플레이어의 쉐이퍼 스킬 #회 사용": [
+    "Consumes 10 Remembrance\nShaper Memory uses your Shaper Skill {0} times"
+  ],
+  "출혈 피해 #% 감폭": [
+    "Grants {0}% less Damage with Bleeding"
+  ],
+  "출혈 피해 #% 증폭": [
+    "Grants {0}% more Damage with Bleeding"
+  ],
+  "충격 반경 #미터": [
+    "Impact radius is {0} metres"
+  ],
+  "충격파가 범위 내 적 최대 #마리에게서 반복": [
+    "Shockwave Repeats from up to {0} Enemies in area"
+  ],
+  "충격파가 주는 피해 #% 감폭": [
+    "Shockwave deals {0}% less Damage"
+  ],
+  "충격파가 주는 피해 #% 증폭": [
+    "Shockwave deals {0}% more Damage"
+  ],
+  "치명타 확률 #% 감소": [
+    "Grants {0}% reduced Critical Strike Chance"
+  ],
+  "치명타 확률 #% 증가": [
+    "Grants {0}% increased Critical Strike Chance"
+  ],
+  "치명타가 추가 피해를 주지 않음": [
+    "Critical Strikes do not deal extra Damage"
+  ],
   "카오스 피해 #~# 추가": [
     "{0} to {1} Added Chaos Damage"
+  ],
+  "칼날 #개당 지면에 지속되는 칼날 1개 남김": [
+    "Every {0} Volleys leave a Lingering Blade in the ground"
   ],
   "칼날 +#개 추가": [
     "+{0} Volleys"
   ],
+  "칼날 반경 #미터": [
+    "Blade radius is {0} metres"
+  ],
+  "칼날 하나당 치명타 확률 #% 감소": [
+    "{0}% reduced Critical Strike Chance per Volley"
+  ],
+  "칼날 하나당 치명타 확률 #% 증가": [
+    "{0}% increased Critical Strike Chance per Volley"
+  ],
+  "칼날 하나당 피해 #% 감폭": [
+    "{0}% less Damage per Volley"
+  ],
+  "칼날 하나당 피해 #% 증폭": [
+    "{0}% more Damage per Volley"
+  ],
+  "칼날비가 내릴 때마다 칼날 #개가 떨어지고 이후 바닥에 남아 지속됨": [
+    "{0} Blades fall per Volley, which will then Linger in the ground"
+  ],
+  "타락한 피의 기본 지속시간 #초": [
+    "Corrupted Blood has a Base Duration of {0} seconds"
+  ],
   "탐험 갑충석 #개 추가 등장": [
     "Contains {0} additional Expedition Scarabs"
   ],
+  "토템 사거리: #미터": [
+    "Totem range: {0} metres"
+  ],
+  "토템 최대 #개 소환": [
+    "Maximum {0} Summoned Totems"
+  ],
+  "투사체 #회 연쇄": [
+    "Projectiles Chain {0} Times"
+  ],
   "투사체 개수 속성이 투사체 개수가 아닌\n투사체가 분할되는 대상 수에 적용": [
     "Modifiers to number of Projectiles instead apply to\nthe number of targets Projectile Splits towards"
+  ],
+  "투사체 소멸 시 소용돌이 모양으로 파편 투사체 #개 발사": [
+    "Fires {0} Shard Projectiles in a Spiral when Projectile ends"
+  ],
+  "투사체 소멸 시 소용돌이 모양으로 파편 투사체 +#개 발사": [
+    "Fires +{0} Shard Projectiles in a Spiral when Projectile ends"
+  ],
+  "투사체 이동 거리가 증가할수록 폭발 반경 획득, 최대 +#미터": [
+    "Projectiles gain radius as they travel farther, up to a maximum of +{0} metres to radius"
+  ],
+  "투사체가 #미터 내의 모든 대상 관통": [
+    "Projectiles Pierce all Targets within {0} metres"
   ],
   "투사체가 #회 방향 전환\n투사체가 방향을 바꿀 때마다 대상 명중 가능": [
     "Projectiles change direction {0} times\nProjectiles can Hit targets each time they change direction"
@@ -986,17 +2069,94 @@
   "투사체가 #회 추가로 갈라질 수 있음": [
     "Projectiles can Fork {0} additional Times"
   ],
+  "투사체의 최대 직접 비행 #미터": [
+    "Projectiles have {0} metres maximum Direct Flight"
+  ],
+  "파도 +#회 방출": [
+    "Releases +{0} waves"
+  ],
+  "파도 최대치 +#개 추가": [
+    "+{0} additional maximum waves"
+  ],
+  "파도가 최대 #번 재시작\n이전 범위 하나당 파도 범위의 반경 +#미터 증가": [
+    "Wave can restart up to {0} time\nWave Areas gain +{1} metres to radius for each previous Area",
+    "Wave can restart up to {0} times\nWave Areas gain +{1} metre to radius for each previous Area",
+    "Wave can restart up to {0} times\nWave Areas gain +{1} metres to radius for each previous Area"
+  ],
+  "파도의 이전 범위 하나당 파도 범위의 반경 +#미터 증가": [
+    "Wave Areas gain +{0} metres to radius for each previous Area in Wave"
+  ],
+  "파동 하나마다 시신 #구 소모": [
+    "Consumes up to {0} Corpses on every Pulse"
+  ],
+  "파장 #회 유발": [
+    "Causes {0} Waves"
+  ],
+  "파장 길이 #미터": [
+    "Wave length is {0} metres"
+  ],
+  "파장 폭 #미터": [
+    "Wave width is {0} metres"
+  ],
+  "파장마다 #회 격발": [
+    "Each wave has {0} Bursts"
+  ],
   "포탈이 지도 하나당 #개만 열림": [
     "Only {0} Portals are opened to each of your Maps"
   ],
+  "폭발 #회 유발": [
+    "Causes {0} Bursts"
+  ],
+  "폭발 반경 #미터": [
+    "Explosion radius is {0} metres"
+  ],
+  "폭발 효과 범위 #% 감소": [
+    "{0}% reduced Explosion Area of Effect"
+  ],
+  "폭발 효과 범위 #% 증가": [
+    "{0}% increased Explosion Area of Effect"
+  ],
+  "폭발로 발사된 투사체가 새로운 껍질을 최대 #개까지 적용 가능": [
+    "Projectiles fired from explosion can apply no more than {0} new Shells"
+  ],
   "폭식 # 도달 시 모든 폭식을 상실하고 #초 동안 구토 획득": [
     "On reaching {0} Gluttony, lose all Gluttony and gain Disgorge for {1} seconds"
+  ],
+  "폭풍 최대치 #개": [
+    "Maximum {0} Storms"
+  ],
+  "폭풍이 플레이어가 최대 단계에 도달하기 전에 폭풍을 벗어났을 때, 또는 최대 단계에 도달하고 #초 후 사라짐": [
+    "Storms dissipate if you leave it before reaching maximum Stages, or {0} seconds after reaching maximum Stages"
+  ],
+  "플레이어가 폭풍 안에 서 있는 시간 #초당 폭풍이 단계 1 획득, 최대 #": [
+    "Storms gain one stage per {0} seconds you are in it, up to a maximum of {1}"
   ],
   "플레이어의 플라스크 충전량 #% 감소": [
     "Players have {0}% reduced Flask Charges gained"
   ],
   "플레이어의 플라스크 충전량 #% 증가": [
     "Players have {0}% increased Flask Charges gained"
+  ],
+  "피 충전 최대치 +#": [
+    "Grants +{0} to maximum Blood Charges"
+  ],
+  "피격 시 #%의 확률로 이 스킬 발동": [
+    "{0}% chance to Trigger this Skill when you Hit"
+  ],
+  "피격 시 #%의 확률로 이 주문 발동": [
+    "{0}% chance to Trigger this Spell when you Hit"
+  ],
+  "피격 시 이 스킬 발동": [
+    "Trigger this Skill when you Hit"
+  ],
+  "피격 시 이 주문 발동": [
+    "Trigger this Spell when you Hit"
+  ],
+  "피격 시 피해의 #%가 생명력이나 에너지 보호막보다 버프에 먼저 적용\n버프의 피해 방어량 #": [
+    "{0}% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take {1} Damage"
+  ],
+  "피해와 냉각이 #초 동안 더 유지됨": [
+    "Damage and Chill Linger for {0} seconds"
   ],
   "피해와 냉각이 기본 지속시간 #초 동안 더 유지됨": [
     "Damage and Chill Linger for a Base Duration of {0} seconds"
@@ -1016,6 +2176,27 @@
   "한 번에 원격 지뢰 최대 #개 추가 설치": [
     "Can have up to {0} additional Remote Mines placed at a time"
   ],
+  "한 번에 활성화되어 있는 화염 벽 최대 #개": [
+    "Maximum {0} Flame Walls at a time"
+  ],
+  "한 번에 활성화되어 있는 화염 벽 최대치 +#개": [
+    "+{0} Maximum Flame Walls at a time"
+  ],
+  "항상 동결 유발": [
+    "Always Freezes enemies"
+  ],
+  "해골 궁수 #마리 소환": [
+    "Summons {0} Skeleton Archers"
+  ],
+  "해골 마법사 #마리 소환": [
+    "Summons {0} Skeleton Mages"
+  ],
+  "해골 장군 #마리 소환": [
+    "Summons {0} Skeleton Generals"
+  ],
+  "해골 전사 #마리 소환": [
+    "Summons {0} Skeleton Warriors"
+  ],
   "해골 최대치 +#": [
     "+{0} to Maximum number of Skeletons"
   ],
@@ -1031,14 +2212,32 @@
   "화살 최대 +#개 발사": [
     "Fires up to +{0} Arrows"
   ],
+  "화살 하나당 광선 #개 발사": [
+    "Each Arrow can fire {0} Beams"
+  ],
+  "화살 하나당 광선 +#개 발사": [
+    "Each Arrow can fire +{0} Beams"
+  ],
+  "화살마다 포자 주머니 #개 남김": [
+    "Each Arrow leaves {0} Spore Pods"
+  ],
   "화살이 #초마다 광선 발사": [
     "Arrows fire Beams every {0} seconds"
+  ],
+  "화살이 마지막 대상에게 꽂힌 후 #번 추가로 피해를 줌": [
+    "Arrows Damage final target {0} additional times after sticking in"
   ],
   "화염 피해 #~# 추가": [
     "{0} to {1} Added Fire Damage"
   ],
   "환영 갑충석 #개 추가 등장": [
     "Contains {0} additional Delirium Scarabs"
+  ],
+  "활성화된 회전 칼날 최대 #개 보유 가능": [
+    "Can have up to {0} active spinning blades"
+  ],
+  "회오리 최대 #개": [
+    "Maximum {0} Tornadoes"
   ],
   "희귀 몬스터가 각각 속성 #개 추가 보유": [
     "Rare Monsters each have {0} additional Modifiers"

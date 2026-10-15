@@ -99,6 +99,52 @@
         }
       ],
       "variants": 0
+    },
+    {
+      "handler": "ClientStrings:InfectedMap",
+      "names": {
+        "file": "poe1/json/currency/Map/Map_base_types.json",
+        "kinds": "can_be_infected_map 태그 지도",
+        "count": 122
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Blighted {0}",
+            "kr": "역병 걸린 {0}"
+          },
+          "stats": [
+            "ClientStrings:InfectedMap"
+          ],
+          "lines": 122,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 0
+    },
+    {
+      "handler": "ClientStrings:UberInfectedMap",
+      "names": {
+        "file": "poe1/json/currency/Map/Map_base_types.json",
+        "kinds": "can_be_infected_map 태그 지도",
+        "count": 122
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Blight-ravaged {0}",
+            "kr": "역병에 유린당한 {0}"
+          },
+          "stats": [
+            "ClientStrings:UberInfectedMap"
+          ],
+          "lines": 122,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 0
     }
   ]
 }
