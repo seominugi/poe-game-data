@@ -8,14 +8,14 @@ GGPK 원본에서 추출한 **Path of Exile 게임 데이터(JSON)**. 게임 버
 ```
 _index.json            # { schemaVersion, games, generatedAt, snapshot }
 poe2/
-  _index.json          # { gamePatch, langs, snapshot, imageStrategy, generated, groups/.../itemIcons }
+  _index.json          # { gamePatch, langs, snapshot, ggpkIndexSha256, imageStrategy, generated, groups/.../itemIcons }
   assets/item-icons-manifest.json   # base item -> visual identity -> 로컬 원본 자산 해시 관계
   json/<group>/<class>/*.json   # 베이스 아이템 (5언어)
   skills/json/ActiveSkills.json
   uniques/json/uniques.json
   modifiers/json/<class>.json
 poe1/
-  _index.json          # { gamePatch, langs, snapshot, imageStrategy, generated, groups/skills/uniques/modifiers }
+  _index.json          # { gamePatch, langs, snapshot, ggpkIndexSha256, imageStrategy, generated, groups/skills/uniques/modifiers }
   json/<group>/<class>/*.json   # 베이스 아이템 (5언어)
 <game>/names/<lang>.json        # 파생: 영문명 -> 표시명 사전 (kr/tw/ru/jp) — dict/ 와 같이 경로 규약
 poe1/mercenaries/*.json         # 용병 해시 -> 이름 사전 (poe1 전용) — 경로 규약
@@ -33,6 +33,11 @@ const name = wands[0].name[locale] ?? wands[0].name.en   // uniques는 en/kr만 
 모든 발행은 **PoE1·PoE2를 한 스냅샷 태그로 함께 고정**한다. 게임별 태그는 만들지 않으며,
 `_index.json.snapshot`과 jsDelivr의 `<tag>`는 같아야 한다. 한 게임의 생성·검증이 실패하면 데이터 교체,
 태그와 소비자 갱신을 모두 중단한다.
+
+태그는 poe-ggpk-extractor 의 `npm run release:tag -- <tag>` 로만 붙인다 — 세 `_index.json` 의
+snapshot 이 태그와 같은 커밋에만 붙는다. **`v2026.09.03` 은 이 규칙 이전에 손으로 붙은 태그라
+snapshot 이 `v2026.08.30.1` 로 남아 있다**(08.30.1 대비 `poe1/mercenaries` 3파일만 다르다). 태그는
+옮기지 않으므로 소비자 lock 에 쓰지 않는다 — 그 내용은 `v2026.09.15` 이후 태그에 들어 있다.
 
 ### PoE2 아이템 아이콘 매니페스트
 

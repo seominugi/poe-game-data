@@ -1,0 +1,150 @@
+{
+  "game": "poe1",
+  "ggpkIndexSha256": "295ae30e8e1e30495e9d3603736d47b9da2a48c8694da5453ec5154d900f6739",
+  "gamePatch": "3.29.3.3",
+  "families": [
+    {
+      "handler": "passive_hash",
+      "names": {
+        "file": "poe1/passives.json",
+        "kinds": "notable·keystone·ascendancy·descendancy (개발용·숫자 이름 제외)",
+        "count": 2098
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Allocates {0}",
+            "kr": "{0} 할당"
+          },
+          "stats": [
+            "local_weapon_passive_tree_granted_passive_hash"
+          ],
+          "lines": 0,
+          "alt": 2091,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Allocates {0}",
+            "kr": "할당 {0}"
+          },
+          "stats": [
+            "mod_granted_passive_hash",
+            "mod_granted_passive_hash_2",
+            "mod_granted_passive_hash_3",
+            "mod_granted_passive_hash_4",
+            "mod_granted_passive_hash_5"
+          ],
+          "lines": 2091,
+          "alt": 0,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Allocates {0} if you have the matching modifier on Forbidden Flesh",
+            "kr": "금단의 살점에 일치하는 속성이 있을 경우 {0} 할당"
+          },
+          "stats": [
+            "unique_jewel_grants_notable_hash_part_1"
+          ],
+          "lines": 2091,
+          "alt": 0,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Allocates {0} if you have the matching modifier on Forbidden Flame",
+            "kr": "금단의 화염에 일치하는 속성이 있을 경우 {0} 할당"
+          },
+          "stats": [
+            "unique_jewel_grants_notable_hash_part_2"
+          ],
+          "lines": 2091,
+          "alt": 0,
+          "skipped": 0
+        },
+        {
+          "template": {
+            "en": "Passive Skills in Radius of {} can be Allocated\\nwithout being connected to your tree\\nPassage",
+            "kr": "반경 {} 내 패시브 스킬이\\n트리와 연결되지 않아도 할당 가능\\n통로"
+          },
+          "stats": [
+            "local_unique_jewel_disconnected_passives_can_be_allocated_around_keystone_hash"
+          ],
+          "lines": 2091,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 33
+    },
+    {
+      "handler": "ClientStrings:MutatedUniqueName",
+      "names": {
+        "file": "poe1/uniques/json/uniques.json",
+        "count": 1382
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Foulborn {0}",
+            "kr": "삿된 {0}"
+          },
+          "stats": [
+            "ClientStrings:MutatedUniqueName"
+          ],
+          "lines": 1382,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 0
+    },
+    {
+      "handler": "ClientStrings:InfectedMap",
+      "names": {
+        "file": "poe1/json/currency/Map/Map_base_types.json",
+        "kinds": "can_be_infected_map 태그 지도",
+        "count": 122
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Blighted {0}",
+            "kr": "역병 걸린 {0}"
+          },
+          "stats": [
+            "ClientStrings:InfectedMap"
+          ],
+          "lines": 122,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 0
+    },
+    {
+      "handler": "ClientStrings:UberInfectedMap",
+      "names": {
+        "file": "poe1/json/currency/Map/Map_base_types.json",
+        "kinds": "can_be_infected_map 태그 지도",
+        "count": 122
+      },
+      "rules": [
+        {
+          "template": {
+            "en": "Blight-ravaged {0}",
+            "kr": "역병에 유린당한 {0}"
+          },
+          "stats": [
+            "ClientStrings:UberInfectedMap"
+          ],
+          "lines": 122,
+          "alt": 0,
+          "skipped": 0
+        }
+      ],
+      "variants": 0
+    }
+  ]
+}

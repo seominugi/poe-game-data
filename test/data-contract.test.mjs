@@ -21,9 +21,10 @@ test('루트 스냅샷은 PoE1·PoE2를 한 태그로 고정한다', () => {
   assert.equal(readJson('poe2/_index.json').snapshot, root.snapshot);
 });
 
-test('PoE2 base item 4,872개는 기존 id와 별개인 안정 ID를 보존한다', () => {
+test('PoE2 base item 4,892개는 기존 id와 별개인 안정 ID를 보존한다', () => {
   const items = poe2BaseItems();
-  assert.equal(items.length, 4_872);
+  // 0.5.5(4.5.5.1): 신규 20종 — 영혼 핵 18 · 지도 조각 1(신성한 꽃) · 결전 1
+  assert.equal(items.length, 4_892);
   assert.equal(new Set(items.map((item) => item.metadataId)).size, items.length);
   for (const item of items) {
     assert.equal(typeof item.id, 'string');
@@ -69,12 +70,12 @@ test('PoE2 아이콘 매니페스트는 완전하고 PNG 바이너리는 Git에 
   assert.equal('releaseAssetPattern' in index.itemIcons, false);
   assert.deepEqual(index.itemIcons.audience, ['poe-loot-overlay']);
   assert.deepEqual(manifest.summary, {
-    totalItems: 4_872,
-    ready: 4_872,
+    totalItems: 4_892,
+    ready: 4_892,
     noVisualIdentity: 0,
     noDds: 0,
     decodeFailed: 0,
-    uniqueAssets: 2_615,
+    uniqueAssets: 2_633,
   });
   const referenced = new Set(manifest.items.map((item) => item.assetSha256));
   assert.equal(referenced.size, Object.keys(manifest.assets).length);

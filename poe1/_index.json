@@ -1,5 +1,5 @@
 {
-  "gamePatch": "3.29.1.2.2",
+  "gamePatch": "3.29.3.3",
   "langs": [
     "en",
     "kr",
@@ -8,7 +8,7 @@
     "jp"
   ],
   "imageStrategy": "none",
-  "generated": "2026-08-12T23:44:19.512Z",
+  "generated": "2026-10-15T02:37:09.484Z",
   "groups": {
     "weapons": {
       "Bow": {
@@ -745,6 +745,18 @@
           "jp": "母胎ギフト"
         }
       },
+      "CursedDucat": {
+        "jsonPath": "json/misc/CursedDucat/CursedDucat_base_types.json",
+        "count": 6,
+        "sampleName": "Ducat of the Grasping Deep",
+        "className": {
+          "en": "Cursed Ducat",
+          "kr": "저주받은 두카트",
+          "tw": "詛咒達克特",
+          "ru": "Проклятые дукаты",
+          "jp": "呪われたダカット"
+        }
+      },
       "DivinationCard": {
         "jsonPath": "json/misc/DivinationCard/DivinationCard_base_types.json",
         "count": 470,
@@ -767,6 +779,18 @@
           "tw": "探險日誌",
           "ru": "Журналы экспедиции",
           "jp": "エクスペディションログブック"
+        }
+      },
+      "GhostItem": {
+        "jsonPath": "json/misc/GhostItem/GhostItem_base_types.json",
+        "count": 11,
+        "sampleName": "Hidden Item",
+        "className": {
+          "en": "",
+          "kr": "",
+          "tw": "",
+          "ru": "",
+          "jp": ""
         }
       },
       "GiftBox": {
@@ -1059,7 +1083,8 @@
       }
     }
   },
-  "snapshot": "v2026.08.30.1",
+  "snapshot": "v2026.10.15",
+  "ggpkIndexSha256": "295ae30e8e1e30495e9d3603736d47b9da2a48c8694da5453ec5154d900f6739",
   "skills": {
     "jsonPath": "skills/json/ActiveSkills.json",
     "count": 997
@@ -1118,9 +1143,9 @@
         "en": "Body Armours",
         "kr": "갑옷"
       },
-      "prefixCount": 238,
+      "prefixCount": 245,
       "suffixCount": 91,
-      "totalCount": 329,
+      "totalCount": 336,
       "buckets": [
         "normal",
         "corrupted",
@@ -1412,9 +1437,9 @@
         "en": "Shields",
         "kr": "방패"
       },
-      "prefixCount": 270,
+      "prefixCount": 278,
       "suffixCount": 141,
-      "totalCount": 411,
+      "totalCount": 419,
       "buckets": [
         "normal",
         "corrupted",
@@ -1503,8 +1528,8 @@
         "kr": "특수 플라스크"
       },
       "prefixCount": 36,
-      "suffixCount": 84,
-      "totalCount": 120,
+      "suffixCount": 92,
+      "totalCount": 128,
       "buckets": [
         "normal"
       ]

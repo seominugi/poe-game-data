@@ -1,0 +1,348 @@
+{
+  "game": "poe2",
+  "gamePatch": "4.5.5.4.2",
+  "langs": [
+    "en",
+    "kr",
+    "tw",
+    "ru",
+    "jp"
+  ],
+  "source": "GGPK Characters + Ascendancy (poe-ggpk-extractor: node ggpk-extract.mjs classes && node build-class-names.mjs)",
+  "classes": [
+    {
+      "id": "Metadata/Characters/Int/IntFour",
+      "integerId": 1,
+      "name": {
+        "en": "Witch",
+        "kr": "위치",
+        "tw": "女巫",
+        "ru": "Ведьма",
+        "jp": "ウィッチ"
+      },
+      "ascendancies": [
+        {
+          "id": "Witch1",
+          "name": {
+            "en": "Infernalist",
+            "kr": "인퍼널리스트",
+            "tw": "獄火師",
+            "ru": "Инферналист",
+            "jp": "インファーナリスト"
+          }
+        },
+        {
+          "id": "Witch2",
+          "name": {
+            "en": "Blood Mage",
+            "kr": "블러드 메이지",
+            "tw": "血法師",
+            "ru": "Маг крови",
+            "jp": "ブラッドメイジ"
+          }
+        },
+        {
+          "id": "Witch3",
+          "name": {
+            "en": "Lich",
+            "kr": "리치",
+            "tw": "巫妖",
+            "ru": "Лич",
+            "jp": "リッチ"
+          }
+        },
+        {
+          "id": "Witch3b",
+          "name": {
+            "en": "Abyssal Lich",
+            "kr": "심연의 리치",
+            "tw": "深淵妖巫",
+            "ru": "Лич Бездны",
+            "jp": "アビサルリッチ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/Dex/DexFour",
+      "integerId": 2,
+      "name": {
+        "en": "Ranger",
+        "kr": "레인저",
+        "tw": "遊俠",
+        "ru": "Охотница",
+        "jp": "レンジャー"
+      },
+      "ascendancies": [
+        {
+          "id": "Ranger1",
+          "name": {
+            "en": "Deadeye",
+            "kr": "데드아이",
+            "tw": "銳眼",
+            "ru": "Снайпер",
+            "jp": "デッドアイ"
+          }
+        },
+        {
+          "id": "Ranger3",
+          "name": {
+            "en": "Pathfinder",
+            "kr": "패스파인더",
+            "tw": "追獵者",
+            "ru": "Следопыт",
+            "jp": "パスファインダー"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/Str/StrFourb",
+      "integerId": 6,
+      "name": {
+        "en": "Warrior",
+        "kr": "워리어",
+        "tw": "戰士",
+        "ru": "Воин",
+        "jp": "ウォーリアー"
+      },
+      "ascendancies": [
+        {
+          "id": "Warrior1",
+          "name": {
+            "en": "Titan",
+            "kr": "타이탄",
+            "tw": "泰坦",
+            "ru": "Титан",
+            "jp": "タイタン"
+          }
+        },
+        {
+          "id": "Warrior2",
+          "name": {
+            "en": "Warbringer",
+            "kr": "워브링어",
+            "tw": "戰爭使者",
+            "ru": "Вестник войны",
+            "jp": "ウォーブリンガー"
+          }
+        },
+        {
+          "id": "Warrior3",
+          "name": {
+            "en": "Smith of Kitava",
+            "kr": "스미스 오브 키타바",
+            "tw": "奇塔弗工匠",
+            "ru": "Кузнец Китавы",
+            "jp": "キタヴァの鍛冶屋"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/Int/IntFourb",
+      "integerId": 7,
+      "name": {
+        "en": "Sorceress",
+        "kr": "소서리스",
+        "tw": "女術者",
+        "ru": "Чародейка",
+        "jp": "ソーサラー"
+      },
+      "ascendancies": [
+        {
+          "id": "Sorceress1",
+          "name": {
+            "en": "Stormweaver",
+            "kr": "스톰위버",
+            "tw": "風暴編織者",
+            "ru": "Ткач бурь",
+            "jp": "ストームウィーバー"
+          }
+        },
+        {
+          "id": "Sorceress2",
+          "name": {
+            "en": "Chronomancer",
+            "kr": "크로노맨서",
+            "tw": "時空幻術師",
+            "ru": "Хрономант",
+            "jp": "クロノマンサー"
+          }
+        },
+        {
+          "id": "Sorceress3",
+          "name": {
+            "en": "Disciple of Varashta",
+            "kr": "디사이플 오브 바라시타",
+            "tw": "瓦拉什塔門徒",
+            "ru": "Ученица Варашты",
+            "jp": "ヴァラシュタの弟子"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/Dex/DexFourb",
+      "integerId": 8,
+      "name": {
+        "en": "Huntress",
+        "kr": "헌트리스",
+        "tw": "女獵人",
+        "ru": "Копейщица",
+        "jp": "ハントレス"
+      },
+      "ascendancies": [
+        {
+          "id": "Huntress1",
+          "name": {
+            "en": "Amazon",
+            "kr": "아마존",
+            "tw": "亞馬遜",
+            "ru": "Амазонка",
+            "jp": "アマゾン"
+          }
+        },
+        {
+          "id": "Huntress2",
+          "name": {
+            "en": "Spirit Walker",
+            "kr": "스피릿 워커",
+            "tw": "魂靈行者",
+            "ru": "Ходящая среди духов",
+            "jp": "スピリットウォーカー"
+          }
+        },
+        {
+          "id": "Huntress3",
+          "name": {
+            "en": "Ritualist",
+            "kr": "리추얼리스트",
+            "tw": "儀式行者",
+            "ru": "Ритуалист",
+            "jp": "リチュアリスト"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/StrDex/StrDexFourb",
+      "integerId": 9,
+      "name": {
+        "en": "Mercenary",
+        "kr": "머서너리",
+        "tw": "傭兵",
+        "ru": "Наёмник",
+        "jp": "マーセナリー"
+      },
+      "ascendancies": [
+        {
+          "id": "Mercenary1",
+          "name": {
+            "en": "Tactician",
+            "kr": "택티션",
+            "tw": "智勇軍師",
+            "ru": "Тактик",
+            "jp": "タクティシャン"
+          }
+        },
+        {
+          "id": "Mercenary2",
+          "name": {
+            "en": "Witchhunter",
+            "kr": "위치헌터",
+            "tw": "女巫獵人",
+            "ru": "Охотник на ведьм",
+            "jp": "ウィッチハンター"
+          }
+        },
+        {
+          "id": "Mercenary3",
+          "name": {
+            "en": "Gemling Legionnaire",
+            "kr": "젬링 리저네어",
+            "tw": "古靈軍團",
+            "ru": "Легионер каменитов",
+            "jp": "ジェムリングリージョネア"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/DexInt/DexIntFourb",
+      "integerId": 10,
+      "name": {
+        "en": "Monk",
+        "kr": "몽크",
+        "tw": "僧侶",
+        "ru": "Монах",
+        "jp": "モンク"
+      },
+      "ascendancies": [
+        {
+          "id": "Monk1",
+          "name": {
+            "en": "Martial Artist",
+            "kr": "마셜 아티스트",
+            "tw": "武聖",
+            "ru": "Мастер боевых искусств",
+            "jp": "マーシャルアーティスト"
+          }
+        },
+        {
+          "id": "Monk2",
+          "name": {
+            "en": "Invoker",
+            "kr": "인보커",
+            "tw": "祈靈者",
+            "ru": "Заклинатель стихий",
+            "jp": "インヴォーカー"
+          }
+        },
+        {
+          "id": "Monk3",
+          "name": {
+            "en": "Acolyte of Chayula",
+            "kr": "애컬라이트 오브 차율라",
+            "tw": "夏烏拉侍僧",
+            "ru": "Служитель Чаюлы",
+            "jp": "チャユラの門弟"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Characters/StrInt/StrIntFourb",
+      "integerId": 11,
+      "name": {
+        "en": "Druid",
+        "kr": "드루이드",
+        "tw": "德魯伊",
+        "ru": "Друид",
+        "jp": "ドルイド"
+      },
+      "ascendancies": [
+        {
+          "id": "Druid1",
+          "name": {
+            "en": "Oracle",
+            "kr": "오라클",
+            "tw": "天啟先知",
+            "ru": "Оракул",
+            "jp": "オラクル"
+          }
+        },
+        {
+          "id": "Druid2",
+          "name": {
+            "en": "Shaman",
+            "kr": "샤먼",
+            "tw": "狂徒薩滿",
+            "ru": "Шаман",
+            "jp": "シャーマン"
+          }
+        }
+      ]
+    }
+  ]
+}
