@@ -143,7 +143,10 @@
   "다른 스킬을 발동시키는 기원 스킬에 적용됩니다. 보조 대상 스킬의 최대 에너지가 크게 증가합니다.": "Supports Invocation Skills which Trigger other Skills. Supported Skills have significantly higher Maximum Energy.",
   "다른 스킬을 발동시키는 스킬에 적용됩니다. 보조 대상 스킬로 발동되는 스킬이 발동할 때 그 스킬의 피해가 무작위로 높아지거나 낮아지고, 소모되었던 자원도 임의의 양만큼 회복됩니다.": "Supports Skills which Trigger other Skills. Skills Triggered by Supported Skills have their Damage randomly raised or lowered when Triggered, as well as recovering a random amount of their cost when Triggered.",
   "다른 스킬을 발동시키는 스킬에 적용됩니다. 보조 대상 스킬로 발동되는 스킬이 발동할 때 그 스킬의 피해와 효과 범위, 투사체 속도가 무작위로 높아지거나 낮아지고, 소모되었던 자원도 임의의 양만큼 회복됩니다.": "Supports Skills which Trigger other Skills. Skills Triggered by Supported Skills have their Damage, Area of Effect, and Projectile Speed randomly raised or lowered when Triggered, as well as recovering a random amount of their cost when Triggered.",
-  "다수의 화살을 허공에 쏘아 잠시 후 대상 지점부터 차례로 떨어지며 사방으로 퍼져나갑니다. 각각의 화살은 주변 지역에 피해를 줍니다. 범위 내에 적이 있을 경우 화살의 절반은 곧장 적에게 날아갑니다.": "Fires multiple arrows into the air, to land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.",
+  "다수의 화살을 허공에 쏘아 잠시 후 대상 지점부터 차례로 떨어지며 사방으로 퍼져나갑니다. 각각의 화살은 주변 지역에 피해를 줍니다. 범위 내에 적이 있을 경우 화살의 절반은 곧장 적에게 날아갑니다.": [
+    "Fires multiple arrows into the air, to land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.",
+    "Fires multiple arrows into the air, to land in multiple sequences after a delay, each starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range."
+  ],
   "다음으로 사용하는 투사체 스킬이 강화되어, 추가 투사체를 생성하고 더 빨리 날아갑니다.": "Empowers the next Projectile Skill you use, causing it to create additional Projectiles and fly faster.",
   "단검들로 타격합니다.": "Strike with your Daggers.",
   "단검으로 타격합니다.": "Strike with your Dagger.",
@@ -571,7 +574,10 @@
   "잔류물을 생성하는 스킬에 적용되어, 생성되는 잔류물을 더 강력하게 만듭니다.": "Supports Skills which create Remnants, making those Remnants more powerful.",
   "잔류물을 생성하는 스킬에 적용되어, 생성되는 잔류물을 더 강력하게 만듭니다. 대신 잔류물의 효과가 지연됩니다.": "Supports Skills which create Remnants, making those Remnants more powerful, but delaying their effect.",
   "잔류물을 생성하는 스킬에 적용되어, 잔류물을 더 멀리서 획득하고 일정 확률로 추가 잔류물을 생성하게 합니다.": "Supports Skills which create Remnants, allowing those Remnants to be collected from further away, with a chance to create an additional Remnant.",
-  "잔류물을 생성하는 스킬에 적용되어, 잔류물을 더 멀리서 획득할 수 있게 합니다.": "Supports Skills which create Remnants, allowing those Remnants to be collected from further away. ",
+  "잔류물을 생성하는 스킬에 적용되어, 잔류물을 더 멀리서 획득할 수 있게 합니다.": [
+    "Supports Skills which create Remnants, allowing those Remnants to be collected from further away. ",
+    "Supports Skills which create Remnants, allowing those Remnants to be collected from further away."
+  ],
   "잔류물을 생성하는 스킬에 적용되어, 해당 잔류물 획득 시 플레이어 대신 플레이어에게 접근해 있는 동료들에게 영향을 주게 합니다.": "Supports Skills that generate Remnants, causing those Remnants to affect Allies in your Presence when collected instead of you.",
   "잔류물을 생성하는 스킬에 적용됩니다. 보조 대상 스킬로 생성된 잔류물을 습득하면 카탈의 회춘을 얻습니다.": "Supports Skills that generate Remnants. Picking up Remnants from Supported Skills grants Khatal's Rejuvenation.",
   "잘린 팔로 다른 유배자를 후려칩니다.": "Whack another exile with your severed arm.",
