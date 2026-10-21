@@ -24,7 +24,7 @@ types/index.d.ts
 
 ## 사용 (jsDelivr CDN)
 ```js
-const DATA = 'https://cdn.jsdelivr.net/gh/seominugi/poe-game-data@<tag>'
+const DATA = 'https://cdn.jsdelivr.net/gh/west-duo/poe-game-data@<tag>'
 const idx = await fetch(`${DATA}/poe2/_index.json`).then(r => r.json())
 const wands = await fetch(`${DATA}/poe2/${idx.groups.weapons.Wand.jsonPath}`).then(r => r.json())
 const name = wands[0].name[locale] ?? wands[0].name.en   // uniques는 en/kr만 — 폴백 필요
